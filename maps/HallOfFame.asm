@@ -36,6 +36,7 @@ HallOfFameEnterScript:
 	clearevent EVENT_RED_IN_MT_SILVER
 	setevent EVENT_OLIVINE_PORT_SPRITES_BEFORE_HALL_OF_FAME
 	clearevent EVENT_OLIVINE_PORT_SPRITES_AFTER_HALL_OF_FAME
+	callasm EnableGSBallScene
 	setmapscene SPROUT_TOWER_3F, SCENE_SPROUTTOWER3F_NOOP
 	special HealParty
 	checkevent EVENT_GOT_SS_TICKET_FROM_ELM
@@ -120,3 +121,10 @@ HallOfFame_MapEvents:
 
 	def_object_events
 	object_event  4, 12, SPRITE_LANCE, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, -1
+
+EnableGSBallScene:
+	ld a, BANK(sGSBallFlag)
+	call OpenSRAM
+	ld a, GS_BALL_AVAILABLE
+	ld [sGSBallFlag], a
+	jp CloseSRAM

@@ -160,7 +160,20 @@ AddHallOfFameEntry:
 	ld de, sHallOfFame
 	ld bc, wHallOfFamePokemonListEnd - wHallOfFamePokemonList + 1
 	call CopyBytes
+
+; bake setting GSBall event flags into ROM
+	ld a, BANK(sGSBallFlag)
+	call OpenSRAM
+	ld a, GS_BALL_AVAILABLE
+	ld [sGSBallFlag], a
+	push af
+	ld a, BANK(sGSBallFlagBackup)
+	call OpenSRAM
+	pop af
+	ld [sGSBallFlagBackup], a
+
 	call CloseSRAM
+
 ; This vc_hook causes the Virtual Console to set [sGSBallFlag] and [sGSBallFlagBackup]
 ; to GS_BALL_AVAILABLE, which enables you to get the GS Ball, take it to Kurt, and
 ; encounter Celebi. It assumes that sGSBallFlag and sGSBallFlagBackup are at their

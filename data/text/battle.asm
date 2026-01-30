@@ -70,7 +70,7 @@ LeechSeedSapsText:
 
 HasANightmareText:
 	text "<USER>"
-	line "đang gặp NIGHTMARE!"
+	line "gặp ÁC MỘNG!"
 	prompt
 
 HurtByCurseText:
@@ -114,7 +114,7 @@ BattleText_TargetWasHitByFutureSight:
 
 BattleText_SafeguardFaded:
 	text "SAFEGUARD của"
-	line "<USER> tan rồi!"
+	line "<USER> tan!"
 	prompt
 
 BattleText_MonsLightScreenFell:
@@ -336,7 +336,7 @@ BattleText_MonHasNoMovesLeft:
 
 BattleText_TargetsEncoreEnded:
 	text "ENCORE của"
-	line "<TARGET> kết thúc!"
+	line "<TARGET> hết!"
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
@@ -503,9 +503,9 @@ InLoveWithText:
 	prompt
 
 InfatuationText:
-	text "Sự mê đắm khiến"
-	line "<USER> không thể"
-	cont "tấn công!"
+	text "Sự mê đắm làm"
+	line "<USER> không"
+	cont "tấn công được!"
 	prompt
 
 DisabledMoveText:
@@ -599,7 +599,7 @@ CrashedText:
 
 UnaffectedText:
 	text "<TARGET>"
-	line "không bị ảnh hưởng!"
+	line "không bị tác động!"
 	prompt
 
 DoesntAffectText:
@@ -632,7 +632,7 @@ TookDownWithItText:
 
 RageBuildingText:
 	text "RAGE của"
-	line "<USER> đang tăng!"
+	line "<USER> tăng!"
 	prompt
 
 GotAnEncoreText:
@@ -816,7 +816,7 @@ SubTookDamageText:
 
 SubFadedText:
 	text "SUBSTITUTE của"
-	line "<TARGET> biến mất!"
+	line "<TARGET> tan!"
 	prompt
 
 MimicLearnedMoveText:
@@ -917,12 +917,12 @@ DraggedOutText:
 ParalyzedText:
 	text "<TARGET>"
 	line "bị tê liệt! Có thể"
-	cont "không tấn công được!"
+	cont "không đánh được!"
 	prompt
 
 FullyParalyzedText:
 	text "<USER>"
-	line "bị tê liệt hoàn toàn!"
+	line "tê liệt hoàn toàn!"
 	prompt
 
 AlreadyParalyzedText:

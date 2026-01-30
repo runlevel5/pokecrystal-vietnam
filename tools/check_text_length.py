@@ -13,8 +13,8 @@ from pathlib import Path
 MAX_LINE_LENGTH = 18
 
 # Patterns to match text definitions
-# Matches: db "text here"
-DB_STRING_PATTERN = re.compile(r'^\s*db\s+"([^"]*)"')
+# Matches: db "text here", text "...", line "...", cont "...", para "...", next "..."
+TEXT_STRING_PATTERN = re.compile(r'^\s*(?:db|text|line|cont|para|next)\s+"([^"]*)"')
 
 # Characters that map to control codes (don't count towards visible length)
 CONTROL_CODES = {
@@ -162,7 +162,7 @@ def check_file(filepath):
         lines = f.readlines()
 
     for line_num, line in enumerate(lines, 1):
-        match = DB_STRING_PATTERN.match(line)
+        match = TEXT_STRING_PATTERN.match(line)
         if match:
             text = match.group(1)
             visible_len = get_visible_length(text)

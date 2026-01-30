@@ -1209,7 +1209,7 @@ _BallAppearedCaughtText::
 	prompt
 
 _BallAlmostHadItText::
-	text "Aargh!"
+	text "Trời ơi!"
 	line "Suýt nữa là được!"
 	prompt
 
@@ -1362,7 +1362,7 @@ _ItemCantUseOnEggText::
 	prompt
 
 _ItemOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "GS.OAK: <PLAYER>!"
 	line "Giờ không phải lúc"
 	cont "dùng cái đó!"
 	prompt
@@ -1399,7 +1399,7 @@ _ItemCantGetOnText::
 	prompt
 
 _BallBoxFullText::
-	text "HỘP #MON đầy rồi."
+	text "HỘP #MON đầy."
 	line "Không thể dùng"
 	cont "bây giờ."
 	prompt
@@ -1434,8 +1434,8 @@ _KnowsMoveText::
 	prompt
 
 _MoveKnowsOneText::
-	text "#MON đó chỉ biết"
-	line "một chiêu."
+	text "#MON chỉ biết"
+	line "một chiêu thôi."
 	done
 
 _AskDeleteMoveText::
@@ -1470,7 +1470,7 @@ _DeleterIntroText::
 	line "NGƯỜI XÓA CHIÊU."
 
 	para "Tôi có thể làm"
-	line "#MON quên chiêu."
+	line "#MON quên chiêu"
 
 	para "Tôi làm #MON"
 	line "quên chiêu nhé?"

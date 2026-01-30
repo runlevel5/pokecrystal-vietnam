@@ -214,55 +214,55 @@ _OakTimeIsItText::
 ; Mobile Adapter
 
 _ThereIsNothingConnectedText:: ; unreferenced
-	text "There is nothing"
-	line "connected."
+	text "Không có gì"
+	line "được kết nối."
 	done
 
 _CheckCellPhoneAdapterText:: ; unreferenced
-	text "Check cell phone"
-	line "adapter."
+	text "Kiểm tra adapter"
+	line "điện thoại."
 	done
 
 _CheckCDMAAdapterText:: ; unreferenced
-	text "Check CDMA"
-	line "adapter."
+	text "Kiểm tra adapter"
+	line "CDMA."
 	done
 
 _CheckDOCOMOPHSAdapterText:: ; unreferenced
-	text "Check DOCOMO PHS"
-	line "adapter."
+	text "Kiểm tra adapter"
+	line "DOCOMO PHS."
 	done
 
 _CheckDDIPHSAdapterText:: ; unreferenced
-	text "Check DDI PHS"
-	line "adapter."
+	text "Kiểm tra adapter"
+	line "DDI PHS."
 	done
 
 _CheckMobileAdapterText:: ; unreferenced
-	text "Check unlimited"
-	line "battle mobile"
-	cont "adapter."
+	text "Kiểm tra adapter"
+	line "chiến đấu"
+	cont "không giới hạn."
 	done
 
 ; Mobile Adapter End
 
 _ThePasswordIsText:: ; unreferenced
-	text "The password is:"
+	text "Mật khẩu là:"
 	line ""
 	done
 
 _IsThisOKText:: ; unreferenced
-	text "Is this OK?"
+	text "Được chưa?"
 	done
 
 _EnterTheIDNoText:: ; unreferenced
-	text "Enter the"
-	line "ID no."
+	text "Nhập số"
+	line "ID."
 	done
 
 _EnterTheAmountText:: ; unreferenced
-	text "Enter the"
-	line "amount."
+	text "Nhập"
+	line "số lượng."
 	done
 
 _NothingToChooseText::
@@ -348,7 +348,7 @@ _LookGiantDecoText::
 	done
 
 _MomHiHowAreYouText::
-	text "xin chào, <PLAYER>!"
+	text "Chào, <PLAYER>!"
 	line "bạn khỏe không?"
 	prompt
 
@@ -506,7 +506,7 @@ _OPT_IntroText1::
 
 _OPT_IntroText2::
 	text_start
-	line "#MON VỚI GS OAK!"
+	line "#MON & GS.OAK!"
 	done
 
 _OPT_IntroText3::
@@ -1229,50 +1229,50 @@ _NewCardArrivedText::
 	done
 
 _PutCardInCardFolderText::
-	text "Put this CARD in"
-	line "the CARD FOLDER?"
+	text "Lưu CARD này vào"
+	line "THƯ MỤC CARD?"
 	done
 
 _CardWasListedText::
 	text_ram wStringBuffer2
-	text "'s CARD was"
-	line "listed as no.@"
+	text " được lưu"
+	line "ở số @"
 	text_decimal wStringBuffer1, 1, 2
 	text "."
 	prompt
 
 _StartingLinkText::
-	text "Starting link."
+	text "Bắt đầu kết nối."
 	done
 
 _LinkTerminatedText::
-	text "Link terminated."
+	text "Đã ngắt kết nối."
 	done
 
 _ClosingLinkText::
-	text "Closing link."
+	text "Đang đóng liên kết"
 	done
 
 _ClearTimeLimitText:: ; unreferenced
-	text "Clear the time"
-	line "limit?"
+	text "Xóa giới hạn"
+	line "thời gian?"
 	done
 
 _TimeLimitWasClearedText:: ; unreferenced
-	text "The time limit was"
-	line "cleared."
+	text "Đã xóa giới hạn"
+	line "thời gian."
 	done
 
 _PickErrorPacketText:: ; unreferenced
-	text "Pick which packet"
-	line "as an error?"
+	text "Chọn gói nào"
+	line "để báo lỗi?"
 	done
 
 _TradingMonForOTMonText::
-	text "Trading @"
+	text "Đang đổi @"
 	text_ram wStringBuffer2
 	text_start
-	line "for @"
+	line "lấy @"
 	text_ram wStringBuffer1
 	text "…"
 	done
@@ -1655,7 +1655,7 @@ _DaycareDummyText::
 _DayCareManIntroText::
 	text "Tôi là ÔNG GIỮ"
 	line "TRẺ. Bạn muốn tôi"
-	cont "nuôi #MON không?"
+	cont "nuôi #MON hộ?"
 	done
 
 _DayCareManIntroEggText::
@@ -1667,7 +1667,7 @@ _DayCareManIntroEggText::
 	line "nuôi #MON."
 
 	para "Chúng tôi sửng"
-	line "sốt khi thấy TRỨNG!"
+	line "sốt thấy TRỨNG!"
 
 	para "Thật không thể"
 	line "tin được!"
@@ -1693,7 +1693,7 @@ _DayCareLadyIntroEggText::
 	line "nuôi #MON."
 
 	para "Chúng tôi sửng"
-	line "sốt khi thấy TRỨNG!"
+	line "sốt thấy TRỨNG!"
 
 	para "Thật không thể"
 	line "tin được!"
@@ -1784,7 +1784,7 @@ _BackAlreadyText::
 	text_ram wStringBuffer1
 	text " của bạn"
 	para "cần thêm thời"
-	line "gian với chúng tôi."
+	line "gian với chúng tôi"
 
 	para "Nếu muốn nhận lại"
 	line "#MON, sẽ tốn"
@@ -1829,7 +1829,7 @@ _FoundAnEggText::
 	line "có, nhưng #MON"
 
 	para "của bạn có TRỨNG."
-	line "Bạn muốn lấy không?"
+	line "Bạn muốn lấy hông?"
 	done
 
 _ReceivedEggText::

@@ -629,7 +629,7 @@ _ThrewAwayText::
 	prompt
 
 _OakThisIsntTheTimeText::
-	text "OAK: <PLAYER>!"
+	text "GS.OAK: <PLAYER>!"
 	line "Không phải lúc"
 	cont "để dùng cái đó!"
 	prompt
@@ -1244,7 +1244,7 @@ _OakRating05::
 
 _OakRating06::
 	text "Để tiến hoá, một"
-	line "số #MON lớn lên,"
+	line "số #MON lớn lên"
 
 	para "số khác dùng tác"
 	line "dụng của ĐÁ."
@@ -1319,7 +1319,7 @@ _OakRating16::
 	line "nhiều #MON!"
 
 	para "Bạn thực sự giúp"
-	line "nghiên cứu của tôi!"
+	line "nghiên cứu của tôi"
 	done
 
 _OakRating17::
@@ -1415,7 +1415,7 @@ _ItemsTooImportantText::
 	prompt
 
 _ItemsOakWarningText::
-	text "OAK: <PLAYER>!"
+	text "GS.OAK: <PLAYER>!"
 	line "Không phải lúc"
 	cont "để dùng cái đó!"
 	done

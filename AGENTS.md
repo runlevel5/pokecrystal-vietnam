@@ -82,3 +82,16 @@ Vietnamese pronouns are chosen based on relationship and context:
 - Special macros expand: `#` = POKé (4), `#MON` = POKéMON (7), `#DEX` = POKéDEX (7), `#GEAR` = POKéGEAR (8)
 - Player/rival names count as 8 characters max
 - Pokemon names count as 10 characters max
+
+## Translation Conventions
+
+1. **UPPERCASE keywords stay in English**: If a keyword or term is written in ALL CAPS (e.g., POTION, ATTACK, PIKACHU), leave it in English. These are game-specific identifiers.
+
+2. **Run linter after translation**: Always run the linter to ensure translated lines do not exceed the character limit. Use:
+   ```bash
+   source .venv/bin/activate && python tools/check_text_length.py <file.asm>
+   ```
+   For example:
+   ```bash
+   python tools/check_text_length.py data/text/common_1.asm
+   ```

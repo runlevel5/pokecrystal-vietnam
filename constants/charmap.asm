@@ -249,6 +249,75 @@
 	charmap "Y",         $98
 	charmap "Z",         $99
 
+; Uppercase Vietnamese characters map to lowercase equivalents
+	charmap "Ă",         $9a
+	charmap "Â",         $9b
+	charmap "Ê",         $9c
+	charmap "Ư",         $9d
+	charmap "Ô",         $9e
+	charmap "Ơ",         $9f
+	charmap "Á",         $a0
+	charmap "À",         $a1
+	charmap "Ả",         $a2
+	charmap "Ã",         $a3
+	charmap "Ạ",         $a4
+	charmap "É",         $a5
+	charmap "È",         $a6
+	charmap "Ẻ",         $a7
+	charmap "Ẽ",         $a8
+	charmap "Ẹ",         $a9
+	charmap "Í",         $aa
+	charmap "Ì",         $ab
+	charmap "Ỉ",         $ac
+	charmap "Ĩ",         $ad
+	charmap "Ị",         $ae
+	charmap "Đ",         $af
+	charmap "Ó",         $b0
+	charmap "Ò",         $b1
+	charmap "Ỏ",         $b2
+	charmap "Õ",         $b3
+	charmap "Ọ",         $b4
+	charmap "Ú",         $b5
+	charmap "Ù",         $b6
+	charmap "Ủ",         $b7
+	charmap "Ũ",         $b8
+	charmap "Ụ",         $b9
+	charmap "Ý",         $ba
+	charmap "Ỳ",         $bb
+	charmap "Ỷ",         $bc
+	charmap "Ỹ",         $bd
+	charmap "Ỵ",         $be
+	charmap "Ắ",         $c0
+	charmap "Ằ",         $c1
+	charmap "Ẳ",         $c2
+	charmap "Ẵ",         $c3
+	charmap "Ặ",         $c4
+	charmap "Ấ",         $c5
+	charmap "Ầ",         $c6
+	charmap "Ẩ",         $c7
+	charmap "Ẫ",         $c8
+	charmap "Ậ",         $c9
+	charmap "Ế",         $ca
+	charmap "Ề",         $cb
+	charmap "Ể",         $cc
+	charmap "Ễ",         $cd
+	charmap "Ệ",         $ce
+	charmap "Ố",         $d0
+	charmap "Ồ",         $d1
+	charmap "Ổ",         $d2
+	charmap "Ỗ",         $d3
+	charmap "Ộ",         $d4
+	charmap "Ớ",         $d5
+	charmap "Ờ",         $d6
+	charmap "Ở",         $d7
+	charmap "Ỡ",         $d8
+	charmap "Ợ",         $d9
+	charmap "Ứ",         $da
+	charmap "Ừ",         $db
+	charmap "Ử",         $dc
+	charmap "Ữ",         $dd
+	charmap "Ự",         $de
+
 ; English contractions - keep for european_mail.asm compatibility
 ; (they'll display as Vietnamese chars but code will compile)
 	charmap "'d",        $d0

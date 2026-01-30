@@ -201,8 +201,8 @@ StartMenu::
 	next "#MON@"
 
 .PartyDesc:
-	db   "Party <PKMN>"
-	next "status@"
+	db   "T.thái đội"
+	next "#MON@"
 
 .PackDesc:
 	db   "Đựng"

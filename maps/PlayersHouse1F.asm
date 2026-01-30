@@ -214,7 +214,7 @@ ElmsLookingForYouText:
 	text "Ồ, <PLAYER>…! Hàng"
 	line "xóm của mình,"
 
-	para "G.SƯ ELM, đang"
+	para "GS ELM, đang"
 	line "tìm con đấy."
 
 	para "Ông ấy muốn con"
@@ -288,14 +288,14 @@ InstructionsNextText:
 	done
 
 HurryUpElmIsWaitingText:
-	text "G.SƯ ELM đang chờ"
+	text "GS ELM đang chờ"
 	line "con đấy."
 
 	para "Nhanh lên con!"
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "Vậy G.SƯ ELM nhờ"
+	text "Vậy GS ELM nhờ"
 	line "con việc gì?"
 
 	para "…"
@@ -342,7 +342,7 @@ NeighborText:
 	line "định muốn làm"
 
 	para "trợ lý cho"
-	line "G.SƯ ELM."
+	line "GS ELM."
 
 	para "Nó rất yêu"
 	line "#MON!"

@@ -929,7 +929,7 @@ ElmDirectionsText3:
 
 GotElmsNumberText:
 	text "<PLAYER> có số"
-	line "của G.SƯ ELM."
+	line "của GS ELM."
 	done
 
 ElmDescribesMrPokemonText:
@@ -944,7 +944,7 @@ ElmDescribesMrPokemonText:
 
 ElmPokeBallText:
 	text "Bên trong là"
-	line "#MON do G.SƯ"
+	line "#MON do GS"
 	cont "ELM bắt được."
 	done
 
@@ -969,7 +969,7 @@ ElmAfterTheftText1:
 
 ElmAfterTheftText2:
 	text "<PLAYER> đưa TRỨNG"
-	line "BÍ ẨN cho G.SƯ"
+	line "BÍ ẨN cho GS"
 	cont "ELM."
 	done
 
@@ -988,7 +988,7 @@ ElmAfterTheftText4:
 ElmAfterTheftText5:
 	text "ELM: Gì cơ?!?"
 
-	para "G.SƯ OAK cho con"
+	para "GS OAK cho con"
 	line "#DEX á?"
 
 	para "<PLAY_G>, thật"
@@ -1189,13 +1189,13 @@ ElmGiveTicketText2:
 	line "đã đi khắp nơi"
 	cont "với #MON."
 
-	para "Gửi lời thăm G.SƯ"
+	para "Gửi lời thăm GS"
 	line "OAK ở KANTO nhé!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
 	text "Đây là TRỨNG #MON"
-	line "được G.SƯ ELM"
+	line "được GS ELM"
 	cont "nghiên cứu."
 	done
 
@@ -1257,7 +1257,7 @@ ElmsLabOfficerText1:
 	line "trộm ở đây…"
 
 	para "Tôi đang lấy thông"
-	line "tin từ G.SƯ ELM."
+	line "tin từ GS ELM."
 
 	para "Hình như đó là nam"
 	line "thanh niên có tóc"
@@ -1336,7 +1336,7 @@ ElmsLabTravelTip4Text:
 	done
 
 ElmsLabTrashcanText:
-	text "Vỏ bánh G.SƯ ELM"
+	text "Vỏ bánh GS ELM"
 	line "ăn nằm trong đó…"
 	done
 

@@ -221,7 +221,7 @@ StartMenu::
 	next "quá trình@"
 
 .OptionDesc:
-	db   "Đổi"
+	db   "Thay đổi"
 	next "cấu hình@"
 
 .ExitDesc:

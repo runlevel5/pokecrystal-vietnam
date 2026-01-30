@@ -240,7 +240,7 @@ Text_CallMomOnGear:
 Text_ElmDiscoveredNewMon:
 	text "Ê, <PLAYER>!"
 
-	para "Tao nghe G.SƯ ELM"
+	para "Tao nghe GS ELM"
 	line "phát hiện #MON"
 	cont "mới đấy."
 	done
@@ -251,7 +251,7 @@ NewBarkTownRivalText1:
 	para "Đây là phòng thí"
 	line "nghiệm #MON"
 	cont "nổi tiếng của"
-	cont "G.SƯ ELM à…"
+	cont "GS ELM à…"
 	done
 
 NewBarkTownRivalText2:
@@ -271,11 +271,11 @@ NewBarkTownPlayersHouseSignText:
 	done
 
 NewBarkTownElmsLabSignText:
-	text "PTN #MON G.SƯ ELM"
+	text "PTN #MON GS ELM"
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "Nhà G.SƯ ELM"
+	text "Nhà GS ELM"
 	done
 
 NewBarkTown_MapEvents:

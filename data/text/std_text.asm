@@ -204,7 +204,7 @@ TrashCanText:
 	done
 
 PokecenterSignText:
-	text "Chữa Lành #MON!"
+	text "Phục hồi #MON!"
 	line "T.TÂM #MON"
 	done
 
@@ -212,7 +212,7 @@ MartSignText:
 	text "Mọi Thứ Cho"
 	line "#MON Của Bạn"
 
-	para "C.HÀNG #MON"
+	para "C.HÀNG #MART"
 	done
 
 ContestResults_ReadyToJudgeText:

@@ -84,6 +84,16 @@ CONTROL_CODES = {
     "<ID>",
 }
 
+# Control codes that expand to variable-length strings (max lengths)
+VARIABLE_LENGTH_CODES = {
+    "<PLAYER>": 8,  # Player name, max 8 chars
+    "<RIVAL>": 8,  # Rival name, max 8 chars
+    "<PLAY_G>": 8,  # Player name (gendered), max 8 chars
+    "<TARGET>": 10,  # Target Pokemon name, max 10 chars
+    "<USER>": 10,  # User Pokemon name, max 10 chars
+    "<ENEMY>": 10,  # Enemy Pokemon name, max 10 chars
+}
+
 # Pattern to find control codes in text
 CONTROL_CODE_PATTERN = re.compile(r"<[^>]+>")
 
@@ -103,15 +113,31 @@ EXCLUDE_FILES = [
 def get_visible_length(text):
     """
     Calculate the visible length of a text string, accounting for:
-    - Control codes (don't count)
+    - Control codes that expand to variable-length strings
+    - Special characters that expand to multiple tiles
     - Multi-byte Vietnamese characters (count as 1)
     """
-    # Remove control codes
+    length = 0
+
+    # First, handle variable-length control codes
+    for code, max_len in VARIABLE_LENGTH_CODES.items():
+        count = text.count(code)
+        length += count * max_len
+        text = text.replace(code, "")
+
+    # Remove remaining control codes (they don't render)
     visible = CONTROL_CODE_PATTERN.sub("", text)
 
     # Count visible characters
-    # Each character (including Vietnamese) counts as 1 tile
-    return len(visible)
+    # Special handling for # which expands to "POKé" (4 tiles)
+    # So #MON = "POKéMON" = 7 tiles
+    for char in visible:
+        if char == "#":
+            length += 4  # # expands to "POKé" (4 tiles)
+        else:
+            length += 1
+
+    return length
 
 
 def check_file(filepath):

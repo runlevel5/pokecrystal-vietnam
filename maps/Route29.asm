@@ -247,169 +247,164 @@ DudeMovementData2b:
 	step_end
 
 CatchingTutorialBoxFullText:
-	text "#MON hide in"
-	line "the grass. Who"
+	text "#MON ẩn trong"
+	line "cỏ. Ai biết khi"
 
-	para "knows when they'll"
-	line "pop out…"
+	para "nào chúng sẽ"
+	line "nhảy ra…"
 	done
 
 CatchingTutorialIntroText:
-	text "I've seen you a"
-	line "couple times. How"
+	text "Tôi thấy bạn vài"
+	line "lần rồi. Bạn bắt"
 
-	para "many #MON have"
-	line "you caught?"
+	para "được bao nhiêu"
+	line "#MON rồi?"
 
-	para "Would you like me"
-	line "to show you how to"
-	cont "catch #MON?"
+	para "Bạn muốn tôi chỉ"
+	line "cách bắt #MON"
+	cont "không?"
 	done
 
 CatchingTutorialDebriefText:
-	text "That's how you do"
-	line "it."
+	text "Bắt như vậy đấy."
 
-	para "If you weaken them"
-	line "first, #MON are"
-	cont "easier to catch."
+	para "Nếu làm yếu chúng"
+	line "trước, #MON sẽ"
+	cont "dễ bắt hơn."
 	done
 
 CatchingTutorialDeclinedText:
-	text "Oh. Fine, then."
+	text "Ồ. Thôi vậy."
 
-	para "Anyway, if you"
-	line "want to catch"
+	para "Dù sao, nếu muốn"
+	line "bắt #MON, bạn"
 
-	para "#MON, you have"
-	line "to walk a lot."
+	para "phải đi bộ"
+	line "nhiều lắm."
 	done
 
 CatchingTutorialRepeatText:
-	text "Huh? You want me"
-	line "to show you how to"
-	cont "catch #MON?"
+	text "Hả? Bạn muốn tôi"
+	line "chỉ cách bắt"
+	cont "#MON à?"
 	done
 
 Route29YoungsterText:
-	text "Yo. How are your"
-	line "#MON?"
+	text "Ê. #MON của bạn"
+	line "thế nào?"
 
-	para "If they're weak"
-	line "and not ready for"
+	para "Nếu chúng yếu và"
+	line "chưa sẵn sàng"
 
-	para "battle, keep out"
-	line "of the grass."
+	para "chiến đấu, tránh"
+	line "xa bụi cỏ đi."
 	done
 
 Route29TeacherText:
-	text "See those ledges?"
-	line "It's scary to jump"
-	cont "off them."
+	text "Thấy mấy gờ đá"
+	line "không? Nhảy xuống"
+	cont "đáng sợ lắm."
 
-	para "But you can go to"
-	line "NEW BARK without"
+	para "Nhưng bạn có thể"
+	line "về NEW BARK mà"
 
-	para "walking through"
-	line "the grass."
+	para "không cần đi qua"
+	line "bụi cỏ."
 	done
 
 Route29FisherText:
-	text "I wanted to take a"
-	line "break, so I saved"
+	text "Tôi muốn nghỉ nên"
+	line "đã lưu để ghi lại"
 
-	para "to record my"
-	line "progress."
+	para "tiến trình."
 	done
 
 Route29CooltrainerMText_WaitingForDay: ; unreferenced
-	text "I'm waiting for"
-	line "#MON that"
+	text "Tôi đang đợi"
+	line "#MON chỉ xuất"
 
-	para "appear only in the"
-	line "daytime."
+	para "hiện vào ban ngày."
 	done
 
 Route29CooltrainerMText_WaitingForNight:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Tôi đang đợi"
+	line "#MON chỉ xuất"
 
-	para "appear only at"
-	line "night."
+	para "hiện vào ban đêm."
 	done
 
 Route29CooltrainerMText_WaitingForMorning:
-	text "I'm waiting for"
-	line "#MON that"
+	text "Tôi đang đợi"
+	line "#MON chỉ xuất"
 
-	para "appear only in the"
-	line "morning."
+	para "hiện vào buổi"
+	line "sáng."
 	done
 
 MeetTuscanyText:
-	text "TUSCANY: I do be-"
-	line "lieve that this is"
+	text "TUSCANY: Tôi nghĩ"
+	line "đây là lần đầu"
 
-	para "the first time"
-	line "we've met?"
+	para "chúng ta gặp nhau"
+	line "phải không?"
 
-	para "Please allow me to"
-	line "introduce myself."
+	para "Xin cho phép tôi"
+	line "tự giới thiệu."
 
-	para "I am TUSCANY of"
-	line "Tuesday."
+	para "Tôi là TUSCANY"
+	line "của Thứ Ba."
 	done
 
 TuscanyGivesGiftText:
-	text "By way of intro-"
-	line "duction, please"
+	text "Để làm quen, xin"
+	line "hãy nhận món quà"
 
-	para "accept this gift,"
-	line "a PINK BOW."
+	para "này, NƠ HỒNG."
 	done
 
 TuscanyGaveGiftText:
-	text "TUSCANY: Wouldn't"
-	line "you agree that it"
-	cont "is most adorable?"
+	text "TUSCANY: Bạn có"
+	line "đồng ý nó rất"
+	cont "đáng yêu không?"
 
-	para "It strengthens"
-	line "normal-type moves."
+	para "Nó tăng sức mạnh"
+	line "chiêu hệ thường."
 
-	para "I am certain it"
-	line "will be of use."
+	para "Tôi chắc nó sẽ"
+	line "có ích."
 	done
 
 TuscanyTuesdayText:
-	text "TUSCANY: Have you"
-	line "met MONICA, my"
-	cont "older sister?"
+	text "TUSCANY: Bạn đã"
+	line "gặp MONICA, chị"
+	cont "gái tôi chưa?"
 
-	para "Or my younger"
-	line "brother, WESLEY?"
+	para "Hay em trai tôi,"
+	line "WESLEY?"
 
-	para "I am the second of"
-	line "seven children."
+	para "Tôi là con thứ hai"
+	line "trong bảy anh em."
 	done
 
 TuscanyNotTuesdayText:
-	text "TUSCANY: Today is"
-	line "not Tuesday. That"
-	cont "is unfortunate…"
+	text "TUSCANY: Hôm nay"
+	line "không phải Thứ Ba."
+	cont "Thật đáng tiếc…"
 	done
 
 Route29Sign1Text:
-	text "ROUTE 29"
+	text "ĐƯỜNG 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "TP. CHERRYGROVE -"
+	line "THÔN NEW BARK"
 	done
 
 Route29Sign2Text:
-	text "ROUTE 29"
+	text "ĐƯỜNG 29"
 
-	para "CHERRYGROVE CITY -"
-	line "NEW BARK TOWN"
+	para "TP. CHERRYGROVE -"
+	line "THÔN NEW BARK"
 	done
 
 Route29_MapEvents:

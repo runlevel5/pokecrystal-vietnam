@@ -106,161 +106,153 @@ SaffronCityMartSign:
 	jumpstd MartSignScript
 
 SaffronCityLass1Text:
-	text "A little girl who"
-	line "is an expert at"
+	text "Có một cô bé giỏi"
+	line "bắt chước người"
 
-	para "mimicking people"
-	line "lives here."
+	para "khác sống ở đây."
 
-	para "She even mimics"
-	line "the people she's"
+	para "Cô ấy thậm chí"
+	line "bắt chước người"
 
-	para "conversing with."
-	line "It's confusing."
+	para "cô đang nói chuyện"
+	line "Thật khó hiểu."
 	done
 
 SaffronCityLass1Text_ReturnedMachinePart:
-	text "The COPYCAT girl"
-	line "looked unhappy."
+	text "Cô bé BẮT CHƯỚC"
+	line "trông buồn."
 
-	para "She said she lost"
-	line "her favorite #"
-	cont "DOLL--CLEFAIRY."
+	para "Cô ấy nói bị mất"
+	line "# DOLL yêu"
+	cont "thích--CLEFAIRY."
 	done
 
 SaffronCityPokefanMText:
-	text "You came out from"
-	line "JOHTO?"
+	text "Cậu đến từ JOHTO"
+	line "à?"
 
-	para "You can zip back"
-	line "home if the MAGNET"
-	cont "TRAIN's running."
+	para "Cậu có thể về nhà"
+	line "nhanh nếu TÀU TỪ"
+	cont "TRƯỜNG chạy."
 	done
 
 SaffronCityPokefanMText_ReturnedMachinePart:
-	text "You came out from"
-	line "JOHTO?"
+	text "Cậu đến từ JOHTO"
+	line "à?"
 
-	para "You can zip back"
-	line "home by hopping on"
-	cont "the MAGNET TRAIN."
+	para "Cậu có thể về nhà"
+	line "nhanh bằng TÀU"
+	cont "TỪ TRƯỜNG."
 	done
 
 SaffronCityCooltrainerMText:
-	text "I went to the GYM,"
-	line "raring for battles"
-	cont "against trainers…"
+	text "Tôi đến GYM, háo"
+	line "hức muốn đấu với"
+	cont "các HLV…"
 
-	para "It turns out, I"
-	line "stumbled into the"
+	para "Hóa ra tôi lạc"
+	line "vào GYM bỏ hoang"
 
-	para "unused GYM next"
-	line "door."
+	para "bên cạnh."
 
-	para "Boy, I was pretty"
-	line "embarrassed."
+	para "Trời, tôi xấu hổ"
+	line "quá."
 	done
 
 SaffronCityCooltrainerFText:
-	text "This is SILPH CO.,"
-	line "famous for #MON"
-	cont "merchandise."
+	text "Đây là SILPH CO.,"
+	line "nổi tiếng về hàng"
+	cont "hóa #MON."
 
-	para "In the past, TEAM"
-	line "ROCKET wanted the"
+	para "Trước đây, TEAM"
+	line "ROCKET muốn chiếm"
 
-	para "company because of"
-	line "that."
+	para "công ty vì lý do"
+	line "đó."
 	done
 
 SaffronCityFisherText:
-	text "Chew… Chew…"
+	text "Nhai… Nhai…"
 
-	para "I hear there's big"
-	line "trouble brewing at"
-	cont "the POWER PLANT."
+	para "Tôi nghe có rắc"
+	line "rối lớn đang xảy"
+	cont "ra ở NHÀ MÁY ĐIỆN."
 
-	para "Chew… Chew…"
+	para "Nhai… Nhai…"
 	done
 
 SaffronCityFisherText_ReturnedMachinePart:
-	text "Chew… Chew…"
+	text "Nhai… Nhai…"
 
-	para "I hear there was"
-	line "big trouble at the"
-	cont "POWER PLANT."
+	para "Tôi nghe có rắc"
+	line "rối lớn ở NHÀ MÁY"
+	cont "ĐIỆN."
 
-	para "Chew… Chew…"
-	line "Haaah, I'm full!"
+	para "Nhai… Nhai…"
+	line "Haaah, no rồi!"
 	done
 
 SaffronCityYoungster1Text:
-	text "Going into an"
-	line "alley for the"
+	text "Đi vào hẻm lần"
+	line "đầu làm tôi hơi"
 
-	para "first time makes"
-	line "me sorta anxious."
+	para "lo lắng."
 	done
 
 SaffronCityYoungster2Text:
-	text "There's a place"
-	line "called TRAINER"
+	text "Có nơi gọi là NHÀ"
+	line "HLV ở VIRIDIAN"
 
-	para "HOUSE in VIRIDIAN"
-	line "where trainers"
-
-	para "gather from all"
-	line "over the place."
+	para "nơi các HLV từ"
+	line "khắp nơi tụ tập."
 	done
 
 SaffronCityLass2Text:
-	text "Our city was"
-	line "featured on a"
-	cont "radio program."
+	text "TP của chúng tôi"
+	line "được lên chương"
+	cont "trình radio."
 
-	para "It's nice to hear"
-	line "praise for your"
+	para "Thật vui khi nghe"
+	line "người ta khen TP"
 
-	para "city, but it's a"
-	line "bit embarrassing"
-	cont "too."
+	para "mình, nhưng cũng"
+	line "hơi ngại."
 	done
 
 SaffronCitySignText:
 	text "SAFFRON CITY"
 
-	para "Shining, Golden"
-	line "Land of Commerce"
+	para "Vùng Đất Thương"
+	line "Mại Vàng Rực"
 	done
 
 SaffronGymSignText:
 	text "SAFFRON CITY"
-	line "#MON GYM"
-	cont "LEADER: SABRINA"
+	line "GYM #MON"
+	cont "TRƯỞNG: SABRINA"
 
-	para "The Master of"
-	line "Psychic #MON!"
+	para "Bậc Thầy #MON"
+	line "Ngoại Cảm!"
 	done
 
 FightingDojoSignText:
-	text "Everyone Welcome!"
-	line "FIGHTING DOJO"
+	text "Chào Mừng Mọi"
+	line "Người! VÕ ĐƯỜNG"
 	done
 
 SilphCoSignText:
-	text "SILPH CO."
-	line "OFFICE BUILDING"
+	text "TÒA NHÀ VĂN PHÒNG"
+	line "SILPH CO."
 	done
 
 MrPsychicsHouseSignText:
-	text "MR.PSYCHIC'S"
-	line "HOUSE"
+	text "NHÀ CỦA"
+	line "ÔNG NGOẠI CẢM"
 	done
 
 SaffronCityMagnetTrainStationSignText:
-	text "SAFFRON CITY"
-	line "MAGNET TRAIN"
-	cont "STATION"
+	text "GA TÀU TỪ TRƯỜNG"
+	line "SAFFRON CITY"
 	done
 
 SaffronCity_MapEvents:

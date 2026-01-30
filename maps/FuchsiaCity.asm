@@ -51,75 +51,74 @@ FuchsiaCityFruitTree:
 	fruittree FRUITTREE_FUCHSIA_CITY
 
 FuchsiaCityYoungsterText:
-	text "One of the ELITE"
-	line "FOUR used to be"
+	text "Một trong TỨ ĐẠI"
+	line "THIÊN VƯƠNG từng"
 
-	para "the LEADER of"
-	line "FUCHSIA's GYM."
+	para "là TRƯỞNG GYM"
+	line "của FUCHSIA."
 	done
 
 FuchsiaCityPokefanMText:
-	text "KOGA's daughter"
-	line "succeeded him as"
+	text "Con gái của KOGA"
+	line "kế nhiệm ông làm"
 
-	para "the GYM LEADER"
-	line "after he joined"
-	cont "the ELITE FOUR."
+	para "TRƯỞNG GYM sau khi"
+	line "ông gia nhập TỨ"
+	cont "ĐẠI THIÊN VƯƠNG."
 	done
 
 FuchsiaCityTeacherText:
-	text "The SAFARI ZONE is"
-	line "closed… It's sad,"
+	text "SAFARI ZONE đóng"
+	line "cửa rồi… Buồn"
 
-	para "considering it's"
-	line "FUCHSIA's main"
-	cont "attraction."
+	para "quá, vì nó là điểm"
+	line "thu hút chính của"
+	cont "FUCHSIA."
 	done
 
 FuchsiaCitySignText:
 	text "FUCHSIA CITY"
 
-	para "Behold! It's"
-	line "Passion Pink!"
+	para "Kìa! Đó Là"
+	line "Hồng Đam Mê!"
 	done
 
 FuchsiaGymSignText:
 	text "FUCHSIA CITY"
-	line "#MON GYM"
-	cont "LEADER: JANINE"
+	line "GYM #MON"
+	cont "TRƯỞNG: JANINE"
 
-	para "The Poisonous"
-	line "Ninja Master"
+	para "Bậc Thầy Ninja"
+	line "Độc Dược"
 	done
 
 SafariZoneOfficeSignText:
-	text "There's a notice"
-	line "here…"
+	text "Có thông báo"
+	line "ở đây…"
 
-	para "SAFARI ZONE OFFICE"
-	line "is closed until"
-	cont "further notice."
+	para "VĂN PHÒNG SAFARI"
+	line "ZONE đóng cửa cho"
+	cont "đến khi có TB mới."
 	done
 
 WardensHomeSignText:
-	text "SAFARI ZONE"
-	line "WARDEN'S HOME"
+	text "NHÀ QUẢN LÝ"
+	line "SAFARI ZONE"
 	done
 
 SafariZoneClosedSignText:
-	text "The WARDEN is"
-	line "traveling abroad."
+	text "QUẢN LÝ đang đi"
+	line "du lịch nước ngoài"
 
-	para "Therefore, the"
-	line "SAFARI ZONE is"
-	cont "closed."
+	para "Vì vậy, SAFARI"
+	line "ZONE đóng cửa."
 	done
 
 NoLitteringSignText:
-	text "No littering."
+	text "Cấm xả rác."
 
-	para "Please take your"
-	line "waste with you."
+	para "Xin hãy mang rác"
+	line "của bạn theo."
 	done
 
 FuchsiaCity_MapEvents:

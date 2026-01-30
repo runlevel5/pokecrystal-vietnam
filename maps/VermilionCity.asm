@@ -124,23 +124,23 @@ VermilionCityHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 VermilionCityTeacherText:
-	text "VERMILION PORT is"
-	line "KANTO's seaside"
-	cont "gateway."
+	text "CẢNG VERMILION là"
+	line "cửa ngõ biển"
+	cont "của KANTO."
 
-	para "Luxury liners from"
-	line "around the world"
-	cont "dock here."
+	para "Tàu sang trọng từ"
+	line "khắp nơi cập bến"
+	cont "ở đây."
 	done
 
 VermilionMachopOwnerText:
-	text "My #MON is"
-	line "preparing the land"
-	cont "for construction."
+	text "#MON của tôi"
+	line "đang san đất để"
+	cont "xây dựng."
 
-	para "But I have no"
-	line "money to start the"
-	cont "project…"
+	para "Nhưng tôi không"
+	line "có tiền để bắt"
+	cont "đầu dự án…"
 	done
 
 VermilionMachopText1:
@@ -149,120 +149,119 @@ VermilionMachopText1:
 	done
 
 VermilionMachopText2:
-	text "A MACHOP is growl-"
-	line "ing while stomping"
-	cont "the ground flat."
+	text "MACHOP đang gầm"
+	line "gừ trong khi dậm"
+	cont "phẳng mặt đất."
 	done
 
 VermilionCitySuperNerdText:
-	text "There are eight"
-	line "GYMS in KANTO."
+	text "KANTO có tám GYM."
 
-	para "That big building"
-	line "is VERMILION's"
-	cont "#MON GYM."
+	para "Tòa nhà lớn đó"
+	line "là GYM #MON"
+	cont "của VERMILION."
 	done
 
 VermilionCitySnorlaxSleepingText:
-	text "SNORLAX is snoring"
-	line "peacefully…"
+	text "SNORLAX đang ngáy"
+	line "yên bình…"
 	done
 
 VermilionCityRadioNearSnorlaxText:
-	text "The #GEAR was"
-	line "placed near the"
-	cont "sleeping SNORLAX…"
+	text "#GEAR được đặt"
+	line "gần SNORLAX đang"
+	cont "ngủ…"
 
 	para "…"
 
-	para "SNORLAX woke up!"
+	para "SNORLAX thức dậy!"
 	done
 
 VermilionCityBadgeGuyTrainerText:
-	text "Skilled trainers"
-	line "gather in KANTO."
+	text "HLV giỏi tụ tập"
+	line "ở KANTO."
 
-	para "GYM LEADERS are"
-	line "especially strong."
+	para "TRƯỞNG GYM đặc"
+	line "biệt mạnh."
 
-	para "They won't be easy"
-	line "to defeat."
+	para "Họ sẽ không dễ"
+	line "bị đánh bại."
 	done
 
 VermilionCityBadgeGuySomeBadgesText:
-	text "You've started to"
-	line "collect KANTO GYM"
-	cont "BADGES?"
+	text "Cậu bắt đầu sưu"
+	line "tầm HUY HIỆU GYM"
+	cont "KANTO rồi hả?"
 
-	para "Don't you agree"
-	line "that the trainers"
-	cont "here are tough?"
+	para "Cậu có đồng ý"
+	line "rằng các HLV ở"
+	cont "đây rất giỏi?"
 	done
 
 VermilionCityBadgeGuyMostBadgesText:
-	text "I guess you'll be"
-	line "finished with your"
+	text "Chắc cậu sắp hoàn"
+	line "thành chinh phục"
 
-	para "conquest of KANTO"
-	line "GYMS soon."
+	para "các GYM KANTO"
+	line "rồi."
 
-	para "Let me know if"
-	line "you get all eight"
-	cont "BADGES."
+	para "Cho tôi biết khi"
+	line "cậu có đủ tám"
+	cont "HUY HIỆU nhé."
 	done
 
 VermilionCityBadgeGuyAllBadgesText:
-	text "Congratulations!"
+	text "Chúc mừng!"
 
-	para "You got all the"
-	line "KANTO GYM BADGES."
+	para "Cậu đã có đủ các"
+	line "HUY HIỆU GYM KANTO"
 
-	para "I've got a reward"
-	line "for your efforts."
+	para "Tôi có phần thưởng"
+	line "cho nỗ lực của"
+	cont "cậu."
 	done
 
 VermilionCityBadgeGuyBattleEdgeText:
-	text "Having a variety"
-	line "of #MON types"
+	text "Có nhiều loại"
+	line "#MON sẽ giúp"
 
-	para "should give you an"
-	line "edge in battle."
+	para "cậu có lợi thế"
+	line "trong chiến đấu."
 
-	para "I'm sure the KANTO"
-	line "GYM BADGES will"
-	cont "help you."
+	para "Tôi chắc HUY HIỆU"
+	line "GYM KANTO sẽ giúp"
+	cont "cậu."
 	done
 
 VermilionCitySignText:
 	text "VERMILION CITY"
 
-	para "The Port of"
-	line "Exquisite Sunsets"
+	para "Cảng Hoàng Hôn"
+	line "Tuyệt Đẹp"
 	done
 
 VermilionGymSignText:
 	text "VERMILION CITY"
-	line "#MON GYM"
-	cont "LEADER: LT.SURGE"
+	line "GYM #MON"
+	cont "TRƯỞNG: LT.SURGE"
 
-	para "The Lightning"
-	line "American"
+	para "Người Mỹ Sấm Sét"
 	done
 
 PokemonFanClubSignText:
-	text "#MON FAN CLUB"
+	text "CLB FAN #MON"
 
-	para "All #MON Fans"
-	line "Welcome!"
+	para "Chào đón mọi"
+	line "Fan của #MON!"
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "DIGLETT'S CAVE"
+	text "HANG DIGLETT"
 	done
 
 VermilionCityPortSignText:
-	text "VERMILION PORT"
-	line "ENTRANCE"
+	text "LỐI VÀO"
+	line "CẢNG VERMILION"
 	done
 
 VermilionCity_MapEvents:

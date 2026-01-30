@@ -74,7 +74,7 @@ ElmsHousePCText:
 
 	para "Đây là một phần"
 	line "bài nghiên cứu"
-	cont "của G.SƯ ELM."
+	cont "của GS ELM."
 	done
 
 ElmsHouse_MapEvents:

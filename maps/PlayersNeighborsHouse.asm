@@ -50,7 +50,7 @@ PlayersNeighborsDaughterText:
 
 	para "Em rất ngạc nhiên"
 	line "với phát hiện của"
-	cont "G.SƯ ELM."
+	cont "GS ELM."
 
 	para "Ông ấy nổi tiếng"
 	line "về nghiên cứu"
@@ -68,7 +68,7 @@ PlayersNeighborText:
 	line "quyết muốn làm"
 
 	para "trợ lý cho"
-	line "G.SƯ ELM."
+	line "GS ELM."
 
 	para "Nó rất yêu #MON!"
 
@@ -77,7 +77,7 @@ PlayersNeighborText:
 
 PlayerNeighborRadioText1:
 	text "CHUYỆN #MON CỦA"
-	line "G.SƯ OAK! Hẹn gặp"
+	line "GS OAK! Hẹn gặp"
 	cont "lại lần sau!"
 	done
 

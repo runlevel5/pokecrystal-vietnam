@@ -53,7 +53,7 @@ VioletPokecenter1F_ElmsAideScript:
 	end
 
 .eggname
-	db "EGG@"
+	db "TRỨNG@"
 
 .AideGivesEgg:
 	jumpstd ReceiveTogepiEggScript
@@ -104,113 +104,113 @@ MovementData_AideFinishesLeavingPokecenter:
 	step_end
 
 VioletPokecenterElmsAideFavorText:
-	text "<PLAY_G>, long"
-	line "time, no see."
+	text "<PLAY_G>, lâu rồi"
+	line "không gặp."
 
-	para "PROF.ELM asked me"
-	line "to find you."
+	para "GS ELM nhờ tôi"
+	line "tìm bạn."
 
-	para "He has another"
-	line "favor to ask."
+	para "Ông ấy có việc"
+	line "muốn nhờ."
 
-	para "Would you take the"
-	line "#MON EGG?"
+	para "Bạn nhận TRỨNG"
+	line "#MON được không?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:
-	text "We discovered that"
-	line "a #MON will not"
+	text "Chúng tôi phát"
+	line "hiện #MON không"
 
-	para "hatch until it"
-	line "grows in the EGG."
+	para "nở cho đến khi"
+	line "lớn trong TRỨNG."
 
-	para "It also has to be"
-	line "with other active"
-	cont "#MON to hatch."
+	para "Nó cũng cần ở"
+	line "cùng #MON khác"
+	cont "đang hoạt động."
 
-	para "<PLAY_G>, you're"
-	line "the only person"
-	cont "we can rely on."
+	para "<PLAY_G>, bạn là"
+	line "người duy nhất"
+	cont "chúng tôi tin."
 
-	para "Please call PROF."
-	line "ELM when that EGG"
-	cont "hatches!"
+	para "Hãy gọi GS ELM"
+	line "khi TRỨNG nở nhé!"
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Oh, no. You can't"
-	line "carry any more"
-	cont "#MON with you."
+	text "Ồ không. Bạn không"
+	line "mang thêm #MON"
+	cont "được nữa."
 
-	para "I'll wait here"
-	line "while you make"
-	cont "room for the EGG."
+	para "Tôi sẽ đợi ở đây"
+	line "trong khi bạn sắp"
+	cont "chỗ cho TRỨNG."
 	done
 
 VioletPokecenterElmsAideRefuseText:
-	text "B-but… PROF.ELM"
-	line "asked for you…"
+	text "N-nhưng… GS ELM"
+	line "đã nhờ bạn mà…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAY_G>, will you"
-	line "take the EGG?"
+	text "<PLAY_G>, bạn nhận"
+	line "TRỨNG chứ?"
 	done
 
 VioletPokecenterFarawayLinkText: ; unreferenced
-	text "I've been thinking"
-	line "it'd be great to"
+	text "Tôi đang nghĩ"
+	line "sẽ hay nếu có thể"
 
-	para "be able to link up"
-	line "and battle with my"
-
-	para "friends who live"
-	line "far away."
+	para "kết nối và đấu với"
+	line "bạn bè ở xa."
 	done
 
 VioletPokecenterMobileAdapterText: ; unreferenced
-	text "I just battled a"
-	line "friend in CIANWOOD"
-	cont "over a link."
+	text "Tôi vừa đấu với"
+	line "bạn ở CIANWOOD"
+	cont "qua kết nối."
 
-	para "If you connect a"
+	para "Nếu bạn nối"
 	line "MOBILE ADAPTER,"
 
-	para "you can link with"
-	line "a friend far away."
+	para "bạn có thể kết"
+	line "nối với bạn xa."
 	done
 
 VioletPokecenter1FGameboyKidText:
-	text "A guy named BILL"
-	line "made the #MON"
-	cont "PC storage system."
+	text "Một người tên"
+	line "BILL đã tạo hệ"
+
+	para "thống lưu trữ"
+	line "PC cho #MON."
 	done
 
 VioletPokecenter1FGentlemanText:
-	text "It was around"
-	line "three years ago."
+	text "Khoảng ba năm"
+	line "trước."
 
-	para "TEAM ROCKET was up"
-	line "to no good with"
+	para "TEAM ROCKET làm"
+	line "chuyện xấu với"
 	cont "#MON."
 
-	para "But justice pre-"
-	line "vailed--a young"
-	cont "kid broke 'em up."
+	para "Nhưng công lý"
+	line "chiến thắng--một"
+
+	para "cậu bé đã phá tan"
+	line "bọn chúng."
 	done
 
 VioletPokecenter1FYoungsterText:
-	text "#MON are smart."
-	line "They won't obey a"
+	text "#MON thông minh"
+	line "Chúng không nghe"
 
-	para "trainer they don't"
-	line "respect."
+	para "HLV mà chúng"
+	line "không tôn trọng."
 
-	para "Without the right"
-	line "GYM BADGES, they"
+	para "Không có HUY"
+	line "HIỆU GYM phù hợp,"
 
-	para "will just do as"
-	line "they please."
+	para "chúng sẽ làm theo"
+	line "ý mình."
 	done
 
 VioletPokecenter1F_MapEvents:

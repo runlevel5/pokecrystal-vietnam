@@ -171,203 +171,204 @@ MrPokemonsHouse_OakExits:
 	step_end
 
 MrPokemonIntroText1:
-	text "Hello, hello! You"
-	line "must be <PLAY_G>."
+	text "Xin chào! Cháu"
+	line "là <PLAY_G> đúng"
+	cont "không?"
 
-	para "PROF.ELM said that"
-	line "you would visit."
+	para "GS ELM nói cháu"
+	line "sẽ đến đây."
 	done
 
 MrPokemonIntroText2:
-	text "This is what I"
-	line "want PROF.ELM to"
-	cont "examine."
+	text "Đây là thứ tôi"
+	line "muốn GS ELM"
+	cont "nghiên cứu."
 	done
 
 MrPokemonsHouse_GotEggText:
-	text "<PLAYER> received"
-	line "MYSTERY EGG."
+	text "<PLAYER> nhận được"
+	line "TRỨNG BÍ ẨN."
 	done
 
 MrPokemonIntroText3:
-	text "I know a couple"
-	line "who run a #MON"
-	cont "DAY-CARE service."
+	text "Tôi biết một cặp"
+	line "vợ chồng có dịch"
+	cont "vụ giữ #MON."
 
-	para "They gave me that"
-	line "EGG."
+	para "Họ đã đưa tôi"
+	line "quả TRỨNG này."
 
-	para "I was intrigued,"
-	line "so I sent mail to"
-	cont "PROF.ELM."
+	para "Tôi tò mò nên gửi"
+	line "thư cho GS ELM."
 
-	para "For #MON evolu-"
-	line "tion, PROF.ELM is"
-	cont "the authority."
+	para "Về tiến hóa #MON"
+	line "thì GS ELM là"
+	cont "chuyên gia."
 	done
 
 MrPokemonIntroText4:
-	text "Even PROF.OAK here"
-	line "recognizes that."
+	text "Ngay cả GS OAK"
+	line "cũng công nhận."
 	done
 
 MrPokemonIntroText5:
-	text "If my assumption"
-	line "is correct, PROF."
-	cont "ELM will know it."
+	text "Nếu giả thuyết"
+	line "của tôi đúng,"
+	cont "GS ELM sẽ biết."
 	done
 
 MrPokemonsHouse_MrPokemonHealText:
-	text "You are returning"
-	line "to PROF.ELM?"
+	text "Cháu về chỗ"
+	line "GS ELM à?"
 
-	para "Here. Your #MON"
-	line "should have some"
-	cont "rest."
+	para "Đây. #MON của"
+	line "cháu nên nghỉ"
+	cont "ngơi một chút."
 	done
 
 MrPokemonText_ImDependingOnYou:
-	text "I'm depending on"
-	line "you!"
+	text "Tôi trông cậy vào"
+	line "cháu đấy!"
 	done
 
 MrPokemonText_AlwaysNewDiscoveries:
-	text "Life is delight-"
-	line "ful! Always, new"
+	text "Cuộc sống thật"
+	line "tuyệt vời! Luôn"
 
-	para "discoveries to be"
-	line "made!"
+	para "có những khám phá"
+	line "mới!"
 	done
 
 MrPokemonsHouse_OakText1:
-	text "OAK: Aha! So"
-	line "you're <PLAY_G>!"
+	text "OAK: A ha! Vậy"
+	line "cháu là <PLAY_G>!"
 
-	para "I'm OAK! A #MON"
-	line "researcher."
+	para "Ta là OAK! Nhà"
+	line "nghiên cứu #MON."
 
-	para "I was just visit-"
-	line "ing my old friend"
-	cont "MR.#MON."
+	para "Ta vừa đến thăm"
+	line "bạn cũ của ta,"
+	cont "ÔNG #MON."
 
-	para "I heard you were"
-	line "running an errand"
+	para "Ta nghe cháu đang"
+	line "đi việc cho GS"
 
-	para "for PROF.ELM, so I"
-	line "waited here."
+	para "ELM, nên ta đợi"
+	line "ở đây."
 
-	para "Oh! What's this?"
-	line "A rare #MON!"
+	para "Ồ! Cái gì đây?"
+	line "Một #MON hiếm!"
 
-	para "Let's see…"
+	para "Để xem nào…"
 
-	para "Hm, I see!"
+	para "Hm, ta hiểu rồi!"
 
-	para "I understand why"
-	line "PROF.ELM gave you"
+	para "Ta hiểu tại sao"
+	line "GS ELM cho cháu"
 
-	para "a #MON for this"
-	line "errand."
+	para "một #MON để đi"
+	line "việc này."
 
-	para "To researchers"
-	line "like PROF.ELM and"
+	para "Với các nhà"
+	line "nghiên cứu như"
 
-	para "I, #MON are our"
-	line "friends."
+	para "GS ELM và ta,"
+	line "#MON là bạn bè."
 
-	para "He saw that you"
-	line "would treat your"
+	para "Ông ấy thấy cháu"
+	line "sẽ đối xử với"
 
-	para "#MON with love"
-	line "and care."
+	para "#MON bằng tình"
+	line "yêu và sự chăm"
+	cont "sóc."
 
-	para "…Ah!"
+	para "…À!"
 
-	para "You seem to be"
-	line "dependable."
+	para "Cháu có vẻ đáng"
+	line "tin cậy."
 
-	para "How would you like"
-	line "to help me out?"
+	para "Cháu có muốn giúp"
+	line "ta một việc không?"
 
-	para "See? This is the"
-	line "latest version of"
+	para "Đây là phiên bản"
+	line "mới nhất của"
 	cont "#DEX."
 
-	para "It automatically"
-	line "records data on"
+	para "Nó tự động ghi"
+	line "lại dữ liệu về"
 
-	para "#MON you've"
-	line "seen or caught."
+	para "#MON cháu đã"
+	line "thấy hoặc bắt."
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "Đây là bộ bách"
+	line "khoa công nghệ"
+	cont "cao!"
 	done
 
 MrPokemonsHouse_GetDexText:
-	text "<PLAYER> received"
+	text "<PLAYER> nhận được"
 	line "#DEX!"
 	done
 
 MrPokemonsHouse_OakText2:
-	text "Go meet many kinds"
-	line "of #MON and"
+	text "Hãy gặp nhiều loại"
+	line "#MON và hoàn"
 
-	para "complete that"
-	line "#DEX!"
+	para "thành #DEX đó!"
 
-	para "But I've stayed"
-	line "too long."
+	para "Nhưng ta ở đây"
+	line "hơi lâu rồi."
 
-	para "I have to get to"
-	line "GOLDENROD for my"
-	cont "usual radio show."
+	para "Ta phải đến"
+	line "GOLDENROD để làm"
+	cont "chương trình đài."
 
-	para "<PLAY_G>, I'm"
-	line "counting on you!"
+	para "<PLAY_G>, ta tin"
+	line "tưởng cháu!"
 	done
 
 MrPokemonText_GimmeTheScale:
-	text "Hm? That SCALE!"
-	line "What's that?"
-	cont "A red GYARADOS?"
+	text "Hm? VẢY đó!"
+	line "Cái gì vậy?"
+	cont "GYARADOS đỏ?"
 
-	para "That's rare! "
-	line "I, I want it…"
+	para "Hiếm thật! Tôi,"
+	line "tôi muốn nó…"
 
-	para "<PLAY_G>, would you"
-	line "care to trade it?"
+	para "<PLAY_G>, cháu có"
+	line "muốn đổi không?"
 
-	para "I can offer this"
-	line "EXP.SHARE I got"
-	cont "from PROF.OAK."
+	para "Tôi có thể đổi"
+	line "CHIA SẺ K.N này"
+	cont "từ GS OAK."
 	done
 
 MrPokemonText_Disappointed:
-	text "That's disappoint-"
-	line "ing. That happens"
-	cont "to be very rare."
+	text "Thật đáng tiếc."
+	line "Cái đó rất hiếm"
+	cont "đấy."
 	done
 
 MrPokemonsHouse_ForeignMagazinesText:
-	text "It's packed with"
-	line "foreign magazines."
+	text "Đầy ắp tạp chí"
+	line "nước ngoài."
 
-	para "Can't even read"
-	line "their titles…"
+	para "Đọc không hiểu"
+	line "tiêu đề luôn…"
 	done
 
 MrPokemonsHouse_BrokenComputerText:
-	text "It's a big com-"
-	line "puter. Hmm. It's"
-	cont "broken."
+	text "Một máy tính lớn."
+	line "Hm. Nó bị hỏng"
+	cont "rồi."
 	done
 
 MrPokemonsHouse_StrangeCoinsText:
-	text "A whole pile of"
-	line "strange coins!"
+	text "Một đống tiền xu"
+	line "lạ lùng!"
 
-	para "Maybe they're from"
-	line "another country…"
+	para "Có lẽ chúng từ"
+	line "nước khác…"
 	done
 
 MrPokemonsHouse_MapEvents:

@@ -241,8 +241,8 @@ Route31MailRecipientScript:
 	end
 
 ReceivedSpearowMailText:
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "HANG TỐI dẫn đến"
+	next "một con đường khác@"
 
 Route31YoungsterScript:
 	jumptextfaceplayer Route31YoungsterText
@@ -266,153 +266,151 @@ Route31PokeBall:
 	itemball POKE_BALL
 
 Route31CooltrainerMText:
-	text "DARK CAVE…"
+	text "HANG TỐI…"
 
-	para "If #MON could"
-	line "light it up, I'd"
-	cont "explore it."
+	para "Nếu #MON có thể"
+	line "chiếu sáng, tôi"
+	cont "sẽ khám phá nó."
 	done
 
 BugCatcherWade1SeenText:
-	text "I caught a bunch"
-	line "of #MON. Let me"
-	cont "battle with you!"
+	text "Tôi bắt được một"
+	line "đống #MON. Để"
+	cont "tôi đấu với bạn!"
 	done
 
 BugCatcherWade1BeatenText:
-	text "Awwwww…"
+	text "Ôi không…"
 	done
 
 BugCatcherWade1AfterText:
-	text "You can catch"
-	line "#MON even if"
+	text "Bạn có thể bắt"
+	line "#MON ngay cả khi"
 
-	para "you have six with"
-	line "you."
+	para "đã có sáu con"
+	line "rồi."
 
-	para "If you catch one,"
-	line "it'll go to your"
-	cont "BOX automatically."
+	para "Nếu bắt thêm, nó"
+	line "sẽ tự động vào"
+	cont "HỘP của bạn."
 	done
 
 Text_Route31SleepyMan:
-	text "… Hnuurg… Huh?"
+	text "… Huurrg… Hả?"
 
-	para "I walked too far"
-	line "today looking for"
+	para "Hôm nay tôi đi bộ"
+	line "quá xa để tìm"
 	cont "#MON."
 
-	para "My feet hurt and"
-	line "I'm sleepy…"
+	para "Chân tôi đau và"
+	line "buồn ngủ quá…"
 
-	para "If I were a wild"
-	line "#MON, I'd be"
-	cont "easy to catch…"
+	para "Nếu tôi là #MON"
+	line "hoang dã, chắc"
+	cont "dễ bắt lắm…"
 
 	para "…Zzzz…"
 	done
 
 Text_Route31SleepyManGotMail:
-	text "…Zzzz… Huh?"
+	text "…Zzzz… Hả?"
 
-	para "What's that? You"
-	line "have MAIL for me?"
+	para "Cái gì? Bạn có"
+	line "THƯ cho tôi à?"
 	done
 
 Text_Route31HandOverMailMon:
-	text "<PLAYER> handed"
-	line "over the #MON"
-	cont "holding the MAIL."
+	text "<PLAYER> đưa con"
+	line "#MON đang giữ"
+	cont "THƯ."
 	done
 
 Text_Route31ReadingMail:
-	text "Let's see…"
+	text "Để xem…"
 
-	para "…DARK CAVE leads"
-	line "to another road…"
+	para "…HANG TỐI dẫn đến"
+	line "một con đường khác"
 
-	para "That's good to"
-	line "know."
+	para "Hay đấy."
 
-	para "Thanks for bring-"
-	line "ing this to me."
+	para "Cảm ơn đã mang"
+	line "thư đến cho tôi."
 
-	para "My friend's a good"
-	line "guy, and you're"
-	cont "swell too!"
+	para "Bạn tôi tốt lắm,"
+	line "và bạn cũng"
+	cont "tuyệt vời!"
 
-	para "I'd like to do"
-	line "something good in"
-	cont "return too!"
+	para "Tôi muốn làm điều"
+	line "gì đó đáp lại!"
 
-	para "I know! I want you"
-	line "to have this!"
+	para "À! Tôi muốn tặng"
+	line "bạn cái này!"
 	done
 
 Text_Route31DescribeNightmare:
-	text "TM50 is NIGHTMARE."
+	text "TM50 là NIGHTMARE."
 
-	para "It's a wicked move"
-	line "that steadily cuts"
+	para "Đây là chiêu độc"
+	line "ác giảm dần HP"
 
-	para "the HP of a sleep-"
-	line "ing enemy."
+	para "của kẻ địch đang"
+	line "ngủ."
 
-	para "Ooooh…"
-	line "That's scary…"
+	para "Ôi…"
+	line "Đáng sợ thật…"
 
-	para "I don't want to"
-	line "have bad dreams."
+	para "Tôi không muốn"
+	line "gặp ác mộng."
 	done
 
 Text_Route31WrongMail:
-	text "This MAIL isn't"
-	line "for me."
+	text "THƯ này không"
+	line "phải cho tôi."
 	done
 
 Text_Route31MissingMail:
-	text "Why is this #-"
-	line "MON so special?"
+	text "Tại sao con #MON"
+	line "này đặc biệt?"
 
-	para "It doesn't have"
-	line "any MAIL."
+	para "Nó không có THƯ"
+	line "gì cả."
 	done
 
 Text_Route31DeclinedToHandOverMail:
-	text "What? You don't"
-	line "want anything?"
+	text "Sao? Bạn không"
+	line "muốn gì à?"
 	done
 
 Text_Route31CantTakeLastMon:
-	text "If I take that"
-	line "#MON from you,"
+	text "Nếu tôi lấy con"
+	line "#MON đó,"
 
-	para "what are you going"
-	line "to use in battle?"
+	para "bạn sẽ dùng gì"
+	line "để đấu?"
 	done
 
 Route31YoungsterText:
-	text "I found a good"
-	line "#MON in DARK"
-	cont "CAVE."
+	text "Tôi tìm được một"
+	line "#MON hay trong"
+	cont "HANG TỐI."
 
-	para "I'm going to raise"
-	line "it to take on"
+	para "Tôi sẽ nuôi nó"
+	line "để đấu với"
 	cont "FALKNER."
 
-	para "He's the leader of"
-	line "VIOLET CITY's GYM."
+	para "Anh ấy là chủ GYM"
+	line "ở TP VIOLET."
 	done
 
 Route31SignText:
-	text "ROUTE 31"
+	text "ĐƯỜNG 31"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "TP VIOLET -"
+	line "TP CHERRYGROVE"
 	done
 
 DarkCaveSignText:
-	text "DARK CAVE"
+	text "HANG TỐI"
 	done
 
 Route31_MapEvents:

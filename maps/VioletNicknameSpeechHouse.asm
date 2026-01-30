@@ -24,22 +24,22 @@ VioletNicknameSpeechHouseBirdScript:
 	end
 
 VioletNicknameSpeechHouseTeacherText:
-	text "She uses the names"
-	line "of her favorite"
-	cont "things to eat."
+	text "Cô bé dùng tên"
+	line "món ăn yêu thích"
+	cont "của mình."
 
-	para "For the nicknames"
-	line "she gives to her"
-	cont "#MON, I mean."
+	para "Ý tôi là biệt"
+	line "danh cô bé đặt"
+	cont "cho #MON."
 	done
 
 VioletNicknameSpeechHouseLassText:
-	text "I call my PIDGEY"
-	line "STRAWBERRY!"
+	text "Tôi gọi PIDGEY"
+	line "của tôi là DÂU!"
 	done
 
 VioletNicknameSpeechHouseBirdText:
-	text "STRAWBERRY: Pijji!"
+	text "DÂU: Pijji!"
 	done
 
 VioletNicknameSpeechHouse_MapEvents:

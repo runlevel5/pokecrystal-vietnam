@@ -130,12 +130,26 @@ def get_visible_length(text):
 
     # Count visible characters
     # Special handling for # which expands to "POKé" (4 tiles)
-    # So #MON = "POKéMON" = 7 tiles
-    for char in visible:
-        if char == "#":
-            length += 4  # # expands to "POKé" (4 tiles)
+    # #MON = "POKéMON" = 7 tiles
+    # #DEX = "POKéDEX" = 7 tiles
+    # #GEAR = "POKéGEAR" = 8 tiles (handle before general # case)
+    i = 0
+    while i < len(visible):
+        if visible[i] == "#":
+            # Check if this is #GEAR (POKéGEAR = 8 tiles)
+            if visible[i : i + 5] == "#GEAR":
+                length += 8  # #GEAR expands to "POKéGEAR" (8 tiles)
+                i += 5  # Skip past #GEAR
+            # Check if this is #DEX (POKéDEX = 7 tiles)
+            elif visible[i : i + 4] == "#DEX":
+                length += 7  # #DEX expands to "POKéDEX" (7 tiles)
+                i += 4  # Skip past #DEX
+            else:
+                length += 4  # # expands to "POKé" (4 tiles)
+                i += 1
         else:
             length += 1
+            i += 1
 
     return length
 

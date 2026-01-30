@@ -14,15 +14,15 @@ Route31VioletGateCooltrainerFScript:
 	jumptextfaceplayer Route31VioletGateCooltrainerFText
 
 Route31VioletGateOfficerText:
-	text "Hi there!"
-	line "Did you visit"
-	cont "SPROUT TOWER?"
+	text "Chào bạn!"
+	line "Bạn đã ghé thăm"
+	cont "THÁP MẦM chưa?"
 	done
 
 Route31VioletGateCooltrainerFText:
-	text "I came too far"
-	line "out. I'd better"
-	cont "phone home!"
+	text "Tôi đi xa quá rồi"
+	line "Nên gọi điện về"
+	cont "nhà thôi!"
 	done
 
 Route31VioletGate_MapEvents:

@@ -913,19 +913,19 @@ FriedaNotFridayText:
 	done
 
 Route32SignText:
-	text "ĐƯỜNG 32"
+	text "ROUTE 32"
 
-	para "TP VIOLET -"
-	line "TT AZALEA"
+	para "VIOLET CITY -"
+	line "AZALEA TOWN"
 	done
 
 Route32RuinsSignText:
-	text "DI TÍCH ALPH"
+	text "RUINS OF ALPH"
 	line "LỐI VÀO PHÍA ĐÔNG"
 	done
 
 Route32UnionCaveSignText:
-	text "HANG UNION"
+	text "UNION CAVE"
 	line "PHÍA TRƯỚC"
 	done
 

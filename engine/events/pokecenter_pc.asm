@@ -281,12 +281,12 @@ PlayersPCMenuData:
 	dw PlayerLogOffMenu,       .LogOff
 	dw PlayerLogOffMenu,       .TurnOff
 
-.WithdrawItem: db "WITHDRAW ITEM@"
-.DepositItem:  db "DEPOSIT ITEM@"
-.TossItem:     db "TOSS ITEM@"
-.MailBox:      db "MAIL BOX@"
-.Decoration:   db "DECORATION@"
-.TurnOff:      db "TURN OFF@"
+.WithdrawItem: db "RÚT ĐỒ@"
+.DepositItem:  db "GỬI ĐỒ@"
+.TossItem:     db "GIỤC ĐỒ@"
+.MailBox:      db "HỘP THƯ@"
+.Decoration:   db "TRANG TRÍ@"
+.TurnOff:      db "TẮT MÁY@"
 .LogOff:       db "LOG OFF@"
 
 .WhichPC:

@@ -188,49 +188,49 @@ StartMenu::
 
 .PokedexString:  db "#DEX@"
 .PartyString:    db "#MON@"
-.PackString:     db "PACK@"
+.PackString:     db "BA LÔ@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "SAVE@"
-.OptionString:   db "OPTION@"
-.ExitString:     db "EXIT@"
+.SaveString:     db "LƯU@"
+.OptionString:   db "T.CHỌN@"
+.ExitString:     db "THOÁT@"
 .PokegearString: db "<POKE>GEAR@"
-.QuitString:     db "QUIT@"
+.QuitString:     db "THOÁT@"
 
 .PokedexDesc:
-	db   "#MON"
-	next "database@"
+	db   "THÔNG TIN"
+	next "#MON@"
 
 .PartyDesc:
 	db   "Party <PKMN>"
 	next "status@"
 
 .PackDesc:
-	db   "Contains"
-	next "items@"
+	db   "Đựng"
+	next "đồ dùng@"
 
 .PokegearDesc:
-	db   "Trainer's"
-	next "key device@"
+	db   "Thiết bị"
+	next "HLV@"
 
 .StatusDesc:
-	db   "Your own"
-	next "status@"
+	db   "Trạng thái"
+	next "của bạn@"
 
 .SaveDesc:
-	db   "Save your"
-	next "progress@"
+	db   "Lưu lại"
+	next "quá trình@"
 
 .OptionDesc:
-	db   "Change"
-	next "settings@"
+	db   "Đổi"
+	next "cấu hình@"
 
 .ExitDesc:
-	db   "Close this"
+	db   "Đóng"
 	next "menu@"
 
 .QuitDesc:
-	db   "Quit and"
-	next "be judged.@"
+	db   "Thoát và"
+	next "chịu đánh giá.@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]

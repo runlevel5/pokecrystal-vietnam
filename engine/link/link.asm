@@ -1664,7 +1664,7 @@ GSPlaceTradeScreenFooter: ; unreferenced
 	jp PlaceString
 
 .CancelString:
-	db "HUỶ@"
+	db "HỦY@"
 
 LinkTradePlaceArrow:
 ; Indicates which pokemon the other player has selected to trade
@@ -2061,7 +2061,7 @@ InitTradeMenuDisplay_Delay:
 
 String_TradeCancel:
 	db   "TRAO ĐỔI"
-	next "HUỶ BỎ@"
+	next "HỦY BỎ@"
 
 LinkAskTradeForText:
 	text_far _LinkAskTradeForText
@@ -2071,7 +2071,7 @@ String_TradeCompleted:
 	db   "Trao đổi xong!@"
 
 String_TooBadTheTradeWasCanceled:
-	db   "Tiếc quá! Đã huỷ"
+	db   "Tiếc quá! Đã hủy"
 	next "trao đổi!@"
 
 LinkTextboxAtHL:

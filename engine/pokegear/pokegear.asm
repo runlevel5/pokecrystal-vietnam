@@ -1250,7 +1250,7 @@ PokegearPhoneContactSubmenu:
 	db 3
 	db   "GỌI"
 	next "XOÁ"
-	next "HUỶ"
+	next "HỦY"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1262,7 +1262,7 @@ PokegearPhoneContactSubmenu:
 	dwcoord 10, 8
 	db 2
 	db   "GỌI"
-	next "HUỶ"
+	next "HỦY"
 	db   "@"
 
 .CallCancelJumptable:

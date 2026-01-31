@@ -237,7 +237,7 @@ BillsPCDepositMenuHeader:
 	db "GỬI VÀO@"
 	db "CHỈ SỐ@"
 	db "THẢ RA@"
-	db "HUỶ@"
+	db "HỦY@"
 
 BillsPCClearThreeBoxes: ; unreferenced
 	hlcoord 0, 0
@@ -490,7 +490,7 @@ BillsPC_Withdraw:
 	db "RÚT RA@"
 	db "CHỈ SỐ@"
 	db "THẢ RA@"
-	db "HUỶ@"
+	db "HỦY@"
 
 _MovePKMNWithoutMail:
 	ld hl, wOptions
@@ -699,7 +699,7 @@ _MovePKMNWithoutMail:
 	db 3 ; items
 	db "DI CHUYỂN@"
 	db "CHỈ SỐ@"
-	db "HUỶ@"
+	db "HỦY@"
 
 .PrepInsertCursor:
 	xor a
@@ -1255,7 +1255,7 @@ endr
 	ret
 
 .CancelString:
-	db "HUỶ@"
+	db "HỦY@"
 
 .PlaceNickname:
 	ld a, [de]

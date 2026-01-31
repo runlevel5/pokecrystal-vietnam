@@ -492,7 +492,7 @@ MenuData_ChallengeExplanationCancel:
 	db 3
 	db "Challenge@"
 	db "Explanation@"
-	db "HUỶ@"
+	db "HỦY@"
 
 Function17d2b6:
 	call Function17d2c0

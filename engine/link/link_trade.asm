@@ -123,7 +123,7 @@ InitTradeSpeciesList:
 	ret
 
 .CancelString:
-	db "HUỶ@"
+	db "HỦY@"
 
 _LoadTradeScreenBorderGFX:
 	call __LoadTradeScreenBorderGFX

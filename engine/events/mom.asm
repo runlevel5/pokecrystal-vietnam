@@ -650,4 +650,4 @@ BankOfMom_MenuHeader:
 	db "LẤY@"
 	db "LƯU@"
 	db "THAY@"
-	db "HUỶ@"
+	db "HỦY@"

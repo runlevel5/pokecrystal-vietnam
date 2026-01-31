@@ -890,7 +890,7 @@ DecoSideMenuHeader:
 	db 3 ; items
 	db "RIGHT SIDE@"
 	db "LEFT SIDE@"
-	db "HUỶ@"
+	db "HỦY@"
 
 PutAwayTheDecoText:
 	text_far _PutAwayTheDecoText

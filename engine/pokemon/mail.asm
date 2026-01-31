@@ -564,4 +564,4 @@ MailboxPC:
 	db "ĐỌC THƯ@"
 	db "CẤT VÀO TÚI@"
 	db "GẮN THƯ@"
-	db "HUỶ@"
+	db "HỦY@"

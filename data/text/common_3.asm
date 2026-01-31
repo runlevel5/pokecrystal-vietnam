@@ -39,7 +39,7 @@ _ClockSetWithControlPadText::
 	line "hướng để chỉnh."
 
 	para "Xác nhận: Nút A"
-	line "Huỷ:      Nút B"
+	line "Hủy:      Nút B"
 	done
 
 _ClockIsThisOKText::

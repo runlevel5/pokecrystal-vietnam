@@ -6520,7 +6520,7 @@ Function102e3e:
 	ret
 
 .CancelString:
-	db "HUỶ@"
+	db "HỦY@"
 
 Function102e4f:
 	farcall LoadMobileTradeBorderTilemap

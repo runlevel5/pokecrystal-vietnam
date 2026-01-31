@@ -215,7 +215,7 @@ _ReceivedTMHMText::
 
 _MysteryGiftCanceledText::
 	text "Liên kết đã bị"
-	line "huỷ bỏ."
+	line "hủy bỏ."
 	prompt
 
 _MysteryGiftCommErrorText::
@@ -285,7 +285,7 @@ _NameCardNotRegisteredCardText::
 
 _NameCardLinkCancelledText::
 	text "Liên kết đã bị"
-	line "huỷ bỏ."
+	line "hủy bỏ."
 	prompt
 
 _NameCardLinkCommErrorText::

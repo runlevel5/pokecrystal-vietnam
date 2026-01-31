@@ -1246,7 +1246,7 @@ Pokedex_DrawSearchScreenBG:
 
 .Menu:
 	db   "BẮT ĐẦU TÌM!!"
-	next "HUỶ"
+	next "HỦY"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:

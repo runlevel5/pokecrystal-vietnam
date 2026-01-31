@@ -287,4 +287,4 @@ BattleMonMenu:
 	db 3 ; items
 	db "ĐỔI@"
 	db "C. SỐ@"
-	db "HUỶ@"
+	db "HỦY@"

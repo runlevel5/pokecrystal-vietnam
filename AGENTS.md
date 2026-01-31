@@ -135,7 +135,9 @@ Location names are now translated with Vietnamese prefixes:
 **Routes:**
 | English | Vietnamese |
 |---------|------------|
-| ROUTE <N> | ĐƯỜNG <N> |
+| ROUTE <N> | TUYẾN ĐƯỜNG <N> |
+
+Note: Use abbreviated form TUYẾN <N> when space is limited.
 
 ### Rationale
 
@@ -154,7 +156,7 @@ Location names are now translated with Vietnamese prefixes:
 | PROF. ELM | GS ELM | Giáo Sư (Professor) |
 | POKEMON CENTER | TT POKEMON | Trung Tâm (Center) |
 | TRAINER | HLV | Huấn Luyện Viên |
-| ROUTE | ĐƯỜNG | Road/Route |
+| ROUTE | TUYẾN ĐƯỜNG | Road/Route (abbrev: TUYẾN) |
 | CITY | TP. | Thành Phố |
 | TOWN | TRẤN | Town/Township |
 | GYM LEADER | T.LĨNH GYM | Thủ Lĩnh (Leader) |

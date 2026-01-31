@@ -151,7 +151,7 @@ All Pokemon species names remain in English:
 | GOLD LEAF | LÁ VÀNG |
 | TINYMUSHROOM | NẤM NHỎ |
 | BIG MUSHROOM | NẤM LỚN |
-| SLOWPOKETAIL | ĐUÔI SLOWPOKE |
+| SLOWPOKETAIL | ĐUÔI SLOPOKE |
 | PEARL | NGỌC TRAI |
 | BIG PEARL | N.TRAI LỚN |
 | RAGECANDYBAR | KẸO CƠNGIẬN |
@@ -159,7 +159,7 @@ All Pokemon species names remain in English:
 | ENERGYPOWDER | BỘT N.LƯỢNG |
 | ENERGY ROOT | RỄ N.LƯỢNG |
 | HEAL POWDER | BỘT CHỮA |
-| REVIVAL HERB | THẢO HỒI SINH |
+| REVIVAL HERB | LÁ HỒI SINH |
 | CARD KEY | THẺ KHÓA |
 | MACHINE PART | BỘ PHẬN MÁY |
 | EGG TICKET | VÉ TRỨNG |
@@ -173,7 +173,7 @@ All Pokemon species names remain in English:
 | NORMAL BOX | HỘP THƯỜNG |
 | GORGEOUS BOX | HỘP ĐẸP |
 | SQUIRTBOTTLE | BÌNH XỊT |
-| RAINBOW WING | CÁNH CẦU VỒNG |
+| RAINBOW WING | CÁNH C.VỒNG |
 | BRICK PIECE | MẢNH GẠCH |
 
 #### 3. Location Names

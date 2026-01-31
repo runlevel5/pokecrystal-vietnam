@@ -99,9 +99,9 @@ VARIABLE_LENGTH_CODES = {
     "<PLAYER>": 8,  # Player name, max 8 chars
     "<RIVAL>": 8,  # Rival name, max 8 chars
     "<PLAY_G>": 8,  # Player name (gendered), max 8 chars
-    "<TARGET>": 10,  # Target Pokemon name, max 10 chars
-    "<USER>": 10,  # User Pokemon name, max 10 chars
-    "<ENEMY>": 10,  # Enemy Pokemon name, max 10 chars
+    "<TARGET>": 11,  # Target Pokemon name, max 11 chars
+    "<USER>": 11,  # User Pokemon name, max 11 chars
+    "<ENEMY>": 11,  # Enemy Pokemon name, max 11 chars
 }
 
 # Pattern to find control codes in text

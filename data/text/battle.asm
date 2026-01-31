@@ -583,12 +583,14 @@ RegainedHealthText:
 
 AttackMissedText:
 	text "Đòn tấn công của"
-	line "<USER> trượt!"
+	line "<USER>"
+	cont "trượt!"
 	prompt
 
 AttackMissed2Text:
 	text "Đòn tấn công của"
-	line "<USER> trượt!"
+	line "<USER>"
+	cont "trượt!"
 	prompt
 
 CrashedText:

@@ -1,5 +1,5 @@
 	db "PHẢN LỰC@" ; species name
-	dw 211, 630 ; height, weight
+	dw 9, 285 ; height, weight
 
 	db   "Bản năng của nó"
 	next "là chui vào hang."

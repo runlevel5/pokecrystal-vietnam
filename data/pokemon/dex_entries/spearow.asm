@@ -1,5 +1,5 @@
 	db "CHIM NHỎ@" ; species name
-	dw 100, 40 ; height, weight
+	dw 3, 20 ; height, weight
 
 	db   "Để bảo vệ lãnh"
 	next "thổ, nó bay quanh"

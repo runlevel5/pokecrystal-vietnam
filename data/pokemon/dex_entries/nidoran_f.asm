@@ -1,5 +1,5 @@
 	db "GHIM ĐỘC@" ; species name
-	dw 104, 150 ; height, weight
+	dw 4, 70 ; height, weight
 
 	db   "Nhỏ và rất ngoan,"
 	next "nó tự bảo vệ"

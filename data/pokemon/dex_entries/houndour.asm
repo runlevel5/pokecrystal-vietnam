@@ -1,5 +1,5 @@
 	db "TỐI@" ; species name
-	dw 200, 240 ; height, weight
+	dw 6, 108 ; height, weight
 
 	db   "Vào lúc bình minh"
 	next "tiếng hú đáng"

@@ -1,5 +1,5 @@
 	db "HẠT@" ; species name
-	dw 100, 40 ; height, weight
+	dw 3, 18 ; height, weight
 
 	db   "Nó rất yếu. Cách"
 	next "tự vệ duy nhất"

@@ -1,5 +1,5 @@
 	db "DỪA@" ; species name
-	dw 607, 2650 ; height, weight
+	dw 20, 1200 ; height, weight
 
 	db   "Sống trong môi"
 	next "trường tốt giúp"

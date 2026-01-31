@@ -1,5 +1,5 @@
 	db "NGOẠI CẢM@" ; species name
-	dw 411, 1060 ; height, weight
+	dw 15, 480 ; height, weight
 
 	db   "Nó có IQ 5000."
 	next "Nó tính toán mọi"

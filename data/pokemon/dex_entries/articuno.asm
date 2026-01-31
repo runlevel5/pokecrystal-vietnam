@@ -1,5 +1,5 @@
 	db "ĐÓNG BĂNG@" ; species name
-	dw 507, 1220 ; height, weight
+	dw 17, 554 ; height, weight
 
 	db   "#MON chim huyền"
 	next "thoại. Khi bay"

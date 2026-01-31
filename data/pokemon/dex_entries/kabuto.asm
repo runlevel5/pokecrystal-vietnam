@@ -1,5 +1,5 @@
 	db "SÒ@" ; species name
-	dw 108, 250 ; height, weight
+	dw 5, 115 ; height, weight
 
 	db   "300 triệu năm"
 	next "trước, nó ẩn"

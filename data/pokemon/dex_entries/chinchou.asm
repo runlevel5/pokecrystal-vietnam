@@ -1,5 +1,5 @@
 	db "CÂU CÁ@" ; species name
-	dw 108, 260 ; height, weight
+	dw 5, 120 ; height, weight
 
 	db   "Râu của nó tiến"
 	next "hóa từ vây, có"

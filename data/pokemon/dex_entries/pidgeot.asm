@@ -1,5 +1,5 @@
 	db "CHIM@" ; species name
-	dw 411, 870 ; height, weight
+	dw 15, 395 ; height, weight
 
 	db   "Thị lực tuyệt vời"
 	next "cho phép nó nhìn"

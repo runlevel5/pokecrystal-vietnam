@@ -1,5 +1,5 @@
 	db "ĐUÔI DÀI@" ; species name
-	dw 207, 250 ; height, weight
+	dw 8, 115 ; height, weight
 
 	db   "Nó dùng đuôi bám"
 	next "vào cành cây."

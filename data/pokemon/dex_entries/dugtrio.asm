@@ -1,5 +1,5 @@
 	db "CHUỘT CHŨI@" ; species name
-	dw 204, 730 ; height, weight
+	dw 7, 333 ; height, weight
 
 	db   "Bộ ba DIGLETT này"
 	next "đào sâu hơn 100km"

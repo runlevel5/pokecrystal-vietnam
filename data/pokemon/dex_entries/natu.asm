@@ -1,5 +1,5 @@
 	db "CHIM NHỎ@" ; species name
-	dw 8, 40 ; height, weight
+	dw 2, 20 ; height, weight
 
 	db   "Nó rất giỏi leo"
 	next "thân cây và thích"

@@ -1,5 +1,5 @@
 	db "NAM CHÂM@" ; species name
-	dw 100, 130 ; height, weight
+	dw 3, 60 ; height, weight
 
 	db   "Điện phát ra từ"
 	next "hai bên cơ thể"

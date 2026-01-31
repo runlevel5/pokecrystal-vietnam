@@ -1,5 +1,5 @@
 	db "CHIM GIÁP@" ; species name
-	dw 507, 1110 ; height, weight
+	dw 17, 505 ; height, weight
 
 	db   "Lông nó rụng rất"
 	next "sắc. Người ta nói"

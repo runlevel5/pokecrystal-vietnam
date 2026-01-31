@@ -1,5 +1,5 @@
 	db "TRINH SÁT@" ; species name
-	dw 207, 130 ; height, weight
+	dw 8, 60 ; height, weight
 
 	db   "Khi canh gác, nó"
 	next "cảnh báo nguy"

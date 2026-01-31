@@ -1,5 +1,5 @@
 	db "ĐÁ@" ; species name
-	dw 411, 1100 ; height, weight
+	dw 15, 498 ; height, weight
 
 	db   "Còn gọi là Vua Đá"
 	next "Nó dùng đôi chân"

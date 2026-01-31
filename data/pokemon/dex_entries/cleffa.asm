@@ -1,5 +1,5 @@
 	db "HÌNH SAO@" ; species name
-	dw 100, 70 ; height, weight
+	dw 3, 30 ; height, weight
 
 	db   "Nếu tìm thấy nơi"
 	next "thiên thạch rơi,"

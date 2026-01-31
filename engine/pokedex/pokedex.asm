@@ -1171,9 +1171,9 @@ Pokedex_DrawDexEntryScreenBG:
 .Number: ; unreferenced
 	db $5c, $5d, -1 ; No.
 .Height:
-	db "HT  ?", $5e, "??", $5f, -1 ; HT  ?'??"
+	db "CAO   . m", -1 ; CAO  X.Xm (metric)
 .Weight:
-	db "WT   ???lb", -1
+	db "CÂN   . kg", -1 ; CÂN XXX.Xkg (metric)
 .MenuItems:
 	db $3b, " TIẾP P.BỔ TIẾNG IN", -1
 

@@ -1,5 +1,5 @@
 	db "HOA@" ; species name
-	dw 104, 130 ; height, weight
+	dw 4, 58 ; height, weight
 
 	db   "Khi chúng nhảy"
 	next "cùng nhau, cánh"

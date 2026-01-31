@@ -1,5 +1,5 @@
 	db "TRỒNG CHUỐI@" ; species name
-	dw 407, 1060 ; height, weight
+	dw 14, 480 ; height, weight
 
 	db   "Sau khi trồng"
 	next "chuối để làm đối"

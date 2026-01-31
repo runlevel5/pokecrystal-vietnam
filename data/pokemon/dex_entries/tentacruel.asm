@@ -1,5 +1,5 @@
 	db "SỨA@" ; species name
-	dw 503, 1210 ; height, weight
+	dw 16, 550 ; height, weight
 
 	db   "Khi 80 xúc tu hút"
 	next "nước, nó giãn ra"

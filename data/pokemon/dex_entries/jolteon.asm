@@ -1,5 +1,5 @@
 	db "SÉT@" ; species name
-	dw 207, 540 ; height, weight
+	dw 8, 245 ; height, weight
 
 	db   "Các ion âm sinh"
 	next "ra từ lông tạo"

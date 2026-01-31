@@ -1,5 +1,5 @@
 	db "ÁNH SÁNG@" ; species name
-	dw 311, 500 ; height, weight
+	dw 12, 225 ; height, weight
 
 	db   "#MON này dùng"
 	next "phần sáng trên"

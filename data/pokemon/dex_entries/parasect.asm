@@ -1,5 +1,5 @@
 	db "NẤM@" ; species name
-	dw 303, 650 ; height, weight
+	dw 10, 295 ; height, weight
 
 	db   "Khi không còn gì"
 	next "để hút từ bọ, nấm"

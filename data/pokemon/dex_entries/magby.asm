@@ -1,5 +1,5 @@
 	db "THAN SỐNG@" ; species name
-	dw 204, 470 ; height, weight
+	dw 7, 214 ; height, weight
 
 	db   "Nó tự nhiên phun"
 	next "lửa 600 độ."

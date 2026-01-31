@@ -1,5 +1,5 @@
 	db "CÁ@" ; species name
-	dw 211, 220 ; height, weight
+	dw 9, 100 ; height, weight
 
 	db   "#MON yếu ớt"
 	next "và thảm hại này"

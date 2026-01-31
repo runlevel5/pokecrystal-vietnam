@@ -1,5 +1,5 @@
 	db "NĂM SAO@" ; species name
-	dw 303, 240 ; height, weight
+	dw 10, 108 ; height, weight
 
 	db   "Nó nhút nhát và"
 	next "tụ lại với nhau."

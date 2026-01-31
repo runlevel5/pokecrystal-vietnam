@@ -1,5 +1,5 @@
 	db "CHUỘT LỬA@" ; species name
-	dw 108, 170 ; height, weight
+	dw 5, 79 ; height, weight
 
 	db   "Lửa phun ra từ"
 	next "lưng cháy mạnh"

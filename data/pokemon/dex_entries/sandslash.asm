@@ -1,5 +1,5 @@
 	db "CHUỘT@" ; species name
-	dw 303, 650 ; height, weight
+	dw 10, 295 ; height, weight
 
 	db   "Giỏi leo cây, nó"
 	next "cuộn thành quả"

@@ -1,5 +1,5 @@
 	db "RỒNG@" ; species name
-	dw 703, 4630 ; height, weight
+	dw 22, 2100 ; height, weight
 
 	db   "Người ta nói đâu"
 	next "đó ngoài biển có"

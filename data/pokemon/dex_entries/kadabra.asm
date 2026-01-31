@@ -1,5 +1,5 @@
 	db "NGOẠI CẢM@" ; species name
-	dw 403, 1250 ; height, weight
+	dw 13, 565 ; height, weight
 
 	db   "Khi nhắm mắt, số"
 	next "hạt alpha tỏa ra"

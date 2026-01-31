@@ -1,5 +1,5 @@
 	db "KHÍ@" ; species name
-	dw 503, 2 ; height, weight
+	dw 16, 1 ; height, weight
 
 	db   "Nó ẩn trong bóng"
 	next "tối, chờ lấy mạng"

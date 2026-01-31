@@ -1,5 +1,5 @@
 	db "NAM CHÂM@" ; species name
-	dw 303, 1320 ; height, weight
+	dw 10, 600 ; height, weight
 
 	db   "Khi nhiều"
 	next "MAGNETON tụ lại,"

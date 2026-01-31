@@ -1,5 +1,5 @@
 	db "GAI@" ; species name
-	dw 303, 2540 ; height, weight
+	dw 10, 1150 ; height, weight
 
 	db   "Nó chỉ nhớ được"
 	next "một việc một lúc."

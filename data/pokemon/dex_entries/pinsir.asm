@@ -1,5 +1,5 @@
 	db "BỌ CÁNH CỨNG@" ; species name
-	dw 411, 1210 ; height, weight
+	dw 15, 550 ; height, weight
 
 	db   "Khi nhiệt độ"
 	next "giảm vào đêm, nó"

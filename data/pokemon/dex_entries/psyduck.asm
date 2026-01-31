@@ -1,5 +1,5 @@
 	db "VỊT@" ; species name
-	dw 207, 430 ; height, weight
+	dw 8, 196 ; height, weight
 
 	db   "Nó chỉ có thể"
 	next "dùng sức mạnh"

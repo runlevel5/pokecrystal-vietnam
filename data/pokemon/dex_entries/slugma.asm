@@ -1,5 +1,5 @@
 	db "DUNG NHAM@" ; species name
-	dw 204, 770 ; height, weight
+	dw 7, 350 ; height, weight
 
 	db   "Chúng tụ tập ở"
 	next "nơi nóng hơn"

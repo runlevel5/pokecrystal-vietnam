@@ -1,5 +1,5 @@
 	db "TRỨNG@" ; species name
-	dw 104, 60 ; height, weight
+	dw 4, 25 ; height, weight
 
 	db   "Nếu một quả bị"
 	next "tách khỏi nhóm,"

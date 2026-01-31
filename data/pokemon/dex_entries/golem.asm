@@ -1,5 +1,5 @@
 	db "SIÊU NẶNG@" ; species name
-	dw 407, 6620 ; height, weight
+	dw 14, 3000 ; height, weight
 
 	db   "Thân đá của nó"
 	next "bền đến mức ngay"

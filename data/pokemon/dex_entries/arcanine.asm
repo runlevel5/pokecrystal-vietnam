@@ -1,5 +1,5 @@
 	db "HUYỀN THOẠI@" ; species name
-	dw 603, 3420 ; height, weight
+	dw 19, 1550 ; height, weight
 
 	db   "Một bức tranh cổ"
 	next "cho thấy người"

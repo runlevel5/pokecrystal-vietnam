@@ -1,5 +1,5 @@
 	db "SAN HÔ@" ; species name
-	dw 200, 110 ; height, weight
+	dw 6, 50 ; height, weight
 
 	db   "Các mũi nhọn trên"
 	next "đầu hấp thụ chất"

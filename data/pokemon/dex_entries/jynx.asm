@@ -1,5 +1,5 @@
 	db "HÌNH NGƯỜI@" ; species name
-	dw 407, 900 ; height, weight
+	dw 14, 406 ; height, weight
 
 	db   "Nó có nhiều kiểu"
 	next "tiếng kêu khác"

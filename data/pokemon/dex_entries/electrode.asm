@@ -1,5 +1,5 @@
 	db "QUẢ CẦU@" ; species name
-	dw 311, 1470 ; height, weight
+	dw 12, 666 ; height, weight
 
 	db   "Càng tích điện,"
 	next "nó càng nhanh."

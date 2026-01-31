@@ -1,5 +1,5 @@
 	db "DƠI@" ; species name
-	dw 503, 1210 ; height, weight
+	dw 16, 550 ; height, weight
 
 	db   "Khi cắm nanh vào"
 	next "con mồi, nó ngay"

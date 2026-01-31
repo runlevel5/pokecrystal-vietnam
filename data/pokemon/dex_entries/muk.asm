@@ -1,5 +1,5 @@
 	db "BÙN@" ; species name
-	dw 311, 660 ; height, weight
+	dw 12, 300 ; height, weight
 
 	db   "Khi di chuyển,"
 	next "chất độc cực mạnh"

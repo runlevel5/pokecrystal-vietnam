@@ -1,5 +1,5 @@
 	db "BƯỚM ĐỘC@" ; species name
-	dw 411, 280 ; height, weight
+	dw 15, 125 ; height, weight
 
 	db   "Vảy phấn mà nó"
 	next "rải sẽ làm tê"

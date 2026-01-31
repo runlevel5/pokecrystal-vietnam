@@ -1,5 +1,5 @@
 	db "CHIM@" ; species name
-	dw 307, 660 ; height, weight
+	dw 11, 300 ; height, weight
 
 	db   "Nó bay chậm theo"
 	next "vòng tròn, trong"

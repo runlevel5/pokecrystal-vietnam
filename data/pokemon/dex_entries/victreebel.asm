@@ -1,5 +1,5 @@
 	db "BẮT RUỒI@" ; species name
-	dw 507, 340 ; height, weight
+	dw 17, 155 ; height, weight
 
 	db   "Khi bị nuốt vào"
 	next "cơ thể #MON"

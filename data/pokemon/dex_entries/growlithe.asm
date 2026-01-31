@@ -1,5 +1,5 @@
 	db "CHÓ CON@" ; species name
-	dw 204, 420 ; height, weight
+	dw 7, 190 ; height, weight
 
 	db   "Nó kiểm soát lãnh"
 	next "thổ rộng lớn. Nếu"

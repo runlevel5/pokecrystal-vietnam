@@ -1,5 +1,5 @@
 	db "HOÀNG GIA@" ; species name
-	dw 607, 1750 ; height, weight
+	dw 20, 795 ; height, weight
 
 	db   "Mỗi lần ngáp,"
 	next "SHELLDER tiêm"

@@ -1,5 +1,5 @@
 	db "HỔ MANG@" ; species name
-	dw 1106, 1430 ; height, weight
+	dw 35, 650 ; height, weight
 
 	db   "Để đe dọa kẻ thù,"
 	next "nó phình ngực và"

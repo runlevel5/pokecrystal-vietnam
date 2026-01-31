@@ -1,5 +1,5 @@
 	db "MỎ@" ; species name
-	dw 311, 840 ; height, weight
+	dw 12, 380 ; height, weight
 
 	db   "Nó dùng mỏ dài"
 	next "để tấn công. Tầm"

@@ -1,5 +1,5 @@
 	db "CÁO@" ; species name
-	dw 200, 220 ; height, weight
+	dw 6, 99 ; height, weight
 
 	db   "Khi cơ thể lớn"
 	next "lên, sáu đuôi ấm"

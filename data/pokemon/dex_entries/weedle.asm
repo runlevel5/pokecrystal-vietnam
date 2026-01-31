@@ -1,5 +1,5 @@
 	db "SÂU LÔNG@" ; species name
-	dw 100, 70 ; height, weight
+	dw 3, 32 ; height, weight
 
 	db   "Cái gai trên đầu"
 	next "tiết ra chất độc"

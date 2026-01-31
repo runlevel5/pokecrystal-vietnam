@@ -1,5 +1,5 @@
 	db "SỨA@" ; species name
-	dw 211, 1000 ; height, weight
+	dw 9, 455 ; height, weight
 
 	db   "Khi trôi theo"
 	next "sóng, nó dùng"

@@ -1,5 +1,5 @@
 	db "THÔI MIÊN@" ; species name
-	dw 503, 1670 ; height, weight
+	dw 16, 756 ; height, weight
 
 	db   "Nó đung đưa con"
 	next "lắc càng lâu,"

@@ -1,5 +1,5 @@
 	db "GIÁP@" ; species name
-	dw 307, 2650 ; height, weight
+	dw 11, 1200 ; height, weight
 
 	db   "Vì da #MON này"
 	next "quá cứng, một đòn"

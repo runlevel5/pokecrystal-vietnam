@@ -1,5 +1,5 @@
 	db "THÂN DÀI@" ; species name
-	dw 511, 720 ; height, weight
+	dw 18, 325 ; height, weight
 
 	db   "Nó sống trong"
 	next "hang hẹp vừa thân"

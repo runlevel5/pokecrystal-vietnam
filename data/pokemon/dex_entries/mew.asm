@@ -1,5 +1,5 @@
 	db "LOÀI MỚI@" ; species name
-	dw 104, 90 ; height, weight
+	dw 4, 40 ; height, weight
 
 	db   "Vì học được mọi"
 	next "chiêu, người ta"

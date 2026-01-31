@@ -1,5 +1,5 @@
 	db "CHUỘT@" ; species name
-	dw 104, 130 ; height, weight
+	dw 4, 60 ; height, weight
 
 	db   "Khi tức giận, nó"
 	next "ngay lập tức xả"

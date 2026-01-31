@@ -1,5 +1,5 @@
 	db "HÌNH SAO@" ; species name
-	dw 207, 760 ; height, weight
+	dw 8, 345 ; height, weight
 
 	db   "Khi sao lấp lánh"
 	next "ban đêm, nó nổi"

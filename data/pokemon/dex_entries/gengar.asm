@@ -1,5 +1,5 @@
 	db "BÓNG TỐI@" ; species name
-	dw 411, 890 ; height, weight
+	dw 15, 405 ; height, weight
 
 	db   "Ẩn trong bóng"
 	next "người ban đêm,"

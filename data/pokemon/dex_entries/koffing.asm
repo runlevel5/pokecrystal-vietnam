@@ -1,5 +1,5 @@
 	db "KHÍ ĐỘC@" ; species name
-	dw 200, 20 ; height, weight
+	dw 6, 10 ; height, weight
 
 	db   "Nếu đến gần khi"
 	next "nó xả khí độc, có"

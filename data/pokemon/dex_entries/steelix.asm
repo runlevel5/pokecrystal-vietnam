@@ -1,5 +1,5 @@
 	db "RẮN SẮT@" ; species name
-	dw 3002, 8820 ; height, weight
+	dw 92, 4000 ; height, weight
 
 	db   "Nhiều hạt kim"
 	next "loại nhỏ phủ trên"

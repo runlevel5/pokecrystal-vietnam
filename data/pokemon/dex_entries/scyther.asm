@@ -1,5 +1,5 @@
 	db "BỌ NGỰA@" ; species name
-	dw 411, 1230 ; height, weight
+	dw 15, 560 ; height, weight
 
 	db   "Nó rất tự hào về"
 	next "tốc độ. Nó nhanh"

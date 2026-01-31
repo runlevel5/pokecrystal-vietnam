@@ -1,5 +1,5 @@
 	db "RỒNG@" ; species name
-	dw 511, 3350 ; height, weight
+	dw 18, 1520 ; height, weight
 
 	db   "Nó tích trữ năng"
 	next "lượng bằng cách"

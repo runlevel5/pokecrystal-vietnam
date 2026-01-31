@@ -1,5 +1,5 @@
 	db "SÂU@" ; species name
-	dw 100, 60 ; height, weight
+	dw 3, 29 ; height, weight
 
 	db   "Nó bò vào tán lá"
 	next "nơi nó ngụy trang"

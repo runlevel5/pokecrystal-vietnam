@@ -1,5 +1,5 @@
 	db "HOA@" ; species name
-	dw 204, 90 ; height, weight
+	dw 7, 40 ; height, weight
 
 	db   "Nếu phát hiện bất"
 	next "cứ thứ gì cử"

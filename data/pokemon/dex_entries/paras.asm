@@ -1,5 +1,5 @@
 	db "NẤM@" ; species name
-	dw 100, 120 ; height, weight
+	dw 3, 54 ; height, weight
 
 	db   "Nấm đông trùng"
 	next "mọc trên lưng nó"

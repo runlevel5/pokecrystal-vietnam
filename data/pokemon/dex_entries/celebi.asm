@@ -1,5 +1,5 @@
 	db "DU HÀNH@" ; species name
-	dw 200, 110 ; height, weight
+	dw 6, 50 ; height, weight
 
 	db   "Được tôn kính là"
 	next "thần hộ mệnh của"

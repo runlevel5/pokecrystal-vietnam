@@ -1,5 +1,5 @@
 	db "DUNG NHAM@" ; species name
-	dw 207, 1210 ; height, weight
+	dw 8, 550 ; height, weight
 
 	db   "Thân nó nóng như"
 	next "dung nham và luôn"

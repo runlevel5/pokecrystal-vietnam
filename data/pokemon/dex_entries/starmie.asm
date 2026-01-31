@@ -1,5 +1,5 @@
 	db "BÍ ẨN@" ; species name
-	dw 307, 1760 ; height, weight
+	dw 11, 800 ; height, weight
 
 	db   "Người ta nói nó"
 	next "dùng lõi bảy màu"

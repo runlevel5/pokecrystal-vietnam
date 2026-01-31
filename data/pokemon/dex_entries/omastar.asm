@@ -1,5 +1,5 @@
 	db "XOẮN ỐC@" ; species name
-	dw 303, 770 ; height, weight
+	dw 10, 350 ; height, weight
 
 	db   "Vỏ nặng khiến nó"
 	next "chỉ với tới thức"

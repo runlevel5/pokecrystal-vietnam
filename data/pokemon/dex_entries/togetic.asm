@@ -1,5 +1,5 @@
 	db "HẠNH PHÚC@" ; species name
-	dw 200, 70 ; height, weight
+	dw 6, 32 ; height, weight
 
 	db   "Dù không vỗ cánh"
 	next "nhiều, nó có thể"

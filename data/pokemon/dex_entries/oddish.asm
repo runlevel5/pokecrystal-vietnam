@@ -1,5 +1,5 @@
 	db "CỎ DẠI@" ; species name
-	dw 108, 120 ; height, weight
+	dw 5, 54 ; height, weight
 
 	db   "Ban ngày, nó ở"
 	next "dưới lòng đất"

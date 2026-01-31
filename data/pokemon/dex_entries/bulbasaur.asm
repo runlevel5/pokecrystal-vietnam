@@ -1,5 +1,5 @@
 	db "HẠT GIỐNG@" ; species name
-	dw 204, 150 ; height, weight
+	dw 7, 69 ; height, weight
 
 	db   "Khi còn nhỏ, nó"
 	next "dùng chất dinh"

@@ -1,5 +1,5 @@
 	db "HỌA SĨ@" ; species name
-	dw 311, 1280 ; height, weight
+	dw 12, 580 ; height, weight
 
 	db   "Màu của chất dịch"
 	next "bí ẩn tiết ra từ"

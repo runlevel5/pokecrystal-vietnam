@@ -1,5 +1,5 @@
 	db "DƠI@" ; species name
-	dw 207, 170 ; height, weight
+	dw 8, 75 ; height, weight
 
 	db   "Ban ngày, nó tụ"
 	next "tập với những con"

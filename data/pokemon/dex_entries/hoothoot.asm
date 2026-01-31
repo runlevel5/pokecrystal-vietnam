@@ -1,5 +1,5 @@
 	db "CÚ@" ; species name
-	dw 204, 470 ; height, weight
+	dw 7, 212 ; height, weight
 
 	db   "Nó bắt đầu kêu"
 	next "cùng giờ mỗi"

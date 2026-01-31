@@ -1,5 +1,5 @@
 	db "HẠT GIỐNG@" ; species name
-	dw 303, 290 ; height, weight
+	dw 10, 130 ; height, weight
 
 	db   "Nụ trên lưng nó"
 	next "lớn lên khi hấp"

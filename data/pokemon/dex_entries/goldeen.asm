@@ -1,5 +1,5 @@
 	db "CÁ VÀNG@" ; species name
-	dw 200, 330 ; height, weight
+	dw 6, 150 ; height, weight
 
 	db   "Mùa sinh sản,"
 	next "chúng bơi duyên"

@@ -1,5 +1,5 @@
 	db "CÁI KÉO@" ; species name
-	dw 511, 2600 ; height, weight
+	dw 18, 1180 ; height, weight
 
 	db   "Kìm chứa thép"
 	next "của #MON này"

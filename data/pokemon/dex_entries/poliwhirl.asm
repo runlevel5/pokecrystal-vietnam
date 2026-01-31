@@ -1,5 +1,5 @@
 	db "NÒN NOC@" ; species name
-	dw 303, 440 ; height, weight
+	dw 10, 200 ; height, weight
 
 	db   "Dù giỏi đi bộ, nó"
 	next "thích sống dưới"

@@ -1,5 +1,5 @@
 	db "NÒN NOC@" ; species name
-	dw 200, 270 ; height, weight
+	dw 6, 124 ; height, weight
 
 	db   "Xoắn ốc trên bụng"
 	next "là nội tạng hiện"

@@ -1,5 +1,5 @@
 	db "BƯỚM@" ; species name
-	dw 307, 710 ; height, weight
+	dw 11, 320 ; height, weight
 
 	db   "Nó bay từ hoa này"
 	next "sang hoa kia để"

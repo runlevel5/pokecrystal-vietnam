@@ -1,5 +1,5 @@
 	db "SIÊU LỰC@" ; species name
-	dw 411, 1550 ; height, weight
+	dw 15, 705 ; height, weight
 
 	db   "#MON cứng cỏi"
 	next "này luôn tập"

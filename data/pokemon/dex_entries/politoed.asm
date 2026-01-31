@@ -1,5 +1,5 @@
 	db "ẾCH@" ; species name
-	dw 307, 750 ; height, weight
+	dw 11, 339 ; height, weight
 
 	db   "Khi nó phồng cổ"
 	next "lên kêu, POLIWAG"

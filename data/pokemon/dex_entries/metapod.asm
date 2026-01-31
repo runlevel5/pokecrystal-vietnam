@@ -1,5 +1,5 @@
 	db "KÉN@" ; species name
-	dw 204, 220 ; height, weight
+	dw 7, 99 ; height, weight
 
 	db   "Đây là dạng tiền"
 	next "tiến hóa. Ở giai"

@@ -1,5 +1,5 @@
 	db "ĐÁ@" ; species name
-	dw 104, 440 ; height, weight
+	dw 4, 200 ; height, weight
 
 	db   "Tự hào về thân"
 	next "hình cứng cáp,"

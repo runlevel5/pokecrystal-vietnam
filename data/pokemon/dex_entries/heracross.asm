@@ -1,5 +1,5 @@
 	db "MỘT SỪNG@" ; species name
-	dw 411, 1190 ; height, weight
+	dw 15, 540 ; height, weight
 
 	db   "Với sức mạnh"
 	next "Hercules, nó có"

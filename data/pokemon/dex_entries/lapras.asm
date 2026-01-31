@@ -1,5 +1,5 @@
 	db "VẬN CHUYỂN@" ; species name
-	dw 802, 4850 ; height, weight
+	dw 25, 2200 ; height, weight
 
 	db   "#MON hiền lành"
 	next "này thích chở"

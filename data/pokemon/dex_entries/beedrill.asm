@@ -1,5 +1,5 @@
 	db "ONG ĐỘC@" ; species name
-	dw 303, 650 ; height, weight
+	dw 10, 295 ; height, weight
 
 	db   "Nó dùng ngòi độc"
 	next "sắc nhọn để đánh"

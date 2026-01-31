@@ -1,5 +1,5 @@
 	db "HÀM LỚN@" ; species name
-	dw 307, 550 ; height, weight
+	dw 11, 250 ; height, weight
 
 	db   "Đầu răng nanh"
 	next "nghiêng về sau."

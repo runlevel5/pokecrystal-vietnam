@@ -1,5 +1,5 @@
 	db "TIÊN@" ; species name
-	dw 403, 880 ; height, weight
+	dw 13, 400 ; height, weight
 
 	db   "Được cho là sống"
 	next "ở núi xa xôi,"

@@ -1,5 +1,5 @@
 	db "NGỰA LỬA@" ; species name
-	dw 507, 2090 ; height, weight
+	dw 17, 950 ; height, weight
 
 	db   "Nó thích phi nước"
 	next "đại. Càng nhanh,"

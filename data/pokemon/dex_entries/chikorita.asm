@@ -1,5 +1,5 @@
 	db "LÁ@" ; species name
-	dw 211, 140 ; height, weight
+	dw 9, 64 ; height, weight
 
 	db   "Nó thích tắm nắng"
 	next "Nó dùng chiếc lá"

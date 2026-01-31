@@ -1,5 +1,5 @@
 	db "BÒ SỮA@" ; species name
-	dw 311, 1660 ; height, weight
+	dw 12, 755 ; height, weight
 
 	db   "Để vắt sữa"
 	next "MILTANK, người ta"

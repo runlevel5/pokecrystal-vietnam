@@ -1,5 +1,5 @@
 	db "HAI MẢNH@" ; species name
-	dw 411, 2920 ; height, weight
+	dw 15, 1325 ; height, weight
 
 	db   "Ngay cả tên lửa"
 	next "cũng không phá"

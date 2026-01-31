@@ -1,5 +1,5 @@
 	db "NGỰA LỬA@" ; species name
-	dw 303, 660 ; height, weight
+	dw 10, 300 ; height, weight
 
 	db   "Tập nhảy qua cỏ"
 	next "mọc cao hơn mỗi"

@@ -1,5 +1,5 @@
 	db "CÔN TRÙNG@" ; species name
-	dw 303, 660 ; height, weight
+	dw 10, 300 ; height, weight
 
 	db   "Bọ nhỏ nó ăn chỉ"
 	next "xuất hiện ban đêm"

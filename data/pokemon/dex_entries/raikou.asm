@@ -1,5 +1,5 @@
 	db "SẤM SÉT@" ; species name
-	dw 603, 3920 ; height, weight
+	dw 19, 1780 ; height, weight
 
 	db   "#MON dữ tợn này"
 	next "tích điện trong"

@@ -1,5 +1,5 @@
 	db "ĐẤM@" ; species name
-	dw 407, 1110 ; height, weight
+	dw 14, 502 ; height, weight
 
 	db   "Để tăng sức mạnh"
 	next "các đòn đấm, nó"

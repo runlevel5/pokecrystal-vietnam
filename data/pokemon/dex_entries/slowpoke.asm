@@ -1,5 +1,5 @@
 	db "ĐỜĐẪN@" ; species name
-	dw 311, 790 ; height, weight
+	dw 12, 360 ; height, weight
 
 	db   "Nó luôn lơ đãng"
 	next "đến nỗi không"

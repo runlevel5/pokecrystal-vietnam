@@ -1,5 +1,5 @@
 	db "HẠT GIỐNG@" ; species name
-	dw 607, 2210 ; height, weight
+	dw 20, 1000 ; height, weight
 
 	db   "Khi sưởi ấm và"
 	next "hấp thụ ánh nắng,"

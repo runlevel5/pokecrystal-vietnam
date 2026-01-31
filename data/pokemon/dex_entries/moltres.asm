@@ -1,5 +1,5 @@
 	db "LỬA@" ; species name
-	dw 607, 1320 ; height, weight
+	dw 20, 600 ; height, weight
 
 	db   "#MON chim huyền"
 	next "thoại. Người ta"

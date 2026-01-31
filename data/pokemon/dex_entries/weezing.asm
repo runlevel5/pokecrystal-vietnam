@@ -1,5 +1,5 @@
 	db "KHÍ ĐỘC@" ; species name
-	dw 311, 210 ; height, weight
+	dw 12, 95 ; height, weight
 
 	db   "Khi hít khí độc"
 	next "từ rác, thân nó"

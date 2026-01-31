@@ -1,5 +1,5 @@
 	db "KHOAN@" ; species name
-	dw 403, 1320 ; height, weight
+	dw 13, 600 ; height, weight
 
 	db   "Vảy cứng bao phủ"
 	next "cơ thể khỏe mạnh"

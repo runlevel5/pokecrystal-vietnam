@@ -1,5 +1,5 @@
 	db "THẰN LẰN@" ; species name
-	dw 200, 190 ; height, weight
+	dw 6, 85 ; height, weight
 
 	db   "Nếu khỏe mạnh,"
 	next "ngọn lửa ở đuôi"

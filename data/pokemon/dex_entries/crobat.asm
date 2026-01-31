@@ -1,5 +1,5 @@
 	db "DƠI@" ; species name
-	dw 511, 1650 ; height, weight
+	dw 18, 750 ; height, weight
 
 	db   "Do theo đuổi bay"
 	next "nhanh và im lặng"

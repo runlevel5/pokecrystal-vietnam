@@ -1,5 +1,5 @@
 	db "ĐIỆN@" ; species name
-	dw 503, 1160 ; height, weight
+	dw 16, 526 ; height, weight
 
 	db   "#MON chim huyền"
 	next "thoại. Sét do"

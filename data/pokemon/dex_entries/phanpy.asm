@@ -1,5 +1,5 @@
 	db "MŨI DÀI@" ; species name
-	dw 108, 740 ; height, weight
+	dw 5, 335 ; height, weight
 
 	db   "Vào buổi sáng"
 	next "vắng vẻ, nó lên"

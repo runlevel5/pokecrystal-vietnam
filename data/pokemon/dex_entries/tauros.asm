@@ -1,5 +1,5 @@
 	db "BÒ TÓT HOANG@" ; species name
-	dw 407, 1950 ; height, weight
+	dw 14, 884 ; height, weight
 
 	db   "#MON hung dữ"
 	next "này đánh nhau với"

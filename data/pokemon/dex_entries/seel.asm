@@ -1,5 +1,5 @@
 	db "SƯ TỬ BIỂN@" ; species name
-	dw 307, 1980 ; height, weight
+	dw 11, 900 ; height, weight
 
 	db   "Bộ lông xanh nhạt"
 	next "bảo vệ nó khỏi"

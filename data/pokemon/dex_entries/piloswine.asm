@@ -1,5 +1,5 @@
 	db "LỢN@" ; species name
-	dw 307, 1230 ; height, weight
+	dw 11, 558 ; height, weight
 
 	db   "Dù chân ngắn,"
 	next "móng chắc khỏe"

@@ -1,5 +1,5 @@
 	db "CỰC QUANG@" ; species name
-	dw 607, 4120 ; height, weight
+	dw 20, 1870 ; height, weight
 
 	db   "#MON thần thánh"
 	next "này bay khắp thế"

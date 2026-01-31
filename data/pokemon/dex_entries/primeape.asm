@@ -1,5 +1,5 @@
 	db "KHỈ LỢN@" ; species name
-	dw 303, 710 ; height, weight
+	dw 10, 320 ; height, weight
 
 	db   "Nó sẽ đánh bất"
 	next "cứ ai chọc giận"

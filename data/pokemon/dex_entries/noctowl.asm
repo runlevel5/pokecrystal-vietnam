@@ -1,5 +1,5 @@
 	db "CÚ@" ; species name
-	dw 503, 900 ; height, weight
+	dw 16, 408 ; height, weight
 
 	db   "Bộ lông cực mềm"
 	next "không gây tiếng"

@@ -1,5 +1,5 @@
 	db "LẶN SÂU@" ; species name
-	dw 1701, 4760 ; height, weight
+	dw 52, 2160 ; height, weight
 
 	db   "Nó có khả năng"
 	next "phi thường để làm"

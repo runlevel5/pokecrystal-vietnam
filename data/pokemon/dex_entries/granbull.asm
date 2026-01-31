@@ -1,5 +1,5 @@
 	db "TIÊN@" ; species name
-	dw 407, 1070 ; height, weight
+	dw 14, 487 ; height, weight
 
 	db   "Nó có thể làm hầu"
 	next "hết #MON bỏ"

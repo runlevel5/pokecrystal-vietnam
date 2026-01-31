@@ -1,5 +1,5 @@
 	db "MÈO CÀO@" ; species name
-	dw 104, 90 ; height, weight
+	dw 4, 42 ; height, weight
 
 	db   "Nó thích những"
 	next "thứ lấp lánh. Khi"

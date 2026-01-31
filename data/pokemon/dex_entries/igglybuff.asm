@@ -1,5 +1,5 @@
 	db "BÓNG BAY@" ; species name
-	dw 100, 20 ; height, weight
+	dw 3, 10 ; height, weight
 
 	db   "Thay vì đi bằng"
 	next "chân ngắn, nó di"

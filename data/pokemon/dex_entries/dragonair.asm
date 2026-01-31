@@ -1,5 +1,5 @@
 	db "RỒNG@" ; species name
-	dw 1301, 360 ; height, weight
+	dw 40, 165 ; height, weight
 
 	db   "Nó được gọi là"
 	next "#MON thần thánh"

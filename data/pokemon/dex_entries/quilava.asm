@@ -1,5 +1,5 @@
 	db "NÚI LỬA@" ; species name
-	dw 211, 420 ; height, weight
+	dw 9, 190 ; height, weight
 
 	db   "Trước trận đấu,"
 	next "nó quay lưng lại"

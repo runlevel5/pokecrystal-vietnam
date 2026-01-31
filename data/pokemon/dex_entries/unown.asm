@@ -1,5 +1,5 @@
 	db "BIỂU TƯỢNG@" ; species name
-	dw 108, 110 ; height, weight
+	dw 5, 50 ; height, weight
 
 	db   "Vì có nhiều loại"
 	next "UNOWN khác nhau,"

@@ -1,5 +1,5 @@
 	db "CHIM BA ĐẦU@" ; species name
-	dw 511, 1880 ; height, weight
+	dw 18, 852 ; height, weight
 
 	db   "Kẻ thù nào rời"
 	next "mắt khỏi bất kỳ"

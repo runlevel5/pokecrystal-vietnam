@@ -1,5 +1,5 @@
 	db "SƯ TỬ BIỂN@" ; species name
-	dw 507, 2650 ; height, weight
+	dw 17, 1200 ; height, weight
 
 	db   "Ban ngày nó ngủ"
 	next "dưới biển nông,"

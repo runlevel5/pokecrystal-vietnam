@@ -1,5 +1,5 @@
 	db "RỒNG@" ; species name
-	dw 104, 180 ; height, weight
+	dw 4, 80 ; height, weight
 
 	db   "Khi ở nơi an"
 	next "toàn, chúng vui"

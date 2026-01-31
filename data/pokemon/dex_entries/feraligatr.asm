@@ -1,5 +1,5 @@
 	db "HÀM LỚN@" ; species name
-	dw 707, 1960 ; height, weight
+	dw 23, 888 ; height, weight
 
 	db   "Dù thân hình đồ"
 	next "sộ, đôi chân sau"

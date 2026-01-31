@@ -1,5 +1,5 @@
 	db "MẶT TRỜI@" ; species name
-	dw 207, 190 ; height, weight
+	dw 8, 85 ; height, weight
 
 	db   "Khi mùa nóng đến,"
 	next "cánh hoa trên mặt"

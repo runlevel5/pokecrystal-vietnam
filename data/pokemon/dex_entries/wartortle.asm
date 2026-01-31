@@ -1,5 +1,5 @@
 	db "RÙA@" ; species name
-	dw 303, 500 ; height, weight
+	dw 10, 225 ; height, weight
 
 	db   "Đuôi lông dài"
 	next "của nó là biểu"

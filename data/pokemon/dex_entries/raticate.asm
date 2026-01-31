@@ -1,5 +1,5 @@
 	db "CHUỘT@" ; species name
-	dw 204, 410 ; height, weight
+	dw 7, 185 ; height, weight
 
 	db   "Màng ở chân sau"
 	next "giúp nó bơi qua"

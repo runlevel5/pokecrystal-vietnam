@@ -1,5 +1,5 @@
 	db "TỐI@" ; species name
-	dw 407, 770 ; height, weight
+	dw 14, 350 ; height, weight
 
 	db   "Ngọn lửa có mùi"
 	next "hăng phun ra từ"

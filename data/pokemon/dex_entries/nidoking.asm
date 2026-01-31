@@ -1,5 +1,5 @@
 	db "KHOAN@" ; species name
-	dw 407, 1370 ; height, weight
+	dw 14, 620 ; height, weight
 
 	db   "Nó dùng cánh tay,"
 	next "chân và đuôi dày"

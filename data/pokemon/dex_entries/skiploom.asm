@@ -1,5 +1,5 @@
 	db "HẠT BÔNG@" ; species name
-	dw 200, 20 ; height, weight
+	dw 6, 10 ; height, weight
 
 	db   "Trời mưa là nó"
 	next "đóng hoa và trốn"

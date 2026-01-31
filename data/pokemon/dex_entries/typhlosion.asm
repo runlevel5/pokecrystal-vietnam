@@ -1,5 +1,5 @@
 	db "NÚI LỬA@" ; species name
-	dw 507, 1750 ; height, weight
+	dw 17, 795 ; height, weight
 
 	db   "Khi nhiệt từ thân"
 	next "làm không khí"

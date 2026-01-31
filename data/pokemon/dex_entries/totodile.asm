@@ -1,5 +1,5 @@
 	db "HÀM LỚN@" ; species name
-	dw 200, 210 ; height, weight
+	dw 6, 95 ; height, weight
 
 	db   "Sinh vật thô bạo"
 	next "này cắn bất cứ"

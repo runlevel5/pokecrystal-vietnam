@@ -1,5 +1,5 @@
 	db "RẮN@" ; species name
-	dw 607, 150 ; height, weight
+	dw 20, 69 ; height, weight
 
 	db   "Nó rung đầu lưỡi"
 	next "để tìm mùi con"

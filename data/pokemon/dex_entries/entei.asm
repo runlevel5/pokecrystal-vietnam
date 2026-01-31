@@ -1,5 +1,5 @@
 	db "NÚI LỬA@" ; species name
-	dw 607, 4370 ; height, weight
+	dw 21, 1980 ; height, weight
 
 	db   "#MON mạnh mẽ"
 	next "này chạy khắp"

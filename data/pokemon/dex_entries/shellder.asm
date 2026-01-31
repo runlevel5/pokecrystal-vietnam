@@ -1,5 +1,5 @@
 	db "HAI MẢNH@" ; species name
-	dw 100, 90 ; height, weight
+	dw 3, 40 ; height, weight
 
 	db   "Kẹp vào đối thủ"
 	next "sẽ lộ điểm yếu,"

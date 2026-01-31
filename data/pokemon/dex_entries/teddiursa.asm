@@ -1,5 +1,5 @@
 	db "GẤU NHỎ@" ; species name
-	dw 200, 190 ; height, weight
+	dw 6, 88 ; height, weight
 
 	db   "Nó luôn liếm mật."
 	next "Lòng bàn tay có"

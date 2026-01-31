@@ -1,5 +1,5 @@
 	db "BÓNG BAY@" ; species name
-	dw 108, 90 ; height, weight
+	dw 5, 39 ; height, weight
 
 	db   "Khi gặp đối thủ"
 	next "lớn hơn, nó nuốt"

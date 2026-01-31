@@ -1,5 +1,5 @@
 	db "ỐC MƯỢN HỒN@" ; species name
-	dw 503, 1730 ; height, weight
+	dw 16, 785 ; height, weight
 
 	db   "SHELLDER bám vào"
 	next "không buông vì"

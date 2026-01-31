@@ -1,5 +1,5 @@
 	db "CHUỘT@" ; species name
-	dw 207, 660 ; height, weight
+	dw 8, 300 ; height, weight
 
 	db   "Nếu túi điện cạn"
 	next "kiệt, nó giơ đuôi"

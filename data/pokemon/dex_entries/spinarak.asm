@@ -1,5 +1,5 @@
 	db "NHẢTƠ@" ; species name
-	dw 108, 190 ; height, weight
+	dw 5, 85 ; height, weight
 
 	db   "Nếu con mồi mắc"
 	next "vào tổ tơ, nó"

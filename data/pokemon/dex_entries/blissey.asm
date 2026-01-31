@@ -1,5 +1,5 @@
 	db "HẠNH PHÚC@" ; species name
-	dw 411, 1030 ; height, weight
+	dw 15, 468 ; height, weight
 
 	db   "Cắn một miếng"
 	next "trứng ngon lành"

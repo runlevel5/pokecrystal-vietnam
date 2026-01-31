@@ -1,5 +1,5 @@
 	db "RẮN ĐÁ@" ; species name
-	dw 2810, 4630 ; height, weight
+	dw 88, 2100 ; height, weight
 
 	db   "Khi đào xuyên"
 	next "mặt đất, nó hấp"

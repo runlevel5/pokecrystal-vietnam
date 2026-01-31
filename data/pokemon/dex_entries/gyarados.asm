@@ -1,5 +1,5 @@
 	db "TÀN BẠO@" ; species name
-	dw 2104, 5180 ; height, weight
+	dw 65, 2350 ; height, weight
 
 	db   "Nó xuất hiện mỗi"
 	next "khi có xung đột"

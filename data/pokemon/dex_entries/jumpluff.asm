@@ -1,5 +1,5 @@
 	db "HẠT BÔNG@" ; species name
-	dw 207, 70 ; height, weight
+	dw 8, 30 ; height, weight
 
 	db   "Kể cả trong gió"
 	next "dữ dội, nó có thể"

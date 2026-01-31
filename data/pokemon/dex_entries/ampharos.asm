@@ -1,5 +1,5 @@
 	db "ÁNH SÁNG@" ; species name
-	dw 407, 1360 ; height, weight
+	dw 14, 615 ; height, weight
 
 	db   "Khi trời tối, ánh"
 	next "sáng từ đuôi"

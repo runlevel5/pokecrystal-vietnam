@@ -1,5 +1,5 @@
 	db "TIÊN@" ; species name
-	dw 200, 170 ; height, weight
+	dw 6, 78 ; height, weight
 
 	db   "Thực ra nó rất"
 	next "nhát. Nó gầm gừ"

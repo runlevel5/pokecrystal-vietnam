@@ -1,5 +1,5 @@
 	db "NGỌN LỬA@" ; species name
-	dw 307, 420 ; height, weight
+	dw 11, 190 ; height, weight
 
 	db   "Nếu bị kích động"
 	next "trong trận đấu,"

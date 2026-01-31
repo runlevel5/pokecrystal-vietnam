@@ -1,5 +1,5 @@
 	db "NGOẠI CẢM@" ; species name
-	dw 211, 430 ; height, weight
+	dw 9, 195 ; height, weight
 
 	db   "Nó tự thôi miên"
 	next "để có thể dịch"

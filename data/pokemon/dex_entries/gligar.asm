@@ -1,5 +1,5 @@
 	db "BỌ CẠP BAY@" ; species name
-	dw 307, 1430 ; height, weight
+	dw 11, 648 ; height, weight
 
 	db   "Nó làm tổ trên"
 	next "vách đá dựng"

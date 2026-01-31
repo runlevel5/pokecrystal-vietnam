@@ -1,5 +1,5 @@
 	db "LEN@" ; species name
-	dw 200, 170 ; height, weight
+	dw 6, 78 ; height, weight
 
 	db   "Nó trữ nhiều"
 	next "không khí trong"

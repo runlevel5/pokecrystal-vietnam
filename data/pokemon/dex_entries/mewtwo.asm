@@ -1,5 +1,5 @@
 	db "DI TRUYỀN@" ; species name
-	dw 607, 2690 ; height, weight
+	dw 20, 1220 ; height, weight
 
 	db   "Người ta nói nó"
 	next "nghỉ ngơi trong"

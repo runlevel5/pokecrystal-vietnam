@@ -1,5 +1,5 @@
 	db "SIÊU LỰC@" ; species name
-	dw 207, 430 ; height, weight
+	dw 8, 195 ; height, weight
 
 	db   "Nó tập luyện bằng"
 	next "cách nâng đá trên"

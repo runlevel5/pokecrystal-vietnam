@@ -1,5 +1,5 @@
 	db "CHUỘT NHỎ@" ; species name
-	dw 100, 40 ; height, weight
+	dw 3, 20 ; height, weight
 
 	db   "Nó không giỏi"
 	next "trữ điện. Bất kỳ"

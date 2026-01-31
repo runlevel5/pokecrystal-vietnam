@@ -1,5 +1,5 @@
 	db "RỒNG@" ; species name
-	dw 311, 550 ; height, weight
+	dw 12, 250 ; height, weight
 
 	db   "Con đực nuôi con."
 	next "Nếu bị tiếp cận,"

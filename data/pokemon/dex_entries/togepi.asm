@@ -1,5 +1,5 @@
 	db "GAI TRÒN@" ; species name
-	dw 100, 30 ; height, weight
+	dw 3, 15 ; height, weight
 
 	db   "Nó được xem là"
 	next "biểu tượng may"

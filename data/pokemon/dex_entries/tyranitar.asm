@@ -1,5 +1,5 @@
 	db "GIÁP SẮT@" ; species name
-	dw 607, 4450 ; height, weight
+	dw 20, 2020 ; height, weight
 
 	db   "Chỉ với một bàn"
 	next "tay mạnh mẽ, nó"

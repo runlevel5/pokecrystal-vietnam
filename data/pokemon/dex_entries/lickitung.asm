@@ -1,5 +1,5 @@
 	db "LIẾM@" ; species name
-	dw 311, 1440 ; height, weight
+	dw 12, 655 ; height, weight
 
 	db   "Nó có cái lưỡi"
 	next "dài hơn 2 mét."

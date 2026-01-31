@@ -1,5 +1,5 @@
 	db "KÉN@" ; species name
-	dw 200, 220 ; height, weight
+	dw 6, 100 ; height, weight
 
 	db   "Gần như không thể"
 	next "di chuyển, nó dựa"

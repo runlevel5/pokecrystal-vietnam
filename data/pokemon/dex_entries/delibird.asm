@@ -1,5 +1,5 @@
 	db "GIAO HÀNG@" ; species name
-	dw 211, 350 ; height, weight
+	dw 9, 160 ; height, weight
 
 	db   "Nó luôn mang thức"
 	next "ăn theo bên mình"

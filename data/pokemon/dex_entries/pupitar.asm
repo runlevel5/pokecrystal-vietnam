@@ -1,5 +1,5 @@
 	db "VỎ CỨNG@" ; species name
-	dw 311, 3350 ; height, weight
+	dw 12, 1520 ; height, weight
 
 	db   "Nó không đứng yên"
 	next "dù đang là nhộng."

@@ -1,5 +1,5 @@
 	db "SIÊU LỰC@" ; species name
-	dw 503, 2870 ; height, weight
+	dw 16, 1300 ; height, weight
 
 	db   "Với bốn cánh tay"
 	next "phản ứng nhanh"

@@ -1,5 +1,5 @@
 	db "RỒNG@" ; species name
-	dw 511, 70 ; height, weight
+	dw 18, 33 ; height, weight
 
 	db   "Nó lột nhiều lớp"
 	next "da khi lớn lên."

@@ -1,5 +1,5 @@
 	db "GIỮ XƯƠNG@" ; species name
-	dw 303, 990 ; height, weight
+	dw 10, 450 ; height, weight
 
 	db   "Đâu đó trên thế"
 	next "giới có nghĩa"

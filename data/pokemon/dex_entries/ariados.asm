@@ -1,5 +1,5 @@
 	db "CHÂN DÀI@" ; species name
-	dw 307, 740 ; height, weight
+	dw 11, 335 ; height, weight
 
 	db   "Thay vì làm tổ"
 	next "ở một nơi, nó"

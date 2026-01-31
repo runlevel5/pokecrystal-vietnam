@@ -1,5 +1,5 @@
 	db "RÍT@" ; species name
-	dw 204, 20 ; height, weight
+	dw 7, 10 ; height, weight
 
 	db   "Nó thích xem"
 	next "người bị nó dọa."

@@ -1,5 +1,5 @@
 	db "ẢO@" ; species name
-	dw 200, 720 ; height, weight
+	dw 6, 325 ; height, weight
 
 	db   "#MON nhân tạo"
 	next "này tiến hóa từ"

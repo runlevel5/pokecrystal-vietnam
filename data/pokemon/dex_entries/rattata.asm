@@ -1,5 +1,5 @@
 	db "CHUỘT@" ; species name
-	dw 100, 80 ; height, weight
+	dw 3, 35 ; height, weight
 
 	db   "Sức sống ấn tượng"
 	next "của #MON này"

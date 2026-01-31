@@ -1,5 +1,5 @@
 	db "NGỦ@" ; species name
-	dw 611, 10140 ; height, weight
+	dw 21, 4600 ; height, weight
 
 	db   "Dạ dày #MON này"
 	next "quá khỏe, ngay"

@@ -1,5 +1,5 @@
 	db "KHÍ@" ; species name
-	dw 403, 2 ; height, weight
+	dw 13, 1 ; height, weight
 
 	db   "Nó bao bọc đối"
 	next "thủ trong thân"

@@ -1,5 +1,5 @@
 	db "CẦU VỒNG@" ; species name
-	dw 1206, 4390 ; height, weight
+	dw 38, 1990 ; height, weight
 
 	db   "Nó sẽ hiện ra"
 	next "trước HLV có tấm"

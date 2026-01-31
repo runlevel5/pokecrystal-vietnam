@@ -1,5 +1,5 @@
 	db "KIÊN NHẪN@" ; species name
-	dw 403, 630 ; height, weight
+	dw 13, 285 ; height, weight
 
 	db   "Để giấu đuôi đen,"
 	next "nó sống trong"

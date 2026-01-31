@@ -1,5 +1,5 @@
 	db "SÒ@" ; species name
-	dw 403, 890 ; height, weight
+	dw 13, 405 ; height, weight
 
 	db   "Nó có thể bơi"
 	next "nhanh trong nước"

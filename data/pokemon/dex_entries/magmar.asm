@@ -1,5 +1,5 @@
 	db "PHUN LỬA@" ; species name
-	dw 403, 980 ; height, weight
+	dw 13, 445 ; height, weight
 
 	db   "Nó hoạt động"
 	next "nhiều hơn ở vùng"

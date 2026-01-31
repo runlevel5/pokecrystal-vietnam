@@ -1,5 +1,5 @@
 	db "TIÊN@" ; species name
-	dw 200, 170 ; height, weight
+	dw 6, 75 ; height, weight
 
 	db   "Dù hiếm khi thấy,"
 	next "nó dễ phát hiện"

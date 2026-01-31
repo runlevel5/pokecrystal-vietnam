@@ -1,5 +1,5 @@
 	db "SÂU BỌNG@" ; species name
-	dw 311, 2770 ; height, weight
+	dw 12, 1258 ; height, weight
 
 	db   "Thường thấy bám"
 	next "trên thân cây mập"

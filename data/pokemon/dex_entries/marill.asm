@@ -1,5 +1,5 @@
 	db "CHUỘT NƯỚC@" ; species name
-	dw 104, 190 ; height, weight
+	dw 4, 85 ; height, weight
 
 	db   "Lông của nó tự"
 	next "nhiên đẩy nước."

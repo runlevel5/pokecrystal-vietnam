@@ -1,5 +1,5 @@
 	db "HOA@" ; species name
-	dw 311, 410 ; height, weight
+	dw 12, 186 ; height, weight
 
 	db   "Bằng cách lắc"
 	next "cánh hoa lớn, nó"

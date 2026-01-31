@@ -1,5 +1,5 @@
 	db "XOẮN ỐC@" ; species name
-	dw 104, 170 ; height, weight
+	dw 4, 75 ; height, weight
 
 	db   "Thời tiền sử, nó"
 	next "bơi dưới đáy"

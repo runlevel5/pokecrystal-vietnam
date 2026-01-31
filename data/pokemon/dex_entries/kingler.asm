@@ -1,5 +1,5 @@
 	db "KÌMCÀNG@" ; species name
-	dw 403, 1320 ; height, weight
+	dw 13, 600 ; height, weight
 
 	db   "Càng khổng lồ rất"
 	next "mạnh, nhưng khi"

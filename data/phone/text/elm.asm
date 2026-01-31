@@ -32,10 +32,10 @@ ElmPhoneCheckingTheEggText:
 	text "A lô, <PLAY_G>?"
 
 	para "Chúng tôi đang"
-	line "kiểm tra EGG. Có"
+	line "kiểm tra TRỨNG."
 
-	para "vẻ đó là một quả"
-	line "EGG #MON."
+	para "Có vẻ đó là một"
+	line "TRỨNG #MON."
 	done
 
 ElmPhoneAssistantText:
@@ -51,7 +51,7 @@ ElmPhoneAssistantText:
 ElmPhoneHowIsTheEggText:
 	text "A lô, <PLAY_G>?"
 
-	para "EGG thế nào rồi?"
+	para "TRỨNG thế nào rồi?"
 	line "Có gì thay đổi ko?"
 
 	para "Nếu có gì xảy ra,"
@@ -60,7 +60,7 @@ ElmPhoneHowIsTheEggText:
 
 ElmPhoneEggHatchedText:
 	text "A lô, <PLAY_G>?"
-	line "EGG thế nào rồi?"
+	line "TRỨNG thế nào rồi?"
 
 	para "Gì? Nó nở rồi?"
 	line "Ồ! Đó là loại"
@@ -76,7 +76,7 @@ ElmPhoneDiscoveredHatchTimeText:
 	para "Tôi vừa có một"
 	line "phát hiện mới."
 
-	para "Thời gian để EGG"
+	para "Thời gian để TRỨNG"
 	line "nở phụ thuộc vào"
 
 	para "từng loại"
@@ -146,7 +146,7 @@ ElmPhoneEggAssistantText:
 	line "Chúng tôi phát"
 
 	para "hiện điều gì đó"
-	line "về EGG!"
+	line "về TRỨNG!"
 
 	para "Trợ lý của tôi ở"
 	line "TT #MON tại"

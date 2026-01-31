@@ -521,8 +521,8 @@ Pokegear_UpdateClock:
 	call PrintTextboxTextAt
 	ret
 
-	db "ごぜん@"
-	db "ごご@"
+	db "SA@"
+	db "CH@"
 
 .GearTodayText:
 	text_far _GearTodayText
@@ -1744,14 +1744,14 @@ NoRadioName:
 	ret
 
 OaksPKMNTalkName:     db "#MON của GS OAK@"
-PokedexShowName:      db "#DEX Show@"
+PokedexShowName:      db "Sô #DEX@"
 PokemonMusicName:     db "Nhạc #MON@"
 LuckyChannelName:     db "Kênh May Mắn@"
 UnownStationName:     db "?????@"
 
 PlacesAndPeopleName:  db "Nơi & Người@"
 LetsAllSingName:      db "Cùng Hát Nào!@"
-PokeFluteStationName: db "# FLUTE@"
+PokeFluteStationName: db "Sáo #MON@"
 
 _TownMap:
 	ld hl, wOptions

@@ -99,45 +99,94 @@ All Pokemon species names remain in English:
 | GYM LEADER | T.LĨNH GYM |
 
 #### 2. Location Names
-Location names are now translated with Vietnamese prefixes:
+Location names are translated with Vietnamese prefixes. Below is the complete list from `data/maps/landmarks.asm`.
 
-**Cities & Towns:**
-| English Pattern | Vietnamese Pattern | Example |
-|-----------------|-------------------|---------|
-| <NAME> CITY | TP. <NAME> | VIOLET CITY → TP. VIOLET |
-| <NAME> TOWN | TRẤN <NAME> | AZALEA TOWN → TRẤN AZALEA |
-
-**Landmarks:**
-| English | Vietnamese |
-|---------|------------|
-| <NAME> TOWER | THÁP <NAME> |
+**Translation Patterns:**
+| English Pattern | Vietnamese Pattern |
+|-----------------|-------------------|
+| <NAME> CITY | TP. <NAME> or TP.<BSP><NAME> |
+| <NAME> TOWN | TRẤN <NAME> or TRẤN<BSP><NAME> |
+| <NAME> TOWER | THÁP <NAME> or THÁP<BSP><NAME> |
 | <NAME> CAVE | ĐỘNG <NAME> or HANG <NAME> |
-| <NAME> FOREST | RỪNG <NAME> |
-| RUINS OF ALPH | TÀN TÍCH ALPH |
-| LAKE OF RAGE | HỒ RAGE |
-| NATIONAL PARK | CV. QUỐC GIA |
-| SLOWPOKE WELL | GIẾNG SLOWPOKE |
-| LIGHTHOUSE | HẢI ĐĂNG |
-| WHIRL ISLANDS | Q.ĐẢO WHIRL |
-| MT.MORTAR | NÚI MORTAR |
-| DRAGON'S DEN | HANG RỒNG |
-| ICE PATH | LỐI BĂNG |
-| SILVER CAVE | HANG BẠC |
-| DARK CAVE | HANG TỐI |
-| POWER PLANT | NHÀ MÁY ĐIỆN |
-| UNDERGROUND | HẦM NGẦM |
-| BATTLE TOWER | THÁP ĐẤU |
-| FAST SHIP | TÀU NHANH |
-| VICTORY ROAD | ĐƯỜNG C.THẮNG |
-| INDIGO PLATEAU | CAO NGUYÊN INDIGO |
-| <NAME> ISLAND | ĐẢO <NAME> |
-
-**Routes:**
-| English | Vietnamese |
-|---------|------------|
+| <NAME> FOREST | RỪNG <NAME> or RỪNG<BSP><NAME> |
+| <NAME> ISLAND | ĐẢO <NAME> or ĐẢO<BSP><NAME> |
 | ROUTE <N> | TUYẾN ĐƯỜNG <N> |
 
-Note: Use abbreviated form TUYẾN <N> when space is limited.
+Note: `<BSP>` is a line break macro used for the map name popup display when names are long.
+
+**Complete Location List (Johto Region):**
+| English | Vietnamese |
+|---------|------------|
+| NEW BARK TOWN | TRẤN NEW BARK |
+| CHERRYGROVE CITY | TP.<BSP>CHERRYGROVE |
+| VIOLET CITY | TP. VIOLET |
+| AZALEA TOWN | TRẤN AZALEA |
+| GOLDENROD CITY | TP.<BSP>GOLDENROD |
+| ECRUTEAK CITY | TP.<BSP>ECRUTEAK |
+| OLIVINE CITY | TP.<BSP>OLIVINE |
+| CIANWOOD CITY | TP.<BSP>CIANWOOD |
+| MAHOGANY TOWN | TRẤN<BSP>MAHOGANY |
+| BLACKTHORN CITY | TP.<BSP>BLACKTHORN |
+| LAKE OF RAGE | HỒ RAGE |
+| SILVER CAVE | HANG BẠC |
+| SPROUT TOWER | THÁP<BSP>SPROUT |
+| RUINS OF ALPH | TÀN TÍCH<BSP>ALPH |
+| UNION CAVE | ĐỘNG UNION |
+| SLOWPOKE WELL | GIẾNG<BSP>SLOWPOKE |
+| RADIO TOWER | THÁP RADIO |
+| NATIONAL PARK | CV.<BSP>QUỐC GIA |
+| TIN TOWER | THÁP THIẾC |
+| BURNED TOWER | THÁP<BSP>CHÁY |
+| LIGHTHOUSE | HẢI ĐĂNG |
+| BATTLE TOWER | THÁP<BSP>ĐẤU |
+| WHIRL ISLANDS | Q.ĐẢO<BSP>WHIRL |
+| MT.MORTAR | NÚI MORTAR |
+| DRAGON'S DEN | HANG<BSP>RỒNG |
+| ICE PATH | LỐI BĂNG |
+| DARK CAVE | HANG TỐI |
+| ILEX FOREST | RỪNG<BSP>ILEX |
+| FAST SHIP | TÀU NHANH |
+| TOHJO FALLS | THÁC TOHJO |
+
+**Complete Location List (Kanto Region):**
+| English | Vietnamese |
+|---------|------------|
+| PALLET TOWN | TRẤN PALLET |
+| VIRIDIAN CITY | TP.<BSP>VIRIDIAN |
+| PEWTER CITY | TP.<BSP>PEWTER |
+| CERULEAN CITY | TP.<BSP>CERULEAN |
+| LAVENDER TOWN | TRẤN<BSP>LAVENDER |
+| VERMILION CITY | TP.<BSP>VERMILION |
+| CELADON CITY | TP.<BSP>CELADON |
+| SAFFRON CITY | TP.<BSP>SAFFRON |
+| FUCHSIA CITY | TP.<BSP>FUCHSIA |
+| CINNABAR ISLAND | ĐẢO<BSP>CINNABAR |
+| INDIGO PLATEAU | CAO NGUYÊN<BSP>INDIGO |
+| VICTORY ROAD | ĐƯỜNG<BSP>C.THẮNG |
+| MT.MOON | NÚI MOON |
+| ROCK TUNNEL | ĐƯỜNG HẦM ĐÁ |
+| POWER PLANT | NHÀ MÁY ĐIỆN |
+| LAV RADIO TOWER | THÁP RADIO<BSP>LAV |
+| SILPH CO. | SILPH CO. |
+| SAFARI ZONE | KHU SAFARI |
+| SEAFOAM ISLANDS | Q.ĐẢO<BSP>SEAFOAM |
+| POKEMON MANSION | DINH THỰ<BSP>#MON |
+| CERULEAN CAVE | ĐỘNG<BSP>CERULEAN |
+| DIGLETT'S CAVE | ĐỘNG<BSP>DIGLETT |
+| VIRIDIAN FOREST | RỪNG<BSP>VIRIDIAN |
+| UNDERGROUND | HẦM NGẦM |
+
+**Routes (All 46 Routes):**
+| English | Vietnamese |
+|---------|------------|
+| ROUTE 1-28 | TUYẾN ĐƯỜNG 1-28 |
+| ROUTE 29-46 | TUYẾN ĐƯỜNG 29-46 |
+
+**Special:**
+| English | Vietnamese |
+|---------|------------|
+| SPECIAL | ĐẶC BIỆT |
+| N/A | N/A |
 
 ### Rationale
 

@@ -106,7 +106,7 @@ Landmarks:
 	landmark 140, 116, FastShipName
 	assert_table_length NUM_LANDMARKS
 
-NewBarkTownName:     db "TRẤN NEW BARK@"
+NewBarkTownName:     db "TRẤN<BSP>NEW BARK@"
 CherrygroveCityName: db "TP.<BSP>CHERRYGROVE@"
 VioletCityName:      db "TP. VIOLET@"
 AzaleaTownName:      db "TRẤN AZALEA@"

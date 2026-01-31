@@ -85,6 +85,7 @@ Note: HP and PP remain in English as they are universal gaming terms.
 All Pokemon species names remain in English:
 - PIKACHU, RATTATA, BELLSPROUT, PIDGEY, TOGEPI, etc.
 - Pokemon nicknames can be Vietnamese (e.g., STRAWBERRY → DÂU)
+- **Exception**: EGG (the placeholder name for unhatched Pokemon) is translated to TRỨNG
 
 #### 6. Special Terms
 - Badge names: ZEPHYRBADGE, HIVEBADGE, etc.

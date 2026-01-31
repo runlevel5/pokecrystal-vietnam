@@ -199,144 +199,141 @@ CopycatSpinAroundMovementData:
 	step_end
 
 CopycatText_Male_1:
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Chào!"
+	line "Bạn thích #MON"
+	cont "không?"
 
-	para "<PLAYER>: Uh, no, I"
-	line "just asked you."
+	para "<PLAYER>: Không,"
+	line "mình hỏi bạn."
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: Hả?"
+	line "Bạn lạ thật!"
 	done
 
 CopycatText_QuickMimicking:
-	text "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	text "COPYCAT: Hừm?"
+	line "Đừng bắt chước?"
 
-	para "But that's my"
-	line "favorite hobby!"
+	para "Nhưng đó là sở"
+	line "thích của tôi mà!"
 	done
 
 CopycatText_Male_2:
-	text "<PLAYER>: Hi!"
-	line "I heard that you"
+	text "<PLAYER>: Chào!"
+	line "Mình nghe bạn làm"
 
-	para "lost your favorite"
-	line "# DOLL."
+	para "mất con búp bê"
+	line "yêu thích."
 
-	para "<PLAYER>: If I find"
-	line "it, you'll give me"
-	cont "a rail PASS?"
+	para "<PLAYER>: Nếu mình"
+	line "tìm được, bạn cho"
+	cont "mình THẺ tàu à?"
 
-	para "<PLAYER>: I'll go"
-	line "find it for you."
+	para "<PLAYER>: Mình sẽ"
+	line "tìm giúp bạn."
 
-	para "You think you lost"
-	line "it when you went"
-	cont "to VERMILION CITY?"
+	para "Bạn nghĩ mất nó"
+	line "khi đến TP."
+	cont "VERMILION à?"
 	done
 
 CopycatText_Worried:
-	text "COPYCAT: Pardon?"
+	text "COPYCAT: Dạ?"
 
-	para "I shouldn't decide"
-	line "what you should"
-	cont "do?"
+	para "Tôi không nên"
+	line "quyết hộ bạn làm"
+	cont "gì à?"
 
-	para "But I'm really"
-	line "worried… What if"
-	cont "someone finds it?"
+	para "Nhưng tôi lo lắm…"
+	line "Biết đâu ai đó"
+	cont "nhặt được thì sao?"
 	done
 
 CopycatText_GiveDoll:
 	text "COPYCAT: Yay!"
-	line "That's my CLEFAIRY"
-	cont "# DOLL!"
+	line "Đó là búp bê"
+	cont "CLEFAIRY của tôi!"
 
-	para "See the tear where"
-	line "the right leg is"
+	para "Thấy chỗ rách ở"
+	line "chân phải được"
 
-	para "sewn on? That's"
-	line "proof!"
+	para "khâu lại không?"
+	line "Đó là bằng chứng!"
 	done
 
 CopycatText_GivePass:
-	text "OK. Here's the"
-	line "MAGNET TRAIN PASS"
-	cont "like I promised!"
+	text "OK. Đây là THẺ ĐI"
+	line "TÀU NAM CHÂM như"
+	cont "tôi hứa!"
 	done
 
 CopycatText_ExplainPass:
-	text "COPYCAT: That's"
-	line "the PASS for the"
-	cont "MAGNET TRAIN."
+	text "COPYCAT: Đó là THẺ"
+	line "cho TÀU NAM CHÂM."
 
-	para "The rail company"
-	line "man gave me that"
+	para "Ông của công ty"
+	line "đường sắt cho tôi"
 
-	para "when they tore"
-	line "down our old house"
-	cont "for the STATION."
+	para "khi họ phá nhà cũ"
+	line "để xây GA TÀU."
 	done
 
 CopycatText_Male_3:
-	text "<PLAYER>: Hi!"
-	line "Thanks a lot for"
-	cont "the rail PASS!"
+	text "<PLAYER>: Chào!"
+	line "Cảm ơn bạn rất"
+	cont "nhiều vì THẺ tàu!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Dạ?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Bắt"
+	line "chước vui lắm à?"
 	done
 
 CopycatText_ItsAScream:
-	text "COPYCAT: You bet!"
-	line "It's a scream!"
+	text "COPYCAT: Đúng rồi!"
+	line "Vui điên lên!"
 	done
 
 CopycatText_Female_1:
-	text "<PLAYER>: Hi. You"
-	line "must like #MON."
+	text "<PLAYER>: Chào."
+	line "Bạn thích #MON"
+	cont "đúng không?"
 
-	para "<PLAYER>: No, not"
-	line "me. I asked you."
+	para "<PLAYER>: Không"
+	line "phải tôi. Tôi hỏi"
+	cont "bạn."
 
-	para "<PLAYER>: Pardon?"
-	line "You're weird!"
+	para "<PLAYER>: Gì?"
+	line "Bạn kỳ lạ thật!"
 	done
 
 CopycatText_Female_2:
-	text "<PLAYER>: Hi. Did"
-	line "you really lose"
-	cont "your # DOLL?"
+	text "<PLAYER>: Chào."
+	line "Bạn thật sự làm"
+	cont "mất búp bê à?"
 
-	para "<PLAYER>: You'll"
-	line "really give me a"
+	para "<PLAYER>: Bạn thật"
+	line "sự cho tôi THẺ"
 
-	para "rail PASS if I"
-	line "find it for you?"
+	para "tàu nếu tôi tìm"
+	line "được à?"
 
-	para "<PLAYER>: Sure,"
-	line "I'll look for it!"
+	para "<PLAYER>: Được!"
+	line "Tôi sẽ tìm!"
 
-	para "You think you lost"
-	line "it when you were"
-	cont "in VERMILION?"
+	para "Bạn nghĩ bạn mất"
+	line "nó khi ở TP."
+	cont "VERMILION à?"
 	done
 
 CopycatText_Female_3:
-	text "<PLAYER>: Thank you"
-	line "for the rail PASS!"
+	text "<PLAYER>: Cảm ơn"
+	line "bạn vì THẺ tàu!"
 
-	para "<PLAYER>: …Pardon?"
+	para "<PLAYER>: …Dạ?"
 
-	para "<PLAYER>: Is it"
-	line "really that fun to"
-
-	para "copy what I say"
-	line "and do?"
+	para "<PLAYER>: Bắt"
+	line "chước vui lắm à?"
 	done
 
 CopycatsDodrioText1:
@@ -344,18 +341,18 @@ CopycatsDodrioText1:
 	done
 
 CopycatsDodrioText2:
-	text "MIRROR, MIRROR ON"
-	line "THE WALL, WHO'S"
+	text "GƯƠng GƯƠng TREO"
+	line "TƯỜNG, AI LÀ"
 
-	para "THE FAIREST ONE OF"
-	line "ALL?"
+	para "NGƯỜI ĐẸP NHẤT"
+	line "TRONG TẤT CẢ?"
 	done
 
 CopycatsHouse2FDollText:
-	text "This is a rare"
-	line "#MON! Huh?"
+	text "Đây là #MON"
+	line "hiếm! Hả?"
 
-	para "It's only a doll…"
+	para "Chỉ là búp bê…"
 	done
 
 CopycatsHouse2F_MapEvents:

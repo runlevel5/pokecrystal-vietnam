@@ -23,30 +23,31 @@ GoldenrodPPSpeechHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodPPSpeechHouseFisherText:
-	text "Once while I was"
-	line "battling, my"
+	text "Một lần khi tôi"
+	line "đang chiến đấu,"
 
-	para "#MON couldn't"
-	line "make any moves."
+	para "#MON của tôi"
+	line "không thể dùng"
+	cont "chiêu nào cả."
 
-	para "The POWER POINTS,"
-	line "or PP, of its"
+	para "Điểm Sức Mạnh,"
+	line "hay PP, của các"
 
-	para "moves were all"
-	line "gone."
+	para "chiêu thức đã"
+	line "hết rồi."
 	done
 
 GoldenrodPPSpeechHouseLassText:
-	text "Sometimes, a"
-	line "healthy #MON"
+	text "Đôi khi, một"
+	line "#MON khỏe mạnh"
 
-	para "may be unable to"
-	line "use its moves."
+	para "có thể không dùng"
+	line "được chiêu thức."
 
-	para "If that happens,"
-	line "heal it at a #-"
-	cont "MON CENTER or use"
-	cont "an item."
+	para "Nếu điều đó xảy"
+	line "ra, chữa nó ở"
+	cont "TT POKEMON hoặc"
+	cont "dùng vật phẩm."
 	done
 
 GoldenrodPPSpeechHouse_MapEvents:

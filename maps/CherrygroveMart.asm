@@ -66,7 +66,7 @@ CherrygroveMartYoungsterText:
 	cont "#MON tôi ngất."
 
 	para "Bạn nên mang theo"
-	line "ANTIDOTE bên mình."
+	line "GIẢI ĐỘC bên mình."
 	done
 
 CherrygroveMart_MapEvents:

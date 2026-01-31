@@ -29,6 +29,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | LEER | LIẾC |
 | SMOKESCREEN | MÀN KHÓI |
 | GROWL | GẦM GỪ |
+| LEECH LIFE | HÚT HP |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

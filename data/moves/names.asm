@@ -140,7 +140,7 @@ MoveNames::
 	li "DREAM EATER"
 	li "POISON GAS"
 	li "BARRAGE"
-	li "LEECH LIFE"
+	li "HÚT HP"
 	li "LOVELY KISS"
 	li "SKY ATTACK"
 	li "TRANSFORM"

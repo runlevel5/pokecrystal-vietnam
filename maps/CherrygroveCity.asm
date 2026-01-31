@@ -443,7 +443,7 @@ CherrygroveRivalText_Seen:
 	line "nói gì à?"
 
 	para "Tao cũng có một"
-	line "#MON xịn."
+	line "#MON xịn sò."
 
 	para "Tao sẽ cho mày"
 	line "thấy!"
@@ -498,9 +498,9 @@ CherrygroveTeacherText_HaveMapCard:
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "Nhà ÔNG #MON"
-	line "còn xa hơn phía"
-	cont "trước."
+	text "Nhà ÔNG LÃO"
+	line "#MON còn xa"
+	cont "hơn phía trước."
 	done
 
 CherrygroveYoungsterText_HavePokedex:

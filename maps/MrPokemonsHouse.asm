@@ -248,7 +248,7 @@ MrPokemonsHouse_OakText1:
 
 	para "Ta vừa đến thăm"
 	line "bạn cũ của ta,"
-	cont "ÔNG #MON."
+	cont "ÔNG LÃO #MON."
 
 	para "Ta nghe cháu đang"
 	line "đi việc cho GS"

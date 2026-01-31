@@ -64,6 +64,12 @@ All Pokemon species names remain in English:
 | SPROUT TOWER | THÁP MẦM | Sprout Tower |
 | DARK CAVE | HANG TỐI | Dark Cave |
 
+## Character Name Translations
+
+| English | Vietnamese | Notes |
+|---------|------------|-------|
+| MR. POKEMON | ÔNG LÃO POKEMON | The old man who gives you the Mystery Egg |
+
 ## Pronoun Guidelines
 
 Vietnamese pronouns are chosen based on relationship and context:

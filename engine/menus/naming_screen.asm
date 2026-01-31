@@ -143,7 +143,7 @@ NamingScreenJumptable:
 	ret
 
 .RivalNameString:
-	db "RIVAL'S NAME?@"
+	db "TÊN ĐỐI THỦ@"
 
 .Mom:
 	ld de, MomSpriteGFX

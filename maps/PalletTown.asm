@@ -59,8 +59,8 @@ RedsHouseSignText:
 	done
 
 OaksLabSignText:
-	text "PTN #MON"
-	line "CỦA GS OAK"
+	text "PHÒNG THÍ NGHIỆM"
+	line "#MON CỦA GS OAK"
 	done
 
 BluesHouseSignText:

@@ -189,8 +189,8 @@ ElmPhoneGiftText:
 	para "Tôi có thứ này"
 	line "cho con."
 
-	para "Con ghé PTN của"
-	line "tôi được không?"
+	para "Ghé phòng thí"
+	line "nghiệm được không?"
 
 	para "Hẹn gặp sau nhé!"
 	done
@@ -202,8 +202,8 @@ ElmPhoneGotAholdOfSomethingNeatText:
 	para "Tôi có được thứ"
 	line "hay ho."
 
-	para "Ghé PTN của tôi"
-	line "lấy nhé!"
+	para "Ghé phòng thí"
+	line "nghiệm lấy nhé!"
 
 	para "Hẹn gặp sau!"
 	done

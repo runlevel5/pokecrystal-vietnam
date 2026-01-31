@@ -271,7 +271,8 @@ NewBarkTownPlayersHouseSignText:
 	done
 
 NewBarkTownElmsLabSignText:
-	text "PTN #MON GS ELM"
+	text "PHÒNG THÍ NGHIỆM"
+	line "#MON CỦA GS ELM"
 	done
 
 NewBarkTownElmsHouseSignText:

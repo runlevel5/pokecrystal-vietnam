@@ -710,7 +710,7 @@ LoadPinkPage:
 	next "LOẠI/@"
 
 .OK_str:
-	db "OK @"
+	db "ỔN @"
 
 .ExpPointStr:
 	db "ĐIỂM K.N@"

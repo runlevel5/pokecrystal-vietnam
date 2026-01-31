@@ -265,8 +265,8 @@ Options_BattleStyle:
 	and a
 	ret
 
-.Shift: db "SHIFT@"
-.Set:   db "SET  @"
+.Shift: db "ĐỔI  @"
+.Set:   db "GIỮ  @"
 
 Options_Sound:
 	ld hl, wOptions

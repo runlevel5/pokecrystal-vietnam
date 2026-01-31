@@ -2467,7 +2467,7 @@ BillsPC_ChangeBoxSubmenu:
 	db 4 ; items
 	db "ĐỔI@"
 	db "TÊN@"
-	db "IN@"
+	db "IN ẤN@"
 	db "THOÁT@"
 
 BillsPC_PlaceChooseABoxString:

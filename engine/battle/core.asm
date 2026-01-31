@@ -1654,7 +1654,7 @@ HandleScreens:
 	jp CopyName2
 
 .Your:
-	db "Your@"
+	db "Của @"
 .Enemy:
 	db "Đ.thủ@"
 
@@ -8441,7 +8441,7 @@ DisplayLinkBattleResult:
 	ret
 
 .InvalidBattle:
-	db "INVALID BATTLE@"
+	db "TRẬN K.HỢP LỆ@"
 
 IsMobileBattle2:
 	ld a, [wLinkMode]
@@ -8593,11 +8593,11 @@ ReadAndPrintLinkBattleRecord:
 	db "  ---  <LF>"
 	db "         -    -    -@"
 .Record:
-	db "<PLAYER>'s RECORD@"
+	db "KẾT QUẢ <PLAYER>@"
 .Result:
-	db "RESULT WIN LOSE DRAW@"
+	db "K.QUẢ THẮNG THUA HÒA@"
 .Total:
-	db "TOTAL  WIN LOSE DRAW@"
+	db "TỔNG  THẮNG THUA HÒA@"
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]

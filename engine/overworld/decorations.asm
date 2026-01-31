@@ -65,7 +65,7 @@ _PlayerDecorationMenu:
 .plant:    db "CÂY KIỂNG@"
 .poster:   db "ÁP PHÍCH@"
 .game:     db "MÁY GAME@"
-.ornament: db "ORNAMENT@"
+.ornament: db "TRANG TRÍ@"
 .big_doll: db "BÚP BÊ LỚN@"
 .exit:     db "THOÁT@"
 
@@ -888,8 +888,8 @@ DecoSideMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "RIGHT SIDE@"
-	db "LEFT SIDE@"
+	db "BÊN PHẢI@"
+	db "BÊN TRÁI@"
 	db "HỦY@"
 
 PutAwayTheDecoText:

@@ -384,7 +384,7 @@ PlaceStatusString:
 	ret
 
 FntString:
-	db "FNT@"
+	db "NGẤ@"
 
 CopyStatusString:
 	ld a, [de]
@@ -425,11 +425,11 @@ PlaceNonFaintStatus:
 	pop de
 	ret
 
-SlpString: db "SLP@"
-PsnString: db "PSN@"
-BrnString: db "BRN@"
-FrzString: db "FRZ@"
-ParString: db "PAR@"
+SlpString: db "NGỦ@"
+PsnString: db "ĐỘC@"
+BrnString: db "BỎN@"
+FrzString: db "ĐÔN@"
+ParString: db "TÊ @"
 
 ListMoves:
 ; List moves at hl, spaced every [wListMovesLineSpacing] tiles.

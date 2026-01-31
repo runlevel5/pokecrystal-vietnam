@@ -61,5 +61,5 @@ PrintHoursMins:
 	call PlaceString
 	ret
 
-String_AM: db "AM@"
-String_PM: db "PM@"
+String_AM: db "SA@"
+String_PM: db "CH@"

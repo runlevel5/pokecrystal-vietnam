@@ -242,7 +242,7 @@ Route31MailRecipientScript:
 
 ReceivedSpearowMailText:
 	db   "HANG TỐI dẫn đến"
-	next "một con đường khác@"
+	next "một đường khác@"
 
 Route31YoungsterScript:
 	jumptextfaceplayer Route31YoungsterText
@@ -284,11 +284,10 @@ BugCatcherWade1BeatenText:
 	done
 
 BugCatcherWade1AfterText:
-	text "Bạn có thể bắt"
-	line "#MON ngay cả khi"
+	text "Bạn bắt được #-"
+	line "MON dù đã có"
 
-	para "đã có sáu con"
-	line "rồi."
+	para "sáu con rồi."
 
 	para "Nếu bắt thêm, nó"
 	line "sẽ tự động vào"
@@ -369,8 +368,8 @@ Text_Route31WrongMail:
 	done
 
 Text_Route31MissingMail:
-	text "Tại sao con #MON"
-	line "này đặc biệt?"
+	text "Sao #MON này"
+	line "lại đặc biệt?"
 
 	para "Nó không có THƯ"
 	line "gì cả."

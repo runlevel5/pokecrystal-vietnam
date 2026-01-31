@@ -86,8 +86,8 @@ BillPhoneNewlyFullText:
 	para "Cảm ơn đã dùng HỆ"
 	line "THỐNG LƯU TRỮ."
 
-	para "Con #MON vừa gửi"
-	line "đã làm đầy BOX"
+	para "#MON vừa gửi đã"
+	line "làm đầy BOX"
 	cont "của bạn."
 
 	para "Bạn phải đổi BOX"

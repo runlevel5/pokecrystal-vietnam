@@ -33,7 +33,7 @@ CherrygroveEvolutionSpeechHouseYoungsterText:
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#MON thay đổi ư?"
+	text "#MON thay đổi?"
 
 	para "Tớ sẽ sốc nếu"
 	line "điều đó xảy ra!"

@@ -201,9 +201,9 @@ MrPokemonIntroText3:
 	para "Tôi tò mò nên gửi"
 	line "thư cho GS ELM."
 
-	para "Về tiến hóa #MON"
-	line "thì GS ELM là"
-	cont "chuyên gia."
+	para "Về tiến hóa #-"
+	line "MON thì GS ELM"
+	cont "là chuyên gia."
 	done
 
 MrPokemonIntroText4:
@@ -244,7 +244,7 @@ MrPokemonsHouse_OakText1:
 	line "cháu là <PLAY_G>!"
 
 	para "Ta là OAK! Nhà"
-	line "nghiên cứu #MON."
+	line "nghiên cứu #MON"
 
 	para "Ta vừa đến thăm"
 	line "bạn cũ của ta,"

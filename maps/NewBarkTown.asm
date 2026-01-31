@@ -187,7 +187,7 @@ NewBarkTown_RivalReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Ồ, #GEAR của con"
+	text "Ồ, #GEAR con"
 	line "đẹp quá!"
 
 	para "Mẹ con mua cho"
@@ -215,8 +215,8 @@ Text_ItsDangerousToGoAlone:
 	done
 
 Text_YourMonIsAdorable:
-	text "Ôi! #MON của con"
-	line "dễ thương quá!"
+	text "Ôi! #MON con dễ"
+	line "thương quá!"
 	cont "Cô cũng muốn có!"
 	done
 

@@ -133,8 +133,8 @@ FalknerIntroText:
 	done
 
 FalknerWinLossText:
-	text "…Chết! Chim #MON"
-	line "quý của cha tôi…"
+	text "…Chết! #MON của"
+	line "cha tôi…"
 
 	para "Thôi được."
 	line "Cầm lấy cái này."

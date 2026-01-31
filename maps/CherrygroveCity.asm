@@ -408,7 +408,7 @@ GuideGentGiftText:
 
 GotMapCardText:
 	text "POKEGEAR của"
-	line "<PLAYER> có BẢN ĐỒ!"
+	line "<PLAYER> có BẢN ĐỒ"
 	done
 
 GuideGentPokegearText:

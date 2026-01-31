@@ -113,8 +113,8 @@ VioletPokecenterElmsAideFavorText:
 	para "Ông ấy có việc"
 	line "muốn nhờ."
 
-	para "Bạn nhận TRỨNG"
-	line "#MON được không?"
+	para "Nhận TRỨNG #MON"
+	line "được không?"
 	done
 
 VioletPokecenterElmsAideGiveEggText:

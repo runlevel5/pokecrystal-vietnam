@@ -221,7 +221,7 @@ ElmsLookingForYouText:
 	line "giúp việc gì đó."
 
 	para "Ồ! Mẹ suýt quên!"
-	line "MÁY #MON của con"
+	line "#GEAR của con"
 
 	para "đã sửa xong rồi."
 
@@ -323,7 +323,7 @@ NeighborMornIntroText:
 	done
 
 NeighborDayIntroText:
-	text "Xin chào, <PLAY_G>!"
+	text "Chào, <PLAY_G>!"
 	line "Cô sang chơi đây!"
 	done
 

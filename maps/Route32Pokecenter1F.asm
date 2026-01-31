@@ -84,8 +84,8 @@ Route32Pokecenter1FFishingGuruText_After:
 	done
 
 Route32Pokecenter1FCooltrainerFText:
-	text "Tôi nên cho #MON"
-	line "cầm vật gì đây?"
+	text "Cho #MON cầm gì"
+	line "đây nhỉ?"
 
 	para "Có lẽ vật phẩm"
 	line "tăng sức ATTACK…"

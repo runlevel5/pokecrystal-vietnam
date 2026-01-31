@@ -70,7 +70,7 @@ PlayersNeighborText:
 	para "trợ lý cho"
 	line "GS ELM."
 
-	para "Nó rất yêu #MON!"
+	para "Nó mê #MON lắm!"
 
 	para "Mà cô cũng thế!"
 	done

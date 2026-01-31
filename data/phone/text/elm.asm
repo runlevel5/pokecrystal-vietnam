@@ -93,7 +93,7 @@ ElmPhoneInvestigatingEggMovesText:
 	line "biết."
 
 	para "Chúng tôi đang"
-	line "nghiên cứu điều đó."
+	line "nghiên cứu nó."
 	done
 
 ElmPhoneDiscoveredPokerusText:
@@ -112,10 +112,10 @@ ElmPhoneDiscoveredPokerusText:
 	cont "#RUS."
 
 	para "Nó nhân lên nhanh"
-	line "và lây sang #MON"
+	line "và lây sang #-"
 
-	para "khác. Nhưng chỉ"
-	line "vậy thôi."
+	para "MON khác. Nhưng"
+	line "chỉ vậy thôi."
 
 	para "Nó có vẻ không"
 	line "gây hại gì, và"
@@ -164,7 +164,7 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	line "chuyện lạ đang"
 
 	para "xảy ra với các"
-	line "chương trình radio."
+	next "chương trình radio"
 
 	para "Họ đang nói về"
 	line "TEAM ROCKET."

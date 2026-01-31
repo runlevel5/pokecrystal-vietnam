@@ -301,8 +301,8 @@ GoldenrodCityCooltrainerF1Text:
 	text "Người đàn ông mặc"
 	line "đồ đen kia đang"
 
-	para "giả làm TEAM"
-	line "ROCKET à? Buồn cười"
+	para "giả TEAM ROCKET à?"
+	line "Thật buồn cười"
 	done
 
 GoldenrodCityCooltrainerF1Text_ClearedRadioTower:

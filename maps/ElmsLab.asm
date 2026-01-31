@@ -933,8 +933,8 @@ GotElmsNumberText:
 	done
 
 ElmDescribesMrPokemonText:
-	text "ÔNG #MON đi khắp"
-	line "nơi và tìm thấy"
+	text "ÔNG #MON hay đi"
+	line "khắp nơi và tìm"
 	cont "đồ quý hiếm."
 
 	para "Tiếc là chúng chỉ"
@@ -959,8 +959,8 @@ ElmsLabHealingMachineText2:
 	done
 
 ElmAfterTheftText1:
-	text "ELM: <PLAY_G>, thật"
-	line "là khủng khiếp…"
+	text "ELM: <PLAY_G>,"
+	line "thật khủng khiếp…"
 
 	para "À đúng rồi, phát"
 	line "hiện của ÔNG"
@@ -1070,7 +1070,7 @@ ShowElmTogepiText1:
 	done
 
 ShowElmTogepiText2:
-	text "Gì?!? #MON đó!?!"
+	text "Gì?!? #MON đó!?"
 	done
 
 ShowElmTogepiText3:
@@ -1100,11 +1100,10 @@ ElmGiveEverstoneText1:
 ElmGiveEverstoneText2:
 	text "Đó là ĐÁ BẤT BIẾN."
 
-	para "Một số loài #MON"
-	line "tiến hóa khi"
+	para "Một số #MON sẽ"
+	line "tiến hóa khi đạt"
 
-	para "đạt đến cấp độ"
-	line "nhất định."
+	para "cấp độ nhất định."
 
 	para "#MON giữ ĐÁ"
 	line "BẤT BIẾN sẽ"
@@ -1194,8 +1193,8 @@ ElmGiveTicketText2:
 	done
 
 ElmsLabMonEggText: ; unreferenced
-	text "Đây là TRỨNG #MON"
-	line "được GS ELM"
+	text "Đây là TRỨNG #"
+	line "MON được GS ELM"
 	cont "nghiên cứu."
 	done
 
@@ -1253,8 +1252,8 @@ AideText_ExplainBalls:
 	done
 
 ElmsLabOfficerText1:
-	text "Tôi nghe #MON bị"
-	line "trộm ở đây…"
+	text "Tôi nghe có vụ"
+	line "trộm #MON…"
 
 	para "Tôi đang lấy thông"
 	line "tin từ GS ELM."

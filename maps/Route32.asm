@@ -640,7 +640,7 @@ FisherJustinAfterText:
 	text "Bình tĩnh, tập"
 	line "trung… Tinh túy"
 
-	para "của câu cá và #-"
+	para "của câu cá và #"
 	line "MON giống nhau."
 	done
 

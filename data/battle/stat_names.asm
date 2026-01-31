@@ -6,7 +6,7 @@ StatNames:
 	li "TỐC ĐỘ"
 	li "CÔNG Đ.B"
 	li "THỦ Đ.B"
-	li "Đ.C.XÁC"
+	li "ĐÍCH XÁC"
 	li "NÉ TRÁNH"
 	li "KHẢ NĂNG" ; used for BattleCommand_Curse
 	assert_list_length NUM_LEVEL_STATS

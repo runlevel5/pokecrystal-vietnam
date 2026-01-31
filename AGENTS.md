@@ -74,7 +74,7 @@ Stat names are translated to Vietnamese:
 | SPCL.ATK | CÔNG Đ.B | Special Attack (Đặc Biệt) |
 | SPCL.DEF | THỦ Đ.B | Special Defense (Đặc Biệt) |
 | SPEED | TỐC ĐỘ | Speed |
-| ACCURACY | Đ.C.XÁC | Accuracy (Độ Chính Xác) |
+| ACCURACY | ĐÍCH XÁC | Accuracy |
 | EVASION | NÉ TRÁNH | Evasion |
 | SPECIAL | Đ.BIỆT | Special (Đặc Biệt) |
 | HEALTH | HP | Health Points |

@@ -8,7 +8,7 @@ ItemNames::
 	li "TERU-SAMA"
 	li "BICYCLE"
 	li "MOON STONE"
-	li "ANTIDOTE"
+	li "GIẢI ĐỘC"
 	li "BURN HEAL"
 	li "ICE HEAL"
 	li "AWAKENING"

@@ -1235,7 +1235,7 @@ StatStrings:
 .attack  db "CÔNG@"
 .defense db "THỦ@"
 .speed   db "TỐC ĐỘ@"
-.special db "Đ.BIỆT@"
+.special db "ĐẶC BIỆT@"
 
 GetStatExpRelativePointer:
 	ld a, [wCurItem]

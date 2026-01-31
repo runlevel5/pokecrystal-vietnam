@@ -76,7 +76,7 @@ Stat names are translated to Vietnamese:
 | SPEED | TỐC ĐỘ | Speed |
 | ACCURACY | ĐÍCH XÁC | Accuracy |
 | EVASION | NÉ TRÁNH | Evasion |
-| SPECIAL | Đ.BIỆT | Special (Đặc Biệt) |
+| SPECIAL | ĐẶC BIỆT | Special |
 | HEALTH | HP | Health Points |
 
 Note: HP and PP remain in English as they are universal gaming terms.

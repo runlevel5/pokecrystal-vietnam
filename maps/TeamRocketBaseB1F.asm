@@ -629,99 +629,99 @@ SecurityCameraMovement9:
 	step_end
 
 CameraGrunt1SeenText:
-	text "Hey!"
-	line "Intruder alert!"
+	text "Này!"
+	line "Có kẻ đột nhập!"
 	done
 
 CameraGrunt1BeatenText:
-	text "Dang… I failed…"
+	text "Chết… Tao thua…"
 	done
 
 CameraGrunt2SeenText:
-	text "It's my turn!"
-	line "There's no escape!"
+	text "Đến lượt tao!"
+	line "Mày hết đường!"
 	done
 
 CameraGrunt2BeatenText:
-	text "Surveillance cams"
-	line "are in the #MON"
-	cont "statues."
+	text "Camera giám sát"
+	line "nằm trong tượng"
+	cont "#MON."
 
-	para "We'll keep appear-"
-	line "ing until you trip"
-	cont "a secret switch."
+	para "Bọn tao sẽ xuất"
+	line "hiện cho đến khi"
+	cont "mày bấm công tắc."
 	done
 
 ScientistJedSeenText:
-	text "This was once a"
-	line "ninja hideout."
+	text "Đây từng là hang"
+	line "ổ ninja."
 
-	para "There are traps to"
-	line "confound intruders"
-	cont "like you."
+	para "Có đầy bẫy để"
+	line "đối phó kẻ đột"
+	cont "nhập như ngươi."
 	done
 
 ScientistJedBeatenText:
-	text "I get it…"
+	text "Ta hiểu rồi…"
 	done
 
 ScientistJedAfterBattleText:
-	text "All right. I'll"
-	line "divulge a secret"
-	cont "about our hideout."
+	text "Được rồi. Ta sẽ"
+	line "tiết lộ bí mật"
+	cont "về hang ổ này."
 
-	para "That thing on the"
-	line "floor up ahead is"
-	cont "a warp panel."
+	para "Cái thứ trên sàn"
+	line "phía trước là"
+	cont "bảng dịch chuyển."
 
-	para "If you step on it,"
-	line "you'll be warped"
+	para "Nếu ngươi dẫm lên"
+	line "nó, ngươi sẽ bị"
 
-	para "back to the en-"
-	line "trance."
+	para "đưa về lối vào."
+	line ""
 	done
 
 GruntM16SeenText:
-	text "Heheh. Feeling"
-	line "lucky, punk?"
+	text "Heheh. Mày thấy"
+	line "may mắn à?"
 
-	para "Go ahead, take"
-	line "another step."
+	para "Cứ tiến thêm bước"
+	line "nữa đi."
 
-	para "We've got traps"
-	line "set in the floor!"
+	para "Bọn tao đã đặt"
+	line "bẫy trên sàn rồi!"
 	done
 
 GruntM16BeatenText:
-	text "Kaboom!"
+	text "Bùm!"
 	done
 
 GruntM16AfterBattleText:
-	text "I don't even know"
-	line "where the traps"
-	cont "are planted."
+	text "Tao còn không"
+	line "biết bẫy nằm"
+	cont "ở đâu."
 
-	para "You'll just have"
-	line "to collect your"
-	cont "courage and walk."
+	para "Mày chỉ có cách"
+	line "lấy hết can đảm"
+	cont "mà bước thôi."
 	done
 
 TeamRocketBaseB1FSecurityCameraText:
-	text "It's a PERSIAN"
-	line "statue…"
+	text "Đây là tượng"
+	line "PERSIAN…"
 
-	para "Its eyes are oddly"
-	line "shiny."
+	para "Mắt nó sáng lạ"
+	line "thường."
 	done
 
 TeamRocketBaseB1FSecretSwitchText:
-	text "A secret switch!"
-	line "Better press it."
+	text "Công tắc bí mật!"
+	line "Nên bấm nó đi."
 	done
 
 TeamRocketBaseB1FSwitchOffText:
-	text "The switch is"
-	line "turned off."
+	text "Công tắc đã"
+	line "được tắt."
 	done
 
 TeamRocketBaseB1F_MapEvents:

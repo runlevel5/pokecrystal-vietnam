@@ -321,7 +321,7 @@ RazorWindDescription:
 
 SwordsDanceDescription:
 	db   "Điệu nhảy tăng"
-	next "ATTACK.@"
+	next "CÔNG.@"
 
 CutDescription:
 	db   "Chém bằng vuốt,"
@@ -419,7 +419,7 @@ DoubleEdgeDescription:
 	next "dùng cũng đau.@"
 
 TailWhipDescription:
-	db   "Giảm DEFENSE"
+	db   "Giảm THỦ"
 	next "của đối thủ.@"
 
 PoisonStingDescription:
@@ -435,7 +435,7 @@ PinMissileDescription:
 	next "2-5 lần.@"
 
 LeerDescription:
-	db   "Giảm DEFENSE"
+	db   "Giảm THỦ"
 	next "của đối thủ.@"
 
 BiteDescription:
@@ -443,7 +443,7 @@ BiteDescription:
 	next "đ.thủ khựng lại.@"
 
 GrowlDescription:
-	db   "Giảm ATTACK"
+	db   "Giảm CÔNG"
 	next "của đối thủ.@"
 
 RoarDescription:
@@ -468,7 +468,7 @@ DisableDescription:
 
 AcidDescription:
 	db   "Đòn có thể giảm"
-	next "DEFENSE.@"
+	next "THỦ.@"
 
 EmberDescription:
 	db   "Đòn có thể gây"
@@ -508,11 +508,11 @@ PsybeamDescription:
 
 BubblebeamDescription:
 	db   "Đòn có thể giảm"
-	next "SPEED.@"
+	next "TỐC ĐỘ.@"
 
 AuroraBeamDescription:
 	db   "Đòn có thể giảm"
-	next "ATTACK.@"
+	next "CÔNG.@"
 
 HyperBeamDescription:
 	db   "Lượt 1: Tấn công"
@@ -587,7 +587,7 @@ PetalDanceDescription:
 	next "tự gây CONFUSION.@"
 
 StringShotDescription:
-	db   "Giảm SPEED"
+	db   "Giảm TỐC ĐỘ"
 	next "của đối thủ.@"
 
 DragonRageDescription:
@@ -647,11 +647,11 @@ HypnosisDescription:
 	next "ngủ.@"
 
 MeditateDescription:
-	db   "Tăng ATTACK"
+	db   "Tăng CÔNG"
 	next "của người dùng.@"
 
 AgilityDescription:
-	db   "Tăng mạnh SPEED"
+	db   "Tăng mạnh TỐC ĐỘ"
 	next "của người dùng.@"
 
 QuickAttackDescription:
@@ -659,7 +659,7 @@ QuickAttackDescription:
 	next "đối thủ.@"
 
 RageDescription:
-	db   "Tăng ATTACK khi"
+	db   "Tăng CÔNG khi"
 	next "bị đánh trúng.@"
 
 TeleportDescription:
@@ -675,7 +675,7 @@ MimicDescription:
 	next "của đối thủ.@"
 
 ScreechDescription:
-	db   "Giảm mạnh DEFENSE"
+	db   "Giảm mạnh THỦ"
 	next "của đối thủ.@"
 
 DoubleTeamDescription:
@@ -687,7 +687,7 @@ RecoverDescription:
 	next "tối đa.@"
 
 HardenDescription:
-	db   "Tăng DEFENSE"
+	db   "Tăng THỦ"
 	next "của người dùng.@"
 
 MinimizeDescription:
@@ -703,15 +703,15 @@ ConfuseRayDescription:
 	next "cho đối thủ.@"
 
 WithdrawDescription:
-	db   "Tăng DEFENSE"
+	db   "Tăng THỦ"
 	next "của người dùng.@"
 
 DefenseCurlDescription:
-	db   "Tăng DEFENSE"
+	db   "Tăng THỦ"
 	next "của người dùng.@"
 
 BarrierDescription:
-	db   "Tăng mạnh DEFENSE"
+	db   "Tăng mạnh THỦ"
 	next "của người dùng.@"
 
 LightScreenDescription:
@@ -723,7 +723,7 @@ HazeDescription:
 	next "chỉ số.@"
 
 ReflectDescription:
-	db   "Tăng DEFENSE"
+	db   "Tăng THỦ"
 	next "bằng rào chắn.@"
 
 FocusEnergyDescription:
@@ -792,7 +792,7 @@ SpikeCannonDescription:
 
 ConstrictDescription:
 	db   "Đòn có thể giảm"
-	next "SPEED.@"
+	next "TỐC ĐỘ.@"
 
 AmnesiaDescription:
 	db   "Tăng mạnh"
@@ -844,7 +844,7 @@ TransformDescription:
 
 BubbleDescription:
 	db   "Đòn có thể giảm"
-	next "SPEED.@"
+	next "TỐC ĐỘ.@"
 
 DizzyPunchDescription:
 	db   "Đòn có thể gây"
@@ -867,7 +867,7 @@ SplashDescription:
 	next "dụng gì.@"
 
 AcidArmorDescription:
-	db   "Tăng mạnh DEFENSE"
+	db   "Tăng mạnh THỦ"
 	next "của người dùng.@"
 
 CrabhammerDescription:
@@ -899,7 +899,7 @@ HyperFangDescription:
 	next "đ.thủ khựng lại.@"
 
 SharpenDescription:
-	db   "Tăng ATTACK"
+	db   "Tăng CÔNG"
 	next "của người dùng.@"
 
 ConversionDescription:
@@ -975,7 +975,7 @@ AeroblastDescription:
 	next "cao.@"
 
 CottonSporeDescription:
-	db   "Giảm mạnh SPEED"
+	db   "Giảm mạnh TỐC ĐỘ"
 	next "của đối thủ.@"
 
 ReversalDescription:
@@ -999,7 +999,7 @@ MachPunchDescription:
 	next "luôn đánh trước.@"
 
 ScaryFaceDescription:
-	db   "Giảm mạnh SPEED"
+	db   "Giảm mạnh TỐC ĐỘ"
 	next "của đối thủ.@"
 
 FaintAttackDescription:
@@ -1012,7 +1012,7 @@ SweetKissDescription:
 
 BellyDrumDescription:
 	db   "Giảm HP để tối"
-	next "đa hoá ATTACK.@"
+	next "đa hoá CÔNG.@"
 
 SludgeBombDescription:
 	db   "Đòn có thể gây"
@@ -1048,7 +1048,7 @@ PerishSongDescription:
 
 IcyWindDescription:
 	db   "Đòn băng giảm"
-	next "SPEED.@"
+	next "TỐC ĐỘ.@"
 
 DetectDescription:
 	db   "Né đòn lượt đó."
@@ -1079,7 +1079,7 @@ EndureDescription:
 	next "ít nhất 1HP.@"
 
 CharmDescription:
-	db   "Giảm mạnh ATTACK"
+	db   "Giảm mạnh CÔNG"
 	next "của đối thủ.@"
 
 RolloutDescription:
@@ -1092,7 +1092,7 @@ FalseSwipeDescription:
 
 SwaggerDescription:
 	db   "Gây CONFUSION &"
-	next "tăng ATTACK.@"
+	next "tăng CÔNG.@"
 
 MilkDrinkDescription:
 	db   "Hồi 1/2 HP"
@@ -1188,11 +1188,11 @@ SweetScentDescription:
 
 IronTailDescription:
 	db   "Đòn có thể giảm"
-	next "DEFENSE.@"
+	next "THỦ.@"
 
 MetalClawDescription:
 	db   "Có thể tăng"
-	next "ATTACK ng. dùng.@"
+	next "CÔNG ng. dùng.@"
 
 VitalThrowDescription:
 	db   "Đánh sau nhưng"
@@ -1260,7 +1260,7 @@ FutureSightDescription:
 
 RockSmashDescription:
 	db   "Đòn có thể giảm"
-	next "DEFENSE.@"
+	next "THỦ.@"
 
 WhirlpoolDescription:
 	db   "Nhốt đối thủ"

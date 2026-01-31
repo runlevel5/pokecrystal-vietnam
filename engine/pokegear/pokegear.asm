@@ -320,7 +320,7 @@ InitPokegearTilemap:
 	ret
 
 .switch
-	db " SWITCH▶@"
+	db " ĐỔI▶@"
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
@@ -1610,7 +1610,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "MẬT KHẨU BUENA@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1743,14 +1743,14 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
+OaksPKMNTalkName:     db "#MON của GS OAK@"
 PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+PokemonMusicName:     db "Nhạc #MON@"
+LuckyChannelName:     db "Kênh May Mắn@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
+PlacesAndPeopleName:  db "Nơi & Người@"
+LetsAllSingName:      db "Cùng Hát Nào!@"
 PokeFluteStationName: db "# FLUTE@"
 
 _TownMap:
@@ -2177,7 +2177,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "Ở đâu?@"
 
 .Name:
 ; We need the map location of the default flypoint

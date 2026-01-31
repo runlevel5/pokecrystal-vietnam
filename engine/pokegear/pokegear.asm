@@ -2459,17 +2459,17 @@ Pokedex_GetArea:
 	ld a, $07
 	call ByteFill
 	ld [hl], $17
-	call GetPokemonName
 	hlcoord 2, 0
+	ld de, .String_Nest
 	call PlaceString
 	ld h, b
 	ld l, c
-	ld de, .String_SNest
+	call GetPokemonName
 	call PlaceString
 	ret
 
-.String_SNest:
-	db "'S NEST@"
+.String_Nest:
+	db "TỔ @"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a

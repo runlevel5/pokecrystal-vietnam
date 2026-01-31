@@ -362,15 +362,15 @@ HPUpDesc:
 	next "#MON.@"
 
 ProteinDesc:
-	db   "Tăng ATTACK của"
+	db   "Tăng CÔNG của"
 	next "một #MON.@"
 
 IronDesc:
-	db   "Tăng DEFENSE của"
+	db   "Tăng THỦ của"
 	next "một #MON.@"
 
 CarbosDesc:
-	db   "Tăng SPEED của"
+	db   "Tăng TỐC ĐỘ của"
 	next "một #MON.@"
 
 LuckyPunchDesc:
@@ -378,7 +378,7 @@ LuckyPunchDesc:
 	next "của CHANSEY.@"
 
 CalciumDesc:
-	db   "Tăng SPECIAL của"
+	db   "Tăng ĐẶC BIỆT của"
 	next "một #MON.@"
 
 RareCandyDesc:
@@ -394,7 +394,7 @@ LeafStoneDesc:
 	next "loại #MON.@"
 
 MetalPowderDesc:
-	db   "Tăng DEFENSE của"
+	db   "Tăng THỦ của"
 	next "DITTO. (GIỮ)@"
 
 NuggetDesc:
@@ -449,23 +449,23 @@ LemonadeDesc:
 	next "#MON.@"
 
 XAttackDesc:
-	db   "Tăng ATTACK."
+	db   "Tăng CÔNG."
 	next "(1 TRẬN)@"
 
 TeruSama4Desc:
 	db   "?@"
 
 XDefendDesc:
-	db   "Tăng DEFENSE."
+	db   "Tăng THỦ."
 	next "(1 TRẬN)@"
 
 XSpeedDesc:
-	db   "Tăng SPEED."
+	db   "Tăng TỐC ĐỘ."
 	next "(1 TRẬN)@"
 
 XSpecialDesc:
-	db   "Tăng SPECIAL"
-	next "ATTACK. (1 TRẬN)@"
+	db   "Tăng CÔNG Đ.B."
+	next "(1 TRẬN)@"
 
 CoinCaseDesc:
 	db   "Chứa tới 9.999"
@@ -839,7 +839,7 @@ DragonScaleDesc:
 	next "hiếm.@"
 
 BerserkGeneDesc:
-	db   "Tăng ATTACK nhưng"
+	db   "Tăng CÔNG nhưng"
 	next "gây hỗn loạn.@"
 
 TeruSama18Desc:

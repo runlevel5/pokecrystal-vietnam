@@ -13,10 +13,10 @@ MonMenuOptionStrings:
 ; entries correspond to MONMENUVALUE_* constants
 	list_start MOVE_NAME_LENGTH - 2
 	li "CHỈ SỐ"
-	li "ĐỔI"
+	li "ĐỔI VỊ TRÍ"
 	li "VẬT PHẨM"
 	li "HỦY"
-	li "MOVE"
+	li "CHIÊU THỨC"
 	li "MAIL"
 	li "LỖI!"
 	assert_list_length NUM_MONMENUVALUES

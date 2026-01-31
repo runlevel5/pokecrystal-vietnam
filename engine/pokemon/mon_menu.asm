@@ -1087,7 +1087,7 @@ MoveScreen2DMenuData:
 	db PAD_CTRL_PAD | PAD_A | PAD_B ; accepted buttons
 
 String_MoveWhere:
-	db "Where?@"
+	db "Tới đâu?@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes
@@ -1224,9 +1224,9 @@ PlaceMoveData:
 String_MoveType_Top:
 	db "┌─────┐@"
 String_MoveType_Bottom:
-	db "│TYPE/└@"
+	db "│KIỂU/└@"
 String_MoveAtk:
-	db "ATK/@"
+	db "CÔNG@"
 String_MoveNoPower:
 	db "---@"
 

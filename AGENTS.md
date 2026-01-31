@@ -267,6 +267,17 @@ Vietnamese pronouns are chosen based on relationship and context:
 - Player/rival names count as 8 characters max
 - Pokemon names count as 10 characters max
 
+## Font Files
+
+There are **two font files** that must contain Vietnamese characters:
+
+| File | Format | Used For |
+|------|--------|----------|
+| `gfx/font/font.png` | 1bpp, 128x64 | Dialog boxes, menus, battle text |
+| `gfx/font/overworld.png` | 2bpp, 128x64 | Map name signs (location popups), overworld text |
+
+Both fonts must have the same character layout matching the charmap in `constants/charmap.asm`.
+
 ## Translation Conventions
 
 1. **UPPERCASE keywords stay in English**: If a keyword or term is written in ALL CAPS (e.g., POTION, ATTACK, PIKACHU), leave it in English. These are game-specific identifiers.

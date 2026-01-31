@@ -421,10 +421,10 @@ Pokedex_ReinitDexEntryScreen:
 
 DexEntryScreen_ArrowCursorData:
 	db PAD_RIGHT | PAD_LEFT, 4
-	dwcoord 1, 17  ; PAGE
-	dwcoord 6, 17  ; AREA
-	dwcoord 11, 17 ; CRY
-	dwcoord 15, 17 ; PRNT
+	dwcoord 1, 17  ; TIẾP
+	dwcoord 6, 17  ; P.BỔ
+	dwcoord 11, 17 ; TIẾNG 
+	dwcoord 17, 17 ; IN
 
 DexEntryScreen_MenuActionJumptable:
 	dw Pokedex_Page
@@ -1127,9 +1127,9 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "SEEN", -1
+	db "BẮT GẶP", -1
 String_OWN:
-	db "OWN", -1
+	db "SỞ HỮU", -1
 String_SELECT_OPTION:
 	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
 	; fallthrough
@@ -1175,7 +1175,7 @@ Pokedex_DrawDexEntryScreenBG:
 .Weight:
 	db "WT   ???lb", -1
 .MenuItems:
-	db $3b, " PAGE AREA CRY PRNT", -1
+	db $3b, " TIẾP P.BỔ TIẾNG IN", -1
 
 Pokedex_DrawOptionScreenBG:
 	call Pokedex_FillBackgroundColor2

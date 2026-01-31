@@ -197,7 +197,7 @@ StartMenu::
 .QuitString:     db "THOÁT@"
 
 .PokedexDesc:
-	db   "THÔNG TIN"
+	db   "Từ điển"
 	next "#MON@"
 
 .PartyDesc:

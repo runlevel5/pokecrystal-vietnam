@@ -65,8 +65,21 @@ Status effect names remain in English:
 - CONFUSION, INFATUATION, etc.
 
 #### 4. Stats
-Stat names remain in English:
-- HP, ATTACK, DEFENSE, SP.ATK, SP.DEF, SPEED, PP
+Stat names are translated to Vietnamese:
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| ATTACK | CÔNG | Attack/Offense |
+| DEFENSE | THỦ | Defense |
+| SPCL.ATK | CÔNG Đ.B | Special Attack (Đặc Biệt) |
+| SPCL.DEF | THỦ Đ.B | Special Defense (Đặc Biệt) |
+| SPEED | TỐC ĐỘ | Speed |
+| ACCURACY | Đ.C.XÁC | Accuracy (Độ Chính Xác) |
+| EVASION | NÉ TRÁNH | Evasion |
+| SPECIAL | Đ.BIỆT | Special (Đặc Biệt) |
+| HEALTH | HP | Health Points |
+
+Note: HP and PP remain in English as they are universal gaming terms.
 
 #### 5. Pokemon Names
 All Pokemon species names remain in English:

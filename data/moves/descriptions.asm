@@ -268,1005 +268,1004 @@ Move00Description:
 	db "?@"
 
 PoundDescription:
-	db   "Pounds with fore-"
-	next "legs or tail.@"
+	db   "Đập bằng chân"
+	next "trước hoặc đuôi.@"
 
 KarateChopDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Tỉ lệ chí mạng"
+	next "cao.@"
 
 DoubleslapDescription:
-	db   "Repeatedly slaps"
-	next "2-5 times.@"
+	db   "Tát liên tục"
+	next "2-5 lần.@"
 
 CometPunchDescription:
-	db   "Repeatedly punches"
-	next "2-5 times.@"
+	db   "Đấm liên tục"
+	next "2-5 lần.@"
 
 MegaPunchDescription:
-	db   "A powerful punch"
-	next "thrown very hard.@"
+	db   "Cú đấm mạnh"
+	next "dồn hết sức.@"
 
 PayDayDescription:
-	db   "Throws coins. Gets"
-	next "them back later.@"
+	db   "Ném xu. Lấy lại"
+	next "tiền sau trận.@"
 
 FirePunchDescription:
-	db   "A fiery punch. May"
-	next "cause a burn.@"
+	db   "Đấm lửa. Có thể"
+	next "gây BURN.@"
 
 IcePunchDescription:
-	db   "An icy punch. May"
-	next "cause freezing.@"
+	db   "Đấm băng. Có thể"
+	next "gây FREEZE.@"
 
 ThunderpunchDescription:
-	db   "An electric punch."
-	next "It may paralyze.@"
+	db   "Đấm điện. Có thể"
+	next "gây PARALYSIS.@"
 
 ScratchDescription:
-	db   "Scratches with"
-	next "sharp claws.@"
+	db   "Cào bằng móng"
+	next "vuốt sắc.@"
 
 VicegripDescription:
-	db   "Grips with power-"
-	next "ful pincers.@"
+	db   "Kẹp chặt bằng"
+	next "càng mạnh mẽ.@"
 
 GuillotineDescription:
-	db   "A one-hit KO,"
-	next "pincer attack.@"
+	db   "Hạ gục 1 đòn,"
+	next "dùng càng kẹp.@"
 
 RazorWindDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "Lượt 1: Chuẩn bị"
+	next "Lượt 2: Tấn công@"
 
 SwordsDanceDescription:
-	db   "A dance that in-"
-	next "creases ATTACK.@"
+	db   "Điệu nhảy tăng"
+	next "ATTACK.@"
 
 CutDescription:
-	db   "Cuts using claws,"
-	next "scythes, etc.@"
+	db   "Chém bằng vuốt,"
+	next "lưỡi hái, v.v.@"
 
 GustDescription:
-	db   "Whips up a strong"
-	next "gust of wind.@"
+	db   "Tạo ra cơn gió"
+	next "mạnh.@"
 
 WingAttackDescription:
-	db   "Strikes the target"
-	next "with wings.@"
+	db   "Đập cánh vào"
+	next "đối thủ.@"
 
 WhirlwindDescription:
-	db   "Blows away the foe"
-	next "& ends battle.@"
+	db   "Thổi bay đ.thủ &"
+	next "kết thúc trận.@"
 
 FlyDescription:
-	db   "1st turn: Fly"
-	next "2nd turn: Attack@"
+	db   "Lượt 1: Bay lên"
+	next "Lượt 2: Tấn công@"
 
 BindDescription:
-	db   "Binds the target"
-	next "for 2-5 turns.@"
+	db   "Trói đối thủ"
+	next "trong 2-5 lượt.@"
 
 SlamDescription:
-	db   "Slams the foe with"
-	next "a tail, vine, etc.@"
+	db   "Đập đ.thủ bằng"
+	next "đuôi, dây leo...@"
 
 VineWhipDescription:
-	db   "Whips the foe with"
-	next "slender vines.@"
+	db   "Quất đối thủ"
+	next "bằng dây leo.@"
 
 StompDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Đòn có thể làm"
+	next "đ.thủ khựng lại.@"
 
 DoubleKickDescription:
-	db   "A double kicking"
-	next "attack.@"
+	db   "Đá hai lần"
+	next "liên tiếp.@"
 
 MegaKickDescription:
-	db   "A powerful kicking"
-	next "attack.@"
+	db   "Cú đá cực"
+	next "mạnh.@"
 
 JumpKickDescription:
-	db   "May miss, damaging"
-	next "the user.@"
+	db   "Nếu trượt, người"
+	next "dùng bị thương.@"
 
 RollingKickDescription:
-	db   "A fast, spinning"
-	next "kick.@"
+	db   "Cú đá xoay"
+	next "nhanh.@"
 
 SandAttackDescription:
-	db   "Reduces accuracy"
-	next "by throwing sand.@"
+	db   "Giảm độ chính"
+	next "xác bằng cát.@"
 
 HeadbuttDescription:
-	db   "An attack that may"
-	next "make foe flinch.@"
+	db   "Đòn có thể làm"
+	next "đ.thủ khựng lại.@"
 
 HornAttackDescription:
-	db   "An attack using a"
-	next "horn to jab.@"
+	db   "Húc bằng sừng.@"
 
 FuryAttackDescription:
-	db   "Jabs the target"
-	next "2-5 times.@"
+	db   "Húc đối thủ"
+	next "2-5 lần.@"
 
 HornDrillDescription:
-	db   "A one-hit KO,"
-	next "drill attack.@"
+	db   "Hạ gục 1 đòn,"
+	next "dùng sừng khoan.@"
 
 TackleDescription:
-	db   "A full-body charge"
-	next "attack.@"
+	db   "Lao toàn thân"
+	next "vào đối thủ.@"
 
 BodySlamDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
 
 WrapDescription:
-	db   "Squeezes the foe"
-	next "for 2-5 turns.@"
+	db   "Siết chặt đ.thủ"
+	next "trong 2-5 lượt.@"
 
 TakeDownDescription:
-	db   "A tackle that also"
-	next "hurts the user.@"
+	db   "Lao vào, người"
+	next "dùng cũng đau.@"
 
 ThrashDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
+	db   "Đánh 2-3 lượt &"
+	next "tự gây CONFUSION.@"
 
 DoubleEdgeDescription:
-	db   "A tackle that also"
-	next "hurts the user.@"
+	db   "Lao vào, người"
+	next "dùng cũng đau.@"
 
 TailWhipDescription:
-	db   "Lowers the foe's"
-	next "DEFENSE.@"
+	db   "Giảm DEFENSE"
+	next "của đối thủ.@"
 
 PoisonStingDescription:
-	db   "An attack that may"
-	next "poison the target.@"
+	db   "Đòn có thể gây"
+	next "POISON cho đ.thủ.@"
 
 TwineedleDescription:
-	db   "Jabs the foe twice"
-	next "using stingers.@"
+	db   "Đâm đ.thủ 2 lần"
+	next "bằng kim.@"
 
 PinMissileDescription:
-	db   "Fires pins that"
-	next "strike 2-5 times.@"
+	db   "Bắn kim đâm"
+	next "2-5 lần.@"
 
 LeerDescription:
-	db   "Reduces the foe's"
-	next "DEFENSE.@"
+	db   "Giảm DEFENSE"
+	next "của đối thủ.@"
 
 BiteDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Đòn có thể làm"
+	next "đ.thủ khựng lại.@"
 
 GrowlDescription:
-	db   "Reduces the foe's"
-	next "ATTACK.@"
+	db   "Giảm ATTACK"
+	next "của đối thủ.@"
 
 RoarDescription:
-	db   "Scares wild foes"
-	next "to end battle.@"
+	db   "Doạ #MON hoang"
+	next "để kết thúc trận.@"
 
 SingDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+	db   "Có thể làm đ.thủ"
+	next "ngủ.@"
 
 SupersonicDescription:
-	db   "Sound waves that"
-	next "cause confusion.@"
+	db   "Sóng âm gây"
+	next "CONFUSION.@"
 
 SonicboomDescription:
-	db   "Always inflicts"
-	next "20HP damage.@"
+	db   "Luôn gây đúng"
+	next "20HP sát thương.@"
 
 DisableDescription:
-	db   "Disables the foe's"
-	next "most recent move.@"
+	db   "Vô hiệu hoá đòn"
+	next "đ.thủ vừa dùng.@"
 
 AcidDescription:
-	db   "An attack that may"
-	next "lower DEFENSE.@"
-
-EmberDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
-
-FlamethrowerDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
-
-MistDescription:
-	db   "Prevents stat"
-	next "reduction.@"
-
-WaterGunDescription:
-	db   "Squirts water to"
-	next "attack.@"
-
-HydroPumpDescription:
-	db   "A powerful water-"
-	next "type attack.@"
-
-SurfDescription:
-	db   "A strong water-"
-	next "type attack.@"
-
-IceBeamDescription:
-	db   "An attack that may"
-	next "freeze the foe.@"
-
-BlizzardDescription:
-	db   "An attack that may"
-	next "freeze the foe.@"
-
-PsybeamDescription:
-	db   "An attack that may"
-	next "confuse the foe.@"
-
-BubblebeamDescription:
-	db   "An attack that may"
-	next "lower SPEED.@"
-
-AuroraBeamDescription:
-	db   "An attack that may"
-	next "lower ATTACK.@"
-
-HyperBeamDescription:
-	db   "1st turn: Attack"
-	next "2nd turn: Rest@"
-
-PeckDescription:
-	db   "Jabs the foe with"
-	next "a beak, etc.@"
-
-DrillPeckDescription:
-	db   "A strong, spin-"
-	next "ning-peck attack.@"
-
-SubmissionDescription:
-	db   "An attack that al-"
-	next "so hurts the user.@"
-
-LowKickDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
-
-CounterDescription:
-	db   "Returns a physical"
-	next "blow double.@"
-
-SeismicTossDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
-
-StrengthDescription:
-	db   "A powerful physi-"
-	next "cal attack.@"
-
-AbsorbDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
-
-MegaDrainDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
-
-LeechSeedDescription:
-	db   "Steals HP from the"
-	next "foe on every turn.@"
-
-GrowthDescription:
-	db   "Raises the SPCL."
-	next "ATK rating.@"
-
-RazorLeafDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
-
-SolarbeamDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
-
-PoisonpowderDescription:
-	db   "A move that may"
-	next "poison the foe.@"
-
-StunSporeDescription:
-	db   "A move that may"
-	next "paralyze the foe.@"
-
-SleepPowderDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
-
-PetalDanceDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
-
-StringShotDescription:
-	db   "A move that lowers"
-	next "the foe's SPEED.@"
-
-DragonRageDescription:
-	db   "Always inflicts"
-	next "40HP damage.@"
-
-FireSpinDescription:
-	db   "Traps foe in fire"
-	next "for 2-5 turns.@"
-
-ThundershockDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
-
-ThunderboltDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
-
-ThunderWaveDescription:
-	db   "A move that may"
-	next "cause paralysis.@"
-
-ThunderDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
-
-RockThrowDescription:
-	db   "Drops rocks on the"
-	next "enemy.@"
-
-EarthquakeDescription:
-	db   "Tough but useless"
-	next "vs. flying foes.@"
-
-FissureDescription:
-	db   "A ground-type,"
-	next "one-hit KO attack.@"
-
-DigDescription:
-	db   "1st turn: Burrow"
-	next "2nd turn: Attack@"
-
-ToxicDescription:
-	db   "A poison move with"
-	next "increasing damage.@"
-
-ConfusionDescription:
-	db   "An attack that may"
-	next "cause confusion.@"
-
-PsychicMDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
-
-HypnosisDescription:
-	db   "May put the foe to"
-	next "sleep.@"
-
-MeditateDescription:
-	db   "Raises the user's"
-	next "ATTACK.@"
-
-AgilityDescription:
-	db   "Sharply increases"
-	next "the user's SPEED.@"
-
-QuickAttackDescription:
-	db   "Lets the user get"
-	next "in the first hit.@"
-
-RageDescription:
-	db   "Raises ATTACK if"
-	next "the user is hit.@"
-
-TeleportDescription:
-	db   "A move for fleeing"
-	next "from battle.@"
-
-NightShadeDescription:
-	db   "The user's level"
-	next "equals damage HP.@"
-
-MimicDescription:
-	db   "Copies a move used"
-	next "by the foe.@"
-
-ScreechDescription:
-	db   "Sharply reduces"
-	next "the foe's DEFENSE.@"
-
-DoubleTeamDescription:
-	db   "Heightens evasive-"
-	next "ness.@"
-
-RecoverDescription:
-	db   "Restores HP by 1/2"
-	next "the max HP.@"
-
-HardenDescription:
-	db   "Raises the user's"
+	db   "Đòn có thể giảm"
 	next "DEFENSE.@"
 
+EmberDescription:
+	db   "Đòn có thể gây"
+	next "BURN.@"
+
+FlamethrowerDescription:
+	db   "Đòn có thể gây"
+	next "BURN.@"
+
+MistDescription:
+	db   "Ngăn bị giảm"
+	next "chỉ số.@"
+
+WaterGunDescription:
+	db   "Bắn nước để"
+	next "tấn công.@"
+
+HydroPumpDescription:
+	db   "Đòn hệ NƯỚC"
+	next "cực mạnh.@"
+
+SurfDescription:
+	db   "Đòn hệ NƯỚC"
+	next "mạnh.@"
+
+IceBeamDescription:
+	db   "Đòn có thể gây"
+	next "FREEZE.@"
+
+BlizzardDescription:
+	db   "Đòn có thể gây"
+	next "FREEZE.@"
+
+PsybeamDescription:
+	db   "Đòn có thể gây"
+	next "CONFUSION.@"
+
+BubblebeamDescription:
+	db   "Đòn có thể giảm"
+	next "SPEED.@"
+
+AuroraBeamDescription:
+	db   "Đòn có thể giảm"
+	next "ATTACK.@"
+
+HyperBeamDescription:
+	db   "Lượt 1: Tấn công"
+	next "Lượt 2: Nghỉ@"
+
+PeckDescription:
+	db   "Mổ đối thủ"
+	next "bằng mỏ.@"
+
+DrillPeckDescription:
+	db   "Mổ xoáy cực"
+	next "mạnh.@"
+
+SubmissionDescription:
+	db   "Đòn cũng làm"
+	next "người dùng đau.@"
+
+LowKickDescription:
+	db   "Đòn có thể làm"
+	next "đ.thủ khựng lại.@"
+
+CounterDescription:
+	db   "Phản đòn vật lý"
+	next "gấp đôi.@"
+
+SeismicTossDescription:
+	db   "Sát thương bằng"
+	next "cấp độ ng. dùng.@"
+
+StrengthDescription:
+	db   "Đòn vật lý"
+	next "mạnh.@"
+
+AbsorbDescription:
+	db   "Hút 1/2 sát"
+	next "thương gây ra.@"
+
+MegaDrainDescription:
+	db   "Hút 1/2 sát"
+	next "thương gây ra.@"
+
+LeechSeedDescription:
+	db   "Hút HP đ.thủ"
+	next "mỗi lượt.@"
+
+GrowthDescription:
+	db   "Tăng chỉ số"
+	next "SPCL.ATK.@"
+
+RazorLeafDescription:
+	db   "Tỉ lệ chí mạng"
+	next "cao.@"
+
+SolarbeamDescription:
+	db   "Lượt 1: Chuẩn bị"
+	next "Lượt 2: Tấn công@"
+
+PoisonpowderDescription:
+	db   "Đòn có thể gây"
+	next "POISON.@"
+
+StunSporeDescription:
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
+
+SleepPowderDescription:
+	db   "Có thể làm đ.thủ"
+	next "ngủ.@"
+
+PetalDanceDescription:
+	db   "Đánh 2-3 lượt &"
+	next "tự gây CONFUSION.@"
+
+StringShotDescription:
+	db   "Giảm SPEED"
+	next "của đối thủ.@"
+
+DragonRageDescription:
+	db   "Luôn gây đúng"
+	next "40HP sát thương.@"
+
+FireSpinDescription:
+	db   "Nhốt đ.thủ trong"
+	next "lửa 2-5 lượt.@"
+
+ThundershockDescription:
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
+
+ThunderboltDescription:
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
+
+ThunderWaveDescription:
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
+
+ThunderDescription:
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
+
+RockThrowDescription:
+	db   "Ném đá vào"
+	next "đối thủ.@"
+
+EarthquakeDescription:
+	db   "Mạnh nhưng vô"
+	next "dụng với hệ BAY.@"
+
+FissureDescription:
+	db   "Hạ gục 1 đòn,"
+	next "đòn hệ ĐẤT.@"
+
+DigDescription:
+	db   "Lượt 1: Đào hang"
+	next "Lượt 2: Tấn công@"
+
+ToxicDescription:
+	db   "Độc tăng sát"
+	next "thương mỗi lượt.@"
+
+ConfusionDescription:
+	db   "Đòn có thể gây"
+	next "CONFUSION.@"
+
+PsychicMDescription:
+	db   "Đòn có thể giảm"
+	next "SPCL.DEF.@"
+
+HypnosisDescription:
+	db   "Có thể làm đ.thủ"
+	next "ngủ.@"
+
+MeditateDescription:
+	db   "Tăng ATTACK"
+	next "của người dùng.@"
+
+AgilityDescription:
+	db   "Tăng mạnh SPEED"
+	next "của người dùng.@"
+
+QuickAttackDescription:
+	db   "Luôn đánh trước"
+	next "đối thủ.@"
+
+RageDescription:
+	db   "Tăng ATTACK khi"
+	next "bị đánh trúng.@"
+
+TeleportDescription:
+	db   "Dùng để thoát"
+	next "khỏi trận đấu.@"
+
+NightShadeDescription:
+	db   "Sát thương bằng"
+	next "cấp độ ng. dùng.@"
+
+MimicDescription:
+	db   "Sao chép đòn"
+	next "của đối thủ.@"
+
+ScreechDescription:
+	db   "Giảm mạnh DEFENSE"
+	next "của đối thủ.@"
+
+DoubleTeamDescription:
+	db   "Tăng khả năng"
+	next "né đòn.@"
+
+RecoverDescription:
+	db   "Hồi 1/2 HP"
+	next "tối đa.@"
+
+HardenDescription:
+	db   "Tăng DEFENSE"
+	next "của người dùng.@"
+
 MinimizeDescription:
-	db   "Heightens evasive-"
-	next "ness.@"
+	db   "Tăng khả năng"
+	next "né đòn.@"
 
 SmokescreenDescription:
-	db   "Lowers the foe's"
-	next "accuracy.@"
+	db   "Giảm độ chính"
+	next "xác của đối thủ.@"
 
 ConfuseRayDescription:
-	db   "A move that causes"
-	next "confusion.@"
+	db   "Gây CONFUSION"
+	next "cho đối thủ.@"
 
 WithdrawDescription:
-	db   "Heightens the"
-	next "user's DEFENSE.@"
+	db   "Tăng DEFENSE"
+	next "của người dùng.@"
 
 DefenseCurlDescription:
-	db   "Heightens the"
-	next "user's DEFENSE.@"
+	db   "Tăng DEFENSE"
+	next "của người dùng.@"
 
 BarrierDescription:
-	db   "Sharply increases"
-	next "user's DEFENSE.@"
+	db   "Tăng mạnh DEFENSE"
+	next "của người dùng.@"
 
 LightScreenDescription:
-	db   "Ups SPCL.DEF with"
-	next "a wall of light.@"
+	db   "Tăng SPCL.DEF"
+	next "bằng tường sáng.@"
 
 HazeDescription:
-	db   "Eliminates all"
-	next "stat changes.@"
+	db   "Xoá mọi thay đổi"
+	next "chỉ số.@"
 
 ReflectDescription:
-	db   "Raises DEFENSE"
-	next "with a barrier.@"
+	db   "Tăng DEFENSE"
+	next "bằng rào chắn.@"
 
 FocusEnergyDescription:
-	db   "Raises the criti-"
-	next "cal hit ratio.@"
+	db   "Tăng tỉ lệ"
+	next "chí mạng.@"
 
 BideDescription:
-	db   "Waits 2-3 turns &"
-	next "hits back double.@"
+	db   "Chờ 2-3 lượt &"
+	next "đánh trả gấp đôi.@"
 
 MetronomeDescription:
-	db   "Randomly uses any"
-	next "#MON move.@"
+	db   "Dùng ngẫu nhiên"
+	next "đòn của #MON.@"
 
 MirrorMoveDescription:
-	db   "Counters with the"
-	next "same move.@"
+	db   "Phản đòn giống"
+	next "đ.thủ vừa dùng.@"
 
 SelfdestructDescription:
-	db   "Powerful but makes"
-	next "the user faint.@"
+	db   "Mạnh nhưng người"
+	next "dùng ngất.@"
 
 EggBombDescription:
-	db   "Eggs are hurled at"
-	next "the foe.@"
+	db   "Ném trứng vào"
+	next "đối thủ.@"
 
 LickDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
 
 SmogDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "Đòn có thể gây"
+	next "POISON.@"
 
 SludgeDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "Đòn có thể gây"
+	next "POISON.@"
 
 BoneClubDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Đòn có thể làm"
+	next "đ.thủ khựng lại.@"
 
 FireBlastDescription:
-	db   "An attack that"
-	next "may cause a burn.@"
+	db   "Đòn có thể gây"
+	next "BURN.@"
 
 WaterfallDescription:
-	db   "An aquatic charge"
-	next "attack.@"
+	db   "Đòn lao nước"
+	next "mạnh.@"
 
 ClampDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
+	db   "Kẹp đối thủ"
+	next "trong 2-5 lượt.@"
 
 SwiftDescription:
-	db   "An attack that"
-	next "never misses.@"
+	db   "Đòn không bao"
+	next "giờ trượt.@"
 
 SkullBashDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "Lượt 1: Chuẩn bị"
+	next "Lượt 2: Tấn công@"
 
 SpikeCannonDescription:
-	db   "Fires spikes to"
-	next "hit 2-5 times.@"
+	db   "Bắn gai đâm"
+	next "2-5 lần.@"
 
 ConstrictDescription:
-	db   "An attack that may"
-	next "lower SPEED.@"
+	db   "Đòn có thể giảm"
+	next "SPEED.@"
 
 AmnesiaDescription:
-	db   "Sharply raises the"
-	next "user's SPCL.DEF.@"
+	db   "Tăng mạnh"
+	next "SPCL.DEF.@"
 
 KinesisDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
+	db   "Giảm độ chính"
+	next "xác của đối thủ.@"
 
 SoftboiledDescription:
-	db   "Restores HP by 1/2"
-	next "the user's max HP.@"
+	db   "Hồi 1/2 HP"
+	next "tối đa.@"
 
 HiJumpKickDescription:
-	db   "May miss and hurt"
-	next "the user.@"
+	db   "Nếu trượt, người"
+	next "dùng bị thương.@"
 
 GlareDescription:
-	db   "A move that may"
-	next "cause paralysis.@"
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
 
 DreamEaterDescription:
-	db   "Steals HP from a"
-	next "sleeping victim.@"
+	db   "Hút HP từ đ.thủ"
+	next "đang ngủ.@"
 
 PoisonGasDescription:
-	db   "A move that may"
-	next "poison the foe.@"
+	db   "Đòn có thể gây"
+	next "POISON.@"
 
 BarrageDescription:
-	db   "Throws orbs to hit"
-	next "2-5 times.@"
+	db   "Ném vật tròn"
+	next "2-5 lần.@"
 
 LeechLifeDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "Hút 1/2 sát"
+	next "thương gây ra.@"
 
 LovelyKissDescription:
-	db   "May cause the foe"
-	next "to fall asleep.@"
+	db   "Có thể làm đ.thủ"
+	next "ngủ.@"
 
 SkyAttackDescription:
-	db   "1st turn: Prepare"
-	next "2nd turn: Attack@"
+	db   "Lượt 1: Chuẩn bị"
+	next "Lượt 2: Tấn công@"
 
 TransformDescription:
-	db   "The user assumes"
-	next "the foe's guise.@"
+	db   "Biến thành đối"
+	next "thủ.@"
 
 BubbleDescription:
-	db   "An attack that may"
-	next "reduce SPEED.@"
+	db   "Đòn có thể giảm"
+	next "SPEED.@"
 
 DizzyPunchDescription:
-	db   "An attack that may"
-	next "cause confusion.@"
+	db   "Đòn có thể gây"
+	next "CONFUSION.@"
 
 SporeDescription:
-	db   "A move that"
-	next "induces sleep.@"
+	db   "Đòn gây ngủ"
+	next "cho đối thủ.@"
 
 FlashDescription:
-	db   "Blinds the foe to"
-	next "reduce accuracy.@"
+	db   "Chói mắt giảm"
+	next "độ chính xác.@"
 
 PsywaveDescription:
-	db   "An attack with"
-	next "variable power.@"
+	db   "Đòn có sức mạnh"
+	next "thay đổi.@"
 
 SplashDescription:
-	db   "Has no effect"
-	next "whatsoever.@"
+	db   "Không có tác"
+	next "dụng gì.@"
 
 AcidArmorDescription:
-	db   "Sharply raises the"
-	next "user's DEFENSE.@"
+	db   "Tăng mạnh DEFENSE"
+	next "của người dùng.@"
 
 CrabhammerDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Tỉ lệ chí mạng"
+	next "cao.@"
 
 ExplosionDescription:
-	db   "Very powerful but"
-	next "makes user faint.@"
+	db   "Cực mạnh nhưng"
+	next "người dùng ngất.@"
 
 FurySwipesDescription:
-	db   "Quickly scratches"
-	next "2-5 times.@"
+	db   "Cào nhanh"
+	next "2-5 lần.@"
 
 BonemerangDescription:
-	db   "An attack that"
-	next "strikes twice.@"
+	db   "Đòn đánh trúng"
+	next "2 lần.@"
 
 RestDescription:
-	db   "Sleep for 2 turns"
-	next "to fully recover.@"
+	db   "Ngủ 2 lượt để"
+	next "hồi toàn bộ HP.@"
 
 RockSlideDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Đòn có thể làm"
+	next "đ.thủ khựng lại.@"
 
 HyperFangDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+	db   "Đòn có thể làm"
+	next "đ.thủ khựng lại.@"
 
 SharpenDescription:
-	db   "A move that raises"
-	next "the user's ATTACK.@"
+	db   "Tăng ATTACK"
+	next "của người dùng.@"
 
 ConversionDescription:
-	db   "Change user's type"
-	next "to a move's type.@"
+	db   "Đổi hệ ng. dùng"
+	next "theo hệ của đòn.@"
 
 TriAttackDescription:
-	db   "Fires three kinds"
-	next "of beams at once.@"
+	db   "Bắn 3 loại tia"
+	next "cùng lúc.@"
 
 SuperFangDescription:
-	db   "Cuts the foe's HP"
-	next "by 1/2.@"
+	db   "Giảm 1/2 HP"
+	next "của đối thủ.@"
 
 SlashDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Tỉ lệ chí mạng"
+	next "cao.@"
 
 SubstituteDescription:
-	db   "Makes a decoy with"
-	next "1/4 user's max HP.@"
+	db   "Tạo phân thân"
+	next "bằng 1/4 HP.@"
 
 StruggleDescription:
-	db   "Used only if all"
-	next "PP are exhausted.@"
+	db   "Chỉ dùng khi hết"
+	next "PP.@"
 
 SketchDescription:
-	db   "Copies the foe's"
-	next "move permanently.@"
+	db   "Chép vĩnh viễn"
+	next "đòn của đối thủ.@"
 
 TripleKickDescription:
-	db   "Hits three times"
-	next "with rising power.@"
+	db   "Đá 3 lần, sức"
+	next "mạnh tăng dần.@"
 
 ThiefDescription:
-	db   "An attack that may"
-	next "steal a held item.@"
+	db   "Đòn có thể cướp"
+	next "vật phẩm giữ.@"
 
 SpiderWebDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
+	db   "Ngăn đ.thủ chạy"
+	next "hoặc đổi #MON.@"
 
 MindReaderDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
+	db   "Đảm bảo đòn kế"
+	next "tiếp trúng.@"
 
 NightmareDescription:
-	db   "A sleeper loses"
-	next "1/4 HP every turn.@"
+	db   "Đ.thủ ngủ mất"
+	next "1/4 HP mỗi lượt.@"
 
 FlameWheelDescription:
-	db   "An attack that may"
-	next "cause a burn.@"
+	db   "Đòn có thể gây"
+	next "BURN.@"
 
 SnoreDescription:
-	db   "An attack useable"
-	next "only while asleep.@"
+	db   "Chỉ dùng được"
+	next "khi đang ngủ.@"
 
 CurseDescription:
-	db   "Works differently"
-	next "for ghost-types.@"
+	db   "Khác biệt với"
+	next "hệ MA.@"
 
 FlailDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
+	db   "Mạnh hơn khi HP"
+	next "người dùng thấp.@"
 
 Conversion2Description:
-	db   "The user's type is"
-	next "made resistant.@"
+	db   "Đổi hệ ng. dùng"
+	next "để kháng đ.thủ.@"
 
 AeroblastDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Tỉ lệ chí mạng"
+	next "cao.@"
 
 CottonSporeDescription:
-	db   "Sharply reduces"
-	next "the foe's SPEED.@"
+	db   "Giảm mạnh SPEED"
+	next "của đối thủ.@"
 
 ReversalDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
+	db   "Mạnh hơn khi HP"
+	next "người dùng thấp.@"
 
 SpiteDescription:
-	db   "Cuts the PP of the"
-	next "foe's last move.@"
+	db   "Giảm PP của đòn"
+	next "đ.thủ vừa dùng.@"
 
 PowderSnowDescription:
-	db   "An attack that may"
-	next "cause freezing.@"
+	db   "Đòn có thể gây"
+	next "FREEZE.@"
 
 ProtectDescription:
-	db   "Foils attack that"
-	next "turn. It may fail.@"
+	db   "Né đòn lượt đó."
+	next "Có thể thất bại.@"
 
 MachPunchDescription:
-	db   "A fast punch that"
-	next "lands first.@"
+	db   "Cú đấm nhanh"
+	next "luôn đánh trước.@"
 
 ScaryFaceDescription:
-	db   "Sharply reduces"
-	next "the foe's SPEED.@"
+	db   "Giảm mạnh SPEED"
+	next "của đối thủ.@"
 
 FaintAttackDescription:
-	db   "An attack that"
-	next "never misses.@"
+	db   "Đòn không bao"
+	next "giờ trượt.@"
 
 SweetKissDescription:
-	db   "A move that causes"
-	next "confusion.@"
+	db   "Gây CONFUSION"
+	next "cho đối thủ.@"
 
 BellyDrumDescription:
-	db   "Reduces own HP to"
-	next "maximize ATTACK.@"
+	db   "Giảm HP để tối"
+	next "đa hoá ATTACK.@"
 
 SludgeBombDescription:
-	db   "An attack that may"
-	next "poison the foe.@"
+	db   "Đòn có thể gây"
+	next "POISON.@"
 
 MudSlapDescription:
-	db   "Reduces the foe's"
-	next "accuracy.@"
+	db   "Giảm độ chính"
+	next "xác của đối thủ.@"
 
 OctazookaDescription:
-	db   "An attack that may"
-	next "reduce accuracy.@"
+	db   "Đòn có thể giảm"
+	next "độ chính xác.@"
 
 SpikesDescription:
-	db   "Hurts foes when"
-	next "they switch out.@"
+	db   "Gây sát thương"
+	next "khi đ.thủ đổi ra.@"
 
 ZapCannonDescription:
-	db   "An attack that"
-	next "always paralyzes.@"
+	db   "Đòn luôn gây"
+	next "PARALYSIS.@"
 
 ForesightDescription:
-	db   "Negates accuracy"
-	next "reduction moves.@"
+	db   "Vô hiệu đòn giảm"
+	next "độ chính xác.@"
 
 DestinyBondDescription:
-	db   "The foe faints if"
-	next "the user does.@"
+	db   "Đ.thủ ngất nếu"
+	next "ng. dùng ngất.@"
 
 PerishSongDescription:
-	db   "Both user and foe"
-	next "faint in 3 turns.@"
+	db   "Cả 2 ngất sau"
+	next "3 lượt.@"
 
 IcyWindDescription:
-	db   "An icy attack that"
-	next "lowers SPEED.@"
+	db   "Đòn băng giảm"
+	next "SPEED.@"
 
 DetectDescription:
-	db   "Evades attack that"
-	next "turn. It may fail.@"
+	db   "Né đòn lượt đó."
+	next "Có thể thất bại.@"
 
 BoneRushDescription:
-	db   "An attack that"
-	next "hits 2-5 times.@"
+	db   "Đòn đánh trúng"
+	next "2-5 lần.@"
 
 LockOnDescription:
-	db   "Ensures the next"
-	next "attack will hit.@"
+	db   "Đảm bảo đòn kế"
+	next "tiếp trúng.@"
 
 OutrageDescription:
-	db   "Works 2-3 turns"
-	next "and confuses user.@"
+	db   "Đánh 2-3 lượt &"
+	next "tự gây CONFUSION.@"
 
 SandstormDescription:
-	db   "Inflicts damage"
-	next "every turn.@"
+	db   "Gây sát thương"
+	next "mỗi lượt.@"
 
 GigaDrainDescription:
-	db   "Steals 1/2 of the"
-	next "damage inflicted.@"
+	db   "Hút 1/2 sát"
+	next "thương gây ra.@"
 
 EndureDescription:
-	db   "Always leaves at"
-	next "least 1HP.@"
+	db   "Luôn giữ lại"
+	next "ít nhất 1HP.@"
 
 CharmDescription:
-	db   "Sharply lowers the"
-	next "foe's ATTACK.@"
+	db   "Giảm mạnh ATTACK"
+	next "của đối thủ.@"
 
 RolloutDescription:
-	db   "Attacks 5 turns"
-	next "with rising power.@"
+	db   "Đánh 5 lượt, sức"
+	next "mạnh tăng dần.@"
 
 FalseSwipeDescription:
-	db   "Leaves the foe"
-	next "with at least 1HP.@"
+	db   "Để lại đ.thủ với"
+	next "ít nhất 1HP.@"
 
 SwaggerDescription:
-	db   "Causes confusion"
-	next "and raises ATTACK.@"
+	db   "Gây CONFUSION &"
+	next "tăng ATTACK.@"
 
 MilkDrinkDescription:
-	db   "Restores HP by 1/2"
-	next "the max HP.@"
+	db   "Hồi 1/2 HP"
+	next "tối đa.@"
 
 SparkDescription:
-	db   "An attack that may"
-	next "cause paralysis.@"
+	db   "Đòn có thể gây"
+	next "PARALYSIS.@"
 
 FuryCutterDescription:
-	db   "Successive hits"
-	next "raise power.@"
+	db   "Đòn liên tiếp"
+	next "tăng sức mạnh.@"
 
 SteelWingDescription:
-	db   "Stiff wings strike"
-	next "the foe.@"
+	db   "Cánh cứng đập"
+	next "vào đối thủ.@"
 
 MeanLookDescription:
-	db   "Prevents fleeing"
-	next "or switching.@"
+	db   "Ngăn đ.thủ chạy"
+	next "hoặc đổi #MON.@"
 
 AttractDescription:
-	db   "Makes the opposite"
-	next "gender infatuated.@"
+	db   "Làm đ.thủ khác"
+	next "giới si mê.@"
 
 SleepTalkDescription:
-	db   "Randomly attacks"
-	next "while asleep.@"
+	db   "Dùng đòn ngẫu"
+	next "nhiên khi ngủ.@"
 
 HealBellDescription:
-	db   "Eliminates all"
-	next "status problems.@"
+	db   "Chữa mọi trạng"
+	next "thái bất lợi.@"
 
 ReturnDescription:
-	db   "An attack that is"
-	next "based on loyalty.@"
+	db   "Mạnh hơn khi độ"
+	next "thân thiết cao.@"
 
 PresentDescription:
-	db   "A bomb that may"
-	next "restore HP.@"
+	db   "Quà có thể hồi"
+	next "HP cho đối thủ.@"
 
 FrustrationDescription:
-	db   "An attack based on"
-	next "lack of loyalty.@"
+	db   "Mạnh hơn khi độ"
+	next "thân thiết thấp.@"
 
 SafeguardDescription:
-	db   "Prevents all"
-	next "status problems.@"
+	db   "Ngăn mọi trạng"
+	next "thái bất lợi.@"
 
 PainSplitDescription:
-	db   "Adds user & foe's"
-	next "HPs. Shares total.@"
+	db   "Cộng HP 2 bên"
+	next "rồi chia đều.@"
 
 SacredFireDescription:
-	db   "An attack that may"
-	next "inflict a burn.@"
+	db   "Đòn có thể gây"
+	next "BURN.@"
 
 MagnitudeDescription:
-	db   "A ground attack"
-	next "with random power.@"
+	db   "Đòn hệ ĐẤT sức"
+	next "mạnh ngẫu nhiên.@"
 
 DynamicpunchDescription:
-	db   "An attack that"
-	next "always confuses.@"
+	db   "Đòn luôn gây"
+	next "CONFUSION.@"
 
 MegahornDescription:
-	db   "A powerful charge"
-	next "attack.@"
+	db   "Đòn húc sừng"
+	next "cực mạnh.@"
 
 DragonbreathDescription:
-	db   "A strong breath"
-	next "attack.@"
+	db   "Hơi thở mạnh"
+	next "của rồng.@"
 
 BatonPassDescription:
-	db   "Switches while"
-	next "keeping effects.@"
+	db   "Đổi #MON giữ"
+	next "nguyên hiệu ứng.@"
 
 EncoreDescription:
-	db   "Makes the foe re-"
-	next "peat 2-6 times.@"
+	db   "Buộc đ.thủ lặp"
+	next "lại đòn 2-6 lần.@"
 
 PursuitDescription:
-	db   "Heavily strikes"
-	next "switching #MON.@"
+	db   "Đánh mạnh #MON"
+	next "đang đổi ra.@"
 
 RapidSpinDescription:
-	db   "A high-speed"
-	next "spinning attack.@"
+	db   "Đòn xoay tốc độ"
+	next "cao.@"
 
 SweetScentDescription:
-	db   "Reduces the foe's"
-	next "evasiveness.@"
+	db   "Giảm khả năng"
+	next "né của đối thủ.@"
 
 IronTailDescription:
-	db   "An attack that may"
-	next "reduce DEFENSE.@"
+	db   "Đòn có thể giảm"
+	next "DEFENSE.@"
 
 MetalClawDescription:
-	db   "An attack that may"
-	next "up user's ATTACK.@"
+	db   "Có thể tăng"
+	next "ATTACK ng. dùng.@"
 
 VitalThrowDescription:
-	db   "A 2nd-strike move"
-	next "that never misses.@"
+	db   "Đánh sau nhưng"
+	next "không trượt.@"
 
 MorningSunDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "Hồi HP (tuỳ theo"
+	next "thời gian).@"
 
 SynthesisDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "Hồi HP (tuỳ theo"
+	next "thời gian).@"
 
 MoonlightDescription:
-	db   "Restores HP"
-	next "(varies by time).@"
+	db   "Hồi HP (tuỳ theo"
+	next "thời gian).@"
 
 HiddenPowerDescription:
-	db   "The power varies"
-	next "with the #MON.@"
+	db   "Sức mạnh tuỳ"
+	next "theo #MON.@"
 
 CrossChopDescription:
-	db   "Has a high criti-"
-	next "cal hit ratio.@"
+	db   "Tỉ lệ chí mạng"
+	next "cao.@"
 
 TwisterDescription:
-	db   "Whips up a tornado"
-	next "to attack.@"
+	db   "Tạo lốc xoáy"
+	next "để tấn công.@"
 
 RainDanceDescription:
-	db   "Boosts water-type"
-	next "moves for 5 turns.@"
+	db   "Tăng đòn hệ NƯỚC"
+	next "trong 5 lượt.@"
 
 SunnyDayDescription:
-	db   "Boosts fire-type"
-	next "moves for 5 turns.@"
+	db   "Tăng đòn hệ LỬA"
+	next "trong 5 lượt.@"
 
 CrunchDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "Đòn có thể giảm"
+	next "SPCL.DEF.@"
 
 MirrorCoatDescription:
-	db   "Counters a SPCL."
-	next "ATK move double.@"
+	db   "Phản đòn đặc biệt"
+	next "gấp đôi.@"
 
 PsychUpDescription:
-	db   "Copies the foe's"
-	next "stat changes.@"
+	db   "Sao chép thay đổi"
+	next "chỉ số của đ.thủ.@"
 
 ExtremespeedDescription:
-	db   "A powerful first-"
-	next "strike move.@"
+	db   "Đòn mạnh luôn"
+	next "đánh trước.@"
 
 AncientpowerDescription:
-	db   "An attack that may"
-	next "raise all stats.@"
+	db   "Có thể tăng mọi"
+	next "chỉ số.@"
 
 ShadowBallDescription:
-	db   "An attack that may"
-	next "lower SPCL.DEF.@"
+	db   "Đòn có thể giảm"
+	next "SPCL.DEF.@"
 
 FutureSightDescription:
-	db   "An attack that"
-	next "hits on 3rd turn.@"
+	db   "Đòn trúng sau"
+	next "3 lượt.@"
 
 RockSmashDescription:
-	db   "An attack that may"
-	next "lower DEFENSE.@"
+	db   "Đòn có thể giảm"
+	next "DEFENSE.@"
 
 WhirlpoolDescription:
-	db   "Traps the foe for"
-	next "2-5 turns.@"
+	db   "Nhốt đối thủ"
+	next "trong 2-5 lượt.@"
 
 BeatUpDescription:
-	db   "Party #MON join"
-	next "in the attack.@"
+	db   "#MON trong đội"
+	next "cùng tấn công.@"

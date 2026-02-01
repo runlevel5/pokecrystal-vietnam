@@ -407,8 +407,9 @@ FisherMarvinBeatenText:
 	done
 
 FisherMarvinAfterBattleText:
-	text "BÓNG LURE của KURT"
-	line "là tốt nhất để"
+	text "BÓNG MỒI CÁ của"
+	line "KURT là tốt nhất"
+	cont "để"
 
 	para "bắt #MON đã"
 	line "cắn câu."

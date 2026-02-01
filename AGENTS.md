@@ -291,7 +291,7 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 | GREAT BALL | BÓNG GREAT | Great Ball |
 | HEAVY BALL | BÓNG HEAVY | Heavy Ball |
 | LEVEL BALL | BÓNG LEVEL | Level Ball |
-| LURE BALL | BÓNG LURE | Lure Ball |
+| LURE BALL | BÓNG MỒI CÁ | Lure Ball |
 | FAST BALL | BÓNG FAST | Fast Ball |
 | LIGHT BALL | BÓNG LIGHT | Light Ball |
 | FRIEND BALL | BÓNG BẠN BÈ | Friend Ball |

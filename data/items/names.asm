@@ -159,7 +159,7 @@ ItemNames::
 	li "BÓNG HEAVY"
 	li "THƯ HOA"
 	li "BÓNG LEVEL"
-	li "BÓNG LURE"
+	li "BÓNG MỒI CÁ"
 	li "BÓNG FAST"
 	li "TERU-SAMA"
 	li "BÓNG LIGHT"

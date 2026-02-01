@@ -297,7 +297,7 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 | FRIEND BALL | BÓNG BẠN BÈ | Friend Ball |
 | MOON BALL | BÓNG M.TRĂNG | Moon Ball |
 | LOVE BALL | BÓNG ÁI TÌNH | Love Ball |
-| PARK BALL | BÓNG PARK | Park Ball |
+| PARK BALL | BÓNG C.VIÊN | Park Ball |
 
 **Medicine:**
 

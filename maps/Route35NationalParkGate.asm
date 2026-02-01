@@ -252,7 +252,7 @@ Route35NationalParkGateOfficer1GiveParkBallsText:
 
 Route35NationalParkGatePlayerReceivedParkBallsText:
 	text "<PLAYER> nhận"
-	line "{d:BUG_CONTEST_BALLS} BÓNG PARK."
+	line "{d:BUG_CONTEST_BALLS} BÓNG C.VIÊN."
 	done
 
 Route35NationalParkGateOfficer1ExplainsRulesText:
@@ -264,7 +264,7 @@ Route35NationalParkGateOfficer1ExplainsRulesText:
 	para "Bạn có"
 	line "{d:BUG_CONTEST_MINUTES} phút."
 
-	para "Nếu hết BÓNG PARK"
+	para "Nếu hết BÓNG C.VIÊN"
 	line "là bạn xong."
 
 	para "Bạn có thể giữ"

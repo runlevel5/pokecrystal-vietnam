@@ -176,7 +176,7 @@ ItemNames::
 	li "QUẢ VÀNG"
 	li "BÌNH XỊT"
 	li "TERU-SAMA"
-	li "BÓNG PARK"
+	li "BÓNG C.VIÊN"
 	li "LÔNG VŨ 7MÀU"
 	li "TERU-SAMA"
 	li "MẢNH GẠCH"

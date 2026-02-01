@@ -356,7 +356,7 @@ BirdKeeperBryanAfterBattleText:
 	line "chạy ngay lập tức"
 
 	para "Hãy thử bắt chúng"
-	line "với FAST BALL của"
+	line "với BÓNG FAST của"
 	cont "KURT."
 
 	para "Khi tôi tìm thấy"

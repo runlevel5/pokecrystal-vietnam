@@ -281,14 +281,23 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 
 #### 2. Item Names
 
-**Poké Balls (kept in English):**
-MASTER BALL, ULTRA BALL, GREAT BALL, HEAVY BALL, LEVEL BALL, LURE BALL, FAST BALL, LIGHT BALL, FRIEND BALL, MOON BALL, LOVE BALL, PARK BALL
-
 **Poké Balls (translated):**
 
 | English | Vietnamese | Meaning |
 |---------|------------|---------|
 | # BALL | BÓNG # | Ball (with Poké Ball icon) |
+| MASTER BALL | BÓNG MASTER | Master Ball |
+| ULTRA BALL | BÓNG ULTRA | Ultra Ball |
+| GREAT BALL | BÓNG GREAT | Great Ball |
+| HEAVY BALL | BÓNG HEAVY | Heavy Ball |
+| LEVEL BALL | BÓNG LEVEL | Level Ball |
+| LURE BALL | BÓNG LURE | Lure Ball |
+| FAST BALL | BÓNG FAST | Fast Ball |
+| LIGHT BALL | BÓNG LIGHT | Light Ball |
+| FRIEND BALL | BÓNG FRIEND | Friend Ball |
+| MOON BALL | BÓNG MOON | Moon Ball |
+| LOVE BALL | BÓNG LOVE | Love Ball |
+| PARK BALL | BÓNG PARK | Park Ball |
 
 **Medicine:**
 

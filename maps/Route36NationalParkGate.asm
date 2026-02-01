@@ -504,7 +504,7 @@ Route36NationalParkGateOfficer1GiveParkBallsText:
 Route36NationalParkGatePlayerReceivedParkBallsText:
 	text "<PLAYER> nhận được"
 	line "{d:BUG_CONTEST_BALLS}"
-	cont "PARK BALLS."
+	cont "BÓNG PARK."
 	done
 
 Route36NationalParkGateOfficer1ExplainsRulesText:

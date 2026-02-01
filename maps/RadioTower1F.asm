@@ -266,7 +266,7 @@ RadioTower1FLuckyNumberManPerfectMatchText:
 	line "thắng giải lớn!"
 
 	para "Bạn đã thắng một"
-	line "MASTER BALL!"
+	line "BÓNG MASTER!"
 	done
 
 RadioTower1FLuckyNumberManOkayMatchText:

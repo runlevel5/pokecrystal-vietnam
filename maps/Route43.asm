@@ -407,14 +407,14 @@ FisherMarvinBeatenText:
 	done
 
 FisherMarvinAfterBattleText:
-	text "LURE BALL của KURT"
+	text "BÓNG LURE của KURT"
 	line "là tốt nhất để"
 
 	para "bắt #MON đã"
 	line "cắn câu."
 
 	para "Nó hiệu quả hơn"
-	line "ULTRA BALL nhiều."
+	line "BÓNG ULTRA nhiều."
 	done
 
 CamperSpencerSeenText:

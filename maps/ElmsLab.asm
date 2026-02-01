@@ -1146,7 +1146,7 @@ ElmGiveMasterBallText1:
 	done
 
 ElmGiveMasterBallText2:
-	text "MASTER BALL là"
+	text "BÓNG MASTER là"
 	line "tốt nhất!"
 
 	para "Đó là BALL tối"

@@ -544,13 +544,13 @@ PlacePartyMonMobileBattleSelection:
 	jr .loop2
 
 .String_Banme:
-	db "　ばんめ　　@" ; Place
+	db " VỊ TRÍ  @" ; Place
 .String_Sanka_Shinai:
-	db "さんかしない@" ; Cancel
+	db "KHÔNG THI@" ; Cancel/Don't participate
 .String_Kettei_Yameru:
-	db "けってい　　やめる@" ; Quit
+	db "CHỌN    HỦY@" ; Select / Quit
 .Strings_1_2_3:
-	db "１@", "２@", "３@" ; 1st, 2nd, 3rd
+	db "1@", "2@", "3@" ; 1st, 2nd, 3rd
 
 PartyMenuCheckEgg:
 	ld a, LOW(wPartySpecies)

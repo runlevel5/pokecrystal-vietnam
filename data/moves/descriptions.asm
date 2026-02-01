@@ -301,7 +301,7 @@ IcePunchDescription:
 
 ThunderpunchDescription:
 	db   "Đấm điện. Có thể"
-	next "gây PARALYSIS.@"
+	next "gây TÊ LIỆT.@"
 
 ScratchDescription:
 	db   "Cào bằng móng"
@@ -400,7 +400,7 @@ TackleDescription:
 
 BodySlamDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 WrapDescription:
 	db   "Siết chặt đ.thủ"
@@ -576,7 +576,7 @@ PoisonpowderDescription:
 
 StunSporeDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 SleepPowderDescription:
 	db   "Có thể làm đ.thủ"
@@ -600,19 +600,19 @@ FireSpinDescription:
 
 ThundershockDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 ThunderboltDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 ThunderWaveDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 ThunderDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 RockThrowDescription:
 	db   "Ném đá vào"
@@ -752,7 +752,7 @@ EggBombDescription:
 
 LickDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 SmogDescription:
 	db   "Đòn có thể gây"
@@ -812,7 +812,7 @@ HiJumpKickDescription:
 
 GlareDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 DreamEaterDescription:
 	db   "Hút HP từ đ.thủ"
@@ -1032,7 +1032,7 @@ SpikesDescription:
 
 ZapCannonDescription:
 	db   "Đòn luôn gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 ForesightDescription:
 	db   "Vô hiệu đòn giảm"
@@ -1100,7 +1100,7 @@ MilkDrinkDescription:
 
 SparkDescription:
 	db   "Đòn có thể gây"
-	next "PARALYSIS.@"
+	next "TÊ LIỆT.@"
 
 FuryCutterDescription:
 	db   "Đòn liên tiếp"

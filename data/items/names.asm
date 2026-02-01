@@ -162,7 +162,7 @@ ItemNames::
 	li "BÓNG MỒI CÁ"
 	li "BÓNG FAST"
 	li "TERU-SAMA"
-	li "BÓNG LIGHT"
+	li "BÓNG ĐIỆN"
 	li "BÓNG BẠN BÈ"
 	li "BÓNG MOON"
 	li "BÓNG LOVE"

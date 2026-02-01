@@ -46,6 +46,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | SCRATCH | CÀO |
 | SWORDS DANCE | MÚA KIẾM |
 | GUST | LỐC |
+| WHIRLWIND | LỐC XOÁY |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

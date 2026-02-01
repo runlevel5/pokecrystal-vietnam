@@ -17,7 +17,7 @@ MoveNames::
 	li "CẮT"
 	li "LỐC"
 	li "WING ATTACK"
-	li "WHIRLWIND"
+	li "LỐC XOÁY"
 	li "BAY"
 	li "BIND"
 	li "SLAM"

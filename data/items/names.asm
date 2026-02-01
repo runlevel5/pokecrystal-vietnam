@@ -4,7 +4,7 @@ ItemNames::
 	li "ULTRA BALL"
 	li "BỘT SÁNG"
 	li "GREAT BALL"
-	li "# BALL"
+	li "BÓNG #"
 	li "TERU-SAMA"
 	li "XE ĐẠP"
 	li "ĐÁ TRĂNG"

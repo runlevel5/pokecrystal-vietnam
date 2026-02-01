@@ -67,7 +67,7 @@ AzaleaPokecenter1FPokefanFText:
 	line "bắt #MON."
 
 	para "Trước khi phát"
-	line "minh # BALL,"
+	line "minh BÓNG #,"
 
 	para "mọi người đều"
 	line "dùng APRICORN."

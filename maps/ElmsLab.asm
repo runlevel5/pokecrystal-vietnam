@@ -1246,7 +1246,7 @@ AideText_ExplainBalls:
 	line "#DEX, em phải"
 	cont "bắt #MON."
 
-	para "Ném # BALL vào"
+	para "Ném BÓNG # vào"
 	line "#MON hoang dã"
 	cont "để bắt chúng."
 	done

@@ -576,7 +576,7 @@ KurtsHouseKurtWhatIsThatText:
 	line "cái này bao giờ."
 
 	para "Trông nó giống"
-	line "# BALL lắm,"
+	line "BÓNG # lắm,"
 
 	para "nhưng hình như nó"
 	line "là thứ khác."
@@ -630,7 +630,7 @@ KurtsGranddaughterSlowpokeBackText:
 KurtsGranddaughterDadText:
 	text "Bố làm ở SILPH,"
 	line "nơi bố nghiên cứu"
-	cont "# BALL."
+	cont "BÓNG #."
 
 	para "Cháu phải ở nhà"
 	line "với Ông và"

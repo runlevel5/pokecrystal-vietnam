@@ -40,7 +40,7 @@ RalphLostAMonText:
 	para "Tôi đang buồn"
 	line "cho đến khi nó"
 
-	para "chia sẻ # BALL"
+	para "chia sẻ BÓNG #"
 	line "với tôi."
 
 	para "Hahah, điều đó"

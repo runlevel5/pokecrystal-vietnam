@@ -32,7 +32,7 @@ BrentLostAMonText:
 	line "đầu tớ thấy."
 
 	para "Nhưng tớ không có"
-	line "# BALL nào…"
+	line "BÓNG # nào…"
 
 	para "BILL có cười sai"
 	line "lầm của tớ không?"

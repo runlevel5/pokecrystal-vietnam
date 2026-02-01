@@ -42,14 +42,14 @@ CherrygroveMartYoungsterScript:
 
 CherrygroveMartCooltrainerMText:
 	text "Họ vừa hết sạch"
-	line "# BALL!"
+	line "BÓNG #!"
 
 	para "Khi nào họ sẽ có"
 	line "thêm đây?"
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
-	text "# BALL đã có"
+	text "BÓNG # đã có"
 	line "hàng! Giờ tôi có"
 	cont "thể bắt #MON!"
 	done

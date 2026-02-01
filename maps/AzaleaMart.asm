@@ -34,7 +34,7 @@ AzaleaMartCooltrainerMText:
 AzaleaMartBugCatcherText:
 	text "GREAT BALL bắt"
 	line "#MON tốt hơn"
-	cont "# BALL."
+	cont "BÓNG #."
 
 	para "Nhưng của KURT"
 	line "thì đôi khi tốt"

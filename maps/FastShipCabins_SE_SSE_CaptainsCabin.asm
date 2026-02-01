@@ -442,7 +442,7 @@ PokefanfGeorgiaAfterBattleText:
 
 SupernerdShawnSeenText:
 	text "Bạn mang theo loại"
-	line "# BALL nào?"
+	line "BÓNG # nào?"
 	done
 
 SupernerdShawnBeatenText:

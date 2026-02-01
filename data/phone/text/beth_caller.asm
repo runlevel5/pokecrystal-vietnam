@@ -44,7 +44,7 @@ BethLostAMonText:
 	para "Tớ đang cố bắt nó"
 	line "thì phát hiện ra"
 
-	para "tớ hết # BALL"
+	para "tớ hết BÓNG #"
 	line "rồi."
 
 	para "Nếu cậu không kiểm"

@@ -36,7 +36,7 @@ LavenderMartPokefanMText:
 
 LavenderMartRockerText:
 	text "Tôi nghe nói có"
-	line "thợ làm # BALL"
+	line "thợ làm BÓNG #"
 
 	para "tùy chỉnh ở TRẤN"
 	line "AZALEA của JOHTO."

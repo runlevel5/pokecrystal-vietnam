@@ -343,7 +343,7 @@ AcademyNotebookText:
 	line "cậu bé này…"
 
 	para "Bắt #MON bằng"
-	line "# BALL."
+	line "BÓNG #."
 
 	para "Tối đa sáu con"
 	line "trong đội."
@@ -353,7 +353,7 @@ AcademyNotebookText:
 
 AcademyNotebookText1:
 	text "Trước khi ném"
-	line "# BALL, làm yếu"
+	line "BÓNG #, làm yếu"
 	cont "mục tiêu trước."
 
 	para "#MON bị độc"

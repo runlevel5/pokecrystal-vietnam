@@ -72,7 +72,40 @@ DIRE HIT, GUARD SPEC.
 MOON STONE, FIRE STONE, THUNDERSTONE, WATER STONE, LEAF STONE, SUN STONE, DRAGON SCALE, METAL COAT, KING'S ROCK, UP-GRADE, EVERSTONE
 
 **Hold Items:**
-BRIGHTPOWDER, QUICK CLAW, SOFT SAND, SHARP BEAK, POISON BARB, SILVERPOWDER, AMULET COIN, CLEANSE TAG, MYSTIC WATER, TWISTEDSPOON, BLACKBELT, BLACKGLASSES, PINK BOW, STICK, SMOKE BALL, NEVERMELTICE, MAGNET, MIRACLE SEED, THICK CLUB, FOCUS BAND, HARD STONE, LUCKY EGG, CHARCOAL, SCOPE LENS, DRAGON FANG, LEFTOVERS, POLKADOT BOW, BERSERK GENE, METAL POWDER, LUCKY PUNCH
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| BRIGHTPOWDER | BỘT SÁNG | Bright Powder |
+| QUICK CLAW | MÓNG NHANH | Quick Claw |
+| SOFT SAND | CÁT MỀM | Soft Sand |
+| SHARP BEAK | MỎ SẮC | Sharp Beak |
+| POISON BARB | NGẠNH ĐỘC | Poison Barb |
+| SILVERPOWDER | BỘT BẠC | Silver Powder |
+| AMULET COIN | ẤN BẢO | Amulet Coin |
+| MYSTIC WATER | NƯỚC THẦN | Mystic Water |
+| TWISTEDSPOON | THÌA XOẮN | Twisted Spoon |
+| BLACKBELT | ĐAI ĐEN | Black Belt |
+| BLACKGLASSES | KÍNH ĐEN | Black Glasses |
+| PINK BOW | CUNG HỒNG | Pink Bow |
+| STICK | QUE | Stick |
+| SMOKE BALL | BÓNG KHÓI | Smoke Ball |
+| NEVERMELTICE | ĐÁ-0-TAN | Never-Melt Ice |
+| MAGNET | NAM CHÂM | Magnet |
+| MIRACLE SEED | HẠT THẦN | Miracle Seed |
+| THICK CLUB | XƯƠNG DÀY | Thick Club |
+| FOCUS BAND | ĐAI CỔ VŨ | Focus Band |
+| HARD STONE | ĐÁ CỨNG | Hard Stone |
+| LUCKY EGG | TRỨNG MAY | Lucky Egg |
+| CHARCOAL | THAN ĐÁ | Charcoal |
+| SCOPE LENS | THẤU KÍNH | Scope Lens |
+| DRAGON FANG | NANH RỒNG | Dragon Fang |
+| LEFTOVERS | CƠM THỪA | Leftovers |
+| BERSERK GENE | GEN DẠI | Berserk Gene |
+| METAL POWDER | BỘT SẮT | Metal Powder |
+| LUCKY PUNCH | G.TAY MAY | Lucky Punch (Găng Tay May) |
+
+**Hold Items kept in English:**
+CLEANSE TAG, POLKADOT BOW
 
 **Key Items:**
 GS BALL

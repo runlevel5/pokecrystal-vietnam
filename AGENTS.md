@@ -47,6 +47,15 @@ To translate move names, edit the file `data/moves/names.asm`.
 | SWORDS DANCE | MÚA KIẾM |
 | GUST | LỐC |
 | WHIRLWIND | LỐC XOÁY |
+| POUND | ĐẬP |
+| BITE | CẮN |
+| ROAR | GẦM |
+| SING | HÁT |
+| BIND | SIẾT |
+| SLAM | ĐÁNH |
+| WRAP | QUẤN |
+| STOMP | GIẪM |
+| PECK | MỔ |
 
 #### 2. Item Names
 

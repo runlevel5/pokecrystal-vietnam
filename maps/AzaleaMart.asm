@@ -32,7 +32,7 @@ AzaleaMartCooltrainerMText:
 	done
 
 AzaleaMartBugCatcherText:
-	text "BÓNG GREAT bắt"
+	text "BÓNG SUPER bắt"
 	line "#MON tốt hơn"
 	cont "BÓNG #."
 

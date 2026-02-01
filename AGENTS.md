@@ -288,11 +288,11 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 | # BALL | BÓNG # | Ball (with Poké Ball icon) |
 | MASTER BALL | BÓNG MASTER | Master Ball |
 | ULTRA BALL | BÓNG ULTRA | Ultra Ball |
-| GREAT BALL | BÓNG GREAT | Great Ball |
-| HEAVY BALL | BÓNG HEAVY | Heavy Ball |
-| LEVEL BALL | BÓNG LEVEL | Level Ball |
+| GREAT BALL | BÓNG SUPER | Super Ball |
+| HEAVY BALL | BÓNG NẶNG | Heavy Ball |
+| LEVEL BALL | BÓNG CẤP BẬC | Level Ball |
 | LURE BALL | BÓNG MỒI CÁ | Lure Ball |
-| FAST BALL | BÓNG FAST | Fast Ball |
+| FAST BALL | BÓNG NHANH | Fast Ball |
 | LIGHT BALL | BÓNG ĐIỆN | Light Ball (Electric) |
 | FRIEND BALL | BÓNG BẠN BÈ | Friend Ball |
 | MOON BALL | BÓNG M.TRĂNG | Moon Ball |

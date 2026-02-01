@@ -356,8 +356,8 @@ BirdKeeperBryanAfterBattleText:
 	line "chạy ngay lập tức"
 
 	para "Hãy thử bắt chúng"
-	line "với BÓNG FAST của"
-	cont "KURT."
+	line "với BÓNG NHANH"
+	cont "của KURT."
 
 	para "Khi tôi tìm thấy"
 	line "WHT APRICORN, tôi"

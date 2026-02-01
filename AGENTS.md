@@ -72,7 +72,22 @@ DIRE HIT, GUARD SPEC.
 | PP UP | NÂNG PP | PP Up |
 
 **Evolution Items:**
-MOON STONE, FIRE STONE, THUNDERSTONE, WATER STONE, LEAF STONE, SUN STONE, DRAGON SCALE, METAL COAT, KING'S ROCK, UP-GRADE, EVERSTONE
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| MOON STONE | ĐÁ TRĂNG | Moon Stone |
+| FIRE STONE | ĐÁ LỬA | Fire Stone |
+| THUNDERSTONE | ĐÁ SẤM | Thunder Stone |
+| WATER STONE | ĐÁ NƯỚC | Water Stone |
+| LEAF STONE | ĐÁ LÁ | Leaf Stone |
+| SUN STONE | ĐÁ M.TRỜI | Sun Stone (Mặt Trời) |
+| DRAGON SCALE | VẢY RỒNG | Dragon Scale |
+| METAL COAT | ÁO SẮT | Metal Coat |
+| KING'S ROCK | HOÀNG ẤN | King's Rock (Royal Seal) |
+| EVERSTONE | VÔ ĐỊNH ĐÁ | Everstone (Unchanging Stone) |
+
+**Evolution Items kept in English:**
+UP-GRADE
 
 **Hold Items:**
 

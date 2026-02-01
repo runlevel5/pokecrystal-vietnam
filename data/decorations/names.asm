@@ -6,7 +6,7 @@ DecorationNames:
 	li "MAGNAPLANT"
 	li "TROPICPLANT"
 	li "JUMBOPLANT"
-	li "TOWN MAP"
+	li "BẢN ĐỒ"
 	li "NES"
 	li "SUPER NES"
 	li "NINTENDO 64"

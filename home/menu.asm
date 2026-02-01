@@ -431,6 +431,7 @@ _YesNoBox::
 	ld hl, YesNoMenuHeader
 	call CopyMenuHeader
 	pop bc
+_PlaceTwoOptionBox:
 ; This seems to be an overflow prevention,
 ; but it was coded wrong.
 	ld a, b
@@ -481,6 +482,26 @@ YesNoMenuHeader::
 	db 2
 	db "CÓ@"
 	db "KHÔNG@"
+
+RightWrongBox::
+	lb bc, SCREEN_WIDTH - 8, 7
+	push bc
+	ld hl, RightWrongMenuHeader
+	call CopyMenuHeader
+	pop bc
+	jr _PlaceTwoOptionBox
+
+RightWrongMenuHeader::
+	db MENU_BACKUP_TILES ; flags
+	menu_coords 10, 5, 17, 9
+	dw .MenuData
+	db 1 ; default option
+
+.MenuData:
+	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
+	db 2
+	db "ĐÚNG@"
+	db "SAI@"
 
 OffsetMenuHeader::
 	call _OffsetMenuHeader

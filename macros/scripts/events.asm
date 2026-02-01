@@ -1065,4 +1065,9 @@ MACRO checksave
 	db checksave_command
 ENDM
 
+	const rightwrong_command ; $aa
+MACRO rightwrong
+	db rightwrong_command
+ENDM
+
 DEF NUM_EVENT_COMMANDS EQU const_value

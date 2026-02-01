@@ -49,16 +49,16 @@ MeetMomScript:
 	special SetDayOfWeek
 .SetDayOfWeek:
 	writetext IsItDSTText
-	yesorno
+	rightwrong
 	iffalse .WrongDay
 	special InitialSetDSTFlag
-	yesorno
+	rightwrong
 	iffalse .SetDayOfWeek
 	sjump .DayOfWeekDone
 
 .WrongDay:
 	special InitialClearDSTFlag
-	yesorno
+	rightwrong
 	iffalse .SetDayOfWeek
 .DayOfWeekDone:
 	writetext ComeHomeForDSTText

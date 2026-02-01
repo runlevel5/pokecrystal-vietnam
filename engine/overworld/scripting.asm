@@ -234,6 +234,7 @@ ScriptCommandTable:
 	dw Script_getname                    ; a7
 	dw Script_wait                       ; a8
 	dw Script_checksave                  ; a9
+	dw Script_rightwrong                 ; aa
 	assert_table_length NUM_EVENT_COMMANDS
 
 StartScript:
@@ -390,6 +391,15 @@ Script_yesorno:
 .no
 	ld [wScriptVar], a
 	vc_hook Unknown_yesorno_ret
+	ret
+
+Script_rightwrong:
+	call RightWrongBox
+	ld a, FALSE
+	jr c, .wrong
+	ld a, TRUE
+.wrong
+	ld [wScriptVar], a
 	ret
 
 Script_loadmenu:

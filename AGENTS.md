@@ -739,6 +739,55 @@ Vietnamese pronouns are chosen based on relationship and context:
 | Peer (polite) | tôi → bạn |
 | NPC (respectful) | Based on age/status |
 
+## Confirmation Dialog System
+
+Vietnamese uses different terms for different types of confirmations:
+
+### YesNoBox (CÓ/KHÔNG) - For Preference/Intent Questions
+
+Use `YesNoBox` function or `yesorno` script command for questions about:
+- **Preferences**: "Do you want...?" / "Would you like...?"
+- **Permission**: "May I...?" / "Should I...?"
+- **Knowledge**: "Do you know...?"
+
+**Example:**
+- "Con có biết dùng ĐIỆN THOẠI không?" (Do you know how to use the PHONE?)
+- Uses: CÓ (Yes) / KHÔNG (No)
+
+### RightWrongBox (ĐÚNG/SAI) - For Factual Confirmations
+
+Use `RightWrongBox` function or `rightwrong` script command for questions about:
+- **Accuracy verification**: "Is this information correct?"
+- **Factual confirmation**: "Is it...?" / "Is this right?"
+- **Time/data validation**: "Is the displayed value accurate?"
+
+**Examples:**
+- "Sao cơ? 10 giờ ?" (What? 10 o'clock?) - Confirming displayed time
+- "Bây giờ có phải Giờ Mùa Hè không?" (Is it Daylight Saving Time now?)
+- Uses: ĐÚNG (Correct/Right) / SAI (Wrong/Incorrect)
+
+### Implementation
+
+**Files:**
+- `home/menu.asm`: Contains `YesNoBox` and `RightWrongBox` functions
+- `macros/scripts/events.asm`: Contains `yesorno` and `rightwrong` script command macros
+- `engine/overworld/scripting.asm`: Contains `Script_yesorno` and `Script_rightwrong` handlers
+
+**Usage in code:**
+```asm
+; Direct function call (in ASM functions)
+call RightWrongBox  ; Returns nc (correct) or c (wrong)
+
+; Script command (in map scripts)
+rightwrong          ; Stores TRUE/FALSE in wScriptVar
+iffalse .WrongAnswer
+```
+
+**Current locations using RightWrongBox:**
+- Time/clock confirmations: `engine/rtc/timeset.asm` (3 locations)
+- Clock reset: `engine/rtc/restart_clock.asm` (1 location)
+- DST confirmations: `maps/PlayersHouse1F.asm` (3 locations)
+
 ## Vietnamese Grammar Rules
 
 ### Adjective-Noun Word Order

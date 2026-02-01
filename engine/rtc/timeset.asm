@@ -76,7 +76,7 @@ InitClock:
 	call .ClearScreen
 	ld hl, OakTimeWhatHoursText
 	call PrintText
-	call YesNoBox
+	call RightWrongBox
 	jr nc, .HourIsSet
 	call .ClearScreen
 	jr .loop
@@ -106,7 +106,7 @@ InitClock:
 	call .ClearScreen
 	ld hl, OakTimeWhoaMinutesText
 	call PrintText
-	call YesNoBox
+	call RightWrongBox
 	jr nc, .MinutesAreSet
 	call .ClearScreen
 	jr .HourIsSet
@@ -425,7 +425,7 @@ SetDayOfWeek:
 	call UpdateSprites
 	ld hl, .ConfirmWeekdayText
 	call PrintText
-	call YesNoBox
+	call RightWrongBox
 	jr c, .loop
 	ld a, [wTempDayOfWeek]
 	ld [wStringBuffer2], a

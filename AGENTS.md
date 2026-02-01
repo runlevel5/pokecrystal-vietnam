@@ -37,6 +37,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | MORNING SUN | BÌNH MINH |
 | SLEEP TALK | MỘNG NGÔN |
 | MILK DRINK | UỐNG SỮA |
+| KARATE CHOP | CHẶT KARATE |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

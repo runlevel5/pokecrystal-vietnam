@@ -1,7 +1,7 @@
 MoveNames::
 	list_start MOVE_NAME_LENGTH - 1
 	li "POUND"
-	li "KARATE CHOP"
+	li "CHẶT KARATE"
 	li "DOUBLESLAP"
 	li "COMET PUNCH"
 	li "MEGA PUNCH"

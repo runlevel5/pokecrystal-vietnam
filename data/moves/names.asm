@@ -170,7 +170,7 @@ MoveNames::
 	li "THIEF"
 	li "SPIDER WEB"
 	li "MIND READER"
-	li "NIGHTMARE"
+	li "ÁC MỘNG"
 	li "FLAME WHEEL"
 	li "NGÁY"
 	li "CURSE"

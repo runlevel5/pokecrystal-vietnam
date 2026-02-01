@@ -31,6 +31,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | GROWL | GẦM GỪ |
 | LEECH LIFE | HÚT HP |
 | SNORE | NGÁY |
+| NIGHTMARE | ÁC MỘNG |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

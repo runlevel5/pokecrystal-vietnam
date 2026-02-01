@@ -159,7 +159,7 @@ ItemNames::
 	li "BÓNG NẶNG"
 	li "THƯ HOA"
 	li "BÓNG CẤP BẬC"
-	li "BÓNG MỒI CÁ"
+	li "BÓNG MỒI CÂU"
 	li "BÓNG NHANH"
 	li "TERU-SAMA"
 	li "BÓNG ĐIỆN"

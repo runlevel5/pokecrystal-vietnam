@@ -41,13 +41,32 @@ MASTER BALL, ULTRA BALL, GREAT BALL, # BALL, HEAVY BALL, LEVEL BALL, LURE BALL, 
 SODA POP
 
 **Berries:**
-BERRY → QUẢ, GOLD BERRY → QUẢ VÀNG, PSNCUREBERRY → QUẢ TRỊ ĐỘC, PRZCUREBERRY → QUẢ TRỊ LIỆT, BURNT BERRY → QUẢ CHÁY, ICE BERRY → QUẢ BĂNG, BITTER BERRY → QUẢ ĐẮNG, MINT BERRY → QUẢ BẠC HÀ, MIRACLEBERRY → THÁNH QUẢ, MYSTERYBERRY → QUẢ BÍ MẬT
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| BERRY | QUẢ | Berry/Fruit |
+| GOLD BERRY | QUẢ VÀNG | Gold Berry |
+| PSNCUREBERRY | QUẢ TRỊ ĐỘC | Poison Cure Berry |
+| PRZCUREBERRY | QUẢ TRỊ LIỆT | Paralysis Cure Berry |
+| BURNT BERRY | QUẢ CHÁY | Burnt Berry |
+| ICE BERRY | QUẢ BĂNG | Ice Berry |
+| BITTER BERRY | QUẢ ĐẮNG | Bitter Berry |
+| MINT BERRY | QUẢ BẠC HÀ | Mint Berry |
+| MIRACLEBERRY | THÁNH QUẢ | Holy/Sacred Berry |
+| MYSTERYBERRY | QUẢ BÍ MẬT | Mystery Berry |
 
 **Battle Items:**
 DIRE HIT, GUARD SPEC.
 
 **Vitamins:**
-PROTEIN → ĐẠM, IRON → SẮT, CARBOS → TINH BỘT, CALCIUM → CANXI, PP UP → NÂNG PP
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| PROTEIN | ĐẠM | Protein |
+| IRON | SẮT | Iron |
+| CARBOS | TINH BỘT | Carbohydrate |
+| CALCIUM | CANXI | Calcium |
+| PP UP | NÂNG PP | PP Up |
 
 **Evolution Items:**
 MOON STONE, FIRE STONE, THUNDERSTONE, WATER STONE, LEAF STONE, SUN STONE, DRAGON SCALE, METAL COAT, KING'S ROCK, UP-GRADE, EVERSTONE
@@ -59,7 +78,16 @@ BRIGHTPOWDER, QUICK CLAW, SOFT SAND, SHARP BEAK, POISON BARB, SILVERPOWDER, AMUL
 GS BALL
 
 **Apricorns:**
-RED APRICORN → MƠ ĐỎ, BLU APRICORN → MƠ XANH BIỂN, YLW APRICORN → MƠ VÀNG, GRN APRICORN → MƠ XANH LÁ, WHT APRICORN → MƠ TRẮNG, BLK APRICORN → MƠ ĐEN, PNK APRICORN → MƠ HỒNG
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| RED APRICORN | MƠ ĐỎ | Red Apricorn |
+| BLU APRICORN | MƠ XANH BIỂN | Blue Apricorn |
+| YLW APRICORN | MƠ VÀNG | Yellow Apricorn |
+| GRN APRICORN | MƠ XANH LÁ | Green Apricorn |
+| WHT APRICORN | MƠ TRẮNG | White Apricorn |
+| BLK APRICORN | MƠ ĐEN | Black Apricorn |
+| PNK APRICORN | MƠ HỒNG | Pink Apricorn |
 
 **Miscellaneous:**
 # DOLL, ETHER, MAX ETHER, ELIXER, SPELL TAG

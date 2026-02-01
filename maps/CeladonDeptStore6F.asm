@@ -90,9 +90,10 @@ CeladonDeptStore6FVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"
+	; Item names must match data/items/names.asm
+	db "NƯỚC SẠCH    ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"  ; FRESH_WATER
+	db "SÔ-ĐA POP    ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"     ; SODA_POP
+	db "CHANH MUỐI   ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"     ; LEMONADE
 	db "HỦY@"
 
 CeladonDeptStore6FDirectory:

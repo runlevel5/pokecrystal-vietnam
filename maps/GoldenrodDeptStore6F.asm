@@ -79,9 +79,10 @@ GoldenrodVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
+	; Item names must match data/items/names.asm
+	db "NƯỚC SẠCH    ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"  ; FRESH_WATER
+	db "SÔ-ĐA POP    ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"     ; SODA_POP
+	db "CHANH MUỐI   ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"     ; LEMONADE
 	db "HỦY@"
 
 GoldenrodDeptStore6FLassScript:

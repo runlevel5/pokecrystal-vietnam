@@ -296,7 +296,7 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 | LIGHT BALL | BÓNG ĐIỆN | Light Ball (Electric) |
 | FRIEND BALL | BÓNG BẠN BÈ | Friend Ball |
 | MOON BALL | BÓNG MOON | Moon Ball |
-| LOVE BALL | BÓNG LOVE | Love Ball |
+| LOVE BALL | BÓNG ÁI TÌNH | Love Ball |
 | PARK BALL | BÓNG PARK | Park Ball |
 
 **Medicine:**

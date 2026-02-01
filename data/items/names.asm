@@ -165,7 +165,7 @@ ItemNames::
 	li "BÓNG ĐIỆN"
 	li "BÓNG BẠN BÈ"
 	li "BÓNG MOON"
-	li "BÓNG LOVE"
+	li "BÓNG ÁI TÌNH"
 	li "HỘP THƯỜNG"
 	li "HỘP ĐẸP"
 	li "ĐÁ M.TRỜI"

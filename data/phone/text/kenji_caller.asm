@@ -1,63 +1,63 @@
 KenjiHangUpText:
-	text "Anyway, we'll chat"
-	line "again!"
+	text "Dù sao, nói"
+	line "chuyện lại nhé!"
 	done
 
 KenjiRemainDedicatedText:
-	text "Are you still on"
-	line "your journey?"
+	text "Cậu vẫn đang trên"
+	line "hành trình chứ?"
 
-	para "I remain dedicated"
-	line "to my training."
+	para "Tớ vẫn tận tụy"
+	line "với việc luyện tập"
 
 	para "Oooooaaarrrgh!"
 	done
 
 KenjiCallMeBackAnotherTimeText:
-	text "I'm in training"
-	line "now. I apologize,"
+	text "Tớ đang luyện tập."
+	line "Xin lỗi,"
 
-	para "but call me back"
-	line "another time."
+	para "nhưng gọi lại cho"
+	line "tớ lúc khác."
 
 	para "Oooooaaarrrgh!"
 	done
 
 KenjiIllHaveTimeToChatTomorrowText:
-	text "I apologize, but I"
-	line "don't have time to"
+	text "Xin lỗi, nhưng tớ"
+	line "không có thời gian"
 
-	para "chat while I am in"
-	line "training!"
+	para "nói chuyện khi"
+	line "đang luyện tập!"
 
-	para "I'll have time to"
-	line "chat tomorrow!"
+	para "Tớ sẽ rảnh nói"
+	line "chuyện ngày mai!"
 
 	para "Yiiihah!"
 	done
 
 KenjiHangUpMorningText:
-	text "I plan to take a"
-	line "lunch break, so"
+	text "Tớ định nghỉ trưa,"
+	line "nên"
 
-	para "come see me then!"
+	para "đến gặp tớ lúc đó!"
 	line "Ayiiiyah!"
 	done
 
 KenjiTakingABreakText:
-	text "I'm taking a break"
-	line "on ROUTE 45!"
+	text "Tớ đang nghỉ tại"
+	line "TUYẾN ĐƯỜNG 45!"
 
-	para "Why not drop by if"
-	line "you are free?"
+	para "Sao không ghé qua"
+	line "nếu cậu rảnh?"
 	done
 
 KenjiHangUpNightText:
-	text "I rested up over"
-	line "my lunch break."
+	text "Tớ đã nghỉ trong"
+	line "giờ ăn trưa."
 
-	para "Now it's time to"
-	line "resume training!"
+	para "Giờ đến lúc tiếp"
+	line "tục luyện tập!"
 
 	para "Oooryaah!"
 	done

@@ -1,67 +1,67 @@
 KenjiAskNumber1Text:
-	text "Our battle was"
-	line "remarkable!"
+	text "Trận đấu của bọn"
+	line "mình tuyệt vời!"
 
-	para "I wish for some-"
-	line "thing to remember"
-	cont "you by!"
+	para "Tớ muốn có cái gì"
+	line "đó để nhớ về"
+	cont "cậu!"
 
-	para "Perhaps your phone"
-	line "number will do?"
+	para "Có lẽ SĐT của cậu"
+	line "sẽ được?"
 
-	para "My training makes"
-	line "it impossible to"
-	cont "chat much, but…"
+	para "Việc luyện tập làm"
+	line "tớ không thể nói"
+	cont "chuyện nhiều…"
 	done
 
 KenjiAskNumber2Text:
-	text "My training makes"
-	line "chatting tough,"
+	text "Việc luyện tập làm"
+	line "nói chuyện khó,"
 
-	para "but will you take"
-	line "down my number?"
+	para "nhưng cậu có nhận"
+	line "SĐT của tớ không?"
 	done
 
 KenjiNumberAcceptedText:
-	text "I must train"
-	line "harder to become"
-	cont "the mightiest!"
+	text "Tớ phải luyện tập"
+	line "chăm hơn để trở"
+	cont "thành mạnh nhất!"
 	done
 
 KenjiNumberDeclinedText:
-	text "If you decide you"
-	line "want my number,"
-	cont "come see me."
+	text "Nếu cậu quyết định"
+	line "muốn SĐT tớ,"
+	cont "hãy đến gặp tớ."
 	done
 
 KenjiPhoneFullText:
-	text "Your phone appears"
-	line "to be full."
+	text "Điện thoại của cậu"
+	line "hình như đầy rồi."
 
-	para "Come back later!"
+	para "Quay lại sau nhé!"
 	done
 
 KenjiGiftText:
-	text "I wish to thank"
-	line "you, <PLAYER>!"
+	text "Tớ muốn cảm ơn"
+	line "cậu, <PLAYER>!"
 
-	para "I've been training"
-	line "all alone…"
+	para "Tớ đã luyện tập"
+	line "một mình…"
 
-	para "I was happy that"
-	line "you cared to call…"
+	para "Tớ vui vì cậu"
+	line "quan tâm gọi…"
 
-	para "I want you to have"
-	line "this!"
+	para "Tớ muốn cậu có"
+	line "cái này!"
 	done
 
 KenjiPackFullText:
-	text "Your strength will"
-	line "not let you carry"
+	text "Sức mạnh của cậu"
+	line "không cho mang"
 
-	para "another thing!"
-	line "I will hold this"
+	para "thêm được nữa!"
+	line "Tớ sẽ giữ cái này"
 
-	para "till you lighten"
-	line "your PACK!"
+	para "cho đến khi TÚI"
+	line "cậu nhẹ hơn!"
 	done

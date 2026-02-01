@@ -19,7 +19,7 @@ DecorationNames:
 	li "ÁP PHÍCH "
 	li "BÚP BÊ "
 	li "LỚN"
-	li "FEATHERY"
+	li "LÔNG VŨ"
 	li "PIKACHU"
 	li "HỒNG"
 	li "POLKADOT"

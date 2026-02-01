@@ -40,6 +40,8 @@ To translate move names, edit the file `data/moves/names.asm`.
 | KARATE CHOP | CHẶT KARATE |
 | COMET PUNCH | ĐẤM SAO |
 | PAY DAY | VUNG TIỀN |
+| FIRE PUNCH | ĐẤM LỬA |
+| ICE PUNCH | ĐẤM BĂNG |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

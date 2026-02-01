@@ -15,7 +15,7 @@ MoveNames::
 	li "RAZOR WIND"
 	li "MÚA KIẾM"
 	li "CẮT"
-	li "GUST"
+	li "LỐC"
 	li "WING ATTACK"
 	li "WHIRLWIND"
 	li "BAY"

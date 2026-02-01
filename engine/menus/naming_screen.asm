@@ -277,23 +277,12 @@ NamingScreen_InitText:
 NamingScreen_ApplyTextInputMode:
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box
-	; For box naming, use BoxNameInput pages (3 pages)
+	; For box naming, use the old 2-page system
+	ld de, BoxNameInputUpper
 	ld a, [wNamingScreenLetterCase]
-	and a
-	jr z, .box_page1
-	cp 1
-	jr z, .box_page2
-	; else page 3
-	ld de, BoxNameInput3
-	jr .not_box
-
-.box_page1
-	ld de, BoxNameInput1
-	jr .not_box
-
-.box_page2
-	ld de, BoxNameInput2
-	jr .not_box
+	and 1
+	jr z, .not_box
+	ld de, BoxNameInputLower
 
 .not_box
 	push de
@@ -301,8 +290,8 @@ NamingScreen_ApplyTextInputMode:
 	lb bc, 7, 18
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box_2
-	hlcoord 1, 7
-	lb bc, 8, 18
+	hlcoord 1, 6
+	lb bc, 9, 18
 
 .not_box_2
 	call ClearBox
@@ -314,8 +303,8 @@ NamingScreen_ApplyTextInputMode:
 	ld b, $5
 	call NamingScreen_IsTargetBox
 	jr nz, .row
-	hlcoord 2, 7
-	; b is already $5, no need to change
+	hlcoord 2, 6
+	ld b, $6
 
 .row
 	ld c, $11
@@ -465,18 +454,8 @@ NamingScreenJoypadLoop:
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
 	inc a
-	; Check if box naming (3 pages) or regular naming (5 pages)
-	call NamingScreen_IsTargetBox
-	jr nz, .regular_naming
-	; Box naming: wrap at 3
-	cp 3
-	jr c, .no_wrap
-	jr .wrap
-.regular_naming
-	; Regular naming: wrap at 5
 	cp 5
 	jr c, .no_wrap
-.wrap
 	xor a
 .no_wrap
 	ld [hl], a

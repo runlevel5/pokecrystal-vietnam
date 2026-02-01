@@ -164,7 +164,7 @@ ItemNames::
 	li "TERU-SAMA"
 	li "BÓNG ĐIỆN"
 	li "BÓNG BẠN BÈ"
-	li "BÓNG MOON"
+	li "BÓNG M.TRĂNG"
 	li "BÓNG ÁI TÌNH"
 	li "HỘP THƯỜNG"
 	li "HỘP ĐẸP"

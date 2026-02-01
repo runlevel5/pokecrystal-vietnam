@@ -834,7 +834,7 @@ ElmText_ChooseAPokemon:
 	line "một trong những"
 
 	para "#MON trong"
-	line "các BALL này."
+	line "các BÓNG này."
 
 	para "Con sẽ là người"
 	line "bạn đầu tiên của"
@@ -856,7 +856,7 @@ LabWhereGoingText:
 	done
 
 TakeCyndaquilText:
-	text "ELM: Con chọn"
+	text "Con chọn"
 	line "@"
 	text_ram wStringBuffer3
 	text ", #MON"
@@ -864,7 +864,7 @@ TakeCyndaquilText:
 	done
 
 TakeTotodileText:
-	text "ELM: Con muốn"
+	text "Con muốn"
 	line "@"
 	text_ram wStringBuffer3
 	text ", #MON"
@@ -872,7 +872,7 @@ TakeTotodileText:
 	done
 
 TakeChikoritaText:
-	text "ELM: Vậy con thích"
+	text "Vậy con thích"
 	line "@"
 	text_ram wStringBuffer3
 	text ", #MON"

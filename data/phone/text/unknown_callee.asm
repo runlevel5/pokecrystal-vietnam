@@ -1,30 +1,29 @@
 UnknownGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "#MON cậu thế"
+	line "nào rồi?"
 
-	para "My #MON are a"
-	line "bit too energetic."
+	para "#MON của tớ hơi"
+	line "quá năng động."
 
 	para "@"
 	text_ram wStringBuffer4
 	text ","
-	line "especially."
+	line "đặc biệt."
 
-	para "Every time it"
-	line "spots a trainer,"
-	cont "it has to battle."
+	para "Mỗi lần nó thấy"
+	line "HLV, nó phải đấu."
 
-	para "It gets to be a"
-	line "bit much for me!"
+	para "Nó trở nên hơi"
+	line "quá đáng với tớ!"
 	done
 
 UnknownTougherThanEverText:
-	text "My @"
+	text "@"
 	text_ram wStringBuffer4
-	text "'s"
-	line "looking tougher"
-	cont "than ever."
+	text " của tớ"
+	line "trông mạnh hơn"
+	cont "bao giờ hết."
 
-	para "It looks even"
-	line "tougher than me!"
+	para "Nó trông thậm chí"
+	line "mạnh hơn tớ nữa!"
 	done

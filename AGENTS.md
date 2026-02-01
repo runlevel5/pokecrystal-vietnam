@@ -96,9 +96,28 @@ GS BALL
 TM01-TM50, HM01-HM07
 
 #### 3. Status Conditions
-Status effect names remain in English:
-- POISON, PARALYSIS, BURN, FREEZE, SLEEP
-- CONFUSION, INFATUATION, etc.
+Status effect names are translated to Vietnamese in move descriptions and dialogue:
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| POISON | ĐỘC | Poison |
+| PARALYSIS | TÊ LIỆT | Paralysis |
+| BURN | BỎNG | Burn |
+| FREEZE | ĐÔNG | Freeze |
+| CONFUSION | BỐI RỐI | Confusion |
+
+**Note:** Status conditions in system code/constants remain in English for technical purposes. Only user-facing text (move descriptions, battle messages, etc.) uses Vietnamese terms.
+
+These translations align with Vietnamese item names:
+- ĐỘC: GIẢI ĐỘC (Antidote), QUẢ TRỊ ĐỘC (PSNCureBerry)
+- TÊ LIỆT: TRỊ TÊ LIỆT (Parlyz Heal), QUẢ TRỊ LIỆT (PRZCureBerry)
+- BỎNG: TRỊ BỎNG (Burn Heal)
+- ĐÔNG: TRỊ ĐÔNG (Ice Heal)
+- BỐI RỐI: from battle text "bối rối" (confused)
+
+**SLEEP** is translated contextually:
+- In move descriptions: "ngủ" (e.g., "Có thể làm đ.thủ ngủ" = "May make opponent sleep")
+- Item name: ĐÁNH THỨC (Awakening)
 
 #### 4. Stats
 Stat names are translated to Vietnamese:

@@ -1,60 +1,60 @@
 BeverlyAskNumber1Text:
-	text "Your MARILL is so"
-	line "cute and adorable!"
+	text "MARILL cậu dễ"
+	line "thương và đáng yêu"
 
-	para "You love #MON"
-	line "just like I do!"
+	para "Cậu yêu #MON"
+	line "như tớ!"
 
-	para "Want to trade"
-	line "phone numbers?"
+	para "Muốn đổi SĐT"
+	line "không?"
 
-	para "Let's chat! It'll"
-	line "be so much fun!"
+	para "Hãy nói chuyện!"
+	line "Sẽ vui lắm!"
 	done
 
 BeverlyAskNumber2Text:
-	text "Your MARILL is so"
-	line "cute and adorable!"
+	text "MARILL cậu dễ"
+	line "thương và đáng yêu"
 
-	para "We should chat, it"
-	line "will be fun."
+	para "Chúng ta nên nói"
+	line "chuyện, sẽ vui."
 
-	para "Can I have your"
-	line "phone number?"
+	para "Cho tớ SĐT cậu"
+	line "được không?"
 	done
 
 BeverlyNumberAcceptedText:
-	text "To be honest, I"
-	line "want a MARILL."
+	text "Thật ra, tớ muốn"
+	line "một MARILL."
 
-	para "But I make do with"
-	line "my cute SNUBBULL."
+	para "Nhưng tớ bằng lòng"
+	line "với SNUBBULL dễ"
+	cont "thương của tớ."
 	done
 
 BeverlyNumberDeclinedText:
-	text "Oh… That's"
-	line "disappointing…"
+	text "Ồ… Thất vọng quá…"
 
-	para "Goodbye, MARILL…"
+	para "Tạm biệt, MARILL…"
 	done
 
 BeverlyPhoneFullText:
-	text "Oh? Your phone's"
-	line "memory is full."
+	text "Ồ? Bộ nhớ điện"
+	line "thoại cậu đầy."
 	done
 
 BeverlyGiftText:
-	text "Oh? <PLAYER>? "
-	line "I waited here for"
+	text "Ồ? <PLAYER>? "
+	line "Tớ đợi cậu ở đây."
 
-	para "you. I brought you"
-	line "a little gift."
+	para "Tớ mang cho cậu"
+	line "món quà nhỏ."
 	done
 
 BeverlyPackFullText:
-	text "Oh?"
-	line "You have no room."
+	text "Ồ?"
+	line "Cậu không có chỗ."
 
-	para "Please come back"
-	line "for it later."
+	para "Hãy quay lại lấy"
+	line "sau nhé."
 	done

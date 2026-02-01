@@ -233,7 +233,7 @@ MoveNames::
 	li "ĐUÔI SẮT"
 	li "METAL CLAW"
 	li "VITAL THROW"
-	li "MORNING SUN"
+	li "BÌNH MINH"
 	li "SYNTHESIS"
 	li "MOONLIGHT"
 	li "HIDDEN POWER"

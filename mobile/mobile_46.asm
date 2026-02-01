@@ -5415,102 +5415,103 @@ Function11a9f4: ; unreferenced
 	ret
 
 Text_SaveFileWillBeSent:
-	text "SAVE FILE will be"
-	line "sent."
+	text "FILE LƯU sẽ được"
+	line "gửi đi."
 	done
 
 Text_SentSaveFileReadingNews:
-	text "Sent SAVE FILE."
-	line "Reading NEWS…"
+	text "Đã gửi FILE LƯU."
+	line "Đọc TIN TỨC…"
 	done
 
 Text_ReadingNews:
-	text "Reading NEWS…"
+	text "Đọc TIN TỨC…"
 	done
 
 Text_ReceivedNews:
-	text "Received NEWS!"
+	text "Nhận TIN TỨC!"
 	done
 
 Text_QuitReadingNews:
-	text "Quit reading NEWS?"
+	text "Thoát đọc TIN?"
 	done
 
 Text_CanceledSendingSaveFile: ; unreferenced
-	text "Canceled sending"
-	line "SAVE FILE."
+	text "Hủy gửi"
+	line "FILE LƯU."
 	done
 
 Text_ReceivedOddEgg: ; unreferenced
-	text "ODD EGG"
-	line "was received!"
+	text "Đã nhận"
+	line "TRỨNG LẠ!"
 	done
 
 Text_RegisteringRecord:
-	text "Registering your"
-	line "record…"
+	text "Đăng ký kỉ lục"
+	line "của bạn…"
 	done
 
 Text_BattleRoomVisitLimit: ; unreferenced
-	text "One visit per day"
-	line "per BATTLE ROOM!"
+	text "Mỗi PHÒNG ĐẤU"
+	line "một lần mỗi ngày!"
 	done
 
 Text_PartyMonTopsThisLevel:
-	text "A party #MON"
-	line "tops this level."
+	text "#MON trong đội"
+	line "vượt cấp độ này."
 	done
 
 Text_UberRestriction:
 	text_ram wcd49
-	text " may go"
-	line "only to BATTLE"
+	text " chỉ được vào"
+	line "PHÒNG ĐẤU"
 
-	para "ROOMS that are"
-	line "Lv.70 or higher."
+	para "từ Lv.70"
+	line "trở lên."
 	done
 
 Text_CancelBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Hủy thử thách"
+	line "PHÒNG ĐẤU?"
 	done
 
 Text_ExitGymLeaderHonorRoll:
-	text "Exit GYM LEADER"
-	line "HONOR ROLL?"
+	text "Thoát BẢNG VÀNG"
+	line "T.LĨNH GYM?"
 	done
 
 Text_LinkingWithCenter: ; unreferenced
-	text "Linking with the"
-	line "CENTER…"
+	text "Kết nối với"
+	line "TRUNG TÂM…"
 	done
 
 Text_WhatLevelDoYouWantToChallenge:
-	text "What level do you"
-	line "want to challenge?"
+	text "Cấp độ nào bạn"
+	line "muốn thử thách?"
 	done
 
 Text_CheckBattleRoomListByMaxLevel:
-	text "Check BATTLE ROOM"
-	line "list by max level?"
+	text "Xem danh sách"
+	line "PHÒNG ĐẤU theo"
+	cont "cấp độ tối đa?"
 	done
 
 Text_EnterWhichBattleRoom: ; unreferenced
-	text "Enter which"
-	line "BATTLE ROOM?"
+	text "Vào PHÒNG ĐẤU"
+	line "nào?"
 	done
 
 Text_WhichBattleRoom: ; unreferenced
-	text "Which BATTLE ROOM?"
+	text "PHÒNG ĐẤU nào?"
 	done
 
 Text_ThisBattleRoomPleaseWait: ; unreferenced
 	text_ram wStringBuffer3
-	text "'s ROOM"
+	text " PHÒNG của"
 	line "@"
 	text_ram wStringBuffer4
 	text "?"
-	cont "Please wait…"
+	cont "Xin chờ…"
 	done
 
 Function11ac3e:

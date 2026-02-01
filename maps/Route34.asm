@@ -516,14 +516,14 @@ YoungsterSamuelBeatenText:
 	done
 
 YoungsterSamuelMobileText: ; unreferenced
-	text "Have you been to"
-	line "GOLDENROD CITY?"
+	text "Cậu đã đến TP."
+	line "GOLDENROD chưa?"
 
-	para "Weren't you amazed"
-	line "by how they've"
+	para "Cậu có ngạc nhiên"
+	line "với cách họ đổi"
 
-	para "changed the"
-	line "#MON CENTER?"
+	para "mới T.TÂM #MON"
+	line "không?"
 	done
 
 YoungsterSamuelAfterText:

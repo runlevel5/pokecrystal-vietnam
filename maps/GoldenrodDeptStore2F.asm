@@ -40,22 +40,22 @@ GoldenrodDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore2FUnusedText1: ; unreferenced
-	text "We intend to sell"
-	line "items for #MON"
-	cont "to hold."
+	text "Chúng tôi dự định"
+	line "bán vật phẩm cho"
+	cont "#MON cầm."
 
-	para "This is a free"
-	line "gift. Have a #-"
-	cont "MON hold it."
+	para "Đây là quà miễn"
+	line "phí. Cho #MON"
+	cont "cầm nó nhé."
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced
-	text "By giving #MON"
-	line "items to hold, I"
+	text "Khi cho #MON"
+	line "cầm vật phẩm,"
 
-	para "bet trainers will"
-	line "develop new battle"
-	cont "techniques."
+	para "tôi tin HLV sẽ"
+	line "phát triển kỹ"
+	cont "thuật mới."
 	done
 
 GoldenrodDeptStore2FYoungsterText:

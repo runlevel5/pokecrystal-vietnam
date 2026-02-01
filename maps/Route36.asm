@@ -506,15 +506,14 @@ RockSmashGuyText3:
 	done
 
 UnusedOddTreeText: ; unreferenced
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Một cây kỳ lạ"
+	line "chặn đường đến"
+	cont "TP. GOLDENROD."
 
-	para "I wanted to go see"
-	line "the huge #MON"
+	para "Tôi muốn đi xem"
+	line "T.TÂM #MON lớn"
 
-	para "CENTER they just"
-	line "opened…"
+	para "mà họ vừa mở…"
 	done
 
 Route36LassText:

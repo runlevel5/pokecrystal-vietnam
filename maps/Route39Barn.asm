@@ -126,15 +126,15 @@ MoomooScript:
 	end
 
 Route39BarnTwinMoomooIsSickText:
-	text "MOOMOO is sick…"
+	text "MOOMOO bị ốm…"
 
-	para "She needs lots of"
-	line "BERRIES."
+	para "Bò ấy cần nhiều"
+	line "QUẢ lắm."
 	done
 
 Route39BarnTwinWereFeedingMoomooText:
-	text "We're feeding"
-	line "MOOMOO!"
+	text "Chúng tớ cho"
+	line "MOOMOO ăn!"
 	done
 
 MoomooWeakMooText:
@@ -142,7 +142,7 @@ MoomooWeakMooText:
 	done
 
 Route39BarnItsCryIsWeakText:
-	text "Its cry is weak…"
+	text "Tiếng kêu yếu…"
 	done
 
 MoomooHappyMooText:
@@ -150,40 +150,40 @@ MoomooHappyMooText:
 	done
 
 Route39BarnAskGiveBerryText:
-	text "Give a BERRY to"
+	text "Cho QUẢ cho"
 	line "MILTANK?"
 	done
 
 Route39BarnGaveBerryText:
-	text "<PLAYER> gave a"
-	line "BERRY to MILTANK."
+	text "<PLAYER> cho QUẢ"
+	line "cho MILTANK."
 	done
 
 Route39BarnLittleHealthierText:
-	text "MILTANK became a"
-	line "little healthier!"
+	text "MILTANK khỏe hơn"
+	line "một chút!"
 	done
 
 Route39BarnQuiteHealthyText:
-	text "MILTANK became"
-	line "quite healthy!"
+	text "MILTANK khỏe"
+	line "khá nhiều rồi!"
 	done
 
 Route39BarnTotallyHealthyText:
-	text "MILTANK became"
-	line "totally healthy!"
+	text "MILTANK hoàn toàn"
+	line "khỏe mạnh rồi!"
 	done
 
 Route39BarnNoBerriesText:
-	text "<PLAYER> has no"
-	line "BERRIES…"
+	text "<PLAYER> không có"
+	line "QUẢ nào…"
 	done
 
 Route39BarnRefusedBerryText:
-	text "<PLAYER> wouldn't"
-	line "give a BERRY."
+	text "<PLAYER> không cho"
+	line "QUẢ."
 
-	para "MILTANK looks sad."
+	para "MILTANK buồn."
 	done
 
 Route39Barn_MapEvents:

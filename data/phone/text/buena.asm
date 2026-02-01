@@ -1,529 +1,527 @@
 BuenaPhoneMorningAnswerText:
-	text "Hi, this is BUENA…"
+	text "Chào, BUENA đây…"
 
-	para "Oh! Good morning,"
+	para "Ồ! Chào buổi sáng,"
 	line "<PLAY_G>!"
 
-	para "I'm kind of foggy"
-	line "in the morning…"
+	para "Tớ hơi mơ màng"
+	line "vào buổi sáng…"
 	done
 
 BuenaPhoneDayAnswerText:
-	text "Hi, this is BUENA…"
-	line "Oh! Hi, <PLAY_G>!"
+	text "Chào, BUENA đây…"
+	line "Ồ! Chào, <PLAY_G>!"
 
-	para "Do you tune into"
-	line "BUENA's show?"
+	para "Cậu nghe chương"
+	line "trình BUENA không?"
 	done
 
 BuenaPhoneMidnightAnswerText:
-	text "This is BUENA."
-	line "I can't come to"
+	text "Đây là BUENA."
+	line "Tớ không thể nghe"
 
-	para "the phone right"
-	line "now."
+	para "điện thoại ngay"
+	line "bây giờ."
 
-	para "If you want to"
-	line "chat, tune into"
+	para "Nếu cậu muốn nói"
+	line "chuyện, nghe"
 
-	para "BUENA's PASSWORD"
-	line "on the radio and"
+	para "PASSWORD của BUENA"
+	line "trên đài và"
 
-	para "give me a call"
-	line "after midnight!"
+	para "gọi tớ sau nửa"
+	line "đêm!"
 	done
 
 BuenaPhoneNiteAnswerText:
-	text "Hi, this is BUENA…"
-	line "Oh! Hi, <PLAY_G>!"
+	text "Chào, BUENA đây…"
+	line "Ồ! Chào, <PLAY_G>!"
 
-	para "I just got off"
-	line "work. "
+	para "Tớ vừa tan làm."
 
-	para "Let me tell you,"
-	line "I'm exhausted!"
+	para "Nói thật với cậu,"
+	line "tớ kiệt sức!"
 	done
 
 BuenaPhoneMorningText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Chào, BUENA đây!"
 
-	para "I got up early, so"
-	line "I decided to call!"
+	para "Tớ dậy sớm, nên"
+	line "tớ quyết định gọi!"
 	done
 
 BuenaPhoneDayText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Chào, BUENA đây!"
 
-	para "I needed someone"
-	line "to chat with!"
+	para "Tớ cần ai đó để"
+	line "nói chuyện!"
 	done
 
 BuenaPhoneMidnightText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Chào, BUENA đây!"
 
-	para "I'm just on my"
-	line "break."
+	para "Tớ đang giải lao"
+	line "thôi."
 	done
 
 BuenaPhoneNiteText:
 	text "<PLAY_G>!"
-	line "Hi, it's BUENA!"
+	line "Chào, BUENA đây!"
 
-	para "I couldn't sleep,"
-	line "so I called you."
+	para "Tớ không ngủ được,"
+	line "nên tớ gọi cậu."
 	done
 
 BuenaPhoneRocketText:
-	text "Oh. Hi, <PLAY_G>!"
+	text "Ồ. Chào, <PLAY_G>!"
 
-	para "You are how?"
+	para "Cậu thế nào?"
 
-	para "Aiyee! This isn't"
-	line "the time for me to"
+	para "Aiyee! Đây không"
+	line "phải là lúc để"
 
-	para "be cracking silly"
-	line "gag greetings!"
+	para "tớ nói những câu"
+	line "chào đùa ngớ ngẩn"
 
-	para "The RADIO TOWER is"
-	line "in deep trouble!"
+	para "THÁP RADIO đang"
+	line "gặp rắc rối lớn!"
 
-	para "<PLAY_G>, you'd"
-	line "better be careful!"
+	para "<PLAY_G>, cậu nên"
+	line "cẩn thận!"
 	done
 
 BuenaPhoneWentOutWithBenText:
-	text "The other day, I"
-	line "went out to eat"
+	text "Hôm trước, tớ đã"
+	line "đi ăn với DJ BEN!"
 
-	para "with DJ BEN!"
-	line "Isn't it great?"
+	para "Tuyệt vời không?"
 
-	para "Not only that, he"
-	line "said the music on"
+	para "Không chỉ thế,"
+	line "anh ấy còn nói"
 
-	para "my program is"
-	line "cool!"
+	para "nhạc trong chương"
+	line "trình tớ thật cool"
 
-	para "Oh, wow! Like,"
-	line "what should I do?"
+	para "Ồ, wow! Kiểu, tớ"
+	line "nên làm gì bây giờ"
 
-	para "…Oops, I have to"
-	line "get ready for my"
+	para "…Ối, tớ phải chuẩn"
+	line "bị cho chương"
 
-	para "show! I'll catch"
-	line "you later!"
+	para "trình! Gặp lại"
+	line "cậu sau!"
 	done
 
 BuenaPhoneReceptionistText:
-	text "You know the"
-	line "receptionist at"
-	cont "the RADIO TOWER?"
+	text "Cậu biết nhân viên"
+	line "lễ tân tại THÁP"
+	cont "RADIO không?"
 
-	para "'Welcome,' is all"
-	line "she ever says."
+	para "Chỉ nói 'Chào"
+	line "mừng' mà thôi."
 
-	para "But she's really"
-	line "the chattiest"
+	para "Nhưng cô ấy thực"
+	line "sự là người nói"
 
-	para "person at the"
-	line "RADIO TOWER."
+	para "nhiều nhất tại"
+	line "THÁP RADIO."
 
-	para "So she must be"
-	line "holding back."
+	para "Vậy nên cô ấy"
+	line "phải kiềm chế."
 
-	para "Isn't that fun to"
-	line "know?"
+	para "Thật thú vị phải"
+	line "không?"
 
-	para "Catch you later!"
+	para "Gặp lại sau!"
 	done
 
 BuenaPhoneLuckyNumberShowText:
-	text "Tell me, <PLAY_G>."
-	line "Have you ever won"
+	text "Nói cho tớ biết,"
+	line "<PLAY_G>. Cậu đã"
 
-	para "a prize on the"
-	line "LUCKY NUMBER SHOW?"
+	para "từng thắng giải"
+	line "trong LUCKY NUMBER"
+	cont "SHOW chưa?"
 
-	para "REED moans that"
-	line "he's never won, so"
+	para "REED than thở rằng"
+	line "anh ấy chưa từng"
 
-	para "he vows to keep"
-	line "the show on the"
-	cont "air till he does."
+	para "thắng, nên anh"
+	line "thề giữ chương"
 
-	para "Let's chat again!"
+	para "trình tiếp tục"
+	line "cho đến khi thắng."
+
+	para "Nói chuyện lại!"
 	done
 
 BuenaPhoneStressedFromWorkText:
-	text "You know, last"
-	line "night…"
+	text "Cậu biết không,"
+	line "đêm qua…"
 
-	para "I was so stressed"
-	line "out from work, I"
+	para "Tớ quá căng thẳng"
+	line "vì công việc, tớ"
 
-	para "ate a ton of junk"
-	line "food!"
+	para "đã ăn một đống đồ"
+	line "ăn vặt!"
 
-	para "MARY and I have"
-	line "this deal about"
-	cont "losing weight…"
+	para "MARY và tớ có thỏa"
+	line "thuận về giảm cân…"
 
-	para "This won't do…"
+	para "Không được rồi…"
 
-	para "Huh? What's the"
-	line "weight?"
+	para "Hả? Cân nặng là"
+	line "bao nhiêu à?"
 
-	para "This has to be a"
-	line "total secret!"
+	para "Đây phải là bí mật"
+	line "tuyệt đối!"
 
-	para "MARY weighs…"
+	para "MARY nặng…"
 
 	para "Aiyee! M-MARY!"
 
-	para "Uh… Um… I… Sorry,"
-	line "wrong number!"
+	para "Uh… Um… Tớ… Xin"
+	line "lỗi, nhầm số rồi!"
 	done
 
 BuenaPhoneProfessorOakText:
-	text "Yesterday, PROF."
-	line "OAK was in the"
+	text "Hôm qua, GS OAK"
+	line "đến studio để quay"
 
-	para "studio to tape his"
-	line "show."
+	para "chương trình của"
+	line "ông ấy."
 
-	para "So I went over and"
-	line "introduced myself."
+	para "Nên tớ đến và tự"
+	line "giới thiệu."
 
-	para "Get this--he tunes"
-	line "in to my program!"
+	para "Nghe này--ông ấy"
+	line "nghe chương trình"
+	cont "của tớ!"
 
-	para "Oh! Here comes"
-	line "PROF.OAK again!"
+	para "Ồ! GS.OAK lại đến"
+	line "rồi!"
 
-	para "I'm going to chat"
-	line "him up again!"
+	para "Tớ sẽ nói chuyện"
+	line "với ông ấy thêm!"
 
-	para "Catch you later!"
+	para "Gặp lại sau!"
 	done
 
 BuenaPhoneGotAColdText:
-	text "…Cough, cough!"
+	text "…Ho, ho!"
 
-	para "Uhm sorry uh got"
-	line "uh code dite now."
+	para "Uhm xỉ lỗi uh"
+	line "bị cảm đế đâi."
 
-	para "Buh uma pro so uh"
-	line "hav to cover id ub"
+	para "Nừ uma pro nê uh"
+	line "phải che đâu ug"
 
-	para "so no un notice"
-	line "while uhm on air."
+	para "hô kô ah nhầ ra"
+	line "khi uh lê sóg."
 
-	para "Uh fidz muh voice"
-	line "now."
+	para "Uh phù hợ giọg dớ"
+	line "bâ giờ."
 
-	para "I'll catch you on"
-	line "the fly. This has"
-	cont "been BUENA!"
+	para "Tớ sẽ gặp lại cậu."
+	line "Đây là BUENA!"
 	done
 
 BuenaPhoneRadioCardQuestionsText:
-	text "Hey, <PLAY_G>."
-	line "You won that RADIO"
+	text "Này, <PLAY_G>."
+	line "Cậu thắng THẺ"
+	cont "RADIO"
 
-	para "CARD by beating"
-	line "the quiz at the"
+	para "bằng cách vượt qua"
+	line "câu đố tại quầy"
 
-	para "reception desk,"
-	line "didn't you?"
+	para "lễ tân, đúng"
+	line "không?"
 
-	para "Guess what? I made"
-	line "up the questions!"
+	para "Cậu biết không?"
+	line "Tớ đã ra câu hỏi!"
 
-	para "…Were they too"
-	line "easy for you?"
+	para "…Chúng quá dễ với"
+	line "cậu không?"
 
-	para "Well, let's chat"
-	line "again!"
+	para "Thôi, nói chuyện"
+	line "lại nhé!"
 	done
 
 BuenaPhonePikachuFanClubText:
-	text "I'm elated that"
-	line "more people are"
+	text "Tớ vui mừng khi có"
+	line "nhiều người tham"
 
-	para "taking part in my"
-	line "PASSWORD show."
+	para "gia chương trình"
+	line "PASSWORD của tớ."
 
-	para "But when PIKACHU"
-	line "was the password,"
+	para "Nhưng khi PIKACHU"
+	line "là mật khẩu,"
 
-	para "it was uh… whew…"
-	line "overwhelming."
+	para "nó thì uh… phew…"
+	line "áp đảo."
 
-	para "FAN CLUB people"
-	line "came in out in"
+	para "Người FAN CLUB"
+	line "kéo đến ầm ĩ,"
 
-	para "droves, shouting"
-	line "'PIKACHU!' over"
+	para "hét 'PIKACHU!'"
+	line "liên tục. Ý tớ là,"
+	cont "họ rất ồn."
 
-	para "and over. I mean,"
-	line "they were loud."
+	para "Ai nghe vào lúc"
+	line "đó hẳn bị sốc"
 
-	para "Anyone tuning in"
-	line "around then must"
+	para "vì tiếng ồn ào"
+	line "đó!"
 
-	para "have been shocked"
-	line "by the racket!"
+	para "Dù sao, tớ phải"
+	line "làm việc tiếp!"
 
-	para "Anyway, back to"
-	line "work for me!"
-
-	para "Let's chat again!"
+	para "Nói chuyện lại!"
 	done
 
 BuenaPhoneRadioTowerDirectorText:
-	text "Guess what?"
-	line "The RADIO TOWER's"
+	text "Cậu biết không?"
+	line "GIÁM ĐỐC THÁP"
 
-	para "DIRECTOR is a big"
-	line "fan of TV!"
+	para "RADIO là fan cuồng"
+	line "TV!"
 
-	para "A while ago, a"
-	line "fashion show on TV"
+	para "Cách đây lâu, một"
+	line "chương trình thời"
 
-	para "said that black"
-	line "suits were in."
+	para "trang trên TV nói"
+	line "com lê đen đang"
+	cont "thịnh hành."
 
-	para "Now all he wears"
-	line "are black suits."
+	para "Giờ ông ấy chỉ mặc"
+	line "com lê đen."
 
-	para "But it's a secret"
-	line "that our DIRECTOR"
+	para "Nhưng GIÁM ĐỐC là"
+	line "fan TV là bí mật,"
 
-	para "is a TV fan, so if"
-	line "you see him, don't"
+	para "nên nếu cậu gặp"
+	line "ông, đừng có dám"
 
-	para "you dare mention"
-	line "it!"
+	para "nhắc đến nó!"
 
-	para "Oh! The DIRECTOR"
-	line "will be here soon!"
+	para "Ồ! GIÁM ĐỐC sắp"
+	line "đến đây!"
 
-	para "Later! Tune into"
-	line "my show!"
+	para "Sau nhé! Nghe"
+	line "chương trình tớ!"
 	done
 
 BuenaPhoneWhenDoYouRelaxText:
-	text "<PLAY_G>, tell me."
+	text "<PLAY_G>, nói tớ."
 
-	para "When do you relax"
-	line "the most?"
+	para "Khi nào cậu thư"
+	line "giãn nhất?"
 
-	para "For me, it has to"
-	line "be in the studio"
+	para "Với tớ, phải là"
+	line "trong studio ngay"
 
-	para "right after my"
-	line "show, enjoying a"
+	para "sau chương trình,"
+	line "thưởng thức tách"
 
-	para "nice cup of tea."
-	line "It's so pleasant"
+	para "trà ngon. Thật"
+	line "dễ chịu đến nỗi"
 
-	para "that it gradually"
-	line "makes me drowsy…"
+	para "dần dần khiến tớ"
+	line "buồn ngủ…"
 
 	para "<……> <……> <……>"
 
 	para "<……> <……> <……>Zzz"
 
-	para "Oops, I drifted"
-	line "off just thinking"
+	para "Ối, tớ ngủ thiếp"
+	line "đi khi nghĩ về"
 
-	para "about it! How, uh…"
-	line "embarrassing!"
+	para "nó! Thật… uh…"
+	line "xấu hổ!"
 
-	para "Please forget this"
-	line "happened! Later!"
+	para "Hãy quên chuyện"
+	line "này đi! Sau nhé!"
 	done
 
 BuenaPhoneStarterPokemonText:
-	text "<PLAY_G>, what was"
-	line "the first #MON"
-	cont "you ever caught?"
+	text "<PLAY_G>, #MON"
+	line "đầu tiên cậu bắt"
+	cont "là gì?"
 
-	para "…Oh, really?"
+	para "…Ồ, thật à?"
 
-	para "I've seen lots of"
-	line "#MON around,"
+	para "Tớ thấy nhiều"
+	line "#MON xung quanh"
 
-	para "but I've never"
-	line "caught one."
+	para "nhưng chưa từng"
+	line "bắt con nào."
 
-	para "I should give it a"
-	line "try sometime."
+	para "Tớ nên thử thách"
+	line "lần nào đó."
 
-	para "Did you know that"
-	line "the first #MON"
+	para "Cậu biết không"
+	line "#MON đầu tiên"
 
-	para "MARY caught was a"
+	para "MARY bắt được là"
 	line "DROWZEE?"
 
-	para "Isn't that so out"
-	line "of character?"
+	para "Không giống tính"
+	line "cách cô ấy đúng ko"
 
-	para "But MARY's DROWZEE"
-	line "kept making her"
+	para "Nhưng DROWZEE của"
+	line "MARY cứ khiến cô"
 
-	para "fall asleep on the"
-	line "job, so she traded"
+	para "ngủ gật khi làm"
+	line "việc, nên cô đổi"
 
-	para "with a fan for a"
+	para "với fan để lấy"
 	line "MEOWTH."
 
-	para "Let's chat about"
-	line "#MON again!"
+	para "Nói chuyện về"
+	line "#MON lần nữa!"
 
-	para "Bye-bye!"
+	para "Bái bai!"
 	done
 
 BuenaPhoneCompanyVacationText:
-	text "Guess what? All of"
-	line "us from the RADIO"
+	text "Cậu biết không?"
+	line "Tất cả chúng tớ"
 
-	para "TOWER are going on"
-	line "a company vacation"
+	para "từ THÁP RADIO sẽ"
+	line "đi nghỉ công ty"
 
-	para "to the RADIO TOWER"
-	line "in LAVENDER."
+	para "đến THÁP RADIO ở"
+	line "LAVENDER."
 
-	para "We're wasting our"
-	line "vacation on a trip"
+	para "Chúng tớ lãng phí"
+	line "kỳ nghỉ cho chuyến"
 
-	para "to another RADIO"
-	line "TOWER?"
+	para "đi đến một THÁP"
+	line "RADIO khác?"
 
-	para "I'd much rather go"
-	line "to the beach!"
+	para "Tớ thà đi biển"
+	line "hơn!"
 
-	para "<PLAY_G>, I hope"
-	line "you have enough"
+	para "<PLAY_G>, tớ hy"
+	line "vọng cậu vui đủ"
 
-	para "fun for both of us"
-	line "on your journey!"
+	para "cho cả hai trong"
+	line "hành trình!"
 
-	para "Bye-bye!"
+	para "Bái bai!"
 	done
 
 BuenaPhoneBenAndFernText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "BEN and FERN talk"
-	line "on the phone for"
+	para "BEN và FERN nói"
+	line "chuyện điện thoại"
 
-	para "hours about what"
-	line "#MON music they"
+	para "hàng giờ về nhạc"
+	line "#MON nào họ nên"
 
-	para "should play on"
-	line "different days of"
-	cont "the week."
+	para "phát vào các ngày"
+	line "khác nhau trong"
+	cont "tuần."
 
-	para "One time, FERN's"
-	line "rapping style kind"
+	para "Một lần, phong"
+	line "cách rap của FERN"
 
-	para "of rubbed off on"
-	line "BEN weirdly."
+	para "hơi ảnh hưởng lên"
+	line "BEN một cách kỳ"
+	cont "lạ."
 
-	para "So we ended up"
-	line "enduring BEN's"
+	para "Nên chúng tớ phải"
+	line "chịu đựng cách nói"
 
-	para "silly, chilly, a"
-	line "willy-nilly jive-"
-	cont "talking shtick for"
-	cont "a while."
+	para "ngớ ngẩn, lạnh"
+	line "lùng, bâng quơ của"
+	cont "BEN một thời gian."
 
-	para "Let's chat again!"
+	para "Nói chuyện lại!"
 	done
 
 BuenaPhoneGoingShoppingText:
-	text "I'm going shopping"
-	line "with MARY and LILY"
-	cont "soon."
+	text "Tớ sẽ đi mua sắm"
+	line "với MARY và LILY"
+	cont "sớm."
 
-	para "It'll be great if"
-	line "GOLDENROD DEPT."
+	para "Sẽ tuyệt nếu BÁCH"
+	line "HÓA GOLDENROD có"
 
-	para "STORE has a sale"
-	line "on when we go…"
+	para "giảm giá khi chúng"
+	line "tớ đi…"
 
-	para "<PLAY_G>, maybe we"
-	line "can hook up too!"
+	para "<PLAY_G>, có lẽ"
+	line "ta cũng gặp nhau!"
 
-	para "Catch you later!"
+	para "Gặp lại sau!"
 	done
 
 BuenaPhoneFavoriteSlotMachineAnswerText:
-	text "I'm thinking of"
-	line "going to the GAME"
+	text "Tớ định đến GAME"
+	line "CORNER vào ngày"
 
-	para "CORNER tomorrow."
-	line "It's been a while."
+	para "mai. Đã lâu rồi"
+	line "không đến."
 
 if DEF(_CRYSTAL_AU)
-	para "Some machines pays"
-	line "out a lot."
+	para "Một số máy trả"
+	line "nhiều."
 else
-	para "You see, I have my"
-	line "favorite machine…"
+	para "Cậu thấy đấy, tớ"
+	line "có máy yêu thích…"
 
-	para "It pays out a lot,"
-	line "I kid you not!"
+	para "Nó trả nhiều, tớ"
+	line "không đùa đâu!"
 endc
 
-	para "Huh? Nuh-uh, it's"
-	line "my secret!"
+	para "Hả? Không, đó là"
+	line "bí mật của tớ!"
 
-	para "You have to find"
-	line "it yourself!"
+	para "Cậu phải tự tìm"
+	line "nó!"
 
-	para "Catch you later!"
+	para "Gặp lại sau!"
 	done
 
 BuenaPhonePokegearAnswerText:
-	text "Hey, <PLAY_G>. You"
-	line "use your #GEAR"
+	text "Này, <PLAY_G>. Cậu"
+	line "dùng #GEAR của"
 
-	para "to listen to the"
-	line "radio, right?"
+	para "cậu để nghe radio,"
+	line "đúng không?"
 
-	para "I heard that you"
-	line "can even display"
+	para "Tớ nghe nói cậu"
+	line "thậm chí có thể"
 
-	para "town maps with"
-	line "#GEAR."
+	para "hiển thị bản đồ"
+	line "với #GEAR."
 
-	para "I have a bad sense"
-	line "of direction, so"
+	para "Tớ kém định hướng"
+	line "nên #GEAR sẽ"
 
-	para "#GEAR would be"
-	line "handy…"
+	para "tiện dụng…"
 
-	para "Anyway, thanks for"
-	line "calling! Later!"
+	para "Dù sao, cảm ơn vì"
+	line "đã gọi! Sau nhé!"
 	done
 
 BuenaPhoneCoopedUpInRadioTowerAnswerText:
-	text "Is it sunny"
-	line "outside today?"
+	text "Hôm nay bên ngoài"
+	line "có nắng không?"
 
-	para "When you're cooped"
-	line "up in the RADIO"
+	para "Khi cậu bị nhốt"
+	line "trong THÁP RADIO"
 
-	para "TOWER as much as I"
-	line "am, you lose touch"
+	para "nhiều như tớ, cậu"
+	line "sẽ mất kết nối với"
 
-	para "with the outside."
-	line "It can be boring."
+	para "bên ngoài. Có thể"
+	line "buồn chán."
 
-	para "Please call again!"
+	para "Hãy gọi lại nhé!"
 	done

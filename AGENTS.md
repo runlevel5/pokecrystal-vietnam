@@ -32,6 +32,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | LEECH LIFE | HÚT HP |
 | SNORE | NGÁY |
 | NIGHTMARE | ÁC MỘNG |
+| PROTECT | BẢO VỆ |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

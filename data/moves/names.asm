@@ -181,7 +181,7 @@ MoveNames::
 	li "REVERSAL"
 	li "SPITE"
 	li "POWDER SNOW"
-	li "PROTECT"
+	li "BẢO VỆ"
 	li "MACH PUNCH"
 	li "SCARY FACE"
 	li "FAINT ATTACK"

@@ -33,7 +33,7 @@ MoveNames::
 	li "LIÊN ĐÒNH"
 	li "KHOAN SỪNG"
 	li "ĐÁNH CHẶN"
-	li "ĐỘ THÂN"
+	li "THỊT ĐÈ"
 	li "QUẤN"
 	li "HÚYCH"
 	li "LOẠN ĐÁNH"

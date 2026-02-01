@@ -58,7 +58,7 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 | FURY ATTACK | LIÊN ĐÒNH |
 | HORN DRILL | KHOAN SỪNG |
 | TACKLE | ĐÁNH CHẶN |
-| BODY SLAM | ĐỘ THÂN |
+| BODY SLAM | THỊT ĐÈ |
 | WRAP | QUẤN |
 | TAKE DOWN | HÚYCH |
 | THRASH | LOẠN ĐÁNH |

@@ -30,7 +30,7 @@ MoveNames::
 	li "TUNG CÁT"
 	li "ĐỤC ĐẦU"
 	li "HÚC SỪNG"
-	li "LIÊN ĐÒNH"
+	li "LIÊN ĐÒN"
 	li "KHOAN SỪNG"
 	li "ĐÁNH CHẶN"
 	li "THỊT ĐÈ"

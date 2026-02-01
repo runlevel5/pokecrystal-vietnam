@@ -55,7 +55,7 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 | SAND-ATTACK | TUNG CÁT |
 | HEADBUTT | ĐỤC ĐẦU |
 | HORN ATTACK | HÚC SỪNG |
-| FURY ATTACK | LIÊN ĐÒNH |
+| FURY ATTACK | LIÊN ĐÒN |
 | HORN DRILL | KHOAN SỪNG |
 | TACKLE | ĐÁNH CHẶN |
 | BODY SLAM | THỊT ĐÈ |

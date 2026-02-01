@@ -1,59 +1,59 @@
 HueyAnswerPhoneText:
-	text "Yeah, this is"
+	text "Ừ, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up,"
+	para "Hả? Có chuyện à,"
 	line "<PLAYER>?"
 	done
 
 HueyAnswerPhoneDayText:
-	text "Yeah, this is"
+	text "Ừ, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up"
+	para "Hả? Có chuyện à"
 	line "<PLAYER>?"
 	done
 
 HueyAnswerPhoneNiteText:
-	text "Yeah, this is"
+	text "Ừ, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Huh? What's up"
+	para "Hả? Có chuyện à"
 	line "<PLAYER>?"
 	done
 
 HueyGreetText:
 	text "Yo, <PLAYER>!"
-	line "You awake?"
+	line "Cậu tỉnh chưa?"
 
-	para "It's me, @"
+	para "Là tớ đây, @"
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Sao rồi?"
 	done
 
 HueyGreetDayText:
-	text "Yo, <PLAYER>! You"
-	line "free right now?"
+	text "Yo, <PLAYER>! Cậu"
+	line "rảnh không?"
 
-	para "It's me, @"
+	para "Là tớ đây, @"
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Sao rồi?"
 	done
 
 HueyGreetNiteText:
 	text "Yo, <PLAYER>!"
-	line "Were you asleep?"
+	line "Cậu ngủ rồi à?"
 
-	para "It's me, @"
+	para "Là tớ đây, @"
 	text_ram wStringBuffer3
 	text "!"
-	line "How's it going?"
+	line "Sao rồi?"
 	done

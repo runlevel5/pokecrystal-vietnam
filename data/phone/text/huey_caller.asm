@@ -1,43 +1,43 @@
 HueyBattleRematchText:
-	text "Hey, I challenge"
-	line "you to a battle!"
+	text "Này, tớ thách cậu"
+	line "đấu!"
 
-	para "It won't be like"
-	line "last time!"
+	para "Không giống lần"
+	line "trước đâu!"
 
-	para "@"
+	para "Tớ đợi tại"
+	line "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'm waiting"
+	text "."
 
-	para "for you. Hustle"
-	line "over here pronto!"
+	para "Nhanh lên đến"
+	line "đây!"
 	done
 
 HueyHangUpText:
-	text "See ya!"
+	text "Hẹn gặp lại!"
 	done
 
 HueyWeHaveToBattleAgainSometimeText:
-	text "We have to battle"
-	line "again sometime."
+	text "Bọn mình phải đấu"
+	line "lại lúc nào đó."
 
-	para "You can bet I'm"
-	line "going to keep"
+	para "Cậu cá là tớ sẽ"
+	line "tiếp tục thách"
 
-	para "challenging you"
-	line "till I win."
+	para "cậu cho đến khi"
+	line "tớ thắng."
 	done
 
 HueyReminderText:
-	text "Hey, you'd better"
-	line "not have forgotten"
-	cont "about our battle!"
+	text "Này, cậu đừng có"
+	line "quên trận đấu của"
+	cont "chúng ta nhé!"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Hustle over quick!"
-	line "I'm waiting!"
+	para "Nhanh lên đi!"
+	line "Tớ đang đợi đây!"
 	done

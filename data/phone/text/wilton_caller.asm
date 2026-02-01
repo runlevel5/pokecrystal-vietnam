@@ -1,103 +1,104 @@
 WiltonMonHasGrownText:
-	text "My @"
+	text "@"
 	text_ram wStringBuffer4
-	text "'s"
-	line "grown impressive!"
+	text " của tớ"
+	line "lớn ấn tượng!"
 
-	para "My fishing skills"
-	line "have improved too!"
+	para "Kỹ năng câu cá"
+	line "của tớ cũng tiến"
+	cont "bộ!"
 	done
 
 WiltonDefeatedMonText:
-	text "We beat a wild"
+	text "Chúng tớ đánh bại"
 	line "@"
 	text_ram wStringBuffer4
-	text "…"
+	text " hoang dã…"
 
-	para "You know, I have"
-	line "more fun fishing"
+	para "Cậu biết không,"
+	line "tớ vui hơn khi"
 
-	para "than beating wild"
-	line "#MON."
+	para "câu cá hơn là đánh"
+	line "#MON hoang."
 	done
 
 WiltonLostAMonText:
-	text "But a while back,"
-	line "we came this close"
+	text "Nhưng cách đây ít"
+	line "lâu, chúng tớ gần"
 
-	para "to landing a wild"
+	para "câu được một con"
 	line "@"
 	text_ram wStringBuffer4
-	text "."
+	text " hoang."
 
-	para "I tell you, it was"
-	line "huge. Believe me."
+	para "Tớ nói thật, nó"
+	line "to lắm. Tin tớ đi"
 	done
 
 WiltonBattleRematchText:
-	text "I'm fishing on"
+	text "Tớ đang câu cá tại"
 	line "@"
 	text_ram wStringBuffer5
 	text ","
 
-	para "but nothing's"
-	line "biting today."
+	para "nhưng không có gì"
+	line "cắn câu hôm nay."
 
-	para "Help me while my"
-	line "time away, come"
-	cont "over for a battle."
+	para "Giúp tớ giết thời"
+	line "gian, đến đây đấu"
+	cont "nhé."
 	done
 
 WiltonHangUpText:
-	text "All right, later."
+	text "Được rồi, sau nhé."
 	done
 
 WiltonFoundItemText:
-	text "I snagged an item"
-	line "while fishing."
+	text "Tớ câu được một"
+	line "vật phẩm khi câu."
 
-	para "Come pick it up on"
+	para "Đến lấy nó tại"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 WiltonHaventFoundAnythingText:
-	text "Nah, I haven't"
-	line "found anything"
+	text "Không, tớ chưa"
+	line "tìm thấy gì"
 
-	para "that's worth your"
-	line "time."
+	para "đáng giá thời gian"
+	line "cậu cả."
 
-	para "You have to have"
-	line "patience."
+	para "Cậu phải kiên nhẫn"
+	line "đã."
 	done
 
 WiltonNotBitingText:
-	text "Sigh…"
-	line "They're not biting"
+	text "Hài…"
+	line "Chúng không cắn"
 
-	para "like before on"
+	para "như trước tại"
 	line "@"
 	text_ram wStringBuffer5
 	text "…"
 
-	para "You have to come"
-	line "for a battle!"
+	para "Cậu phải đến đây"
+	line "đấu một trận!"
 	done
 
 WiltonWantThisText:
-	text "Don't you want"
-	line "this item?"
+	text "Cậu không muốn"
+	line "món này à?"
 
-	para "Hah? You don't"
-	line "know where?"
+	para "Hả? Cậu không"
+	line "biết ở đâu?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "…"
-	line "Just head from"
+	line "Chỉ cần đi từ"
 
-	para "MAHOGANY toward"
+	para "MAHOGANY về phía"
 	line "BLACKTHORN!"
 	done

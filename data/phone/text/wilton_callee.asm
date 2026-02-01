@@ -1,6 +1,6 @@
 WiltonAnswerPhoneText:
-	text "Hello, you have"
-	line "reached @"
+	text "Xin chào, cậu đã"
+	line "liên lạc @"
 	text_ram wStringBuffer3
 	text "…"
 
@@ -8,57 +8,58 @@ WiltonAnswerPhoneText:
 	done
 
 WiltonAnswerPhoneDayText:
-	text "Hello, you have"
-	line "reached @"
+	text "Xin chào, cậu đã"
+	line "liên lạc @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ah, <PLAY_G>, is"
-	line "it?"
+	para "Ah, <PLAY_G>,"
+	line "phải không?"
 	done
 
 WiltonAnswerPhoneNiteText:
-	text "Hello, you have"
-	line "reached @"
+	text "Xin chào, cậu đã"
+	line "liên lạc @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ah, if it isn't"
-	line "<PLAY_G>."
+	para "Ah, nếu đó không"
+	line "phải <PLAY_G>."
 	done
 
 WiltonGreetText:
-	text "Ah, it's @"
+	text "Ah, đây là @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Have you got a"
-	line "moment?"
+	para "Cậu có chút thời"
+	line "gian không?"
 	done
 
 WiltonGreetDayText:
-	text "Ah, it's @"
+	text "Ah, đây là @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Can you talk now?"
+	para "Cậu có thể nói"
+	line "chuyện không?"
 	done
 
 WiltonGreetNiteText:
-	text "Ah, it's @"
+	text "Ah, đây là @"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Sorry for calling"
-	line "so late."
+	para "Xin lỗi vì gọi"
+	line "muộn thế."
 	done
 
 WiltonGenericText:
-	text "Have your #MON"
-	line "grown any?"
+	text "#MON cậu có lớn"
+	line "thêm không?"
 
-	para "My @"
+	para "@"
 	text_ram wStringBuffer4
-	text " has"
-	line "grown quite a bit."
+	text " của tớ đã"
+	line "lớn khá nhiều."
 	done

@@ -250,7 +250,7 @@ EarlsPokemonAcademyGameboyKid2Text:
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "#MON cầm BERRY"
+	text "#MON cầm QUẢ"
 	line "sẽ tự chữa lành"
 	cont "trong trận đấu."
 

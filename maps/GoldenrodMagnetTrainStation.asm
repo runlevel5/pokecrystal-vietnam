@@ -123,7 +123,7 @@ GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "Cho xem PASS"
+	text "Cho xem THẺ ĐI"
 	line "của bạn nhé?"
 
 	para "OK. Mời bạn"
@@ -132,7 +132,7 @@ GoldenrodMagnetTrainStationOfficerRightThisWayText:
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
 	text "Xin lỗi. Bạn không"
-	line "có PASS."
+	line "có THẺ ĐI."
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:

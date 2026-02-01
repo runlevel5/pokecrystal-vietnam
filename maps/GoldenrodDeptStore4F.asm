@@ -42,12 +42,12 @@ GoldenrodDeptStore4FCooltrainerMText:
 	line "#MON mạnh."
 
 	para "Tôi cho chúng ăn"
-	line "PROTEIN để tăng"
+	line "ĐẠM để tăng"
 	cont "CÔNG."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "IRON tăng THỦ cho"
+	text "SẮT tăng THỦ cho"
 	line "#MON của bạn."
 	done
 

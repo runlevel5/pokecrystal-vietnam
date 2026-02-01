@@ -167,7 +167,7 @@ PokemonFanClubChairmanIWantYouToHaveThisText:
 	done
 
 PokemonFanClubChairmanItsARareCandyText:
-	text "Đó là RARE CANDY"
+	text "Đó là KẸO HIẾM"
 	line "giúp #MON"
 	cont "mạnh hơn."
 

@@ -35,13 +35,13 @@ BlackthornMartCooltrainerMText:
 	done
 
 BlackthornMartBlackBeltText:
-	text "MAX REPEL tránh"
+	text "MAX XUA ĐUỔI tránh"
 	line "#MON yếu xa"
 	cont "cậu."
 
 	para "Nó là loại kéo"
 	line "dài nhất trong"
-	cont "các loại REPEL."
+	cont "các loại XUA ĐI."
 	done
 
 BlackthornMart_MapEvents:

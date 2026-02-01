@@ -115,6 +115,16 @@ _TitleScreen:
 	ld e, 20
 	call DrawTitleGraphic
 
+; Clear potential garbage tiles after CRYSTAL VERSION text (columns 16-19, rows 9-10)
+	hlcoord 16, 9
+	ld bc, 4 ; 4 tiles to clear
+	ld a, ' '
+	call ByteFill
+	hlcoord 16, 10
+	ld bc, 4 ; 4 tiles to clear
+	ld a, ' '
+	call ByteFill
+
 ; Draw copyright text (assembled from vertical strips in logo)
 ; Left strip: 8 tiles from column 0, rows 0-7 of logo
 	hlbgcoord 3, 0, vBGMap1

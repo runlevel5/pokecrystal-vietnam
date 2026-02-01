@@ -1,67 +1,68 @@
 ToddAskNumber1Text:
-	text "From here, I can"
-	line "see GOLDENROD's"
+	text "Từ đây, tớ có thể"
+	line "thấy CỬA HÀNG"
 
-	para "DEPT.STORE. They"
-	line "have bargain sales"
+	para "BÁCH HÓA"
+	line "GOLDENROD. Họ có"
+	cont "giảm giá"
 
-	para "up on the rooftop"
-	line "every so often."
+	para "trên mái nhà thỉnh"
+	line "thoảng."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Cho tớ xin SĐT"
+	line "được không?"
 
-	para "I'll call you when"
-	line "they have a sale."
+	para "Tớ sẽ gọi khi họ"
+	line "có giảm giá."
 	done
 
 ToddAskNumber2Text:
-	text "If you give me"
-	line "your number, I'll"
+	text "Nếu cậu cho tớ"
+	line "SĐT, tớ sẽ"
 
-	para "call you when they"
-	line "have a sale."
+	para "gọi khi họ"
+	line "có giảm giá."
 	done
 
 ToddNumberAcceptedText:
-	text "I check GOLDENROD"
-	line "DEPT.STORE every"
+	text "Tớ kiểm tra CỬA"
+	line "HÀNG BÁCH HÓA"
 
-	para "day, so I know"
-	line "when there's a"
-	cont "sale."
+	para "GOLDENROD mỗi ngày"
+	line "nên tớ biết khi"
+	cont "có giảm giá."
 	done
 
 ToddNumberDeclinedText:
-	text "Anyway…"
+	text "Dù sao…"
 
-	para "If you're short on"
-	line "money, take down"
-	cont "my number."
+	para "Nếu cậu thiếu"
+	line "tiền, ghi SĐT"
+	cont "tớ xuống."
 
-	para "I'll call you when"
-	line "there's a sale."
+	para "Tớ sẽ gọi khi"
+	line "có giảm giá."
 	done
 
 ToddPhoneFullText:
-	text "Your phone doesn't"
-	line "have enough memory"
-	cont "for more numbers."
+	text "Điện thoại cậu"
+	line "không đủ bộ nhớ"
+	cont "cho thêm số nữa."
 	done
 
 ToddRematchText:
-	text "I waited for you!"
-	line "I even cut back my"
+	text "Tớ đã đợi cậu!"
+	line "Tớ thậm chí cắt"
 
-	para "shopping to raise"
-	line "my #MON better!"
+	para "giảm mua sắm để"
+	line "nuôi #MON tốt!"
 	done
 
 ToddSaleText: ; unreferenced
 ; This is a duplicate of CamperToddSaleText in maps/Route34.asm.
-	text "Shopping under the"
-	line "sky!"
+	text "Mua sắm dưới"
+	line "bầu trời!"
 
-	para "It feels so nice"
-	line "up on a rooftop."
+	para "Cảm giác thật tốt"
+	line "trên mái nhà."
 	done

@@ -1,65 +1,67 @@
 TiffanyMonIsAdorableText:
-	text "My @"
+	text "@"
 	text_ram wStringBuffer4
-	text "'s"
-	line "adorable, don't"
+	text " của tớ"
+	line "đáng yêu lắm, cậu"
 
-	para "you think so?"
-	line "I always sleep"
+	para "có nghĩ vậy không?"
+	line "Tớ luôn ngủ"
 
-	para "with it--it's so"
-	line "fluffy and warm!"
+	para "cùng nó--nó mềm"
+	line "và ấm áp!"
 	done
 
 TiffanyDefeatedMonText:
-	text "Oh, and we had to"
-	line "battle a wild"
+	text "Ồ, và bọn tớ phải"
+	line "đấu với"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " a while"
-	line "ago…"
+	text " hoang cách"
+	line "đây một lúc…"
 
-	para "My CLEFAIRY came"
-	line "close to fainting!"
+	para "CLEFAIRY của tớ"
+	line "suýt ngất xỉu!"
 
-	para "Isn't that awful?"
+	para "Thật tồi tệ đúng"
+	line "không?"
 
-	para "I hate those nasty"
+	para "Tớ ghét bọn"
 	line "@"
 	text_ram wStringBuffer4
-	text "!"
+	text " khó chịu!"
 	done
 
 TiffanyLostAMonText:
-	text "Oh, and we had to"
-	line "battle a wild"
+	text "Ồ, và bọn tớ phải"
+	line "đấu với"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " a while"
-	line "ago…"
+	text " hoang cách"
+	line "đây một lúc…"
 
-	para "My CLEFAIRY got"
-	line "frightened, so we"
+	para "CLEFAIRY của tớ"
+	line "sợ hãi, nên bọn"
 
-	para "ran away as fast"
-	line "as we could!"
+	para "tớ chạy trốn nhanh"
+	line "nhất có thể!"
 
-	para "I just can't help"
-	line "feeling protective"
-	cont "of my CLEFAIRY."
+	para "Tớ không thể không"
+	line "cảm thấy muốn"
+	cont "bảo vệ nó."
 	done
 
 TiffanyBattleRematchText:
-	text "I know this might"
-	line "surprise you, but"
+	text "Tớ biết điều này"
+	line "có thể làm cậu"
+	cont "ngạc nhiên,"
 
-	para "would you like to"
-	line "battle?"
+	para "nhưng cậu có muốn"
+	line "đấu không?"
 
-	para "I'll be waiting"
-	line "with CLEFAIRY on"
+	para "Tớ sẽ đợi với"
+	line "CLEFAIRY tại"
 	cont "@"
 	text_ram wStringBuffer5
 	text "."
@@ -69,15 +71,15 @@ TiffanyItsAwfulText:
 	text_ram wStringBuffer4
 	text "!"
 
-	para "It's awful."
-	line "My CLEFAIRY…"
+	para "Thật tồi tệ."
+	line "CLEFAIRY của tớ…"
 
-	para "Huh? <PLAY_G>?"
+	para "Hả? <PLAY_G>?"
 
-	para "Oh, sorry! I was"
-	line "in a hurry, and I…"
+	para "Ồ, xin lỗi! Tớ đã"
+	line "vội và…"
 
-	para "I have to go!"
+	para "Tớ phải đi!"
 	line "Bye-bye!"
 	done
 
@@ -86,51 +88,51 @@ TiffanyHangUpText:
 	done
 
 TiffanyFoundItemText:
-	text "I bought some PINK"
-	line "BOWS at GOLDENROD"
+	text "Tớ mua vài PINK"
+	line "BOW ở CỬA HÀNG"
 
-	para "DEPT.STORE for my"
-	line "CLEFAIRY."
+	para "BÁCH HÓA GOLDENROD"
+	line "cho CLEFAIRY."
 
-	para "I got too many, so"
-	line "I'll give you one!"
+	para "Tớ mua nhiều quá,"
+	line "tớ sẽ cho cậu một!"
 
-	para "Come collect it on"
+	para "Đến lấy tại"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TiffanyNoItemText:
-	text "I love dressing up"
-	line "my CLEFAIRY!"
+	text "Tớ thích trang"
+	line "điểm CLEFAIRY!"
 	done
 
 TiffanyAsleepText:
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "Sao vậy?"
+	line "Cậu không tới à?"
 
-	para "CLEFAIRY got tired"
-	line "and fell asleep."
+	para "CLEFAIRY mệt và"
+	line "ngủ rồi."
 
-	para "I'm not sure if I"
-	line "can wake it up…"
+	para "Tớ không chắc có"
+	line "đánh thức nó được…"
 
-	para "Please hurry to"
+	para "Hãy nhanh tới"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 TiffanyHurryText:
-	text "What's wrong?"
-	line "Can't you visit?"
+	text "Sao vậy?"
+	line "Cậu không tới à?"
 
-	para "I'm sure this will"
-	line "look good on your"
-	cont "CLEFAIRY."
+	para "Tớ chắc cái này"
+	line "sẽ hợp với"
+	cont "CLEFAIRY của cậu."
 
-	para "Please hurry to"
+	para "Hãy nhanh tới"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

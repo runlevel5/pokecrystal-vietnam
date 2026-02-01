@@ -213,7 +213,7 @@ MoveNames::
 	li "STEEL WING"
 	li "MEAN LOOK"
 	li "ATTRACT"
-	li "SLEEP TALK"
+	li "MỘNG NGÔN"
 	li "HEAL BELL"
 	li "RETURN"
 	li "PRESENT"

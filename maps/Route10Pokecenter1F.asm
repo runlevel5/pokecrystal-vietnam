@@ -54,14 +54,14 @@ Route10Pokecenter1FGymGuideText:
 	done
 
 Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
-	text "I hear ĐỘI ROCKET"
-	line "got back together"
+	text "Nghe ĐỘI ROCKET"
+	line "tụ họp lại"
 
-	para "in JOHTO but fell"
-	line "apart right away."
+	para "ở JOHTO nhưng tan"
+	line "rã ngay lập tức."
 
-	para "I didn't know any-"
-	line "thing about that."
+	para "Tôi không biết gì"
+	line "về chuyện đó."
 	done
 
 Route10Pokecenter1FCooltrainerFText:

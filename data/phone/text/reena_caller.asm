@@ -1,88 +1,88 @@
 ReenaMonsIsAPerfectMatchText:
-	text "Listen, dear…"
+	text "Nghe này…"
 
-	para "Do you recall my"
+	para "Cậu có nhớ"
 	line "@"
 	text_ram wStringBuffer4
-	text "?"
+	text " của tớ?"
 
-	para "Yes, exactly. That"
-	line "lovely @"
+	para "Đúng rồi. Con"
+	line "@"
 	text_ram wStringBuffer4
-	text "."
+	text " đáng yêu đó."
 
-	para "Wouldn't you agree"
-	line "it's a perfect"
-	cont "match for me?"
+	para "Cậu có đồng ý"
+	line "nó hoàn hảo với"
+	cont "tớ không?"
 	done
 
 ReenaDefeatedMonText:
-	text "Have I ever faced"
-	line "a wild @"
+	text "Tớ đã từng đối mặt"
+	line "@"
 	text_ram wStringBuffer4
-	text "?"
+	text " hoang?"
 
-	para "You need to ask?"
+	para "Cậu cần hỏi à?"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " I've"
-	line "beaten on numerous"
-	cont "occasions!"
+	text " tớ đã"
+	line "đánh bại vô số"
+	cont "lần rồi!"
 	done
 
 ReenaLostAMonText:
-	text "Have I ever failed"
-	line "to catch a wild"
-	cont "#MON?"
+	text "Tớ đã thất bại"
+	line "trong việc bắt"
+	cont "#MON hoang?"
 
-	para "You need to ask?"
+	para "Cậu cần hỏi à?"
 
-	para "I would never fail"
-	line "to catch a wild"
+	para "Tớ sẽ không bao"
+	line "giờ thất bại khi"
 
-	para "@"
+	para "bắt @"
 	text_ram wStringBuffer4
-	text "…"
-	line "Oh! Never mind!"
+	text " hoang…"
+	line "Ồ! Quên đi!"
 	done
 
 ReenaBattleRematchText:
-	text "We are going to"
-	line "battle!"
+	text "Chúng ta sẽ"
+	line "đấu!"
 
-	para "The place shall be"
+	para "Địa điểm sẽ là"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Don't make me"
-	line "wait! Got it?"
+	para "Đừng để tớ đợi!"
+	line "Rõ chưa?"
 	done
 
 ReenaHangUpText:
-	text "Fine, you may go."
+	text "Được, cậu đi đi."
 	done
 
 ReenaForwardText:
-	text "Don't be too proud"
-	line "just because you"
+	text "Đừng tự hào quá"
+	line "chỉ vì cậu"
 
-	para "happened to beat"
-	line "me… "
+	para "tình cờ thắng"
+	line "tớ… "
 
-	para "It was a fluke!"
+	para "Đó là may rủi!"
 	done
 
 ReenaHurryText:
-	text "What are you"
-	line "doing?"
+	text "Cậu đang làm gì"
+	line "vậy?"
 
-	para "I told you that"
-	line "the place was"
+	para "Tớ nói là địa điểm"
+	line "ở"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
-	line "Don't try to run!"
+	line "Đừng cố trốn!"
 	done

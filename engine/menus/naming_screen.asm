@@ -278,11 +278,11 @@ NamingScreen_ApplyTextInputMode:
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box
 	; For box naming, use the old 2-page system
-	ld de, BoxNameInputUpper
+	ld de, BoxNameInput2
 	ld a, [wNamingScreenLetterCase]
 	and 1
 	jr z, .not_box
-	ld de, BoxNameInputLower
+	ld de, BoxNameInput1
 
 .not_box
 	push de
@@ -304,7 +304,7 @@ NamingScreen_ApplyTextInputMode:
 	call NamingScreen_IsTargetBox
 	jr nz, .row
 	hlcoord 2, 6
-	ld b, $6
+	ld b, $4
 
 .row
 	ld c, $11
@@ -437,7 +437,7 @@ NamingScreenJoypadLoop:
 	ld [hl], $4
 	call NamingScreen_IsTargetBox
 	ret nz
-	inc [hl]
+	dec [hl] ; Set to 3 for box naming (3 rows)
 	ret
 
 .b
@@ -507,7 +507,7 @@ NamingScreen_GetCursorPosition:
 	ld b, $4
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box
-	inc b
+	dec b ; Box naming uses row 3 for buttons
 .not_box
 	cp b
 	pop bc
@@ -547,7 +547,7 @@ NamingScreen_AnimateCursor:
 	ld d, $4
 	call NamingScreen_IsTargetBox
 	jr nz, .ok
-	inc d
+	dec d ; Box naming uses row 3 for buttons
 .ok
 	cp d
 	ld de, .LetterEntries
@@ -661,7 +661,7 @@ NamingScreen_AnimateCursor:
 	ld a, [hl]
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box
-	cp $5
+	cp $3 ; Box naming has 3 rows (0-2) + button row (3)
 	jr nc, .wrap_up
 	inc [hl]
 	ret
@@ -689,7 +689,7 @@ NamingScreen_AnimateCursor:
 	ld [hl], $4
 	call NamingScreen_IsTargetBox
 	ret nz
-	inc [hl]
+	dec [hl] ; Box naming wraps to row 3
 	ret
 
 NamingScreen_TryAddCharacter:

@@ -9,58 +9,58 @@
 ; The last text is associated with a second NPC, probably a Butterfree.
 
 UnusedSweetHoneyText: ; unreferenced
-	text "My #MON is an"
-	line "expert at collect-"
-	cont "ing SWEET HONEY."
+	text "#MON của tôi là"
+	line "chuyên gia thu"
+	cont "thập MẬT NGỌT."
 
-	para "I'll share some"
-	line "with you."
+	para "Tôi sẽ chia sẻ"
+	line "cho cậu."
 	done
 
 UnusedSweetHoneyBagFullText: ; unreferenced
-	text "I want to give you"
-	line "some SWEET HONEY,"
+	text "Tôi muốn cho cậu"
+	line "MẬT NGỌT,"
 
-	para "but you have no"
-	line "room for it."
+	para "nhưng cậu không"
+	line "có chỗ."
 	done
 
 UnusedSweetHoneyGiveText: ; unreferenced
-	text "Here you go! Have"
-	line "some SWEET HONEY!"
+	text "Của cậu đây! Một"
+	line "ít MẬT NGỌT!"
 	done
 
 UnusedGotSweetHoneyText: ; unreferenced
-	text "<PLAYER> received"
-	line "SWEET HONEY."
+	text "<PLAYER> nhận được"
+	line "MẬT NGỌT."
 	done
 
 UnusedSweetHoneyAfterText1: ; unreferenced
-	text "My little brother"
-	line "takes SWEET HONEY"
+	text "Em trai tôi lấy"
+	line "MẬT NGỌT"
 
-	para "and goes somewhere"
-	line "with it."
+	para "và đi đâu đó"
+	line "với nó."
 
-	para "I wonder what he's"
-	line "up to?"
+	para "Không biết nó"
+	line "làm gì?"
 	done
 
 UnusedSweetHoneyAfterText2: ; unreferenced
-	text "Did you put SWEET"
-	line "HONEY on a tree?"
+	text "Cậu bôi MẬT NGỌT"
+	line "lên cây chưa?"
 
-	para "What happened to"
-	line "it?"
+	para "Chuyện gì xảy ra"
+	line "với nó?"
 	done
 
 UnusedSweetHoneyAfterText3: ; unreferenced
-	text "Did you put SWEET"
-	line "HONEY on a tree?"
+	text "Cậu bôi MẬT NGỌT"
+	line "lên cây chưa?"
 
-	para "It takes about a"
-	line "day for #MON to"
-	cont "be drawn to it."
+	para "Mất khoảng một"
+	line "ngày để #MON"
+	cont "bị hấp dẫn đến."
 	done
 
 UnusedSweetHoneyButterfreeText: ; unreferenced

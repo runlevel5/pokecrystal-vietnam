@@ -207,7 +207,7 @@ MoveNames::
 	li "ROLLOUT"
 	li "FALSE SWIPE"
 	li "SWAGGER"
-	li "MILK DRINK"
+	li "UỐNG SỮA"
 	li "SPARK"
 	li "FURY CUTTER"
 	li "STEEL WING"

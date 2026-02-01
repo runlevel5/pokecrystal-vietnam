@@ -36,6 +36,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | IRON TAIL | ĐUÔI SẮT |
 | MORNING SUN | BÌNH MINH |
 | SLEEP TALK | MỘNG NGÔN |
+| MILK DRINK | UỐNG SỮA |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

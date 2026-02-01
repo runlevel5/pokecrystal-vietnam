@@ -9,13 +9,10 @@ This document contains key decisions and guidelines for AI agents working on the
 The following categories are intentionally kept in English to maintain consistency with the international Pokemon community and avoid confusion:
 
 #### 1. Move Names (251 total)
-Most move names have been translated to Vietnamese (see Translated Moves section below). Some moves remain in English uppercase.
+All move names have been translated to Vietnamese (see Translated Moves section below).
 
-**Generation I Moves kept in English:**
-None - all Generation I moves have been translated to Vietnamese.
-
-**Generation II Moves kept in English:**
-SKETCH, TRIPLE KICK, THIEF, SPIDER WEB, MIND READER, FLAME WHEEL, CURSE, FLAIL, CONVERSION2, AEROBLAST, COTTON SPORE, REVERSAL, SPITE, POWDER SNOW, MACH PUNCH, SCARY FACE, FAINT ATTACK, SWEET KISS, BELLY DRUM, SLUDGE BOMB, MUD-SLAP, OCTAZOOKA, SPIKES, ZAP CANNON, FORESIGHT, DESTINY BOND, PERISH SONG, ICY WIND, DETECT, BONE RUSH, LOCK-ON, OUTRAGE, SANDSTORM, GIGA DRAIN, ENDURE, CHARM, ROLLOUT, FALSE SWIPE, SWAGGER, SPARK, FURY CUTTER, STEEL WING, MEAN LOOK, ATTRACT, HEAL BELL, RETURN, PRESENT, FRUSTRATION, SAFEGUARD, PAIN SPLIT, SACRED FIRE, MAGNITUDE, DYNAMICPUNCH, MEGAHORN, DRAGONBREATH, BATON PASS, ENCORE, PURSUIT, RAPID SPIN, SWEET SCENT, METAL CLAW, VITAL THROW, SYNTHESIS, MOONLIGHT, HIDDEN POWER, CROSS CHOP, TWISTER, RAIN DANCE, SUNNY DAY, CRUNCH, MIRROR COAT, PSYCH UP, EXTREMESPEED, ANCIENTPOWER, SHADOW BALL, FUTURE SIGHT, ROCK SMASH, WHIRLPOOL, BEAT UP
+**Moves kept in English:**
+None - all 251 moves have been translated to Vietnamese.
 
 **Translated Moves:**
 
@@ -191,17 +188,96 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 | SUBSTITUTE | THẾ THÂN |
 | STRUGGLE | VẬT LỘN |
 
-**Generation II Moves (7 translated):**
+**Generation II Moves (86 translated):**
 
 | English | Vietnamese |
 |---------|------------|
-| SNORE | NGÁY |
+| SKETCH | PHÁC THẢO |
+| TRIPLE KICK | ĐÁ TAM |
+| THIEF | TRỘM |
+| SPIDER WEB | MẠNG NHỆN |
+| MIND READER | ĐỌC TÂM |
 | NIGHTMARE | ÁC MỘNG |
+| FLAME WHEEL | BÁNH LỬA |
+| SNORE | NGÁY |
+| CURSE | LỜI NGUYỀN |
+| FLAIL | VÙNG VẪY |
+| CONVERSION2 | ĐỔI LOẠI 2 |
+| AEROBLAST | KHÍ PHÁCH |
+| COTTON SPORE | BÀO TỬ BON |
+| REVERSAL | PHẢN CÔNG |
+| SPITE | OÁN HẬN |
+| POWDER SNOW | BỘT TUYẾT |
 | PROTECT | BẢO VỆ |
-| IRON TAIL | ĐUÔI SẮT |
-| MORNING SUN | BÌNH MINH |
-| SLEEP TALK | MỘNG NGÔN |
+| MACH PUNCH | ĐẤM MACH |
+| SCARY FACE | MẶT ĐE DỌA |
+| FAINT ATTACK | TẤN CÔNG LÉN |
+| SWEET KISS | HÔN NGỌT |
+| BELLY DRUM | TRỐNG BỤNG |
+| SLUDGE BOMB | BOM BÙN ĐỘC |
+| MUD-SLAP | VẢY BÙN |
+| OCTAZOOKA | ĐẠI BÁC MỰC |
+| SPIKES | RẮC ĐINH |
+| ZAP CANNON | PHÁO ĐIỆN |
+| FORESIGHT | THẤU THỊ |
+| DESTINY BOND | ĐỒNG SINH |
+| PERISH SONG | CA DIỆT VONG |
+| ICY WIND | GIÓ LẠNH |
+| DETECT | PHÁT HIỆN |
+| BONE RUSH | XƯƠNG LIÊN |
+| LOCK-ON | KHÓA ĐÍA |
+| OUTRAGE | NỔI ĐIÊN |
+| SANDSTORM | BÃO CÁT |
+| GIGA DRAIN | SIÊU HÚT |
+| ENDURE | BỀN BỈ |
+| CHARM | QUỶ ẤN |
+| ROLLOUT | CUỐN LĂN |
+| FALSE SWIPE | CHÉM GIẢ |
+| SWAGGER | KHOE KHOANG |
 | MILK DRINK | UỐNG SỮA |
+| SPARK | TIA LỬA |
+| FURY CUTTER | CHÉM LIÊN |
+| STEEL WING | CÁNH THÉP |
+| MEAN LOOK | NHÌN ÁC |
+| ATTRACT | MÊ HOẶC |
+| SLEEP TALK | MỘNG NGÔN |
+| HEAL BELL | CHUÔNG CHỮA |
+| RETURN | TRẢ ƠN |
+| PRESENT | QUÀ TẶNG |
+| FRUSTRATION | THẤT VỌNG |
+| SAFEGUARD | BẢO HỘ |
+| PAIN SPLIT | CHIA ĐAU |
+| SACRED FIRE | LỬA THÁNH |
+| MAGNITUDE | CHẤN ĐỘ |
+| DYNAMICPUNCH | ĐẤM NĂNG |
+| MEGAHORN | SỪNG KHỔNG |
+| DRAGONBREATH | HƠI RỒNG |
+| BATON PASS | TIẾP SỨC |
+| ENCORE | HÒA CA |
+| PURSUIT | ĐUỔI THEO |
+| RAPID SPIN | XOAY NHANH |
+| SWEET SCENT | HƯƠNG NGỌT |
+| IRON TAIL | ĐUÔI SẮT |
+| METAL CLAW | MÓNG SẮT |
+| VITAL THROW | NÉM CHIÊU |
+| MORNING SUN | BÌNH MINH |
+| SYNTHESIS | TỔNG HỢP |
+| MOONLIGHT | ÁNH TRĂNG |
+| HIDDEN POWER | SỨC ẨN |
+| CROSS CHOP | CHẶT CHÉO |
+| TWISTER | LỐC XOÁY |
+| RAIN DANCE | CẦU MƯA |
+| SUNNY DAY | NGÀY NẮNG |
+| CRUNCH | CẮN VỠ |
+| MIRROR COAT | ÁO GƯƠNG |
+| PSYCH UP | TÂM LÝ LÊN |
+| EXTREMESPEED | CỰC TỐC |
+| ANCIENTPOWER | SỨC CỔ ĐẠI |
+| SHADOW BALL | BÓNG MA |
+| FUTURE SIGHT | TIÊN TRI |
+| ROCK SMASH | ĐẬP VỠ ĐÁ |
+| WHIRLPOOL | XOÁY NƯỚC |
+| BEAT UP | ĐÁNH HỘI |
 
 #### 2. Item Names
 

@@ -42,6 +42,8 @@ To translate move names, edit the file `data/moves/names.asm`.
 | PAY DAY | VUNG TIỀN |
 | FIRE PUNCH | ĐẤM LỬA |
 | ICE PUNCH | ĐẤM BĂNG |
+| THUNDERPUNCH | ĐẤM SẤM |
+| SCRATCH | CÀO |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

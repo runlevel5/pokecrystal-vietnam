@@ -459,6 +459,27 @@ Vietnamese pronouns are chosen based on relationship and context:
 | Peer (polite) | tôi → bạn |
 | NPC (respectful) | Based on age/status |
 
+## Vietnamese Grammar Rules
+
+### Adjective-Noun Word Order
+
+In Vietnamese, adjectives come **after** nouns (opposite of English). This affects decoration names and composite item names.
+
+**Examples:**
+| English | Literal Translation | Correct Vietnamese |
+|---------|--------------------|--------------------|
+| PINK BED | HỒNG GIƯỜNG (wrong) | GIƯỜNG HỒNG ✓ |
+| RED CARPET | ĐỎ THẢM (wrong) | THẢM ĐỎ ✓ |
+| BLUE CARPET | XANH BIỂN THẢM (wrong) | THẢM XANH BIỂN ✓ |
+
+**Implementation:**
+- Decoration names in `data/decorations/names.asm` are split into parts:
+  - Nouns with trailing space: "GIƯỜNG " (bed), "THẢM " (carpet)
+  - Adjectives without space: "HỒNG" (pink), "ĐỎ" (red)
+- The code in `engine/overworld/decorations.asm` concatenates them in Vietnamese order (noun + adjective)
+
+**Result:** "GIƯỜNG " + "HỒNG" = "GIƯỜNG HỒNG" (Bed Pink = Pink Bed)
+
 ## Technical Constraints
 
 - **Max 18 characters per line** (Game Boy screen width)

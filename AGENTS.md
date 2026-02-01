@@ -92,9 +92,6 @@ GS BALL
 **Miscellaneous:**
 # DOLL, ETHER, MAX ETHER, ELIXER, SPELL TAG
 
-**Mail:**
-FLOWER MAIL, SURF MAIL, LITEBLUEMAIL, PORTRAITMAIL, LOVELY MAIL, EON MAIL, MORPH MAIL, BLUESKY MAIL, MUSIC MAIL, MIRAGE MAIL
-
 **TMs and HMs:**
 TM01-TM50, HM01-HM07
 
@@ -211,6 +208,21 @@ All Pokemon species names remain in English:
 | SQUIRTBOTTLE | BÌNH XỊT |
 | RAINBOW WING | LÔNG VŨ 7MÀU |
 | BRICK PIECE | MẢNH GẠCH |
+
+**Mail:**
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| FLOWER MAIL | THƯ HOA | Flower Mail |
+| SURF MAIL | THƯ BIỂN | Surf/Sea Mail |
+| LITEBLUEMAIL | THƯ XANH NHẸ | Light Blue Mail |
+| PORTRAITMAIL | THƯ TỰ HOẠ | Portrait Mail |
+| LOVELY MAIL | THƯ YÊU QUÝ | Lovely Mail |
+| EON MAIL | THƯ EON | Eon Mail |
+| MORPH MAIL | THƯ THAY ĐỔI | Morph/Change Mail |
+| BLUESKY MAIL | THƯ BẦU TRỜI | Blue Sky Mail |
+| MUSIC MAIL | THƯ ÂM NHẠC | Music Mail |
+| MIRAGE MAIL | THƯ ẢO ẢNH | Mirage Mail |
 
 #### 3. Location Names
 Location names are translated with Vietnamese prefixes. Below is the complete list from `data/maps/landmarks.asm`.

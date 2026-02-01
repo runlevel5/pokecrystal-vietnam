@@ -46,7 +46,7 @@ ItemNames::
 	li "DIRE HIT"
 	li "TERU-SAMA"
 	li "NƯỚC SẠCH"
-	li "SODA POP"
+	li "SÔ-ĐA POP"
 	li "CHANH MUỐI"
 	li "X CÔNG"
 	li "TERU-SAMA"

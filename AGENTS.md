@@ -38,7 +38,10 @@ All item names remain in English. Complete list:
 MASTER BALL, ULTRA BALL, GREAT BALL, # BALL, HEAVY BALL, LEVEL BALL, LURE BALL, FAST BALL, LIGHT BALL, FRIEND BALL, MOON BALL, LOVE BALL, PARK BALL
 
 **Medicine:**
-SODA POP
+
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| SODA POP | SÔ-ĐA POP | Soda Pop |
 
 **Berries:**
 

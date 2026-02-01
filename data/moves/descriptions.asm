@@ -412,7 +412,7 @@ TakeDownDescription:
 
 ThrashDescription:
 	db   "Đánh 2-3 lượt &"
-	next "tự gây BỐI RỐI.@"
+	next "tự gây LẪN LỘN.@"
 
 DoubleEdgeDescription:
 	db   "Lao vào, người"
@@ -456,7 +456,7 @@ SingDescription:
 
 SupersonicDescription:
 	db   "Sóng âm gây"
-	next "BỐI RỐI.@"
+	next "LẪN LỘN.@"
 
 SonicboomDescription:
 	db   "Luôn gây đúng"
@@ -504,7 +504,7 @@ BlizzardDescription:
 
 PsybeamDescription:
 	db   "Đòn có thể gây"
-	next "BỐI RỐI.@"
+	next "LẪN LỘN.@"
 
 BubblebeamDescription:
 	db   "Đòn có thể giảm"
@@ -584,7 +584,7 @@ SleepPowderDescription:
 
 PetalDanceDescription:
 	db   "Đánh 2-3 lượt &"
-	next "tự gây BỐI RỐI.@"
+	next "tự gây LẪN LỘN.@"
 
 StringShotDescription:
 	db   "Giảm TỐC ĐỘ"
@@ -636,7 +636,7 @@ ToxicDescription:
 
 ConfusionDescription:
 	db   "Đòn có thể gây"
-	next "BỐI RỐI.@"
+	next "LẪN LỘN.@"
 
 PsychicMDescription:
 	db   "Đòn có thể giảm"
@@ -699,7 +699,7 @@ SmokescreenDescription:
 	next "xác của đối thủ.@"
 
 ConfuseRayDescription:
-	db   "Gây BỐI RỐI"
+	db   "Gây LẪN LỘN"
 	next "cho đối thủ.@"
 
 WithdrawDescription:
@@ -848,7 +848,7 @@ BubbleDescription:
 
 DizzyPunchDescription:
 	db   "Đòn có thể gây"
-	next "BỐI RỐI.@"
+	next "LẪN LỘN.@"
 
 SporeDescription:
 	db   "Đòn gây ngủ"
@@ -1007,7 +1007,7 @@ FaintAttackDescription:
 	next "giờ trượt.@"
 
 SweetKissDescription:
-	db   "Gây BỐI RỐI"
+	db   "Gây LẪN LỘN"
 	next "cho đối thủ.@"
 
 BellyDrumDescription:
@@ -1064,7 +1064,7 @@ LockOnDescription:
 
 OutrageDescription:
 	db   "Đánh 2-3 lượt &"
-	next "tự gây BỐI RỐI.@"
+	next "tự gây LẪN LỘN.@"
 
 SandstormDescription:
 	db   "Gây sát thương"
@@ -1091,7 +1091,7 @@ FalseSwipeDescription:
 	next "ít nhất 1HP.@"
 
 SwaggerDescription:
-	db   "Gây BỐI RỐI &"
+	db   "Gây LẪN LỘN &"
 	next "tăng CÔNG.@"
 
 MilkDrinkDescription:
@@ -1156,7 +1156,7 @@ MagnitudeDescription:
 
 DynamicpunchDescription:
 	db   "Đòn luôn gây"
-	next "BỐI RỐI.@"
+	next "LẪN LỘN.@"
 
 MegahornDescription:
 	db   "Đòn húc sừng"

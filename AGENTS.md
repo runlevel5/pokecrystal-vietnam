@@ -104,7 +104,7 @@ Status effect names are translated to Vietnamese in move descriptions and dialog
 | PARALYSIS | TÊ LIỆT | Paralysis |
 | BURN | BỎNG | Burn |
 | FREEZE | ĐÔNG | Freeze |
-| CONFUSION | BỐI RỐI | Confusion |
+| CONFUSION | LẪN LỘN | Confusion |
 
 **Note:** Status conditions in system code/constants remain in English for technical purposes. Only user-facing text (move descriptions, battle messages, etc.) uses Vietnamese terms.
 
@@ -113,7 +113,7 @@ These translations align with Vietnamese item names:
 - TÊ LIỆT: TRỊ TÊ LIỆT (Parlyz Heal), QUẢ TRỊ LIỆT (PRZCureBerry)
 - BỎNG: TRỊ BỎNG (Burn Heal)
 - ĐÔNG: TRỊ ĐÔNG (Ice Heal)
-- BỐI RỐI: from battle text "bối rối" (confused)
+- LẪN LỘN: from battle text "lẫn lộn" (confused)
 
 **SLEEP** is translated contextually:
 - In move descriptions: "ngủ" (e.g., "Có thể làm đ.thủ ngủ" = "May make opponent sleep")

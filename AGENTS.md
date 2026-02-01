@@ -30,6 +30,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | SMOKESCREEN | MÀN KHÓI |
 | GROWL | GẦM GỪ |
 | LEECH LIFE | HÚT HP |
+| SNORE | NGÁY |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

@@ -172,7 +172,7 @@ MoveNames::
 	li "MIND READER"
 	li "NIGHTMARE"
 	li "FLAME WHEEL"
-	li "SNORE"
+	li "NGÁY"
 	li "CURSE"
 	li "FLAIL"
 	li "CONVERSION2"

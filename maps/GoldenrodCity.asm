@@ -101,9 +101,10 @@ MoveTutorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FLAMETHROWER@"
-	db "THUNDERBOLT@"
-	db "ICE BEAM@"
+	; Move names must match data/moves/names.asm
+	db "PHUN LỬA@"     ; FLAMETHROWER
+	db "SÉT ĐÁNH@"     ; THUNDERBOLT
+	db "TIA BĂNG@"     ; ICE_BEAM
 	db "HỦY@"
 
 .Refused:

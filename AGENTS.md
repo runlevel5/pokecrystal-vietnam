@@ -33,6 +33,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | SNORE | NGÁY |
 | NIGHTMARE | ÁC MỘNG |
 | PROTECT | BẢO VỆ |
+| IRON TAIL | ĐUÔI SẮT |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

@@ -1,55 +1,52 @@
 IrwinAnswerPhoneText:
-	text "Hello? @"
+	text "Alo? @"
 	text_ram wStringBuffer3
-	text_start
-	line "here…"
+	text " đây…"
 
-	para "Hey, <PLAY_G>!"
+	para "Này, <PLAY_G>!"
 	done
 
 IrwinAnswerPhoneDayText:
-	text "Hello? @"
+	text "Alo? @"
 	text_ram wStringBuffer3
-	text_start
-	line "here…"
+	text " đây…"
 
 	para "Wow, <PLAY_G>!"
 	done
 
 IrwinAnswerPhoneNiteText:
-	text "Hello? @"
+	text "Alo? @"
 	text_ram wStringBuffer3
-	text_start
-	line "here…"
+	text " đây…"
 
 	para "Yippee, <PLAY_G>!"
 	done
 
 IrwinGreetText:
-	text "Uh, hello."
+	text "Uh, xin chào."
 	line "<PLAY_G>?"
 
-	para "It's your pal,"
+	para "Là bạn cậu,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 IrwinGreetDayText:
-	text "Uh, hello,"
+	text "Uh, xin chào,"
 	line "<PLAY_G>?"
 
-	para "It's your buddy"
+	para "Là bạn thân"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 IrwinGreetNiteText:
-	text "Uh, hello,"
+	text "Uh, xin chào,"
 	line "<PLAY_G>?"
 
-	para "It's your sidekick"
+	para "Là bạn đồng hành"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"

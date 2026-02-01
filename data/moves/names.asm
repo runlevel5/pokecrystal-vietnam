@@ -5,7 +5,7 @@ MoveNames::
 	li "DOUBLESLAP"
 	li "ĐẤM SAO"
 	li "MEGA PUNCH"
-	li "PAY DAY"
+	li "VUNG TIỀN"
 	li "FIRE PUNCH"
 	li "ICE PUNCH"
 	li "THUNDERPUNCH"

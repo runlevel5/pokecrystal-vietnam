@@ -44,6 +44,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | ICE PUNCH | ĐẤM BĂNG |
 | THUNDERPUNCH | ĐẤM SẤM |
 | SCRATCH | CÀO |
+| SWORDS DANCE | MÚA KIẾM |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

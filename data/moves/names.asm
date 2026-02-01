@@ -13,7 +13,7 @@ MoveNames::
 	li "VICEGRIP"
 	li "GUILLOTINE"
 	li "RAZOR WIND"
-	li "SWORDS DANCE"
+	li "MÚA KIẾM"
 	li "CẮT"
 	li "GUST"
 	li "WING ATTACK"

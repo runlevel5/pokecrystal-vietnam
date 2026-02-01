@@ -12,7 +12,7 @@ TrainerClassNames::
 	li "ĐỐI THỦ"      ; RIVAL
 	li "GS.#MON"       ; #MON PROF. (Professor)
 	li "TỨ ĐẠI"        ; ELITE FOUR
-	li "TRAINER"       ; <PKMN> TRAINER
+	li "HLV"           ; <PKMN> TRAINER
 	li "TỨ ĐẠI"        ; ELITE FOUR
 	li "TỨ ĐẠI"        ; ELITE FOUR
 	li "TỨ ĐẠI"        ; ELITE FOUR
@@ -63,7 +63,7 @@ TrainerClassNames::
 	li "KIMONO"        ; KIMONO GIRL
 	li "SONG SINH"     ; TWINS
 	li "FAN #MON"      ; #FAN
-	li "TRAINER"       ; <PKMN> TRAINER
+	li "HLV"           ; <PKMN> TRAINER
 	li "THỦ LĨNH"      ; LEADER
 	li "CẢNH SÁT"      ; OFFICER
 	li "ROCKET"        ; ROCKET

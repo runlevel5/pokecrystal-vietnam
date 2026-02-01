@@ -1,192 +1,192 @@
 JackIntelligenceKeepsRisingText:
-	text "My @"
+	text "Trí thông minh của"
+	line "@"
 	text_ram wStringBuffer4
-	text "'s"
-	line "intelligence keeps"
+	text " cứ"
 
-	para "rising. It might"
-	line "be smarter than"
-	cont "yours!"
+	para "tăng lên. Có thể"
+	line "thông minh hơn"
+	cont "cậu đấy!"
 	done
 
 JackDefeatedMonText:
-	text "The other day, I"
-	line "easily defeated a"
-	cont "@"
+	text "Hôm nọ, tớ dễ"
+	line "dàng đánh bại"
+	cont "con @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "I think swapping"
-	line "tips with you is"
-	cont "starting to help."
+	para "Tớ nghĩ trao đổi"
+	line "mẹo với cậu đang"
+	cont "bắt đầu có ích."
 	done
 
 JackLostAMonText:
-	text "Oh, and listen."
-	line "I missed catching"
+	text "À, và nghe này."
+	line "Tớ suýt bắt được"
 
-	para "a @"
+	para "con @"
 	text_ram wStringBuffer4
-	text " by"
-	line "just a tiny bit."
+	text " chỉ"
+	line "thiếu chút nữa."
 
-	para "If I'd been a bit"
-	line "more informed, I'm"
+	para "Nếu tớ có thêm"
+	line "thông tin, chắc"
 
-	para "sure I would've"
-	line "caught it…"
+	para "tớ đã bắt được"
+	line "nó…"
 	done
 
 JackBattleRematchText:
-	text "Do you want to"
-	line "battle? I'll show"
+	text "Cậu muốn đấu"
+	line "không? Tớ sẽ chỉ"
 
-	para "you how to battle"
-	line "logically."
+	para "cậu cách đấu một"
+	line "cách logic."
 
-	para "I'll be in"
+	para "Tớ sẽ ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Give me a shout if"
-	line "you're nearby."
+	para "Gọi cho tớ nếu"
+	line "cậu ở gần."
 	done
 
 JackHangUpText:
-	text "See you later!"
+	text "Hẹn gặp lại!"
 	done
 
 JackThunderTriviaText:
-	text "Did you know?"
+	text "Cậu có biết không?"
 
-	para "When it's raining,"
-	line "THUNDER is sure to"
-	cont "strike."
+	para "Khi trời mưa,"
+	line "THUNDER chắc chắn"
+	cont "trúng đích."
 	done
 
 JackRolloutTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "If you use DEFENSE"
-	line "CURL, ROLLOUT's"
+	para "Nếu dùng DEFENSE"
+	line "CURL, sức mạnh"
 
-	para "power goes way up"
-	line "past normal."
+	para "ROLLOUT tăng lên"
+	line "rất nhiều."
 	done
 
 JackSolarbeamTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "If the sunlight is"
-	line "harsh, SOLARBEAM"
+	para "Nếu ánh nắng rất"
+	line "chói, SOLARBEAM"
 
-	para "doesn't need to be"
-	line "charged up."
+	para "không cần nạp"
+	line "năng lượng."
 	done
 
 JackStompTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "If the opponent"
-	line "uses MINIMIZE,"
+	para "Nếu đối thủ dùng"
+	line "MINIMIZE,"
 
-	para "your STOMP becomes"
-	line "more powerful."
+	para "STOMP của cậu sẽ"
+	line "mạnh hơn nhiều."
 	done
 
 JackGustTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Nếu đối thủ đang"
+	line "BAY, GUST của cậu"
 
-	para "GUST becomes much"
-	line "more powerful."
+	para "sẽ mạnh hơn"
+	line "rất nhiều."
 	done
 
 JackTwisterTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "If your opponent"
-	line "is FLYing, your"
+	para "Nếu đối thủ đang"
+	line "BAY, TWISTER của"
 
-	para "TWISTER becomes"
-	line "more powerful."
+	para "cậu sẽ mạnh hơn"
+	line "nhiều."
 	done
 
 JackEarthquakeTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Nếu đối thủ dùng"
+	line "DIG, EARTHQUAKE"
 
-	para "EARTHQUAKE becomes"
-	line "more powerful."
+	para "của cậu sẽ mạnh"
+	line "hơn nhiều."
 	done
 
 JackMagnitudeTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "If your opponent"
-	line "uses DIG, your"
+	para "Nếu đối thủ dùng"
+	line "DIG, MAGNITUDE của"
 
-	para "MAGNITUDE becomes"
-	line "more powerful."
+	para "cậu sẽ mạnh hơn"
+	line "nhiều."
 	done
 
 JackSandstormTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "The rock, ground"
-	line "and steel types"
+	para "Hệ đá, đất và"
+	line "thép không thể"
 
-	para "can't be hurt by"
+	para "bị tổn thương bởi"
 	line "SANDSTORM."
 	done
 
 JackSunnyDayTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "If the sunlight is"
-	line "harsh, water-type"
+	para "Nếu ánh nắng rất"
+	line "chói, chiêu nước"
 
-	para "moves become much"
-	line "weaker."
+	para "sẽ yếu hơn"
+	line "rất nhiều."
 	done
 
 JackRainDanceTriviaText:
-	text "Did you know…?"
+	text "Cậu có biết…?"
 
-	para "When it's raining,"
-	line "fire-type moves"
+	para "Khi trời mưa,"
+	line "chiêu lửa sẽ"
 
-	para "become much weaker"
-	line "than usual."
+	para "yếu hơn rất nhiều"
+	line "so với bình thường"
 	done
 
 JackHeardSomeGreatTipsText:
-	text "My friend heard"
-	line "some great tips."
+	text "Bạn tớ nghe được"
+	line "mẹo hay lắm."
 
-	para "He's going to let"
-	line "me in on some."
+	para "Anh ấy sẽ cho tớ"
+	line "biết vài cái."
 
-	para "When he tells me,"
-	line "I'll call right"
-	cont "away and tell you."
+	para "Khi anh ấy nói,"
+	line "tớ sẽ gọi ngay và"
+	cont "nói cho cậu biết."
 	done
 
 JackReminderText:
-	text "Hey, <PLAY_G>!"
+	text "Này, <PLAY_G>!"
 
-	para "Do you remember"
-	line "your promise?"
+	para "Cậu có nhớ lời"
+	line "hứa không?"
 
-	para "We have to battle"
-	line "soon!"
+	para "Bọn mình phải đấu"
+	line "sớm thôi!"
 
-	para "I'll be at"
+	para "Tớ sẽ ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "."

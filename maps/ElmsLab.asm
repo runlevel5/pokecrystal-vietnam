@@ -166,6 +166,7 @@ CyndaquilPokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
+	getmonname STRING_BUFFER_3, CYNDAQUIL
 	writetext TakeCyndaquilText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -196,6 +197,7 @@ TotodilePokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
+	getmonname STRING_BUFFER_3, TOTODILE
 	writetext TakeTotodileText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -224,6 +226,7 @@ ChikoritaPokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
+	getmonname STRING_BUFFER_3, CHIKORITA
 	writetext TakeChikoritaText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -724,7 +727,7 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "ELM: <PLAY_G>!"
+	text "<PLAY_G>!"
 	line "Con đến rồi à!"
 
 	para "Thầy cần nhờ con"
@@ -848,38 +851,42 @@ ElmText_LetYourMonBattleIt:
 	done
 
 LabWhereGoingText:
-	text "ELM: Khoan! Con"
+	text "Khoan! Con"
 	line "định đi đâu vậy?"
 	done
 
 TakeCyndaquilText:
 	text "ELM: Con chọn"
-	line "CYNDAQUIL, #MON"
+	line "@"
+	text_ram wStringBuffer3
+	text ", #MON"
 	cont "hệ lửa chứ?"
 	done
 
 TakeTotodileText:
 	text "ELM: Con muốn"
-	line "TOTODILE, #MON"
+	line "@"
+	text_ram wStringBuffer3
+	text ", #MON"
 	cont "hệ nước chứ?"
 	done
 
 TakeChikoritaText:
 	text "ELM: Vậy con thích"
-	line "CHIKORITA, #MON"
+	line "@"
+	text_ram wStringBuffer3
+	text ", #MON"
 	cont "hệ cỏ chứ?"
 	done
 
 DidntChooseStarterText:
-	text "ELM: Suy nghĩ kỹ"
-	line "đi nhé."
-
+	text "Suy nghĩ kỹ đi nhé"
 	para "Bạn đồng hành rất"
 	line "quan trọng đấy."
 	done
 
 ChoseStarterText:
-	text "ELM: Thầy cũng"
+	text "Thầy cũng"
 	line "nghĩ đó là #MON"
 	cont "tuyệt vời!"
 	done

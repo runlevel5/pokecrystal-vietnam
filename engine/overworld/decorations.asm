@@ -531,13 +531,19 @@ GetDecoName:
 	jr .getdeconame
 
 .bed:
-	call .plant
+	push de
 	ld a, _BED
+	call .getdeconame
+	pop de
+	ld a, e
 	jr .getdeconame
 
 .carpet:
-	call .plant
+	push de
 	ld a, _CARPET
+	call .getdeconame
+	pop de
+	ld a, e
 	jr .getdeconame
 
 .poster:

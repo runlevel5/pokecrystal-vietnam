@@ -38,6 +38,7 @@ To translate move names, edit the file `data/moves/names.asm`.
 | SLEEP TALK | MỘNG NGÔN |
 | MILK DRINK | UỐNG SỮA |
 | KARATE CHOP | CHẶT KARATE |
+| COMET PUNCH | ĐẤM SAO |
 
 #### 2. Item Names
 All item names remain in English. Complete list:

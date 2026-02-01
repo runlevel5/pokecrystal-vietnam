@@ -3,7 +3,7 @@ MoveNames::
 	li "POUND"
 	li "CHẶT KARATE"
 	li "DOUBLESLAP"
-	li "COMET PUNCH"
+	li "ĐẤM SAO"
 	li "MEGA PUNCH"
 	li "PAY DAY"
 	li "FIRE PUNCH"

@@ -1,64 +1,65 @@
 VanceMonHasBecomeTougherText:
-	text "My @"
+	text "@"
 	text_ram wStringBuffer4
-	text "'s"
-	line "become tougher."
+	text " của tớ"
+	line "mạnh hơn rồi."
 
-	para "We've achieved"
-	line "liftoff!"
+	para "Chúng tớ đã cất"
+	line "cánh rồi!"
 	done
 
 VanceDefeatedMonText:
-	text "We can easily beat"
-	line "@"
+	text "Chúng tớ có thể dễ"
+	line "dàng đánh bại @"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "…Huh? You too?"
-	line "Isn't that great?"
+	para "…Hả? Cậu cũng thế?"
+	line "Hay quá không?"
 	done
 
 VanceLostAMonText:
-	text "But get this, a"
-	line "wild @"
+	text "Nhưng nghe này,"
+	line "một @"
 	text_ram wStringBuffer4
-	text_start
-	para "just barely eluded"
-	line "us."
+	text " hoang dã"
+	para "vừa mới thoát khỏi"
+	line "chúng tớ."
 
-	para "I wanted to FLY"
-	line "after it…"
+	para "Tớ muốn dùng BAY"
+	line "để đuổi theo nó…"
 	done
 
 VanceBattleRematchText:
-	text "Right now, I'm on"
+	text "Hiện tại, tớ ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "You know, where I"
-	line "first met you?"
+	para "Cậu biết đấy, nơi"
+	line "ta gặp nhau lần"
+	cont "đầu?"
 
-	para "Want to battle?"
-	line "I'll wait here."
+	para "Muốn đấu không?"
+	line "Tớ đợi ở đây."
 	done
 
 VanceHangUpText:
-	text "OK, bye for now!"
+	text "OK, tạm biệt nhé!"
 	done
 
 VanceLookingForwardText:
-	text "I'll be looking"
-	line "forward to our"
-	cont "next battle!"
+	text "Tớ sẽ mong chờ"
+	line "trận đấu tiếp theo"
+	cont "của chúng ta!"
 	done
 
 VanceHurryHurryText:
-	text "Oh, <PLAY_G>!"
-	line "Hurry, hurry!"
+	text "Ồ, <PLAY_G>!"
+	line "Nhanh lên!"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
-	line "FLY over now!"
+	line "BAY đến ngay!"
 	done

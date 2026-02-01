@@ -293,11 +293,11 @@ PayDayDescription:
 
 FirePunchDescription:
 	db   "Đấm lửa. Có thể"
-	next "gây BURN.@"
+	next "gây BỎNG.@"
 
 IcePunchDescription:
 	db   "Đấm băng. Có thể"
-	next "gây FREEZE.@"
+	next "gây ĐÔNG.@"
 
 ThunderpunchDescription:
 	db   "Đấm điện. Có thể"
@@ -412,7 +412,7 @@ TakeDownDescription:
 
 ThrashDescription:
 	db   "Đánh 2-3 lượt &"
-	next "tự gây CONFUSION.@"
+	next "tự gây BỐI RỐI.@"
 
 DoubleEdgeDescription:
 	db   "Lao vào, người"
@@ -424,7 +424,7 @@ TailWhipDescription:
 
 PoisonStingDescription:
 	db   "Đòn có thể gây"
-	next "POISON cho đ.thủ.@"
+	next "ĐỘC cho đ.thủ.@"
 
 TwineedleDescription:
 	db   "Đâm đ.thủ 2 lần"
@@ -456,7 +456,7 @@ SingDescription:
 
 SupersonicDescription:
 	db   "Sóng âm gây"
-	next "CONFUSION.@"
+	next "BỐI RỐI.@"
 
 SonicboomDescription:
 	db   "Luôn gây đúng"
@@ -472,11 +472,11 @@ AcidDescription:
 
 EmberDescription:
 	db   "Đòn có thể gây"
-	next "BURN.@"
+	next "BỎNG.@"
 
 FlamethrowerDescription:
 	db   "Đòn có thể gây"
-	next "BURN.@"
+	next "BỎNG.@"
 
 MistDescription:
 	db   "Ngăn bị giảm"
@@ -496,15 +496,15 @@ SurfDescription:
 
 IceBeamDescription:
 	db   "Đòn có thể gây"
-	next "FREEZE.@"
+	next "ĐÔNG.@"
 
 BlizzardDescription:
 	db   "Đòn có thể gây"
-	next "FREEZE.@"
+	next "ĐÔNG.@"
 
 PsybeamDescription:
 	db   "Đòn có thể gây"
-	next "CONFUSION.@"
+	next "BỐI RỐI.@"
 
 BubblebeamDescription:
 	db   "Đòn có thể giảm"
@@ -572,7 +572,7 @@ SolarbeamDescription:
 
 PoisonpowderDescription:
 	db   "Đòn có thể gây"
-	next "POISON.@"
+	next "ĐỘC.@"
 
 StunSporeDescription:
 	db   "Đòn có thể gây"
@@ -584,7 +584,7 @@ SleepPowderDescription:
 
 PetalDanceDescription:
 	db   "Đánh 2-3 lượt &"
-	next "tự gây CONFUSION.@"
+	next "tự gây BỐI RỐI.@"
 
 StringShotDescription:
 	db   "Giảm TỐC ĐỘ"
@@ -636,7 +636,7 @@ ToxicDescription:
 
 ConfusionDescription:
 	db   "Đòn có thể gây"
-	next "CONFUSION.@"
+	next "BỐI RỐI.@"
 
 PsychicMDescription:
 	db   "Đòn có thể giảm"
@@ -699,7 +699,7 @@ SmokescreenDescription:
 	next "xác của đối thủ.@"
 
 ConfuseRayDescription:
-	db   "Gây CONFUSION"
+	db   "Gây BỐI RỐI"
 	next "cho đối thủ.@"
 
 WithdrawDescription:
@@ -756,11 +756,11 @@ LickDescription:
 
 SmogDescription:
 	db   "Đòn có thể gây"
-	next "POISON.@"
+	next "ĐỘC.@"
 
 SludgeDescription:
 	db   "Đòn có thể gây"
-	next "POISON.@"
+	next "ĐỘC.@"
 
 BoneClubDescription:
 	db   "Đòn có thể làm"
@@ -768,7 +768,7 @@ BoneClubDescription:
 
 FireBlastDescription:
 	db   "Đòn có thể gây"
-	next "BURN.@"
+	next "BỎNG.@"
 
 WaterfallDescription:
 	db   "Đòn lao nước"
@@ -820,7 +820,7 @@ DreamEaterDescription:
 
 PoisonGasDescription:
 	db   "Đòn có thể gây"
-	next "POISON.@"
+	next "ĐỘC.@"
 
 BarrageDescription:
 	db   "Ném vật tròn"
@@ -848,7 +848,7 @@ BubbleDescription:
 
 DizzyPunchDescription:
 	db   "Đòn có thể gây"
-	next "CONFUSION.@"
+	next "BỐI RỐI.@"
 
 SporeDescription:
 	db   "Đòn gây ngủ"
@@ -952,7 +952,7 @@ NightmareDescription:
 
 FlameWheelDescription:
 	db   "Đòn có thể gây"
-	next "BURN.@"
+	next "BỎNG.@"
 
 SnoreDescription:
 	db   "Chỉ dùng được"
@@ -988,7 +988,7 @@ SpiteDescription:
 
 PowderSnowDescription:
 	db   "Đòn có thể gây"
-	next "FREEZE.@"
+	next "ĐÔNG.@"
 
 ProtectDescription:
 	db   "Né đòn lượt đó."
@@ -1007,7 +1007,7 @@ FaintAttackDescription:
 	next "giờ trượt.@"
 
 SweetKissDescription:
-	db   "Gây CONFUSION"
+	db   "Gây BỐI RỐI"
 	next "cho đối thủ.@"
 
 BellyDrumDescription:
@@ -1016,7 +1016,7 @@ BellyDrumDescription:
 
 SludgeBombDescription:
 	db   "Đòn có thể gây"
-	next "POISON.@"
+	next "ĐỘC.@"
 
 MudSlapDescription:
 	db   "Giảm độ chính"
@@ -1064,7 +1064,7 @@ LockOnDescription:
 
 OutrageDescription:
 	db   "Đánh 2-3 lượt &"
-	next "tự gây CONFUSION.@"
+	next "tự gây BỐI RỐI.@"
 
 SandstormDescription:
 	db   "Gây sát thương"
@@ -1091,7 +1091,7 @@ FalseSwipeDescription:
 	next "ít nhất 1HP.@"
 
 SwaggerDescription:
-	db   "Gây CONFUSION &"
+	db   "Gây BỐI RỐI &"
 	next "tăng CÔNG.@"
 
 MilkDrinkDescription:
@@ -1148,7 +1148,7 @@ PainSplitDescription:
 
 SacredFireDescription:
 	db   "Đòn có thể gây"
-	next "BURN.@"
+	next "BỎNG.@"
 
 MagnitudeDescription:
 	db   "Đòn hệ ĐẤT sức"
@@ -1156,7 +1156,7 @@ MagnitudeDescription:
 
 DynamicpunchDescription:
 	db   "Đòn luôn gây"
-	next "CONFUSION.@"
+	next "BỐI RỐI.@"
 
 MegahornDescription:
 	db   "Đòn húc sừng"

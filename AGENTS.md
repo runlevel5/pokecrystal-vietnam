@@ -125,9 +125,9 @@ All Pokemon species names remain in English:
 | PARLYZ HEAL | TRỊ TÊ LIỆT |
 | FULL RESTORE | H.PHỤC TOÀN |
 | ESCAPE ROPE | DÂY THOÁT |
-| REPEL | XUA ĐUỔI |
-| SUPER REPEL | XUA Đ.SUPER |
-| MAX REPEL | XUA Đ.MAX |
+| REPEL | XUA ĐI |
+| SUPER REPEL | SIÊU XUA ĐI |
+| MAX REPEL | MAX XUA ĐUỔI |
 | MAX ELIXER | T.NĂNG MAX |
 | HP UP | TĂNG HP |
 | RARE CANDY | KẸO HIẾM |
@@ -145,15 +145,15 @@ All Pokemon species names remain in English:
 | COIN CASE | HỘP XU |
 | ITEMFINDER | MÁY TÌM ĐỒ |
 | EXP.SHARE | CHIA SẺ KN |
-| OLD ROD | CẦN CŨ |
-| GOOD ROD | CẦN TỐT |
+| OLD ROD | CẦN CÂU CŨ |
+| GOOD ROD | CẦN CÂU TỐT |
 | SILVER LEAF | LÁ BẠC |
-| SUPER ROD | CẦN SUPER |
+| SUPER ROD | SIÊU CẦN CẦU |
 | RED SCALE | VẢY ĐỎ |
 | SECRETPOTION | THUỐC BÍ MẬT |
 | S.S.TICKET | VÉ S.S. |
 | MYSTERY EGG | TRỨNG BÍ ẨN |
-| CLEAR BELL | CH.BÁO TRONG |
+| CLEAR BELL | CHUÔNG PHALÊ |
 | SILVER WING | CÁNH BẠC |
 | MOOMOO MILK | SỮA MOOMOO |
 | GOLD LEAF | LÁ VÀNG |
@@ -161,8 +161,8 @@ All Pokemon species names remain in English:
 | BIG MUSHROOM | NẤM LỚN |
 | SLOWPOKETAIL | ĐUÔI SLOPOKE |
 | PEARL | NGỌC TRAI |
-| BIG PEARL | N.TRAI LỚN |
-| RAGECANDYBAR | KẸO CƠNGIẬN |
+| BIG PEARL | NG.TRAI TO |
+| RAGECANDYBAR | KẸO GIÂN DỮ |
 | BLUE CARD | THẺ XANH |
 | ENERGYPOWDER | BỘT N.LƯỢNG |
 | ENERGY ROOT | RỄ N.LƯỢNG |
@@ -174,14 +174,14 @@ All Pokemon species names remain in English:
 | LOST ITEM | ĐỒ BỊ MẤT |
 | STARDUST | BỤI SAO |
 | STAR PIECE | MẢNH SAO |
-| BASEMENT KEY | CH.KHÓA TẦNG |
+| BASEMENT KEY | KHÓA LẦU HẦM |
 | PASS | THẺ ĐI |
-| BERRY JUICE | NƯỚC BERRY |
+| BERRY JUICE | NƯỚC QUẢ |
 | SACRED ASH | TRO THIÊNG |
 | NORMAL BOX | HỘP THƯỜNG |
 | GORGEOUS BOX | HỘP ĐẸP |
 | SQUIRTBOTTLE | BÌNH XỊT |
-| RAINBOW WING | CÁNH C.VỒNG |
+| RAINBOW WING | LÔNG VŨ 7MÀU |
 | BRICK PIECE | MẢNH GẠCH |
 
 #### 3. Location Names

@@ -1,59 +1,62 @@
 RalphAnswerPhoneText:
-	text "Yes? Ah, <PLAY_G>."
+	text "Vâng? Ah,"
+	line "<PLAY_G>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Cậu đủ lịch sự"
+	line "để nói tên khi"
 
-	para "your name when you"
-	line "call on the phone."
+	para "gọi điện thoại"
+	line "đấy."
 	done
 
 RalphAnswerPhoneDayText:
-	text "Yes? Ah, <PLAY_G>."
+	text "Vâng? Ah,"
+	line "<PLAY_G>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Cậu đủ lịch sự"
+	line "để nói tên khi"
 
-	para "your name when you"
-	line "call on the phone."
+	para "gọi điện thoại"
+	line "đấy."
 	done
 
 RalphAnswerPhoneNiteText:
-	text "Yes? Ah, <PLAY_G>."
+	text "Vâng? Ah,"
+	line "<PLAY_G>."
 
-	para "You're courteous"
-	line "enough to state"
+	para "Cậu đủ lịch sự"
+	line "để nói tên khi"
 
-	para "your name when you"
-	line "call on the phone."
+	para "gọi điện thoại"
+	line "đấy."
 	done
 
 RalphGreetText:
-	text "Hiya, it's Uncle"
+	text "Chào, đây là Chú"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGreetDayText:
-	text "Hiya, it's Uncle"
+	text "Chào, đây là Chú"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGreetNiteText:
-	text "Hiya, it's Uncle"
+	text "Chào, đây là Chú"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RalphGenericText:
-	text "Are you taking"
-	line "good care of your"
+	text "Cậu có chăm sóc"
+	line "#MON tốt không?"
 
-	para "#MON? You have"
-	line "to be good to your"
-	cont "partners!"
+	para "Cậu phải tốt với"
+	line "đồng đội của mình"
+	cont "nhé!"
 	done

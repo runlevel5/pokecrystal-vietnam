@@ -163,7 +163,7 @@ ItemNames::
 	li "BÓNG FAST"
 	li "TERU-SAMA"
 	li "BÓNG LIGHT"
-	li "BÓNG FRIEND"
+	li "BÓNG BẠN BÈ"
 	li "BÓNG MOON"
 	li "BÓNG LOVE"
 	li "HỘP THƯỜNG"

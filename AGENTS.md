@@ -294,7 +294,7 @@ To translate move names, edit the file `data/moves/names.asm`. Move names have a
 | LURE BALL | BÓNG LURE | Lure Ball |
 | FAST BALL | BÓNG FAST | Fast Ball |
 | LIGHT BALL | BÓNG LIGHT | Light Ball |
-| FRIEND BALL | BÓNG FRIEND | Friend Ball |
+| FRIEND BALL | BÓNG BẠN BÈ | Friend Ball |
 | MOON BALL | BÓNG MOON | Moon Ball |
 | LOVE BALL | BÓNG LOVE | Love Ball |
 | PARK BALL | BÓNG PARK | Park Ball |

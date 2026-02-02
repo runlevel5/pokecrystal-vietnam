@@ -488,7 +488,95 @@ All Pokemon species names remain in English:
 | TEAM ROCKET | ĐỘI ROCKET |
 | GYM LEADER | T.LĨNH GYM |
 
-#### 2. Item Names (Translated)
+#### 2. Trainer Class Names
+
+All 68 trainer classes with Vietnamese translations (file: `data/trainers/class_names.asm`):
+
+| # | English | Vietnamese | Notes |
+|---|---------|------------|-------|
+| 01 | FALKNER (Gym Leader) | THỦ LĨNH | Gym Leader Falkner |
+| 02 | WHITNEY (Gym Leader) | THỦ LĨNH | Gym Leader Whitney |
+| 03 | BUGSY (Gym Leader) | THỦ LĨNH | Gym Leader Bugsy |
+| 04 | MORTY (Gym Leader) | THỦ LĨNH | Gym Leader Morty |
+| 05 | PRYCE (Gym Leader) | THỦ LĨNH | Gym Leader Pryce |
+| 06 | JASMINE (Gym Leader) | THỦ LĨNH | Gym Leader Jasmine |
+| 07 | CHUCK (Gym Leader) | THỦ LĨNH | Gym Leader Chuck |
+| 08 | CLAIR (Gym Leader) | THỦ LĨNH | Gym Leader Clair |
+| 09 | RIVAL1 | ĐỐI THỦ | Rival (early game) |
+| 10 | POKEMON PROF | GS.#MON | Professor |
+| 11 | WILL (Elite Four) | TỨ ĐẠI | Elite Four Will |
+| 12 | CAL (Elite Four) | HLV | Elite Four Cal (unused) |
+| 13 | BRUNO (Elite Four) | TỨ ĐẠI | Elite Four Bruno |
+| 14 | KAREN (Elite Four) | TỨ ĐẠI | Elite Four Karen |
+| 15 | KOGA (Elite Four) | TỨ ĐẠI | Elite Four Koga |
+| 16 | CHAMPION | VÔ ĐỊCH | Champion Lance |
+| 17 | BROCK (Gym Leader) | THỦ LĨNH | Gym Leader Brock |
+| 18 | MISTY (Gym Leader) | THỦ LĨNH | Gym Leader Misty |
+| 19 | LT.SURGE (Gym Leader) | THỦ LĨNH | Gym Leader Lt. Surge |
+| 20 | SCIENTIST | NHÀ KHOA HỌC | Scientist |
+| 21 | ERIKA (Gym Leader) | THỦ LĨNH | Gym Leader Erika |
+| 22 | YOUNGSTER | THIẾU NIÊN | Youngster (teenage boy) |
+| 23 | SCHOOLBOY | HỌC SINH | Schoolboy |
+| 24 | BIRD KEEPER | CHIM THỦ | Bird Keeper |
+| 25 | LASS | THIẾU NỮ | Lass (teenage girl) |
+| 26 | JANINE (Gym Leader) | THỦ LĨNH | Gym Leader Janine |
+| 27 | COOLTRAINER♂ | CAO THỦ | Cooltrainer (male) |
+| 28 | COOLTRAINER♀ | CAO THỦ | Cooltrainer (female) |
+| 29 | BEAUTY | MỸ NHÂN | Beauty |
+| 30 | POKEMANIAC | FAN #MON | Pokemaniac |
+| 31 | ROCKET♂ | ROCKET | Team Rocket Grunt (male) |
+| 32 | GENTLEMAN | QUÝ ÔNG | Gentleman |
+| 33 | SKIER | VĐV TRƯỢT | Skier (athlete) |
+| 34 | TEACHER | GIÁO VIÊN | Teacher |
+| 35 | SABRINA (Gym Leader) | THỦ LĨNH | Gym Leader Sabrina |
+| 36 | BUG CATCHER | BẮT SÂU | Bug Catcher |
+| 37 | FISHER | CÂU CÁ | Fisher |
+| 38 | SWIMMER♂ | BƠI LỘI♂ | Swimmer (male) |
+| 39 | SWIMMER♀ | BƠI LỘI♀ | Swimmer (female) |
+| 40 | SAILOR | THỦY THỦ | Sailor |
+| 41 | SUPER NERD | MỌT SÁCH | Super Nerd (bookworm) |
+| 42 | RIVAL2 | ĐỐI THỦ | Rival (late game) |
+| 43 | GUITARIST | TAY ĐÀN | Guitarist |
+| 44 | HIKER | LEO NÚI | Hiker (mountain climber) |
+| 45 | BIKER | TAY ĐUA | Biker (racer) |
+| 46 | BLAINE (Gym Leader) | THỦ LĨNH | Gym Leader Blaine |
+| 47 | BURGLAR | ĐẠO CHÍCH | Burglar (thief) |
+| 48 | FIREBREATHER | PHUN LỬA | Firebreather |
+| 49 | JUGGLER | TẠP KỸ | Juggler (circus performer) |
+| 50 | BLACKBELT | VÕ SĨ | Blackbelt (martial artist) |
+| 51 | ROCKET EXECUTIVE♂ | ROCKET | Team Rocket Executive (male) |
+| 52 | PSYCHIC | THẦN GIAO | Psychic |
+| 53 | PICNICKER | DÃ NGOẠI | Picnicker |
+| 54 | CAMPER | CẮM TRẠI | Camper |
+| 55 | ROCKET EXECUTIVE♀ | ROCKET | Team Rocket Executive (female) |
+| 56 | SAGE | HIỀN GIẢ | Sage (wise person) |
+| 57 | MEDIUM | ĐỒNG CỐT | Medium (spiritual medium) |
+| 58 | BOARDER | TRƯỢT VÁN | Boarder (snowboarder) |
+| 59 | POKEFAN♂ | FAN #MON | Pokefan (male) |
+| 60 | KIMONO GIRL | KIMONO | Kimono Girl |
+| 61 | TWINS | SONG SINH | Twins |
+| 62 | POKEFAN♀ | FAN #MON | Pokefan (female) |
+| 63 | RED | HLV | Red (Trainer) |
+| 64 | BLUE (Gym Leader) | THỦ LĨNH | Gym Leader Blue |
+| 65 | OFFICER | CẢNH SÁT | Officer (police) |
+| 66 | ROCKET♀ | ROCKET | Team Rocket Grunt (female) |
+| 67 | MYSTICALMAN | BÍ ẨN | Mysticalman (mysterious) |
+
+**Translation Notes:**
+- **THỦ LĨNH** (Leader): Used for all 16 Gym Leaders
+- **TỨ ĐẠI** (Elite Four): Used for Elite Four members
+- **ĐỐI THỦ** (Rival): Used for the player's rival (both early and late game)
+- **HLV** (Huấn Luyện Viên - Trainer): Used for generic trainers (Cal, Red)
+- **ROCKET**: Team Rocket members keep English name for brand recognition
+- **FAN #MON**: Pokemaniac and Pokefan classes (# expands to POKé icon)
+- **CAO THỦ** (Master/Expert): Gender-neutral term for Cooltrainer
+- **VĐV TRƯỢT** (Vận Động Viên Trượt - Skiing Athlete): Full form of "Skier"
+
+**Character Limits:**
+- Maximum length: 13 characters (14 bytes including null terminator)
+- Defined by `TRAINER_CLASS_NAME_LENGTH` constant
+
+#### 3. Item Names (Translated)
 | English | Vietnamese |
 |---------|------------|
 | POTION | LỌ THUỐC |

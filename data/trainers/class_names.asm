@@ -22,7 +22,7 @@ TrainerClassNames::
 	li "THỦ LĨNH"      ; LEADER
 	li "NHÀ KHOA HỌC"  ; SCIENTIST
 	li "THỦ LĨNH"      ; LEADER
-	li "CẬU BÉ"        ; YOUNGSTER
+	li "THIẾU NIÊN"    ; YOUNGSTER
 	li "HỌC SINH"      ; SCHOOLBOY
 	li "CHIM THỦ"      ; BIRD KEEPER
 	li "THIẾU NỮ"      ; LASS

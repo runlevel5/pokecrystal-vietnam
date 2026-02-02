@@ -1596,25 +1596,7 @@ ComputeROMChecksum:
 	ld [hl], 'h'
 	pop de
 	pop bc
-	; Inline ComputeROMXChecksum to avoid dependency on home/map.asm debug code
-	ldh a, [hROMBank]
-	push af
-	ld a, c
-	rst Bankswitch
-	ld hl, $4000 ; ROMX start
-.romx_checksum_loop
-	ld a, [hli]
-	add e
-	ld e, a
-	ld a, d
-	adc 0
-	ld d, a
-	ld a, h
-	cp $80 ; HIGH(ROMX end)
-	jr c, .romx_checksum_loop
-	pop af
-	rst Bankswitch
-	; End inline ComputeROMXChecksum
+	call ComputeROMXChecksum
 	inc c
 	ld a, c
 	cp $80 ; number of banks

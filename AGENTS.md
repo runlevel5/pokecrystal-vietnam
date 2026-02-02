@@ -1000,29 +1000,21 @@ Possible enhancements for future consideration:
 
 ## Known Build Issues
 
-### crystal11_debug ROM0 Overflow (FIXED)
+### crystal11_debug ROM0 Overflow
 
-The `make crystal11_debug` target (Vietnamese version 1.1 with debug symbols) previously failed with a ROM0 overflow error. **This issue has been fixed.**
+The `make crystal11_debug` target (Vietnamese version 1.1 with debug symbols) currently fails with a ROM0 overflow error:
 
-**Previous Error:**
 ```
 error: The linker script assigns section "Home" to address $0150, but then it would overflow ROM0 by 17 bytes
 ```
 
-**Fix Applied:**
-Removed debug-only code from the Home section (ROM0) that was only used by the debug room:
-- Removed `ComputeROMXChecksum` function from `home/map.asm` (20 bytes)
-- Removed invalid SRAM tracking code from `home/sram.asm` (15 bytes)
-- Inlined the checksum calculation directly in `engine/debug/debug_room.asm` where it's used
+**Status:** This is a pre-existing issue in the Vietnamese localization (existed before trading compatibility implementation).
 
-**Current Status:** All build targets now work correctly:
-- ✅ `make` or `make crystal` - Vietnamese version 1.0
-- ✅ `make crystal11` - Vietnamese version 1.1 without debug symbols
-- ✅ `make crystal_debug` - Vietnamese version 1.0 with debug symbols
-- ✅ `make crystal11_debug` - Vietnamese version 1.1 with debug symbols
+**Cause:** The Home section (ROM0) is nearly full. Vietnamese text translations are slightly longer than English in some places, and conditional debug code adds an additional 17+ bytes that exceed ROM0's capacity.
 
-**Home Section Stats:**
-- Available space: $3EB0 bytes (ROM0: $0150-$3FFF)
-- Used space: $3E93 bytes
-- Free space: 29 bytes
+**Workaround:** Use other build targets that work correctly:
+- `make` or `make crystal` - Vietnamese version 1.0 (works)
+- `make crystal11` - Vietnamese version 1.1 without debug symbols (works)
+- `make crystal_debug` - Vietnamese version 1.0 with debug symbols (works)
 
+**Solution (if needed):** Move some functions from Home (ROM0) to banked sections (ROMX) to free up space. This requires careful refactoring as Home functions need to be callable from any bank.

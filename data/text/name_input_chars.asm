@@ -16,7 +16,7 @@ NameInputPage2:
 
 NameInputPage3:
 	db "u ú ù ủ ũ ụ 1 2 3"
-	db "y ý ỳ ỷ ỹ ỵ 4 5 6"
+	db "y ý ỳ ỷ ỹ   4 5 6"
 	db "ă ắ ằ ẳ ẵ ặ 7 8 9"
 	db "â ấ ầ ẩ ẫ ậ   0  "
 	db "tiếp   xoá  xong "

@@ -900,6 +900,11 @@ Link_PrepPartyData_Gen2:
 	ld bc, PARTY_LENGTH * MON_NAME_LENGTH
 	call CopyBytes
 
+; Translate Vietnamese text to English for link cable compatibility
+	call TranslateString_PlayerName
+	call TranslateString_OTNames
+	call TranslateString_PartyMonNicknames
+
 ; Okay, we did all that.  Now, are we in the trade center?
 	ld a, [wLinkMode]
 	cp LINK_TRADECENTER
@@ -2680,3 +2685,5 @@ CheckSRAM0Flag: ; unreferenced
 	ld a, c
 	and a
 	ret
+
+INCLUDE "engine/link/link_trade_text.asm"

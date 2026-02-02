@@ -86,7 +86,7 @@ BirdKeeperRoyAfterBattleText:
 	line "biết chiêu HM"
 
 	para "BAY, phải không?"
-	line "Tôi thật ghen tỵ."
+	line "Tôi thật ghen tị."
 	done
 
 PokefanmTrevorSeenText:

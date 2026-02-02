@@ -100,10 +100,12 @@ CreditsStringsPointers:
 	dw .MobileStadiumDir
 	dw .Coordination
 	dw .Copyright
-	dw .UsVersionStaff
-	dw .UsCoordination
+	dw .VnVersionStaff
+	dw .TrungLe
+	dw .HieuLe
+	dw .TrangLe
+	dw .Programmer
 	dw .TextTranslation
-	dw .PaadTesting
 	assert_table_length NUM_CREDITS_STRINGS
 
 .SatoshiTajiri:       db "   SATOSHI TAJIRI@"         ; "たじり　さとし@"
@@ -208,10 +210,12 @@ CreditsStringsPointers:
 .MobileSystemAd:      db " MOBILE SYSTEM AD.@"        ; "モバイル　システムアドバイザー@"
 .MobileStadiumDir:    db "MOBILE STADIUM DIR.@"       ; "モバイルスタジアム　ディレクター@"
 .Coordination:        db "    COORDINATION@"          ; "コーディネーター@"
-.UsVersionStaff:      db "  US VERSION STAFF@"
-.UsCoordination:      db "  US COORDINATION@"
+.VnVersionStaff:      db "  VN VERSION STAFF@"
+.Programmer:          db "     PROGRAMMER@"
 .TextTranslation:     db "  TEXT TRANSLATION@"
-.PaadTesting:         db "    PAAD TESTING@"
+.TrungLe:             db "     TRUNG LE@"
+.HieuLe:              db "      HIEU LE@"
+.TrangLe:             db "     TRANG LE@"
 
 .Copyright:
 	;    (C) 1  9  9  5 - 2  0  0  1     N  i  n  t  e  n  d  o

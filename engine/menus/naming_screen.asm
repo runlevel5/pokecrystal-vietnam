@@ -1172,42 +1172,21 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
 	inc a
-	cp 5
+	cp 2 ; Now only 2 pages (0 and 1)
 	jr c, .no_wrap
 	xor a
 .no_wrap
 	ld [hl], a
-	; a = 0: Page1, 1: Page2, 2: Page3, 3: Page4, 4: Page5
+	; a = 0: Page1, 1: Page2
 	and a
 	jr z, .mail_page1
-	cp 1
-	jr z, .mail_page2
-	cp 2
-	jr z, .mail_page3
-	cp 3
-	jr z, .mail_page4
-	; else page5
-	ld de, MailEntry_Page5
+	; else page2
+	ld de, MailEntry_Page2
 	call .PlaceMailCharset
 	ret
 
 .mail_page1
 	ld de, MailEntry_Page1
-	call .PlaceMailCharset
-	ret
-
-.mail_page2
-	ld de, MailEntry_Page2
-	call .PlaceMailCharset
-	ret
-
-.mail_page3
-	ld de, MailEntry_Page3
-	call .PlaceMailCharset
-	ret
-
-.mail_page4
-	ld de, MailEntry_Page4
 	call .PlaceMailCharset
 	ret
 

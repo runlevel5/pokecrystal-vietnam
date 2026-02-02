@@ -577,6 +577,25 @@ All Pokemon species names remain in English:
 | MUSIC MAIL | THƯ ÂM NHẠC | Music Mail |
 | MIRAGE MAIL | THƯ ẢO ẢNH | Mirage Mail |
 
+**Mail Composition Input:**
+
+The mail composition character input screen (`data/text/mail_input_chars.asm`) uses **English-only characters** to ensure 100% compatibility with English Pokemon Crystal when trading mail items via link cable.
+
+**Rationale:**
+- Mail items can be attached to Pokemon and traded via link cable
+- If mail contains Vietnamese characters, it would display as garbage in English Pokemon Crystal
+- By restricting mail input to English characters only, mail messages remain readable when traded between Vietnamese and English versions
+- This is a trade-off to maximize link cable trading compatibility
+
+**Implementation:**
+- File: `data/text/mail_input_chars.asm`
+- Layout: 2 pages (uppercase A-Z, numbers, and punctuation)
+- Page 1: A-Z uppercase letters
+- Page 2: Numbers (0-9) and punctuation marks
+- Button labels: "tiếp" (next), "xoá" (delete), "xong" (done) - in Vietnamese for UI consistency
+
+**Note:** Pokemon and trainer name input (`data/text/name_input_chars.asm`) still supports full Vietnamese characters since those are handled by the translation layer during link cable trading.
+
 #### 3. Location Names
 Location names are translated with Vietnamese prefixes. Below is the complete list from `data/maps/landmarks.asm`.
 
@@ -978,3 +997,24 @@ Possible enhancements for future consideration:
 - Bidirectional translation for other language pairs
 - Option to preserve original names (trade-off: may display as garbage in incompatible versions)
 - Translation customization via configuration
+
+## Known Build Issues
+
+### crystal11_debug ROM0 Overflow
+
+The `make crystal11_debug` target (Vietnamese version 1.1 with debug symbols) currently fails with a ROM0 overflow error:
+
+```
+error: The linker script assigns section "Home" to address $0150, but then it would overflow ROM0 by 17 bytes
+```
+
+**Status:** This is a pre-existing issue in the Vietnamese localization (existed before trading compatibility implementation).
+
+**Cause:** The Home section (ROM0) is nearly full. Vietnamese text translations are slightly longer than English in some places, and conditional debug code adds an additional 17+ bytes that exceed ROM0's capacity.
+
+**Workaround:** Use other build targets that work correctly:
+- `make` or `make crystal` - Vietnamese version 1.0 (works)
+- `make crystal11` - Vietnamese version 1.1 without debug symbols (works)
+- `make crystal_debug` - Vietnamese version 1.0 with debug symbols (works)
+
+**Solution (if needed):** Move some functions from Home (ROM0) to banked sections (ROMX) to free up space. This requires careful refactoring as Home functions need to be callable from any bank.

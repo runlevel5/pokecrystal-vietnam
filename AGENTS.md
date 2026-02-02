@@ -890,3 +890,91 @@ This layout allows full Vietnamese text support while maximizing compatibility w
    ```bash
    python tools/check_text_length.py data/text/common_1.asm
    ```
+
+## Link Cable Trading Translation Layer
+
+### Overview
+
+To enable trading between Vietnamese and English Pokemon Crystal versions, a translation layer has been implemented that automatically converts Vietnamese accented characters to base English letters when sending data over the link cable.
+
+### Implementation (commit bdc8045)
+
+**Files:**
+- `engine/link/link_trade_text.asm` - Core translation functions
+- `engine/link/link.asm` - Integration hooks in `Link_PrepPartyData_Gen2`
+
+**Translation Functions:**
+
+1. **TranslateVietnameseToEnglish** - Core translation routine
+   - Input: hl = source string, de = destination, bc = length
+   - Converts Vietnamese accented characters to base letters
+   - English characters ($80-$99 = a-z) pass through unchanged
+
+2. **TranslateString_PlayerName** - Translates player name before sending
+3. **TranslateString_OTNames** - Translates Original Trainer names
+4. **TranslateString_PartyMonNicknames** - Translates Pokemon nicknames
+
+**Translation Rules:**
+
+| Vietnamese Characters | Base Letter |
+|----------------------|-------------|
+| á à ả ã ạ ă ắ ằ ẳ ẵ ặ â ấ ầ ẩ ẫ ậ | a ($80) |
+| é è ẻ ẽ ẹ ê ế ề ể ễ ệ | e ($84) |
+| í ì ỉ ĩ ị | i ($88) |
+| ó ò ỏ õ ọ ô ố ồ ổ ỗ ộ ơ ớ ờ ở ỡ ợ | o ($8E) |
+| ú ù ủ ũ ụ ư ứ ừ ử ữ ự | u ($94) |
+| ý ỳ ỷ ỹ | y ($98) |
+| đ | d ($83) |
+
+### Trading Behavior
+
+#### Vietnamese → English Trading
+
+When a Vietnamese player trades to English:
+- **English names**: Pokemon named with a-z characters (e.g., "Pikachu") display correctly in both versions due to trading-compatible font layout ($80-$99 matches English exactly)
+- **Vietnamese names**: Pokemon with accented names (e.g., "Điện") are automatically translated to base letters (e.g., "Dien") in the English version
+- Player names and OT names are similarly translated
+
+#### English → Vietnamese Trading
+
+When an English player trades to Vietnamese:
+- **English names**: Display correctly in Vietnamese version due to trading-compatible font layout
+- **Vietnamese display**: No translation needed - Vietnamese version displays English a-z characters correctly
+
+### Example Scenarios
+
+**Scenario 1: Vietnamese player names Pokemon "Rồng"**
+- In Vietnamese game: Displays as "Rồng" (with accent marks)
+- Traded to English game: Displays as "Rong" (accents stripped)
+
+**Scenario 2: English player names Pokemon "Dragon"**
+- In English game: Displays as "Dragon"
+- Traded to Vietnamese game: Displays as "Dragon" (unchanged)
+
+**Scenario 3: Vietnamese player names Pokemon "Pikachu"**
+- In Vietnamese game: Displays as "Pikachu"
+- Traded to English game: Displays as "Pikachu" (unchanged, uses a-z range)
+
+### Technical Details
+
+**Hook Location:**
+Translation is called in `Link_PrepPartyData_Gen2` (engine/link/link.asm) after copying party data to `wLinkData` but before sending over the link cable.
+
+**Order of Operations:**
+1. Copy player name, party data, OT names, nicknames to wLinkData
+2. Call TranslateString_PlayerName
+3. Call TranslateString_OTNames
+4. Call TranslateString_PartyMonNicknames
+5. Send translated wLinkData over link cable
+
+**Why Translation is One-Way (Vietnamese → English only):**
+- The trading-compatible font layout ensures English a-z characters display correctly in Vietnamese
+- Vietnamese accented characters need translation to display as readable base letters in English
+- No reverse translation needed (English → Vietnamese) since English characters are already compatible
+
+### Future Improvements
+
+Possible enhancements for future consideration:
+- Bidirectional translation for other language pairs
+- Option to preserve original names (trade-off: may display as garbage in incompatible versions)
+- Translation customization via configuration

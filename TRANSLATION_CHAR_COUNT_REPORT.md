@@ -8,16 +8,16 @@
 
 ## Executive Summary
 
-The Vietnamese translation of Pokemon Crystal is **1.01% more efficient** than the English original, saving **3,660 characters** across all translated text files. This demonstrates that Vietnamese can be more concise than English for game dialogue while maintaining clarity and natural language flow.
+The Vietnamese translation of Pokemon Crystal is **0.97% more efficient** than the English original, saving **3,508 characters** across all translated text files. This demonstrates that Vietnamese can be more concise than English for game dialogue while maintaining clarity and natural language flow.
 
 ### Overall Statistics
 
 | Metric | Value |
 |--------|-------|
-| **Total English Characters** | 363,466 |
-| **Total Vietnamese Characters** | 359,806 |
-| **Net Difference** | -3,660 chars (-1.01%) |
-| **Average Savings per File** | 67 characters |
+| **Total English Characters** | 363,470 |
+| **Total Vietnamese Characters** | 359,962 |
+| **Net Difference** | -3,508 chars (-0.97%) |
+| **Average Savings per File** | 64 characters |
 
 ---
 
@@ -26,13 +26,13 @@ The Vietnamese translation of Pokemon Crystal is **1.01% more efficient** than t
 | Category | English | Vietnamese | Difference | Change |
 |----------|---------|------------|------------|--------|
 | **Core Game Text** | 74,195 | 72,338 | -1,857 | **-2.50%** |
-| **Names & Labels** | 18,371 | 19,437 | +1,066 | **+5.80%** |
+| **Names & Labels** | 18,375 | 19,593 | +1,218 | **+6.63%** |
 | **Phone Calls** | 42,405 | 40,347 | -2,058 | **-4.85%** |
 | **Gym Dialogues** | 96,308 | 95,492 | -816 | **-0.85%** |
 | **Story Maps** | 62,972 | 62,131 | -841 | **-1.34%** |
 | **Pokedex** | 18,318 | 18,318 | 0 | **0.00%** |
 | **Input & UI** | 50,897 | 51,743 | +846 | **+1.66%** |
-| **TOTAL** | **363,466** | **359,806** | **-3,660** | **-1.01%** |
+| **TOTAL** | **363,470** | **359,962** | **-3,508** | **-0.97%** |
 
 ### Category Insights
 
@@ -44,7 +44,7 @@ The Vietnamese translation of Pokemon Crystal is **1.01% more efficient** than t
 
 #### 📈 Categories with Character Increases
 
-1. **Names & Labels (+5.80%)**: Primarily due to trainer class names requiring longer Vietnamese descriptors
+1. **Names & Labels (+6.63%)**: Primarily due to trainer class names requiring longer Vietnamese descriptors
 2. **Input & UI (+1.66%)**: Character input screens need Vietnamese character support
 3. **Pokedex (0%)**: Kept in English as per translation guidelines
 
@@ -73,7 +73,7 @@ The Vietnamese translation of Pokemon Crystal is **1.01% more efficient** than t
 
 | Rank | File | English | Vietnamese | Added | % |
 |------|------|---------|------------|-------|---|
-| 1 | `class_names.asm` | 1,147 | 2,258 | **+1,111** | +96.9% |
+| 1 | `class_names.asm` | 1,151 | 2,414 | **+1,263** | +109.7% |
 | 2 | `naming_screen.asm` | 21,901 | 22,544 | **+643** | +2.9% |
 | 3 | `landmarks.asm` | 7,612 | 7,933 | **+321** | +4.2% |
 | 4 | `name_input_chars.asm` | 658 | 957 | **+299** | +45.4% |
@@ -84,7 +84,7 @@ The Vietnamese translation of Pokemon Crystal is **1.01% more efficient** than t
 | 9 | `wilton_caller.asm` | 1,559 | 1,569 | **+10** | +0.6% |
 | 10 | `move_mon.asm` | 27,926 | 27,928 | **+2** | +0.0% |
 
-**Total added by top 10**: 2,505 characters
+**Total added by top 10**: 2,657 characters
 
 ---
 
@@ -106,9 +106,12 @@ The Vietnamese translation of Pokemon Crystal is **1.01% more efficient** than t
 
 ### Where Vietnamese Needs More Space
 
-1. **Trainer Class Names (+96.9%)**: Vietnamese descriptors are more explicit
-   - "YOUNGSTER" → "THIẾU NIÊN NAM" (longer but clearer)
-   - "BUG CATCHER" → "BẮT SÂU BỌ" (more descriptive)
+1. **Trainer Class Names (+109.7%)**: Vietnamese descriptors are more explicit and include comments
+   - "LEADER" → "TH.LĨNH" (abbreviated Thủ Lĩnh)
+   - "COOLTRAINER" → "TUYỂN THỦ" (selected player/elite trainer)
+   - "BUG CATCHER" → "BỌ THỦ" (bug keeper/handler)
+   - "SCIENTIST" → "HỌC GIẢ" (scholar)
+   - File includes inline comments for clarity
 
 2. **Character Input Screens (+45.4%)**: Vietnamese requires extended character set
    - Additional vowels with tone marks (á, à, ả, ã, ạ, etc.)
@@ -129,7 +132,7 @@ The Vietnamese translation of Pokemon Crystal is **1.01% more efficient** than t
 
 ### Efficiency
 
-📊 **1.01% overall reduction** in character count  
+📊 **0.97% overall reduction** in character count  
 🎯 **85% of files** (47/55) achieved size reduction or stayed the same  
 ⚡ **Phone calls** most efficient category (-4.85%)  
 

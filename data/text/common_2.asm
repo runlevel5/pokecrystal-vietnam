@@ -105,8 +105,7 @@ _BoostedExpPointsText::
 	text_start
 	line "thêm @"
 	text_decimal wStringBuffer2, 2, 4
-	cont "điểm kinh"
-	cont "nghiệm!"
+	cont "ĐIỂM K.N!"
 	prompt
 
 _ExpPointsText::
@@ -114,8 +113,7 @@ _ExpPointsText::
 	text_start
 	line "@"
 	text_decimal wStringBuffer2, 2, 4
-	cont "điểm kinh"
-	cont "nghiệm!"
+	cont "ĐIỂM K.N!"
 	prompt
 
 _GoMonText::

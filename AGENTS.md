@@ -603,27 +603,27 @@ Location names are translated with Vietnamese prefixes. Below is the complete li
 | English Pattern | Vietnamese Pattern |
 |-----------------|-------------------|
 | <NAME> CITY | TP. <NAME> or TP.<BSP><NAME> |
-| <NAME> TOWN | THỊ TRẤN <NAME> or TRẤN<BSP><NAME> |
+| <NAME> TOWN | THÔN <NAME> or THÔN<BSP><NAME> |
 | <NAME> TOWER | THÁP <NAME> or THÁP<BSP><NAME> |
 | <NAME> CAVE | ĐỘNG <NAME> or HANG <NAME> |
 | <NAME> FOREST | RỪNG <NAME> or RỪNG<BSP><NAME> |
 | <NAME> ISLAND | ĐẢO <NAME> or ĐẢO<BSP><NAME> |
-| ROUTE <N> | TUYẾN ĐƯỜNG <N> |
+| ROUTE <N> | ĐƯỜNG <N> |
 
 Note: `<BSP>` is a line break macro used for the map name popup display when names are long.
 
 **Complete Location List (Johto Region):**
 | English | Vietnamese |
 |---------|------------|
-| NEW BARK TOWN | THỊ TRẤN<BSP>NEW BARK |
+| NEW BARK TOWN | THÔN<BSP>NEW BARK |
 | CHERRYGROVE CITY | TP.<BSP>CHERRYGROVE |
 | VIOLET CITY | TP.<BSP>VIOLET |
-| AZALEA TOWN | THỊ TRẤN<BSP>AZALEA |
+| AZALEA TOWN | THÔN<BSP>AZALEA |
 | GOLDENROD CITY | TP.<BSP>GOLDENROD |
 | ECRUTEAK CITY | TP.<BSP>ECRUTEAK |
 | OLIVINE CITY | TP.<BSP>OLIVINE |
 | CIANWOOD CITY | TP.<BSP>CIANWOOD |
-| MAHOGANY TOWN | THỊ TRẤN<BSP>MAHOGANY |
+| MAHOGANY TOWN | THÔN<BSP>MAHOGANY |
 | BLACKTHORN CITY | TP.<BSP>BLACKTHORN |
 | LAKE OF RAGE | HỒ GYARADOS |
 | SILVER CAVE | HANG BẠC |
@@ -649,11 +649,11 @@ Note: `<BSP>` is a line break macro used for the map name popup display when nam
 **Complete Location List (Kanto Region):**
 | English | Vietnamese |
 |---------|------------|
-| PALLET TOWN | THỊ TRẤN<BSP>PALLET |
+| PALLET TOWN | THÔN<BSP>PALLET |
 | VIRIDIAN CITY | TP.<BSP>VIRIDIAN |
 | PEWTER CITY | TP.<BSP>PEWTER |
 | CERULEAN CITY | TP.<BSP>CERULEAN |
-| LAVENDER TOWN | THỊ TRẤN<BSP>LAVENDER |
+| LAVENDER TOWN | THÔN<BSP>LAVENDER |
 | VERMILION CITY | TP.<BSP>VERMILION |
 | CELADON CITY | TP.<BSP>CELADON |
 | SAFFRON CITY | TP.<BSP>SAFFRON |
@@ -677,8 +677,8 @@ Note: `<BSP>` is a line break macro used for the map name popup display when nam
 **Routes (All 46 Routes):**
 | English | Vietnamese |
 |---------|------------|
-| ROUTE 1-28 | TUYẾN ĐƯỜNG 1-28 |
-| ROUTE 29-46 | TUYẾN ĐƯỜNG 29-46 |
+| ROUTE 1-28 | ĐƯỜNG 1-28 |
+| ROUTE 29-46 | ĐƯỜNG 29-46 |
 
 **Special:**
 | English | Vietnamese |
@@ -703,9 +703,9 @@ Note: `<BSP>` is a line break macro used for the map name popup display when nam
 | PROF. ELM | GS ELM | Giáo Sư (Professor) |
 | POKEMON CENTER | TT POKEMON | Trung Tâm (Center) |
 | TRAINER | HLV | Huấn Luyện Viên |
-| ROUTE | TUYẾN ĐƯỜNG | Road/Route (abbrev: TUYẾN) |
+| ROUTE | ĐƯỜNG | Road/Route |
 | CITY | TP. | Thành Phố |
-| TOWN | TRẤN | Town/Township |
+| TOWN | THÔN | Village/Town |
 | GYM LEADER | T.LĨNH GYM | Thủ Lĩnh (Leader) |
 | TEAM ROCKET | ĐỘI ROCKET | Team/Squad |
 | NATIONAL PARK | VƯỜN QUỐC GIA | Công Viên (Park) |

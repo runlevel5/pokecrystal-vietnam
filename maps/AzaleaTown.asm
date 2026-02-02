@@ -414,7 +414,7 @@ KurtsHouseSignText:
 AzaleaGymSignText:
 	text "THỊ TRẤN AZALEA"
 	line "GYM #MON"
-	cont "LEADER: BUGSY"
+	cont "T.LĨNH: BUGSY"
 
 	para "Bách khoa toàn"
 	line "thư #MON Sâu"

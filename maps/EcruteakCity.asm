@@ -235,7 +235,7 @@ TinTowerSignText:
 EcruteakGymSignText:
 	text "TP ECRUTEAK"
 	line "GYM #MON"
-	cont "LEADER: MORTY"
+	cont "T.LĨNH: MORTY"
 
 	para "Nhà tiên tri thần"
 	line "bí của tương lai"

@@ -351,7 +351,7 @@ CianwoodGymSignText:
 	text "TP CIANWOOD"
 	line "GYM #MON"
 
-	para "LEADER: CHUCK"
+	para "T.LĨNH: CHUCK"
 
 	para "Nắm đấm gầm thét"
 	line "nói thay lời"

@@ -432,7 +432,7 @@ GoldenrodDeptStoreSignText:
 GoldenrodGymSignText:
 	text "TP. GOLDENROD"
 	line "GYM #MON"
-	cont "LEADER: WHITNEY"
+	cont "T.LĨNH: WHITNEY"
 
 	para "Cô gái xinh đẹp"
 	line "không thể tin!"

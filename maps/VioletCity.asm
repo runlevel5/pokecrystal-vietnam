@@ -258,7 +258,7 @@ VioletCitySignText:
 VioletGymSignText:
 	text "GYM #MON"
 	line "TP VIOLET"
-	cont "LEADER: FALKNER"
+	cont "T.LĨNH: FALKNER"
 
 	para "Bậc thầy thanh"
 	line "lịch hệ bay"

@@ -260,7 +260,7 @@ OlivineCityPortSignText:
 OlivineGymSignText:
 	text "TP OLIVINE"
 	line "GYM #MON"
-	cont "LEADER: JASMINE"
+	cont "T.LĨNH: JASMINE"
 
 	para "Cô gái phòng thủ"
 	line "bọc thép"

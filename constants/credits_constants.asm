@@ -103,10 +103,6 @@
 	const US_COORDINATION
 	const TEXT_TRANSLATION
 	const PAAD_TESTING
-	const VN_VERSION_STAFF
-	const TRUNG_LE
-	const HIEU_LE
-	const POKECRYSTAL_DISASM
 DEF NUM_CREDITS_STRINGS EQU const_value
 
 ; CreditsScript indexes (see data/credits_script.asm)

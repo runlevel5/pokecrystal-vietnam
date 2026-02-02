@@ -85,7 +85,7 @@ RestartClock:
 	call .PrintTime
 	ld hl, .ClockIsThisOKText
 	call PrintText
-	call RightWrongBox
+	call YesNoBox
 	jr c, .cancel
 	ld a, [wRestartClockDay]
 	ld [wStringBuffer2], a

@@ -190,33 +190,82 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 3 ; Igglybuff
 
-	db     VN_VERSION_STAFF, 2
+	db     US_VERSION_STAFF, 2
 
 	db CREDITS_WAIT, 9
 
-	db          PROGRAMMERS, 1
-	db             TRUNG_LE, 2
+	db      US_COORDINATION, 1
+	db          GAIL_TILDEN, 2
+	db        HIRO_NAKAMURA, 3
+
+	db CREDITS_WAIT, 12
+
+	db      US_COORDINATION, 1
+	db       JUNICHI_MASUDA, 2
+	db        SETH_MCMAHILL, 3
+
+	db CREDITS_WAIT, 12
+
+	db      US_COORDINATION, 1
+	db     HIROTO_ALEXANDER, 2
+	db     TERESA_LILLYGREN, 3
 
 	db CREDITS_WAIT, 12
 
 	db     TEXT_TRANSLATION, 1
-	db             TRUNG_LE, 2
+	db        NOB_OGASAWARA, 2
 
 	db CREDITS_WAIT, 12
 
-	db      GRAPHICS_DESIGN, 1
-	db              HIEU_LE, 2
+	db          PROGRAMMERS, 1
+	db      TERUKI_MURAKAWA, 2
+	db      KAZUYOSHI_OSAWA, 3
+
+	db CREDITS_WAIT, 12
+
+	db         PAAD_TESTING, 1
+	db       THOMAS_HERTZOG, 2
+	db         ERIK_JOHNSON, 3
 
 	db CREDITS_WAIT, 12
 
 	db      PRODUCT_TESTING, 0
-	db             TRUNG_LE, 1
-	db              HIEU_LE, 2
+	db             PLANNING, 1
+
+	db CREDITS_WAIT, 12
+
+	db      PRODUCT_TESTING, 0
+	db       KEITA_NAKAMURA, 1
+	db      HIROTAKA_UEMURA, 2
+	db       HIROAKI_TAMURA, 3
+	db    NORIAKI_SAKAGUCHI, 4
+
+	db CREDITS_WAIT, 12
+
+	db      PRODUCT_TESTING, 0
+	db NCL_SUPER_MARIO_CLUB, 1
+	db          KENJI_SAIKI, 2
+	db         ATSUSHI_TADA, 3
+	db          MIYUKI_SATO, 4
 
 	db CREDITS_WAIT, 12
 
 	db       SPECIAL_THANKS, 0
-	db   POKECRYSTAL_DISASM, 1
+	db     KIMIKO_NAKAMICHI, 1
+	db           AKITO_MORI, 2
+
+	db CREDITS_WAIT, 12
+
+	db       SPECIAL_THANKS, 0
+	db        GAKUZI_NOMOTO, 1
+	db           AI_MASHIMA, 2
+	db      KUNIMI_KAWAMURA, 3
+
+	db CREDITS_WAIT, 12
+
+	db       SPECIAL_THANKS, 0
+	db    MIKIHIRO_ISHIKAWA, 1
+	db   HIDEYUKI_HASHIMOTO, 2
 
 	db CREDITS_WAIT, 12
 

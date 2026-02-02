@@ -76,7 +76,7 @@ InitClock:
 	call .ClearScreen
 	ld hl, OakTimeWhatHoursText
 	call PrintText
-	call RightWrongBox
+	call YesNoBox
 	jr nc, .HourIsSet
 	call .ClearScreen
 	jr .loop
@@ -106,7 +106,7 @@ InitClock:
 	call .ClearScreen
 	ld hl, OakTimeWhoaMinutesText
 	call PrintText
-	call RightWrongBox
+	call YesNoBox
 	jr nc, .MinutesAreSet
 	call .ClearScreen
 	jr .HourIsSet
@@ -298,7 +298,7 @@ OakTimeWhatTimeIsItText:
 	text_end
 
 String_oclock:
-	db "giờ@"
+	db "o'clock@"
 
 OakTimeWhatHoursText:
 	; What?@ @
@@ -318,7 +318,7 @@ OakTimeHowManyMinutesText:
 	text_end
 
 String_min:
-	db "phút@"
+	db "min.@"
 
 OakTimeWhoaMinutesText:
 	; Whoa!@ @
@@ -425,7 +425,7 @@ SetDayOfWeek:
 	call UpdateSprites
 	ld hl, .ConfirmWeekdayText
 	call PrintText
-	call RightWrongBox
+	call YesNoBox
 	jr c, .loop
 	ld a, [wTempDayOfWeek]
 	ld [wStringBuffer2], a
@@ -516,13 +516,13 @@ SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db "CHỦ NHẬT@"
-.Monday:    db "THỨ HAI@"
-.Tuesday:   db "THỨ BA@"
-.Wednesday: db "THỨ TƯ@"
-.Thursday:  db "THỨ NĂM@"
-.Friday:    db "THỨ SÁU@"
-.Saturday:  db "THỨ BẢY@"
+.Sunday:    db " SUNDAY@"
+.Monday:    db " MONDAY@"
+.Tuesday:   db " TUESDAY@"
+.Wednesday: db "WEDNESDAY@"
+.Thursday:  db "THURSDAY@"
+.Friday:    db " FRIDAY@"
+.Saturday:  db "SATURDAY@"
 
 .OakTimeWhatDayIsItText:
 	text_far _OakTimeWhatDayIsItText
@@ -706,9 +706,9 @@ GetTimeOfDayString:
 	ld de, .day_string
 	ret
 
-.nite_string: db "đêm@"
-.morn_string: db "Sáng@"
-.day_string:  db "Ngày@"
+.nite_string: db "NITE@"
+.morn_string: db "MORN@"
+.day_string:  db "DAY@"
 
 AdjustHourForAMorPM:
 ; Convert the hour stored in c (0-23) to a 1-12 value

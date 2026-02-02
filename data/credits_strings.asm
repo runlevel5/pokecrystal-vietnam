@@ -104,10 +104,6 @@ CreditsStringsPointers:
 	dw .UsCoordination
 	dw .TextTranslation
 	dw .PaadTesting
-	dw .VnVersionStaff
-	dw .TrungLe
-	dw .HieuLe
-	dw .PokecrystalDisasm
 	assert_table_length NUM_CREDITS_STRINGS
 
 .SatoshiTajiri:       db "   SATOSHI TAJIRI@"         ; "たじり　さとし@"
@@ -216,11 +212,6 @@ CreditsStringsPointers:
 .UsCoordination:      db "  US COORDINATION@"
 .TextTranslation:     db "  TEXT TRANSLATION@"
 .PaadTesting:         db "    PAAD TESTING@"
-.VnVersionStaff:      db "  VN VERSION STAFF@"
-.TrungLe:             db "      TRUNG LE@"
-.HieuLe:              db "       HIEU LE@"
-.PokecrystalDisasm:   db "    POKECRYSTAL"
-                    next " DISASSEMBLY PROJECT@"
 
 .Copyright:
 	;    (C) 1  9  9  5 - 2  0  0  1     N  i  n  t  e  n  d  o

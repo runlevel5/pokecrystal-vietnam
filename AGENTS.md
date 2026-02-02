@@ -827,30 +827,56 @@ There are **two font files** that must contain Vietnamese characters:
 
 Both fonts must have the same character layout matching the charmap in `constants/charmap.asm`.
 
-### Vietnamese Character Set Limitation
+### Vietnamese Character Set Limitations and Decisions
 
-**Important Note**: Due to the Game Boy's hardware limitations and the font table size constraints, a compromise was made to support Vietnamese characters:
+**Important Note**: Due to the Game Boy's hardware limitations and the font table size constraints, several compromises were made to support Vietnamese characters:
 
+#### 1. Single-Case System (commit f1f7ea4)
 - **Removed**: Separate uppercase and lowercase English alphabet characters
 - **Reason**: To fit all Vietnamese accented characters (á, à, ả, ã, ạ, ă, â, ê, ư, ô, ơ, đ, etc.) into the limited font table
 - **Result**: All text now uses a single case system (lowercase-style characters for both cases)
 - **Implementation**: See commit `f1f7ea47353b5bf7ffdfee1f4b7e8341b853ad06` for full details
 
-**Character Table Layout** (from commit f1f7ea4):
+#### 2. Removal of ỵ Character (commit 9428cb5)
+- **Removed**: ỵ (y with hook above AND dot below)
+- **Reason**: This character is **extremely rare** in Vietnamese. It only appears in:
+  - The word "ghen tỵ" (jealous) - which can be written as "ghen tị" instead
+  - A few archaic or formal literary texts
+- **Modern Vietnamese**: The character ỵ is not part of standard Vietnamese typography and is often replaced with "ị" or "ỵ" is simplified to other forms
+- **Trade-off**: Removing this one rarely-used character freed space to reorganize the font for trading compatibility
+- **Fix**: Any existing text using "ỵ" should be changed to "ị" (as done in maps/Route14.asm: "ghen tỵ" → "ghen tị")
+
+**Note**: The 6 standard Vietnamese tones are: no tone, acute (´), grave (`), hook above (̉), tilde (˜), and dot below (̣). The character ỵ combines two tone marks (hook above + dot below) which violates standard Vietnamese orthography - a syllable can only have one tone mark.
+
+#### 3. Trading-Compatible Layout (commit 9428cb5)
+
+**Character Table Layout** (CURRENT - Trading Compatible):
 ```
 | Row | $x0 | $x1  | $x2  | $x3 | $x4 | $x5 | $x6 | $x7 | $x8 | $x9 | $xA | $xB | $xC | $xD | $xE | $xF |
 |-----|-----|------|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | $8x | a   | b    | c    | d   | e   | f   | g   | h   | i   | j   | k   | l   | m   | n   | o   | p   |
-| $9x | q   | r    | s    | t   | u   | v   | w   | x   | y   | z   | ă   | â   | ê   | ư   | ô   | ơ   |
-| $Ax | á   | à    | ả    | ã   | ạ   | é   | è   | ẻ   | ẽ   | ẹ   | í   | ì   | ỉ   | ĩ   | ị   | đ   |
-| $Bx | ó   | ò    | ỏ    | õ   | ọ   | ú   | ù   | ủ   | ũ   | ụ   | ý   | ỳ   | ỷ   | ỹ   | ỵ   | [   |
-| $Cx | ắ   | ằ    | ẳ    | ẵ   | ặ   | ấ   | ầ   | ẩ   | ẫ   | ậ   | ế   | ề   | ể   | ễ   | ệ   | ]   |
-| $Dx | ố   | ồ    | ổ    | ỗ   | ộ   | ớ   | ờ   | ở   | ỡ   | ợ   | ứ   | ừ   | ử   | ữ   | ự   | ←   |
-| $Ex | '   | <PK> | <MN> | -   | (   | )   | ?   | !   | .   | &   | :   | →   | ▷   | ▶   | ▼   | ♂   |
+| $9x | q   | r    | s    | t   | u   | v   | w   | x   | y   | z   | (   | )   | :   | ;   | [   | ]   |
+| $Ax | á   | à    | ả    | ã   | ạ   | ă   | ắ   | ằ   | ẳ   | ẵ   | ặ   | â   | ấ   | ầ   | ẩ   | ẫ   |
+| $Bx | ậ   | è    | ẻ    | ẽ   | ẹ   | ê   | ế   | ề   | ể   | ễ   | ệ   | í   | ì   | ỉ   | ĩ   | ị   |
+| $Cx | ú   | ù    | ủ    | ũ   | ụ   | ư   | ứ   | ừ   | ử   | ữ   | ự   | ó   | ò   | ỏ   | õ   | ọ   |
+| $Dx | ô   | ố    | ồ    | ổ   | ỗ   | ộ   | ơ   | ớ   | ờ   | ở   | ỡ   | ợ   | ý   | ỳ   | ỷ   | ỹ   |
+| $Ex | '   | <PK> | <MN> | -   | ←   | đ   | ?   | !   | .   | &   | é   | →   | ▷   | ▶   | ▼   | ♂   |
 | $Fx | ¥   | x    | .    | /   | ,   | ♀   | 0   | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |
 ```
 
-This trade-off allows full Vietnamese text support while maintaining compatibility with the original Game Boy hardware. English text (Pokemon names, technical terms) remains readable in the single-case format.
+**Key Features**:
+- **Range $80-$9F**: IDENTICAL to English Crystal (a-z + basic punctuation)
+  - This enables Pokemon nicknames with English characters to display correctly when trading between Vietnamese and English versions
+- **Range $A0-$DF**: Vietnamese accented characters organized by vowel families
+  - a-family (á à ả ã ạ ă ắ ằ ẳ ẵ ặ â ấ ầ ẩ ẫ ậ)
+  - e-family (è ẻ ẽ ẹ ê ế ề ể ễ ệ)
+  - i-family (í ì ỉ ĩ ị)
+  - u-family (ú ù ủ ũ ụ ư ứ ừ ử ữ ự)
+  - o-family (ó ò ỏ õ ọ ô ố ồ ổ ỗ ộ ơ ớ ờ ở ỡ ợ)
+  - y-family (ý ỳ ỷ ỹ)
+- **Special characters**: đ at $E5, é at $EA, punctuation at $E0-$EF
+
+This layout allows full Vietnamese text support while maximizing compatibility with English Pokemon Crystal for link cable trading/battling. English text (Pokemon names, technical terms) remains readable in the single-case format.
 
 ## Translation Conventions
 

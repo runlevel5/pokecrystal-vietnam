@@ -57,7 +57,7 @@ AzaleaPokecenter1FFishingGuruText:
 
 AzaleaPokecenter1FPokefanFText:
 	text "Bạn biết về"
-	line "APRICORN không?"
+	line "MƠ không?"
 
 	para "Bổ ra, khoét rỗng"
 	line "và lắp thiết bị"
@@ -70,7 +70,7 @@ AzaleaPokecenter1FPokefanFText:
 	line "minh BÓNG #,"
 
 	para "mọi người đều"
-	line "dùng APRICORN."
+	line "dùng MƠ."
 	done
 
 AzaleaPokecenter1F_MapEvents:

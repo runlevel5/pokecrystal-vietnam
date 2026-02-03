@@ -360,7 +360,7 @@ BirdKeeperBryanAfterBattleText:
 	cont "của KURT."
 
 	para "Khi tôi tìm thấy"
-	line "WHT APRICORN, tôi"
+	line "MƠ TRẮNG, tôi"
 	cont "đưa cho KURT."
 
 	para "Ông ấy biến nó"

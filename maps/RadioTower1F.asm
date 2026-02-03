@@ -334,7 +334,7 @@ RadioTower1FRadioCardWomanQuestion2Text:
 	line "không?"
 
 	para "Bạn không thể mua"
-	line "BERRY ở MART."
+	line "QUẢ ở MART."
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:

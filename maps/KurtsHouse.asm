@@ -510,23 +510,23 @@ KurtsHouseKurtHonoredToMakeBallsText:
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: Ta làm BALL"
-	line "từ APRICORN."
+	text "KURT: Ta làm BÓNG"
+	line "từ MƠ."
 
 	para "Hái chúng từ cây"
 	line "và mang đến cho"
 	cont "ta."
 
-	para "Ta sẽ làm BALL"
+	para "Ta sẽ làm BÓNG"
 	line "từ chúng."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
 	text "KURT: Con có"
-	line "APRICORN cho ta?"
+	line "MƠ cho ta?"
 
 	para "Tốt! Ta sẽ biến"
-	line "nó thành BALL."
+	line "nó thành BÓNG."
 	done
 
 KurtsHouseKurtItWillTakeADayText:

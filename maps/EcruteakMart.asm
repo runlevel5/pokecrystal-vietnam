@@ -36,7 +36,7 @@ EcruteakMartSuperNerdText:
 
 EcruteakMartGrannyText:
 	text "Nếu bạn dùng"
-	line "REVIVE, #MON"
+	line "HỒI SINH, #MON"
 
 	para "ngất xỉu sẽ tỉnh"
 	line "lại ngay."

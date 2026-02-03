@@ -254,8 +254,8 @@ CianwoodCityPokefanMText:
 	line "giấu thứ gì đó."
 
 	para "#MON của bạn"
-	line "có thể dùng ROCK"
-	cont "SMASH để đập vỡ."
+	line "có thể dùng ĐẬP"
+	cont "VỠ ĐÁ để đập vỡ."
 	done
 
 CianwoodCityLassText:

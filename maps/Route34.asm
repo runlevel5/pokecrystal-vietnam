@@ -741,12 +741,12 @@ Route34SignText:
 Route34TrainerTipsText:
 	text "MẸO CHO HLV"
 
-	para "Cây BERRY mọc"
-	line "BERRY mới mỗi"
+	para "Cây QUẢ mọc"
+	line "QUẢ mới mỗi"
 	cont "ngày."
 
 	para "Ghi chú cây nào"
-	line "ra BERRY gì để"
+	line "ra QUẢ gì để"
 	cont "nhớ nhé."
 	done
 

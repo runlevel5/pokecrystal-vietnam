@@ -22,7 +22,7 @@ BlackthornMartBlackBeltScript:
 
 BlackthornMartCooltrainerMText:
 	text "Cậu không thể mua"
-	line "MAX REVIVE, nhưng"
+	line "H.SINH MAX, nhưng"
 
 	para "nó hồi sinh hoàn"
 	line "toàn #MON ngất."

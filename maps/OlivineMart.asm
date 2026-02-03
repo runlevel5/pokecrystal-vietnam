@@ -33,7 +33,7 @@ OlivineMartLassText:
 	line "từ bạn trai tôi"
 	cont "ở nước ngoài."
 
-	para "Nó mang MAIL từ"
+	para "Nó mang THƯ từ"
 	line "anh ấy."
 
 	para "Bạn muốn biết nó"

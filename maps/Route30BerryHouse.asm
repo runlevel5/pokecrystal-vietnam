@@ -28,11 +28,11 @@ Route30BerryHouseBookshelf:
 
 Route30BerrySpeechHouseMonEatBerriesText:
 	text "Bạn biết không,"
-	line "#MON ăn BERRY."
+	line "#MON ăn QUẢ."
 
 	para "À, #MON của tôi"
 	line "khỏe hơn nhờ ăn"
-	cont "BERRY đấy."
+	cont "QUẢ đấy."
 
 	para "Đây. Tôi chia cho"
 	line "bạn một quả!"
@@ -40,7 +40,7 @@ Route30BerrySpeechHouseMonEatBerriesText:
 
 Route30BerrySpeechHouseCheckTreesText:
 	text "Kiểm tra cây để"
-	line "tìm BERRY. Chúng"
+	line "tìm QUẢ. Chúng"
 	cont "rơi xuống ngay."
 	done
 

@@ -492,8 +492,8 @@ Text_ReceivedTM08: ; unreferenced
 	done
 
 RockSmashGuyText3:
-	text "Đó chính là ROCK"
-	line "SMASH."
+	text "Đó chính là ĐẬP"
+	line "VỠ ĐÁ."
 
 	para "Bạn có thể đập vỡ"
 	line "đá chỉ bằng một"

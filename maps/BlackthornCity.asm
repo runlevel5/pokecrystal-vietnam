@@ -300,7 +300,7 @@ BlackthornCityTrainerTipsText:
 	text "MẸO CHO HLV"
 
 	para "#MON cầm"
-	line "MIRACLEBERRY"
+	line "THÁNH QUẢ"
 
 	para "sẽ tự chữa mọi"
 	line "vấn đề trạng"

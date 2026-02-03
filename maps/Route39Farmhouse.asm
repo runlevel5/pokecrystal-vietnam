@@ -108,7 +108,7 @@ FarmerMText_SickCow:
 	line "nhiều sữa nếu"
 
 	para "ông cho nó ăn"
-	line "nhiều BERRY."
+	line "nhiều QUẢ."
 	done
 
 FarmerMText_BuyMilk:

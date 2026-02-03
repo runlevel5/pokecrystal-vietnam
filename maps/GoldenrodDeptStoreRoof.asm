@@ -137,7 +137,7 @@ GoldenrodDeptStoreRoofPokefanMText:
 	line "tiền…"
 
 	para "Có lẽ tôi sẽ bán"
-	line "BERRY đã sưu tập"
+	line "QUẢ đã sưu tập"
 	cont "được…"
 	done
 

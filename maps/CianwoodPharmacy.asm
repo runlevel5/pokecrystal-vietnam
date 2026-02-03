@@ -58,11 +58,11 @@ PharmacistGiveSecretpotionText:
 
 ReceivedSecretpotionText:
 	text "<PLAYER> nhận được"
-	line "SECRETPOTION."
+	line "THUỐC BÍ MẬT."
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "SECRETPOTION của"
+	text "THUỐC BÍ MẬT của"
 	line "tôi hơi mạnh quá."
 
 	para "Tôi chỉ đưa nó"

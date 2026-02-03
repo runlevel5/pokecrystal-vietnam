@@ -263,7 +263,7 @@ Route30_MikeysRattataAttacksMovement:
 Text_UseTackle:
 	text "Lên, RATTATA!"
 
-	para "TACKLE!"
+	para "ĐÁNH CHẶN!"
 	done
 
 Text_ThisIsABigBattle:

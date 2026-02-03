@@ -191,7 +191,7 @@ CeruleanCityCooltrainerFText1:
 
 CeruleanCityCooltrainerFText2:
 	text "SLOWBRO, cho xem"
-	line "CONFUSION của cậu!"
+	line "LẪN LỘN của cậu!"
 	done
 
 CeruleanCityCooltrainerFText3:

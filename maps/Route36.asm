@@ -635,7 +635,7 @@ Route36TrainerTips1Text:
 Route36TrainerTips2Text:
 	text "MẸO HLV"
 
-	para "Dùng DIG để trở về"
+	para "Dùng ĐÀO để trở về"
 	line "lối vào của bất cứ"
 	cont "nơi nào."
 

@@ -280,7 +280,7 @@ TeleportGuyText1:
 	line "thể giúp bạn."
 
 	para "Nó có thể dùng"
-	line "TELEPORT đưa bạn"
+	line "DI CHUYỂN đưa bạn"
 	cont "về nhà."
 
 	para "Bạn có muốn về"

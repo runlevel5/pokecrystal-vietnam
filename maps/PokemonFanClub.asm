@@ -209,7 +209,7 @@ PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
 	para "ngón tay khi nó"
 	line "cố dùng"
 
-	para "METRONOME."
+	para "ĐIỆU NGŨ."
 	line "Thật đáng yêu!"
 	done
 

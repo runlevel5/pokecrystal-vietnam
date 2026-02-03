@@ -267,7 +267,7 @@ JanineText_ToxicSpeech:
 	line "mạnh quá! Ta có"
 	cont "quà đặc biệt!"
 
-	para "Đó là TOXIC, một"
+	para "Đó là CỰC ĐỘC, một"
 	line "độc mạnh liên tục"
 
 	para "hút HP của nạn"

@@ -429,7 +429,7 @@ GoldenrodGameCornerCooltrainerFText:
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "Tôi dạy BLIZZARD"
+	text "Tôi dạy BÃO BĂNG"
 	line "cho #MON."
 
 	para "Khó lắm mới đủ xu"

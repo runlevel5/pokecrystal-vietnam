@@ -215,8 +215,7 @@ ChuckExplainBadgeText:
 	done
 
 ChuckExplainTMText:
-	text "Đó là DYNAMIC-"
-	line "PUNCH."
+	text "Đó là ĐẤM NĂNG."
 
 	para "Nó không phải lúc"
 	line "nào cũng trúng,"

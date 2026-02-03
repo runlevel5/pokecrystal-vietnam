@@ -112,7 +112,7 @@ SupernerdMarkusAfterBattleText:
 	line "nào dùng SEADRA"
 
 	para "biết chiêu"
-	line "WATERFALL không?"
+	line "THÁC NƯỚC không?"
 	done
 
 MountMortar1FInside_MapEvents:

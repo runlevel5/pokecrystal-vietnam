@@ -40,7 +40,7 @@ MrPsychicText1:
 	done
 
 MrPsychicText2:
-	text "TM29 là PSYCHIC."
+	text "TM29 là NIỆM LỰC."
 
 	para "Có thể làm giảm"
 	line "THỦ Đ.B của đối"

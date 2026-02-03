@@ -213,9 +213,9 @@ CreditsStringsPointers:
 .VnVersionStaff:      db "  VN VERSION STAFF@"
 .Programmer:          db "     PROGRAMMER@"
 .TextTranslation:     db "  TEXT TRANSLATION@"
-.TrungLe:             db "     TRUNG LE@"
-.HieuLe:              db "      HIEU LE@"
-.TrangLe:             db "     TRANG LE@"
+.TrungLe:             db "     TRUNG LÊ@"
+.HieuLe:              db "      HIEU LÊ@"
+.TrangLe:             db "     TRANG LÊ@"
 
 .Copyright:
 	;    (C) 1  9  9  5 - 2  0  0  1     N  i  n  t  e  n  d  o

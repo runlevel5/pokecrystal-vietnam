@@ -221,8 +221,8 @@ PlateauRivalText1:
 	para "Mày định thử"
 	line "thách #MON"
 
-	para "LEAGUE bây giờ"
-	line "hả?"
+	para "LIÊN ĐOÀN #MON"
+	line "bây giờ hả?"
 
 	para "Chuyện đó sẽ"
 	line "không xảy ra."

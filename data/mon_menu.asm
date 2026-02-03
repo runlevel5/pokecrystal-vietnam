@@ -17,7 +17,7 @@ MonMenuOptionStrings:
 	li "VẬT PHẨM"
 	li "HỦY"
 	li "CHIÊU THỨC"
-	li "MAIL"
+	li "THƯ"
 	li "LỖI!"
 	assert_list_length NUM_MONMENUVALUES
 

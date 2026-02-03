@@ -336,7 +336,7 @@ PicnickerKimBeatenText:
 	done
 
 PicnickerKimAfterBattleText:
-	text "GYM BADGES thật"
+	text "HUY HIỆU GYM thật"
 	line "đẹp. Tôi sưu tập"
 	cont "chúng."
 	done

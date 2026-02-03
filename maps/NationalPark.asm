@@ -384,7 +384,7 @@ NationalParkGameboyKidText:
 	para "Bạn cũng có thể"
 	line "in những thứ như"
 
-	para "MAIL và PC BOXES"
+	para "THƯ và PC BOXES"
 	line "của bạn."
 	done
 

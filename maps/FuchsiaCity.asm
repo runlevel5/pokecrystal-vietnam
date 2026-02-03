@@ -63,12 +63,12 @@ FuchsiaCityPokefanMText:
 	line "kế nhiệm ông làm"
 
 	para "TRƯỞNG GYM sau khi"
-	line "ông gia nhập TỨ"
-	cont "ĐẠI THIÊN VƯƠNG."
+	line "ông gia nhập"
+	cont "TỨ ĐẠI."
 	done
 
 FuchsiaCityTeacherText:
-	text "SAFARI ZONE đóng"
+	text "KHU SAFARI đóng"
 	line "cửa rồi… Buồn"
 
 	para "quá, vì nó là điểm"
@@ -96,22 +96,23 @@ SafariZoneOfficeSignText:
 	text "Có thông báo"
 	line "ở đây…"
 
-	para "VĂN PHÒNG SAFARI"
-	line "ZONE đóng cửa cho"
-	cont "đến khi có TB mới."
+	para "VĂN PHÒNG KHU"
+	line "SAFARI đóng cửa"
+	cont "cho đến khi có TB"
+	cont "mới."
 	done
 
 WardensHomeSignText:
 	text "NHÀ QUẢN LÝ"
-	line "SAFARI ZONE"
+	line "KHU SAFARI"
 	done
 
 SafariZoneClosedSignText:
 	text "QUẢN LÝ đang đi"
 	line "du lịch nước ngoài"
 
-	para "Vì vậy, SAFARI"
-	line "ZONE đóng cửa."
+	para "Vì vậy, KHU"
+	line "SAFARI đóng cửa."
 	done
 
 NoLitteringSignText:

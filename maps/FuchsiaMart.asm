@@ -24,13 +24,13 @@ FuchsiaMartFisherText:
 	text "Tôi hy vọng mua"
 	line "được quà lưu niệm"
 
-	para "SAFARI ZONE, nhưng"
+	para "KHU SAFARI, nhưng"
 	line "nó đóng cửa rồi…"
 	done
 
 FuchsiaMartCooltrainerFText:
 	text "Cháu gái của QUẢN"
-	line "LÝ SAFARI ZONE"
+	line "LÝ KHU SAFARI"
 	cont "sống trong thành."
 	done
 

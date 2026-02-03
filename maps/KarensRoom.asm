@@ -80,7 +80,7 @@ KarensRoom_EnterMovement:
 
 KarenScript_KarenBeforeText:
 	text "Ta là KAREN của"
-	line "ELITE FOUR."
+	line "TỨ ĐẠI."
 
 	para "Ngươi là <PLAYER>?"
 	line "Thú vị đấy."

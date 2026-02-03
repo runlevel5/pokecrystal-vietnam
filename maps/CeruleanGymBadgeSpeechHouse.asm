@@ -11,7 +11,8 @@ CeruleanGymBadgeSpeechHousePokefanMScript:
 
 CeruleanGymBadgeSpeechHousePokefanMText:
 	text "Bạn đang sưu tầm"
-	line "BADGE GYM KANTO à?"
+	line "HUY HIỆU GYM KANTO"
+	cont "à?"
 	done
 
 CeruleanGymBadgeSpeechHouse_MapEvents:

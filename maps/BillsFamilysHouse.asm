@@ -190,7 +190,7 @@ BillsMomText_BeforeEcruteak:
 	cont "TP. ECRUTEAK."
 
 	para "Bố nó thì đi đến"
-	line "GAME CORNER mà"
+	line "GÓC GIẢI TRÍ mà"
 
 	para "không ai gọi cả…"
 	done

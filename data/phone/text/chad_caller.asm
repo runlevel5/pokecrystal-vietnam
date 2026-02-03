@@ -139,8 +139,8 @@ ChadLeagueGossipText:
 	para "GS OAK làm cố vấn"
 	line "cho trụ sở chính"
 
-	para "của #MON"
-	line "LEAGUE."
+	para "của LIÊN ĐOÀN"
+	line "#MON."
 
 	para "Ông ấy thực sự là"
 	line "người vĩ đại."

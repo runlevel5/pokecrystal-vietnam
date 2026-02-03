@@ -80,7 +80,7 @@ BrunosRoom_EnterMovement:
 
 BrunoScript_BrunoBeforeText:
 	text "Ta là BRUNO của"
-	line "ELITE FOUR."
+	line "TỨ ĐẠI."
 
 	para "Ta luôn tập luyện"
 	line "đến cực hạn vì ta"

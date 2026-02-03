@@ -109,7 +109,7 @@ BrockWinLossText:
 	line "ta tưởng…"
 
 	para "Đây, nhận lấy"
-	line "BADGE này."
+	line "HUY HIỆU này."
 	done
 
 ReceivedBoulderBadgeText:

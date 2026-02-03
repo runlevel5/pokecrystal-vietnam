@@ -454,7 +454,7 @@ GoldenrodCityBikeShopSignText:
 GoldenrodCityGameCornerSignText:
 	text "Sân chơi của bạn!"
 
-	para "GAME CORNER"
+	para "GÓC GIẢI TRÍ"
 	line "TP. GOLDENROD"
 	done
 

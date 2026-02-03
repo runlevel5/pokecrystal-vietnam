@@ -130,7 +130,7 @@ SabrinaIntroText:
 	para "nghĩa vụ của một"
 	line "T.LĨNH để trao"
 
-	para "BADGE cho ai"
+	para "HUY HIỆU cho ai"
 	line "chứng minh được"
 	cont "bản thân."
 

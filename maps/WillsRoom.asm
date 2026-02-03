@@ -96,7 +96,7 @@ WillScript_WillBeforeText:
 
 	para "Và cuối cùng, ta"
 	line "đã được nhận vào"
-	cont "ELITE FOUR."
+	cont "TỨ ĐẠI."
 
 	para "Ta chỉ có thể"
 	line "ngày càng giỏi!"

@@ -760,7 +760,7 @@ IlexForestApprenticeAfterText:
 	para "#MON của sếp"
 	line "không nghe lời tôi"
 	cont "vì tôi không có"
-	cont "BADGE."
+	cont "HUY HIỆU."
 	done
 
 Text_ItsTheMissingPokemon:

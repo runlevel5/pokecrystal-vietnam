@@ -123,10 +123,9 @@ Jasmine_BetterTrainer:
 	line "tốt bụng."
 
 	para "Theo quy định của"
-	line "LEAGUE, tôi trao"
-
-	para "cho bạn HUY HIỆU"
-	line "này."
+	line "LIÊN ĐOÀN, tôi"
+	cont "trao cho bạn HUY"
+	cont "HIỆU này."
 	done
 
 Text_ReceivedMineralBadge:

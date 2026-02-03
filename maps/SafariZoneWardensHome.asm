@@ -46,15 +46,15 @@ WardensGranddaughterText1:
 	line "nước ngoài."
 
 	para "Ông bỏ quản lý"
-	line "SAFARI ZONE ngay"
+	line "KHU SAFARI ngay"
 	cont "như vậy luôn."
 	done
 
 WardensGranddaughterText2:
 	text "Nhiều người thất"
-	line "vọng vì SAFARI"
+	line "vọng vì KHU"
 
-	para "ZONE đóng cửa,"
+	para "SAFARI đóng cửa,"
 	line "nhưng Ông nội"
 	cont "rất bướng bỉnh…"
 	done

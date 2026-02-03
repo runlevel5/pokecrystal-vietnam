@@ -155,10 +155,10 @@ ClairIntroText:
 	cont "giới."
 
 	para "Ta có thể sánh"
-	line "ngang ELITE FOUR"
+	line "ngang TỨ ĐẠI"
 
-	para "của #MON"
-	line "LEAGUE."
+	para "của LIÊN ĐOÀN"
+	line "#MON."
 
 	para "Ngươi vẫn muốn"
 	line "thách đấu ta?"
@@ -189,8 +189,8 @@ ClairText_GoToDragonsDen:
 	line "thua, nhưng ngươi"
 
 	para "vẫn chưa sẵn sàng"
-	line "cho #MON"
-	cont "LEAGUE."
+	line "cho LIÊN ĐOÀN"
+	cont "#MON."
 
 	para "Ta biết rồi."
 	line "Ngươi nên thử"

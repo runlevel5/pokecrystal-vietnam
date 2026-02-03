@@ -477,8 +477,21 @@ All Pokemon species names remain in English:
 - **Exception**: EGG (the placeholder name for unhatched Pokemon) is translated to TRỨNG
 
 #### 6. Special Terms
-- Badge names: ZEPHYRBADGE, HIVEBADGE, etc.
-- Game-specific terms: GYM (kept as GYM)
+- Badge names (compound): ZEPHYRBADGE, HIVEBADGE, etc. (kept in English as item names)
+- Game-specific terms: GYM (kept as GYM), RADIO (kept as RADIO)
+
+#### 7. Game Terms (Translated to Vietnamese)
+
+| English | Vietnamese | Notes |
+|---------|------------|-------|
+| BADGE (standalone) | HUY HIỆU | When referring to badges generically |
+| LEAGUE | LIÊN ĐOÀN | Pokemon League |
+| ELITE FOUR | TỨ ĐẠI | The Four Great Ones |
+| SAFARI ZONE | KHU SAFARI | Safari Zone |
+| GAME CORNER | GÓC GIẢI TRÍ | Entertainment Corner |
+| MAIL (standalone) | THƯ | When referring to mail generically |
+
+**Note:** Compound badge names (THUNDERBADGE, MARSHBADGE, etc.) and specific mail item names (THƯ BIỂN, THƯ YÊU QUÝ, etc.) remain as item names - see Item Names section.
 
 ### Terms Translated to Vietnamese
 

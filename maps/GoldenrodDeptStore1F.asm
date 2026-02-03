@@ -40,7 +40,7 @@ GoldenrodDeptStore1FGentlemanText:
 	line "chỉ có ở"
 
 	para "giải thưởng"
-	line "GAME CORNER."
+	line "GÓC GIẢI TRÍ."
 	done
 
 GoldenrodDeptStore1FPokefanFText:

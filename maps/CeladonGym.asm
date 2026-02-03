@@ -215,7 +215,7 @@ PicnickerTanyaBeatenText:
 
 PicnickerTanyaAfterBattleText:
 	text "Ồ, nhìn tất cả"
-	line "BADGE của bạn."
+	line "HUY HIỆU của bạn."
 
 	para "Không lạ gì tôi"
 	line "không thắng nổi!"

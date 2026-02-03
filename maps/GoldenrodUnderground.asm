@@ -420,7 +420,7 @@ GoldenrodUndergroundHiddenAntidote:
 
 SupernerdEricSeenText:
 	text "Tôi bị đuổi khỏi"
-	line "GAME CORNER."
+	line "GÓC GIẢI TRÍ."
 
 	para "Tôi đang cố gắng"
 	line "gian lận bằng"

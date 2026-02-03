@@ -937,7 +937,7 @@ Text_RejectMonWithMail:
 	line "@"
 	text_ram wStringBuffer1
 	text " có"
-	cont "MAIL theo."
+	cont "THƯ theo."
 	prompt
 
 Text_TimeCapsuleClosed:

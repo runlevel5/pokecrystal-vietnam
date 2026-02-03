@@ -69,7 +69,7 @@ GoldenrodDeptStore2FYoungsterText:
 
 GoldenrodDeptStore2FCooltrainerFText:
 	text "Tôi có ABRA từ"
-	line "GAME CORNER."
+	line "GÓC GIẢI TRÍ."
 
 	para "Giờ nó là bạn đồng"
 	line "hành tốt nhất."

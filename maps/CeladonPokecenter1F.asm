@@ -83,7 +83,7 @@ CeladonPokecenter1FPharmacistText:
 	text "Hang ĐỘI ROCKET"
 	line "ở tầng hầm"
 
-	para "GAME CORNER."
+	para "GÓC GIẢI TRÍ."
 
 	para "Ồ, chờ đã. Đó là"
 	line "ba năm trước."

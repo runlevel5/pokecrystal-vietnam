@@ -82,7 +82,7 @@ KogaScript_KogaBeforeText:
 	text "Fwahahahaha!"
 
 	para "Ta là KOGA của"
-	line "ELITE FOUR."
+	line "TỨ ĐẠI."
 
 	para "Ta sống trong"
 	line "bóng tối, một"

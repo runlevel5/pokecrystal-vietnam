@@ -213,12 +213,12 @@ CeladonCityGameCornerSignText:
 if DEF(_CRYSTAL_AU)
 	text "Khu Vui Chơi Cho"
 	line "Người Lớn-CELADON"
-	cont "GAME CORNER"
+	cont "GÓC GIẢI TRÍ"
 	done
 else
 	text "Sân Chơi Cho Mọi"
 	line "Người--CELADON"
-	cont "GAME CORNER"
+	cont "GÓC GIẢI TRÍ"
 	done
 endc
 

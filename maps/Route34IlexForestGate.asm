@@ -99,7 +99,7 @@ Route34IlexForestGateTeacherText:
 	done
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "Đó là SWEET SCENT"
+	text "Đó là HƯƠNG NGỌT."
 
 	para "Dùng ở nơi nào"
 	line "có #MON."

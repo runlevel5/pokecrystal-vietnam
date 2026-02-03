@@ -250,7 +250,7 @@ WhitneyPlainBadgeText:
 	done
 
 WhitneyAttractText:
-	text "Đó là ATTRACT!"
+	text "Đó là MÊ HOẶC!"
 	line "Nó tận dụng hết"
 
 	para "sức quyến rũ của"

@@ -65,7 +65,7 @@ SandstormHouseWomanLoyalText:
 
 SandstormHouseSandstormDescription:
 	text "TM37 đó là"
-	line "SANDSTORM."
+	line "BÃO CÁT."
 
 	para "Đó là chiêu gây"
 	line "sát thương cho cả"

@@ -112,7 +112,7 @@ VioletGymStatue:
 
 FalknerIntroText:
 	text "Tôi là FALKNER,"
-	line "T.LĨNH GYM #MON"
+	line "THỦ LĨNH GYM"
 	cont "TP VIOLET!"
 
 	para "Người ta nói có"
@@ -174,7 +174,7 @@ FalknerTMMudSlapText:
 	cont "dùng được 1 lần."
 
 	para "TM31 chứa"
-	line "MUD-SLAP."
+	line "VẢY BÙN."
 
 	para "Nó giảm độ chính"
 	line "xác của đối thủ"

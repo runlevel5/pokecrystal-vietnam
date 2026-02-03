@@ -179,7 +179,7 @@ Text_ReceivedTM13: ; unreferenced
 	done
 
 FarmerFText_SnoreSpeech:
-	text "Đó là SNORE."
+	text "Đó là NGÁY."
 
 	para "Đó là chiêu hiếm"
 	line "chỉ hoạt động"

@@ -67,8 +67,8 @@ DaisyHelloText:
 	text "DAISY: Chào bạn!"
 	line "Em trai tôi là"
 
-	para "T.LĨNH GYM ở TP."
-	line "VIRIDIAN."
+	para "THỦ LĨNH GYM ở"
+	line "TP VIRIDIAN."
 
 	para "Nhưng nó thường"
 	line "ra ngoài thành,"

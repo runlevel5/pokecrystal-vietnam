@@ -150,7 +150,7 @@ Text_ReceivedTM09: ; unreferenced
 Jasmine_IronTailSpeech:
 	text "…Bạn có thể dùng"
 	line "TM đó để dạy"
-	cont "IRON TAIL."
+	cont "ĐUÔI SẮT."
 	done
 
 Jasmine_GoodLuck:

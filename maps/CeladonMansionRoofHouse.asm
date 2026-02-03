@@ -104,7 +104,7 @@ CeladonMansionRoofHousePharmacistStoryText:
 	done
 
 CeladonMansionRoofHousePharmacistCurseText:
-	text "TM03 là CURSE."
+	text "TM03 là LỜI NGUYỀN."
 
 	para "Đây là chiêu đáng"
 	line "sợ làm giảm dần"

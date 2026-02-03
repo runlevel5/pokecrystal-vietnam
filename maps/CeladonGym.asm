@@ -121,7 +121,7 @@ ErikaBeforeBattleText:
 	line "sắp ngủ gật mất…"
 
 	para "Ta tên ERIKA."
-	line "Ta là T.LĨNH GYM"
+	line "Ta là THỦ LĨNH GYM"
 	cont "CELADON."
 
 	para "…Ồ? Ngươi đến từ"
@@ -164,7 +164,7 @@ ErikaExplainTMText:
 	para "Xin hãy nhận TM"
 	line "này."
 
-	para "Đó là GIGA DRAIN."
+	para "Đó là SIÊU HÚT."
 
 	para "Đây là chiêu tuyệt"
 	line "vời hút nửa sát"

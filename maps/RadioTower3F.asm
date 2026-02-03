@@ -217,7 +217,7 @@ RadioTower3FCooltrainerFYoureMyHeroText:
 	done
 
 RadioTower3FCooltrainerFItsSunnyDayText:
-	text "Đó là SUNNY DAY."
+	text "Đó là NGÀY NẮNG."
 	line "Nó tăng sức mạnh"
 	cont "chiêu hệ lửa"
 	cont "một thời gian."

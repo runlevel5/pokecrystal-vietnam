@@ -252,7 +252,7 @@ MortyText_FogBadgeSpeech:
 	done
 
 MortyText_ShadowBallSpeech:
-	text "Đó là SHADOW BALL."
+	text "Đó là BÓNG MA."
 	line "Nó gây sát thương"
 
 	para "và có thể giảm"

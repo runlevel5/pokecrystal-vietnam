@@ -347,7 +347,7 @@ Text_Route31ReadingMail:
 	done
 
 Text_Route31DescribeNightmare:
-	text "TM50 là NIGHTMARE."
+	text "TM50 là ÁC MỘNG."
 
 	para "Đây là chiêu độc"
 	line "ác giảm dần HP"

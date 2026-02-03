@@ -331,7 +331,7 @@ PowerPlantManagerWhoWouldRuinMyGeneratorText:
 	para "Nếu bắt được hắn,"
 	line "hắn sẽ phải nếm"
 
-	para "trải ZAP CANNON"
+	para "trải PHÁO ĐIỆN"
 	line "của tôi!"
 	done
 
@@ -368,7 +368,7 @@ PowerPlantManagerTakeThisTMText:
 
 PowerPlantManagerTM07IsZapCannonText:
 	text "QUẢN LÝ: TM07 là"
-	line "ZAP CANNON của tôi"
+	line "PHÁO ĐIỆN của tôi"
 
 	para "Đó là kỹ năng"
 	line "mạnh mẽ!"

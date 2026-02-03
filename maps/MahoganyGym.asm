@@ -213,7 +213,7 @@ PryceText_GlacierBadgeSpeech:
 
 PryceText_IcyWindSpeech:
 	text "TM đó chứa chiêu"
-	line "ICY WIND."
+	line "GIÓ LẠNH."
 
 	para "Nó gây sát thương"
 	line "và giảm tốc độ."

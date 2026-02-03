@@ -205,7 +205,7 @@ ChuckExplainBadgeText:
 	line "cả khi trao đổi."
 
 	para "Nó cũng cho phép"
-	line "#MON dùng FLY"
+	line "#MON dùng BAY"
 
 	para "khi không trong"
 	line "trận đấu."

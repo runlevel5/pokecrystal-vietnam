@@ -740,7 +740,7 @@ IlexForestApprenticeIntroText:
 	line "sẽ điên mất…"
 
 	para "Con FARFETCH'D"
-	line "dùng CUT cây để"
+	line "dùng CẮT cây để"
 
 	para "làm than đã bỏ"
 	line "chạy mất rồi."
@@ -780,7 +780,7 @@ Text_CharcoalMasterIntro:
 	line "cho chúng tôi à?"
 
 	para "Không có nó, chúng"
-	line "tôi không thể CUT"
+	line "tôi không thể CẮT"
 
 	para "cây để làm than"
 	line "được."
@@ -795,7 +795,7 @@ Text_CharcoalMasterIntro:
 	done
 
 Text_CharcoalMasterOutro:
-	text "Đó là HM CUT."
+	text "Đó là HM CẮT."
 	line "Dạy cho #MON"
 
 	para "để chặt những cây"
@@ -822,7 +822,7 @@ Text_HeadbuttIntro:
 	text "Tôi đang làm gì à?"
 
 	para "Tôi đang lắc cây"
-	line "bằng HEADBUTT."
+	line "bằng ĐỤC ĐẦU."
 
 	para "Vui lắm. Đây, bạn"
 	line "cũng thử xem!"
@@ -830,7 +830,7 @@ Text_HeadbuttIntro:
 
 Text_HeadbuttOutro:
 	text "Lắc cây bằng"
-	line "HEADBUTT. Đôi khi"
+	line "ĐỤC ĐẦU. Đôi khi"
 	cont "#MON đang ngủ"
 	cont "rơi xuống."
 	done
@@ -922,10 +922,10 @@ BugCatcherWayneAfterBattleText:
 
 	para "rơi ra khỏi cây"
 	line "khi tôi dùng"
-	cont "HEADBUTT."
+	cont "ĐỤC ĐẦU."
 
 	para "Tôi nên dùng"
-	line "HEADBUTT ở những"
+	line "ĐỤC ĐẦU ở những"
 	cont "nơi khác nữa."
 	done
 

@@ -270,9 +270,9 @@ BlackthornGymClairText_League:
 	para "Từ đây, hãy đi"
 	line "đến NEW BARK TOWN."
 
-	para "Rồi SURF về phía"
-	line "đông. Đường đi"
-	cont "rất gian nan."
+	para "Rồi LƯỚT SÓNG về"
+	line "phía đông. Đường"
+	cont "đi rất gian nan."
 
 	para "Đừng có dám thua"
 	line "ở LIÊN ĐOÀN"

@@ -738,7 +738,7 @@ RocketBaseReceivedHM06Text: ; unreferenced
 	done
 
 RocketBaseLanceWhirlpoolText:
-	text "Đó là WHIRLPOOL."
+	text "Đó là XOÁY NƯỚC."
 	line "Dạy nó cho #MON"
 
 	para "để vượt qua vùng"

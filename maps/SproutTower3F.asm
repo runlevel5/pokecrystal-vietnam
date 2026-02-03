@@ -239,12 +239,12 @@ SageLiTakeThisFlashText:
 	para "vấn đề gì khi"
 	line "dùng chiêu này."
 
-	para "Cầm lấy HM FLASH"
-	line "này."
+	para "Cầm lấy HM ÁNH"
+	line "CHỚP này."
 	done
 
 SageLiFlashExplanationText:
-	text "FLASH chiếu sáng"
+	text "ÁNH CHỚP sáng"
 	line "ngay cả nơi tối"
 	cont "nhất."
 

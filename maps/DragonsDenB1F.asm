@@ -256,7 +256,7 @@ ClairText_WhatsTheMatterDragonDen:
 	para "Từ đây, hãy đến"
 	line "THỊ TRẤN NEW BARK."
 
-	para "Rồi SURF về phía"
+	para "Rồi LƯỚT SÓNG về"
 	line "đông đến HỘI LIÊN"
 	cont "ĐOÀN #MON."
 

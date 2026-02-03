@@ -193,7 +193,7 @@ BugsyText_HiveBadgeSpeech:
 	para "nghe lời bạn, kể"
 	line "cả loại trao đổi."
 
-	para "#MON biết CUT"
+	para "#MON biết CẮT"
 	line "có thể dùng nó"
 
 	para "ngoài trận đấu"
@@ -205,7 +205,7 @@ BugsyText_HiveBadgeSpeech:
 
 BugsyText_FuryCutterSpeech:
 	text "TM49 chứa chiêu"
-	line "FURY CUTTER."
+	line "CHÉM LIÊN."
 
 	para "Nếu không hụt, nó"
 	line "mạnh hơn mỗi lượt."

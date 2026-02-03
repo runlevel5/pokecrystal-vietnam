@@ -157,7 +157,7 @@ FalknerZephyrBadgeText:
 	para "Nó cũng cho phép"
 	line "#MON sử dụng"
 
-	para "FLASH bất cứ"
+	para "ÁNH CHỚP bất cứ"
 	line "lúc nào."
 
 	para "Đây--cầm luôn"

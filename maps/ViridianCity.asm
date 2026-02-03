@@ -171,7 +171,7 @@ ViridianCityDreamEaterFisherText:
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
 	text "TM42 chứa"
-	line "DREAM EATER…"
+	line "ĂN MỘNG…"
 
 	para "…Zzzzz…"
 	done

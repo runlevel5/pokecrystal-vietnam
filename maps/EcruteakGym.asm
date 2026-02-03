@@ -242,10 +242,11 @@ MortyText_FogBadgeSpeech:
 	line "bạn."
 
 	para "Ngoài ra, #MON"
-	line "biết SURF có thể"
+	line "biết LƯỚT SÓNG"
 
-	para "dùng chiêu đó"
-	line "bất cứ lúc nào."
+	para "có thể dùng chiêu"
+	line "đó lúc nào cũng"
+	cont "được."
 
 	para "Ta muốn tặng bạn"
 	line "thứ này nữa."

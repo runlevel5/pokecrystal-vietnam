@@ -190,12 +190,12 @@ ChucksWifeEasierToFlyText:
 	line "nếu #MON của"
 
 	para "bạn biết chiêu"
-	line "FLY…"
+	line "BAY…"
 	done
 
 ChucksWifeBeatChuckText:
 	text "Nhưng bạn không"
-	line "thể dùng FLY nếu"
+	line "thể dùng BAY nếu"
 	cont "không có HUY HIỆU"
 
 	para "GYM thành phố"
@@ -218,7 +218,7 @@ ChucksWifeGiveHMText:
 	done
 
 ChucksWifeFlySpeechText:
-	text "Dạy FLY cho"
+	text "Dạy BAY cho"
 	line "#MON của bạn."
 
 	para "Bạn sẽ có thể"
@@ -238,7 +238,7 @@ ChucksWifeChubbyText:
 	done
 
 CianwoodCityYoungsterText:
-	text "Nếu dùng FLY,"
+	text "Nếu dùng BAY,"
 	line "bạn có thể về"
 
 	para "OLIVINE ngay"

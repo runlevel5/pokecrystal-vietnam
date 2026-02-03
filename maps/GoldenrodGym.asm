@@ -238,7 +238,7 @@ WhitneyPlainBadgeText:
 	text "PLAINBADGE cho"
 	line "phép #MON của"
 
-	para "bạn dùng STRENGTH"
+	para "bạn dùng SỨC MẠNH"
 	line "ngoài trận đấu."
 
 	para "Nó cũng tăng"

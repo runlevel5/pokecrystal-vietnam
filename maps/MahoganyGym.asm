@@ -204,7 +204,7 @@ PryceText_GlacierBadgeSpeech:
 
 	para "Nó cũng cho phép"
 	line "#MON dùng"
-	cont "WHIRLPOOL để qua"
+	cont "XOÁY NƯỚC để qua"
 	cont "xoáy nước thật."
 
 	para "Và đây… Đây là"

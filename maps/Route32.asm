@@ -851,7 +851,7 @@ Text_RoarIntro:
 
 Text_RoarOutro:
 	text "GRẦMMMM!"
-	line "ĐÓ LÀ ROAR!"
+	line "ĐÓ LÀ GẦM!"
 
 	para "CẢ #MON CŨNG"
 	line "CHẠY KHI GẦM HAY!"

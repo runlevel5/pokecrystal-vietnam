@@ -191,7 +191,7 @@ MahoganyMart1FBlackBeltText_LanceEntered:
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
 	text "LANCE: DRAGONITE,"
-	line "HYPER BEAM."
+	line "TIA HỦY DIỆT."
 	done
 
 MahoganyMart1FLanceRadioText:

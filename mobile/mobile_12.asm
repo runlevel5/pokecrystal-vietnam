@@ -539,17 +539,17 @@ Mobile12_Bin2Dec:
 	db "8@"
 	db "9@"
 
-MobileProfileString:         db "  Mobile Profile@"
-MobileString_Gender:         db "Gender@"
-MobileString_Age:            db "Age@"
-MobileString_Address:        db "Address@"
-MobileString_ZipCode:        db "Zip Code@"
+MobileProfileString:         db "  Hồ Sơ Mobile@"
+MobileString_Gender:         db "Giới Tính@"
+MobileString_Age:            db "Tuổi@"
+MobileString_Address:        db "Địa Chỉ@"
+MobileString_ZipCode:        db "Mã Vùng@"
 MobileString_OK:             db "OK@"
-MobileString_ProfileChanged: db "Profile Changed@"
-MobileDesc_Gender:           db "Boy or girl?@"
-MobileDesc_Age:              db "How old are you?@"
-MobileDesc_Address:          db "Where do you live?@"
-MobileDesc_ZipCode:          db "Your zip code?@"
+MobileString_ProfileChanged: db "Đổi Hồ Sơ@"
+MobileDesc_Gender:           db "Trai hay gái?@"
+MobileDesc_Age:              db "Bao nhiêu tuổi?@"
+MobileDesc_Address:          db "Sống ở đâu?@"
+MobileDesc_ZipCode:          db "Mã vùng của bạn?@"
 
 MenuHeader_0x484f1:
 	db MENU_BACKUP_TILES ; flags
@@ -561,8 +561,8 @@ MenuData_0x484f9:
 	db STATICMENU_CURSOR | STATICMENU_WRAP ; flags
 	db 2 ; items
 Strings_484fb:
-String_484fb: db "Boy@"
-String_484ff: db "Girl@"
+String_484fb: db "nam@"
+String_484ff: db "nữ@"
 
 MenuHeader_0x48504:
 	db MENU_BACKUP_TILES ; flags

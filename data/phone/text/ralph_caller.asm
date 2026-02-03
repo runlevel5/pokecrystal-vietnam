@@ -1,133 +1,132 @@
 RalphNeglectingKidsText:
-	text "I've been spending"
-	line "more time with my"
+	text "Tôi dành nhiều"
+	line "thời gian với"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " than I"
-	line "have with my kids."
+	text " hơn là"
+	line "với các con."
 
-	para "That's a bit sad,"
-	line "actually."
+	para "Điều đó hơi buồn"
+	line "thật."
 	done
 
 RalphDefeatedMonText:
-	text "I just beat a wild"
+	text "Tôi vừa đánh bại"
 	line "@"
 	text_ram wStringBuffer4
-	text "."
+	text " hoang."
 
-	para "I told my kid, but"
-	line "he scoffed that he"
+	para "Tôi nói với con,"
+	line "nhưng nó cười nhạo"
 
-	para "could do the same"
-	line "thing easily."
+	para "rằng nó có thể làm"
+	line "dễ dàng."
 
-	para "Boy, has he gotten"
-	line "cocky…"
+	para "Thằng bé ngạo mạn"
+	line "quá…"
 	done
 
 RalphLostAMonText:
-	text "Yesterday a wild"
+	text "Hôm qua một con"
 	line "@"
 	text_ram wStringBuffer4
-	text " slipped"
+	text " hoang"
 
-	para "away from me, in"
-	line "front of my kid."
+	para "chạy thoát khỏi"
+	line "tôi, trước mặt"
+	cont "con tôi."
 
-	para "I was feeling down"
-	line "about it until he"
+	para "Tôi đang buồn"
+	line "cho đến khi nó"
 
-	para "shared his #"
-	line "BALLS with me."
+	para "chia sẻ BÓNG #"
+	line "với tôi."
 
-	para "Hahah, that sure"
-	line "made my day!"
+	para "Hahah, điều đó"
+	line "làm tôi vui lắm!"
 	done
 
 RalphBattleRematchText:
-	text "What do you say to"
-	line "a battle with me?"
+	text "Cậu có muốn đấu"
+	line "với tôi không?"
 
-	para "Good, you're going"
-	line "to do it!"
+	para "Tốt, cậu sẽ làm!"
 
-	para "For a kid, you're"
-	line "quite agreeable."
+	para "Với một đứa trẻ,"
+	line "cậu khá dễ chịu."
 
 	para "@"
 	text_ram wStringBuffer5
-	text " is"
-	line "the spot!"
+	text " là"
+	line "nơi gặp!"
 	done
 
 RalphHangUpText:
-	text "You call your mom"
-	line "sometimes too!"
+	text "Cậu cũng gọi cho"
+	line "mẹ đôi khi nhé!"
 	done
 
 RalphItemText:
-	text "Listen, I… Yowch!"
+	text "Nghe này, tôi…"
+	line "Yowch!"
 
-	para "Uh, sorry! See,"
-	line "@"
+	para "Uh, xin lỗi! Thấy"
+	line "không, @"
 	text_ram wStringBuffer4
-	text " are"
+	text ""
 
-	para "biting like there"
-	line "is no tomorrow"
+	para "đang cắn liên tục"
+	line "không ngừng"
 
-	para "over here on"
+	para "ở đây trên"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 
 	para "Aiyee! Ouch!"
-	line "One jabbed me!"
+	line "Một con đâm tôi!"
 
-	para "Heh, they're some"
-	line "kind of feisty!"
+	para "Heh, chúng hung"
+	line "dữ lắm!"
 
-	para "<PLAY_G>, you have"
-	line "to see this rare"
+	para "<PLAY_G>, cậu phải"
+	line "thấy cảnh hiếm có"
 
-	para "sight! Get ready"
-	line "to fish!"
+	para "này! Chuẩn bị câu"
+	line "cá nào!"
 	done
 
 RalphNoItemText:
-	text "Yeah, I know."
+	text "Yeah, tôi biết."
 
-	para "You're looking for"
-	line "rare #MON."
+	para "Cậu đang tìm"
+	line "#MON hiếm."
 
-	para "Recently, all I've"
-	line "been catching are"
-	cont "MAGIKARP, though…"
+	para "Gần đây, tôi chỉ"
+	line "bắt được MAGIKARP"
+	cont "thôi…"
 	done
 
 RalphReminderText:
-	text "So where are you?"
-	line "I'm waiting for"
+	text "Vậy cậu đâu?"
+	line "Tôi đang đợi"
 
-	para "you to show up on"
+	para "cậu xuất hiện tại"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "You shouldn't make"
-	line "your elders wait!"
+	para "Đừng để người già"
+	line "phải đợi!"
 	done
 
 RalphHurryText:
-	text "Hey, what's the"
-	line "matter with you?"
+	text "Này, cậu sao vậy?"
 
-	para "Aren't you coming"
-	line "over to fish for"
-	cont "QWILFISH?"
+	para "Cậu không đến câu"
+	line "QWILFISH à?"
 
-	para "I'm on ROUTE 32,"
-	line "so hurry up!"
+	para "Tôi ở TUYẾN ĐƯỜNG"
+	line "32, nhanh lên!"
 	done

@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 211, 430 ; height, weight
+	db "GHIM ĐỘC@" ; species name
+	dw 9, 195 ; height, weight
 
-	db   "It is easily"
-	next "agitated and uses"
-	next "its horn for"
+	db   "Nó dễ bị kích"
+	next "động và dùng sừng"
+	next "để tấn công ngay"
 
-	page "offense as soon as"
-	next "it notices an"
-	next "attacker.@"
+	page "khi phát hiện"
+	next "kẻ thù.@"
+	next "@"

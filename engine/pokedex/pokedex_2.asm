@@ -99,13 +99,26 @@ DisplayDexEntry:
 	ld de, wTempSpecies
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
 	call PrintNum
-; Check to see if we caught it.  Get out of here if we haven't.
+; Check to see if we caught it.
 	ld a, [wTempSpecies]
 	dec a
 	call CheckCaughtMon
 	pop hl
 	pop bc
-	ret z
+	jr nz, .caught
+; Not caught - display ?.? for height and weight
+	ld a, '?'
+	hlcoord 14, 7  ; height: X.X format, position before dot
+	ld [hli], a
+	inc hl ; skip the dot at position 15
+	ld [hl], a    ; position after dot
+	hlcoord 13, 9  ; weight: XXX.X format (shifted 1 tile right)
+	ld [hli], a
+	ld [hli], a
+	inc hl ; skip the dot at position 15
+	ld [hl], a
+	ret
+.caught
 ; Get the height of the Pokemon.
 	ld a, [wCurPartySpecies]
 	ld [wCurSpecies], a
@@ -124,16 +137,13 @@ DisplayDexEntry:
 	jr z, .skip_height
 	push hl
 	push de
-; Print the height, with two of the four digits in front of the decimal point
+; Print the height in metric (decimeters), with 1 digit before decimal point
 	ld hl, sp+0
 	ld d, h
 	ld e, l
-	hlcoord 12, 7
-	lb bc, 2, (2 << 4) | 4
-	call PrintNum
-; Replace the decimal point with a ft symbol
 	hlcoord 14, 7
-	ld [hl], $5e
+	lb bc, 2, (1 << 4) | 2
+	call PrintNum
 	pop af
 	pop hl
 
@@ -150,12 +160,12 @@ DisplayDexEntry:
 	or d
 	jr z, .skip_weight
 	push de
-; Print the weight, with four of the five digits in front of the decimal point
+; Print the weight in metric (hectograms), with 3 digits before decimal point
 	ld hl, sp+0
 	ld d, h
 	ld e, l
-	hlcoord 11, 9
-	lb bc, 2, (4 << 4) | 5
+	hlcoord 12, 9
+	lb bc, 2, (3 << 4) | 4
 	call PrintNum
 	pop de
 

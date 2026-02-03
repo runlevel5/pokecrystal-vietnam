@@ -65,10 +65,10 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "CONTINUE@"
-	db "NEW GAME@"
-	db "OPTION@"
-	db "MYSTERY GIFT@"
+	db "TIẾp TỤC@"
+	db "GAME MỚI@"
+	db "TÙY CHỌN@"
+	db "QUÀ BÍ MẬT@"
 	db "MOBILE@"
 	db "MOBILE STUDIUM@"
 if DEF(_DEBUG)
@@ -317,7 +317,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .minString: ; unreferenced
-	db "min.@"
+	db "phút@"
 
 .PrintTimeNotSet:
 	hlcoord 1, 14
@@ -326,7 +326,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "TIME NOT SET@"
+	db "CHƯA ĐẶT GIỜ@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
@@ -348,15 +348,15 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "CHỦ NHẬT@"
+	db "THỨ HAI@"
+	db "THỨ BA@"
+	db "THỨ TƯ@"
+	db "THỨ NĂM@"
+	db "THỨ SÁU@"
+	db "THỨ BẢY@"
 .Day:
-	db "DAY@"
+	db "@"
 
 ClearTilemapEtc:
 	xor a

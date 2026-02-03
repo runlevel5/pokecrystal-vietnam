@@ -1,10 +1,10 @@
-	db "PINCER@" ; species name
-	dw 403, 1320 ; height, weight
+	db "KÌMCÀNG@" ; species name
+	dw 13, 600 ; height, weight
 
-	db   "Its oversized claw"
-	next "is very powerful,"
-	next "but when it's not"
+	db   "Càng khổng lồ rất"
+	next "mạnh, nhưng khi"
+	next "không chiến đấu,"
 
-	page "in battle, the"
-	next "claw just gets in"
-	next "the way.@"
+	page "nó chỉ gây"
+	next "vướng víu.@"
+	next "@"

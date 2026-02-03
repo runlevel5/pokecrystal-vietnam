@@ -1,56 +1,56 @@
 BethAskNumber1Text:
-	text "It's been a while"
-	line "since I lost…"
+	text "Lâu rồi không"
+	line "thua…"
 
-	para "You're very good"
-	line "at battling."
+	para "Cậu rất giỏi"
+	line "chiến đấu."
 
-	para "We should battle"
-	line "again sometime."
+	para "Chúng ta nên đấu"
+	line "lại lúc nào đó."
 
-	para "By challenging a"
-	line "tough trainer like"
+	para "Bằng cách thách"
+	line "thức HLV mạnh như"
 
-	para "you, I think I can"
-	line "get better too."
+	para "cậu, tớ nghĩ tớ"
+	line "cũng giỏi hơn."
 
-	para "So how about it?"
+	para "Thế nào?"
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Cho tớ số điện"
+	line "thoại nhé?"
 	done
 
 BethAskNumber2Text:
-	text "By challenging a"
-	line "tough trainer like"
+	text "Bằng cách thách"
+	line "thức HLV mạnh như"
 
-	para "you, I think I can"
-	line "get better too."
+	para "cậu, tớ nghĩ tớ"
+	line "cũng giỏi hơn."
 
-	para "So how about it?"
+	para "Thế nào?"
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Cho tớ số điện"
+	line "thoại nhé?"
 	done
 
 BethNumberAcceptedText:
-	text "Let's battle again"
-	line "sometime!"
+	text "Đấu lại lúc nào"
+	line "đó nhé!"
 	done
 
 BethNumberDeclinedText:
-	text "That's too bad…"
+	text "Tiếc quá…"
 
-	para "Let me know if you"
-	line "change your mind."
+	para "Báo tớ nếu cậu"
+	line "đổi ý."
 	done
 
 BethPhoneFullText:
-	text "Oh no. Your phone"
-	line "is out of memory."
+	text "Ôi không. Điện"
+	line "thoại đầy rồi."
 	done
 
 BethRematchText:
-	text "You sure kept me"
-	line "waiting! Let's go!"
+	text "Cậu để tớ đợi lâu"
+	line "quá! Bắt đầu nào!"
 	done

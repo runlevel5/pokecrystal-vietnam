@@ -1,53 +1,54 @@
 IrwinAskNumber1Text:
-	text "You're the best"
-	line "I've ever battled!"
+	text "Cậu là người tốt"
+	line "nhất tớ từng đấu!"
 
-	para "Huh? You're the"
-	line "one who saved all"
-	cont "the SLOWPOKE?"
+	para "Hả? Cậu là người"
+	line "cứu tất cả"
+	cont "SLOWPOKE à?"
 
-	para "Well, no wonder I"
-	line "couldn't beat you!"
+	para "Ồ, không lạ gì tớ"
+	line "không thắng cậu!"
 
-	para "Would it be OK to"
-	line "get your number?"
+	para "Cho tớ xin SĐT"
+	line "được không?"
 
-	para "I don't want to"
-	line "miss anything you"
-	cont "do from now on!"
+	para "Tớ không muốn bỏ"
+	line "lỡ bất kỳ điều gì"
+	cont "cậu làm từ giờ!"
 	done
 
 IrwinAskNumber2Text:
-	text "You will tell me"
-	line "your phone number?"
+	text "Cậu sẽ cho tớ SĐT"
+	line "của cậu chứ?"
 	done
 
 IrwinNumberAcceptedText:
-	text "Wow! Gee, thanks!"
-	line "Now I can call you"
+	text "Wow! Cảm ơn cậu!"
+	line "Giờ tớ có thể gọi"
 
-	para "anytime, whether"
-	line "anything's up or"
+	para "bất kỳ lúc nào,"
+	line "có chuyện hay"
 
-	para "not. You know,"
-	line "just to chat!"
+	para "không. Cậu biết,"
+	line "chỉ để nói chuyện!"
 	done
 
 IrwinNumberDeclinedText:
-	text "Oh, but…"
-	line "I'm not dangerous!"
+	text "Ồ, nhưng…"
+	line "Tớ không nguy"
+	cont "hiểm mà!"
 
-	para "I just want to"
-	line "call and chat"
+	para "Tớ chỉ muốn gọi"
+	line "và nói chuyện"
 
-	para "about everything"
-	line "and nothing!"
+	para "về mọi thứ và"
+	line "không gì cả!"
 	done
 
 IrwinPhoneFullText:
-	text "Your phone list is"
-	line "already full…"
+	text "Danh sách điện"
+	line "thoại cậu đầy…"
 
-	para "You must be really"
-	line "popular…"
+	para "Chắc cậu nổi tiếng"
+	line "lắm…"
 	done

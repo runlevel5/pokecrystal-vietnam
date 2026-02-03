@@ -35,35 +35,35 @@ CherrygrovePokecenter1FTeacherScript:
 	end
 
 CherrygrovePokecenter1FFisherText:
-	text "It's great. I can"
-	line "store any number"
+	text "Tuyệt vời. Tôi có"
+	line "thể lưu trữ bao"
 
-	para "of #MON, and"
-	line "it's all free."
+	para "nhiêu #MON cũng"
+	line "được, miễn phí."
 	done
 
 CherrygrovePokecenter1FGentlemanText:
-	text "That PC is free"
-	line "for any trainer"
-	cont "to use."
+	text "PC đó miễn phí"
+	line "cho mọi HLV sử"
+	cont "dụng."
 	done
 
 CherrygrovePokecenter1FTeacherText:
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
-	cont "was just built."
+	text "TRUNG TÂM LIÊN LẠC"
+	line "ở tầng trên vừa"
+	cont "được xây xong."
 
-	para "But they're still"
-	line "finishing it up."
+	para "Nhưng họ vẫn đang"
+	line "hoàn thiện nó."
 	done
 
 CherrygrovePokecenter1FTeacherText_CommCenterOpen:
-	text "The COMMUNICATION"
-	line "CENTER upstairs"
-	cont "was just built."
+	text "TRUNG TÂM LIÊN LẠC"
+	line "ở tầng trên vừa"
+	cont "được xây xong."
 
-	para "I traded #MON"
-	line "there already!"
+	para "Tôi đã trao đổi"
+	line "#MON ở đó rồi!"
 	done
 
 CherrygrovePokecenter1F_MapEvents:

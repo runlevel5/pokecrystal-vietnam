@@ -244,130 +244,127 @@ AzaleaTownPlayerLeavesKurtsHouseMovement:
 	step_end
 
 AzaleaTownRivalBeforeText:
-	text "…Tell me some-"
-	line "thing."
+	text "…Nói tao nghe"
+	line "chút."
 
-	para "Is it true that"
-	line "TEAM ROCKET has"
-	cont "returned?"
+	para "ĐỘI ROCKET quay"
+	line "lại thật à?"
 
-	para "What? You beat"
-	line "them? Hah! Quit"
-	cont "lying."
+	para "Gì? Mày đánh bại"
+	line "chúng? Hah! Xạo"
+	cont "đi."
 
-	para "You're not joking?"
-	line "Then let's see how"
-	cont "good you are."
+	para "Không đùa à?"
+	line "Vậy cho tao xem"
+	cont "mày giỏi cỡ nào."
 	done
 
 AzaleaTownRivalWinText:
-	text "… Humph! Useless"
-	line "#MON!"
+	text "… Hừ! Đồ #MON"
+	line "vô dụng!"
 
-	para "Listen, you. You"
-	line "only won because"
+	para "Nghe đây. Mày chỉ"
+	line "thắng vì #MON"
 
-	para "my #MON were"
-	line "weak."
+	para "của tao yếu"
+	line "thôi."
 	done
 
 AzaleaTownRivalAfterText:
-	text "I hate the weak."
+	text "Tao ghét kẻ yếu."
 
-	para "#MON, trainers."
-	line "It doesn't matter"
-	cont "who or what."
+	para "#MON, HLV."
+	line "Ai hay gì cũng"
+	cont "vậy thôi."
 
-	para "I'm going to be"
-	line "strong and wipe"
-	cont "out the weak."
+	para "Tao sẽ mạnh và"
+	line "quét sạch bọn"
+	cont "yếu đuối."
 
-	para "That goes for TEAM"
-	line "ROCKET too."
+	para "ĐỘI ROCKET cũng"
+	line "vậy."
 
-	para "They act big and"
-	line "tough in a group."
+	para "Chúng ra vẻ ngầu"
+	line "khi đông người."
 
-	para "But get them"
-	line "alone, and they're"
-	cont "weak."
+	para "Nhưng riêng lẻ"
+	line "thì chúng yếu"
+	cont "lắm."
 
-	para "I hate them all."
+	para "Tao ghét chúng."
 
-	para "You stay out of my"
-	line "way. A weakling"
+	para "Tránh ra khỏi"
+	line "đường tao. Đồ"
 
-	para "like you is only a"
-	line "distraction."
+	para "yếu như mày chỉ"
+	line "làm phiền thôi."
 	done
 
 AzaleaTownRivalLossText:
-	text "…Humph! I knew"
-	line "you were lying."
+	text "…Hừ! Tao biết"
+	line "mày xạo mà."
 	done
 
 AzaleaTownRocket1Text:
-	text "It's unsafe to go"
-	line "in there, so I'm"
-	cont "standing guard."
+	text "Vào đó không an"
+	line "toàn nên tôi"
+	cont "đứng canh."
 
-	para "Aren't I a good"
-	line "Samaritan?"
+	para "Tôi tốt bụng"
+	line "chưa nào?"
 	done
 
 AzaleaTownRocket2Text:
-	text "Do you know about"
-	line "SLOWPOKETAIL? I"
-	cont "heard it's tasty!"
+	text "Bạn biết về ĐUÔI"
+	line "SLOWPOKE không?"
+	cont "Nghe nói ngon lắm!"
 
-	para "Aren't you glad I"
-	line "told you that?"
+	para "Vui vì tôi nói"
+	line "cho biết chứ?"
 	done
 
 AzaleaTownGrampsTextBefore:
-	text "The SLOWPOKE have"
-	line "disappeared from"
-	cont "town…"
+	text "Lũ SLOWPOKE đã"
+	line "biến mất khỏi"
+	cont "thị trấn…"
 
-	para "I heard their"
-	line "TAILS are being"
-	cont "sold somewhere."
+	para "Nghe nói ĐUÔI"
+	line "chúng đang bị bán"
+	cont "ở đâu đó."
 	done
 
 AzaleaTownGrampsTextAfter:
-	text "The SLOWPOKE have"
-	line "returned."
+	text "Lũ SLOWPOKE đã"
+	line "quay về."
 
-	para "Knowing them, they"
-	line "could've just been"
+	para "Biết tính chúng,"
+	line "có khi chúng chỉ"
 
-	para "goofing off some-"
-	line "where."
+	para "đang lang thang"
+	line "đâu đó thôi."
 	done
 
 AzaleaTownTeacherText:
-	text "Did you come to"
-	line "get KURT to make"
-	cont "some BALLS?"
+	text "Bạn đến nhờ KURT"
+	line "làm BALL à?"
 
-	para "A lot of people do"
-	line "just that."
+	para "Nhiều người đến"
+	line "vì lý do đó lắm."
 	done
 
 AzaleaTownYoungsterText:
-	text "Cut through AZALEA"
-	line "and you'll be in"
-	cont "ILEX FOREST."
+	text "Băng qua AZALEA"
+	line "sẽ đến RỪNG ILEX."
 
-	para "But these skinny"
-	line "trees make it"
+	para "Nhưng mấy cây"
+	line "nhỏ này làm"
 
-	para "impossible to get"
-	line "through."
+	para "không đi qua"
+	line "được."
 
-	para "The CHARCOAL MAN's"
-	line "#MON can CUT"
-	cont "down trees."
+	para "#MON của ÔNG"
+	line "THAN có thể CẮT"
+	cont "cây."
 	done
 
 AzaleaTownSlowpokeText1:
@@ -377,7 +374,7 @@ AzaleaTownSlowpokeText1:
 	done
 
 AzaleaTownSlowpokeText2:
-	text "<……> <……>Yawn?"
+	text "<……> <……>Ngáp?"
 	done
 
 WoosterText:
@@ -385,71 +382,73 @@ WoosterText:
 	done
 
 AzaleaTownKurtText1:
-	text "ILEX FOREST is"
-	line "restless!"
+	text "RỪNG ILEX đang"
+	line "bất ổn!"
 
-	para "What is going on?"
+	para "Chuyện gì vậy?"
 	done
 
 AzaleaTownKurtText2:
-	text "<PLAYER>, here's"
-	line "your GS BALL back!"
+	text "<PLAYER>, đây là"
+	line "GS BALL của con!"
 	done
 
 AzaleaTownKurtText3:
-	text "Could you go see"
-	line "why ILEX FOREST is"
-	cont "so restless?"
+	text "Con đi xem sao"
+	line "RỪNG ILEX lại"
+	cont "bất ổn vậy nhé?"
 	done
 
 AzaleaTownSignText:
-	text "AZALEA TOWN"
-	line "Where People and"
+	text "THỊ TRẤN AZALEA"
+	line "Nơi con người và"
 
-	para "#MON Live in"
-	line "Happy Harmony"
+	para "#MON sống hòa"
+	line "thuận hạnh phúc"
 	done
 
 KurtsHouseSignText:
-	text "KURT'S HOUSE"
+	text "NHÀ KURT"
 	done
 
 AzaleaGymSignText:
-	text "AZALEA TOWN"
-	line "#MON GYM"
-	cont "LEADER: BUGSY"
+	text "THỊ TRẤN AZALEA"
+	line "GYM #MON"
+	cont "T.LĨNH: BUGSY"
 
-	para "The Walking"
-	line "Bug #MON"
-	cont "Encyclopedia"
+	para "Bách khoa toàn"
+	line "thư #MON Sâu"
+	cont "biết đi"
 	done
 
 SlowpokeWellSignText:
-	text "SLOWPOKE WELL"
+	text "GIẾNG SLOWPOKE"
 
-	para "Also known as the"
-	line "RAINMAKER WELL."
+	para "Còn gọi là GIẾNG"
+	line "GỌI MƯA."
 
-	para "Locals believe"
-	line "that a SLOWPOKE's"
-	cont "yawn summons rain."
+	para "Dân địa phương"
+	line "tin rằng cái ngáp"
 
-	para "Records show that"
-	line "a SLOWPOKE's yawn"
+	para "của SLOWPOKE gọi"
+	line "mưa về."
 
-	para "ended a drought"
-	line "400 years ago."
+	para "Ghi chép cho thấy"
+	line "một cái ngáp của"
+
+	para "SLOWPOKE đã chấm"
+	line "dứt hạn hán 400"
+	cont "năm trước."
 	done
 
 CharcoalKilnSignText:
-	text "CHARCOAL KILN"
+	text "LÒ THAN"
 	done
 
 AzaleaTownIlexForestSignText:
-	text "ILEX FOREST"
+	text "RỪNG ILEX"
 
-	para "Enter through the"
-	line "gate."
+	para "Vào qua cổng."
 	done
 
 AzaleaTown_MapEvents:

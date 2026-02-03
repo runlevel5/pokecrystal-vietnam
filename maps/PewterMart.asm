@@ -21,26 +21,25 @@ PewterMartSuperNerdScript:
 	jumptextfaceplayer PewterMartSuperNerdText
 
 PewterMartYoungsterText:
-	text "Hi! Check out my"
-	line "GYARADOS!"
+	text "Chào! Xem con"
+	line "GYARADOS này!"
 
-	para "I raised it from a"
-	line "MAGIKARP. I can't"
+	para "Tôi nuôi nó từ"
+	line "MAGIKARP. Không"
 
-	para "believe how strong"
-	line "it has become."
+	para "tin nổi nó đã"
+	line "mạnh thế này."
 	done
 
 PewterMartSuperNerdText:
-	text "There once was a"
-	line "weird old man who"
-	cont "sold MAGIKARP."
+	text "Ngày xưa có ông"
+	line "lão kì lạ bán"
+	cont "MAGIKARP."
 
-	para "He was saying the"
-	line "MAGIKARP from the"
+	para "Ổng nói MAGIKARP"
+	line "từ HỒ GYARADOS"
 
-	para "LAKE OF RAGE were"
-	line "excellent."
+	para "rất tuyệt vời."
 	done
 
 PewterMart_MapEvents:

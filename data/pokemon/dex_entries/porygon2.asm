@@ -1,10 +1,10 @@
-	db "VIRTUAL@" ; species name
-	dw 200, 720 ; height, weight
+	db "ẢO@" ; species name
+	dw 6, 325 ; height, weight
 
-	db   "This manmade"
-	next "#MON evolved"
-	next "from the latest"
+	db   "#MON nhân tạo"
+	next "này tiến hóa từ"
+	next "công nghệ mới"
 
-	page "technology. It"
-	next "may have unprog-"
-	next "rammed reactions.@"
+	page "nhất. Nó có thể"
+	next "có phản ứng ngoài"
+	next "lập trình.@"

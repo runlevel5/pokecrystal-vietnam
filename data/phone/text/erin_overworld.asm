@@ -1,63 +1,62 @@
 ErinAskNumber1Text:
-	text "It really made me"
-	line "angry to lose."
+	text "Thua khiến tớ"
+	line "thật tức giận."
 
-	para "I'll have to train"
-	line "much harder…"
+	para "Tớ phải luyện tập"
+	line "chăm hơn nữa…"
 
-	para "Here's my number."
-	line "I'm ERIN--don't"
+	para "Đây là SĐT tớ."
+	line "Tớ là ERIN đấy--"
 
-	para "forget! Want to"
-	line "battle me again?"
+	para "đừng quên nhé!"
+	line "Đấu lại nhé?"
 	done
 
 ErinAskNumber2Text:
-	text "I want to battle"
-	line "with you again."
+	text "Tớ muốn đấu lại"
+	line "với cậu."
 
-	para "Do you want to"
-	line "exchange numbers?"
+	para "Cậu có muốn trao"
+	line "đổi SĐT không?"
 	done
 
 ErinNumberAcceptedText:
-	text "I'll remember to"
-	line "call when I want"
-	cont "to battle again!"
+	text "Tớ sẽ nhớ gọi khi"
+	line "muốn đấu lại!"
 	done
 
 ErinNumberDeclinedText:
-	text "Oh… I'm sad…"
-	line "If you do want to"
+	text "Ôi… Tớ buồn quá…"
+	line "Nếu muốn đấu,"
 
-	para "battle, come see"
-	line "ERIN--that's me!"
+	para "hãy đến gặp ERIN"
+	line "--chính là tớ!"
 	done
 
 ErinPhoneFullText:
-	text "Oh no. Your phone"
-	line "is all filled up."
+	text "Ôi không. Điện"
+	line "thoại cậu đầy rồi"
 	done
 
 ErinRematchText:
-	text "Yay! I waited!"
-	line "Let's start now!"
+	text "Yayyy! Tớ đợi rồi"
+	line "Bắt đầu thôi!"
 	done
 
 ErinPackFullText:
-	text "That's too bad!"
-	line "You have no room…"
+	text "Thật tiếc!"
+	line "Cậu hết chỗ rồi…"
 
-	para "I'll give it to"
-	line "you another time."
+	para "Tớ sẽ đưa cậu"
+	line "vào lần khác."
 	done
 
 ErinRematchGiftText:
-	text "Aww… I lost again!"
+	text "Aww… Tớ lại thua!"
 
-	para "I wonder how many"
-	line "times that is…"
+	para "Không biết đã bao"
+	line "nhiêu lần rồi…"
 
-	para "Thanks for coming!"
-	line "Here's a present!"
+	para "Cảm ơn vì đã đến!"
+	line "Đây là quà tặng!"
 	done

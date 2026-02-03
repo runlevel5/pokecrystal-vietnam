@@ -47,8 +47,8 @@ TradeCenterFriendScript: ; unreferenced
 	end
 
 TradeCenterFriendReadyText:
-	text "Your friend is"
-	line "ready."
+	text "Bạn cậu đã"
+	line "sẵn sàng."
 	done
 
 TradeCenter_MapEvents:

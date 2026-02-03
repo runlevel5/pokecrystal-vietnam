@@ -1,10 +1,10 @@
-	db "BUBBLE JET@" ; species name
-	dw 303, 640 ; height, weight
+	db "BONG BÓNG@" ; species name
+	dw 10, 290 ; height, weight
 
-	db   "As it uses the"
-	next "fins on the tip"
-	next "of its tail to"
+	db   "Khi dùng vây ở"
+	next "đuôi để bơi, nó"
+	next "hòa quyện hoàn"
 
-	page "swim, it blends"
-	next "with the water"
-	next "perfectly.@"
+	page "hảo với mặt nước.@"
+	next "@"
+	next "@"

@@ -42,8 +42,8 @@ TrainerFisherArnold:
 	end
 
 SwimmermSethSeenText:
-	text "Land ho! Gotta"
-	line "keep going!"
+	text "Thấy đất! Phải"
+	line "tiếp tục!"
 	done
 
 SwimmermSethBeatenText:
@@ -51,40 +51,40 @@ SwimmermSethBeatenText:
 	done
 
 SwimmermSethAfterBattleText:
-	text "This arrogant guy"
-	line "was at CINNABAR's"
-	cont "volcano."
+	text "Có thằng kiêu căng"
+	line "ở núi lửa"
+	cont "CINNABAR."
 	done
 
 SwimmerfNikkiSeenText:
-	text "If I win, you have"
-	line "to help me with my"
-	cont "suntan lotion!"
+	text "Nếu tôi thắng,"
+	line "bạn phải giúp tôi"
+	cont "bôi kem chống nắng"
 	done
 
 SwimmerfNikkiBeatenText:
-	text "I'm worried about"
-	line "sunburn…"
+	text "Tôi lo về cháy"
+	line "nắng…"
 	done
 
 SwimmerfNikkiAfterBattleText:
-	text "I have to watch"
-	line "out for blemishes"
-	cont "caused by the sun."
+	text "Tôi phải cẩn thận"
+	line "với tàn nhang do"
+	cont "ánh nắng mặt trời."
 	done
 
 FisherArnoldSeenText:
-	text "I'm bored by fish-"
-	line "ing. Let's battle!"
+	text "Tôi chán câu cá."
+	line "Chiến đấu thôi!"
 	done
 
 FisherArnoldBeatenText:
-	text "Utter failure…"
+	text "Thất bại hoàn toàn"
 	done
 
 FisherArnoldAfterBattleText:
-	text "I'll just go back"
-	line "to fishing…"
+	text "Tôi sẽ quay lại"
+	line "câu cá…"
 	done
 
 Route21_MapEvents:

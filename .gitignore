@@ -37,3 +37,10 @@ gfx/pokemon/*/frames.asm
 *.sn*
 *.sa*
 *.sg1
+
+# mac stuff
+.DS_Store
+
+# editor autosave files
+*Autosaved*
+*.piko-png

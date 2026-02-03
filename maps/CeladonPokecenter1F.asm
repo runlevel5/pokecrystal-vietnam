@@ -71,76 +71,70 @@ CeladonEusine:
 	step_end
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA is a master"
-	line "of grass #MON."
+	text "ERIKA là bậc thầy"
+	line "#MON CỎ."
 
-	para "She'll make you"
-	line "pay if you don't"
-	cont "watch yourself."
+	para "Cô ấy sẽ làm bạn"
+	line "trả giá nếu không"
+	cont "cẩn thận."
 	done
 
 CeladonPokecenter1FPharmacistText:
-	text "TEAM ROCKET's"
-	line "hideout is in the"
+	text "Hang ĐỘI ROCKET"
+	line "ở tầng hầm"
 
-	para "basement of the"
-	line "GAME CORNER."
+	para "GÓC GIẢI TRÍ."
 
-	para "Oh, wait. That was"
-	line "three years ago."
+	para "Ồ, chờ đã. Đó là"
+	line "ba năm trước."
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Hi!"
+	text "EUSINE: Chào!"
 
-	para "I'm back visiting"
-	line "my hometown."
+	para "Tôi đang thăm lại"
+	line "quê hương."
 
-	para "It's been quite a"
-	line "while."
+	para "Đã lâu rồi."
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, have you"
-	line "heard?"
+	text "<PLAYER>, bạn đã"
+	line "nghe chưa?"
 
-	para "There have been"
-	line "fresh rumors of a"
+	para "Có tin đồn mới về"
+	line "#MON màu cầu"
 
-	para "rainbow-colored"
-	line "#MON appearing"
-	cont "at TIN TOWER."
+	para "vồng xuất hiện ở"
+	line "THÁP THIẾC."
 
-	para "I've just had my"
-	line "party healed, so"
+	para "Tôi vừa chữa lành"
+	line "đội hình, giờ tôi"
 
-	para "now I'm headed to"
-	line "ECRUTEAK."
+	para "sẽ đến ECRUTEAK."
 
-	para "I'll be seeing"
-	line "you, <PLAYER>!"
+	para "Hẹn gặp lại,"
+	line "<PLAYER>!"
 	done
 
 NoBeastsText:
-	text "Oh, by the way,"
-	line "<PLAYER>."
+	text "À này, <PLAYER>."
 
-	para "Have you caught"
-	line "the legendary"
+	para "Bạn đã bắt #MON"
+	line "huyền thoại RAIKOU"
 
-	para "#MON RAIKOU and"
-	line "ENTEI?"
+	para "và ENTEI chưa?"
 
 	para "<……><……><……>"
 
-	para "Okay…"
+	para "Được rồi…"
 
-	para "If you catch even"
-	line "one, I hope that"
-	cont "you'll inform me."
+	para "Nếu bắt được con"
+	line "nào, mong bạn báo"
+	cont "tôi nhé."
 
-	para "I'm counting on"
-	line "you, <PLAYER>!"
+	para "Tôi trông cậy vào"
+	line "bạn, <PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

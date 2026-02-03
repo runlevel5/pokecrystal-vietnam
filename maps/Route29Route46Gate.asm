@@ -14,24 +14,24 @@ Route29Route46GateYoungsterScript:
 	jumptextfaceplayer Route29Route46GateYoungsterText
 
 Route29Route46GateOfficerText:
-	text "You can't climb"
-	line "ledges."
+	text "Bạn không thể leo"
+	line "vách đá lên."
 
-	para "But you can jump"
-	line "down from them to"
-	cont "take a shortcut."
+	para "Nhưng bạn có thể"
+	line "nhảy xuống để"
+	cont "đi tắt."
 	done
 
 Route29Route46GateYoungsterText:
-	text "Different kinds of"
-	line "#MON appear"
-	cont "past here."
+	text "Nhiều loại #MON"
+	line "khác nhau xuất"
+	cont "hiện ở đây."
 
-	para "If you want to"
-	line "catch them all,"
+	para "Nếu muốn bắt hết"
+	line "tất cả,"
 
-	para "you have to look"
-	line "everywhere."
+	para "bạn phải tìm ở"
+	line "khắp mọi nơi."
 	done
 
 Route29Route46Gate_MapEvents:

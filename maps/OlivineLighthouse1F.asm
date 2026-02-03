@@ -14,24 +14,24 @@ OlivineLighthouse1FPokefanFScript:
 	jumptextfaceplayer OlivineLighthouse1FPokefanFText
 
 OlivineLighthouse1FSailorText:
-	text "People train at"
-	line "this LIGHTHOUSE."
+	text "Mọi người tập"
+	line "luyện ở HẢI ĐĂNG"
+	cont "này."
 
-	para "It's not easy to"
-	line "climb because of"
-	cont "all the trainers."
+	para "Không dễ leo lên"
+	line "vì có nhiều HLV."
 	done
 
 OlivineLighthouse1FPokefanFText:
-	text "In the past, #-"
-	line "MON used to light"
+	text "Ngày xưa, #MON"
+	line "thắp sáng vùng"
 
-	para "the sea around"
-	line "OLIVINE at night."
+	para "biển quanh OLIVINE"
+	line "vào ban đêm."
 
-	para "The LIGHTHOUSE was"
-	line "made in honor of"
-	cont "those #MON."
+	para "HẢI ĐĂNG được xây"
+	line "để tôn vinh những"
+	cont "#MON đó."
 	done
 
 OlivineLighthouse1F_MapEvents:

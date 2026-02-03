@@ -1,10 +1,10 @@
-	db "TINY BIRD@" ; species name
-	dw 100, 40 ; height, weight
+	db "CHIM NHỎ@" ; species name
+	dw 3, 20 ; height, weight
 
-	db   "To protect its"
-	next "territory, it"
-	next "flies around"
+	db   "Để bảo vệ lãnh"
+	next "thổ, nó bay quanh"
+	next "không ngừng,"
 
-	page "ceaselessly,"
-	next "making high-"
-	next "pitched cries.@"
+	page "phát ra tiếng kêu"
+	next "chói tai.@"
+	next "@"

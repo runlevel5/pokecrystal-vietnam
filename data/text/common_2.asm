@@ -1,111 +1,111 @@
 _NoPhotoText::
-	text "Oh, no picture?"
-	line "Come again, OK?"
+	text "Ồ, không chụp à?"
+	line "Lần sau nhé!"
 	done
 
 _EggPhotoText::
-	text "An EGG? My talent"
-	line "is worth more…"
+	text "Quả TRỨNG? Tài"
+	line "tôi quý hơn thế…"
 	done
 
 _NameRaterHelloText::
-	text "Hello, hello! I'm"
-	line "the NAME RATER."
+	text "Xin chào! Tôi là"
+	line "ông CHẤM TÊN."
 
-	para "I rate the names"
-	line "of #MON."
+	para "Tôi chấm điểm tên"
+	line "của #MON."
 
-	para "Would you like me"
-	line "to rate names?"
+	para "Bạn muốn tôi chấm"
+	line "điểm tên không?"
 	done
 
 _NameRaterWhichMonText::
-	text "Which #MON's"
-	line "nickname should I"
-	cont "rate for you?"
+	text "Biệt danh #MON"
+	line "nào tôi cần chấm"
+	cont "cho bạn?"
 	prompt
 
 _NameRaterBetterNameText::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "…"
-	line "That's a fairly"
-	cont "decent name."
+	line "Cái tên khá tốt"
+	cont "đấy."
 
-	para "But, how about a"
-	line "slightly better"
-	cont "nickname?"
+	para "Nhưng, đổi sang"
+	line "tên hay hơn chút"
+	cont "thì sao?"
 
-	para "Want me to give it"
-	line "a better name?"
+	para "Muốn tôi đặt tên"
+	line "hay hơn không?"
 	done
 
 _NameRaterWhatNameText::
-	text "All right. What"
-	line "name should we"
-	cont "give it, then?"
+	text "Được rồi. Vậy"
+	line "chúng ta đặt tên"
+	cont "gì đây?"
 	prompt
 
 _NameRaterFinishedText::
-	text "That's a better"
-	line "name than before!"
+	text "Tên này hay hơn"
+	line "tên cũ rồi!"
 
-	para "Well done!"
+	para "Tuyệt lắm!"
 	done
 
 _NameRaterComeAgainText::
-	text "OK, then. Come"
-	line "again sometime."
+	text "Vậy nhé. Lần sau"
+	line "lại đến nhé."
 	done
 
 _NameRaterPerfectNameText::
 	text "Hm… @"
 	text_ram wStringBuffer1
 	text "?"
-	line "What a great name!"
-	cont "It's perfect."
+	line "Tên hay quá!"
+	cont "Hoàn hảo luôn."
 
-	para "Treat @"
+	para "Hãy chăm sóc"
+	line "@"
 	text_ram wStringBuffer1
 	text_start
-	line "with loving care."
+	line "thật tốt nhé."
 	done
 
 _NameRaterEggText::
-	text "Whoa… That's just"
-	line "an EGG."
+	text "Ồ… Đây chỉ là"
+	line "quả TRỨNG thôi."
 	done
 
 _NameRaterSameNameText::
-	text "It might look the"
-	line "same as before,"
+	text "Có vẻ giống tên"
+	line "cũ thật,"
 
-	para "but this new name"
-	line "is much better!"
+	para "nhưng tên mới này"
+	line "hay hơn nhiều!"
 
-	para "Well done!"
+	para "Tuyệt lắm!"
 	done
 
 _NameRaterNamedText::
-	text "All right. This"
-	line "#MON is now"
-	cont "named @"
+	text "Được rồi. #MON"
+	line "này giờ được đặt"
+	cont "tên @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 Text_Gained::
 	text_ram wStringBuffer1
-	text " gained@"
+	text " nhận@"
 	text_end
 
 _BoostedExpPointsText::
 ; BUG: Five-digit experience gain is printed incorrectly (see docs/bugs_and_glitches.md)
 	text_start
-	line "a boosted"
-	cont "@"
+	line "thêm @"
 	text_decimal wStringBuffer2, 2, 4
-	text " EXP. Points!"
+	text " ĐIỂM K.N!"
 	prompt
 
 _ExpPointsText::
@@ -113,25 +113,25 @@ _ExpPointsText::
 	text_start
 	line "@"
 	text_decimal wStringBuffer2, 2, 4
-	text " EXP. Points!"
+	text " ĐIỂM K.N!"
 	prompt
 
 _GoMonText::
-	text "Go! @"
+	text "Lên! @"
 	text_end
 
 _DoItMonText::
-	text "Do it! @"
+	text "Nào! @"
 	text_end
 
 _GoForItMonText::
-	text "Go for it,"
+	text "Cố lên,"
 	line "@"
 	text_end
 
 _YourFoesWeakGetmMonText::
-	text "Your foe's weak!"
-	line "Get'm, @"
+	text "Đối thủ yếu rồi!"
+	line "Lên, @"
 	text_end
 
 _BattleMonNicknameText::
@@ -145,107 +145,106 @@ _BattleMonNickCommaText::
 	text_end
 
 _ThatsEnoughComeBackText::
-	text " that's"
-	line "enough! Come back!@"
+	text " đủ rồi!"
+	line "Quay về đi!@"
 	text_end
 
 _OKComeBackText::
 	text " OK!"
-	line "Come back!@"
+	line "Quay về đi!@"
 	text_end
 
 _GoodComeBackText::
-	text " good!"
-	line "Come back!@"
+	text " tốt lắm!"
+	line "Quay về đi!@"
 	text_end
 
 _ComeBackText::
-	text " come"
-	line "back!"
+	text " quay"
+	line "về đi!"
 	done
 
 _BootedTMText::
-	text "Booted up a TM."
+	text "Khởi động TM."
 	prompt
 
 _BootedHMText::
-	text "Booted up an HM."
+	text "Khởi động HM."
 	prompt
 
 _ContainedMoveText::
-	text "It contained"
+	text "Nó chứa chiêu"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 
-	para "Teach @"
+	para "Dạy @"
 	text_ram wStringBuffer2
 	text_start
-	line "to a #MON?"
+	line "cho #MON?"
 	done
 
 _TMHMNotCompatibleText::
 	text_ram wStringBuffer2
-	text " is"
-	line "not compatible"
-	cont "with @"
+	text " không"
+	line "tương thích với"
+	cont "@"
 	text_ram wStringBuffer1
 	text "."
 
-	para "It can't learn"
+	para "Nó không thể học"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _NoRoomTMHMText::
-	text "You have no room"
-	line "for any more"
-	cont "@"
+	text "Bạn không còn chỗ"
+	line "cho @"
 	text_ram wStringBuffer1
-	text "S."
+	text " nào nữa."
 	prompt
 
 _ReceivedTMHMText::
-	text "You received"
+	text "Bạn nhận được"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 _MysteryGiftCanceledText::
-	text "The link has been"
-	line "cancelled."
+	text "Liên kết đã bị"
+	line "hủy bỏ."
 	prompt
 
 _MysteryGiftCommErrorText::
-	text "Communication"
-	line "error."
+	text "Lỗi kết nối."
+	line ""
 	prompt
 
 _RetrieveMysteryGiftText::
-	text "Must retrieve GIFT"
-	line "at #MON CENTER."
+	text "Phải nhận QUÀ tại"
+	line "TRUNG TÂM #MON."
 	prompt
 
 _YourFriendIsNotReadyText::
-	text "Your friend isn't"
-	line "ready."
+	text "Bạn của bạn chưa"
+	line "sẵn sàng."
 	prompt
 
 _MysteryGiftFiveADayText::
-	text "Sorry--only five"
-	line "GIFTS a day."
+	text "Xin lỗi--chỉ được"
+	line "5 QUÀ mỗi ngày."
 	prompt
 
 _MysteryGiftOneADayText::
-	text "Sorry. One GIFT"
-	line "a day per person."
+	text "Xin lỗi. Mỗi ngày"
+	line "chỉ 1 QUÀ/người."
 	prompt
 
 _MysteryGiftSentText::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " gửi"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
@@ -253,69 +252,70 @@ _MysteryGiftSentText::
 
 _MysteryGiftSentHomeText::
 	text_ram wMysteryGiftPartnerName
-	text " sent"
+	text " gửi"
 	line "@"
 	text_ram wStringBuffer1
 	text_start
-	cont "to @"
+	cont "về nhà @"
 	text_ram wMysteryGiftPlayerName
-	text "'s home."
+	text "."
 	prompt
 
 _NameCardReceivedCardText::
-	text "Received"
-	line "@"
+	text "Nhận được THẺ"
+	line "của @"
 	text_ram wMysteryGiftCardHolderName
-	text "'s CARD."
+	text "."
 	prompt
 
 _NameCardListedCardText::
+	text "THẺ của @"
 	text_ram wMysteryGiftCardHolderName
-	text "'s CARD was"
-	line "listed as no.@"
+	text_start
+	line "được xếp số @"
 	text_decimal wTextDecimalByte, 1, 2
 	text "."
 	prompt
 
 _NameCardNotRegisteredCardText::
-	text "The CARD was not"
-	line "registered."
+	text "THẺ chưa được"
+	line "đăng ký."
 	prompt
 
 _NameCardLinkCancelledText::
-	text "The link has been"
-	line "cancelled."
+	text "Liên kết đã bị"
+	line "hủy bỏ."
 	prompt
 
 _NameCardLinkCommErrorText::
-	text "Communication"
-	line "error."
+	text "Lỗi kết nối."
+	line ""
 	prompt
 
 _BadgeRequiredText::
-	text "Sorry! A new BADGE"
-	line "is required."
+	text "Xin lỗi! Cần có"
+	line "HUY HIỆU mới."
 	prompt
 
 _CantUseItemText::
-	text "Can't use that"
-	line "here."
+	text "Không thể dùng"
+	line "ở đây."
 	prompt
 
 _UseCutText::
 	text_ram wStringBuffer2
-	text " used"
-	line "CUT!"
+	text " dùng"
+	line "CẮT!"
 	prompt
 
 _CutNothingText::
-	text "There's nothing to"
-	line "CUT here."
+	text "Không có gì để"
+	line "CẮT ở đây."
 	prompt
 
 _BlindingFlashText::
-	text "A blinding FLASH"
-	line "lights the area!@"
+	text "ÁNH SÁNG chói"
+	line "soi sáng khu vực!@"
 	text_promptbutton
 	text_end
 
@@ -323,334 +323,336 @@ _BlindingFlashText::
 
 _UsedSurfText::
 	text_ram wStringBuffer2
-	text " used"
-	line "SURF!"
+	text " dùng"
+	line "LƯỚT SÓNG!"
 	done
 
 _CantSurfText::
-	text "You can't SURF"
-	line "here."
+	text "Không thể LƯỚT"
+	line "SÓNG ở đây."
 	prompt
 
 _AlreadySurfingText::
-	text "You're already"
-	line "SURFING."
+	text "Bạn đang LƯỚT"
+	line "SÓNG rồi."
 	prompt
 
 _AskSurfText::
-	text "The water is calm."
-	line "Want to SURF?"
+	text "Nước êm đềm."
+	line "Muốn LƯỚT SÓNG?"
 	done
 
 _UseWaterfallText::
 	text_ram wStringBuffer2
-	text " used"
-	line "WATERFALL!"
+	text " dùng"
+	line "THÁC NƯỚC!"
 	done
 
 _HugeWaterfallText::
-	text "Wow, it's a huge"
-	line "waterfall."
+	text "Wow, thác nước"
+	line "lớn quá."
 	done
 
 _AskWaterfallText::
-	text "Do you want to use"
-	line "WATERFALL?"
+	text "Bạn muốn dùng"
+	line "THÁC NƯỚC?"
 	done
 
 _UseDigText::
 	text_ram wStringBuffer2
-	text " used"
-	line "DIG!"
+	text " dùng"
+	line "ĐÀO!"
 	done
 
 _UseEscapeRopeText::
-	text "<PLAYER> used an"
-	line "ESCAPE ROPE."
+	text "<PLAYER> dùng"
+	line "DÂY THOÁT HIỂM."
 	done
 
 _CantUseDigText::
-	text "Can't use that"
-	line "here."
+	text "Không thể dùng"
+	line "ở đây."
 	done
 
 _TeleportReturnText::
-	text "Return to the last"
-	line "#MON CENTER."
+	text "Quay về TRUNG TÂM"
+	line "#MON gần nhất."
 	done
 
 _CantUseTeleportText::
-	text "Can't use that"
-	line "here."
+	text "Không thể dùng"
+	line "ở đây."
 
 	para ""
 	done
 
 _AlreadyUsingStrengthText::
-	text "A #MON is using"
-	line "STRENGTH already."
+	text "#MON đang dùng"
+	line "SỨC MẠNH rồi."
 	prompt
 
 _UseStrengthText::
 	text_ram wStringBuffer2
-	text " used"
-	line "STRENGTH!"
+	text " dùng"
+	line "SỨC MẠNH!"
 	done
 
 _MoveBoulderText::
 	text_ram wStringBuffer1
-	text " can"
-	line "move boulders."
+	text " có thể"
+	line "đẩy tảng đá."
 	prompt
 
 _AskStrengthText::
-	text "A #MON may be"
-	line "able to move this."
+	text "#MON có thể đẩy"
+	line "được vật này."
 
-	para "Want to use"
-	line "STRENGTH?"
+	para "Muốn dùng"
+	line "SỨC MẠNH?"
 	done
 
 _BouldersMoveText::
-	text "Boulders may now"
-	line "be moved!"
+	text "Giờ có thể đẩy"
+	line "tảng đá rồi!"
 	done
 
 _BouldersMayMoveText::
-	text "A #MON may be"
-	line "able to move this."
+	text "#MON có thể đẩy"
+	line "được vật này."
 	done
 
 _UseWhirlpoolText::
 	text_ram wStringBuffer2
-	text " used"
-	line "WHIRLPOOL!"
+	text " dùng"
+	line "XOÁY NƯỚC!"
 	prompt
 
 _MayPassWhirlpoolText::
-	text "It's a vicious"
-	line "whirlpool!"
+	text "Xoáy nước dữ"
+	line "dội quá!"
 
-	para "A #MON may be"
-	line "able to pass it."
+	para "#MON có thể"
+	line "vượt qua được."
 	done
 
 _AskWhirlpoolText::
-	text "A whirlpool is in"
-	line "the way."
+	text "Xoáy nước chắn"
+	line "đường."
 
-	para "Want to use"
-	line "WHIRLPOOL?"
+	para "Muốn dùng"
+	line "XOÁY NƯỚC?"
 	done
 
 _UseHeadbuttText::
 	text_ram wStringBuffer2
-	text " did a"
-	line "HEADBUTT!"
+	text " đã"
+	line "HÚNG ĐẦU!"
 	prompt
 
 _HeadbuttNothingText::
-	text "Nope. Nothing…"
+	text "Không có gì…"
 	done
 
 _AskHeadbuttText::
-	text "A #MON could be"
-	line "in this tree."
+	text "#MON có thể ở"
+	line "trong cây này."
 
-	para "Want to HEADBUTT"
-	line "it?"
+	para "Muốn HÚNG ĐẦU"
+	line "vào cây?"
 	done
 
 _UseRockSmashText::
 	text_ram wStringBuffer2
-	text " used"
-	line "ROCK SMASH!"
+	text " dùng"
+	line "ĐẬP ĐÁ!"
 	prompt
 
 _MaySmashText::
-	text "Maybe a #MON"
-	line "can break this."
+	text "Có lẽ #MON"
+	line "đập vỡ được cái"
+	cont "này."
 	done
 
 _AskRockSmashText::
-	text "This rock looks"
-	line "breakable."
+	text "Tảng đá này có"
+	line "vẻ vỡ được."
 
-	para "Want to use ROCK"
-	line "SMASH?"
+	para "Muốn dùng ĐẬP"
+	line "ĐÁ?"
 	done
 
 _RodBiteText::
-	text "Oh!"
-	line "A bite!"
+	text "Ồ!"
+	line "Có cá cắn câu!"
 	prompt
 
 _RodNothingText::
-	text "Not even a nibble!"
+	text "Chẳng có gì cắn!"
 	prompt
 
 _UnusedNothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Có vẻ không có"
+	line "gì ở đây."
 	prompt
 
 _CantGetOffBikeText::
-	text "You can't get off"
-	line "here!"
+	text "Không xuống xe"
+	line "được ở đây!"
 	done
 
 _GotOnBikeText::
-	text "<PLAYER> got on the"
+	text "<PLAYER> lên"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _GotOffBikeText::
-	text "<PLAYER> got off"
-	line "the @"
+	text "<PLAYER> xuống"
+	line "@"
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _AskCutText::
-	text "This tree can be"
-	line "CUT!"
+	text "Cây này có thể"
+	line "CẮT được!"
 
-	para "Want to use CUT?"
+	para "Muốn dùng CẮT?"
 	done
 
 _CanCutText::
-	text "This tree can be"
-	line "CUT!"
+	text "Cây này có thể"
+	line "CẮT được!"
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> tìm thấy"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 _CantCarryItemText::
-	text "But <PLAYER> can't"
-	line "carry any more"
-	cont "items."
+	text "Nhưng <PLAYER>"
+	line "không mang thêm"
+	cont "vật phẩm được."
 	done
 
 _WhitedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> hết"
+	line "#MON dùng được!"
 
-	para "<PLAYER> whited"
-	line "out!"
+	para "<PLAYER> ngất"
+	line "xỉu rồi!"
 	done
 
 _ItemfinderItemNearbyText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Có! MÁY TÌM ĐỒ"
+	line "cho thấy có vật"
+	cont "phẩm gần đây."
 	prompt
 
 _ItemfinderNopeText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Không! MÁY TÌM ĐỒ"
+	line "không phản hồi."
 	prompt
 
 _PoisonFaintText::
 	text_ram wStringBuffer3
 	text_start
-	line "fainted!"
+	line "ngất xỉu rồi!"
 	prompt
 
 _PoisonWhiteoutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> hết"
+	line "#MON dùng được!"
 
-	para "<PLAYER> whited"
-	line "out!"
+	para "<PLAYER> ngất"
+	line "xỉu rồi!"
 	prompt
 
 _UseSweetScentText::
 	text_ram wStringBuffer3
-	text " used"
-	line "SWEET SCENT!"
+	text " dùng"
+	line "MÙI HƯƠNG NGỌT!"
 	done
 
 _SweetScentNothingText::
-	text "Looks like there's"
-	line "nothing here…"
+	text "Có vẻ không có"
+	line "gì ở đây…"
 	done
 
 _SquirtbottleNothingText::
-	text "<PLAYER> sprinkled"
-	line "water."
+	text "<PLAYER> tưới"
+	line "nước."
 
-	para "But nothing"
-	line "happened…"
+	para "Nhưng không có"
+	line "gì xảy ra…"
 	done
 
 _UseSacredAshText::
-	text "<PLAYER>'s #MON"
-	line "were all healed!"
+	text "#MON của"
+	line "<PLAYER> đã được"
+	cont "hồi phục hết!"
 	done
 
 _AnEggCantHoldAnItemText::
-	text "An EGG can't hold"
-	line "an item."
+	text "TRỨNG không thể"
+	line "giữ vật phẩm."
 	prompt
 
 _PackNoItemText::
-	text "No items."
+	text "Không có đồ."
 	done
 
 _AskThrowAwayText::
-	text "Throw away how"
-	line "many?"
+	text "Bỏ đi bao nhiêu?"
+	line ""
 	done
 
 _AskQuantityThrowAwayText::
-	text "Throw away @"
+	text "Bỏ đi @"
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 _ThrewAwayText::
-	text "Threw away"
+	text "Đã bỏ"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "."
 	prompt
 
 _OakThisIsntTheTimeText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "GS.OAK: <PLAYER>!"
+	line "Không phải lúc"
+	cont "để dùng cái đó!"
 	prompt
 
 _YouDontHaveAMonText::
-	text "You don't have a"
-	line "#MON!"
+	text "Bạn không có"
+	line "#MON nào!"
 	prompt
 
 _RegisteredItemText::
-	text "Registered the"
+	text "Đã đăng ký"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _CantRegisterText::
-	text "You can't register"
-	line "that item."
+	text "Không thể đăng ký"
+	line "vật phẩm đó."
 	prompt
 
 _AskItemMoveText::
-	text "Where should this"
-	line "be moved to?"
+	text "Nên chuyển vật"
+	line "phẩm này đi đâu?"
 	done
 
 _PackEmptyText::
@@ -658,17 +660,17 @@ _PackEmptyText::
 	done
 
 _YouCantUseItInABattleText::
-	text "You can't use it"
-	line "in a battle."
+	text "Không dùng được"
+	line "trong trận đấu."
 	prompt
 
 _AreYouABoyOrAreYouAGirlText::
-	text "Are you a boy?"
-	line "Or are you a girl?"
+	text "Bạn là nam?"
+	line "hay nữ?"
 	done
 
 Text_BattleEffectActivate::
-	text "<USER>'s"
+	text "<USER>"
 	line "@"
 	text_ram wStringBuffer2
 	text_end
@@ -677,15 +679,15 @@ Text_BattleEffectActivate::
 
 _BattleStatWentWayUpText::
 	text_pause
-	text "<SCROLL>went way up!"
+	text "<SCROLL>tăng mạnh!"
 	prompt
 
 _BattleStatWentUpText::
-	text " went up!"
+	text " tăng lên!"
 	prompt
 
 Text_BattleFoeEffectActivate::
-	text "<TARGET>'s"
+	text "<TARGET>"
 	line "@"
 	text_ram wStringBuffer2
 	text_end
@@ -694,11 +696,11 @@ Text_BattleFoeEffectActivate::
 
 _BattleStatSharplyFellText::
 	text_pause
-	text "<SCROLL>sharply fell!"
+	text "<SCROLL>giảm mạnh!"
 	prompt
 
 _BattleStatFellText::
-	text " fell!"
+	text " giảm!"
 	prompt
 
 Text_BattleUser::
@@ -707,32 +709,32 @@ Text_BattleUser::
 
 _BattleMadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "tạo gió xoáy!"
 	prompt
 
 _BattleTookSunlightText::
 	text_start
-	line "took in sunlight!"
+	line "hấp thụ ánh nắng!"
 	prompt
 
 _BattleLoweredHeadText::
 	text_start
-	line "lowered its head!"
+	line "hạ thấp đầu!"
 	prompt
 
 _BattleGlowingText::
 	text_start
-	line "is glowing!"
+	line "đang phát sáng!"
 	prompt
 
 _BattleFlewText::
 	text_start
-	line "flew up high!"
+	line "bay lên cao!"
 	prompt
 
 _BattleDugText::
 	text_start
-	line "dug a hole!"
+	line "đào một cái hố!"
 	prompt
 
 _ActorNameText::
@@ -741,16 +743,16 @@ _ActorNameText::
 
 _UsedMove1Text::
 	text_start
-	line "used @"
+	line "dùng @"
 	text_end
 
 _UsedMove2Text::
 	text_start
-	line "used @"
+	line "dùng @"
 	text_end
 
 _UsedInsteadText::
-	text "instead,"
+	text "thay vào đó,"
 	cont "@"
 	text_end
 
@@ -781,7 +783,7 @@ _EndUsedMove5Text::
 	done
 
 Text_BreedHuh::
-	text "Huh?"
+	text "Hả?"
 
 	para "@"
 	text_end
@@ -792,8 +794,8 @@ _BreedClearboxText::
 
 _BreedEggHatchText::
 	text_ram wStringBuffer1
-	text " came"
-	line "out of its EGG!@"
+	text " đã"
+	line "nở ra từ TRỨNG!@"
 	sound_caught_mon
 	text_promptbutton
 	text_end
@@ -801,101 +803,101 @@ _BreedEggHatchText::
 	text_end ; unreferenced
 
 _BreedAskNicknameText::
-	text "Give a nickname to"
+	text "Đặt biệt danh cho"
 	line "@"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _LeftWithDayCareLadyText::
-	text "It's @"
+	text "Đó là @"
 	text_ram wBreedMon2Nickname
 	text_start
-	line "that was left with"
-	cont "the DAY-CARE LADY."
+	line "được gửi cho BÀ"
+	cont "GIỮ TRẺ."
 	done
 
 _LeftWithDayCareManText::
-	text "It's @"
+	text "Đó là @"
 	text_ram wBreedMon1Nickname
 	text_start
-	line "that was left with"
-	cont "the DAY-CARE MAN."
+	line "được gửi cho ÔNG"
+	cont "GIỮ TRẺ."
 	done
 
 _BreedBrimmingWithEnergyText::
-	text "It's brimming with"
-	line "energy."
+	text "Nó đang tràn đầy"
+	line "năng lượng."
 	prompt
 
 _BreedNoInterestText::
-	text "It has no interest"
-	line "in @"
+	text "Nó không quan tâm"
+	line "đến @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BreedAppearsToCareForText::
-	text "It appears to care"
-	line "for @"
+	text "Có vẻ nó quan tâm"
+	line "đến @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BreedFriendlyText::
-	text "It's friendly with"
+	text "Nó thân thiện với"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _BreedShowsInterestText::
-	text "It shows interest"
-	line "in @"
+	text "Nó thể hiện sự"
+	line "quan tâm đến @"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _EmptyMailboxText::
-	text "There's no MAIL"
-	line "here."
+	text "Không có THƯ nào"
+	line "ở đây."
 	prompt
 
 _MailClearedPutAwayText::
-	text "The cleared MAIL"
-	line "was put away."
+	text "THƯ đã xoá được"
+	line "cất đi."
 	prompt
 
 _MailPackFullText::
-	text "The PACK is full."
+	text "BA LÔ đầy rồi."
 	prompt
 
 _MailMessageLostText::
-	text "The MAIL's message"
-	line "will be lost. OK?"
+	text "Nội dung THƯ sẽ"
+	line "bị mất. Được chứ?"
 	done
 
 _MailAlreadyHoldingItemText::
-	text "It's already hold-"
-	line "ing an item."
+	text "Nó đã cầm một"
+	line "vật phẩm rồi."
 	prompt
 
 _MailEggText::
-	text "An EGG can't hold"
-	line "any MAIL."
+	text "TRỨNG không thể"
+	line "giữ THƯ."
 	prompt
 
 _MailMovedFromBoxText::
-	text "The MAIL was moved"
-	line "from the MAILBOX."
+	text "THƯ đã được chuyển"
+	line "ra khỏi HỘP THƯ."
 	prompt
 
 _YesPromptText:: ; unreferenced
-	text "Yes"
+	text "Có"
 	prompt
 
 _NoPromptText:: ; unreferenced
-	text "No"
+	text "Không"
 	prompt
 
 _AnimationTypeText:: ; unreferenced
@@ -903,81 +905,81 @@ _AnimationTypeText:: ; unreferenced
 	text " @"
 	text_ram wStringBuffer1
 	text_start
-	line "Animation type @"
+	line "Loại hiệu ứng @"
 	text_ram wStringBuffer2
 	text_end
 
 	text_end ; unreferenced
 
 _MonNumberText:: ; unreferenced
-	text "#MON number?"
+	text "Số #MON?"
 	done
 
 _WasSentToBillsPCText::
 	text_ram wStringBuffer1
-	text " was"
-	line "sent to BILL's PC."
+	text " đã"
+	line "gửi đến PC BILL."
 	prompt
 
 _PCGottaHavePokemonText::
-	text "You gotta have"
-	line "#MON to call!"
+	text "Bạn cần có #MON"
+	line "mới gọi được!"
 	prompt
 
 _PCWhatText::
-	text "What?"
+	text "Gì?"
 	done
 
 _PCMonHoldingMailText::
-	text "There is a #MON"
-	line "holding MAIL."
+	text "Có #MON đang"
+	line "giữ THƯ."
 
-	para "Please remove the"
-	line "MAIL."
+	para "Hãy lấy THƯ ra"
+	line "trước."
 	prompt
 
 _PCNoSingleMonText::
-	text "You don't have a"
-	line "single #MON!"
+	text "Bạn không có"
+	line "#MON nào cả!"
 	prompt
 
 _PCCantDepositLastMonText::
-	text "You can't deposit"
-	line "your last #MON!"
+	text "Không gửi #MON"
+	line "cuối cùng được!"
 	prompt
 
 _PCCantTakeText::
-	text "You can't take any"
-	line "more #MON."
+	text "Không lấy thêm"
+	line "#MON được nữa."
 	prompt
 
 _ContestCaughtMonText::
-	text "Caught @"
+	text "Bắt được @"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 _ContestAskSwitchText::
-	text "Switch #MON?"
+	text "Đổi #MON?"
 	done
 
 _ContestAlreadyCaughtText::
-	text "You already caught"
-	line "a @"
+	text "Bạn đã bắt được"
+	line "một @"
 	text_ram wStringBuffer1
-	text "."
+	text " rồi."
 	prompt
 
 _ContestJudging_FirstPlaceText::
-	text "This Bug-Catching"
-	line "Contest winner is@"
+	text "Người thắng cuộc"
+	line "thi Bắt Bọ là@"
 	text_pause
 	text "…"
 
 	para "@"
 	text_ram wBugContestWinnerName
 	text ","
-	line "who caught a"
+	line "đã bắt được"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -986,19 +988,19 @@ _ContestJudging_FirstPlaceText::
 _ContestJudging_FirstPlaceScoreText::
 	text_start
 
-	para "The winning score"
-	line "was @"
+	para "Điểm chiến thắng"
+	line "là @"
 	text_decimal wBugContestFirstPlaceScore, 2, 3
-	text " points!"
+	text " điểm!"
 	prompt
 
 _ContestJudging_SecondPlaceText::
-	text "Placing second was"
+	text "Xếp hạng nhì là"
 	line "@"
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "who caught a"
+	para "đã bắt được"
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1007,19 +1009,19 @@ _ContestJudging_SecondPlaceText::
 _ContestJudging_SecondPlaceScoreText::
 	text_start
 
-	para "The score was"
+	para "Điểm số là"
 	line "@"
 	text_decimal wBugContestSecondPlaceScore, 2, 3
-	text " points!"
+	text " điểm!"
 	prompt
 
 _ContestJudging_ThirdPlaceText::
-	text "Placing third was"
+	text "Xếp hạng ba là"
 	line "@"
 	text_ram wBugContestWinnerName
 	text ","
 
-	para "who caught a"
+	para "đã bắt được"
 	line "@"
 	text_ram wStringBuffer1
 	text "!@"
@@ -1028,28 +1030,28 @@ _ContestJudging_ThirdPlaceText::
 _ContestJudging_ThirdPlaceScoreText::
 	text_start
 
-	para "The score was"
+	para "Điểm số là"
 	line "@"
 	text_decimal wBugContestThirdPlaceScore, 2, 3
-	text " points!"
+	text " điểm!"
 	prompt
 
 _MagikarpGuruMeasureText::
-	text "Let me measure"
-	line "that MAGIKARP."
+	text "Để tôi đo con"
+	line "MAGIKARP đó."
 
-	para "…Hm, it measures"
+	para "…Hm, nó dài"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _KarpGuruRecordText::
-	text "CURRENT RECORD"
+	text "KỶ LỤC HIỆN TẠI"
 
 	para "@"
 	text_ram wStringBuffer1
-	text " caught by"
+	text " bắt bởi"
 	line "@"
 	text_ram wMagikarpRecordHoldersName
 	text_promptbutton
@@ -1058,490 +1060,490 @@ _KarpGuruRecordText::
 	text_end ; unreferenced
 
 _LuckyNumberMatchPartyText::
-	text "Congratulations!"
+	text "Chúc mừng!"
 
-	para "We have a match"
-	line "with the ID number"
-
-	para "of @"
+	para "Số ID trùng khớp"
+	line "với @"
 	text_ram wStringBuffer1
-	text " in"
-	line "your party."
+	text_start
+
+	para "trong đội của bạn."
 	prompt
 
 _LuckyNumberMatchPCText::
-	text "Congratulations!"
+	text "Chúc mừng!"
 
-	para "We have a match"
-	line "with the ID number"
-
-	para "of @"
+	para "Số ID trùng khớp"
+	line "với @"
 	text_ram wStringBuffer1
-	text " in"
-	line "your PC BOX."
+	text_start
+
+	para "trong HỘP PC."
 	prompt
 
 _CaughtAskNicknameText::
-	text "Give a nickname to"
-	line "the @"
+	text "Đặt biệt danh cho"
+	line "@"
 	text_ram wStringBuffer1
-	text " you"
-	cont "received?"
+	text " bạn"
+	cont "vừa nhận?"
 	done
 
 _PokecenterPCCantUseText::
-	text "Bzzzzt! You must"
-	line "have a #MON to"
-	cont "use this!"
+	text "Bzzzzt! Bạn cần"
+	line "có #MON mới"
+	cont "dùng được cái này!"
 	prompt
 
 _PlayersPCTurnOnText::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> bật"
+	line "PC lên."
 	prompt
 
 _PlayersPCAskWhatDoText::
-	text "What do you want"
-	line "to do?"
+	text "Bạn muốn làm gì?"
+	line ""
 	done
 
 _PlayersPCHowManyWithdrawText::
-	text "How many do you"
-	line "want to withdraw?"
+	text "Bạn muốn rút"
+	line "bao nhiêu?"
 	done
 
 _PlayersPCWithdrewItemsText::
-	text "Withdrew @"
+	text "Đã rút @"
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "."
 	prompt
 
 _PlayersPCNoRoomWithdrawText::
-	text "There's no room"
-	line "for more items."
+	text "Không còn chỗ cho"
+	line "thêm vật phẩm."
 	prompt
 
 _PlayersPCNoItemsText::
-	text "No items here!"
+	text "Không có đồ!"
 	prompt
 
 _PlayersPCHowManyDepositText::
-	text "How many do you"
-	line "want to deposit?"
+	text "Bạn muốn gửi"
+	line "bao nhiêu?"
 	done
 
 _PlayersPCDepositItemsText::
-	text "Deposited @"
+	text "Đã gửi @"
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)."
+	text "."
 	prompt
 
 _PlayersPCNoRoomDepositText::
-	text "There's no room to"
-	line "store items."
+	text "Không còn chỗ để"
+	line "cất đồ."
 	prompt
 
 _PokecenterPCTurnOnText::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> bật"
+	line "PC lên."
 	prompt
 
 _PokecenterPCWhoseText::
-	text "Access whose PC?"
+	text "Truy cập PC ai?"
 	done
 
 _PokecenterBillsPCText::
-	text "BILL's PC"
-	line "accessed."
+	text "Đã truy cập"
+	line "PC của BILL."
 
-	para "#MON Storage"
-	line "System opened."
+	para "Hệ thống lưu trữ"
+	line "#MON đã mở."
 	prompt
 
 _PokecenterPlayersPCText::
-	text "Accessed own PC."
+	text "Đã truy cập PC"
+	line "của mình."
 
-	para "Item Storage"
-	line "System opened."
+	para "Hệ thống lưu trữ"
+	line "vật phẩm đã mở."
 	prompt
 
 _PokecenterOaksPCText::
-	text "PROF.OAK's PC"
-	line "accessed."
+	text "Đã truy cập PC"
+	line "của GS.OAK."
 
-	para "#DEX Rating"
-	line "System opened."
+	para "Hệ thống đánh giá"
+	line "#DEX đã mở."
 	prompt
 
 _PokecenterPCOaksClosedText::
 	text "…"
-	line "Link closed…"
+	line "Đã đóng liên kết…"
 	done
 
 _OakPCText1::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Muốn đánh giá"
+	line "#DEX của bạn?"
 	done
 
 _OakPCText2::
-	text "Current #DEX"
-	line "completion level:"
+	text "Mức hoàn thành"
+	line "#DEX hiện tại:"
 	prompt
 
 _OakPCText3::
 	text_ram wStringBuffer3
-	text " #MON seen"
+	text " #MON thấy"
 	line "@"
 	text_ram wStringBuffer4
-	text " #MON owned"
+	text " #MON sở hữu"
 
-	para "PROF.OAK's"
-	line "Rating:"
+	para "Đánh giá của"
+	line "GS.OAK:"
 	done
 
 _OakRating01::
-	text "Look for #MON"
-	line "in grassy areas!"
+	text "Hãy tìm #MON"
+	line "trong bụi cỏ!"
 	done
 
 _OakRating02::
-	text "Good. I see you"
-	line "understand how to"
-	cont "use # BALLS."
+	text "Tốt. Tôi thấy bạn"
+	line "hiểu cách dùng"
+	cont "BÓNG #."
 	done
 
 _OakRating03::
-	text "You're getting"
-	line "good at this."
+	text "Bạn đang tiến bộ"
+	line "đấy."
 
-	para "But you have a"
-	line "long way to go."
+	para "Nhưng còn một"
+	line "chặng đường dài."
 	done
 
 _OakRating04::
-	text "You need to fill"
-	line "up the #DEX."
+	text "Bạn cần điền đầy"
+	line "#DEX."
 
-	para "Catch different"
-	line "kinds of #MON!"
+	para "Bắt nhiều loại"
+	line "#MON khác nhau!"
 	done
 
 _OakRating05::
-	text "You're trying--I"
-	line "can see that."
+	text "Bạn đang cố gắng"
+	line "--tôi thấy điều đó"
 
-	para "Your #DEX is"
-	line "coming together."
+	para "#DEX của bạn"
+	line "đang hoàn thiện."
 	done
 
 _OakRating06::
-	text "To evolve, some"
-	line "#MON grow,"
+	text "Để tiến hoá, một"
+	line "số #MON lớn lên"
 
-	para "others use the"
-	line "effects of STONES."
+	para "số khác dùng tác"
+	line "dụng của ĐÁ."
 	done
 
 _OakRating07::
-	text "Have you gotten a"
-	line "fishing ROD? You"
+	text "Bạn có CẦN CÂU"
+	line "chưa? Bạn có thể"
 
-	para "can catch #MON"
-	line "by fishing."
+	para "bắt #MON bằng"
+	line "cách câu cá."
 	done
 
 _OakRating08::
-	text "Excellent! You"
-	line "seem to like col-"
-	cont "lecting things!"
+	text "Xuất sắc! Có vẻ"
+	line "bạn thích sưu tầm"
+	cont "đồ vật!"
 	done
 
 _OakRating09::
-	text "Some #MON only"
-	line "appear during"
+	text "Một số #MON chỉ"
+	line "xuất hiện vào"
 
-	para "certain times of"
-	line "the day."
+	para "những thời điểm"
+	line "nhất định."
 	done
 
 _OakRating10::
-	text "Your #DEX is"
-	line "filling up. Keep"
-	cont "up the good work!"
+	text "#DEX của bạn"
+	line "đang đầy dần. Hãy"
+	cont "tiếp tục phát huy!"
 	done
 
 _OakRating11::
-	text "I'm impressed."
-	line "You're evolving"
+	text "Ấn tượng đấy."
+	line "Bạn đang tiến hoá"
 
-	para "#MON, not just"
-	line "catching them."
+	para "#MON, không chỉ"
+	line "bắt chúng."
 	done
 
 _OakRating12::
-	text "Have you met KURT?"
-	line "His custom BALLS"
-	cont "should help."
+	text "Bạn gặp KURT chưa?"
+	line "BÓNG tự chế của"
+	cont "ông ấy sẽ giúp."
 	done
 
 _OakRating13::
-	text "Wow. You've found"
-	line "more #MON than"
+	text "Wow. Bạn tìm thấy"
+	line "nhiều #MON hơn"
 
-	para "the last #DEX"
-	line "research project."
+	para "dự án nghiên cứu"
+	line "#DEX trước."
 	done
 
 _OakRating14::
-	text "Are you trading"
-	line "your #MON?"
+	text "Bạn có trao đổi"
+	line "#MON không?"
 
-	para "It's tough to do"
-	line "this alone!"
+	para "Làm một mình thì"
+	line "khó lắm!"
 	done
 
 _OakRating15::
-	text "Wow! You've hit"
-	line "200! Your #DEX"
-	cont "is looking great!"
+	text "Wow! Bạn đạt 200!"
+	line "#DEX của bạn"
+	cont "trông tuyệt lắm!"
 	done
 
 _OakRating16::
-	text "You've found so"
-	line "many #MON!"
+	text "Bạn tìm được rất"
+	line "nhiều #MON!"
 
-	para "You've really"
-	line "helped my studies!"
+	para "Bạn thực sự giúp"
+	line "nghiên cứu của tôi"
 	done
 
 _OakRating17::
-	text "Magnificent! You"
-	line "could become a"
+	text "Tuyệt vời! Bạn có"
+	line "thể trở thành"
 
-	para "#MON professor"
-	line "right now!"
+	para "giáo sư #MON"
+	line "ngay bây giờ!"
 	done
 
 _OakRating18::
-	text "Your #DEX is"
-	line "amazing! You're"
+	text "#DEX của bạn"
+	line "thật tuyệt! Bạn"
 
-	para "ready to turn"
-	line "professional!"
+	para "sẵn sàng trở"
+	line "thành chuyên gia!"
 	done
 
 _OakRating19::
-	text "Whoa! A perfect"
-	line "#DEX! I've"
+	text "Whoa! #DEX hoàn"
+	line "hảo! Tôi đã mơ"
 
-	para "dreamt about this!"
-	line "Congratulations!"
+	para "về điều này!"
+	line "Chúc mừng!"
 	done
 
 _OakPCText4::
-	text "The link to PROF."
-	line "OAK's PC closed."
+	text "Đã đóng liên kết"
+	line "với PC GS.OAK."
 	done
 
 _TrainerRankingExplanationText:: ; unreferenced
-	text "Triple-theme"
-	line "trainer ranking!"
+	text "Xếp hạng huấn"
+	line "luyện viên ba chủ"
+	cont "đề!"
 
-	para "The SAVE file you"
-	line "just sent might"
-	cont "make the rankings!"
+	para "File SAVE bạn vừa"
+	line "gửi có thể lọt"
+	cont "vào bảng xếp hạng!"
 
 	para ""
 	done
 
 _TrainerRankingNoDataText:: ; unreferenced
-	text "There is no"
-	line "ranking data."
+	text "Không có dữ liệu"
+	line "xếp hạng."
 
-	para "Link to obtain"
-	line "ranking data."
+	para "Kết nối để lấy"
+	line "dữ liệu xếp hạng."
 
 	para ""
 	done
 
 _MemoryGameYeahText::
-	text " , yeah!"
+	text " , hay!"
 	done
 
 _MemoryGameDarnText::
-	text "Darn…"
+	text "Tiếc quá…"
 	done
 
 _StartMenuContestEndText::
-	text "Would you like to"
-	line "end the Contest?"
+	text "Bạn muốn kết thúc"
+	line "Cuộc thi?"
 	done
 
 _ItemsTossOutHowManyText::
-	text "Toss out how many"
+	text "Bỏ đi bao nhiêu"
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 _ItemsThrowAwayText::
-	text "Throw away @"
+	text "Bỏ đi @"
 	text_decimal wItemQuantityChange, 1, 2
 	text_start
 	line "@"
 	text_ram wStringBuffer2
-	text "(S)?"
+	text "?"
 	done
 
 _ItemsDiscardedText::
-	text "Discarded"
+	text "Đã bỏ"
 	line "@"
 	text_ram wStringBuffer1
-	text "(S)."
+	text "."
 	prompt
 
 _ItemsTooImportantText::
-	text "That's too impor-"
-	line "tant to toss out!"
+	text "Vật này quá quan"
+	line "trọng để bỏ đi!"
 	prompt
 
 _ItemsOakWarningText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "GS.OAK: <PLAYER>!"
+	line "Không phải lúc"
+	cont "để dùng cái đó!"
 	done
 
 _PokemonSwapItemText::
-	text "Took @"
-	text_ram wMonOrItemNameBuffer
-	text "'s"
-	line "@"
+	text "Lấy @"
 	text_ram wStringBuffer1
-	text " and"
+	text_start
+	line "của @"
+	text_ram wMonOrItemNameBuffer
+	text " và"
 
-	para "made it hold"
+	para "cho nó giữ"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _PokemonHoldItemText::
-	text "Made @"
+	text "Cho @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "hold @"
+	line "giữ @"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _PokemonRemoveMailText::
-	text "Please remove the"
-	line "MAIL first."
+	text "Hãy lấy THƯ ra"
+	line "trước."
 	prompt
 
 _PokemonNotHoldingText::
 	text_ram wMonOrItemNameBuffer
-	text " isn't"
-	line "holding anything."
+	text " không"
+	line "giữ gì cả."
 	prompt
 
 _ItemStorageFullText::
-	text "Item storage space"
-	line "full."
+	text "Kho vật phẩm"
+	line "đã đầy."
 	prompt
 
 _PokemonTookItemText::
-	text "Took @"
+	text "Lấy @"
 	text_ram wStringBuffer1
 	text_start
-	line "from @"
+	line "từ @"
 	text_ram wMonOrItemNameBuffer
 	text "."
 	prompt
 
 _PokemonAskSwapItemText::
 	text_ram wMonOrItemNameBuffer
-	text " is"
-	line "already holding"
+	text " đang"
+	line "giữ"
 
 	para "@"
 	text_ram wStringBuffer1
 	text "."
-	line "Switch items?"
+	line "Đổi vật phẩm?"
 	done
 
 _ItemCantHeldText::
-	text "This item can't be"
-	line "held."
+	text "Vật này không thể"
+	line "được giữ."
 	prompt
 
 _MailLoseMessageText::
-	text "The MAIL will lose"
-	line "its message. OK?"
+	text "THƯ sẽ mất nội"
+	line "dung. Được chứ?"
 	done
 
 _MailDetachedText::
-	text "MAIL detached from"
+	text "Đã gỡ THƯ khỏi"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 	prompt
 
 _MailNoSpaceText::
-	text "There's no space"
-	line "for removing MAIL."
+	text "Không còn chỗ"
+	line "để gỡ THƯ."
 	prompt
 
 _MailAskSendToPCText::
-	text "Send the removed"
-	line "MAIL to your PC?"
+	text "Gửi THƯ đã gỡ"
+	line "đến PC của bạn?"
 	done
 
 _MailboxFullText::
-	text "Your PC's MAILBOX"
-	line "is full."
+	text "HỘP THƯ trong PC"
+	line "của bạn đầy rồi."
 	prompt
 
 _MailSentToPCText::
-	text "The MAIL was sent"
-	line "to your PC."
+	text "THƯ đã được gửi"
+	line "đến PC của bạn."
 	prompt
 
 _PokemonNotEnoughHPText::
-	text "Not enough HP!"
+	text "Không đủ HP!"
 	prompt
 
 _MayRegisterItemText::
-	text "An item in your"
-	line "PACK may be"
+	text "Một vật phẩm trong"
+	line "BA LÔ có thể được"
 
-	para "registered for use"
-	line "on SELECT Button."
+	para "đăng ký để dùng"
+	line "bằng nút SELECT."
 	done
 
 _OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Xin chào! Xin lỗi"
+	line "bắt bạn phải chờ!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Chào mừng đến với"
+	line "thế giới #MON!"
 
-	para "My name is OAK."
+	para "Tên tôi là OAK."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "Nguời ta gọi tôi"
+	line "giáo sư #MON"
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
+	text "Thế giới này cư"
+	line "trú bởi loài vật"
+	cont "chúng ta gọi là"
 	cont "#MON.@"
 	text_end
 
@@ -1552,26 +1554,27 @@ _OakText3::
 	text_end ; unreferenced
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+	text "Người và #MON"
+	line "chung sống hài"
 
-	para "supporting each"
-	line "other."
+	para "hoà với nhau."
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Có người chơi"
+	line "với #MON, có"
+	cont "người thi đấu với"
+	cont "chúng."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Nhưng chúng ta"
+	line "không biết hết về"
+	cont "#MON."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "Còn nhiều ẩn số"
+	line "vẫn chưa có lời"
+	cont "giải đáp."
 
-	para "That's why I study"
-	line "#MON every day."
+	para "đó là lý do tôi"
+	line "miệt mài nghiên"
+	cont "cứu #MON."
 	prompt

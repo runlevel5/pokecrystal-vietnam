@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
-	dw 407, 1650 ; height, weight
+	db "CÁ NƯỚC@" ; species name
+	dw 14, 750 ; height, weight
 
-	db   "Its body is always"
-	next "slimy. It often"
-	next "bangs its head on"
+	db   "Thân nó luôn trơn"
+	next "nhớt. Nó thường"
+	next "đập đầu vào đáy"
 
-	page "the river bottom"
-	next "as it swims but"
-	next "seems not to care.@"
+	page "sông khi bơi"
+	next "nhưng không"
+	next "quan tâm.@"

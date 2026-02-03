@@ -1,10 +1,10 @@
-	db "LAVA@" ; species name
-	dw 207, 1210 ; height, weight
+	db "DUNG NHAM@" ; species name
+	dw 8, 550 ; height, weight
 
-	db   "Its body is as hot"
-	next "as lava and is"
-	next "always billowing."
+	db   "Thân nó nóng như"
+	next "dung nham và luôn"
+	next "bốc hơi. Thỉnh"
 
-	page "Flames will"
-	next "occasionally burst"
-	next "from its shell.@"
+	page "thoảng lửa phun"
+	next "ra từ vỏ.@"
+	next "@"

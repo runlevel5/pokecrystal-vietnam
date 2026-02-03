@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 303, 260 ; height, weight
+	db "BÓNG BAY@" ; species name
+	dw 10, 120 ; height, weight
 
-	db   "The rich, fluffy"
-	next "fur that covers"
-	next "its body feels so"
+	db   "Bộ lông xù mượt"
+	next "bao phủ thân nó"
+	next "sờ rất thích,"
 
-	page "good that anyone"
-	next "who feels it can't"
-	next "stop touching it.@"
+	page "ai sờ vào cũng"
+	next "không muốn"
+	next "dừng lại.@"

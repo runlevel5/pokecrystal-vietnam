@@ -35,38 +35,40 @@ ViridianPokecenter1FBugCatcherScript:
 	jumptextfaceplayer ViridianPokecenter1FBugCatcherText
 
 ViridianPokecenter1FCooltrainerMText:
-	text "Where in the world"
-	line "is VIRIDIAN's GYM"
+	text "TRƯỞNG GYM của"
+	line "VIRIDIAN ở đâu"
+	cont "vậy nhỉ?"
 
-	para "LEADER? I wanted"
-	line "to challenge him."
+	para "Tôi muốn thách"
+	line "đấu ông ấy."
 	done
 
 ViridianPokecenter1FCooltrainerMText_BlueReturned:
-	text "There are no GYM"
-	line "TRAINERS at the"
-	cont "VIRIDIAN GYM."
+	text "Không có HLV GYM"
+	line "tại GYM VIRIDIAN."
 
-	para "The LEADER claims"
-	line "his policy is to"
+	para "TRƯỞNG nói rằng"
+	line "chính sách của"
 
-	para "win without having"
-	line "any underlings."
+	para "ông ấy là thắng"
+	line "không cần thuộc"
+	cont "hạ."
 	done
 
 ViridianPokecenter1FCooltrainerFText:
-	text "I heard that the"
-	line "GYM in CINNABAR is"
-	cont "gone."
+	text "Tôi nghe rằng GYM"
+	line "ở CINNABAR đã mất"
+	cont "rồi."
 
-	para "I wonder what be-"
-	line "came of BLAINE,"
-	cont "the GYM LEADER."
+	para "Tôi tự hỏi chuyện"
+	line "gì đã xảy ra với"
+	cont "BLAINE, T.LĨNH."
 	done
 
 ViridianPokecenter1FBugCatcherText:
-	text "My dream is to be-"
-	line "come a GYM LEADER."
+	text "Mơ ước của tôi là"
+	line "trở thành T.LĨNH"
+	cont "GYM."
 	done
 
 ViridianPokecenter1F_MapEvents:

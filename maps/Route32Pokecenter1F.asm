@@ -44,52 +44,51 @@ Route32Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route32Pokecenter1FCooltrainerFText
 
 Route32Pokecenter1FFishingGuruText_Question:
-	text "This is a great"
-	line "fishing spot."
+	text "Đây là địa điểm"
+	line "câu cá tuyệt vời."
 
-	para "You saw people"
-	line "fishing? How"
-	cont "about you?"
+	para "Bạn thấy mọi"
+	line "người câu cá? Còn"
+	cont "bạn thì sao?"
 
-	para "Would you like one"
-	line "of my RODS?"
+	para "Bạn có muốn một"
+	line "cái CẦN của tôi?"
 	done
 
 Route32Pokecenter1FFishingGuruText_Yes:
-	text "Heh, that's good"
-	line "to hear."
+	text "Heh, hay lắm."
 
-	para "Now you're an"
-	line "angler too!"
+	para "Giờ bạn cũng là"
+	line "dân câu cá rồi!"
 	done
 
 Route32Pokecenter1FFishingGuruText_GiveOldRod:
-	text "Fishing is great!"
+	text "Câu cá thật"
+	line "tuyệt!"
 
-	para "If there's water,"
-	line "be it the sea or a"
+	para "Nếu có nước, dù"
+	line "là biển hay suối,"
 
-	para "stream, try out"
-	line "your ROD."
+	para "hãy thử dùng CẦN"
+	line "của bạn."
 	done
 
 Route32Pokecenter1FFishingGuruText_No:
-	text "Oh. That's rather"
-	line "disappointing…"
+	text "Ồ. Thật đáng"
+	line "tiếc…"
 	done
 
 Route32Pokecenter1FFishingGuruText_After:
-	text "Yo, kid. How are"
-	line "they biting?"
+	text "Yo, nhóc. Cá cắn"
+	line "câu thế nào?"
 	done
 
 Route32Pokecenter1FCooltrainerFText:
-	text "What should I make"
-	line "my #MON hold?"
+	text "Cho #MON cầm gì"
+	line "đây nhỉ?"
 
-	para "Maybe an item that"
-	line "increases ATTACK"
-	cont "power…"
+	para "Có lẽ vật phẩm"
+	line "tăng sức ATTACK…"
 	done
 
 Route32Pokecenter1F_MapEvents:

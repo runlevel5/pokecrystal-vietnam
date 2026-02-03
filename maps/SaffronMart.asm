@@ -21,18 +21,17 @@ SaffronMartCooltrainerFScript:
 	jumptextfaceplayer SaffronMartCooltrainerFText
 
 SaffronMartCooltrainerMText:
-	text "There's a big"
-	line "RADIO TOWER in"
-	cont "LAVENDER."
+	text "Có THÁP RADIO lớn"
+	line "ở LAVENDER."
 	done
 
 SaffronMartCooltrainerFText:
-	text "I want to become"
-	line "stronger, but I'm"
-	cont "not good yet…"
+	text "Tôi muốn trở nên"
+	line "mạnh hơn, nhưng"
+	cont "chưa giỏi lắm…"
 
-	para "Could you show me"
-	line "how sometime?"
+	para "Bạn có thể chỉ"
+	line "tôi được không?"
 	done
 
 SaffronMart_MapEvents:

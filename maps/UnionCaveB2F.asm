@@ -75,68 +75,67 @@ UnionCaveB2FHyperPotion:
 	itemball HYPER_POTION
 
 CooltrainermNickSeenText:
-	text "There are two"
-	line "kinds of people."
+	text "Có hai loại người."
 
-	para "Those who have"
-	line "style, and those"
-	cont "who don't."
+	para "Người có phong"
+	line "cách, và người"
+	cont "không có."
 
-	para "What kind of"
-	line "person are you?"
+	para "Bạn thuộc loại"
+	line "nào?"
 	done
 
 CooltrainermNickBeatenText:
-	text "You've got"
-	line "dazzling style!"
+	text "Bạn có phong cách"
+	line "rực rỡ!"
 	done
 
 CooltrainermNickAfterBattleText:
-	text "Your #MON style"
-	line "is stunning and"
-	cont "colorful, I admit."
+	text "Phong cách #MON"
+	line "của bạn ấn tượng"
+	cont "và rực rỡ."
 
-	para "You'll just keep"
-	line "getting better!"
+	para "Bạn sẽ còn giỏi"
+	line "hơn nữa!"
 	done
 
 CooltrainerfGwenSeenText:
-	text "I'm in training."
-	line "Care for a round?"
+	text "Tôi đang luyện."
+	line "Đấu một trận nhé?"
 	done
 
 CooltrainerfGwenBeatenText:
-	text "Aww, no! You're"
-	line "too good for me."
+	text "Ôi không! Bạn quá"
+	line "giỏi cho tôi."
 	done
 
 CooltrainerfGwenAfterBattleText:
-	text "I'm going to train"
-	line "by myself until I"
-	cont "improve."
+	text "Tôi sẽ tự luyện"
+	line "cho đến khi tiến"
+	cont "bộ."
 	done
 
 CooltrainerfEmmaSeenText:
-	text "If the #MON I"
-	line "liked were there,"
-	cont "I'd go anywhere."
+	text "Nếu #MON tôi"
+	line "thích ở đó, tôi"
+	cont "sẽ đến bất cứ đâu"
 
-	para "That's what a real"
-	line "trainer does."
+	para "Đó là điều HLV"
+	line "thật sự làm."
 	done
 
 CooltrainerfEmmaBeatenText:
-	text "I'd rather pet my"
-	line "babies than this!"
+	text "Tôi thà vuốt #-"
+	line "MON hơn đấu!"
 	done
 
 CooltrainerfEmmaAfterBattleText:
-	text "Just once a week,"
-	line "a #MON comes to"
-	cont "the water's edge."
+	text "Mỗi tuần một lần,"
+	line "#MON đến bờ"
+	cont "nước."
 
-	para "I wanted to see"
-	line "that #MON…"
+	para "Tôi muốn gặp"
+	line "#MON đó…"
 	done
 
 UnionCaveB2F_MapEvents:

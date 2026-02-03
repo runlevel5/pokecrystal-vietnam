@@ -474,378 +474,386 @@ Route36NationalParkGatePlayerWaitWithContestantsMovement:
 	step_end
 
 Route36NationalParkGateOfficer1AskToParticipateText:
-	text "Today's @"
+	text "Hôm nay là @"
 	text_ram wStringBuffer3
 	text "."
-	line "That means the"
+	line "Có nghĩa là"
 
-	para "Bug-Catching Con-"
-	line "test is on today."
+	para "BUG CONTEST đang"
+	line "diễn ra hôm nay."
 
-	para "The rules are sim-"
-	line "ple."
+	para "Luật rất đơn"
+	line "giản."
 
-	para "Using one of your"
-	line "#MON, catch a"
+	para "Sử dụng một con"
+	line "#MON, bắt một"
 
-	para "bug #MON to be"
-	line "judged."
+	para "#MON sâu bọ để"
+	line "được chấm điểm."
 
-	para "Would you like to"
-	line "give it a try?"
+	para "Bạn có muốn thử"
+	line "không?"
 	done
 
 Route36NationalParkGateOfficer1GiveParkBallsText:
-	text "Here are the PARK"
-	line "BALLS for the"
-	cont "Contest."
+	text "Đây là các PARK"
+	line "BALLS cho cuộc"
+	cont "thi."
 	done
 
 Route36NationalParkGatePlayerReceivedParkBallsText:
-	text "<PLAYER> received"
-	line "{d:BUG_CONTEST_BALLS} PARK BALLS."
+	text "<PLAYER> nhận được"
+	line "{d:BUG_CONTEST_BALLS}"
+	cont "BÓNG C.VIÊN."
 	done
 
 Route36NationalParkGateOfficer1ExplainsRulesText:
-	text "The person who"
-	line "gets the strong-"
-	cont "est bug #MON"
-	cont "is the winner."
+	text "Người có #MON"
+	line "sâu bọ mạnh nhất"
+	cont "sẽ thắng."
 
-	para "You have {d:BUG_CONTEST_MINUTES}"
-	line "minutes."
+	para "Bạn có"
+	line "{d:BUG_CONTEST_MINUTES} phút."
 
-	para "If you run out of"
-	line "PARK BALLS, you're"
-	cont "done."
+	para "Nếu hết PARK"
+	line "BALLS, bạn sẽ"
+	cont "kết thúc."
 
-	para "You can keep the"
-	line "last #MON you"
-	cont "catch as your own."
+	para "Bạn có thể giữ"
+	line "#MON cuối cùng"
+	cont "mà bạn bắt được."
 
-	para "Go out and catch"
-	line "the strongest bug"
+	para "Hãy ra ngoài và"
+	line "bắt con #MON"
 
-	para "#MON you can"
-	line "find!"
+	para "sâu bọ mạnh nhất"
+	line "mà bạn tìm được!"
 	done
 
 Route36NationalParkGateOfficer1AskToUseFirstMonText:
 	text "Uh-oh…"
 
-	para "You have more than"
-	line "one #MON."
+	para "Bạn có nhiều hơn"
+	line "một #MON."
 
-	para "You'll have to use"
+	para "Bạn sẽ phải dùng"
 	line "@"
 	text_ram wStringBuffer3
-	text ", the"
+	text ","
 
-	para "first #MON in"
-	line "your party."
+	para "#MON đầu tiên"
+	line "trong nhóm."
 
-	para "Is that OK with"
-	line "you?"
+	para "Bạn đồng ý"
+	line "chứ?"
 	done
 
 Route36NationalParkGateOfficer1WellHoldYourMonText:
-	text "Fine, we'll hold"
-	line "your other #MON"
-	cont "while you compete."
+	text "Tốt, chúng tôi sẽ"
+	line "giữ các #MON"
+	cont "khác trong lúc bạn"
+	cont "thi đấu."
 	done
 
 Route36NationalParkGatePlayersMonLeftWithHelperText:
-	text "<PLAYER>'s #MON"
-	line "were left with the"
-	cont "CONTEST HELPER."
+	text "#MON của"
+	line "<PLAYER> được giao"
+	cont "cho TRỢ LÝ THI."
 	done
 
 Route36NationalParkGateOfficer1ChooseMonAndComeBackText:
-	text "Please choose the"
-	line "#MON to be used"
+	text "Vui lòng chọn"
+	line "#MON để thi"
 
-	para "in the Contest,"
-	line "then come see me."
+	para "đấu, rồi đến gặp"
+	line "tôi."
 	done
 
 Route36NationalParkGateOfficer1TakePartInFutureText:
-	text "OK. We hope you'll"
-	line "take part in the"
-	cont "future."
+	text "OK. Chúng tôi hy"
+	line "vọng bạn sẽ tham"
+	cont "gia trong tương"
+	cont "lai."
 	done
 
 Route36NationalParkGateOfficer1FirstMonCantBattleText:
 	text "Uh-oh…"
-	line "The first #MON"
+	line "#MON đầu tiên"
 
-	para "in your party"
-	line "can't battle."
+	para "trong nhóm không"
+	line "thể chiến đấu."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "Vui lòng đổi nó"
+	line "với #MON mà"
 
-	para "you want to use,"
-	line "then come see me."
+	para "bạn muốn dùng,"
+	line "rồi đến gặp tôi."
 	done
 
 Route36NationalParkGateOfficer1MakeRoomText:
 	text "Uh-oh…"
-	line "Both your party"
+	line "Cả nhóm và PC BOX"
 
-	para "and your PC BOX"
-	line "are full."
+	para "của bạn đều đầy"
+	line "rồi."
 
-	para "You have no room"
-	line "to put the bug"
-	cont "#MON you catch."
+	para "Bạn không có chỗ"
+	line "để đặt #MON sâu"
+	cont "bọ mà bạn bắt."
 
-	para "Please make room"
-	line "in your party or"
+	para "Vui lòng dọn chỗ"
+	line "trong nhóm hoặc"
 
-	para "your PC BOX, then"
-	line "come see me."
+	para "PC BOX, rồi đến"
+	line "gặp tôi."
 	done
 
 Route36NationalParkGateOfficer1EggAsFirstMonText:
 	text "Uh-oh…"
-	line "You have an EGG as"
+	line "Bạn có một TRỨNG"
 
-	para "the first #MON"
-	line "in your party."
+	para "là #MON đầu"
+	line "tiên trong nhóm."
 
-	para "Please switch it"
-	line "with the #MON"
+	para "Vui lòng đổi nó"
+	line "với #MON mà"
 
-	para "you want to use,"
-	line "then come see me."
+	para "bạn muốn dùng,"
+	line "rồi đến gặp tôi."
 	done
 
 Route36NationalParkGateOfficer1WantToFinishText:
-	text "You still have @"
+	text "Bạn còn @"
 	text_ram wStringBuffer3
 	text_start
-	line "minute(s) left."
+	line "phút nữa."
 
-	para "Do you want to"
-	line "finish now?"
+	para "Bạn có muốn kết"
+	line "thúc bây giờ?"
 	done
 
 Route36NationalParkGateOfficer1WaitHereForAnnouncementText:
-	text "OK. Please wait"
-	line "here for the"
+	text "OK. Vui lòng đợi"
+	line "ở đây để nghe"
 
-	para "announcement of"
-	line "the winners."
+	para "thông báo người"
+	line "thắng."
 	done
 
 Route36NationalParkGateOfficer1OkGoFinishText:
-	text "OK. Please go back"
-	line "outside and finish"
-	cont "up."
+	text "OK. Vui lòng quay"
+	line "lại và hoàn thành"
+	cont "cuộc thi."
 	done
 
 Route36NationalParkGateOfficer1ContestIsOverText:
-	text "Today's Contest is"
-	line "over. We hope you"
+	text "BUG CONTEST hôm"
+	line "nay đã kết thúc."
 
-	para "will participate"
-	line "in the future."
+	para "Chúng tôi hy vọng"
+	line "bạn sẽ tham gia"
+	cont "trong tương lai."
 	done
 
 Route36NationalParkGateOfficer1SomeMonOnlySeenInParkText:
-	text "Some #MON can"
-	line "only be seen in"
-	cont "the PARK."
+	text "Một số #MON chỉ"
+	line "được thấy trong"
+	cont "CÔNG VIÊN."
 	done
 
 BugCatchingContestant1BText:
-	text "DON: Wow, you beat"
-	line "me. You're pretty"
-	cont "good."
+	text "DON: Wow, bạn"
+	line "thắng tôi. Bạn"
+	cont "giỏi đấy."
 	done
 
 BugCatchingContestant1BStillCompetingText:
-	text "DON: Luck plays a"
-	line "big part in this."
+	text "DON: May mắn đóng"
+	line "vai trò lớn."
 
-	para "You never know"
-	line "what #MON will"
-	cont "appear."
+	para "Bạn không bao giờ"
+	line "biết #MON nào"
+	cont "sẽ xuất hiện."
 	done
 
 BugCatchingContestant2BText:
-	text "ED: I envy you."
-	line "I just couldn't"
-	cont "do it this time."
+	text "ED: Tôi ghen tị"
+	line "với bạn. Tôi"
+	cont "không làm được"
+	cont "lần này."
 	done
 
 BugCatchingContestant2BStillCompetingText:
-	text "ED: Maybe you win"
-	line "with big #MON?"
+	text "ED: #MON lớn"
+	line "có thể sẽ thắng?"
 	done
 
 BugCatchingContestant3BText:
-	text "NICK: Well done!"
-	line "I'm going to raise"
-	cont "my #MON better."
+	text "NICK: Giỏi lắm!"
+	line "Tôi sẽ nuôi"
+	cont "#MON tốt hơn."
 	done
 
 BugCatchingContestant3BStillCompetingText:
-	text "NICK: Maybe you"
-	line "get a higher score"
+	text "NICK: #MON có"
+	line "màu sắc khác"
 
-	para "for a #MON of"
-	line "an unusual color."
+	para "thường có thể được"
+	line "điểm cao hơn."
 	done
 
 BugCatchingContestant4BText:
-	text "WILLIAM: You're"
-	line "the winner? What"
-	cont "did you catch?"
+	text "WILLIAM: Bạn là"
+	line "người thắng? Bạn"
+	cont "bắt được gì?"
 	done
 
 BugCatchingContestant4BStillCompetingText:
-	text "WILLIAM: Well, I'm"
-	line "satisfied because"
+	text "WILLIAM: Tôi hài"
+	line "lòng vì tôi bắt"
 
-	para "I caught a #MON"
-	line "that I wanted."
+	para "được #MON mà"
+	line "tôi muốn."
 	done
 
 BugCatchingContestant5BText:
-	text "BENNY: Congrats!"
-	line "You have earned my"
-	cont "respect!"
+	text "BENNY: Chúc mừng!"
+	line "Bạn đã khiến tôi"
+	cont "kính phục!"
 	done
 
 BugCatchingContestant5BStillCompetingText:
-	text "BENNY: I caught a"
-	line "SCYTHER before,"
-	cont "but I didn't win."
+	text "BENNY: Tôi đã bắt"
+	line "SCYTHER trước đó,"
+	cont "nhưng không thắng"
 	done
 
 BugCatchingContestant6BText:
-	text "BARRY: That #-"
-	line "MON you caught…"
-	cont "it's awesome!"
+	text "BARRY: Con #-"
+	line "MON bạn bắt được…"
+	cont "tuyệt vời!"
 	done
 
 BugCatchingContestant6BStillCompetingText:
-	text "BARRY: It's easier"
-	line "to win if you get"
+	text "BARRY: Dễ thắng"
+	line "hơn nếu bạn bắt"
 
-	para "a high-level bug"
-	line "#MON."
+	para "#MON sâu bọ cấp"
+	line "cao."
 
-	para "But I think they"
-	line "also consider some"
-	cont "other points."
+	para "Nhưng tôi nghĩ họ"
+	line "cũng xét các yếu"
+	cont "tố khác."
 	done
 
 BugCatchingContestant7BText:
-	text "CINDY: You won?"
-	line "That's great!"
+	text "CINDY: Bạn thắng?"
+	line "Tuyệt vời!"
 
-	para "Do you feel like"
-	line "looking for bug"
-	cont "#MON with me?"
+	para "Bạn có muốn đi"
+	line "tìm #MON sâu bọ"
+	cont "với tôi không?"
 	done
 
 BugCatchingContestant7BStillCompetingText:
-	text "CINDY: I really"
-	line "love bug #MON!"
+	text "CINDY: Tôi thực"
+	line "sự yêu #MON"
+	cont "sâu bọ!"
 	done
 
 BugCatchingContestant8BText:
-	text "JOSH: I… I can't"
-	line "believe I lost at"
-	cont "bug-catching…"
+	text "JOSH: Tôi… Tôi"
+	line "không thể tin là"
+	cont "tôi thua trong"
+	cont "cuộc thi bắt sâu…"
 	done
 
 BugCatchingContestant8BStillCompetingText:
-	text "JOSH: I heard that"
-	line "somebody won with"
-	cont "a CATERPIE!"
+	text "JOSH: Tôi nghe nói"
+	line "ai đó đã thắng"
+	cont "với CATERPIE!"
 	done
 
 BugCatchingContestant9BText:
-	text "SAMUEL: Next time,"
-	line "I'm going to win."
+	text "SAMUEL: Lần sau,"
+	line "tôi sẽ thắng."
 	done
 
 BugCatchingContestant9BStillCompetingText:
-	text "SAMUEL: Darn."
-	line "I thought I would"
-	cont "score higher…"
+	text "SAMUEL: Chà."
+	line "Tôi nghĩ tôi sẽ"
+	cont "được điểm cao"
+	cont "hơn…"
 	done
 
 BugCatchingContestant10BText:
-	text "KIPP: Could you"
-	line "give me some tips?"
+	text "KIPP: Bạn có thể"
+	line "chỉ cho tôi vài"
+	cont "mẹo không?"
 
-	para "I want to study"
-	line "your style."
+	para "Tôi muốn học"
+	line "phong cách của"
+	cont "bạn."
 	done
 
 BugCatchingContestant10BStillCompetingText:
-	text "KIPP: I study a"
-	line "lot, but that's"
+	text "KIPP: Tôi học rất"
+	line "nhiều, nhưng vẫn"
 
-	para "not good enough to"
-	line "win."
+	para "không đủ để"
+	line "thắng."
 	done
 
 UnusedSilphScope2Text: ; unreferenced
 ; This text is referring to Sudowoodo.
 ; The SILPHSCOPE2 was later reworked into the SQUIRTBOTTLE.
-	text "I hear there's a"
-	line "#MON that looks"
-	cont "just like a tree."
+	text "Tôi nghe có một"
+	line "#MON trông như"
+	cont "một cái cây."
 
-	para "You can reveal its"
-	line "identity using a"
+	para "Bạn có thể phát"
+	line "hiện nó bằng"
 	cont "SILPHSCOPE 2."
 	done
 
 UnusedBugCatchingContestExplanationText:
 ; duplicate of BugCatchingContestExplanationText in Route35NationalParkGate.asm
-	text "The Bug-Catching"
-	line "Contest is held on"
+	text "BUG CONTEST được"
+	line "tổ chức vào Thứ"
 
-	para "Tuesday, Thursday"
-	line "and Saturday."
+	para "Ba, Thứ Năm và"
+	line "Thứ Bảy."
 
-	para "Not only do you"
-	line "earn a prize just"
+	para "Bạn không chỉ"
+	line "nhận giải thưởng"
 
-	para "for participating,"
-	line "you also get to"
+	para "khi tham gia, mà"
+	line "còn được giữ"
 
-	para "keep the bug"
-	line "#MON you may"
-
-	para "have at the end of"
-	line "the contest."
+	para "#MON sâu bọ mà"
+	line "bạn có ở cuối"
+	cont "cuộc thi."
 	done
 
 Route36NationalParkGateOfficer1WellHoldPrizeText:
-	text "Uh-oh… Your PACK"
-	line "is full."
+	text "Uh-oh… TÚI của"
+	line "bạn đầy rồi."
 
-	para "We'll hold on to"
-	line "your prize, but"
-	cont "only for today."
+	para "Chúng tôi sẽ giữ"
+	line "giải thưởng, nhưng"
+	cont "chỉ hôm nay thôi."
 
-	para "Please make room,"
-	line "then come see me."
+	para "Vui lòng dọn chỗ,"
+	line "rồi đến gặp tôi."
 	done
 
 Route36NationalParkGateOfficer1HeresThePrizeText:
-	text "<PLAYER>?"
+	text "<PLAYER> đúng"
+	line "không?"
 
-	para "Here's the prize"
-	line "we were holding"
-	cont "for you."
+	para "Đây là giải thưởng"
+	line "chúng tôi đang giữ"
+	cont "cho bạn."
 	done
 
 Route36NationalParkGate_MapEvents:

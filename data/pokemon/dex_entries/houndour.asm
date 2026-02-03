@@ -1,10 +1,10 @@
-	db "DARK@" ; species name
-	dw 200, 240 ; height, weight
+	db "TỐI@" ; species name
+	dw 6, 108 ; height, weight
 
-	db   "Around dawn, its"
-	next "ominous howl"
-	next "echoes through the"
+	db   "Vào lúc bình minh"
+	next "tiếng hú đáng"
+	next "ngại của nó vang"
 
-	page "area to announce"
-	next "that this is its"
-	next "territory.@"
+	page "khắp nơi để thông"
+	next "báo đây là lãnh"
+	next "thổ của nó.@"

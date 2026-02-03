@@ -1,71 +1,71 @@
 AlanAskNumber1Text:
-	text "Reading textbooks"
-	line "is worthwhile"
-	cont "every so often."
+	text "Đọc sách giáo khoa"
+	line "bổ ích thỉnh"
+	cont "thoảng."
 
-	para "When I'm reading"
-	line "and walking, I"
-	cont "have to look down."
+	para "Khi đọc sách và"
+	line "đi bộ, tớ phải"
+	cont "nhìn xuống."
 
-	para "So I notice items"
-	line "on the ground."
+	para "Nên tớ thấy đồ"
+	line "trên mặt đất."
 
-	para "Next time I find"
-	line "something, I'll"
-	cont "give it to you."
+	para "Lần sau tìm thấy"
+	line "gì, tớ sẽ cho"
+	cont "cậu."
 
-	para "May I have your"
-	line "phone number?"
+	para "Cho tớ số điện"
+	line "thoại nhé?"
 	done
 
 AlanAskNumber2Text:
-	text "If I find some-"
-	line "thing, it's yours."
+	text "Nếu tớ tìm thấy"
+	line "gì, là của cậu."
 
-	para "So may I have your"
-	line "phone number?"
+	para "Vậy cho tớ số"
+	line "điện thoại nhé?"
 	done
 
 AlanNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I find"
+	text "Tớ sẽ gọi ngay khi"
+	line "tìm thấy gì đó."
 
-	para "something. You can"
-	line "count on it!"
+	para "Cậu cứ yên tâm"
+	line "nhé!"
 	done
 
 AlanNumberDeclinedText:
-	text "Oh… I thought it"
-	line "would be a good"
+	text "Ồ… tớ nghĩ sẽ"
+	line "tốt nếu gọi cho"
 
-	para "break to call you"
-	line "when I'm studying…"
+	para "cậu khi tớ đang"
+	line "học…"
 	done
 
 AlanPhoneFullText:
-	text "There's no room"
-	line "for my number."
+	text "Không còn chỗ cho"
+	line "số của tớ."
 	done
 
 AlanRematchText:
-	text "I waited around"
-	line "for you!"
+	text "Tớ đợi cậu mãi"
+	line "rồi!"
 
-	para "I'm thoroughly"
-	line "prepared today!"
+	para "Hôm nay tớ chuẩn"
+	line "bị kỹ càng rồi!"
 	done
 
 AlanGiftText:
-	text "This, this! This"
-	line "is yours! Ta-da!"
+	text "Này, này! Của cậu"
+	line "đây! Ta-da!"
 	done
 
 AlanPackFullText:
-	text "Whoops!"
+	text "Ối!"
 
-	para "You can't carry"
-	line "any more items!"
+	para "Cậu không thể mang"
+	line "thêm đồ nữa!"
 
-	para "I'll hold it until"
-	line "next time."
+	para "Tớ giữ đến lần"
+	line "sau vậy."
 	done

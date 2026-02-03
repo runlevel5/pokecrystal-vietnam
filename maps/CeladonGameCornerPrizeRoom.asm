@@ -119,7 +119,7 @@ CeladonPrizeRoom_TMMenuHeader:
 	db "TM32    {d:CELADONGAMECORNERPRIZEROOM_TM32_COINS}@"
 	db "TM29    {d:CELADONGAMECORNERPRIZEROOM_TM29_COINS}@"
 	db "TM15    {d:CELADONGAMECORNERPRIZEROOM_TM15_COINS}@"
-	db "CANCEL@"
+	db "HỦY@"
 
 CeladonGameCornerPrizeRoomPokemonVendor:
 	faceplayer
@@ -205,73 +205,69 @@ CeladonGameCornerPrizeRoomPokemonVendor:
 	db "PIKACHU    {d:CELADONGAMECORNERPRIZEROOM_PIKACHU_COINS}@"
 	db "PORYGON    {d:CELADONGAMECORNERPRIZEROOM_PORYGON_COINS}@"
 	db "LARVITAR   {d:CELADONGAMECORNERPRIZEROOM_LARVITAR_COINS}@"
-	db "CANCEL@"
+	db "HỦY@"
 
 CeladonGameCornerPrizeRoomGentlemanText:
-	text "I wanted PORYGON,"
-	line "but I was short by"
-	cont "100 coins…"
+	text "Tôi muốn PORYGON,"
+	line "thiếu 100 xu…"
 	done
 
 CeladonGameCornerPrizeRoomPharmacistText:
 if DEF(_CRYSTAL_AU)
-	text "I don't want to"
-	line "lose my coins."
+	text "Tôi không muốn mất"
+	line "xu của mình."
 	done
 else
-	text "Whew…"
+	text "Phù…"
 
-	para "I've got to stay"
-	line "calm and cool…"
+	para "Tôi phải giữ"
+	line "bình tĩnh…"
 
-	para "I can't lose my"
-	line "cool, or I'll lose"
-	cont "all my money…"
+	para "Không thể mất bình"
+	line "tĩnh, nếu không sẽ"
+	cont "mất hết tiền…"
 	done
 endc
 
 CeladonPrizeRoom_PrizeVendorIntroText:
-	text "Welcome!"
+	text "Xin chào!"
 
-	para "We exchange your"
-	line "coins for fabulous"
-	cont "prizes!"
+	para "Chúng tôi đổi xu"
+	line "của bạn lấy giải"
+	cont "thưởng tuyệt vời!"
 	done
 
 CeladonPrizeRoom_AskWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Bạn muốn giải gì?"
 	done
 
 CeladonPrizeRoom_ConfirmPurchaseText:
-	text "OK, so you wanted"
-	line "a @"
+	text "OK, bạn muốn"
+	line "@"
 	text_ram wStringBuffer3
 	text "?"
 	done
 
 CeladonPrizeRoom_HereYouGoText:
-	text "Here you go!"
+	text "Của bạn đây!"
 	done
 
 CeladonPrizeRoom_NotEnoughCoinsText:
-	text "You don't have"
-	line "enough coins."
+	text "Bạn không đủ xu."
 	done
 
 CeladonPrizeRoom_NotEnoughRoomText:
-	text "You have no room"
-	line "for it."
+	text "Bạn không có chỗ."
 	done
 
 CeladonPrizeRoom_ComeAgainText:
-	text "Oh. Please come"
-	line "back with coins!"
+	text "Ồ. Hãy quay lại"
+	line "khi có xu nhé!"
 	done
 
 CeladonPrizeRoom_NoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Ồ? Bạn không có"
+	line "HỘP XU."
 	done
 
 CeladonGameCornerPrizeRoom_MapEvents:

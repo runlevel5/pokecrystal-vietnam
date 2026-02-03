@@ -1,623 +1,623 @@
 _BTGreetingM1Text:
-	text "Hello, glad to"
-	line "meet you!"
+	text "Xin chào, rất vui"
+	line "được gặp bạn!"
 
-	para "I do hope we have"
-	line "a good battle."
+	para "Hy vọng ta có"
+	line "trận đấu hay."
 	done
 
 _BTLossM1Text:
-	text "Thank you! A most"
-	line "enjoyable battle!"
+	text "Cảm ơn! Trận đấu"
+	line "thật thú vị!"
 	done
 
 _BTWinM1Text:
-	text "Thank you. You are"
-	line "formidable."
+	text "Cảm ơn bạn. Bạn"
+	line "rất đáng gờm."
 	done
 
 _BTGreetingM2Text:
-	text "Work, work, work…"
-	line "I'm always busy!"
+	text "Việc, việc nữa…"
+	line "Tôi bận lắm!"
 	done
 
 _BTLossM2Text:
-	text "But, I work hard"
-	line "in battle too!"
+	text "Nhưng tôi cũng"
+	line "chiến đấu hết sức!"
 	done
 
 _BTWinM2Text:
-	text "I'm too busy to be"
-	line "battling!"
+	text "Tôi bận quá,"
+	line "không rảnh đấu!"
 	done
 
 _BTGreetingM3Text:
-	text "Brace yourself for"
-	line "my all-out attack!"
+	text "Chuẩn bị đón nhận"
+	line "toàn lực của tôi!"
 	done
 
 _BTLossM3Text:
-	text "What a cakewalk!"
-	line "You're too easy!"
+	text "Dễ quá!"
+	line "Bạn yếu quá!"
 	done
 
 _BTWinM3Text:
-	text "I won't lose next"
-	line "time, all right?"
+	text "Lần sau tôi sẽ"
+	line "không thua đâu!"
 	done
 
 _BTGreetingM4Text:
-	text "Heh, your #MON"
-	line "look pretty cool."
+	text "Heh, #MON của"
+	line "bạn khá ngầu."
 	done
 
 _BTLossM4Text:
-	text "Hey, hey, no way!"
-	line "You won't win!"
+	text "Này, đừng hòng"
+	line "mà thắng được!"
 	done
 
 _BTWinM4Text:
-	text "You serious?"
-	line "This is brutal!"
+	text "Thật sao?"
+	line "Thật tàn nhẫn!"
 	done
 
 _BTGreetingM5Text:
-	text "#MON every day!"
-	line "I love battling!"
+	text "#MON mỗi ngày!"
+	line "Tôi thích đấu!"
 	done
 
 _BTLossM5Text:
-	text "I'm on top of my"
-	line "game, but not you!"
+	text "Tôi đang sung,"
+	line "còn bạn thì không!"
 	done
 
 _BTWinM5Text:
-	text "I don't care that"
-	line "I lost, really!"
+	text "Thua cũng được,"
+	line "tôi chả quan tâm!"
 	done
 
 _BTGreetingM6Text:
-	text "Hi, there! Let's"
-	line "keep this clean!"
+	text "Chào bạn! Hãy"
+	line "đấu fair nhé!"
 	done
 
 _BTLossM6Text:
-	text "Whoops, sorry for"
-	line "that wipeout!"
+	text "Ối, xin lỗi vì"
+	line "thắng đậm quá!"
 	done
 
 _BTWinM6Text:
-	text "Whoops! Come on,"
-	line "let me win one!"
+	text "Ối! Nào, để tôi"
+	line "thắng một lần!"
 	done
 
 _BTGreetingM7Text:
-	text "Do you want to see"
-	line "my battle level?"
+	text "Bạn muốn xem"
+	line "level của tôi?"
 	done
 
 _BTLossM7Text:
-	text "Hehehe, I know"
-	line "your level now!"
+	text "Hehe, giờ tôi"
+	line "biết level bạn!"
 	done
 
 _BTWinM7Text:
-	text "Ouch… I'm just too"
-	line "weak…"
+	text "Ôi… Tôi yếu"
+	line "quá…"
 	done
 
 _BTGreetingM8Text:
-	text "Hey, let's battle."
-	line "I'm your opponent."
+	text "Này, đấu đi."
+	line "Tôi là đối thủ."
 	done
 
 _BTLossM8Text:
-	text "Wow, you're not"
-	line "serious about it!"
+	text "Bạn không nghiêm"
+	line "túc gì cả!"
 	done
 
 _BTWinM8Text:
-	text "…Urgh… Nothing"
-	line "positive here…"
+	text "…Ugh… Chẳng có"
+	line "gì tích cực…"
 	done
 
 _BTGreetingM9Text:
-	text "I'm your"
-	line "opponent."
+	text "Tôi là đối"
+	line "thủ của bạn."
 
-	para "Get ready to be"
-	line "hammered."
+	para "Chuẩn bị bị"
+	line "nghiền nát nhé."
 	done
 
 _BTLossM9Text:
-	text "Hahah! That was a"
-	line "pushover!"
+	text "Haha! Dễ như"
+	line "ăn kẹo!"
 	done
 
 _BTWinM9Text:
-	text "No way! There has"
-	line "to be a mistake!"
+	text "Không thể! Chắc"
+	line "có sai sót gì!"
 	done
 
 _BTGreetingM10Text:
 	text "Hah!"
-	line "Let's get rolling!"
+	line "Bắt đầu thôi!"
 	done
 
 _BTLossM10Text:
-	text "Wahahaha! Didn't"
-	line "break a sweat!"
+	text "Wahaha! Chẳng"
+	line "tốn chút sức!"
 	done
 
 _BTWinM10Text:
-	text "Tough! I'm no"
-	line "match for you!"
+	text "Khó quá! Tôi"
+	line "không đấu lại!"
 	done
 
 _BTGreetingM11Text:
 	text "<……><……><……>"
-	line "<……><……>Battle?"
+	line "<……><……>Đấu?"
 	done
 
 _BTLossM11Text:
 	text "<……><……><……>"
-	line "<……><……>I won?"
+	line "<……>Tôi thắng?"
 	done
 
 _BTWinM11Text:
 	text "<……><……><……>"
-	line "<……><……>I lost?"
+	line "<……>Tôi thua?"
 	done
 
 _BTGreetingM12Text:
-	text "You want to be a"
-	line "leader?"
+	text "Bạn muốn làm"
+	line "leader à?"
 
-	para "Let me battle you,"
-	line "then!"
+	para "Để tôi đấu với"
+	line "bạn!"
 	done
 
 _BTLossM12Text:
-	text "You need another"
-	line "ten years of"
+	text "Bạn cần thêm"
+	line "mười năm nữa"
 
-	para "training to get"
-	line "better, I'd say."
+	para "luyện tập để"
+	line "giỏi hơn."
 	done
 
 _BTWinM12Text:
-	text "You're incredibly"
-	line "talented."
+	text "Bạn rất có"
+	line "tài năng."
 
-	para "No one can touch"
-	line "you now!"
+	para "Giờ không ai"
+	line "đọ được với bạn!"
 	done
 
 _BTGreetingM13Text:
-	text "Today, I'm going"
-	line "to whomp you."
+	text "Hôm nay, tôi"
+	line "sẽ đập bạn."
 	done
 
 _BTLossM13Text:
-	text "I knew I'd win."
-	line "I'm so great!"
+	text "Tôi biết mình sẽ"
+	line "thắng. Tôi giỏi!"
 	done
 
 _BTWinM13Text:
-	text "Uh? My plans are"
-	line "out of whack…"
+	text "Hả? Kế hoạch"
+	line "hỏng bét rồi…"
 	done
 
 _BTGreetingM14Text:
-	text "I bet you can't"
-	line "beat me!"
+	text "Cá là bạn không"
+	line "thắng được tôi!"
 	done
 
 _BTLossM14Text:
-	text "Those #MON"
-	line "aren't enough!"
+	text "Mấy con #MON"
+	line "đó chưa đủ!"
 	done
 
 _BTWinM14Text:
-	text "I want your"
-	line "#MON. Please?"
+	text "Tôi muốn #MON"
+	line "của bạn. Được?"
 	done
 
 _BTGreetingM15Text:
-	text "I'll show you a"
-	line "real battle!"
+	text "Tôi sẽ cho bạn"
+	line "thấy trận thật!"
 	done
 
 _BTLossM15Text:
-	text "This battle…"
-	line "I'm bored!"
+	text "Trận này…"
+	line "Tôi chán rồi!"
 	done
 
 _BTWinM15Text:
-	text "…I won't turn tail"
-	line "in battle!"
+	text "…Tôi sẽ không"
+	line "bỏ chạy đâu!"
 	done
 
 _BTGreetingM16Text:
-	text "Let's go!"
-	line "No holds barred!"
+	text "Đi thôi!"
+	line "Không giữ tay!"
 	done
 
 _BTLossM16Text:
-	text "Sorry! I wanted"
-	line "the win more!"
+	text "Xin lỗi! Tôi muốn"
+	line "thắng hơn bạn!"
 	done
 
 _BTWinM16Text:
-	text "Wahah! Congrats!"
-	line "I can't do better!"
+	text "Wahah! Chúc mừng!"
+	line "Tôi chịu thua!"
 	done
 
 _BTGreetingM17Text:
-	text "My #MON skills"
-	line "are phenomenal!"
+	text "Kỹ năng #MON"
+	line "tôi thật tuyệt!"
 	done
 
 _BTLossM17Text:
-	text "You've got a long"
-	line "way to go."
+	text "Bạn còn phải"
+	line "cố gắng nhiều."
 
-	para "Well, keep trying!"
-	line "Best of luck!"
+	para "Cố lên nhé!"
+	line "Chúc may mắn!"
 	done
 
 _BTWinM17Text:
-	text "Aww… Don't lose"
-	line "after beating me."
+	text "Aww… Đừng thua"
+	line "sau khi thắng tôi."
 	done
 
 _BTGreetingM18Text:
-	text "Who are you?"
-	line "I don't know you…"
+	text "Bạn là ai?"
+	line "Tôi không biết…"
 	done
 
 _BTLossM18Text:
-	text "I must've imagined"
-	line "that."
+	text "Chắc tôi tưởng"
+	line "tượng."
 
-	para "There seems to be"
-	line "no one here…"
+	para "Hình như không"
+	line "có ai ở đây…"
 	done
 
 _BTWinM18Text:
-	text "Who am I?"
-	line "I don't know…"
+	text "Tôi là ai?"
+	line "Tôi không biết…"
 	done
 
 _BTGreetingM19Text:
-	text "Um… Are you that…"
-	line "um…person?"
+	text "Um… Bạn có phải"
+	line "là… um… ai đó?"
 	done
 
 _BTLossM19Text:
-	text "It doesn't appear"
-	line "to be you…"
+	text "Hình như đó"
+	line "không phải bạn…"
 	done
 
 _BTWinM19Text:
-	text "Then you really"
-	line "are the legendary…"
+	text "Vậy bạn đúng là"
+	line "huyền thoại…"
 	done
 
 _BTGreetingM20Text:
-	text "I heard that"
-	line "you're hot!"
+	text "Tôi nghe nói"
+	line "bạn rất giỏi!"
 	done
 
 _BTLossM20Text:
-	text "Not bad. I was"
-	line "just a bit better."
+	text "Không tệ. Tôi"
+	line "chỉ giỏi hơn xíu."
 	done
 
 _BTWinM20Text:
-	text "Eh, you're not"
-	line "that special."
+	text "Eh, bạn cũng"
+	line "không đặc biệt."
 	done
 
 _BTGreetingM21Text:
-	text "I'm scared about"
-	line "what might happen."
+	text "Tôi lo về những"
+	line "gì sẽ xảy ra."
 
-	para "My #MON are way"
-	line "too strong."
+	para "#MON của tôi"
+	line "mạnh quá."
 	done
 
 _BTLossM21Text:
-	text "See? My #MON"
-	line "were too strong."
+	text "Thấy chưa? #MON"
+	line "của tôi quá mạnh."
 	done
 
 _BTWinM21Text:
-	text "Graa! My #MON"
-	line "were total wimps!"
+	text "Graa! #MON tôi"
+	line "toàn đồ yếu!"
 	done
 
 _BTGreetingM22Text:
-	text "Hey, there!"
-	line "I'll take you on!"
+	text "Chào bạn!"
+	line "Tôi sẽ đấu!"
 	done
 
 _BTLossM22Text:
-	text "Don't you have a"
-	line "better strategy?"
+	text "Bạn không có"
+	line "chiến thuật tốt?"
 	done
 
 _BTWinM22Text:
-	text "You've got decent"
-	line "style!"
+	text "Bạn có phong"
+	line "cách tốt đấy!"
 	done
 
 _BTGreetingM23Text:
-	text "I wonder if I can"
-	line "battle properly…"
+	text "Không biết tôi có"
+	line "đấu tốt không…"
 	done
 
 _BTLossM23Text:
-	text "Um… Sorry…"
-	line "I think I won."
+	text "Um… Xin lỗi…"
+	line "Chắc là tôi thắng."
 	done
 
 _BTWinM23Text:
-	text "I guess I'm not"
-	line "good enough yet…"
+	text "Chắc tôi chưa"
+	line "đủ giỏi…"
 	done
 
 _BTGreetingM24Text:
 	text "Wrrooar!"
-	line "I won't lose!"
+	line "Tôi sẽ không thua!"
 	done
 
 _BTLossM24Text:
-	text "Wrrooar! I knew"
-	line "I was a genius!"
+	text "Wrrooar! Tôi biết"
+	line "mình là thiên tài!"
 	done
 
 _BTWinM24Text:
-	text "Arrooh! I hate it"
-	line "when I lose!"
+	text "Arrooh! Tôi ghét"
+	line "khi thua!"
 	done
 
 _BTGreetingM25Text:
-	text "Sorry, but I'm"
-	line "going to win."
+	text "Xin lỗi, nhưng"
+	line "tôi sẽ thắng."
 	done
 
 _BTLossM25Text:
-	text "Yeah! My #MON"
-	line "rule!"
+	text "Yeah! #MON"
+	line "tôi tuyệt vời!"
 	done
 
 _BTWinM25Text:
-	text "Oh, close! I lost"
-	line "by just a bit!"
+	text "Ôi, suýt nữa! Thua"
+	line "chút xíu thôi!"
 	done
 
 _BTGreetingF1Text:
-	text "OK, I'm not"
-	line "fooling around!"
+	text "OK, tôi không"
+	line "đùa đâu nhé!"
 	done
 
 _BTLossF1Text:
-	text "Yay! Too easy!"
-	line "Like, no way!"
+	text "Yay! Dễ quá!"
+	line "Kiểu như không!"
 	done
 
 _BTWinF1Text:
-	text "No!"
-	line "Like, no way!"
+	text "Không!"
+	line "Kiểu như không!"
 	done
 
 _BTGreetingF2Text:
-	text "Look! My #MON"
-	line "are really cute!"
+	text "Xem! #MON"
+	line "của tôi dễ thương!"
 	done
 
 _BTLossF2Text:
-	text "Aren't they really"
-	line "adorable?"
+	text "Chúng có đáng"
+	line "yêu không?"
 	done
 
 _BTWinF2Text:
-	text "I'm sorry, it's"
-	line "all my fault!"
+	text "Xin lỗi, đó là"
+	line "lỗi của tôi!"
 	done
 
 _BTGreetingF3Text:
-	text "Let's get our"
-	line "battle started!"
+	text "Bắt đầu trận"
+	line "đấu thôi!"
 	done
 
 _BTLossF3Text:
-	text "Was I too strong"
-	line "for you?"
+	text "Tôi quá mạnh"
+	line "với bạn à?"
 	done
 
 _BTWinF3Text:
-	text "Ooh, you're in a"
-	line "different class."
+	text "Ooh, bạn thuộc"
+	line "đẳng cấp khác."
 	done
 
 _BTGreetingF4Text:
-	text "Are we going to"
-	line "battle? Let's!"
+	text "Mình sẽ đấu"
+	line "chứ? Đi thôi!"
 	done
 
 _BTLossF4Text:
-	text "Oh, you're too"
-	line "weak. Shame."
+	text "Ôi, bạn yếu quá."
+	line "Đáng tiếc."
 	done
 
 _BTWinF4Text:
-	text "Wow! Are you quite"
-	line "satisfied?"
+	text "Wow! Bạn đã hài"
+	line "lòng chưa?"
 	done
 
 _BTGreetingF5Text:
-	text "Oh, you have some"
-	line "rare #MON."
+	text "Ồ, bạn có #MON"
+	line "hiếm đấy."
 	done
 
 _BTLossF5Text:
-	text "May I have one of"
-	line "your #MON?"
+	text "Tôi xin một con"
+	line "#MON nhé?"
 	done
 
 _BTWinF5Text:
-	text "…I want one of"
-	line "your #MON."
+	text "…Tôi muốn một"
+	line "#MON của bạn."
 	done
 
 _BTGreetingF6Text:
-	text "Want to hear about"
-	line "my cute #MON?"
+	text "Muốn nghe về"
+	line "#MON xinh tôi?"
 	done
 
 _BTLossF6Text:
-	text "What do you think"
-	line "about my cuties?"
+	text "Bạn nghĩ sao về"
+	line "các bé của tôi?"
 	done
 
 _BTWinF6Text:
-	text "Oh! My! You're a"
-	line "dreadful trainer!"
+	text "Ôi! Trời! Bạn là"
+	line "HLV tệ quá!"
 	done
 
 _BTGreetingF7Text:
-	text "Battle? Sure!"
-	line "Right now!"
+	text "Đấu? Được!"
+	line "Ngay bây giờ!"
 	done
 
 _BTLossF7Text:
-	text "Oh, I love it!"
-	line "Battling is wild!"
+	text "Ôi, thích quá!"
+	line "Đấu thật sướng!"
 	done
 
 _BTWinF7Text:
-	text "Oh, how rude! Wait"
-	line "till next time!"
+	text "Ôi, thô lỗ quá!"
+	line "Lần sau nhé!"
 	done
 
 _BTGreetingF8Text:
-	text "Please let me win!"
-	line "Please?"
+	text "Làm ơn để tôi"
+	line "thắng! Được không?"
 	done
 
 _BTLossF8Text:
-	text "Wow, thank you!"
-	line "You're so nice!"
+	text "Wow, cảm ơn!"
+	line "Bạn tốt quá!"
 	done
 
 _BTWinF8Text:
-	text "You're mean!"
-	line "I hate meanies!"
+	text "Bạn ác quá!"
+	line "Tôi ghét người ác!"
 	done
 
 _BTGreetingF9Text:
-	text "Well, can we"
-	line "begin?"
+	text "Vậy, mình có thể"
+	line "bắt đầu chưa?"
 	done
 
 _BTLossF9Text:
-	text "Well, I beg your"
-	line "pardon…"
+	text "Vâng, xin thứ"
+	line "lỗi…"
 	done
 
 _BTWinF9Text:
-	text "Sob… That's not"
-	line "fair!"
+	text "Hu hu… Không"
+	line "công bằng!"
 	done
 
 _BTGreetingF10Text:
-	text "I'm good!"
-	line "You can't win."
+	text "Tôi giỏi lắm!"
+	line "Bạn không thắng."
 	done
 
 _BTLossF10Text:
-	text "Giving up? You're"
-	line "pretty weak!"
+	text "Bỏ cuộc? Bạn"
+	line "yếu quá!"
 	done
 
 _BTWinF10Text:
-	text "I won't accept"
-	line "this… No way!"
+	text "Tôi không chấp"
+	line "nhận… Không!"
 	done
 
 _BTGreetingF11Text:
-	text "Are you treating"
-	line "this seriously?"
+	text "Bạn có nghiêm"
+	line "túc không đấy?"
 	done
 
 _BTLossF11Text:
-	text "Oh, sorry! Looks"
-	line "like I won!"
+	text "Ôi, xin lỗi!"
+	line "Chắc là tôi thắng!"
 	done
 
 _BTWinF11Text:
-	text "Oh, how nasty!"
-	line "You were serious!"
+	text "Ôi, tệ quá!"
+	line "Bạn nghiêm túc!"
 	done
 
 _BTGreetingF12Text:
-	text "Ahahah! I'll take"
-	line "it easy on you!"
+	text "Ahaha! Tôi sẽ"
+	line "nhẹ tay với bạn!"
 	done
 
 _BTLossF12Text:
-	text "Oops, sorry! But"
-	line "I'm happy too!"
+	text "Ối, xin lỗi!"
+	line "Nhưng tôi vui!"
 	done
 
 _BTWinF12Text:
-	text "Oh, oh, I lost!"
-	line "Thanks. Bye!"
+	text "Ôi ôi, thua rồi!"
+	line "Cảm ơn. Bye!"
 	done
 
 _BTGreetingF13Text:
-	text "BATTLE TOWER is a"
-	line "tough place!"
+	text "THÁP ĐẤU là nơi"
+	line "khó đấy!"
 	done
 
 _BTLossF13Text:
-	text "You might have a"
-	line "hard time."
+	text "Bạn có thể gặp"
+	line "khó khăn."
 	done
 
 _BTWinF13Text:
-	text "Ooh, you might"
-	line "make a run here!"
+	text "Ooh, bạn có thể"
+	line "tiến xa ở đây!"
 	done
 
 _BTGreetingF14Text:
-	text "I want to see your"
-	line "style in action!"
+	text "Tôi muốn xem"
+	line "phong cách bạn!"
 	done
 
 _BTLossF14Text:
-	text "Every battle is a"
-	line "drama!"
+	text "Mỗi trận đấu"
+	line "là một vở kịch!"
 	done
 
 _BTWinF14Text:
-	text "Oh… Want to trade"
-	line "something?"
+	text "Oh… Muốn đổi"
+	line "gì đó không?"
 	done
 
 _BTGreetingF15Text:
-	text "OK, here goes!"
-	line "I have momentum!"
+	text "OK, bắt đầu!"
+	line "Tôi đang sung!"
 	done
 
 _BTLossF15Text:
-	text "See, I rolled"
-	line "right over you!"
+	text "Thấy chưa, tôi"
+	line "cán qua bạn rồi!"
 	done
 
 _BTWinF15Text:
-	text "No! This did not"
-	line "happen!"
+	text "Không! Chuyện này"
+	line "không xảy ra!"
 	done

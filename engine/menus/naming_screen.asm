@@ -117,8 +117,8 @@ NamingScreenJumptable:
 	ret
 
 .NicknameStrings:
-	db "'S@"
-	db "NICKNAME?@"
+	db "@"
+	db "BIỆT DANH?@"
 
 .Player:
 	farcall GetPlayerIcon
@@ -130,7 +130,7 @@ NamingScreenJumptable:
 	ret
 
 .PlayerNameString:
-	db "YOUR NAME?@"
+	db "Tên bạn là?@"
 
 .Rival:
 	ld de, RivalSpriteGFX
@@ -143,7 +143,7 @@ NamingScreenJumptable:
 	ret
 
 .RivalNameString:
-	db "RIVAL'S NAME?@"
+	db "TÊN ĐỐI THỦ@"
 
 .Mom:
 	ld de, MomSpriteGFX
@@ -156,7 +156,7 @@ NamingScreenJumptable:
 	ret
 
 .MomNameString:
-	db "MOTHER'S NAME?@"
+	db "TÊN MẸ?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX
@@ -180,7 +180,7 @@ NamingScreenJumptable:
 	ret
 
 .BoxNameString:
-	db "BOX NAME?@"
+	db "TÊN HỘP?@"
 
 .Friend:
 	hlcoord 3, 2
@@ -259,6 +259,30 @@ NamingScreen_IsTargetBox:
 	pop bc
 	ret
 
+NamingScreen_IsTargetMon:
+; Return z if [wNamingScreenType] == NAME_MON, NAME_6, or NAME_7.
+	push bc
+	push af
+	ld a, [wNamingScreenType]
+	and a ; NAME_MON = 0
+	jr z, .is_mon
+	cp NAME_6
+	jr z, .is_mon
+	cp NAME_7
+	jr z, .is_mon
+	; not a mon
+	ld b, 2
+	pop af
+	dec b ; nz (2-1=1, non-zero)
+	pop bc
+	ret
+.is_mon
+	ld b, 1
+	pop af
+	dec b ; z
+	pop bc
+	ret
+
 NamingScreen_InitText:
 	call WaitTop
 	hlcoord 0, 0
@@ -267,32 +291,62 @@ NamingScreen_InitText:
 	call ByteFill
 	hlcoord 1, 1
 	lb bc, 6, 18
-	call NamingScreen_IsTargetBox
-	jr nz, .not_box
-	lb bc, 4, 18
-
-.not_box
 	call ClearBox
-	ld de, NameInputUpper
+	ld de, NameInputPage1
 NamingScreen_ApplyTextInputMode:
+	; Check for box naming first
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box
-	assert BoxNameInputLower - NameInputLower == BoxNameInputUpper - NameInputUpper
-	ld hl, BoxNameInputLower - NameInputLower
-	add hl, de
-	ld d, h
-	ld e, l
+	; For box naming, use 2-page English system
+	ld de, BoxNameInput1
+	ld a, [wNamingScreenLetterCase]
+	and 1
+	jr z, .apply_layout
+	ld de, BoxNameInput2
+	jr .apply_layout
 
 .not_box
+	; Check for Pokemon naming
+	call NamingScreen_IsTargetMon
+	jr nz, .not_mon
+	; For Pokemon naming, use 2-page English system (like box)
+	ld de, MonNameInput1
+	ld a, [wNamingScreenLetterCase]
+	and 1
+	jr z, .apply_layout
+	ld de, MonNameInput2
+	jr .apply_layout
+
+.not_mon
+	; For player/rival/etc naming, use 5 Vietnamese pages
+	ld a, [wNamingScreenLetterCase]
+	and a
+	jr z, .viet_page1
+	cp 1
+	jr z, .viet_page2
+	cp 2
+	jr z, .viet_page3
+	cp 3
+	jr z, .viet_page4
+	; else page5
+	ld de, NameInputPage5
+	jr .apply_layout
+.viet_page1
+	ld de, NameInputPage1
+	jr .apply_layout
+.viet_page2
+	ld de, NameInputPage2
+	jr .apply_layout
+.viet_page3
+	ld de, NameInputPage3
+	jr .apply_layout
+.viet_page4
+	ld de, NameInputPage4
+
+.apply_layout
 	push de
 	hlcoord 1, 8
 	lb bc, 7, 18
-	call NamingScreen_IsTargetBox
-	jr nz, .not_box_2
-	hlcoord 1, 6
-	lb bc, 9, 18
-
-.not_box_2
 	call ClearBox
 	hlcoord 1, 16
 	lb bc, 1, 18
@@ -300,10 +354,6 @@ NamingScreen_ApplyTextInputMode:
 	pop de
 	hlcoord 2, 8
 	ld b, $5
-	call NamingScreen_IsTargetBox
-	jr nz, .row
-	hlcoord 2, 6
-	ld b, $6
 
 .row
 	ld c, $11
@@ -346,11 +396,6 @@ NamingScreenJoypadLoop:
 	xor a
 	ldh [hBGMapMode], a
 	hlcoord 1, 5
-	call NamingScreen_IsTargetBox
-	jr nz, .got_coords
-	hlcoord 1, 3
-
-.got_coords
 	lb bc, 1, 18
 	call ClearBox
 	ld hl, wNamingScreenDestinationPointer
@@ -375,10 +420,6 @@ NamingScreenJoypadLoop:
 
 .InitCursor:
 	depixel 10, 3
-	call NamingScreen_IsTargetBox
-	jr nz, .got_cursor_position
-	ld d, 8 * TILE_WIDTH
-.got_cursor_position
 	ld a, SPRITE_ANIM_OBJ_NAMING_SCREEN_CURSOR
 	call InitSpriteAnimStruct
 	ld a, c
@@ -434,9 +475,6 @@ NamingScreenJoypadLoop:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld [hl], $4
-	call NamingScreen_IsTargetBox
-	ret nz
-	inc [hl]
 	ret
 
 .b
@@ -450,17 +488,30 @@ NamingScreenJoypadLoop:
 	ret
 
 .select
+	; Check if this is box or Pokemon naming (English-only, 2 pages)
+	call NamingScreen_IsTargetBox
+	jr z, .two_page_toggle
+	call NamingScreen_IsTargetMon
+	jr z, .two_page_toggle
+
+	; Player/Rival/etc naming uses 5 Vietnamese pages
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
-	xor 1
+	inc a
+	cp 5
+	jr c, .no_wrap
+	xor a
+.no_wrap
 	ld [hl], a
-	jr z, .upper
-	ld de, NameInputLower
 	call NamingScreen_ApplyTextInputMode
 	ret
 
-.upper
-	ld de, NameInputUpper
+.two_page_toggle
+	; Box and Pokemon naming uses only 2 pages
+	ld hl, wNamingScreenLetterCase
+	ld a, [hl]
+	xor 1  ; Toggle between 0 and 1
+	ld [hl], a
 	call NamingScreen_ApplyTextInputMode
 	ret
 
@@ -476,10 +527,6 @@ NamingScreen_GetCursorPosition:
 	ld a, [hl]
 	push bc
 	ld b, $4
-	call NamingScreen_IsTargetBox
-	jr nz, .not_box
-	inc b
-.not_box
 	cp b
 	pop bc
 	jr nz, .not_bottom_row
@@ -516,10 +563,6 @@ NamingScreen_AnimateCursor:
 	add hl, bc
 	ld [hl], e
 	ld d, $4
-	call NamingScreen_IsTargetBox
-	jr nz, .ok
-	inc d
-.ok
 	cp d
 	ld de, .LetterEntries
 	ld a, SPRITE_ANIM_FRAMESET_TEXT_ENTRY_CURSOR - SPRITE_ANIM_FRAMESET_TEXT_ENTRY_CURSOR ; 0
@@ -630,14 +673,6 @@ NamingScreen_AnimateCursor:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld a, [hl]
-	call NamingScreen_IsTargetBox
-	jr nz, .not_box
-	cp $5
-	jr nc, .wrap_up
-	inc [hl]
-	ret
-
-.not_box
 	cp $4
 	jr nc, .wrap_up
 	inc [hl]
@@ -658,9 +693,6 @@ NamingScreen_AnimateCursor:
 
 .wrap_down
 	ld [hl], $4
-	call NamingScreen_IsTargetBox
-	ret nz
-	inc [hl]
 	ret
 
 NamingScreen_TryAddCharacter:
@@ -986,7 +1018,7 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	hlcoord 1, 1
 	lb bc, 4, SCREEN_WIDTH - 2
 	call ClearBox
-	ld de, MailEntry_Uppercase
+	ld de, MailEntry_Page1
 
 .PlaceMailCharset:
 	hlcoord 1, 7
@@ -1142,15 +1174,22 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 .select
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
-	xor 1
+	inc a
+	cp 2 ; Now only 2 pages (0 and 1)
+	jr c, .no_wrap
+	xor a
+.no_wrap
 	ld [hl], a
-	jr nz, .switch_to_lowercase
-	ld de, MailEntry_Uppercase
+	; a = 0: Page1, 1: Page2
+	and a
+	jr z, .mail_page1
+	; else page2
+	ld de, MailEntry_Page2
 	call .PlaceMailCharset
 	ret
 
-.switch_to_lowercase
-	ld de, MailEntry_Lowercase
+.mail_page1
+	ld de, MailEntry_Page1
 	call .PlaceMailCharset
 	ret
 

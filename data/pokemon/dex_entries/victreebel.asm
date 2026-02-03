@@ -1,10 +1,10 @@
-	db "FLYCATCHER@" ; species name
-	dw 507, 340 ; height, weight
+	db "BẮT RUỒI@" ; species name
+	dw 17, 155 ; height, weight
 
-	db   "Once ingested into"
-	next "this #MON's"
-	next "body, even the"
+	db   "Khi bị nuốt vào"
+	next "cơ thể #MON"
+	next "này, ngay cả vật"
 
-	page "hardest object"
-	next "will melt into"
-	next "nothing.@"
+	page "cứng nhất cũng"
+	next "tan thành"
+	next "hư không.@"

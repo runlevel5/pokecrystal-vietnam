@@ -224,31 +224,31 @@ Route42SuicuneMovement:
 	step_end
 
 FisherTullySeenText:
-	text "Let me demonstrate"
-	line "the power of the"
-	cont "#MON I caught!"
+	text "Để tôi phô diễn"
+	line "sức mạnh của"
+	cont "#MON tôi bắt!"
 	done
 
 FisherTullyBeatenText:
-	text "What? That's not"
-	line "right."
+	text "Gì? Không đúng"
+	line "rồi."
 	done
 
 FisherTullyAfterBattleText:
-	text "I want to become"
-	line "the trainer CHAMP"
+	text "Tôi muốn trở thành"
+	line "HLV VÔ ĐỊCH"
 
-	para "using the #MON"
-	line "I caught."
+	para "với #MON mà"
+	line "tôi tự bắt."
 
-	para "That's the best"
-	line "part of fishing!"
+	para "Đó là phần hay"
+	line "nhất của câu cá!"
 	done
 
 HikerBenjaminSeenText:
-	text "Ah, it's good to"
-	line "be outside!"
-	cont "I feel so free!"
+	text "Ah, được ở ngoài"
+	line "trời thật tuyệt!"
+	cont "Cảm giác tự do!"
 	done
 
 HikerBenjaminBeatenText:
@@ -256,64 +256,64 @@ HikerBenjaminBeatenText:
 	done
 
 HikerBenjaminAfterBattleText:
-	text "Losing feels in-"
-	line "significant if you"
+	text "Thua trận cảm giác"
+	line "không quan trọng"
 
-	para "look up at the big"
-	line "sky!"
+	para "nếu bạn nhìn lên"
+	line "bầu trời rộng lớn!"
 	done
 
 PokemaniacShaneSeenText:
 	text "HEY!"
 
-	para "This is my secret"
-	line "place! Get lost,"
-	cont "you outsider!"
+	para "Đây là nơi bí mật"
+	line "của tao! Cút đi,"
+	cont "đồ người ngoài!"
 	done
 
 PokemaniacShaneBeatenText:
-	text "I should have used"
-	line "my MOON STONE…"
+	text "Đáng lẽ tao nên"
+	line "dùng ĐÁ TRĂNG…"
 	done
 
 PokemaniacShaneAfterBattleText:
-	text "You're working on"
-	line "a #DEX?"
+	text "Mày đang làm"
+	line "#DEX à?"
 
-	para "Wow, you must know"
-	line "some pretty rare"
-	cont "#MON!"
+	para "Wow, chắc mày"
+	line "biết một vài"
+	cont "#MON khá hiếm!"
 
-	para "May I please see"
-	line "it. Please?"
+	para "Cho tao xem được"
+	line "không. Làm ơn?"
 	done
 
 Route42Sign1Text:
-	text "ROUTE 42"
+	text "TUYẾN ĐƯỜNG 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "TP. ECRUTEAK -"
+	line "TRẤN MAHOGANY"
 	done
 
 MtMortarSign1Text:
-	text "MT.MORTAR"
+	text "NÚI MORTAR"
 
-	para "WATERFALL CAVE"
-	line "INSIDE"
+	para "HANG THÁC NƯỚC"
+	line "BÊN TRONG"
 	done
 
 MtMortarSign2Text:
-	text "MT.MORTAR"
+	text "NÚI MORTAR"
 
-	para "WATERFALL CAVE"
-	line "INSIDE"
+	para "HANG THÁC NƯỚC"
+	line "BÊN TRONG"
 	done
 
 Route42Sign2Text:
-	text "ROUTE 42"
+	text "TUYẾN ĐƯỜNG 42"
 
-	para "ECRUTEAK CITY -"
-	line "MAHOGANY TOWN"
+	para "TP. ECRUTEAK -"
+	line "TRẤN MAHOGANY"
 	done
 
 Route42_MapEvents:

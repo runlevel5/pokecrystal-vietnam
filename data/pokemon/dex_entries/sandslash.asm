@@ -1,10 +1,10 @@
-	db "MOUSE@" ; species name
-	dw 303, 650 ; height, weight
+	db "CHUỘT@" ; species name
+	dw 10, 295 ; height, weight
 
-	db   "Adept at climbing"
-	next "trees, it rolls"
-	next "into a spiny ball,"
+	db   "Giỏi leo cây, nó"
+	next "cuộn thành quả"
+	next "cầu gai, rồi tấn"
 
-	page "then attacks its"
-	next "enemies from"
-	next "above.@"
+	page "công kẻ thù"
+	next "từ trên cao.@"
+	next "@"

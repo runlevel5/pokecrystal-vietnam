@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 100, 20 ; height, weight
+	db "BÓNG BAY@" ; species name
+	dw 3, 10 ; height, weight
 
-	db   "Instead of walking"
-	next "with its short"
-	next "legs, it moves"
+	db   "Thay vì đi bằng"
+	next "chân ngắn, nó di"
+	next "chuyển bằng cách"
 
-	page "around by bouncing"
-	next "on its soft,"
-	next "tender body.@"
+	page "nảy trên thân"
+	next "mềm mại.@"
+	next "@"

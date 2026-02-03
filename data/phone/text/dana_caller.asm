@@ -1,109 +1,106 @@
 DanaTakingPhotosText:
-	text "My @"
+	text "@"
 	text_ram wStringBuffer4
-	text " is"
-	line "getting prettier!"
+	text " của tớ"
+	line "đang đẹp hơn!"
 
-	para "I've been taking"
-	line "photos galore!"
+	para "Tớ đang chụp hình"
+	line "nhiều lắm!"
 	done
 
 DanaDefeatedMonText:
-	text "It took only an"
-	line "instant to KO a"
-	cont "wild @"
+	text "Chỉ một thoáng để"
+	line "hạ con @"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	cont "hoang."
 
-	para "It must be because"
-	line "you gave me some"
+	para "Chắc là vì cậu đã"
+	line "cho tớ mẹo đấu"
 
-	para "battling tips last"
-	line "time."
+	para "lần trước."
 	done
 
 DanaLostAMonText:
-	text "You know what?"
-	line "A wild @"
+	text "Cậu biết không?"
+	line "Một con @"
 	text_ram wStringBuffer4
 	text_start
-	para "got away from me"
-	line "again."
+	para "hoang lại trốn tớ"
+	line "nữa rồi."
 
-	para "It was so close!"
-	line "Really, just a"
+	para "Sắp được rồi!"
+	line "Thật sự, chỉ cần"
 
-	para "little bit more,"
-	line "and I would've…"
+	para "thêm chút nữa,"
+	line "và tớ đã…"
 	done
 
 DanaBattleRematchText:
-	text "Right now, I'm on"
+	text "Bây giờ, tớ ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "If you're close"
-	line "by, let's battle!"
+	para "Nếu cậu gần đây,"
+	line "đấu thôi!"
 
-	para "I'll be waiting"
-	line "for you!"
+	para "Tớ sẽ đợi cậu!"
 	done
 
 DanaHangUpText:
-	text "See you!"
+	text "Hẹn gặp lại!"
 	done
 
 DanaFoundItemText:
-	text "You know what?"
-	line "I got a good gift!"
+	text "Cậu biết không?"
+	line "Tớ có quà hay rồi!"
 
-	para "As I promised,"
-	line "it's yours!"
+	para "Như đã hứa, là của"
+	line "cậu!"
 
-	para "I'm sure you'd"
-	line "like it. Come get"
+	para "Tớ chắc cậu thích."
+	line "Đến lấy đi! Tớ"
 
-	para "it! I'm waiting on"
+	para "đang đợi ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 DanaCanYouWaitABitLongerText:
-	text "Oh! You wanted a"
-	line "gift, right?"
+	text "Ồ! Cậu muốn quà,"
+	line "đúng không?"
 
-	para "I got one, but I"
-	line "want to keep this."
+	para "Tớ có rồi, nhưng"
+	line "muốn giữ cái này."
 
-	para "Can you wait a bit"
-	line "longer?"
+	para "Cậu đợi thêm chút"
+	line "được không?"
 	done
 
 DanaReminderText:
-	text "Hi! You haven't"
-	line "forgotten about"
+	text "Chào! Cậu chưa"
+	line "quên lời hứa"
 
-	para "your promise to"
-	line "battle me?"
+	para "đấu với tớ chứ?"
 
-	para "I'm waiting on"
+	para "Tớ đang đợi ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 DanaComePickUpText:
-	text "Hello?"
+	text "A lô?"
 
-	para "If you don't come"
-	line "get your present"
+	para "Nếu cậu không đến"
+	line "lấy quà sớm,"
 
-	para "soon, I'll give it"
-	line "to someone else."
+	para "tớ sẽ cho người"
+	line "khác."
 
-	para "I'm waiting on"
+	para "Tớ đang đợi ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

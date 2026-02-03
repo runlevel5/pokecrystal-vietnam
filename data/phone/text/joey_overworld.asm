@@ -1,71 +1,69 @@
 JoeyAskNumber1Text:
-	text "Listen, can I get"
-	line "your phone number?"
+	text "Nghe này, cho tớ"
+	line "xin SĐT được không"
 
-	para "I'll ring you for"
-	line "some battles."
+	para "Tớ sẽ gọi cho cậu"
+	line "để đấu."
 
-	para "I'm a rookie too, "
-	line "so I think it'd be"
-	cont "a good motivator."
+	para "Tớ cũng mới, nên"
+	line "nghĩ đó sẽ là"
+	cont "động lực tốt."
 	done
 
 JoeyAskNumber2Text:
-	text "Can I get your"
-	line "phone number?"
+	text "Cho tớ xin SĐT"
+	line "được không?"
 
-	para "I don't want to"
-	line "lose against you!"
+	para "Tớ không muốn thua"
+	line "cậu!"
 
-	para "We have to battle"
-	line "again, OK?"
+	para "Bọn mình phải đấu"
+	line "lại, OK?"
 	done
 
 JoeyNumberAcceptedText:
-	text "I'll ring you"
-	line "whenever I get the"
-	cont "urge to battle!"
+	text "Tớ sẽ gọi bất cứ"
+	line "khi nào muốn đấu!"
 	done
 
 JoeyNumberDeclinedText:
-	text "Oh, all right…"
+	text "Ồ, được rồi…"
 
-	para "But I won't lose"
-	line "to you again!"
+	para "Nhưng tớ sẽ không"
+	line "thua cậu lần nữa!"
 	done
 
 JoeyPhoneFullText:
-	text "Huh, what? Your"
-	line "phone's full."
+	text "Hả, gì? Điện"
+	line "thoại cậu đầy rồi"
 	done
 
 JoeyRematchText:
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Tớ đợi rồi!"
+	line "Đấu ngay thôi!"
 	done
 
 JoeyPackFullText:
-	text "Hey, wait! Your"
-	line "PACK is stuffed!"
+	text "Này, chờ đã! TÚI"
+	line "cậu đầy rồi!"
 
-	para "Well, we'll leave"
-	line "it till next time."
+	para "Thôi, để lần sau"
+	line "vậy."
 	done
 
 JoeyRematchGiftText:
-	text "And yet another"
-	line "loss…"
+	text "Và lại thua nữa…"
 
-	para "No doubt about"
-	line "it--you're tough."
+	para "Không nghi ngờ gì"
+	line "cậu rất mạnh."
 
-	para "Being beaten this"
-	line "often actually"
-	cont "feels good now!"
+	para "Bị đánh bại thường"
+	line "xuyên thế này giờ"
+	cont "lại cảm thấy tốt!"
 
-	para "Here, take this. "
-	line "Use it to get even"
+	para "Cầm lấy. Dùng nó"
+	line "để mạnh hơn. Điều"
 
-	para "tougher. That will"
-	line "toughen me up too!"
+	para "đó cũng sẽ làm tớ"
+	line "mạnh hơn!"
 	done

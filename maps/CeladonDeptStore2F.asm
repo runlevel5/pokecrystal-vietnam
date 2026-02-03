@@ -36,34 +36,29 @@ CeladonDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore2FPokefanMText:
-	text "I just recently"
-	line "became a trainer."
+	text "Tôi mới làm HLV"
+	line "gần đây thôi."
 
-	para "My son encouraged"
-	line "me to do it."
+	para "Con trai khuyến"
+	line "khích tôi."
 
-	para "I'm impressed by"
-	line "the selection of"
-	cont "convenient items."
+	para "Tôi rất ấn tượng"
+	line "với sự đa dạng"
+	cont "vật phẩm tiện lợi."
 	done
 
 CeladonDeptStore2FYoungsterText:
-	text "My dad's having a"
-	line "hard time learning"
+	text "Ba tôi khó học tên"
+	line "vật phẩm và cách"
 
-	para "the names of items"
-	line "and how they are"
-
-	para "supposed to be"
-	line "used…"
+	para "dùng chúng lắm…"
 	done
 
 CeladonDeptStore2FDirectoryText:
-	text "Top Grade Items"
-	line "for Trainers!"
+	text "Vật Phẩm Hạng Nhất"
+	line "Cho HLV!"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: KHU HLV"
 	done
 
 CeladonDeptStore2F_MapEvents:

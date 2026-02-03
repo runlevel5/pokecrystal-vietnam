@@ -103,159 +103,158 @@ VermilionGymStatue:
 	jumpstd GymStatue2Script
 
 LtSurgeIntroText:
-	text "SURGE: Hey, you"
-	line "little tyke!"
+	text "SURGE: Này, nhóc!"
 
-	para "I have to hand it"
-	line "to you. It may not"
+	para "Ta phải công nhận"
+	line "ngươi. Thách đấu"
 
-	para "be very smart to"
-	line "challenge me, but"
-	cont "it takes guts!"
+	para "ta không khôn,"
+	line "nhưng cần dũng"
+	cont "cảm!"
 
-	para "When it comes to"
-	line "electric #MON,"
-	cont "I'm number one!"
+	para "Về #MON hệ"
+	line "ĐIỆN, ta là số 1!"
 
-	para "I've never lost on"
-	line "the battlefield."
+	para "Ta chưa bao giờ"
+	line "thua trên chiến"
+	cont "trường."
 
-	para "I'll zap you just"
-	line "like I did my"
-	cont "enemies in war!"
+	para "Ta sẽ giật điện"
+	line "ngươi như ta làm"
+	cont "với kẻ thù trong"
+	cont "chiến tranh!"
 	done
 
 LtSurgeWinLossText:
 	text "SURGE: Arrrgh!"
-	line "You are strong!"
+	line "Ngươi rất mạnh!"
 
-	para "OK, kid. You get"
-	line "THUNDERBADGE!"
+	para "OK, nhóc. Ngươi"
+	line "nhận THUNDERBADGE!"
 	done
 
 ReceivedThunderBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> nhận được"
 	line "THUNDERBADGE."
 	done
 
 LtSurgeThunderBadgeText:
 	text "SURGE: THUNDER-"
-	line "BADGE increases"
-	cont "#MON's speed. "
+	line "BADGE tăng TỐC ĐỘ"
+	cont "cho #MON."
 
-	para "Consider it proof"
-	line "that you defeated"
+	para "Hãy coi nó là"
+	line "bằng chứng ngươi"
 
-	para "me. You wear it"
-	line "proudly, hear?"
+	para "đã thắng ta."
+	line "Đeo nó tự hào!"
 	done
 
 LtSurgeFightDoneText:
-	text "SURGE: Hey, kid!"
-	line "Still slugging and"
-	cont "chugging away?"
+	text "SURGE: Này, nhóc!"
+	line "Vẫn đang chiến"
+	cont "đấu chứ?"
 
-	para "My #MON and I"
-	line "are still at it!"
+	para "#MON của ta và"
+	line "ta vẫn luyện tập!"
 	done
 
 GentlemanGregorySeenText:
-	text "You're here to"
-	line "defeat LT.SURGE?"
+	text "Bạn đến để đánh"
+	line "bại LT.SURGE sao?"
 
-	para "Not if I can help"
-	line "it!"
+	para "Không được nếu"
+	line "tôi ngăn cản!"
 	done
 
 GentlemanGregoryBeatenText:
-	text "Sorry I failed"
-	line "you, LT.SURGE,"
-	cont "sir!"
+	text "Xin lỗi tôi đã"
+	line "thất bại,"
+	cont "LT.SURGE, thưa!"
 	done
 
 GentlemanGregoryAfterBattleText:
-	text "When I was still"
-	line "in the army, LT."
+	text "Khi tôi còn trong"
+	line "quân đội, LT.SURGE"
 
-	para "SURGE saved my"
-	line "life."
+	para "đã cứu mạng tôi."
 	done
 
 GuitaristVincentSeenText:
-	text "LT.SURGE recog-"
-	line "nized my potential"
+	text "LT.SURGE đã công"
+	line "nhận tiềm năng"
 
-	para "with electric"
-	line "#MON."
+	para "của tôi với"
+	line "#MON hệ ĐIỆN."
 
-	para "Think you can beat"
-	line "me?"
+	para "Bạn nghĩ đánh bại"
+	line "được tôi sao?"
 	done
 
 GuitaristVincentBeatenText:
-	text "Ooh, how shocking!"
+	text "Ồ, thật sốc!"
 	done
 
 GuitaristVincentAfterBattleText:
-	text "If the GYM's traps"
-	line "were working, you"
+	text "Nếu bẫy của GYM"
+	line "còn hoạt động,"
 
-	para "would have been"
-	line "toast…"
+	para "bạn đã xong đời"
+	line "rồi…"
 	done
 
 JugglerHortonSeenText:
-	text "I'm going to take"
-	line "you down! Prepare"
-	cont "to be shocked!"
+	text "Tôi sẽ hạ gục bạn!"
+	line "Chuẩn bị bị giật"
+	cont "điện!"
 	done
 
 JugglerHortonBeatenText:
 	text "Gwaaah!"
-	line "I was overpowered…"
+	line "Tôi bị áp đảo…"
 	done
 
 JugglerHortonAfterBattleText:
-	text "Don't get too com-"
-	line "fortable about"
+	text "Đừng thoải mái"
+	line "quá vì thắng tôi…"
 
-	para "beating me…"
-	line "LT.SURGE is tough."
+	para "LT.SURGE rất"
+	line "mạnh đấy."
 	done
 
 VermilionGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Yo! NHÀ VÔ ĐỊCH"
+	line "tương lai!"
 
-	para "You lucked out"
-	line "this time."
+	para "Bạn may mắn lần"
+	line "này đấy."
 
-	para "LT.SURGE is very"
-	line "cautious. He has"
+	para "LT.SURGE rất cẩn"
+	line "thận. Ông ấy đặt"
 
-	para "traps set all over"
-	line "the GYM."
+	para "bẫy khắp nơi"
+	line "trong GYM."
 
-	para "But--he-heh--the"
-	line "traps aren't"
-	cont "active right now."
+	para "Nhưng--he-he--bẫy"
+	line "hiện không hoạt"
+	cont "động."
 
-	para "You'll have no"
-	line "problem getting to"
-	cont "LT.SURGE."
+	para "Bạn sẽ không gặp"
+	line "khó khăn khi đến"
+	cont "gặp LT.SURGE."
 	done
 
 VermilionGymGuideWinText:
-	text "Whew! That was an"
-	line "electrifying bout!"
+	text "Phù! Đó là một"
+	line "trận đấu điện!"
 
-	para "It sure made me"
-	line "nervous."
+	para "Nó khiến tôi thật"
+	line "hồi hộp."
 	done
 
 VermilionGymTrashCanText:
-	text "Nope! Nothing here"
-	line "but trash."
+	text "Không! Ở đây chỉ"
+	line "có rác thôi."
 	done
 
 VermilionGym_MapEvents:

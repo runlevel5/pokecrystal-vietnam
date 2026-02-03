@@ -1,105 +1,105 @@
 DerekCheekPinchingText:
-	text "Listen to this."
-	line "My @"
+	text "Nghe này."
+	line "@"
 	text_ram wStringBuffer4
-	text_start
-	para "grins happily when"
-	line "I pinch its cheek."
+	text " của tớ"
+	para "cười vui khi tớ"
+	line "véo má nó."
 
-	para "But it never grins"
-	line "for anyone else."
+	para "Nhưng nó không bao"
+	line "giờ cười với ai"
+	cont "khác."
 
-	para "I must be special."
+	para "Tớ chắc đặc biệt."
 	done
 
 DerekDefeatedMonText:
-	text "Oh, and recently,"
-	line "my PIKACHU beat a"
-	cont "wild @"
+	text "À, và gần đây,"
+	line "PIKACHU của tớ đã"
+	cont "đánh bại @"
 	text_ram wStringBuffer4
-	text "!"
+	text_start
+	para "hoang!"
 
-	para "A wild @"
+	para "@"
 	text_ram wStringBuffer4
-	text ","
-	line "I tell you!"
+	text " hoang,"
+	line "tớ nói với cậu!"
 
-	para "Don't you think"
-	line "that's astounding?"
+	para "Cậu không nghĩ"
+	line "điều đó kinh ngạc?"
 
-	para "My PIKACHU is"
-	line "awesome!"
+	para "PIKACHU của tớ"
+	line "tuyệt vời!"
 
-	para "My PIKACHU is the"
-	line "greatest!"
+	para "PIKACHU của tớ là"
+	line "vĩ đại nhất!"
 	done
 
 DerekLostAMonText:
-	text "Oh, and I saw a"
-	line "wild @"
+	text "À, và tớ thấy con"
+	line "@"
 	text_ram wStringBuffer4
-	text " a"
-	cont "little while ago."
+	text " hoang"
+	cont "một lúc trước."
 
-	para "But it wasn't very"
-	line "cute, so I left"
+	para "Nhưng nó không dễ"
+	line "thương lắm, nên tớ"
 
-	para "it…"
-	line "#MON have to be"
+	para "bỏ qua…"
+	line "#MON phải dễ"
 
-	para "cute. They're no"
-	line "good otherwise."
+	para "thương. Không thì"
+	line "không tốt."
 	done
 
 DerekHangUpText:
-	text "Well, let's talk"
-	line "again!"
+	text "Vậy, nói chuyện"
+	line "lại nhé!"
 	done
 
 DerekBugCatchingContestText:
-	text "Did you remember?"
-	line "The Bug-Catching"
-	cont "Contest is today."
+	text "Cậu nhớ chứ?"
+	line "Thi bắt côn trùng"
+	cont "hôm nay."
 
-	para "You're going to"
-	line "go, aren't you?"
+	para "Cậu sẽ đi, đúng"
+	line "không?"
 
-	para "I think I'll"
-	line "participate with"
+	para "Tớ nghĩ tớ sẽ tham"
+	line "gia với PIKACHU"
 
-	para "PIKACHU to show"
-	line "off its cuteness."
+	para "để khoe sự dễ"
+	line "thương của nó."
 	done
 
 DerekFoundItemText:
-	text "I'd like you to"
-	line "have a NUGGET."
+	text "Tớ muốn cho cậu"
+	line "CỤC VÀNG."
 
-	para "My PIKACHU just"
-	line "loves it."
+	para "PIKACHU của tớ rất"
+	line "thích nó."
 
-	para "I'm certain your"
-	line "PIKACHU will love"
-	cont "it too!"
+	para "Tớ chắc PIKACHU"
+	line "của cậu cũng thích"
 	done
 
 DerekLetsGetTogetherText:
-	text "How is your"
-	line "PIKACHU doing?"
+	text "PIKACHU của cậu"
+	line "thế nào?"
 
-	para "Let's get together"
-	line "and brag about our"
-	cont "PIKACHU!"
+	para "Gặp nhau và khoe"
+	line "về PIKACHU thôi!"
 	done
 
 DerekComePickUpText:
-	text "What's wrong?"
+	text "Sao vậy?"
 
-	para "I'm waiting on"
+	para "Tớ đang đợi ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Come pick this up"
-	line "anytime."
+	para "Đến lấy bất cứ"
+	line "lúc nào."
 	done

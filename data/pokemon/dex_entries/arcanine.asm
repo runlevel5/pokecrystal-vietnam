@@ -1,10 +1,10 @@
-	db "LEGENDARY@" ; species name
-	dw 603, 3420 ; height, weight
+	db "HUYỀN THOẠI@" ; species name
+	dw 19, 1550 ; height, weight
 
-	db   "An ancient picture"
-	next "scroll shows that"
-	next "people were"
+	db   "Một bức tranh cổ"
+	next "cho thấy người"
+	next "xưa bị thu hút"
 
-	page "attracted to its"
-	next "movement as it ran"
-	next "through prairies.@"
+	page "bởi dáng chạy"
+	next "của nó trên"
+	next "thảo nguyên.@"

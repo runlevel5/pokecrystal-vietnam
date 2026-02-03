@@ -21,26 +21,24 @@ CeruleanMart_CooltrainerF:
 	jumptextfaceplayer CeruleanMart_CooltrainerFText
 
 CeruleanMart_CooltrainerMText:
-	text "You'll run into"
-	line "many trainers on"
+	text "Bạn sẽ gặp nhiều"
+	line "HLV trên đường đến"
 
-	para "the way to CERU-"
-	line "LEAN's CAPE."
+	para "MŨI ĐẤT CERULEAN."
 
-	para "They want to see"
-	line "how they stack"
+	para "Họ muốn biết họ"
+	line "mạnh cỡ nào so với"
 
-	para "up against other"
-	line "trainers."
+	para "các HLV khác."
 	done
 
 CeruleanMart_CooltrainerFText:
-	text "MISTY is about the"
-	line "only person in"
+	text "MISTY là người"
+	line "duy nhất trong thị"
 
-	para "town who can beat"
-	line "the trainers at"
-	cont "CERULEAN's CAPE."
+	para "trấn có thể thắng"
+	line "các HLV ở MŨI ĐẤT"
+	cont "CERULEAN."
 	done
 
 CeruleanMart_MapEvents:

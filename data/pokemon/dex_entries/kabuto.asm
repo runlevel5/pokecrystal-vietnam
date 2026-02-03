@@ -1,10 +1,10 @@
-	db "SHELLFISH@" ; species name
-	dw 108, 250 ; height, weight
+	db "SÒ@" ; species name
+	dw 5, 115 ; height, weight
 
-	db   "Three hundred"
-	next "million years ago,"
-	next "it hid on the sea"
+	db   "300 triệu năm"
+	next "trước, nó ẩn"
+	next "dưới đáy biển."
 
-	page "floor. It also has"
-	next "eyes on its back"
-	next "that glow.@"
+	page "Nó có mắt phát"
+	next "sáng ở lưng.@"
+	next "@"

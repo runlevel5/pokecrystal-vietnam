@@ -20,24 +20,23 @@ FightingDojoFocusBand:
 	itemball FOCUS_BAND
 
 FightingDojoBlackBeltText:
-	text "Hello!"
+	text "Xin chào!"
 
-	para "KARATE KING, the"
-	line "FIGHTING DOJO's"
+	para "VUA KARATE, chủ"
+	line "của VÕ ĐƯỜNG,"
 
-	para "master, is in a"
-	line "cave in JOHTO for"
-	cont "training."
+	para "đang ở trong hang"
+	line "tại JOHTO để luyện"
+	cont "tập."
 	done
 
 FightingDojoSign1Text:
-	text "What goes around"
-	line "comes around!"
+	text "Gieo nhân nào gặp"
+	line "quả nấy!"
 	done
 
 FightingDojoSign2Text:
-	text "Enemies on every"
-	line "side!"
+	text "Kẻ địch khắp nơi!"
 	done
 
 FightingDojo_MapEvents:

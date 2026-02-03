@@ -1,10 +1,10 @@
-	db "JET@" ; species name
-	dw 211, 630 ; height, weight
+	db "PHẢN LỰC@" ; species name
+	dw 9, 285 ; height, weight
 
-	db   "Its instinct is to"
-	next "bury itself in"
-	next "holes. It often"
+	db   "Bản năng của nó"
+	next "là chui vào hang."
+	next "Nó thường chiếm"
 
-	page "steals the nesting"
-	next "holes of others to"
-	next "sleep in them.@"
+	page "tổ của kẻ khác"
+	next "để ngủ.@"
+	next "@"

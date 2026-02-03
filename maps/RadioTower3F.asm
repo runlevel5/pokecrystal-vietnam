@@ -155,175 +155,176 @@ RadioTower3FPokemonMusicSign:
 	jumptext RadioTower3FPokemonMusicSignText
 
 RadioTower3FSuperNerdText:
-	text "We have recordings"
-	line "of the cries of"
+	text "Chúng tôi có bản"
+	line "ghi tiếng kêu của"
 
-	para "all #MON that"
-	line "have been found."
+	para "mọi #MON đã"
+	line "được tìm thấy."
 
-	para "We must have about"
-	line "200 kinds."
+	para "Chắc có khoảng"
+	line "200 loại."
 	done
 
 RadioTower3FGymGuideText_Rockets:
-	text "To trainers, #-"
-	line "MON are their"
-	cont "beloved partners."
+	text "Với HLV, #MON"
+	line "là đối tác yêu"
+	cont "quý của họ."
 
-	para "It's terrible how"
-	line "TEAM ROCKET is"
+	para "Thật tệ khi"
+	line "ĐỘI ROCKET đang"
 
-	para "trying to control"
+	para "cố kiểm soát"
 	line "#MON."
 	done
 
 RadioTower3FGymGuideText:
-	text "We run 24 hours a"
-	line "day to broadcast"
+	text "Chúng tôi hoạt"
+	line "động 24 giờ để"
 
-	para "entertaining pro-"
-	line "grams."
+	para "phát sóng chương"
+	line "trình giải trí."
 
-	para "I'll do my best to"
-	line "run around the"
-	cont "clock too!"
+	para "Tôi cũng sẽ cố"
+	line "gắng chạy suốt"
+	cont "ngày đêm!"
 	done
 
 RadioTower3FCooltrainerFPleaseSaveDirectorText:
-	text "The TEAM ROCKET"
-	line "boss has locked"
-	cont "himself in."
+	text "Tên trùm"
+	line "ĐỘI ROCKET đã"
+	cont "nhốt mình trong."
 
-	para "But the DIRECTOR"
-	line "can open it."
+	para "Nhưng GIÁM ĐỐC"
+	line "có thể mở được."
 
-	para "He's up on the"
-	line "fifth floor."
+	para "Ông ấy ở trên"
+	line "tầng năm."
 
-	para "Please save him!"
+	para "Xin hãy cứu ông!"
 	done
 
 RadioTower3FCooltrainerFIsDirectorSafeText:
-	text "Is the DIRECTOR"
-	line "safe?"
+	text "GIÁM ĐỐC có an"
+	line "toàn không?"
 	done
 
 RadioTower3FCooltrainerFYoureMyHeroText:
-	text "Thank you!"
-	line "You're my hero!"
+	text "Cảm ơn bạn!"
+	line "Bạn là anh hùng!"
 
-	para "This is a token of"
-	line "my appreciation."
+	para "Đây là lời cảm"
+	line "ơn của tôi."
 	done
 
 RadioTower3FCooltrainerFItsSunnyDayText:
-	text "It's SUNNY DAY."
-	line "It powers up fire-"
-	cont "type moves for a"
-	cont "while."
+	text "Đó là NGÀY NẮNG."
+	line "Nó tăng sức mạnh"
+	cont "chiêu hệ lửa"
+	cont "một thời gian."
 	done
 
 RadioTower3FCooltrainerFYouWereMarvelousText:
-	text "You were simply"
-	line "marvelous!"
+	text "Bạn thật tuyệt"
+	line "vời!"
 	done
 
 GruntM7SeenText:
-	text "I've been given"
-	line "strict orders."
+	text "Tao được lệnh"
+	line "nghiêm ngặt."
 
-	para "I'm to crush any-"
-	line "one who challenges"
-	cont "TEAM ROCKET!"
+	para "Tao phải nghiền"
+	line "nát ai thách thức"
+	cont "ĐỘI ROCKET!"
 	done
 
 GruntM7BeatenText:
-	text "What?!"
+	text "Cái gì?!"
 	done
 
 GruntM7AfterBattleText:
-	text "I failed in my"
-	line "duties…"
+	text "Tao đã thất bại"
+	line "trong nhiệm vụ…"
 
-	para "I'll be docked pay"
-	line "for this…"
+	para "Tao sẽ bị trừ"
+	line "lương mất…"
 	done
 
 GruntM8SeenText:
-	text "It feels great"
-	line "ordering #MON"
-	cont "to commit crimes."
+	text "Thật tuyệt khi"
+	line "ra lệnh #MON"
+	cont "phạm tội."
 	done
 
 GruntM8BeatenText:
-	text "You're kidding!"
+	text "Mày đùa tao hả!"
 	done
 
 GruntM8AfterBattleText:
-	text "I feel lousy over"
-	line "losing!"
+	text "Tao thấy tệ vì"
+	line "thua rồi!"
 
-	para "Darn it! I hate"
-	line "useless #MON!"
+	para "Chết tiệt! Tao"
+	line "ghét #MON vô"
+	cont "dụng!"
 	done
 
 GruntM9SeenText:
-	text "Why did the shut-"
-	line "ter open? Did you"
+	text "Sao cửa lại mở?"
+	line "Mày có liên quan"
 
-	para "have something to"
-	line "do with this?"
+	para "đến chuyện này"
+	line "không?"
 	done
 
 GruntM9BeatenText:
-	text "I'm done for!"
+	text "Tao xong rồi!"
 	done
 
 GruntM9AfterBattleText:
-	text "What?! You made it"
-	line "past our men in"
-	cont "the UNDERGROUND?"
+	text "Cái gì?! Mày vượt"
+	line "qua bọn tao ở"
+	cont "HẦM NGẦM sao?"
 
-	para "How could you?"
+	para "Sao mày làm được?"
 	done
 
 ScientistMarcSeenText:
-	text "An unknown child"
-	line "wandering here?"
+	text "Một đứa trẻ lạ"
+	line "đang lang thang?"
 
-	para "Who are you?"
+	para "Mày là ai?"
 	done
 
 ScientistMarcBeatenText:
-	text "Tch! I took you"
-	line "too lightly!"
+	text "Tch! Tao coi"
+	line "thường mày quá!"
 	done
 
 ScientistMarcAfterBattleText:
 	text "Bwahahaha…"
 
-	para "I can transmit as"
-	line "strong a signal as"
-	cont "I need from here."
+	para "Tao có thể phát"
+	line "tín hiệu mạnh"
+	cont "tùy ý từ đây."
 	done
 
 RadioTower3FCardKeySlotText:
-	text "It's the CARD KEY"
-	line "slot."
+	text "Đây là khe cắm"
+	line "THẺ KHÓA."
 	done
 
 InsertedTheCardKeyText:
-	text "<PLAYER> inserted"
-	line "the CARD KEY."
+	text "<PLAYER> đã cắm"
+	line "THẺ KHÓA."
 	done
 
 RadioTower3FPersonnelSignText:
-	text "3F PERSONNEL"
+	text "3F NHÂN SỰ"
 	done
 
 RadioTower3FPokemonMusicSignText:
-	text "#MON MUSIC with"
-	line "Host DJ BEN"
+	text "#MON MUSIC với"
+	line "MC DJ BEN"
 	done
 
 RadioTower3F_MapEvents:

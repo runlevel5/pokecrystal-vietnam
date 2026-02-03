@@ -36,97 +36,91 @@ CianwoodPokecenter1FSuperNerdScript:
 	jumptextfaceplayer CianwoodPokecenter1FSuperNerdText
 
 CianwoodPokecenter1FLassText:
-	text "Did you meet the"
-	line "#MANIAC?"
+	text "Bạn gặp người"
+	line "#MANIAC chưa?"
 
-	para "He's always brag-"
-	line "ging about his"
-	cont "rare #MON."
+	para "Anh ta luôn khoe"
+	line "khoang về #MON"
+	cont "hiếm của mình."
 	done
 
 CianwoodGymGuideText:
-	text "The #MON GYM"
-	line "trainers here are"
-	cont "macho bullies."
+	text "Các HLV tại GYM"
+	line "#MON này đều là"
+	cont "kẻ bắt nạt."
 
-	para "If I stick around,"
-	line "they might come"
-	cont "after me."
+	para "Nếu tôi ở quanh"
+	line "đây, chúng có thể"
+	cont "đuổi theo tôi."
 
-	para "Here's some ad-"
-	line "vice: the GYM"
+	para "Đây là lời khuyên:"
+	line "T.LĨNH GYM dùng"
+	cont "hệ võ thuật."
 
-	para "LEADER uses the"
-	line "fighting-type."
+	para "Nên bạn hãy khiến"
+	line "anh ta bối rối với"
+	cont "#MON hệ TL."
 
-	para "So you should"
-	line "confound him with"
-	cont "psychic #MON."
+	para "Quét sạch #MON"
+	line "anh ta trước khi"
 
-	para "Wipe out his #-"
-	line "MON before they"
+	para "chúng dùng sức"
+	line "mạnh vật lý."
 
-	para "can use their"
-	line "physical strength."
+	para "Còn những tảng đá"
+	line "ở giữa GYM?"
 
-	para "And those boulders"
-	line "in the middle of"
-	cont "the GYM?"
+	para "Nếu bạn không di"
+	line "chuyển đúng cách,"
 
-	para "If you don't move"
-	line "them correctly,"
+	para "bạn sẽ không thể"
+	line "đến được T.LĨNH."
 
-	para "you won't reach"
-	line "the GYM LEADER."
-
-	para "If you get stuck,"
-	line "go outside."
+	para "Nếu bị kẹt, hãy"
+	line "ra ngoài."
 	done
 
 CianwoodGymGuideWinText:
-	text "<PLAYER>! You won!"
-	line "I could tell by"
-	cont "looking at you!"
+	text "<PLAYER> thắng!"
+	line "Nhìn là biết ngay!"
 	done
 
 CianwoodPokecenter1FUnusedText1: ; unreferenced
-	text "Don't you get the"
-	line "urge to show off"
+	text "Bạn có cảm giác"
+	line "muốn khoe #MON"
+	cont "với bạn bè không?"
 
-	para "your #MON to"
-	line "friends?"
+	para "Tôi ước mình có"
+	line "thể khoe #MON"
 
-	para "I wish I could"
-	line "show the #MON I"
-
-	para "raised to my pal"
-	line "in VIOLET."
+	para "tôi nuôi cho bạn"
+	line "tôi ở VIOLET."
 	done
 
 CianwoodPokecenter1FUnusedText2: ; unreferenced
-	text "I've been battling"
-	line "my pal in VIOLET"
+	text "Tôi đang đấu với"
+	line "bạn tôi ở VIOLET"
 
-	para "using a MOBILE"
-	line "ADAPTER link."
+	para "dùng kết nối"
+	line "MOBILE ADAPTER."
 
-	para "I'm down 5-7"
-	line "against him. I've"
-	cont "gotta crank it up!"
+	para "Tôi thua 5-7. Tôi"
+	line "phải cố gắng hơn!"
 	done
 
 CianwoodPokecenter1FSuperNerdText:
-	text "I love showing off"
-	line "the #MON that"
+	text "Tôi thích khoe"
+	line "#MON tôi đã"
+	cont "nuôi dưỡng."
 
-	para "I've raised."
-	line "Don't you?"
+	para "Bạn cũng vậy"
+	line "không?"
 
-	para "I'm going to get"
-	line "into a bunch of"
+	para "Tôi sẽ tham gia"
+	line "nhiều trận đấu"
 
-	para "battles, and show"
-	line "off my #MON!"
+	para "để khoe #MON"
+	line "của mình!"
 	done
 
 CianwoodPokecenter1F_MapEvents:

@@ -88,32 +88,32 @@ Route34IlexForestGateTeacherReturnsMovement:
 	step_end
 
 Route34IlexForestGateTeacherText:
-	text "Oh, honey. You're"
-	line "making a #DEX?"
+	text "Ồ, cưng ơi. Con"
+	line "đang làm #DEX?"
 
-	para "It must be hard if"
-	line "#MON won't"
+	para "Khó thật nếu"
+	line "#MON không"
 
-	para "appear. Try using"
-	line "this TM."
+	para "xuất hiện. Thử"
+	line "dùng TM này xem."
 	done
 
 Route34IlexForestGateTeacher_GotSweetScent:
-	text "It's SWEET SCENT."
+	text "Đó là HƯƠNG NGỌT."
 
-	para "Use it wherever"
-	line "#MON appear."
+	para "Dùng ở nơi nào"
+	line "có #MON."
 
-	para "#MON will be"
-	line "enticed by it."
+	para "#MON sẽ bị"
+	line "thu hút bởi nó."
 	done
 
 Route34IlexForestGateTeacher_ForestIsRestless:
-	text "Something's wrong"
-	line "in ILEX FOREST…"
+	text "Có gì đó không ổn"
+	line "ở RỪNG ILEX…"
 
-	para "You should stay"
-	line "away right now."
+	para "Con nên tránh xa"
+	line "ngay bây giờ."
 	done
 
 Route34IlexForestGateButterfreeText:
@@ -121,17 +121,17 @@ Route34IlexForestGateButterfreeText:
 	done
 
 Route34IlexForestGateLassText:
-	text "Did you see the"
-	line "shrine honoring"
-	cont "the protector?"
+	text "Con có thấy đền"
+	line "thờ vị bảo hộ"
+	cont "không?"
 
-	para "It watches over"
-	line "the FOREST from"
-	cont "across time."
+	para "Nó canh giữ"
+	line "RỪNG từ xa xưa"
+	cont "đến nay."
 
-	para "I think that it"
-	line "must be a grass-"
-	cont "type #MON."
+	para "Con nghĩ đó chắc"
+	line "là #MON"
+	cont "hệ CỎ."
 	done
 
 Route34IlexForestGate_MapEvents:

@@ -1,10 +1,10 @@
-	db "LAND SNAKE@" ; species name
-	dw 411, 310 ; height, weight
+	db "RẮN ĐẤT@" ; species name
+	dw 15, 140 ; height, weight
 
-	db   "It hides deep"
-	next "inside caves where"
-	next "no light ever"
+	db   "Nó ẩn sâu trong"
+	next "hang nơi không"
+	next "bao giờ có ánh"
 
-	page "reaches it and"
-	next "remains virtually"
-	next "motionless there.@"
+	page "sáng và hầu như"
+	next "bất động ở đó.@"
+	next "@"

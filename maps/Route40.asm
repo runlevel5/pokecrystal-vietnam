@@ -161,178 +161,170 @@ Route40_StepUp4Movement: ; unreferenced
 	step_end
 
 SwimmermSimonSeenText:
-	text "You have to warm"
-	line "up before going"
-	cont "into the water."
+	text "Phải khởi động"
+	line "trước khi xuống"
+	cont "nước."
 
-	para "That's basic."
+	para "Đó là cơ bản."
 	done
 
 SwimmermSimonBeatenText:
-	text "OK! Uncle! I give!"
+	text "OK! Chú! Tôi đầu!"
 	done
 
 SwimmermSimonAfterBattleText:
-	text "CIANWOOD CITY is"
-	line "a good distance"
-	cont "away from here."
+	text "TP. CIANWOOD xa"
+	line "đây một khoảng"
+	cont "khá dài."
 	done
 
 SwimmermRandallSeenText:
-	text "Hey, you're young"
-	line "and fit!"
+	text "Này, bạn trẻ và"
+	line "khỏe mạnh!"
 
-	para "Don't ride your"
-	line "#MON! Swim!"
+	para "Đừng cưỡi #MON"
+	line "Bơi đi!"
 	done
 
 SwimmermRandallBeatenText:
-	text "Uh-oh. I lost…"
+	text "Uh-oh. Tôi thua…"
 	done
 
 SwimmermRandallAfterBattleText:
-	text "Swimming exercises"
-	line "your entire body."
-	cont "It's healthy."
+	text "Bơi luyện toàn"
+	line "thân. Tốt cho"
+	cont "sức khỏe."
 	done
 
 SwimmerfElaineSeenText:
-	text "Are you going to"
-	line "CIANWOOD?"
+	text "Bạn đi CIANWOOD à?"
 
-	para "How about a quick"
-	line "battle first?"
+	para "Đấu nhanh một trận"
+	line "trước đi?"
 	done
 
 SwimmerfElaineBeatenText:
-	text "I lost that one!"
+	text "Tôi thua rồi!"
 	done
 
 SwimmerfElaineAfterBattleText:
-	text "I'd say I'm a bet-"
-	line "ter swimmer than"
-	cont "you. Yeah!"
+	text "Tôi bơi giỏi hơn"
+	line "bạn đấy. Yeah!"
 	done
 
 SwimmerfPaulaSeenText:
-	text "No inner tube for"
-	line "me."
+	text "Không dùng phao"
+	line "cứu sinh."
 
-	para "I'm hanging on to"
-	line "a sea #MON!"
+	para "Tôi bám vào #-"
+	line "MON biển!"
 	done
 
 SwimmerfPaulaBeatenText:
-	text "Ooh, I'm feeling"
-	line "dizzy!"
+	text "Ooh, tôi chóng mặt"
 	done
 
 SwimmerfPaulaAfterBattleText:
-	text "While I float like"
-	line "this, the waves"
-	cont "carry me along."
+	text "Khi tôi nổi như"
+	line "thế này, sóng sẽ"
+	cont "đẩy tôi đi."
 	done
 
 Route40Lass1Text:
-	text "Although you can't"
-	line "see it from here,"
+	text "Dù bạn không nhìn"
+	line "thấy từ đây,"
 
-	para "CIANWOOD is across"
-	line "the sea."
+	para "CIANWOOD ở bên"
+	line "kia biển."
 	done
 
 Route40PokefanMText:
-	text "Hm! There's a big"
-	line "building up ahead!"
+	text "Hm! Có tòa nhà lớn"
+	line "ở phía trước!"
 
-	para "What is it?"
+	para "Đó là gì?"
 	done
 
 Route40PokefanMText_Mobile:
-	text "Hm! Look at all"
-	line "those serious-"
-	cont "looking trainers"
-	cont "streaming in."
+	text "Hm! Nhìn tất cả"
+	line "những HLV nghiêm"
+	cont "túc kia đổ vào."
 
-	para "What? What?"
+	para "Cái gì? Gì vậy?"
 	done
 
 Route40Lass2Text:
-	text "I came to OLIVINE"
-	line "by ship to see the"
+	text "Tôi đến OLIVINE"
+	line "bằng tàu để xem"
 
-	para "sights and soak up"
-	line "the atmosphere."
+	para "phong cảnh và hít"
+	line "không khí."
 
-	para "Being a port, it"
-	line "feels so different"
-	cont "from a big city."
+	para "Là cảng, nó cảm"
+	line "giác khác lạ so"
+	cont "với thành phố lớn."
 	done
 
 Route40StandingYoungsterText:
-	text "Have you gone to"
-	line "the BATTLE TOWER?"
+	text "Bạn đã đến THÁP"
+	line "ĐẤU chưa?"
 
-	para "I think a lot of"
-	line "tough trainers"
+	para "Tôi nghĩ nhiều"
+	line "HLV mạnh đã tụ"
 
-	para "have gathered"
-	line "there already."
+	para "họp ở đó rồi."
 
-	para "But since you have"
-	line "so many BADGES,"
+	para "Nhưng vì bạn có"
+	line "nhiều HUY CHƯƠNG,"
 
-	para "you shouldn't do"
-	line "badly at all."
+	para "bạn không nên"
+	line "làm tệ chút nào."
 	done
 
 MeetMonicaText:
-	text "MONICA: Glad to"
-	line "meet you. I'm"
+	text "MONICA: Vui mừng"
+	line "được gặp bạn. Tôi"
 
-	para "MONICA of Monday."
+	para "là MONICA của"
+	line "Thứ Hai."
 	done
 
 MonicaGivesGiftText:
-	text "As a token of our"
-	line "friendship, I have"
-	cont "a gift for you!"
+	text "Để làm dấu tình"
+	line "bạn, tôi có quà"
+	cont "cho bạn!"
 	done
 
 MonicaGaveGiftText:
-	text "MONICA: It's an"
-	line "item that raises"
+	text "MONICA: Đó là đồ"
+	line "tăng sức mạnh cho"
 
-	para "the power of fly-"
-	line "ing-type moves."
+	para "chiêu hệ bay."
 
-	para "You should equip a"
-	line "bird #MON with"
-	cont "that item."
+	para "Bạn nên trang bị"
+	line "cho #MON chim"
+	cont "đồ đó."
 	done
 
 MonicaMondayText:
-	text "MONICA: My broth-"
-	line "ers and sisters"
+	text "MONICA: Anh chị em"
+	line "tôi ở khắp nơi."
 
-	para "are all over the"
-	line "place."
-
-	para "See if you could"
-	line "find them all!"
+	para "Xem bạn có thể tìm"
+	line "hết không!"
 	done
 
 MonicaNotMondayText:
-	text "MONICA: I don't"
-	line "think today is"
-	cont "Monday. How sad…"
+	text "MONICA: Tôi không"
+	line "nghĩ hôm nay là"
+	cont "Thứ Hai. Buồn…"
 	done
 
 Route40SignText:
-	text "ROUTE 40"
+	text "TUYẾN ĐƯỜNG 40"
 
-	para "CIANWOOD CITY -"
-	line "OLIVINE CITY"
+	para "TP. CIANWOOD -"
+	line "TP. OLIVINE"
 	done
 
 Route40_MapEvents:

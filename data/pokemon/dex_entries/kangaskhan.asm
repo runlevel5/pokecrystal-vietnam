@@ -1,10 +1,10 @@
-	db "PARENT@" ; species name
-	dw 703, 1760 ; height, weight
+	db "BỐ MẸ@" ; species name
+	dw 22, 800 ; height, weight
 
-	db   "To avoid"
-	next "crushing the"
-	next "baby it carries in"
+	db   "Để tránh đè bẹp"
+	next "con nhỏ trong"
+	next "túi, nó luôn ngủ"
 
-	page "its pouch, it"
-	next "always sleeps"
-	next "standing up.@"
+	page "ở tư thế đứng.@"
+	next "@"
+	next "@"

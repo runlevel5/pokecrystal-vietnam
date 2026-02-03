@@ -323,179 +323,180 @@ Route43MaxEther:
 	itemball MAX_ETHER
 
 PokemaniacBenSeenText:
-	text "I love #MON!"
+	text "Tao yêu #MON!"
 
-	para "That's why I"
-	line "started--and why"
+	para "Đó là lý do tao"
+	line "bắt đầu--và lý do"
 
-	para "I'll keep on col-"
-	line "lecting #MON!"
+	para "tao sẽ tiếp tục"
+	line "sưu tầm #MON!"
 	done
 
 PokemaniacBenBeatenText:
-	text "How could you do"
-	line "this to me?"
+	text "Sao mày lại làm"
+	line "thế với tao?"
 	done
 
 PokemaniacBenAfterBattleText:
-	text "What else do I"
-	line "like besides"
-	cont "#MON?"
+	text "Tao còn thích gì"
+	line "ngoài #MON?"
 
-	para "MARY on the radio."
-	line "I bet she's cute!"
+	para "MARY trên radio."
+	line "Cô ấy dễ thương!"
 	done
 
 PokemaniacBrentSeenText:
-	text "Hey! Do you have"
-	line "any rare #MON?"
+	text "Hey! Mày có con"
+	line "#MON hiếm à?"
 	done
 
 PokemaniacBrentBeatenText:
-	text "Oh, my poor #-"
-	line "MON! Darlings!"
+	text "Ồ, #MON tội"
+	line "nghiệp! Bé yêu!"
 	done
 
 PokemaniacBrentAfterBattleText:
-	text "I'd be happy just"
-	line "to own a single"
-	cont "rare #MON."
+	text "Tao sẽ vui chỉ cần"
+	line "có một con #MON"
+	cont "hiếm thôi."
 	done
 
 PokemaniacRonSeenText:
-	text "Would you get"
-	line "this?"
+	text "Mày có tin được"
+	line "không?"
 
-	para "Some <RIVAL> guy"
-	line "made fun of my"
-	cont "#MON!"
+	para "Một gã <RIVAL> đã"
+	line "chế giễu #MON"
+	cont "của tao!"
 
-	para "Darn it! My #-"
-	line "MON's great!"
+	para "Khốn nạn! #MON"
+	line "của tao tuyệt mà!"
 	done
 
 PokemaniacRonBeatenText:
-	text "My NIDOKING did"
-	line "pretty right on!"
+	text "NIDOKING của tao"
+	line "chiến rất tốt!"
 	done
 
 PokemaniacRonAfterBattleText:
-	text "It's okay for"
-	line "people to like"
+	text "Mọi người có thể"
+	line "thích những loại"
 
-	para "different types"
-	line "of #MON."
+	para "#MON khác"
+	line "nhau mà."
 
-	para "#MON isn't just"
-	line "about having the"
-	cont "most powerful one."
+	para "#MON không chỉ"
+	line "là có con mạnh"
+	cont "nhất thôi."
 	done
 
 FisherMarvinSeenText:
-	text "I'm in a slump."
+	text "Tôi đang trong"
+	line "tình trạng sa sút."
 
-	para "Maybe it's the"
-	line "gear I'm using."
+	para "Có thể là do đồ"
+	line "tôi đang dùng."
 
-	para "Let's battle for a"
-	line "change of pace!"
+	para "Hãy chiến đấu để"
+	line "đổi không khí!"
 	done
 
 FisherMarvinBeatenText:
-	text "I lost, but I feel"
-	line "better anyway."
+	text "Tôi thua, nhưng"
+	line "cảm thấy tốt hơn."
 	done
 
 FisherMarvinAfterBattleText:
-	text "KURT's LURE BALL"
-	line "is the best for"
+	text "BÓNG MỒI CÂU của"
+	line "KURT là tốt nhất"
+	cont "để"
 
-	para "catching hooked"
-	line "#MON."
+	para "bắt #MON đã"
+	line "cắn câu."
 
-	para "It's much more"
-	line "effective than a"
-	cont "ULTRA BALL."
+	para "Nó hiệu quả hơn"
+	line "BÓNG ULTRA nhiều."
 	done
 
 CamperSpencerSeenText:
-	text "I can do so much"
-	line "with my #MON--"
-	cont "it's super-fun!"
+	text "Tôi có thể làm"
+	line "nhiều thứ với"
+	cont "#MON--vui lắm!"
 	done
 
 CamperSpencerBeatenText:
-	text "Losing isn't fun"
-	line "at all…"
+	text "Thua không vui"
+	line "tí nào…"
 	done
 
 CamperSpencerAfterBattleText:
-	text "What is going on"
-	line "at LAKE OF RAGE?"
+	text "Chuyện gì đang xảy"
+	line "ra ở HỒ PHẪN NỘ?"
 
-	para "We were planning"
-	line "to camp there."
+	para "Chúng tôi định"
+	line "cắm trại ở đó."
 	done
 
 PicnickerTiffanySeenText:
-	text "Are you going to"
-	line "LAKE OF RAGE too?"
+	text "Bạn cũng đi HỒ"
+	line "PHẪN NỘ à?"
 
-	para "Let's play for a "
-	line "little while!"
+	para "Hãy chơi một chút"
+	line "thôi!"
 	done
 
 PicnickerTiffanyBeatenText:
-	text "I played too much!"
+	text "Tôi chơi quá đà!"
 	done
 
 PicnickerTiffanyWantsPicnicText:
-	text "I'm having a pic-"
-	line "nic with #MON."
+	text "Tôi đang dã ngoại"
+	line "với #MON."
 
-	para "Won't you join us?"
+	para "Bạn tham gia cùng"
+	line "chúng tôi nhé?"
 	done
 
 PicnickerTiffanyClefairyText:
-	text "Isn't my CLEFAIRY"
-	line "just the most"
-	cont "adorable thing?"
+	text "CLEFAIRY của tôi"
+	line "có phải là thứ"
+	cont "đáng yêu nhất?"
 	done
 
 Route43Sign1Text:
-	text "ROUTE 43"
+	text "TUYẾN ĐƯỜNG 43"
 
-	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	para "HỒ PHẪN NỘ -"
+	line "TRẤN MAHOGANY"
 	done
 
 Route43Sign2Text:
-	text "ROUTE 43"
+	text "TUYẾN ĐƯỜNG 43"
 
-	para "LAKE OF RAGE -"
-	line "MAHOGANY TOWN"
+	para "HỒ PHẪN NỘ -"
+	line "TRẤN MAHOGANY"
 	done
 
 Route43TrainerTipsText:
-	text "TRAINER TIPS"
+	text "MẸO HLV"
 
-	para "All #MON have"
-	line "pros and cons"
+	para "Tất cả #MON đều"
+	line "có ưu và nhược"
 
-	para "depending on their"
-	line "types."
+	para "điểm tùy theo"
+	line "hệ của chúng."
 
-	para "If their types"
-	line "differ, a higher-"
+	para "Nếu hệ khác nhau,"
+	line "#MON cấp cao"
 
-	para "level #MON may"
-	line "lose in battle."
+	para "hơn vẫn có thể"
+	line "thua trận đấu."
 
-	para "Learn which types"
-	line "are strong and"
+	para "Hãy học hệ nào"
+	line "mạnh và yếu"
 
-	para "weak against your"
-	line "#MON's type."
+	para "với hệ của"
+	line "#MON mình."
 	done
 
 Route43_MapEvents:

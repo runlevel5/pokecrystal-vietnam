@@ -93,23 +93,24 @@ PlayersHousePCScript:
 	end
 
 PlayersRadioText1:
-	text "PROF.OAK'S #MON"
-	line "TALK! Please tune"
-	cont "in next time!"
+	text "CHUYỆN #MON CỦA"
+	line "GS OAK! Hẹn gặp"
+	cont "lại lần sau!"
 	done
 
 PlayersRadioText2:
-	text "#MON CHANNEL!"
+	text "KÊNH #MON!"
 	done
 
 PlayersRadioText3:
-	text "This is DJ MARY,"
-	line "your co-host!"
+	text "Đây là DJ MARY,"
+	line "người dẫn chương"
+	cont "trình của bạn!"
 	done
 
 PlayersRadioText4:
 	text "#MON!"
-	line "#MON CHANNEL…"
+	line "KÊNH #MON…"
 	done
 
 PlayersHouse2F_MapEvents:

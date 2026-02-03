@@ -1,10 +1,10 @@
-	db "OWL@" ; species name
-	dw 503, 900 ; height, weight
+	db "CÚ@" ; species name
+	dw 16, 408 ; height, weight
 
-	db   "Its extremely soft"
-	next "feathers make no"
-	next "sound in flight."
+	db   "Bộ lông cực mềm"
+	next "không gây tiếng"
+	next "động khi bay. Nó"
 
-	page "It silently sneaks"
-	next "up on prey without"
-	next "being detected.@"
+	page "lặng lẽ tiếp cận"
+	next "con mồi mà không"
+	next "bị phát hiện.@"

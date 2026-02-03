@@ -41,63 +41,65 @@ SproutTower1FStatue:
 	jumptext SproutTower1FStatueText
 
 SageChowSeenText:
-	text "We stand guard in"
-	line "this tower."
+	text "Chúng tôi canh"
+	line "giữ tháp này."
 
-	para "Here, we express"
-	line "our gratitude to"
-	cont "honor all #MON."
+	para "Ở đây, chúng tôi"
+	line "bày tỏ lòng biết"
+
+	para "ơn để tôn vinh"
+	line "mọi #MON."
 	done
 
 SageChowBeatenText:
-	text "Th-Thank you!"
+	text "C-Cảm ơn!"
 	done
 
 SageChowAfterBattleText:
-	text "All living beings"
-	line "coexist through"
-	cont "cooperation."
+	text "Mọi sinh vật sống"
+	line "cùng tồn tại nhờ"
+	cont "hợp tác."
 
-	para "We must always be"
-	line "thankful for this."
+	para "Chúng ta phải"
+	line "luôn biết ơn."
 	done
 
 SproutTower1FSage1Text:
-	text "Only if you reach"
-	line "the top will you"
-	cont "obtain an HM."
+	text "Chỉ khi lên tới"
+	line "đỉnh bạn mới nhận"
+	cont "được HM."
 	done
 
 SproutTower1FSage2Text:
-	text "SPROUT TOWER was"
-	line "built long ago"
+	text "THÁP MẦM được xây"
+	line "từ lâu như một"
 
-	para "as a place for"
-	line "#MON training."
+	para "nơi tập luyện"
+	line "#MON."
 	done
 
 SproutTower1FGrannyText:
-	text "A BELLSPROUT over"
-	line "100 feet tall…"
+	text "Một BELLSPROUT"
+	line "cao hơn 30 mét…"
 
-	para "People say that it"
-	line "became the center"
-	cont "pillar here."
+	para "Người ta nói nó"
+	line "đã trở thành cột"
+	cont "trụ ở đây."
 	done
 
 SproutTower1FTeacherText:
-	text "See the pillar"
-	line "shaking?"
+	text "Thấy cột trụ"
+	line "rung chưa?"
 
-	para "People are train-"
-	line "ing upstairs."
+	para "Có người đang tập"
+	line "ở tầng trên."
 	done
 
 SproutTower1FStatueText:
-	text "A #MON statue…"
+	text "Tượng #MON…"
 
-	para "It looks very"
-	line "distinguished."
+	para "Trông rất"
+	line "uy nghi."
 	done
 
 SproutTower1F_MapEvents:

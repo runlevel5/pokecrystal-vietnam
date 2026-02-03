@@ -1,211 +1,209 @@
 ElmPhoneHealYourMonText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "Try not to overdo"
-	line "it."
+	para "Đừng cố quá sức"
+	line "nhé."
 
-	para "Be sure to heal"
-	line "your #MON if"
-	cont "they are hurt."
+	para "Nhớ chữa trị cho"
+	line "#MON nếu chúng"
+	cont "bị thương."
 	done
 
 ElmPhoneSawMrPokemonText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "Did you meet MR."
-	line "#MON? Great!"
-	cont "Come back safely!"
+	para "Con đã gặp ÔNG"
+	line "#MON? Tốt lắm!"
+	cont "Về an toàn nhé!"
 	done
 
 ElmPhonePokemonStolenText:
-	text "<PLAY_G>? I'm very"
-	line "upset now."
+	text "<PLAY_G>? Thầy rất"
+	line "buồn bây giờ."
 
-	para "We had a #MON"
-	line "stolen from here."
+	para "Có #MON bị đánh"
+	line "cắp ở đây."
 
-	para "How could anyone"
-	line "do that?"
+	para "Sao ai đó có thể"
+	line "làm vậy chứ?"
 	done
 
 ElmPhoneCheckingTheEggText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "We're checking the"
-	line "EGG now. It does"
+	para "Bọn thầy đang"
+	line "kiểm tra TRỨNG."
 
-	para "appear to be a"
-	line "#MON EGG."
+	para "Có vẻ đó là một"
+	line "TRỨNG #MON."
 	done
 
 ElmPhoneAssistantText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "Did you see my"
-	line "assistant? He's at"
+	para "Con thấy trợ lý"
+	line "của thầy chưa?"
 
-	para "the #MON CENTER"
-	line "in VIOLET CITY."
+	para "Anh ấy ở TT #MON"
+	line "tại TP VIOLET."
 	done
 
 ElmPhoneHowIsTheEggText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "How's the EGG? Has"
-	line "anything changed?"
+	para "TRỨNG thế nào rồi?"
+	line "Có gì thay đổi ko?"
 
-	para "If anything hap-"
-	line "pens, please call."
+	para "Nếu có gì xảy ra,"
+	line "hãy gọi cho thầy."
 	done
 
 ElmPhoneEggHatchedText:
-	text "Hello, <PLAY_G>?"
-	line "How is the EGG?"
+	text "A lô, <PLAY_G>?"
+	line "TRỨNG thế nào rồi?"
 
-	para "What? It hatched?"
-	line "Wow! What kind of"
-	cont "#MON is it?"
+	para "Gì? Nó nở rồi?"
+	line "Ồ! Đó là loại"
+	cont "#MON gì vậy?"
 
-	para "Please come show"
-	line "me now!"
+	para "Hãy đến cho thầy"
+	line "xem ngay nhé!"
 	done
 
 ElmPhoneDiscoveredHatchTimeText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "I just made a new"
-	line "discovery."
+	para "Thầy vừa có một"
+	line "phát hiện mới."
 
-	para "The time it takes"
-	line "for an EGG to"
+	para "Thời gian để TRỨNG"
+	line "nở phụ thuộc vào"
 
-	para "hatch depends on"
-	line "the #MON."
+	para "từng loại"
+	line "#MON."
 	done
 
 ElmPhoneInvestigatingEggMovesText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "It's still a"
-	line "mystery what kinds"
+	para "Vẫn còn bí ẩn về"
+	line "các đòn mà #MON"
 
-	para "of moves hatched"
-	line "#MON have."
+	para "mới nở có thể"
+	line "biết."
 
-	para "We're investigat-"
-	line "ing that now."
+	para "Bọn thầy đang"
+	line "nghiên cứu nó."
 	done
 
 ElmPhoneDiscoveredPokerusText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "I discovered an"
-	line "odd thing."
+	para "Thầy phát hiện một"
+	line "điều kỳ lạ."
 
-	para "Apparently there's"
-	line "something called"
+	para "Có vẻ có thứ gọi"
+	line "là #RUS lây"
 
-	para "#RUS that in-"
-	line "fects #MON."
+	para "nhiễm cho #MON."
 
-	para "Yes, it's like a"
-	line "virus, so it's"
-	cont "called #RUS."
+	para "Đúng, nó như"
+	line "virus nên gọi là"
+	cont "#RUS."
 
-	para "It multiplies fast"
-	line "and infects other"
+	para "Nó nhân lên nhanh"
+	line "và lây sang #-"
 
-	para "#MON too. But"
-	line "that's all."
+	para "MON khác. Nhưng"
+	line "chỉ vậy thôi."
 
-	para "It doesn't seem to"
-	line "do anything, and"
+	para "Nó có vẻ không"
+	line "gây hại gì, và"
 
-	para "it goes away over"
-	line "time."
+	para "sẽ tự biến mất"
+	line "theo thời gian."
 
-	para "I guess it's"
-	line "nothing to worry"
-	cont "about. Bye!"
+	para "Thầy nghĩ không"
+	line "lo gì. Tạm biệt!"
 	done
 
 ElmPhoneDisasterText:
-	text "H-hello? <PLAY_G>?"
-	line "It's a disaster!"
+	text "A-a lô? <PLAY_G>?"
+	line "Thảm họa rồi!"
 
-	para "Uh, um, it's just"
-	line "terrible!"
+	para "Ờ, ừm, thật là"
+	line "khủng khiếp!"
 
-	para "What should I do?"
-	line "It… Oh, no…"
+	para "Thầy phải làm sao?"
+	line "Nó… Ôi không…"
 
-	para "Please get back"
-	line "here now!"
+	para "Hãy quay về đây"
+	line "ngay bây giờ!"
 	done
 
 ElmPhoneEggAssistantText:
-	text "Hello, <PLAY_G>? We"
-	line "discovered some-"
+	text "A lô, <PLAY_G>?"
+	line "Bọn thầy phát"
 
-	para "thing about the"
-	line "EGG!"
+	para "hiện điều gì đó"
+	line "về TRỨNG!"
 
-	para "My assistant is at"
-	line "the #MON CENTER"
+	para "Trợ lý của thầy ở"
+	line "TT #MON tại"
 
-	para "in VIOLET CITY. "
-	line "Could you talk to"
-	cont "him?"
+	para "TP VIOLET. Con"
+	line "nói chuyện với"
+	cont "anh ấy được ko?"
 	done
 
 ElmPhoneRadioTowerRocketTakeoverText:
-	text "<PLAY_G>, how are"
-	line "things going?"
+	text "<PLAY_G>, mọi thứ"
+	line "thế nào rồi?"
 
-	para "I called because"
-	line "something weird is"
+	para "Thầy gọi vì có"
+	line "chuyện lạ đang"
 
-	para "happening with the"
-	line "radio broadcasts."
+	para "xảy ra với các"
+	next "chương trình radio"
 
-	para "They were talking"
-	line "about TEAM ROCKET."
+	para "Họ đang nói về"
+	line "ĐỘI ROCKET."
 
-	para "<PLAY_G>, do you"
-	line "know anything"
-	cont "about it?"
+	para "<PLAY_G>, con có"
+	line "biết gì về chuyện"
+	cont "này không?"
 
-	para "Maybe TEAM ROCKET"
-	line "has returned. No,"
+	para "Có lẽ ĐỘI ROCKET"
+	line "đã quay lại."
 
-	para "that just can't"
-	line "be true."
+	para "Không, điều đó"
+	line "không thể đúng."
 
-	para "Sorry to bug you."
-	line "Take care!"
+	para "Xin lỗi làm phiền"
+	line "con. Bảo trọng!"
 	done
 
 ElmPhoneGiftText:
-	text "Hello, <PLAY_G>?"
+	text "A lô, <PLAY_G>?"
 
-	para "I have something"
-	line "here for you."
+	para "Thầy có thứ này"
+	line "cho con."
 
-	para "Could you swing by"
-	line "my LAB?"
+	para "Ghé phòng thí"
+	line "nghiệm được không?"
 
-	para "See you later!"
+	para "Hẹn gặp sau nhé!"
 	done
 
 ElmPhoneGotAholdOfSomethingNeatText:
-	text "Hello, <PLAY_G>?"
-	line "How's it going?"
+	text "A lô, <PLAY_G>?"
+	line "Dạo này thế nào?"
 
-	para "I got ahold of"
-	line "something neat."
+	para "Thầy có được thứ"
+	line "hay ho."
 
-	para "Swing by my LAB"
-	line "and pick it up!"
+	para "Ghé phòng thí"
+	line "nghiệm lấy nhé!"
 
-	para "See you later!"
+	para "Hẹn gặp sau!"
 	done

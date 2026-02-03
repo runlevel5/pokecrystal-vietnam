@@ -1,10 +1,10 @@
-	db "LICKING@" ; species name
-	dw 311, 1440 ; height, weight
+	db "LIẾM@" ; species name
+	dw 12, 655 ; height, weight
 
-	db   "It has a tongue"
-	next "that is over 6'6''"
-	next "long. It uses this"
+	db   "Nó có cái lưỡi"
+	next "dài hơn 2 mét."
+	next "Nó dùng lưỡi dài"
 
-	page "long tongue to"
-	next "lick its body"
-	next "clean.@"
+	page "này để liếm sạch"
+	next "cơ thể.@"
+	next "@"

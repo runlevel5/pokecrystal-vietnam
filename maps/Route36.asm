@@ -409,84 +409,81 @@ Route36SuicuneMovement:
 	step_end
 
 UseSquirtbottleText:
-	text "It's a weird tree."
-	line "Use SQUIRTBOTTLE?"
+	text "Đây là cây kỳ lạ."
+	line "Dùng BÌNH XỊT?"
 	done
 
 UsedSquirtbottleText:
-	text "<PLAYER> used the"
-	line "SQUIRTBOTTLE."
+	text "<PLAYER> dùng"
+	line "BÌNH XỊT."
 	done
 
 SudowoodoAttackedText:
-	text "The weird tree"
-	line "doesn't like the"
-	cont "SQUIRTBOTTLE!"
+	text "Cây kỳ lạ không"
+	line "thích BÌNH XỊT!"
 
-	para "The weird tree"
-	line "attacked!"
+	para "Cây kỳ lạ tấn"
+	line "công!"
 	done
 
 FloriaText1:
-	text "I'm the FLOWER"
-	line "SHOP's FLORIA!"
+	text "Tôi là FLORIA của"
+	line "TIỆM HOA!"
 
-	para "Listen, listen!"
+	para "Nghe này, nghe này"
 
-	para "When I sprinkled"
-	line "water on that"
+	para "Khi tôi tưới nước"
+	line "lên cây ngọ nguậy"
 
-	para "wiggly tree, it"
-	line "jumped right up!"
+	para "nó nhảy lên ngay!"
 
-	para "It just has to be"
-	line "a #MON."
+	para "Nó chắc chắn là"
+	line "một #MON."
 
-	para "I bet it would be"
-	line "shocked out of its"
+	para "Tôi dám cá nó sẽ"
+	line "bị sốc và lộ diện"
 
-	para "disguise if you"
-	line "soaked it!"
+	para "nếu bạn tưới nước"
+	line "cho nó!"
 
-	para "I know! I'll tell"
-	line "my sis and borrow"
-	cont "her water bottle!"
+	para "Tôi biết rồi! Tôi"
+	line "sẽ nói với chị và"
+	cont "mượn bình nước!"
 	done
 
 FloriaText2:
-	text "When I told my sis"
-	line "about the jiggly"
+	text "Khi tôi kể cho chị"
+	line "về cây rung rinh"
 
-	para "tree, she said"
-	line "it's dangerous."
+	para "chị nói nó nguy"
+	line "hiểm."
 
-	para "If I beat WHITNEY,"
-	line "I wonder if she'll"
+	para "Nếu tôi đánh bại"
+	line "WHITNEY, không"
 
-	para "lend me her water"
-	line "bottle…"
+	para "biết chị có cho"
+	line "mượn bình nước…"
 	done
 
 RockSmashGuyText1:
-	text "Wa-hey!"
+	text "Oa-hê!"
 
-	para "I was going to"
-	line "snap that tree"
+	para "Tôi định chặt cây"
+	line "đó bằng cú đấm"
 
-	para "with my straight-"
-	line "arm punch."
+	para "thẳng tay của tôi."
 
-	para "But I couldn't!"
-	line "I'm a failure!"
+	para "Nhưng tôi không"
+	line "thể! Tôi thất bại"
 	done
 
 RockSmashGuyText2:
-	text "Did you clear that"
-	line "wretched tree?"
+	text "Bạn đã dọn cây tồi"
+	line "tệ đó sao?"
 
-	para "I'm impressed!"
-	line "I want you to"
-	cont "have this."
+	para "Ấn tượng đấy! Tôi"
+	line "muốn tặng bạn"
+	cont "thứ này."
 	done
 
 Text_ReceivedTM08: ; unreferenced
@@ -495,166 +492,157 @@ Text_ReceivedTM08: ; unreferenced
 	done
 
 RockSmashGuyText3:
-	text "That happens to be"
-	line "ROCK SMASH."
+	text "Đó chính là ĐẬP"
+	line "VỠ ĐÁ."
 
-	para "You can shatter"
-	line "rocks with just a"
+	para "Bạn có thể đập vỡ"
+	line "đá chỉ bằng một"
 
-	para "single well-aimed"
-	line "smack."
+	para "cú đánh chính xác"
 
-	para "If any rocks are"
-	line "in your way, just"
-	cont "smash 'em up!"
+	para "Nếu có đá chặn"
+	line "đường, chỉ cần"
+	cont "đập chúng!"
 	done
 
 UnusedOddTreeText: ; unreferenced
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Một cây kỳ lạ"
+	line "chặn đường đến"
+	cont "TP. GOLDENROD."
 
-	para "I wanted to go see"
-	line "the huge #MON"
+	para "Tôi muốn đi xem"
+	line "T.TÂM #MON lớn"
 
-	para "CENTER they just"
-	line "opened…"
+	para "mà họ vừa mở…"
 	done
 
 Route36LassText:
-	text "An odd tree is"
-	line "blocking the way"
-	cont "to GOLDENROD CITY."
+	text "Một cây kỳ lạ chặn"
+	line "đường đến TP."
+	cont "GOLDENROD."
 
-	para "It's preventing"
-	line "me from shopping."
+	para "Nó ngăn tôi đi"
+	line "mua sắm."
 
-	para "Something should"
-	line "be done about it."
+	para "Phải làm gì đó"
+	line "với nó."
 	done
 
 Route36LassText_ClearedSudowoodo:
-	text "That odd tree dis-"
-	line "appeared without a"
-	cont "trace."
+	text "Cây kỳ lạ đó biến"
+	line "mất không dấu vết"
 
-	para "Oh! That tree was"
-	line "really a #MON?"
+	para "Ồ! Cây đó thực ra"
+	line "là #MON sao?"
 	done
 
 PsychicMarkSeenText:
-	text "I'm going to read"
-	line "your thoughts!"
+	text "Tôi sẽ đọc suy"
+	line "nghĩ của bạn!"
 	done
 
 PsychicMarkBeatenText:
-	text "I misread you!"
+	text "Tôi đọc sai bạn!"
 	done
 
 PsychicMarkAfterBattleText:
-	text "I'd be strong if"
-	line "only I could tell"
+	text "Tôi sẽ mạnh nếu"
+	line "có thể biết được"
 
-	para "what my opponent"
-	line "was thinking."
+	para "đối thủ nghĩ gì."
 	done
 
 SchoolboyAlan1SeenText:
-	text "Thanks to my stud-"
-	line "ies, I'm ready for"
-	cont "any #MON!"
+	text "Nhờ học hành, tôi"
+	line "sẵn sàng với mọi"
+	cont "#MON!"
 	done
 
 SchoolboyAlan1BeatenText:
-	text "Oops! Computation"
-	line "error?"
+	text "Úi! Lỗi tính toán?"
 	done
 
 SchoolboyAlanBooksText:
-	text "Darn. I study five"
-	line "hours a day too."
+	text "Chết thật. Tôi học"
+	line "5 tiếng mỗi ngày."
 
-	para "There's more to"
-	line "learning than just"
-	cont "reading books."
+	para "Học không chỉ là"
+	line "đọc sách."
 	done
 
 MeetArthurText:
-	text "ARTHUR: Who are"
-	line "you?"
+	text "ARTHUR: Bạn là ai?"
 
-	para "I'm ARTHUR of"
-	line "Thursday."
+	para "Tôi là ARTHUR của"
+	line "Thứ Năm."
 	done
 
 ArthurGivesGiftText:
-	text "Here. You can have"
-	line "this."
+	text "Đây. Bạn có thể"
+	line "lấy nó."
 	done
 
 ArthurGaveGiftText:
-	text "ARTHUR: A #MON"
-	line "that uses rock-"
+	text "ARTHUR: #MON"
+	line "dùng chiêu đá nên"
 
-	para "type moves should"
-	line "hold on to that."
+	para "giữ nó."
 
-	para "It pumps up rock-"
-	line "type attacks."
+	para "Nó tăng cường"
+	line "chiêu đá."
 	done
 
 ArthurThursdayText:
-	text "ARTHUR: I'm ARTHUR"
-	line "of Thursday. I'm"
+	text "ARTHUR: Tôi là"
+	line "ARTHUR của Thứ Năm"
 
-	para "the second son out"
-	line "of seven children."
+	para "Tôi là con thứ hai"
+	line "trong bảy anh em."
 	done
 
 ArthurNotThursdayText:
-	text "ARTHUR: Today's"
-	line "not Thursday. How"
-	cont "disappointing."
+	text "ARTHUR: Hôm nay"
+	line "không phải Thứ"
+	cont "Năm. Thất vọng."
 	done
 
 Route36SignText:
-	text "ROUTE 36"
+	text "TUYẾN ĐƯỜNG 36"
 	done
 
 RuinsOfAlphNorthSignText:
-	text "RUINS OF ALPH"
-	line "NORTH ENTRANCE"
+	text "TÀN TÍCH ALPH"
+	line "CỔNG PHÍA BẮC"
 	done
 
 Route36TrainerTips1Text:
-	text "TRAINER TIPS"
+	text "MẸO HLV"
 
-	para "#MON stats"
-	line "vary--even within"
-	cont "the same species."
+	para "Chỉ số #MON"
+	line "khác nhau--ngay cả"
+	cont "cùng loài."
 
-	para "Their stats may be"
-	line "similar at first."
+	para "Chỉ số có thể"
+	line "giống lúc đầu."
 
-	para "However, differ-"
-	line "ences will become"
+	para "Tuy nhiên, sự khác"
+	line "biệt sẽ rõ ràng"
 
-	para "pronounced as the"
-	line "#MON grow."
+	para "khi #MON lớn"
+	line "lên."
 	done
 
 Route36TrainerTips2Text:
-	text "TRAINER TIPS"
+	text "MẸO HLV"
 
-	para "Use DIG to return"
-	line "to the entrance of"
-	cont "any place."
+	para "Dùng ĐÀO để trở về"
+	line "lối vào của bất cứ"
+	cont "nơi nào."
 
-	para "It is convenient"
-	line "for exploring"
+	para "Rất tiện để khám"
+	line "phá hang động và"
 
-	para "caves and other"
-	line "landmarks."
+	para "địa danh khác."
 	done
 
 Route36_MapEvents:

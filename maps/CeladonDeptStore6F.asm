@@ -90,10 +90,11 @@ CeladonDeptStore6FVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "FRESH WATER  ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"
-	db "SODA POP     ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"
-	db "LEMONADE     ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"
-	db "CANCEL@"
+	; Item names must match data/items/names.asm
+	db "NƯỚC SẠCH    ¥{d:CELADONDEPTSTORE6F_FRESH_WATER_PRICE}@"  ; FRESH_WATER
+	db "SÔ-ĐA POP    ¥{d:CELADONDEPTSTORE6F_SODA_POP_PRICE}@"     ; SODA_POP
+	db "CHANH MUỐI   ¥{d:CELADONDEPTSTORE6F_LEMONADE_PRICE}@"     ; LEMONADE
+	db "HỦY@"
 
 CeladonDeptStore6FDirectory:
 	jumptext CeladonDeptStore6FDirectoryText
@@ -102,48 +103,46 @@ CeladonDeptStore6FElevatorButton: ; unreferenced
 	jumpstd ElevatorButtonScript
 
 CeladonVendingText:
-	text "A vending machine!"
-	line "Here's the menu."
+	text "Máy bán hàng tự"
+	line "động! Menu đây."
 	done
 
 CeladonClangText:
-	text "Clang!"
+	text "Loảng!"
 
 	para "@"
 	text_ram wStringBuffer3
 	text_start
-	line "popped out."
+	line "văng ra."
 	done
 
 CeladonVendingNoMoneyText:
-	text "Oops, not enough"
-	line "money…"
+	text "Ôi, không đủ tiền…"
 	done
 
 CeladonVendingNoSpaceText:
-	text "There's no more"
-	line "room for stuff…"
+	text "Không còn chỗ…"
 	done
 
 CeladonDeptStore6FSuperNerdText:
-	text "A vending machine"
-	line "with a prize rou-"
-	cont "lette…"
+	text "Máy bán hàng tự"
+	line "động có vòng quay"
+	cont "may mắn…"
 
-	para "You never see"
-	line "those anymore."
+	para "Giờ không thấy"
+	line "loại đó nữa."
 	done
 
 CeladonDeptStore6FYoungsterText:
-	text "Aww! There's no"
-	line "games here!"
+	text "Trời! Không có"
+	line "game ở đây!"
 
-	para "I wanted to play…"
+	para "Tôi muốn chơi…"
 	done
 
 CeladonDeptStore6FDirectoryText:
-	text "6F: ROOFTOP SQUARE"
-	line "VENDING MACHINES"
+	text "6F: QUẢNG TRƯỜNG"
+	line "SÂN THƯỢNG-MÁY BÁN"
 	done
 
 CeladonDeptStore6F_MapEvents:

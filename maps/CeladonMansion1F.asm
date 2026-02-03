@@ -43,18 +43,18 @@ CeladonMansion1FBookshelf:
 	jumpstd PictureBookshelfScript
 
 CeladonMansionManagerText:
-	text "My dear #MON"
-	line "keep me company,"
+	text "#MON yêu quý"
+	line "ở bên tôi,"
 
-	para "so I don't ever"
-	line "feel lonely."
+	para "nên tôi không bao"
+	line "giờ cô đơn."
 
-	para "MEOWTH even brings"
-	line "money home."
+	para "MEOWTH thậm chí"
+	line "mang tiền về nhà."
 	done
 
 CeladonMansion1FMeowthText:
-	text "MEOWTH: Meow!"
+	text "MEOWTH: Meo!"
 	done
 
 CeladonMansion1FClefairyText:
@@ -69,7 +69,7 @@ CeladonMansion1FNidoranFText:
 
 CeladonMansionManagersSuiteSignText:
 	text "CELADON MANSION"
-	line "MANAGER'S SUITE"
+	line "PHÒNG QUẢN LÝ"
 	done
 
 CeladonMansion1F_MapEvents:

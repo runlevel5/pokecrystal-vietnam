@@ -191,46 +191,47 @@ BurnedTowerB1FEusineMovement1:
 	step_end
 
 BurnedTowerB1FEusineText:
-	text "EUSINE: I dug a"
-	line "hole here, too…"
+	text "EUSINE: Tôi đào"
+	line "một lỗ ở đây…"
 
-	para "I was shocked!"
+	para "Tôi bị sốc!"
 
-	para "SUICUNE raced by"
-	line "like a blur, right"
+	para "SUICUNE lướt qua"
+	line "như cơn gió,"
 
-	para "in front of my"
-	line "eyes!"
+	para "ngay trước mắt"
+	line "tôi!"
 
-	para "For ten years I"
-	line "chased SUICUNE,"
+	para "Suốt 10 năm tôi"
+	line "theo SUICUNE,"
 
-	para "and I finally got"
-	line "to see it."
+	para "cuối cùng được"
+	line "thấy nó."
 
-	para "I'm all choked up!"
+	para "Tôi xúc động!"
 
-	para "<PLAYER>, I owe"
-	line "this all to you!"
+	para "<PLAYER>, tôi nợ"
+	line "bạn nhiều lắm!"
 
-	para "Thank you!"
+	para "Cảm ơn bạn!"
 
-	para "I heard that the"
-	line "legendary #MON"
+	para "Tôi nghe nói các"
+	line "#MON huyền"
 
-	para "of ECRUTEAK test"
-	line "chosen humans by"
+	para "thoại ECRUTEAK"
+	line "thử thách người"
 
-	para "allowing them to"
-	line "get close."
+	para "được chọn bằng"
+	line "cách cho họ"
+	cont "đến gần."
 
-	para "I'm going to track"
+	para "Tôi sẽ theo dấu"
 	line "SUICUNE."
 
-	para "<PLAYER>, let's"
-	line "meet again!"
+	para "<PLAYER>, hẹn"
+	line "gặp lại bạn!"
 
-	para "Farewell!"
+	para "Tạm biệt!"
 	done
 
 BurnedTowerB1F_MapEvents:

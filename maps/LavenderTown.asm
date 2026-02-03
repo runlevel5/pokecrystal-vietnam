@@ -45,62 +45,61 @@ LavenderMartSignText:
 	jumpstd MartSignScript
 
 LavenderTownPokefanMText:
-	text "That's quite some"
-	line "building, eh?"
+	text "Tòa nhà đó đẹp"
+	line "quá nhỉ?"
 
-	para "It's KANTO's RADIO"
-	line "TOWER."
+	para "Đó là THÁP RADIO"
+	line "của KANTO."
 	done
 
 LavenderTownTeacherText:
-	text "KANTO has many"
-	line "good radio shows."
+	text "KANTO có nhiều"
+	line "chương trình radio"
+	cont "hay."
 	done
 
 LavenderTownGrampsText:
-	text "People come from"
-	line "all over to pay"
+	text "Mọi người từ khắp"
+	line "nơi đến để tưởng"
 
-	para "their respects to"
-	line "the departed souls"
-	cont "of #MON."
+	para "nhớ linh hồn đã"
+	line "khuất của #MON."
 	done
 
 LavenderTownYoungsterText:
-	text "You need a #"
-	line "FLUTE to wake"
-	cont "sleeping #MON."
+	text "Cậu cần SÁO #"
+	line "để đánh thức"
+	cont "#MON đang ngủ."
 
-	para "Every trainer has"
-	line "to know that!"
+	para "Mọi HLV đều phải"
+	line "biết điều đó!"
 	done
 
 LavenderTownSignText:
 	text "LAVENDER TOWN"
 
-	para "The Noble Purple"
-	line "Town"
+	para "Thị Trấn Tím"
+	line "Cao Quý"
 	done
 
 KantoRadioStationSignText:
-	text "KANTO RADIO"
-	line "STATION"
+	text "ĐÀI RADIO KANTO"
 
-	para "Your Favorite"
-	line "Programs On-Air"
-	cont "Around the Clock!"
+	para "Chương Trình Yêu"
+	line "Thích Phát Sóng"
+	cont "Suốt Ngày Đêm!"
 	done
 
 VolunteerPokemonHouseSignText:
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "NHÀ TÌNH NGUYỆN"
+	line "#MON LAVENDER"
 	done
 
 SoulHouseSignText:
-	text "SOUL HOUSE"
+	text "NHÀ LINH HỒN"
 
-	para "May the Souls of"
-	line "#MON Rest Easy"
+	para "Chúc Linh Hồn"
+	line "#MON Yên Nghỉ"
 	done
 
 LavenderTown_MapEvents:

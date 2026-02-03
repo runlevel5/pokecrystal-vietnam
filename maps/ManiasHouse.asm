@@ -100,102 +100,102 @@ ManiasHouseUnusedBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 ManiaText_AskLookAfterShuckle:
-	text "I, I'm in shock!"
+	text "T-tôi bị sốc!"
 
-	para "A guy about your"
-	line "age with piercing"
+	para "Một anh chàng độ"
+	line "tuổi bạn với đôi"
 
-	para "eyes and long hair"
-	line "came in."
+	para "mắt sắc bén và tóc"
+	line "dài đã vào đây."
 
-	para "He scared me into"
-	line "giving him my"
-	cont "prized #MON!"
+	para "Anh ta dọa tôi"
+	line "đưa cho hắn #-"
+	cont "MON quý của tôi!"
 
-	para "I still have one"
-	line "left, but what if"
-	cont "he comes back?"
+	para "Tôi vẫn còn một"
+	line "con, nhưng nếu"
+	cont "hắn quay lại thì…"
 
-	para "You look strong."
-	line "Could you look"
+	para "Bạn trông mạnh."
+	line "Bạn có thể chăm"
 
-	para "after my #MON"
-	line "for a while?"
+	para "sóc #MON của"
+	line "tôi chút không?"
 	done
 
 ManiaText_TakeCareOfShuckle:
-	text "Oh, thank you!"
+	text "Ồ, cảm ơn bạn!"
 
-	para "Take good care of"
-	line "it, please!"
+	para "Hãy chăm sóc nó"
+	line "thật tốt nhé!"
 	done
 
 ManiaText_GotShuckle:
-	text "<PLAYER> received a"
-	line "#MON."
+	text "<PLAYER> nhận được"
+	line "một #MON."
 	done
 
 ManiaText_PartyFull:
-	text "Your #MON party"
-	line "is full."
+	text "Đội #MON của"
+	line "bạn đã đầy."
 	done
 
 ManiaText_IfHeComesBack:
-	text "Oh, no… What'll"
-	line "I do if he comes"
-	cont "back?"
+	text "Ồ không… Tôi sẽ"
+	line "làm gì nếu hắn"
+	cont "quay lại?"
 	done
 
 ManiaText_CanIHaveMyMonBack:
-	text "Hi! How's my #-"
-	line "MON?"
+	text "Chào! #MON tôi"
+	line "thế nào?"
 
-	para "I think I'm safe"
-	line "now, so may I have"
-	cont "it back?"
+	para "Tôi nghĩ giờ an"
+	line "toàn rồi, tôi có"
+	cont "thể lấy lại không?"
 	done
 
 ManiaText_ThankYou:
-	text "Thank you!"
+	text "Cảm ơn bạn!"
 	done
 
 ManiaText_ShuckleNotThere:
-	text "Hey, you don't"
-	line "have my #MON"
-	cont "with you."
+	text "Này, bạn không"
+	line "có #MON tôi"
+	cont "bên mình."
 	done
 
 ManiaText_ShuckleLikesYou:
-	text "My #MON has"
-	line "come to like you."
+	text "#MON của tôi đã"
+	line "thích bạn rồi."
 
-	para "All right, you"
-	line "should keep it."
+	para "Được rồi, bạn nên"
+	line "giữ nó lại."
 
-	para "But promise to"
-	line "be good to it!"
+	para "Nhưng hứa là sẽ"
+	line "tốt với nó nhé!"
 	done
 
 ManiaText_SameAsBeingRobbed:
-	text "Oh, no, no… That's"
-	line "the same as being"
-	cont "robbed."
+	text "Ồ không, không…"
+	line "Như vậy không khác"
+	cont "gì bị cướp."
 	done
 
 ManiaText_HappinessSpeech:
-	text "For #MON, hap-"
-	line "piness is being"
+	text "Với #MON, hạnh"
+	line "phúc là được ở"
 
-	para "with a person who"
-	line "treats them well."
+	para "cùng người đối xử"
+	line "tốt với chúng."
 	done
 
 ManiaText_ShuckleIsYourLastMon:
-	text "If I take my #-"
-	line "MON back, what are"
+	text "Nếu tôi lấy lại"
+	line "#MON, bạn sẽ"
 
-	para "you going to use"
-	line "in battle?"
+	para "dùng gì trong"
+	line "trận đấu?"
 	done
 
 ManiasHouse_MapEvents:

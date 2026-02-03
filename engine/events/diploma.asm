@@ -36,17 +36,16 @@ PlaceDiplomaOnScreen:
 	ret
 
 .Player:
-	db "PLAYER@"
+	db "NGƯỜI CHƠI@"
 
 .EmptyString:
 	db "@"
 
 .Certification:
-	db   "This certifies"
-	next "that you have"
-	next "completed the"
-	next "new #DEX."
-	next "Congratulations!"
+	db   "Chứng nhận rằng"
+	next "bạn đã hoàn thành"
+	next "#DEX mới."
+	next "Chúc mừng!"
 	db   "@"
 
 PrintDiplomaPage2:
@@ -75,7 +74,7 @@ PrintDiplomaPage2:
 	call PrintNum
 	ret
 
-.PlayTime: db "PLAY TIME@"
+.PlayTime: db "THỜI GIAN@"
 .GameFreak: db "GAME FREAK@"
 
 DiplomaGFX:

@@ -736,37 +736,36 @@ IlexForestPlayerStepsDownMovement:
 	step_end
 
 IlexForestApprenticeIntroText:
-	text "Oh, man… My boss"
-	line "is going to be"
-	cont "steaming…"
+	text "Ôi trời… Sếp tôi"
+	line "sẽ điên mất…"
 
-	para "The FARFETCH'D"
-	line "that CUTS trees"
+	para "Con FARFETCH'D"
+	line "dùng CẮT cây để"
 
-	para "for charcoal took"
-	line "off on me."
+	para "làm than đã bỏ"
+	line "chạy mất rồi."
 
-	para "I can't go looking"
-	line "for it here in the"
-	cont "ILEX FOREST."
+	para "Tôi không thể đi"
+	line "tìm nó trong RỪNG"
+	cont "ILEX này."
 
-	para "It's too big, dark"
-	line "and scary for me…"
+	para "Rừng to, tối và"
+	line "đáng sợ quá…"
 	done
 
 IlexForestApprenticeAfterText:
-	text "Wow! Thanks a"
-	line "whole bunch!"
+	text "Ôi! Cảm ơn bạn"
+	line "rất nhiều!"
 
-	para "My boss's #MON"
-	line "won't obey me be-"
-	cont "cause I don't have"
-	cont "a BADGE."
+	para "#MON của sếp"
+	line "không nghe lời tôi"
+	cont "vì tôi không có"
+	cont "HUY HIỆU."
 	done
 
 Text_ItsTheMissingPokemon:
-	text "It's the missing"
-	line "#MON!"
+	text "Đây là con #MON"
+	line "bị mất!"
 	done
 
 Text_Kwaaaa:
@@ -774,164 +773,160 @@ Text_Kwaaaa:
 	done
 
 Text_CharcoalMasterIntro:
-	text "Ah! My FARFETCH'D!"
+	text "À! FARFETCH'D của"
+	line "tôi!"
 
-	para "You found it for"
-	line "us, kid?"
+	para "Cháu tìm được nó"
+	line "cho chúng tôi à?"
 
-	para "Without it, we"
-	line "wouldn't be able"
+	para "Không có nó, chúng"
+	line "tôi không thể CẮT"
 
-	para "to CUT trees for"
-	line "charcoal."
+	para "cây để làm than"
+	line "được."
 
-	para "Thanks, kid!"
+	para "Cảm ơn cháu!"
 
-	para "Now, how can I"
-	line "thank you…"
+	para "Để xem, tôi cảm ơn"
+	line "cháu thế nào…"
 
-	para "I know! Here, take"
-	line "this."
+	para "Tôi biết rồi! Cầm"
+	line "lấy cái này đi."
 	done
 
 Text_CharcoalMasterOutro:
-	text "That's the CUT HM."
-	line "Teach that to a"
+	text "Đó là HM CẮT."
+	line "Dạy cho #MON"
 
-	para "#MON to clear"
-	line "small trees."
+	para "để chặt những cây"
+	line "nhỏ."
 
-	para "Of course, you"
-	line "have to have the"
+	para "Tất nhiên, cháu"
+	line "phải có HUY HIỆU"
 
-	para "GYM BADGE from"
-	line "AZALEA to use it."
+	para "GYM từ AZALEA mới"
+	line "dùng được."
 	done
 
 Text_CharcoalMasterTalkAfter:
-	text "Do you want to"
-	line "apprentice as a"
+	text "Cháu muốn làm học"
+	line "việc thợ làm than"
 
-	para "charcoal maker"
-	line "with me?"
+	para "với tôi không?"
 
-	para "You'll be first-"
-	line "rate in ten years!"
+	para "Mười năm là cháu"
+	line "thành bậc thầy!"
 	done
 
 Text_HeadbuttIntro:
-	text "What am I doing?"
+	text "Tôi đang làm gì à?"
 
-	para "I'm shaking trees"
-	line "using HEADBUTT."
+	para "Tôi đang lắc cây"
+	line "bằng ĐỤC ĐẦU."
 
-	para "It's fun. Here,"
-	line "you try it too!"
+	para "Vui lắm. Đây, bạn"
+	line "cũng thử xem!"
 	done
 
 Text_HeadbuttOutro:
-	text "Rattle trees with"
-	line "HEADBUTT. Some-"
-	cont "times, sleeping"
-	cont "#MON fall out."
+	text "Lắc cây bằng"
+	line "ĐỤC ĐẦU. Đôi khi"
+	cont "#MON đang ngủ"
+	cont "rơi xuống."
 	done
 
 Text_IlexForestLass:
-	text "Did something"
-	line "happen to the"
-	cont "forest's guardian?"
+	text "Có chuyện gì xảy"
+	line "ra với người bảo"
+	cont "vệ rừng không?"
 	done
 
 IlexForestSignpostText:
-	text "ILEX FOREST is"
-	line "so overgrown with"
+	text "RỪNG ILEX um tùm"
+	line "cây cối đến nỗi"
 
-	para "trees that you"
-	line "can't see the sky."
+	para "không nhìn thấy"
+	line "bầu trời."
 
-	para "Please watch out"
-	line "for items that may"
-	cont "have been dropped."
+	para "Hãy cẩn thận với"
+	line "đồ vật có thể rơi"
+	cont "xuống đất."
 	done
 
 Text_IlexForestShrine:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "ĐỀN RỪNG ILEX…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Dành cho người bảo"
+	line "vệ rừng…"
 	done
 
 Text_ShrineCelebiEvent:
-	text "ILEX FOREST"
-	line "SHRINE…"
+	text "ĐỀN RỪNG ILEX…"
 
-	para "It's in honor of"
-	line "the forest's"
-	cont "protector…"
+	para "Dành cho người bảo"
+	line "vệ rừng…"
 
-	para "Oh? What is this?"
+	para "Ồ? Đây là gì?"
 
-	para "It's a hole."
-	line "It looks like the"
+	para "Một cái lỗ."
+	line "Có vẻ như GS BALL"
 
-	para "GS BALL would fit"
-	line "inside it."
+	para "vừa khít với nó."
 
-	para "Want to put the GS"
-	line "BALL here?"
+	para "Muốn đặt GS BALL"
+	line "vào đây không?"
 	done
 
 Text_InsertGSBall:
-	text "<PLAYER> put in the"
-	line "GS BALL."
+	text "<PLAYER> đặt GS"
+	line "BALL vào."
 	done
 
 Text_KurtCaughtCelebi:
-	text "Whew, wasn't that"
-	line "something!"
+	text "Phù, thật tuyệt"
+	line "vời làm sao!"
 
-	para "<PLAYER>, that was"
-	line "fantastic. Thanks!"
+	para "<PLAYER>, con thật"
+	line "xuất sắc. Cảm ơn!"
 
-	para "The legends about"
-	line "that SHRINE were"
-	cont "real after all."
+	para "Truyền thuyết về"
+	line "ĐỀN đó là có thật"
+	cont "sau tất cả."
 
-	para "I feel inspired by"
-	line "what I just saw."
+	para "Ta cảm thấy được"
+	line "truyền cảm hứng từ"
+	cont "những gì vừa thấy."
 
-	para "It motivates me to"
-	line "make better BALLS!"
+	para "Nó thúc đẩy ta làm"
+	line "BALL tốt hơn!"
 
-	para "I'm going!"
+	para "Ta đi đây!"
 	done
 
 BugCatcherWayneSeenText:
-	text "Don't sneak up on"
-	line "me like that!"
+	text "Đừng lén đến gần"
+	line "tôi như vậy!"
 
-	para "You frightened a"
-	line "#MON away!"
+	para "Bạn làm #MON"
+	line "sợ chạy mất!"
 	done
 
 BugCatcherWayneBeatenText:
-	text "I hadn't seen that"
-	line "#MON before…"
+	text "Tôi chưa thấy"
+	line "#MON đó bao giờ"
 	done
 
 BugCatcherWayneAfterBattleText:
-	text "A #MON I've"
-	line "never seen before"
+	text "Một con #MON"
+	line "tôi chưa từng thấy"
 
-	para "fell out of the"
-	line "tree when I used"
-	cont "HEADBUTT."
+	para "rơi ra khỏi cây"
+	line "khi tôi dùng"
+	cont "ĐỤC ĐẦU."
 
-	para "I ought to use"
-	line "HEADBUTT in other"
-	cont "places too."
+	para "Tôi nên dùng"
+	line "ĐỤC ĐẦU ở những"
+	cont "nơi khác nữa."
 	done
 
 IlexForest_MapEvents:

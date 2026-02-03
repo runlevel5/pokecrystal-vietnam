@@ -28,16 +28,16 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "SUN@"
-	db "MON@"
-	db "TUES@"
-	db "WEDNES@"
-	db "THURS@"
-	db "FRI@"
-	db "SATUR@"
+	db "CN@"
+	db "T2@"
+	db "T3@"
+	db "T4@"
+	db "T5@"
+	db "T6@"
+	db "T7@"
 
 .Day:
-	db "DAY@"
+	db "ngày@"
 
 NewGame_ClearTilemapEtc:
 	xor a
@@ -301,7 +301,7 @@ InitializeNPCNames:
 .Rival:  db "???@"
 .Red:    db "RED@"
 .Green:  db "GREEN@"
-.Mom:    db "MOM@"
+.Mom:    db "Mẹ@"
 
 InitializeWorld:
 	call ShrinkPlayer
@@ -533,10 +533,10 @@ Continue_LoadMenuHeader:
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER@"
-	db "BADGES@"
+	db "TÊN@"
+	db "HUY HIỆU@"
 	db "#DEX@"
-	db "TIME@"
+	db "T.GIAN@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
@@ -547,10 +547,10 @@ Continue_LoadMenuHeader:
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "PLAYER <PLAYER>@"
-	db "BADGES@"
+	db "TÊN@"
+	db "HUY HIỆU@"
 	db " @"
-	db "TIME@"
+	db "T.GIAN@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
@@ -653,7 +653,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTilemap
 
-	ld a, WOOPER
+	ld a, PIKACHU
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetBaseData
@@ -713,7 +713,7 @@ OakText1:
 OakText2:
 	text_far _OakText2
 	text_asm
-	ld a, WOOPER
+	ld a, PIKACHU
 	call PlayMonCry
 	call WaitSFX
 	ld hl, OakText3
@@ -780,9 +780,9 @@ NamePlayer:
 	ret
 
 .Chris:
-	dname "CHRIS", NAME_LENGTH
+	dname "Trung", NAME_LENGTH
 .Kris:
-	dname "KRIS", NAME_LENGTH
+	dname "Trang", NAME_LENGTH
 
 GSShowPlayerNamingChoices: ; unreferenced
 	call LoadMenuHeader

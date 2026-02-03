@@ -23,24 +23,23 @@ Route7SaffronGuardScript:
 	end
 
 Route7SaffronGuardPowerPlantText:
-	text "Did you hear about"
-	line "the accident at"
-	cont "the POWER PLANT?"
+	text "Bạn có nghe về tai"
+	line "nạn tại NHÀ MÁY"
+	cont "ĐIỆN không?"
 
-	para "It's located in"
-	line "the East, close to"
-	cont "LAVENDER TOWN."
+	para "Nó nằm ở phía"
+	line "Đông, gần TRẤN"
+	cont "LAVENDER."
 	done
 
 Route7SaffronGuardSeriousText:
-	text "I take my GUARD"
-	line "job seriously."
+	text "Tôi làm việc rất"
+	line "nghiêm túc."
 
-	para "Hey! You have a"
+	para "Này! Bạn có"
 	line "#DEX."
 
-	para "OK. You can go"
-	line "through."
+	para "OK. Bạn qua được."
 	done
 
 Route7SaffronGate_MapEvents:

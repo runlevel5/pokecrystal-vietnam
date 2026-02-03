@@ -1,10 +1,10 @@
-	db "PSI@" ; species name
-	dw 403, 1250 ; height, weight
+	db "NGOẠI CẢM@" ; species name
+	dw 13, 565 ; height, weight
 
-	db   "When it closes its"
-	next "eyes, twice as"
-	next "many alpha parti-"
+	db   "Khi nhắm mắt, số"
+	next "hạt alpha tỏa ra"
+	next "từ bề mặt cơ thể"
 
-	page "cles come out of"
-	next "the surface of its"
-	next "body.@"
+	page "tăng gấp đôi.@"
+	next "@"
+	next "@"

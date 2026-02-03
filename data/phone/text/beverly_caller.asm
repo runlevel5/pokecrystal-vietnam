@@ -1,82 +1,82 @@
 BeverlyMadeMonEvenCuterText:
-	text "I fancied up my"
+	text "Tớ trang điểm cho"
 	line "@"
 	text_ram wStringBuffer4
-	text " and"
+	text " và"
 
-	para "made it even cuter"
-	line "than before!"
+	para "làm nó dễ thương"
+	line "hơn trước!"
 	done
 
 BeverlyDefeatedMonText:
-	text "I happened to come"
-	line "across a wild"
-	cont "SNUBBULL recently."
+	text "Tớ tình cờ gặp"
+	line "một SNUBBULL hoang"
+	cont "gần đây."
 
-	para "My SNUBBULL, I"
-	line "assure you, was"
+	para "SNUBBULL của tớ,"
+	line "tớ đảm bảo, dễ"
 
-	para "far cuter than the"
-	line "wild one."
+	para "thương hơn nhiều"
+	line "so với con hoang."
 	done
 
 BeverlyLostAMonText:
-	text "I happened to see"
-	line "a wild MARILL the"
+	text "Tớ tình cờ thấy"
+	line "một MARILL hoang"
 
-	para "other day."
-	line "Or so I thought."
+	para "hôm trước."
+	line "Hoặc tớ nghĩ thế."
 
-	para "A closer look"
-	line "showed it was"
+	para "Nhìn kỹ hơn thì"
+	line "thấy nó là"
 
 	para "@"
 	text_ram wStringBuffer4
-	text ". I was"
-	line "quite miffed."
+	text ". Tớ khá"
+	line "thất vọng."
 	done
 
 BeverlyHangUpText:
-	text "You can expect a"
-	line "call from me."
+	text "Cậu có thể đợi"
+	line "cuộc gọi từ tớ."
 	done
 
 BeverlyFoundItemText:
-	text "My husband got"
-	line "some NUGGETS."
+	text "Chồng tớ kiếm được"
+	line "vài CỤC VÀNG."
 
-	para "If you'd like, you"
-	line "could have one as"
+	para "Nếu cậu muốn, cậu"
+	line "có thể lấy một"
 
-	para "thanks for helping"
-	line "me out."
+	para "để cảm ơn vì đã"
+	line "giúp tớ."
 
-	para "I'll be at"
+	para "Tớ sẽ ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Please come see me"
-	line "when you can."
+	para "Hãy đến gặp tớ"
+	line "khi cậu có thể."
 	done
 
 BeverlyLetsChatAboutMonAgainText:
-	text "Are your #MON"
-	line "in prime form?"
+	text "#MON cậu có"
+	line "đang khỏe không?"
 
-	para "Let's chat about"
-	line "#MON again."
+	para "Hãy nói chuyện về"
+	line "#MON lần nữa."
 	done
 
 BeverlyComePickUpText:
-	text "Pardon?"
-	line "Oh, the NUGGET?"
+	text "Ý cậu là gì?"
+	line "Ồ, CỤC VÀNG à?"
 
-	para "There's no need to"
-	line "hurry. Come see me"
+	para "Không cần vội."
+	line "Đến gặp tớ ở"
 
-	para "in @"
+	para "@"
 	text_ram wStringBuffer5
-	text_start
-	line "when you can."
+	text ""
+	line "khi cậu có thể."
 	done

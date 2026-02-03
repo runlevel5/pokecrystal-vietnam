@@ -1,10 +1,10 @@
-	db "WILD BULL@" ; species name
-	dw 407, 1950 ; height, weight
+	db "BÒ TÓT HOANG@" ; species name
+	dw 14, 884 ; height, weight
 
-	db   "These violent"
-	next "#MON fight"
-	next "with other mem-"
+	db   "#MON hung dữ"
+	next "này đánh nhau với"
+	next "các con khác"
 
-	page "bers of their herd"
-	next "in order to prove"
-	next "their strength.@"
+	page "trong đàn để"
+	next "chứng tỏ"
+	next "sức mạnh.@"

@@ -1,10 +1,10 @@
-	db "SPIKES@" ; species name
-	dw 303, 2540 ; height, weight
+	db "GAI@" ; species name
+	dw 10, 1150 ; height, weight
 
-	db   "It can remember"
-	next "only one thing at"
-	next "a time. Once it"
+	db   "Nó chỉ nhớ được"
+	next "một việc một lúc."
+	next "Khi bắt đầu lao,"
 
-	page "starts rushing, it"
-	next "forgets why it"
-	next "started.@"
+	page "nó quên mất tại"
+	next "sao lại lao.@"
+	next "@"

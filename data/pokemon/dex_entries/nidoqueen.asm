@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 403, 1320 ; height, weight
+	db "KHOAN@" ; species name
+	dw 13, 600 ; height, weight
 
-	db   "The hard scales"
-	next "that cover its"
-	next "strong body serve"
+	db   "Vảy cứng bao phủ"
+	next "cơ thể khỏe mạnh"
+	next "của nó là lớp"
 
-	page "as excellent"
-	next "protection from"
-	next "any attack.@"
+	page "bảo vệ tuyệt vời"
+	next "trước mọi"
+	next "cuộc tấn công.@"

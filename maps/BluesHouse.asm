@@ -64,82 +64,82 @@ DaisyScript:
 	end
 
 DaisyHelloText:
-	text "DAISY: Hi! My kid"
-	line "brother is the GYM"
+	text "DAISY: Chào bạn!"
+	line "Em trai tôi là"
 
-	para "LEADER in VIRIDIAN"
-	line "CITY."
+	para "THỦ LĨNH GYM ở"
+	line "TP VIRIDIAN."
 
-	para "But he goes out"
-	line "of town so often,"
+	para "Nhưng nó thường"
+	line "ra ngoài thành,"
 
-	para "it causes problems"
-	line "for the trainers."
+	para "gây rắc rối cho"
+	line "các HLV."
 	done
 
 DaisyOfferGroomingText:
-	text "DAISY: Hi! Good"
-	line "timing. I'm about"
-	cont "to have some tea."
+	text "DAISY: Chào! Đúng"
+	line "lúc. Tôi sắp uống"
+	cont "trà."
 
-	para "Would you like to"
-	line "join me?"
+	para "Bạn muốn uống"
+	line "cùng không?"
 
-	para "Oh, your #MON"
-	line "are a bit dirty."
+	para "Ồ, #MON của"
+	line "bạn hơi bẩn."
 
-	para "Would you like me"
-	line "to groom one?"
+	para "Để tôi làm đẹp"
+	line "cho một con nhé?"
 	done
 
 DaisyWhichMonText:
-	text "DAISY: Which one"
-	line "should I groom?"
+	text "DAISY: Con nào để"
+	line "tôi làm đẹp?"
 	done
 
 DaisyAlrightText:
-	text "DAISY: OK, I'll"
-	line "get it looking"
-	cont "nice in no time."
+	text "DAISY: OK, tôi sẽ"
+	line "làm cho nó đẹp"
+	cont "ngay thôi."
 	done
 
 GroomedMonLooksContentText:
 	text_ram wStringBuffer3
-	text " looks"
-	line "content."
+	text " trông"
+	line "hài lòng."
 	done
 
 DaisyAllDoneText:
-	text "DAISY: There you"
-	line "go! All done."
+	text "DAISY: Xong rồi!"
+	line "Hoàn tất."
 
-	para "See? Doesn't it"
-	line "look nice?"
+	para "Thấy không?"
+	line "Trông đẹp lắm!"
 
-	para "It's such a cute"
-	line "#MON."
+	para "Thật là một con"
+	line "#MON dễ thương."
 	done
 
 DaisyAlreadyGroomedText:
-	text "DAISY: I always"
-	line "have tea around"
+	text "DAISY: Tôi luôn"
+	line "uống trà vào giờ"
 
-	para "this time. Come"
-	line "join me."
+	para "này. Hãy đến"
+	line "cùng tôi nhé."
 	done
 
 DaisyRefusedText:
-	text "DAISY: You don't"
-	line "want to have one"
+	text "DAISY: Bạn không"
+	line "muốn làm đẹp à?"
 
-	para "groomed? OK, we'll"
-	line "just have tea."
+	para "OK, chỉ uống trà"
+	line "thôi."
 	done
 
 DaisyCantGroomEggText:
-	text "DAISY: Oh, sorry."
-	line "I honestly can't"
-	cont "groom an EGG."
+	text "DAISY: Ồ, xin lỗi"
+	line "Tôi không thể làm"
+	cont "đẹp TRỨNG được."
 	done
 
 BluesHouse_MapEvents:

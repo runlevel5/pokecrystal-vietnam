@@ -1,10 +1,10 @@
-	db "SCISSORS@" ; species name
-	dw 511, 2600 ; height, weight
+	db "CÁI KÉO@" ; species name
+	dw 18, 1180 ; height, weight
 
-	db   "This #MON's"
-	next "pincers, which"
-	next "contain steel, can"
+	db   "Kìm chứa thép"
+	next "của #MON này"
+	next "có thể nghiền"
 
-	page "crush any hard"
-	next "object it gets a"
-	next "hold of into bits.@"
+	page "nát bất kỳ vật"
+	next "cứng nào nó"
+	next "cặp được.@"

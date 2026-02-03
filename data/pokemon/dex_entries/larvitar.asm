@@ -1,10 +1,10 @@
-	db "ROCK SKIN@" ; species name
-	dw 200, 1590 ; height, weight
+	db "DA ĐÁ@" ; species name
+	dw 6, 720 ; height, weight
 
-	db   "Born deep under-"
-	next "ground, this"
-	next "#MON becomes a"
+	db   "Sinh ra sâu dưới"
+	next "lòng đất, #MON"
+	next "này hóa nhộng sau"
 
-	page "pupa after eating"
-	next "enough dirt to"
-	next "make a mountain.@"
+	page "khi ăn đủ đất để"
+	next "tạo thành một"
+	next "ngọn núi.@"

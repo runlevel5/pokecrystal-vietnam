@@ -1,10 +1,10 @@
-	db "FOSSIL@" ; species name
-	dw 511, 1300 ; height, weight
+	db "HÓA THẠCH@" ; species name
+	dw 18, 590 ; height, weight
 
-	db   "In prehistoric"
-	next "times, this"
-	next "#MON flew"
+	db   "Thời tiền sử,"
+	next "#MON này bay"
+	next "tự do và không"
 
-	page "freely and"
-	next "fearlessly through"
-	next "the skies.@"
+	page "sợ hãi trên"
+	next "bầu trời.@"
+	next "@"

@@ -28,52 +28,51 @@ GoldenrodDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore1FReceptionistText:
-	text "Welcome to GOLDEN-"
-	line "ROD DEPT.STORE."
+	text "Chào mừng đến"
+	line "TTMT GOLDENROD."
 	done
 
 GoldenrodDeptStore1FGentlemanText:
-	text "The DEPT.STORE"
-	line "has a decent se-"
-	cont "lection."
+	text "TTMT có lựa chọn"
+	line "khá tốt."
 
-	para "But some items"
-	line "are only available"
+	para "Nhưng một số đồ"
+	line "chỉ có ở"
 
-	para "as GAME CORNER"
-	line "prizes."
+	para "giải thưởng"
+	line "GÓC GIẢI TRÍ."
 	done
 
 GoldenrodDeptStore1FPokefanFText:
-	text "I'm raring to shop"
-	line "again today!"
+	text "Tôi háo hức mua"
+	line "sắm hôm nay!"
 	done
 
 GoldenrodDeptStore1FBugCatcherText:
-	text "Mom's good at"
-	line "bargain hunting."
+	text "Mẹ tôi giỏi tìm"
+	line "món hời."
 
-	para "She always buys"
-	line "stuff at lower"
-	cont "prices."
+	para "Bà luôn mua đồ với"
+	line "giá thấp hơn."
 	done
 
 GoldenrodDeptStore1FDirectoryText:
-	text "1F SERVICE COUNTER"
+	text "1T QUẦY DỊCH VỤ"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "2T CHỢ"
+	line "   HLV"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "3T BST"
+	line "   CHIẾN ĐẤU"
 
-	para "4F MEDICINE BOX"
+	para "4T HỘP THUỐC"
 
-	para "5F TM CORNER"
+	para "5T GÓC TM"
 
-	para "6F TRANQUIL SQUARE"
+	para "6T QUẢNG TRƯỜNG"
+	line "   YÊN TĨNH"
 
-	para "ROOFTOP LOOKOUT"
+	para "SÂNTG ĐÀI QUAN SÁT"
 	done
 
 GoldenrodDeptStore1F_MapEvents:

@@ -88,74 +88,74 @@ MountMoonRivalMovementAfter:
 MountMoonRivalTextBefore:
 	text "<……> <……> <……>"
 
-	para "It's been a while,"
+	para "Lâu rồi không gặp,"
 	line "<PLAYER>."
 
-	para "…Since I lost to"
-	line "you, I thought"
+	para "…Từ khi thua bạn,"
+	line "tôi đã suy nghĩ"
 
-	para "about what I was"
-	line "lacking with my"
-	cont "#MON…"
+	para "về điều tôi thiếu"
+	line "với #MON…"
 
-	para "And we came up"
-	line "with an answer."
+	para "Và chúng tôi đã"
+	line "tìm ra câu trả lời."
 
-	para "<PLAYER>, now we'll"
-	line "show you!"
+	para "<PLAYER>, giờ ta sẽ"
+	line "cho mày thấy!"
 	done
 
 MountMoonRivalTextWin:
 	text "<……> <……> <……>"
 
-	para "I thought I raised"
-	line "my #MON to be"
+	para "Tôi nghĩ tôi đã"
+	line "nuôi #MON trở"
 
-	para "the best they"
-	line "could be…"
+	para "thành mạnh nhất"
+	line "có thể…"
 
-	para "…But it still "
-	line "wasn't enough…"
+	para "…Nhưng vẫn chưa"
+	line "đủ…"
 	done
 
 MountMoonRivalTextAfter:
 	text "<……> <……> <……>"
 
-	para "…You won, fair"
-	line "and square."
+	para "…Mày thắng, rõ"
+	line "ràng và minh bạch."
 
-	para "I admit it. But"
-	line "this isn't the"
-	cont "end."
+	para "Tao thừa nhận. Nhưng"
+	line "đây không phải"
+	cont "kết thúc."
 
-	para "I'm going to be"
-	line "the greatest #-"
-	cont "MON trainer ever."
+	para "Tao sẽ trở thành"
+	line "HLV #MON vĩ đại"
+	cont "nhất."
 
-	para "Because these guys"
-	line "are behind me."
+	para "Vì những thằng"
+	line "này ủng hộ tao."
 
-	para "…Listen, <PLAYER>."
+	para "…Nghe này, <PLAYER>."
 
-	para "One of these days"
-	line "I'm going to prove"
+	para "Một ngày nào đó"
+	line "tao sẽ chứng minh"
 
-	para "how good I am by"
-	line "beating you."
+	para "tao giỏi thế nào"
+	line "bằng cách đánh"
+	cont "bại mày."
 	done
 
 MountMoonRivalTextLoss:
 	text "<……> <……> <……>"
 
-	para "I've repaid my"
-	line "debt to you."
+	para "Tao đã trả nợ"
+	line "cho mày rồi."
 
-	para "With my #MON,"
-	line "I'm going to beat"
+	para "Với #MON của"
+	line "tao, tao sẽ đánh"
 
-	para "the CHAMPION and"
-	line "become the world's"
-	cont "greatest trainer."
+	para "bại VÔ ĐỊCH và"
+	line "trở thành HLV vĩ"
+	cont "đại nhất thế giới."
 	done
 
 MountMoon_MapEvents:

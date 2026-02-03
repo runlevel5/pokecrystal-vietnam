@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 200, 170 ; height, weight
+	db "TIÊN@" ; species name
+	dw 6, 78 ; height, weight
 
-	db   "In truth, it is a"
-	next "cowardly #MON."
-	next "It growls eagerly"
+	db   "Thực ra nó rất"
+	next "nhát. Nó gầm gừ"
+	next "hăm hở để giấu"
 
-	page "in order to hide"
-	next "its fear from its"
-	next "opponent.@"
+	page "nỗi sợ hãi trước"
+	next "đối thủ.@"
+	next "@"

@@ -36,44 +36,43 @@ SuperRodHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 OfferSuperRodText:
-	text "I'm the FISHING"
-	line "GURU's younger"
-	cont "brother."
+	text "Tôi là em trai"
+	line "của NGƯ ÔNG."
 
-	para "I can see that you"
-	line "like fishing."
+	para "Tôi có thể thấy"
+	line "bạn thích câu cá."
 
-	para "There's no doubt"
-	line "in my mind at all!"
+	para "Không còn nghi"
+	line "ngờ gì nữa!"
 
-	para "So? I know I'm"
-	line "right."
+	para "Đúng không? Tôi"
+	line "biết là đúng."
 	done
 
 GiveSuperRodText:
-	text "Yes, yes. Just as"
-	line "I thought!"
+	text "Đúng rồi! Như tôi"
+	line "nghĩ!"
 
-	para "Here, fishing fan!"
-	line "Take this--it's a"
-	cont "SUPER ROD."
+	para "Người mê câu cá!"
+	line "Hãy nhận này--một"
+	cont "CẦN SUPER."
 	done
 
 GaveSuperRodText:
-	text "Try your hand at"
-	line "fishing wherever"
-	cont "there is water."
+	text "Hãy thử câu cá ở"
+	line "bất cứ đâu có"
+	cont "nước."
 
-	para "Remember--you can"
-	line "catch different"
+	para "Nhớ nhé--bạn có"
+	line "thể bắt #MON"
 
-	para "#MON using"
-	line "different RODS."
+	para "khác nhau bằng"
+	line "CẦN khác nhau."
 	done
 
 DontWantSuperRodText:
-	text "Huh? My own eyes"
-	line "deceived me?"
+	text "Hả? Mắt tôi đã lừa"
+	line "dối tôi à?"
 	done
 
 Route12SuperRodHouse_MapEvents:

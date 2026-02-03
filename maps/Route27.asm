@@ -315,25 +315,25 @@ Route27FisherStepLeftOnceMovement:
 	step_end
 
 Route27FisherHeyText:
-	text "Hey!"
+	text "Này!"
 	done
 
 Route27FisherText:
-	text "Do you know what"
-	line "you just did?"
+	text "Bạn có biết bạn"
+	line "vừa làm gì không?"
 
-	para "You've taken your"
-	line "first step into"
+	para "Bạn vừa bước chân"
+	line "đầu tiên vào"
 	cont "KANTO."
 
-	para "Check your #-"
-	line "GEAR MAP and see."
+	para "Kiểm tra bản đồ"
+	line "#GEAR của bạn."
 	done
 
 CooltrainermBlakeSeenText:
-	text "You look pretty"
-	line "strong."
-	cont "Let me battle you!"
+	text "Bạn trông khá"
+	line "mạnh."
+	cont "Đấu với tôi nào!"
 	done
 
 CooltrainermBlakeBeatenText:
@@ -341,104 +341,105 @@ CooltrainermBlakeBeatenText:
 	done
 
 CooltrainermBlakeAfterBattleText:
-	text "If you prevail on"
-	line "this harsh trek,"
+	text "Nếu bạn thành công"
+	line "trong chuyến đi"
+	cont "khó khăn này,"
 
-	para "the truth will be"
-	line "revealed!"
+	para "sự thật sẽ được"
+	line "tiết lộ!"
 
-	para "Heh, sorry, I just"
-	line "wanted to say"
-	cont "something cool."
+	para "Heh, xin lỗi, tôi"
+	line "chỉ muốn nói điều"
+	cont "gì đó ngầu."
 	done
 
 CooltrainermBrianSeenText:
-	text "Hm? You're good,"
-	line "aren't you?"
+	text "Hm? Bạn giỏi,"
+	line "phải không?"
 	done
 
 CooltrainermBrianBeatenText:
-	text "Just as I thought!"
+	text "Đúng như tôi nghĩ!"
 	done
 
 CooltrainermBrianAfterBattleText:
-	text "A good trainer can"
-	line "recognize other"
-	cont "good trainers."
+	text "HLV giỏi có thể"
+	line "nhận ra những HLV"
+	cont "giỏi khác."
 	done
 
 CooltrainerfReenaSeenText:
-	text "You shouldn't"
-	line "underestimate the"
+	text "Bạn không nên"
+	line "xem thường #MON"
 
-	para "wild #MON in"
-	line "these parts."
+	para "hoang dã ở"
+	line "khu vực này."
 	done
 
 CooltrainerfReenaBeatenText:
-	text "Oh! You're much"
-	line "too strong!"
+	text "Ôi! Bạn mạnh"
+	line "quá!"
 	done
 
 CooltrainerfReenaAfterBattleText:
-	text "You're just a kid,"
-	line "but you're not to"
+	text "Bạn chỉ là đứa"
+	line "nhóc, nhưng không"
 
-	para "be underestimated"
-	line "either."
+	para "nên xem thường"
+	line "bạn."
 	done
 
 CooltrainerfMeganSeenText:
-	text "It's rare to see"
-	line "anyone come here."
+	text "Hiếm khi thấy ai"
+	line "đến đây."
 
-	para "Are you training"
-	line "on your own?"
+	para "Bạn đang tự huấn"
+	line "luyện à?"
 	done
 
 CooltrainerfMeganBeatenText:
-	text "Oh! You're really"
-	line "strong!"
+	text "Ôi! Bạn thực sự"
+	line "mạnh!"
 	done
 
 CooltrainerfMeganAfterBattleText:
-	text "I'm checking out"
-	line "pre- and post-"
-	cont "evolution #MON."
+	text "Tôi đang kiểm tra"
+	line "#MON trước và"
+	cont "sau khi tiến hóa."
 
-	para "Evolution really"
-	line "does make #MON"
-	cont "stronger."
+	para "Tiến hóa thực sự"
+	line "làm #MON"
+	cont "mạnh hơn."
 
-	para "But evolved forms"
-	line "also learn moves"
-	cont "later on."
+	para "Nhưng dạng tiến"
+	line "hóa cũng học chiêu"
+	cont "muộn hơn."
 	done
 
 PsychicGilbertSeenText:
-	text "Don't say a thing!"
+	text "Đừng nói gì!"
 
-	para "Let me guess what"
-	line "you're thinking."
+	para "Để tôi đoán bạn"
+	line "đang nghĩ gì."
 
 	para "Mmmmmmm…"
 
-	para "I got it! You're"
-	line "on the #MON"
-	cont "LEAGUE challenge!"
+	para "Tôi biết rồi! Bạn"
+	line "đang thử thách"
+	cont "GIẢI ĐẤU #MON!"
 	done
 
 PsychicGilbertBeatenText:
-	text "You're too much!"
+	text "Bạn quá mạnh!"
 	done
 
 PsychicGilbertAfterBattleText:
-	text "With your skills,"
-	line "you'll do well at"
-	cont "the LEAGUE."
+	text "Với kỹ năng của"
+	line "bạn, bạn sẽ làm"
+	cont "tốt ở GIẢI ĐẤU."
 
-	para "That's what my"
-	line "premonition says."
+	para "Đó là điều linh"
+	line "cảm của tôi nói."
 	done
 
 BirdKeeperJose2SeenText:
@@ -451,18 +452,19 @@ BirdKeeperJose2BeatenText:
 	done
 
 BirdKeeperJose2AfterBattleText:
-	text "BIRD KEEPERS like"
-	line "me mimic bird"
+	text "Những người nuôi"
+	line "chim như tôi bắt"
 
-	para "whistles to com-"
-	line "mand #MON."
+	para "chước tiếng chim"
+	line "để điều khiển"
+	cont "#MON."
 	done
 
 TohjoFallsSignText:
-	text "TOHJO FALLS"
+	text "THÁC TOHJO"
 
-	para "THE LINK BETWEEN"
-	line "KANTO AND JOHTO"
+	para "LIÊN KẾT GIỮA"
+	line "KANTO VÀ JOHTO"
 	done
 
 Route27_MapEvents:

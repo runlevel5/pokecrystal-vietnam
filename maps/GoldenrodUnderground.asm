@@ -419,232 +419,235 @@ GoldenrodUndergroundHiddenAntidote:
 	hiddenitem ANTIDOTE, EVENT_GOLDENROD_UNDERGROUND_HIDDEN_ANTIDOTE
 
 SupernerdEricSeenText:
-	text "I got booted out"
-	line "of the GAME COR-"
-	cont "NER."
+	text "Tôi bị đuổi khỏi"
+	line "GÓC GIẢI TRÍ."
 
-	para "I was trying to"
-	line "cheat using my"
-	cont "#MON…"
+	para "Tôi đang cố gắng"
+	line "gian lận bằng"
+	cont "#MON của tôi…"
 	done
 
 SupernerdEricBeatenText:
-	text "…Grumble…"
+	text "…Cáu giận…"
 	done
 
 SupernerdEricAfterBattleText:
-	text "I guess I have to"
-	line "do things fair and"
-	cont "square…"
+	text "Hình như tôi phải"
+	line "làm việc công"
+	cont "bằng thôi…"
 	done
 
 SupernerdTeruSeenText:
-	text "Do you consider"
-	line "type alignments in"
-	cont "battle?"
+	text "Bạn có xem xét"
+	line "hệ thuộc tính"
+	cont "trong trận đấu?"
 
-	para "If you know your"
-	line "type advantages,"
+	para "Nếu bạn biết lợi"
+	line "thế thuộc tính,"
 
-	para "you'll do better"
-	line "in battle."
+	para "bạn sẽ chiến đấu"
+	line "tốt hơn."
 	done
 
 SupernerdTeruBeatenText:
-	text "Ow, ow, ow!"
+	text "Au, au, au!"
 	done
 
 SupernerdTeruAfterBattleText:
-	text "I know my #MON"
-	line "type alignments."
+	text "Tôi biết thuộc"
+	line "tính #MON của"
+	cont "tôi."
 
-	para "But I only use one"
-	line "type of #MON."
-	done
-
-PokemaniacIssacSeenText:
-	text "My #MON just"
-	line "got a haircut!"
-
-	para "I'll show you how"
-	line "strong it is!"
-	done
-
-PokemaniacIssacBeatenText:
-	text "Aiyeeee!"
-	done
-
-PokemaniacIssacAfterBattleText:
-	text "Your #MON will"
-	line "like you more if"
-
-	para "you give them"
-	line "haircuts."
-	done
-
-PokemaniacDonaldSeenText:
-	text "I think you have"
-	line "some rare #MON"
-	cont "with you."
-
-	para "Let me see them!"
-	done
-
-PokemaniacDonaldBeatenText:
-	text "Gaah! I lost!"
-	line "That makes me mad!"
-	done
-
-PokemaniacDonaldAfterBattleText:
-	text "Are you making a"
-	line "#DEX? Here's a"
-	cont "hot tip."
-
-	para "The HIKER on ROUTE"
-	line "33, ANTHONY, is a"
-	cont "good guy."
-
-	para "He'll phone you if"
-	line "he sees any rare"
+	para "Nhưng tôi chỉ"
+	line "dùng một loại"
 	cont "#MON."
 	done
 
+PokemaniacIssacSeenText:
+	text "#MON của tôi"
+	line "vừa cắt tóc!"
+
+	para "Tôi sẽ chỉ cho"
+	line "bạn nó mạnh thế"
+	cont "nào!"
+	done
+
+PokemaniacIssacBeatenText:
+	text "Aiiê!"
+	done
+
+PokemaniacIssacAfterBattleText:
+	text "#MON sẽ thích"
+	line "bạn hơn nếu bạn"
+
+	para "cho chúng cắt"
+	line "tóc."
+	done
+
+PokemaniacDonaldSeenText:
+	text "Tôi nghĩ bạn có"
+	line "vài #MON hiếm."
+
+	para "Cho tôi xem"
+	line "chúng!"
+	done
+
+PokemaniacDonaldBeatenText:
+	text "Gaa! Tôi thua!"
+	line "Điều đó làm tôi"
+	cont "tức giận!"
+	done
+
+PokemaniacDonaldAfterBattleText:
+	text "Bạn đang làm"
+	line "#DEX? Đây là"
+	cont "mẹo hay."
+
+	para "HIKER trên TUYẾN"
+	line "ĐƯỜNG 33, ANTHONY,"
+	cont "là người tốt."
+
+	para "Anh ta sẽ gọi bạn"
+	line "nếu thấy #MON"
+	cont "hiếm."
+	done
+
 GoldenrodUndergroundTheDoorsLockedText:
-	text "The door's locked…"
+	text "Cửa bị khóa…"
 	done
 
 GoldenrodUndergroundTheDoorIsOpenText:
-	text "The door is open."
+	text "Cửa đang mở."
 	done
 
 GoldenrodUndergroundBasementKeyOpenedDoorText:
-	text "The BASEMENT KEY"
-	line "opened the door."
+	text "CH.KHÓA TẦNG đã"
+	line "mở cửa."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOfferHaircutText:
-	text "Welcome!"
+	text "Chào mừng!"
 
-	para "I run the #MON"
-	line "SALON!"
+	para "Tôi điều hành"
+	line "#MON SALON!"
 
-	para "I'm the older and"
-	line "better of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Tôi là anh cả và"
+	line "giỏi hơn trong"
+	cont "hai ANH EM CẮT"
+	cont "TÓC."
 
-	para "I can make your"
-	line "#MON beautiful"
-	cont "for just ¥500."
+	para "Tôi có thể làm"
+	line "#MON của bạn"
+	cont "đẹp chỉ ¥500."
 
-	para "Would you like me"
-	line "to do that?"
+	para "Bạn có muốn tôi"
+	line "làm không?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAskWhichMonText:
-	text "Which #MON"
-	line "should I work on?"
+	text "Con #MON nào"
+	line "tôi nên làm?"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherWatchItBecomeBeautifulText:
-	text "OK! Watch it"
-	line "become beautiful!"
+	text "OK! Xem nó trở"
+	line "nên đẹp đẽ!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherAllDoneText:
-	text "There! All done!"
+	text "Xong rồi!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherThatsAShameText:
-	text "Is that right?"
-	line "That's a shame!"
+	text "Đúng không?"
+	line "Thật tiếc!"
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherYoullNeedMoreMoneyText:
-	text "You'll need more"
-	line "money than that."
+	text "Bạn cần nhiều"
+	line "tiền hơn thế."
 	done
 
 GoldenrodUndergroundOlderHaircutBrotherOneHaircutADayText:
-	text "I do only one"
-	line "haircut a day. I'm"
-	cont "done for today."
+	text "Tôi chỉ cắt một"
+	line "lần mỗi ngày. Hôm"
+	cont "nay xong rồi."
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOfferHaircutText:
-	text "Welcome to the"
+	text "Chào mừng đến"
 	line "#MON SALON!"
 
-	para "I'm the younger"
-	line "and less expen-"
-	cont "sive of the two"
-	cont "HAIRCUT BROTHERS."
+	para "Tôi là em út và"
+	line "rẻ hơn trong hai"
+	cont "ANH EM CẮT TÓC."
 
-	para "I'll spiff up your"
-	line "#MON for just"
-	cont "¥300."
+	para "Tôi sẽ làm đẹp"
+	line "#MON của bạn"
+	cont "chỉ với ¥300."
 
-	para "So? How about it?"
+	para "Thế nào? Bạn có"
+	line "muốn không?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAskWhichMonText:
-	text "OK, which #MON"
-	line "should I do?"
+	text "OK, con #MON"
+	line "nào tôi nên làm?"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherIllMakeItLookCoolText:
-	text "OK! I'll make it"
-	line "look cool!"
+	text "OK! Tôi sẽ làm"
+	line "nó trông ngầu!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherAllDoneText:
-	text "There we go!"
-	line "All done!"
+	text "Xong rồi đây!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherHowDisappointingText:
-	text "No? "
-	line "How disappointing!"
+	text "Không?"
+	line "Thất vọng quá!"
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherShortOnFundsText:
-	text "You're a little"
-	line "short on funds."
+	text "Bạn hơi thiếu"
+	line "tiền."
 	done
 
 GoldenrodUndergroundYoungerHaircutBrotherOneHaircutADayText:
-	text "I can do only one"
-	line "haircut a day."
+	text "Tôi chỉ cắt một"
+	line "lần mỗi ngày."
 
-	para "Sorry, but I'm all"
-	line "done for today."
+	para "Xin lỗi, hôm nay"
+	line "tôi xong rồi."
 	done
 
 HaircutBrosText_SlightlyHappier:
 	text_ram wStringBuffer3
-	text " looks a"
-	line "little happier."
+	text " trông"
+	line "vui hơn chút."
 	done
 
 HaircutBrosText_Happier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "happy."
+	text " trông"
+	line "vui."
 	done
 
 HaircutBrosText_MuchHappier:
 	text_ram wStringBuffer3
-	text " looks"
-	line "delighted!"
+	text " trông"
+	line "rất vui!"
 	done
 
 GoldenrodUndergroundWeAreNotOpenTodayText:
-	text "We're not open"
-	line "today."
+	text "Hôm nay chúng tôi"
+	line "không mở cửa."
 	done
 
 GoldenrodUndergroundNoEntryText:
-	text "NO ENTRY BEYOND"
-	line "THIS POINT"
+	text "KHÔNG ĐƯỢC VÀO"
+	line "KHU VỰC NÀY"
 	done
 
 GoldenrodUnderground_MapEvents:

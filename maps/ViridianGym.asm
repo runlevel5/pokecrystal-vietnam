@@ -62,109 +62,111 @@ ViridianGymStatue:
 	jumpstd GymStatue2Script
 
 LeaderBlueBeforeText:
-	text "BLUE: Yo! Finally"
-	line "got here, huh?"
+	text "BLUE: Yo! Cuối"
+	line "cùng cũng tới hả?"
 
-	para "I wasn't in the"
-	line "mood at CINNABAR,"
+	para "Tao không có hứng"
+	line "ở CINNABAR,"
 
-	para "but now I'm ready"
-	line "to battle you."
+	para "nhưng giờ tao sẵn"
+	line "sàng đấu với mày."
 
 	para "…"
 
-	para "You're telling me"
-	line "you conquered all"
-	cont "the GYMS in JOHTO?"
+	para "Mày bảo tao rằng"
+	line "mày chinh phục"
+	cont "hết GYM ở JOHTO?"
 
-	para "Heh! JOHTO's GYMS"
-	line "must be pretty"
-	cont "pathetic then."
+	para "Heh! GYM của"
+	line "JOHTO chắc yếu"
+	cont "lắm nhỉ."
 
-	para "Hey, don't worry"
-	line "about it."
+	para "Này, đừng lo về"
+	line "điều đó."
 
-	para "I'll know if you"
-	line "are good or not by"
+	para "Tao sẽ biết mày"
+	line "giỏi hay không"
 
-	para "battling you right"
-	line "now."
+	para "bằng cách đấu với"
+	line "mày ngay bây giờ."
 
-	para "Ready, JOHTO"
-	line "CHAMP?"
+	para "Sẵn sàng chưa,"
+	line "V.ĐỊCH JOHTO?"
 	done
 
 LeaderBlueWinText:
-	text "BLUE: What?"
+	text "BLUE: Cái gì?"
 
-	para "How the heck did I"
-	line "lose to you?"
+	para "Sao tao lại thua"
+	line "mày được chứ?"
 
 	para "…"
 
-	para "Tch, all right…"
-	line "Here, take this--"
-	cont "it's EARTHBADGE."
+	para "Tch, được rồi…"
+	line "Đây, cầm lấy cái"
+	cont "này--EARTHBADGE."
 	done
 
 Text_ReceivedEarthBadge:
-	text "<PLAYER> received"
+	text "<PLAYER> nhận được"
 	line "EARTHBADGE."
 	done
 
 LeaderBlueAfterText:
 	text "BLUE: …"
 
-	para "All right, I was"
-	line "wrong. You're the"
+	para "Được rồi, tao đã"
+	line "sai. Mày là thật."
 
-	para "real deal. You are"
-	line "a good trainer."
+	para "Mày là một HLV"
+	line "giỏi đấy."
 
-	para "But I'm going to"
-	line "beat you someday."
+	para "Nhưng tao sẽ"
+	line "thắng mày một"
+	cont "ngày nào đó."
 
-	para "Don't you forget"
-	line "it!"
+	para "Đừng có quên"
+	line "điều đó!"
 	done
 
 LeaderBlueEpilogueText:
-	text "BLUE: Listen, you."
+	text "BLUE: Nghe đây."
 
-	para "You'd better not"
-	line "lose until I beat"
-	cont "you. Got it?"
+	para "Mày không được"
+	line "thua cho đến khi"
+	cont "tao thắng mày."
+	cont "Hiểu chưa?"
 	done
 
 ViridianGymGuideText:
-	text "Yo, CHAMP in"
-	line "making!"
+	text "Yo, V.ĐỊCH"
+	line "tương lai!"
 
-	para "How's it going?"
-	line "Looks like you're"
-	cont "on a roll."
+	para "Mọi thứ ổn chứ?"
+	line "Có vẻ bạn đang"
+	cont "thắng liên tục."
 
-	para "The GYM LEADER is"
-	line "a guy who battled"
+	para "T.LĨNH GYM là một"
+	line "người đã đấu với"
 
-	para "the CHAMPION three"
-	line "years ago."
+	para "V.ĐỊCH cách đây"
+	line "ba năm."
 
-	para "He's no pushover."
+	para "Ông ấy không yếu."
 
-	para "Give it everything"
-	line "you've got!"
+	para "Hãy cố gắng hết"
+	line "sức nhé!"
 	done
 
 ViridianGymGuideWinText:
-	text "Man, you are truly"
-	line "tough…"
+	text "Ôi, bạn thật sự"
+	line "quá mạnh…"
 
-	para "That was a heck of"
-	line "an inspirational"
+	para "Đó là một trận"
+	line "đấu đầy cảm hứng"
 
-	para "battle. It brought"
-	line "tears to my eyes."
+	para "Nó khiến tôi rơi"
+	line "nước mắt luôn."
 	done
 
 ViridianGym_MapEvents:

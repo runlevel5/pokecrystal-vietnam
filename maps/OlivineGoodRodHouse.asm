@@ -39,44 +39,44 @@ GoodRodHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 OfferGoodRodText:
-	text "OLIVINE is on the"
-	line "sea!"
+	text "OLIVINE ở bên"
+	line "biển!"
 
-	para "And if it's on the"
-	line "sea, there are"
-	cont "bound to be fish!"
+	para "Và nếu ở bên biển"
+	line "thì chắc chắn có"
+	cont "cá!"
 
-	para "I've fished here"
-	line "for 30 years."
+	para "Tôi câu ở đây 30"
+	line "năm rồi."
 
-	para "Would you like to"
-	line "face the sea and"
-	cont "fish?"
+	para "Bạn có muốn đối"
+	line "mặt với biển và"
+	cont "câu cá không?"
 	done
 
 GiveGoodRodText:
-	text "Ah, hahah!"
-	line "We have ourselves"
-	cont "a new angler!"
+	text "Á, hahah!"
+	line "Chúng ta có thợ"
+	cont "câu mới rồi!"
 	done
 
 GaveGoodRodText:
-	text "Fish aren't found"
-	line "in the sea alone."
+	text "Cá không chỉ có"
+	line "trong biển."
 
-	para "They go wherever"
-	line "there is water."
+	para "Chúng đi đến mọi"
+	line "nơi có nước."
 	done
 
 DontWantGoodRodText:
-	text "Whaaat? You don't"
-	line "like to fish!?"
-	cont "Incomprehensible!"
+	text "Giiiì? Bạn không"
+	line "thích câu cá!?"
+	cont "Không hiểu nổi!"
 	done
 
 HaveGoodRodText:
-	text "How are things?"
-	line "Land the big one?"
+	text "Thế nào?"
+	line "Bắt được con to?"
 	done
 
 OlivineGoodRodHouse_MapEvents:

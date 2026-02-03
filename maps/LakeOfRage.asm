@@ -243,71 +243,66 @@ LakeOfRageLanceTeleportIntoSkyMovement:
 	step_end
 
 LakeOfRageLanceForcedToEvolveText:
-	text "This lake is full"
-	line "of GYARADOS but"
-	cont "nothing else…"
+	text "Hồ này toàn"
+	line "GYARADOS mà không"
+	cont "có gì khác…"
 
-	para "So the MAGIKARP"
-	line "are being forced"
-	cont "to evolve…"
+	para "Vậy là MAGIKARP"
+	line "đang bị ép phải"
+	cont "tiến hóa…"
 	done
 
 LakeOfRageLanceIntroText:
-	text "Did you come here"
-	line "because of the"
-	cont "rumors?"
+	text "Con đến đây vì"
+	line "nghe tin đồn à?"
 
-	para "You're <PLAYER>?"
-	line "I'm LANCE, a"
-	cont "trainer like you."
+	para "Con là <PLAYER>?"
+	line "Ta là LANCE, một"
+	cont "HLV như con."
 
-	para "I heard some ru-"
-	line "mors, so I came to"
-	cont "investigate…"
+	para "Ta nghe vài tin"
+	line "đồn, nên đến đây"
+	cont "điều tra…"
 
-	para "I saw the way you"
-	line "battled earlier,"
-	cont "<PLAY_G>."
+	para "Ta thấy cách con"
+	line "chiến đấu lúc"
+	cont "trước, <PLAY_G>."
 
-	para "I can tell that"
-	line "you're a trainer"
+	para "Ta thấy con là"
+	line "một HLV có tài"
+	cont "năng đáng kể."
 
-	para "with considerable"
-	line "skill."
+	para "Nếu con không"
+	line "ngại, con có thể"
 
-	para "If you don't mind,"
-	line "could you help me"
-	cont "investigate?"
+	para "giúp ta điều tra"
+	line "không?"
 	done
 
 LakeOfRageLanceRadioSignalText:
-	text "LANCE: Excellent!"
+	text "LANCE: Tuyệt vời!"
 
-	para "It seems that the"
-	line "LAKE's MAGIKARP"
+	para "Hình như MAGIKARP"
+	line "ở hồ đang bị ép"
+	cont "phải tiến hóa."
 
-	para "are being forced"
-	line "to evolve."
+	para "Một tín hiệu radio"
+	line "bí ẩn từ MAHOGANY"
+	cont "là nguyên nhân."
 
-	para "A mysterious radio"
-	line "broadcast coming"
-
-	para "from MAHOGANY is"
-	line "the cause."
-
-	para "I'll be waiting"
-	line "for you, <PLAY_G>."
+	para "Ta sẽ đợi con ở"
+	line "đó, <PLAY_G>."
 	done
 
 LakeOfRageLanceRefusedText:
-	text "Oh… Well, if you"
-	line "change your mind,"
-	cont "please help me."
+	text "Ồ… Nếu con đổi"
+	line "ý, hãy giúp ta"
+	cont "nhé."
 	done
 
 LakeOfRageLanceAskHelpText:
-	text "LANCE: Hm? Are you"
-	line "going to help me?"
+	text "LANCE: Hm? Con sẽ"
+	line "giúp ta chứ?"
 	done
 
 LakeOfRageGyaradosCryText:
@@ -315,180 +310,178 @@ LakeOfRageGyaradosCryText:
 	done
 
 LakeOfRageGotRedScaleText:
-	text "<PLAYER> obtained a"
-	line "RED SCALE."
+	text "<PLAYER> nhận được"
+	line "VẢY ĐỎ."
 	done
 
 LakeOfRageGrampsText:
-	text "The GYARADOS are"
-	line "angry!"
+	text "Bầy GYARADOS đang"
+	line "giận dữ!"
 
-	para "It's a bad omen!"
+	para "Đây là điềm xấu!"
 	done
 
 LakeOfRageGrampsText_ClearedRocketHideout:
-	text "Hahah! The MAGI-"
-	line "KARP are biting!"
+	text "Hahah! MAGIKARP"
+	line "cắn câu rồi!"
 	done
 
 LakeOfRageSuperNerdText:
-	text "I heard this lake"
-	line "was made by ram-"
-	cont "paging GYARADOS."
+	text "Tôi nghe hồ này"
+	line "được tạo ra bởi"
+	cont "bầy GYARADOS."
 
-	para "I wonder if there"
-	line "is any connection"
+	para "Không biết có liên"
+	line "quan gì đến vụ"
 
-	para "to their mass out-"
-	line "break now?"
+	para "bùng phát số lượng"
+	line "hiện tại không?"
 	done
 
 LakeOfRageCooltrainerFText:
-	text "Did my eyes de-"
-	line "ceive me? I saw a"
+	text "Mắt tôi có bị hoa"
+	line "không? Tôi thấy"
 
-	para "red GYARADOS in"
-	line "the LAKE…"
+	para "một GYARADOS ĐỎ"
+	line "trong hồ…"
 
-	para "But I thought"
-	line "GYARADOS were"
-	cont "usually blue?"
+	para "Nhưng tôi nghĩ"
+	line "GYARADOS thường"
+	cont "màu xanh mà?"
 	done
 
 FisherAndreSeenText:
-	text "Let me battle with"
-	line "the #MON I just"
-	cont "caught!"
+	text "Để tôi đấu với"
+	line "#MON tôi vừa"
+	cont "bắt được!"
 	done
 
 FisherAndreBeatenText:
-	text "I might be an ex-"
-	line "pert angler, but"
+	text "Tôi có thể là tay"
+	line "câu chuyên nghiệp,"
 
-	para "I stink as a #-"
-	line "MON trainer…"
+	para "nhưng huấn luyện"
+	line "#MON thì tệ…"
 	done
 
 FisherAndreAfterBattleText:
-	text "I won't lose as an"
-	line "angler! I catch"
-	cont "#MON all day."
+	text "Câu cá thì tôi"
+	line "không thua ai!"
+
+	para "Tôi câu #MON"
+	line "suốt ngày."
 	done
 
 FisherRaymondSeenText:
-	text "No matter what I"
-	line "do, all I catch"
+	text "Dù tôi làm gì, tôi"
+	line "cũng chỉ bắt được"
 
-	para "are the same #-"
-	line "MON…"
+	para "toàn cùng một loại"
+	line "#MON…"
 	done
 
 FisherRaymondBeatenText:
-	text "My line's all"
-	line "tangled up…"
+	text "Dây câu của tôi"
+	line "rối hết rồi…"
 	done
 
 FisherRaymondAfterBattleText:
-	text "Why can't I catch"
-	line "any good #MON?"
+	text "Sao tôi không câu"
+	line "được #MON tốt?"
 	done
 
 CooltrainermAaronSeenText:
-	text "If a trainer spots"
-	line "another trainer,"
+	text "Nếu một HLV thấy"
+	line "HLV khác, anh ta"
 
-	para "he has to make a"
-	line "challenge."
-
-	para "That is our"
-	line "destiny."
+	para "phải thách đấu."
+	line "Đó là định mệnh"
+	cont "của chúng tôi."
 	done
 
 CooltrainermAaronBeatenText:
-	text "Whew…"
-	line "Good battle."
+	text "Phù…"
+	line "Trận đấu hay."
 	done
 
 CooltrainermAaronAfterBattleText:
-	text "#MON and their"
-	line "trainer become"
+	text "#MON và HLV"
+	line "trở nên mạnh mẽ"
 
-	para "powerful through"
-	line "constant battling."
+	para "qua việc chiến"
+	line "đấu liên tục."
 	done
 
 CooltrainerfLoisSeenText:
-	text "What happened to"
-	line "the red GYARADOS?"
+	text "Chuyện gì xảy ra"
+	line "với GYARADOS ĐỎ?"
 
-	para "It's gone?"
+	para "Nó biến mất rồi?"
 
-	para "Oh, darn. I came"
-	line "here for nothing?"
+	para "Chán thật. Tôi"
+	line "đến đây vô ích à?"
 
-	para "I know--let's"
-	line "battle!"
+	para "Được rồi--hãy"
+	line "đấu đi!"
 	done
 
 CooltrainerfLoisBeatenText:
-	text "Good going!"
+	text "Giỏi lắm!"
 	done
 
 CooltrainerfLoisAfterBattleText:
-	text "Come to think of"
-	line "it, I've seen a"
-	cont "pink BUTTERFREE."
+	text "Nghĩ lại, tôi từng"
+	line "thấy BUTTERFREE"
+	cont "màu hồng."
 	done
 
 MeetWesleyText:
-	text "WESLEY: Well, how"
-	line "do you do?"
+	text "WESLEY: Xin chào,"
+	line "bạn khỏe không?"
 
-	para "Seeing as how it's"
-	line "Wednesday today,"
-
-	para "I'm WESLEY of"
-	line "Wednesday."
+	para "Vì hôm nay là Thứ"
+	line "Tư, tôi là WESLEY"
+	cont "của Thứ Tư."
 	done
 
 WesleyGivesGiftText:
-	text "Pleased to meet"
-	line "you. Please take a"
-	cont "souvenir."
+	text "Rất vui được gặp"
+	line "bạn. Hãy nhận món"
+	cont "quà lưu niệm này."
 	done
 
 WesleyGaveGiftText:
 	text "WESLEY: BLACKBELT"
-	line "beefs up the power"
-	cont "of fighting moves."
+	line "tăng sức mạnh của"
+	cont "chiêu VÕ THUẬT."
 	done
 
 WesleyWednesdayText:
-	text "WESLEY: Since you"
-	line "found me, you must"
+	text "WESLEY: Vì bạn tìm"
+	line "được tôi, chắc bạn"
 
-	para "have met my broth-"
-	line "ers and sisters."
+	para "đã gặp anh chị em"
+	line "của tôi rồi."
 
-	para "Or did you just"
-	line "get lucky?"
+	para "Hay bạn chỉ may"
+	line "mắn thôi?"
 	done
 
 WesleyNotWednesdayText:
-	text "WESLEY: Today's"
-	line "not Wednesday."
-	cont "That's too bad."
+	text "WESLEY: Hôm nay"
+	line "không phải Thứ Tư."
+	cont "Thật đáng tiếc."
 	done
 
 LakeOfRageSignText:
-	text "LAKE OF RAGE,"
-	line "also known as"
-	cont "GYARADOS LAKE."
+	text "HỒ GYARADOS, cũng"
+	line "gọi là HỒ CỦA"
+	cont "SỰ GIẬN DỮ."
 	done
 
 FishingGurusHouseSignText:
-	text "FISHING GURU'S"
-	line "HOUSE"
+	text "NHÀ CAO THỦ"
+	line "CÂU CÁ"
 	done
 
 LakeOfRage_MapEvents:

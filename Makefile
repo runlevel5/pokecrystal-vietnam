@@ -70,7 +70,8 @@ RGBGFXFLAGS  ?= -Weverything
 	clean \
 	tidy \
 	compare \
-	tools
+	tools \
+	check-text
 
 all: crystal
 crystal:         pokecrystal.gbc
@@ -79,6 +80,9 @@ crystal_au:      pokecrystal_au.gbc
 crystal_debug:   pokecrystal_debug.gbc
 crystal11_debug: pokecrystal11_debug.gbc
 crystal11_vc:    pokecrystal11.patch
+
+check-text:
+	python3 tools/check_text_length.py
 
 clean: tidy
 	find gfx \

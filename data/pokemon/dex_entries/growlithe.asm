@@ -1,10 +1,10 @@
-	db "PUPPY@" ; species name
-	dw 204, 420 ; height, weight
+	db "CHÓ CON@" ; species name
+	dw 7, 190 ; height, weight
 
-	db   "It controls a big"
-	next "territory. If it"
-	next "detects an unknown"
+	db   "Nó kiểm soát lãnh"
+	next "thổ rộng lớn. Nếu"
+	next "phát hiện mùi lạ,"
 
-	page "smell, it roars"
-	next "loudly to force"
-	next "out the intruder.@"
+	page "nó gầm lớn để"
+	next "xua đuổi"
+	next "kẻ xâm nhập.@"

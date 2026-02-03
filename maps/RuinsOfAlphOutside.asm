@@ -148,68 +148,69 @@ RuinsOfAlphOutsidePlayerEnterLabMovement:
 	step_end
 
 RuinsOfAlphOutsideScientistText:
-	text "Hm? That's a #-"
-	line "DEX, isn't it?"
-	cont "May I see it?"
+	text "Hm? Đó là #-"
+	line "DEX phải không?"
+	cont "Xem được không?"
 
-	para "There are so many"
-	line "kinds of #MON."
+	para "Có rất nhiều"
+	line "loại #MON."
 
-	para "Hm? What's this?"
+	para "Hm? Cái này là"
+	line "gì?"
 
-	para "What is this"
-	line "#MON?"
+	para "#MON này là"
+	line "gì?"
 
-	para "It looks like the"
-	line "strange writing on"
+	para "Nó trông giống"
+	line "chữ lạ trên"
 
-	para "the walls of the"
-	line "RUINS."
+	para "tường của TÀN"
+	line "TÍCH."
 
-	para "If those drawings"
-	line "are really #-"
-	cont "MON, there should"
-	cont "be many more."
+	para "Nếu các bức vẽ"
+	line "đó thực sự là"
+	cont "#MON, sẽ có"
+	cont "nhiều hơn nữa."
 
-	para "I know! Let me up-"
-	line "grade your #-"
-	cont "DEX. Follow me."
+	para "Tôi biết rồi! Để"
+	line "tôi nâng cấp"
+	cont "#DEX. Theo tôi."
 	done
 
 SuperNerdStanSeenText:
-	text "What do you want?"
-	line "I'm studying--"
-	cont "don't disturb me!"
+	text "Bạn muốn gì?"
+	line "Tôi đang nghiên"
+	cont "cứu--đừng quấy!"
 	done
 
 SuperNerdStanBeatenText:
-	text "Sorry…"
-	line "I'm frustrated by"
+	text "Xin lỗi…"
+	line "Tôi thất vọng vì"
 
-	para "our lack of real"
-	line "understanding…"
+	para "thiếu sự hiểu"
+	line "biết thực sự…"
 	done
 
 SuperNerdStanAfterBattleText:
-	text "The RUINS are from"
-	line "about 1500 years"
-	cont "ago."
+	text "TÀN TÍCH có từ"
+	line "khoảng 1500 năm"
+	cont "trước."
 
-	para "Nobody knows who"
-	line "built them."
+	para "Không ai biết ai"
+	line "đã xây chúng."
 
-	para "It's also not"
-	line "known if the #-"
-	cont "MON statues have"
-	cont "any meaning."
+	para "Cũng không biết"
+	line "liệu các tượng"
+	cont "#MON có ý nghĩa"
+	cont "gì không."
 
-	para "It's all one big"
-	line "mystery…"
+	para "Tất cả đều là một"
+	line "bí ẩn lớn…"
 	done
 
 PsychicNathanSeenText:
-	text "Hmmm… This is a"
-	line "strange place."
+	text "Hmmm… Đây là nơi"
+	line "kỳ lạ."
 	done
 
 PsychicNathanBeatenText:
@@ -217,65 +218,65 @@ PsychicNathanBeatenText:
 	done
 
 PsychicNathanAfterBattleText:
-	text "I like thinking"
-	line "here."
+	text "Tôi thích suy"
+	line "nghĩ ở đây."
 	done
 
 RuinsOfAlphOutsideMysteryChamberSignText:
-	text "MYSTERY STONE"
-	line "PANEL CHAMBER"
+	text "PHÒNG TẤM ĐÁ"
+	line "BÍ ẨN"
 	done
 
 RuinsOfAlphSignText:
-	text "RUINS OF ALPH"
-	line "VISITORS WELCOME"
+	text "TÀN TÍCH ALPH"
+	line "HÂN HOAN ĐÓN KHÁCH"
 	done
 
 RuinsOfAlphResearchCenterSignText:
-	text "RUINS OF ALPH"
-	line "RESEARCH CENTER"
+	text "TT NGHIÊN CỨU"
+	line "TÀN TÍCH ALPH"
 
-	para "THE AUTHORITY ON"
-	line "THE RUINS OF ALPH"
+	para "CƠ QUAN CHUYÊN"
+	line "MÔN VỀ TÀN TÍCH"
 	done
 
 RuinsOfAlphOutsideFisherText1:
-	text "While exploring"
-	line "the RUINS, we"
+	text "Khi đang khám phá"
+	line "TÀN TÍCH, chúng"
 
-	para "suddenly noticed"
-	line "an odd presence."
+	para "tôi đột nhiên nhận"
+	line "thấy hiện diện lạ."
 
-	para "We all got scared"
-	line "and ran away."
+	para "Tất cả sợ và chạy"
+	line "mất."
 
-	para "You should be"
-	line "careful too."
+	para "Bạn cũng nên cẩn"
+	line "thận."
 	done
 
 RuinsOfAlphOutsideFisherText2:
-	text "The RUINS hide a"
-	line "huge secret!"
+	text "TÀN TÍCH giấu một"
+	line "bí mật lớn!"
 
-	para "…I think…"
+	para "…Tôi nghĩ vậy…"
 	done
 
 RuinsOfAlphOutsideYoungster1Text:
-	text "There are many"
-	line "kinds of UNOWN, so"
+	text "Có nhiều loại"
+	line "UNOWN, nên chúng"
 
-	para "we use them for"
-	line "our secret codes."
+	para "tôi dùng chúng"
+	line "cho mật mã bí mật"
 	done
 
 RuinsOfAlphOutsideYoungster2Text:
 	text "A… H… E… A… D…"
 	line "Hmm…"
 
-	para "What?"
+	para "Gì?"
 
-	para "I'm decoding this"
-	line "message!"
+	para "Tôi đang giải mã"
+	line "tin nhắn này!"
 	done
 
 RuinsOfAlphOutside_MapEvents:

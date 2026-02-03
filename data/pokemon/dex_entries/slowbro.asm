@@ -1,10 +1,10 @@
-	db "HERMITCRAB@" ; species name
-	dw 503, 1730 ; height, weight
+	db "ỐC MƯỢN HỒN@" ; species name
+	dw 16, 785 ; height, weight
 
-	db   "An attached"
-	next "SHELLDER won't let"
-	next "go because of the"
+	db   "SHELLDER bám vào"
+	next "không buông vì"
+	next "hương vị thơm"
 
-	page "tasty flavor that"
-	next "oozes out of its"
-	next "tail.@"
+	page "ngon rỉ ra"
+	next "từ đuôi nó.@"
+	next "@"

@@ -1,10 +1,10 @@
-	db "FAIRY@" ; species name
-	dw 200, 170 ; height, weight
+	db "TIÊN@" ; species name
+	dw 6, 75 ; height, weight
 
-	db   "Though rarely"
-	next "seen, it becomes"
-	next "easier to spot,"
+	db   "Dù hiếm khi thấy,"
+	next "nó dễ phát hiện"
+	next "hơn vào đêm"
 
-	page "for some reason,"
-	next "on the night of a "
-	next "full moon.@"
+	page "trăng tròn vì"
+	next "lý do nào đó.@"
+	next "@"

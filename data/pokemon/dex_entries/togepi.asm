@@ -1,10 +1,10 @@
-	db "SPIKE BALL@" ; species name
-	dw 100, 30 ; height, weight
+	db "GAI TRÒN@" ; species name
+	dw 3, 15 ; height, weight
 
-	db   "It is considered"
-	next "to be a symbol of"
-	next "good luck. Its"
+	db   "Nó được xem là"
+	next "biểu tượng may"
+	next "mắn. Vỏ của nó"
 
-	page "shell is said to"
-	next "be filled with"
-	next "happiness.@"
+	page "được cho là chứa"
+	next "đầy hạnh phúc.@"
+	next "@"

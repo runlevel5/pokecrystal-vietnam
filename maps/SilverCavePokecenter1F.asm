@@ -14,17 +14,17 @@ SilverCavePokecenter1FGrannyScript:
 	jumptextfaceplayer SilverCavePokecenter1FGrannyText
 
 SilverCavePokecenter1FGrannyText:
-	text "Trainers who seek"
-	line "power climb MT."
+	text "Các HLV tìm kiếm"
+	line "sức mạnh leo NÚI"
 
-	para "SILVER despite its"
-	line "many dangers…"
+	para "BẠC bất chấp mọi"
+	line "nguy hiểm…"
 
-	para "With their trusted"
-	line "#MON, they must"
+	para "Với #MON tin"
+	line "cậy, họ cảm thấy"
 
-	para "feel they can go"
-	line "anywhere…"
+	para "có thể đi đến bất"
+	line "kỳ đâu…"
 	done
 
 SilverCavePokecenter1F_MapEvents:

@@ -1,10 +1,10 @@
-	db "MEGATON@" ; species name
-	dw 407, 6620 ; height, weight
+	db "SIÊU NẶNG@" ; species name
+	dw 14, 3000 ; height, weight
 
-	db   "Its rock-like body"
-	next "is so durable,"
-	next "even high-powered"
+	db   "Thân đá của nó"
+	next "bền đến mức ngay"
+	next "cả thuốc nổ mạnh"
 
-	page "dynamite blasts"
-	next "fail to scratch"
-	next "its rugged hide.@"
+	page "cũng không làm"
+	next "xước được lớp"
+	next "da sần sùi.@"

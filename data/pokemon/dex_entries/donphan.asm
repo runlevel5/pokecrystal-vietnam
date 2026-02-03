@@ -1,10 +1,10 @@
-	db "ARMOR@" ; species name
-	dw 307, 2650 ; height, weight
+	db "GIÁP@" ; species name
+	dw 11, 1200 ; height, weight
 
-	db   "Because this"
-	next "#MON's skin is"
-	next "so tough, a normal"
+	db   "Vì da #MON này"
+	next "quá cứng, một đòn"
+	next "tấn công bình"
 
-	page "attack won't even"
-	next "leave a scratch on"
-	next "it.@"
+	page "thường không để"
+	next "lại vết xước.@"
+	next "@"

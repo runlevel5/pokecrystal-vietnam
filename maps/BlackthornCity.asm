@@ -143,98 +143,96 @@ BlackthornCityMartSign:
 	jumpstd MartSignScript
 
 Text_ClairIsOut:
-	text "I am sorry."
+	text "Tôi xin lỗi."
 
-	para "CLAIR, our GYM"
-	line "LEADER, entered"
+	para "CLAIR, TRƯỞNG GYM"
+	line "của chúng tôi,"
 
-	para "the DRAGON'S DEN"
-	line "behind the GYM."
+	para "đã vào HANG RỒNG"
+	line "sau GYM rồi."
 
-	para "I have no idea"
-	line "when our LEADER"
-	cont "will return."
+	para "Tôi không biết"
+	line "khi nào TRƯỞNG"
+	cont "mới về."
 	done
 
 Text_ClairIsIn:
-	text "CLAIR, our GYM"
-	line "LEADER, is waiting"
-	cont "for you."
+	text "CLAIR, TRƯỞNG GYM"
+	line "đang đợi cậu."
 
-	para "However, it would"
-	line "be impossible for"
+	para "Nhưng mà, với một"
+	line "HLV tầm thường"
 
-	para "a run-of-the-mill"
-	line "trainer to win."
+	para "thì không thể"
+	line "thắng được đâu."
 	done
 
 Text_ClairIsBeaten:
-	text "You defeated"
-	line "CLAIR?"
+	text "Cậu thắng được"
+	line "CLAIR sao?"
 
-	para "That's amazing!"
+	para "Tuyệt vời quá!"
 
-	para "I've never heard"
-	line "of her losing to"
+	para "Tôi chưa nghe cô"
+	line "ấy thua ai khác"
 
-	para "anyone other than"
-	line "LANCE."
+	para "ngoài LANCE cả."
 	done
 
 BlackthornGrampsRefusesEntryText:
-	text "No. Only chosen"
-	line "trainers may train"
+	text "Không. Chỉ những"
+	line "HLV được chọn mới"
 
-	para "here."
-	line "Please leave."
+	para "được tập ở đây."
+	line "Xin hãy rời đi."
 	done
 
 BlackthornGrampsGrantsEntryText:
-	text "If CLAIR allows"
-	line "it, her grand-"
-	cont "father--our MASTER"
-	cont "--will also."
+	text "Nếu CLAIR cho"
+	line "phép, thì ông cô"
+	cont "ấy--SƯ PHỤ chúng"
+	cont "tôi--cũng vậy."
 
-	para "You may enter."
+	para "Cậu có thể vào."
 	done
 
 BlackBeltText_WeirdRadio:
-	text "My radio's busted?"
-	line "Lately, I only get"
-	cont "this weird signal."
+	text "Radio tôi hỏng à?"
+	line "Dạo này chỉ bắt"
+	cont "được tín hiệu lạ."
 	done
 
 BlackBeltText_VoicesInMyHead:
-	text "Arooo! Voices in"
-	line "my head!"
+	text "Arooo! Có tiếng"
+	line "trong đầu tôi!"
 
-	para "Huh? I'm listening"
-	line "to my radio!"
+	para "Hả? Tôi đang nghe"
+	line "radio mà!"
 	done
 
 BlackthornCooltrainerF1Text:
-	text "Are you going to"
-	line "make your #MON"
-	cont "forget some moves?"
+	text "Cậu định cho"
+	line "#MON quên bớt"
+	cont "chiêu thức à?"
 	done
 
 BlackthornYoungsterText:
-	text "Dragon masters all"
-	line "come from the city"
-	cont "of BLACKTHORN."
+	text "Bậc thầy Rồng đều"
+	line "đến từ thành phố"
+	cont "BLACKTHORN này."
 	done
 
 MeetSantosText:
 	text "SANTOS: …"
 
-	para "It's Saturday…"
+	para "Hôm nay Thứ Bảy…"
 
-	para "I'm SANTOS of"
-	line "Saturday…"
+	para "Tôi là SANTOS"
+	line "của Thứ Bảy…"
 	done
 
 SantosGivesGiftText:
-	text "You can have this…"
+	text "Cậu có thể có…"
 	done
 
 SantosGaveGiftText:
@@ -242,72 +240,71 @@ SantosGaveGiftText:
 
 	para "SPELL TAG…"
 
-	para "Ghost-type moves"
-	line "get stronger…"
+	para "Chiêu hệ Ma sẽ"
+	line "mạnh hơn…"
 
-	para "It will frighten"
-	line "you…"
+	para "Nó sẽ làm cậu"
+	line "sợ hãi…"
 	done
 
 SantosSaturdayText:
 	text "SANTOS: …"
 
-	para "See you again on"
-	line "another Saturday…"
+	para "Hẹn gặp lại vào"
+	line "Thứ Bảy khác…"
 
-	para "I won't have any"
-	line "more gifts…"
+	para "Tôi sẽ không còn"
+	line "quà nữa đâu…"
 	done
 
 SantosNotSaturdayText:
-	text "SANTOS: Today's"
-	line "not Saturday…"
+	text "SANTOS: Hôm nay"
+	line "không phải T.Bảy…"
 	done
 
 BlackthornCooltrainerF2Text:
-	text "Wow, you came"
-	line "through the ICE"
-	cont "PATH?"
+	text "Ồ, cậu đã đi qua"
+	line "ĐƯỜNG BĂNG sao?"
 
-	para "You must be a real"
-	line "hotshot trainer!"
+	para "Cậu đúng là HLV"
+	line "cừ khôi thật đấy!"
 	done
 
 BlackthornCitySignText:
 	text "BLACKTHORN CITY"
 
-	para "A Quiet Mountain"
-	line "Retreat"
+	para "Nơi Ẩn Dật Yên"
+	line "Tĩnh Trên Núi"
 	done
 
 BlackthornGymSignText:
 	text "BLACKTHORN CITY"
-	line "#MON GYM"
-	cont "LEADER: CLAIR"
+	line "GYM #MON"
+	cont "TRƯỞNG: CLAIR"
 
-	para "The Blessed User"
-	line "of Dragon #MON"
+	para "Người Sử Dụng"
+	line "#MON Rồng"
 	done
 
 MoveDeletersHouseSignText:
-	text "MOVE DELETER'S"
-	line "HOUSE"
+	text "NHÀ NGƯỜI XÓA"
+	line "CHIÊU THỨC"
 	done
 
 DragonDensSignText:
-	text "DRAGON'S DEN"
-	line "AHEAD"
+	text "HANG RỒNG"
+	line "PHÍA TRƯỚC"
 	done
 
 BlackthornCityTrainerTipsText:
-	text "TRAINER TIPS"
+	text "MẸO CHO HLV"
 
-	para "A #MON holding"
-	line "a MIRACLEBERRY"
+	para "#MON cầm"
+	line "THÁNH QUẢ"
 
-	para "will cure itself"
-	line "of any status"
-	cont "problem."
+	para "sẽ tự chữa mọi"
+	line "vấn đề trạng"
+	cont "thái."
 	done
 
 BlackthornCity_MapEvents:

@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
-	dw 311, 350 ; height, weight
+	db "LÁ@" ; species name
+	dw 12, 158 ; height, weight
 
-	db   "The scent that"
-	next "wafts from the"
-	next "leaves on its neck"
+	db   "Mùi hương tỏa ra"
+	next "từ lá trên cổ"
+	next "khiến bất cứ ai"
 
-	page "causes anyone who"
-	next "smells it to"
-	next "become energetic.@"
+	page "ngửi thấy đều"
+	next "tràn đầy"
+	next "năng lượng.@"

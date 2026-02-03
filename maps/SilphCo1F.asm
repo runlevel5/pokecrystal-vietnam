@@ -28,29 +28,30 @@ SilphCoOfficerScript:
 	end
 
 SilphCoReceptionistText:
-	text "Welcome. This is"
-	line "SILPH CO.'s HEAD"
-	cont "OFFICE BUILDING."
+	text "Chào mừng. Đây là"
+	line "TRỤ SỞ CHÍNH CỦA"
+	cont "SILPH CO."
 	done
 
 SilphCoOfficerText:
-	text "Only employees are"
-	line "permitted to go"
-	cont "upstairs."
+	text "Chỉ nhân viên mới"
+	line "được phép lên"
+	cont "tầng trên."
 
-	para "But since you came"
-	line "such a long way,"
+	para "Nhưng vì cậu đến"
+	line "từ xa thế,"
 
-	para "have this neat"
-	line "little souvenir."
+	para "hãy nhận món quà"
+	line "lưu niệm này."
 	done
 
 SilphCoOfficerText_GotUpGrade:
-	text "It's SILPH CO.'s"
-	line "latest product."
+	text "Đây là sản phẩm"
+	line "mới nhất của"
+	cont "SILPH CO."
 
-	para "It's not for sale"
-	line "anywhere yet."
+	para "Nó chưa bán ở"
+	line "đâu cả."
 	done
 
 SilphCo1F_MapEvents:

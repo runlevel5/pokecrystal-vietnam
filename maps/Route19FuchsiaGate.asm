@@ -23,24 +23,24 @@ Route19FuchsiaGateOfficerScript:
 	end
 
 Route19FuchsiaGateOfficerText:
-	text "CINNABAR's volcano"
-	line "erupted."
+	text "Núi lửa CINNABAR"
+	line "đã phun trào."
 
-	para "It hurled boulders"
-	line "that cut off ROUTE"
-	cont "19 indefinitely."
+	para "Nó phun đá tảng"
+	line "làm chặn TUYẾN"
+	cont "19 vô thời hạn."
 
-	para "I wonder if the"
-	line "people of CINNABAR"
-	cont "are safe…"
+	para "Không biết dân"
+	line "CINNABAR có"
+	cont "an toàn không…"
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
-	text "No CINNABAR citi-"
-	line "zens were injured"
+	text "Không dân nào của"
+	line "CINNABAR bị thương"
 
-	para "by the eruption."
-	line "That's great!"
+	para "vì vụ phun trào."
+	line "Tuyệt vời!"
 	done
 
 Route19FuchsiaGate_MapEvents:

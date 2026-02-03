@@ -1,62 +1,62 @@
 ArnieAnswerPhoneText:
-	text "Yeah, hello."
-	line "This is @"
+	text "Ừ, a lô."
+	line "Đây là @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Hả, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneDayText:
-	text "Yeah, hello, you"
-	line "got @"
+	text "Ừ, a lô, cậu gọi"
+	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Hả, <PLAY_G>? Yo!"
 	done
 
 ArnieAnswerPhoneNiteText:
-	text "Yeah, hello, you"
-	line "got @"
+	text "Ừ, a lô, cậu gọi"
+	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "…Huh, <PLAY_G>? Yo!"
+	para "…Hả, <PLAY_G>? Yo!"
 	done
 
 ArnieGreetText:
-	text "Yeah, hello?"
+	text "Ừ, a lô?"
 	line "@"
 	text_ram wStringBuffer3
-	text " calling."
+	text " gọi."
 
-	para "What are you up"
-	line "to, <PLAY_G>?"
+	para "Cậu đang làm gì,"
+	line "<PLAY_G>?"
 	done
 
 ArnieGreetDayText:
-	text "Yeah, hello?"
+	text "Ừ, a lô?"
 	line "@"
 	text_ram wStringBuffer3
-	text " calling."
+	text " gọi."
 
-	para "Where are you now,"
+	para "Cậu đang ở đâu,"
 	line "<PLAY_G>?"
 	done
 
 ArnieGreetNiteText:
-	text "Yeah, hello?"
+	text "Ừ, a lô?"
 	line "@"
 	text_ram wStringBuffer3
-	text " calling."
+	text " gọi."
 
-	para "Are you awake now,"
+	para "Cậu còn thức à,"
 	line "<PLAY_G>?"
 	done
 
 ArnieGenericText:
-	text "I bet your #MON"
-	line "are a lot stronger"
-	cont "than before."
+	text "Tớ cá #MON của"
+	line "cậu mạnh hơn nhiều"
+	cont "so với trước."
 	done

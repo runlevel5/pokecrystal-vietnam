@@ -21,17 +21,16 @@ ViridianMartCooltrainerMScript:
 	jumptextfaceplayer ViridianMartCooltrainerMText
 
 ViridianMartLassText:
-	text "The GYM LEADER"
-	line "here is totally"
-	cont "cool."
+	text "T.LĨNH GYM ở đây"
+	line "hoàn toàn ngầu."
 	done
 
 ViridianMartCooltrainerMText:
-	text "Have you been to"
-	line "CINNABAR?"
+	text "Bạn đã đến"
+	line "CINNABAR chưa?"
 
-	para "It's an island way"
-	line "south of here."
+	para "Đó là một hòn đảo"
+	line "ở xa phía nam."
 	done
 
 ViridianMart_MapEvents:

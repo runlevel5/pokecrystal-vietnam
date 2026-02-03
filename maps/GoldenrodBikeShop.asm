@@ -46,56 +46,56 @@ GoldenrodBikeShopBicycle:
 	jumptext GoldenrodBikeShopBicycleText
 
 GoldenrodBikeShopClerkIntroText:
-	text "…sigh… I moved"
-	line "here, but I can't"
+	text "…thở dài… Tôi dọn"
+	line "đến đây nhưng mà"
 
-	para "sell my BICYCLES."
-	line "Why is that?"
+	para "không bán được"
+	line "XE ĐẠP. Tại sao?"
 
-	para "Could you ride a"
-	line "BICYCLE and adver-"
-	cont "tise for me?"
+	para "Bạn có thể đạp xe"
+	line "và quảng cáo cho"
+	cont "tôi được không?"
 	done
 
 GoldenrodBikeShopClerkAgreedText:
-	text "Really? Great!"
+	text "Thật sao? Tuyệt!"
 
-	para "Give me your name"
-	line "and phone number,"
+	para "Cho tôi tên và số"
+	line "điện thoại của"
 
-	para "and I'll loan you"
-	line "a BICYCLE."
+	para "bạn, tôi sẽ cho"
+	line "bạn mượn XE ĐẠP."
 	done
 
 BorrowedABicycleText:
-	text "<PLAYER> borrowed a"
-	line "BICYCLE."
+	text "<PLAYER> mượn một"
+	line "chiếc XE ĐẠP."
 	done
 
 GoldenrodBikeShopClerkFirstRateBikesText:
-	text "My BICYCLES are"
-	line "first-rate! You"
+	text "XE ĐẠP của tôi là"
+	line "hàng đầu! Bạn có"
 
-	para "can ride them"
-	line "anywhere."
+	para "thể đạp đi mọi"
+	line "nơi."
 	done
 
 GoldenrodBikeShopClerkRefusedText:
-	text "…sigh… Oh, for"
-	line "the kindness of"
-	cont "people…"
+	text "…thở dài… Ôi, tấm"
+	line "lòng tốt của mọi"
+	cont "người đâu…"
 	done
 
 GoldenrodBikeShopJustReleasedCompactBikeText:
-	text "Just released!"
+	text "Vừa ra mắt!"
 
-	para "First-rate compact"
-	line "BICYCLES!"
+	para "XE ĐẠP gọn hàng"
+	line "đầu!"
 	done
 
 GoldenrodBikeShopBicycleText:
-	text "It's a shiny new"
-	line "BICYCLE!"
+	text "Một chiếc XE ĐẠP"
+	line "mới bóng!"
 	done
 
 GoldenrodBikeShop_MapEvents:

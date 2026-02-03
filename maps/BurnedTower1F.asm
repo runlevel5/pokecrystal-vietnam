@@ -160,119 +160,118 @@ BurnedTower1FEusineMovement:
 BurnedTowerRival_BeforeText:
 	text "<……> <……> <……>"
 
-	para "…Oh, it's you."
+	para "…À, là mày."
 
-	para "I came looking for"
-	line "some legendary"
+	para "Tao đến đây tìm"
+	line "#MON huyền"
 
-	para "#MON that they"
-	line "say roosts here."
+	para "thoại mà người ta"
+	line "nói trú ở đây."
 
-	para "But there's"
-	line "nothing here!"
+	para "Nhưng không có gì"
+	line "cả!"
 
-	para "Nothing after all"
-	line "the trouble of"
+	para "Chẳng có gì sau"
+	line "bao công đến cái"
 
-	para "coming to this"
-	line "dump? No way!"
+	para "chỗ hổng này?"
+	line "Thật vô lý!"
 
-	para "It's all your"
-	line "fault!"
+	para "Tất cả là do"
+	line "mày!"
 	done
 
 BurnedTowerRival_WinText:
-	text "…Humph!"
+	text "…Hừ!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Đây là lý do tao"
+	line "ghét đấu với kẻ"
 
-	para "There's no"
-	line "challenge in it."
+	para "yếu. Chả thách"
+	line "thức gì cả."
 	done
 
 BurnedTowerRival_AfterText1:
-	text "…Aw, whatever."
+	text "…Thôi kệ."
 
-	para "You would never be"
-	line "able to catch a"
+	para "Dù sao mày cũng"
+	line "không bao giờ bắt"
 
-	para "legendary #MON"
-	line "anyway."
+	para "được #MON huyền"
+	line "thoại đâu."
 	done
 
 BurnedTowerRival_LossText:
-	text "…Humph!"
+	text "…Hừ!"
 
-	para "This is why I hate"
-	line "battling wimps."
+	para "Đây là lý do tao"
+	line "ghét đấu với kẻ"
 
-	para "It's just a waste"
-	line "of my time."
+	para "yếu. Chỉ phí thời"
+	line "gian thôi."
 	done
 
 BurnedTowerRival_AfterText2:
-	text "Humph!"
+	text "Hừ!"
 
-	para "What are you doing"
-	line "falling into a"
+	para "Mày làm gì mà rơi"
+	line "xuống hố thế?"
 
-	para "hole? Some genius"
-	line "you are!"
+	para "Mày thật là thiên"
+	line "tài quá đấy!"
 
-	para "Serves you right!"
+	para "Đáng đời mày!"
 	done
 
 BurnedTower1FEusineIntroText:
-	text "EUSINE: My name's"
-	line "EUSINE."
+	text "EUSINE: Tôi tên"
+	line "là EUSINE."
 
-	para "I'm on the trail"
-	line "of a #MON named"
+	para "Tôi đang theo dấu"
+	line "một #MON tên"
 	cont "SUICUNE."
 
-	para "And you are…?"
+	para "Còn bạn là…?"
 
-	para "<PLAYER>? Glad to"
-	line "meet you!"
+	para "<PLAYER>? Rất vui"
+	line "được gặp bạn!"
 
-	para "I heard rumors"
-	line "that SUICUNE is in"
+	para "Tôi nghe đồn"
+	line "SUICUNE ở trong"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "THÁP CHÁY này,"
+	line "nên tôi đến xem."
 
-	para "But where exactly"
-	line "could it be?"
+	para "Nhưng nó ở đâu"
+	line "nhỉ?"
 	done
 
 BurnedTower1FEusineText:
-	text "EUSINE: I heard"
-	line "that SUICUNE is in"
+	text "EUSINE: Tôi nghe"
+	line "SUICUNE ở trong"
 
-	para "this BURNED TOWER,"
-	line "so I came to look."
+	para "THÁP CHÁY này,"
+	line "nên tôi đến xem."
 
-	para "But where exactly"
-	line "could it be?"
+	para "Nhưng nó ở đâu"
+	line "nhỉ?"
 	done
 
 BurnedTower1FMortyText:
-	text "MORTY: ECRUTEAK's"
-	line "GYM LEADER has to"
+	text "MORTY: T.LĨNH GYM"
+	line "ECRUTEAK phải"
 
-	para "study what are"
-	line "said to be the"
+	para "nghiên cứu các"
+	line "#MON truyền"
 
-	para "legendary #MON"
-	line "--SUICUNE, ENTEI"
-	cont "and RAIKOU."
+	para "thuyết--SUICUNE,"
+	line "ENTEI và RAIKOU."
 
-	para "EUSINE is here, so"
-	line "I've decided to"
+	para "EUSINE ở đây, nên"
+	line "ta quyết định"
 
-	para "investigate the"
-	line "TOWER with him."
+	para "điều tra THÁP"
+	line "cùng anh ấy."
 	done
 
 BurnedTower1F_MapEvents:

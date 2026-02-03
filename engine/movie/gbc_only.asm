@@ -124,9 +124,8 @@ DrawGBCOnlyGraphic:
 	ret
 
 GBCOnlyString:
-	db   "This Game Pak is"
-	next "designed only for"
-	next "use on the"
+	db   "Game Pak này chỉ"
+	next "dùng được trên"
 	next "Game Boy Color.@"
 
 GBCOnlyGFX:

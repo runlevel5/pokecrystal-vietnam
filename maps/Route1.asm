@@ -37,45 +37,45 @@ Route1FruitTree:
 	fruittree FRUITTREE_ROUTE_1
 
 SchoolboyDannySeenText:
-	text "If trainers meet,"
-	line "the first thing to"
-	cont "do is battle."
+	text "Nếu HLV gặp nhau,"
+	line "điều đầu tiên là"
+	cont "phải đối đầu."
 	done
 
 SchoolboyDannyBeatenText:
-	text "Awww… I've got a"
-	line "losing record…"
+	text "Ơ… tôi thua"
+	line "nhiều quá…"
 	done
 
 SchoolboyDannyAfterBattleText:
-	text "For trainers, it's"
-	line "a given that we'll"
+	text "Với các HLV, mỗi"
+	line "lần gặp nhau ta"
 
-	para "battle whenever we"
-	line "meet."
+	para "đều phải đấu với"
+	line "nhau."
 	done
 
 CooltrainerfQuinnSeenText:
-	text "You there!"
-	line "Want to battle?"
+	text "Này bạn!"
+	line "Muốn đấu không?"
 	done
 
 CooltrainerfQuinnBeatenText:
-	text "Down and out…"
+	text "Thua rồi…"
 	done
 
 CooltrainerfQuinnAfterBattleText:
-	text "You're strong."
+	text "Bạn mạnh đấy."
 
-	para "You obviously must"
-	line "have trained hard."
+	para "Hẳn là bạn đã rèn"
+	line "luyện rất nhiều."
 	done
 
 Route1SignText:
-	text "ROUTE 1"
+	text "TUYẾN ĐƯỜNG 1"
 
-	para "PALLET TOWN -"
-	line "VIRIDIAN CITY"
+	para "TRẤN PALLET -"
+	line "TP. VIRIDIAN"
 	done
 
 Route1_MapEvents:

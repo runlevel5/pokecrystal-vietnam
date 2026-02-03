@@ -1,44 +1,46 @@
 LizAskNumber1Text:
-	text "Oh? You're on a"
-	line "big journey to see"
-	cont "the sights? Neat!"
+	text "Ồ? Cậu đang trên"
+	line "chuyến hành trình"
+	cont "xem thế giới à?"
 
-	para "Let's be friends!"
-	line "Can I have your"
-	cont "phone number?"
+	para "Tuyệt!"
 
-	para "I want to hear"
-	line "about everything"
-	cont "you've seen!"
+	para "Làm bạn nhé!"
+	line "Cho tớ xin SĐT"
+	cont "được không?"
+
+	para "Tớ muốn nghe về"
+	line "mọi thứ cậu đã"
+	cont "thấy!"
 	done
 
 LizAskNumber2Text:
-	text "Let's be friends!"
-	line "Can I have your"
-	cont "phone number?"
+	text "Làm bạn nhé!"
+	line "Cho tớ xin SĐT"
+	cont "được không?"
 
-	para "I want to hear"
-	line "about everything"
-	cont "you've seen!"
+	para "Tớ muốn nghe về"
+	line "mọi thứ cậu đã"
+	cont "thấy!"
 	done
 
 LizNumberAcceptedText:
-	text "I'll telephone you"
-	line "if I hear anything"
-	cont "interesting."
+	text "Tớ sẽ gọi cậu nếu"
+	line "tớ nghe thấy điều"
+	cont "gì thú vị."
 	done
 
 LizNumberDeclinedText:
-	text "Aww… You won't be"
-	line "my friend?"
+	text "Aww… Cậu không"
+	line "làm bạn tớ à?"
 	done
 
 LizPhoneFullText:
-	text "Wait! Your phone"
-	line "list is filled up!"
+	text "Đợi đã! Điện thoại"
+	line "cậu đầy rồi!"
 	done
 
 LizRematchText:
-	text "You're late! Let's"
-	line "get started now!"
+	text "Cậu đến trễ! Bắt"
+	line "đầu thôi!"
 	done

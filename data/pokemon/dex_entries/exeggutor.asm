@@ -1,10 +1,10 @@
-	db "COCONUT@" ; species name
-	dw 607, 2650 ; height, weight
+	db "DỪA@" ; species name
+	dw 20, 1200 ; height, weight
 
-	db   "Living in a good"
-	next "environment makes"
-	next "it grow lots of"
+	db   "Sống trong môi"
+	next "trường tốt giúp"
+	next "nó mọc nhiều đầu."
 
-	page "heads. A head that"
-	next "drops off becomes"
-	next "an EXEGGCUTE.@"
+	page "Đầu rụng xuống"
+	next "sẽ thành"
+	next "EXEGGCUTE.@"

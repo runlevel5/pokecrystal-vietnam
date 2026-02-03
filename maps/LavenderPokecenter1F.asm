@@ -35,47 +35,48 @@ LavenderPokecenter1FYoungsterScript:
 	end
 
 LavenderPokecenter1FGentlemanText:
-	text "To the north of"
-	line "LAVENDER is ROCK"
+	text "Về phía bắc của"
+	line "LAVENDER là ĐƯỜNG"
 
-	para "TUNNEL. Go through"
-	line "it to get to the"
-	cont "POWER PLANT."
+	para "HẦM ĐÁ. Đi qua đó"
+	line "để đến NHÀ MÁY"
+	cont "ĐIỆN."
 	done
 
 LavenderPokecenter1FTeacherText:
-	text "There's a radio"
-	line "program that plays"
-	cont "# FLUTE music."
+	text "Có chương trình"
+	line "radio phát nhạc"
+	cont "SÁO #."
 
-	para "Oh? Ah, your radio"
-	line "needs an EXPN CARD"
-	cont "to tune into it."
+	para "Ồ? À, radio của"
+	line "bạn cần THẺ EXPN"
+	cont "để bắt được nó."
 	done
 
 LavenderPokecenter1FYoungsterText:
-	text "If the POWER PLANT"
-	line "isn't running, the"
+	text "Nếu NHÀ MÁY ĐIỆN"
+	line "không chạy, TÀU"
 
-	para "MAGNET TRAIN won't"
-	line "run either…"
+	para "NAM CHÂM cũng sẽ"
+	line "không chạy…"
 
-	para "It also means the"
-	line "RADIO STATION"
-	cont "can't broadcast…"
+	para "Điều đó cũng có"
+	line "nghĩa là ĐÀI"
+
+	para "RADIO không thể"
+	line "phát sóng…"
 	done
 
 LavenderPokecenter1FYoungsterText_ReturnedMachinePart:
-	text "The DIRECTOR of"
-	line "the RADIO STATION"
-	cont "sure was happy."
+	text "GIÁM ĐỐC của ĐÀI"
+	line "RADIO rất vui."
 
-	para "He said they're"
-	line "back on the air"
+	para "Ông ấy nói họ đã"
+	line "lên sóng trở lại"
 
-	para "because the POWER"
-	line "PLANT is running"
-	cont "smoothly again."
+	para "vì NHÀ MÁY ĐIỆN"
+	line "đã chạy trơn tru"
+	cont "trở lại."
 	done
 
 LavenderPokecenter1F_MapEvents:

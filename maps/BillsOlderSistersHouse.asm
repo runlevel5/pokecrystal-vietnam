@@ -14,15 +14,15 @@ BillsOlderSistersHouseYoungsterScript:
 	jumptextfaceplayer BillsOlderSistersHouseYoungsterText
 
 BillsOlderSisterText:
-	text "My grandpa is at "
-	line "my brother BILL's"
-	cont "on CERULEAN CAPE."
+	text "Ông nội tôi đang"
+	line "ở chỗ anh BILL"
+	cont "tại MŨIĐẤT CERU."
 	done
 
 BillsOlderSistersHouseYoungsterText:
-	text "I saw these weird,"
-	line "slow #MON on"
-	cont "CYCLING ROAD."
+	text "Tôi thấy những"
+	line "#MON lạ, chậm"
+	cont "trên ĐRG ĐẠP XE."
 	done
 
 BillsOlderSistersHouse_MapEvents:

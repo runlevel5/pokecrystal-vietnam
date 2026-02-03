@@ -1,73 +1,71 @@
 JoseAskNumber1Text:
-	text "If my @"
+	text "Nếu @"
 	text_ram wStringBuffer4
-	text_start
-	line "sees anything"
+	text " của tớ"
+	line "thấy gì đẹp,"
 
-	para "pretty, it goes"
-	line "and gets it."
+	para "nó sẽ đi lấy về."
 
-	para "Do you like pretty"
-	line "things?"
+	para "Cậu có thích đồ"
+	line "đẹp không?"
 
-	para "I could share if"
-	line "it gets some more."
+	para "Tớ có thể chia nếu"
+	line "nó lấy được nhiều."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "SĐT của cậu là gì?"
+	line "Tớ sẽ gọi."
 
-	para "Don't expect a"
-	line "whole lot, OK?"
+	para "Đừng kỳ vọng quá"
+	line "nhiều nhé?"
 	done
 
 JoseAskNumber2Text:
-	text "Do you like pretty"
-	line "things?"
+	text "Cậu có thích đồ"
+	line "đẹp không?"
 
-	para "I could share if"
-	line "FARFETCH'D goes"
-	cont "and gets more."
+	para "Tớ có thể chia nếu"
+	line "FARFETCH'D lấy về"
+	cont "nhiều."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "SĐT của cậu là gì?"
+	line "Tớ sẽ gọi."
 	done
 
 JoseNumberAcceptedText:
-	text "I'll call you as"
-	line "soon as I get"
-	cont "something pretty."
+	text "Tớ sẽ gọi ngay khi"
+	line "có gì đẹp."
 	done
 
 JoseNumberDeclinedText:
-	text "You sure? Well,"
-	line "tell me if you"
-	cont "change your mind."
+	text "Cậu chắc? Thôi,"
+	line "nói cho tớ nếu"
+	cont "cậu đổi ý."
 	done
 
 JosePhoneFullText:
-	text "Huh? Your phone"
-	line "list is full."
+	text "Hả? Danh sách"
+	line "điện thoại đầy."
 	done
 
 JoseRematchText:
 	text "Tweet! Tweeeet!"
 
-	para "Kept me waiting!"
-	line "Go, FARFETCH'D!"
+	para "Để tớ đợi lâu!"
+	line "Đi nào, FARFETCH'D"
 	done
 
 JoseGiftText:
-	text "Kept me waiting!"
-	line "Look, this is it!"
+	text "Để tớ đợi lâu!"
+	line "Nhìn này, đây rồi!"
 
-	para "See? Isn't it some"
-	line "kind of pretty?"
+	para "Thấy không? Đẹp"
+	line "chứ?"
 	done
 
 JosePackFullText:
-	text "Huh? You don't"
-	line "have anywhere to"
+	text "Hả? Cậu không có"
+	line "chỗ để đồ."
 
-	para "put this. Better"
-	line "come back for it."
+	para "Quay lại lấy sau"
+	line "nhé."
 	done

@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
-	dw 503, 1210 ; height, weight
+	db "SỨA@" ; species name
+	dw 16, 550 ; height, weight
 
-	db   "When its 80 feel-"
-	next "ers absorb water,"
-	next "it stretches to"
+	db   "Khi 80 xúc tu hút"
+	next "nước, nó giãn ra"
+	next "như một tấm lưới"
 
-	page "become like a net"
-	next "to entangle its"
-	next "prey.@"
+	page "để bắt con mồi.@"
+	next "@"
+	next "@"

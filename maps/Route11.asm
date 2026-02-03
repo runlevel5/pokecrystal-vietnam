@@ -64,43 +64,42 @@ Route11HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_11_HIDDEN_REVIVE
 
 YoungsterOwenSeenText:
-	text "There's no cheat-"
-	line "ing in #MON."
+	text "Không có chuyện"
+	line "gian lận trong"
+	cont "#MON."
 
-	para "Let's keep it fair"
-	line "and square!"
+	para "Hãy chiến đấu"
+	line "công bằng nhé!"
 	done
 
 YoungsterOwenBeatenText:
-	text "Huh? How did this"
-	line "happen?"
+	text "Hả? Sao lại thế?"
 	done
 
 YoungsterOwenAfterBattleText:
-	text "I fought fair and"
-	line "square with honor."
+	text "Tôi đã chiến đấu"
+	line "công bằng, danh"
+	cont "dự."
 
-	para "I don't regret"
-	line "this at all."
+	para "Tôi không hối"
+	line "tiếc chút nào."
 	done
 
 YoungsterJasonSeenText:
-	text "It itches and"
-	line "tickles a bit when"
+	text "Hơi ngứa và véo"
+	line "khi mặc quần đùi"
 
-	para "I wear shorts in"
-	line "the grass."
+	para "trong cỏ."
 	done
 
 YoungsterJasonBeatenText:
-	text "Aiyaaah!"
-	line "I got stomped!"
+	text "Ảiaaaa!"
+	line "Tôi bị đè bẹp!"
 	done
 
 YoungsterJasonAfterBattleText:
-	text "I'm going to catch"
-	line "more #MON in"
-	cont "the grass."
+	text "Tôi sẽ bắt thêm"
+	line "#MON trong cỏ."
 	done
 
 PsychicHermanSeenText:
@@ -114,33 +113,33 @@ PsychicHermanBeatenText:
 PsychicHermanAfterBattleText:
 	text "…"
 
-	para "I lost while I had"
-	line "my eyes closed…"
+	para "Tôi thua mà mắt"
+	line "còn nhắm luôn…"
 	done
 
 PsychicFidelSeenText:
-	text "I can see it…"
+	text "Tôi có thể thấy…"
 
-	para "Everything to see"
-	line "about you…"
+	para "Mọi thứ về bạn…"
 	done
 
 PsychicFidelBeatenText:
-	text "I couldn't foresee"
-	line "your power…"
+	text "Tôi không thấy"
+	line "trước sức mạnh"
+	cont "của bạn…"
 	done
 
 PsychicFidelAfterBattleText:
-	text "Strength in con-"
-	line "viction…"
+	text "Sức mạnh từ niềm"
+	line "tin…"
 
-	para "You're strong be-"
-	line "cause you believe"
-	cont "in your #MON."
+	para "Bạn mạnh vì tin"
+	line "tưởng #MON của"
+	cont "mình."
 	done
 
 Route11SignText:
-	text "ROUTE 11"
+	text "TUYẾN ĐƯỜNG 11"
 	done
 
 Route11_MapEvents:

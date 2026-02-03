@@ -151,655 +151,647 @@ GoldenrodPokeCenter1FLinkReceptionistWalkToStairsFromRightDoorwayTileMovement:
 	step_end
 
 GoldenrodPokecomCenterWelcomeToTradeCornerText: ; unreferenced
-	text "Hello! Welcome to"
-	line "#COM CENTER"
-	cont "TRADE CORNER."
+	text "Xin chào! Chào"
+	line "mừng đến #COM"
+	cont "CENTER TRADE"
+	cont "CORNER."
 
-	para "You can trade"
-	line "#MON with other"
-	cont "people far away."
+	para "Bạn có thể giao"
+	line "dịch #MON với"
+	cont "người ở xa."
 	done
 
 GoldenrodPokecomCenterWeMustHoldYourMonText: ; unreferenced
-	text "To make a trade,"
-	line "we must hold your"
-	cont "#MON."
+	text "Để giao dịch,"
+	line "chúng tôi phải giữ"
+	cont "#MON của bạn."
 
-	para "Would you like to"
-	line "trade?"
+	para "Bạn có muốn giao"
+	line "dịch không?"
 	done
 
 GoldenrodPokecomCenterWhatMonDoYouWantText: ; unreferenced
-	text "What kind of"
-	line "#MON do you"
-	cont "want in return?"
+	text "Bạn muốn đổi lấy"
+	line "#MON loại nào?"
 	done
 
 GoldenrodPokecomCenterWeWillTradeYourMonForMonText: ; unreferenced
-	text "Fine. We will try"
-	line "to trade your"
+	text "Được. Chúng tôi sẽ"
+	line "thử giao dịch"
 
 	para "@"
 	text_ram wStringBuffer3
-	text " for"
+	text " để lấy"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 
-	para "We'll have to hold"
-	line "your #MON"
-	cont "during the trade."
+	para "Chúng tôi phải giữ"
+	line "#MON bạn trong"
+	cont "lúc giao dịch."
 
-	para "Please wait while"
-	line "we prepare the"
-	cont "room for it."
+	para "Vui lòng đợi khi"
+	line "chúng tôi chuẩn"
+	cont "bị phòng."
 	done
 
 GoldenrodPokecomCenterWeWillTradeYourMonForNewText: ; unreferenced
-	text "Fine. We will try"
-	line "to trade your"
+	text "Được. Chúng tôi sẽ"
+	line "thử giao dịch"
 
 	para "@"
 	text_ram wStringBuffer3
-	text " for a"
-	line "#MON that you"
-	cont "have never seen."
+	text " để lấy"
+	line "#MON mà bạn"
+	cont "chưa từng thấy."
 
-	para "We'll have to hold"
-	line "your #MON"
-	cont "during the trade."
+	para "Chúng tôi phải giữ"
+	line "#MON bạn trong"
+	cont "lúc giao dịch."
 
-	para "Please wait while"
-	line "we prepare the"
-	cont "room for it."
+	para "Vui lòng đợi khi"
+	line "chúng tôi chuẩn"
+	cont "bị phòng."
 	done
 
 GoldenrodPokecomCenterYourMonHasBeenReceivedText: ; unreferenced
-	text "Your trade #MON"
-	line "has been received."
+	text "#MON giao dịch"
+	line "của bạn đã được"
+	cont "nhận."
 
-	para "It will take time"
-	line "to find a trade"
+	para "Sẽ mất thời gian"
+	line "để tìm đối tác"
 
-	para "partner. Please"
-	line "come back later."
+	para "giao dịch. Hãy"
+	line "quay lại sau."
 	done
 
 GoldenrodPokecomCenterYouHaveOnlyOneMonText: ; unreferenced
-	text "Oh? You have only"
-	line "one #MON in"
-	cont "your party. "
+	text "Ồ? Bạn chỉ có một"
+	line "#MON trong"
+	cont "nhóm. "
 
-	para "Please come back"
-	line "once you've in-"
-	cont "creased the size"
-	cont "of your party."
+	para "Hãy quay lại khi"
+	line "bạn đã tăng số"
+	cont "lượng #MON"
+	cont "trong nhóm."
 	done
 
 GoldenrodPokecomCenterWeHopeToSeeYouAgainText: ; unreferenced
-	text "We hope to see you"
-	line "again."
+	text "Hy vọng gặp lại"
+	line "bạn."
 	done
 
 GoldenrodPokecomCenterCommunicationErrorText: ; unreferenced
-	text "Communication"
-	line "error…"
+	text "Lỗi kết nối…"
 	done
 
 GoldenrodPokecomCenterCantAcceptLastMonText: ; unreferenced
-	text "If we accept that"
-	line "#MON, what will"
-	cont "you battle with?"
+	text "Nếu nhận #MON"
+	line "đó, bạn sẽ đấu"
+	cont "bằng gì?"
 	done
 
 GoldenrodPokecomCenterCantAcceptEggText: ; unreferenced
-	text "Sorry. We can't"
-	line "accept an EGG."
+	text "Xin lỗi. Chúng tôi"
+	line "không nhận EGG."
 	done
 
 GoldenrodPokecomCenterCantAcceptAbnormalMonText: ; unreferenced
-	text "Sorry, but your"
-	line "#MON appears to"
+	text "Xin lỗi, nhưng"
+	line "#MON của bạn"
 
-	para "be abnormal. We"
-	line "can't accept it."
+	para "có vẻ bất thường."
+	line "Chúng tôi không"
+	cont "thể nhận nó."
 	done
 
 GoldenrodPokecomCenterAlreadyHoldingMonText: ; unreferenced
-	text "Oh? Aren't we"
-	line "already holding a"
-	cont "#MON of yours?"
+	text "Ồ? Chúng tôi đang"
+	line "giữ #MON của"
+	cont "bạn rồi mà?"
 	done
 
 GoldenrodPokecomCenterCheckingTheRoomsText: ; unreferenced
-	text "We'll check the"
-	line "rooms."
+	text "Chúng tôi sẽ kiểm"
+	line "tra các phòng."
 
-	para "Please wait."
+	para "Vui lòng đợi."
 	done
 
 GoldenrodPokecomCenterTradePartnerHasBeenFoundText: ; unreferenced
-	text "Thank you for your"
-	line "patience."
+	text "Cảm ơn bạn đã kiên"
+	line "nhẫn."
 
-	para "A trade partner"
-	line "has been found."
+	para "Đã tìm được đối"
+	line "tác giao dịch."
 	done
 
 GoldenrodPokecomCenterItsYourNewPartnerText: ; unreferenced
-	text "It's your new"
-	line "partner."
+	text "Đây là đối tác"
+	line "mới của bạn."
 
-	para "Please take care"
-	line "of it with love."
+	para "Hãy chăm sóc nó"
+	line "bằng tình yêu."
 
-	para "We hope to see you"
-	line "again."
+	para "Hy vọng gặp lại"
+	line "bạn."
 	done
 
 GoldenrodPokecomCenterYourPartyIsFullText: ; unreferenced
-	text "Uh-oh. Your party"
-	line "is already full."
+	text "Ồ ồ. Nhóm của bạn"
+	line "đã đầy rồi."
 
-	para "Please come back"
-	line "when you have room"
-	cont "in your party."
+	para "Hãy quay lại khi"
+	line "bạn có chỗ trống"
+	cont "trong nhóm."
 	done
 
 GoldenrodPokecomCenterNoTradePartnerFoundText: ; unreferenced
-	text "It's unfortunate,"
-	line "but no one has"
+	text "Thật đáng tiếc,"
+	line "nhưng không có ai"
 
-	para "come forward as a"
-	line "trade partner."
+	para "xuất hiện làm đối"
+	line "tác giao dịch."
 
-	para "Would you like"
-	line "your #MON back?"
+	para "Bạn có muốn lấy"
+	line "#MON lại không?"
 	done
 
 GoldenrodPokecomCenterReturnedYourMonText: ; unreferenced
-	text "We have returned"
-	line "your #MON."
+	text "Chúng tôi đã trả"
+	line "#MON của bạn."
 	done
 
 GoldenrodPokecomCenterYourMonIsLonelyText: ; unreferenced
-	text "It's unfortunate,"
-	line "but no one has"
+	text "Thật đáng tiếc,"
+	line "nhưng không có ai"
 
-	para "come forward as a"
-	line "trade partner."
+	para "xuất hiện làm đối"
+	line "tác giao dịch."
 
-	para "We've held your"
-	line "#MON for a long"
+	para "Chúng tôi đã giữ"
+	line "#MON của bạn"
 
-	para "time. As a result,"
-	line "it is very lonely."
+	para "trong thời gian"
+	line "dài. Kết quả là"
+	cont "nó rất cô đơn."
 
-	para "Sorry, but we must"
-	line "return it to you."
+	para "Xin lỗi, nhưng"
+	line "chúng tôi phải trả"
+	cont "lại cho bạn."
 	done
 
 GoldenrodPokecenter1FWeHopeToSeeYouAgainText_2: ; unreferenced
-	text "We hope to see you"
-	line "again."
+	text "Hy vọng gặp lại"
+	line "bạn."
 	done
 
 GoldenrodPokecomCenterContinueToHoldYourMonText: ; unreferenced
-	text "Fine. We will"
-	line "continue to hold"
-	cont "your #MON."
+	text "Được. Chúng tôi"
+	line "sẽ tiếp tục giữ"
+	cont "#MON của bạn."
 	done
 
 GoldenrodPokecomCenterRecentlyLeftYourMonText: ; unreferenced
-	text "Oh? You left your"
-	line "#MON with us"
-	cont "only recently."
+	text "Ồ? Bạn mới gửi"
+	line "#MON cho chúng"
+	cont "tôi mà."
 
-	para "Please come back"
-	line "later."
+	para "Hãy quay lại"
+	line "sau nhé."
 	done
 
 GoldenrodPokecomCenterSaveBeforeTradeCornerText: ; unreferenced
-	text "We'll SAVE before"
-	line "connecting to the"
-	cont "CENTER."
+	text "Chúng tôi sẽ SAVE"
+	line "trước khi kết nối"
+	cont "đến CENTER."
 	done
 
 GoldenrodPokecomCenterWhichMonToTradeText: ; unreferenced
-	text "Which #MON do"
-	line "you want to trade?"
+	text "Bạn muốn giao dịch"
+	line "#MON nào?"
 	done
 
 GoldenrodPokecomCenterTradeCanceledText: ; unreferenced
-	text "Sorry, but we must"
-	line "cancel the trade."
+	text "Xin lỗi, nhưng"
+	line "chúng tôi phải hủy"
+	cont "giao dịch."
 	done
 
 GoldenrodPokecomCenterEggTicketText: ; unreferenced
-	text "Oh!"
+	text "Ồ!"
 
-	para "I see you have an"
-	line "EGG TICKET!"
+	para "Tôi thấy bạn có"
+	line "VÉ TRỨNG!"
 
-	para "It's a coupon that"
-	line "special people can"
+	para "Đó là phiếu mà"
+	line "người đặc biệt"
 
-	para "redeem for a"
-	line "special #MON!"
+	para "có thể đổi lấy"
+	line "#MON đặc biệt!"
 	done
 
 GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
-	text "Let me give you a"
-	line "quick briefing."
+	text "Để tôi giải thích"
+	line "nhanh cho bạn."
 
-	para "Trades held at the"
-	line "TRADE CORNER are"
+	para "Giao dịch tại"
+	line "GÓC GIAO DỊCH là"
 
-	para "between two"
-	line "trainers who don't"
+	para "giữa hai HLV mà"
+	line "không biết danh"
 
-	para "know each other's"
-	line "identity."
+	para "tính của nhau."
 
-	para "As a result, it"
-	line "may take time."
+	para "Kết quả là, có"
+	line "thể mất thời gian."
 
-	para "However, an ODD"
-	line "EGG is available"
-	cont "just for you."
+	para "Tuy nhiên, TRỨNG"
+	line "LẠ có sẵn chỉ"
+	cont "dành cho bạn."
 
-	para "It will be sent to"
-	line "you right away."
+	para "Nó sẽ được gửi"
+	line "ngay cho bạn."
 
-	para "Please choose one"
-	line "of the rooms in"
+	para "Hãy chọn một"
+	line "phòng trong"
 
-	para "the CENTER."
-	line "An ODD EGG will be"
+	para "CENTER. TRỨNG LẠ"
+	line "sẽ được gửi từ"
 
-	para "sent from the"
-	line "chosen room."
+	para "phòng đã chọn."
 	done
 
 GoldenrodPokecomCenterPleaseWaitAMomentText: ; unreferenced
-	text "Please wait a"
-	line "moment."
+	text "Vui lòng đợi một"
+	line "chút."
 	done
 
 GoldenrodPokecomCenterHereIsYourOddEggText: ; unreferenced
-	text "Thank you for"
-	line "waiting."
+	text "Cảm ơn bạn đã"
+	line "chờ đợi."
 
-	para "We received your"
-	line "ODD EGG."
+	para "Chúng tôi đã nhận"
+	line "TRỨNG LẠ của bạn."
 
-	para "Here it is!"
+	para "Đây này!"
 
-	para "Please raise it"
-	line "with loving care."
+	para "Hãy nuôi nó bằng"
+	line "tình yêu thương."
 	done
 
 GoldenrodPokecomCenterNoEggTicketServiceText: ; unreferenced
-	text "I'm awfully sorry."
+	text "Tôi rất xin lỗi."
 
-	para "The EGG TICKET"
-	line "exchange service"
-	cont "isn't running now."
+	para "Dịch vụ đổi VÉ"
+	line "TRỨNG không hoạt"
+	cont "động bây giờ."
 	done
 
 GoldenrodPokecomCenterNewsMachineText: ; unreferenced
-	text "It's a #MON"
-	line "NEWS MACHINE."
+	text "Đây là MÁY TIN TỨC"
+	line "#MON."
 	done
 
 GoldenrodPokecomCenterWhatToDoText: ; unreferenced
-	text "What would you"
-	line "like to do?"
+	text "Bạn muốn làm gì?"
 	done
 
 GoldenrodPokecomCenterNewsMachineExplanationText: ; unreferenced
-	text "#MON NEWS is"
-	line "news compiled from"
+	text "TIN TỨC #MON là"
+	line "tin tức tổng hợp"
 
-	para "the SAVE files of"
-	line "#MON trainers."
+	para "từ file SAVE của"
+	line "các HLV #MON."
 
-	para "When reading the"
-	line "NEWS, your SAVE"
+	para "Khi đọc TIN TỨC,"
+	line "file SAVE của bạn"
 
-	para "file may be sent"
-	line "out."
+	para "có thể được gửi"
+	line "đi."
 
-	para "The SAVE file data"
-	line "will contain your"
+	para "Dữ liệu file SAVE"
+	line "sẽ chứa nhật ký"
 
-	para "adventure log and"
-	line "mobile profile."
+	para "phiêu lưu và hồ"
+	line "sơ di động."
 
-	para "Your phone number"
-	line "will not be sent."
+	para "Số điện thoại của"
+	line "bạn sẽ không được"
+	cont "gửi đi."
 
-	para "The contents of"
-	line "the NEWS will vary"
+	para "Nội dung TIN TỨC"
+	line "sẽ thay đổi tùy"
 
-	para "depending on the"
-	line "SAVE files sent by"
+	para "thuộc vào file"
+	line "SAVE được gửi bởi"
 
-	para "you and the other"
-	line "#MON trainers."
+	para "bạn và các HLV"
+	line "#MON khác."
 
-	para "You might even be"
-	line "in the NEWS!"
+	para "Bạn thậm chí có"
+	line "thể có trong TIN!"
 	done
 
 GoldenrodPokecomCenterWouldYouLikeTheNewsText: ; unreferenced
-	text "Would you like to"
-	line "get the NEWS?"
+	text "Bạn có muốn xem"
+	line "TIN TỨC không?"
 	done
 
 GoldenrodPokecomCenterReadingTheLatestNewsText: ; unreferenced
-	text "Reading the latest"
-	line "NEWS… Please wait."
+	text "Đang đọc TIN mới"
+	line "nhất… Vui lòng"
+	cont "đợi."
 	done
 
 GoldenrodPokecomCenterNoOldNewsText: ; unreferenced
-	text "There is no old"
-	line "NEWS…"
+	text "Không có TIN cũ…"
 	done
 
 GoldenrodPokecomCenterCorruptedNewsDataText: ; unreferenced
-	text "The NEWS data is"
-	line "corrupted."
+	text "Dữ liệu TIN bị"
+	line "hỏng."
 
-	para "Please download"
-	line "the NEWS again."
+	para "Hãy tải TIN lại"
+	line "lần nữa."
 	done
 
 GoldenrodPokecomCenterMakingPreparationsText: ; unreferenced
-	text "We're making"
-	line "preparations."
+	text "Chúng tôi đang"
+	line "chuẩn bị."
 
-	para "Please come back"
-	line "later."
+	para "Hãy quay lại"
+	line "sau nhé."
 	done
 
 GoldenrodPokecomCenterSaveBeforeNewsMachineText: ; unreferenced
-	text "We will SAVE your"
-	line "progress before"
+	text "Chúng tôi sẽ SAVE"
+	line "trước khi khởi"
 
-	para "starting the NEWS"
-	line "MACHINE."
+	para "động MÁY TIN TỨC."
 	done
 
 GoldenrodPokecomCenterPerson1Text: ; unreferenced
-	text "Whoa, this #MON"
-	line "CENTER is huge."
+	text "Ồ, TT #MON này"
+	line "to quá."
 
-	para "They just built"
-	line "this place. They"
+	para "Họ vừa xây xong"
+	line "chỗ này. Họ cũng"
 
-	para "installed lots of"
-	line "new machines too."
+	para "lắp đặt nhiều máy"
+	line "mới nữa."
 	done
 
 GoldenrodPokecomCenterPerson2Text: ; unreferenced
-	text "I thought up a fun"
-	line "new thing for the"
-	cont "TRADE CORNER!"
+	text "Tôi nghĩ ra trò"
+	line "vui cho GÓC"
+	cont "GIAO DỊCH!"
 
-	para "I make a PIDGEY"
-	line "hold MAIL, then"
+	para "Tôi cho PIDGEY"
+	line "cầm THƯ, rồi"
 
-	para "put it up for"
-	line "trade for another"
-	cont "one!"
+	para "đổi nó lấy một"
+	line "con khác!"
 
-	para "If everyone did"
-	line "that, MAIL could"
+	para "Nếu mọi người đều"
+	line "làm vậy, THƯ có"
 
-	para "be traded with all"
-	line "sorts of people!"
+	para "thể được giao với"
+	line "nhiều người!"
 
-	para "I call it PIDGEY"
-	line "MAIL!"
+	para "Tôi gọi nó là"
+	line "THƯ PIDGEY!"
 
-	para "If it becomes"
-	line "popular, I might"
+	para "Nếu nó phổ biến,"
+	line "tôi có thể kết"
 
-	para "make lots of new"
-	line "friends!"
+	para "bạn với nhiều"
+	line "người mới!"
 	done
 
 GoldenrodPokecomCenterPerson3Text: ; unreferenced
-	text "They said you can"
-	line "trade #MON with"
+	text "Họ nói bạn có thể"
+	line "giao dịch #MON"
 
-	para "total strangers up"
-	line "here."
+	para "với người lạ hoàn"
+	line "toàn ở đây."
 
-	para "But they're still"
-	line "adjusting things."
+	para "Nhưng họ vẫn đang"
+	line "điều chỉnh."
 	done
 
 GoldenrodPokecomCenterPerson4Text: ; unreferenced
-	text "Some girl I don't"
-	line "know sent me her"
+	text "Một cô gái tôi"
+	line "không biết gửi"
 
-	para "HOPPIP."
-	line "You should trade"
+	para "HOPPIP cho tôi."
+	line "Bạn nên giao dịch"
 
-	para "for a #MON that"
-	line "you want."
+	para "để lấy #MON mà"
+	line "bạn muốn."
 	done
 
 GoldenrodPokecomCenterPerson5Text: ; unreferenced
-	text "I received a"
-	line "female HOPPIP, but"
-	cont "its named STANLEY!"
+	text "Tôi nhận được"
+	line "HOPPIP cái, nhưng"
+	cont "tên nó STANLEY!"
 
-	para "That's my dad's"
-	line "name!"
+	para "Đó là tên bố"
+	line "tôi!"
 	done
 
 GoldenrodPokecomCenterPerson6Text: ; unreferenced
-	text "What is the NEWS"
-	line "MACHINE?"
+	text "MÁY TIN TỨC là"
+	line "gì?"
 
-	para "Does it get news"
-	line "from a wider area"
-	cont "than the radio?"
+	para "Nó lấy tin từ"
+	line "khu vực rộng hơn"
+	cont "radio không?"
 	done
 
 GoldenrodPokecomCenterPerson7Text: ; unreferenced
-	text "The #COM CENTER"
-	line "will link with all"
+	text "#COM CENTER sẽ"
+	line "liên kết với tất"
 
-	para "#MON CENTERS in"
-	line "a wireless net."
+	para "cả TT #MON"
+	line "trong mạng không"
+	cont "dây."
 
-	para "That must mean"
-	line "I'll be able to"
+	para "Điều đó có nghĩa"
+	line "tôi sẽ có thể"
 
-	para "link with all"
-	line "sorts of people."
+	para "kết nối với đủ"
+	line "loại người."
 	done
 
 GoldenrodPokecomCenterPerson8Text: ; unreferenced
-	text "The machines here"
-	line "can't be used yet."
+	text "Máy ở đây chưa"
+	line "dùng được."
 
-	para "Still, it's nice"
-	line "coming to a trendy"
+	para "Nhưng thật tốt khi"
+	line "đến nơi hợp thời"
 
-	para "place before other"
-	line "people."
+	para "trước người khác."
 	done
 
 GoldenrodPokecomCenterPerson9Text: ; unreferenced
-	text "My friend was in"
-	line "the NEWS a while"
+	text "Bạn tôi có trong"
+	line "TIN TỨC trước đây."
 
-	para "back. I was really"
-	line "surprised!"
+	para "Tôi thực sự ngạc"
+	line "nhiên!"
 	done
 
 GoldenrodPokecomCenterPerson10Text: ; unreferenced
-	text "I get anxious if I"
-	line "don't check out"
-	cont "the latest NEWS!"
+	text "Tôi lo lắng nếu"
+	line "không xem TIN TỨC"
+	cont "mới nhất!"
 	done
 
 GoldenrodPokecomCenterPerson11Text: ; unreferenced
-	text "If I get in the"
-	line "NEWS and become"
+	text "Nếu tôi có trong"
+	line "TIN và nổi tiếng,"
 
-	para "famous, I bet I'll"
-	line "be adored."
+	para "chắc tôi sẽ được"
+	line "ngưỡng mộ."
 
-	para "I wonder how I"
-	line "could get in the"
-	cont "NEWS?"
+	para "Không biết làm thế"
+	line "nào để có trong"
+	cont "TIN nhỉ?"
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "The COLOSSEUM"
-	line "upstairs is for"
-	cont "link battles."
+	text "ĐẤU TRƯỜNG ở trên"
+	line "là nơi đấu qua"
+	cont "dây nối."
 
-	para "Battle records are"
-	line "posted on the"
+	para "Kết quả được ghi"
+	line "trên tường nên"
 
-	para "wall, so I can't"
-	line "afford to lose."
+	para "tôi không thể"
+	line "thua được."
 	done
 
 GoldenrodPokecomCenterPerson12Text: ; unreferenced
-	text "I came over here"
-	line "when I got word"
+	text "Tôi đến đây khi"
+	line "nghe nói TT"
 
-	para "that GOLDENROD's"
-	line "#MON CENTER has"
+	para "#MON GOLDENROD"
+	line "có máy mới mà"
 
-	para "new machines that"
-	line "no one's ever seen"
-	cont "before."
+	para "chưa ai thấy bao"
+	line "giờ."
 
-	para "But it looks like"
-	line "they're still busy"
-
-	para "with all their"
-	line "preparations…"
+	para "Nhưng có vẻ họ vẫn"
+	line "đang bận chuẩn bị…"
 	done
 
 GoldenrodPokecomCenterPerson13Text: ; unreferenced
-	text "Just seeing all"
-	line "these new things"
+	text "Chỉ nhìn thấy tất"
+	line "cả đồ mới này"
 
-	para "here makes me feel"
-	line "younger!"
+	para "làm tôi cảm thấy"
+	line "trẻ hơn!"
 	done
 
 GoldenrodPokecenter1FLassText:
-	text "A higher level"
-	line "#MON doesn't"
-	cont "always win."
+	text "#MON cấp cao"
+	line "không phải lúc"
+	cont "nào cũng thắng."
 
-	para "After all, it may"
-	line "have a type dis-"
-	cont "advantage."
+	para "Vì nó có thể bị"
+	line "bất lợi về hệ."
 
-	para "I don't think"
-	line "there is a single"
+	para "Tôi không nghĩ"
+	line "có #MON nào"
 
-	para "#MON that is"
-	line "the toughest."
+	para "mạnh nhất cả."
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
-	text "<PLAYER>, isn't it?"
+	text "Bạn là <PLAYER>,"
+	line "đúng không?"
 
-	para "Congratulations!"
+	para "Chúc mừng bạn!"
 
-	para "As a special deal,"
-	line "a GS BALL has been"
-	cont "sent just for you!"
+	para "Trong chương"
+	line "trình đặc biệt,"
+	cont "GS BALL được gửi!"
 
-	para "Please accept it!"
+	para "Hãy nhận nó nhé!"
 	done
 
 GoldenrodPokeCenter1FLinkReceptionistPleaseDoComeAgainText:
-	text "Please do come"
-	line "again!"
+	text "Hãy ghé lại nhé!"
 	done
 
 GoldenrodPokecomCenterSignText: ; unreferenced
 	text "#COM CENTER"
-	line "1F INFORMATION"
+	line "THÔNG TIN TẦNG 1"
 
-	para "Left:"
-	line "ADMINISTRATION"
+	para "Trái:"
+	line "QUẢN LÝ"
 
-	para "Center:"
-	line "TRADE CORNER"
+	para "Giữa:"
+	line "GÓC GIAO DỊCH"
 
-	para "Right:"
-	line "#MON NEWS"
+	para "Phải:"
+	line "TIN TỨC #MON"
 	done
 
 GoldenrodPokecomCenterNewsMachineNotYetText: ; unreferenced
-	text "It's a #MON"
-	line "NEWS MACHINE!"
+	text "Đây là MÁY TIN TỨC"
+	line "#MON!"
 
-	para "It's not in"
-	line "operation yet…"
+	para "Nó chưa hoạt động…"
 	done
 
 GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
-	text "Oh my, your pack"
-	line "looks so heavy!"
+	text "Ôi trời, balo bạn"
+	line "nặng quá nhỉ!"
 
-	para "Oh! Do you happen"
-	line "to have something"
-	cont "named EON MAIL?"
+	para "À! Bạn có cái gì"
+	line "tên là THƯ EON"
+	cont "không?"
 
-	para "My daughter is"
-	line "after one."
+	para "Con gái tôi đang"
+	line "muốn một cái."
 
-	para "You can part with"
-	line "one, can't you?"
+	para "Bạn có thể cho"
+	line "một cái chứ?"
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Give away an EON"
-	line "MAIL?"
+	text "Tặng THƯ EON?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
-	text "Oh, that's great!"
-	line "Thank you, honey!"
+	text "Ồ, tuyệt vời!"
+	line "Cảm ơn em nhiều!"
 
-	para "Here, this is for"
-	line "you in return!"
+	para "Đây, món quà đáp"
+	line "lễ cho em!"
 	done
 
 GoldenrodPokecenter1FPokefanFDaughterWillBeDelightedText:
-	text "My daughter will"
-	line "be delighted!"
+	text "Con gái tôi sẽ"
+	line "rất vui mừng!"
 	done
 
 GoldenrodPokecenter1FPokefanFTooBadText:
-	text "Oh? You don't have"
-	line "one? Too bad."
+	text "Hả? Em không có"
+	line "à? Tiếc quá."
 	done
 
 GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
-	text "Oh… Well, another"
-	line "time, then."
+	text "Ồ… Vậy lần sau"
+	line "hãy ghé lại nhé."
 	done
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
-	text "<PLAYER> gave away"
-	line "the EON MAIL."
+	text "<PLAYER> đã tặng"
+	line "THƯ EON."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

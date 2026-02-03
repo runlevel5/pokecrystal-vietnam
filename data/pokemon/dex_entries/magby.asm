@@ -1,10 +1,10 @@
-	db "LIVE COAL@" ; species name
-	dw 204, 470 ; height, weight
+	db "THAN SỐNG@" ; species name
+	dw 7, 214 ; height, weight
 
-	db   "It naturally spits"
-	next "an 1100-degree"
-	next "flame. It is said"
+	db   "Nó tự nhiên phun"
+	next "lửa 600 độ."
+	next "Người ta nói khi"
 
-	page "when many appear,"
-	next "it heralds a"
-	next "volcanic eruption.@"
+	page "nhiều con xuất"
+	next "hiện, núi lửa sắp"
+	next "phun.@"

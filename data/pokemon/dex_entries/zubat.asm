@@ -1,10 +1,10 @@
-	db "BAT@" ; species name
-	dw 207, 170 ; height, weight
+	db "DƠI@" ; species name
+	dw 8, 75 ; height, weight
 
-	db   "During the day, it"
-	next "gathers with"
-	next "others and hangs"
+	db   "Ban ngày, nó tụ"
+	next "tập với những con"
+	next "khác và treo mình"
 
-	page "from the ceilings"
-	next "of old buildings"
-	next "and caves.@"
+	page "trên trần nhà"
+	next "của các tòa nhà"
+	next "cũ và hang động.@"

@@ -1,79 +1,76 @@
 BethAnswerPhoneText:
-	text "Hello, this is"
+	text "A lô, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh, <PLAY_G>."
-	line "Good morning."
+	para "Ồ, <PLAY_G>."
+	line "Chào buổi sáng."
 
 	para ""
 	done
 
 BethAnswerPhoneDayText:
-	text "Hello, this is"
+	text "A lô, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh. Hi, <PLAY_G>."
+	para "Ồ. Chào, <PLAY_G>."
 	done
 
 BethAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "A lô, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Oh, <PLAY_G>."
-	line "Good evening."
+	para "Ồ, <PLAY_G>."
+	line "Chào buổi tối."
 	done
 
 BethGreetText:
-	text "Good morning,"
+	text "Chào buổi sáng,"
 	line "<PLAY_G>!"
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text "."
-	line "Were you sleeping?"
+	line "Cậu ngủ à?"
 	done
 
 BethGreetDayText:
-	text "<PLAY_G>, hi!"
-	line "This is @"
+	text "<PLAY_G>, chào!"
+	line "Đây là @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Do you have some"
-	line "time?"
+	para "Cậu có thời gian"
+	line "không?"
 	done
 
 BethGreetNiteText:
-	text "Hi, <PLAY_G>."
-	line "Good evening."
+	text "Chào, <PLAY_G>."
+	line "Chào buổi tối."
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "I hope you were"
-	line "awake."
+	para "Tớ hy vọng cậu"
+	line "thức."
 	done
 
 BethGenericText:
-	text "Are you the kind"
-	line "of person who goes"
+	text "Cậu có phải loại"
+	line "người hay đến TT"
 
-	para "to #MON CENTERS"
-	line "often?"
+	para "#MON không?"
 
-	para "I go every day."
-	line "Watching out for"
+	para "Tớ đi mỗi ngày."
+	line "Chăm sóc sức khỏe"
 
-	para "the health of your"
-	line "#MON is a basic"
-
-	para "part of being a"
-	line "#MON trainer."
+	para "#MON là điều cơ"
+	line "bản của một HLV"
+	cont "#MON."
 	done

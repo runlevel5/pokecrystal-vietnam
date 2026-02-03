@@ -1,10 +1,10 @@
-	db "BALLOON@" ; species name
-	dw 108, 90 ; height, weight
+	db "BÓNG BAY@" ; species name
+	dw 5, 39 ; height, weight
 
-	db   "When faced with a"
-	next "larger opponent,"
-	next "it swallows as"
+	db   "Khi gặp đối thủ"
+	next "lớn hơn, nó nuốt"
+	next "nước nhiều hết"
 
-	page "much water as it"
-	next "can to match the"
-	next "opponent's size.@"
+	page "mức có thể để"
+	next "sánh với kích"
+	next "thước đối thủ.@"

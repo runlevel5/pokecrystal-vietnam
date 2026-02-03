@@ -1,73 +1,73 @@
 AnthonyAnswerPhoneText:
-	text "Yeah, @"
+	text "Ừ, @"
 	text_ram wStringBuffer3
-	text " the"
-	line "HIKER here."
+	text " HIKER"
+	line "đây."
 
-	para "Ah, <PLAYER>!"
+	para "À, <PLAYER>!"
 	done
 
 AnthonyAnswerPhoneDayText:
-	text "Yeah, @"
+	text "Ừ, @"
 	text_ram wStringBuffer3
-	text " the"
-	line "HIKER here."
+	text " HIKER"
+	line "đây."
 
-	para "Ah, <PLAYER>,"
-	line "right?"
+	para "À, <PLAYER>, phải"
+	line "không?"
 	done
 
 AnthonyAnswerPhoneNiteText:
-	text "Yeah, @"
+	text "Ừ, @"
 	text_ram wStringBuffer3
-	text " the"
-	line "HIKER here."
+	text " HIKER"
+	line "đây."
 
-	para "Ah, <PLAYER>, isn't"
-	line "it?"
+	para "À, <PLAYER>, đúng"
+	line "không?"
 	done
 
 AnthonyGreetText:
 	text "Yo, <PLAYER>?"
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text_start
-	line "the HIKER!"
+	line "HIKER!"
 	done
 
 AnthonyGreetDayText:
-	text "Hey, is this"
-	line "<PLAYER>?"
+	text "Này, <PLAYER>"
+	line "phải không?"
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text_start
-	line "the HIKER!"
+	line "HIKER!"
 	done
 
 AnthonyGreetNiteText:
-	text "<PLAYER>, you still"
-	line "awake?"
+	text "<PLAYER>, cậu còn"
+	line "thức à?"
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text_start
-	line "the HIKER!"
+	line "HIKER!"
 	done
 
 AnthonyGenericText:
-	text "Are your #MON"
-	line "as feisty as ever?"
+	text "#MON của cậu"
+	line "vẫn mạnh mẽ chứ?"
 
-	para "My @"
+	para "@"
 	text_ram wStringBuffer4
-	text " and"
-	line "me--we have energy"
+	text " và"
+	line "tớ--tụi tớ nhiều"
 
-	para "to burn. We hike"
-	line "up mountains every"
+	para "năng lượng. Tụi tớ"
+	line "leo núi mỗi ngày"
 
-	para "day to work out"
-	line "all our energy."
+	para "để giải phóng hết"
+	line "năng lượng."
 	done

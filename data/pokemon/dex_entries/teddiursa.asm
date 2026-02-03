@@ -1,10 +1,10 @@
-	db "LITTLE BEAR@" ; species name
-	dw 200, 190 ; height, weight
+	db "GẤU NHỎ@" ; species name
+	dw 6, 88 ; height, weight
 
-	db   "It always licks"
-	next "honey. Its palm"
-	next "tastes sweet"
+	db   "Nó luôn liếm mật."
+	next "Lòng bàn tay có"
+	next "vị ngọt vì đã"
 
-	page "because of all the"
-	next "honey it has"
-	next "absorbed.@"
+	page "hấp thụ nhiều"
+	next "mật ong.@"
+	next "@"

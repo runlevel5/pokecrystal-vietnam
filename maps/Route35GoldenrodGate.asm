@@ -64,8 +64,8 @@ RandyScript:
 
 GiftSpearowMail:
 	db FLOWER_MAIL
-	db   "DARK CAVE leads"
-	next "to another road@"
+	db   "HANG TỐI dẫn đến"
+	next "con đường khác@"
 
 GiftSpearowName:
 	db "KENYA@"
@@ -95,104 +95,102 @@ Route35GoldenrodGateFisherScript:
 	jumptextfaceplayer Route35GoldenrodGateFisherText
 
 Route35GoldenrodGateRandyAskTakeThisMonToMyFriendText:
-	text "Excuse me, kid!"
-	line "Can you do a guy"
-	cont "a favor?"
+	text "Xin lỗi, cậu bé!"
+	line "Có thể giúp một"
+	cont "việc không?"
 
-	para "Can you take this"
-	line "#MON with MAIL"
-	cont "to my friend?"
+	para "Cậu có thể mang"
+	line "#MON với THƯ"
+	cont "này đến bạn tôi?"
 
-	para "He's on ROUTE 31."
+	para "Anh ta ở TUYẾN"
+	line "ĐƯỜNG 31."
 	done
 
 Route35GoldenrodGateRandyThanksText:
-	text "You will? Perfect!"
-	line "Thanks, kid!"
+	text "Được không? Tuyệt!"
+	line "Cảm ơn cậu!"
 
-	para "My pal's a chubby"
-	line "guy who snoozes"
-	cont "all the time."
+	para "Bạn tôi là người"
+	line "mập, lúc nào cũng"
+	cont "ngủ gật."
 
-	para "You'll recognize"
-	line "him right away!"
+	para "Cậu sẽ nhận ra"
+	line "ngay thôi!"
 	done
 
 Route35GoldenrodGatePlayerReceivedAMonWithMailText:
-	text "<PLAYER> received a"
-	line "#MON with MAIL."
+	text "<PLAYER> nhận được"
+	line "#MON với THƯ."
 	done
 
 Route35GoldenrodGateRandyWeirdTreeBlockingRoadText:
-	text "You can read it,"
-	line "but don't lose it!"
-	cont "ROUTE 31!"
+	text "Cậu có thể đọc,"
+	line "nhưng đừng mất!"
+	cont "TUYẾN ĐƯỜNG 31!"
 
-	para "Oh, yeah. There"
-	line "was a weird tree"
-	cont "blocking the road."
+	para "À đúng rồi. Có cái"
+	line "cây lạ chặn đường"
+	cont "ở đó."
 
-	para "I wonder if it's"
-	line "been cleared?"
+	para "Không biết nó đã"
+	line "bị dọn chưa?"
 	done
 
 Route35GoldenrodGateRandyCantCarryAnotherMonText:
-	text "You can't carry"
-	line "another #MON…"
+	text "Cậu không thể mang"
+	line "#MON khác nữa…"
 	done
 
 Route35GoldenrodGateRandyOhNeverMindThenText:
-	text "Oh… Never mind,"
-	line "then…"
+	text "À… Thôi kệ…"
 	done
 
 Route35GoldenrodGateRandySomethingForYourTroubleText:
-	text "Thanks, kid! You"
-	line "made the delivery"
-	cont "for me!"
+	text "Cảm ơn, cậu bé!"
+	line "Cậu đã giao hàng"
+	cont "giúp tôi!"
 
-	para "Here's something"
-	line "for your trouble!"
+	para "Đây là thứ gì đó"
+	line "cho công sức!"
 	done
 
 Route35GoldenrodGateRandyMyPalWasSnoozingRightText:
-	text "My pal was snooz-"
-	line "ing, right? Heh,"
-	cont "what'd I say?"
+	text "Bạn tôi đang ngủ,"
+	line "đúng không? Hehe,"
+	cont "tôi đã nói mà?"
 	done
 
 Route35GoldenrodGatePokefanFText:
-	text "A strange tree is"
-	line "blocking the road."
+	text "Một cây lạ đang"
+	line "chặn đường."
 
-	para "It wriggles around"
-	line "if you talk to it."
+	para "Nó ngọ nguậy nếu"
+	line "bạn nói chuyện."
 
-	para "I heard it became"
-	line "wild when someone"
+	para "Nghe nói nó trở"
+	line "nên hoang dã khi"
 
-	para "watered it with a"
-	line "SQUIRTBOTTLE."
+	para "ai đó tưới nước"
+	line "bằng BÌNH XỊT."
 	done
 
 Route35GoldenrodGatePokefanFText_FoughtSudowoodo:
-	text "I like the #MON"
-	line "Lullaby they play"
-	cont "on the radio."
+	text "Tôi thích bài hát"
+	line "Ru #MON trên"
+	cont "radio."
 	done
 
 Route35GoldenrodGateFisherText:
-	text "I wonder how many"
-	line "kinds of #MON"
+	text "Không biết có bao"
+	line "nhiêu loại #MON"
 
-	para "there are in the"
-	line "world."
+	para "trên thế giới."
 
-	para "Three years ago,"
-	line "PROF.OAK said that"
+	para "Ba năm trước, GS"
+	line "OAK nói có 150"
 
-	para "there were 150"
-	line "different kinds."
+	para "loại khác nhau."
 	done
 
 Route35GoldenrodGate_MapEvents:

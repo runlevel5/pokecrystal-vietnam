@@ -13,17 +13,17 @@ LavenderSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 LavenderSpeechHousePokefanFText:
-	text "LAVENDER is a"
-	line "tiny, quiet town"
+	text "LAVENDER là thị"
+	line "trấn nhỏ, yên tĩnh"
 
-	para "at the foot of the"
-	line "mountains."
+	para "ở chân núi."
 
-	para "It's gotten a bit"
-	line "busier since the"
+	para "Nơi đây trở nên"
+	line "nhộn nhịp hơn một"
 
-	para "RADIO TOWER was"
-	line "built."
+	para "chút kể từ khi"
+	line "THÁP RADIO được"
+	cont "xây."
 	done
 
 LavenderSpeechHouse_MapEvents:

@@ -1,10 +1,10 @@
-	db "LONG LEG@" ; species name
-	dw 307, 740 ; height, weight
+	db "CHÂN DÀI@" ; species name
+	dw 11, 335 ; height, weight
 
-	db   "Rather than mak-"
-	next "ing a nest in one"
-	next "specific spot, it"
+	db   "Thay vì làm tổ"
+	next "ở một nơi, nó"
+	next "lang thang tìm"
 
-	page "wanders in search"
-	next "of food after"
-	next "darkness falls.@"
+	page "thức ăn sau khi"
+	next "trời tối.@"
+	next "@"

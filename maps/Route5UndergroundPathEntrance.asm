@@ -10,11 +10,11 @@ Route5UndergroundPathEntranceTeacherScript:
 	jumptextfaceplayer Route5UndergroundPathEntranceTeacherText
 
 Route5UndergroundPathEntranceTeacherText:
-	text "Many cities in"
-	line "JOHTO have long"
+	text "Nhiều thành phố ở"
+	line "JOHTO có lịch sử"
 
-	para "histories. I'd"
-	line "love to visit!"
+	para "lâu đời. Tôi rất"
+	line "muốn đến thăm!"
 	done
 
 Route5UndergroundPathEntrance_MapEvents:

@@ -1,10 +1,10 @@
-	db "COCOON@" ; species name
-	dw 204, 220 ; height, weight
+	db "KÉN@" ; species name
+	dw 7, 99 ; height, weight
 
-	db   "This is its pre-"
-	next "evolved form. At"
-	next "this stage, it can"
+	db   "Đây là dạng tiền"
+	next "tiến hóa. Ở giai"
+	next "đoạn này, nó chỉ"
 
-	page "only harden, so it"
-	next "remains motionless"
-	next "to avoid attack.@"
+	page "có thể cứng lại,"
+	next "nên nằm yên để"
+	next "né tránh kẻ thù.@"

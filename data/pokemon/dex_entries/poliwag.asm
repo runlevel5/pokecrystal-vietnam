@@ -1,10 +1,10 @@
-	db "TADPOLE@" ; species name
-	dw 200, 270 ; height, weight
+	db "NÒN NOC@" ; species name
+	dw 6, 124 ; height, weight
 
-	db   "The swirl on its"
-	next "belly is its"
-	next "insides showing"
+	db   "Xoắn ốc trên bụng"
+	next "là nội tạng hiện"
+	next "qua da. Nó rõ"
 
-	page "through the skin."
-	next "It looks clearer"
-	next "after it eats.@"
+	page "hơn sau khi ăn.@"
+	next "@"
+	next "@"

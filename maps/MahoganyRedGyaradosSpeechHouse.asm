@@ -33,29 +33,29 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
-	text "I heard that a red"
-	line "GYARADOS appeared"
-	cont "at the LAKE."
+	text "Tôi nghe nói một"
+	line "GYARADOS ĐỎ xuất"
+	cont "hiện ở HỒ."
 
-	para "That's odd, since"
-	line "even ordinary"
+	para "Kỳ lạ nhỉ, vì"
+	line "ngay cả GYARADOS"
 
-	para "GYARADOS are rare"
-	line "in that lake…"
+	para "thường cũng hiếm"
+	line "ở hồ đó…"
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText:
-	text "My favorite radio"
-	line "program? I'd say"
-	cont "#MON MUSIC."
+	text "Chương trình radio"
+	line "yêu thích? Tôi sẽ"
+	cont "nói #MON MUSIC."
 	done
 
 MahoganyRedGyaradosSpeechHouseTeacherText_RocketsInRadioTower:
-	text "I've been hearing"
-	line "laughter on the"
+	text "Tôi cứ nghe thấy"
+	line "tiếng cười trên"
 
 	para "radio…"
-	line "It's creepy."
+	line "Rùng rợn quá."
 	done
 
 MahoganyRedGyaradosSpeechHouse_MapEvents:

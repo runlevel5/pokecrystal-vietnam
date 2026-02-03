@@ -1,72 +1,71 @@
 DanaAskNumber1Text:
-	text "You're really good"
-	line "at #MON!"
+	text "Cậu thực sự giỏi"
+	line "#MON!"
 
-	para "Boys give me items"
-	line "after battles, but"
+	para "Các bạn nam cho"
+	line "tớ đồ sau trận"
 
-	para "sometimes they"
-	line "give me too much."
+	para "đấu, nhưng đôi khi"
+	line "họ cho quá nhiều."
 
-	para "Next time, I can"
-	line "share some if you"
+	para "Lần sau, tớ có thể"
+	line "chia sẻ nếu cậu"
 
-	para "want. Let me get"
-	line "your phone number."
+	para "muốn. Cho tớ số"
+	line "điện thoại nhé."
 	done
 
 DanaAskNumber2Text:
-	text "I'll share my"
-	line "gifts with you."
+	text "Tớ sẽ chia sẻ quà"
+	line "với cậu."
 
-	para "Let me get your"
-	line "phone number."
+	para "Cho tớ số điện"
+	line "thoại nhé."
 	done
 
 DanaNumberAcceptedText:
-	text "Next time a boy"
-	line "gives me something"
+	text "Lần sau bạn nam"
+	line "cho tớ gì đó sau"
 
-	para "after a battle,"
-	line "I'll share some!"
+	para "trận đấu, tớ sẽ"
+	line "chia sẻ!"
 
-	para "Does that make me"
-	line "bad?"
+	para "Điều đó có làm tớ"
+	line "xấu không?"
 	done
 
 DanaNumberDeclinedText:
-	text "Aww, you don't"
-	line "want anything?"
+	text "Ôi, cậu không muốn"
+	line "gì à?"
 
-	para "But it's all for"
-	line "free…"
+	para "Nhưng tất cả đều"
+	line "miễn phí mà…"
 	done
 
 DanaPhoneFullText:
-	text "But your phone's"
-	line "out of memory!"
+	text "Nhưng điện thoại"
+	line "đầy rồi!"
 	done
 
 DanaRematchText:
-	text "You're really"
-	line "late!"
+	text "Cậu thực sự trễ!"
 
-	para "I'm eager to get"
-	line "going!"
+	para "Tớ háo hức muốn"
+	line "bắt đầu!"
 	done
 
 DanaGiftText:
-	text "Hi! Are you here"
-	line "for your gift?"
+	text "Chào! Cậu đến lấy"
+	line "quà à?"
 
-	para "This should really"
-	line "make your day!"
+	para "Cái này thực sự"
+	line "làm cậu vui đấy!"
 	done
 
 DanaPackFullText:
-	text "Where are you"
-	line "going to put this?"
+	text "Cậu sẽ để cái này"
+	line "ở đâu?"
 
-	para "I'll keep it, so"
-	line "come get it later!"
+	para "Tớ giữ, đến lấy"
+	line "sau nhé!"
 	done

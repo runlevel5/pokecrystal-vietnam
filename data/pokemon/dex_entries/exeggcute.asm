@@ -1,10 +1,10 @@
-	db "EGG@" ; species name
-	dw 104, 60 ; height, weight
+	db "TRỨNG@" ; species name
+	dw 4, 25 ; height, weight
 
-	db   "If even one is"
-	next "separated from the"
-	next "group, the energy"
+	db   "Nếu một quả bị"
+	next "tách khỏi nhóm,"
+	next "năng lượng liên"
 
-	page "bond between the"
-	next "six will make them"
-	next "rejoin instantly.@"
+	page "kết giữa sáu quả"
+	next "sẽ khiến chúng"
+	next "tái hợp ngay.@"

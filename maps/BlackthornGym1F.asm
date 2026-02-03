@@ -148,240 +148,246 @@ BlackthornGymStatue:
 	jumpstd GymStatue2Script
 
 ClairIntroText:
-	text "I am CLAIR."
+	text "Ta là CLAIR."
 
-	para "The world's best"
-	line "dragon master."
+	para "Bậc thầy rồng"
+	line "giỏi nhất thế"
+	cont "giới."
 
-	para "I can hold my own"
-	line "against even the"
+	para "Ta có thể sánh"
+	line "ngang TỨ ĐẠI"
 
-	para "#MON LEAGUE's"
-	line "ELITE FOUR."
+	para "của LIÊN ĐOÀN"
+	line "#MON."
 
-	para "Do you still want"
-	line "to take me on?"
+	para "Ngươi vẫn muốn"
+	line "thách đấu ta?"
 
-	para "…Fine."
-	line "Let's do it!"
+	para "…Được thôi."
+	line "Bắt đầu nào!"
 
-	para "As a GYM LEADER,"
-	line "I will use my full"
+	para "Là một T.LĨNH"
+	line "GYM, ta sẽ dùng"
 
-	para "power against any"
-	line "opponent!"
+	para "toàn bộ sức mạnh"
+	line "với mọi đối thủ!"
 	done
 
 ClairWinText:
-	text "I lost?"
+	text "Ta thua?"
 
-	para "I don't believe"
-	line "it. There must be"
-	cont "some mistake…"
+	para "Không thể tin"
+	line "được. Chắc hẳn"
+	cont "có sự nhầm lẫn…"
 	done
 
 ClairText_GoToDragonsDen:
-	text "I won't admit"
-	line "this."
+	text "Ta không công"
+	line "nhận điều này."
 
-	para "I may have lost,"
-	line "but you're still"
+	para "Ta có thể đã"
+	line "thua, nhưng ngươi"
 
-	para "not ready for the"
-	line "#MON LEAGUE."
+	para "vẫn chưa sẵn sàng"
+	line "cho LIÊN ĐOÀN"
+	cont "#MON."
 
-	para "I know. You should"
-	line "take the dragon"
-	cont "user challenge."
+	para "Ta biết rồi."
+	line "Ngươi nên thử"
 
-	para "Behind this GYM is"
-	line "a place called"
-	cont "DRAGON'S DEN."
+	para "thách thức của"
+	line "người dùng rồng."
 
-	para "There is a small"
-	line "shrine at its"
+	para "Phía sau GYM này"
+	line "là một nơi gọi"
+	cont "là HANG RỒNG."
 
-	para "center."
-	line "Go there."
+	para "Có một ngôi đền"
+	line "nhỏ ở trung tâm."
 
-	para "If you can prove"
-	line "that you've lost"
+	para "Hãy đến đó."
 
-	para "your lazy ideals,"
-	line "I will recognize"
+	para "Nếu ngươi chứng"
+	line "minh được rằng"
 
-	para "you as a trainer"
-	line "worthy of a GYM"
-	cont "BADGE!"
+	para "mình đã bỏ những"
+	line "lý tưởng lười"
+	cont "biếng,"
+
+	para "ta sẽ công nhận"
+	line "ngươi là HLV xứng"
+	cont "đáng với HUY"
+	cont "HIỆU GYM!"
 	done
 
 ClairText_TooMuchToExpect:
-	text "What's the matter?"
+	text "Có chuyện gì?"
 
-	para "Is it too much to"
-	line "expect of you?"
+	para "Quá khó cho"
+	line "ngươi sao?"
 	done
 
 BlackthornGymClairText_YouKeptMeWaiting:
-	text "You've kept me"
-	line "waiting!"
+	text "Ngươi để ta chờ"
+	line "lâu quá!"
 
-	para "Here! Take this!"
+	para "Đây! Cầm lấy!"
 	done
 
 BlackthornGymText_ReceivedTM24:
-	text "<PLAYER> received"
+	text "<PLAYER> nhận được"
 	line "TM24."
 	done
 
 BlackthornGymClairText_DescribeTM24:
-	text "That contains"
-	line "DRAGONBREATH."
+	text "Trong đó chứa"
+	line "HƠI RỒNG."
 
-	para "No, it doesn't"
-	line "have anything to"
-	cont "do with my breath."
+	para "Không, nó chẳng"
+	line "liên quan gì đến"
+	cont "hơi thở của ta."
 
-	para "If you don't want"
-	line "it, you don't have"
-	cont "to take it."
+	para "Nếu ngươi không"
+	line "muốn thì không"
+	cont "cần phải nhận."
 	done
 
 BlackthornGymClairText_BagFull:
-	text "What is this? You"
-	line "don't have room?"
+	text "Cái gì? Ngươi"
+	line "không có chỗ à?"
 	done
 
 BlackthornGymClairText_League:
-	text "What's the matter?"
+	text "Có chuyện gì vậy?"
 
-	para "Aren't you headed"
-	line "to the #MON"
-	cont "LEAGUE?"
+	para "Ngươi không đi"
+	line "đến LIÊN ĐOÀN"
+	cont "#MON à?"
 
-	para "Don't you know"
-	line "where it is?"
+	para "Ngươi không biết"
+	line "nó ở đâu sao?"
 
-	para "From here, go to"
-	line "NEW BARK TOWN."
+	para "Từ đây, hãy đi"
+	line "đến NEW BARK TOWN."
 
-	para "Then SURF east."
-	line "The route there is"
-	cont "very tough."
+	para "Rồi LƯỚT SÓNG về"
+	line "phía đông. Đường"
+	cont "đi rất gian nan."
 
-	para "Don't you dare"
-	line "lose at the #-"
-	cont "MON LEAGUE!"
+	para "Đừng có dám thua"
+	line "ở LIÊN ĐOÀN"
+	cont "#MON!"
 
-	para "If you do, I'll"
-	line "feel even worse"
+	para "Nếu ngươi thua,"
+	line "ta sẽ còn cảm"
 
-	para "about having lost"
-	line "to you!"
+	para "thấy tệ hơn vì"
+	line "đã thua ngươi!"
 
-	para "Give it every-"
-	line "thing you've got."
+	para "Hãy cố gắng hết"
+	line "sức mình."
 	done
 
 CooltrainermPaulSeenText:
-	text "Your first battle"
-	line "against dragons?"
+	text "Lần đầu đấu với"
+	line "rồng à?"
 
-	para "I'll show you how"
-	line "tough they are!"
+	para "Để tôi cho cậu"
+	line "thấy chúng mạnh"
+	cont "thế nào!"
 	done
 
 CooltrainermPaulBeatenText:
-	text "My dragon #MON"
-	line "lost?"
+	text "#MON rồng của"
+	line "tôi thua rồi?"
 	done
 
 CooltrainermPaulAfterBattleText:
-	text "LANCE told you"
-	line "that he'd like to"
-
-	para "see you again?"
-	line "Not a chance!"
+	text "LANCE nói muốn"
+	line "gặp lại cậu ư?"
+	cont "Không thể nào!"
 	done
 
 CooltrainermMikeSeenText:
-	text "My chance of"
-	line "losing? Not even"
-	cont "one percent!"
+	text "Khả năng tôi"
+	line "thua? Không có"
+	cont "dù chỉ 1%!"
 	done
 
 CooltrainermMikeBeatenText:
-	text "That's odd."
+	text "Lạ thật."
 	done
 
 CooltrainermMikeAfterBattleText:
-	text "I know my short-"
-	line "comings now."
+	text "Giờ tôi biết"
+	line "điểm yếu của"
+	cont "mình rồi."
 
-	para "Thanks for showing"
-	line "me!"
+	para "Cảm ơn cậu đã"
+	line "chỉ cho tôi!"
 	done
 
 CooltrainerfLolaSeenText:
-	text "Dragons are sacred"
-	line "#MON."
+	text "Rồng là #MON"
+	line "linh thiêng."
 
-	para "They are full of"
-	line "life energy."
+	para "Chúng tràn đầy"
+	line "sinh khí."
 
-	para "If you're not"
-	line "serious, you won't"
+	para "Nếu bạn không"
+	line "nghiêm túc, bạn"
 
-	para "be able to beat"
-	line "them."
+	para "sẽ không thể"
+	line "đánh bại chúng."
 	done
 
 CooltrainerfLolaBeatenText:
-	text "Way to go!"
+	text "Giỏi lắm!"
 	done
 
 CooltrainerfLolaAfterBattleText:
-	text "Dragons are weak"
-	line "against dragon-"
-	cont "type moves."
+	text "Rồng yếu trước"
+	line "chiêu hệ rồng."
 	done
 
 BlackthornGymGuideText:
-	text "Yo! CHAMP in"
-	line "making!"
+	text "Chào! NHÀ VÔ ĐỊCH"
+	line "tương lai!"
 
-	para "It's been a long"
-	line "journey, but we"
+	para "Chặng đường dài"
+	line "rồi, nhưng sắp"
 
-	para "are almost done!"
-	line "Count on me!"
+	para "xong rồi!"
+	line "Tin tôi đi!"
 
-	para "CLAIR uses the"
-	line "mythical and sac-"
-	cont "red dragon-type"
-	cont "#MON."
+	para "CLAIR dùng #MON"
+	line "hệ rồng huyền"
+	cont "thoại và linh"
+	cont "thiêng."
 
-	para "You can't damage"
-	line "them very easily."
+	para "Bạn không dễ gây"
+	line "sát thương cho"
+	cont "chúng đâu."
 
-	para "But you know,"
-	line "they're supposed"
+	para "Nhưng mà, chúng"
+	line "có vẻ yếu trước"
 
-	para "to be weak against"
-	line "ice-type moves."
+	para "chiêu hệ băng"
+	line "đấy."
 	done
 
 BlackthornGymGuideWinText:
-	text "You were great to"
-	line "beat CLAIR!"
+	text "Bạn giỏi lắm khi"
+	line "thắng CLAIR!"
 
-	para "All that's left is"
-	line "the #MON LEAGUE"
-	cont "challenge."
+	para "Chỉ còn thử thách"
+	line "LIÊN ĐOÀN #MON"
+	cont "nữa thôi."
 
-	para "You're on the way"
-	line "to becoming the"
-	cont "#MON CHAMPION!"
+	para "Bạn đang trên"
+	line "đường trở thành"
+	cont "NHÀ VÔ ĐỊCH"
+	cont "#MON!"
 	done
 
 BlackthornGym1F_MapEvents:

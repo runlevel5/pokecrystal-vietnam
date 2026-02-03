@@ -1,10 +1,10 @@
-	db "LEAF@" ; species name
-	dw 211, 140 ; height, weight
+	db "LÁ@" ; species name
+	dw 9, 64 ; height, weight
 
-	db   "It loves to bask"
-	next "in the sunlight."
-	next "It uses the leaf"
+	db   "Nó thích tắm nắng"
+	next "Nó dùng chiếc lá"
+	next "trên đầu để tìm"
 
-	page "on its head to"
-	next "seek out warm"
-	next "places.@"
+	page "nơi ấm áp.@"
+	next "@"
+	next "@"

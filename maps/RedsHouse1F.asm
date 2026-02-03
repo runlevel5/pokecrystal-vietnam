@@ -33,43 +33,41 @@ RedsHouse1FBookshelf:
 	jumpstd PictureBookshelfScript
 
 RedsMomText1:
-	text "Hi!"
+	text "Chào con!"
 
-	para "RED's been away"
-	line "for a long time."
+	para "RED đã rời nhà"
+	line "lâu lắm rồi."
 
-	para "He hasn't called"
-	line "either, so I have"
+	para "Thằng bé cũng"
+	line "chẳng gọi về nên"
 
-	para "no idea where he"
-	line "is or what he's"
-	cont "been doing."
+	para "mẹ không biết nó"
+	line "đang ở đâu hay"
+	cont "làm gì."
 
-	para "They say that no"
-	line "word is proof that"
+	para "Người ta bảo là"
+	line "không có tin tức"
 
-	para "he's doing fine,"
-	line "but I do worry"
-	cont "about him."
+	para "nghĩa là con đang"
+	line "bình yên, nhưng"
+	cont "mẹ vẫn lo."
 	done
 
 RedsMomText2:
-	text "I worry about RED"
-	line "getting hurt or"
+	text "Mẹ lo RED bị"
+	line "thương hoặc ốm,"
 
-	para "sick, but he's a"
-	line "boy. I'm proud"
+	para "nhưng nó là con"
+	line "trai. Mẹ tự hào"
 
-	para "that he is doing"
-	line "what he wants to"
-
-	para "do."
+	para "là nó đang làm"
+	line "điều nó muốn."
 	done
 
 RedsHouse1FTVText:
-	text "They have programs"
-	line "that aren't shown"
-	cont "in JOHTO…"
+	text "Có chương trình"
+	line "không chiếu ở"
+	cont "JOHTO…"
 	done
 
 RedsHouse1F_MapEvents:

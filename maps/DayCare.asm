@@ -74,83 +74,85 @@ DayCareBookshelf:
 	jumpstd DifficultBookshelfScript
 
 Text_GrampsLookingForYou:
-	text "Gramps was looking"
-	line "for you."
+	text "Ông ấy đang tìm"
+	line "cháu."
 	done
 
 Text_DayCareManTalksAboutEggTicket: ; unreferenced
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Tôi là ÔNG GIỮ"
+	line "TRẺ."
 
-	para "There's something"
-	line "new in GOLDENROD"
+	para "Có một thứ mới ở"
+	line "TP.GOLDENROD"
 
-	para "called the TRADE"
-	line "CORNER."
+	para "tên là QUẦY"
+	line "TRAO ĐỔI."
 
-	para "I was given an EGG"
-	line "TICKET that can be"
+	para "Tôi được cho một"
+	line "VÉ TRỨNG có thể"
 
-	para "traded in for a"
-	line "ODD EGG."
+	para "đổi lấy"
+	line "TRỨNG LẠ."
 
-	para "But since we run a"
-	line "DAY-CARE, we don't"
+	para "Nhưng chúng tôi"
+	line "điều hành chỗ"
 
-	para "need it. You may"
-	line "as well have it."
+	para "GIỮ TRẺ, nên"
+	line "không cần nó."
+
+	para "Bạn cứ lấy"
+	line "đi nhé."
 	done
 
 DayCareManText_GiveOddEgg:
-	text "I'm the DAY-CARE"
-	line "MAN."
+	text "Tôi là ÔNG GIỮ"
+	line "TRẺ."
 
-	para "Do you know about"
-	line "EGGS?"
+	para "Cháu có biết về"
+	line "TRỨNG không?"
 
-	para "I was raising"
-	line "#MON with my"
-	cont "wife, you see."
+	para "Tôi đang nuôi"
+	line "#MON cùng vợ."
 
-	para "We were shocked to"
-	line "find an EGG!"
+	para "Chúng tôi sửng"
+	line "sốt thấy TRỨNG!"
 
-	para "How incredible is"
-	line "that?"
+	para "Thật không thể"
+	line "tin được!"
 
-	para "Well, wouldn't you"
-	line "like this EGG?"
+	para "Cháu có muốn lấy"
+	line "TRỨNG này không?"
 
-	para "Then fine, this is"
-	line "yours to keep!"
+	para "Được! Cháu giữ"
+	line "nó nhé!"
 	done
 
 DayCareText_ComeAgain: ; unreferenced
-	text "Come again."
+	text "Quay lại nhé."
 	done
 
 DayCareText_GotOddEgg:
-	text "<PLAYER> received"
-	line "ODD EGG!"
+	text "<PLAYER> nhận"
+	line "TRỨNG LẠ!"
 	done
 
 DayCareText_DescribeOddEgg:
-	text "I found that when"
-	line "I was caring for"
+	text "Tôi tìm thấy nó"
+	line "khi đang chăm sóc"
 
-	para "someone's #MON"
-	line "before."
+	para "#MON của người"
+	line "khác trước đây."
 
-	para "But the trainer"
-	line "didn't want the"
+	para "Nhưng HLV đó"
+	line "không muốn TRỨNG,"
 
-	para "EGG, so I'd kept"
-	line "it around."
+	para "nên tôi cứ giữ"
+	line "nó thôi."
 	done
 
 DayCareText_PartyFull:
-	text "You've no room for"
-	line "this."
+	text "Cháu không còn"
+	line "chỗ cho nó."
 	done
 
 DayCare_MapEvents:

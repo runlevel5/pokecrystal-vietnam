@@ -1,10 +1,10 @@
-	db "PIG@" ; species name
-	dw 104, 140 ; height, weight
+	db "LỢN@" ; species name
+	dw 4, 65 ; height, weight
 
-	db   "It uses the tip of"
-	next "its nose to dig"
-	next "for food. Its nose"
+	db   "Nó dùng đầu mũi"
+	next "đào tìm thức ăn."
+	next "Mũi nó cứng đến"
 
-	page "is so tough that"
-	next "even frozen ground"
-	next "poses no problem.@"
+	page "mức đất đóng"
+	next "băng cũng không"
+	next "thành vấn đề.@"

@@ -1,62 +1,62 @@
 TiffanyAskNumber1Text:
-	text "Hi! You like"
-	line "CLEFAIRY too?"
+	text "Chào! Cậu cũng"
+	line "thích CLEFAIRY à?"
 
-	para "They're so very"
-	line "cute, aren't they?"
+	para "Chúng rất dễ"
+	line "thương phải không?"
 
-	para "I think we can be"
-	line "good friends!"
+	para "Tớ nghĩ chúng ta"
+	line "có thể là bạn tốt!"
 
-	para "I want to know"
-	line "your phone number!"
+	para "Tớ muốn biết SĐT"
+	line "của cậu!"
 
-	para "Let's talk about"
-	line "CLEFAIRY!"
+	para "Nói chuyện về"
+	line "CLEFAIRY nào!"
 	done
 
 TiffanyAskNumber2Text:
-	text "I want to know"
-	line "your phone number!"
+	text "Tớ muốn biết SĐT"
+	line "của cậu!"
 
-	para "Let's talk about"
-	line "CLEFAIRY!"
+	para "Nói chuyện về"
+	line "CLEFAIRY nào!"
 	done
 
 TiffanyNumberAcceptedText:
-	text "Isn't my CLEFAIRY"
-	line "super-adorable?"
+	text "CLEFAIRY của tớ có"
+	line "đáng yêu không?"
 	done
 
 TiffanyNumberDeclinedText:
-	text "Aww… Oh well."
-	line "Look for me if you"
+	text "Aww… Ồ thôi."
+	line "Tìm tớ nếu cậu"
 
-	para "want to talk about"
+	para "muốn nói chuyện về"
 	line "CLEFAIRY."
 	done
 
 TiffanyPhoneFullText:
-	text "Oh? Your phone"
-	line "registry is full."
+	text "Ồ? Danh bạ cậu"
+	line "đầy rồi."
 	done
 
 TiffanyRematchText:
-	text "There you are!"
+	text "Cậu đây rồi!"
 
-	para "CLEFAIRY, I want"
-	line "you to try hard!"
+	para "CLEFAIRY, tớ muốn"
+	line "cậu cố gắng!"
 	done
 
 TiffanyGiftText:
-	text "You took a long"
-	line "time. See this?"
+	text "Cậu mất lâu đấy."
+	line "Xem cái này xem?"
 
-	para "Isn't it cute?"
-	line "It's a PINK BOW."
+	para "Nó dễ thương chứ?"
+	line "Đó là PINK BOW."
 	done
 
 TiffanyPackFullText:
-	text "Uh-oh. Your PACK"
-	line "is crammed full."
+	text "Uh-oh. BALO cậu"
+	line "đầy kín rồi."
 	done

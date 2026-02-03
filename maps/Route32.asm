@@ -523,401 +523,410 @@ Movement_Route32CooltrainerMReset2:
 	step_end
 
 Route32CooltrainerMText_WhatsTheHurry:
-	text "Wait up!"
-	line "What's the hurry?"
+	text "Đợi đã!"
+	line "Sao vội thế?"
 	done
 
 Route32CooltrainerMText_AideIsWaiting:
-	text "<PLAYER>, right?"
-	line "Some guy wearing"
+	text "<PLAYER>, đúng ko?"
+	line "Có anh chàng đeo"
 
-	para "glasses was look-"
-	line "ing for you."
+	para "kính đang tìm"
+	line "bạn."
 
-	para "See for yourself."
-	line "He's waiting for"
+	para "Tự đi mà xem."
+	line "Anh ta đang chờ"
 
-	para "you at the #MON"
-	line "CENTER."
-	done
-
-Route32CooltrainerMText_UnusedSproutTower:
-	text "Have you gone to"
-	line "SPROUT TOWER?"
-
-	para "If you ever visit"
-	line "VIOLET CITY, "
-
-	para "they'll expect you"
-	line "to train there."
-
-	para "That's basic for"
-	line "trainers. Go to"
-	cont "SPROUT TOWER!"
-	done
-
-Route32CooltrainerMText_VioletGym:
-	text "Have you gone to"
-	line "the #MON GYM?"
-
-	para "You can test your"
-	line "#MON and your-"
-	cont "self there."
-
-	para "It's a rite of"
-	line "passage for all"
-	cont "trainers!"
-	done
-
-Route32CooltrainerMText_HaveThisSeed:
-	text "You have some good"
-	line "#MON there."
-
-	para "It must be from"
-	line "the training you"
-
-	para "gave them around"
-	line "VIOLET CITY."
-
-	para "The training at"
-	line "the GYM must have"
-
-	para "been especially"
-	line "helpful."
-
-	para "As a souvenir of"
-	line "VIOLET CITY, take"
-	cont "this."
-
-	para "It increases the"
-	line "power of grass-"
-	cont "type moves."
-	done
-
-Route32CooltrainerMText_ExperiencesShouldBeUseful:
-	text "Your experiences"
-	line "in VIOLET CITY"
-
-	para "should be useful"
-	line "for your journey."
-	done
-
-Text_MillionDollarSlowpokeTail:
-	text "How would you like"
-	line "to have this"
-
-	para "tasty, nutritious"
-	line "SLOWPOKETAIL?"
-
-	para "For you right now,"
-	line "just ¥1,000,000!"
-
-	para "You'll want this!"
-	done
-
-Text_ThoughtKidsWereLoaded:
-	text "Tch! I thought"
-	line "kids these days"
-	cont "were loaded…"
-	done
-
-Text_RefusedToBuySlowpokeTail:
-	text "You don't want it?"
-	line "Then scram. Shoo!"
-	done
-
-FisherJustinSeenText:
-	text "Whoa!"
-
-	para "You made me lose"
-	line "that fish!"
-	done
-
-FisherJustinBeatenText:
-	text "Sploosh!"
-	done
-
-FisherJustinAfterText:
-	text "Calm, collected…"
-	line "The essence of"
-
-	para "fishing and #-"
-	line "MON is the same."
-	done
-
-FisherRalph1SeenText:
-	text "I'm really good at"
-	line "both fishing and"
-	cont "#MON."
-
-	para "I'm not about to"
-	line "lose to any kid!"
-	done
-
-FisherRalph1BeatenText:
-	text "Tch! I tried to"
-	line "rush things…"
-	done
-
-FisherRalphAfterText:
-	text "Fishing is a life-"
-	line "long passion."
-
-	para "#MON are life-"
-	line "long friends!"
-	done
-
-FisherRalphSwarmText:
-	text "One, two, three…"
-	line "Muahahaha, what a"
-
-	para "great haul!"
-	line "I'm done! Go ahead"
-
-	para "and catch as many"
-	line "as you can, kid!"
-	done
-
-Route32UnusedFisher1SeenText: ; unreferenced
-	text "I keep catching"
-	line "the same #MON…"
-
-	para "Maybe a battle"
-	line "will turn things"
-	cont "around for me."
-	done
-
-Route32UnusedFisher1BeatenText: ; unreferenced
-	text "Nothing ever goes"
-	line "right for me now…"
-	done
-
-Route32UnusedFisher1AfterText: ; unreferenced
-	text "How come the guy"
-	line "next to me catches"
-	cont "good #MON?"
-	done
-
-Route32UnusedFisher2SeenText: ; unreferenced
-	text "Heh, I'm on a roll"
-	line "today. How about a"
-	cont "battle, kid?"
-	done
-
-Route32UnusedFisher2BeatenText: ; unreferenced
-	text "Oof. I wasn't"
-	line "lucky that time."
-	done
-
-Route32UnusedFisher2AfterText: ; unreferenced
-	text "You have to have a"
-	line "good ROD if you"
-
-	para "want to catch good"
+	para "bạn ở TT"
 	line "#MON."
 	done
 
+Route32CooltrainerMText_UnusedSproutTower:
+	text "Bạn đã đến"
+	line "THÁP MẦM chưa?"
+
+	para "Nếu có dịp đến"
+	line "TP VIOLET, "
+
+	para "họ sẽ muốn bạn"
+	line "tập luyện ở đó."
+
+	para "Đó là điều cơ bản"
+	line "cho HLV. Hãy đến"
+	cont "THÁP MẦM!"
+	done
+
+Route32CooltrainerMText_VioletGym:
+	text "Bạn đã đến GYM"
+	line "#MON chưa?"
+
+	para "Bạn có thể thử"
+	line "sức #MON và"
+	cont "bản thân ở đó."
+
+	para "Đó là nghi thức"
+	line "bắt buộc cho mọi"
+	cont "HLV!"
+	done
+
+Route32CooltrainerMText_HaveThisSeed:
+	text "Bạn có vài #MON"
+	line "tốt đấy."
+
+	para "Chắc là nhờ tập"
+	line "luyện quanh vùng"
+
+	para "TP VIOLET"
+	line "mà ra."
+
+	para "Tập luyện ở GYM"
+	line "chắc hẳn đã giúp"
+
+	para "bạn rất"
+	line "nhiều."
+
+	para "Để kỷ niệm"
+	line "TP VIOLET, hãy"
+	cont "nhận cái này."
+
+	para "Nó tăng sức mạnh"
+	line "chiêu hệ cỏ."
+	done
+
+Route32CooltrainerMText_ExperiencesShouldBeUseful:
+	text "Kinh nghiệm của"
+	line "bạn ở TP VIOLET"
+
+	para "sẽ có ích cho"
+	line "hành trình."
+	done
+
+Text_MillionDollarSlowpokeTail:
+	text "Bạn có muốn"
+	line "ĐUÔI SLOWPOKE"
+
+	para "ngon lành, bổ"
+	line "dưỡng này không?"
+
+	para "Giá hôm nay cho"
+	line "bạn ¥1,000,000!"
+
+	para "Bạn sẽ muốn đó!"
+	done
+
+Text_ThoughtKidsWereLoaded:
+	text "Tch! Tao tưởng"
+	line "bọn trẻ giờ"
+	cont "toàn giàu…"
+	done
+
+Text_RefusedToBuySlowpokeTail:
+	text "Ko muốn à?"
+	line "Vậy biến đi. Xù!"
+	done
+
+FisherJustinSeenText:
+	text "Ối!"
+
+	para "Mày làm tao mất"
+	line "con cá rồi!"
+	done
+
+FisherJustinBeatenText:
+	text "Tõm!"
+	done
+
+FisherJustinAfterText:
+	text "Bình tĩnh, tập"
+	line "trung… Tinh túy"
+
+	para "của câu cá và #"
+	line "MON giống nhau."
+	done
+
+FisherRalph1SeenText:
+	text "Tao giỏi cả"
+	line "câu cá lẫn"
+	cont "#MON."
+
+	para "Tao sẽ không thua"
+	line "bất kỳ nhóc nào!"
+	done
+
+FisherRalph1BeatenText:
+	text "Tch! Tao vội vàng"
+	line "quá…"
+	done
+
+FisherRalphAfterText:
+	text "Câu cá là đam mê"
+	line "cả đời."
+
+	para "#MON là bạn"
+	line "cả đời!"
+	done
+
+FisherRalphSwarmText:
+	text "Một, hai, ba…"
+	line "Muahahaha, thật"
+
+	para "bội thu!"
+	line "Tao xong rồi! Cứ"
+
+	para "bắt bao nhiêu"
+	line "tuỳ thích, nhóc!"
+	done
+
+Route32UnusedFisher1SeenText: ; unreferenced
+	text "Tao cứ bắt được"
+	line "mãi cùng #MON…"
+
+	para "Có lẽ trận đấu"
+	line "sẽ thay đổi"
+	cont "vận may của tao."
+	done
+
+Route32UnusedFisher1BeatenText: ; unreferenced
+	text "Chẳng có gì suôn"
+	line "sẻ với tao cả…"
+	done
+
+Route32UnusedFisher1AfterText: ; unreferenced
+	text "Sao gã bên cạnh"
+	line "lại câu được"
+	cont "#MON tốt thế?"
+	done
+
+Route32UnusedFisher2SeenText: ; unreferenced
+	text "Heh, hôm nay tao"
+	line "may mắn. Đấu"
+	cont "không, nhóc?"
+	done
+
+Route32UnusedFisher2BeatenText: ; unreferenced
+	text "Oof. Lần này tao"
+	line "không may rồi."
+	done
+
+Route32UnusedFisher2AfterText: ; unreferenced
+	text "Phải có CẦN tốt"
+	line "nếu muốn bắt"
+
+	para "#MON"
+	line "tốt."
+	done
+
 FisherHenrySeenText:
-	text "My #MON?"
-	line "Freshly caught!"
+	text "#MON của tao?"
+	line "Mới bắt tươi rói!"
 	done
 
 FisherHenryBeatenText:
-	text "SPLASH?"
+	text "TÉ NƯỚC?"
 	done
 
 FisherHenryAfterText:
-	text "Freshly caught"
-	line "#MON are no"
+	text "#MON mới bắt"
+	line "không thể sánh"
 
-	para "match for properly"
-	line "raised ones."
+	para "với những con"
+	line "được nuôi tử tế."
 	done
 
 YoungsterAlbertSeenText:
-	text "I haven't seen you"
-	line "around before."
+	text "Tao chưa thấy mày"
+	line "ở đây bao giờ."
 
-	para "So you think you"
-	line "are pretty tough?"
+	para "Mày nghĩ mày"
+	line "khá mạnh à?"
 	done
 
 YoungsterAlbertBeatenText:
-	text "You're strong!"
+	text "Mày mạnh thật!"
 	done
 
 YoungsterAlbertAfterText:
-	text "I'm going to try"
-	line "to be the best"
-	cont "with my favorites."
+	text "Tao sẽ cố gắng"
+	line "trở thành giỏi"
+	cont "nhất với con yêu"
 
-	para "I'm not using the"
-	line "same tough #MON"
-	cont "as everyone else."
+	para "thích của mình."
+	line "Tao không dùng"
+
+	para "#MON mạnh"
+	line "như người khác."
 	done
 
 YoungsterGordonSeenText:
-	text "I found some good"
-	line "#MON in the"
-	cont "grass!"
+	text "Tao tìm được"
+	line "#MON tốt trong"
+	cont "bụi cỏ!"
 
-	para "I think they'll do"
-	line "it for me!"
+	para "Chúng sẽ giúp"
+	line "tao chiến thắng!"
 	done
 
 YoungsterGordonBeatenText:
-	text "Darn. I thought I"
-	line "could win."
+	text "Chết. Tao tưởng"
+	line "tao thắng được."
 	done
 
 YoungsterGordonAfterText:
-	text "The grass is full"
-	line "of clingy things."
+	text "Bụi cỏ đầy những"
+	line "thứ bám dính."
 	done
 
 CamperRolandSeenText:
-	text "That glance…"
-	line "It's intriguing."
+	text "Ánh mắt đó…"
+	line "Thú vị đấy."
 	done
 
 CamperRolandBeatenText:
-	text "Hmmm. This is"
-	line "disappointing."
+	text "Hừm. Thật thất"
+	line "vọng."
 	done
 
 CamperRolandAfterText:
-	text "If you don't want"
-	line "to battle, just"
-	cont "avoid eye contact."
+	text "Nếu không muốn"
+	line "đấu, chỉ cần"
+	cont "tránh giao mắt."
 	done
 
 PicnickerLiz1SeenText:
-	text "Uh-huh. Yeah, and"
-	line "you know…"
+	text "Ừ-hừ. Phải, rồi"
+	line "bạn biết…"
 
-	para "Pardon? Battle?"
-	line "I'm on the phone."
+	para "Sao? Đấu?"
+	line "Tớ đang nghe đt."
 
-	para "Oh, all right. But"
-	line "make it fast."
+	para "Ôi, được rồi."
+	line "Nhưng nhanh nhé."
 	done
 
 PicnickerLiz1BeatenText:
-	text "Oh! I've got to"
-	line "relieve my anger!"
+	text "Ôi! Tớ phải xả"
+	line "cơn tức giận!"
 	done
 
 PicnickerLiz1AfterText:
-	text "I was having a"
-	line "nice chat too."
+	text "Tớ đang nói"
+	line "chuyện vui mà."
 	done
 
 BirdKeeperPeterSeenText:
-	text "That BADGE! It's"
-	line "from VIOLET CITY!"
+	text "HUY HIỆU đó! Của"
+	line "TP VIOLET!"
 
-	para "You beat FALKNER?"
+	para "Bạn thắng FALKNER"
+	line "rồi à?"
 	done
 
 BirdKeeperPeterBeatenText:
-	text "I know what my"
-	line "weaknesses are."
+	text "Tôi biết điểm yếu"
+	line "của mình."
 	done
 
 BirdKeeperPeterAfterText:
-	text "I should train"
-	line "again at the GYM"
-	cont "in VIOLET CITY."
+	text "Tôi nên tập luyện"
+	line "lại ở GYM"
+	cont "TP VIOLET."
 	done
 
 Route32UnusedText: ; unreferenced
-	text "The fishermen"
-	line "yelled at me for"
-	cont "bugging them…"
+	text "Mấy ông câu cá"
+	line "la tao vì làm"
+	cont "phiền họ…"
 	done
 
 Text_RoarIntro:
-	text "WROOOOAR!"
-	line "PEOPLE RUN WHEN I"
+	text "GRẦMMMM!"
+	line "NGƯỜI TA CHẠY KHI"
 
-	para "ROAR! BUT YOU"
-	line "CAME LOOKING!"
+	para "TAO GẦM! NHƯNG"
+	line "MÀY LẠI TÌM ĐẾN!"
 
-	para "THAT PLEASES ME!"
-	line "NOW TAKE THIS!"
+	para "ĐIỀU ĐÓ LÀM TAO"
+	line "VUI! GIỜ CẦM LẤY!"
 	done
 
 Text_RoarOutro:
-	text "WROOOAR!"
-	line "IT'S ROAR!"
+	text "GRẦMMMM!"
+	line "ĐÓ LÀ GẦM!"
 
-	para "EVEN #MON RUN"
-	line "FROM A GOOD ROAR!"
+	para "CẢ #MON CŨNG"
+	line "CHẠY KHI GẦM HAY!"
 	done
 
 MeetFriedaText:
 	text "FRIEDA: Yahoo!"
-	line "It's Friday!"
+	line "Hôm nay thứ Sáu!"
 
-	para "I'm FRIEDA of"
-	line "Friday!"
+	para "Tớ là FRIEDA của"
+	line "thứ Sáu!"
 
-	para "Nice to meet you!"
+	para "Rất vui được"
+	line "gặp bạn!"
 	done
 
 FriedaGivesGiftText:
-	text "Here's a POISON"
-	line "BARB for you!"
+	text "Đây là POISON"
+	line "BARB cho bạn!"
 	done
 
 FriedaGaveGiftText:
-	text "FRIEDA: Give it to"
-	line "a #MON that has"
-	cont "poison-type moves."
+	text "FRIEDA: Đưa nó"
+	line "cho #MON có"
+	cont "chiêu hệ độc."
 
-	para "Oh!"
+	para "Ôi!"
 
-	para "It's wicked!"
+	para "Cực kỳ lợi hại!"
 
-	para "You'll be shocked"
-	line "how good it makes"
-	cont "poison moves!"
+	para "Bạn sẽ ngạc nhiên"
+	line "về độ mạnh của"
+	cont "chiêu độc đấy!"
 	done
 
 FriedaFridayText:
-	text "FRIEDA: Hiya! What"
-	line "day do you like?"
+	text "FRIEDA: Chào!"
+	line "Bạn thích thứ nào"
 
-	para "I love Friday. No"
-	line "doubt about it!"
+	para "trong tuần?"
+	line "Tớ thích thứ Sáu."
 
-	para "Don't you think"
-	line "it's great too?"
+	para "Không nghi ngờ gì"
+	line "cả!"
+
+	para "Bạn không nghĩ"
+	line "nó tuyệt sao?"
 	done
 
 FriedaNotFridayText:
-	text "FRIEDA: Isn't it"
-	line "Friday today?"
+	text "FRIEDA: Hôm nay"
+	line "không phải thứ"
 
-	para "It's so boring"
-	line "when it's not!"
+	para "Sáu à?"
+	line "Chán quá khi"
+
+	para "không phải thứ"
+	line "Sáu!"
 	done
 
 Route32SignText:
 	text "ROUTE 32"
 
-	para "VIOLET CITY -"
+	para "TP VIOLET -"
 	line "AZALEA TOWN"
 	done
 
 Route32RuinsSignText:
-	text "RUINS OF ALPH"
-	line "EAST ENTRANCE"
+	text "TÀN TÍCH ALPH"
+	line "LỐI VÀO PHÍA ĐÔNG"
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
-	line "AHEAD"
+	text "HANG ĐỘNG UNION"
+	line "PHÍA TRƯỚC"
 	done
 
 Route32_MapEvents:

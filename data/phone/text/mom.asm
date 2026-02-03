@@ -1,165 +1,165 @@
 MomPhoneGreetingText:
-	text "Hello?"
+	text "A lô?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Working hard?"
+	para "Ồ, <PLAYER> đó à!"
+	line "Có chăm chỉ không?"
 	done
 
 MomPhoneLandmarkText:
-	text "Oh, so you're in"
+	text "Ồ, con đang ở"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Isn't that where"
+	para "Đó là nơi có"
 	line "@"
 	text_ram wStringBuffer4
 	text_start
-	para "is? Did you go"
-	line "take a look?"
+	para "phải không? Con đã"
+	line "ghé thăm chưa?"
 	done
 
 MomPhoneGenericAreaText:
-	text "Really, you're in"
+	text "Thật sao, con ở"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "I've never gone"
-	line "there. That's kind"
-	cont "of neat, <PLAYER>."
+	para "Mẹ chưa đến đó"
+	line "bao giờ. Thú vị"
+	cont "thật, <PLAYER>."
 	done
 
 MomPhoneNewBarkText:
-	text "What? You're in"
+	text "Sao? Con đang ở"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Come see your MOM"
-	line "sometime!"
+	para "Ghé thăm mẹ khi"
+	line "có dịp nhé!"
 	done
 
 MomPhoneCherrygroveText:
-	text "You're visiting"
+	text "Con đang ở"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "How about coming"
-	line "home for a bit?"
+	para "Hay là về nhà"
+	line "một chút nhé?"
 	done
 
 MomOtherAreaText:
-	text "Wow, you're in"
+	text "Ồ, con đang ở"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Good luck on your"
-	line "#MON quest!"
+	para "Chúc con may mắn"
+	line "với hành trình!"
 	done
 
 MomDeterminedText:
-	text "That sounds really"
-	line "tough."
+	text "Nghe có vẻ vất"
+	line "vả thật."
 
-	para "But, <PLAYER>, I"
-	line "know you're really"
+	para "Nhưng <PLAYER>,"
+	line "mẹ biết con rất"
 
-	para "determined. You'll"
-	line "be OK, right?"
+	para "quyết tâm. Con sẽ"
+	line "ổn thôi, phải ko?"
 	done
 
 MomCheckBalanceText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "À này, con đã"
+	line "tiết kiệm ¥@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Do you want to"
-	line "keep on saving?"
+	para "Con muốn tiếp tục"
+	line "tiết kiệm không?"
 	done
 
 MomImportantToSaveText:
-	text "It's important to"
-	line "save your money."
+	text "Tiết kiệm tiền rất"
+	line "quan trọng đấy."
 	done
 
 MomYoureNotSavingText:
-	text "Oh, <PLAYER>,"
-	line "you're not saving"
+	text "Ồ, <PLAYER>,"
+	line "con không tiết"
 
-	para "any money. Would"
-	line "you like to save?"
+	para "kiệm tiền à. Con"
+	line "muốn để dành ko?"
 	done
 
 MomYouveSavedText:
-	text "By the way, you've"
-	line "saved up ¥@"
+	text "À này, con đã"
+	line "tiết kiệm ¥@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Want to start"
-	line "saving again?"
+	para "Muốn bắt đầu tiết"
+	line "kiệm lại không?"
 	done
 
 MomOKIllSaveText:
-	text "OK. I'll save your"
-	line "money."
+	text "OK. Mẹ sẽ giữ"
+	line "tiền cho con."
 	done
 
 MomPhoneWontSaveMoneyText:
-	text "OK. I won't save"
-	line "your money."
+	text "OK. Mẹ sẽ không"
+	line "giữ tiền nữa."
 	done
 
 MomPhoneHangUpText:
-	text "<PLAYER>, keep it"
-	line "up! I'm rooting"
-	cont "for you, baby!"
+	text "<PLAYER>, cố lên"
+	line "nhé! Mẹ luôn ủng"
+	cont "hộ con, cưng à!"
 	done
 
 MomPhoneNoPokemonText:
-	text "Hello?"
+	text "A lô?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "Wasn't PROF.ELM"
-	cont "waiting for you?"
+	para "Ồ, <PLAYER> đó à!"
+	line "GS ELM không đang"
+	cont "đợi con sao?"
 	done
 
 MomPhoneNoPokedexText:
-	text "Hello?"
+	text "A lô?"
 
-	para "Oh, hi, <PLAYER>!"
-	line "You're on a big"
+	para "Ồ, <PLAYER> đó à!"
+	line "Con đang làm"
 
-	para "mission for PROF."
-	line "ELM? Be good!"
+	para "nhiệm vụ lớn cho"
+	line "GS ELM? Ngoan nhé!"
 	done
 
 MomPhoneNoGymQuestText:
-	text "Hello?"
+	text "A lô?"
 
-	para "Hi, <PLAYER>! If"
-	line "you're done with"
+	para "Chào <PLAYER>! Nếu"
+	line "xong việc rồi thì"
 
-	para "your errand come"
-	line "on home, dear."
+	para "về nhà đi con"
+	line "yêu."
 	done
 
 MomPhoneLectureText:
-	text "Hello?"
+	text "A lô?"
 
 	para "…… <PLAYER>?"
-	line "I heard from PROF."
+	line "Mẹ nghe GS ELM"
 
-	para "ELM that you went"
-	line "on a long trip."
+	para "nói con đi chuyến"
+	line "đi xa rồi."
 
-	para "I wish you would"
-	line "have told me…"
+	para "Mẹ ước gì con nói"
+	line "với mẹ trước…"
 
-	para "What about money?"
-	line "Should I save it?"
+	para "Còn tiền thì sao?"
+	line "Để mẹ giữ nhé?"
 	done

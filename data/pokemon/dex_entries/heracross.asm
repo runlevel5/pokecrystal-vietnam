@@ -1,10 +1,10 @@
-	db "SINGLEHORN@" ; species name
-	dw 411, 1190 ; height, weight
+	db "MỘT SỪNG@" ; species name
+	dw 15, 540 ; height, weight
 
-	db   "With its Herculean"
-	next "powers, it can"
-	next "easily throw arou-"
+	db   "Với sức mạnh"
+	next "Hercules, nó có"
+	next "thể dễ dàng ném"
 
-	page "nd an object that"
-	next "is 100 times its"
-	next "own weight.@"
+	page "vật nặng gấp 100"
+	next "lần trọng lượng"
+	next "của nó.@"

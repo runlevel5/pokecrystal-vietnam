@@ -35,104 +35,100 @@ TrainerHouseIllegibleBook:
 	jumptext TrainerHouseIllegibleText
 
 TrainerHouse1FReceptionistText:
-	text "Welcome to TRAINER"
-	line "HOUSE, the newest"
+	text "Chào mừng đến"
+	line "NHÀ HLV,"
 
-	para "and most happening"
-	line "place in VIRIDIAN."
+	para "nơi mới nhất và"
+	line "sôi động nhất ở"
+	cont "VIRIDIAN."
 
-	para "We're open to"
-	line "trainers only."
+	para "Chúng tôi chỉ mở"
+	line "cửa cho HLV."
 
-	para "You can battle"
-	line "against the best"
+	para "Bạn có thể chiến"
+	line "đấu với những"
 
-	para "of the best right"
-	line "downstairs."
+	para "người giỏi nhất ở"
+	line "tầng dưới."
 	done
 
 TrainerHouse1FCooltrainerMText:
-	text "VIRIDIAN is the"
-	line "town closest to"
-	cont "INDIGO PLATEAU."
+	text "VIRIDIAN là thị"
+	line "trấn gần"
+	cont "CAO NGUYÊN INDIGO"
+	cont "nhất."
 
-	para "They built this"
-	line "place because so"
+	para "Họ xây nơi này vì"
+	line "nhiều HLV đi qua"
 
-	para "many trainers pass"
-	line "through on their"
-
-	para "way up to INDIGO"
-	line "PLATEAU."
+	para "trên đường lên"
+	line "CAO NGUYÊN INDIGO"
 	done
 
 TrainerHouse1FCooltrainerFText:
-	text "They hold practice"
-	line "battles downstairs"
-	cont "here."
+	text "Họ tổ chức trận"
+	line "đấu thực hành ở"
+	cont "tầng dưới."
 
-	para "I would love to"
-	line "see how well a"
-
-	para "trainer from JOHTO"
-	line "battles."
+	para "Tôi muốn xem HLV"
+	line "từ JOHTO đánh"
+	cont "nhau."
 	done
 
 TrainerHouse1FYoungsterText:
-	text "I guess you can't"
-	line "become the CHAMP"
+	text "Tôi nghĩ bạn phải"
+	line "đi khắp nơi và"
 
-	para "unless you go all"
-	line "over the place and"
+	para "đánh với nhiều"
+	line "người khác nhau"
 
-	para "battle all kinds"
-	line "of people."
+	para "thì mới trở thành"
+	line "VÔ ĐỊCH được."
 
-	para "The CHAMPION from"
-	line "PALLET traveled to"
+	para "VÔ ĐỊCH từ PALLET"
+	line "đã đi đến tất cả"
 
-	para "all the cities and"
-	line "towns in KANTO."
+	para "các thành phố ở"
+	line "KANTO."
 	done
 
 TrainerHouse1FGentlemanText:
-	text "Whew… I'm taking a"
-	line "rest from #MON"
-	cont "battles."
+	text "Phù… Tôi đang"
+	line "nghỉ không đánh"
+	cont "#MON."
 	done
 
 TrainerHouseSign1Text:
-	text "Practice battles"
-	line "are held in the"
+	text "Trận đấu thực"
+	line "hành được tổ chức"
 
-	para "TRAINING HALL"
-	line "downstairs."
+	para "ở PHÒNG LUYỆN TẬP"
+	line "tầng dưới."
 
-	para "Skilled trainers"
-	line "are invited to"
-	cont "participate."
+	para "HLV giỏi được mời"
+	line "tham gia."
 	done
 
 TrainerHouseSign2Text:
-	text "There are no rules"
-	line "or regulations for"
+	text "Không có luật lệ"
+	line "cho trận đấu thực"
+	cont "hành."
 
-	para "practice matches."
-	line "Just like in field"
-
-	para "battles, anything"
-	line "goes!"
+	para "Giống như đấu"
+	line "ngoài đồng, mọi"
+	cont "thứ đều được!"
 	done
 
 TrainerHouseIllegibleText:
-	text "…What's this?"
-	line "A strategy memo?"
+	text "…Cái này là gì?"
+	line "Ghi chú chiến"
+	cont "thuật?"
 
-	para "This writing looks"
-	line "like ONIX tracks…"
+	para "Chữ viết này giống"
+	line "dấu chân ONIX…"
 
-	para "It's completely"
-	line "illegible…"
+	para "Hoàn toàn không"
+	line "đọc được…"
 	done
 
 TrainerHouse1F_MapEvents:

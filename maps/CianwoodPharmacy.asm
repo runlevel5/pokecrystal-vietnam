@@ -39,35 +39,35 @@ CianwoodPharmacyBookshelf:
 	jumpstd DifficultBookshelfScript
 
 PharmacistGiveSecretpotionText:
-	text "Your #MON ap-"
-	line "pear to be fine."
+	text "#MON của bạn"
+	line "có vẻ khoẻ mạnh."
 
-	para "Is something wor- "
-	line "rying you?"
+	para "Có chuyện gì"
+	line "làm bạn lo lắng?"
 
 	para "…"
 
-	para "The LIGHTHOUSE"
-	line "#MON is in"
-	cont "trouble?"
+	para "#MON ở HẢI ĐĂNG"
+	line "gặp rắc rối à?"
 
-	para "I got it!"
+	para "Tôi hiểu rồi!"
 
-	para "This ought to do"
-	line "the trick."
+	para "Cái này sẽ giải"
+	line "quyết vấn đề."
 	done
 
 ReceivedSecretpotionText:
-	text "<PLAYER> received"
-	line "SECRETPOTION."
+	text "<PLAYER> nhận được"
+	line "THUỐC BÍ MẬT."
 	done
 
 PharmacistDescribeSecretpotionText:
-	text "My SECRETPOTION is"
-	line "a tad too strong."
+	text "THUỐC BÍ MẬT của"
+	line "tôi hơi mạnh quá."
 
-	para "I only offer it in"
-	line "an emergency."
+	para "Tôi chỉ đưa nó"
+	line "trong trường hợp"
+	cont "khẩn cấp."
 	done
 
 CianwoodPharmacy_MapEvents:

@@ -96,116 +96,117 @@ GoldenrodUndergroundWarehouseUltraBall:
 	itemball ULTRA_BALL
 
 GruntM24SeenText:
-	text "How did you get"
-	line "this far?"
+	text "Sao mày đến được"
+	line "tận đây?"
 
-	para "I guess it can't"
-	line "be helped. I'll"
-	cont "dispose of you."
+	para "Hình như không thể"
+	line "tránh được. Tao sẽ"
+	cont "xử lý mày."
 	done
 
 GruntM24BeatenText:
-	text "I got disposed of…"
+	text "Tao bị xử lý…"
 	done
 
 GruntM24AfterBattleText:
-	text "TEAM ROCKET will"
-	line "keep going, wait-"
-	cont "ing for the return"
-	cont "of GIOVANNI."
+	text "ĐỘI ROCKET sẽ tiếp"
+	line "tục, chờ đợi sự"
+	cont "trở lại của"
+	cont "GIOVANNI."
 
-	para "We'll do whatever"
-	line "it takes."
+	para "Chúng tao sẽ làm"
+	line "bất cứ điều gì."
 	done
 
 GruntM14SeenText:
-	text "You're not going"
-	line "any farther!"
+	text "Mày không đi xa"
+	line "hơn nữa đâu!"
 
-	para "I don't show mercy"
-	line "to my enemies, not"
-	cont "even brats!"
+	para "Tao không thương"
+	line "xót kẻ thù, ngay"
+	cont "cả lũ nhóc!"
 	done
 
 GruntM14BeatenText:
-	text "Blast it!"
+	text "Chết tiệt!"
 	done
 
 GruntM14AfterBattleText:
-	text "I lost…"
+	text "Tao thua…"
 
-	para "Please forgive me,"
-	line "GIOVANNI!"
+	para "Xin hãy tha thứ"
+	line "cho tao, GIOVANNI!"
 	done
 
 GruntM15SeenText:
 	text "Hyuck-hyuck-hyuck!"
-	line "I remember you!"
+	line "Tao nhớ mày!"
 
-	para "You got me good"
-	line "at our hideout!"
+	para "Mày đánh bại tao"
+	line "tại hang của tao!"
 	done
 
 GruntM15BeatenText:
 	text "Hyuck-hyuck-hyuck!"
-	line "So, that's how?"
+	line "Vậy là thế à?"
 	done
 
 GruntM15AfterBattleText:
 	text "Hyuck-hyuck-hyuck!"
-	line "That was a blast!"
-	cont "I'll remember you!"
+	line "Thật sảng khoái!"
+	cont "Tao sẽ nhớ mày!"
 	done
 
 DirectorIntroText:
-	text "DIRECTOR: Who?"
-	line "What? You came to"
-	cont "rescue me?"
+	text "GIÁM ĐỐC: Ai đó?"
+	line "Gì? Bạn đến cứu"
+	cont "tôi sao?"
 
-	para "Thank you!"
+	para "Cảm ơn bạn!"
 
-	para "The RADIO TOWER!"
+	para "THÁP RADIO!"
 
-	para "What's happening"
-	line "there?"
+	para "Chuyện gì đang"
+	line "xảy ra ở đó?"
 
-	para "Taken over by TEAM"
-	line "ROCKET?"
+	para "Bị ĐỘI ROCKET"
+	line "chiếm?"
 
-	para "Here. Take this"
-	line "CARD KEY."
+	para "Đây. Lấy THẺ KHÓA"
+	line "này."
 	done
 
 DirectorCardKeyText:
-	text "DIRECTOR: Use that"
-	line "to open the shut-"
-	cont "ters on 3F."
+	text "GIÁM ĐỐC: Dùng nó"
+	line "để mở cửa cuốn ở"
+	cont "tầng 3."
 	done
 
 DirectorAfterText:
-	text "I'm begging you to"
-	line "help."
+	text "Tôi cầu xin bạn"
+	line "giúp đỡ."
 
-	para "There's no telling"
-	line "what they'll do if"
+	para "Không biết chúng"
+	line "sẽ làm gì nếu"
 
-	para "they control the"
-	line "transmitter."
+	para "chúng kiểm soát"
+	line "máy phát."
 
-	para "They may even be"
-	line "able to control"
+	para "Chúng thậm chí có"
+	line "thể kiểm soát"
 
-	para "#MON using a"
-	line "special signal!"
+	para "#MON bằng tín"
+	line "hiệu đặc biệt!"
 
-	para "You're the only"
-	line "one I can call on."
+	para "Bạn là người duy"
+	line "nhất tôi có thể"
+	cont "nhờ."
 
-	para "Please save the"
-	line "RADIO TOWER…"
+	para "Xin hãy cứu THÁP"
+	line "RADIO…"
 
-	para "And all the #-"
-	line "MON nationwide!"
+	para "Và tất cả #MON"
+	line "trên toàn quốc!"
 	done
 
 GoldenrodUndergroundWarehouse_MapEvents:

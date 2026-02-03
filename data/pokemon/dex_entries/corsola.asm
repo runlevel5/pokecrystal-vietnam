@@ -1,10 +1,10 @@
-	db "CORAL@" ; species name
-	dw 200, 110 ; height, weight
+	db "SAN HÔ@" ; species name
+	dw 6, 50 ; height, weight
 
-	db   "The points on its"
-	next "head absorb"
-	next "nutrients from"
+	db   "Các mũi nhọn trên"
+	next "đầu hấp thụ chất"
+	next "dinh dưỡng từ"
 
-	page "clean water. They"
-	next "cannot survive in"
-	next "polluted water.@"
+	page "nước sạch. Chúng"
+	next "không sống được"
+	next "ở nước ô nhiễm.@"

@@ -1,10 +1,10 @@
-	db "AURORA@" ; species name
-	dw 607, 4120 ; height, weight
+	db "CỰC QUANG@" ; species name
+	dw 20, 1870 ; height, weight
 
-	db   "This divine"
-	next "#MON blows"
-	next "around the world,"
+	db   "#MON thần thánh"
+	next "này bay khắp thế"
+	next "giới, luôn tìm"
 
-	page "always in search"
-	next "of a pure"
-	next "reservoir.@"
+	page "kiếm một hồ nước"
+	next "trong lành và"
+	next "tinh khiết.@"

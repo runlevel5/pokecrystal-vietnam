@@ -1,10 +1,10 @@
-	db "FLOWER@" ; species name
-	dw 311, 410 ; height, weight
+	db "HOA@" ; species name
+	dw 12, 186 ; height, weight
 
-	db   "By shaking its big"
-	next "petals, it scat-"
-	next "ters toxic pollen"
+	db   "Bằng cách lắc"
+	next "cánh hoa lớn, nó"
+	next "phát tán phấn độc"
 
-	page "into the air,"
-	next "turning the air"
-	next "yellow.@"
+	page "vào không khí,"
+	next "làm không khí"
+	next "chuyển vàng.@"

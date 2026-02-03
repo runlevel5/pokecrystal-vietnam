@@ -44,25 +44,25 @@ MrFujisHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MrFujisHouseSuperNerdText:
-	text "MR.FUJI does live"
-	line "here, but he's not"
+	text "ÔNG FUJI ở đây,"
+	line "nhưng giờ ông"
 
-	para "home now."
+	para "không có nhà."
 
-	para "He should be at"
-	line "the SOUL HOUSE."
+	para "Ông ấy nên đang ở"
+	line "NHÀ LINH HỒN."
 	done
 
 MrFujisHouseLassText:
-	text "Some cold-hearted"
-	line "people stop caring"
-	cont "for their #MON."
+	text "Một số người lạnh"
+	line "lùng không quan"
+	cont "tâm #MON nữa."
 
-	para "Grandpa takes in"
-	line "the poor homeless"
+	para "Ông nội nhận các"
+	line "con #MON tội"
 
-	para "#MON and takes"
-	line "care of them."
+	para "nghiệp không nhà"
+	line "và chăm sóc chúng"
 	done
 
 MrFujisPsyduckText:

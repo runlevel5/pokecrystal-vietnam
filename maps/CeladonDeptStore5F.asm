@@ -40,33 +40,31 @@ CeladonDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore5FGentlemanText:
-	text "I want to buy some"
-	line "items that raise"
+	text "Tôi muốn mua vật"
+	line "phẩm tăng chỉ số"
 
-	para "#MON stats, but"
-	line "I don't have"
-	cont "enough money…"
+	para "#MON, nhưng"
+	line "không đủ tiền…"
 	done
 
 CeladonDeptStore5FSailorText:
-	text "I want PP UP, so I"
-	line "can raise the PP"
+	text "Tôi muốn PP UP để"
+	line "tăng PP chiêu."
 
-	para "of moves. But you"
-	line "can't buy it…"
+	para "Nhưng không thể"
+	line "mua được…"
 	done
 
 CeladonDeptStore5FTeacherText:
-	text "Using items on"
-	line "them makes #-"
-	cont "MON happy."
+	text "Dùng vật phẩm làm"
+	line "#MON vui."
 
-	para "They hate certain"
-	line "items, though…"
+	para "Nhưng chúng ghét"
+	line "vài thứ…"
 	done
 
 CeladonDeptStore5FDirectoryText:
-	text "5F: DRUG STORE"
+	text "5F: NHÀ THUỐC"
 	done
 
 CeladonDeptStore5F_MapEvents:

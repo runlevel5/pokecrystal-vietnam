@@ -1,10 +1,10 @@
-	db "HAPPINESS@" ; species name
-	dw 200, 70 ; height, weight
+	db "HẠNH PHÚC@" ; species name
+	dw 6, 32 ; height, weight
 
-	db   "Although it does"
-	next "not flap its wings"
-	next "very much, it can"
+	db   "Dù không vỗ cánh"
+	next "nhiều, nó có thể"
+	next "bay lơ lửng khi"
 
-	page "stay up in the air"
-	next "as it tags along"
-	next "after its trainer.@"
+	page "đi theo HLV.@"
+	next "@"
+	next "@"

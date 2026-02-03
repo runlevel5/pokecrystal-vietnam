@@ -1,10 +1,10 @@
-	db "MOLE@" ; species name
-	dw 204, 730 ; height, weight
+	db "CHUỘT CHŨI@" ; species name
+	dw 7, 333 ; height, weight
 
-	db   "These DIGLETT"
-	next "triplets dig over"
-	next "60 miles below sea"
+	db   "Bộ ba DIGLETT này"
+	next "đào sâu hơn 100km"
+	next "dưới mực nước"
 
-	page "level. No one"
-	next "knows what it's"
-	next "like underground.@"
+	page "biển. Không ai"
+	next "biết dưới đó"
+	next "như thế nào.@"

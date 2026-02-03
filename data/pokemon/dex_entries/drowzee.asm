@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
-	dw 303, 710 ; height, weight
+	db "THÔI MIÊN@" ; species name
+	dw 10, 324 ; height, weight
 
-	db   "When it twitches"
-	next "its nose, it can"
-	next "tell where someone"
+	db   "Khi khịt mũi, nó"
+	next "biết được ai đang"
+	next "ngủ ở đâu và"
 
-	page "is sleeping and"
-	next "what that person"
-	next "is dreaming about.@"
+	page "người đó đang"
+	next "mơ thấy gì.@"
+	next "@"

@@ -35,47 +35,44 @@ Route10Pokecenter1FCooltrainerFScript:
 	jumptextfaceplayer Route10Pokecenter1FCooltrainerFText
 
 Route10Pokecenter1FGentlemanText:
-	text "A #MON CENTER"
-	line "near a cave?"
+	text "T.TÂM #MON gần"
+	line "hang động à?"
 
-	para "That's mighty"
-	line "convenient."
+	para "Thật là tiện lợi"
+	line "phải không nào."
 	done
 
 Route10Pokecenter1FGymGuideText:
-	text "The POWER PLANT's"
-	line "MANAGER is looking"
+	text "Q.LÝ NHÀ MÁY ĐIỆN"
+	line "đang tìm HLV"
 
-	para "for a strong #-"
-	line "MON trainer."
+	para "#MON mạnh."
 
-	para "He needs help"
-	line "getting back"
-
-	para "something that"
-	line "was stolen."
+	para "Ông cần giúp đỡ"
+	line "lấy lại thứ"
+	cont "đã bị đánh cắp."
 	done
 
 Route10Pokecenter1FGymGuideText_ReturnedMachinePart:
-	text "I hear TEAM ROCKET"
-	line "got back together"
+	text "Nghe ĐỘI ROCKET"
+	line "tụ họp lại"
 
-	para "in JOHTO but fell"
-	line "apart right away."
+	para "ở JOHTO nhưng tan"
+	line "rã ngay lập tức."
 
-	para "I didn't know any-"
-	line "thing about that."
+	para "Tôi không biết gì"
+	line "về chuyện đó."
 	done
 
 Route10Pokecenter1FCooltrainerFText:
-	text "When you go out-"
-	line "side, you can see"
+	text "Ra ngoài cậu sẽ"
+	line "thấy mái nhà của"
 
-	para "the roof of a big"
-	line "building."
+	para "một tòa nhà rất"
+	line "lớn."
 
-	para "That's the POWER"
-	line "PLANT."
+	para "Đó là NHÀ MÁY"
+	line "ĐIỆN."
 	done
 
 Route10Pokecenter1F_MapEvents:

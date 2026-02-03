@@ -1,10 +1,10 @@
-	db "VOLCANO@" ; species name
-	dw 211, 420 ; height, weight
+	db "NÚI LỬA@" ; species name
+	dw 9, 190 ; height, weight
 
-	db   "Before battle, it"
-	next "turns its back on"
-	next "its opponent to"
+	db   "Trước trận đấu,"
+	next "nó quay lưng lại"
+	next "đối thủ để thể"
 
-	page "demonstrate how"
-	next "ferociously its"
-	next "fire blazes.@"
+	page "hiện ngọn lửa"
+	next "của nó cháy"
+	next "dữ dội thế nào.@"

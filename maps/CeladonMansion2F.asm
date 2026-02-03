@@ -13,38 +13,36 @@ CeladonMansion2FBookshelf:
 	jumpstd DifficultBookshelfScript
 
 CeladonMansion2FComputerText:
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> bật PC."
 
 	para "…"
 
-	para "Someone was in the"
-	line "middle of compos-"
-	cont "ing an e-mail."
+	para "Có người đang soạn"
+	line "e-mail dang dở."
 
-	para "…I hope you'll"
-	line "come visit KANTO."
+	para "…Tôi mong bạn sẽ"
+	line "đến thăm KANTO."
 
-	para "I think you'll be"
-	line "surprised at how"
+	para "Tôi nghĩ bạn sẽ"
+	line "ngạc nhiên về sự"
 
-	para "much things have"
-	line "changed here."
+	para "thay đổi nhiều ở"
+	line "đây."
 
-	para "You'll also see"
-	line "many #MON that"
+	para "Bạn cũng sẽ thấy"
+	line "nhiều #MON"
 
-	para "aren't native to"
-	line "JOHTO."
+	para "không có nguồn"
+	line "gốc từ JOHTO."
 
-	para "To the PRODUCER"
+	para "Gửi NHÀ SẢN XUẤT"
 
 	para "…"
 	done
 
 CeladonMansion2FMeetingRoomSignText:
 	text "GAME FREAK"
-	line "MEETING ROOM"
+	line "PHÒNG HỌP"
 	done
 
 CeladonMansion2F_MapEvents:

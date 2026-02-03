@@ -7,10 +7,10 @@ VictoryRoadEntranceSign:
 	jumptext VictoryRoadEntranceSignText
 
 VictoryRoadEntranceSignText:
-	text "#MON LEAGUE"
+	text "LIÊN ĐOÀN #MON"
 
-	para "VICTORY ROAD"
-	line "ENTRANCE"
+	para "LỐI VINH QUANG"
+	line "LỐI VÀO"
 	done
 
 Route22_MapEvents:

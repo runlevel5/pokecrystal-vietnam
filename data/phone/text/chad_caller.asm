@@ -1,245 +1,241 @@
 ChadObservingWildText:
-	text "I recently began"
-	line "observing wild"
-	cont "@"
+	text "Gần đây tớ bắt đầu"
+	line "quan sát @"
 	text_ram wStringBuffer4
-	text "."
+	text_start
+	cont "hoang."
 
-	para "I've been learning"
-	line "all sorts of new"
+	para "Tớ đã học được rất"
+	line "nhiều điều mới"
 
-	para "things through my"
-	line "observations."
+	para "qua việc quan"
+	line "sát."
 
-	para "I wish I could"
-	line "become a #MON"
+	para "Tớ ước sớm trở"
+	line "thành nhà nghiên"
 
-	para "researcher like"
-	line "PROF.OAK soon."
+	para "cứu #MON như"
+	line "GS OAK."
 	done
 
 ChadDefeatedMonText:
-	text "Oh yes, I managed"
-	line "to knock out a"
+	text "À đúng rồi, tớ đã"
+	line "hạ một con"
 
-	para "wild @"
+	para "@"
 	text_ram wStringBuffer4
-	text " a"
-	line "while back."
+	text " hoang"
+	line "trước đây."
 
-	para "Well, considering"
-	line "all the studying I"
+	para "Vâng, xét đến"
+	line "việc tớ học mỗi"
 
-	para "do every day, it"
-	line "was inevitable."
+	para "ngày, điều đó là"
+	line "không thể tránh."
 	done
 
 ChadLostAMonText:
-	text "Oh yes, I came"
-	line "close to catching"
+	text "À đúng rồi, tớ gần"
+	line "bắt được một con"
 
-	para "a wild @"
+	para "@"
 	text_ram wStringBuffer4
-	text ","
-	line "but it got away."
+	text " hoang,"
+	line "nhưng nó trốn mất."
 
-	para "For the longest"
-	line "time, I've been"
+	para "Trong thời gian"
+	line "dài tớ mong muốn"
 
-	para "wanting to observe"
+	para "quan sát"
 	line "@"
 	text_ram wStringBuffer4
-	text ". Rats…"
+	text "."
+	cont "Chết tiệt…"
 	done
 
 ChadBattleRematchText:
-	text "Want to battle?"
-	line "I have to battle"
+	text "Muốn đấu? Tớ phải"
+	line "đấu thường xuyên"
 
-	para "every so often to"
-	line "avoid rusting out."
+	para "để tránh bị"
+	line "cùn kiến thức."
 
-	para "I'll be on"
+	para "Tớ sẽ ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ChadHangUpText:
-	text "See you later!"
+	text "Hẹn gặp lại!"
 	done
 
 ChadBlueGossipText:
-	text "Do you know BLUE?"
+	text "Cậu biết BLUE?"
 
-	para "He's PROF.OAK's"
-	line "grandson and a"
+	para "Cậu ấy là cháu"
+	line "GS OAK và"
 
-	para "former #MON"
-	line "LEAGUE CHAMPION!"
+	para "cựu VÔ ĐỊCH"
+	line "LIÊN ĐOÀN #MON!"
 
-	para "He's one super"
-	line "#MON trainer!"
+	para "Cậu ấy là HLV"
+	line "#MON siêu đẳng!"
 	done
 
 ChadDaisyGossipText:
-	text "PROF.OAK has a"
-	line "granddaughter"
-	cont "named DAISY."
+	text "GS OAK có một cháu"
+	line "gái tên DAISY."
 
-	para "When she's around,"
-	line "even the most"
+	para "Khi cô ấy ở gần,"
+	line "ngay cả #MON"
 
-	para "ferocious #MON"
-	line "calm right down."
+	para "dữ tợn nhất cũng"
+	line "dịu lại."
 	done
 
 ChadProfElmGossipText:
-	text "Everyone's talking"
-	line "about PROF.ELM."
+	text "Mọi người nói về"
+	line "GS ELM."
 
-	para "He used to be an"
-	line "assistant to the"
-	cont "great PROF.OAK!"
+	para "Ông ấy từng là trợ"
+	line "lý của GS OAK vĩ"
+	cont "đại!"
 
-	para "That is so cool!"
-	line "I envy him!"
+	para "Thật tuyệt vời!"
+	line "Tớ thèm ông ấy!"
 	done
 
 ChadProfOaksDreamGossipText:
-	text "PROF.OAK's dream"
-	line "is to compile a"
+	text "Ước mơ của GS OAK"
+	line "là biên soạn một"
 
-	para "comprehensive"
-	line "#DEX."
+	para "#DEX toàn"
+	line "diện."
 
-	para "I envy you for"
-	line "taking part in"
-	cont "that project…"
+	para "Tớ thèm cậu được"
+	line "tham gia dự án đó…"
 	done
 
 ChadKurtGossipText:
-	text "Do you know KURT,"
-	line "the BALL creator?"
+	text "Cậu biết KURT,"
+	line "người tạo BALL?"
 
-	para "He and PROF.OAK go"
-	line "back a long way."
+	para "Ông ấy và GS OAK"
+	line "quen từ lâu."
 
-	para "I guess great"
-	line "people attract one"
-	cont "another!"
+	para "Tớ đoán người vĩ"
+	line "đại thu hút nhau!"
 	done
 
 ChadLeagueGossipText:
-	text "#MON LEAGUE is"
-	line "the great gather-"
-	cont "ing place for all"
+	text "LIÊN ĐOÀN #MON"
+	line "là nơi tập hợp"
+	cont "vĩ đại của tất cả"
 
-	para "trainers who wish"
-	line "to become CHAMP."
+	para "HLV muốn trở"
+	line "thành VÔ ĐỊCH."
 
-	para "PROF.OAK acts as"
-	line "an advisor to the"
+	para "GS OAK làm cố vấn"
+	line "cho trụ sở chính"
 
-	para "#MON LEAGUE's"
-	line "headquarters."
+	para "của LIÊN ĐOÀN"
+	line "#MON."
 
-	para "He really is a"
-	line "great man."
+	para "Ông ấy thực sự là"
+	line "người vĩ đại."
 	done
 
 ChadPokemonTalkGossipText:
-	text "PROF.OAK'S #MON"
-	line "TALK is a popular"
-	cont "radio show, right?"
+	text "#MON TALK của"
+	line "GS OAK là chương"
+	cont "trình radio nổi"
 
-	para "Did you know that"
-	line "he was going to"
+	para "tiếng, đúng không?"
 
-	para "turn down the show"
-	line "at first?"
+	para "Cậu có biết ông ấy"
+	line "định từ chối"
 
-	para "But MARY's energy"
-	line "and persistence"
-	cont "wore him down."
+	para "chương trình lúc"
+	line "đầu không?"
 
-	para "So we have MARY to"
-	line "thank for it!"
+	para "Nhưng năng lượng"
+	line "và kiên trì của"
+	cont "MARY thuyết phục"
+
+	para "ông ấy. Vậy ta"
+	line "cảm ơn MARY!"
 	done
 
 ChadProfOakTrainerGossipText:
-	text "PROF.OAK used to"
-	line "be a trainer a"
-	cont "long time ago."
+	text "GS OAK từng là HLV"
+	line "từ lâu rồi."
 
-	para "But rather than"
-	line "battling, he found"
+	para "Nhưng hơn là đấu,"
+	line "ông ấy thấy bản"
 
-	para "#MON themselves"
-	line "to be interesting."
+	para "thân #MON thú"
+	line "vị hơn."
 
-	para "So he abandoned"
-	line "his training to"
+	para "Vì vậy ông ấy từ"
+	line "bỏ huấn luyện để"
 
-	para "focus on becoming"
-	line "a researcher."
+	para "tập trung nghiên"
+	line "cứu."
 	done
 
 ChadDaisyTeaGossipText:
-	text "PROF.OAK has a"
-	line "granddaughter"
-	cont "named DAISY."
+	text "GS OAK có cháu gái"
+	line "tên DAISY."
 
-	para "She has tea every"
-	line "day for an hour"
+	para "Cô ấy uống trà mỗi"
+	line "ngày một tiếng"
 
-	para "from three in the"
-	line "afternoon."
+	para "từ 3 giờ chiều."
 
-	para "I wish I could"
-	line "join her for tea"
+	para "Tớ ước tớ có thể"
+	line "tham gia uống trà"
 
-	para "and chat about"
-	line "PROF.OAK."
+	para "và trò chuyện về"
+	line "GS OAK."
 	done
 
 ChadProfOakTravelingGossipText:
-	text "Did you know?"
-	line "PROF.OAK traveled"
+	text "Cậu có biết?"
+	line "GS OAK đã đi"
 
-	para "all over the world"
-	line "when he was young."
+	para "khắp thế giới khi"
+	line "ông ấy còn trẻ."
 
-	para "While traveling,"
-	line "he must've learned"
+	para "Khi đi du lịch,"
+	line "ông ấy chắc hẳn đã"
 
-	para "about #MON"
-	line "naturally."
+	para "học về #MON"
+	line "một cách tự nhiên."
 
-	para "I envy him…"
-	line "I'd like to travel"
+	para "Tớ thèm ông ấy…"
+	line "Tớ cũng muốn đi du"
 
-	para "and learn about"
-	line "things too…"
+	para "lịch và học hỏi"
+	line "về mọi thứ…"
 	done
 
 ChadGoingToStudyHardText:
-	text "I'm going to study"
-	line "hard so PROF.OAK"
+	text "Tớ sẽ học chăm chỉ"
+	line "để GS OAK nhận tớ"
 
-	para "will make me his"
-	line "assistant!"
+	para "làm trợ lý!"
 	done
 
 ChadReminderText:
-	text "Do you remember"
-	line "about our battle?"
+	text "Cậu nhớ về trận"
+	line "đấu chứ?"
 
-	para "The place is"
+	para "Địa điểm là"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Hurry over--I'm"
-	line "waiting."
+	para "Nhanh lên--tớ"
+	line "đang đợi."
 	done

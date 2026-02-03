@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 1301, 360 ; height, weight
+	db "RỒNG@" ; species name
+	dw 40, 165 ; height, weight
 
-	db   "It is called the"
-	next "divine #MON."
-	next "When its entire"
+	db   "Nó được gọi là"
+	next "#MON thần thánh"
+	next "Khi toàn thân nó"
 
-	page "body brightens"
-	next "slightly, the"
-	next "weather changes.@"
+	page "sáng lên, thời"
+	next "tiết thay đổi.@"
+	next "@"

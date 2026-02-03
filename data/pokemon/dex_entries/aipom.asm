@@ -1,10 +1,10 @@
-	db "LONG TAIL@" ; species name
-	dw 207, 250 ; height, weight
+	db "ĐUÔI DÀI@" ; species name
+	dw 8, 115 ; height, weight
 
-	db   "It uses its tail"
-	next "to hang on to tree"
-	next "branches. It uses"
+	db   "Nó dùng đuôi bám"
+	next "vào cành cây."
+	next "Nó dùng đà để"
 
-	page "its momentum to"
-	next "swing from one"
-	next "branch to another.@"
+	page "đu từ cành này"
+	next "sang cành khác.@"
+	next "@"

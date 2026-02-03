@@ -71,97 +71,99 @@ Route12HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_12_HIDDEN_ELIXER
 
 FisherMartinSeenText:
-	text "Patience is the"
-	line "key to both fish-"
-	cont "ing and #MON."
+	text "Kiên nhẫn là chìa"
+	line "khóa cho cả câu"
+	cont "cá và #MON."
 	done
 
 FisherMartinBeatenText:
-	text "Gwaaah!"
+	text "Gwaaa!"
 	done
 
 FisherMartinAfterBattleText:
-	text "I'm too impatient"
-	line "for fishing…"
+	text "Tôi quá thiếu"
+	line "kiên nhẫn để câu"
+	cont "cá…"
 	done
 
 FisherStephenSeenText:
-	text "I feel so content,"
-	line "fishing while lis-"
-	cont "tening to some"
-	cont "tunes on my radio."
+	text "Tôi thấy rất hài"
+	line "lòng khi câu cá và"
+	cont "nghe nhạc trên"
+	cont "radio."
 	done
 
 FisherStephenBeatenText:
-	text "My stupid radio"
-	line "distracted me!"
+	text "Radio ngốc của tôi"
+	line "làm tôi mất tập"
+	cont "trung!"
 	done
 
 FisherStephenAfterBattleText:
-	text "Have you checked"
-	line "out KANTO's radio"
+	text "Bạn đã xem chương"
+	line "trình radio KANTO"
 
-	para "programs? We get a"
-	line "good variety here."
+	para "chưa? Chúng ta có"
+	line "nhiều loại ở đây."
 	done
 
 FisherBarneySeenText:
-	text "What's most impor-"
-	line "tant in our every-"
-	cont "day lives?"
+	text "Điều quan trọng"
+	line "nhất trong cuộc"
+	cont "sống hàng ngày là"
+	cont "gì?"
 	done
 
 FisherBarneyBeatenText:
-	text "The answer is"
-	line "coming up next!"
+	text "Câu trả lời sắp"
+	line "được tiết lộ!"
 	done
 
 FisherBarneyAfterBattleText:
-	text "I think electric-"
-	line "ity is the most"
+	text "Tôi nghĩ điện là"
+	line "thứ quan trọng"
 
-	para "important thing in"
-	line "our daily lives."
+	para "nhất trong cuộc"
+	line "sống hàng ngày."
 
-	para "If it weren't,"
-	line "people wouldn't"
+	para "Nếu không, mọi"
+	line "người đã không"
 
-	para "have made such a"
-	line "fuss when the"
+	para "làm ồn ào đến vậy"
+	line "khi NHÀ MÁY ĐIỆN"
 
-	para "POWER PLANT went"
-	line "out of commission."
+	para "ngừng hoạt động."
 	done
 
 FisherKyleSeenText:
-	text "Do you remember?"
+	text "Bạn có nhớ không?"
 	done
 
 FisherKyleBeatenText:
-	text "You do remember?"
+	text "Bạn có nhớ chứ?"
 	done
 
 FisherKyleAfterBattleText:
-	text "The tug you feel"
-	line "on the ROD when"
+	text "Cảm giác kéo trên"
+	line "CẦN CÂU khi bạn"
 
-	para "you hook a #-"
-	line "MON…"
+	para "câu được #MON…"
 
-	para "That's the best"
-	line "feeling ever for"
-	cont "an angler like me."
+	para "Đó là cảm giác"
+	line "tuyệt nhất đối"
+	cont "với thợ câu như"
+	cont "tôi."
 	done
 
 Route12SignText:
-	text "ROUTE 12"
+	text "TUYẾN ĐƯỜNG 12"
 
-	para "NORTH TO LAVENDER"
-	line "TOWN"
+	para "BẮC ĐẾN THỊ TRẤN"
+	line "LAVENDER"
 	done
 
 FishingSpotSignText:
-	text "FISHING SPOT"
+	text "ĐỊA ĐIỂM CÂU CÁ"
 	done
 
 Route12_MapEvents:

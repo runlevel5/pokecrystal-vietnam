@@ -1,10 +1,10 @@
-	db "PAINTER@" ; species name
-	dw 311, 1280 ; height, weight
+	db "HỌA SĨ@" ; species name
+	dw 12, 580 ; height, weight
 
-	db   "The color of the"
-	next "mysterious fluid"
-	next "secreted from its"
+	db   "Màu của chất dịch"
+	next "bí ẩn tiết ra từ"
+	next "đuôi đã được"
 
-	page "tail is predeter-"
-	next "mined for each"
-	next "SMEARGLE.@"
+	page "định trước cho"
+	next "mỗi SMEARGLE.@"
+	next "@"

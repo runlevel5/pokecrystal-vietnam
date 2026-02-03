@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 207, 440 ; height, weight
+	db "GHIM ĐỘC@" ; species name
+	dw 8, 200 ; height, weight
 
-	db   "It has a docile"
-	next "nature. If it is"
-	next "threatened with"
+	db   "Nó có tính ngoan"
+	next "ngoãn. Nếu bị đe"
+	next "dọa tấn công, nó"
 
-	page "attack, it raises"
-	next "the barbs that are"
-	next "all over its body.@"
+	page "dựng gai khắp"
+	next "người lên.@"
+	next "@"

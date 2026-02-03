@@ -1,10 +1,10 @@
-	db "DRILL@" ; species name
-	dw 407, 1370 ; height, weight
+	db "KHOAN@" ; species name
+	dw 14, 620 ; height, weight
 
-	db   "It uses its thick"
-	next "arms, legs and"
-	next "tail to attack"
+	db   "Nó dùng cánh tay,"
+	next "chân và đuôi dày"
+	next "để tấn công mạnh"
 
-	page "forcefully. Melee"
-	next "combat is its"
-	next "specialty.@"
+	page "mẽ. Cận chiến"
+	next "là sở trường"
+	next "của nó.@"

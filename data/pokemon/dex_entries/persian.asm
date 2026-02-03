@@ -1,10 +1,10 @@
-	db "CLASSY CAT@" ; species name
-	dw 303, 710 ; height, weight
+	db "MÈO QUÝ TỘC@" ; species name
+	dw 10, 320 ; height, weight
 
-	db   "Behind its lithe,"
-	next "elegant appearance"
-	next "lies a barbaric"
+	db   "Đằng sau vẻ ngoài"
+	next "thanh lịch là bản"
+	next "tính hung bạo."
 
-	page "side. It will tear"
-	next "apart its prey on"
-	next "a mere whim.@"
+	page "Nó sẽ xé xác con"
+	next "mồi chỉ vì một"
+	next "cơn hứng.@"

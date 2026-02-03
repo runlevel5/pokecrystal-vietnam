@@ -26,24 +26,23 @@ CianwoodPhotoStudioFishingGuruScript:
 	end
 
 CianwoodPhotoStudioFishingGuruText_Question:
-	text "You have magnifi-"
-	line "cent #MON with"
-	cont "you."
+	text "Bạn có những"
+	line "#MON tuyệt đẹp"
+	cont "bên mình."
 
-	para "How about a photo"
-	line "for a souvenir?"
+	para "Chụp ảnh làm"
+	line "kỷ niệm nhé?"
 	done
 
 CianwoodPhotoStudioFishingGuruText_Yes:
-	text "OK! Big smile now!"
+	text "OK! Cười thật tươi"
+	line "nhé!"
 	done
 
 CianwoodPhotoStudioFishingGuruText_No:
-	text "Oh, that's too"
-	line "bad. I thought it"
-
-	para "would be a great"
-	line "memento…"
+	text "Ồ, thật tiếc. Tôi"
+	line "nghĩ đó sẽ là kỷ"
+	cont "niệm tuyệt vời…"
 	done
 
 CianwoodPhotoStudio_MapEvents:

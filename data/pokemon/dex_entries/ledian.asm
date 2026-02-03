@@ -1,10 +1,10 @@
-	db "FIVE STAR@" ; species name
-	dw 407, 780 ; height, weight
+	db "NĂM SAO@" ; species name
+	dw 14, 356 ; height, weight
 
-	db   "In the daytime"
-	next "when it gets warm,"
-	next "it curls up inside"
+	db   "Ban ngày khi trời"
+	next "ấm, nó cuộn tròn"
+	next "trong chiếc lá"
 
-	page "a big leaf and"
-	next "drifts off into"
-	next "a deep slumber.@"
+	page "lớn và chìm vào"
+	next "giấc ngủ sâu.@"
+	next "@"

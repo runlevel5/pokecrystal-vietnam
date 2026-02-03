@@ -32,23 +32,24 @@ Rattey:
 	end
 
 ViridianNicknameSpeechHousePokefanMText:
-	text "Do you put a lot"
-	line "of thought into"
+	text "Bạn có suy nghĩ"
+	line "nhiều về việc đặt"
 
-	para "naming your"
-	line "#MON?"
+	para "tên cho #MON"
+	line "của bạn không?"
 
-	para "Giving them good"
-	line "nicknames adds to"
+	para "Đặt cho chúng tên"
+	line "hay sẽ làm tăng"
 
-	para "the fun of trading"
-	line "with others."
+	para "thêm niềm vui khi"
+	line "trao đổi với người"
+	cont "khác."
 	done
 
 ViridianNicknameSpeechHouseLassText:
-	text "They're SPEARY--"
-	line "a SPEAROW--and"
-	cont "RATTEY--a RATTATA."
+	text "Đây là SPEARY--"
+	line "một SPEAROW--và"
+	cont "RATTEY--RATTATA."
 	done
 
 SpearyText:

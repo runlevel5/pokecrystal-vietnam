@@ -160,84 +160,82 @@ OlivineLighthouseJasmineLeavesRightMovement:
 	step_end
 
 JasmineCianwoodPharmacyText:
-	text "JASMINE: … This"
-	line "#MON always"
+	text "JASMINE: … #MON"
+	line "này luôn giữ cho"
 
-	para "kept the sea lit"
-	line "at night."
+	para "biển sáng vào ban"
+	line "đêm."
 
-	para "…But it suddenly"
-	line "got sick… It's"
-	cont "gasping for air…"
+	para "…Nhưng bỗng nó bị"
+	line "ốm… Nó thở"
+	cont "hổn hển…"
 
-	para "…I understand"
-	line "that there is a"
+	para "…Ta biết rằng có"
+	line "một NHÀ THUỐC tốt"
 
-	para "wonderful PHARMACY"
-	line "in CIANWOOD…"
+	para "ở CIANWOOD…"
 
-	para "But that's across"
-	line "the sea…"
+	para "Nhưng đó là bên"
+	line "kia biển…"
 
-	para "And I can't leave"
-	line "AMPHY unattended…"
+	para "Và ta không thể"
+	line "bỏ AMPHY một mình…"
 	done
 
 JasmineGetSomeMedicineText:
-	text "…May I ask you to"
-	line "get some medicine"
-	cont "for me? Please?"
+	text "…Ta có thể nhờ"
+	line "con lấy thuốc cho"
+	cont "ta không? Làm ơn?"
 	done
 
 JasmineCureAmphyText:
-	text "JASMINE: …Will"
-	line "that medicine cure"
-	cont "AMPHY?"
+	text "JASMINE: …Thuốc đó"
+	line "có chữa được cho"
+	cont "AMPHY không?"
 	done
 
 PlayerHandedSecretpotionText:
-	text "<PLAYER> handed the"
-	line "SECRETPOTION to"
+	text "<PLAYER> đưa"
+	line "THUỐC BÍ MẬT cho"
 	cont "JASMINE."
 	done
 
 JasmineDontBeOffendedText:
-	text "JASMINE: …Um,"
-	line "please don't be"
-	cont "offended…"
+	text "JASMINE: …Ừm,"
+	line "xin đừng giận…"
 
-	para "…AMPHY will not"
-	line "take anything from"
-	cont "anyone but me…"
+	para "…AMPHY sẽ không"
+	line "nhận thứ gì từ ai"
+	cont "ngoài ta…"
 	done
 
 JasmineAmphyHowAreYouFeelingText:
 	text "JASMINE: …"
 
-	para "AMPHY, how are you"
-	line "feeling?"
+	para "AMPHY, con cảm"
+	line "thấy thế nào?"
 	done
 
 JasmineThankYouText:
-	text "JASMINE: …Oh, I'm"
-	line "so relieved…"
+	text "JASMINE: …Ôi, ta"
+	line "thật nhẹ nhõm…"
 
-	para "This is just so"
-	line "wonderful…"
+	para "Thật là tuyệt vời"
+	line "…"
 
-	para "Thank you so very,"
-	line "very much."
+	para "Cảm ơn con rất"
+	line "rất nhiều."
 
-	para "…I will return to"
-	line "the GYM…"
+	para "…Ta sẽ quay về"
+	line "GYM…"
 	done
 
 JasmineISeeText:
-	text "JASMINE: …I see…"
+	text "JASMINE: …Ra vậy…"
 	done
 
 JasmineAmphyHangOnText:
-	text "…AMPHY, hang on!"
+	text "…AMPHY, cố lên!"
 	done
 
 AmphyPalPalooText:
@@ -246,8 +244,8 @@ AmphyPalPalooText:
 	done
 
 AmphyBreathingLaboredText:
-	text "Its breathing is"
-	line "terribly labored…"
+	text "Hơi thở của nó"
+	line "rất yếu ớt…"
 	done
 
 AmphyPaluPaluluText:

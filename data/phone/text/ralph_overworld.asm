@@ -1,58 +1,58 @@
 RalphAskNumber1Text:
-	text "Don't young people"
-	line "fish anymore?"
+	text "Người trẻ bây giờ"
+	line "không câu cá à?"
 
-	para "I've seen rare"
-	line "#MON while I've"
-	cont "been fishing…"
+	para "Tôi thấy #MON"
+	line "hiếm khi đang"
+	cont "câu…"
 
-	para "You young people"
-	line "like that, right?"
+	para "Người trẻ thích"
+	line "điều đó, đúng"
+	cont "không?"
 
-	para "Want to trade"
-	line "phone numbers?"
+	para "Muốn đổi SĐT"
+	line "không?"
 
-	para "I'll let you know"
-	line "if I see anything."
+	para "Tôi sẽ cho cậu"
+	line "biết nếu thấy gì."
 	done
 
 RalphAskNumber2Text:
-	text "Hm? So you do want"
-	line "me to phone if I"
-	cont "see rare #MON?"
+	text "Hm? Vậy cậu muốn"
+	line "tôi gọi nếu thấy"
+	cont "#MON hiếm à?"
 	done
 
 RalphNumberAcceptedText:
-	text "Yep, phone if I"
-	line "see rare #MON."
+	text "Yep, gọi nếu thấy"
+	line "#MON hiếm."
 
-	para "Don't worry, I"
-	line "won't forget!"
+	para "Đừng lo, tôi sẽ"
+	line "không quên!"
 	done
 
 RalphNumberDeclinedText:
-	text "Oh…"
-	line "My own kids won't"
+	text "Ồ…"
+	line "Con tôi cũng không"
 
-	para "even give me their"
-	line "phone numbers…"
+	para "cho tôi SĐT của"
+	line "chúng…"
 
-	para "Is that how young"
-	line "people are today?"
+	para "Người trẻ bây giờ"
+	line "như vậy à?"
 	done
 
 RalphPhoneFullText:
-	text "Your phone's"
-	line "memory is full."
+	text "Điện thoại cậu đầy"
+	line "bộ nhớ rồi."
 
-	para "It seems that"
-	line "young people all"
-	cont "have #GEAR."
+	para "Có vẻ người trẻ"
+	line "đều có #GEAR."
 	done
 
 RalphRematchText:
-	text "Hey, kid!"
+	text "Này, nhóc!"
 
-	para "No losing for me"
-	line "this day!"
+	para "Hôm nay tôi sẽ"
+	line "không thua!"
 	done

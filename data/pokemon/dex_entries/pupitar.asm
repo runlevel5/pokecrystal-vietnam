@@ -1,10 +1,10 @@
-	db "HARD SHELL@" ; species name
-	dw 311, 3350 ; height, weight
+	db "VỎ CỨNG@" ; species name
+	dw 12, 1520 ; height, weight
 
-	db   "It will not stay"
-	next "still, even while"
-	next "it's a pupa. It"
+	db   "Nó không đứng yên"
+	next "dù đang là nhộng."
+	next "Nó đã có tay và"
 
-	page "already has arms"
-	next "and legs under its"
-	next "solid shell.@"
+	page "chân bên dưới lớp"
+	next "vỏ cứng chắc"
+	next "của mình.@"

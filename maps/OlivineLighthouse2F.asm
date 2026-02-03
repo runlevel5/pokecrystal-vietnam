@@ -152,53 +152,53 @@ TrainerSailorHuey:
 	end
 
 SailorHueySeenText:
-	text "Men of the sea are"
-	line "always spoiling"
-	cont "for a good fight!"
+	text "Đàn ông của biển"
+	line "cả luôn khao khát"
+	cont "một trận đấu hay!"
 	done
 
 SailorHueyBeatenText:
 	text "Urf!"
-	line "I lose!"
+	line "Tôi thua!"
 	done
 
 SailorHueyUnusedText: ; unreferenced
-	text "What power!"
-	line "How would you like"
+	text "Sức mạnh thật!"
+	line "Bạn có muốn ra"
 
-	para "to sail the seas"
-	line "with me?"
+	para "khơi cùng tôi"
+	line "không?"
 	done
 
 GentlemanAlfredSeenText:
-	text "Hm? This is no"
-	line "place for playing."
+	text "Hm? Đây không phải"
+	line "nơi để chơi đùa."
 	done
 
 GentlemanAlfredBeatenText:
-	text "Ah! I can see that"
-	line "you're serious."
+	text "Ah! Tôi thấy bạn"
+	line "rất nghiêm túc."
 	done
 
 GentlemanAlfredAfterBattleText:
-	text "Up top is a #-"
-	line "MON that keeps the"
-	cont "LIGHTHOUSE lit."
+	text "Ở trên đỉnh có"
+	line "#MON giữ cho"
+	cont "HẢI ĐĂNG sáng."
 
-	para "But I hear that"
-	line "it's sick now and"
+	para "Nhưng tôi nghe nói"
+	line "nó bị ốm và"
 
-	para "can't be cured by"
-	line "ordinary medicine."
+	para "không thể chữa"
+	line "bằng thuốc thường."
 	done
 
 SailorHueyGiveProteinText:
-	text "Man! You're as"
-	line "tough as ever!"
+	text "Chà! Bạn vẫn cứng"
+	line "cỏi như thường!"
 
-	para "Anyway, here's"
-	line "that medicine from"
-	cont "before."
+	para "Dù sao, đây là"
+	line "thuốc từ lần"
+	cont "trước."
 	done
 
 OlivineLighthouse2F_MapEvents:

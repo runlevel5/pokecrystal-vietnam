@@ -1,10 +1,10 @@
-	db "OWL@" ; species name
-	dw 204, 470 ; height, weight
+	db "CÚ@" ; species name
+	dw 7, 212 ; height, weight
 
-	db   "It begins to hoot"
-	next "at the same time"
-	next "every day. Some"
+	db   "Nó bắt đầu kêu"
+	next "cùng giờ mỗi"
+	next "ngày. Một số HLV"
 
-	page "trainers use them"
-	next "in place of"
-	next "clocks.@"
+	page "dùng chúng thay"
+	next "đồng hồ.@"
+	next "@"

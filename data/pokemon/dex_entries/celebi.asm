@@ -1,10 +1,10 @@
-	db "TIMETRAVEL@" ; species name
-	dw 200, 110 ; height, weight
+	db "DU HÀNH@" ; species name
+	dw 6, 50 ; height, weight
 
-	db   "Revered as a"
-	next "guardian of the"
-	next "forest, CELEBI"
+	db   "Được tôn kính là"
+	next "thần hộ mệnh của"
+	next "rừng xanh, CELEBI"
 
-	page "appears wherever"
-	next "beautiful forests"
-	next "exist.@"
+	page "xuất hiện ở nơi"
+	next "nào có những khu"
+	next "rừng tươi đẹp.@"

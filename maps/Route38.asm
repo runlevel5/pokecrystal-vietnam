@@ -321,153 +321,151 @@ Route38FruitTree:
 	fruittree FRUITTREE_ROUTE_38
 
 BirdKeeperTobySeenText:
-	text "Fly high into the"
-	line "sky, my beloved"
-	cont "bird #MON!"
+	text "Bay cao lên trời,"
+	line "#MON CHIM yêu"
+	cont "quý của ta!"
 	done
 
 BirdKeeperTobyBeatenText:
-	text "I feel like just"
-	line "flying away now."
+	text "Giờ ta chỉ muốn"
+	line "bay đi thôi."
 	done
 
 BirdKeeperTobyAfterBattleText:
-	text "I plan to train in"
-	line "CIANWOOD CITY to"
+	text "Ta sẽ huấn luyện"
+	line "tại TP. CIANWOOD"
 
-	para "teach my #MON"
-	line "how to FLY."
+	para "để dạy #MON của"
+	line "ta BAY."
 	done
 
 SchoolboyChad1SeenText:
-	text "Let me try some-"
-	line "thing I learned"
-	cont "today."
+	text "Để tôi thử cái gì"
+	line "tôi học hôm nay."
 	done
 
 SchoolboyChad1BeatenText:
-	text "I didn't study"
-	line "enough, I guess."
+	text "Hình như tôi học"
+	line "chưa đủ."
 	done
 
 SchoolboyChadSoManyTestsText:
-	text "I have to take so"
-	line "many tests, I"
+	text "Tôi phải thi nhiều"
+	line "bài kiểm tra quá,"
 
-	para "don't have much"
-	line "time for #MON."
+	para "nên không có thời"
+	line "gian cho #MON."
 
-	para "So when I do get"
-	line "to play, I really"
-	cont "concentrate."
+	para "Vì thế khi chơi"
+	line "được, tôi rất tập"
+	cont "trung."
 	done
 
 LassDana1SeenText:
-	text "You seem to be"
-	line "good at #MON."
+	text "Bạn có vẻ giỏi về"
+	line "#MON đấy."
 
-	para "If you are, how"
-	line "about giving me"
-	cont "some advice?"
+	para "Nếu vậy, bạn có"
+	line "thể cho tôi lời"
+	cont "khuyên không?"
 	done
 
 LassDana1BeatenText:
-	text "I see. So you can"
-	line "battle that way."
+	text "Tôi hiểu rồi. Đấu"
+	line "như vậy được đấy."
 	done
 
 LassDanaMoomooMilkText:
-	text "I know something"
-	line "good!"
+	text "Tôi biết điều hay"
+	line "này!"
 
-	para "MOOMOO FARM's milk"
-	line "is famous for its"
-	cont "flavor."
+	para "Sữa tại MOOMOO"
+	line "FARM nổi tiếng về"
+	cont "hương vị."
 	done
 
 BeautyValerieSeenText:
-	text "Hi! Aren't you a"
-	line "cute trainer!"
+	text "Chào! Bạn là HLV"
+	line "dễ thương quá!"
 
-	para "May I see your"
-	line "#MON?"
+	para "Tôi có thể xem"
+	line "#MON của bạn?"
 	done
 
 BeautyValerieBeatenText:
-	text "I'm glad I got to"
-	line "see your #MON!"
+	text "Tôi vui vì được"
+	line "xem #MON bạn!"
 	done
 
 BeautyValerieAfterBattleText:
-	text "When I see #-"
-	line "MON, it seems to"
-	cont "soothe my nerves."
+	text "Khi tôi nhìn #-"
+	line "MON, nó làm dịu"
+	cont "thần kinh tôi."
 	done
 
 SailorHarrySeenText:
-	text "I've been over-"
-	line "seas, so I know"
+	text "Tôi từng ra ngoài"
+	line "biển, nên tôi"
 
-	para "about all sorts of"
+	para "biết về đủ loại"
 	line "#MON!"
 	done
 
 SailorHarryBeatenText:
-	text "Your skill is"
-	line "world class!"
+	text "Kỹ năng bạn đẳng"
+	line "cấp thế giới!"
 	done
 
 SailorHarryAfterBattleText:
-	text "All kinds of peo-"
-	line "ple around the"
+	text "Mọi người trên"
+	line "khắp thế giới"
 
-	para "world live happily"
-	line "with #MON."
+	para "sống hạnh phúc"
+	line "cùng #MON."
 	done
 
 BeautyOliviaSeenText:
-	text "Don't you think my"
-	line "#MON and I are"
-	cont "beautiful?"
+	text "Bạn có nghĩ #-"
+	line "MON và tôi đẹp"
+	cont "không?"
 	done
 
 BeautyOliviaBeatenText:
-	text "We drink MOOMOO"
-	line "MILK every day."
+	text "Chúng tôi uống"
+	line "SỮA MOOMOO hàng"
+	cont "ngày."
 	done
 
 BeautyOliviaAfterBattleText:
-	text "MOOMOO MILK is"
-	line "good for beauty"
+	text "SỮA MOOMOO tốt"
+	line "cho sắc đẹp và"
+	cont "sức khỏe,"
 
-	para "and health, but"
-	line "inconveniently,"
-
-	para "they only sell a"
-	line "bottle at a time."
+	para "nhưng bất tiện vì"
+	line "chỉ bán một lần"
+	cont "một chai."
 	done
 
 Route38SignText:
-	text "ROUTE 38"
+	text "TUYẾN ĐƯỜNG 38"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "TP. OLIVINE -"
+	line "TP. ECRUTEAK"
 	done
 
 Route38TrainerTipsText:
-	text "TRAINER TIPS"
+	text "MẸO HLV"
 
-	para "If a #MON is"
-	line "trying to evolve,"
-	cont "you can stop it."
+	para "Nếu #MON đang"
+	line "cố tiến hóa, bạn"
+	cont "có thể dừng nó."
 
-	para "Press the B But-"
-	line "ton during evolu-"
-	cont "tion."
+	para "Nhấn nút B trong"
+	line "lúc tiến hóa."
 
-	para "That startles the"
-	line "#MON and stops"
-	cont "its evolution."
+	para "Điều đó làm #-"
+	line "MON giật mình và"
+	cont "dừng tiến hóa."
 	done
 
 Route38_MapEvents:

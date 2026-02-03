@@ -261,147 +261,148 @@ Route30_MikeysRattataAttacksMovement:
 	step_end
 
 Text_UseTackle:
-	text "Go, RATTATA!"
+	text "Lên, RATTATA!"
 
-	para "TACKLE!"
+	para "ĐÁNH CHẶN!"
 	done
 
 Text_ThisIsABigBattle:
-	text "What? This is a"
-	line "big battle!"
-	cont "Leave me alone!"
+	text "Gì? Đây là một"
+	line "trận đấu lớn!"
+	cont "Để tôi yên!"
 	done
 
 YoungsterJoey1SeenText:
-	text "I just lost, so"
-	line "I'm trying to find"
-	cont "more #MON."
+	text "Tôi vừa thua, nên"
+	line "đang tìm thêm"
+	cont "#MON."
 
-	para "Wait! You look"
-	line "weak! Come on,"
-	cont "let's battle!"
+	para "Khoan! Bạn trông"
+	line "yếu lắm! Đấu đi!"
 	done
 
 YoungsterJoey1BeatenText:
-	text "Ack! I lost again!"
-	line "Doggone it!"
+	text "Ái! Thua nữa rồi!"
+	line "Khổ quá đi!"
 	done
 
 YoungsterJoey1AfterText:
-	text "Do I have to have"
-	line "more #MON in"
+	text "Phải có nhiều"
+	line "#MON hơn mới"
 
-	para "order to battle"
-	line "better?"
+	para "đấu giỏi hơn"
+	line "được sao?"
 
-	para "No! I'm sticking"
-	line "with this one no"
-	cont "matter what!"
+	para "Không! Tôi sẽ gắn"
+	line "bó với con này"
+	cont "dù thế nào!"
 	done
 
 YoungsterMikeySeenText:
-	text "You're a #MON"
-	line "trainer, right?"
+	text "Bạn là HLV #MON"
+	line "phải không?"
 
-	para "Then you have to"
-	line "battle!"
+	para "Vậy thì phải"
+	line "đấu chứ!"
 	done
 
 YoungsterMikeyBeatenText:
-	text "That's strange."
-	line "I won before."
+	text "Lạ thật. Trước"
+	line "tôi thắng mà."
 	done
 
 YoungsterMikeyAfterText:
-	text "Becoming a good"
-	line "trainer is really"
-	cont "tough."
+	text "Trở thành HLV"
+	line "giỏi thật khó."
 
-	para "I'm going to bat-"
-	line "tle other people"
-	cont "to get better."
+	para "Tôi sẽ đấu với"
+	line "người khác để"
+	cont "tiến bộ hơn."
 	done
 
 BugCatcherDonSeenText:
-	text "Instead of a bug"
-	line "#MON, I found"
-	cont "a trainer!"
+	text "Thay vì #MON"
+	line "bọ, tôi lại gặp"
+	cont "một HLV!"
 	done
 
 BugCatcherDonBeatenText:
-	text "Argh! You're too"
-	line "strong!"
+	text "Ái! Bạn mạnh"
+	line "quá!"
 	done
 
 BugCatcherDonAfterText:
-	text "I ran out of #"
-	line "BALLS while I was"
-	cont "catching #MON."
+	text "Tôi hết BÓNG #"
+	line "khi đang bắt"
+	cont "#MON rồi."
 
-	para "I should've bought"
-	line "some more…"
+	para "Đáng lẽ phải mua"
+	line "thêm mới phải…"
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "MR.#MON's"
-	line "house? It's a bit"
-	cont "farther ahead."
+	text "Nhà ÔNG LÃO"
+	line "#MON? Đi thêm"
+	cont "một đoạn nữa."
 	done
 
 Route30YoungsterText_EveryoneIsBattling:
-	text "Everyone's having"
-	line "fun battling!"
-	cont "You should too!"
+	text "Ai cũng đang đấu"
+	line "vui lắm! Bạn cũng"
+	cont "nên thử đi!"
 	done
 
 Route30CooltrainerFText:
-	text "I'm not a trainer."
+	text "Tôi không phải"
+	line "HLV."
 
-	para "But if you look"
-	line "one in the eyes,"
-	cont "prepare to battle."
+	para "Nhưng nếu nhìn"
+	line "vào mắt HLV thì"
+	cont "phải đấu đấy."
 	done
 
 Route30SignText:
-	text "ROUTE 30"
+	text "TUYẾN ĐƯỜNG 30"
 
-	para "VIOLET CITY -"
-	line "CHERRYGROVE CITY"
+	para "TP VIOLET -"
+	line "TP CHERRYGROVE"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "MR.#MON'S HOUSE"
-	line "STRAIGHT AHEAD!"
+	text "NHÀ ÔNG LÃO"
+	line "#MON: PHÍA SAU"
 	done
 
 MrPokemonsHouseSignText:
-	text "MR.#MON'S HOUSE"
+	text "NHÀ ÔNG LÃO"
+	line "#MON"
 	done
 
 Route30TrainerTipsText:
-	text "TRAINER TIPS"
+	text "MẸO CHO HLV"
 
-	para "No stealing other"
-	line "people's #MON!"
+	para "Không được cướp"
+	line "#MON của người"
+	cont "khác!"
 
-	para "# BALLS are to"
-	line "be thrown only at"
-	cont "wild #MON!"
+	para "Chỉ ném BÓNG #"
+	line "vào #MON"
+	cont "hoang dã thôi!"
 	done
 
 YoungsterJoeyText_GiveHPUpAfterBattle:
-	text "I lost again…"
-	line "Gee, you're tough!"
+	text "Thua nữa rồi…"
+	line "Bạn giỏi thật!"
 
-	para "Oh yeah, I almost"
-	line "forgot that I had"
-	cont "to give you this."
+	para "À phải, tôi suýt"
+	line "quên phải đưa"
+	cont "bạn cái này."
 
-	para "Use it to get even"
-	line "tougher, OK?"
+	para "Dùng nó để mạnh"
+	line "hơn nữa nhé!"
 
-	para "I'm going to get"
-	line "tougher too."
+	para "Tôi cũng sẽ cố"
+	line "mạnh hơn đây."
 	done
 
 Route30_MapEvents:

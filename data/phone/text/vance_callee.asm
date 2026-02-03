@@ -1,81 +1,82 @@
 VanceAnswerPhoneText:
-	text "Yes, hello?"
+	text "Vâng, xin chào?"
 	line "@"
 	text_ram wStringBuffer3
-	text " here!"
+	text " đây!"
 
-	para "Morning, <PLAY_G>!"
+	para "Chào buổi sáng,"
+	line "<PLAY_G>!"
 
-	para "Are you using bird"
-	line "#MON?"
+	para "Cậu dùng #MON"
+	line "chim không?"
 	done
 
 VanceAnswerPhoneDayText:
-	text "Yes, hello?"
+	text "Vâng, xin chào?"
 	line "@"
 	text_ram wStringBuffer3
-	text " here!"
+	text " đây!"
 
-	para "Hi, <PLAY_G>!"
+	para "Chào, <PLAY_G>!"
 
-	para "Are your bird"
-	line "#MON flying?"
+	para "#MON chim"
+	line "cậu bay tốt không?"
 	done
 
 VanceAnswerPhoneNiteText:
-	text "Yes, hello?"
+	text "Vâng, xin chào?"
 	line "@"
 	text_ram wStringBuffer3
-	text " here!"
+	text " đây!"
 
-	para "Evening, <PLAY_G>!"
-	line "Are you letting"
+	para "Chào buổi tối,"
+	line "<PLAY_G>! Cậu có"
 
-	para "your bird #MON"
-	line "see some action?"
+	para "để #MON chim"
+	line "hành động không?"
 	done
 
 VanceGreetText:
-	text "Good morning,"
+	text "Chào buổi sáng,"
 	line "<PLAY_G>!"
 
-	para "It's @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Good morning!"
+	line "Chào buổi sáng!"
 	done
 
 VanceGreetDayText:
-	text "Hi, <PLAY_G>!"
+	text "Chào, <PLAY_G>!"
 
-	para "It's @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Remember me?"
+	line "Còn nhớ tớ không?"
 	done
 
 VanceGreetNiteText:
-	text "Good evening,"
+	text "Chào buổi tối,"
 	line "<PLAY_G>!"
 
-	para "It's @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Are you free now?"
+	line "Cậu rảnh không?"
 	done
 
 VanceGenericText:
-	text "Are you and your"
-	line "#MON fine?"
+	text "Cậu và #MON"
+	line "cậu khỏe không?"
 
-	para "My @"
+	para "@"
 	text_ram wStringBuffer4
-	text_start
-	line "looks like it will"
+	text " của tớ"
+	line "trông có vẻ sẽ đủ"
 
-	para "get tough enough"
-	line "to face and beat"
+	para "mạnh để đối mặt và"
+	line "đánh bại #MON"
 
-	para "the legendary bird"
-	line "#MON!"
+	para "chim huyền thoại"
+	line "rồi đấy!"
 	done

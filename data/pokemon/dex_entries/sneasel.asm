@@ -1,10 +1,10 @@
-	db "SHARP CLAW@" ; species name
-	dw 211, 620 ; height, weight
+	db "VUỐT SẮC@" ; species name
+	dw 9, 280 ; height, weight
 
-	db   "This cunning"
-	next "#MON hides"
-	next "under the cover"
+	db   "#MON xảo quyệt"
+	next "này ẩn trong bóng"
+	next "tối, chờ tấn công"
 
-	page "of darkness,"
-	next "waiting to attack"
-	next "its prey.@"
+	page "con mồi.@"
+	next "@"
+	next "@"

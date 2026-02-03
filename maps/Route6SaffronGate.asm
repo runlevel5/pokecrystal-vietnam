@@ -27,32 +27,28 @@ Route6SaffronGuardScript:
 	end
 
 Route6SaffronGuardWelcomeText:
-	text "Welcome to SAFFRON"
-	line "CITY, home of the"
-	cont "MAGNET TRAIN!"
+	text "Chào mừng đến TP."
+	line "SAFFRON, nơi có"
+	cont "TÀU TỪ TRƯỜNG!"
 
-	para "…That's what I'd"
-	line "normally say, but"
+	para "…Bình thường tôi"
+	line "nói vậy, nhưng"
 
-	para "the MAGNET TRAIN"
-	line "isn't running now."
+	para "TÀU TỪ TRƯỜNG"
+	line "không chạy bây"
+	cont "giờ."
 
-	para "It's not getting"
-	line "any electricity"
+	para "Nó không có điện"
 
-	para "because there's"
-	line "something wrong"
-
-	para "with the POWER"
-	line "PLANT."
+	para "vì NHÀ MÁY ĐIỆN"
+	line "đang có vấn đề."
 	done
 
 Route6SaffronGuardMagnetTrainText:
-	text "The MAGNET TRAIN"
-	line "is the most famous"
+	text "TÀU TỪ TRƯỜNG là"
+	line "điều nổi tiếng"
 
-	para "thing about SAF-"
-	line "FRON."
+	para "nhất về SAFFRON."
 	done
 
 Route6SaffronGate_MapEvents:

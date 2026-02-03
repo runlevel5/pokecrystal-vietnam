@@ -1,10 +1,10 @@
-	db "IRON SNAKE@" ; species name
-	dw 3002, 8820 ; height, weight
+	db "RẮN SẮT@" ; species name
+	dw 92, 4000 ; height, weight
 
-	db   "The many small"
-	next "metal particles"
-	next "that cover this"
+	db   "Nhiều hạt kim"
+	next "loại nhỏ phủ trên"
+	next "thân #MON này"
 
-	page "#MON's body"
-	next "reflect bright"
-	next "light well.@"
+	page "phản chiếu ánh"
+	next "sáng rực rỡ.@"
+	next "@"

@@ -1,10 +1,10 @@
-	db "LONG NOSE@" ; species name
-	dw 108, 740 ; height, weight
+	db "MŨI DÀI@" ; species name
+	dw 5, 335 ; height, weight
 
-	db   "During the desert-"
-	next "ed morning hours,"
-	next "it comes ashore"
+	db   "Vào buổi sáng"
+	next "vắng vẻ, nó lên"
+	next "bờ và khéo léo"
 
-	page "where it deftly"
-	next "uses its trunk to"
-	next "take a shower.@"
+	page "dùng vòi tắm.@"
+	next "@"
+	next "@"

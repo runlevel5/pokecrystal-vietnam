@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
-	dw 303, 650 ; height, weight
+	db "NẤM@" ; species name
+	dw 10, 295 ; height, weight
 
-	db   "When nothing's"
-	next "left to extract"
-	next "from the bug, the"
+	db   "Khi không còn gì"
+	next "để hút từ bọ, nấm"
+	next "trên lưng để lại"
 
-	page "mushrooms on its"
-	next "back leave spores"
-	next "on the bug's egg.@"
+	page "bào tử trên trứng"
+	next "của con bọ.@"
+	next "@"

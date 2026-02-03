@@ -187,96 +187,96 @@ NewBarkTown_RivalReturnsToTheShadowsMovement:
 	step_end
 
 Text_GearIsImpressive:
-	text "Wow, your #GEAR"
-	line "is impressive!"
+	text "Ồ, #GEAR con"
+	line "đẹp quá!"
 
-	para "Did your mom get"
-	line "it for you?"
+	para "Mẹ con mua cho"
+	line "con hả?"
 	done
 
 Text_WaitPlayer:
-	text "Wait, <PLAY_G>!"
+	text "Khoan, <PLAY_G>!"
 	done
 
 Text_WhatDoYouThinkYoureDoing:
-	text "What do you think"
-	line "you're doing?"
+	text "Con làm gì vậy?"
 	done
 
 Text_ItsDangerousToGoAlone:
-	text "It's dangerous to"
-	line "go out without a"
-	cont "#MON!"
+	text "Ra ngoài mà không"
+	line "có #MON thì"
+	cont "nguy hiểm lắm!"
 
-	para "Wild #MON"
-	line "jump out of the"
+	para "#MON hoang dã"
+	line "hay nhảy ra từ"
 
-	para "grass on the way"
-	line "to the next town."
+	para "bụi cỏ trên đường"
+	line "đến thị trấn kế."
 	done
 
 Text_YourMonIsAdorable:
-	text "Oh! Your #MON"
-	line "is adorable!"
-	cont "I wish I had one!"
+	text "Ôi! #MON con dễ"
+	line "thương quá!"
+	cont "Cô cũng muốn có!"
 	done
 
 Text_TellMomIfLeaving:
-	text "Hi, <PLAY_G>!"
-	line "Leaving again?"
+	text "Chào, <PLAY_G>!"
+	line "Đi tiếp hả?"
 
-	para "You should tell"
-	line "your mom if you"
-	cont "are leaving."
+	para "Con nên nói với"
+	line "mẹ nếu con"
+	cont "định đi đâu."
 	done
 
 Text_CallMomOnGear:
-	text "Call your mom on"
-	line "your #GEAR to"
+	text "Gọi cho mẹ bằng"
+	line "#GEAR để mẹ"
 
-	para "let her know how"
-	line "you're doing."
+	para "biết con đang"
+	line "thế nào nhé."
 	done
 
 Text_ElmDiscoveredNewMon:
-	text "Yo, <PLAYER>!"
+	text "Ê, <PLAYER>!"
 
-	para "I hear PROF.ELM"
-	line "discovered some"
-	cont "new #MON."
+	para "Tao nghe GS ELM"
+	line "phát hiện #MON"
+	cont "mới đấy."
 	done
 
 NewBarkTownRivalText1:
 	text "<……>"
 
-	para "So this is the"
-	line "famous ELM #MON"
-	cont "LAB…"
+	para "Đây là phòng thí"
+	line "nghiệm #MON"
+	cont "nổi tiếng của"
+	cont "GS ELM à…"
 	done
 
 NewBarkTownRivalText2:
-	text "…What are you"
-	line "staring at?"
+	text "…Mày nhìn cái gì?"
 	done
 
 NewBarkTownSignText:
-	text "NEW BARK TOWN"
+	text "THỊ TRẤN NEW BARK"
 
-	para "The Town Where the"
-	line "Winds of a New"
-	cont "Beginning Blow"
+	para "Thị trấn nơi gió"
+	line "của khởi đầu"
+	cont "mới thổi"
 	done
 
 NewBarkTownPlayersHouseSignText:
-	text "<PLAYER>'s House"
+	text "Nhà <PLAYER>"
 	done
 
 NewBarkTownElmsLabSignText:
-	text "ELM #MON LAB"
+	text "PHÒNG THÍ NGHIỆM"
+	line "#MON CỦA GS ELM"
 	done
 
 NewBarkTownElmsHouseSignText:
-	text "ELM'S HOUSE"
+	text "Nhà GS ELM"
 	done
 
 NewBarkTown_MapEvents:

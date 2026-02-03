@@ -1,73 +1,72 @@
 ParryAskNumber1Text:
-	text "Sheesh, the way"
-	line "you attacked! That"
+	text "Sheesh, cách cậu"
+	line "tấn công! Tuyệt"
 
-	para "was something! We"
-	line "should meet again!"
+	para "vời! Mình nên gặp"
+	line "lại!"
 
-	para "How about giving"
-	line "me your number?"
+	para "Cho tớ xin SĐT"
+	line "được không?"
 	done
 
 ParryAskNumber2Text:
-	text "So you want to"
-	line "register my phone"
+	text "Vậy cậu muốn lưu"
+	line "SĐT của tớ để"
 
-	para "number for a re-"
-	line "match, huh?"
+	para "đấu lại lần sau"
+	line "hả?"
 	done
 
 ParryNumberAcceptedText:
-	text "I'll call you"
-	line "whenever I feel"
-	cont "like battling!"
+	text "Tớ sẽ gọi cậu khi"
+	line "tớ muốn đấu!"
 	done
 
 ParryNumberDeclinedText:
-	text "No? That's fine."
+	text "Không? Không sao."
 
-	para "A definite no is"
-	line "easy to take!"
+	para "Một câu từ chối"
+	line "rõ ràng dễ chấp"
+	cont "nhận!"
 
-	para "I'll be right here"
-	line "when you're ready"
-	cont "for a rematch."
+	para "Tớ sẽ ở đây khi"
+	line "cậu sẵn sàng đấu"
+	cont "lại."
 	done
 
 ParryPhoneFullText:
-	text "Oh? There's no"
-	line "room to register"
-	cont "my phone number."
+	text "Ồ? Không có chỗ"
+	line "để lưu SĐT của"
+	cont "tớ."
 	done
 
 ParryRematchText:
-	text "Hey, here comes"
-	line "the kid! Let's go!"
+	text "Này, đứa nhỏ đến"
+	line "rồi! Bắt đầu!"
 
-	para "Ready for my usual"
-	line "no-brainer, all-"
-	cont "out offense?"
+	para "Sẵn sàng cho màn"
+	line "tấn công toàn lực"
+	cont "của tớ chưa?"
 	done
 
 ParryPackFullText:
-	text "Your PACK looks"
-	line "stuffed full!"
+	text "BALO cậu đầy rồi!"
 
-	para "You can't have"
-	line "this now."
+	para "Cậu không thể cầm"
+	line "cái này bây giờ."
 	done
 
 ParryRematchGiftText:
-	text "Well, you're"
-	line "special all right."
+	text "À, cậu thật sự"
+	line "đặc biệt đấy."
 
-	para "If only I'd begun"
-	line "#MON when I was"
-	cont "a tad younger…"
+	para "Giá như tớ bắt đầu"
+	line "#MON khi còn"
+	cont "trẻ hơn…"
 
-	para "I want you to work"
-	line "and succeed for"
+	para "Tớ muốn cậu cố"
+	line "gắng và thành"
 
-	para "the both of us."
-	line "So take this, OK?"
+	para "công cho cả hai"
+	line "ta. Nhận cái này!"
 	done

@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 104, 180 ; height, weight
+	db "RỒNG@" ; species name
+	dw 4, 80 ; height, weight
 
-	db   "When they're in a"
-	next "safe location,"
-	next "they can be seen"
+	db   "Khi ở nơi an"
+	next "toàn, chúng vui"
+	next "đùa quấn đuôi"
 
-	page "playfully tangling"
-	next "their tails"
-	next "together.@"
+	page "vào nhau.@"
+	next "@"
+	next "@"

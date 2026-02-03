@@ -1,61 +1,61 @@
 DerekAskNumber1Text:
-	text "Oh, wow! PIKACHU!"
-	line "It's so soft and"
-	cont "furry! How cute!"
+	text "Ồ, wow! PIKACHU!"
+	line "Mềm mại và bông"
+	cont "bênh! Dễ thương!"
 
-	para "Let's be friends!"
-	line "PIKACHU-lovers are"
-	cont "never bad people!"
+	para "Làm bạn thôi!"
+	line "Người yêu PIKACHU"
+	cont "không xấu!"
 
-	para "Let's chat about"
-	line "PIKACHU!"
+	para "Nói chuyện về"
+	line "PIKACHU thôi!"
 
-	para "Can I get your"
-	line "phone number?"
+	para "Cho tớ số điện"
+	line "thoại nhé?"
 	done
 
 DerekAskNumber2Text:
-	text "Let's chat about"
-	line "PIKACHU!"
+	text "Nói chuyện về"
+	line "PIKACHU thôi!"
 
-	para "Can I get your"
-	line "phone number?"
+	para "Cho tớ số điện"
+	line "thoại nhé?"
 	done
 
 DerekNumberAcceptedText:
-	text "PIKACHU is the"
-	line "one! If anything"
+	text "PIKACHU là số một!"
+	line "Nếu có chuyện gì,"
 
-	para "comes up, I'll"
-	line "give you a jingle."
+	para "tớ sẽ gọi cho"
+	line "cậu."
 	done
 
 DerekNumberDeclinedText:
-	text "You…"
+	text "Cậu…"
 
-	para "I bet you don't"
-	line "even like PIKACHU…"
+	para "Tớ cá cậu không"
+	line "thích PIKACHU…"
 	done
 
 DerekPhoneFullText:
-	text "Wait a sec! Your"
-	line "phone list's full!"
+	text "Khoan! Danh sách"
+	line "điện thoại đầy!"
 	done
 
 DerekGiftText:
-	text "I've been looking"
-	line "for you! Here, see"
-	cont "this? This is it!"
+	text "Tớ đang tìm cậu!"
+	line "Này, thấy chưa?"
+	cont "Đây này!"
 
-	para "I'm certain your"
-	line "PIKACHU will love"
-	cont "my gift too!"
+	para "Tớ chắc PIKACHU"
+	line "của cậu cũng thích"
+	cont "quà của tớ!"
 	done
 
 DerekPackFullText:
-	text "Uh-oh, too bad."
-	line "You don't have any"
+	text "Ồ-ồ, tiếc quá."
+	line "Cậu không có chỗ."
 
-	para "room. Be sure to"
-	line "get it later."
+	para "Nhớ lấy nó sau"
+	line "nhé."
 	done

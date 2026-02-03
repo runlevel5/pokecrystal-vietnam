@@ -319,189 +319,188 @@ Route44HiddenElixer:
 	hiddenitem ELIXER, EVENT_ROUTE_44_HIDDEN_ELIXER
 
 FisherWilton1SeenText:
-	text "Aack! You made me"
-	line "lose a POLIWAG!"
+	text "Aack! Cậu làm tôi"
+	line "mất một POLIWAG!"
 
-	para "What are you going"
-	line "to do about it?"
+	para "Cậu sẽ làm gì để"
+	line "đền bù đây?"
 	done
 
 FisherWilton1BeatenText:
-	text "Just forget about"
-	line "it."
+	text "Thôi quên đi."
 	done
 
 FisherWiltonHugePoliwagText:
-	text "That POLIWAG that"
-	line "got away…"
-	cont "It was huge."
+	text "Con POLIWAG bỏ"
+	line "chạy đó…"
+	cont "Nó to khủng khiếp."
 
-	para "I swear it must've"
-	line "been 16 feet long!"
+	para "Tôi thề nó dài tới"
+	line "16 feet!"
 	done
 
 FisherEdgarSeenText:
-	text "I fish until I"
-	line "can't anymore."
+	text "Tôi câu cho đến"
+	line "khi không thể nữa."
 
-	para "I also battle"
-	line "until I drop."
+	para "Tôi cũng chiến đấu"
+	line "đến khi gục ngã."
 
-	para "That's my"
-	line "relationship"
-	cont "with my #MON."
+	para "Đó là mối quan hệ"
+	line "của tôi với"
+	cont "#MON."
 	done
 
 FisherEdgarBeatenText:
 	text "Hmmmm… "
-	line "This isn't right."
+	line "Không đúng rồi."
 	done
 
 FisherEdgarAfterBattleText:
-	text "That's 100 wins"
-	line "to 101 losses."
+	text "100 thắng"
+	line "101 thua."
 
-	para "I won't battle"
-	line "again for a while."
+	para "Tôi sẽ không đấu"
+	line "nữa một thời gian."
 	done
 
 BirdKeeperVance1SeenText:
-	text "Do you know about"
-	line "the legendary bird"
-	cont "#MON?"
+	text "Bạn có biết về"
+	line "#MON chim"
+	cont "huyền thoại không?"
 	done
 
 BirdKeeperVance1BeatenText:
-	text "Whew! You're hot"
-	line "stuff."
+	text "Phù! Bạn mạnh"
+	line "thật đấy."
 	done
 
 BirdKeeperVanceLegendaryBirdsText:
 	text "ARTICUNO, ZAPDOS"
-	line "and MOLTRES are"
+	line "và MOLTRES là"
 
-	para "the three legend-"
-	line "ary bird #MON."
+	para "ba #MON chim"
+	line "huyền thoại."
 
-	para "I heard there are"
-	line "other legendary"
-	cont "birds, though."
+	para "Tôi nghe nói có"
+	line "những chim huyền"
+	cont "thoại khác nữa."
 	done
 
 BirdKeeperVance2BeatenText:
-	text "Why can't I ever"
-	line "beat you?"
+	text "Sao tôi không thể"
+	line "thắng bạn?"
 
-	para "Oh yeah, here you"
-	line "go. It's that gift"
+	para "Ồ đúng rồi, của"
+	line "bạn đây. Món quà"
 
-	para "I couldn't give"
-	line "you last time."
+	para "tôi không đưa được"
+	line "lần trước."
 	done
 
 PsychicPhilSeenText:
-	text "I'm gonna win,"
-	line "for sure!"
+	text "Tôi sẽ thắng,"
+	line "chắc chắn rồi!"
 	done
 
 PsychicPhilBeatenText:
-	text "Arrgh… That's a"
-	line "shocking loss…"
+	text "Arrgh… Thua sốc"
+	line "quá…"
 	done
 
 PsychicPhilAfterBattleText:
-	text "It's important to"
-	line "have conviction"
-	cont "on your side."
+	text "Quan trọng là phải"
+	line "có niềm tin vào"
+	cont "phía mình."
 	done
 
 PokemaniacZachSeenText:
-	text "I'll do anything"
-	line "to get my hands on"
-	cont "rare #MON!"
+	text "Tôi sẽ làm bất cứ"
+	line "điều gì để có được"
+	cont "#MON hiếm!"
 	done
 
 PokemaniacZachBeatenText:
-	text "Oooh, your #MON"
-	line "are so appealing."
+	text "Ôi, #MON của"
+	line "bạn hấp dẫn quá."
 	done
 
 PokemaniacZachAfterBattleText:
-	text "If a #MON has"
-	line "different colors"
+	text "Nếu #MON có màu"
+	line "khác với bình"
 
-	para "from usual, it's"
-	line "more valuable."
+	para "thường, nó sẽ có"
+	line "giá trị hơn."
 
-	para "What? You mean"
-	line "that's not true?"
+	para "Gì? Bạn nói không"
+	line "đúng vậy sao?"
 	done
 
 CooltrainermAllenSeenText:
-	text "I can tell you're"
-	line "a good trainer by"
-	cont "looking at you."
+	text "Tôi có thể biết"
+	line "bạn là HLV giỏi"
+	cont "bằng cách nhìn."
 
-	para "I'm good at #-"
-	line "MON, and I can see"
-	cont "that you are too."
+	para "Tôi giỏi #MON,"
+	line "và tôi thấy bạn"
+	cont "cũng vậy."
 	done
 
 CooltrainermAllenBeatenText:
-	text "Tch! It's a total"
-	line "loss on my part."
+	text "Tch! Tôi thua"
+	line "hoàn toàn."
 	done
 
 CooltrainermAllenAfterBattleText:
-	text "Wow. You have a"
-	line "lot of BADGES."
+	text "Wow. Bạn có nhiều"
+	line "HUY HIỆU."
 
-	para "No wonder you're"
-	line "so tough."
+	para "Không lạ khi bạn"
+	line "mạnh vậy."
 
-	para "I wonder if"
-	line "ECRUTEAK GYM's"
+	para "Không biết MORTY"
+	line "của GYM ECRUTEAK"
 
-	para "MORTY is still in"
-	line "training?"
+	para "còn đang luyện"
+	line "tập không?"
 
-	para "He really hammered"
-	line "me."
+	para "Anh ấy đã đánh bại"
+	line "tôi thật sự."
 	done
 
 CooltrainerfCybilSeenText:
-	text "You look strong."
+	text "Bạn trông mạnh."
 
-	para "Good trainers seek"
-	line "tough opponents"
-	cont "instinctively."
+	para "HLV giỏi tìm kiếm"
+	line "đối thủ mạnh một"
+	cont "cách bản năng."
 	done
 
 CooltrainerfCybilBeatenText:
-	text "Nope! This won't"
-	line "do at all."
+	text "Không! Không được"
+	line "rồi."
 	done
 
 CooltrainerfCybilAfterBattleText:
-	text "We all get better"
-	line "by experiencing"
-	cont "many battles."
+	text "Chúng ta đều tiến"
+	line "bộ qua nhiều"
+	cont "trận đấu."
 
-	para "I battled a lot to"
-	line "become what I am"
-	cont "today--an elite."
+	para "Tôi đã đấu nhiều"
+	line "để trở thành như"
+	cont "hôm nay--tinh anh."
 	done
 
 Route44Sign1Text:
-	text "ROUTE 44"
-	line "ICE PATH AHEAD"
+	text "TUYẾN ĐƯỜNG 44"
+	line "LỐI BĂNG PHÍ TRƯỚC"
 	done
 
 Route44Sign2Text:
-	text "ROUTE 44"
+	text "TUYẾN ĐƯỜNG 44"
 
-	para "MAHOGANY TOWN -"
-	line "BLACKTHORN CITY"
+	para "TRẤN MAHOGANY -"
+	line "TP. BLACKTHORN"
 	done
 
 Route44_MapEvents:

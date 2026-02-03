@@ -253,7 +253,7 @@ PokemonNames::
 	dname "CELEBI"
 	assert_table_length NUM_POKEMON
 	dname "?????"
-	dname "EGG"
+	dname "TRỨNG"
 	assert_table_length EGG
 	dname "?????"
 	dname "?????"

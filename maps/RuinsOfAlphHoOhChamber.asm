@@ -109,36 +109,35 @@ RuinsOfAlphHoOhChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphHoOhChamberWallPatternLeftText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Họa tiết xuất"
+	line "hiện trên tường…"
 	done
 
 RuinsOfAlphHoOhChamberUnownText: ; unreferenced
-	text "It's UNOWN text!"
+	text "Đó là chữ UNOWN!"
 	done
 
 RuinsOfAlphHoOhChamberWallPatternRightText:
-	text "Patterns appeared"
-	line "on the walls…"
+	text "Họa tiết xuất"
+	line "hiện trên tường…"
 	done
 
 RuinsOfAlphHoOhChamberWallHoleText:
-	text "There's a big hole"
-	line "in the wall!"
+	text "Có một lỗ lớn"
+	line "trên tường!"
 	done
 
 RuinsOfAlphHoOhChamberAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Đây là bản sao"
+	line "#MON cổ đại."
 	done
 
 RuinsOfAlphHoOhChamberDescriptionText:
-	text "A #MON that"
-	line "flew gracefully on"
+	text "#MON bay uyển"
+	line "chuyển trên đôi"
 
-	para "rainbow-colored"
-	line "wings."
+	para "cánh màu cầu"
+	line "vồng."
 	done
 
 RuinsOfAlphHoOhChamber_MapEvents:

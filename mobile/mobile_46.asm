@@ -3877,17 +3877,17 @@ Strings_L10ToL100:
 	db " L:80 @@"
 	db " L:90 @@"
 	db " L:100@@"
-	db "CANCEL@@"
+	db "HỦY@@"
 
 Strings_Ll0ToL40:
 	db " L:10 @@"
 	db " L:20 @@"
 	db " L:30 @@"
 	db " L:40 @@"
-	db "CANCEL@@"
+	db "HỦY@@"
 
 BattleTowerCancelString: ; unreferenced
-	db "CANCEL@"
+	db "HỦY@"
 
 BattleTower_LevelCheck:
 	ldh a, [rWBK]
@@ -4519,13 +4519,13 @@ BattleTowerRoomMenu2_PlaceYesNoMenu:
 	call MenuBox
 	call MenuBoxCoord2Tile
 	call ApplyTilemap
-	hlcoord 16, 8
+	hlcoord 14, 8
 	ld de, String_11a2cf
 	call PlaceString
-	hlcoord 16, 10
+	hlcoord 14, 10
 	ld de, String_11a2d3
 	call PlaceString
-	hlcoord 15, 8
+	hlcoord 13, 8
 	ld a, $ed
 	ld [hl], a
 	xor a
@@ -4621,20 +4621,20 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	ret
 
 String_11a2cf:
-	db "YES@"
+	db "CÓ@"
 
 String_11a2d3:
-	db "NO@"
+	db "KHÔNG@"
 
 MenuHeader_11a2d6: ; unreferenced
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 14, 6, SCREEN_WIDTH - 1, 10
+	menu_coords 12, 6, SCREEN_WIDTH - 1, 10
 	dw NULL
 	db 0 ; default option
 
 MenuHeader_11a2de:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 14, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw NULL
 	db 0 ; default option
 
@@ -5029,7 +5029,7 @@ Function11a5b9:
 	ret
 
 Function11a5f5:
-	ld a, $e
+	ld a, $c
 	ld [wMenuBorderLeftCoord], a
 	ld a, $13
 	ld [wMenuBorderRightCoord], a
@@ -5038,20 +5038,20 @@ Function11a5f5:
 	ld a, $a
 	ld [wMenuBorderBottomCoord], a
 	call PushWindow
-	hlcoord 14, 6, wAttrmap
-	ld b, $5
+	hlcoord 12, 6, wAttrmap
+	ld b, $7
 	ld c, $6
-	hlcoord 14, 6
-	ld b, $3
+	hlcoord 12, 6
+	ld b, $5
 	ld c, $4
 	call Function3eea
-	hlcoord 16, 7
+	hlcoord 14, 7
 	ld de, String_11a2cf
 	call PlaceString
-	hlcoord 16, 9
+	hlcoord 14, 9
 	ld de, String_11a2d3
 	call PlaceString
-	hlcoord 15, 7
+	hlcoord 13, 7
 	ld a, $ed
 	ld [hl], a
 	farcall HDMATransferTilemapAndAttrmap_Overworld
@@ -5415,102 +5415,103 @@ Function11a9f4: ; unreferenced
 	ret
 
 Text_SaveFileWillBeSent:
-	text "SAVE FILE will be"
-	line "sent."
+	text "FILE LƯU sẽ được"
+	line "gửi đi."
 	done
 
 Text_SentSaveFileReadingNews:
-	text "Sent SAVE FILE."
-	line "Reading NEWS…"
+	text "Đã gửi FILE LƯU."
+	line "Đọc TIN TỨC…"
 	done
 
 Text_ReadingNews:
-	text "Reading NEWS…"
+	text "Đọc TIN TỨC…"
 	done
 
 Text_ReceivedNews:
-	text "Received NEWS!"
+	text "Nhận TIN TỨC!"
 	done
 
 Text_QuitReadingNews:
-	text "Quit reading NEWS?"
+	text "Thoát đọc TIN?"
 	done
 
 Text_CanceledSendingSaveFile: ; unreferenced
-	text "Canceled sending"
-	line "SAVE FILE."
+	text "Hủy gửi"
+	line "FILE LƯU."
 	done
 
 Text_ReceivedOddEgg: ; unreferenced
-	text "ODD EGG"
-	line "was received!"
+	text "Đã nhận"
+	line "TRỨNG LẠ!"
 	done
 
 Text_RegisteringRecord:
-	text "Registering your"
-	line "record…"
+	text "Đăng ký kỉ lục"
+	line "của bạn…"
 	done
 
 Text_BattleRoomVisitLimit: ; unreferenced
-	text "One visit per day"
-	line "per BATTLE ROOM!"
+	text "Mỗi PHÒNG ĐẤU"
+	line "một lần mỗi ngày!"
 	done
 
 Text_PartyMonTopsThisLevel:
-	text "A party #MON"
-	line "tops this level."
+	text "#MON trong đội"
+	line "vượt cấp độ này."
 	done
 
 Text_UberRestriction:
 	text_ram wcd49
-	text " may go"
-	line "only to BATTLE"
+	text " chỉ được vào"
+	line "PHÒNG ĐẤU"
 
-	para "ROOMS that are"
-	line "Lv.70 or higher."
+	para "từ Lv.70"
+	line "trở lên."
 	done
 
 Text_CancelBattleRoomChallenge:
-	text "Cancel your BATTLE"
-	line "ROOM challenge?"
+	text "Hủy thử thách"
+	line "PHÒNG ĐẤU?"
 	done
 
 Text_ExitGymLeaderHonorRoll:
-	text "Exit GYM LEADER"
-	line "HONOR ROLL?"
+	text "Thoát BẢNG VÀNG"
+	line "T.LĨNH GYM?"
 	done
 
 Text_LinkingWithCenter: ; unreferenced
-	text "Linking with the"
-	line "CENTER…"
+	text "Kết nối với"
+	line "TRUNG TÂM…"
 	done
 
 Text_WhatLevelDoYouWantToChallenge:
-	text "What level do you"
-	line "want to challenge?"
+	text "Cấp độ nào bạn"
+	line "muốn thử thách?"
 	done
 
 Text_CheckBattleRoomListByMaxLevel:
-	text "Check BATTLE ROOM"
-	line "list by max level?"
+	text "Xem danh sách"
+	line "PHÒNG ĐẤU theo"
+	cont "cấp độ tối đa?"
 	done
 
 Text_EnterWhichBattleRoom: ; unreferenced
-	text "Enter which"
-	line "BATTLE ROOM?"
+	text "Vào PHÒNG ĐẤU"
+	line "nào?"
 	done
 
 Text_WhichBattleRoom: ; unreferenced
-	text "Which BATTLE ROOM?"
+	text "PHÒNG ĐẤU nào?"
 	done
 
 Text_ThisBattleRoomPleaseWait: ; unreferenced
 	text_ram wStringBuffer3
-	text "'s ROOM"
+	text " PHÒNG của"
 	line "@"
 	text_ram wStringBuffer4
 	text "?"
-	cont "Please wait…"
+	cont "Xin chờ…"
 	done
 
 Function11ac3e:

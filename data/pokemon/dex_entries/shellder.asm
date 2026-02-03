@@ -1,10 +1,10 @@
-	db "BIVALVE@" ; species name
-	dw 100, 90 ; height, weight
+	db "HAI MẢNH@" ; species name
+	dw 3, 40 ; height, weight
 
-	db   "Clamping on to an"
-	next "opponent reveals"
-	next "its vulnerable"
+	db   "Kẹp vào đối thủ"
+	next "sẽ lộ điểm yếu,"
+	next "nên nó chỉ dùng"
 
-	page "parts, so it uses"
-	next "this move only as"
-	next "a last resort.@"
+	page "chiêu này khi"
+	next "cùng đường.@"
+	next "@"

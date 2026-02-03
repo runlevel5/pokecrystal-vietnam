@@ -147,177 +147,170 @@ CeladonGameCornerUnusedMovementData: ; unreferenced
 	step_end
 
 CeladonGameCornerReceptionistText:
-	text "Welcome!"
+	text "Xin chào!"
 
-	para "You may exchange"
-	line "your coins for"
+	para "Bạn có thể đổi xu"
+	line "lấy giải thưởng"
 
-	para "fabulous prizes"
-	line "next door."
+	para "tuyệt vời ở cửa"
+	line "kế bên."
 	done
 
 CeladonGameCornerPokefanMText:
-	text "The slot machines"
-	line "are all state of"
-	cont "the art."
+	text "Máy quay đều là"
+	line "công nghệ hiện đại"
+	cont "cả."
 	done
 
 CeladonGameCornerTeacherText:
 if DEF(_CRYSTAL_AU)
-	text "The weather"
-	line "outside is very"
-	cont "nice."
+	text "Thời tiết bên"
+	line "ngoài đẹp lắm."
 	done
 else
-	text "It's this machine"
-	line "I want."
+	text "Tôi muốn máy này"
+	line "lắm."
 
-	para "It cleaned me out"
-	line "yesterday, so it"
+	para "Hôm qua nó hút"
+	line "sạch tiền tôi, nên"
 
-	para "should pay out"
-	line "today."
+	para "hôm nay chắc sẽ"
+	line "trả lại."
 	done
 endc
 
 CeladonGameCornerFishingGuruText:
 if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
+	text "Máy này giống y"
+	line "như máy khác."
 	done
 else
-	text "I think this slot"
-	line "machine will pay"
-	cont "out…"
+	text "Tôi nghĩ máy này"
+	line "sẽ trả tiền…"
 
-	para "The odds vary"
-	line "among machines."
+	para "Tỷ lệ thắng khác"
+	line "nhau giữa máy."
 	done
 endc
 
 CeladonGameCornerFisherText1:
 if DEF(_CRYSTAL_AU)
-	text "Whoa!"
+	text "Ồ!"
 
-	para "What? You want to"
-	line "play this machine?"
+	para "Sao? Bạn muốn chơi"
+	line "máy này?"
 
-	para "Here, take my"
-	line "coins."
+	para "Đây, nhận xu tôi."
 	done
 else
 	text "Gahahaha!"
 
-	para "The coins just"
-	line "keep popping out!"
+	para "Xu cứ văng ra"
+	line "liên tục!"
 
-	para "Hm? What, kid? You"
-	line "want to play?"
+	para "Hm? Sao, nhóc?"
+	line "Muốn chơi?"
 
-	para "I'll share my luck"
-	line "with you!"
+	para "Tôi sẽ chia may"
+	line "mắn cho bạn!"
 	done
 endc
 
 CeladonGameCornerFisherText2:
 	text "Gahahaha!"
 
-	para "It makes me feel"
-	line "good to do nice"
+	para "Làm điều tốt cho"
+	line "người khác khiến"
 
-	para "things for other"
-	line "people!"
+	para "tôi thấy vui!"
 	done
 
 CeladonGameCornerFisherNoCoinCaseText:
-	text "Hey, you don't"
-	line "have a COIN CASE."
+	text "Này, bạn không có"
+	line "HỘP XU."
 
-	para "How am I supposed"
-	line "to give you any"
-	cont "coins, kid?"
+	para "Làm sao tôi cho"
+	line "bạn xu được, nhóc?"
 	done
 
 CeladonGameCornerFisherFullCoinCaseText:
 if DEF(_CRYSTAL_AU)
-	text "Your COIN CASE is"
-	line "full."
+	text "HỘP XU của bạn đầy"
+	line "rồi."
 	done
 else
-	text "Hey, your COIN"
-	line "CASE is full, kid."
+	text "Này, HỘP XU của"
+	line "bạn đầy rồi, nhóc."
 
-	para "You must be riding"
-	line "a winning streak"
-	cont "too."
+	para "Chắc bạn cũng đang"
+	line "thắng liên tiếp"
+	cont "nhỉ."
 	done
 endc
 
 CeladonGymGuideText:
-	text "Hey! CHAMP in"
-	line "making!"
+	text "Này! CHAMP tương"
+	line "lai!"
 
-	para "Are you playing"
+	para "Bạn cũng chơi"
 if DEF(_CRYSTAL_AU)
-	line "too?"
+	line "à?"
 else
-	line "the slots too?"
+	line "máy quay à?"
 endc
 
-	para "I'm trying to get"
-	line "enough coins for a"
-	cont "prize #MON."
+	para "Tôi đang tích xu"
+	line "để đổi #MON"
+	cont "giải."
 
-	para "But I don't have"
-	line "enough coins yet…"
+	para "Nhưng chưa đủ xu"
+	line "lắm…"
 	done
 
 CeladonGameCornerGrampsText:
 if DEF(_CRYSTAL_AU)
-	text "Is there any"
-	line "difference between"
-	cont "these lines?"
+	text "Có khác gì giữa"
+	line "các hàng này không"
+	cont "nhỉ?"
 	done
 else
-	text "Hmmm… The odds are"
-	line "surely better for"
+	text "Hmm… Tỷ lệ chắc"
+	line "hàng PIKACHU cao"
 
-	para "PIKACHU's line,"
-	line "but… What to do?"
+	para "hơn, nhưng…"
+	line "Làm sao đây?"
 	done
 endc
 
 CeladonGameCornerPoster1Text:
-	text "Hey!"
+	text "Này!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Dưới tấm áp phích"
+	line "này…"
 
-	para "There's nothing!"
+	para "Chẳng có gì!"
 	done
 
 CeladonGameCornerPoster2Text:
-	text "Hey!"
+	text "Này!"
 
-	para "Underneath this"
-	line "poster…"
+	para "Dưới tấm áp phích"
+	line "này…"
 
-	para "There's nothing!"
+	para "Chẳng có gì!"
 	done
 
 CeladonGameCornerLighterText:
-	text "There's a lighter"
-	line "here."
+	text "Có cái bật lửa ở"
+	line "đây."
 	done
 
 CeladonGameCornerSodaCanText:
-	text "A can of soda…"
+	text "Lon nước ngọt…"
 
-	para "Someone must be"
-	line "coming back…"
+	para "Ai đó sẽ quay lại…"
 
-	para "Huh? It's empty!"
+	para "Hả? Rỗng rồi!"
 	done
 
 CeladonGameCorner_MapEvents:

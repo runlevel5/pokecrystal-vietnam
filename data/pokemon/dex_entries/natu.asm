@@ -1,10 +1,10 @@
-	db "LITTLE BIRD@" ; species name
-	dw 8, 40 ; height, weight
+	db "CHIM NHỎ@" ; species name
+	dw 2, 20 ; height, weight
 
-	db   "It is extremely"
-	next "good at climbing"
-	next "tree trunks and"
+	db   "Nó rất giỏi leo"
+	next "thân cây và thích"
+	next "ăn mầm non"
 
-	page "likes to eat the"
-	next "new sprouts on"
-	next "the trees.@"
+	page "trên cây.@"
+	next "@"
+	next "@"

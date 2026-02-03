@@ -21,26 +21,25 @@ EcruteakMartGrannyScript:
 	jumptextfaceplayer EcruteakMartGrannyText
 
 EcruteakMartSuperNerdText:
-	text "My EEVEE evolved"
-	line "into an ESPEON."
+	text "EEVEE của tôi tiến"
+	line "hóa thành ESPEON."
 
-	para "But my friend's"
-	line "EEVEE turned into"
-	cont "an UMBREON."
+	para "Nhưng EEVEE của"
+	line "bạn tôi biến"
+	cont "thành UMBREON."
 
-	para "I wonder why? We"
-	line "both were raising"
+	para "Tại sao nhỉ? Cả"
+	line "hai đều nuôi EEVEE"
 
-	para "our EEVEE in the"
-	line "same way…"
+	para "giống nhau mà…"
 	done
 
 EcruteakMartGrannyText:
-	text "If you use REVIVE,"
-	line "a #MON that's"
+	text "Nếu bạn dùng"
+	line "HỒI SINH, #MON"
 
-	para "fainted will wake"
-	line "right up."
+	para "ngất xỉu sẽ tỉnh"
+	line "lại ngay."
 	done
 
 EcruteakMart_MapEvents:

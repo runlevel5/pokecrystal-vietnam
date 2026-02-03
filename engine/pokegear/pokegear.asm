@@ -320,7 +320,7 @@ InitPokegearTilemap:
 	ret
 
 .switch
-	db " SWITCH▶@"
+	db " ĐỔI▶@"
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
@@ -521,8 +521,8 @@ Pokegear_UpdateClock:
 	call PrintTextboxTextAt
 	ret
 
-	db "ごぜん@"
-	db "ごご@"
+	db "SA@"
+	db "CH@"
 
 .GearTodayText:
 	text_far _GearTodayText
@@ -1248,9 +1248,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "CALL"
-	next "DELETE"
-	next "CANCEL"
+	db   "GỌI"
+	next "XOÁ"
+	next "HỦY"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1261,8 +1261,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "CALL"
-	next "CANCEL"
+	db   "GỌI"
+	next "HỦY"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1610,7 +1610,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "BUENA'S PASSWORD@"
+BuenasPasswordName:    db "MẬT KHẨU BUENA@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1743,15 +1743,15 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
-PokedexShowName:      db "#DEX Show@"
-PokemonMusicName:     db "#MON Music@"
-LuckyChannelName:     db "Lucky Channel@"
+OaksPKMNTalkName:     db "#MON của GS OAK@"
+PokedexShowName:      db "Sô #DEX@"
+PokemonMusicName:     db "Nhạc #MON@"
+LuckyChannelName:     db "Kênh May Mắn@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Places & People@"
-LetsAllSingName:      db "Let's All Sing!@"
-PokeFluteStationName: db "# FLUTE@"
+PlacesAndPeopleName:  db "Nơi & Người@"
+LetsAllSingName:      db "Cùng Hát Nào!@"
+PokeFluteStationName: db "Sáo #MON@"
 
 _TownMap:
 	ld hl, wOptions
@@ -2177,7 +2177,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Where?@"
+	db "Ở đâu?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2459,17 +2459,17 @@ Pokedex_GetArea:
 	ld a, $07
 	call ByteFill
 	ld [hl], $17
-	call GetPokemonName
 	hlcoord 2, 0
+	ld de, .String_Nest
 	call PlaceString
 	ld h, b
 	ld l, c
-	ld de, .String_SNest
+	call GetPokemonName
 	call PlaceString
 	ret
 
-.String_SNest:
-	db "'S NEST@"
+.String_Nest:
+	db "TỔ @"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a

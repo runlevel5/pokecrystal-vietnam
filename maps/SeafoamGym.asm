@@ -63,96 +63,97 @@ SeafoamGymGuideScript:
 BlaineIntroText:
 	text "BLAINE: Waaah!"
 
-	para "My GYM in CINNABAR"
-	line "burned down."
+	para "GYM của ta ở"
+	line "CINNABAR cháy rồi."
 
-	para "My fire-breathing"
-	line "#MON and I are"
+	para "#MON phun lửa"
+	line "của ta và ta"
 
-	para "homeless because"
-	line "of the volcano."
+	para "vô gia cư vì"
+	line "núi lửa."
 
 	para "Waaah!"
 
-	para "But I'm back in"
-	line "business as a GYM"
+	para "Nhưng ta đã trở"
+	line "lại làm T.LĨNH"
 
-	para "LEADER here in"
-	line "this cave."
+	para "GYM ở đây trong"
+	line "hang động này."
 
-	para "If you can beat"
-	line "me, I'll give you"
-	cont "a BADGE."
+	para "Nếu ngươi thắng"
+	line "ta, ta sẽ tặng"
+	cont "ngươi HUY HIỆU."
 
-	para "Ha! You'd better"
-	line "have BURN HEAL!"
+	para "Ha! Ngươi nên có"
+	line "TRỊ BỎNG sẵn đi!"
 	done
 
 BlaineWinLossText:
-	text "BLAINE: Awesome."
-	line "I've burned out…"
+	text "BLAINE: Tuyệt."
+	line "Ta đã cháy hết…"
 
-	para "You've earned"
+	para "Ngươi xứng đáng"
 	line "VOLCANOBADGE!"
 	done
 
 ReceivedVolcanoBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> nhận được"
 	line "VOLCANOBADGE."
 	done
 
 BlaineAfterBattleText:
-	text "BLAINE: I did lose"
-	line "this time, but I'm"
+	text "BLAINE: Ta thua"
+	line "lần này, nhưng ta"
 
-	para "going to win the"
-	line "next time."
+	para "sẽ thắng vào"
+	line "lần sau."
 
-	para "When I rebuild my"
+	para "Khi ta xây lại"
 	line "CINNABAR GYM,"
 
-	para "we'll have to have"
-	line "a rematch."
+	para "chúng ta phải"
+	line "đấu lại nhé."
 	done
 
 BlaineFightDoneText:
-	text "BLAINE: My fire"
-	line "#MON will be"
+	text "BLAINE: #MON"
+	line "lửa của ta sẽ"
 
-	para "even stronger."
-	line "Just you watch!"
+	para "mạnh hơn nữa."
+	line "Ngươi cứ chờ xem!"
 	done
 
 SeafoamGymGuideWinText:
 	text "Yo!"
 
-	para "… Huh? It's over"
-	line "already?"
+	para "… Hả? Xong rồi"
+	line "hả?"
 
-	para "Sorry, sorry!"
+	para "Xin lỗi, xin lỗi!"
 
-	para "CINNABAR GYM was"
-	line "gone, so I didn't"
+	para "CINNABAR GYM biến"
+	line "mất, nên tôi"
 
-	para "know where to find"
-	line "you."
+	para "không biết tìm"
+	line "bạn ở đâu."
 
-	para "But, hey, you're"
-	line "plenty strong even"
+	para "Nhưng, này, bạn"
+	line "khá mạnh dù không"
 
-	para "without my advice."
-	line "I knew you'd win!"
+	para "có lời khuyên tôi"
+	line "Tôi biết bạn sẽ"
+	cont "thắng mà!"
 	done
 
 SeafoamGymGuideWinText2:
-	text "A #MON GYM can"
-	line "be anywhere as"
+	text "#MON GYM có thể"
+	line "ở bất cứ đâu"
 
-	para "long as the GYM"
-	line "LEADER is there."
+	para "miễn là T.LĨNH"
+	line "GYM có mặt ở đó."
 
-	para "There's no need"
-	line "for a building."
+	para "Không cần tòa nhà"
+	line "làm gì cả."
 	done
 
 SeafoamGym_MapEvents:

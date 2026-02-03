@@ -20,21 +20,20 @@ OlivinePunishmentSpeechHouseBookshelf1:
 	jumpstd MagazineBookshelfScript
 
 OlivinePunishmentSpeechHouseDadText:
-	text "Along the way to"
-	line "CIANWOOD, there"
+	text "Trên đường đến"
+	line "CIANWOOD, có"
 
-	para "are four deserted"
-	line "islands."
+	para "bốn hòn đảo"
+	line "hoang vắng."
 
-	para "Bad kids are taken"
-	line "to the islands as"
-	cont "punishment!"
+	para "Trẻ hư sẽ bị đưa"
+	line "ra đảo để phạt!"
 	done
 
 OlivinePunishmentSpeechHouseDaughterText:
-	text "Whenever I get in"
-	line "trouble, Daddy"
-	cont "always scares me."
+	text "Mỗi khi con gây"
+	line "rắc rối, Ba luôn"
+	cont "dọa con."
 	done
 
 OlivinePunishmentSpeechHouse_MapEvents:

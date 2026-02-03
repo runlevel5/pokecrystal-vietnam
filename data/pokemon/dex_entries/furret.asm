@@ -1,10 +1,10 @@
-	db "LONG BODY@" ; species name
-	dw 511, 720 ; height, weight
+	db "THÂN DÀI@" ; species name
+	dw 18, 325 ; height, weight
 
-	db   "It lives in narrow"
-	next "burrows that fit"
-	next "its slim body. The"
+	db   "Nó sống trong"
+	next "hang hẹp vừa thân"
+	next "mảnh. Tổ càng"
 
-	page "deeper the nests"
-	next "go, the more maze-"
-	next "like they become.@"
+	page "sâu càng giống"
+	next "mê cung.@"
+	next "@"

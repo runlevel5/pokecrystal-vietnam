@@ -63,49 +63,48 @@ HallOfFame_SlowlyApproachMachine:
 	step_end
 
 HallOfFame_LanceText:
-	text "LANCE: It's been a"
-	line "long time since I"
-	cont "last came here."
+	text "LANCE: Đã lâu"
+	line "lắm rồi kể từ"
+	cont "lần cuối ta đến"
+	cont "đây."
 
-	para "This is where we"
-	line "honor the LEAGUE"
+	para "Đây là nơi chúng"
+	line "ta vinh danh các"
 
-	para "CHAMPIONS for all"
-	line "eternity."
+	para "V.ĐỊCH LEAGUE mãi"
+	line "mãi."
 
-	para "Their courageous"
-	line "#MON are also"
-	cont "inducted."
+	para "#MON dũng cảm"
+	line "của họ cũng được"
+	cont "đưa vào."
 
-	para "Here today, we"
-	line "witnessed the rise"
+	para "Hôm nay, chúng ta"
+	line "chứng kiến sự"
 
-	para "of a new LEAGUE"
-	line "CHAMPION--a"
+	para "trỗi dậy của một"
+	line "V.ĐỊCH LEAGUE mới"
 
-	para "trainer who feels"
-	line "compassion for,"
+	para "--một HLV cảm"
+	line "thông và tin"
 
-	para "and trust toward,"
-	line "all #MON."
+	para "tưởng tất cả"
+	line "#MON."
 
-	para "A trainer who"
-	line "succeeded through"
+	para "Một HLV thành"
+	line "công nhờ kiên trì"
+	cont "và quyết tâm."
 
-	para "perseverance and"
-	line "determination."
+	para "V.ĐỊCH LEAGUE mới"
+	line "có tất cả những"
 
-	para "The new LEAGUE"
-	line "CHAMPION who has"
+	para "phẩm chất của sự"
+	line "vĩ đại!"
 
-	para "all the makings"
-	line "of greatness!"
+	para "<PLAY_G>, hãy để"
+	line "ta đăng ký con"
 
-	para "<PLAY_G>, allow me"
-	line "to register you"
-
-	para "and your partners"
-	line "as CHAMPIONS!"
+	para "và đồng đội như"
+	line "V.ĐỊCH!"
 	done
 
 HallOfFame_MapEvents:

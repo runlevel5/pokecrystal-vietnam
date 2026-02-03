@@ -110,7 +110,7 @@ PlacePartyNicknames:
 	ret
 
 .CancelString:
-	db "CANCEL@"
+	db "HỦY@"
 
 PlacePartyHPBar:
 	xor a
@@ -341,10 +341,10 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "ĐƯỢC@"
 
 .string_not_able
-	db "NOT ABLE@"
+	db "KHÔNG@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -423,9 +423,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "ABLE@"
+	db "ĐƯỢC@"
 .string_not_able
-	db "NOT ABLE@"
+	db "KHÔNG@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -467,13 +467,13 @@ PlacePartyMonGender:
 	ret
 
 .male
-	db "♂…MALE@"
+	db "♂…ĐỰC@"
 
 .female
-	db "♀…FEMALE@"
+	db "♀…CÁI@"
 
 .unknown
-	db "…UNKNOWN@"
+	db "…KHÔNG RÕ@"
 
 PlacePartyMonMobileBattleSelection:
 	ld a, [wPartyCount]
@@ -544,13 +544,13 @@ PlacePartyMonMobileBattleSelection:
 	jr .loop2
 
 .String_Banme:
-	db "　ばんめ　　@" ; Place
+	db " VỊ TRÍ  @" ; Place
 .String_Sanka_Shinai:
-	db "さんかしない@" ; Cancel
+	db "KHÔNG THI@" ; Cancel/Don't participate
 .String_Kettei_Yameru:
-	db "けってい　　やめる@" ; Quit
+	db "CHỌN    HỦY@" ; Select / Quit
 .Strings_1_2_3:
-	db "１@", "２@", "３@" ; 1st, 2nd, 3rd
+	db "1@", "2@", "3@" ; 1st, 2nd, 3rd
 
 PartyMenuCheckEgg:
 	ld a, LOW(wPartySpecies)
@@ -747,31 +747,31 @@ PartyMenuStrings:
 	dw ToWhichPKMNString
 
 ChooseAMonString:
-	db "Choose a #MON.@"
+	db "Chọn một #MON.@"
 
 UseOnWhichPKMNString:
-	db "Use on which <PK><MN>?@"
+	db "Dùng cho <PK><MN>?@"
 
 WhichPKMNString:
-	db "Which <PK><MN>?@"
+	db "<PK><MN> nào?@"
 
 TeachWhichPKMNString:
-	db "Teach which <PK><MN>?@"
+	db "Dạy <PK><MN> nào?@"
 
 MoveToWhereString:
-	db "Move to where?@"
+	db "Chuyển đến đâu?@"
 
 ChooseAFemalePKMNString: ; unreferenced
-	db "Choose a ♀<PK><MN>.@"
+	db "Chọn ♀<PK><MN>.@"
 
 ChooseAMalePKMNString: ; unreferenced
-	db "Choose a ♂<PK><MN>.@"
+	db "Chọn ♂<PK><MN>.@"
 
 ToWhichPKMNString:
-	db "To which <PK><MN>?@"
+	db "Cho <PK><MN> nào?@"
 
 YouHaveNoPKMNString:
-	db "You have no <PK><MN>!@"
+	db "Bạn không có <PK><MN>!@"
 
 PrintPartyMenuActionText:
 	ld a, [wCurPartyMon]

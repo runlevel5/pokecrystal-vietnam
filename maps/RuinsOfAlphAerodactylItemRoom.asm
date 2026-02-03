@@ -25,9 +25,8 @@ RuinsOfAlphAerodactylItemRoomAncientReplica:
 	jumptext RuinsOfAlphAerodactylItemRoomAncientReplicaText
 
 RuinsOfAlphAerodactylItemRoomAncientReplicaText:
-	text "It's a replica of"
-	line "an ancient #-"
-	cont "MON."
+	text "Đây là bản sao"
+	line "#MON cổ đại."
 	done
 
 RuinsOfAlphAerodactylItemRoom_MapEvents:

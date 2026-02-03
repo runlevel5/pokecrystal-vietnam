@@ -239,225 +239,227 @@ SSAquaGrandpaApproachesPlayerMovement:
 	step_end
 
 SSAquaCaptainExhaustingText:
-	text "Whew! Thanks for"
-	line "coming along."
+	text "Phù! Cảm ơn đã"
+	line "đến cùng."
 
-	para "Keeping that lit-"
-	line "tle girl amused"
-	cont "was exhausting."
+	para "Giữ cho bé gái"
+	line "đó vui thật mệt."
 	done
 
 SSAquaCaptainHowDoYouLikeText:
-	text "How do you like"
-	line "S.S.AQUA's ride?"
+	text "Bạn thấy chuyến"
+	line "đi trên S.S.AQUA"
+	cont "thế nào?"
 
-	para "She practically"
-	line "skates across the"
-	cont "waves."
+	para "Nó gần như trượt"
+	line "trên mặt sóng."
 	done
 
 SSAquaCantFindGranddaughterText:
-	text "Oh, hello…"
+	text "Ồ, xin chào…"
 
-	para "I still can't find"
-	line "my granddaughter."
+	para "Tôi vẫn chưa tìm"
+	line "thấy cháu gái."
 
-	para "If she's on the"
-	line "ship, that's OK."
+	para "Nếu nó ở trên"
+	line "tàu, thì ổn."
 
-	para "She's an energetic"
-	line "child, so she may"
+	para "Nó là đứa trẻ"
+	line "năng động, nên có"
 
-	para "be bugging some-"
-	line "one. I'm worried…"
+	para "thể đang làm phiền"
+	line "ai đó. Tôi lo…"
 	done
 
 SSAquaEntertainedGranddaughterText:
-	text "<PLAY_G>, was it?"
-	line "I heard you enter-"
-	cont "tained my grand-"
-	cont "daughter."
+	text "<PLAY_G>, phải"
+	line "không? Tôi nghe"
+	cont "bạn đã chơi với"
+	cont "cháu gái tôi."
 
-	para "I want to thank"
-	line "you for that."
+	para "Tôi muốn cảm ơn"
+	line "bạn vì điều đó."
 	done
 
 SSAquaGrandpaHaveThisText:
-	text "I know! I'd like"
-	line "you to have this!"
+	text "Tôi biết! Tôi"
+	line "muốn tặng bạn cái"
+	cont "này!"
 	done
 
 SSAquaGrandpaTravellingText:
-	text "We're traveling"
-	line "around the world."
+	text "Chúng tôi đang đi"
+	line "du lịch vòng quanh"
+	cont "thế giới."
 	done
 
 SSAquaGranddaughterCaptainPlayWithMeText:
-	text "CAPTAIN, play with"
-	line "me, please?"
+	text "THUYỀN TRƯỞNG,"
+	line "chơi với cháu đi?"
 
-	para "I'm bored! I want"
-	line "to play more!"
+	para "Cháu chán! Cháu"
+	line "muốn chơi nữa!"
 	done
 
 SSAquaGranddaughterHasToFindGrandpaText:
-	text "Hi! Will you play"
-	line "with me?"
+	text "Chào! Bạn chơi"
+	line "với mình không?"
 
-	para "…Oh!"
+	para "…Ồ!"
 
-	para "Grandpa's worried"
-	line "about me?"
+	para "Ông đang lo lắng"
+	line "về mình?"
 
-	para "I have to go!"
+	para "Mình phải đi!"
 
-	para "I have to go find"
-	line "Grandpa!"
+	para "Mình phải đi tìm"
+	line "Ông!"
 	done
 
 SSAquaGranddaughterWasPlayingMText:
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "Ông ơi, cháu đây!"
+	line "Cháu đang chơi"
 
-	para "with the CAPTAIN"
-	line "and this guy!"
+	para "với THUYỀN TRƯỞNG"
+	line "và anh này!"
 	done
 
 SSAquaGranddaughterWasPlayingFText:
-	text "Grandpa, here I"
-	line "am! I was playing"
+	text "Ông ơi, cháu đây!"
+	line "Cháu đang chơi"
 
-	para "with the CAPTAIN"
-	line "and this big girl!"
+	para "với THUYỀN TRƯỞNG"
+	line "và chị này!"
 	done
 
 SSAquaGranddaughterHadFunText:
-	text "I had lots of fun"
-	line "playing!"
+	text "Cháu chơi rất vui!"
 	done
 
 PokefanmColinSeenText:
-	text "Hey, kid! Want to"
-	line "battle with me?"
+	text "Này, bạn! Muốn"
+	line "đấu với tôi không?"
 	done
 
 PokefanmColinBeatenText:
-	text "You're strong!"
+	text "Bạn mạnh!"
 	done
 
 PokefanmColinAfterBattleText:
-	text "You're traveling"
-	line "all alone?"
+	text "Bạn đi du lịch"
+	line "một mình?"
 
-	para "Isn't your mom"
-	line "worried?"
+	para "Mẹ bạn không lo"
+	line "sao?"
 	done
 
 TwinsMegandpeg1SeenText:
-	text "You think I'm a"
-	line "baby?"
-	cont "That's not fair!"
+	text "Bạn nghĩ tôi là"
+	line "em bé?"
+	cont "Không công bằng!"
 	done
 
 TwinsMegandpeg1BeatenText:
-	text "Oh! We lost!"
+	text "Ồ! Chúng tôi thua!"
 	done
 
 TwinsMegandpeg1AfterBattleText:
-	text "Baby is a rude"
-	line "name to call us"
-	cont "girls!"
+	text "Em bé là cách gọi"
+	line "thô lỗ đối với"
+	cont "các cô gái!"
 	done
 
 TwinsMegandpeg2SeenText:
-	text "I'm not a baby!"
+	text "Tôi không phải em"
+	line "bé!"
 
-	para "That's not nice to"
-	line "say to a lady!"
+	para "Không được nói"
+	line "vậy với phụ nữ!"
 	done
 
 TwinsMegandpeg2BeatenText:
-	text "Oh! We lost!"
+	text "Ồ! Chúng tôi thua!"
 	done
 
 TwinsMegandpeg2AfterBattleText:
-	text "Sometimes, kids"
-	line "are smarter than"
-	cont "grown-ups!"
+	text "Đôi khi, trẻ con"
+	line "thông minh hơn"
+	cont "người lớn!"
 	done
 
 PsychicRodneySeenText:
-	text "Ssh! My brain is"
-	line "picking up radio"
-	cont "signals!"
+	text "Shhh! Đầu tôi đang"
+	line "nhận tín hiệu"
+	cont "radio!"
 	done
 
 PsychicRodneyBeatenText:
-	text "…I hear some-"
-	line "thing!"
+	text "…Tôi nghe thấy"
+	line "gì đó!"
 	done
 
 PsychicRodneyAfterBattleText:
-	text "I get it. You can"
-	line "hear JOHTO's radio"
-	cont "on the FAST SHIP."
+	text "Hiểu rồi. Bạn có"
+	line "thể nghe radio"
+	cont "JOHTO trên TÀU"
+	cont "NHANH."
 	done
 
 PokefanmJeremySeenText:
-	text "What do you think?"
-	line "My #MON are"
-	cont "beautiful, yes?"
+	text "Bạn nghĩ sao?"
+	line "#MON của tôi"
+	cont "đẹp phải không?"
 	done
 
 PokefanmJeremyBeatenText:
-	text "Oh, no! My beauti-"
-	line "ful #MON!"
+	text "Ôi không! #MON"
+	line "xinh của tôi!"
 	done
 
 PokefanmJeremyAfterBattleText:
-	text "I must go to the"
-	line "#MON SALON and"
-	cont "fix them up nice!"
+	text "Tôi phải đến"
+	line "TIỆM #MON và"
+	cont "làm đẹp cho"
+	cont "chúng!"
 	done
 
 PokefanfGeorgiaSeenText:
-	text "I'm going to shop"
-	line "at the DEPT.STORE"
-	cont "and then…"
+	text "Tôi sẽ mua sắm ở"
+	line "CỬA HÀNG và"
+	cont "sau đó…"
 	done
 
 PokefanfGeorgiaBeatenText:
-	text "What was I going"
-	line "to do?"
+	text "Tôi định làm gì"
+	line "nhỉ?"
 	done
 
 PokefanfGeorgiaAfterBattleText:
-	text "Oh, yes! I have to"
-	line "get my #MON out"
-	cont "of DAY-CARE!"
+	text "Ồ, phải rồi! Tôi"
+	line "phải lấy #MON"
+	cont "khỏi NHÀ TRỌ!"
 	done
 
 SupernerdShawnSeenText:
-	text "What kinds of #"
-	line "BALLS do you have"
-	cont "with you?"
+	text "Bạn mang theo loại"
+	line "BÓNG # nào?"
 	done
 
 SupernerdShawnBeatenText:
-	text "Wait! Stop! Don't!"
-	line "Please!"
+	text "Chờ! Dừng! Đừng!"
+	line "Làm ơn!"
 	done
 
 SupernerdShawnAfterBattleText:
-	text "You should use the"
-	line "right BALLS to fit"
-	cont "the situation."
+	text "Bạn nên dùng BALL"
+	line "phù hợp với tình"
+	cont "huống."
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "FAST SHIP S.S.AQUA"
-	line "has arrived in"
-	cont "VERMILION CITY."
+	text "TÀU NHANH S.S.AQUA"
+	line "đã tới"
+	cont "TP. VERMILION."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:

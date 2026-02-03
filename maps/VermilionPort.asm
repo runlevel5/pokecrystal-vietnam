@@ -227,73 +227,73 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "We're departing"
-	line "soon. Please get"
-	cont "on board."
+	text "Tàu sắp khởi hành"
+	line "Xin hãy lên tàu."
 	done
 
 VermilionPortCantBoardText:
-	text "Sorry. You can't"
-	line "board now."
+	text "Xin lỗi. Bạn không"
+	line "thể lên tàu bây"
+	cont "giờ."
 	done
 
 VermilionPortAskBoardingText:
-	text "Welcome to FAST"
-	line "SHIP S.S.AQUA."
+	text "Chào mừng đến"
+	line "TÀU NHANH S.S.AQUA"
 
-	para "Will you be board-"
-	line "ing today?"
+	para "Hôm nay bạn có"
+	line "lên tàu không?"
 	done
 
 VermilionPortAskTicketText:
-	text "May I see your"
-	line "S.S.TICKET?"
+	text "Xin cho xem"
+	line "VÉ S.S. của bạn?"
 	done
 
 VermilionPortComeAgainText:
-	text "We hope to see you"
-	line "again!"
+	text "Hy vọng được gặp"
+	line "lại bạn!"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> flashed"
-	line "the S.S.TICKET."
+	text "<PLAYER> đưa ra"
+	line "VÉ S.S."
 
-	para "That's it."
-	line "Thank you!"
+	para "Đúng rồi."
+	line "Cảm ơn bạn!"
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> tried to"
-	line "show the S.S."
-	cont "TICKET…"
+	text "<PLAYER> thử đưa"
+	line "VÉ S.S…"
 
-	para "…But no TICKET!"
+	para "…Nhưng không có"
+	line "VÉ!"
 
-	para "Sorry!"
-	line "You may board only"
+	para "Xin lỗi!"
+	line "Bạn chỉ có thể"
 
-	para "if you have an"
-	line "S.S.TICKET."
+	para "lên tàu nếu có"
+	line "VÉ S.S."
 	done
 
 VermilionPortSailWednesdayText:
-	text "The FAST SHIP will"
-	line "sail on Wednesday."
+	text "TÀU NHANH sẽ khởi"
+	line "hành vào Thứ Tư."
 	done
 
 VermilionPortSailSundayText:
-	text "The FAST SHIP will"
-	line "sail next Sunday."
+	text "TÀU NHANH sẽ khởi"
+	line "hành Chủ Nhật tới"
 	done
 
 VermilionPortSuperNerdText:
-	text "You came from"
-	line "JOHTO?"
+	text "Bạn đến từ"
+	line "JOHTO à?"
 
-	para "I hear many rare"
-	line "#MON live over"
-	cont "there."
+	para "Tôi nghe nói nhiều"
+	line "#MON hiếm sống"
+	cont "ở đó."
 	done
 
 VermilionPort_MapEvents:

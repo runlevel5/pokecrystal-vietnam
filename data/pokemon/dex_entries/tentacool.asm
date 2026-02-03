@@ -1,10 +1,10 @@
-	db "JELLYFISH@" ; species name
-	dw 211, 1000 ; height, weight
+	db "SỨA@" ; species name
+	dw 9, 455 ; height, weight
 
-	db   "As it floats along"
-	next "on the waves, it"
-	next "uses its toxic"
+	db   "Khi trôi theo"
+	next "sóng, nó dùng"
+	next "xúc tu độc để"
 
-	page "feelers to stab"
-	next "anything it"
-	next "touches.@"
+	page "đâm bất cứ thứ"
+	next "gì chạm vào.@"
+	next "@"

@@ -40,73 +40,68 @@ SaffronPokecenter1FYoungsterScript:
 	jumptextfaceplayer SaffronPokecenter1FYoungsterText
 
 SaffronPokecenter1FTeacherText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "TT #MON ở JOHTO"
+	line "như thế nào?"
 
-	para "…Oh, I see. So"
-	line "they're not much"
+	para "…Ồ, vậy à. Cũng"
+	line "không khác mấy so"
 
-	para "different from the"
-	line "ones in KANTO."
+	para "với các TT ở"
+	line "KANTO."
 
-	para "I can go to JOHTO"
-	line "without worrying,"
-	cont "then!"
+	para "Tôi có thể đến"
+	line "JOHTO mà không lo"
+	cont "lắng gì!"
 	done
 
 SaffronPokecenter1FTeacherMobileText:
-	text "What are JOHTO's"
-	line "#MON CENTERS"
-	cont "like?"
+	text "TT #MON ở JOHTO"
+	line "như thế nào?"
 
-	para "…Oh, I see."
-	line "So they let you"
+	para "…Ồ, vậy à. Vậy"
+	line "có thể kết nối"
 
-	para "link with people"
-	line "far away?"
+	para "với người xa ở"
+	line "đó sao?"
 
-	para "Then I'll get my"
-	line "friend in JOHTO to"
+	para "Vậy tôi sẽ nhờ"
+	line "bạn ở JOHTO bắt"
 
-	para "catch a MARILL and"
-	line "trade it to me!"
+	para "MARILL rồi đổi"
+	line "cho tôi!"
 	done
 
 SaffronPokecenter1FFisherText:
-	text "I just happened to"
-	line "come through ROCK"
+	text "Tôi vừa đi qua"
+	line "ĐƯỜNG HẦM ĐÁ."
 
-	para "TUNNEL. There was"
-	line "some commotion at"
-	cont "the POWER PLANT."
+	para "Có chuyện gì đó"
+	line "đang xảy ra ở NHÀ"
+	cont "MÁY ĐIỆN."
 	done
 
 SaffronPokecenter1FFisherReturnedMachinePartText:
-	text "Caves collapse"
-	line "easily."
+	text "Hang động dễ sập."
 
-	para "Several caves have"
-	line "disappeared in the"
+	para "Nhiều hang đã"
+	line "biến mất vài năm"
 
-	para "past few years,"
-	line "like the one out-"
-	cont "side CERULEAN."
+	para "qua, như cái ngoài"
+	line "CERULEAN."
 
-	para "As a pro HIKER,"
-	line "that's common"
-	cont "knowledge."
+	para "Là thợ leo núi"
+	line "chuyên nghiệp, tôi"
+	cont "biết chuyện đó."
 	done
 
 SaffronPokecenter1FYoungsterText:
-	text "SILPH CO.'s HEAD"
-	line "OFFICE and the"
+	text "TRỤ SỞ SILPH CO."
+	line "và GA TÀU TỪ"
 
-	para "MAGNET TRAIN STA-"
-	line "TION--they're the"
+	para "TRƯỜNG--đó là"
+	line "những nơi đáng"
 
-	para "places to see in"
-	line "SAFFRON."
+	para "xem ở SAFFRON."
 	done
 
 SaffronPokecenter1F_MapEvents:

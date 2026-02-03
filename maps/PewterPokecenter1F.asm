@@ -36,14 +36,15 @@ Chris:
 	end
 
 PewterPokecenter1FTeacherText:
-	text "…Yeah, and the"
-	line "GYM in CINNABAR's"
+	text "…Ừ, và GYM ở"
+	line "CINNABAR bị mất."
 
-	para "gone. I was really"
-	line "amazed."
+	para "Tôi đã rất"
+	line "ngạc nhiên."
 
-	para "…Yes? I'm on the"
-	line "phone. Go away!"
+	para "…Vâng? Tôi đang"
+	line "gọi điện. Đi chỗ"
+	cont "khác!"
 	done
 
 PewterJigglypuffText:
@@ -52,17 +53,16 @@ PewterJigglypuffText:
 	done
 
 PewterPokecenter1FBugCatcherText:
-	text "Most #MON get"
-	line "drowsy if they"
+	text "Hầu hết #MON sẽ"
+	line "buồn ngủ nếu"
 
-	para "hear a JIGGLYPUFF"
-	line "singing."
+	para "nghe JIGGLYPUFF"
+	line "hát."
 
-	para "There are several"
-	line "moves that can be"
+	para "Có nhiều chiêu"
+	line "chỉ dùng được khi"
 
-	para "used only while a"
-	line "#MON is asleep."
+	para "#MON đang ngủ."
 	done
 
 PewterPokecenter1F_MapEvents:

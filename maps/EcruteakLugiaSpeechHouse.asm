@@ -17,29 +17,29 @@ LugiaSpeechHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakLugiaSpeechHouseGrampsText:
-	text "This happened when"
-	line "I was young."
+	text "Chuyện này xảy ra"
+	line "khi ta còn trẻ."
 
-	para "The sky suddenly"
-	line "turned black. A"
+	para "Bầu trời đột ngột"
+	line "tối đen. Một"
 
-	para "giant flying #-"
-	line "MON was blocking"
-	cont "out the sun."
+	para "#MON bay khổng"
+	line "lồ che khuất"
+	cont "mặt trời."
 
-	para "I wonder what that"
-	line "#MON was? "
+	para "Ta tự hỏi đó là"
+	line "#MON gì?"
 
-	para "It was like a bird"
-	line "and a dragon."
+	para "Nó như chim"
+	line "và như rồng."
 	done
 
 EcruteakLugiaSpeechHouseYoungsterText:
-	text "Is there really a"
-	line "#MON that big?"
+	text "Có thật #MON"
+	line "lớn như vậy không?"
 
-	para "If it exists, it"
-	line "must be powerful."
+	para "Nếu nó tồn tại,"
+	line "chắc rất mạnh."
 	done
 
 EcruteakLugiaSpeechHouse_MapEvents:

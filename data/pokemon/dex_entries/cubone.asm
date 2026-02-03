@@ -1,10 +1,10 @@
-	db "LONELY@" ; species name
-	dw 104, 140 ; height, weight
+	db "CÔ ĐƠN@" ; species name
+	dw 4, 65 ; height, weight
 
-	db   "It lost its mother"
-	next "after its birth."
-	next "It wears its"
+	db   "Nó mất mẹ từ khi"
+	next "mới sinh. Nó đeo"
+	next "sọ của mẹ, không"
 
-	page "mother's skull,"
-	next "never revealing"
-	next "its true face.@"
+	page "bao giờ để lộ"
+	next "khuôn mặt thật.@"
+	next "@"

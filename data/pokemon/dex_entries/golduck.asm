@@ -1,10 +1,10 @@
-	db "DUCK@" ; species name
-	dw 507, 1690 ; height, weight
+	db "VỊT@" ; species name
+	dw 17, 766 ; height, weight
 
-	db   "It swims grace-"
-	next "fully along on the"
-	next "quiet, slow-moving"
+	db   "Nó bơi duyên dáng"
+	next "trên những dòng"
+	next "sông và hồ yên"
 
-	page "rivers and lakes"
-	next "of which it is so"
-	next "fond.@"
+	page "tĩnh, chậm rãi"
+	next "mà nó rất"
+	next "yêu thích.@"

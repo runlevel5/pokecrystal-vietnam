@@ -1,10 +1,10 @@
-	db "FIRE MOUSE@" ; species name
-	dw 108, 170 ; height, weight
+	db "NHÍM LỬA@" ; species name
+	dw 5, 79 ; height, weight
 
-	db   "The fire that"
-	next "spouts from its"
-	next "back burns hottest"
+	db   "Lửa phun ra từ"
+	next "lưng cháy mạnh"
+	next "nhất khi nó giận."
 
-	page "when it is angry."
-	next "The flaring flames"
-	next "intimidate foes.@"
+	page "Ngọn lửa bùng"
+	next "lên đe dọa"
+	next "kẻ thù.@"

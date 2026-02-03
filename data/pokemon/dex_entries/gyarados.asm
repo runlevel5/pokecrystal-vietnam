@@ -1,10 +1,10 @@
-	db "ATROCIOUS@" ; species name
-	dw 2104, 5180 ; height, weight
+	db "TÀN BẠO@" ; species name
+	dw 65, 2350 ; height, weight
 
-	db   "It appears when-"
-	next "ever there is"
-	next "world conflict,"
+	db   "Nó xuất hiện mỗi"
+	next "khi có xung đột"
+	next "thế giới, đốt"
 
-	page "burning down any"
-	next "place it travels"
-	next "through.@"
+	page "cháy mọi nơi"
+	next "nó đi qua.@"
+	next "@"

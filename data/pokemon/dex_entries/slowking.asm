@@ -1,10 +1,10 @@
-	db "ROYAL@" ; species name
-	dw 607, 1750 ; height, weight
+	db "HOÀNG GIA@" ; species name
+	dw 20, 795 ; height, weight
 
-	db   "Every time it ya-"
-	next "wns, SHELLDER"
-	next "injects more poi-"
+	db   "Mỗi lần ngáp,"
+	next "SHELLDER tiêm"
+	next "thêm nọc độc vào."
 
-	page "son into it. The"
-	next "poison makes it"
-	next "more intelligent.@"
+	page "Nọc độc khiến nó"
+	next "thông minh hơn.@"
+	next "@"

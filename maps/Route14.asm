@@ -51,11 +51,11 @@ TrainerPokefanmTrevor:
 	end
 
 PokefanmCarterSeenText:
-	text "Let me tell you,"
-	line "I had a hard time"
+	text "Cho tôi nói bạn,"
+	line "tôi đã vất vả"
 
-	para "catching my prized"
-	line "#MON."
+	para "để bắt #MON"
+	line "quý giá của tôi."
 	done
 
 PokefanmCarterBeatenText:
@@ -64,53 +64,52 @@ PokefanmCarterBeatenText:
 
 PokefanmCarterAfterBattleText:
 	text "SQUIRTLE, CHARMAN-"
-	line "DER and BULBASAUR…"
+	line "DER và BULBASAUR…"
 
-	para "I think that's a"
-	line "well-balanced mix."
+	para "Tôi nghĩ đó là sự"
+	line "kết hợp cân bằng."
 	done
 
 BirdKeeperRoySeenText:
-	text "My dream is to fly"
-	line "with my beloved"
-	cont "bird #MON."
+	text "Ước mơ của tôi là"
+	line "bay cùng #MON"
+	cont "chim yêu quý."
 	done
 
 BirdKeeperRoyBeatenText:
-	text "I can dream, but I"
-	line "can't ever fly…"
+	text "Tôi có thể mơ,"
+	line "nhưng không bay…"
 	done
 
 BirdKeeperRoyAfterBattleText:
-	text "You have #MON"
-	line "that know the HM"
+	text "Bạn có #MON"
+	line "biết chiêu HM"
 
-	para "move FLY, don't"
-	line "you? I envy you."
+	para "BAY, phải không?"
+	line "Tôi thật ghen tị."
 	done
 
 PokefanmTrevorSeenText:
-	text "Hi. Did you know…?"
+	text "Này. Bạn có biết?"
 
-	para "#MON get more"
-	line "friendly if you"
+	para "#MON thân thiện"
+	line "hơn nếu bạn huấn"
 
-	para "train them in a"
-	line "place that they"
-	cont "remember."
+	para "luyện chúng ở nơi"
+	line "mà chúng nhớ."
 	done
 
 PokefanmTrevorBeatenText:
-	text "Where did I meet"
-	line "this PSYDUCK?"
+	text "Tôi gặp PSYDUCK"
+	line "ở đâu nhỉ?"
 	done
 
 PokefanmTrevorAfterBattleText:
-	text "If only there were"
-	line "an easy way to"
+	text "Giá như có cách"
+	line "dễ dàng để xác"
 
-	para "identify where I"
-	line "got my #MON…"
+	para "định nơi tôi bắt"
+	line "#MON của mình…"
 	done
 
 Route14_MapEvents:

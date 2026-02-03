@@ -13,8 +13,8 @@ PewterSnoozeSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 PewterSnoozeSpeechHouseGrampsText:
-	text "I like snoozing"
-	line "with the radio on…"
+	text "Ta thích ngủ khi"
+	line "bật radio…"
 	cont "…Zzzz…"
 	done
 

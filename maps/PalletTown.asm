@@ -31,40 +31,40 @@ BluesHouseSign:
 	jumptext BluesHouseSignText
 
 PalletTownTeacherText:
-	text "I'm raising #-"
-	line "MON too."
+	text "Tôi cũng nuôi"
+	line "#MON."
 
-	para "They serve as my"
-	line "private guards."
+	para "Chúng làm vệ sĩ"
+	line "riêng cho tôi."
 	done
 
 PalletTownFisherText:
-	text "Technology is"
-	line "incredible!"
+	text "Công nghệ thật"
+	line "tuyệt vời!"
 
-	para "You can now trade"
-	line "#MON across"
-	cont "time like e-mail."
+	para "Giờ có thể trao"
+	line "đổi #MON xuyên"
+	cont "thời gian như mail"
 	done
 
 PalletTownSignText:
 	text "PALLET TOWN"
 
-	para "A Tranquil Setting"
-	line "of Peace & Purity"
+	para "Nơi Yên Bình và"
+	line "Thuần Khiết"
 	done
 
 RedsHouseSignText:
-	text "RED'S HOUSE"
+	text "NHÀ CỦA RED"
 	done
 
 OaksLabSignText:
-	text "OAK #MON"
-	line "RESEARCH LAB"
+	text "PHÒNG THÍ NGHIỆM"
+	line "#MON CỦA GS OAK"
 	done
 
 BluesHouseSignText:
-	text "BLUE'S HOUSE"
+	text "NHÀ CỦA BLUE"
 	done
 
 PalletTown_MapEvents:

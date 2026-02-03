@@ -25,12 +25,11 @@ OlivineHouseBetaBookshelf2:
 	jumpstd MagazineBookshelfScript
 
 OlivineHouseBetaTeacherText:
-	text "When my #MON"
-	line "got sick, the"
+	text "Khi #MON tôi"
+	line "bị ốm, DƯỢC SĨ ở"
 
-	para "PHARMACIST in"
-	line "ECRUTEAK made some"
-	cont "medicine for me."
+	para "ECRUTEAK đã làm"
+	line "thuốc cho tôi."
 	done
 
 OlivineHouseBetaRhydonText:

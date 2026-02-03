@@ -1,66 +1,65 @@
 ErinMonIsMuchStrongerText:
-	text_ram wStringBuffer3
-	text "'s @"
 	text_ram wStringBuffer4
 	text_start
-	line "is much stronger"
-	cont "than before!"
+	line "của @"
+	text_ram wStringBuffer3
+	text_start
+	cont "mạnh hơn nhiều!"
 	done
 
 ErinDefeatedMonText:
-	text "And, and…"
-	line "I just battled and"
-	cont "beat @"
+	text "Và, và…"
+	line "Tớ vừa đấu và"
+	cont "thắng @"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "I've raised my"
-	line "#MON properly!"
+	para "Tớ nuôi #MON"
+	line "đúng cách!"
 	done
 
 ErinLostAMonText:
-	text "But, but…"
+	text "Nhưng, nhưng…"
 
-	para "A wild @"
+	para "@"
 	text_ram wStringBuffer4
-	text_start
-	line "got away from me"
+	text " hoang"
+	line "lại trốn tớ nữa"
 
-	para "again. It's just"
-	line "not fair!"
+	para "rồi. Không công"
+	line "bằng!"
 	done
 
 ErinBattleRematchText:
-	text "I'm ERIN. Want to"
-	line "battle me again?"
+	text "Tớ là ERIN. Muốn"
+	line "đấu lại không?"
 
-	para "I won't lose this"
-	line "time!"
+	para "Lần này tớ sẽ"
+	line "không thua!"
 
-	para "I'll be waiting on"
+	para "Tớ sẽ đợi ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ErinHangUpText:
-	text "See you. Bye-bye!"
+	text "Hẹn gặp lại. Bye!"
 	done
 
 ErinWorkingHardText:
-	text "I'm working hard"
-	line "to raise my"
-	cont "#MON!"
+	text "Tớ đang chăm chỉ"
+	line "nuôi #MON!"
 
-	para "Come back for"
-	line "another battle!"
+	para "Quay lại đấu"
+	line "nữa nhé!"
 	done
 
 ErinComeBattleText:
-	text "Oh, <PLAY_G>!"
-	line "Come battle ERIN!"
+	text "Ồ, <PLAY_G>!"
+	line "Đến đấu ERIN đi!"
 
-	para "I'll be waiting on"
+	para "Tớ sẽ đợi ở"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

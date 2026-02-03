@@ -155,7 +155,7 @@ GoldenrodGameCornerTMVendorMenuHeader:
 	db "TM25    5500@"
 	db "TM14    5500@"
 	db "TM38    5500@"
-	db "CANCEL@"
+	db "HỦY@"
 
 GoldenrodGameCornerPrizeMonVendorScript:
 	faceplayer
@@ -241,7 +241,7 @@ GoldenrodGameCornerPrizeMonVendorScript:
 	db "ABRA        100@"
 	db "CUBONE      800@"
 	db "WOBBUFFET  1500@"
-	db "CANCEL@"
+	db "HỦY@"
 
 GoldenrodGameCornerPharmacistScript:
 	faceplayer
@@ -320,160 +320,154 @@ GoldenrodGameCornerCardFlipMachineScript:
 	end
 
 GoldenrodGameCornerPrizeVendorIntroText:
-	text "Welcome!"
+	text "Chào mừng!"
 
-	para "We exchange your"
-	line "game coins for"
-	cont "fabulous prizes!"
+	para "Chúng tôi đổi xu"
+	line "của bạn lấy giải"
+	cont "thưởng tuyệt vời!"
 	done
 
 GoldenrodGameCornerPrizeVendorWhichPrizeText:
-	text "Which prize would"
-	line "you like?"
+	text "Bạn muốn giải"
+	line "thưởng nào?"
 	done
 
 GoldenrodGameCornerPrizeVendorConfirmPrizeText:
 	text_ram wStringBuffer3
 	text "."
-	line "Is that right?"
+	line "Đúng chứ?"
 	done
 
 GoldenrodGameCornerPrizeVendorHereYouGoText:
-	text "Here you go!"
+	text "Của bạn đây!"
 	done
 
 GoldenrodGameCornerPrizeVendorNeedMoreCoinsText:
-	text "Sorry! You need"
-	line "more coins."
+	text "Xin lỗi! Bạn cần"
+	line "thêm xu."
 	done
 
 GoldenrodGameCornerPrizeVendorNoMoreRoomText:
-	text "Sorry. You can't"
-	line "carry any more."
+	text "Xin lỗi. Bạn không"
+	line "mang được nữa."
 	done
 
 GoldenrodGameCornerPrizeVendorQuitText:
-	text "OK. Please save"
-	line "your coins and"
-	cont "come again!"
+	text "Được. Hãy tiết"
+	line "kiệm xu và quay"
+	cont "lại sau nhé!"
 	done
 
 GoldenrodGameCornerPrizeVendorNoCoinCaseText:
-	text "Oh? You don't have"
-	line "a COIN CASE."
+	text "Hả? Bạn không có"
+	line "HỘP XU."
 	done
 
 GoldenrodGameCornerPharmacistText:
 if DEF(_CRYSTAL_AU)
-	text "This machine looks"
-	line "the same as the"
-	cont "others."
+	text "Máy này trông như"
+	line "máy khác."
 	done
 else
-	text "I always play this"
-	line "slot machine. It"
+	text "Tôi luôn chơi máy"
+	line "slot này. Tôi nghĩ"
 
-	para "pays out more than"
-	line "others, I think."
+	para "nó trả ra nhiều"
+	line "hơn máy khác."
 	done
 endc
 
 GoldenrodGameCornerPokefanM1Text:
 if DEF(_CRYSTAL_AU)
-	text "These machines"
-	line "seem different"
+	text "Những máy này khác"
+	line "với máy ở"
 
-	para "from the ones at"
-	line "CELADON CITY!"
+	para "TP. CELADON!"
 	done
 else
-	text "I just love this"
-	line "new slot machine."
+	text "Tôi yêu máy slot"
+	line "mới này."
 
-	para "It's more of a"
-	line "challenge than the"
-	cont "ones in CELADON."
+	para "Thử thách hơn"
+	line "máy ở CELADON."
 	done
 endc
 
 GoldenrodGameCornerCooltrainerMText:
 if DEF(_CRYSTAL_AU)
-	text "Nothing is certain"
-	line "in this area."
+	text "Không gì chắc chắn"
+	line "ở khu vực này."
 	done
 else
-	text "Life is a gamble."
-	line "I'm going to flip"
-	cont "cards till I drop!"
+	text "Cuộc sống là cờ"
+	line "bạc. Tôi sẽ lật"
+	cont "bài đến ngất!"
 	done
 endc
 
 GoldenrodGameCornerPokefanFText:
-	text "Card flip…"
+	text "Lật bài…"
 
 if DEF(_CRYSTAL_AU)
-	para "Different from the"
-	line "other machines."
+	para "Khác với máy"
+	line "khác."
 	done
 else
-	para "I prefer it over"
-	line "the slots because"
+	para "Tôi thích hơn"
+	line "slot vì dễ tính"
 
-	para "it's easier to"
-	line "figure the odds."
+	para "tỷ lệ hơn."
 
-	para "But the payout is"
-	line "much lower."
+	para "Nhưng trả ra ít"
+	line "hơn nhiều."
 	done
 endc
 
 GoldenrodGameCornerCooltrainerFText:
-	text "I won't quit until"
-	line "I win!"
+	text "Tôi không bỏ cuộc"
+	line "cho đến khi thắng!"
 	done
 
 GoldenrodGameCornerGentlemanText:
-	text "I taught BLIZZARD"
-	line "to my #MON."
+	text "Tôi dạy BÃO BĂNG"
+	line "cho #MON."
 
-	para "It was hard to get"
-	line "enough coins for"
+	para "Khó lắm mới đủ xu"
+	line "để đổi,"
 
-	para "it, but it was"
-	line "worth it."
+	para "nhưng xứng đáng"
+	line "lắm."
 	done
 
 GoldenrodGameCornerPokefanM2Text:
 if DEF(_CRYSTAL_AU)
-	text "COIN CASE? I threw"
-	line "it away in the"
-	cont "UNDERGROUND."
+	text "HỘP XU? Tôi vứt"
+	line "nó trong"
+	cont "HẦM NGẦM rồi."
 	done
 else
-	text "I couldn't win at"
-	line "the slots, and I"
+	text "Tôi không thắng"
+	line "slot, lại thua"
 
-	para "blew it on card"
-	line "flipping…"
+	para "cả lật bài…"
 
-	para "I got so furious,"
-	line "I tossed out my"
+	para "Tôi giận quá, vứt"
+	line "luôn HỘP XU trong"
 
-	para "COIN CASE in the"
-	line "UNDERGROUND."
+	para "HẦM NGẦM."
 	done
 endc
 
 MoveTutorInsideText:
-	text "Wahahah! The coins"
-	line "keep rolling in!"
+	text "Wahahah! Xu cứ"
+	line "cuộn vào liên tục!"
 	done
 
 GoldenrodGameCornerLeftTheirDrinkText:
-	text "Someone left their"
-	line "drink."
+	text "Ai đó để quên đồ"
+	line "uống."
 
-	para "It smells sweet."
+	para "Mùi ngọt ngào."
 	done
 
 GoldenrodGameCorner_MapEvents:

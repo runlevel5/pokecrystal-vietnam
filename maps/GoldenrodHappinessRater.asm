@@ -70,68 +70,67 @@ HappinessRatersHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodHappinessRaterTeacherText:
-	text "If you treat your"
-	line "#MON nicely,"
+	text "Nếu đối xử tốt"
+	line "với #MON,"
 
-	para "they will love you"
-	line "in return."
+	para "chúng sẽ yêu bạn"
+	line "lại."
 
-	para "Oh? Let me see"
-	line "your @"
+	para "À? Để tôi xem"
+	line "@"
 	text_ram wStringBuffer3
-	text "…"
+	text " của bạn…"
 	done
 
 GoldenrodHappinessRatingText_LovesYouALot:
-	text "It looks really"
-	line "happy! It must"
-	cont "love you a lot."
+	text "Trông thật hạnh"
+	line "phúc! Nó chắc"
+	cont "rất yêu bạn."
 	done
 
 GoldenrodHappinessRatingText_ReallyTrustsYou:
-	text "I get the feeling"
-	line "that it really"
-	cont "trusts you."
+	text "Tôi cảm thấy nó"
+	line "thực sự tin tưởng"
+	cont "bạn."
 	done
 
 GoldenrodHappinessRatingText_SortOfHappy:
-	text "It's friendly to-"
-	line "ward you. It looks"
-	cont "sort of happy."
+	text "Nó thân thiện với"
+	line "bạn. Trông khá"
+	cont "vui."
 	done
 
 GoldenrodHappinessRatingText_QuiteCute:
-	text "It's quite cute."
+	text "Nó khá dễ thương."
 	done
 
 GoldenrodHappinessRatingText_NotUsedToYou:
-	text "You should treat"
-	line "it better. It's"
-	cont "not used to you."
+	text "Bạn nên đối xử"
+	line "tốt hơn. Nó chưa"
+	cont "quen với bạn."
 	done
 
 GoldenrodHappinessRatingText_LooksMean:
-	text "It doesn't seem to"
-	line "like you at all."
-	cont "It looks mean."
+	text "Nó không thích"
+	line "bạn chút nào."
+	cont "Trông hung dữ."
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "I keep losing in"
-	line "battles, and my"
+	text "Tôi cứ thua trận,"
+	line "và #MON của tôi"
 
-	para "#MON end up"
-	line "fainting…"
+	para "bị ngất đi…"
 
-	para "Maybe that's why"
-	line "my #MON don't"
-	cont "like me much…"
+	para "Có lẽ vì thế mà"
+	line "chúng không thích"
+	cont "tôi lắm…"
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "When I use an item"
-	line "on my #MON, it"
-	cont "acts really glad!"
+	text "Khi dùng vật phẩm"
+	line "cho #MON, nó"
+	cont "vui lắm!"
 	done
 
 GoldenrodHappinessRater_MapEvents:

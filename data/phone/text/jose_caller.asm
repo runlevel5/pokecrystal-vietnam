@@ -1,130 +1,129 @@
 JoseMonsStickHasADeliciousAromaText:
-	text "Hey listen, my"
-	line "@"
+	text "Này nghe này, cây"
+	line "gậy của @"
 	text_ram wStringBuffer4
-	text "'s stick"
 
-	para "has this really"
-	line "delicious aroma."
+	para "có mùi thơm thật"
+	line "ngon."
 
-	para "That aroma gets my"
-	line "appetite going!"
+	para "Mùi đó làm tớ thèm"
+	line "ăn quá!"
 	done
 
 JoseDefeatedMonText:
-	text "A while ago, my"
-	line "FARFETCH'D KO'd"
-	cont "this @"
+	text "Trước đây,"
+	line "FARFETCH'D của tớ"
+	cont "hạ con @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "You should have"
-	line "seen FARFETCH'D"
+	para "Cậu nên xem"
+	line "FARFETCH'D"
 
-	para "wield that stick."
-	line "Amazing stuff!"
+	para "vung cây gậy."
+	line "Tuyệt vời lắm!"
 	done
 
 JoseLostAMonText:
-	text "I ran into a wild"
+	text "Tớ gặp con"
 	line "@"
 	text_ram wStringBuffer4
-	text "…"
+	text " hoang…"
 
-	para "I was trying to"
-	line "catch it, but it"
+	para "Tớ định bắt nó,"
+	line "nhưng nó"
 
-	para "took off faster"
-	line "than I thought it"
+	para "bay mất nhanh hơn"
+	line "tớ nghĩ."
 
-	para "would. It was a"
-	line "bit disappointing."
+	para "Hơi thất vọng"
+	line "chút."
 	done
 
 JoseBattleRematchText:
-	text "Want to battle"
-	line "again?"
+	text "Muốn đấu lại"
+	line "không?"
 
-	para "For some reason,"
-	line "my FARFETCH'D is"
+	para "Vì lý do nào đó,"
+	line "FARFETCH'D của tớ"
 
-	para "all worked up and"
-	line "raring to go."
+	para "rất phấn khích và"
+	line "háo hức."
 
-	para "@"
+	para "Tớ đang ở"
+	line "@"
 	text_ram wStringBuffer5
-	text "'s"
-	line "where I'm at."
+	text "."
 
-	para "Keep an eye out"
-	line "for me, OK?"
+	para "Để ý tìm tớ nhé?"
 	done
 
 JoseHangUpText:
-	text "Be seeing you!"
+	text "Hẹn gặp lại!"
 	done
 
 JoseFoundItemText:
-	text "My FARFETCH'D had"
-	line "something pretty"
-	cont "in its beak."
+	text "FARFETCH'D của tớ"
+	line "có thứ đẹp trong"
+	cont "mỏ nó."
 
-	para "Like I promised,"
-	line "you can have it."
+	para "Như tớ đã hứa,"
+	line "cậu có thể lấy."
 
-	para "Catch up to me on"
+	para "Gặp tớ tại"
 	line "@"
 	text_ram wStringBuffer5
 	text ","
 
-	para "and I'll let you"
-	line "have it."
+	para "và tớ sẽ cho cậu"
+	line "nó."
 	done
 
 JoseHaventGottenItemYetText:
-	text "I haven't gotten"
-	line "what I promised"
-	cont "you yet."
+	text "Tớ chưa lấy được"
+	line "thứ tớ hứa"
+	cont "cho cậu."
 
-	para "I'll call you as"
-	line "soon as I get it,"
+	para "Tớ sẽ gọi ngay khi"
+	line "có nó,"
 
-	para "so could you wait"
-	line "a little longer?"
+	para "nên cậu có thể đợi"
+	line "thêm chút không?"
 	done
 
 JoseReminderText:
-	text "<PLAY_G>, could you"
-	line "hurry over?"
+	text "<PLAY_G>, cậu có"
+	line "thể nhanh lên được"
+	cont "không?"
 
-	para "FARFETCH'D is"
-	line "agitated."
+	para "FARFETCH'D đang"
+	line "bồn chồn."
 
-	para "If you don't come"
-	line "soon, it might"
+	para "Nếu cậu không đến"
+	line "sớm, nó có thể"
 
-	para "smack me with its"
-	line "stick!"
+	para "đập tớ bằng cây"
+	line "gậy của nó!"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Please come as"
-	line "soon as you can!"
+	para "Hãy đến càng sớm"
+	line "càng tốt!"
 	done
 
 JoseComePickUpText:
-	text "What's wrong?"
+	text "Có chuyện gì?"
 
-	para "Don't you want"
-	line "this gift?"
+	para "Cậu không muốn"
+	line "món quà này sao?"
 
-	para "Catch up to me on"
+	para "Gặp tớ tại"
 	line "@"
 	text_ram wStringBuffer5
 	text ","
 
-	para "and I'll let you"
-	line "have it."
+	para "và tớ sẽ cho cậu"
+	line "nó."
 	done

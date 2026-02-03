@@ -139,80 +139,78 @@ GoldenrodDeptStore5FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore5FReceptionistOhYourMonDotDotDotText:
-	text "Hello. Oh, your"
-	line "#MON…"
+	text "Xin chào. Ồ,"
+	line "#MON của bạn…"
 	done
 
 GoldenrodDeptStore5FReceptionistThisMoveShouldBePerfectText:
-	text "It's very attached"
-	line "to you."
+	text "Nó rất gắn bó với"
+	line "bạn."
 
-	para "This move should"
-	line "be perfect for a"
-	cont "pair like you."
+	para "Chiêu này hoàn hảo"
+	line "cho một cặp như"
+	cont "các bạn."
 	done
 
 GoldenrodDeptStore5FReceptionistItsAdorableText:
-	text "It's adorable!"
+	text "Nó đáng yêu quá!"
 
-	para "You should teach"
-	line "it good TM moves."
+	para "Bạn nên dạy nó"
+	line "chiêu TM hay."
 	done
 
 GoldenrodDeptStore5FReceptionistItLooksEvilHowAboutThisTMText:
-	text "It looks evil. How"
-	line "about this TM for"
-	cont "it?"
+	text "Nó trông hung dữ."
+	line "TM này thích hợp"
+	cont "không?"
 	done
 
 GoldenrodDeptStore5FReceptionistThereAreTMsPerfectForMonText:
-	text "There are sure to"
-	line "be TMs that are"
+	text "Chắc chắn có TM"
+	line "hoàn hảo cho"
 
-	para "just perfect for"
-	line "your #MON."
+	para "#MON của bạn."
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
-	text "MYSTERY GIFT."
+	text "QUÀ BÍ MẬT."
 
-	para "With just a"
-	line "little beep, you"
-	cont "get a gift."
+	para "Chỉ cần một tí"
+	line "tiếng bíp, bạn"
+	cont "nhận được quà."
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "The MYSTERY GIFT"
-	line "option requires a"
-	cont "Game Boy Color."
+	text "QUÀ BÍ MẬT cần"
+	line "Game Boy Color."
 	done
 
 GoldenrodDeptStore5FLassText:
-	text "On Sundays, a lady"
-	line "comes to check out"
+	text "Chủ Nhật, một bà"
+	line "đến kiểm tra"
 	cont "#MON."
 
-	para "She even gives"
-	line "away TMs!"
+	para "Bà còn tặng TM"
+	line "nữa!"
 	done
 
 GoldenrodDeptStore5FPokefanMText:
-	text "You can't rename a"
-	line "#MON you get in"
-	cont "a trade."
+	text "Bạn không thể đổi"
+	line "tên #MON nhận"
+	cont "từ giao dịch."
 
-	para "The name is a re-"
-	line "flection of the"
+	para "Tên là sự phản"
+	line "ánh tình cảm của"
 
-	para "original trainer's"
-	line "feelings for it."
+	para "HLV gốc dành cho"
+	line "nó."
 	done
 
 GoldenrodDeptStore5FDirectoryText:
-	text "Customize Your"
-	line "#MON"
+	text "Tùy Chỉnh"
+	line "#MON Của Bạn"
 
-	para "5F TM CORNER"
+	para "5T GÓC TM"
 	done
 
 GoldenrodDeptStore5F_MapEvents:

@@ -1,10 +1,10 @@
-	db "RAT@" ; species name
-	dw 204, 410 ; height, weight
+	db "CHUỘT@" ; species name
+	dw 7, 185 ; height, weight
 
-	db   "The webs on its"
-	next "hind legs enable"
-	next "it to cross"
+	db   "Màng ở chân sau"
+	next "giúp nó bơi qua"
+	next "sông. Nó tìm"
 
-	page "rivers. It search-"
-	next "es wide areas for"
-	next "food.@"
+	page "kiếm thức ăn"
+	next "trên diện rộng.@"
+	next "@"

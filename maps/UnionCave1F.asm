@@ -85,116 +85,113 @@ UnionCave1FUnusedSign: ; unreferenced
 	jumptext UnionCave1FUnusedSignText
 
 HikerRussellSeenText:
-	text "You're headed to"
-	line "AZALEA, are you?"
+	text "Bạn đi AZALEA à?"
 
-	para "Let my #MON see"
-	line "if you are good"
-	cont "enough to battle."
+	para "#MON của tôi sẽ"
+	line "kiểm tra xem bạn"
+	cont "mạnh không!"
 	done
 
 HikerRussellBeatenText:
-	text "Oh, oh, oh!"
+	text "Ôi, ôi, ôi!"
 	done
 
 HikerRussellAfterBattleText:
-	text "All right, then!"
-	line "I've decided."
+	text "Được rồi!"
+	line "Tôi đã quyết định"
 
-	para "I'm not leaving"
-	line "until my #MON"
-	cont "get tougher!"
+	para "Tôi sẽ không rời"
+	line "đây cho đến khi"
+	cont "#MON mạnh hơn!"
 	done
 
 PokemaniacLarrySeenText:
-	text "I roam far and"
-	line "wide in search of"
-	cont "#MON."
+	text "Tôi đi khắp nơi"
+	line "để tìm #MON."
 
-	para "Are you looking"
-	line "for #MON too?"
+	para "Bạn cũng đang"
+	line "tìm #MON à?"
 
-	para "Then you're my"
-	line "collecting rival!"
+	para "Vậy thì bạn là"
+	line "đối thủ của tôi!"
 	done
 
 PokemaniacLarryBeatenText:
-	text "Ugh. My poor #-"
-	line "MON…"
+	text "Uh. #MON"
+	line "tội nghiệp của tôi"
 	done
 
 PokemaniacLarryAfterBattleText:
-	text "Every Friday, you"
-	line "can hear #MON"
+	text "Mỗi thứ Sáu, bạn"
+	line "có thể nghe tiếng"
 
-	para "roars from deep"
-	line "inside the cave."
+	para "#MON gầm từ sâu"
+	line "trong hang động."
 	done
 
 HikerDanielSeenText:
-	text "Whoa! What a"
-	line "surprise!"
+	text "Ồ! Bất ngờ quá!"
 
-	para "I didn't expect to"
-	line "see anyone here!"
+	para "Tôi không ngờ có"
+	line "ai ở đây!"
 	done
 
 HikerDanielBeatenText:
-	text "Whoa! I'm beaten"
-	line "big time!"
+	text "Ồ! Tôi thua nặng!"
 	done
 
 HikerDanielAfterBattleText:
-	text "I was conned into"
-	line "buying a SLOWPOKE-"
-	cont "TAIL."
+	text "Tôi bị lừa mua"
+	line "ĐUÔI SLOWPOKE."
 
-	para "I feel sorry for"
-	line "the poor #MON."
+	para "Tôi thấy thương"
+	line "cho #MON tội"
+	cont "nghiệp đó."
 	done
 
 FirebreatherBillSeenText:
-	text "ZUBAT's SUPERSONIC"
-	line "keeps confusing"
-	cont "my #MON."
+	text "SIÊU ÂM của"
+	line "ZUBAT cứ làm #-"
+	cont "MON tôi bối rối."
 
-	para "I'm seriously"
-	line "upset about that!"
+	para "Tôi rất bực mình"
+	line "về chuyện đó!"
 	done
 
 FirebreatherBillBeatenText:
-	text "I flamed out!"
+	text "Tôi tắt ngúm rồi!"
 	done
 
 FirebreatherBillAfterBattleText:
-	text "On weekends, you"
-	line "can hear strange"
+	text "Cuối tuần, bạn có"
+	line "thể nghe tiếng gầm"
 
-	para "roars from deep in"
-	line "the cave."
+	para "lạ từ sâu trong"
+	line "hang động."
 	done
 
 FirebreatherRaySeenText:
-	text "If it's light, a"
-	line "cave isn't scary."
+	text "Nếu có ánh sáng,"
+	line "hang động không"
+	cont "đáng sợ."
 
-	para "If you're strong,"
-	line "#MON aren't"
-	cont "scary."
+	para "Nếu bạn mạnh,"
+	line "#MON cũng không"
+	cont "đáng sợ."
 	done
 
 FirebreatherRayBeatenText:
-	text "FLASH!"
+	text "LOÁNG!"
 	done
 
 FirebreatherRayAfterBattleText:
-	text "It's my #MON's"
-	line "fire that lights"
-	cont "up this cave."
+	text "Lửa #MON tôi"
+	line "chiếu sáng hang"
+	cont "động này."
 	done
 
 UnionCave1FUnusedSignText:
-	text "UNION CAVE"
+	text "ĐỘNG UNION"
 	done
 
 UnionCave1F_MapEvents:

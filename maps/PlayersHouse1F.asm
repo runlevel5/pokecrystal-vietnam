@@ -211,176 +211,174 @@ MomWalksBackMovement:
 	step_end
 
 ElmsLookingForYouText:
-	text "Oh, <PLAYER>…! Our"
-	line "neighbor, PROF."
+	text "Ồ, <PLAYER>…! Hàng"
+	line "xóm của mình,"
 
-	para "ELM, was looking"
-	line "for you."
+	para "GS ELM, đang"
+	line "tìm con đấy."
 
-	para "He said he wanted"
-	line "you to do some-"
-	cont "thing for him."
+	para "Ông ấy muốn con"
+	line "giúp việc gì đó."
 
-	para "Oh! I almost for-"
-	line "got! Your #MON"
+	para "Ồ! Mẹ suýt quên!"
+	line "#GEAR của con"
 
-	para "GEAR is back from"
-	line "the repair shop."
+	para "đã sửa xong rồi."
 
-	para "Here you go!"
+	para "Đây này!"
 	done
 
 MomGivesPokegearText:
-	text "#MON GEAR, or"
-	line "just #GEAR."
+	text "MÁY #MON, hay"
+	line "gọi tắt #GEAR."
 
-	para "It's essential if"
-	line "you want to be a"
-	cont "good trainer."
+	para "Nó rất cần thiết"
+	line "nếu con muốn trở"
+	cont "thành HLV giỏi."
 
-	para "Oh, the day of the"
-	line "week isn't set."
+	para "À, ngày trong tuần"
+	line "chưa được đặt."
 
-	para "You mustn't forget"
-	line "that!"
+	para "Con đừng quên"
+	line "điều đó nhé!"
 	done
 
 IsItDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "Bây giờ có phải"
+	line "Giờ Mùa Hè không?"
 	done
 
 ComeHomeForDSTText:
-	text "Come home to"
-	line "adjust your clock"
+	text "Về nhà để chỉnh"
+	line "đồng hồ cho Giờ"
+	cont "Mùa Hè nhé."
 
-	para "for Daylight"
-	line "Saving Time."
-
-	para "By the way, do you"
-	line "know how to use"
-	cont "the PHONE?"
+	para "À mà, con có biết"
+	line "dùng ĐIỆN THOẠI"
+	cont "không?"
 	done
 
 KnowTheInstructionsText:
-	text "Don't you just"
-	line "turn the #GEAR"
+	text "Chỉ cần bật"
+	line "#GEAR và chọn"
 
-	para "on and select the"
-	line "PHONE icon?"
+	para "biểu tượng ☎"
+	line "phải không?"
 	done
 
 DontKnowTheInstructionsText:
-	text "I'll read the"
-	line "instructions."
+	text "Để mẹ đọc hướng"
+	line "dẫn nhé."
 
-	para "Turn the #GEAR"
-	line "on and select the"
-	cont "PHONE icon."
+	para "Bật #GEAR lên"
+	line "và chọn biểu"
+	cont "tượng ☎."
 	done
 
 InstructionsNextText:
-	text "Phone numbers are"
-	line "stored in memory."
+	text "Số điện thoại"
+	line "được lưu trong"
+	cont "bộ nhớ."
 
-	para "Just choose a name"
-	line "you want to call."
+	para "Chỉ cần chọn tên"
+	line "người muốn gọi."
 
-	para "Gee, isn't that"
-	line "convenient?"
+	para "Tiện lợi quá"
+	line "phải không nào?"
 	done
 
 HurryUpElmIsWaitingText:
-	text "PROF.ELM is wait-"
-	line "ing for you."
+	text "GS ELM đang chờ"
+	line "con đấy."
 
-	para "Hurry up, baby!"
+	para "Nhanh lên con!"
 	done
 
 SoWhatWasProfElmsErrandText:
-	text "So, what was PROF."
-	line "ELM's errand?"
+	text "Vậy GS ELM nhờ"
+	line "con việc gì?"
 
 	para "…"
 
-	para "That does sound"
-	line "challenging."
+	para "Nghe có vẻ thử"
+	line "thách đấy."
 
-	para "But, you should be"
-	line "proud that people"
-	cont "rely on you."
+	para "Nhưng, con nên tự"
+	line "hào vì mọi người"
+	cont "tin tưởng con."
 	done
 
 ImBehindYouText:
-	text "<PLAYER>, do it!"
+	text "<PLAYER>, cố lên!"
 
-	para "I'm behind you all"
-	line "the way!"
+	para "Mẹ luôn ủng hộ"
+	line "con!"
 	done
 
 NeighborMornIntroText:
-	text "Good morning,"
+	text "Chào buổi sáng,"
 	line "<PLAY_G>!"
 
-	para "I'm visiting!"
+	para "Cô sang chơi đây!"
 	done
 
 NeighborDayIntroText:
-	text "Hello, <PLAY_G>!"
-	line "I'm visiting!"
+	text "Chào, <PLAY_G>!"
+	line "Cô sang chơi đây!"
 	done
 
 NeighborNiteIntroText:
-	text "Good evening,"
+	text "Chào buổi tối,"
 	line "<PLAY_G>!"
 
-	para "I'm visiting!"
+	para "Cô sang chơi đây!"
 	done
 
 NeighborText:
-	text "<PLAY_G>, have you"
-	line "heard?"
+	text "<PLAY_G>, con có"
+	line "nghe chưa?"
 
-	para "My daughter is"
-	line "adamant about"
+	para "Con gái cô nhất"
+	line "định muốn làm"
 
-	para "becoming PROF."
-	line "ELM's assistant."
+	para "trợ lý cho"
+	line "GS ELM."
 
-	para "She really loves"
+	para "Nó rất yêu"
 	line "#MON!"
 	done
 
 PlayersHouse1FStoveText:
-	text "Mom's specialty!"
+	text "Món đặc biệt"
+	line "của Mẹ!"
 
-	para "CINNABAR VOLCANO"
-	line "BURGER!"
+	para "BURGER NÚI LỬA"
+	line "CINNABAR!"
 	done
 
 PlayersHouse1FSinkText:
-	text "The sink is spot-"
-	line "less. Mom likes it"
-	cont "clean."
+	text "Bồn rửa sạch"
+	line "bóng. Mẹ thích"
+	cont "sự sạch sẽ."
 	done
 
 PlayersHouse1FFridgeText:
-	text "Let's see what's"
-	line "in the fridge…"
+	text "Xem trong tủ lạnh"
+	line "có gì nào…"
 
-	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	para "NƯỚC SUỐI và"
+	line "NƯỚC CHANH ngon!"
 	done
 
 PlayersHouse1FTVText:
-	text "There's a movie on"
-	line "TV: Stars dot the"
+	text "Có phim trên TV:"
+	line "Sao lấp lánh trên"
 
-	para "sky as two boys"
-	line "ride on a train…"
+	para "bầu trời khi hai"
+	line "cậu bé đi tàu…"
 
-	para "I'd better get"
-	line "rolling too!"
+	para "Mình cũng phải"
+	line "lên đường thôi!"
 	done
 
 PlayersHouse1F_MapEvents:

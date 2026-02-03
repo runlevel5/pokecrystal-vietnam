@@ -1,10 +1,10 @@
-	db "HYPNOSIS@" ; species name
-	dw 503, 1670 ; height, weight
+	db "THÔI MIÊN@" ; species name
+	dw 16, 756 ; height, weight
 
-	db   "The longer it"
-	next "swings its"
-	next "pendulum, the"
+	db   "Nó đung đưa con"
+	next "lắc càng lâu,"
+	next "hiệu quả thôi"
 
-	page "longer the effects"
-	next "of its hypnosis"
-	next "last.@"
+	page "miên càng kéo"
+	next "dài.@"
+	next "@"

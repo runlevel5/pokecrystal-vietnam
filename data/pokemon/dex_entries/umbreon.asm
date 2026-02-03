@@ -1,10 +1,10 @@
-	db "MOONLIGHT@" ; species name
-	dw 303, 600 ; height, weight
+	db "ÁNH TRĂNG@" ; species name
+	dw 10, 270 ; height, weight
 
-	db   "On the night of a"
-	next "full moon, or when"
-	next "it gets excited,"
+	db   "Vào đêm trăng"
+	next "tròn hoặc khi"
+	next "phấn khích, hoa"
 
-	page "the ring patterns"
-	next "on its body glow"
-	next "yellow.@"
+	page "văn vòng trên"
+	next "thân phát sáng"
+	next "vàng.@"

@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 411, 1550 ; height, weight
+	db "SIÊU LỰC@" ; species name
+	dw 15, 705 ; height, weight
 
-	db   "This tough #MON"
-	next "always stays in"
-	next "the zone. Its"
+	db   "#MON cứng cỏi"
+	next "này luôn tập"
+	next "trung cao độ."
 
-	page "muscles become"
-	next "thicker after"
-	next "every battle.@"
+	page "Cơ bắp nó dày"
+	next "hơn sau mỗi"
+	next "trận chiến.@"

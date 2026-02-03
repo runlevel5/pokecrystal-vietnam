@@ -1,69 +1,70 @@
 JoseAnswerPhoneText:
-	text "Hello, this is"
+	text "Xin chào, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>?"
-	line "Good morning!"
+	para "Ồ, <PLAY_G>?"
+	line "Chào buổi sáng!"
 	done
 
 JoseAnswerPhoneDayText:
-	text "Hello, this is"
+	text "Xin chào, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>? Hi!"
+	para "Ồ, <PLAY_G>? Chào!"
 	done
 
 JoseAnswerPhoneNiteText:
-	text "Hello, this is"
+	text "Xin chào, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Oh, <PLAY_G>?"
-	line "Good evening!"
+	para "Ồ, <PLAY_G>?"
+	line "Chào buổi tối!"
 	done
 
 JoseGreetText:
-	text "Oh, <PLAY_G>?"
+	text "Ồ, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Tweet! Ừ, là tớ,"
+	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 JoseGreetDayText:
-	text "Oh, <PLAY_G>?"
+	text "Ồ, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Tweet! Ừ, là tớ,"
+	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 JoseGreetNiteText:
-	text "Oh, <PLAY_G>?"
+	text "Ồ, <PLAY_G>?"
 
-	para "Tweet! Yeah, it's"
-	line "me, @"
+	para "Tweet! Ừ, là tớ,"
+	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 JoseGenericText:
-	text "Are your #MON"
-	line "still cooking?"
+	text "#MON của cậu"
+	line "vẫn ổn chứ?"
 
-	para "My @"
+	para "@"
 	text_ram wStringBuffer4
-	text " has"
-	line "too much energy."
+	text " của tớ"
+	line "có quá nhiều năng"
+	cont "lượng."
 
-	para "Once it takes off,"
-	line "it won't come back"
-	cont "for a while."
+	para "Một khi nó cất"
+	line "cánh, nó sẽ không"
+	cont "quay về một lúc."
 	done

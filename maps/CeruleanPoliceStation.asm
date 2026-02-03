@@ -23,18 +23,17 @@ CeruleanDiglett:
 	end
 
 CeruleanPoliceStationFishingGuruText:
-	text "I heard that some"
-	line "shady character is"
-	cont "skulking about."
+	text "Tôi nghe có kẻ"
+	line "đáng ngờ lẩn vẩn."
 
-	para "I won't stand for"
-	line "it if he turns out"
-	cont "to be a thief."
+	para "Tôi không thể"
+	line "chấp nhận nếu hắn"
+	cont "là tên trộm."
 	done
 
 CeruleanPoliceStationPokefanFText:
-	text "We were held up by"
-	line "robbers before."
+	text "Trước đây chúng"
+	line "tôi bị cướp rồi."
 	done
 
 CeruleanDiglettText:

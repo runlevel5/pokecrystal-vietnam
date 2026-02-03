@@ -1,10 +1,10 @@
-	db "LIGHT@" ; species name
-	dw 311, 500 ; height, weight
+	db "ÁNH SÁNG@" ; species name
+	dw 12, 225 ; height, weight
 
-	db   "This #MON uses"
-	next "the bright part of"
-	next "its body, which"
+	db   "#MON này dùng"
+	next "phần sáng trên"
+	next "thân, vốn tiến"
 
-	page "changed from a"
-	next "dorsal fin, to"
-	next "lure prey.@"
+	page "hóa từ vây lưng,"
+	next "để dụ con mồi.@"
+	next "@"

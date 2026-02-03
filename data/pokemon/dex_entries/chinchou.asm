@@ -1,10 +1,10 @@
-	db "ANGLER@" ; species name
-	dw 108, 260 ; height, weight
+	db "CÂU CÁ@" ; species name
+	dw 5, 120 ; height, weight
 
-	db   "Its antennae, whi-"
-	next "ch evolved from a"
-	next "fin, have both po-"
+	db   "Râu của nó tiến"
+	next "hóa từ vây, có"
+	next "cả điện tích"
 
-	page "sitive and neg-"
-	next "ative charges flo-"
-	next "wing through them.@"
+	page "dương và âm"
+	next "chạy qua.@"
+	next "@"

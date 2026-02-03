@@ -1,55 +1,55 @@
 JackAskNumber1Text:
-	text "Your knowledge is"
-	line "impressive!"
+	text "Kiến thức của cậu"
+	line "ấn tượng đấy!"
 
-	para "I like that!"
+	para "Tớ thích vậy!"
 
-	para "Want to trade"
-	line "battle tips?"
+	para "Muốn trao đổi mẹo"
+	line "chiến đấu không?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Tớ sẽ gọi nếu có"
+	line "thông tin hay."
 
-	para "Would you tell me"
-	line "your number?"
+	para "Cậu có thể cho tớ"
+	line "SĐT không?"
 	done
 
 JackAskNumber2Text:
-	text "Want to trade"
-	line "battle tips?"
+	text "Muốn trao đổi mẹo"
+	line "chiến đấu không?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Tớ sẽ gọi nếu có"
+	line "thông tin hay."
 
-	para "Would you tell me"
-	line "your number?"
+	para "Cậu có thể cho tớ"
+	line "SĐT không?"
 	done
 
 JackNumberAcceptedText:
-	text "I'll call you if I"
-	line "hear anything!"
+	text "Tớ sẽ gọi nếu"
+	line "nghe được gì!"
 	done
 
 JackNumberDeclinedText:
-	text "Oh, OK. Too bad…"
+	text "Ồ, OK. Tiếc quá…"
 
-	para "Well, if you ever"
-	line "want my number,"
-	cont "come see me, OK?"
+	para "Nếu muốn SĐT tớ,"
+	line "hãy đến gặp tớ,"
+	cont "nhé?"
 	done
 
 JackPhoneFullText:
-	text "Oh?"
-	line "Your phone's full."
+	text "Ồ?"
+	line "Điện thoại cậu đầy"
 
-	para "It can't register"
-	line "my number."
+	para "Không thể đăng ký"
+	line "SĐT của tớ."
 	done
 
 JackRematchText:
-	text "Hi, I was waiting"
-	line "for you to show!"
+	text "Chào, tớ đợi cậu"
+	line "đấy!"
 
-	para "Let's get started"
-	line "right away!"
+	para "Bắt đầu ngay"
+	line "thôi!"
 	done

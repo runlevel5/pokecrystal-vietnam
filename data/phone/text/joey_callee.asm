@@ -1,73 +1,73 @@
 JoeyAnswerPhoneText:
-	text "Hi, @"
+	text "Chào, đây là @"
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Ồ, <PLAYER>? Cậu"
+	line "ổn chứ?"
 	done
 
 JoeyAnswerPhoneDayText:
-	text "Hi, @"
+	text "Chào, đây là @"
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Ồ, <PLAYER>? Cậu"
+	line "ổn chứ?"
 	done
 
 JoeyAnswerPhoneNiteText:
-	text "Hi, @"
+	text "Chào, đây là @"
 	text_ram wStringBuffer3
-	text " here!"
+	text "!"
 
-	para "Oh, <PLAYER>? You"
-	line "doing well?"
+	para "Ồ, <PLAYER>? Cậu"
+	line "ổn chứ?"
 	done
 
 JoeyGreetText:
 	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	line "Cậu thế nào?"
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text ","
-	line "got a minute?"
+	line "có rảnh không?"
 	done
 
 JoeyGreetDayText:
-	text "Yo, <PLAYER>! How's"
-	line "it going?"
+	text "Yo, <PLAYER>! Mọi"
+	line "chuyện sao rồi?"
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text "."
-	line "Got a minute?"
+	line "Có rảnh không?"
 	done
 
 JoeyGreetNiteText:
 	text "Yo, <PLAYER>!"
-	line "How're you doing?"
+	line "Cậu thế nào?"
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text ","
-	line "got a minute?"
+	line "có rảnh không?"
 	done
 
 JoeyGenericText:
-	text "How are your"
-	line "#MON doing?"
+	text "#MON của cậu"
+	line "sao rồi?"
 
-	para "My @"
+	para "Còn @"
 	text_ram wStringBuffer4
-	text "'s"
-	line "raring to go, just"
-	cont "like always."
+	text " của"
+	line "tớ thì sẵn sàng"
+	cont "như mọi khi."
 
-	para "It's the only one"
-	line "I have. I'm going"
+	para "Tớ chỉ có một"
+	line "con. Tớ sẽ trở"
 
-	para "to become a great"
-	line "trainer with it!"
+	para "thành HLV giỏi"
+	line "với nó!"
 	done

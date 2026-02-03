@@ -1,10 +1,10 @@
-	db "PATIENT@" ; species name
-	dw 403, 630 ; height, weight
+	db "KIÊN NHẪN@" ; species name
+	dw 13, 285 ; height, weight
 
-	db   "In order to con-"
-	next "ceal its black"
-	next "tail, it lives in"
+	db   "Để giấu đuôi đen,"
+	next "nó sống trong"
+	next "hang tối và chỉ"
 
-	page "a dark cave and"
-	next "only moves about"
-	next "at night.@"
+	page "hoạt động vào"
+	next "ban đêm.@"
+	next "@"

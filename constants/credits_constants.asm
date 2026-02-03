@@ -99,10 +99,12 @@
 	const MOBILE_STADIUM_DIR
 	const COORDINATION
 	const COPYRIGHT
-	const US_VERSION_STAFF
-	const US_COORDINATION
+	const VN_VERSION_STAFF
+	const TRUNG_LE
+	const HIEU_LE
+	const TRANG_LE
+	const PROGRAMMER
 	const TEXT_TRANSLATION
-	const PAAD_TESTING
 DEF NUM_CREDITS_STRINGS EQU const_value
 
 ; CreditsScript indexes (see data/credits_script.asm)

@@ -211,39 +211,39 @@ RadioTower1FLuckyNumberManReturnToPlayerMovement:
 	step_end
 
 RadioTower1FReceptionistWelcomeText:
-	text "Welcome!"
+	text "Chào mừng!"
 	done
 
 RadioTower1FReceptionistNoToursText:
-	text "Hello. I'm sorry,"
-	line "but we're not"
-	cont "offering any tours"
-	cont "today."
+	text "Xin chào. Tôi xin"
+	line "lỗi, nhưng hôm"
+	cont "nay chúng tôi"
+	cont "không tham quan."
 	done
 
 RadioTower1FLuckyNumberManAskToPlayText:
-	text "Hi, are you here"
-	line "for the LUCKY NUM-"
-	cont "BER SHOW?"
+	text "Chào, bạn đến đây"
+	line "vì LUCKY NUMBER"
+	cont "SHOW sao?"
 
-	para "Want me to check"
-	line "the ID numbers of"
-	cont "your #MON?"
+	para "Bạn muốn tôi kiểm"
+	line "tra số ID của"
+	cont "#MON bạn không?"
 
-	para "If you get lucky,"
-	line "you win a prize."
+	para "Nếu may mắn, bạn"
+	line "sẽ thắng giải!"
 	done
 
 RadioTower1FLuckyNumberManThisWeeksIdIsText:
-	text "This week's ID"
-	line "number is @"
+	text "Số ID tuần này"
+	line "là @"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 RadioTower1FLuckyNumberManCheckIfMatchText:
-	text "Let's see if you"
-	line "have a match."
+	text "Để xem bạn có"
+	line "trùng số không."
 	done
 
 RadioTower1FLuckyNumberManDotDotDotText:
@@ -252,222 +252,222 @@ RadioTower1FLuckyNumberManDotDotDotText:
 	done
 
 RadioTower1FLuckyNumberManComeAgainText:
-	text "Please come back"
-	line "next week for the"
-	cont "next LUCKY NUMBER."
+	text "Hãy quay lại tuần"
+	line "sau để xem LUCKY"
+	cont "NUMBER tiếp theo."
 	done
 
 RadioTower1FLuckyNumberManPerfectMatchText:
-	text "Wow! You have a"
-	line "perfect match of"
-	cont "all five numbers!"
+	text "Wow! Bạn trùng"
+	line "khớp hoàn hảo cả"
+	cont "năm số!"
 
-	para "We have a grand"
-	line "prize winner!"
+	para "Chúng ta có người"
+	line "thắng giải lớn!"
 
-	para "You have won a"
-	line "MASTER BALL!"
+	para "Bạn đã thắng một"
+	line "BÓNG MASTER!"
 	done
 
 RadioTower1FLuckyNumberManOkayMatchText:
-	text "Hey! You've"
-	line "matched the last"
-	cont "three numbers!"
+	text "Này! Bạn đã trùng"
+	line "ba số cuối!"
 
-	para "You've won second"
-	line "prize, an EXP."
-	cont "SHARE!"
+	para "Bạn đã thắng giải"
+	line "nhì, một CHIA SẺ"
+	cont "KN!"
 	done
 
 RadioTower1FLuckyNumberManWeakMatchText:
-	text "Ooh, you've"
-	line "matched the last"
-	cont "two numbers."
+	text "Ồ, bạn đã trùng"
+	line "hai số cuối."
 
-	para "You've won third"
-	line "prize, a PP UP."
+	para "Bạn đã thắng giải"
+	line "ba, một PP UP."
 	done
 
 RadioTower1FLuckyNumberManNoneOfYourIDNumbersMatchText:
-	text "Nope, none of your"
-	line "ID numbers match."
+	text "Không, không có"
+	line "số ID nào trùng."
 	done
 
 RadioTower1FLuckyNumberManNoRoomForYourPrizeText:
-	text "You've got no room"
-	line "for your prize."
+	text "Bạn không có chỗ"
+	line "cho phần thưởng."
 
-	para "Make room and come"
-	line "back right away."
+	para "Hãy dọn chỗ và"
+	line "quay lại ngay."
 	done
 
 RadioTower1FRadioCardWomanOfferQuizText:
-	text "We have a special"
-	line "quiz campaign on"
-	cont "right now."
+	text "Chúng tôi có"
+	line "chiến dịch đố vui"
+	cont "đặc biệt."
 
-	para "Answer five ques-"
-	line "tions correctly to"
-	cont "win a RADIO CARD."
+	para "Trả lời đúng năm"
+	line "câu hỏi để thắng"
+	cont "RADIO CARD."
 
-	para "Slide it into your"
-	line "#GEAR to play"
+	para "Gắn nó vào"
+	line "#GEAR để nghe"
 
-	para "the radio anytime,"
-	line "anywhere."
+	para "radio mọi lúc,"
+	line "mọi nơi."
 
-	para "Would you like to"
-	line "take the quiz?"
+	para "Bạn có muốn làm"
+	line "bài đố không?"
 	done
 
 RadioTower1FRadioCardWomanQuestion1Text:
-	text "Question 1:"
+	text "Câu hỏi 1:"
 
-	para "Is there a #MON"
-	line "that appears only"
-	cont "in the morning?"
+	para "Có #MON chỉ"
+	line "xuất hiện vào"
+	cont "buổi sáng không?"
 	done
 
 RadioTower1FRadioCardWomanQuestion2Text:
-	text "Correct!"
-	line "Question 2:"
+	text "Đúng rồi!"
+	line "Câu hỏi 2:"
 
-	para "Is this statement"
-	line "correct?"
+	para "Câu này đúng"
+	line "không?"
 
-	para "You can't buy a"
-	line "BERRY at a MART."
+	para "Bạn không thể mua"
+	line "QUẢ ở MART."
 	done
 
 RadioTower1FRadioCardWomanQuestion3Text:
-	text "Bull's-eye!"
-	line "Question 3:"
+	text "Chính xác!"
+	line "Câu hỏi 3:"
 
-	para "Does HM01 contain"
-	line "the move FLASH?"
+	para "HM01 có chứa chiêu"
+	line "CẮT không?"
 	done
 
 RadioTower1FRadioCardWomanQuestion4Text:
-	text "So far so good!"
-	line "Question 4:"
+	text "Tốt lắm!"
+	line "Câu hỏi 4:"
 
-	para "Is FALKNER the"
-	line "VIOLET GYM LEADER"
+	para "FALKNER có phải"
+	line "T.LĨNH GYM VIOLET"
 
-	para "who uses bird"
-	line "#MON?"
+	para "dùng #MON chim"
+	line "không?"
 	done
 
 RadioTower1FRadioCardWomanQuestion5Text:
-	text "Wow! Right again!"
-	line "Here's the final"
-	cont "question:"
+	text "Wow! Đúng nữa!"
+	line "Đây là câu hỏi"
+	cont "cuối cùng:"
 
-	para "Do GOLDENROD GAME"
-	line "CORNER's slots"
+	para "Máy đánh bạc ở"
+	line "GOLDENROD GAME"
 
-	para "have CHARMANDER"
-	line "on their reels?"
+	para "CORNER có hình"
+	line "CHARMANDER không?"
 	done
 
 RadioTower1FRadioCardWomanYouWinText:
-	text "Bingo! You got it!"
-	line "Congratulations!"
+	text "Bingo! Bạn đúng!"
+	line "Chúc mừng!"
 
-	para "Here's your prize,"
-	line "a RADIO CARD!"
+	para "Đây là giải của"
+	line "bạn, RADIO CARD!"
 	done
 
 RadioTower1FPokegearIsARadioText:
-	text "<PLAYER>'s #GEAR"
-	line "can now double as"
-	cont "a radio!"
+	text "#GEAR của"
+	line "<PLAYER> giờ có"
+	cont "thể làm radio!"
 	done
 
 RadioTower1FRadioCardWomanTuneInText:
-	text "Please tune in to"
-	line "our radio shows."
+	text "Hãy theo dõi các"
+	line "chương trình của"
+	cont "chúng tôi."
 	done
 
 RadioTower1FRadioCardWomanWrongAnswerText:
-	text "Oh, dear."
-	line "Sorry, but you"
+	text "Ôi, không."
+	line "Xin lỗi, bạn"
 
-	para "got it wrong."
-	line "Please try again!"
+	para "trả lời sai rồi."
+	line "Hãy thử lại nhé!"
 	done
 
 RadioTower1FRadioCardWomanNotTakingQuizText:
-	text "Oh. I see. Please"
-	line "see me if you"
-	cont "change your mind."
+	text "À. Tôi hiểu. Hãy"
+	line "gặp tôi nếu bạn"
+	cont "đổi ý nhé."
 	done
 
 RadioTower1FLassText:
-	text "BEN is a fabulous"
-	line "DJ."
+	text "BEN là một DJ"
+	line "tuyệt vời."
 
-	para "His sweet voice"
-	line "makes me melt!"
+	para "Giọng ngọt ngào"
+	line "làm tôi tan chảy!"
 	done
 
 RadioTower1FYoungsterText:
-	text "I love MARY, from"
+	text "Tôi yêu MARY, từ"
 	line "#MON TALK."
 
-	para "I only know what"
-	line "she sounds like,"
-	cont "though."
+	para "Tôi chỉ biết"
+	line "giọng cô ấy"
+	cont "thôi."
 	done
 
 GruntM3SeenText:
-	text "We've finally"
-	line "taken over the"
-	cont "RADIO TOWER!"
+	text "Cuối cùng bọn tao"
+	line "đã chiếm được"
+	cont "THÁP RADIO!"
 
-	para "Now everyone will"
-	line "get to experience"
+	para "Giờ mọi người sẽ"
+	line "được trải nghiệm"
 
-	para "the true terror of"
-	line "TEAM ROCKET!"
+	para "nỗi kinh hoàng"
+	line "của ĐỘI ROCKET!"
 
-	para "We'll show you"
-	line "how scary we are!"
+	para "Bọn tao sẽ cho"
+	line "mày thấy độ đáng"
+	cont "sợ của bọn tao!"
 	done
 
 GruntM3BeatenText:
-	text "Too strong! We"
-	line "must watch you…"
+	text "Quá mạnh! Bọn tao"
+	line "phải canh chừng…"
 	done
 
 GruntM3AfterBattleText:
-	text "You're too strong."
+	text "Mày quá mạnh."
 
-	para "Our plan could be"
-	line "ruined. I must"
-	cont "warn the others…"
+	para "Kế hoạch có thể"
+	line "hỏng. Tao phải"
+	cont "cảnh báo bọn kia…"
 	done
 
 RadioTower1FDirectoryText:
-	text "1F RECEPTION"
-	line "2F SALES"
+	text "1F LỄ TÂN"
+	line "2F BÁN HÀNG"
 
-	para "3F PERSONNEL"
-	line "4F PRODUCTION"
+	para "3F NHÂN SỰ"
+	line "4F SẢN XUẤT"
 
-	para "5F DIRECTOR'S"
-	line "   OFFICE"
+	para "5F VĂN PHÒNG"
+	line "   GIÁM ĐỐC"
 	done
 
 RadioTower1FLuckyChannelSignText:
 	text "LUCKY CHANNEL!"
 
-	para "Win with #MON"
-	line "ID numbers!"
+	para "Thắng với số ID"
+	line "#MON!"
 
-	para "Trade your #MON"
-	line "to collect differ-"
-	cont "ent ID numbers!"
+	para "Trao đổi #MON"
+	line "để thu thập nhiều"
+	cont "số ID khác nhau!"
 	done
 
 RadioTower1F_MapEvents:

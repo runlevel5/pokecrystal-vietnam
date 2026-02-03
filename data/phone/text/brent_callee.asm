@@ -1,79 +1,79 @@
 BrentAnswerPhoneText:
-	text "Yes? @"
+	text "Có? @"
 	text_ram wStringBuffer3
-	text " here…"
+	text " đây…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "À, <PLAYER>. Cần"
+	line "tớ giúp gì?"
 	done
 
 BrentAnswerPhoneDayText:
-	text "Yes? @"
+	text "Có? @"
 	text_ram wStringBuffer3
-	text " here…"
+	text " đây…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "À, <PLAYER>. Cần"
+	line "tớ giúp gì?"
 	done
 
 BrentAnswerPhoneNiteText:
-	text "Yes? @"
+	text "Có? @"
 	text_ram wStringBuffer3
-	text " here…"
+	text " đây…"
 
-	para "Ah, <PLAYER>. What"
-	line "can I do for you?"
+	para "À, <PLAYER>. Cần"
+	line "tớ giúp gì?"
 	done
 
 BrentGreetText:
-	text "Hiya, <PLAYER>. How"
-	line "are you doing?"
+	text "Chào, <PLAYER>."
+	line "Cậu thế nào?"
 
-	para "Hey! It's me,"
+	para "Này! Tớ đây,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetDayText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Chào, <PLAYER>,"
+	line "cậu thế nào?"
 
-	para "Hey, it's me,"
+	para "Này, tớ đây,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGreetNiteText:
-	text "Hiya, <PLAYER>, how"
-	line "are you doing?"
+	text "Chào, <PLAYER>,"
+	line "cậu thế nào?"
 
-	para "Hey, it's me,"
+	para "Này, tớ đây,"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 BrentGenericText:
-	text "Oh yeah, I saw you"
-	line "coming out of a"
+	text "À đúng rồi, tớ"
+	line "thấy cậu ra khỏi"
 
-	para "#MON CENTER the"
-	line "other day."
+	para "TT #MON hôm"
+	line "trước đó."
 
-	para "You heal your"
-	line "#MON regularly,"
+	para "Cậu chữa #MON"
+	line "thường xuyên,"
 
-	para "don't you?"
-	line "I'm impressed."
+	para "đúng không?"
+	line "Ấn tượng đấy."
 
-	para "Heh, my @"
+	para "Heh, @"
 	text_ram wStringBuffer4
-	text_start
-	line "is so tough, it"
+	text " của"
+	line "tớ rất mạnh,"
 
-	para "doesn't need to go"
-	line "to #MON CENTERS"
-	cont "often. Heheh!"
+	para "không cần đến TT"
+	line "#MON thường"
+	cont "xuyên. Heheh!"
 	done

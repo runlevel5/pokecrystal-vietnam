@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 307, 660 ; height, weight
+	db "CHIM@" ; species name
+	dw 11, 300 ; height, weight
 
-	db   "It slowly flies in"
-	next "a circular pat-"
-	next "tern, all the"
+	db   "Nó bay chậm theo"
+	next "vòng tròn, trong"
+	next "khi canh chừng"
 
-	page "while keeping a"
-	next "sharp lookout for"
-	next "prey.@"
+	page "con mồi một"
+	next "cách cẩn thận.@"
+	next "@"

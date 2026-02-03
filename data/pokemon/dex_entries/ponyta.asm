@@ -1,10 +1,10 @@
-	db "FIRE HORSE@" ; species name
-	dw 303, 660 ; height, weight
+	db "NGỰA LỬA@" ; species name
+	dw 10, 300 ; height, weight
 
-	db   "Training by"
-	next "jumping over grass"
-	next "that grows longer"
+	db   "Tập nhảy qua cỏ"
+	next "mọc cao hơn mỗi"
+	next "ngày đã giúp nó"
 
-	page "every day has made"
-	next "it a world-class"
-	next "jumper.@"
+	page "trở thành nhà vô"
+	next "địch nhảy cao"
+	next "thế giới.@"

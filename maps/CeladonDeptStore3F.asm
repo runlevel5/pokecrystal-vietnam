@@ -48,48 +48,46 @@ CeladonDeptStore3FDirectory:
 	jumptext CeladonDeptStore3FDirectoryText
 
 CeladonDeptStore3FYoungsterText:
-	text "I can't decide"
-	line "which #MON I"
+	text "Tôi không biết nên"
+	line "dùng TM này cho"
 
-	para "should use this TM"
-	line "on…"
+	para "#MON nào…"
 	done
 
 CeladonDeptStore3FGameboyKid1Text:
-	text "Uh-oh! I traded my"
-	line "#MON without"
+	text "Ôi không! Tôi đổi"
+	line "#MON mà không"
 
-	para "removing the UP-"
-	line "GRADE from it."
+	para "lấy UP-GRADE ra"
+	line "khỏi nó."
 	done
 
 CeladonDeptStore3FGameboyKid2Text:
-	text "Yeah! I'm finally"
-	line "getting a PORYGON!"
+	text "Tuyệt! Cuối cùng"
+	line "có PORYGON rồi!"
 
-	para "I'm no good at the"
-	line "slots, so I could"
+	para "Tôi không giỏi máy"
+	line "quay nên chưa bao"
 
-	para "never get enough"
-	line "coins…"
+	para "giờ đủ xu…"
 
-	para "…Huh?"
+	para "…Hả?"
 
-	para "The traded PORYGON"
-	line "turned into a dif-"
-	cont "ferent #MON!"
+	para "PORYGON đổi biến"
+	line "thành #MON"
+	cont "khác rồi!"
 	done
 
 CeladonDeptStore3FSuperNerdText:
-	text "The TM SHOP sells"
-	line "some rare moves."
+	text "Cửa hàng TM bán"
+	line "chiêu hiếm lắm."
 	done
 
 CeladonDeptStore3FDirectoryText:
-	text "3F: TM SHOP"
+	text "3F: CỬA HÀNG TM"
 
-	para "Make Your #MON"
-	line "Stronger!"
+	para "Làm #MON Mạnh"
+	line "Hơn!"
 	done
 
 CeladonDeptStore3F_MapEvents:

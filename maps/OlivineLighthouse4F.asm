@@ -30,53 +30,55 @@ TrainerSailorKent:
 	end
 
 SailorKentSeenText:
-	text "JASMINE must be"
-	line "worried sick about"
-	cont "the #MON here."
+	text "JASMINE chắc đang"
+	line "lo lắng đến phát"
+	cont "ốm về #MON này."
 
-	para "She won't even"
-	line "smile these days."
+	para "Cô ấy không cười"
+	line "gì mấy ngày nay."
 	done
 
 SailorKentBeatenText:
-	text "I can't manage a"
-	line "smile either…"
+	text "Tôi cũng không"
+	line "cười nổi…"
 	done
 
 SailorKentAfterBattleText:
-	text "Speaking of sick,"
-	line "I've heard there's"
+	text "Nói về ốm đau,"
+	line "tôi nghe nói có"
 
-	para "a good PHARMACY in"
+	para "NHÀ THUỐC tốt ở"
 	line "CIANWOOD."
 	done
 
 LassConnie1SeenText:
-	text "JASMINE is this"
-	line "city's GYM LEADER."
+	text "JASMINE là T.LĨNH"
+	line "GYM của thành phố"
+	cont "này."
 
-	para "I mean to bring"
-	line "her back with me."
+	para "Tôi định đưa cô"
+	line "ấy về với tôi."
 
-	para "Nobody had better"
-	line "get in my way!"
+	para "Đừng ai cản đường"
+	line "tôi!"
 	done
 
 LassConnie1BeatenText:
-	text "Aaack! My #MON!"
+	text "Aaack! #MON của"
+	line "tôi!"
 	done
 
 LassConnie1AfterBattleText:
-	text "Right. Anybody"
-	line "would be worried"
-	cont "if his or her own"
-	cont "#MON were hurt."
+	text "Đúng rồi. Ai cũng"
+	line "lo lắng nếu"
+	cont "#MON của mình"
+	cont "bị thương."
 
-	para "I'll pray for the"
-	line "#MON here, so"
+	para "Tôi sẽ cầu nguyện"
+	line "cho #MON ở đây,"
 
-	para "JASMINE can come"
-	line "back to the GYM."
+	para "để JASMINE có thể"
+	line "quay về GYM."
 	done
 
 OlivineLighthouse4F_MapEvents:

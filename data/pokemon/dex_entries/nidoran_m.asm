@@ -1,10 +1,10 @@
-	db "POISON PIN@" ; species name
-	dw 108, 200 ; height, weight
+	db "GHIM ĐỘC@" ; species name
+	dw 5, 90 ; height, weight
 
-	db   "It constantly"
-	next "moves its large"
-	next "ears in many"
+	db   "Nó liên tục xoay"
+	next "đôi tai lớn theo"
+	next "nhiều hướng để"
 
-	page "directions in"
-	next "order to detect"
-	next "danger right away.@"
+	page "phát hiện nguy"
+	next "hiểm ngay lập"
+	next "tức.@"

@@ -74,136 +74,134 @@ PewterGymStatue:
 	jumpstd GymStatue2Script
 
 BrockIntroText:
-	text "BROCK: Wow, it's"
-	line "not often that we"
+	text "BROCK: Ồ, thật"
+	line "hiếm khi ta có"
 
-	para "get a challenger"
-	line "from JOHTO."
+	para "đối thủ đến từ"
+	line "JOHTO."
 
-	para "I'm BROCK, the"
-	line "PEWTER GYM LEADER."
+	para "Ta là BROCK,"
+	line "T.LĨNH GYM PEWTER."
 
-	para "I'm an expert on"
-	line "rock-type #MON."
+	para "Ta là chuyên gia"
+	line "#MON hệ SỎI ĐÁ."
 
-	para "My #MON are im-"
-	line "pervious to most"
+	para "#MON của ta"
+	line "miễn nhiễm với đa"
 
-	para "physical attacks."
-	line "You'll have a hard"
+	para "số đòn vật lý."
+	line "Ngươi sẽ rất khó"
 
-	para "time inflicting"
-	line "any damage."
+	para "gây sát thương"
+	line "được đấy."
 
-	para "Come on!"
+	para "Lên đi!"
 	done
 
 BrockWinLossText:
-	text "BROCK: Your #-"
-	line "MON's powerful at-"
-	cont "tacks overcame my"
-	cont "rock-hard defense…"
+	text "BROCK: Đòn tấn"
+	line "công mạnh của"
+	cont "#MON ngươi đã"
+	cont "vượt qua phòng"
+	cont "thủ đá cứng…"
 
-	para "You're stronger"
-	line "than I expected…"
+	para "Ngươi mạnh hơn"
+	line "ta tưởng…"
 
-	para "Go ahead--take"
-	line "this BADGE."
+	para "Đây, nhận lấy"
+	line "HUY HIỆU này."
 	done
 
 ReceivedBoulderBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> nhận được"
 	line "BOULDERBADGE."
 	done
 
 BrockBoulderBadgeText:
 	text "BROCK: <PLAY_G>,"
-	line "thanks. I enjoyed"
+	line "cảm ơn. Ta thích"
 
-	para "battling you, even"
-	line "though I am a bit"
-	cont "upset."
+	para "đấu với ngươi, dù"
+	line "hơi buồn một chút."
 
-	para "That BOULDERBADGE"
-	line "will make your"
+	para "BOULDERBADGE sẽ"
+	line "giúp #MON của"
 
-	para "#MON even more"
-	line "powerful."
+	para "ngươi mạnh hơn"
+	line "nữa."
 	done
 
 BrockFightDoneText:
-	text "BROCK: The world"
-	line "is huge. There are"
+	text "BROCK: Thế giới"
+	line "rất rộng. Vẫn còn"
 
-	para "still many strong"
-	line "trainers like you."
+	para "nhiều HLV giỏi"
+	line "như ngươi."
 
-	para "Just wait and see."
-	line "I'm going to be-"
-	cont "come a lot strong-"
-	cont "er too."
+	para "Cứ chờ xem. Ta sẽ"
+	line "còn trở nên mạnh"
+	cont "hơn nhiều."
 	done
 
 CamperJerrySeenText:
-	text "The trainers of"
-	line "this GYM use rock-"
-	cont "type #MON."
+	text "Các HLV ở GYM này"
+	line "dùng #MON hệ"
+	cont "SỎI ĐÁ."
 
-	para "The rock-type has"
-	line "high DEFENSE."
+	para "Hệ SỎI ĐÁ có chỉ"
+	line "số THỦ cao."
 
-	para "Battles could end"
-	line "up going a long"
+	para "Trận đấu có thể"
+	line "kéo dài. Bạn đã"
 
-	para "time. Are you"
-	line "ready for this?"
+	para "sẵn sàng chưa?"
 	done
 
 CamperJerryBeatenText:
-	text "I have to win"
-	line "these battles…"
+	text "Tôi phải thắng"
+	line "mới được…"
 	done
 
 CamperJerryAfterBattleText:
-	text "Hey, you! Trainer"
-	line "from JOHTO! BROCK"
+	text "Này, HLV từ"
+	line "JOHTO! BROCK rất"
 
-	para "is tough. He'll"
-	line "punish you if you"
+	para "mạnh. Ông ấy sẽ"
+	line "trừng phạt bạn"
 
-	para "don't take him"
-	line "seriously."
+	para "nếu bạn không"
+	line "nghiêm túc đâu."
 	done
 
 PewterGymGuideText:
-	text "Yo! CHAMP in"
-	line "making! You're"
+	text "Yo! NHÀ VÔ ĐỊCH"
+	line "tương lai! Bạn"
 
-	para "really rocking."
-	line "Are you battling"
+	para "thật tuyệt vời."
+	line "Bạn đang đấu"
 
-	para "the GYM LEADERS of"
-	line "KANTO?"
+	para "các T.LĨNH GYM"
+	line "ở KANTO à?"
 
-	para "They're strong and"
-	line "dedicated people,"
+	para "Họ rất mạnh và"
+	line "tận tâm, giống"
 
-	para "just like JOHTO's"
-	line "GYM LEADERS."
+	para "như các T.LĨNH"
+	line "GYM ở JOHTO vậy."
 	done
 
 PewterGymGuideWinText:
-	text "Yo! CHAMP in"
-	line "making! That GYM"
+	text "Yo! NHÀ VÔ ĐỊCH"
+	line "tương lai! GYM"
 
-	para "didn't give you"
-	line "much trouble."
+	para "này không khó"
+	line "với bạn nhỉ."
 
-	para "The way you took"
-	line "charge was really"
+	para "Cách bạn chiến"
+	line "đấu thật đáng"
 
-	para "inspiring. I mean"
-	line "that seriously."
+	para "ngưỡng mộ. Tôi"
+	line "nói thật đấy."
 	done
 
 PewterGym_MapEvents:

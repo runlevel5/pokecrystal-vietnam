@@ -107,9 +107,9 @@ CarefulSwimmingSign:
 	jumptext CarefulSwimmingSignText
 
 SwimmermHaroldSeenText:
-	text "Have you ever gone"
-	line "swimming in the"
-	cont "sea at night?"
+	text "Bạn đã từng bơi ở"
+	line "biển vào ban đêm"
+	cont "chưa?"
 	done
 
 SwimmermHaroldBeatenText:
@@ -117,119 +117,118 @@ SwimmermHaroldBeatenText:
 	done
 
 SwimmermHaroldAfterBattleText:
-	text "At night, the sea"
-	line "turns black. It"
+	text "Ban đêm, biển"
+	line "trở nên đen. Nó"
 
-	para "feels like it will"
-	line "swallow you up."
+	para "cảm giác như sẽ"
+	line "nuốt chửng bạn."
 	done
 
 SwimmermTuckerSeenText:
-	text "Pant, pant…"
-	line "Just… a little…"
+	text "Hổn hển…"
+	line "Chỉ… còn một…"
 
-	para "farther… to…"
+	para "chút nữa… đến…"
 	line "FUCHSIA…"
 	done
 
 SwimmermTuckerBeatenText:
-	text "I'm drowning!"
+	text "Tôi đang chìm!"
 	done
 
 SwimmermTuckerAfterBattleText:
-	text "I… asked my girl-"
-	line "friend to swim to"
-	cont "FUCHSIA… Gasp…"
+	text "Tôi… hẹn bạn gái"
+	line "bơi đến FUCHSIA…"
+	cont "Thở hổn hển…"
 	done
 
 SwimmerfDawnSeenText:
-	text "I'm disgusted by"
-	line "wimpy people!"
+	text "Tôi ghét những"
+	line "người yếu đuối!"
 	done
 
 SwimmerfDawnBeatenText:
-	text "I could beat you"
-	line "at swimming…"
+	text "Tôi có thể thắng"
+	line "bạn ở môn bơi…"
 	done
 
 SwimmerfDawnAfterBattleText:
-	text "It's a quick swim"
-	line "between FUCHSIA"
+	text "Bơi nhanh giữa"
+	line "FUCHSIA và"
 
-	para "and SEAFOAM IS-"
-	line "LANDS…"
+	para "ĐẢO BỌT BIỂN…"
+	line "mà…"
 
-	para "Sheesh, some big"
-	line "man my boyfriend"
+	para "Chà, bạn trai tôi"
+	line "thật là nam tính!"
 
-	para "is! What a wimp!"
+	para "Thật là hèn!"
 	done
 
 SwimmermJeromeSeenText:
-	text "Swimming?"
-	line "I'm lousy at it."
+	text "Bơi lội à?"
+	line "Tôi kém lắm."
 
-	para "I'm just splashing"
-	line "around in these"
-	cont "shallow waters."
+	para "Tôi chỉ loay hoay"
+	line "trong vùng nước"
+	cont "nông này."
 	done
 
 SwimmermJeromeBeatenText:
-	text "I thought I could"
-	line "win."
+	text "Tôi tưởng tôi có"
+	line "thể thắng."
 	done
 
 SwimmermJeromeAfterBattleText:
-	text "I might be bad at"
-	line "swimming, but I"
-	cont "love the sea."
+	text "Tôi có thể kém bơi"
+	line "nhưng tôi yêu"
+	cont "biển."
 	done
 
 Route19Fisher1Text:
-	text "Sorry. This road"
-	line "is closed for"
-	cont "construction."
+	text "Xin lỗi. Con đường"
+	line "này đóng cửa để"
+	cont "thi công."
 
-	para "If you want to get"
-	line "to CINNABAR, you'd"
+	para "Nếu muốn đến"
+	line "CINNABAR, tốt hơn"
 
-	para "better go south"
-	line "from PALLET TOWN."
+	para "hãy đi về phía"
+	line "nam từ PALLET."
 	done
 
 Route19Fisher1Text_RocksCleared:
-	text "I'm all sweaty."
-	line "Time for a swim!"
+	text "Tôi đầy mồ hôi."
+	line "Đến lúc bơi rồi!"
 	done
 
 Route19Fisher2Text:
-	text "Who knows how long"
-	line "it would take to"
-	cont "move this boulder…"
+	text "Ai biết mất bao"
+	line "lâu để di chuyển"
+	cont "tảng đá này…"
 	done
 
 Route19Fisher2Text_RocksCleared:
-	text "The roadwork is"
-	line "finally finished."
+	text "Công trình đường"
+	line "cuối cùng xong."
 
-	para "Now I can go"
-	line "fishing again."
+	para "Giờ tôi có thể đi"
+	line "câu cá lại."
 	done
 
 Route19SignText:
-	text "ROUTE 19"
+	text "ĐƯỜNG 19"
 
-	para "FUCHSIA CITY -"
-	line "SEAFOAM ISLANDS"
+	para "TP.FUCHSIA -"
+	line "ĐẢO BỌT BIỂN"
 	done
 
 CarefulSwimmingSignText:
-	text "Please be careful"
-	line "if you are swim-"
-	cont "ming to SEAFOAM"
-	cont "ISLANDS."
+	text "Hãy cẩn thận nếu"
+	line "bạn đang bơi đến"
+	cont "ĐẢO BỌT BIỂN."
 
-	para "FUCHSIA POLICE"
+	para "CẢNH SÁT FUCHSIA"
 	done
 
 Route19_MapEvents:

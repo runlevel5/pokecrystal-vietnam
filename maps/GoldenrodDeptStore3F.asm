@@ -28,30 +28,30 @@ GoldenrodDeptStore3FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore3FSuperNerdText:
-	text "I, I, I'm really"
-	line "impatient!"
+	text "T-t-tôi rất rất"
+	line "thiếu kiên nhẫn!"
 
-	para "I use X SPEED in"
-	line "battle to speed up"
-	cont "my #MON."
+	para "Tôi dùng X SPEED"
+	line "trong trận đấu để"
+	cont "tăng tốc #MON."
 	done
 
 GoldenrodDeptStore3FRockerText:
-	text "Hey! When you bat-"
-	line "tle, do you use X"
-	cont "SPECIAL?"
+	text "Này! Khi bạn đấu,"
+	line "bạn có dùng X"
+	cont "SPECIAL không?"
 
-	para "It's awesome. It"
-	line "really jacks up"
-	cont "SPECIAL ATTACK!"
+	para "Nó tuyệt đấy. Nó"
+	line "tăng mạnh CÔNG"
+	cont "ĐẶC BIỆT!"
 	done
 
 GoldenrodDeptStore3FDirectoryText:
-	text "For Victory"
-	line "Seekers"
+	text "Cho Người Tìm"
+	line "C.Thắng"
 
-	para "3F BATTLE"
-	line "   COLLECTION"
+	para "3T BST"
+	line "   CHIẾN ĐẤU"
 	done
 
 GoldenrodDeptStore3F_MapEvents:

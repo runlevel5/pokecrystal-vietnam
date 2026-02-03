@@ -1,10 +1,10 @@
-	db "DRAGON@" ; species name
-	dw 311, 550 ; height, weight
+	db "RỒNG@" ; species name
+	dw 12, 250 ; height, weight
 
-	db   "The male raises"
-	next "the young. If it"
-	next "is approached, it"
+	db   "Con đực nuôi con."
+	next "Nếu bị tiếp cận,"
+	next "nó dùng gai độc"
 
-	page "uses its toxic"
-	next "spikes to fend off"
-	next "the intruder.@"
+	page "để xua đuổi"
+	next "kẻ xâm nhập.@"
+	next "@"

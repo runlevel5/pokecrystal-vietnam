@@ -1,10 +1,10 @@
-	db "ELECTRIC@" ; species name
-	dw 200, 520 ; height, weight
+	db "ĐIỆN@" ; species name
+	dw 6, 235 ; height, weight
 
-	db   "It loves violent"
-	next "thunder. The space"
-	next "between its horns"
+	db   "Nó thích sấm sét"
+	next "dữ dội. Khoảng"
+	next "trống giữa hai"
 
-	page "flickers bluish-"
-	next "white when it is"
-	next "charging energy.@"
+	page "sừng nhấp nháy"
+	next "xanh trắng khi"
+	next "nó tích điện.@"

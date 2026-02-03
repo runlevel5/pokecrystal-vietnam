@@ -1,10 +1,10 @@
-	db "SPITFIRE@" ; species name
-	dw 403, 980 ; height, weight
+	db "PHUN LỬA@" ; species name
+	dw 13, 445 ; height, weight
 
-	db   "It moves more"
-	next "frequently in hot"
-	next "areas. It can heal"
+	db   "Nó hoạt động"
+	next "nhiều hơn ở vùng"
+	next "nóng. Nó có thể"
 
-	page "itself by dipping"
-	next "its wound into"
-	next "lava.@"
+	page "tự chữa lành khi"
+	next "nhúng vết thương"
+	next "vào dung nham.@"

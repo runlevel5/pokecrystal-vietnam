@@ -49,19 +49,19 @@ SupernerdHughSeenText:
 	done
 
 SupernerdHughBeatenText:
-	text "Sorry, my mistake."
+	text "Xin lỗi, tôi nhầm"
 	done
 
 SupernerdHughAfterBattleText:
-	text "I'm investigating"
-	line "MT.MORTAR, but my"
-	cont "pal's gone AWOL."
+	text "Tôi đang điều tra"
+	line "NÚI MORTAR nhưng"
+	cont "bạn tôi mất tích."
 
-	para "Have you seen a"
-	line "trainer who has a"
+	para "Bạn có thấy HLV"
+	line "nào có SLOWPOKE"
 
-	para "SLOWPOKE that can"
-	line "use STRENGTH?"
+	para "biết dùng"
+	line "SỨC MẠNH không?"
 	done
 
 MountMortar2FInside_MapEvents:

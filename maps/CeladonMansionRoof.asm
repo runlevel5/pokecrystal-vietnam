@@ -13,22 +13,21 @@ CeladonMansionRoofGraffiti:
 	jumptext CeladonMansionRoofGraffitiText
 
 CeladonMansionRoofFisherText:
-	text "High places--I do"
-	line "love them so!"
+	text "Chỗ cao--tôi thích"
+	line "lắm!"
 
-	para "I'd say the only"
-	line "thing that loves"
+	para "Tôi sẽ nói thứ duy"
+	line "nhất thích cao như"
 
-	para "heights as much as"
-	line "me is smoke!"
+	para "tôi là khói!"
 	done
 
 CeladonMansionRoofGraffitiText:
-	text "There's graffiti"
-	line "on the wall…"
+	text "Có graffiti trên"
+	line "tường…"
 
-	para "<PLAYER> added a"
-	line "moustache!"
+	para "<PLAYER> vẽ thêm"
+	line "bộ ria mép!"
 	done
 
 CeladonMansionRoof_MapEvents:

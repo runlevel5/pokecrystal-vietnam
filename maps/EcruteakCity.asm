@@ -89,171 +89,172 @@ EcruteakCityHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_ECRUTEAK_CITY_HIDDEN_HYPER_POTION
 
 UnusedMissingDaughterText: ; unreferenced
-	text "Oh, no. Oh, no…"
+	text "Ôi không. Ôi ko…"
 
-	para "My daughter is"
-	line "missing."
+	para "Con gái tôi mất"
+	line "tích."
 
-	para "No… She couldn't"
-	line "have gone to the"
-	cont "BURNED TOWER."
+	para "Không… Nó không"
+	line "thể đến THÁP CHÁY"
+	cont "được."
 
-	para "I told her not to"
-	line "go near it…"
+	para "Tôi đã bảo nó"
+	line "đừng lại gần…"
 
-	para "People seem to"
-	line "disappear there…"
+	para "Người ta dường"
+	line "như biến mất ở đó"
 
-	para "Oh, what should I"
-	line "do…?"
+	para "Ôi, tôi phải làm"
+	line "sao đây…?"
 	done
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK used to"
-	line "have two towers:"
+	text "ECRUTEAK từng có"
+	line "hai tháp:"
 
-	para "one each in the"
-	line "east and west."
+	para "một ở phía đông"
+	line "và một phía tây."
 	done
 
 EcruteakCityGramps2Text:
-	text "Ah, child."
-	line "Have you learned"
+	text "À, cháu bé."
+	line "Cháu đã học nhảy"
 
-	para "to dance like the"
-	line "KIMONO GIRLS?"
+	para "như các CÔ GÁI"
+	line "KIMONO chưa?"
 
-	para "If you go to their"
-	line "DANCE THEATER, an"
+	para "Nếu cháu đến NHÀ"
+	line "HÁT MÚA, một ông"
 
-	para "odd old man will"
-	line "give you something"
-	cont "nice, I hear."
+	para "già kỳ lạ sẽ cho"
+	line "cháu thứ hay ho,"
+	cont "nghe nói vậy."
 	done
 
 EcruteakCityLass1Text:
-	text "I'm going to prac-"
-	line "tice at the DANCE"
+	text "Tôi sẽ tập luyện"
+	line "ở NHÀ HÁT MÚA."
 
-	para "THEATER. Care to"
-	line "join me?"
+	para "Bạn có muốn đi"
+	line "cùng không?"
 	done
 
 EcruteakCityLass2Text:
-	text "The tower that"
-	line "used to be here…"
+	text "Cái tháp từng ở"
+	line "đây…"
 
-	para "My grandma told me"
-	line "it used to be much"
-	cont "taller."
+	para "Bà tôi nói nó"
+	line "từng cao hơn"
+	cont "nhiều."
 	done
 
 EcruteakCityLass2Text_ReleasedBeasts:
-	text "Three big #MON"
-	line "ran off in differ-"
-	cont "ent directions."
-	cont "What were they?"
+	text "Ba #MON lớn"
+	line "chạy đi các hướng"
+	cont "khác nhau."
+	cont "Chúng là gì vậy?"
 	done
 
 EcruteakCityFisherText:
-	text "I heard a rumor"
-	line "about OLIVINE"
-	cont "LIGHTHOUSE."
+	text "Tôi nghe tin đồn"
+	line "về HẢI ĐĂNG"
+	cont "OLIVINE."
 
-	para "The #MON that"
-	line "serves as the"
+	para "#MON dùng làm"
+	line "đèn hiệu đã"
 
-	para "beacon fell ill."
-	line "Sounds like they"
-	cont "are in trouble."
+	para "bị ốm. Nghe như"
+	line "họ đang gặp"
+	cont "rắc rối."
 	done
 
 EcruteakCityFisherText_JasmineReturned:
-	text "The #MON at"
-	line "OLIVINE LIGHTHOUSE"
-	cont "has been cured."
+	text "#MON ở HẢI"
+	line "ĐĂNG OLIVINE đã"
+	cont "được chữa khỏi."
 
-	para "Boats can safely"
-	line "sail out to sea at"
-	cont "night again."
+	para "Thuyền có thể ra"
+	line "khơi an toàn vào"
+	cont "ban đêm lại rồi."
 	done
 
 EcruteakCityYoungsterText:
-	text "I hear #MON are"
-	line "rampaging at the"
+	text "Tôi nghe #MON"
+	line "đang nổi loạn ở"
 
-	para "LAKE OF RAGE. I'd"
-	line "like to see that."
+	para "HỒ GIẬN DỮ. Tôi"
+	line "muốn xem lắm."
 	done
 
 EcruteakCityGramps3Text:
-	text "In the distant"
-	line "past…"
+	text "Trong quá khứ xa"
+	line "xưa…"
 
-	para "This tower burned"
-	line "in a fire. Three"
+	para "Tháp này bị cháy."
+	line "Ba #MON vô danh"
 
-	para "nameless #MON"
-	line "perished in it."
+	para "đã chết trong"
+	line "đám cháy."
 
-	para "A rainbow-colored"
-	line "#MON descended"
+	para "Một #MON màu"
+	line "cầu vồng từ trên"
 
-	para "from the sky and"
-	line "resurrected them…"
+	para "trời bay xuống và"
+	line "hồi sinh chúng…"
 
-	para "It's a legend that"
-	line "has been passed"
+	para "Đó là truyền"
+	line "thuyết được lưu"
 
-	para "down by ECRUTEAK"
-	line "GYM LEADERS."
+	para "truyền bởi các"
+	line "T.LĨNH GYM ECRU-"
+	cont "TEAK."
 
-	para "Me?"
+	para "Tôi à?"
 
-	para "I was a trainer"
-	line "way back when."
+	para "Tôi từng là HLV"
+	line "ngày xưa."
 	cont "Hohoho!"
 	done
 
 EcruteakCitySignText:
-	text "ECRUTEAK CITY"
-	line "A Historical City"
+	text "TP ECRUTEAK"
+	line "Thành phố lịch sử"
 
-	para "Where the Past"
-	line "Meets the Present"
+	para "Nơi quá khứ gặp"
+	line "hiện tại"
 	done
 
 TinTowerSignText:
-	text "TIN TOWER"
+	text "THÁP THIẾC"
 
-	para "A legendary #-"
-	line "MON is said to"
-	cont "roost here."
+	para "#MON huyền"
+	line "thoại được cho là"
+	cont "đậu ở đây."
 	done
 
 EcruteakGymSignText:
-	text "ECRUTEAK CITY"
-	line "#MON GYM"
-	cont "LEADER: MORTY"
+	text "TP ECRUTEAK"
+	line "GYM #MON"
+	cont "T.LĨNH: MORTY"
 
-	para "The Mystic Seer of"
-	line "the Future"
+	para "Nhà tiên tri thần"
+	line "bí của tương lai"
 	done
 
 EcruteakDanceTheaterSignText:
-	text "ECRUTEAK DANCE"
-	line "THEATER"
+	text "NHÀ HÁT MÚA"
+	line "ECRUTEAK"
 	done
 
 BurnedTowerSignText:
-	text "BURNED TOWER"
+	text "THÁP CHÁY"
 
-	para "It was destroyed"
-	line "by a mysterious"
-	cont "fire."
+	para "Nó bị phá hủy bởi"
+	line "một trận hỏa hoạn"
+	cont "bí ẩn."
 
-	para "Please stay away,"
-	line "as it is unsafe."
+	para "Xin tránh xa,"
+	line "vì không an toàn."
 	done
 
 EcruteakCity_MapEvents:

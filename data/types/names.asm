@@ -1,3 +1,4 @@
+; pokemon-translate-lint: max-length=8
 TypeNames:
 ; entries correspond to types (see constants/type_constants.asm)
 	table_width 2
@@ -30,22 +31,22 @@ endr
 	dw Dark
 	assert_table_length TYPES_END
 
-Normal:    db "NORMAL@"
-Fighting:  db "FIGHTING@"
-Flying:    db "FLYING@"
-Poison:    db "POISON@"
+Normal:    db "B.THƯỜNG@"
+Fighting:  db "VÕ THUẬT@"
+Flying:    db "BAY LƯỢN@"
+Poison:    db "ĐỘC@"
 CurseType: db "???@"
-Fire:      db "FIRE@"
-Water:     db "WATER@"
-Grass:     db "GRASS@"
-Electric:  db "ELECTRIC@"
-Psychic:   db "PSYCHIC@"
-Ice:       db "ICE@"
-Ground:    db "GROUND@"
-Rock:      db "ROCK@"
-Bird:      db "BIRD@"
-Bug:       db "BUG@"
-Ghost:     db "GHOST@"
-Steel:     db "STEEL@"
-Dragon:    db "DRAGON@"
-Dark:      db "DARK@"
+Fire:      db "LỬA@"
+Water:     db "NƯỚC@"
+Grass:     db "CỎ@"
+Electric:  db "ĐIỆN@"
+Psychic:   db "TÂM LINH@"
+Ice:       db "ĐÁ BĂNG@"
+Ground:    db "ĐẤT@"
+Rock:      db "SỎI ĐÁ@"
+Bird:      db "CHIM@"
+Bug:       db "SÂU BỌ@"
+Ghost:     db "MA@"
+Steel:     db "THÉP@"
+Dragon:    db "RỒNG@"
+Dark:      db "HẮC ÁM@"

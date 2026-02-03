@@ -233,7 +233,7 @@ if DEF(_DEBUG)
 	jp StatsScreen_JoypadAction
 
 .HatchSoonString:
-	db "▶HATCH SOON!@"
+	db "▶SẮP NỞ!@"
 endc
 
 StatsScreen_LoadPage:
@@ -706,20 +706,20 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "STATUS/"
-	next "TYPE/@"
+	db   "T.THÁI/"
+	next "LOẠI/@"
 
 .OK_str:
-	db "OK @"
+	db "ỔN @"
 
 .ExpPointStr:
-	db "EXP POINTS@"
+	db "ĐIỂM K.N@"
 
 .LevelUpStr:
-	db "LEVEL UP@"
+	db "TĂNG CẤP@"
 
 .ToStr:
-	db "TO@"
+	db "ĐẾN@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -761,13 +761,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "ITEM@"
+	db "GIỮ@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "MOVE@"
+	db "CHIÊU@"
 
 LoadBluePage:
 	call .PlaceOTInfo
@@ -827,7 +827,7 @@ IDNoString:
 	db "<ID>№.@"
 
 OTString:
-	db "OT/@"
+	db "CHỦ/@"
 
 StatsScreen_PlaceFrontpic:
 	ld hl, wTempMonDVs
@@ -1023,7 +1023,7 @@ if DEF(_DEBUG)
 	jr .placed_push_start
 
 .PushStartString:
-	db "▶PUSH START.@"
+	db "▶ẤN START.@"
 
 .placed_push_start
 endc
@@ -1058,31 +1058,29 @@ endc
 	ret
 
 EggString:
-	db "EGG@"
+	db "TRỨNG@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "It's making sounds"
-	next "inside. It's going"
-	next "to hatch soon!@"
+	db   "Có tiếng bên trong"
+	next "Nó sắp nở rồi!@"
 
 EggCloseString:
-	db   "It moves around"
-	next "inside sometimes."
-	next "It must be close"
-	next "to hatching.@"
+	db   "Thỉnh thoảng nó"
+	next "cử động bên trong"
+	next "Sắp nở rồi.@"
 
 EggMoreTimeString:
-	db   "Wonder what's"
-	next "inside? It needs"
-	next "more time, though.@"
+	db   "Bên trong có gì?"
+	next "Nó cần thêm"
+	next "thời gian.@"
 
 EggALotMoreTimeString:
-	db   "This EGG needs a"
-	next "lot more time to"
-	next "hatch.@"
+	db   "TRỨNG này cần"
+	next "nhiều thời gian"
+	next "hơn để nở.@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam

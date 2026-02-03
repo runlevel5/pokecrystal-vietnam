@@ -136,159 +136,157 @@ DanceTheaterFancyPanel:
 	jumptext DanceTheaterFancyPanelText
 
 KimonoGirlNaokoSeenText:
-	text "You have lovely"
-	line "#MON. May I see"
-	cont "them in battle?"
+	text "Bạn có #MON"
+	line "dễ thương. Cho tôi"
+	cont "xem chúng đấu?"
 	done
 
 KimonoGirlNaokoBeatenText:
-	text "Oh, you are very"
-	line "strong."
+	text "Ôi, bạn rất mạnh."
 	done
 
 KimonoGirlNaokoAfterBattleText:
-	text "I enjoyed that"
-	line "bout. I would like"
-	cont "to see you again."
+	text "Tôi thích trận"
+	line "đấu đó. Muốn gặp"
+	cont "lại bạn."
 	done
 
 KimonoGirlSayoSeenText:
-	text "I always dance"
-	line "with my #MON."
+	text "Tôi luôn nhảy múa"
+	line "cùng #MON."
 
-	para "Of course, I also"
-	line "train them."
+	para "Tất nhiên, tôi"
+	line "cũng huấn luyện"
+	cont "chúng."
 	done
 
 KimonoGirlSayoBeatenText:
-	text "Oh, so close!"
-	line "I almost had you."
+	text "Ôi, suýt nữa!"
+	line "Tôi gần thắng rồi"
 	done
 
 KimonoGirlSayoAfterBattleText:
-	text "Rhythm is impor-"
-	line "tant for both"
+	text "Nhịp điệu rất quan"
+	line "trọng cho cả nhảy"
 
-	para "dancing and #-"
-	line "MON."
+	para "múa và #MON."
 	done
 
 KimonoGirlZukiSeenText:
-	text "Isn't my barrette"
-	line "pretty?"
+	text "Kẹp tóc của tôi"
+	line "đẹp không?"
 
-	para "Oh. A #MON"
-	line "battle?"
+	para "Ồ. Đấu #MON à?"
 	done
 
 KimonoGirlZukiBeatenText:
-	text "I don't have any"
-	line "#MON left…"
+	text "Tôi không còn"
+	line "#MON nào…"
 	done
 
 KimonoGirlZukiAfterBattleText:
-	text "I put a different"
-	line "flower in my bar-"
-	cont "rette every month."
+	text "Tôi cắm hoa khác"
+	line "vào kẹp tóc mỗi"
+	cont "tháng."
 	done
 
 KimonoGirlKuniSeenText:
-	text "Oh, you're a cute"
-	line "trainer. Would you"
-	cont "like to battle?"
+	text "Ồ, bạn là HLV dễ"
+	line "thương. Muốn đấu"
+	cont "không?"
 	done
 
 KimonoGirlKuniBeatenText:
-	text "You're stronger"
-	line "than you look."
+	text "Bạn mạnh hơn"
+	line "vẻ ngoài đấy."
 	done
 
 KimonoGirlKuniAfterBattleText:
-	text "I trained a lot,"
-	line "so I thought I was"
+	text "Tôi luyện nhiều,"
+	line "nên nghĩ tôi là"
 
-	para "a capable trainer."
-	line "I guess I'm not."
+	para "HLV giỏi."
+	line "Có vẻ không phải."
 	done
 
 KimonoGirlMikiSeenText:
-	text "Do you like my"
-	line "dancing? I'm good"
-	cont "at #MON too."
+	text "Bạn thích điệu"
+	line "nhảy của tôi?"
+	cont "Tôi giỏi #MON."
 	done
 
 KimonoGirlMikiBeatenText:
-	text "Ooh, you're good"
-	line "at #MON too."
+	text "Ôi, bạn giỏi"
+	line "#MON quá."
 	done
 
 KimonoGirlMikiAfterBattleText:
-	text "I can keep dancing"
-	line "because there are"
+	text "Tôi có thể tiếp"
+	line "tục nhảy vì có"
 
-	para "people who enjoy"
-	line "what I do."
+	para "người thích những"
+	line "gì tôi làm."
 
-	para "My #MON keep my"
-	line "spirits up too."
+	para "#MON giúp tôi"
+	line "tinh thần tốt."
 	done
 
 SurfGuyNeverLeftAScratchText:
-	text "Not only are the"
-	line "KIMONO GIRLS great"
+	text "Các CÔ GÁI KIMONO"
+	line "không chỉ nhảy"
 
-	para "dancers, they're"
-	line "also skilled at"
-	cont "#MON."
+	para "giỏi, họ còn có kỹ"
+	line "năng #MON."
 
-	para "I always challenge"
-	line "them, but I've"
+	para "Tôi luôn thách đấu"
+	line "họ, nhưng chưa"
 
-	para "never even left a"
-	line "scratch…"
+	para "từng làm trầy xước"
+	line "gì cả…"
 	done
 
 SurfGuyLadGiftText:
-	text "Lad! If you can"
-	line "defeat all the"
+	text "Này cậu! Nếu đánh"
+	line "bại hết các CÔ GÁI"
 
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	para "KIMONO, tôi sẽ"
+	line "tặng quà cho."
 	done
 
 SurfGuyLassieGiftText:
-	text "Lassie, if you can"
-	line "defeat all the"
+	text "Này cô! Nếu đánh"
+	line "bại hết các CÔ GÁI"
 
-	para "KIMONO GIRLS, I'll"
-	line "give you a gift."
+	para "KIMONO, tôi sẽ"
+	line "tặng quà cho."
 	done
 
 SurfGuyLikeADanceText:
-	text "The way you bat-"
-	line "tled, it was like"
-	cont "watching a dance."
+	text "Cách bạn chiến"
+	line "đấu, như đang xem"
+	cont "điệu nhảy vậy."
 
-	para "It was a rare"
-	line "treat to see!"
+	para "Thật hiếm để được"
+	line "thấy điều này!"
 
-	para "I want you to have"
-	line "this. Don't worry"
-	cont "--take it!"
+	para "Tôi muốn tặng bạn"
+	line "thứ này. Cứ nhận"
+	cont "đi!"
 	done
 
 SurfGuySurfExplanationText:
-	text "That's SURF."
+	text "Đó là LƯỚT SÓNG."
 
-	para "It's a move that"
-	line "lets #MON swim"
-	cont "across water."
+	para "Đó là chiêu cho"
+	line "#MON bơi qua"
+	cont "nước."
 	done
 
 SurfGuyElegantKimonoGirlsText:
-	text "I wish my #MON"
-	line "were as elegant as"
-	cont "the KIMONO GIRLS…"
+	text "Ước gì #MON"
+	line "của tôi thanh"
+	cont "nhã như CÔ GÁI"
+	cont "KIMONO…"
 	done
 
 RhydonText:
@@ -297,42 +295,41 @@ RhydonText:
 	done
 
 DanceTheaterCooltrainerMText:
-	text "That man's always"
-	line "with his RHYDON."
+	text "Người đàn ông đó"
+	line "luôn cùng RHYDON."
 
-	para "Says he wants a"
-	line "#MON that can"
-	cont "SURF and dance."
+	para "Nói muốn #MON"
+	line "có thể LƯỚT SÓNG"
+	cont "và nhảy múa."
 
-	para "Is he trying to"
-	line "make a synchro-"
-	cont "nized swimming"
-	cont "#MON?"
+	para "Anh ấy đang thử"
+	line "tạo #MON bơi"
+	cont "nghệ thuật à?"
 	done
 
 DanceTheaterGrannyText:
-	text "The KIMONO GIRLS"
-	line "are so beautiful…"
+	text "Các CÔ GÁI KIMONO"
+	line "rất xinh đẹp…"
 
-	para "But they have to"
-	line "go through rigor-"
-	cont "ous training."
+	para "Nhưng họ phải trải"
+	line "qua huấn luyện"
+	cont "nghiêm khắc."
 
-	para "And they have to"
-	line "learn to follow"
+	para "Và phải học theo"
+	line "phong tục trước"
 
-	para "customs before ap-"
-	line "pearing in public."
+	para "khi xuất hiện"
+	line "trước công chúng."
 
-	para "But if you love"
-	line "something, any-"
-	cont "thing is possible."
+	para "Nhưng nếu yêu một"
+	line "thứ, mọi thứ đều"
+	cont "có thể."
 	done
 
 DanceTheaterFancyPanelText:
-	text "It's a fancy panel"
-	line "that's decorated"
-	cont "with flowers."
+	text "Đó là tấm bảng"
+	line "sang trọng được"
+	cont "trang trí hoa."
 	done
 
 DanceTheater_MapEvents:

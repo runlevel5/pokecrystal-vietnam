@@ -1,10 +1,10 @@
-	db "SEED@" ; species name
-	dw 204, 150 ; height, weight
+	db "HẠT GIỐNG@" ; species name
+	dw 7, 69 ; height, weight
 
-	db   "While it is young,"
-	next "it uses the"
-	next "nutrients that are"
+	db   "Khi còn nhỏ, nó"
+	next "dùng chất dinh"
+	next "dưỡng được lưu trữ"
 
-	page "stored in the"
-	next "seeds on its back"
-	next "in order to grow.@"
+	page "trong hạt trên"
+	next "lưng để"
+	next "phát triển.@"

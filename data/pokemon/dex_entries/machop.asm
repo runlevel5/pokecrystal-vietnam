@@ -1,10 +1,10 @@
-	db "SUPERPOWER@" ; species name
-	dw 207, 430 ; height, weight
+	db "SIÊU LỰC@" ; species name
+	dw 8, 195 ; height, weight
 
-	db   "It trains by"
-	next "lifting rocks in"
-	next "the mountains. It"
+	db   "Nó tập luyện bằng"
+	next "cách nâng đá trên"
+	next "núi. Nó có thể"
 
-	page "can even pick up a"
-	next "GRAVELER with"
-	next "ease.@"
+	page "nhấc cả GRAVELER"
+	next "một cách"
+	next "dễ dàng.@"

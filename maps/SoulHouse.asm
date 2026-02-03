@@ -22,52 +22,50 @@ SoulHouseGrannyScript:
 	jumptextfaceplayer SoulHouseGrannyText
 
 MrFujiText:
-	text "MR.FUJI: Welcome."
+	text "MR.FUJI: Chào bạn"
 
-	para "Hmm… You appear to"
-	line "be raising your"
+	para "Hmm… Có vẻ bạn"
+	line "nuôi #MON của"
 
-	para "#MON in a kind"
-	line "and loving manner."
+	para "mình rất tốt và"
+	line "yêu thương."
 
-	para "#MON lovers"
-	line "come here to pay"
+	para "Những người yêu"
+	line "#MON đến đây"
 
-	para "their respects to"
-	line "departed #MON."
+	para "để tưởng niệm các"
+	line "#MON đã mất."
 
-	para "Please offer con-"
-	line "dolences for the"
+	para "Hãy chia buồn cho"
+	line "linh hồn các"
 
-	para "souls of the de-"
-	line "parted #MON."
+	para "#MON đã ra đi."
 
-	para "I'm sure that will"
-	line "make them happy."
+	para "Chắc điều đó sẽ"
+	line "làm chúng vui."
 	done
 
 SoulHouseTeacherText:
-	text "There are other"
-	line "graves of #MON"
-	cont "here, I think."
+	text "Có những mộ phần"
+	line "#MON khác ở đây"
+	cont "nữa."
 
-	para "There are many"
-	line "chambers that only"
-	cont "MR.FUJI may enter."
+	para "Có nhiều phòng mà"
+	line "chỉ MR.FUJI mới"
+	cont "được vào."
 	done
 
 SoulHouseLassText:
-	text "I came with my mom"
-	line "to visit #MON"
-	cont "graves…"
+	text "Con đến với mẹ để"
+	line "viếng mộ #MON…"
 	done
 
 SoulHouseGrannyText:
-	text "The #MON that"
-	line "lived with me…"
+	text "#MON từng sống"
+	line "với tôi…"
 
-	para "I loved them like"
-	line "my grandchildren…"
+	para "Tôi yêu chúng như"
+	line "cháu của mình…"
 	done
 
 SoulHouse_MapEvents:

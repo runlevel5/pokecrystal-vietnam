@@ -125,92 +125,85 @@ SaffronMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
-	text "I'm sorry, but the"
-	line "MAGNET TRAIN isn't"
-	cont "operating now."
+	text "Xin lỗi, nhưng TÀU"
+	line "TỪ TRƯỜNG hiện"
+	cont "không hoạt động."
 	done
 
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
-	text "We'll soon depart"
-	line "for GOLDENROD."
+	text "Chúng tôi sắp đi"
+	line "đến GOLDENROD."
 
-	para "Are you coming on"
-	line "board?"
+	para "Bạn có lên tàu"
+	line "không?"
 	done
 
 SaffronMagnetTrainStationOfficerRightThisWayText:
-	text "May I see your"
-	line "rail PASS, please?"
+	text "Cho xem THẺ ĐI."
 
-	para "OK. Right this"
-	line "way, please."
+	para "OK. Mời đi theo."
 	done
 
 SaffronMagnetTrainStationOfficerYouDontHaveAPassText:
-	text "Sorry, but you"
-	line "don't have a PASS."
+	text "Xin lỗi, bạn"
+	line "không có THẺ ĐI."
 	done
 
 SaffronMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "We hope to see you"
-	line "again."
+	text "Hẹn gặp lại."
 	done
 
 SaffronMagnetTrainStationOfficerArrivedInSaffronText:
-	text "We have arrived in"
+	text "Chúng tôi đã đến"
 	line "SAFFRON."
 
-	para "We hope to see you"
-	line "again."
+	para "Hẹn gặp lại."
 	done
 
 SaffronMagnetTrainStationGymGuideText:
-	text "The MAGNET TRAIN"
-	line "is a super-modern"
+	text "TÀU TỪ TRƯỜNG là"
+	line "tàu siêu hiện đại"
 
-	para "rail liner that"
-	line "uses electricity"
+	para "dùng điện và từ"
+	line "tính để đạt tốc"
 
-	para "and magnets to"
-	line "attain incredible"
-	cont "speed."
+	para "độ kinh khủng."
 
-	para "However, if there"
-	line "isn't any elec-"
-	cont "tricity…"
+	para "Tuy nhiên, nếu"
+	line "không có điện…"
 	done
 
 SaffronMagnetTrainStationGymGuideText_ReturnedMachinePart:
-	text "Whew…"
+	text "Phù…"
 
-	para "How many times"
-	line "have I gone back"
+	para "Tôi đã đi qua lại"
+	line "giữa KANTO và"
 
-	para "and forth between"
-	line "KANTO and JOHTO?"
+	para "JOHTO bao nhiêu"
+	line "lần rồi nhỉ?"
 	done
 
 SaffronMagnetTrainStationTeacherText:
-	text "Before the MAGNET"
-	line "TRAIN STATION was"
+	text "Trước khi GA TÀU"
+	line "TỪ TRƯỜNG được"
 
-	para "built, there was a"
-	line "house there."
+	para "xây, có một ngôi"
+	line "nhà ở đó."
 
-	para "A little girl"
-	line "named COPYCAT used"
-	cont "to live there."
+	para "Một bé gái tên"
+	line "COPYCAT từng sống"
+	cont "ở đó."
 	done
 
 SaffronMagnetTrainStationLassText:
-	text "Hi. Do you have a"
-	line "rail PASS? I have"
+	text "Chào. Bạn có THẺ"
+	line "ĐI không? Tôi có."
 
-	para "one. All the peo-"
-	line "ple in SAFFRON who"
+	para "Tất cả người dân"
+	line "SAFFRON đi TÀU TỪ"
 
-	para "ride the MAGNET"
-	line "TRAIN have PASSES."
+	para "TRƯỜNG đều có THẺ"
+	line "ĐI."
 	done
 
 SaffronMagnetTrainStation_MapEvents:

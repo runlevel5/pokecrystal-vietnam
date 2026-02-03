@@ -1,10 +1,10 @@
-	db "COBRA@" ; species name
-	dw 1106, 1430 ; height, weight
+	db "HỔ MANG@" ; species name
+	dw 35, 650 ; height, weight
 
-	db   "To intimidate"
-	next "foes, it spreads"
-	next "its chest wide and"
+	db   "Để đe dọa kẻ thù,"
+	next "nó phình ngực và"
+	next "tạo ra âm thanh"
 
-	page "makes eerie sounds"
-	next "by expelling air"
-	next "from its mouth.@"
+	page "kỳ lạ bằng cách"
+	next "đẩy không khí"
+	next "từ miệng.@"

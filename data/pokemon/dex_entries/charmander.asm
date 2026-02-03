@@ -1,10 +1,10 @@
-	db "LIZARD@" ; species name
-	dw 200, 190 ; height, weight
+	db "THẰN LẰN@" ; species name
+	dw 6, 85 ; height, weight
 
-	db   "If it's healthy,"
-	next "the flame on the"
-	next "tip of its tail"
+	db   "Nếu khỏe mạnh,"
+	next "ngọn lửa ở đuôi"
+	next "sẽ cháy mạnh mẽ,"
 
-	page "will burn vigor-"
-	next "ously, even if it"
-	next "gets a bit wet.@"
+	page "kể cả khi bị"
+	next "ướt một chút.@"
+	next "@"

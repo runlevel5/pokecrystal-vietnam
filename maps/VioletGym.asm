@@ -111,113 +111,108 @@ VioletGymStatue:
 	jumpstd GymStatue2Script
 
 FalknerIntroText:
-	text "I'm FALKNER, the"
-	line "VIOLET #MON GYM"
-	cont "leader!"
+	text "Tôi là FALKNER,"
+	line "THỦ LĨNH GYM"
+	cont "TP VIOLET!"
 
-	para "People say you can"
-	line "clip flying-type"
+	para "Người ta nói có"
+	line "thể cắt cánh"
 
-	para "#MON's wings"
-	line "with a jolt of"
-	cont "electricity…"
+	para "#MON hệ bay"
+	line "bằng điện giật…"
 
-	para "I won't allow such"
-	line "insults to bird"
-	cont "#MON!"
+	para "Tôi không chấp"
+	line "nhận sự xúc phạm"
+	cont "chim #MON!"
 
-	para "I'll show you the"
-	line "real power of the"
+	para "Tôi sẽ cho bạn"
+	line "thấy sức mạnh"
 
-	para "magnificent bird"
-	line "#MON!"
+	para "thật sự của chim"
+	line "#MON hùng vĩ!"
 	done
 
 FalknerWinLossText:
-	text "…Darn! My dad's"
-	line "cherished bird"
-	cont "#MON…"
+	text "…Chết! #MON của"
+	line "cha tôi…"
 
-	para "All right."
-	line "Take this."
+	para "Thôi được."
+	line "Cầm lấy cái này."
 
-	para "It's the official"
-	line "#MON LEAGUE"
+	para "Đây là huy hiệu"
+	line "chính thức"
 	cont "ZEPHYRBADGE."
 	done
 
 ReceivedZephyrBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> nhận được"
 	line "ZEPHYRBADGE."
 	done
 
 FalknerZephyrBadgeText:
 	text "ZEPHYRBADGE"
-	line "raises the attack"
-	cont "power of #MON."
+	line "tăng sức tấn công"
+	cont "của #MON."
 
-	para "It also enables"
-	line "#MON to use"
+	para "Nó cũng cho phép"
+	line "#MON sử dụng"
 
-	para "FLASH, if they"
-	line "have it, anytime."
+	para "ÁNH CHỚP bất cứ"
+	line "lúc nào."
 
-	para "Here--take this"
-	line "too."
+	para "Đây--cầm luôn"
+	line "cái này."
 	done
 
 FalknerTMMudSlapText:
-	text "By using a TM, a"
-	line "#MON will"
+	text "Dùng TM, #MON"
+	line "sẽ học chiêu mới"
+	cont "ngay lập tức."
 
-	para "instantly learn a"
-	line "new move."
+	para "Suy nghĩ trước"
+	line "khi dùng--TM chỉ"
+	cont "dùng được 1 lần."
 
-	para "Think before you"
-	line "act--a TM can be"
-	cont "used only once."
+	para "TM31 chứa"
+	line "VẢY BÙN."
 
-	para "TM31 contains"
-	line "MUD-SLAP."
+	para "Nó giảm độ chính"
+	line "xác của đối thủ"
 
-	para "It reduces the"
-	line "enemy's accuracy"
+	para "trong khi gây"
+	line "sát thương."
 
-	para "while it causes"
-	line "damage."
-
-	para "In other words, it"
-	line "is both defensive"
-	cont "and offensive."
+	para "Nói cách khác, nó"
+	line "vừa phòng thủ"
+	cont "vừa tấn công."
 	done
 
 FalknerFightDoneText:
-	text "There are #MON"
-	line "GYMS in cities and"
-	cont "towns ahead."
+	text "Có các GYM #MON"
+	line "ở các thành phố"
+	cont "phía trước."
 
-	para "You should test"
-	line "your skills at"
-	cont "these GYMS."
+	para "Bạn nên thử sức"
+	line "tại các GYM đó."
 
-	para "I'm going to train"
-	line "harder to become"
+	para "Tôi sẽ tập luyện"
+	line "chăm hơn để trở"
 
-	para "the greatest bird"
-	line "master!"
+	para "thành bậc thầy"
+	line "chim vĩ đại nhất!"
 	done
 
 BirdKeeperRodSeenText:
-	text "The keyword is"
-	line "guts!"
+	text "Từ khóa là"
+	line "quyết tâm!"
 
-	para "Those here are"
-	line "training night and"
+	para "Những người ở đây"
+	line "tập ngày đêm để"
 
-	para "day to become bird"
-	line "#MON masters."
+	para "thành bậc thầy"
+	line "chim #MON."
 
-	para "Come on!"
+	para "Lên nào!"
 	done
 
 BirdKeeperRodBeatenText:
@@ -225,58 +220,55 @@ BirdKeeperRodBeatenText:
 	done
 
 BirdKeeperRodAfterBattleText:
-	text "FALKNER's skills"
-	line "are for real!"
+	text "Kỹ năng FALKNER"
+	line "là thật!"
 
-	para "Don't get cocky"
-	line "just because you"
-	cont "beat me!"
+	para "Đừng tự mãn chỉ"
+	line "vì thắng tôi!"
 	done
 
 BirdKeeperAbeSeenText:
-	text "Let me see if you"
-	line "are good enough to"
-	cont "face FALKNER!"
+	text "Để tôi xem bạn"
+	line "có đủ giỏi để"
+	cont "đấu FALKNER không!"
 	done
 
 BirdKeeperAbeBeatenText:
-	text "This can't be"
-	line "true!"
+	text "Không thể"
+	line "tin được!"
 	done
 
 BirdKeeperAbeAfterBattleText:
-	text "This is pathetic,"
-	line "losing to some"
-	cont "rookie trainer…"
+	text "Thật xấu hổ,"
+	line "thua một HLV"
+	cont "mới vào nghề…"
 	done
 
 VioletGymGuideText:
-	text "Hey! I'm no train-"
-	line "er but I can give"
-	cont "some advice!"
+	text "Này! Tôi không"
+	line "phải HLV nhưng"
+	cont "cho lời khuyên!"
 
-	para "Believe me!"
-	line "If you believe, a"
+	para "Tin tôi đi!"
+	line "Nếu bạn tin, giấc"
 
-	para "championship dream"
-	line "can come true."
+	para "mơ vô địch có"
+	line "thể thành sự thật"
 
-	para "You believe?"
-	line "Then listen."
+	para "Bạn tin không?"
+	line "Vậy thì nghe đây."
 
-	para "The grass-type is"
-	line "weak against the"
-
-	para "flying-type. Keep"
-	line "this in mind."
+	para "Hệ cỏ yếu trước"
+	line "hệ bay. Nhớ"
+	cont "điều này nhé."
 	done
 
 VioletGymGuideWinText:
-	text "Nice battle! Keep"
-	line "it up, and you'll"
+	text "Trận hay! Tiếp"
+	line "tục như vậy, bạn"
 
-	para "be the CHAMP in no"
-	line "time at all!"
+	para "sẽ thành VÔ ĐỊCH"
+	line "trong chớp mắt!"
 	done
 
 VioletGym_MapEvents:

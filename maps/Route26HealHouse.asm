@@ -30,20 +30,20 @@ Route26HealHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 Route26HealHouseRestAWhileText:
-	text "Your #MON look"
-	line "a little tired."
+	text "#MON của bạn"
+	line "trông mệt rồi."
 
-	para "You should rest"
-	line "them a while."
+	para "Hãy cho chúng"
+	line "nghỉ ngơi thôi."
 	done
 
 Route26HealHouseKeepAtItText:
-	text "There!"
+	text "Xong rồi!"
 
-	para "Your #MON are"
-	line "looking good!"
+	para "#MON của bạn"
+	line "trông khỏe hẳn!"
 
-	para "Keep at it!"
+	para "Cố gắng lên!"
 	done
 
 Route26HealHouse_MapEvents:

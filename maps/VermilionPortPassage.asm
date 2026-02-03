@@ -10,10 +10,10 @@ VermilionPortPassageTeacherScript:
 	jumptextfaceplayer VermilionPortPassageTeacherText
 
 VermilionPortPassageTeacherText:
-	text "The FAST SHIP"
-	line "sails on Wednes-"
-	cont "days and Sundays"
-	cont "every week."
+	text "TÀU NHANH khởi"
+	line "hành vào các ngày"
+	cont "Thứ Tư và Chủ"
+	cont "Nhật hàng tuần."
 	done
 
 VermilionPortPassage_MapEvents:

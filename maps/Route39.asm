@@ -185,11 +185,11 @@ Route39MiltankText:
 	done
 
 SailorEugeneSeenText:
-	text "I just got back to"
-	line "OLIVINE."
+	text "Tôi vừa quay về"
+	line "TP. OLIVINE."
 
-	para "So how about a"
-	line "#MON battle?"
+	para "Vậy đấu #MON"
+	line "nhé?"
 	done
 
 SailorEugeneBeatenText:
@@ -197,148 +197,144 @@ SailorEugeneBeatenText:
 	done
 
 SailorEugeneAfterBattleText:
-	text "My #MON were"
-	line "caught and raised"
-	cont "overseas."
+	text "#MON tôi bắt và"
+	line "nuôi ở nước"
+	cont "ngoài."
 
-	para "They're my compan-"
-	line "ions on those long"
-	cont "voyages."
+	para "Chúng là bạn đồng"
+	line "hành trên những"
+	cont "chuyến đi dài."
 	done
 
 PokefanmDerekSeenText:
-	text "This is a good"
-	line "time to brag about"
-	cont "my PIKACHU!"
+	text "Đây là lúc hay để"
+	line "khoe PIKACHU của"
+	cont "tôi!"
 	done
 
 PokefanmDerekBeatenText:
-	text "I had no time to"
-	line "show off PIKACHU…"
+	text "Không kịp khoe"
+	line "PIKACHU…"
 	done
 
 PokefanMDerekText_NotBragging:
-	text "I'm not listening"
-	line "to your bragging!"
+	text "Tôi không nghe"
+	line "bạn khoe đâu!"
 
-	para "We # FANS have"
-	line "a policy of not"
+	para "Chúng tôi # FAN"
+	line "có quy định không"
 
-	para "listening to other"
-	line "people brag!"
+	para "nghe người khác"
+	line "khoe khoang!"
 	done
 
 PokefanfRuthSeenText:
-	text "Such darling"
-	line "#MON."
+	text "#MON đáng yêu"
+	line "quá."
 
-	para "Let's show our"
-	line "#MON together"
-	cont "at the same time."
+	para "Cùng cho #MON"
+	line "của mình ra sân"
+	cont "cùng lúc nhé."
 	done
 
 PokefanfRuthBeatenText:
-	text "I don't mind"
-	line "losing."
+	text "Tôi không ngại"
+	line "thua."
 	done
 
 PokefanfRuthAfterBattleText:
-	text "Do you know about"
-	line "baby #MON?"
+	text "Bạn biết #MON"
+	line "con nhỏ không?"
 
-	para "I bet they're just"
-	line "adorable!"
+	para "Chắc chúng đáng"
+	line "yêu lắm!"
 	done
 
 PokefanMDerekPikachuIsItText:
-	text "PIKACHU is it!"
-	line "Don't you agree?"
+	text "PIKACHU là số một!"
+	line "Bạn không đồng ý?"
 	done
 
 PsychicNormanSeenText:
-	text "Let me see what"
-	line "your #MON are"
-	cont "capable of."
+	text "Để tôi xem #-"
+	line "MON của bạn có khả"
+	cont "năng gì."
 	done
 
 PsychicNormanBeatenText:
-	text "Ooh, your #MON"
-	line "have potential."
+	text "Ooh, #MON bạn"
+	line "có tiềm năng."
 	done
 
 PsychicNormanAfterBattleText:
-	text "You know how #-"
-	line "MON have different"
-	cont "abilities?"
+	text "Bạn biết #MON"
+	line "có khả năng khác"
+	cont "nhau không?"
 
-	para "People are like"
-	line "that too. Every-"
-	cont "one has different"
-	cont "potential."
+	para "Con người cũng vậy"
+	line "Mỗi người có tiềm"
+	cont "năng khác nhau."
 	done
 
 PokefanfJaimeHopeItGetsDarkText:
-	text "Ufufufu… I hope it"
-	line "gets dark soon."
+	text "Ufufufu… Hy vọng"
+	line "tối sớm thôi."
 	done
 
 PokefanfJaimeSeenText:
-	text "You came at just"
-	line "the right time."
+	text "Bạn đến đúng lúc."
 
-	para "Let's battle."
+	para "Cùng đấu nhé."
 	done
 
 PokefanfJaimeBeatenText:
-	text "Oh, how disap-"
-	line "pointing…"
+	text "Oh, thất vọng"
+	line "quá…"
 	done
 
 PokefanfJaimeAfterBattleText:
-	text "I met my MEOWTH at"
-	line "night, right here"
-	cont "on ROUTE 39."
+	text "Tôi gặp MEOWTH vào"
+	line "ban đêm, ngay ở"
+	cont "TUYẾN ĐƯỜNG 39."
 
-	para "I'm not sure why,"
-	line "but it seems to"
+	para "Không biết sao,"
+	line "nhưng nó thích khi"
 
-	para "like it when I"
-	line "train here."
+	para "tôi luyện ở đây."
 
-	para "It seems to become"
-	line "friendlier by"
+	para "Nó thân thiện hơn"
+	line "khi luyện ở đây"
 
-	para "training here than"
-	line "anywhere else."
+	para "so với bất kỳ"
+	line "nơi nào khác."
 	done
 
 Route39SignText:
-	text "ROUTE 39"
+	text "TUYẾN ĐƯỜNG 39"
 
-	para "OLIVINE CITY -"
-	line "ECRUTEAK CITY"
+	para "TP. OLIVINE -"
+	line "TP. ECRUTEAK"
 	done
 
 MoomooFarmSignText:
 	text "MOOMOO FARM"
 
-	para "Enjoy Our Fresh"
-	line "and Tasty Milk"
+	para "Thưởng Thức Sữa"
+	line "Tươi Và Ngon"
 	done
 
 Route39TrainerTipsText:
-	text "TRAINER TIPS"
+	text "MẸO HLV"
 
-	para "Use HEADBUTT on"
-	line "trees to shake"
-	cont "#MON out."
+	para "Dùng ĐỤC ĐẦU với"
+	line "cây để làm rơi"
+	cont "#MON."
 
-	para "Different kinds of"
-	line "#MON drop out"
-	cont "of trees."
+	para "Nhiều loại #MON"
+	line "rơi từ cây ra."
 
-	para "Use HEADBUTT on"
-	line "any tree you see!"
+	para "Dùng ĐỤC ĐẦU với"
+	line "mọi cây bạn thấy!"
 	done
 
 Route39_MapEvents:

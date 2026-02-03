@@ -150,129 +150,125 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "THÁP THIẾC cấm"
+	line "bất kỳ ai không"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "có HUY HIỆU của"
+	line "GYM ECRUTEAK."
 
-	para "Sorry, but you'll"
-	line "have to leave."
+	para "Xin lỗi, nhưng"
+	line "con phải ra ngoài."
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "TIN TOWER is off"
-	line "limits to anyone"
+	text "THÁP THIẾC cấm"
+	line "bất kỳ ai không"
 
-	para "without ECRUTEAK"
-	line "GYM's BADGE."
+	para "có HUY HIỆU của"
+	line "GYM ECRUTEAK."
 
-	para "Ah!"
+	para "À!"
 
-	para "ECRUTEAK's GYM"
-	line "BADGE! Please, go"
-	cont "right through."
+	para "HUY HIỆU GYM"
+	line "ECRUTEAK! Mời con"
+	cont "đi thẳng vào."
 	done
 
 EcruteakTinTowerEntranceSageText_NoClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Một sự kiện trọng"
+	line "đại đã xảy ra."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Ta xin lỗi, nhưng"
+	line "phải nhờ con"
+	cont "ra ngoài."
 
-	para "…What soothes the"
-	line "soul…"
+	para "…Thứ xoa dịu"
+	line "tâm hồn…"
 
-	para "The WISE TRIO say"
-	line "things that are so"
+	para "BA HIỀN TRÍ nói"
+	line "những điều thật"
 
-	para "very difficult to"
-	line "understand…"
+	para "khó hiểu…"
 	done
 
 EcruteakTinTowerEntranceSageText_HearsClearBell:
-	text "A momentous event"
-	line "has occurred."
+	text "Một sự kiện trọng"
+	line "đại đã xảy ra."
 
-	para "I beg your pardon,"
-	line "but I must ask you"
-	cont "to leave."
+	para "Ta xin lỗi, nhưng"
+	line "phải nhờ con"
+	cont "ra ngoài."
 
 	para "<……><……><……>"
 
-	para "Ah!"
+	para "À!"
 
-	para "The sound of that"
-	line "CLEAR BELL!"
+	para "Tiếng của"
+	line "CH.BÁO TRONG!"
 
-	para "It… It's sublime!"
+	para "Nó… tuyệt diệu!"
 
-	para "I've never heard"
-	line "so beautiful a"
-	cont "sound before!"
+	para "Ta chưa bao giờ"
+	line "nghe tiếng đẹp"
+	cont "như vậy!"
 
-	para "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	para "Tiếng chuông phản"
+	line "ánh tâm hồn người"
+	cont "cầm nó."
 
-	para "You…"
+	para "Con…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Con có thể vượt"
+	line "qua THÁP THIẾC."
 
-	para "Please, do go on."
+	para "Xin mời đi."
 	done
 
 EcruteakTinTowerEntranceSageText_PleaseDoGoOn:
-	text "Please, do go on."
+	text "Xin mời đi."
 	done
 
 EcruteakTinTowerEntranceSageText_HeardClearBell:
-	text "That bell's chime"
-	line "is indicative of"
-	cont "the bearer's soul."
+	text "Tiếng chuông phản"
+	line "ánh tâm hồn người"
+	cont "cầm nó."
 
-	para "You…"
+	para "Con…"
 
-	para "You may be able to"
-	line "make it through"
-	cont "TIN TOWER."
+	para "Con có thể vượt"
+	line "qua THÁP THIẾC."
 
-	para "Please, do go on."
+	para "Xin mời đi."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "The TIN TOWER"
-	line "ahead is a nine-"
+	text "THÁP THIẾC phía"
+	line "trước có chín tầng"
 
-	para "tier tower of"
-	line "divine beauty."
+	para "với vẻ đẹp"
+	line "thiêng liêng."
 
-	para "It soothes the"
-	line "soul of all who"
-	cont "see it."
+	para "Nó xoa dịu tâm"
+	line "hồn mọi người"
+	cont "nhìn thấy nó."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "The TIN TOWER"
-	line "shook! A #MON"
+	text "THÁP THIẾC rung!"
+	line "Một #MON chắc"
 
-	para "must have returned"
-	line "to the top!"
+	para "đã trở về đỉnh!"
 	done
 
 EcruteakTinTowerEntranceGrampsText:
-	text "Two towers…"
-	line "Two #MON…"
+	text "Hai tháp…"
+	line "Hai #MON…"
 
-	para "But when one"
-	line "burned down, both"
+	para "Nhưng khi một"
+	line "tháp cháy, cả hai"
 
-	para "#MON flew away,"
-	line "never to return."
+	para "#MON bay đi,"
+	line "không quay lại."
 	done
 
 EcruteakTinTowerEntrance_MapEvents:

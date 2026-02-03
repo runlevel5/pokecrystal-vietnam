@@ -90,116 +90,116 @@ MagikarpHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 MagikarpLengthRaterText_LakeOfRageHistory:
-	text "LAKE OF RAGE is"
-	line "actually a crater"
+	text "HỒ PHẪN NỘ thực ra"
+	line "là miệng núi lửa"
 
-	para "made by rampaging"
-	line "GYARADOS."
+	para "do GYARADOS nổi"
+	line "điên tạo ra."
 
-	para "The crater filled"
-	line "up with rainwater"
+	para "Miệng núi lửa chứa"
+	line "đầy nước mưa"
 
-	para "and the LAKE was"
-	line "formed."
+	para "và HỒ được hình"
+	line "thành."
 
-	para "That's the story"
-	line "passed on from my"
+	para "Đó là câu chuyện"
+	line "được truyền lại từ"
 
-	para "Grandpa's great-"
-	line "great-grandpa."
+	para "cụ cố của cố"
+	line "Ông tôi."
 
-	para "It used to be that"
-	line "you could catch"
+	para "Trước đây bạn có"
+	line "thể bắt được"
 
-	para "lively MAGIKARP"
-	line "there, but…"
+	para "MAGIKARP sống động"
+	line "ở đó, nhưng…"
 
-	para "I don't understand"
-	line "what's happening."
+	para "Tôi không hiểu"
+	line "chuyện gì xảy ra."
 	done
 
 MagikarpLengthRaterText_MenInBlack:
-	text "The LAKE hasn't"
-	line "been normal since"
+	text "HỒ chưa trở lại"
+	line "bình thường kể từ"
 
-	para "those men wearing"
-	line "black arrived."
+	para "khi mấy người mặc"
+	line "đen đến."
 	done
 
 MagikarpLengthRaterText_WorldsLargestMagikarp:
-	text "LAKE OF RAGE is"
-	line "back to normal."
+	text "HỒ PHẪN NỘ đã trở"
+	line "lại bình thường."
 
-	para "The MAGIKARP have"
-	line "returned."
+	para "MAGIKARP đã quay"
+	line "về."
 
-	para "I may yet realize"
-	line "my dream of see-"
-	cont "ing the world's"
-	cont "largest MAGIKARP."
+	para "Tôi có thể hiện"
+	line "thực hóa giấc mơ"
+	cont "thấy MAGIKARP lớn"
+	cont "nhất thế giới."
 
-	para "Do you have a ROD?"
-	line "Please help me if"
-	cont "you do."
+	para "Bạn có CẦN không?"
+	line "Hãy giúp tôi nếu"
+	cont "bạn có."
 	done
 
 MagikarpLengthRaterText_YouHaveAMagikarp:
-	text "Ah, you have a"
-	line "MAGIKARP! Let's"
+	text "À, bạn có một"
+	line "MAGIKARP! Hãy xem"
 
-	para "see how big that"
-	line "baby is."
+	para "con bé đó to như"
+	line "thế nào."
 	done
 
 MagikarpLengthRaterText_Memento:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Wow! Con này xuất"
+	line "sắc!"
 
-	para "I tip my hat to"
-	line "you!"
+	para "Tôi cởi mũ chào"
+	line "bạn!"
 
-	para "Take this as a"
-	line "memento!"
+	para "Nhận cái này làm"
+	line "kỷ niệm!"
 	done
 
 MagikarpLengthRaterText_Bonus:
-	text "The record is the"
-	line "important thing."
+	text "Kỷ lục mới là"
+	line "điều quan trọng."
 
-	para "Think of that as"
-	line "a bonus!"
+	para "Hãy coi đó như"
+	line "tiền thưởng!"
 	done
 
 MagikarpLengthRaterText_TooShort:
-	text "Wow! This one is"
-	line "outstanding!"
+	text "Wow! Con này xuất"
+	line "sắc!"
 
-	para "…I wish I could"
-	line "say that, but I've"
+	para "…Giá tôi có thể"
+	line "nói thế, nhưng tôi"
 
-	para "seen a bigger one"
-	line "before."
+	para "đã thấy con lớn"
+	line "hơn trước đây."
 	done
 
 MagikarpLengthRaterText_NotMagikarp:
-	text "What? That's not a"
-	line "MAGIKARP!"
+	text "Gì? Đó không phải"
+	line "là MAGIKARP!"
 	done
 
 MagikarpLengthRaterText_Refused:
-	text "Oh… So you didn't"
-	line "get one good"
+	text "Ồ… Vậy là bạn"
+	line "không có con đủ"
 
-	para "enough to show me?"
-	line "Maybe next time."
+	para "tốt để cho tôi"
+	line "xem? Lần sau nhé."
 	done
 
 LakeOfRageMagikarpHouseUnusedRecordText:
-	text "CURRENT RECORD"
+	text "KỶ LỤC HIỆN TẠI"
 
 	para "@"
 	text_ram wStringBuffer3
-	text " caught by"
+	text " bắt bởi"
 	line "@"
 	text_ram wStringBuffer4
 	text_end

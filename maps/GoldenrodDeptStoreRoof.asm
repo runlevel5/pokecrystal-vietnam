@@ -93,120 +93,120 @@ PokeDollVendingMachine:
 	jumptext PokeDollVendingMachineText
 
 GoldenrodDeptStoreRoofPokefanFText:
-	text "Whew, I'm tired."
+	text "Phù, mệt quá."
 
-	para "I sometimes come"
-	line "up to the rooftop"
+	para "Thỉnh thoảng tôi"
+	line "lên sân thượng"
 
-	para "to take a break"
-	line "from shopping."
+	para "để nghỉ ngơi sau"
+	line "khi mua sắm."
 	done
 
 GoldenrodDeptStoreRoofFisherText:
-	text "Pardon? Who says"
-	line "an adult can't get"
-	cont "into this?"
+	text "Ủa? Ai bảo người"
+	line "lớn không được"
+	cont "chơi cái này?"
 
-	para "I'm going to be"
-	line "back every day to"
+	para "Tôi sẽ quay lại"
+	line "mỗi ngày để"
 
-	para "collect all the"
-	line "dolls!"
+	para "sưu tập tất cả"
+	line "búp bê!"
 	done
 
 GoldenrodDeptStoreRoofTwinText:
-	text "They have bargain"
-	line "sales here every"
-	cont "so often."
+	text "Họ có giảm giá"
+	line "ở đây thường"
+	cont "xuyên lắm."
 	done
 
 GoldenrodDeptStoreRoofSuperNerdOhWowText:
-	text "Oh, wow!"
+	text "Ồ, tuyệt vời!"
 	done
 
 GoldenrodDeptStoreRoofSuperNerdQuitBotheringMeText:
-	text "Will you quit"
-	line "bothering me?"
+	text "Đừng làm phiền"
+	line "tôi được không?"
 	done
 
 GoldenrodDeptStoreRoofPokefanMText:
-	text "There's something"
-	line "I really want, but"
+	text "Có thứ tôi thực"
+	line "sự muốn, nhưng"
 
-	para "I don't have the"
-	line "necessary cash…"
+	para "tôi không có đủ"
+	line "tiền…"
 
-	para "Maybe I'll sell"
-	line "off the BERRIES"
-	cont "I've collected…"
+	para "Có lẽ tôi sẽ bán"
+	line "QUẢ đã sưu tập"
+	cont "được…"
 	done
 
 GoldenrodDeptStoreRoofTeacherText:
-	text "Oh, everything is"
-	line "so cheap!"
+	text "Ồ, mọi thứ rẻ"
+	line "quá!"
 
-	para "I bought so much,"
-	line "my PACK's crammed!"
+	para "Tôi mua nhiều đến"
+	line "nỗi BALO đầy ắp!"
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:
-	text "My #MON always"
-	line "get paralyzed or"
+	text "#MON tôi hay bị"
+	line "tê liệt hoặc"
 
-	para "poisoned when the"
-	line "chips are down…"
+	para "bị độc khi gặp"
+	line "nguy hiểm…"
 
-	para "So I came to buy"
-	line "some FULL HEAL."
+	para "Nên tôi đến mua"
+	line "FULL HEAL."
 
-	para "I wonder if"
-	line "there's any left?"
+	para "Không biết còn"
+	line "hàng không nhỉ?"
 	done
 
 Binoculars1Text:
-	text "These binoculars"
-	line "let me see far"
+	text "Ống nhòm này cho"
+	line "tôi nhìn xa."
 
-	para "away. Maybe I can"
-	line "see my own house."
+	para "Có lẽ tôi có thể"
+	line "thấy nhà mình."
 
-	para "Is it the one with"
-	line "the green roof?"
+	para "Cái nào mái xanh"
+	line "nhỉ?"
 	done
 
 Binoculars2Text:
-	text "Hey! Some trainers"
-	line "are battling on"
-	cont "the road!"
+	text "Kìa! Có HLV đang"
+	line "chiến đấu trên"
+	cont "đường!"
 
-	para "A #MON fired a"
-	line "flurry of leaves!"
+	para "#MON đã bắn"
+	line "hàng loạt lá!"
 
-	para "That makes me feel"
-	line "like battling"
-	cont "right now!"
+	para "Khiến tôi muốn"
+	line "chiến đấu"
+	cont "ngay bây giờ!"
 	done
 
 Binoculars3Text:
-	text "A FISHER caught a"
-	line "lot of MAGIKARP…"
+	text "Thợ câu bắt được"
+	line "nhiều MAGIKARP…"
 
-	para "They're SPLASHing"
-	line "at the same time!"
+	para "Chúng đang"
+	line "SPLASH cùng lúc!"
 
-	para "Look at the water"
-	line "going everywhere!"
+	para "Nhìn nước bắn"
+	line "tung tóe kìa!"
 	done
 
 PokeDollVendingMachineText:
-	text "A vending machine"
-	line "for #MON dolls?"
+	text "Máy bán búp bê"
+	line "#MON?"
 
-	para "Insert money, then"
-	line "turn the crank…"
+	para "Bỏ tiền vào, rồi"
+	line "quay tay quay…"
 
-	para "But it's almost"
-	line "empty…"
+	para "Nhưng gần hết"
+	line "hàng rồi…"
 	done
 
 GoldenrodDeptStoreRoof_MapEvents:

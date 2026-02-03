@@ -45,47 +45,46 @@ OlivineLighthouse5FHiddenHyperPotion:
 	hiddenitem HYPER_POTION, EVENT_OLIVINE_LIGHTHOUSE_5F_HIDDEN_HYPER_POTION
 
 SailorErnestSeenText:
-	text "I wanted to battle"
-	line "JASMINE, but she's"
+	text "Tôi muốn đấu với"
+	line "JASMINE, nhưng cô"
 
-	para "not up to it now."
-	line "So, how about you?"
+	para "ấy chưa sẵn sàng."
+	line "Vậy, bạn thì sao?"
 	done
 
 SailorErnestBeatenText:
-	text "Whoa, whoa. You're"
-	line "overwhelming!"
+	text "Chà, chà. Bạn quá"
+	line "áp đảo!"
 	done
 
 SailorErnestAfterBattleText:
-	text "A GYM LEADER isn't"
-	line "just about being"
+	text "T.LĨNH GYM không"
+	line "chỉ về sức mạnh."
 
-	para "strong. A LEADER"
-	line "also needs to be"
-	cont "compassionate."
+	para "T.LĨNH còn cần có"
+	line "lòng thương xót."
 	done
 
 BirdKeeperDenisSeenText:
-	text "We're pretty high"
-	line "up here. My bird"
+	text "Chúng ta ở khá"
+	line "cao đây. #MON"
 
-	para "#MON are in"
-	line "prime form."
+	para "CHIM của tôi đang"
+	line "trong phong độ."
 	done
 
 BirdKeeperDenisBeatenText:
-	text "Oops…They crashed…"
+	text "Ối…Chúng rơi…"
 	done
 
 BirdKeeperDenisAfterBattleText:
-	text "My #MON learned"
-	line "how to use FLY in"
+	text "#MON tôi học"
+	line "cách dùng BAY ở"
 	cont "CIANWOOD."
 
-	para "Well, since I'm a"
-	line "loser, I'll FLY"
-	cont "across the sea…"
+	para "Thôi, vì tôi thua"
+	line "rồi, tôi sẽ BAY"
+	cont "qua biển…"
 	done
 
 OlivineLighthouse5F_MapEvents:

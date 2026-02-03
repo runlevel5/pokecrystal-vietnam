@@ -1,64 +1,63 @@
 DerekAnswerPhoneText:
-	text "Hi, <PLAY_G>?"
+	text "Chào, <PLAY_G>?"
 
-	para "Good morning pika."
-	line "What's up pika?"
+	para "Chào buổi sáng"
+	line "pika. Sao rồi pika"
 	done
 
 DerekAnswerPhoneDayText:
-	text "Hi, <PLAY_G>?"
+	text "Chào, <PLAY_G>?"
 
-	para "Good day pika,"
-	line "what's up pika?"
+	para "Chào ngày pika,"
+	line "sao rồi pika?"
 	done
 
 DerekAnswerPhoneNiteText:
-	text "Hi, <PLAY_G>?"
+	text "Chào, <PLAY_G>?"
 
-	para "Good evening pika,"
-	line "what's up pika?"
+	para "Chào buổi tối"
+	line "pika, sao rồi pika"
 	done
 
 DerekGreetText:
-	text "<PLAY_G> pika, good"
-	line "morning!"
+	text "<PLAY_G> pika,"
+	line "chào buổi sáng!"
 
-	para "It's @"
+	para "Đây là @"
 	text_ram wStringBuffer3
-	text ", how"
-	line "pika are you?"
+	text ", cậu"
+	line "pika thế nào?"
 	done
 
 DerekGreetDayText:
-	text "<PLAY_G> pika, good"
-	line "pika day!"
+	text "<PLAY_G> pika,"
+	line "chào ngày pika!"
 
-	para "It's @"
+	para "Đây là @"
 	text_ram wStringBuffer3
-	text ", how"
-	line "pika are you?"
+	text ", cậu"
+	line "pika thế nào?"
 	done
 
 DerekGreetNiteText:
-	text "<PLAY_G> pika, good"
-	line "evening!"
+	text "<PLAY_G> pika,"
+	line "chào buổi tối!"
 
-	para "It's @"
+	para "Đây là @"
 	text_ram wStringBuffer3
-	text ". Were"
-	line "you pika awake?"
+	text ". Cậu"
+	line "pika thức à?"
 	done
 
 DerekGenericText:
-	text "You have to hear"
-	line "this! My lovable"
-
-	para "@"
+	text "Cậu phải nghe này!"
+	line "@"
 	text_ram wStringBuffer4
-	text " looked"
-	line "at me and grinned!"
+	text " đáng"
+	cont "yêu của tớ nhìn tớ"
 
-	para "It must be because"
-	line "our hearts beat"
-	cont "together as one!"
+	para "và cười toe!"
+
+	para "Chắc vì tim tụi"
+	line "tớ đập chung nhịp!"
 	done

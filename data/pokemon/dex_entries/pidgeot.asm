@@ -1,10 +1,10 @@
-	db "BIRD@" ; species name
-	dw 411, 870 ; height, weight
+	db "CHIM@" ; species name
+	dw 15, 395 ; height, weight
 
-	db   "Its outstanding"
-	next "vision allows it"
-	next "to spot splashing"
+	db   "Thị lực tuyệt vời"
+	next "cho phép nó nhìn"
+	next "thấy MAGIKARP"
 
-	page "MAGIKARP, even"
-	next "while flying at"
-	next "3300 feet.@"
+	page "bơi, kể cả khi"
+	next "bay ở độ cao"
+	next "1000 mét.@"

@@ -1,10 +1,10 @@
-	db "BIG JAW@" ; species name
-	dw 707, 1960 ; height, weight
+	db "HÀM LỚN@" ; species name
+	dw 23, 888 ; height, weight
 
-	db   "Although it has a"
-	next "massive body, its"
-	next "powerful hind legs"
+	db   "Dù thân hình đồ"
+	next "sộ, đôi chân sau"
+	next "mạnh mẽ giúp nó"
 
-	page "enable it to move"
-	next "quickly, even on"
-	next "the ground.@"
+	page "di chuyển nhanh"
+	next "ngay cả trên cạn.@"
+	next "@"

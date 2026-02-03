@@ -25,18 +25,18 @@ CherrygroveEvolutionSpeechHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CherrygroveEvolutionSpeechHouseYoungsterText:
-	text "#MON gain expe-"
-	line "rience in battle"
+	text "#MON tích lũy"
+	line "kinh nghiệm trong"
 
-	para "and change their"
-	line "form."
+	para "trận đấu và thay"
+	line "đổi hình dạng."
 	done
 
 CherrygroveEvolutionSpeechHouseLassText:
-	text "#MON change?"
+	text "#MON thay đổi?"
 
-	para "I would be shocked"
-	line "if one did that!"
+	para "Tớ sẽ sốc nếu"
+	line "điều đó xảy ra!"
 	done
 
 CherrygroveEvolutionSpeechHouse_MapEvents:

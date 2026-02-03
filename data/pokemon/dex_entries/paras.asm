@@ -1,10 +1,10 @@
-	db "MUSHROOM@" ; species name
-	dw 100, 120 ; height, weight
+	db "NẤM@" ; species name
+	dw 3, 54 ; height, weight
 
-	db   "The tochukaso"
-	next "growing on this"
-	next "#MON's back"
+	db   "Nấm đông trùng"
+	next "mọc trên lưng nó"
+	next "ra lệnh cho nó"
 
-	page "orders it to"
-	next "extract juice from"
-	next "tree trunks.@"
+	page "hút nhựa từ thân"
+	next "cây để sinh tồn.@"
+	next "@"

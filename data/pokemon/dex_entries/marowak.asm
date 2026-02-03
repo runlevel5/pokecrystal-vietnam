@@ -1,10 +1,10 @@
-	db "BONEKEEPER@" ; species name
-	dw 303, 990 ; height, weight
+	db "GIỮ XƯƠNG@" ; species name
+	dw 10, 450 ; height, weight
 
-	db   "Somewhere in the"
-	next "world is a ceme-"
-	next "tery just for"
+	db   "Đâu đó trên thế"
+	next "giới có nghĩa"
+	next "trang cho MAROWAK"
 
-	page "MAROWAK. It gets"
-	next "its bones from"
-	next "those graves.@"
+	page "Nó lấy xương từ"
+	next "những ngôi mộ đó.@"
+	next "@"

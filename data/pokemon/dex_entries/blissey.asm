@@ -1,10 +1,10 @@
-	db "HAPPINESS@" ; species name
-	dw 411, 1030 ; height, weight
+	db "HẠNH PHÚC@" ; species name
+	dw 15, 468 ; height, weight
 
-	db   "Biting into one"
-	next "of the delicious"
-	next "eggs that BLISSEY"
+	db   "Cắn một miếng"
+	next "trứng ngon lành"
+	next "của BLISSEY sẽ"
 
-	page "provides will make"
-	next "everyone around"
-	next "smile with joy.@"
+	page "khiến mọi người"
+	next "xung quanh nở nụ"
+	next "cười hạnh phúc.@"

@@ -34,19 +34,19 @@ Route17Route18GateCannotPassMovement:
 	step_end
 
 Route17Route18GateOfficerText:
-	text "CYCLING ROAD"
-	line "Uphill Starts Here"
+	text "ĐƯỜNG ĐUA XE"
+	line "Lên Dốc Bắt Đầu"
 	done
 
 Route17Route18GateCannotPassText:
-	text "Hang on! Don't you"
-	line "have a BICYCLE?"
+	text "Khoan đã! Bạn"
+	line "không có XE ĐẠP à?"
 
-	para "The CYCLING ROAD"
-	line "is beyond here."
+	para "ĐƯỜNG ĐUA XE"
+	line "ở phía trước."
 
-	para "You have to have a"
-	line "BICYCLE to go on."
+	para "Bạn phải có XE ĐẠP"
+	line "để đi tiếp."
 	done
 
 Route17Route18Gate_MapEvents:

@@ -1,72 +1,72 @@
 ParryAnswerPhoneText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Ừ, ừ!"
+	line "Đây là @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "Hah, và đây là"
 	line "<PLAY_G>!"
 	done
 
 ParryAnswerPhoneDayText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Ừ, ừ!"
+	line "Đây là @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "Hah, và đây là"
 	line "<PLAY_G>!"
 	done
 
 ParryAnswerPhoneNiteText:
-	text "Yup, yup!"
-	line "It's @"
+	text "Ừ, ừ!"
+	line "Đây là @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Hah, and here's"
+	para "Hah, và đây là"
 	line "<PLAY_G>!"
 	done
 
 ParryGreetText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper breakfast?"
+	para "Cậu ăn sáng đàng"
+	line "hoàng chưa?"
 	done
 
 ParryGreetDayText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper lunch?"
+	para "Cậu ăn trưa đàng"
+	line "hoàng chưa?"
 	done
 
 ParryGreetNiteText:
-	text "<PLAY_G>, it's"
+	text "<PLAY_G>, đây là"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "Have you had a"
-	line "proper dinner?"
+	para "Cậu ăn tối đàng"
+	line "hoàng chưa?"
 	done
 
 ParryGenericText:
-	text "Are your #MON"
-	line "looking good?"
+	text "#MON cậu"
+	line "có khỏe không?"
 
-	para "My @"
+	para "@"
 	text_ram wStringBuffer4
-	text " and"
-	line "me--we're looking"
+	text " của tớ"
+	line "và tớ--bọn tớ"
 
-	para "mighty dandy!"
+	para "đang rất khỏe!"
 	line "Hahahah!"
 	done

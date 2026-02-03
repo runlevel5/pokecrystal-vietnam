@@ -1,10 +1,10 @@
-	db "POISON GAS@" ; species name
-	dw 311, 210 ; height, weight
+	db "KHÍ ĐỘC@" ; species name
+	dw 12, 95 ; height, weight
 
-	db   "When it inhales"
-	next "poisonous gases"
-	next "from garbage, its"
+	db   "Khi hít khí độc"
+	next "từ rác, thân nó"
+	next "phình ra, và bên"
 
-	page "body expands, and"
-	next "its insides smell"
-	next "much worse.@"
+	page "trong bốc mùi"
+	next "khó chịu hơn.@"
+	next "@"

@@ -107,137 +107,135 @@ BillsHouseRadio:
 	jumpstd Radio2Script
 
 BillTakeThisEeveeText:
-	text "BILL: Hi, <PLAYER>!"
-	line "Do us a favor and"
-	cont "take this EEVEE."
+	text "BILL: Chào, "
+	line "<PLAYER>! Giúp"
 
-	para "It came over when"
-	line "I was adjusting"
-	cont "the TIME CAPSULE."
+	para "tôi và nhận con"
+	line "EEVEE này nhé."
 
-	para "Someone has to"
-	line "take care of it,"
+	para "Nó xuất hiện khi"
+	line "tôi đang điều"
+	cont "chỉnh TIME CAPSULE"
 
-	para "but I don't like"
-	line "being outside."
+	para "Ai đó phải chăm"
+	line "sóc nó, nhưng tôi"
 
-	para "Can I count on you"
-	line "to play with it,"
-	cont "<PLAYER>?"
+	para "không thích ra"
+	line "ngoài lắm."
+
+	para "Tôi có thể nhờ"
+	line "bạn chơi với nó"
+	cont "được không?"
 	done
 
 BillImCountingOnYouText:
-	text "BILL: I knew you'd"
-	line "come through!"
+	text "BILL: Tôi biết"
+	line "bạn sẽ đồng ý!"
 
-	para "Way to go! You're"
-	line "the real deal!"
+	para "Tuyệt vời! Bạn"
+	line "thật sự giỏi!"
 
-	para "OK, I'm counting"
-	line "on you."
+	para "OK, tôi tin tưởng"
+	line "bạn nhé."
 
-	para "Take good care of"
-	line "it!"
+	para "Hãy chăm sóc nó"
+	line "thật tốt!"
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> received"
-	line "EEVEE!"
+	text "<PLAYER> nhận"
+	line "được EEVEE!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: PROF.ELM"
-	line "claims EEVEE may"
+	text "BILL: GS ELM nói"
+	line "EEVEE có thể tiến"
 
-	para "evolve in new and"
-	line "unknown ways."
+	para "hóa theo những"
+	line "cách mới và chưa"
+	cont "từng biết."
 	done
 
 BillPartyFullText:
-	text "Whoa, wait. You"
-	line "can't carry any"
-	cont "more #MON."
+	text "Khoan đã. Bạn"
+	line "không thể mang"
+	cont "thêm #MON."
 	done
 
 BillNoEeveeText:
-	text "Oh… Now what to"
-	line "do?"
+	text "Ồ… Vậy giờ phải"
+	line "làm sao đây?"
 	done
 
 BillPopWontWorkText:
-	text "BILL: My pop, he"
-	line "won't work. All he"
+	text "BILL: Bố tôi ấy,"
+	line "ông không chịu"
 
-	para "does is goof off"
-	line "all day long."
+	para "làm việc. Chỉ cả"
+	line "ngày lang thang."
 
-	para "He's getting to be"
-	line "a real headache…"
+	para "Ông ấy đang trở"
+	line "thành vấn đề…"
 	done
 
 BillsMomText_BeforeEcruteak:
-	text "Oh, you collect"
-	line "#MON? My son"
-	cont "BILL is an expert."
+	text "Ồ, con sưu tầm"
+	line "#MON à? BILL"
 
-	para "He just got called"
-	line "to the #MON"
+	para "con trai mẹ là"
+	line "chuyên gia đấy."
 
-	para "CENTER in ECRUTEAK"
-	line "CITY."
+	para "Nó vừa được gọi"
+	line "đến TT #MON ở"
+	cont "TP. ECRUTEAK."
 
-	para "My husband went"
-	line "off to the GAME"
+	para "Bố nó thì đi đến"
+	line "GÓC GIẢI TRÍ mà"
 
-	para "CORNER without"
-	line "being called…"
+	para "không ai gọi cả…"
 	done
 
 BillsMomText_AfterEcruteak:
-	text "My husband was"
-	line "once known as a"
+	text "Bố nó từng được"
+	line "gọi là #MANIAC."
 
-	para "#MANIAC."
-	line "BILL must have"
-
-	para "taken after his"
-	line "father."
+	para "BILL chắc là giống"
+	line "bố nó."
 	done
 
 BillsYoungerSisterUsefulNumberText:
-	text "Are you a trainer?"
+	text "Bạn là HLV à?"
 
-	para "I've got a useful"
-	line "phone number for"
-	cont "you."
+	para "Em có số điện"
+	line "thoại hữu ích cho"
+	cont "bạn này."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> recorded"
-	line "BILL's number."
+	text "<PLAYER> đã lưu số"
+	line "của BILL."
 	done
 
 BillsYoungerSisterRefusedNumberText:
-	text "My brother made"
-	line "the PC #MON"
-	cont "storage system."
+	text "Anh em làm hệ"
+	line "thống lưu trữ"
+	cont "#MON trên PC."
 
-	para "I was going to"
-	line "give you BILL's"
-	cont "number…"
+	para "Em định cho bạn"
+	line "số của anh BILL…"
 	done
 
 BillsYoungerSisterPhoneFullText:
-	text "You can't record"
-	line "any more numbers."
+	text "Bạn không thể lưu"
+	line "thêm số nữa."
 	done
 
 BillsYoungerSisterStorageSystemText:
-	text "My big brother"
-	line "BILL made the PC"
+	text "Anh em là BILL đã"
+	line "làm hệ thống lưu"
 
-	para "#MON storage"
-	line "system."
+	para "trữ #MON trên"
+	line "PC đấy."
 	done
 
 BillsFamilysHouse_MapEvents:

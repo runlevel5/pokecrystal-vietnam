@@ -180,201 +180,204 @@ CianwoodCityEusineDepartMovement:
 	step_end
 
 ChucksWifeEasierToFlyText:
-	text "You crossed the"
-	line "sea to get here?"
+	text "Bạn vượt biển"
+	line "đến đây à?"
 
-	para "That must have"
-	line "been hard."
+	para "Chắc vất vả"
+	line "lắm nhỉ."
 
-	para "It would be much"
-	line "easier if your"
+	para "Sẽ dễ hơn nhiều"
+	line "nếu #MON của"
 
-	para "#MON knew how"
-	line "to FLY…"
+	para "bạn biết chiêu"
+	line "BAY…"
 	done
 
 ChucksWifeBeatChuckText:
-	text "But you can't use"
-	line "FLY without this"
-	cont "city's GYM BADGE."
+	text "Nhưng bạn không"
+	line "thể dùng BAY nếu"
+	cont "không có HUY HIỆU"
 
-	para "If you beat the"
-	line "GYM LEADER here,"
-	cont "come see me."
+	para "GYM thành phố"
+	line "này."
 
-	para "I'll have a nice"
-	line "gift for you."
+	para "Nếu bạn thắng"
+	line "T.LĨNH GYM ở đây,"
+	cont "hãy đến gặp tôi."
+
+	para "Tôi sẽ có quà"
+	line "tặng cho bạn."
 	done
 
 ChucksWifeGiveHMText:
-	text "That's CIANWOOD's"
-	line "GYM BADGE!"
+	text "Đó là HUY HIỆU GYM"
+	line "của CIANWOOD!"
 
-	para "Then you should"
-	line "take this HM."
+	para "Vậy bạn nên nhận"
+	line "HM này."
 	done
 
 ChucksWifeFlySpeechText:
-	text "Teach FLY to your"
-	line "#MON."
+	text "Dạy BAY cho"
+	line "#MON của bạn."
 
-	para "You will be able"
-	line "to FLY instantly"
+	para "Bạn sẽ có thể"
+	line "bay tức thì đến"
 
-	para "to anywhere you "
-	line "have visited."
+	para "bất cứ nơi nào"
+	line "đã đến."
 	done
 
 ChucksWifeChubbyText:
-	text "My husband lost to"
-	line "you, so he needs"
-	cont "to train harder."
+	text "Chồng tôi thua"
+	line "bạn, nên anh ấy"
+	cont "cần tập hơn."
 
-	para "That's good, since"
-	line "he was getting a"
-	cont "little chubby."
+	para "Cũng tốt, vì anh"
+	line "ấy hơi mập rồi."
 	done
 
 CianwoodCityYoungsterText:
-	text "If you use FLY,"
-	line "you can get back"
+	text "Nếu dùng BAY,"
+	line "bạn có thể về"
 
-	para "to OLIVINE in-"
-	line "stantly."
+	para "OLIVINE ngay"
+	line "lập tức."
 	done
 
 CianwoodCityPokefanMText:
-	text "Boulders to the"
-	line "north of town can"
-	cont "be crushed."
+	text "Tảng đá phía bắc"
+	line "thị trấn có thể"
+	cont "bị đập vỡ."
 
-	para "They may be hiding"
-	line "something."
+	para "Chúng có thể đang"
+	line "giấu thứ gì đó."
 
-	para "Your #MON could"
-	line "use ROCK SMASH to"
-	cont "break them."
+	para "#MON của bạn"
+	line "có thể dùng ĐẬP"
+	cont "VỠ ĐÁ để đập vỡ."
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, the GYM"
-	line "LEADER, spars with"
+	text "CHUCK, T.LĨNH"
+	line "GYM, luyện tập"
 
-	para "his fighting #-"
-	line "MON."
+	para "với #MON hệ"
+	line "đấu của anh ấy."
 	done
 
 CianwoodCityUnusedText:
-	text "There are several"
-	line "islands between"
-	cont "here and OLIVINE."
+	text "Có vài hòn đảo"
+	line "giữa đây và"
+	cont "OLIVINE."
 
-	para "A mythical sea"
-	line "creature supposed-"
-	cont "ly lives there."
+	para "Nghe nói một sinh"
+	line "vật biển huyền"
+	cont "thoại sống ở đó."
 	done
 
 EusineSuicuneText:
 	text "EUSINE: Yo,"
 	line "<PLAYER>."
 
-	para "Wasn't that"
-	line "SUICUNE just now?"
+	para "Vừa rồi có phải"
+	line "SUICUNE không?"
 
-	para "I only caught a"
-	line "quick glimpse, but"
+	para "Tôi chỉ thoáng"
+	line "thấy, nhưng"
 
-	para "I thought I saw"
-	line "SUICUNE running on"
-	cont "the waves."
+	para "hình như SUICUNE"
+	line "đang chạy trên"
+	cont "sóng biển."
 
-	para "SUICUNE is beau-"
-	line "tiful and grand."
+	para "SUICUNE thật đẹp"
+	line "và hùng vĩ."
 
-	para "And it races"
-	line "through towns and"
+	para "Và nó chạy qua"
+	line "thị trấn và đường"
 
-	para "roads at simply"
-	line "awesome speeds."
+	para "với tốc độ"
+	line "kinh ngạc."
 
-	para "It's wonderful…"
+	para "Tuyệt vời…"
 
-	para "I want to see"
-	line "SUICUNE up close…"
+	para "Tôi muốn thấy"
+	line "SUICUNE gần hơn…"
 
-	para "I've decided."
+	para "Tôi đã quyết."
 
-	para "I'll battle you as"
-	line "a trainer to earn"
-	cont "SUICUNE's respect!"
+	para "Tôi sẽ đấu với"
+	line "bạn như HLV để"
+	cont "SUICUNE nể phục!"
 
-	para "Come on, <PLAYER>."
-	line "Let's battle now!"
+	para "Nào, <PLAYER>."
+	line "Đấu ngay thôi!"
 	done
 
 EusineBeatenText:
-	text "I hate to admit"
-	line "it, but you win."
+	text "Tôi ghét phải"
+	line "thừa nhận, nhưng"
+	cont "bạn thắng."
 	done
 
 EusineAfterText:
-	text "You're amazing,"
+	text "Bạn giỏi quá,"
 	line "<PLAYER>!"
 
-	para "No wonder #MON"
-	line "gravitate to you."
+	para "Không ngạc nhiên"
+	line "#MON bị thu hút"
+	cont "bởi bạn."
 
-	para "I get it now."
+	para "Tôi hiểu rồi."
 
-	para "I'm going to keep"
-	line "searching for"
+	para "Tôi sẽ tiếp tục"
+	line "tìm kiếm"
 	cont "SUICUNE."
 
-	para "I'm sure we'll see"
-	line "each other again."
+	para "Chắc chắn chúng"
+	line "ta sẽ gặp lại."
 
-	para "See you around!"
+	para "Hẹn gặp lại!"
 	done
 
 CianwoodCitySignText:
-	text "CIANWOOD CITY"
+	text "TP CIANWOOD"
 
-	para "A Port Surrounded"
-	line "by Rough Seas"
+	para "Cảng biển bao"
+	line "quanh bởi sóng dữ"
 	done
 
 CianwoodGymSignText:
-	text "CIANWOOD CITY"
-	line "#MON GYM"
+	text "TP CIANWOOD"
+	line "GYM #MON"
 
-	para "LEADER: CHUCK"
+	para "T.LĨNH: CHUCK"
 
-	para "His Roaring Fists"
-	line "Do the Talking"
+	para "Nắm đấm gầm thét"
+	line "nói thay lời"
 	done
 
 CianwoodPharmacySignText:
-	text "500 Years of"
-	line "Tradition"
+	text "500 năm truyền"
+	line "thống"
 
-	para "CIANWOOD CITY"
-	line "PHARMACY"
+	para "HIỆU THUỐC"
+	line "TP CIANWOOD"
 
-	para "We Await Your"
-	line "Medicinal Queries"
+	para "Chúng tôi chờ đợi"
+	line "câu hỏi y học"
 	done
 
 CianwoodPhotoStudioSignText:
-	text "CIANWOOD CITY"
-	line "PHOTO STUDIO"
+	text "STUDIO CHỤP HÌNH"
+	line "TP CIANWOOD"
 
-	para "Take a Snapshot as"
-	line "a Keepsake!"
+	para "Chụp ảnh kỷ niệm!"
 	done
 
 CianwoodPokeSeerSignText:
-	text "THE # SEER"
-	line "AHEAD"
+	text "NHÀ TIÊN TRI"
+	line "# PHÍA TRƯỚC"
 	done
 
 CianwoodCity_MapEvents:

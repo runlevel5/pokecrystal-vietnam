@@ -1,10 +1,10 @@
-	db "FREEZE@" ; species name
-	dw 507, 1220 ; height, weight
+	db "ĐÓNG BĂNG@" ; species name
+	dw 17, 554 ; height, weight
 
-	db   "Legendary bird"
-	next "#MON. As it"
-	next "flies through the"
+	db   "#MON chim huyền"
+	next "thoại. Khi bay"
+	next "qua bầu trời, nó"
 
-	page "sky, it cools the"
-	next "air, causing snow"
-	next "to fall.@"
+	page "làm lạnh không"
+	next "khí, khiến tuyết"
+	next "rơi.@"

@@ -10,16 +10,16 @@ Route38EcruteakGateOfficerScript:
 	jumptextfaceplayer Route38EcruteakGateOfficerText
 
 Route38EcruteakGateOfficerText:
-	text "Where did you say"
-	line "you're from?"
+	text "Bạn nói bạn đến"
+	line "từ đâu?"
 
-	para "NEW BARK TOWN?"
+	para "THỊ TRẤN NEW BARK?"
 
-	para "PROF.ELM lives"
-	line "over there, right?"
+	para "GS ELM sống ở"
+	line "đó, đúng không?"
 
-	para "You've come a long"
-	line "way to get here."
+	para "Bạn đã đi xa để"
+	line "đến đây."
 	done
 
 Route38EcruteakGate_MapEvents:

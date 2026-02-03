@@ -40,60 +40,59 @@ GoldenrodDeptStore2FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore2FUnusedText1: ; unreferenced
-	text "We intend to sell"
-	line "items for #MON"
-	cont "to hold."
+	text "Chúng tôi dự định"
+	line "bán vật phẩm cho"
+	cont "#MON cầm."
 
-	para "This is a free"
-	line "gift. Have a #-"
-	cont "MON hold it."
+	para "Đây là quà miễn"
+	line "phí. Cho #MON"
+	cont "cầm nó nhé."
 	done
 
 GoldenrodDeptStore2FUnusedText2: ; unreferenced
-	text "By giving #MON"
-	line "items to hold, I"
+	text "Khi cho #MON"
+	line "cầm vật phẩm,"
 
-	para "bet trainers will"
-	line "develop new battle"
-	cont "techniques."
+	para "tôi tin HLV sẽ"
+	line "phát triển kỹ"
+	cont "thuật mới."
 	done
 
 GoldenrodDeptStore2FYoungsterText:
-	text "#GEAR can store"
-	line "up to ten phone"
-	cont "numbers."
+	text "#GEAR lưu được"
+	line "tới mười số điện"
+	cont "thoại."
 
-	para "It's hard to de-"
-	line "cide which numbers"
-	cont "to keep."
+	para "Khó quyết định số"
+	line "nào để giữ."
 	done
 
 GoldenrodDeptStore2FCooltrainerFText:
-	text "I got my ABRA at"
-	line "the GAME CORNER."
+	text "Tôi có ABRA từ"
+	line "GÓC GIẢI TRÍ."
 
-	para "Now it's my best"
-	line "partner."
+	para "Giờ nó là bạn đồng"
+	line "hành tốt nhất."
 	done
 
 GoldenrodDeptStore2FGentlemanText:
-	text "This DEPT.STORE"
-	line "makes me realize"
+	text "TTMT này làm tôi"
+	line "nhận ra"
 
-	para "that GOLDENROD is"
-	line "a big city."
+	para "GOLDENROD là thành"
+	line "phố lớn."
 
-	para "The selection here"
-	line "is unmatched any-"
-	cont "where else."
+	para "Lựa chọn ở đây"
+	line "chưa từng có ở"
+	cont "nơi khác."
 	done
 
 GoldenrodDeptStore2FDirectoryText:
-	text "Your Travel"
-	line "Companion"
+	text "Bạn Đồng Hành"
+	line "Du Lịch"
 
-	para "2F TRAINER'S"
-	line "   MARKET"
+	para "2T CHỢ"
+	line "   HLV"
 	done
 
 GoldenrodDeptStore2F_MapEvents:

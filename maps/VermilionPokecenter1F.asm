@@ -35,43 +35,44 @@ VermilionPokecenter1FBugCatcherScript:
 	jumptextfaceplayer VermilionPokecenter1FBugCatcherText
 
 VermilionPokecenter1FFishingGuruText:
-	text "A sleeping #MON"
-	line "is lying in front"
-	cont "of DIGLETT'S CAVE."
+	text "Một #MON đang"
+	line "ngủ nằm trước"
+	cont "ĐỘNG DIGLETT."
 
-	para "It's a fantastic"
-	line "opportunity to get"
+	para "Đó là cơ hội tuyệt"
+	line "vời để bắt nó,"
 
-	para "it, but how do you"
-	line "wake it up?"
+	para "nhưng làm sao để"
+	line "đánh thức nó?"
 	done
 
 VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
-	text "There used to be a"
-	line "sleeping #MON"
+	text "Có một #MON"
+	line "đang ngủ nằm"
 
-	para "lying in front of"
-	line "DIGLETT'S CAVE."
+	para "trước ĐỘNG"
+	line "DIGLETT."
 
-	para "But it seems to"
-	line "have disappeared."
+	para "Nhưng có vẻ nó"
+	line "đã biến mất rồi."
 	done
 
 VermilionPokecenter1FSailorText:
-	text "The FAST SHIP is a"
-	line "great place to"
+	text "TÀU NHANH là nơi"
+	line "tuyệt vời để gặp"
 
-	para "meet and battle"
-	line "trainers."
+	para "và chiến đấu với"
+	line "các HLV."
 	done
 
 VermilionPokecenter1FBugCatcherText:
-	text "Oh? You have some"
-	line "BADGES I've never"
-	cont "seen before."
+	text "Ồ? Cậu có vài"
+	line "HUY HIỆU mà tôi"
+	cont "chưa thấy bao giờ."
 
-	para "Oh, I get it. You"
-	line "got them in JOHTO."
+	para "À, tôi hiểu rồi."
+	line "Cậu lấy chúng ở"
+	cont "JOHTO phải không."
 	done
 
 VermilionPokecenter1F_MapEvents:

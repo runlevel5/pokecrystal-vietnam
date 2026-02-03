@@ -219,190 +219,194 @@ FastShipB1FSailorBlocksLeftMovement:
 	step_end
 
 FastShipB1FOnDutySailorText:
-	text "Hey, kid. Could I"
-	line "get you to look"
-	cont "for my buddy?"
+	text "Này, bạn có thể"
+	line "tìm giúp tôi đồng"
+	cont "nghiệp của tôi"
+	cont "không?"
 
-	para "He's goofing off"
-	line "somewhere, that"
-	cont "lazy bum!"
+	para "Hắn ta đang trốn"
+	line "ở đâu đó, thằng"
+	cont "lười biếng!"
 
-	para "I want to go find"
-	line "him, but I'm on"
-	cont "duty right now."
+	para "Tôi muốn đi tìm"
+	line "hắn, nhưng tôi"
+	cont "đang trực."
 	done
 
 FastShipB1FOnDutySailorRefusedText:
-	text "Oh, gee…"
+	text "Ôi trời…"
 
-	para "The CAPTAIN will"
-	line "be furious…"
+	para "THUYỀN TRƯỞNG sẽ"
+	line "nổi giận…"
 	done
 
 FastShipB1FOnDutySailorThanksText:
-	text "Thanks, kid!"
-	line "I chewed him out"
+	text "Cảm ơn bạn!"
+	line "Tôi đã mắng hắn"
 
-	para "good so he'll quit"
-	line "slacking off!"
+	para "để hắn không còn"
+	line "lười biếng nữa!"
 	done
 
 FastShipB1FOnDutySailorSawLittleGirlText:
-	text "A little girl?"
+	text "Một cô bé?"
 
-	para "I may have seen"
-	line "her go by here."
+	para "Tôi có thể đã"
+	line "thấy nó đi qua"
+	cont "đây."
 	done
 
 FastShipB1FOnDutySailorDirectionsText:
-	text "The dining room is"
-	line "up ahead."
+	text "Phòng ăn ở phía"
+	line "trước."
 
-	para "The stairs at the"
-	line "end lead to the"
-	cont "CAPTAIN's cabin."
+	para "Cầu thang ở cuối"
+	line "dẫn tới cabin của"
+	cont "THUYỀN TRƯỞNG."
 	done
 
 SailorJeffSeenText:
-	text "Nothing beats a"
-	line "battle when I'm"
-	cont "on my break."
+	text "Không gì bằng một"
+	line "trận đấu khi tôi"
+	cont "đang nghỉ."
 	done
 
 SailorJeffBeatenText:
-	text "Win or lose, my"
-	line "break's over!"
+	text "Thắng hay thua,"
+	line "giờ nghỉ hết rồi!"
 	done
 
 SailorJeffAfterBattleText:
-	text "I guess I can't"
-	line "win if I don't get"
-	cont "serious."
+	text "Tôi không thể"
+	line "thắng nếu tôi"
+	cont "không nghiêm túc."
 	done
 
 PicnickerDebraSeenText:
-	text "I'm so bored."
-	line "Want to battle?"
+	text "Tôi chán quá."
+	line "Muốn đấu không?"
 	done
 
 PicnickerDebraBeatenText:
-	text "Yow! You're too"
-	line "strong!"
+	text "Trời! Bạn mạnh"
+	line "quá!"
 	done
 
 PicnickerDebraAfterBattleText:
 	text "SAFFRON, CELADON…"
-	line "I hear there are"
+	line "Tôi nghe có nhiều"
 
-	para "many big cities"
-	line "in KANTO."
+	para "thành phố lớn ở"
+	line "KANTO."
 	done
 
 JugglerFritzSeenText:
-	text "Urrf…"
-	line "I'm seasick!"
+	text "Ừ…"
+	line "Tôi say sóng!"
 	done
 
 JugglerFritzBeatenText:
-	text "I can't move any-"
-	line "more…"
+	text "Tôi không thể di"
+	line "chuyển nữa…"
 	done
 
 JugglerFritzAfterBattleText:
-	text "No more ships for"
-	line "me. Next time,"
+	text "Không đi tàu nữa."
+	line "Lần sau tôi sẽ"
 
-	para "I'm taking the"
-	line "MAGNET TRAIN."
+	para "đi TÀU ĐIỆN"
+	line "MAGNET."
 	done
 
 SailorGarrettSeenText:
-	text "This is where we"
-	line "sailors work!"
+	text "Đây là nơi chúng"
+	line "tôi làm việc!"
 	done
 
 SailorGarrettBeatenText:
-	text "I lost on my home"
-	line "field…"
+	text "Tôi thua trên sân"
+	line "nhà của mình…"
 	done
 
 SailorGarrettAfterBattleText:
-	text "We get different"
-	line "passengers from"
+	text "Hành khách khác"
+	line "nhau giữa tuyến"
 
-	para "VERMILION CITY to"
-	line "OLIVINE CITY."
+	para "TP. VERMILION đến"
+	line "TP. OLIVINE."
 	done
 
 FisherJonahSeenText:
-	text "Even though we're"
-	line "out on the sea, I"
-	cont "can't fish!"
+	text "Dù đang trên biển"
+	line "tôi không thể câu"
+	cont "cá!"
 
-	para "This is boring!"
-	line "Let's battle!"
+	para "Chán quá! Hãy"
+	line "đấu đi!"
 	done
 
 FisherJonahBeatenText:
-	text "I… I'm not bored"
-	line "anymore…"
+	text "Tôi… không còn"
+	line "chán nữa…"
 	done
 
 FisherJonahAfterBattleText:
-	text "I plan to fish off"
-	line "VERMILION's pier."
+	text "Tôi dự định câu ở"
+	line "bến cảng"
+	cont "VERMILION."
 	done
 
 BlackbeltWaiSeenText:
-	text "I'm building up my"
-	line "legs by bracing"
+	text "Tôi đang rèn luyện"
+	line "chân bằng cách"
 
-	para "against the ship's"
-	line "rocking!"
+	para "chống lại sự lắc"
+	line "lư của tàu!"
 	done
 
 BlackbeltWaiBeatenText:
-	text "Rocked and rolled"
-	line "over!"
+	text "Lắc và rung"
+	line "ngã rồi!"
 	done
 
 BlackbeltWaiAfterBattleText:
-	text "I couldn't find"
-	line "the KARATE KING in"
+	text "Tôi không tìm thấy"
+	line "VUA KARATE ở"
 	cont "JOHTO."
 
-	para "He's supposed to"
-	line "be training in a"
-	cont "cave somewhere."
+	para "Hắn đang luyện"
+	line "tập trong hang"
+	cont "nào đó."
 	done
 
 SailorKennethSeenText:
-	text "I'm a sailor man!"
+	text "Tôi là thủy thủ!"
 
-	para "But I'm training"
-	line "#MON, so I can"
-	cont "become the CHAMP!"
+	para "Nhưng tôi đang"
+	line "huấn luyện #MON"
+	cont "để trở thành VÔ"
+	cont "ĐỊCH!"
 	done
 
 SailorKennethBeatenText:
-	text "My lack of train-"
-	line "ing is obvious…"
+	text "Thiếu rèn luyện"
+	line "quá rõ ràng…"
 	done
 
 SailorKennethAfterBattleText:
-	text "Eight BADGES!"
-	line "They must prove"
+	text "Tám HUY HIỆU!"
+	line "Chúng chứng minh"
 
-	para "that you've beaten"
-	line "GYM LEADERS."
+	para "rằng bạn đã đánh"
+	line "bại T.LĨNH GYM."
 
-	para "No wonder you're"
-	line "so good!"
+	para "Không lạ khi bạn"
+	line "giỏi thế!"
 	done
 
 TeacherShirleySeenText:
-	text "Don't lay a finger"
-	line "on my students!"
+	text "Đừng đụng vào học"
+	line "trò của tôi!"
 	done
 
 TeacherShirleyBeatenText:
@@ -410,14 +414,14 @@ TeacherShirleyBeatenText:
 	done
 
 TeacherShirleyAfterBattleText:
-	text "We're on a field"
-	line "trip to the RUINS"
-	cont "outside VIOLET."
+	text "Chúng tôi đang đi"
+	line "tham quan TÀN TÍCH"
+	cont "ngoài VIOLET."
 	done
 
 SchoolboyNateSeenText:
-	text "Do you know the"
-	line "RUINS OF ALPH?"
+	text "Bạn có biết TÀN"
+	line "TÍCH ALPH không?"
 	done
 
 SchoolboyNateBeatenText:
@@ -425,25 +429,25 @@ SchoolboyNateBeatenText:
 	done
 
 SchoolboyNateAfterBattleText:
-	text "Radios pick up"
-	line "strange signals"
-	cont "inside the RUINS."
+	text "Radio bắt được"
+	line "tín hiệu kỳ lạ"
+	cont "trong TÀN TÍCH."
 	done
 
 SchoolboyRickySeenText:
-	text "There are some odd"
-	line "stone panels in"
-	cont "the RUINS OF ALPH."
+	text "Có vài tấm đá kỳ"
+	line "lạ ở TÀN TÍCH"
+	cont "ALPH."
 	done
 
 SchoolboyRickyBeatenText:
-	text "I was done in!"
+	text "Tôi thua rồi!"
 	done
 
 SchoolboyRickyAfterBattleText:
-	text "I read that there"
-	line "are four of those"
-	cont "stone panels."
+	text "Tôi đọc được rằng"
+	line "có bốn tấm đá"
+	cont "như vậy."
 	done
 
 FastShipB1F_MapEvents:

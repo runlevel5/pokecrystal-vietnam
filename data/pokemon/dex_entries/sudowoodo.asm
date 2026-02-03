@@ -1,10 +1,10 @@
-	db "IMITATION@" ; species name
-	dw 311, 840 ; height, weight
+	db "BẮT CHƯỚC@" ; species name
+	dw 12, 380 ; height, weight
 
-	db   "If a tree branch"
-	next "shakes when there"
-	next "is no wind, it's a"
+	db   "Nếu cành cây rung"
+	next "khi không có gió,"
+	next "đó là SUDOWOODO,"
 
-	page "SUDOWOODO, not a"
-	next "tree. It hides"
-	next "from the rain.@"
+	page "không phải cây."
+	next "Nó trốn mưa.@"
+	next "@"

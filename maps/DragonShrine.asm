@@ -272,9 +272,9 @@ DragonShrineQuestion1_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Pal@"
-	db "Underling@"
-	db "Friend@"
+	db "Bạn bè@"
+	db "Tay sai@"
+	db "Tri kỷ@"
 
 DragonShrineQuestion2_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -285,9 +285,9 @@ DragonShrineQuestion2_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Strategy@"
-	db "Raising@"
-	db "Cheating@"
+	db "Chiến thuật@"
+	db "Nuôi dưỡng@"
+	db "Gian lận@"
 
 DragonShrineQuestion3_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -298,9 +298,9 @@ DragonShrineQuestion3_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Weak person@"
-	db "Tough person@"
-	db "Anybody@"
+	db "Người yếu@"
+	db "Người mạnh@"
+	db "Bất kỳ ai@"
 
 DragonShrineQuestion4_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -311,9 +311,9 @@ DragonShrineQuestion4_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Love@"
-	db "Violence@"
-	db "Knowledge@"
+	db "Tình yêu@"
+	db "Bạo lực@"
+	db "Kiến thức@"
 
 DragonShrineQuestion5_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -324,9 +324,9 @@ DragonShrineQuestion5_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_DISABLE_B ; flags
 	db 3 ; items
-	db "Tough@"
-	db "Both@"
-	db "Weak@"
+	db "Mạnh@"
+	db "Cả hai@"
+	db "Yếu@"
 
 DragonShrinePlayerWalkInMovement:
 	slow_step UP
@@ -392,263 +392,261 @@ DragonShrineClairWalkOutMovement:
 	step_end
 
 DragonShrineElderGreetingText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hm… Rất vui được"
+	line "gặp con."
 
-	para "No need to explain"
-	line "why you came."
+	para "Không cần giải"
+	line "thích lý do."
 
-	para "CLAIR sent you"
-	line "here, didn't she?"
+	para "CLAIR đã gửi con"
+	line "đến đây phải ko?"
 
-	para "That girl is a"
-	line "handful…"
+	para "Cô ấy thật khó"
+	line "bảo…"
 
-	para "I am sorry, but I"
-	line "must test you."
+	para "Ta xin lỗi, nhưng"
+	line "phải thử con."
 
-	para "Not to worry, you"
-	line "are to answer only"
-	cont "a few questions."
+	para "Đừng lo, con chỉ"
+	line "cần trả lời vài"
+	cont "câu hỏi thôi."
 
-	para "Ready?"
+	para "Sẵn sàng chưa?"
 	done
 
 DragonShrineQuestion1Text:
-	text "What are #MON"
-	line "to you?"
+	text "#MON là gì với"
+	line "con?"
 	done
 
 DragonShrineQuestion2Text:
-	text "What helps you to"
-	line "win battles?"
+	text "Điều gì giúp con"
+	line "thắng trận?"
 	done
 
 DragonShrineQuestion3Text:
-	text "What kind of"
-	line "trainer do you"
-	cont "wish to battle?"
+	text "Con muốn đấu với"
+	line "loại HLV nào?"
 	done
 
 DragonShrineQuestion4Text:
-	text "What is most"
-	line "important for"
-	cont "raising #MON?"
+	text "Điều gì quan"
+	line "trọng nhất khi"
+	cont "nuôi #MON?"
 	done
 
 DragonShrineQuestion5Text:
-	text "Strong #MON."
-	line "Weak #MON."
+	text "#MON mạnh."
+	line "#MON yếu."
 
-	para "Which is more"
-	line "important?"
+	para "Loại nào quan"
+	line "trọng hơn?"
 	done
 
 DragonShrinePassedTestText:
-	text "Hm… I see…"
+	text "Hm… Ta hiểu…"
 
-	para "You care deeply"
-	line "for #MON."
+	para "Con rất quan tâm"
+	line "đến #MON."
 
-	para "Very commendable."
+	para "Rất đáng khen."
 
-	para "That conviction is"
-	line "what is important!"
+	para "Niềm tin đó mới"
+	line "là điều quan"
+	cont "trọng!"
 
-	para "<PLAYER>, don't"
-	line "lose that belief."
+	para "<PLAYER>, đừng"
+	line "mất niềm tin đó."
 
-	para "It will see you"
-	line "through at the"
-	cont "#MON LEAGUE."
+	para "Nó sẽ giúp con ở"
+	line "HỘI LIÊN ĐOÀN"
+	cont "#MON."
 	done
 
 DragonShrineMustIInformLanceText:
 	text "CLAIR!"
 
-	para "This child is"
-	line "impeccable, in"
-	cont "skill and spirit!"
+	para "Đứa trẻ này hoàn"
+	line "hảo về kỹ năng"
+	cont "lẫn tinh thần!"
 
-	para "Admit defeat and"
-	line "confer the RISING-"
-	cont "BADGE!"
+	para "Hãy chấp nhận"
+	line "thua và trao"
+	cont "RISINGBADGE!"
 
-	para "…Or must I inform"
-	line "LANCE of this?"
+	para "…Hay ta phải báo"
+	line "LANCE về việc này?"
 	done
 
 DragonShrineElderScoldsClairText:
 	text "CLAIR…"
 
-	para "Reflect upon what"
-	line "it is that you"
+	para "Hãy suy ngẫm về"
+	line "điều con thiếu"
 
-	para "lack and this"
-	line "child has."
+	para "mà đứa trẻ này"
+	line "lại có."
 	done
 
 DragonShrineComeAgainText:
-	text "Come again, if you"
-	line "so desire."
+	text "Hãy quay lại, nếu"
+	line "con muốn."
 	done
 
 DragonShrineTakeThisDratiniText:
-	text "Hm… Good to see"
-	line "you here."
+	text "Hm… Rất vui được"
+	line "gặp con."
 
-	para "Your arrival is"
-	line "most fortunate."
+	para "Con đến đúng lúc"
+	line "may mắn."
 
-	para "I have something"
-	line "for you."
+	para "Ta có thứ này"
+	line "cho con."
 
-	para "Take this DRATINI"
-	line "as proof that I"
+	para "Hãy nhận DRATINI"
+	line "này như bằng"
 
-	para "have recognized"
-	line "your worth."
+	para "chứng ta công"
+	line "nhận giá trị con."
 	done
 
 DragonShrinePlayerReceivedDratiniText:
-	text "<PLAYER> received"
+	text "<PLAYER> đã nhận"
 	line "DRATINI!"
 	done
 
 DragonShrinePartyFullText:
-	text "Hm? Your #MON"
-	line "party is full."
+	text "Hm? Đội #MON"
+	line "của con đã đầy."
 	done
 
 DragonShrineSymbolicDragonText:
-	text "Dragon #MON are"
-	line "symbolic of our"
-	cont "clan."
+	text "#MON Rồng là"
+	line "biểu tượng của"
+	cont "gia tộc ta."
 
-	para "You have shown"
-	line "that you can be"
+	para "Con đã chứng minh"
+	line "có thể được tin"
 
-	para "entrusted with"
-	line "one."
+	para "tưởng giao phó"
+	line "một con."
 	done
 
 DragonShrineClairsGrandfatherText:
-	text "CLAIR appears to"
-	line "have learned an"
+	text "CLAIR dường như đã"
+	line "học được bài học"
 
-	para "invaluable lesson"
-	line "from you."
+	para "vô giá từ con."
 
-	para "I thank you as her"
-	line "grandfather."
+	para "Ta cảm ơn con với"
+	line "tư cách là ông"
+	cont "của cô ấy."
 	done
 
 DragonShrineRivalIsInTrainingText:
-	text "A boy close to"
-	line "your age is in"
-	cont "training here."
+	text "Một cậu bé bằng"
+	line "tuổi con đang"
+	cont "tập luyện ở đây."
 
-	para "He is much like"
-	line "CLAIR when she was"
+	para "Cậu ta giống"
+	line "CLAIR khi cô ấy"
 
-	para "younger. It is a"
-	line "little worrisome…"
+	para "còn trẻ. Điều đó"
+	line "hơi đáng lo…"
 	done
 
 DragonShrineWrongAnswerText1:
-	text "Hah? I didn't"
-	line "quite catch that…"
+	text "Hả? Ta không nghe"
+	line "rõ lắm…"
 	done
 
 DragonShrineWrongAnswerText2:
-	text "What was it you"
-	line "said?"
+	text "Con đã nói gì?"
 	done
 
 DragonShrineRightAnswerText:
-	text "Oh, I understand…"
+	text "Ồ, ta hiểu rồi…"
 	done
 
 DragonShrineElder2Text:
-	text "It's been quite"
-	line "some time since a"
+	text "Đã khá lâu rồi"
+	line "kể từ khi một HLV"
 
-	para "trainer has gained"
-	line "our MASTER's rare"
-	cont "approval."
+	para "nhận được sự tán"
+	line "thành hiếm hoi"
+	cont "của BẬC THẦY."
 
-	para "In fact, not since"
-	line "Master LANCE."
+	para "Thực ra, kể từ"
+	line "thầy LANCE."
 	done
 
 DragonShrineElder3Text:
-	text "You know young"
-	line "Master LANCE?"
+	text "Con biết thầy"
+	line "LANCE trẻ tuổi?"
 
-	para "He looks so much"
-	line "like our MASTER"
-	cont "did in his youth."
+	para "Ông ấy trông rất"
+	line "giống BẬC THẦY"
+	cont "thời còn trẻ."
 
-	para "It's in their"
-	line "blood."
+	para "Đó là do huyết"
+	line "thống."
 	done
 
 DragonShrineClairYouPassedText:
-	text "So how did it go?"
+	text "Vậy kết quả sao?"
 
-	para "I guess there's no"
-	line "point in asking."
+	para "Ta đoán chẳng cần"
+	line "hỏi làm gì."
 
-	para "You did fail?"
+	para "Ngươi đã trượt?"
 
 	para "<……><……><……><……><……><……>"
 
-	para "…What? You passed?"
+	para "…Gì? Ngươi đậu?"
 	done
 
 DragonShrineClairThatCantBeText:
-	text "That can't be!"
+	text "Không thể nào!"
 	done
 
 DragonShrineClairYoureLyingText:
-	text "You're lying!"
+	text "Ngươi nói dối!"
 
-	para "Even I haven't"
-	line "been approved!"
+	para "Ngay cả ta cũng"
+	line "chưa được duyệt!"
 	done
 
 DragonShrineIUnderstandText:
-	text "I-I understand…"
+	text "C-cháu hiểu rồi…"
 	done
 
 DragonShrineHereRisingBadgeText:
-	text "Here, this is the"
+	text "Đây, đây là"
 	line "RISINGBADGE…"
 
-	para "Hurry up! Take it!"
+	para "Nhanh lên! Lấy đi!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
-	text "<PLAYER> received"
+	text "<PLAYER> đã nhận"
 	line "RISINGBADGE."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE will"
-	line "enable your"
+	text "RISINGBADGE sẽ cho"
+	line "phép #MON dùng"
 
-	para "#MON to use the"
-	line "move for climbing"
-	cont "waterfalls."
+	para "chiêu leo thác"
+	line "nước."
 
-	para "Also, all #MON"
-	line "will recognize you"
+	para "Ngoài ra, tất cả"
+	line "#MON sẽ nhận"
 
-	para "as a trainer and"
-	line "obey your every"
+	para "ngươi là HLV và"
+	line "tuân theo mọi"
 
-	para "command without"
-	line "question."
+	para "mệnh lệnh không"
+	line "thắc mắc."
 	done
 
 DragonShrineSpeechlessText:

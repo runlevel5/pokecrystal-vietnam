@@ -72,9 +72,13 @@ _TitleScreen:
 	ld a, 6
 	call ByteFill
 
-; 'CRYSTAL VERSION'
+; 'CRYSTAL VERSION' (rows 6-7, columns 5-15)
 	hlbgcoord 5, 9
-	ld bc, 11 ; length of version text
+	ld bc, 11 ; length of version text row 1
+	ld a, 1
+	call ByteFill
+	hlbgcoord 5, 10
+	ld bc, 11 ; length of version text row 2
 	ld a, 1
 	call ByteFill
 
@@ -104,19 +108,47 @@ _TitleScreen:
 	ld a, ' '
 	call ByteFill
 
-; Draw Pokemon logo
-	hlcoord 0, 3
-	lb bc, 7, 20
-	ld d, $80
+; Draw Pokemon logo (columns 1-18 only, skipping edges)
+	hlcoord 1, 3
+	lb bc, 8, 18
+	ld d, $80 + 1 ; start at column 1
 	ld e, 20
 	call DrawTitleGraphic
 
-; Draw copyright text
+; Clear potential garbage tiles after CRYSTAL VERSION text (columns 16-19, rows 9-10)
+	hlcoord 16, 9
+	ld bc, 4 ; 4 tiles to clear
+	ld a, ' '
+	call ByteFill
+	hlcoord 16, 10
+	ld bc, 4 ; 4 tiles to clear
+	ld a, ' '
+	call ByteFill
+
+; Draw copyright text (assembled from vertical strips in logo)
+; Left strip: 8 tiles from column 0, rows 0-7 of logo
 	hlbgcoord 3, 0, vBGMap1
-	lb bc, 1, 13
-	ld d, $c
-	ld e, 16
-	call DrawTitleGraphic
+	ld d, $80 ; column 0, row 0
+	ld b, 8
+.copyright_left
+	ld a, d
+	ld [hli], a
+	ld a, 20 ; next row in logo (20 tiles wide)
+	add d
+	ld d, a
+	dec b
+	jr nz, .copyright_left
+; Right strip: 5 tiles from column 19, rows 0-4 of logo
+	ld d, $80 + 19 ; column 19, row 0
+	ld b, 5
+.copyright_right
+	ld a, d
+	ld [hli], a
+	ld a, 20
+	add d
+	ld d, a
+	dec b
+	jr nz, .copyright_right
 
 ; Initialize running Suicune?
 	ld d, $0

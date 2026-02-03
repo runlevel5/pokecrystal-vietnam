@@ -10,17 +10,18 @@ Route2GateScientistScript:
 	jumptextfaceplayer Route2GateScientistText
 
 Route2GateScientistText:
-	text "Are you <PLAY_G>?"
+	text "Bạn có phải"
+	line "<PLAY_G>?"
 
-	para "I work as PROF."
-	line "OAK's AIDE."
+	para "Tôi làm TRỢ LÝ"
+	line "của GS OAK."
 
-	para "I had no idea that"
-	line "you were out here."
+	para "Tôi không biết bạn"
+	line "đang ở đây."
 
-	para "PROF.OAK's LAB is"
-	line "nearby in PALLET"
-	cont "TOWN."
+	para "PHÒNG THÍ NGHIỆM"
+	line "GS OAK ở gần đây"
+	cont "tại TRẤN PALLET."
 	done
 
 Route2Gate_MapEvents:

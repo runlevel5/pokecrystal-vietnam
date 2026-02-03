@@ -33,29 +33,30 @@ HouseForSaleBookshelf:
 Route5CleanseTagHouseGrannyText1:
 	text "Eeyaaaah!"
 
-	para "I sense a sinister"
-	line "shadow hovering"
-	cont "over you."
+	para "Ta cảm thấy có"
+	line "bóng đen tội lỗi"
+	cont "đang bao trùm con."
 
-	para "Take this to ward"
-	line "it off!"
+	para "Lấy cái này để"
+	line "xua đuổi nó đi!"
 	done
 
 Route5CleanseTagHouseGrannyText2:
-	text "You were in mortal"
-	line "danger, but you"
-	cont "are protected now."
+	text "Con đã gặp nguy"
+	line "hiểm chết người,"
+	cont "nhưng giờ an toàn"
+	cont "rồi."
 	done
 
 Route5CleanseTagHouseTeacherText:
-	text "My grandma is into"
-	line "warding off what"
+	text "Bà tôi rất thích"
+	line "xua đuổi những gì"
 
-	para "she believes to be"
-	line "evil spirits."
+	para "bà tin là linh"
+	line "hồn ma quỷ."
 
-	para "I'm sorry that she"
-	line "startled you."
+	para "Tôi xin lỗi vì bà"
+	line "làm bạn giật mình"
 	done
 
 Route5CleanseTagHouse_MapEvents:

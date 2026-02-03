@@ -598,7 +598,7 @@ ExchangeBytes:
 	ret
 
 String_PleaseWait:
-	db "PLEASE WAIT!@"
+	db "XIN CHỜ!@"
 
 ClearLinkData:
 	ld hl, wLinkData
@@ -899,6 +899,11 @@ Link_PrepPartyData_Gen2:
 	ld hl, wPartyMonNicknames
 	ld bc, PARTY_LENGTH * MON_NAME_LENGTH
 	call CopyBytes
+
+; Translate Vietnamese text to English for link cable compatibility
+	call TranslateString_PlayerName
+	call TranslateString_OTNames
+	call TranslateString_PartyMonNicknames
 
 ; Okay, we did all that.  Now, are we in the trade center?
 	ld a, [wLinkMode]
@@ -1571,7 +1576,7 @@ LinkTrade_TradeStatsMenu:
 	text_end
 
 .String_Stats_Trade:
-	db "STATS     TRADE@"
+	db "CHỈ SỐ   TRAO ĐỔI@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
@@ -1664,7 +1669,7 @@ GSPlaceTradeScreenFooter: ; unreferenced
 	jp PlaceString
 
 .CancelString:
-	db "CANCEL@"
+	db "HỦY@"
 
 LinkTradePlaceArrow:
 ; Indicates which pokemon the other player has selected to trade
@@ -2060,19 +2065,19 @@ InitTradeMenuDisplay_Delay:
 	jp InitTradeMenuDisplay
 
 String_TradeCancel:
-	db   "TRADE"
-	next "CANCEL@"
+	db   "TRAO ĐỔI"
+	next "HỦY BỎ@"
 
 LinkAskTradeForText:
 	text_far _LinkAskTradeForText
 	text_end
 
 String_TradeCompleted:
-	db   "Trade completed!@"
+	db   "Trao đổi xong!@"
 
 String_TooBadTheTradeWasCanceled:
-	db   "Too bad! The trade"
-	next "was canceled!@"
+	db   "Tiếc quá! Đã hủy"
+	next "trao đổi!@"
 
 LinkTextboxAtHL:
 	ld d, h
@@ -2680,3 +2685,5 @@ CheckSRAM0Flag: ; unreferenced
 	ld a, c
 	and a
 	ret
+
+INCLUDE "engine/link/link_trade_text.asm"

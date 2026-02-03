@@ -202,98 +202,100 @@ PlateauRivalLeavesMovement:
 	step_end
 
 IndigoPlateauPokecenter1FCooltrainerMText:
-	text "At the #MON"
-	line "LEAGUE, you'll get"
+	text "Ở LIÊN ĐOÀN"
+	line "#MON, bạn sẽ"
 
-	para "tested by the"
-	line "ELITE FOUR."
+	para "bị thử thách bởi"
+	line "TỨ ĐẠI."
 
-	para "You have to beat"
-	line "them all. If you"
+	para "Bạn phải thắng"
+	line "tất cả. Nếu thua,"
 
-	para "lose, you have to"
-	line "start all over!"
+	para "bạn phải bắt đầu"
+	line "lại từ đầu!"
 	done
 
 PlateauRivalText1:
-	text "Hold it."
+	text "Dừng lại."
 
-	para "You're going to"
-	line "take the #MON"
+	para "Mày định thử"
+	line "thách #MON"
 
-	para "LEAGUE challenge"
-	line "now?"
+	para "LIÊN ĐOÀN #MON"
+	line "bây giờ hả?"
 
-	para "That's not going"
-	line "to happen."
+	para "Chuyện đó sẽ"
+	line "không xảy ra."
 
-	para "My super-well-"
-	line "trained #MON"
+	para "#MON được"
+	line "huấn luyện cực"
 
-	para "are going to pound"
-	line "you."
+	para "tốt của tao sẽ"
+	line "đánh bại mày."
 
 	para "<PLAYER>!"
-	line "I challenge you!"
+	line "Tao thách đấu mày!"
 	done
 
 PlateauRivalWinText:
 	text "…"
 
-	para "OK--I lost…"
+	para "OK--Tao thua…"
 	done
 
 PlateauRivalText2:
-	text "…Darn… I still"
-	line "can't win…"
+	text "…Chết tiệt… Tao"
+	line "vẫn không thắng…"
 
-	para "I… I have to think"
-	line "more about my"
-	cont "#MON…"
+	para "Tao… Tao phải"
+	line "suy nghĩ thêm về"
+	cont "#MON của tao…"
 
-	para "Humph! Try not to"
-	line "lose!"
+	para "Hừ! Đừng thua"
+	line "đấy!"
 	done
 
 PlateauRivalLoseText:
 	text "…"
 
-	para "Whew…"
-	line "With my partners,"
+	para "Phù…"
+	line "Với đồng đội"
+	cont "của tao,"
 
-	para "I'm going to be"
-	line "the CHAMPION!"
+	para "tao sẽ trở thành"
+	line "VÔ ĐỊCH!"
 	done
 
 TeleportGuyText1:
-	text "Ah! You're chal-"
-	line "lenging the ELITE"
+	text "À! Bạn định thách"
+	line "đấu TỨ ĐẠI à?"
 
-	para "FOUR? Are you sure"
-	line "you're ready?"
+	para "Bạn chắc là"
+	line "đã sẵn sàng chưa?"
 
-	para "If you need to"
-	line "train some more,"
+	para "Nếu bạn cần"
+	line "luyện tập thêm,"
 
-	para "my ABRA can help"
-	line "you."
+	para "ABRA của tôi có"
+	line "thể giúp bạn."
 
-	para "It can TELEPORT"
-	line "you home."
+	para "Nó có thể dùng"
+	line "DI CHUYỂN đưa bạn"
+	cont "về nhà."
 
-	para "Would you like to"
-	line "go home now?"
+	para "Bạn có muốn về"
+	line "nhà bây giờ không?"
 	done
 
 TeleportGuyYesText:
-	text "OK, OK. Picture"
-	line "your house in your"
-	cont "mind…"
+	text "OK, OK. Hãy tưởng"
+	line "tượng nhà bạn"
+	cont "trong đầu…"
 	done
 
 TeleportGuyNoText:
-	text "OK, OK. The best"
-	line "of luck to you!"
+	text "OK, OK. Chúc bạn"
+	line "may mắn nhé!"
 	done
 
 AbraText:

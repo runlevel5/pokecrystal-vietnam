@@ -21,16 +21,16 @@ VermilionMartBeautyScript:
 	jumptextfaceplayer VermilionMartBeautyText
 
 VermilionMartSuperNerdText:
-	text "TEAM ROCKET is no"
-	line "longer in KANTO."
+	text "ĐỘI ROCKET không"
+	line "còn ở KANTO nữa."
 
-	para "That alone makes"
-	line "me happy."
+	para "Chỉ điều đó thôi"
+	line "cũng làm tôi vui."
 	done
 
 VermilionMartBeautyText:
-	text "I'm thinking about"
-	line "going shopping in"
+	text "Tôi đang nghĩ đến"
+	line "việc đi mua sắm ở"
 	cont "SAFFRON."
 	done
 

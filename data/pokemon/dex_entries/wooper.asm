@@ -1,10 +1,10 @@
-	db "WATER FISH@" ; species name
-	dw 104, 190 ; height, weight
+	db "CÁ NƯỚC@" ; species name
+	dw 4, 85 ; height, weight
 
-	db   "A mucous"
-	next "membrane covers"
-	next "its body. Touching"
+	db   "Màng nhầy bao phủ"
+	next "thân. Chạm tay"
+	next "trần vào nó sẽ"
 
-	page "it barehanded will"
-	next "cause a shooting"
-	next "pain.@"
+	page "gây đau nhói.@"
+	next "@"
+	next "@"

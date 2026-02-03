@@ -30,50 +30,49 @@ OlivineCafeSailorScript:
 	jumptextfaceplayer OlivineCafeSailorText
 
 OlivineCafeStrengthSailorText:
-	text "Hah! Your #MON"
-	line "sure look like"
-	cont "lightweights!"
+	text "Ha! #MON bạn"
+	line "trông có vẻ yếu"
+	cont "ớt!"
 
-	para "They don't have"
-	line "the power to move"
-	cont "boulders aside."
+	para "Chúng không có sức"
+	line "để đẩy tảng đá đâu"
 
-	para "Here, use this"
-	line "and teach them"
-	cont "STRENGTH!"
+	para "Đây, dùng cái này"
+	line "và dạy chúng"
+	cont "SỨC MẠNH!"
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:
-	text "On the sea, the"
-	line "only thing you can"
+	text "Trên biển, điều"
+	line "duy nhất bạn có"
 
-	para "count on is your"
-	line "own good self!"
+	para "thể tin tưởng là"
+	line "chính bản thân!"
 
-	para "I'm so proud of my"
-	line "buff bod!"
+	para "Tôi tự hào về cơ"
+	line "bắp của mình!"
 	done
 
 OlivineCafeFishingGuruText:
-	text "OLIVINE CAFE's"
-	line "menu is chock full"
+	text "Thực đơn QUÁN CÀ"
+	line "PHÊ OLIVINE đầy"
 
-	para "of hearty fare for"
-	line "beefy SAILORS!"
+	para "món ăn bổ dưỡng"
+	line "cho THỦ THỦY!"
 	done
 
 OlivineCafeSailorText:
-	text "Whenever I roll"
-	line "into this town, I"
+	text "Mỗi khi tôi đến"
+	line "thành phố này, tôi"
 
-	para "always visit the"
-	line "OLIVINE CAFE."
+	para "luôn ghé QUÁN CÀ"
+	line "PHÊ OLIVINE."
 
-	para "Everything on the"
-	line "menu makes me feel"
+	para "Mọi món trong thực"
+	line "đơn làm tôi cảm"
 
-	para "stronger. I can't"
-	line "stop eating!"
+	para "thấy khỏe hơn. Tôi"
+	line "không thể ngừng ăn"
 	done
 
 OlivineCafe_MapEvents:

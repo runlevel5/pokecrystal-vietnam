@@ -1,81 +1,81 @@
 LizAnswerPhoneText:
-	text "Hello, @"
+	text "Xin chào, @"
 	text_ram wStringBuffer3
 	text_start
-	line "speaking."
+	line "đây."
 
-	para "Oh, <PLAY_G>."
-	line "Good morning."
+	para "Ồ, <PLAY_G>."
+	line "Chào buổi sáng."
 	done
 
 LizAnswerPhoneDayText:
-	text "Hello, @"
+	text "Xin chào, @"
 	text_ram wStringBuffer3
 	text_start
-	line "speaking."
+	line "đây."
 
-	para "Oh, <PLAY_G>."
-	line "How are you?"
+	para "Ồ, <PLAY_G>."
+	line "Cậu thế nào?"
 	done
 
 LizAnswerPhoneNiteText:
-	text "Hello, @"
+	text "Xin chào, @"
 	text_ram wStringBuffer3
 	text_start
-	line "speaking."
+	line "đây."
 
-	para "Oh, <PLAY_G>."
-	line "Good evening."
+	para "Ồ, <PLAY_G>."
+	line "Chào buổi tối."
 	done
 
 LizGreetText:
-	text "Good morning,"
+	text "Chào buổi sáng,"
 	line "<PLAY_G>."
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text "."
-	line "Were you sleeping?"
+	line "Cậu ngủ à?"
 	done
 
 LizGreetDayText:
-	text "Hi, <PLAY_G>."
-	line "This is @"
+	text "Chào, <PLAY_G>."
+	line "Đây là @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "How are things"
-	line "going for you?"
+	para "Mọi chuyện với"
+	line "cậu sao rồi?"
 	done
 
 LizGreetNiteText:
-	text "Good evening,"
+	text "Chào buổi tối,"
 	line "<PLAY_G>."
 
-	para "This is @"
+	para "Đây là @"
 	text_ram wStringBuffer3
 	text "."
-	line "Are you awake?"
+	line "Cậu thức à?"
 	done
 
 LizGenericText:
-	text "I had some time,"
-	line "so I called you."
+	text "Tớ có chút thời"
+	line "gian, nên gọi."
 
-	para "So anyway, how are"
-	line "your #MON?"
+	para "Thôi thì, #MON"
+	line "của cậu sao rồi?"
 
-	para "Me, I take my"
+	para "Còn tớ, tớ đưa"
 	line "@"
 	text_ram wStringBuffer4
-	text " to the"
+	text " đến"
 
-	para "#MON CENTER in"
-	line "VIOLET every day,"
+	para "TT #MON VIOLET"
+	line "mỗi ngày,"
 
-	para "so it's doing just"
-	line "fantastic!"
+	para "nên nó rất tuyệt"
+	line "vời!"
 
-	para "I'm friends with"
-	line "the receptionist!"
+	para "Tớ quen với cô"
+	line "lễ tân!"
 	done

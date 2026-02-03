@@ -666,267 +666,267 @@ UndergroundRivalRetreatMovement2:
 	step_end
 
 UndergroundRivalBeforeText:
-	text "Hold it!"
+	text "Đứng lại!"
 
-	para "I saw you, so I"
-	line "tailed you."
+	para "Tao thấy mày, nên"
+	line "tao đi theo mày."
 
-	para "I don't need you"
-	line "underfoot while I"
+	para "Tao không cần mày"
+	line "cản đường khi tao"
 
-	para "take care of TEAM"
+	para "giải quyết ĐỘI"
 	line "ROCKET."
 
-	para "…Wait a second."
-	line "You beat me be-"
-	cont "fore, didn't you?"
+	para "…Đợi đã."
+	line "Mày đã đánh bại"
+	cont "tao trước đây?"
 
-	para "That was just a"
-	line "fluke."
+	para "Đó chỉ là may"
+	line "mắn thôi."
 
-	para "But I repay my"
-	line "debts!"
+	para "Nhưng tao trả"
+	line "nợ!"
 	done
 
 UndergroundRivalWinText:
-	text "…Why…"
-	line "Why do I lose?"
+	text "…Tại sao…"
+	line "Tại sao tao thua?"
 
-	para "I've assembled the"
-	line "toughest #MON."
+	para "Tao đã tập hợp"
+	line "#MON mạnh nhất."
 
-	para "I didn't ease up"
-	line "on the gas."
+	para "Tao không nương"
+	line "tay."
 
-	para "So why do I lose?"
+	para "Vậy sao tao thua?"
 	done
 
 UndergroundRivalAfterText:
-	text "…I don't under-"
-	line "stand…"
+	text "…Tao không hiểu…"
 
-	para "Is what that LANCE"
-	line "guy said true?"
+	para "Điều LANCE nói có"
+	line "đúng không?"
 
-	para "That I don't treat"
-	line "#MON properly?"
+	para "Rằng tao không"
+	line "đối xử #MON"
+	cont "đúng cách?"
 
-	para "Love…"
+	para "Tình yêu…"
 
-	para "Trust…"
+	para "Lòng tin…"
 
-	para "Are they really"
-	line "what I lack?"
+	para "Đó là thứ tao"
+	line "thiếu sao?"
 
-	para "Are they keeping"
-	line "me from winning?"
+	para "Chúng ngăn tao"
+	line "chiến thắng sao?"
 
-	para "I… I just don't"
-	line "understand."
+	para "Tao… tao không"
+	line "hiểu."
 
-	para "But it's not going"
-	line "to end here."
+	para "Nhưng nó sẽ không"
+	line "kết thúc ở đây."
 
-	para "Not now. Not"
-	line "because of this."
+	para "Không phải bây"
+	line "giờ. Không vì"
+	cont "chuyện này."
 
-	para "I won't give up my"
-	line "dream of becoming"
+	para "Tao sẽ không từ"
+	line "bỏ giấc mơ trở"
 
-	para "the world's best"
-	line "#MON trainer!"
+	para "thành HLV #MON"
+	line "giỏi nhất thế"
+	cont "giới!"
 	done
 
 UndergroundRivalLossText:
-	text "Humph. This is my"
-	line "real power, wimp."
+	text "Hmph. Đây là sức"
+	line "mạnh thật của tao."
 
-	para "I'll make TEAM"
-	line "ROCKET history."
+	para "Tao sẽ làm ĐỘI"
+	line "ROCKET thành lịch"
+	cont "sử."
 
-	para "And I'm going to"
-	line "grind that LANCE"
-	cont "under my heels."
+	para "Và tao sẽ nghiền"
+	line "nát LANCE dưới"
+	cont "gót giày."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_SuperNerdText:
-	text "I was challenged"
-	line "to a battle down-"
-	cont "stairs."
+	text "Tôi bị thách đấu"
+	line "ở tầng dưới."
 
-	para "It's rough down"
-	line "there. You'd"
-	cont "better be careful."
+	para "Ở dưới đó khó"
+	line "lắm. Bạn nên cẩn"
+	cont "thận."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_TeacherText:
-	text "There are some"
-	line "shops downstairs…"
+	text "Có vài cửa hàng"
+	line "ở tầng dưới…"
 
-	para "But there are"
-	line "also trainers."
+	para "Nhưng cũng có"
+	line "HLV."
 
-	para "I'm scared to go"
-	line "down there."
+	para "Tôi sợ xuống đó."
 	done
 
 GruntM11SeenText:
-	text "Open one shutter,"
-	line "another closes."
+	text "Mở một cửa, một"
+	line "cửa khác đóng."
 
-	para "Bet you can't get"
-	line "where you want!"
+	para "Mày không thể đến"
+	line "nơi mày muốn đâu!"
 	done
 
 GruntM11BeatenText:
-	text "Drat! I was sunk"
-	line "by indecision!"
+	text "Chết tiệt! Tao bị"
+	line "do dự đánh bại!"
 	done
 
 GruntM11AfterBattleText:
-	text "I'm confused too…"
-	line "The switch on the"
+	text "Tao cũng bối rối…"
+	line "Công tắc ở cuối"
 
-	para "end is the one to"
-	line "press first, but…"
+	para "là cái phải bấm"
+	line "đầu tiên, nhưng…"
 	done
 
 GruntM25SeenText:
 	text "Kwahaha!"
 
-	para "Confounded by the"
-	line "shutters, are we?"
+	para "Bị cửa cuốn làm"
+	line "bối rối à?"
 
-	para "I'll let you in on"
-	line "a secret if you"
-	cont "can beat me!"
+	para "Tao sẽ cho mày"
+	line "biết bí mật nếu"
+	cont "mày thắng tao!"
 	done
 
 GruntM25BeatenText:
 	text "Uwww…"
-	line "I blew it."
+	line "Tao thổi bay nó."
 	done
 
 GruntM25AfterBattleText:
-	text "All right. A hint!"
+	text "Được rồi. Gợi ý!"
 
-	para "Change the order"
-	line "of switching."
+	para "Đổi thứ tự bấm"
+	line "công tắc."
 
-	para "That'll change the"
-	line "ways the shutters"
-	cont "open and close."
+	para "Điều đó sẽ đổi"
+	line "cách cửa mở và"
+	cont "đóng."
 	done
 
 BurglarDuncanSeenText:
-	text "Fork over your"
-	line "goodies!"
+	text "Giao đồ đạc của"
+	line "mày ra đây!"
 	done
 
 BurglarDuncanBeatenText:
-	text "Mercy!"
+	text "Tha mạng!"
 	done
 
 BurglarDuncanAfterBattleText:
-	text "Steal and sell!"
-	line "That's basic in"
-	cont "crime, kid!"
+	text "Ăn cắp và bán!"
+	line "Đó là cơ bản của"
+	cont "tội phạm, nhóc!"
 	done
 
 BurglarEddieSeenText:
-	text "They ditched this"
-	line "project before"
-	cont "they finished."
+	text "Họ bỏ dự án này"
+	line "trước khi hoàn"
+	cont "thành."
 
-	para "I'm searching for"
-	line "leftover loot."
+	para "Tôi đang tìm kiếm"
+	line "đồ thừa."
 	done
 
 BurglarEddieBeatenText:
-	text "Over the top!"
+	text "Quá đà!"
 	done
 
 BurglarEddieAfterBattleText:
-	text "UNDERGROUND WARE-"
-	line "HOUSE?"
+	text "KHO HẦM NGẦM?"
 
-	para "What do you want"
-	line "to go there for?"
+	para "Mày muốn đến đó"
+	line "làm gì?"
 
-	para "There's nothing"
-	line "down there."
+	para "Không có gì ở đó"
+	line "cả."
 	done
 
 GruntM13SeenText:
-	text "I don't care if"
-	line "you're lost."
+	text "Tao không quan"
+	line "tâm mày bị lạc."
 
-	para "You show up here,"
-	line "you're nothing but"
-	cont "a victim!"
+	para "Mày xuất hiện đây"
+	line "mày chỉ là nạn"
+	cont "nhân thôi!"
 	done
 
 GruntM13BeatenText:
-	text "Urk! Yeah, think"
-	line "you're cool, huh?"
+	text "Urk! Yeah, tưởng"
+	line "mày ngầu hả?"
 	done
 
 GruntM13AfterBattleText:
-	text "You must have ice"
-	line "in your veins to"
-	cont "dis TEAM ROCKET."
+	text "Mày chắc có máu"
+	line "lạnh mới dám coi"
+	cont "thường ĐỘI ROCKET"
 	done
 
 SwitchRoomText_Switch1:
-	text "It's labeled"
-	line "SWITCH 1."
+	text "Nó được gắn nhãn"
+	line "CÔNG TẮC 1."
 	done
 
 GruntF3SeenText:
-	text "Are you lost? No,"
-	line "you can't be."
+	text "Mày bị lạc à?"
+	line "Không, không thể."
 
-	para "You don't have"
-	line "that scared look."
+	para "Mày không có vẻ"
+	line "sợ hãi."
 
-	para "I'll give you"
-	line "something to be"
-	cont "scared about!"
+	para "Tao sẽ cho mày"
+	line "thứ để sợ!"
 	done
 
 GruntF3BeatenText:
-	text "How could you?"
+	text "Sao mày làm vậy?"
 	done
 
 GruntF3AfterBattleText:
-	text "Go wherever you'd"
-	line "like! Get lost!"
-	cont "See if I care!"
+	text "Đi bất cứ đâu mày"
+	line "thích! Cút đi!"
+	cont "Tao đâu có quan"
+	cont "tâm!"
 	done
 
 SwitchRoomText_OffTurnOn:
-	text "It's OFF."
-	line "Turn it ON?"
+	text "Nó TẮT."
+	line "Bật nó lên?"
 	done
 
 SwitchRoomText_OnTurnOff:
-	text "It's ON."
-	line "Turn it OFF?"
+	text "Nó BẬT."
+	line "Tắt nó đi?"
 	done
 
 SwitchRoomText_Switch2:
-	text "It's labeled"
-	line "SWITCH 2."
+	text "Nó được gắn nhãn"
+	line "CÔNG TẮC 2."
 	done
 
 SwitchRoomText_Switch3:
-	text "It's labeled"
-	line "SWITCH 3."
+	text "Nó được gắn nhãn"
+	line "CÔNG TẮC 3."
 	done
 
 SwitchRoomText_Emergency:
-	text "It's labeled"
-	line "EMERGENCY."
+	text "Nó được gắn nhãn"
+	line "KHẨN CẤP."
 	done
 
 GoldenrodUndergroundSwitchRoomEntrances_MapEvents:

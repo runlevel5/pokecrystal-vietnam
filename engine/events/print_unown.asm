@@ -206,17 +206,17 @@ AlphRuinsStampString:
 	db " ALPH RUINS STAMP@"
 
 UnownDexDoWhatString:
-	db "Do what?@"
+	db "Làm gì?@"
 
 UnownDexMenuString:
-	db   UNOWNSTAMP_BOLD_A, " PRINT"
-	next UNOWNSTAMP_BOLD_B, " CANCEL"
-	next "← PREVIOUS"
-	next "→ NEXT"
+	db   UNOWNSTAMP_BOLD_A, " IN ẤN"
+	next UNOWNSTAMP_BOLD_B, " HỦY"
+	next "← TRƯỚC"
+	next "→ SAU"
 	db   "@"
 
 UnownDexVacantString:
-	db "VACANT@"
+	db "TRỐNG@"
 
 UnownDexATile:
 INCBIN "gfx/printer/bold_a.1bpp"

@@ -181,8 +181,10 @@ CeladonMansion3FGameProgramText:
 
 CeladonMansion3FReferenceMaterialText:
 	text "Chật cứng tài liệu"
-	line "tham khảo. Cả"
-	cont "# DOLL cũng có."
+	line "tham khảo."
+
+	para "Có cả BÚP BÊ #"
+	line "nữa."
 	done
 
 CeladonMansion3F_MapEvents:

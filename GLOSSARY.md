@@ -347,6 +347,8 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | CARBOS | TINH BỘT | Carbohydrate |
 | CALCIUM | CANXI | Calcium |
 | PP UP | NÂNG PP | PP Up |
+| ETHER | HỒI PP | PP Recovery |
+| MAX ETHER | HỒI PP MAX | Max PP Recovery |
 
 ### Evolution Items
 
@@ -363,7 +365,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | KING'S ROCK | HOÀNG ẤN | King's Rock (Royal Seal) |
 | EVERSTONE | VÔ ĐỊNH ĐÁ | Everstone (Unchanging Stone) |
 
-**Kept in English:** UP-GRADE
+| UP-GRADE | NÂNG-CẤP | Upgrade |
 
 ### Hold Items
 
@@ -372,6 +374,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | BRIGHTPOWDER | BỘT SÁNG | Bright Powder |
 | QUICK CLAW | MÓNG NHANH | Quick Claw |
 | SOFT SAND | CÁT MỀM | Soft Sand |
+| SPELL TAG | THẺ BÙA | Spell Tag |
 | SHARP BEAK | MỎ SẮC | Sharp Beak |
 | POISON BARB | NGẠNH ĐỘC | Poison Barb |
 | SILVERPOWDER | BỘT BẠC | Silver Powder |
@@ -397,8 +400,9 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | BERSERK GENE | GEN DẠI | Berserk Gene |
 | METAL POWDER | BỘT SẮT | Metal Powder |
 | LUCKY PUNCH | G.TAY MAY | Lucky Punch (Găng Tay May) |
+| POLKADOT BOW | BĂNG CHẤM BI | Polkadot Bow |
 
-**Kept in English:** CLEANSE TAG, POLKADOT BOW
+| CLEANSE TAG | THẺ TẨY RỬA | Cleanse Tag |
 
 ### Apricorns
 
@@ -414,7 +418,9 @@ This document contains all English-Vietnamese translation terms used in the Viet
 
 ### Key Items
 
-**Kept in English:** GS BALL
+| English | Vietnamese | Meaning |
+|---------|------------|---------|
+| GS BALL | BÓNG GS | GS Ball |
 
 ### Mail
 
@@ -455,6 +461,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | RARE CANDY | KẸO HIẾM |
 | X ACCURACY | X ĐÍCH XÁC |
 | NUGGET | CỤC VÀNG |
+| # DOLL | BÚP BÊ # |
 | FULL HEAL | TRỊ TOÀN BỘ |
 | REVIVE | HỒI SINH |
 | MAX REVIVE | H.SINH MAX |
@@ -464,6 +471,8 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | X DEFEND | X THỦ |
 | X SPEED | X TỐC ĐỘ |
 | X SPECIAL | X ĐẶC BIỆT |
+| DIRE HIT | CRITICUT |
+| GUARD SPEC. | BẢO VỆ SPEC. |
 | COIN CASE | HỘP XU |
 | ITEMFINDER | MÁY TÌM ĐỒ |
 | EXP.SHARE | CHIA SẺ KN |
@@ -506,7 +515,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | RAINBOW WING | LÔNG VŨ 7MÀU |
 | BRICK PIECE | MẢNH GẠCH |
 
-**Items kept in English:** # DOLL, ETHER, MAX ETHER, ELIXER, SPELL TAG, DIRE HIT, GUARD SPEC., TM01-TM50, HM01-HM07
+**Items kept in English:** ELIXER, TM01-TM50, HM01-HM07
 
 ---
 

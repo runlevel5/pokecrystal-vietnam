@@ -21,7 +21,7 @@ Item names are translated to Vietnamese. See [GLOSSARY.md](GLOSSARY.md) for comp
 - Evolution Items, Hold Items, Apricorns
 - Key Items, Mail, General Items
 
-**Items kept in English:** # DOLL, ETHER, MAX ETHER, ELIXER, SPELL TAG, DIRE HIT, GUARD SPEC., UP-GRADE, CLEANSE TAG, POLKADOT BOW, GS BALL, TM01-TM50, HM01-HM07
+**Items kept in English:** ELIXER, TM01-TM50, HM01-HM07
 
 **Mail Composition Input:**
 

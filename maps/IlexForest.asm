@@ -869,17 +869,17 @@ Text_ShrineCelebiEvent:
 	para "Ồ? Đây là gì?"
 
 	para "Một cái lỗ."
-	line "Có vẻ như GS BALL"
+	line "Có vẻ như BÓNG GS"
 
 	para "vừa khít với nó."
 
-	para "Muốn đặt GS BALL"
+	para "Muốn đặt BÓNG GS"
 	line "vào đây không?"
 	done
 
 Text_InsertGSBall:
-	text "<PLAYER> đặt GS"
-	line "BALL vào."
+	text "<PLAYER> đặt BÓNG"
+	line "GS vào."
 	done
 
 Text_KurtCaughtCelebi:

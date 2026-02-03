@@ -717,7 +717,7 @@ GoldenrodPokeCenter1FLinkReceptionistPleaseAcceptGSBallText:
 
 	para "Trong chương"
 	line "trình đặc biệt,"
-	cont "GS BALL được gửi!"
+	cont "BÓNG GS được gửi!"
 
 	para "Hãy nhận nó nhé!"
 	done

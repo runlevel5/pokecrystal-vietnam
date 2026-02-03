@@ -262,8 +262,8 @@ KnowTheInstructionsText:
 	text "Chỉ cần bật"
 	line "#GEAR và chọn"
 
-	para "biểu tượng ĐIỆN"
-	line "THOẠI phải không?"
+	para "biểu tượng ☎"
+	line "phải không?"
 	done
 
 DontKnowTheInstructionsText:
@@ -272,7 +272,7 @@ DontKnowTheInstructionsText:
 
 	para "Bật #GEAR lên"
 	line "và chọn biểu"
-	cont "tượng ĐIỆN THOẠI."
+	cont "tượng ☎."
 	done
 
 InstructionsNextText:

@@ -1,0 +1,186 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'VERSION'
+
+env:
+  rgbds_version: v1.0.1
+  # Commit hash of the original pret/pokecrystal that our Vietnamese version is based on
+  original_commit: 2ad9616586212e2a9ed3be812776d133dc47bb8a
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Vietnamese version
+        uses: actions/checkout@v6
+        with:
+          path: vietnamese
+
+      - name: Read version
+        id: version
+        run: |
+          VERSION=$(cat vietnamese/VERSION | tr -d '\n\r')
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Building release v$VERSION"
+
+      - name: Check if release already exists
+        id: check_release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd vietnamese
+          if gh release view "v${{ steps.version.outputs.version }}" > /dev/null 2>&1; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            echo "Release v${{ steps.version.outputs.version }} already exists, skipping..."
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Checkout original pokecrystal
+        if: steps.check_release.outputs.exists == 'false'
+        uses: actions/checkout@v6
+        with:
+          repository: pret/pokecrystal
+          ref: ${{ env.original_commit }}
+          path: original
+
+      - name: Checkout rgbds
+        if: steps.check_release.outputs.exists == 'false'
+        uses: actions/checkout@v6
+        with:
+          path: rgbds
+          ref: ${{ env.rgbds_version }}
+          repository: gbdev/rgbds
+
+      - name: Install rgbds
+        if: steps.check_release.outputs.exists == 'false'
+        working-directory: rgbds
+        run: |
+          sudo apt-get update
+          sudo apt-get install -yq bison libpng-dev pkg-config
+          sudo make -j$(nproc) install
+
+      - name: Remove rgbds source
+        if: steps.check_release.outputs.exists == 'false'
+        run: rm -rf rgbds
+
+      - name: Build original ROM
+        if: steps.check_release.outputs.exists == 'false'
+        working-directory: original
+        run: |
+          make -j$(nproc) crystal11
+          cp pokecrystal11.gbc ../pokecrystal11.orig.gbc
+          echo "Original ROM built successfully"
+          sha1sum ../pokecrystal11.orig.gbc
+
+      - name: Build Vietnamese ROM
+        if: steps.check_release.outputs.exists == 'false'
+        working-directory: vietnamese
+        run: |
+          make -j$(nproc) crystal11
+          cp pokecrystal11.gbc ../pokecrystal11vn.gbc
+          echo "Vietnamese ROM built successfully"
+          sha1sum ../pokecrystal11vn.gbc
+
+      - name: Install ips.py
+        if: steps.check_release.outputs.exists == 'false'
+        run: |
+          git clone https://github.com/fbeaudet/ips.py.git ips-tool
+          echo "ips.py installed"
+
+      - name: Create IPS patch
+        if: steps.check_release.outputs.exists == 'false'
+        run: |
+          python3 ips-tool/ips.py create pokecrystal11.orig.gbc pokecrystal11vn.gbc pokecrystal11vn.ips
+          echo "IPS patch created"
+          ls -la pokecrystal11vn.ips
+
+      - name: Verify IPS patch
+        if: steps.check_release.outputs.exists == 'false'
+        run: |
+          # Apply patch to original and compare with Vietnamese ROM
+          python3 ips-tool/ips.py apply pokecrystal11.orig.gbc pokecrystal11vn.ips patched.gbc
+          
+          # Compare checksums
+          PATCHED_SHA=$(sha1sum patched.gbc | cut -d' ' -f1)
+          EXPECTED_SHA=$(sha1sum pokecrystal11vn.gbc | cut -d' ' -f1)
+          
+          if [ "$PATCHED_SHA" = "$EXPECTED_SHA" ]; then
+            echo "✓ IPS patch verification successful!"
+            echo "SHA1: $PATCHED_SHA"
+          else
+            echo "✗ IPS patch verification failed!"
+            echo "Patched:  $PATCHED_SHA"
+            echo "Expected: $EXPECTED_SHA"
+            exit 1
+          fi
+
+      - name: Calculate checksums
+        if: steps.check_release.outputs.exists == 'false'
+        id: checksums
+        run: |
+          echo "## Checksums" > checksums.md
+          echo "" >> checksums.md
+          echo "### Original ROM (pokecrystal11.gbc from pret/pokecrystal @ ${{ env.original_commit }})" >> checksums.md
+          echo '```' >> checksums.md
+          sha1sum pokecrystal11.orig.gbc >> checksums.md
+          md5sum pokecrystal11.orig.gbc >> checksums.md
+          echo '```' >> checksums.md
+          echo "" >> checksums.md
+          echo "### Vietnamese ROM (after applying patch)" >> checksums.md
+          echo '```' >> checksums.md
+          sha1sum pokecrystal11vn.gbc >> checksums.md
+          md5sum pokecrystal11vn.gbc >> checksums.md
+          echo '```' >> checksums.md
+          echo "" >> checksums.md
+          echo "### IPS Patch" >> checksums.md
+          echo '```' >> checksums.md
+          sha1sum pokecrystal11vn.ips >> checksums.md
+          md5sum pokecrystal11vn.ips >> checksums.md
+          echo '```' >> checksums.md
+          
+          cat checksums.md
+
+      - name: Create Release
+        if: steps.check_release.outputs.exists == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd vietnamese
+          
+          # Create release notes
+          cat > release_notes.md << 'NOTES'
+          # Pokemon Crystal Vietnamese v${{ steps.version.outputs.version }}
+          
+          Vietnamese localization patch for Pokemon Crystal (Rev 1.1).
+          
+          ## How to use
+          
+          1. Obtain a legal copy of **Pokemon Crystal (Rev 1.1)** ROM (`pokecrystal11.gbc`)
+          2. Download the `pokecrystal11vn.ips` patch file from this release
+          3. Apply the IPS patch to your ROM using any IPS patching tool:
+             - [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows)
+             - [MultiPatch](https://projects.sappharad.com/tools/multipatch.html) (macOS)
+             - [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher) (Android)
+             - Online: [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/)
+          4. Play the patched ROM on any Game Boy Color emulator or flash cart
+          
+          ## Original ROM Requirements
+          
+          Your original ROM must match these checksums:
+          - **SHA1:** `f2f52230b536214ef7c9924f483392993e226cfb`
+          - This is Pokemon Crystal Version 1.1 (USA, Europe)
+          
+          NOTES
+          
+          cat ../checksums.md >> release_notes.md
+          
+          # Create GitHub release
+          gh release create "v${{ steps.version.outputs.version }}" \
+            --title "Pokemon Crystal Vietnamese v${{ steps.version.outputs.version }}" \
+            --notes-file release_notes.md \
+            ../pokecrystal11vn.ips

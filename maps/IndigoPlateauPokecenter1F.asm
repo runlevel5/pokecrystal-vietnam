@@ -206,7 +206,7 @@ IndigoPlateauPokecenter1FCooltrainerMText:
 	line "#MON, bạn sẽ"
 
 	para "bị thử thách bởi"
-	line "TỨ THIÊN VƯƠNG."
+	line "TỨ ĐẠI."
 
 	para "Bạn phải thắng"
 	line "tất cả. Nếu thua,"
@@ -263,14 +263,14 @@ PlateauRivalLoseText:
 	cont "của tao,"
 
 	para "tao sẽ trở thành"
-	line "CHAMPION!"
+	line "VÔ ĐỊCH!"
 	done
 
 TeleportGuyText1:
 	text "À! Bạn định thách"
-	line "đấu TỨ THIÊN VƯƠNG"
+	line "đấu TỨ ĐẠI à?"
 
-	para "à? Bạn chắc là"
+	para "Bạn chắc là"
 	line "đã sẵn sàng chưa?"
 
 	para "Nếu bạn cần"

@@ -226,7 +226,7 @@ LanceBattleIntroText:
 	para "Với tư cách là"
 	line "HLV mạnh nhất và"
 
-	para "là CHAMPION của"
+	para "là VÔ ĐỊCH của"
 	line "LIÊN ĐOÀN #MON…"
 
 	para "Ta, LANCE bậc"
@@ -246,7 +246,7 @@ LanceBattleWinText:
 	para "Vui vì đã chứng"
 	line "kiến sự trỗi dậy"
 
-	para "của một CHAMPION"
+	para "của một VÔ ĐỊCH"
 	line "vĩ đại mới!"
 	done
 
@@ -316,7 +316,7 @@ LancesRoomOakCongratulationsText:
 
 LancesRoomMaryInterviewText:
 	text "MARY: Hãy phỏng"
-	line "vấn CHAMPION mới"
+	line "vấn VÔ ĐỊCH mới"
 	cont "nào!"
 	done
 

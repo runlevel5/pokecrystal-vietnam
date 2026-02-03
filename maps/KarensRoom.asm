@@ -128,7 +128,7 @@ KarenScript_KarenDefeatText:
 	cont "quan trọng."
 
 	para "Tiếp tục đi--"
-	line "CHAMPION đang chờ."
+	line "VÔ ĐỊCH đang chờ."
 	done
 
 KarensRoom_MapEvents:

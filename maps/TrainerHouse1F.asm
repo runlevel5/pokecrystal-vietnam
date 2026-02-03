@@ -83,9 +83,9 @@ TrainerHouse1FYoungsterText:
 	line "người khác nhau"
 
 	para "thì mới trở thành"
-	line "CHAMP được."
+	line "VÔ ĐỊCH được."
 
-	para "CHAMPION từ PALLET"
+	para "VÔ ĐỊCH từ PALLET"
 	line "đã đi đến tất cả"
 
 	para "các thành phố ở"

@@ -153,7 +153,7 @@ MountMoonRivalTextLoss:
 	para "Với #MON của"
 	line "tao, tao sẽ đánh"
 
-	para "bại CHAMPION và"
+	para "bại VÔ ĐỊCH và"
 	line "trở thành HLV vĩ"
 	cont "đại nhất thế giới."
 	done

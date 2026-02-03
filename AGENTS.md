@@ -487,6 +487,7 @@ All Pokemon species names remain in English:
 | BADGE (standalone) | HUY HIỆU | When referring to badges generically |
 | LEAGUE | LIÊN ĐOÀN | Pokemon League |
 | ELITE FOUR | TỨ ĐẠI | The Four Great Ones |
+| CHAMPION | VÔ ĐỊCH | The Champion title |
 | SAFARI ZONE | KHU SAFARI | Safari Zone |
 | GAME CORNER | GÓC GIẢI TRÍ | Entertainment Corner |
 | MAIL (standalone) | THƯ | When referring to mail generically |

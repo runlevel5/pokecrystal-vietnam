@@ -578,8 +578,8 @@ _BTWinF12Text:
 	done
 
 _BTGreetingF13Text:
-	text "BATTLE TOWER là"
-	line "nơi khó đấy!"
+	text "THÁP ĐẤU là nơi"
+	line "khó đấy!"
 	done
 
 _BTLossF13Text:

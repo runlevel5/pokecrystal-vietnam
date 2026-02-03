@@ -222,7 +222,7 @@ Text_ReceivedTM24:
 
 ClairText_DescribeDragonbreathDragonDen:
 	text "Đó chứa"
-	line "DRAGONBREATH."
+	line "HƠI RỒNG."
 
 	para "Không, nó chẳng"
 	line "liên quan gì đến"

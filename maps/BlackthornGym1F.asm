@@ -241,7 +241,7 @@ BlackthornGymText_ReceivedTM24:
 
 BlackthornGymClairText_DescribeTM24:
 	text "Trong đó chứa"
-	line "DRAGONBREATH."
+	line "HƠI RỒNG."
 
 	para "Không, nó chẳng"
 	line "liên quan gì đến"

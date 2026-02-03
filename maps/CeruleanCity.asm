@@ -221,7 +221,7 @@ CeruleanCityYoungsterText1:
 CeruleanCityYoungsterText2:
 	text "Ơ?"
 
-	para "ITEMFINDER của"
+	para "MÁY TÌM ĐỒ của"
 	line "tôi đang phản ứng…"
 	done
 

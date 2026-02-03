@@ -474,7 +474,7 @@ RadioTower2FBuenaShowIntroductionText:
 
 	para "Bạn có biết về"
 	line "c.trình radio tên"
-	cont "PASSWORD không?"
+	cont "MẬT KHẨU không?"
 
 	para "Nếu bạn nói đúng"
 	line "mật khẩu từ"
@@ -496,7 +496,7 @@ RadioTower2FBuenaShowIntroductionText:
 
 RadioTower2FBuenaTuneInToMyShowText:
 	text "BUENA: Hãy theo"
-	line "dõi PASSWORD SHOW"
+	line "dõi SHOW MẬT KHẨU"
 	cont "của tôi!"
 	done
 
@@ -601,7 +601,7 @@ RadioTower2FBuenaCardIsFullText:
 
 RadioTower2FBuenaTuneInAfterSixText:
 	text "BUENA: Hãy nghe"
-	line "PASSWORD mỗi"
+	line "MẬT KHẨU mỗi"
 
 	para "tối từ 6 giờ đến"
 	line "nửa đêm!"

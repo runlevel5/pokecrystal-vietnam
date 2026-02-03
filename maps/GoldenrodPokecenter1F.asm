@@ -383,7 +383,7 @@ GoldenrodPokecomCenterEggTicketText: ; unreferenced
 	text "Ồ!"
 
 	para "Tôi thấy bạn có"
-	line "EGG TICKET!"
+	line "VÉ TRỨNG!"
 
 	para "Đó là phiếu mà"
 	line "người đặc biệt"
@@ -444,8 +444,8 @@ GoldenrodPokecomCenterHereIsYourOddEggText: ; unreferenced
 GoldenrodPokecomCenterNoEggTicketServiceText: ; unreferenced
 	text "Tôi rất xin lỗi."
 
-	para "Dịch vụ đổi EGG"
-	line "TICKET không hoạt"
+	para "Dịch vụ đổi VÉ"
+	line "TRỨNG không hoạt"
 	cont "động bây giờ."
 	done
 

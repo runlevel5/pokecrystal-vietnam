@@ -85,11 +85,11 @@ ItemfinderExplanationText:
 
 	para "dễ nhìn thấy."
 
-	para "Dùng ITEMFINDER để"
-	line "kiểm tra xem có"
+	para "Dùng MÁY TÌM ĐỒ"
+	line "để kiểm tra xem"
 
-	para "vật phẩm trên mặt"
-	line "đất gần bạn."
+	para "có vật phẩm trên"
+	line "mặt đất gần bạn."
 
 	para "Nó không chỉ chỗ"
 	line "chính xác,"

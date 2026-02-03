@@ -273,7 +273,7 @@ PokemaniacShaneSeenText:
 
 PokemaniacShaneBeatenText:
 	text "Đáng lẽ tao nên"
-	line "dùng MOON STONE…"
+	line "dùng ĐÁ TRĂNG…"
 	done
 
 PokemaniacShaneAfterBattleText:

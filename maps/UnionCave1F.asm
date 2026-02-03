@@ -142,7 +142,7 @@ HikerDanielBeatenText:
 
 HikerDanielAfterBattleText:
 	text "Tôi bị lừa mua"
-	line "SLOWPOKETAIL."
+	line "ĐUÔI SLOWPOKE."
 
 	para "Tôi thấy thương"
 	line "cho #MON tội"
@@ -150,7 +150,7 @@ HikerDanielAfterBattleText:
 	done
 
 FirebreatherBillSeenText:
-	text "SUPERSONIC của"
+	text "SIÊU ÂM của"
 	line "ZUBAT cứ làm #-"
 	cont "MON tôi bối rối."
 

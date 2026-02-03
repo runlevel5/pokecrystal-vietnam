@@ -46,10 +46,10 @@ LavenderPokecenter1FGentlemanText:
 LavenderPokecenter1FTeacherText:
 	text "Có chương trình"
 	line "radio phát nhạc"
-	cont "# FLUTE."
+	cont "SÁO #."
 
 	para "Ồ? À, radio của"
-	line "bạn cần EXPN CARD"
+	line "bạn cần THẺ EXPN"
 	cont "để bắt được nó."
 	done
 

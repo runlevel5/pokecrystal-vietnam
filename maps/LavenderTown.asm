@@ -67,7 +67,7 @@ LavenderTownGrampsText:
 	done
 
 LavenderTownYoungsterText:
-	text "Cậu cần # FLUTE"
+	text "Cậu cần SÁO #"
 	line "để đánh thức"
 	cont "#MON đang ngủ."
 

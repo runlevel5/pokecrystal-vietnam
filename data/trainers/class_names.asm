@@ -9,7 +9,7 @@ TrainerClassNames::
 	li "THỦ LĨNH"       ; JASMINE (Olivine City Gym)
 	li "THỦ LĨNH"       ; CHUCK (Cianwood City Gym)
 	li "THỦ LĨNH"       ; CLAIR (Blackthorn City Gym)
-	li "ĐỐI THỦ"       ; RIVAL1
+	li "ĐỐI THỦ"        ; RIVAL1
 	li "GS.#MON"        ; POKEMON_PROF
 	li "TỨ ĐẠI"         ; WILL (Elite Four)
 	li "HLV"            ; CAL (<PKMN> TRAINER)
@@ -42,7 +42,7 @@ TrainerClassNames::
 	li "VĐV BƠI♀"       ; SWIMMERF
 	li "THỦY THỦ"       ; SAILOR
 	li "MỌT SÁCH"       ; SUPER_NERD
-	li "ĐỐI THỦ"       ; RIVAL2
+	li "ĐỐI THỦ"        ; RIVAL2
 	li "TAY ĐÀN"        ; GUITARIST
 	li "LEO NÚI"        ; HIKER
 	li "TAY ĐUA"        ; BIKER

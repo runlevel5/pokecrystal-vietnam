@@ -107,10 +107,10 @@ VioletPokecenterElmsAideFavorText:
 	text "<PLAY_G>, lâu rồi"
 	line "không gặp."
 
-	para "GS ELM nhờ tôi"
-	line "tìm bạn."
+	para "GS ELM nhờ anh"
+	line "tìm em."
 
-	para "Ông ấy có việc"
+	para "Thầy có việc"
 	line "muốn nhờ."
 
 	para "Nhận TRỨNG #MON"
@@ -118,41 +118,41 @@ VioletPokecenterElmsAideFavorText:
 	done
 
 VioletPokecenterElmsAideGiveEggText:
-	text "Chúng tôi phát"
-	line "hiện #MON không"
+	text "Bọn anh phát hiện"
+	line "#MON không nở"
 
-	para "nở cho đến khi"
-	line "lớn trong TRỨNG."
+	para "cho đến khi lớn"
+	line "trong TRỨNG."
 
 	para "Nó cũng cần ở"
 	line "cùng #MON khác"
 	cont "đang hoạt động."
 
-	para "<PLAY_G>, bạn là"
+	para "<PLAY_G>, em là"
 	line "người duy nhất"
-	cont "chúng tôi tin."
+	cont "bọn anh tin."
 
 	para "Hãy gọi GS ELM"
 	line "khi TRỨNG nở nhé!"
 	done
 
 VioletCityElmsAideFullPartyText:
-	text "Ồ không. Bạn không"
+	text "Ồ không. Em không"
 	line "mang thêm #MON"
 	cont "được nữa."
 
-	para "Tôi sẽ đợi ở đây"
-	line "trong khi bạn sắp"
+	para "Anh sẽ đợi ở đây"
+	line "trong khi em sắp"
 	cont "chỗ cho TRỨNG."
 	done
 
 VioletPokecenterElmsAideRefuseText:
 	text "N-nhưng… GS ELM"
-	line "đã nhờ bạn mà…"
+	line "đã nhờ em mà…"
 	done
 
 VioletPokecenterElmsAideAskEggText:
-	text "<PLAY_G>, bạn nhận"
+	text "<PLAY_G>, em nhận"
 	line "TRỨNG chứ?"
 	done
 

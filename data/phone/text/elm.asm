@@ -18,7 +18,7 @@ ElmPhoneSawMrPokemonText:
 	done
 
 ElmPhonePokemonStolenText:
-	text "<PLAY_G>? Tôi rất"
+	text "<PLAY_G>? Thầy rất"
 	line "buồn bây giờ."
 
 	para "Có #MON bị đánh"
@@ -31,7 +31,7 @@ ElmPhonePokemonStolenText:
 ElmPhoneCheckingTheEggText:
 	text "A lô, <PLAY_G>?"
 
-	para "Chúng tôi đang"
+	para "Bọn thầy đang"
 	line "kiểm tra TRỨNG."
 
 	para "Có vẻ đó là một"
@@ -42,10 +42,10 @@ ElmPhoneAssistantText:
 	text "A lô, <PLAY_G>?"
 
 	para "Con thấy trợ lý"
-	line "của tôi chưa? Anh"
+	line "của thầy chưa?"
 
-	para "ấy ở TT #MON"
-	line "tại VIOLET CITY."
+	para "Anh ấy ở TT #MON"
+	line "tại TP VIOLET."
 	done
 
 ElmPhoneHowIsTheEggText:
@@ -55,7 +55,7 @@ ElmPhoneHowIsTheEggText:
 	line "Có gì thay đổi ko?"
 
 	para "Nếu có gì xảy ra,"
-	line "hãy gọi cho tôi."
+	line "hãy gọi cho thầy."
 	done
 
 ElmPhoneEggHatchedText:
@@ -66,14 +66,14 @@ ElmPhoneEggHatchedText:
 	line "Ồ! Đó là loại"
 	cont "#MON gì vậy?"
 
-	para "Hãy đến cho tôi"
+	para "Hãy đến cho thầy"
 	line "xem ngay nhé!"
 	done
 
 ElmPhoneDiscoveredHatchTimeText:
 	text "A lô, <PLAY_G>?"
 
-	para "Tôi vừa có một"
+	para "Thầy vừa có một"
 	line "phát hiện mới."
 
 	para "Thời gian để TRỨNG"
@@ -92,14 +92,14 @@ ElmPhoneInvestigatingEggMovesText:
 	para "mới nở có thể"
 	line "biết."
 
-	para "Chúng tôi đang"
+	para "Bọn thầy đang"
 	line "nghiên cứu nó."
 	done
 
 ElmPhoneDiscoveredPokerusText:
 	text "A lô, <PLAY_G>?"
 
-	para "Tôi phát hiện một"
+	para "Thầy phát hiện một"
 	line "điều kỳ lạ."
 
 	para "Có vẻ có thứ gọi"
@@ -123,8 +123,8 @@ ElmPhoneDiscoveredPokerusText:
 	para "sẽ tự biến mất"
 	line "theo thời gian."
 
-	para "Tôi nghĩ không có"
-	line "gì lo. Tạm biệt!"
+	para "Thầy nghĩ không"
+	line "lo gì. Tạm biệt!"
 	done
 
 ElmPhoneDisasterText:
@@ -134,7 +134,7 @@ ElmPhoneDisasterText:
 	para "Ờ, ừm, thật là"
 	line "khủng khiếp!"
 
-	para "Tôi phải làm sao?"
+	para "Thầy phải làm sao?"
 	line "Nó… Ôi không…"
 
 	para "Hãy quay về đây"
@@ -143,15 +143,15 @@ ElmPhoneDisasterText:
 
 ElmPhoneEggAssistantText:
 	text "A lô, <PLAY_G>?"
-	line "Chúng tôi phát"
+	line "Bọn thầy phát"
 
 	para "hiện điều gì đó"
 	line "về TRỨNG!"
 
-	para "Trợ lý của tôi ở"
+	para "Trợ lý của thầy ở"
 	line "TT #MON tại"
 
-	para "VIOLET CITY. Con"
+	para "TP VIOLET. Con"
 	line "nói chuyện với"
 	cont "anh ấy được ko?"
 	done
@@ -160,7 +160,7 @@ ElmPhoneRadioTowerRocketTakeoverText:
 	text "<PLAY_G>, mọi thứ"
 	line "thế nào rồi?"
 
-	para "Tôi gọi vì có"
+	para "Thầy gọi vì có"
 	line "chuyện lạ đang"
 
 	para "xảy ra với các"
@@ -186,7 +186,7 @@ ElmPhoneRadioTowerRocketTakeoverText:
 ElmPhoneGiftText:
 	text "A lô, <PLAY_G>?"
 
-	para "Tôi có thứ này"
+	para "Thầy có thứ này"
 	line "cho con."
 
 	para "Ghé phòng thí"
@@ -199,7 +199,7 @@ ElmPhoneGotAholdOfSomethingNeatText:
 	text "A lô, <PLAY_G>?"
 	line "Dạo này thế nào?"
 
-	para "Tôi có được thứ"
+	para "Thầy có được thứ"
 	line "hay ho."
 
 	para "Ghé phòng thí"

@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'VERSION'
+  workflow_dispatch:
 
 env:
   rgbds_version: v1.0.1

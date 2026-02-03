@@ -211,7 +211,7 @@ NationalParkBugContestBattleNoticeText:
 NationalParkBugContestTrainerTipsText:
 	text "MẸO CHO HLV"
 
-	para "In MAIL bằng cách"
+	para "In THƯ bằng cách"
 	line "mở nó rồi nhấn"
 	cont "nút START."
 	done

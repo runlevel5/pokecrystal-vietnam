@@ -61,7 +61,7 @@ SupernerdHughAfterBattleText:
 	line "nào có SLOWPOKE"
 
 	para "biết dùng"
-	line "STRENGTH không?"
+	line "SỨC MẠNH không?"
 	done
 
 MountMortar2FInside_MapEvents:

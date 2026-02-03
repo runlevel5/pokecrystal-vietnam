@@ -549,19 +549,19 @@ GoldenrodPokecomCenterPerson2Text: ; unreferenced
 	cont "CORNER!"
 
 	para "Tôi cho PIDGEY"
-	line "cầm MAIL, rồi"
+	line "cầm THƯ, rồi"
 
 	para "đổi nó lấy một"
 	line "con khác!"
 
 	para "Nếu mọi người đều"
-	line "làm vậy, MAIL có"
+	line "làm vậy, THƯ có"
 
 	para "thể được giao với"
 	line "nhiều người!"
 
 	para "Tôi gọi nó là"
-	line "PIDGEY MAIL!"
+	line "THƯ PIDGEY!"
 
 	para "Nếu nó phổ biến,"
 	line "tôi có thể kết"
@@ -752,7 +752,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	line "nặng quá nhỉ!"
 
 	para "À! Bạn có cái gì"
-	line "tên là EON MAIL"
+	line "tên là THƯ EON"
 	cont "không?"
 
 	para "Con gái tôi đang"
@@ -763,7 +763,7 @@ GoldenrodPokecenter1FPokefanFDoYouHaveEonMailText:
 	done
 
 GoldenrodPokecenter1FAskGiveAwayAnEonMailText:
-	text "Tặng EON MAIL?"
+	text "Tặng THƯ EON?"
 	done
 
 GoldenrodPokecenter1FPokefanFThisIsForYouText:
@@ -791,7 +791,7 @@ GoldenrodPokecenter1FPokefanFAnotherTimeThenText:
 
 GoldenrodPokecenter1FPlayerGaveAwayTheEonMailText:
 	text "<PLAYER> đã tặng"
-	line "EON MAIL."
+	line "THƯ EON."
 	done
 
 GoldenrodPokecenter1F_MapEvents:

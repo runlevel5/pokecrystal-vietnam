@@ -29,7 +29,7 @@ OlivinePokecenter1FFisherText:
 	line "rất hào phóng."
 
 	para "Anh ấy dạy #MON"
-	line "của tôi STRENGTH."
+	line "của tôi SỨC MẠNH."
 
 	para "Giờ nó có thể đẩy"
 	line "những tảng đá to."

@@ -1,13 +1,29 @@
-# Pokémon Crystal Vietnamese translation project
+# Pokémon Crystal Vietnamese Translation
 
-I based my work of the [commit 2ad9616586212e2a9ed3be812776d133dc47bb8a](https://github.com/pret/pokecrystal/commit/2ad9616586212e2a9ed3be812776d133dc47bb8a)
-of the pokecrystal disassembly project and added Vietnamese translation.
+A complete Vietnamese localization of Pokémon Crystal.
 
-As of Feb 3rd 2026, the project is considered complete. Please file bug report if you happen to find any issue.
+## How to Play
+
+1. Download the IPS patch (`pokecrystal11vn.ips`) from the [Releases](https://github.com/runlevel5/pokecrystal-vietnam/releases) page
+2. Obtain a legal copy of **Pokémon Crystal Version 1.1 (USA/Europe)** ROM
+   - Filename: `Pokemon - Crystal Version (UE) (V1.1) [C][!].gbc`
+   - SHA1: `f2f52230b536214ef7c9924f483392993e226cfb`
+3. Apply the IPS patch using any IPS patching tool:
+   - [Lunar IPS](https://www.romhacking.net/utilities/240/) (Windows)
+   - [MultiPatch](https://projects.sappharad.com/tools/multipatch.html) (macOS)
+   - [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher) (Android)
+   - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) (Online)
+4. Play the patched ROM on any Game Boy Color emulator or flash cart
+
+## About
+
+This project is based on [commit 2ad9616](https://github.com/pret/pokecrystal/commit/2ad9616586212e2a9ed3be812776d133dc47bb8a) of the pokecrystal disassembly project.
+
+As of Feb 3rd 2026, the project is considered complete. Please file a bug report if you find any issues.
 
 To aid with your gameplay, please look up the [GLOSSARY](./GLOSSARY.md) for English-Vietnamese translation.
 
-If you are interested in technical decision made for the project, please look up the [DOC](./AGENTS.md)
+If you are interested in technical decisions made for the project, please look up the [DOC](./AGENTS.md)
 
 ## Screenshots
 
@@ -16,10 +32,6 @@ If you are interested in technical decision made for the project, please look up
 ![Bag](./poke3.png)
 ![PokeDEX](./poke4.png)
 ![Battle](./poke5.png)
-
-## TODO
-
-* Add a backward compatability layer to translate between English and Vietnamese for PLAYER_NAME when in battle or trading mode
 
 ## Acknowledgements
 

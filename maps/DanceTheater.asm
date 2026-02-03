@@ -275,7 +275,7 @@ SurfGuyLikeADanceText:
 	done
 
 SurfGuySurfExplanationText:
-	text "Đó là SURF."
+	text "Đó là LƯỚT SÓNG."
 
 	para "Đó là chiêu cho"
 	line "#MON bơi qua"
@@ -299,8 +299,8 @@ DanceTheaterCooltrainerMText:
 	line "luôn cùng RHYDON."
 
 	para "Nói muốn #MON"
-	line "có thể SURF và"
-	cont "nhảy múa."
+	line "có thể LƯỚT SÓNG"
+	cont "và nhảy múa."
 
 	para "Anh ấy đang thử"
 	line "tạo #MON bơi"

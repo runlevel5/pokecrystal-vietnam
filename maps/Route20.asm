@@ -79,9 +79,9 @@ SwimmerfLoriBeatenText:
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "SURF không còn là"
-	line "chiêu HM duy nhất"
-	cont "dùng trong nước."
+	text "LƯỚT SÓNG không"
+	line "còn là chiêu HM"
+	cont "d.nhất trong nước."
 	done
 
 SwimmermCameronSeenText:

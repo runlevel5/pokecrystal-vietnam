@@ -363,7 +363,7 @@ AzaleaTownYoungsterText:
 	line "được."
 
 	para "#MON của ÔNG"
-	line "THAN có thể CUT"
+	line "THAN có thể CẮT"
 	cont "cây."
 	done
 

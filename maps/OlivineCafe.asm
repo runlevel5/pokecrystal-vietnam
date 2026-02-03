@@ -39,7 +39,7 @@ OlivineCafeStrengthSailorText:
 
 	para "Đây, dùng cái này"
 	line "và dạy chúng"
-	cont "STRENGTH!"
+	cont "SỨC MẠNH!"
 	done
 
 OlivineCafeStrengthSailorText_GotStrength:

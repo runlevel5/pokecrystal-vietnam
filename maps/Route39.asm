@@ -326,14 +326,14 @@ MoomooFarmSignText:
 Route39TrainerTipsText:
 	text "MẸO HLV"
 
-	para "Dùng HEADBUTT với"
+	para "Dùng ĐỤC ĐẦU với"
 	line "cây để làm rơi"
 	cont "#MON."
 
 	para "Nhiều loại #MON"
 	line "rơi từ cây ra."
 
-	para "Dùng HEADBUTT với"
+	para "Dùng ĐỤC ĐẦU với"
 	line "mọi cây bạn thấy!"
 	done
 

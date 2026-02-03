@@ -298,8 +298,8 @@ _SeerNameLocationText::
 	text "Hừm… Ta thấy ngươi"
 	line "gặp @"
 	text_ram wSeerNickname
-	text " tại:"
-	cont "@"
+	text_start
+	cont "tại: @"
 	text_ram wSeerCaughtLocation
 	text "!"
 	prompt
@@ -1219,10 +1219,10 @@ _BallSoCloseText::
 	prompt
 
 Text_BallCaught::
-	text "Bắt được! @"
+	text "Bắt được!"
+	line "@"
 	text_ram wEnemyMonNickname
-	text_start
-	line "đã bị bắt!@"
+	text " bị bắt!@"
 	sound_caught_mon
 	text_end
 

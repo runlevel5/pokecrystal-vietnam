@@ -107,7 +107,7 @@ The Vietnamese translation of Pokemon Crystal is **0.97% more efficient** than t
 ### Where Vietnamese Needs More Space
 
 1. **Trainer Class Names (+109.7%)**: Vietnamese descriptors are more explicit and include comments
-   - "LEADER" → "TH.LĨNH" (abbreviated Thủ Lĩnh)
+   - "LEADER" → "THỦ LĨNH" (Gym Leader)
    - "COOLTRAINER" → "TUYỂN THỦ" (selected player/elite trainer)
    - "BUG CATCHER" → "BỌ THỦ" (bug keeper/handler)
    - "SCIENTIST" → "HỌC GIẢ" (scholar)

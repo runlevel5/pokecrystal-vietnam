@@ -9,6 +9,14 @@ To aid with your gameplay, please look up the [GLOSSARY](./GLOSSARY.md) for Engl
 
 If you are interested in technical decision made for the project, please look up the [DOC](./AGENTS.md)
 
+## Screenshots
+
+![Intro](./poke1.png)
+![NameInput](./poke2.png)
+![Bag](./poke3.png)
+![PokeDEX](./poke4.png)
+![Battle](./poke5.png)
+
 ## TODO
 
 * Add a backward compatability layer to translate between English and Vietnamese for PLAYER_NAME when in battle or trading mode

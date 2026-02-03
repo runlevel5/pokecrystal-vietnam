@@ -40,3 +40,7 @@ gfx/pokemon/*/frames.asm
 
 # mac stuff
 .DS_Store
+
+# editor autosave files
+*Autosaved*
+*.piko-png

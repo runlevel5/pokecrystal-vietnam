@@ -301,8 +301,8 @@ MrPokemonsHouse_OakText1:
 	line "thấy hoặc bắt."
 
 	para "Đây là bộ bách"
-	line "khoa công nghệ"
-	cont "cao!"
+	line "khoa toàn thư"
+	cont "về #MON!"
 	done
 
 MrPokemonsHouse_GetDexText:
@@ -328,7 +328,7 @@ MrPokemonsHouse_OakText2:
 	done
 
 MrPokemonText_GimmeTheScale:
-	text "Hm? VẢY đó!"
+	text "Hm? cái VẢY đó!"
 	line "Cái gì vậy?"
 	cont "GYARADOS ĐỎ?"
 

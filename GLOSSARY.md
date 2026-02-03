@@ -347,8 +347,6 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | CARBOS | TINH BỘT | Carbohydrate |
 | CALCIUM | CANXI | Calcium |
 | PP UP | NÂNG PP | PP Up |
-| ETHER | HỒI PP | PP Recovery |
-| MAX ETHER | HỒI PP MAX | Max PP Recovery |
 
 ### Evolution Items
 
@@ -515,7 +513,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | RAINBOW WING | LÔNG VŨ 7MÀU |
 | BRICK PIECE | MẢNH GẠCH |
 
-**Items kept in English:** ELIXER, TM01-TM50, HM01-HM07
+**Items kept in English:** ETHER, MAX ETHER, ELIXER, TM01-TM50, HM01-HM07
 
 ---
 

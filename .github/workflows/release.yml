@@ -107,11 +107,11 @@ jobs:
         if: steps.check_release.outputs.exists == 'false'
         run: |
           # Apply patch to original and compare with Vietnamese ROM
-          cp pokecrystal11.orig.gbc patched.gbc
-          lipx apply pokecrystal11vn.ips patched.gbc
+          # lipx apply creates output file with _patched suffix
+          lipx apply pokecrystal11vn.ips pokecrystal11.orig.gbc
           
-          # Compare checksums
-          PATCHED_SHA=$(sha1sum patched.gbc | cut -d' ' -f1)
+          # Compare checksums (output is pokecrystal11.orig_patched.gbc)
+          PATCHED_SHA=$(sha1sum pokecrystal11.orig_patched.gbc | cut -d' ' -f1)
           EXPECTED_SHA=$(sha1sum pokecrystal11vn.gbc | cut -d' ' -f1)
           
           if [ "$PATCHED_SHA" = "$EXPECTED_SHA" ]; then

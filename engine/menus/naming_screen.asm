@@ -259,6 +259,30 @@ NamingScreen_IsTargetBox:
 	pop bc
 	ret
 
+NamingScreen_IsTargetMon:
+; Return z if [wNamingScreenType] == NAME_MON, NAME_6, or NAME_7.
+	push bc
+	push af
+	ld a, [wNamingScreenType]
+	and a ; NAME_MON = 0
+	jr z, .is_mon
+	cp NAME_6
+	jr z, .is_mon
+	cp NAME_7
+	jr z, .is_mon
+	; not a mon
+	ld b, 1
+	pop af
+	dec b ; nz
+	pop bc
+	ret
+.is_mon
+	ld b, 1
+	pop af
+	dec b ; z
+	pop bc
+	ret
+
 NamingScreen_InitText:
 	call WaitTop
 	hlcoord 0, 0
@@ -268,32 +292,56 @@ NamingScreen_InitText:
 	hlcoord 1, 1
 	lb bc, 6, 18
 	call NamingScreen_IsTargetBox
-	jr nz, .not_box
+	jr z, .short_box
+	call NamingScreen_IsTargetMon
+	jr nz, .not_short
+.short_box
 	lb bc, 4, 18
 
-.not_box
+.not_short
 	call ClearBox
 	ld de, NameInputPage1
 NamingScreen_ApplyTextInputMode:
+	; Check for box naming first
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box
-	; For box naming, use the old 2-page system
+	; For box naming, use 2-page English system
 	ld de, BoxNameInput2
 	ld a, [wNamingScreenLetterCase]
 	and 1
-	jr z, .not_box
+	jr z, .apply_layout
 	ld de, BoxNameInput1
+	jr .apply_layout
 
 .not_box
+	; Check for Pokemon naming
+	call NamingScreen_IsTargetMon
+	jr nz, .not_mon
+	; For Pokemon naming, use 2-page English system (like box)
+	ld de, MonNameInput2
+	ld a, [wNamingScreenLetterCase]
+	and 1
+	jr z, .apply_layout
+	ld de, MonNameInput1
+	jr .apply_layout
+
+.not_mon
+	; For player/rival/etc naming, keep current Vietnamese page
+	; (de already set by caller or default)
+
+.apply_layout
 	push de
 	hlcoord 1, 8
 	lb bc, 7, 18
 	call NamingScreen_IsTargetBox
-	jr nz, .not_box_2
+	jr z, .short_layout
+	call NamingScreen_IsTargetMon
+	jr nz, .not_short_2
+.short_layout
 	hlcoord 1, 6
 	lb bc, 9, 18
 
-.not_box_2
+.not_short_2
 	call ClearBox
 	hlcoord 1, 16
 	lb bc, 1, 18
@@ -302,7 +350,10 @@ NamingScreen_ApplyTextInputMode:
 	hlcoord 2, 8
 	ld b, $5
 	call NamingScreen_IsTargetBox
+	jr z, .four_rows
+	call NamingScreen_IsTargetMon
 	jr nz, .row
+.four_rows
 	hlcoord 2, 6
 	ld b, $4
 
@@ -349,6 +400,7 @@ NamingScreenJoypadLoop:
 	hlcoord 1, 5
 	call NamingScreen_IsTargetBox
 	jr nz, .got_coords
+	; Box naming uses a different coord (row 3)
 	hlcoord 1, 3
 
 .got_coords
@@ -377,7 +429,10 @@ NamingScreenJoypadLoop:
 .InitCursor:
 	depixel 10, 3
 	call NamingScreen_IsTargetBox
+	jr z, .short_cursor
+	call NamingScreen_IsTargetMon
 	jr nz, .got_cursor_position
+.short_cursor
 	ld d, 8 * TILE_WIDTH
 .got_cursor_position
 	ld a, SPRITE_ANIM_OBJ_NAMING_SCREEN_CURSOR
@@ -436,8 +491,11 @@ NamingScreenJoypadLoop:
 	add hl, bc
 	ld [hl], $4
 	call NamingScreen_IsTargetBox
+	jr z, .short_screen
+	call NamingScreen_IsTargetMon
 	ret nz
-	dec [hl] ; Set to 3 for box naming (3 rows)
+.short_screen
+	dec [hl] ; Set to 3 for box/mon naming (3 rows)
 	ret
 
 .b
@@ -451,6 +509,13 @@ NamingScreenJoypadLoop:
 	ret
 
 .select
+	; Check if this is box or Pokemon naming (English-only, 2 pages)
+	call NamingScreen_IsTargetBox
+	jr z, .two_page_toggle
+	call NamingScreen_IsTargetMon
+	jr z, .two_page_toggle
+
+	; Player/Rival/etc naming uses 5 Vietnamese pages
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
 	inc a
@@ -493,6 +558,16 @@ NamingScreenJoypadLoop:
 	call NamingScreen_ApplyTextInputMode
 	ret
 
+.two_page_toggle
+	; Box and Pokemon naming uses only 2 pages
+	ld hl, wNamingScreenLetterCase
+	ld a, [hl]
+	xor 1  ; Toggle between 0 and 1
+	ld [hl], a
+	; ApplyTextInputMode will select the correct page based on wNamingScreenLetterCase
+	call NamingScreen_ApplyTextInputMode
+	ret
+
 .GetCursorPosition:
 	ld hl, wNamingScreenCursorObjectPointer
 	ld c, [hl]
@@ -506,9 +581,12 @@ NamingScreen_GetCursorPosition:
 	push bc
 	ld b, $4
 	call NamingScreen_IsTargetBox
-	jr nz, .not_box
-	dec b ; Box naming uses row 3 for buttons
-.not_box
+	jr z, .short_screen
+	call NamingScreen_IsTargetMon
+	jr nz, .not_short
+.short_screen
+	dec b ; Box/Mon naming uses row 3 for buttons
+.not_short
 	cp b
 	pop bc
 	jr nz, .not_bottom_row
@@ -546,8 +624,11 @@ NamingScreen_AnimateCursor:
 	ld [hl], e
 	ld d, $4
 	call NamingScreen_IsTargetBox
+	jr z, .short_screen
+	call NamingScreen_IsTargetMon
 	jr nz, .ok
-	dec d ; Box naming uses row 3 for buttons
+.short_screen
+	dec d ; Box/Mon naming uses row 3 for buttons
 .ok
 	cp d
 	ld de, .LetterEntries
@@ -660,13 +741,16 @@ NamingScreen_AnimateCursor:
 	add hl, bc
 	ld a, [hl]
 	call NamingScreen_IsTargetBox
-	jr nz, .not_box
-	cp $3 ; Box naming has 3 rows (0-2) + button row (3)
+	jr z, .short_down
+	call NamingScreen_IsTargetMon
+	jr nz, .not_short_down
+.short_down
+	cp $3 ; Box/Mon naming has 3 rows (0-2) + button row (3)
 	jr nc, .wrap_up
 	inc [hl]
 	ret
 
-.not_box
+.not_short_down
 	cp $4
 	jr nc, .wrap_up
 	inc [hl]
@@ -688,8 +772,11 @@ NamingScreen_AnimateCursor:
 .wrap_down
 	ld [hl], $4
 	call NamingScreen_IsTargetBox
+	jr z, .short_wrap
+	call NamingScreen_IsTargetMon
 	ret nz
-	dec [hl] ; Box naming wraps to row 3
+.short_wrap
+	dec [hl] ; Box/Mon naming wraps to row 3
 	ret
 
 NamingScreen_TryAddCharacter:

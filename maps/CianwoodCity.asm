@@ -201,9 +201,9 @@ ChucksWifeBeatChuckText:
 	para "GYM thành phố"
 	line "này."
 
-	para "Nếu bạn thắng GYM"
-	line "LEADER ở đây, hãy"
-	cont "đến gặp tôi."
+	para "Nếu bạn thắng"
+	line "T.LĨNH GYM ở đây,"
+	cont "hãy đến gặp tôi."
 
 	para "Tôi sẽ có quà"
 	line "tặng cho bạn."
@@ -259,8 +259,8 @@ CianwoodCityPokefanMText:
 	done
 
 CianwoodCityLassText:
-	text "CHUCK, GYM"
-	line "LEADER, luyện tập"
+	text "CHUCK, T.LĨNH"
+	line "GYM, luyện tập"
 
 	para "với #MON hệ"
 	line "đấu của anh ấy."

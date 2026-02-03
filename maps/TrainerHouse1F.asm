@@ -36,7 +36,7 @@ TrainerHouseIllegibleBook:
 
 TrainerHouse1FReceptionistText:
 	text "Chào mừng đến"
-	line "TRAINER HOUSE,"
+	line "NHÀ HLV,"
 
 	para "nơi mới nhất và"
 	line "sôi động nhất ở"

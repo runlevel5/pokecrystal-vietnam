@@ -802,10 +802,10 @@ Text_CharcoalMasterOutro:
 	line "nhỏ."
 
 	para "Tất nhiên, cháu"
-	line "phải có GYM BADGE"
+	line "phải có HUY HIỆU"
 
-	para "từ AZALEA mới dùng"
-	line "được."
+	para "GYM từ AZALEA mới"
+	line "dùng được."
 	done
 
 Text_CharcoalMasterTalkAfter:

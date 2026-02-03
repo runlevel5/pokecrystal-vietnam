@@ -32,8 +32,8 @@ CherrygroveGymSpeechHousePokefanMText:
 
 CherrygroveGymSpeechHouseBugCatcherText:
 	text "Khi lớn lên, tớ"
-	line "sẽ trở thành GYM"
-	cont "LEADER!"
+	line "sẽ trở thành"
+	cont "T.LĨNH GYM!"
 
 	para "Tớ cho #MON của"
 	line "mình chiến đấu"

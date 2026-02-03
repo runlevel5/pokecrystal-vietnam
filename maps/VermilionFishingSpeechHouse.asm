@@ -16,13 +16,13 @@ FishingDudesHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "Ta là FISHING"
-	line "DUDE, bậc trưởng"
-	cont "của FISHING BROS."
+	text "Ta là CẦN THỦ"
+	line "bậc trưởng của"
+	cont "ANH EM LÀNG CÂU."
 
-	para "Con đã gặp FISHING"
-	line "GURU ở HỒ"
-	cont "GYARADOS chưa?"
+	para "Con đã gặp NGƯ ÔNG"
+	line "ở HỒ GYARADOS"
+	cont "chưa?"
 
 	para "Ông ấy mơ về việc"
 	line "nhìn thấy MAGIKARP"

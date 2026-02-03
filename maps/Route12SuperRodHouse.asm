@@ -37,8 +37,7 @@ SuperRodHouseBookshelf: ; unreferenced
 
 OfferSuperRodText:
 	text "Tôi là em trai"
-	line "của ÔNG FISHING"
-	cont "GURU."
+	line "của NGƯ ÔNG."
 
 	para "Tôi có thể thấy"
 	line "bạn thích câu cá."

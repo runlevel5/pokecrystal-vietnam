@@ -25,6 +25,16 @@ To aid with your gameplay, please look up the [GLOSSARY](./GLOSSARY.md) for Engl
 
 If you are interested in technical decisions made for the project, please look up the [DOC](./AGENTS.md)
 
+## Restored Japanese Designs
+
+This localization restores the original Japanese sprite designs for certain characters and Pokémon. Vietnam does not share the same censorship standards as Western regions, so the content can remain as faithful as possible to the original Japanese version.
+
+**Restored trainer sprites:**
+- Beauty, Fisher, Medium, Sage, Swimmer (female)
+
+**Restored Pokémon sprites:**
+- Jynx (front, back, and shiny palette)
+
 ## Screenshots
 
 ![Intro](./poke1.png)

@@ -30,8 +30,8 @@ PokemonFellFromTreeText:
 WildCelebiAppearedText:
 	text "@"
 	text_ram wEnemyMonNickname
-	text " hoang dã"
-	line "xuất hiện!"
+	text " hoang"
+	line "dã xuất hiện!"
 	prompt
 
 WantsToBattleText::
@@ -353,15 +353,15 @@ BattleText_StringBuffer1GrewToLevel:
 BattleText_WildMonIsEating:
 	text "@"
 	text_ram wEnemyMonNickname
-	text " hoang dã"
-	line "đang ăn!"
+	text " hoang"
+	line "dã đang ăn!"
 	prompt
 
 BattleText_WildMonIsAngry:
 	text "@"
 	text_ram wEnemyMonNickname
-	text " hoang dã"
-	line "đang giận!"
+	text " hoang"
+	line "dã đang giận!"
 	prompt
 
 FastAsleepText:

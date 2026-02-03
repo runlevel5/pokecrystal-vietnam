@@ -7,6 +7,9 @@ on:
       - 'VERSION'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 env:
   rgbds_version: v1.0.1
   # Commit hash of the original pret/pokecrystal that our Vietnamese version is based on

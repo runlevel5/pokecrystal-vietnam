@@ -18,7 +18,7 @@ Route32RuinsOfAlphGateYoungsterScript:
 	jumptextfaceplayer Route32RuinsOfAlphGateYoungsterText
 
 Route32RuinsOfAlphGateOfficerText:
-	text "RUINS OF ALPH"
+	text "TÀN TÍCH ALPH"
 
 	para "Địa Điểm Du Lịch"
 	line "Nhìn và Chạm"

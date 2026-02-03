@@ -920,12 +920,12 @@ Route32SignText:
 	done
 
 Route32RuinsSignText:
-	text "RUINS OF ALPH"
+	text "TÀN TÍCH ALPH"
 	line "LỐI VÀO PHÍA ĐÔNG"
 	done
 
 Route32UnionCaveSignText:
-	text "UNION CAVE"
+	text "HANG ĐỘNG UNION"
 	line "PHÍA TRƯỚC"
 	done
 

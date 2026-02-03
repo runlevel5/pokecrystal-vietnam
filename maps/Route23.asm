@@ -12,10 +12,10 @@ IndigoPlateauSign:
 	jumptext IndigoPlateauSignText
 
 IndigoPlateauSignText:
-	text "INDIGO PLATEAU"
+	text "CAO NGUYÊN INDIGO"
 
-	para "The Ultimate Goal"
-	line "for Trainers!"
+	para "Mục tiêu tối thượng"
+	line "của HLV!"
 
 	para "LIÊN ĐOÀN #MON"
 	line "HQ"

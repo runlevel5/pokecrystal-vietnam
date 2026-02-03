@@ -126,8 +126,9 @@ ClefairyFleeMovement:
 	step_end
 
 DontLitterSignText:
-	text "MT.MOON SQUARE"
-	line "DON'T LITTER"
+	text "Q.TRƯỜNG NÚI"
+	line "M.TRĂNG"
+	cont "CẤM XẢ RÁC"
 	done
 
 MountMoonSquare_MapEvents:

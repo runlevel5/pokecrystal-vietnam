@@ -156,7 +156,7 @@ SwimmerfDawnAfterBattleText:
 	text "Bơi nhanh giữa"
 	line "FUCHSIA và"
 
-	para "Q.ĐẢO SEAFOAM…"
+	para "ĐẢO BỌT BIỂN…"
 	line "mà…"
 
 	para "Chà, bạn trai tôi"
@@ -217,16 +217,16 @@ Route19Fisher2Text_RocksCleared:
 	done
 
 Route19SignText:
-	text "TUYẾN ĐƯỜNG 19"
+	text "ĐƯỜNG 19"
 
 	para "TP.FUCHSIA -"
-	line "Q.ĐẢO SEAFOAM"
+	line "ĐẢO BỌT BIỂN"
 	done
 
 CarefulSwimmingSignText:
 	text "Hãy cẩn thận nếu"
 	line "bạn đang bơi đến"
-	cont "Q.ĐẢO SEAFOAM."
+	cont "ĐẢO BỌT BIỂN."
 
 	para "CẢNH SÁT FUCHSIA"
 	done

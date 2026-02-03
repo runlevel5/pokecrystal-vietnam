@@ -37,7 +37,7 @@ VermilionPokecenter1FBugCatcherScript:
 VermilionPokecenter1FFishingGuruText:
 	text "Một #MON đang"
 	line "ngủ nằm trước"
-	cont "HANG DIGLETT."
+	cont "ĐỘNG DIGLETT."
 
 	para "Đó là cơ hội tuyệt"
 	line "vời để bắt nó,"
@@ -50,7 +50,7 @@ VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
 	text "Có một #MON"
 	line "đang ngủ nằm"
 
-	para "trước HANG"
+	para "trước ĐỘNG"
 	line "DIGLETT."
 
 	para "Nhưng có vẻ nó"

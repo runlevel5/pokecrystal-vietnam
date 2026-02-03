@@ -256,7 +256,7 @@ PokemonFanClubSignText:
 	done
 
 VermilionCityDiglettsCaveSignText:
-	text "HANG DIGLETT"
+	text "ĐỘNG DIGLETT"
 	done
 
 VermilionCityPortSignText:

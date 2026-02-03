@@ -205,7 +205,7 @@ ViridianCityWelcomeSignText:
 	line "VIRIDIAN CITY,"
 
 	para "CỔNG VÀO"
-	line "INDIGO PLATEAU"
+	line "CAO NGUYÊN INDIGO"
 	done
 
 TrainerHouseSignText:

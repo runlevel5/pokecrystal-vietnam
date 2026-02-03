@@ -90,7 +90,7 @@ PicnickerHopeBeatenText:
 PicnickerHopeAfterBattleText:
 	text "Tôi nghe CLEFAIRY"
 	line "xuất hiện ở"
-	cont "NÚI MOON."
+	cont "NÚI M.TRĂNG."
 
 	para "Nhưng chúng ở đâu"
 	line "nhỉ?"
@@ -112,7 +112,7 @@ PicnickerSharonAfterBattleText:
 
 MtMoonSquareSignText:
 	text "QUẢNG TRƯỜNG"
-	line "NÚI MOON"
+	line "NÚI M.TRĂNG"
 
 	para "Chỉ cần đi lên"
 	line "cầu thang."

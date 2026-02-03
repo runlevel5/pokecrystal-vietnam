@@ -200,7 +200,7 @@ ClairText_GoToDragonsDen:
 
 	para "Phía sau GYM này"
 	line "là một nơi gọi"
-	cont "là DRAGON'S DEN."
+	cont "là HANG RỒNG."
 
 	para "Có một ngôi đền"
 	line "nhỏ ở trung tâm."

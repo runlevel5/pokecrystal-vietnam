@@ -258,7 +258,7 @@ PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
 	done
 
 PokemonFanClubClefairyGuyPackIsJammedFullText:
-	text "PACK của bạn"
+	text "BALO của bạn"
 	line "đã đầy."
 	done
 

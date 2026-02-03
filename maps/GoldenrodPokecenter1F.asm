@@ -397,7 +397,7 @@ GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
 	line "nhanh cho bạn."
 
 	para "Giao dịch tại"
-	line "TRADE CORNER là"
+	line "GÓC GIAO DỊCH là"
 
 	para "giữa hai HLV mà"
 	line "không biết danh"
@@ -407,8 +407,8 @@ GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
 	para "Kết quả là, có"
 	line "thể mất thời gian."
 
-	para "Tuy nhiên, ODD"
-	line "EGG có sẵn chỉ"
+	para "Tuy nhiên, TRỨNG"
+	line "LẠ có sẵn chỉ"
 	cont "dành cho bạn."
 
 	para "Nó sẽ được gửi"
@@ -417,7 +417,7 @@ GoldenrodPokecomCenterOddEggBriefingText: ; unreferenced
 	para "Hãy chọn một"
 	line "phòng trong"
 
-	para "CENTER. ODD EGG"
+	para "CENTER. TRỨNG LẠ"
 	line "sẽ được gửi từ"
 
 	para "phòng đã chọn."
@@ -433,7 +433,7 @@ GoldenrodPokecomCenterHereIsYourOddEggText: ; unreferenced
 	line "chờ đợi."
 
 	para "Chúng tôi đã nhận"
-	line "ODD EGG của bạn."
+	line "TRỨNG LẠ của bạn."
 
 	para "Đây này!"
 
@@ -545,8 +545,8 @@ GoldenrodPokecomCenterPerson1Text: ; unreferenced
 
 GoldenrodPokecomCenterPerson2Text: ; unreferenced
 	text "Tôi nghĩ ra trò"
-	line "vui cho TRADE"
-	cont "CORNER!"
+	line "vui cho GÓC"
+	cont "GIAO DỊCH!"
 
 	para "Tôi cho PIDGEY"
 	line "cầm THƯ, rồi"
@@ -662,7 +662,7 @@ GoldenrodPokecomCenterPerson11Text: ; unreferenced
 	done
 
 GoldenrodPokecenter1FGameboyKidText:
-	text "COLOSSEUM ở trên"
+	text "ĐẤU TRƯỜNG ở trên"
 	line "là nơi đấu qua"
 	cont "dây nối."
 
@@ -734,7 +734,7 @@ GoldenrodPokecomCenterSignText: ; unreferenced
 	line "QUẢN LÝ"
 
 	para "Giữa:"
-	line "TRADE CORNER"
+	line "GÓC GIAO DỊCH"
 
 	para "Phải:"
 	line "TIN TỨC #MON"

@@ -819,8 +819,8 @@ Text_ThisWayToMobileRoom: ; unreferenced
 
 Text_BattleReceptionistIntro:
 	text "Chào mừng đến"
-	line "CABLE CLUB"
-	cont "COLOSSEUM."
+	line "ĐẤU TRƯỜNG CÁP"
+	cont "CLUB."
 
 	para "Bạn có thể đấu"
 	line "với bạn bè ở đây."
@@ -831,8 +831,8 @@ Text_BattleReceptionistIntro:
 
 Text_TradeReceptionistIntro:
 	text "Chào mừng đến"
-	line "CABLE TRADE"
-	cont "CENTER."
+	line "TT GIAO DỊCH"
+	cont "CÁP."
 
 	para "Bạn có thể giao"
 	line "dịch #MON ở đây"
@@ -844,8 +844,8 @@ Text_TradeReceptionistIntro:
 
 Text_TimeCapsuleReceptionistIntro:
 	text "Chào mừng đến"
-	line "CABLE CLUB TIME"
-	cont "CAPSULE."
+	line "VIÊN NANG THỜI"
+	cont "GIAN."
 
 	para "Bạn có thể du"
 	line "hành về quá khứ"

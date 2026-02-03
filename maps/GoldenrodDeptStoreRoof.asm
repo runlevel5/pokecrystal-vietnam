@@ -146,7 +146,7 @@ GoldenrodDeptStoreRoofTeacherText:
 	line "quá!"
 
 	para "Tôi mua nhiều đến"
-	line "nỗi PACK đầy ắp!"
+	line "nỗi BALO đầy ắp!"
 	done
 
 GoldenrodDeptStoreRoofBugCatcherText:

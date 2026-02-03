@@ -137,7 +137,7 @@ FarmerMText_NoMoney:
 	done
 
 FarmerMText_NoRoom:
-	text "Ông nghĩ PACK của"
+	text "Ông nghĩ BALO của"
 	line "bạn đầy rồi."
 	done
 

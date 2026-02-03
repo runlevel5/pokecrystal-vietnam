@@ -173,7 +173,7 @@ GoldenrodDeptStore5FReceptionistThereAreTMsPerfectForMonText:
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
-	text "MYSTERY GIFT."
+	text "QUÀ BÍ MẬT."
 
 	para "Chỉ cần một tí"
 	line "tiếng bíp, bạn"
@@ -181,7 +181,7 @@ GoldenrodDeptStore5FCarrieMysteryGiftExplanationText:
 	done
 
 GoldenrodDeptStore5FCarrieMysteryGiftRequiresGBCText:
-	text "MYSTERY GIFT cần"
+	text "QUÀ BÍ MẬT cần"
 	line "Game Boy Color."
 	done
 

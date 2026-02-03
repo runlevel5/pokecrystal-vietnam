@@ -86,16 +86,19 @@ jobs:
           echo "Vietnamese ROM built successfully"
           sha1sum ../pokecrystal11vn.gbc
 
-      - name: Install ips.py
+      - name: Install Lipx
         if: steps.check_release.outputs.exists == 'false'
         run: |
-          git clone https://github.com/fbeaudet/ips.py.git ips-tool
-          echo "ips.py installed"
+          git clone https://github.com/kylon/Lipx.git lipx
+          cd lipx
+          make
+          sudo cp lipx /usr/local/bin/
+          echo "Lipx installed"
 
       - name: Create IPS patch
         if: steps.check_release.outputs.exists == 'false'
         run: |
-          python3 ips-tool/ips.py create pokecrystal11.orig.gbc pokecrystal11vn.gbc pokecrystal11vn.ips
+          lipx -c pokecrystal11.orig.gbc pokecrystal11vn.gbc pokecrystal11vn.ips
           echo "IPS patch created"
           ls -la pokecrystal11vn.ips
 
@@ -103,7 +106,8 @@ jobs:
         if: steps.check_release.outputs.exists == 'false'
         run: |
           # Apply patch to original and compare with Vietnamese ROM
-          python3 ips-tool/ips.py apply pokecrystal11.orig.gbc pokecrystal11vn.ips patched.gbc
+          cp pokecrystal11.orig.gbc patched.gbc
+          lipx -a patched.gbc pokecrystal11vn.ips
           
           # Compare checksums
           PATCHED_SHA=$(sha1sum patched.gbc | cut -d' ' -f1)

@@ -801,7 +801,7 @@ ElmText_MissionFromMrPokemon:
 
 	para "Thầy có quen một"
 	line "người tên"
-	cont "ÔNG LÃO #MON."
+	cont "ÔNG #MON."
 
 	para "Ông ấy hay tìm"
 	line "được thứ lạ và"
@@ -899,7 +899,7 @@ ReceivedStarterText:
 	done
 
 ElmDirectionsText1:
-	text "ÔNG LÃO #MON"
+	text "ÔNG #MON"
 	line "sống hơi xa hơn"
 
 	para "CHERRYGROVE, thành"
@@ -940,7 +940,7 @@ GotElmsNumberText:
 	done
 
 ElmDescribesMrPokemonText:
-	text "ÔNG LÃO #MON"
+	text "ÔNG #MON"
 	line "hay đi khắp nơi"
 	cont "và tìm đồ hiếm."
 

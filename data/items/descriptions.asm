@@ -528,7 +528,7 @@ SSTicketDesc:
 
 MysteryEggDesc:
 	db   "TRỨNG nhận từ"
-	next "ÔNG LÃO #MON.@"
+	next "ÔNG #MON.@"
 
 ClearBellDesc:
 	db   "Phát ra tiếng"

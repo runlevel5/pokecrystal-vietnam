@@ -34,7 +34,7 @@ MahoganyRedGyaradosSpeechHouseUnusedBookshelf2: ; unreferenced
 
 MahoganyRedGyaradosSpeechHouseBlackBeltText:
 	text "Tôi nghe nói một"
-	line "GYARADOS đỏ xuất"
+	line "GYARADOS ĐỎ xuất"
 	cont "hiện ở HỒ."
 
 	para "Kỳ lạ nhỉ, vì"

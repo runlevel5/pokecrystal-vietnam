@@ -248,7 +248,7 @@ MrPokemonsHouse_OakText1:
 
 	para "Ta vừa đến thăm"
 	line "bạn cũ của ta,"
-	cont "ÔNG LÃO #MON."
+	cont "ÔNG #MON."
 
 	para "Ta nghe cháu đang"
 	line "đi việc cho GS"
@@ -330,7 +330,7 @@ MrPokemonsHouse_OakText2:
 MrPokemonText_GimmeTheScale:
 	text "Hm? VẢY đó!"
 	line "Cái gì vậy?"
-	cont "GYARADOS đỏ?"
+	cont "GYARADOS ĐỎ?"
 
 	para "Hiếm thật! Tôi,"
 	line "tôi muốn nó…"

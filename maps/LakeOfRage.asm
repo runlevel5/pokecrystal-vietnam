@@ -342,7 +342,7 @@ LakeOfRageCooltrainerFText:
 	text "Mắt tôi có bị hoa"
 	line "không? Tôi thấy"
 
-	para "một GYARADOS đỏ"
+	para "một GYARADOS ĐỎ"
 	line "trong hồ…"
 
 	para "Nhưng tôi nghĩ"
@@ -414,7 +414,7 @@ CooltrainermAaronAfterBattleText:
 
 CooltrainerfLoisSeenText:
 	text "Chuyện gì xảy ra"
-	line "với GYARADOS đỏ?"
+	line "với GYARADOS ĐỎ?"
 
 	para "Nó biến mất rồi?"
 

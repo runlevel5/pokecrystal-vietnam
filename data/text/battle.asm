@@ -10,12 +10,12 @@ BattleText_PlayerPickedUpPayDayMoney:
 WildPokemonAppearedText:
 	text "@"
 	text_ram wEnemyMonNickname
-	text " hoang dã"
-	line "xuất hiện!"
+	text " hoang"
+	line "dã xuất hiện!"
 	prompt
 
 HookedPokemonAttackedText:
-	text "Con @"
+	text "@"
 	text_ram wEnemyMonNickname
 	text_start
 	line "cắn câu tấn công!"
@@ -42,8 +42,8 @@ WantsToBattleText::
 BattleText_WildFled:
 	text "@"
 	text_ram wEnemyMonNickname
-	text " hoang dã"
-	line "đã chạy mất!"
+	text " hoang"
+	line "dã chạy mất!"
 	prompt
 
 BattleText_EnemyFled:
@@ -55,16 +55,16 @@ BattleText_EnemyFled:
 
 HurtByPoisonText:
 	text "<USER>"
-	line "bị độc làm đau!"
+	line "bị ĐỘC làm đau!"
 	prompt
 
 HurtByBurnText:
 	text "<USER>"
-	line "bị bỏng làm đau!"
+	line "bị BỎNG làm đau!"
 	prompt
 
 LeechSeedSapsText:
-	text "LEECH SEED hút"
+	text "KÝ SINH hút"
 	line "<USER>!"
 	prompt
 
@@ -75,7 +75,8 @@ HasANightmareText:
 
 HurtByCurseText:
 	text "<USER>"
-	line "bị CURSE làm đau!"
+	line "bị LỜI NGUYỀN"
+	cont "làm đau!"
 	prompt
 
 SandstormHitsText:
@@ -84,7 +85,7 @@ SandstormHitsText:
 	prompt
 
 PerishCountText:
-	text "Số PERISH của"
+	text "Số DIỆT VONG của"
 	line "<USER> là @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
@@ -108,25 +109,24 @@ BattleText_UserRecoveredPPUsing:
 
 BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
-	line "bị trúng FUTURE"
-	cont "SIGHT!"
+	line "bị trúng TIÊN TRI!"
 	prompt
 
 BattleText_SafeguardFaded:
-	text "SAFEGUARD của"
+	text "BẢO HỘ của"
 	line "<USER> tan!"
 	prompt
 
 BattleText_MonsLightScreenFell:
 	text_ram wStringBuffer1
 	text " #MON"
-	line "LIGHT SCREEN hết!"
+	line "MÀN SÁNG hết!"
 	prompt
 
 BattleText_MonsReflectFaded:
 	text_ram wStringBuffer1
 	text " #MON"
-	line "REFLECT hết!"
+	line "PHẢN CHIẾU hết!"
 	prompt
 
 BattleText_RainContinuesToFall:
@@ -282,7 +282,7 @@ BattleText_CantEscape:
 
 BattleText_UserHurtBySpikes:
 	text "<USER>"
-	line "bị SPIKES đâm đau!"
+	line "bị RẮC ĐINH đâm!"
 	prompt
 
 RecoveredUsingText:
@@ -325,7 +325,7 @@ BattleText_TheresNoPPLeftForThisMove:
 
 BattleText_TheMoveIsDisabled:
 	text "Chiêu này đã bị"
-	line "DISABLED!"
+	line "VÔ HIỆU!"
 	prompt
 
 BattleText_MonHasNoMovesLeft:
@@ -335,7 +335,7 @@ BattleText_MonHasNoMovesLeft:
 	done
 
 BattleText_TargetsEncoreEnded:
-	text "ENCORE của"
+	text "HÒA CA của"
 	line "<TARGET> hết!"
 	prompt
 
@@ -445,7 +445,7 @@ BattleText_UserWasReleasedFromStringBuffer1:
 
 UsedBindText:
 	text "<USER>"
-	line "dùng BIND trói"
+	line "dùng SIẾT trói"
 	cont "<TARGET>!"
 	prompt
 
@@ -462,13 +462,13 @@ FireSpinTrapText:
 WrappedByText:
 	text "<TARGET>"
 	line "bị <USER>"
-	cont "WRAP!"
+	cont "QUẤN!"
 	prompt
 
 ClampedByText:
 	text "<TARGET>"
 	line "bị <USER>"
-	cont "CLAMP!"
+	cont "KẸP CÀNG!"
 	prompt
 
 StoringEnergyText:
@@ -493,7 +493,7 @@ HungOnText:
 
 EnduredText:
 	text "<TARGET>"
-	line "ENDURE đòn đó!"
+	line "BỀN BỈ chịu đòn!"
 	prompt
 
 InLoveWithText:
@@ -513,7 +513,7 @@ DisabledMoveText:
 	text_ram wStringBuffer1
 	text " của"
 	line "<USER> bị"
-	cont "DISABLED!"
+	cont "VÔ HIỆU!"
 	prompt
 
 LoafingAroundText:
@@ -633,13 +633,13 @@ TookDownWithItText:
 	prompt
 
 RageBuildingText:
-	text "RAGE của"
+	text "NỔI GIẬN của"
 	line "<USER> tăng!"
 	prompt
 
 GotAnEncoreText:
 	text "<TARGET>"
-	line "bị ENCORE!"
+	line "bị HÒA CA!"
 	prompt
 
 SharedPainText:
@@ -654,7 +654,7 @@ TookAimText:
 
 SketchedText:
 	text "<USER>"
-	line "đã SKETCH"
+	line "đã PHÁC THẢO"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -776,12 +776,13 @@ EnemyHitTimesText:
 
 MistText:
 	text "<USER>"
-	line "phủ trong MIST!"
+	line "phủ SƯƠNG MÙ!"
 	prompt
 
 ProtectedByMistText:
 	text "<TARGET>"
-	line "được MIST bảo vệ."
+	line "được SƯƠNG MÙ"
+	cont "bảo vệ."
 	prompt
 
 GettingPumpedText:
@@ -797,27 +798,27 @@ RecoilText:
 
 MadeSubstituteText:
 	text "<USER>"
-	line "tạo SUBSTITUTE!"
+	line "tạo THẾ THÂN!"
 	prompt
 
 HasSubstituteText:
 	text "<USER>"
-	line "có SUBSTITUTE!"
+	line "có THẾ THÂN!"
 	prompt
 
 TooWeakSubText:
 	text "Quá yếu để tạo"
-	line "SUBSTITUTE!"
+	line "THẾ THÂN!"
 	prompt
 
 SubTookDamageText:
-	text "SUBSTITUTE chịu"
+	text "THẾ THÂN chịu"
 	line "sát thương thay"
 	cont "<TARGET>!"
 	prompt
 
 SubFadedText:
-	text "SUBSTITUTE của"
+	text "THẾ THÂN của"
 	line "<TARGET> tan!"
 	prompt
 
@@ -844,7 +845,7 @@ WasDisabledText:
 	text_ram wStringBuffer1
 	text " của"
 	line "<TARGET> bị"
-	cont "DISABLED!"
+	cont "VÔ HIỆU!"
 	prompt
 
 CoinsScatteredText:
@@ -867,7 +868,7 @@ EliminatedStatsText:
 
 TransformedText:
 	text "<USER>"
-	line "TRANSFORM thành"
+	line "BIẾN HÌNH thành"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -941,7 +942,7 @@ ProtectedByText:
 	prompt
 
 MirrorMoveFailedText:
-	text "MIRROR MOVE"
+	text "SAO CHÉP"
 	next "thất bại!"
 	prompt
 
@@ -961,7 +962,7 @@ CantEscapeNowText:
 StartedNightmareText:
 	text "<TARGET>"
 	line "bắt đầu gặp"
-	cont "NIGHTMARE!"
+	cont "ÁC MỘNG!"
 	prompt
 
 WasDefrostedText:
@@ -973,22 +974,22 @@ PutACurseText:
 	text "<USER>"
 	line "cắt HP của mình"
 
-	para "và CURSE"
+	para "và NGUYỀN RỦA"
 	line "<TARGET>!"
 	prompt
 
 ProtectedItselfText:
 	text "<USER>"
-	line "PROTECT bản thân!"
+	line "BẢO VỆ bản thân!"
 	prompt
 
 ProtectingItselfText:
 	text "<TARGET>"
-	line "đang PROTECT!"
+	line "đang BẢO VỆ!"
 	done
 
 SpikesText:
-	text "SPIKES rải khắp"
+	text "RẮC ĐINH rải khắp"
 	line "xung quanh"
 	cont "<TARGET>!"
 	prompt
@@ -1027,7 +1028,7 @@ CoveredByVeilText:
 SafeguardProtectText:
 	text "<TARGET>"
 	line "được bảo vệ bởi"
-	cont "SAFEGUARD!"
+	cont "BẢO HỘ!"
 	prompt
 
 MagnitudeText:

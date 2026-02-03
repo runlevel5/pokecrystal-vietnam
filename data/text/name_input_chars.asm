@@ -39,12 +39,14 @@ BoxNameInput1:
 	db "A B C D E F G H I"
 	db "J K L M N O P Q R"
 	db "S T U V W X Y Z  "
-	db "lower  DEL   END "
+	db "- ? ! / . , ♂ ♀  "
+	db "tiếp   xoá  xong "
 
 BoxNameInput2:
 	db "1 2 3 4 5 6 7 8 9"
 	db "0 × ( ) : [ ] <PK> <MN>"
-	db "- ? ! ♂ ♀ / . , &"
+	db "                 "
+	db "                 "
 	db "tiếp   xoá  xong "
 
 MonNameInput1:

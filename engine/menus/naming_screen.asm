@@ -291,11 +291,6 @@ NamingScreen_InitText:
 	call ByteFill
 	hlcoord 1, 1
 	lb bc, 6, 18
-	call NamingScreen_IsTargetBox
-	jr nz, .not_short
-	lb bc, 4, 18
-
-.not_short
 	call ClearBox
 	ld de, NameInputPage1
 NamingScreen_ApplyTextInputMode:
@@ -303,11 +298,11 @@ NamingScreen_ApplyTextInputMode:
 	call NamingScreen_IsTargetBox
 	jr nz, .not_box
 	; For box naming, use 2-page English system
-	ld de, BoxNameInput2
+	ld de, BoxNameInput1
 	ld a, [wNamingScreenLetterCase]
 	and 1
 	jr z, .apply_layout
-	ld de, BoxNameInput1
+	ld de, BoxNameInput2
 	jr .apply_layout
 
 .not_box
@@ -352,12 +347,6 @@ NamingScreen_ApplyTextInputMode:
 	push de
 	hlcoord 1, 8
 	lb bc, 7, 18
-	call NamingScreen_IsTargetBox
-	jr nz, .not_short_2
-	hlcoord 1, 6
-	lb bc, 9, 18
-
-.not_short_2
 	call ClearBox
 	hlcoord 1, 16
 	lb bc, 1, 18
@@ -365,10 +354,6 @@ NamingScreen_ApplyTextInputMode:
 	pop de
 	hlcoord 2, 8
 	ld b, $5
-	call NamingScreen_IsTargetBox
-	jr nz, .row
-	hlcoord 2, 6
-	ld b, $4
 
 .row
 	ld c, $11
@@ -411,12 +396,6 @@ NamingScreenJoypadLoop:
 	xor a
 	ldh [hBGMapMode], a
 	hlcoord 1, 5
-	call NamingScreen_IsTargetBox
-	jr nz, .got_coords
-	; Box naming uses a different coord (row 3)
-	hlcoord 1, 3
-
-.got_coords
 	lb bc, 1, 18
 	call ClearBox
 	ld hl, wNamingScreenDestinationPointer
@@ -441,10 +420,6 @@ NamingScreenJoypadLoop:
 
 .InitCursor:
 	depixel 10, 3
-	call NamingScreen_IsTargetBox
-	jr nz, .got_cursor_position
-	ld d, 8 * TILE_WIDTH
-.got_cursor_position
 	ld a, SPRITE_ANIM_OBJ_NAMING_SCREEN_CURSOR
 	call InitSpriteAnimStruct
 	ld a, c
@@ -500,9 +475,6 @@ NamingScreenJoypadLoop:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld [hl], $4
-	call NamingScreen_IsTargetBox
-	ret nz
-	dec [hl] ; Set to 3 for box naming (3 character rows)
 	ret
 
 .b
@@ -555,10 +527,6 @@ NamingScreen_GetCursorPosition:
 	ld a, [hl]
 	push bc
 	ld b, $4
-	call NamingScreen_IsTargetBox
-	jr nz, .not_short
-	dec b ; Box naming uses row 3 for buttons
-.not_short
 	cp b
 	pop bc
 	jr nz, .not_bottom_row
@@ -595,10 +563,6 @@ NamingScreen_AnimateCursor:
 	add hl, bc
 	ld [hl], e
 	ld d, $4
-	call NamingScreen_IsTargetBox
-	jr nz, .ok
-	dec d ; Box naming uses row 3 for buttons
-.ok
 	cp d
 	ld de, .LetterEntries
 	ld a, SPRITE_ANIM_FRAMESET_TEXT_ENTRY_CURSOR - SPRITE_ANIM_FRAMESET_TEXT_ENTRY_CURSOR ; 0
@@ -709,14 +673,6 @@ NamingScreen_AnimateCursor:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld a, [hl]
-	call NamingScreen_IsTargetBox
-	jr nz, .not_short_down
-	cp $3 ; Box naming has 3 rows (0-2) + button row (3)
-	jr nc, .wrap_up
-	inc [hl]
-	ret
-
-.not_short_down
 	cp $4
 	jr nc, .wrap_up
 	inc [hl]
@@ -737,9 +693,6 @@ NamingScreen_AnimateCursor:
 
 .wrap_down
 	ld [hl], $4
-	call NamingScreen_IsTargetBox
-	ret nz
-	dec [hl] ; Box naming wraps to row 3
 	ret
 
 NamingScreen_TryAddCharacter:

@@ -8,60 +8,45 @@ Currently, the Vietnamese version **always translates** Vietnamese accented char
 
 - Vietnamese ↔ Vietnamese trading unnecessarily strips accents from names
 - No way to preserve Vietnamese names when both players have the Vietnamese version
-- Cannot apply language-specific character conversion strategies for European versions
 
 ### Goal
 
-Detect the **exact language version** of the peer's game (English, French, German, Italian, Spanish, or Vietnamese) to apply appropriate translation strategies:
+Detect the **language version** of the peer's game to apply appropriate translation strategies:
 
 | Peer Language | Strategy |
 |---------------|----------|
 | Vietnamese | No translation needed - preserve accents |
-| English (US/AU) | Vietnamese → base English letters |
-| French/German | Vietnamese → base letters, handle French/German special chars |
-| Italian/Spanish | Vietnamese → base letters, handle Italian/Spanish special chars |
+| English/Other | Vietnamese → base English letters |
 
-### Proposed Solution: Checksum-Based Language Detection
+### Proposed Solution: Language ID in Preamble
 
-Use the ROM's global checksum (`$014E-$014F`) to identify the peer's game language during link cable communication.
+Embed a 1-byte language identifier in the RN preamble during link cable communication.
 
-#### Known Pokemon Crystal ROM Checksums
+#### Language Constants
 
-Each language version has a unique ROM checksum. These need to be collected:
-
-| Version | Region | Checksum | Status |
-|---------|--------|----------|--------|
-| English v1.0 | US | `$????` | Need to verify |
-| English v1.1 | US | `$????` | Need to verify |
-| English | AU | `$????` | Need to verify |
-| French | EU | `$????` | Need to collect |
-| German | EU | `$????` | Need to collect |
-| Italian | EU | `$????` | Need to collect |
-| Spanish | EU | `$????` | Need to collect |
-| Vietnamese | VN | `$????` | Will be known after build |
-
-**Note:** European versions (French, German, Italian, Spanish) share a common base ROM structure (see `base1_crcs` in `tools/stadium.c`) but have different text, resulting in different checksums.
-
-#### How to Collect Checksums
-
-The global checksum is at ROM offset `$014E-$014F` (big-endian). To extract:
-
-```bash
-# Using xxd to read checksum from a ROM file
-xxd -s 0x14E -l 2 pokemon_crystal_french.gbc
+```asm
+; Language identifiers for link cable detection
+DEF LANG_JP EQU $00  ; Japanese
+DEF LANG_EN EQU $01  ; English (US/AU/EU)
+DEF LANG_FR EQU $02  ; French
+DEF LANG_DE EQU $03  ; German
+DEF LANG_IT EQU $04  ; Italian
+DEF LANG_ES EQU $05  ; Spanish
+DEF LANG_KO EQU $06  ; Korean
+DEF LANG_VN EQU $07  ; Vietnamese
 ```
 
-Or read bytes at `$014E` and `$014F` in any hex editor.
+**Note:** Japanese and Korean Crystal have different serial protocols and are not compatible with international versions, so `LANG_JP` and `LANG_KO` are included for completeness but won't be encountered in practice with Western/Vietnamese versions.
 
 #### Implementation Plan
 
-1. **Embed checksum in RN preamble**
+1. **Embed language ID in RN preamble**
 
-   Modify `FixDataForLinkTransfer` in `engine/link/link.asm` to embed the ROM checksum in the preamble:
+   Modify `FixDataForLinkTransfer` in `engine/link/link.asm` to embed the language byte:
 
    ```asm
    ; Current: 7 bytes of $FD
-   ; Proposed: $FD $FD $FD $FD [checksum_hi] [checksum_lo] $FD
+   ; Proposed: $FD $FD $FD $FD $FD [LANG_VN] $FD
    
    FixDataForLinkTransfer:
        ld hl, wLinkBattleRNPreamble
@@ -70,157 +55,117 @@ Or read bytes at `$014E` and `$014F` in any hex editor.
        ld [hli], a  ; byte 1: $FD
        ld [hli], a  ; byte 2: $FD
        ld [hli], a  ; byte 3: $FD
-       ld a, [$014E]  ; ROM checksum high byte
-       ld [hli], a  ; byte 4: checksum high
-       ld a, [$014F]  ; ROM checksum low byte
-       ld [hli], a  ; byte 5: checksum low
+       ld [hli], a  ; byte 4: $FD
+       ld a, LANG_VN
+       ld [hli], a  ; byte 5: language ID
        ld a, SERIAL_PREAMBLE_BYTE
        ld [hli], a  ; byte 6: $FD (sync marker)
        ; ... rest of function
    ```
 
-2. **Read peer's checksum after exchange**
+2. **Read peer's language ID after exchange**
 
-   After `Serial_ExchangeBytes` for RN data, read peer's checksum from `wOTLinkBattleRNData`:
+   After `Serial_ExchangeBytes` for RN data, read peer's language from `wOTLinkBattleRNData`:
 
    ```asm
-   ; wOTLinkBattleRNData + 4 = peer's checksum high byte
-   ; wOTLinkBattleRNData + 5 = peer's checksum low byte
+   ; wOTLinkBattleRNData + 5 = peer's language ID
+   ld a, [wOTLinkBattleRNData + 5]
+   ld [wPeerLanguage], a
    ```
 
-3. **Store peer version flag**
-
-   Add a new WRAM variable (e.g., `wPeerIsVietnamese`) and set it based on checksum comparison:
+3. **Add WRAM variable**
 
    ```asm
-   ; Compare peer checksum with known Vietnamese ROM checksum
-   ; Set wPeerIsVietnamese to TRUE or FALSE
+   wPeerLanguage:: db  ; Peer's language ID (LANG_EN, LANG_VN, etc.)
    ```
 
 4. **Conditional translation**
 
-   Modify `Link_PrepPartyData_Gen2` to only call translation functions when `wPeerIsVietnamese` is FALSE:
+   Modify `Link_PrepPartyData_Gen2` to only call translation functions when peer is NOT Vietnamese:
 
    ```asm
    ; Only translate if peer is NOT Vietnamese
-       ld a, [wPeerIsVietnamese]
-       and a
-       jr nz, .skip_translation
-       call TranslateString_PlayerName
+       ld a, [wPeerLanguage]
+       cp LANG_VN
+       jr z, .skip_translation
        call TranslateString_OTNames
        call TranslateString_PartyMonNicknames
    .skip_translation:
    ```
 
+   For future enhancement, language-specific translation strategies could be added:
+
+   ```asm
+   ; Extended language handling (future)
+       ld a, [wPeerLanguage]
+       cp LANG_VN
+       jr z, .no_translation           ; VN↔VN: preserve accents
+       cp LANG_FR
+       jr z, .translate_for_french
+       cp LANG_DE
+       jr z, .translate_for_german
+       cp LANG_IT
+       jr z, .translate_for_italian
+       cp LANG_ES
+       jr z, .translate_for_spanish
+       ; Default: translate to base English
+       jr .translate_to_english
+   ```
+
 #### Compatibility Analysis
 
 **English Crystal behavior when receiving Vietnamese preamble:**
-- Receives: `$FD $FD $FD $FD XX YY $FD` (where XX YY is Vietnamese checksum)
+- Receives: `$FD $FD $FD $FD $FD $02 $FD` (where $02 is LANG_VN)
 - `Link_FindFirstNonControlCharacter_AllowZero` skips `$FD` and `$FE` bytes
-- Checksum bytes (XX YY) are treated as noise and skipped during RN data processing
+- Language byte ($02) is treated as noise and skipped during RN data processing
 - Sync mechanism still works because there are enough `$FD` bytes
 
 **Vietnamese Crystal behavior when receiving English preamble:**
 - Receives: `$FD $FD $FD $FD $FD $FD $FD`
-- Bytes 4-5 are `$FD $FD`, which won't match Vietnamese checksum
-- `wPeerIsVietnamese` set to FALSE → translation applied (correct behavior)
+- Byte 5 is `$FD` ($253), which won't match LANG_VN ($02)
+- `wPeerLanguage` set to `$FD` → translation applied (correct behavior, any value ≠ LANG_VN triggers translation)
 
 #### Required Changes
 
 | File | Change |
 |------|--------|
-| `engine/link/link.asm` | Modify `FixDataForLinkTransfer` to embed checksum |
-| `engine/link/link.asm` | Add checksum comparison after RN exchange |
+| `constants/serial_constants.asm` | Add `LANG_JP`, `LANG_EN`, `LANG_VN` constants |
+| `ram/wram.asm` | Add `wPeerLanguage` variable |
+| `engine/link/link.asm` | Modify `FixDataForLinkTransfer` to embed language ID |
+| `engine/link/link.asm` | Read peer language after RN exchange |
 | `engine/link/link.asm` | Add conditional translation in `Link_PrepPartyData_Gen2` |
-| `ram/wram.asm` | Add `wPeerLanguage` variable (not just boolean) |
-| `constants/serial_constants.asm` | Define language constants and checksum table |
 
-#### Language Constants
+#### Advantages Over Checksum Approach
 
-```asm
-; Peer language detection results
-DEF LANGUAGE_UNKNOWN    EQU 0
-DEF LANGUAGE_ENGLISH    EQU 1
-DEF LANGUAGE_FRENCH     EQU 2
-DEF LANGUAGE_GERMAN     EQU 3
-DEF LANGUAGE_ITALIAN    EQU 4
-DEF LANGUAGE_SPANISH    EQU 5
-DEF LANGUAGE_VIETNAMESE EQU 6
-```
-
-#### Checksum Lookup Table
-
-```asm
-PeerLanguageChecksums:
-; Format: checksum_hi, checksum_lo, language_id
-    db $XX, $XX, LANGUAGE_ENGLISH     ; English US v1.0
-    db $XX, $XX, LANGUAGE_ENGLISH     ; English US v1.1
-    db $XX, $XX, LANGUAGE_ENGLISH     ; English AU
-    db $XX, $XX, LANGUAGE_FRENCH      ; French
-    db $XX, $XX, LANGUAGE_GERMAN      ; German
-    db $XX, $XX, LANGUAGE_ITALIAN     ; Italian
-    db $XX, $XX, LANGUAGE_SPANISH     ; Spanish
-    db $XX, $XX, LANGUAGE_VIETNAMESE  ; Vietnamese
-    db $FF, $FF, LANGUAGE_UNKNOWN     ; End marker / fallback
-```
-
-#### Language-Specific Translation Strategies
-
-```asm
-; After detecting peer language, apply appropriate strategy:
-
-.check_peer_language:
-    ld a, [wPeerLanguage]
-    cp LANGUAGE_VIETNAMESE
-    jr z, .no_translation           ; VN↔VN: preserve accents
-    cp LANGUAGE_FRENCH
-    jr z, .translate_for_french
-    cp LANGUAGE_GERMAN
-    jr z, .translate_for_german
-    cp LANGUAGE_ITALIAN
-    jr z, .translate_for_italian
-    cp LANGUAGE_SPANISH
-    jr z, .translate_for_spanish
-    ; Default: translate to base English
-    jr .translate_to_english
-```
+| Aspect | Checksum (2 bytes) | Language ID (1 byte) |
+|--------|-------------------|---------------------|
+| Size | 2 bytes | 1 byte |
+| Lookup | Requires checksum table | Direct comparison |
+| Maintenance | Must update table for each ROM version | Single constant per language |
+| Future versions | Each build has different checksum | All builds of same language use same ID |
+| Simplicity | Complex lookup logic | Simple `cp LANG_VN` |
+| Extensibility | Must collect checksums for all versions | Easy to add new languages |
 
 #### Notes
 
-- The Vietnamese ROM checksum will be known after building the final ROM
 - This approach is backward-compatible with all official Crystal versions
-- Consider also checking for Vietnamese ROM variants (debug builds, etc.)
-- European versions already have mail language detection (`ParseMailLanguage` in `engine/pokemon/european_mail.asm`) which could be referenced for character conversion strategies
-
-### Existing European Character Handling
-
-The game already has infrastructure for handling European language differences in mail:
-
-| Function | File | Purpose |
-|----------|------|---------|
-| `ParseMailLanguage` | `engine/pokemon/european_mail.asm` | Detects mail language (E/F/G/I/S) |
-| `ConvertFrenchGermanMailToEnglish` | `engine/pokemon/european_mail.asm` | Converts FR/DE special chars |
-| `ConvertSpanishItalianMailToEnglish` | `engine/pokemon/european_mail.asm` | Converts ES/IT special chars |
-| `FrenchGermanFont` | `engine/pokemon/european_mail.asm` | Extended font for FR/DE |
-| `SpanishItalianFont` | `engine/pokemon/european_mail.asm` | Extended font for ES/IT |
-
-This existing code could inform how to handle Vietnamese ↔ European language trades.
+- English/European Crystal will ignore the language byte (treated as preamble noise)
+- All Vietnamese ROM variants (different builds, patches) share the same language ID
+- Could be extended for other fan translations using reserved language IDs
+- European versions (FR/DE/IT/ES) could potentially adopt this scheme for cross-language trading improvements
 
 ### Alternative Approaches Considered
 
-1. **Custom handshake protocol** - Would break compatibility with official versions
-2. **Use unused bytes in party data** - Risk of data corruption
-3. **Always translate (current approach)** - Works but loses Vietnamese names in VN↔VN trades
-4. **Mail nationality field** - Only works for mail items, not general trading
+1. **Checksum-based detection** - Complex, requires lookup table, different for each build
+2. **Custom handshake protocol** - Would break compatibility with official versions
+3. **Use unused bytes in party data** - Risk of data corruption
+4. **Always translate (current approach)** - Works but loses Vietnamese names in VN↔VN trades
 
 ### References
 
-- ROM header structure: `$014E-$014F` = global checksum (2 bytes, big-endian)
-- Checksum calculated by `rgbfix` during build
 - Serial protocol: `home/serial.asm`, `engine/link/link.asm`
 - Current translation layer: `engine/link/link_trade_text.asm`
-- European mail handling: `engine/pokemon/european_mail.asm`
-- Stadium checksums (US vs EU base): `tools/stadium.c` (`base0_crcs`, `base1_crcs`)
+- Preamble structure: `SERIAL_PREAMBLE_LENGTH` = 7 bytes
 
 ---
 

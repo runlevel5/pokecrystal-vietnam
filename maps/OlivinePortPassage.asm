@@ -10,7 +10,7 @@ OlivinePortPassagePokefanMScript:
 	jumptextfaceplayer OlivinePortPassagePokefanMText
 
 OlivinePortPassagePokefanMText:
-	text "TÀU CAO TỐC"
+	text "TÀU AQUA"
 	line "S.S.AQUA đi KANTO"
 	cont "vào thứ Hai và"
 	cont "thứ Sáu."

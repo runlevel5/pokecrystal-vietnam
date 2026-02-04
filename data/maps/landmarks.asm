@@ -204,7 +204,7 @@ Route46Name:         db "ĐƯỜNG<BSP>46@"
 DarkCaveName:        db "HANG<BSP>TỐI@"
 IlexForestName:      db "RỪNG<BSP>UBAME@"
 BurnedTowerName:     db "THÁP<BSP>CHÁY@"
-FastShipName:        db "TÀU CAO TỐC@"
+FastShipName:        db "TÀU AQUA@"
 ViridianForestName:  db "RỪNG<BSP>TOKIWA@" ; unreferenced
 DiglettsCaveName:    db "ĐỘNG<BSP>DIGLETT@"
 TohjoFallsName:      db "THÁC<BSP>TOHJO@"

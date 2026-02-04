@@ -254,7 +254,7 @@ OlivineCitySignText:
 
 OlivineCityPortSignText:
 	text "CẢNG ASAGI"
-	line "BẾN TÀU CAO TỐC"
+	line "BẾN TÀU AQUA"
 	done
 
 OlivineGymSignText:

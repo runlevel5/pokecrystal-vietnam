@@ -205,13 +205,13 @@ FastShipBedText2:
 	done
 
 FastShipArrivedOlivineText:
-	text "TÀU CAO TỐC"
+	text "TÀU AQUA"
 	line "S.S.AQUA đã tới"
 	cont "TP. ASAGI."
 	done
 
 FastShipArrivedVermilionText:
-	text "TÀU CAO TỐC"
+	text "TÀU AQUA"
 	line "S.S.AQUA đã tới"
 	cont "TP. KUCHIBA."
 	done

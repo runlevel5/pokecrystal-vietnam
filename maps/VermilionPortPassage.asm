@@ -10,7 +10,7 @@ VermilionPortPassageTeacherScript:
 	jumptextfaceplayer VermilionPortPassageTeacherText
 
 VermilionPortPassageTeacherText:
-	text "TÀU CAO TỐC khởi"
+	text "TÀU AQUA khởi"
 	line "hành vào các ngày"
 	cont "Thứ Tư và Chủ"
 	cont "Nhật hàng tuần."

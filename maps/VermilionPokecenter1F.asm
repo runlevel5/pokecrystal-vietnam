@@ -58,7 +58,7 @@ VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
 	done
 
 VermilionPokecenter1FSailorText:
-	text "TÀU CAO TỐC là"
+	text "TÀU AQUA là"
 	line "nơi tuyệt vời để"
 	cont "gặp và chiến đấu"
 	cont "với các HLV."

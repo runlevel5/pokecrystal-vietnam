@@ -713,7 +713,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | ICE PATH | Koori no Nukemichi | LỐI<BSP>BĂNG |
 | DARK CAVE | Kurayami | HANG<BSP>TỐI |
 | ILEX FOREST | Ubame | RỪNG<BSP>UBAME |
-| FAST SHIP | Aqua-gou | TÀU CAO TỐC |
+| FAST SHIP | Aqua-gou | TÀU AQUA |
 | TOHJO FALLS | Toujou | THÁC<BSP>TOHJO |
 
 ### Kanto Region

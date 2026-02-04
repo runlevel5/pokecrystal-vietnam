@@ -336,13 +336,13 @@ OlivinePortNoTicketText:
 	done
 
 OlivinePortMondayShipText:
-	text "TÀU CAO TỐC sẽ"
+	text "TÀU AQUA sẽ"
 	line "chạy vào thứ Hai"
 	cont "tuần sau."
 	done
 
 OlivinePortFridayShipText:
-	text "TÀU CAO TỐC sẽ"
+	text "TÀU AQUA sẽ"
 	line "chạy vào thứ Sáu"
 	cont "tuần sau."
 	done

@@ -457,7 +457,7 @@ SupernerdShawnAfterBattleText:
 	done
 
 SSAquaHasArrivedVermilionText:
-	text "TÀU CAO TỐC"
+	text "TÀU AQUA"
 	line "S.S.AQUA đã tới"
 	cont "TP. KUCHIBA."
 	done

@@ -278,12 +278,12 @@ VermilionPortNoTicketText:
 	done
 
 VermilionPortSailWednesdayText:
-	text "TÀU CAO TỐC sẽ"
+	text "TÀU AQUA sẽ"
 	line "khởi hành Thứ Tư."
 	done
 
 VermilionPortSailSundayText:
-	text "TÀU CAO TỐC sẽ"
+	text "TÀU AQUA sẽ"
 	line "khởi hành C.Nhật."
 	done
 

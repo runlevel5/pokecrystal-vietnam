@@ -707,7 +707,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | BURNED TOWER | Yaketa | THÁP<BSP>CHÁY |
 | LIGHTHOUSE | Asagi | HẢI ĐĂNG |
 | BATTLE TOWER | Battle Tower | THÁP<BSP>CHIẾN ĐẤU |
-| WHIRL ISLANDS | Uzumaki-jima | QUẦN ĐẢO<BSP>NƯỚC XOÁY |
+| WHIRL ISLANDS | Uzumaki-jima | QUẦN ĐẢO<BSP>ỐC XOÁY |
 | MT.MORTAR | Suribachi | NÚI<BSP>SURIBACHI |
 | DRAGON'S DEN | Ryuu no Ana | HANG<BSP>RỒNG |
 | ICE PATH | Koori no Nukemichi | LỐI<BSP>BĂNG |

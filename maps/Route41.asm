@@ -215,7 +215,7 @@ SwimmermKirkAfterBattleText:
 SwimmermMathewSeenText:
 	text "Bạn đang tìm kiếm"
 	line "bí mật của QUẦN"
-	cont "ĐẢO NƯỚC XOÁY?"
+	cont "ĐẢO ỐC XOÁY?"
 	done
 
 SwimmermMathewBeatenText:
@@ -225,7 +225,7 @@ SwimmermMathewBeatenText:
 
 SwimmermMathewAfterBattleText:
 	text "Bí mật về QUẦN"
-	line "ĐẢO NƯỚC XOÁY…"
+	line "ĐẢO ỐC XOÁY…"
 
 	para "Bên trong tối mù"
 	line "mịt!"
@@ -234,7 +234,7 @@ SwimmermMathewAfterBattleText:
 SwimmerfKayleeSeenText:
 	text "Tôi đang trên"
 	line "đường đến QUẦN"
-	cont "ĐẢO NƯỚC XOÁY."
+	cont "ĐẢO ỐC XOÁY."
 
 	para "Tôi đi khám phá"
 	line "với bạn bè."

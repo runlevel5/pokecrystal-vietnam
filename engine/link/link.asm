@@ -884,7 +884,7 @@ Link_PrepPartyData_Gen2:
 	dec b
 	jr nz, .preamble_loop
 
-	ld hl, wPlayerNameEnglish ; Use pre-translated English name for link cable
+	ld hl, wTradeName ; Use pre-translated English name for link cable
 	ld bc, NAME_LENGTH
 	call CopyBytes
 
@@ -909,7 +909,7 @@ Link_PrepPartyData_Gen2:
 	call CopyBytes
 
 ; Translate Vietnamese text to English for link cable compatibility
-; Note: Player name is already pre-translated to wPlayerNameEnglish at name entry time
+; Note: Player name is already pre-translated to wTradeName at name entry time
 	call TranslateString_OTNames
 	call TranslateString_PartyMonNicknames
 

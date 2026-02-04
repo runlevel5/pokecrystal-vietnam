@@ -348,6 +348,8 @@ To enable trading between Vietnamese and English Pokemon Crystal versions, a tra
    - English uppercase ($80-$99) already compatible, pass through unchanged
 
 3. **TranslatePlayerNameForLinkCable** - Pre-translates player name at input time (engine/menus/intro_menu.asm)
+   - Translates `wPlayerName` to `wTradeName` when player enters their name
+   - Also called when continuing a saved game
 4. **TranslateString_OTNames** - Translates outgoing Original Trainer names
 5. **TranslateString_PartyMonNicknames** - Translates outgoing Pokemon nicknames (defensive)
 6. **TranslateAllReceivedOTData** - Translates all incoming text (player name, OT names, nicknames)
@@ -392,12 +394,12 @@ When an English player trades to Vietnamese:
 Translation is called in `Link_PrepPartyData_Gen2` (engine/link/link.asm) after copying party data to `wLinkData` but before sending over the link cable.
 
 **Order of Operations:**
-1. Copy pre-translated player name (wPlayerNameEnglish), party data, OT names, nicknames to wLinkData
+1. Copy pre-translated player name (wTradeName), party data, OT names, nicknames to wLinkData
 2. Call TranslateString_OTNames
 3. Call TranslateString_PartyMonNicknames
 4. Send translated wLinkData over link cable
 
-**Note:** Player name is pre-translated once at name entry time (stored in `wPlayerNameEnglish`), so no runtime translation is needed during trading.
+**Note:** Player name is pre-translated once at name entry time (stored in `wTradeName`), so no runtime translation is needed during trading.
 
 **Incoming Translation:**
 After receiving data from English Crystal, `TranslateAllReceivedOTData` is called to convert English lowercase characters to Vietnamese character codes. This is hooked in both `Gen1ToGen2LinkComms` and `Gen2ToGen2LinkComms`.

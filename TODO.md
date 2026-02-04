@@ -234,19 +234,24 @@ The player name is now pre-translated to English at name entry time, eliminating
 
 #### Changes Made
 
-1. **Added `wPlayerNameEnglish` to WRAM** (`ram/wram.asm`)
+1. **Added `wTradeName` to WRAM** (`ram/wram.asm`)
    - Stores the pre-translated English version of the player name
    - Located immediately after `wPlayerName`
 
-2. **Added `TranslatePlayerNameForLinkCable` function** (`engine/menus/intro_menu.asm`)
-   - Called at the end of `NamePlayer` after name entry is complete
-   - Translates `wPlayerName` → `wPlayerNameEnglish` once
+2. **Added `<TRADE_NAME>` text macro** (`constants/charmap.asm`, `home/text.asm`)
+   - Charmap entry at `$17` for use in text scripts
+   - `PrintTradeName` function to display the pre-translated name
 
-3. **Updated `Link_PrepPartyData_Gen2`** (`engine/link/link.asm`)
-   - Now copies `wPlayerNameEnglish` directly instead of `wPlayerName`
+3. **Added `TranslatePlayerNameForLinkCable` function** (`engine/menus/intro_menu.asm`)
+   - Called at the end of `NamePlayer` after name entry is complete
+   - Also called when continuing a saved game
+   - Translates `wPlayerName` → `wTradeName` once
+
+4. **Updated `Link_PrepPartyData_Gen2`** (`engine/link/link.asm`)
+   - Now copies `wTradeName` directly instead of `wPlayerName`
    - Removed call to `TranslateString_PlayerName`
 
-4. **Removed `TranslateString_PlayerName`** (`engine/link/link_trade_text.asm`)
+5. **Removed `TranslateString_PlayerName`** (`engine/link/link_trade_text.asm`)
    - No longer needed since player name is pre-translated
 
 #### Remaining Runtime Translations
@@ -280,8 +285,10 @@ The following translations still occur at trade time (this is correct):
 
 | File | Change |
 |------|--------|
-| `ram/wram.asm` | Add `wPlayerNameEnglish`, `wRivalNameEnglish` |
-| `engine/menus/naming_screen.asm` | Call translation after name input |
+| `ram/wram.asm` | Add `wTradeName` |
+| `constants/charmap.asm` | Add `<TRADE_NAME>` charmap at `$17` |
+| `home/text.asm` | Add `PrintTradeName` function |
+| `engine/menus/intro_menu.asm` | Add `TranslatePlayerNameForLinkCable`, call on name entry and continue |
 | `engine/link/link.asm` | Use pre-translated name instead of runtime translation |
 | `engine/link/link_trade_text.asm` | Remove `TranslateString_PlayerName` (keep OT translation) |
 

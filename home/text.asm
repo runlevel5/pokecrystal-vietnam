@@ -215,6 +215,7 @@ ENDM
 	dict '<PARA>',    Paragraph
 	dict '<MOM>',     PrintMomsName
 	dict '<PLAYER>',  PrintPlayerName
+	dict '<TRADE_NAME>', PrintTradeName
 	dict '<RIVAL>',   PrintRivalName
 	dict '<ROUTE>',   PlaceJPRoute
 	dict '<WATASHI>', PlaceWatashi
@@ -302,6 +303,7 @@ ENDM
 
 PrintMomsName:   print_name wMomsName
 PrintPlayerName: print_name wPlayerName
+PrintTradeName:  print_name wTradeName
 PrintRivalName:  print_name wRivalName
 PrintRedsName:   print_name wRedsName
 PrintGreensName: print_name wGreensName

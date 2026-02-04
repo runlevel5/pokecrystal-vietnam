@@ -468,12 +468,12 @@ GoldenrodCityNameRaterSignText:
 
 GoldenrodCityUndergroundSignNorthText:
 	text "LỐI VÀO"
-	line "HẦM NGẦM"
+	line "ĐỊA ĐẠO"
 	done
 
 GoldenrodCityUndergroundSignSouthText:
 	text "LỐI VÀO"
-	line "HẦM NGẦM"
+	line "ĐỊA ĐẠO"
 	done
 
 GoldenrodCityPokeComCenterSignText: ; unreferenced

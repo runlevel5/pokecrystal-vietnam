@@ -208,6 +208,6 @@ FastShipName:        db "TÀU CAO TỐC@"
 ViridianForestName:  db "RỪNG<BSP>TOKIWA@" ; unreferenced
 DiglettsCaveName:    db "ĐỘNG<BSP>DIGLETT@"
 TohjoFallsName:      db "THÁC<BSP>TOHJO@"
-UndergroundName:     db "HẦM NGẦM@"
+UndergroundName:     db "ĐỊA ĐẠO@"
 BattleTowerName:     db "THÁP<BSP>CHIẾN ĐẤU@"
 SpecialMapName:      db "ĐẶC BIỆT@"

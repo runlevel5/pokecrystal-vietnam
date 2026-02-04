@@ -743,7 +743,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | CERULEAN CAVE | Hanada no Doukutsu | ĐỘNG<BSP>HANADA |
 | DIGLETT'S CAVE | Digda no Ana | ĐỘNG<BSP>DIGLETT |
 | VIRIDIAN FOREST | Tokiwa no Mori | RỪNG<BSP>TOKIWA |
-| UNDERGROUND | Chika Tsuro | HẦM NGẦM |
+| UNDERGROUND | Chika Tsuro | ĐỊA ĐẠO |
 
 ### Routes
 

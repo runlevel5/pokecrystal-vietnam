@@ -96,7 +96,7 @@ BikerDwayneAfterBattleText:
 
 BikerHarrisSeenText:
 	text "Lũ cảnh sát đã"
-	line "đóng HẦM NGẦM"
+	line "đóng ĐỊA ĐẠO"
 
 	para "của chúng tao!"
 	line "Thực sự tức tôi!"

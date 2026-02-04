@@ -46,7 +46,7 @@ Route6PokefanMText:
 	done
 
 Route6UndergroundPathSignText:
-	text "HẦM NGẦM"
+	text "ĐỊA ĐẠO"
 
 	para "TP. HANADA -"
 	line "TP. KUCHIBA"

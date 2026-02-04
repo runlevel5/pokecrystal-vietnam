@@ -227,10 +227,10 @@ FakeDirectorTextAfter:
 	text "Bọn tao giấu"
 	line "GIÁM ĐỐC thật ở"
 
-	para "KHO HẦM NGẦM."
+	para "KHO ĐỊA ĐẠO."
 
 	para "Nó ở tận cuối"
-	line "HẦM NGẦM."
+	line "ĐỊA ĐẠO."
 
 	para "Nhưng tao ngờ"
 	line "mày đến được đó."

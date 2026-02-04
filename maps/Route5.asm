@@ -25,7 +25,7 @@ Route5PokefanMText:
 	done
 
 Route5UndergroundPathSignText:
-	text "HẦM NGẦM"
+	text "ĐỊA ĐẠO"
 
 	para "TP. HANADA -"
 	line "TP. KUCHIBA"

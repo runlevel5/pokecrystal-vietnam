@@ -246,8 +246,12 @@ TranslateReceivedOTPartyMonOTs:
 	ld b, PARTY_LENGTH
 .loop
 	push bc
+	push hl
 	ld bc, NAME_LENGTH
 	call TranslateEnglishToVietnamese
+	pop hl
+	ld bc, NAME_LENGTH
+	add hl, bc
 	pop bc
 	dec b
 	jr nz, .loop
@@ -260,8 +264,12 @@ TranslateReceivedOTPartyMonNicknames:
 	ld b, PARTY_LENGTH
 .loop
 	push bc
+	push hl
 	ld bc, MON_NAME_LENGTH
 	call TranslateEnglishToVietnamese
+	pop hl
+	ld bc, MON_NAME_LENGTH
+	add hl, bc
 	pop bc
 	dec b
 	jr nz, .loop

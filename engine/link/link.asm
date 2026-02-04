@@ -1435,7 +1435,7 @@ LinkTrade_TradeStatsMenu:
 
 .joy_loop
 	ld a, ' '
-	ldcoord_a 11, 16
+	ldcoord_a 10, 16
 	ld a, PAD_A | PAD_B | PAD_RIGHT
 	ld [wMenuJoypadFilter], a
 	ld a, 1
@@ -1476,7 +1476,7 @@ LinkTrade_TradeStatsMenu:
 	ld [w2DMenuNumCols], a
 	ld a, 16
 	ld [w2DMenuCursorInitY], a
-	ld a, 11
+	ld a, 10
 	ld [w2DMenuCursorInitX], a
 	ld a, 1
 	ld [wMenuCursorY], a
@@ -1739,7 +1739,7 @@ LinkTrade:
 	call LoadStandardMenuHeader
 	hlcoord 10, 7
 	ld b, 3
-	ld c, 7
+	ld c, 8
 	call LinkTextboxAtHL
 	ld de, String_TradeCancel
 	hlcoord 12, 8

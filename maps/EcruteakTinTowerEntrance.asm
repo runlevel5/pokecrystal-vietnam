@@ -150,27 +150,27 @@ EcruteakTinTowerEntranceSageBlocksRightMovement:
 	step_end
 
 EcruteakTinTowerEntranceSageText:
-	text "THÁP THIẾC cấm"
+	text "THÁP CHUÔNG cấm"
 	line "bất kỳ ai không"
 
 	para "có HUY HIỆU của"
-	line "GYM ECRUTEAK."
+	line "GYM ENJU."
 
 	para "Xin lỗi, nhưng"
 	line "con phải ra ngoài."
 	done
 
 EcruteakTinTowerEntranceSageText_GotFogBadge:
-	text "THÁP THIẾC cấm"
+	text "THÁP CHUÔNG cấm"
 	line "bất kỳ ai không"
 
 	para "có HUY HIỆU của"
-	line "GYM ECRUTEAK."
+	line "GYM ENJU."
 
 	para "À!"
 
 	para "HUY HIỆU GYM"
-	line "ECRUTEAK! Mời con"
+	line "ENJU! Mời con"
 	cont "đi thẳng vào."
 	done
 
@@ -219,7 +219,7 @@ EcruteakTinTowerEntranceSageText_HearsClearBell:
 	para "Con…"
 
 	para "Con có thể vượt"
-	line "qua THÁP THIẾC."
+	line "qua THÁP CHUÔNG."
 
 	para "Xin mời đi."
 	done
@@ -236,13 +236,13 @@ EcruteakTinTowerEntranceSageText_HeardClearBell:
 	para "Con…"
 
 	para "Con có thể vượt"
-	line "qua THÁP THIẾC."
+	line "qua THÁP CHUÔNG."
 
 	para "Xin mời đi."
 	done
 
 EcruteakTinTowerEntranceWanderingSageText:
-	text "THÁP THIẾC phía"
+	text "THÁP CHUÔNG phía"
 	line "trước có chín tầng"
 
 	para "với vẻ đẹp"
@@ -254,7 +254,7 @@ EcruteakTinTowerEntranceWanderingSageText:
 	done
 
 EcruteakTinTowerEntranceWanderingSageText_GotClearBell:
-	text "THÁP THIẾC rung!"
+	text "THÁP CHUÔNG rung!"
 	line "Một #MON chắc"
 
 	para "đã trở về đỉnh!"

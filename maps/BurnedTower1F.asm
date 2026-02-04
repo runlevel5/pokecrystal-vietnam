@@ -259,7 +259,7 @@ BurnedTower1FEusineText:
 
 BurnedTower1FMortyText:
 	text "MORTY: T.LĨNH GYM"
-	line "ECRUTEAK phải"
+	line "ENJU phải"
 
 	para "nghiên cứu các"
 	line "#MON truyền"

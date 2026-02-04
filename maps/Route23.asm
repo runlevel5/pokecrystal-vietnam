@@ -12,7 +12,7 @@ IndigoPlateauSign:
 	jumptext IndigoPlateauSignText
 
 IndigoPlateauSignText:
-	text "CAO NGUYÊN INDIGO"
+	text "CAO NGUYÊN SEKIEI"
 
 	para "Mục tiêu tối thượng"
 	line "của HLV!"

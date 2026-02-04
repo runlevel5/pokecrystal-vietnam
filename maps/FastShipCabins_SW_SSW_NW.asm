@@ -170,7 +170,7 @@ GuitaristClydeSeenText:
 	text "Tôi sẽ thử giọng"
 	line "tại ĐÀI RADIO của"
 
-	para "GOLDENROD."
+	para "KOGANE."
 	done
 
 GuitaristClydeBeatenText:
@@ -183,7 +183,7 @@ GuitaristClydeAfterBattleMobileText:
 	line "tại THÁP ĐẤU…"
 
 	para "Tôi nên quay lại"
-	line "VERMILION và luyện"
+	line "KUCHIBA và luyện"
 	cont "lại từ đầu…"
 	done
 
@@ -205,15 +205,15 @@ FastShipBedText2:
 	done
 
 FastShipArrivedOlivineText:
-	text "TÀU NHANH S.S.AQUA"
-	line "đã tới"
-	cont "TP. OLIVINE."
+	text "TÀU CAO TỐC"
+	line "S.S.AQUA đã tới"
+	cont "TP. ASAGI."
 	done
 
 FastShipArrivedVermilionText:
-	text "TÀU NHANH S.S.AQUA"
-	line "đã tới"
-	cont "TP. VERMILION."
+	text "TÀU CAO TỐC"
+	line "S.S.AQUA đã tới"
+	cont "TP. KUCHIBA."
 	done
 
 FastShipCabins_SW_SSW_NW_MapEvents:

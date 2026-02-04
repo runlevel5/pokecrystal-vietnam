@@ -59,7 +59,7 @@ GinaRocketTakeoverRumorText:
 
 	para "Chúng đã chiếm"
 	line "THÁP RADIO ở"
-	cont "GOLDENROD."
+	cont "KOGANE."
 
 	para "Mọi người bên"
 	line "trong có an toàn?"

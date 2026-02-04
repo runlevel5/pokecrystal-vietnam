@@ -36,7 +36,7 @@ LavenderPokecenter1FYoungsterScript:
 
 LavenderPokecenter1FGentlemanText:
 	text "Về phía bắc của"
-	line "LAVENDER là ĐƯỜNG"
+	line "SHION là ĐƯỜNG"
 
 	para "HẦM ĐÁ. Đi qua đó"
 	line "để đến NHÀ MÁY"

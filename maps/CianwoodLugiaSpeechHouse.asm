@@ -21,7 +21,7 @@ CianwoodLugiaSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CianwoodLugiaSpeechHouseTeacherText:
-	text "Bạn từ OLIVINE"
+	text "Bạn từ ASAGI"
 	line "đến à?"
 
 	para "Bạn có nhớ bốn"

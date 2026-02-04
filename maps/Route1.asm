@@ -74,8 +74,8 @@ CooltrainerfQuinnAfterBattleText:
 Route1SignText:
 	text "TUYẾN ĐƯỜNG 1"
 
-	para "TRẤN PALLET -"
-	line "TP. VIRIDIAN"
+	para "T.TRẤN MASARA -"
+	line "TP. TOKIWA"
 	done
 
 Route1_MapEvents:

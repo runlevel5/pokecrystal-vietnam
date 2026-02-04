@@ -467,14 +467,14 @@ Route43Sign1Text:
 	text "TUYẾN ĐƯỜNG 43"
 
 	para "HỒ PHẪN NỘ -"
-	line "TRẤN MAHOGANY"
+	line "THÔN CHOUJI"
 	done
 
 Route43Sign2Text:
 	text "TUYẾN ĐƯỜNG 43"
 
 	para "HỒ PHẪN NỘ -"
-	line "TRẤN MAHOGANY"
+	line "THÔN CHOUJI"
 	done
 
 Route43TrainerTipsText:

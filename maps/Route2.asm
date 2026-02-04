@@ -136,7 +136,7 @@ BugCatcherDougAfterBattleText:
 Route2SignText:
 	text "TUYẾN ĐƯỜNG 2"
 
-	para "TP. VIRIDIAN -"
+	para "TP. TOKIWA -"
 	line "TP. PEWTER"
 	done
 

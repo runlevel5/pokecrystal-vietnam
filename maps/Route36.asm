@@ -508,7 +508,7 @@ RockSmashGuyText3:
 UnusedOddTreeText: ; unreferenced
 	text "Một cây kỳ lạ"
 	line "chặn đường đến"
-	cont "TP. GOLDENROD."
+	cont "TP. KOGANE."
 
 	para "Tôi muốn đi xem"
 	line "T.TÂM #MON lớn"
@@ -519,7 +519,7 @@ UnusedOddTreeText: ; unreferenced
 Route36LassText:
 	text "Một cây kỳ lạ chặn"
 	line "đường đến TP."
-	cont "GOLDENROD."
+	cont "KOGANE."
 
 	para "Nó ngăn tôi đi"
 	line "mua sắm."

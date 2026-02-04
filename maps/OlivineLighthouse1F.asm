@@ -26,7 +26,7 @@ OlivineLighthouse1FPokefanFText:
 	text "Ngày xưa, #MON"
 	line "thắp sáng vùng"
 
-	para "biển quanh OLIVINE"
+	para "biển quanh ASAGI"
 	line "vào ban đêm."
 
 	para "HẢI ĐĂNG được xây"

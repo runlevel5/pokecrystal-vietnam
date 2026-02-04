@@ -268,7 +268,7 @@ BlackthornGymClairText_League:
 	line "nó ở đâu sao?"
 
 	para "Từ đây, hãy đi"
-	line "đến NEW BARK TOWN."
+	line "đến T.TRẤN WAKABA"
 
 	para "Rồi LƯỚT SÓNG về"
 	line "phía đông. Đường"

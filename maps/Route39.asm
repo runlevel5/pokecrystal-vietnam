@@ -186,7 +186,7 @@ Route39MiltankText:
 
 SailorEugeneSeenText:
 	text "Tôi vừa quay về"
-	line "TP. OLIVINE."
+	line "TP. ASAGI."
 
 	para "Vậy đấu #MON"
 	line "nhé?"
@@ -312,8 +312,8 @@ PokefanfJaimeAfterBattleText:
 Route39SignText:
 	text "TUYẾN ĐƯỜNG 39"
 
-	para "TP. OLIVINE -"
-	line "TP. ECRUTEAK"
+	para "TP. ASAGI -"
+	line "TP. ENJU"
 	done
 
 MoomooFarmSignText:

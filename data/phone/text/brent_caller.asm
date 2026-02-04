@@ -80,7 +80,7 @@ BrentGrandpaGossipText:
 BrentGoldenrodGossipText:
 	text "Cậu có biết…?"
 	line "BILL gốc từ"
-	cont "TP. GOLDENROD."
+	cont "TP. KOGANE."
 	done
 
 BrentRoute25GossipText:

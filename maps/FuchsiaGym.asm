@@ -244,8 +244,8 @@ JanineText_DisappointYou:
 	para "Ta là thật đấy!"
 
 	para "JANINE của GYM"
-	line "FUCHSIA, chính là"
-	cont "ta!"
+	line "SEKICHIKU, chính"
+	cont "là ta!"
 	done
 
 JanineText_ToughOne:

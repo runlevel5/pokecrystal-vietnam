@@ -206,18 +206,18 @@ FastShip1F_PlayerLeavesShipRightMovement:
 	step_end
 
 FastShip1FSailor1Text_ToVermilion:
-	text "TÀU NHANH S.S.AQUA"
-	line "đang đi tới"
-	cont "TP. VERMILION."
+	text "TÀU CAO TỐC"
+	line "S.S.AQUA đang đi"
+	cont "tới KUCHIBA."
 
 	para "Chúng tôi sẽ báo"
 	line "khi tới nơi."
 	done
 
 FastShip1FSailor1Text_ToOlivine:
-	text "TÀU NHANH S.S.AQUA"
-	line "đang đi tới"
-	cont "TP. OLIVINE."
+	text "TÀU CAO TỐC"
+	line "S.S.AQUA đang đi"
+	cont "tới TP. ASAGI."
 
 	para "Chúng tôi sẽ báo"
 	line "khi tới nơi."
@@ -273,15 +273,15 @@ FastShip1FGrandpaText:
 	done
 
 FastShip1FSailor1Text_InOlivine:
-	text "TÀU NHANH S.S.AQUA"
-	line "đã tới"
-	cont "TP. OLIVINE."
+	text "TÀU CAO TỐC"
+	line "S.S.AQUA đã tới"
+	cont "TP. ASAGI."
 	done
 
 FastShip1FSailor1Text_InVermilion:
-	text "TÀU NHANH S.S.AQUA"
-	line "đã tới"
-	cont "TP. VERMILION."
+	text "TÀU CAO TỐC"
+	line "S.S.AQUA đã tới"
+	cont "TP. KUCHIBA."
 	done
 
 FastShip1F_MapEvents:

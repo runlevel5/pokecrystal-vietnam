@@ -70,8 +70,8 @@ LizGenericText:
 	text_ram wStringBuffer4
 	text " đến"
 
-	para "TT #MON VIOLET"
-	line "mỗi ngày,"
+	para "TT #MON ở CÁT"
+	line "CÁNH mỗi ngày,"
 
 	para "nên nó rất tuyệt"
 	line "vời!"

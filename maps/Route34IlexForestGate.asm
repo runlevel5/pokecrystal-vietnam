@@ -110,7 +110,7 @@ Route34IlexForestGateTeacher_GotSweetScent:
 
 Route34IlexForestGateTeacher_ForestIsRestless:
 	text "Có gì đó không ổn"
-	line "ở RỪNG ILEX…"
+	line "ở RỪNG UBAME…"
 
 	para "Con nên tránh xa"
 	line "ngay bây giờ."

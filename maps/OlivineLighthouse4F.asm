@@ -48,7 +48,7 @@ SailorKentAfterBattleText:
 	line "tôi nghe nói có"
 
 	para "NHÀ THUỐC tốt ở"
-	line "CIANWOOD."
+	line "TANBA."
 	done
 
 LassConnie1SeenText:

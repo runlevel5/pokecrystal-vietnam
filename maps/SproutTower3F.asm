@@ -209,8 +209,8 @@ SageLiSeenText:
 	text "Tốt khi con đến"
 	line "đây!"
 
-	para "THÁP MẦM là nơi"
-	line "tu luyện."
+	para "THÁP MADATSUBOMI"
+	line "là nơi tu luyện."
 
 	para "Con người và"
 	line "#MON thử thách"
@@ -252,7 +252,7 @@ SageLiFlashExplanationText:
 	line "ngoài chiến đấu,"
 
 	para "con cần HUY HIỆU"
-	line "từ GYM VIOLET."
+	line "từ GYM KIKYO."
 	done
 
 SageLiAfterBattleText:

@@ -54,8 +54,8 @@ SupernerdHughBeatenText:
 
 SupernerdHughAfterBattleText:
 	text "Tôi đang điều tra"
-	line "NÚI MORTAR nhưng"
-	cont "bạn tôi mất tích."
+	line "NÚI SURIBACHI"
+	cont "nhưng bạn mất tích"
 
 	para "Bạn có thấy HLV"
 	line "nào có SLOWPOKE"

@@ -804,7 +804,7 @@ Text_CharcoalMasterOutro:
 	para "Tất nhiên, cháu"
 	line "phải có HUY HIỆU"
 
-	para "GYM từ AZALEA mới"
+	para "GYM từ HIWADA mới"
 	line "dùng được."
 	done
 
@@ -842,7 +842,7 @@ Text_IlexForestLass:
 	done
 
 IlexForestSignpostText:
-	text "RỪNG ILEX um tùm"
+	text "RỪNG UBAME um tùm"
 	line "cây cối đến nỗi"
 
 	para "không nhìn thấy"
@@ -854,14 +854,14 @@ IlexForestSignpostText:
 	done
 
 Text_IlexForestShrine:
-	text "ĐỀN RỪNG ILEX…"
+	text "ĐỀN RỪNG UBAME…"
 
 	para "Dành cho người bảo"
 	line "vệ rừng…"
 	done
 
 Text_ShrineCelebiEvent:
-	text "ĐỀN RỪNG ILEX…"
+	text "ĐỀN RỪNG UBAME…"
 
 	para "Dành cho người bảo"
 	line "vệ rừng…"

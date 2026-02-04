@@ -27,8 +27,8 @@ Route5PokefanMText:
 Route5UndergroundPathSignText:
 	text "HẦM NGẦM"
 
-	para "TP. CERULEAN -"
-	line "TP. VERMILION"
+	para "TP. HANADA -"
+	line "TP. KUCHIBA"
 	done
 
 HouseForSaleSignText:

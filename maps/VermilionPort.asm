@@ -238,8 +238,8 @@ VermilionPortCantBoardText:
 	done
 
 VermilionPortAskBoardingText:
-	text "Chào mừng đến"
-	line "TÀU NHANH S.S.AQUA"
+	text "Chào mừng đến TÀU"
+	line "CAO TỐC S.S.AQUA!"
 
 	para "Hôm nay bạn có"
 	line "lên tàu không?"
@@ -278,13 +278,13 @@ VermilionPortNoTicketText:
 	done
 
 VermilionPortSailWednesdayText:
-	text "TÀU NHANH sẽ khởi"
-	line "hành vào Thứ Tư."
+	text "TÀU CAO TỐC sẽ"
+	line "khởi hành Thứ Tư."
 	done
 
 VermilionPortSailSundayText:
-	text "TÀU NHANH sẽ khởi"
-	line "hành Chủ Nhật tới"
+	text "TÀU CAO TỐC sẽ"
+	line "khởi hành C.Nhật."
 	done
 
 VermilionPortSuperNerdText:

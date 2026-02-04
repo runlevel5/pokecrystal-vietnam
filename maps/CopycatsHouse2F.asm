@@ -234,7 +234,7 @@ CopycatText_Male_2:
 
 	para "Bạn nghĩ mất nó"
 	line "khi đến TP."
-	cont "VERMILION à?"
+	cont "KUCHIBA à?"
 	done
 
 CopycatText_Worried:
@@ -323,7 +323,7 @@ CopycatText_Female_2:
 
 	para "Bạn nghĩ bạn mất"
 	line "nó khi ở TP."
-	cont "VERMILION à?"
+	cont "KUCHIBA à?"
 	done
 
 CopycatText_Female_3:

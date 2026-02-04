@@ -14,9 +14,9 @@ Route31VioletGateCooltrainerFScript:
 	jumptextfaceplayer Route31VioletGateCooltrainerFText
 
 Route31VioletGateOfficerText:
-	text "Chào bạn!"
-	line "Bạn đã ghé thăm"
-	cont "THÁP MẦM chưa?"
+	text "Chào bạn! Bạn đã"
+	line "ghé thăm THÁP"
+	cont "MADATSUBOMI chưa?"
 	done
 
 Route31VioletGateCooltrainerFText:

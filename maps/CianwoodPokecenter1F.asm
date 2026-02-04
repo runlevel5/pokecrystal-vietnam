@@ -94,12 +94,13 @@ CianwoodPokecenter1FUnusedText1: ; unreferenced
 	line "thể khoe #MON"
 
 	para "tôi nuôi cho bạn"
-	line "tôi ở VIOLET."
+	line "tôi ở KIKYO."
 	done
 
 CianwoodPokecenter1FUnusedText2: ; unreferenced
 	text "Tôi đang đấu với"
-	line "bạn tôi ở VIOLET"
+	line "bạn tôi ở CÁT"
+	cont "CÁNH"
 
 	para "dùng kết nối"
 	line "MOBILE ADAPTER."

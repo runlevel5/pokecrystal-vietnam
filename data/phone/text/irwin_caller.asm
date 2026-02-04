@@ -10,7 +10,7 @@ IrwinRocketTakeoverRumorText:
 	line "nghe chưa?"
 
 	para "THÁP RADIO ở"
-	line "GOLDENROD bị"
+	line "KOGANE bị"
 
 	para "chiếm bởi ĐỘI"
 	line "ROCKET!"
@@ -86,7 +86,7 @@ IrwinRisingBadgeGossipText:
 
 IrwinEliteFourGossipText:
 	text "Hôm qua, tớ đi"
-	line "đến NEW BARK."
+	line "đến WAKABA."
 
 	para "Có một bà trông"
 	line "giống cậu,"
@@ -202,7 +202,7 @@ IrwinFogBadgeGossipText:
 
 	para "Cậu đánh bại"
 	line "MORTY của GYM"
-	cont "ECRUTEAK!"
+	cont "ENJU!"
 
 	para "Th-thật không"
 	line "thể tin được!"

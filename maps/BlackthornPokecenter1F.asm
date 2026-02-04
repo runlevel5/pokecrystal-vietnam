@@ -23,7 +23,7 @@ BlackthornPokecenter1FCooltrainerMScript:
 
 BlackthornPokecenter1FGentlemanText:
 	text "Sâu trong CAO"
-	line "NGUYÊN INDIGO xa"
+	line "NGUYÊN SEKIEI xa"
 
 	para "xôi là HỘI LIÊN"
 	line "ĐOÀN #MON."

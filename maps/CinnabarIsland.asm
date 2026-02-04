@@ -104,7 +104,7 @@ CinnabarIslandBlueText:
 	para "Nếu bạn muốn"
 	line "chiến với tôi,"
 	cont "hãy đến GYM"
-	cont "VIRIDIAN."
+	cont "TOKIWA."
 
 	para "Tôi sẽ đấu với"
 	line "bạn lúc đó."
@@ -114,7 +114,7 @@ CinnabarIslandGymSignText:
 	text "Có một thông báo"
 	line "ở đây…"
 
-	para "GYM CINNABAR đã"
+	para "GYM GUREN đã"
 	line "chuyển đến ĐẢO"
 	cont "BỌT BIỂN."
 
@@ -122,7 +122,7 @@ CinnabarIslandGymSignText:
 	done
 
 CinnabarIslandSignText:
-	text "ĐẢO CINNABAR"
+	text "ĐẢO GUREN"
 
 	para "Thị Trấn Bốc Lửa"
 	line "Của Khát Khao"

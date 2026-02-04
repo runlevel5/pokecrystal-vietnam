@@ -1044,7 +1044,7 @@ _BuenaRadioText6::
 
 _BuenaRadioText7::
 	text_start
-	line "THANH GOLDENROD!"
+	line "THANH KOGANE!"
 	done
 
 _BuenaRadioMidnightText1::

@@ -154,7 +154,7 @@ EcruteakPokecenter1F_BillText2:
 	line "TT #MON."
 
 	para "Tôi phải mau về"
-	line "GOLDENROD gặp"
+	line "KOGANE gặp"
 	cont "gia đình."
 
 	para "Tạm biệt!"
@@ -181,7 +181,7 @@ EcruteakPokecenter1FPokefanMTextMobile:
 	para "Ở đâu ư?"
 
 	para "Nó qua TP."
-	line "OLIVINE một chút."
+	line "ASAGI một chút."
 	done
 
 EcruteakPokecenter1FCooltrainerFText:

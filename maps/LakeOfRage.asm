@@ -287,7 +287,7 @@ LakeOfRageLanceRadioSignalText:
 	cont "phải tiến hóa."
 
 	para "Một tín hiệu radio"
-	line "bí ẩn từ MAHOGANY"
+	line "bí ẩn từ CHOUJI"
 	cont "là nguyên nhân."
 
 	para "Ta sẽ đợi con ở"

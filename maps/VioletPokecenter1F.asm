@@ -166,7 +166,7 @@ VioletPokecenterFarawayLinkText: ; unreferenced
 
 VioletPokecenterMobileAdapterText: ; unreferenced
 	text "Tôi vừa đấu với"
-	line "bạn ở CIANWOOD"
+	line "bạn ở TANBA"
 	cont "qua kết nối."
 
 	para "Nếu bạn nối"

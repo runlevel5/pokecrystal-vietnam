@@ -95,7 +95,7 @@ CharcoalKilnBossText2:
 
 	para "Nhưng ĐỆ TỬ của"
 	line "ta vẫn chưa về"
-	cont "từ RỪNG ILEX."
+	cont "từ RỪNG UBAME."
 
 	para "Thằng lười biếng"
 	line "đó ở đâu vậy?"
@@ -105,7 +105,7 @@ CharcoalKilnBossText3:
 	text "Cháu đã đuổi ĐỘI"
 	line "ROCKET đi và"
 
-	para "đến RỪNG ILEX"
+	para "đến RỪNG UBAME"
 	line "một mình à?"
 
 	para "Thật dũng cảm!"

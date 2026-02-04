@@ -124,7 +124,7 @@ VermilionCityHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_VERMILION_CITY_HIDDEN_FULL_HEAL
 
 VermilionCityTeacherText:
-	text "CẢNG VERMILION là"
+	text "CẢNG KUCHIBA là"
 	line "cửa ngõ biển"
 	cont "của KANTO."
 
@@ -159,7 +159,7 @@ VermilionCitySuperNerdText:
 
 	para "Tòa nhà lớn đó"
 	line "là GYM #MON"
-	cont "của VERMILION."
+	cont "của KUCHIBA."
 	done
 
 VermilionCitySnorlaxSleepingText:
@@ -234,14 +234,14 @@ VermilionCityBadgeGuyBattleEdgeText:
 	done
 
 VermilionCitySignText:
-	text "VERMILION CITY"
+	text "TP. KUCHIBA"
 
 	para "Cảng Hoàng Hôn"
 	line "Tuyệt Đẹp"
 	done
 
 VermilionGymSignText:
-	text "VERMILION CITY"
+	text "TP. KUCHIBA"
 	line "GYM #MON"
 	cont "TRƯỞNG: LT.SURGE"
 
@@ -261,7 +261,7 @@ VermilionCityDiglettsCaveSignText:
 
 VermilionCityPortSignText:
 	text "LỐI VÀO"
-	line "CẢNG VERMILION"
+	line "CẢNG KUCHIBA"
 	done
 
 VermilionCity_MapEvents:

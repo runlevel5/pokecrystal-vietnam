@@ -21,7 +21,7 @@ OlivinePunishmentSpeechHouseBookshelf1:
 
 OlivinePunishmentSpeechHouseDadText:
 	text "Trên đường đến"
-	line "CIANWOOD, có"
+	line "TANBA, có"
 
 	para "bốn hòn đảo"
 	line "hoang vắng."

@@ -398,14 +398,14 @@ Route31YoungsterText:
 	cont "FALKNER."
 
 	para "Anh ấy là chủ GYM"
-	line "ở TP VIOLET."
+	line "ở TP KIKYO."
 	done
 
 Route31SignText:
 	text "TUYẾN ĐƯỜNG 31"
 
-	para "TP VIOLET -"
-	line "TP CHERRYGROVE"
+	para "TP KIKYO -"
+	line "TP YOSHINO"
 	done
 
 DarkCaveSignText:

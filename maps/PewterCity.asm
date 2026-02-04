@@ -68,7 +68,7 @@ PewterCityFruitTree2:
 
 PewterCityCooltrainerFText:
 	text "Cậu đã ghé thăm"
-	line "GYM PEWTER chưa?"
+	line "GYM NIBI chưa?"
 
 	para "TRƯỞNG dùng"
 	line "#MON hệ Đá."
@@ -114,12 +114,12 @@ PewterCityGrampsText_GotSilverWing:
 	done
 
 PewterCitySignText:
-	text "PEWTER CITY"
+	text "TP. NIBI"
 	line "TP Màu Xám Đá"
 	done
 
 PewterGymSignText:
-	text "PEWTER CITY"
+	text "TP. NIBI"
 	line "GYM #MON"
 	cont "TRƯỞNG: BROCK"
 
@@ -132,7 +132,7 @@ PewterMuseumSignText:
 	line "ở đây…"
 
 	para "BẢO TÀNG KHOA HỌC"
-	line "PEWTER đang đóng"
+	line "NIBI đang đóng"
 	cont "cửa tu sửa…"
 	done
 
@@ -146,7 +146,7 @@ PewterCityMtMoonGiftShopSignText:
 
 PewterCityWelcomeSignText:
 	text "CHÀO MỪNG ĐẾN"
-	line "PEWTER CITY!"
+	line "TP. NIBI!"
 	done
 
 PewterCity_MapEvents:

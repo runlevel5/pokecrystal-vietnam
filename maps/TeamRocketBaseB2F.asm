@@ -751,7 +751,7 @@ RocketBaseLanceWhirlpoolText:
 	line "dùng nó ngoài"
 
 	para "trận đấu với BADGE"
-	line "từ MAHOGANY GYM."
+	line "từ CHOUJI GYM."
 	done
 
 RocketBaseLanceMonMasterText:

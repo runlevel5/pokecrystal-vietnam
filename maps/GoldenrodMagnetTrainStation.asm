@@ -142,7 +142,7 @@ GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
 	text "Chúng tôi đã đến"
-	line "GOLDENROD."
+	line "KOGANE."
 
 	para "Hy vọng gặp lại"
 	line "bạn."

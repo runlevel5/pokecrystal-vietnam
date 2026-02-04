@@ -143,8 +143,8 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 RageCandyBarMerchantTryOneText:
 	text "Chào nhóc!"
 
-	para "Mới đến MAHOGANY"
-	line "TOWN hả?"
+	para "Mới đến THÔN"
+	line "CHOUJI hả?"
 
 	para "Mới đến thì nên"
 	line "thử RAGECANDYBAR"
@@ -220,7 +220,7 @@ MahoganyTownLassText:
 	done
 
 MahoganyTownSignText:
-	text "MAHOGANY TOWN"
+	text "THÔN CHOUJI"
 
 	para "Chào mừng đến"
 	line "Quê Hương Ninja"
@@ -228,12 +228,12 @@ MahoganyTownSignText:
 
 MahoganyTownRagecandybarSignText:
 	text "Khi ghé thăm"
-	line "MAHOGANY TOWN, hãy"
+	line "THÔN CHOUJI, hãy"
 	cont "thử RAGECANDYBAR!"
 	done
 
 MahoganyGymSignText:
-	text "MAHOGANY TOWN"
+	text "THÔN CHOUJI"
 	line "GYM #MON"
 	cont "TRƯỞNG: PRYCE"
 

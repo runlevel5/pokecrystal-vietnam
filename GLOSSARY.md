@@ -686,7 +686,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | English | Japanese | Vietnamese |
 |---------|----------|------------|
 | NEW BARK TOWN | Wakaba | THỊ TRẤN<BSP>WAKABA |
-| CHERRYGROVE CITY | Yoshino | TP.<BSP>YOSHINO |
+| CHERRYGROVE CITY | Yoshino | THÀNH PHỐ<BSP>YOSHINO |
 | VIOLET CITY | Kikyō | TP.<BSP>KIKYO |
 | AZALEA TOWN | Hiwada | THỊ TRẤN<BSP>HIWADA |
 | GOLDENROD CITY | Kogane | TP.<BSP>KOGANE |

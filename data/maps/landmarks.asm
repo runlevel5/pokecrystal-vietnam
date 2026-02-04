@@ -110,7 +110,7 @@ Landmarks:
 	assert_table_length NUM_LANDMARKS
 
 NewBarkTownName:     db "THỊ TRẤN<BSP>WAKABA@"
-CherrygroveCityName: db "TP.<BSP>YOSHINO@"
+CherrygroveCityName: db "THÀNH PHỐ<BSP>YOSHINO@"
 VioletCityName:      db "TP.<BSP>KIKYO@"
 AzaleaTownName:      db "THỊ TRẤN<BSP>HIWADA@"
 GoldenrodCityName:   db "TP.<BSP>KOGANE@"

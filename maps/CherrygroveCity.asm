@@ -532,7 +532,7 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "TP. YOSHINO"
+	text "THÀNH PHỐ YOSHINO"
 
 	para "Thành phố hoa"
 	line "dễ thương và thơm"

@@ -788,7 +788,7 @@ TranslatePlayerNameForLinkCable:
 	ld de, wTradeName
 .loop
 	ld a, [hli]
-	cp "@" ; terminator
+	cp CHARVAL("@") ; terminator
 	jr z, .done
 	
 	; Check if already in base a-z range ($80-$99)
@@ -835,31 +835,31 @@ TranslatePlayerNameForLinkCable:
 	jr .store
 
 .set_a
-	ld a, "a"
+	ld a, CHARVAL("a")
 	jr .store
 .set_e
-	ld a, "e"
+	ld a, CHARVAL("e")
 	jr .store
 .set_i
-	ld a, "i"
+	ld a, CHARVAL("i")
 	jr .store
 .set_u
-	ld a, "u"
+	ld a, CHARVAL("u")
 	jr .store
 .set_o
-	ld a, "o"
+	ld a, CHARVAL("o")
 	jr .store
 .set_y
-	ld a, "y"
+	ld a, CHARVAL("y")
 	jr .store
 .set_d
-	ld a, "d"
+	ld a, CHARVAL("d")
 .store
 	ld [de], a
 	inc de
 	jr .loop
 .done
-	ld a, "@" ; terminator
+	ld a, CHARVAL("@") ; terminator
 	ld [de], a
 	ret
 

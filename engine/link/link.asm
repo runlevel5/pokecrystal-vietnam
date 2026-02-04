@@ -257,6 +257,11 @@ endc
 	call Serial_ExchangeBytes
 	ld a, SERIAL_NO_DATA_BYTE
 	ld [de], a
+; Read peer's language from preamble byte 5
+; If peer is English Crystal, this will be $FD (SERIAL_PREAMBLE_BYTE)
+; If peer is Vietnamese Crystal, this will be LANG_VN ($07)
+	ld a, [wOTLinkBattleRNData + SERIAL_RN_PREAMBLE_LANG_OFFSET]
+	ld [wPeerLanguage], a
 
 	ld hl, wLinkData
 	ld de, wOTPartyData
@@ -628,6 +633,10 @@ FixDataForLinkTransfer:
 	ld [hli], a
 	dec b
 	jr nz, .preamble_loop
+; Embed language identifier in preamble byte 5 for Vietnamese detection
+; English Crystal ignores non-$FD bytes in preamble (treats as noise)
+	ld a, LANG_VN
+	ld [wLinkBattleRNPreamble + SERIAL_RN_PREAMBLE_LANG_OFFSET], a
 
 ; Initialize random seed, making sure special bytes are omitted
 	assert wLinkBattleRNPreamble + SERIAL_RN_PREAMBLE_LENGTH == wLinkBattleRNs
@@ -909,9 +918,14 @@ Link_PrepPartyData_Gen2:
 	call CopyBytes
 
 ; Translate Vietnamese text to English for link cable compatibility
+; Skip translation if peer is also Vietnamese (preserve accented characters)
 ; Note: Player name is already pre-translated to wTradeName at name entry time
+	ld a, [wPeerLanguage]
+	cp LANG_VN
+	jr z, .skip_outgoing_translation
 	call TranslateString_OTNames
 	call TranslateString_PartyMonNicknames
+.skip_outgoing_translation
 
 ; Okay, we did all that.  Now, are we in the trade center?
 	ld a, [wLinkMode]

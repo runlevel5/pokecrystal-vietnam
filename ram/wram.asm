@@ -145,6 +145,13 @@ wLinkMode::
 ; a LINK_* value for the link type
 	db
 
+wPeerLanguage::
+; Language ID of the peer during link cable communication
+; Set after RN preamble exchange; used to determine if translation is needed
+; LANG_VN = Vietnamese peer (no translation needed)
+; Any other value = non-Vietnamese peer (translation required)
+	db
+
 wScriptVar:: db
 
 wPlayerNextMovement:: db

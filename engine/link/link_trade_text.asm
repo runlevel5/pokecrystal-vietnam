@@ -279,6 +279,10 @@ TranslateReceivedOTPartyMonNicknames:
 TranslateAllReceivedOTData:
 ; Convenience function to translate all received text data
 ; Call this after copying OT data from wLinkData
+; Skip translation if peer is also Vietnamese (data already in correct format)
+	ld a, [wPeerLanguage]
+	cp LANG_VN
+	ret z
 	call TranslateReceivedOTPlayerName
 	call TranslateReceivedOTPartyMonOTs
 	jp TranslateReceivedOTPartyMonNicknames

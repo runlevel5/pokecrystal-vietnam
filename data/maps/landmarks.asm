@@ -152,7 +152,7 @@ RockTunnelName:      db "ĐƯỜNG HẦM<BSP>ĐÁ@"
 LavRadioTowerName:   db "ĐÀI RADIO<BSP>SHION@"
 SilphCoName:         db "SILPH CO.@" ; unreferenced
 SafariZoneName:      db "KHU SAFARI@" ; unreferenced
-SeafoamIslandsName:  db "ĐẢO BỌT BIỂN@"
+SeafoamIslandsName:  db "ĐẢO<BSP>SONG SINH@"
 PokemonMansionName:  db "DINH THỰ<BSP>#MON@" ; unreferenced
 CeruleanCaveName:    db "ĐỘNG<BSP>HANADA@" ; unreferenced
 Route1Name:          db "ĐƯỜNG<BSP>1@"

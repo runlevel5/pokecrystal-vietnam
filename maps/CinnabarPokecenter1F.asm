@@ -23,7 +23,7 @@ CinnabarPokecenter1FCooltrainerFText:
 
 	para "sống một mình ở"
 	line "hang động ĐẢO"
-	cont "BỌT BIỂN…"
+	cont "SONG SINH…"
 	done
 
 CinnabarPokecenter1FFisherText:

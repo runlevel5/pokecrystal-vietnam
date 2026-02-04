@@ -156,7 +156,7 @@ SwimmerfDawnAfterBattleText:
 	text "Bơi nhanh giữa"
 	line "SEKICHIKU và"
 
-	para "ĐẢO BỌT BIỂN…"
+	para "ĐẢO SONG SINH…"
 	line "mà…"
 
 	para "Chà, bạn trai tôi"
@@ -220,13 +220,13 @@ Route19SignText:
 	text "ĐƯỜNG 19"
 
 	para "TP.SEKICHIKU -"
-	line "ĐẢO BỌT BIỂN"
+	line "ĐẢO SONG SINH"
 	done
 
 CarefulSwimmingSignText:
 	text "Hãy cẩn thận nếu"
 	line "bạn đang bơi đến"
-	cont "ĐẢO BỌT BIỂN."
+	cont "ĐẢO SONG SINH."
 
 	para "C.SÁT SEKICHIKU"
 	done

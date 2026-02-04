@@ -738,7 +738,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | LAV RADIO TOWER | - | ĐÀI RADIO<BSP>SHION |
 | SILPH CO. | - | SILPH CO. |
 | SAFARI ZONE | - | KHU SAFARI |
-| SEAFOAM ISLANDS | - | ĐẢO BỌT BIỂN |
+| SEAFOAM ISLANDS | Futago | ĐẢO<BSP>SONG SINH |
 | POKEMON MANSION | - | DINH THỰ<BSP>#MON |
 | CERULEAN CAVE | - | ĐỘNG<BSP>HANADA |
 | DIGLETT'S CAVE | - | ĐỘNG<BSP>DIGLETT |

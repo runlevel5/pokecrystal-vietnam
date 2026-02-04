@@ -80,7 +80,7 @@ This change makes the game more accessible to Vietnamese players who use the met
 #### 5. Pokemon Names
 All Pokemon species names remain in English:
 - PIKACHU, RATTATA, BELLSPROUT, PIDGEY, TOGEPI, etc.
-- Pokemon nicknames can be Vietnamese (e.g., STRAWBERRY → DÂU)
+- Pokemon nicknames are **English-only** (restricted input for link cable compatibility - see "Naming Screen Character Sets" section)
 - **Exception**: EGG (the placeholder name for unhatched Pokemon) is translated to TRỨNG
 
 #### 6. Special Terms
@@ -337,14 +337,22 @@ To enable trading between Vietnamese and English Pokemon Crystal versions, a tra
 
 **Translation Functions:**
 
-1. **TranslateVietnameseToEnglish** - Core translation routine
+1. **TranslateVietnameseToEnglish** - Core outgoing translation routine
    - Input: hl = source string, de = destination, bc = length
    - Converts Vietnamese accented characters to base letters
-   - English characters ($80-$99 = a-z) pass through unchanged
+   - Vietnamese a-z ($80-$99) pass through unchanged
 
-2. **TranslateString_PlayerName** - Translates player name before sending
-3. **TranslateString_OTNames** - Translates Original Trainer names
-4. **TranslateString_PartyMonNicknames** - Translates Pokemon nicknames
+2. **TranslateEnglishToVietnamese** - Core incoming translation routine
+   - Input: hl = string pointer (in-place), bc = length
+   - Converts English lowercase a-z ($A0-$B9) to Vietnamese a-z ($80-$99)
+   - English uppercase ($80-$99) already compatible, pass through unchanged
+
+3. **TranslatePlayerNameForLinkCable** - Pre-translates player name at input time (engine/menus/intro_menu.asm)
+   - Translates `wPlayerName` to `wTradeName` when player enters their name
+   - Also called when continuing a saved game
+4. **TranslateString_OTNames** - Translates outgoing Original Trainer names
+5. **TranslateString_PartyMonNicknames** - Translates outgoing Pokemon nicknames (defensive)
+6. **TranslateAllReceivedOTData** - Translates all incoming text (player name, OT names, nicknames)
 
 **Translation Rules:**
 
@@ -362,8 +370,9 @@ When a Vietnamese player trades to English:
 #### English → Vietnamese Trading
 
 When an English player trades to Vietnamese:
-- **English names**: Display correctly in Vietnamese version due to trading-compatible font layout
-- **Vietnamese display**: No translation needed - Vietnamese version displays English a-z characters correctly
+- **English uppercase**: A-Z ($80-$99) display correctly as a-z (same codes)
+- **English lowercase**: a-z ($A0-$B9) are translated to Vietnamese a-z ($80-$99)
+- Without translation, "Pikachu" would display as "Piáàảãạ" (garbage)
 
 ### Example Scenarios
 
@@ -385,16 +394,19 @@ When an English player trades to Vietnamese:
 Translation is called in `Link_PrepPartyData_Gen2` (engine/link/link.asm) after copying party data to `wLinkData` but before sending over the link cable.
 
 **Order of Operations:**
-1. Copy player name, party data, OT names, nicknames to wLinkData
-2. Call TranslateString_PlayerName
-3. Call TranslateString_OTNames
-4. Call TranslateString_PartyMonNicknames
-5. Send translated wLinkData over link cable
+1. Copy pre-translated player name (wTradeName), party data, OT names, nicknames to wLinkData
+2. Call TranslateString_OTNames
+3. Call TranslateString_PartyMonNicknames
+4. Send translated wLinkData over link cable
 
-**Why Translation is One-Way (Vietnamese → English only):**
-- The trading-compatible font layout ensures English a-z characters display correctly in Vietnamese
-- Vietnamese accented characters need translation to display as readable base letters in English
-- No reverse translation needed (English → Vietnamese) since English characters are already compatible
+**Note:** Player name is pre-translated once at name entry time (stored in `wTradeName`), so no runtime translation is needed during trading.
+
+**Incoming Translation:**
+After receiving data from English Crystal, `TranslateAllReceivedOTData` is called to convert English lowercase characters to Vietnamese character codes. This is hooked in both `Gen1ToGen2LinkComms` and `Gen2ToGen2LinkComms`.
+
+**Why Translation is Bidirectional:**
+- **Outgoing (VN→EN)**: Vietnamese accented characters need translation to display as readable base letters in English
+- **Incoming (EN→VN)**: English lowercase a-z ($A0-$B9) must be converted to Vietnamese a-z ($80-$99) or they display as accented characters
 
 ### Future Improvements
 

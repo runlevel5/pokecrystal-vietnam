@@ -818,21 +818,20 @@ Text_ThisWayToMobileRoom: ; unreferenced
 	done
 
 Text_BattleReceptionistIntro:
-	text "Chào mừng đến"
-	line "ĐẤU TRƯỜNG CÁP"
-	cont "CLUB."
+	text "Chào mừng đến CLB"
+	line "ĐẤU TRƯỜNG QUA CÁP"
 
-	para "Bạn có thể đấu"
+	para "Bạn có thể thi đấu"
 	line "với bạn bè ở đây."
 
-	para "Bạn có muốn đấu"
-	line "không?"
+	para "Bạn có muốn thách"
+	line "thức không?"
 	done
 
 Text_TradeReceptionistIntro:
 	text "Chào mừng đến"
-	line "TT GIAO DỊCH"
-	cont "CÁP."
+	line "TRUNG TÂM GIAO"
+	cont "DỊCH QUA CÁP."
 
 	para "Bạn có thể giao"
 	line "dịch #MON ở đây"
@@ -844,8 +843,7 @@ Text_TradeReceptionistIntro:
 
 Text_TimeCapsuleReceptionistIntro:
 	text "Chào mừng đến"
-	line "VIÊN NANG THỜI"
-	cont "GIAN."
+	line "CỖ MÁY THỜI GIAN."
 
 	para "Bạn có thể du"
 	line "hành về quá khứ"
@@ -941,21 +939,20 @@ Text_RejectMonWithMail:
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "Xin lỗi--TIME"
-	line "CAPSULE đang được"
-	cont "điều chỉnh."
+	text "Xin lỗi--MÁY THỜI"
+	line "GIAN đang được bảo"
+	cont "trì."
 	done
 
 Text_TradeRoomClosed:
 	text "Xin lỗi--MÁY GIAO"
-	line "DỊCH đang được"
-	cont "điều chỉnh."
+	line "DỊCH đang được bảo"
+	cont "trì."
 	done
 
 Text_BattleRoomClosed:
 	text "Xin lỗi--MÁY ĐẤU"
-	line "đang được điều"
-	cont "chỉnh."
+	line "đang được bảo trì."
 	done
 
 Text_MysteryGiftDeliveryGuy_Intro:

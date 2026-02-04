@@ -1,6 +1,53 @@
-; Vietnamese to English character translation for link cable trading
-; This allows Pokemon with Vietnamese names to display with base letters
-; when traded to English Pokemon Crystal
+; Character translation for link cable trading between Vietnamese and English Pokemon Crystal
+;
+; English Crystal character map:
+;   $80-$99 = UPPERCASE A-Z
+;   $A0-$B9 = lowercase a-z
+;
+; Vietnamese Crystal character map:
+;   $80-$99 = a-z (single case)
+;   $A0-$DF = Vietnamese accented characters
+;
+; Translation needed:
+;   - Outgoing (VN→EN): Vietnamese accented chars → base English letters
+;   - Incoming (EN→VN): English lowercase $A0-$B9 → Vietnamese $80-$99
+
+
+TranslateEnglishToVietnamese:
+; Translates a string of English characters to Vietnamese character codes
+; This converts English lowercase a-z ($A0-$B9) to Vietnamese a-z ($80-$99)
+; Input:
+;   hl = source string pointer (translates in-place)
+;   bc = max length of string
+; Output:
+;   String at hl contains translated characters
+
+.loop
+	ld a, [hl]
+	cp $50 ; "@" string terminator
+	jr z, .done
+	
+	; Check if in English lowercase range ($A0-$B9)
+	cp $A0
+	jr c, .no_translation
+	cp $BA
+	jr nc, .no_translation
+	
+	; Convert English lowercase ($A0-$B9) to Vietnamese ($80-$99)
+	; a = a - $20 (subtract $20 to shift from $A0-$B9 to $80-$99)
+	sub $20
+	ld [hl], a
+	
+.no_translation
+	inc hl
+	dec bc
+	ld a, b
+	or c
+	jr nz, .loop
+
+.done
+	ret
+
 
 TranslateVietnameseToEnglish:
 ; Translates a string of Vietnamese characters to base English letters
@@ -117,16 +164,6 @@ TranslateVietnameseToEnglish:
 	ret
 
 
-TranslateString_PlayerName:
-; Translates wPlayerName to wLinkData (for sending to other player)
-; This is called before sending data over link cable
-	ld hl, wPlayerName
-	ld de, wLinkData + SERIAL_PREAMBLE_LENGTH
-	ld bc, NAME_LENGTH
-	call TranslateVietnameseToEnglish
-	ret
-
-
 TranslateString_PartyMonNicknames:
 ; Translates party mon nicknames in wLinkData
 ; This is called before sending data over link cable
@@ -188,3 +225,60 @@ TranslateString_OTNames:
 	dec b
 	jr nz, .loop
 	ret
+
+
+; ============================================================================
+; INCOMING TRANSLATION (English → Vietnamese)
+; Called after receiving data from English Crystal
+; ============================================================================
+
+TranslateReceivedOTPlayerName:
+; Translates the received OT player name from English to Vietnamese
+; English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
+	ld hl, wOTPlayerName
+	ld bc, NAME_LENGTH
+	jp TranslateEnglishToVietnamese
+
+
+TranslateReceivedOTPartyMonOTs:
+; Translates all received OT names from English to Vietnamese
+	ld hl, wOTPartyMonOTs
+	ld b, PARTY_LENGTH
+.loop
+	push bc
+	push hl
+	ld bc, NAME_LENGTH
+	call TranslateEnglishToVietnamese
+	pop hl
+	ld bc, NAME_LENGTH
+	add hl, bc
+	pop bc
+	dec b
+	jr nz, .loop
+	ret
+
+
+TranslateReceivedOTPartyMonNicknames:
+; Translates all received Pokemon nicknames from English to Vietnamese
+	ld hl, wOTPartyMonNicknames
+	ld b, PARTY_LENGTH
+.loop
+	push bc
+	push hl
+	ld bc, MON_NAME_LENGTH
+	call TranslateEnglishToVietnamese
+	pop hl
+	ld bc, MON_NAME_LENGTH
+	add hl, bc
+	pop bc
+	dec b
+	jr nz, .loop
+	ret
+
+
+TranslateAllReceivedOTData:
+; Convenience function to translate all received text data
+; Call this after copying OT data from wLinkData
+	call TranslateReceivedOTPlayerName
+	call TranslateReceivedOTPartyMonOTs
+	jp TranslateReceivedOTPartyMonNicknames

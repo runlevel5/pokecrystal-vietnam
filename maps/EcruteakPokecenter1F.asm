@@ -108,15 +108,15 @@ EcruteakPokecenter1F_BillText1:
 
 EcruteakPokecenter1F_BillText2:
 	text "Tôi vừa hoàn tất"
-	line "điều chỉnh TIME"
-	cont "CAPSULE của tôi."
+	line "điều chỉnh CỖ MÁY"
+	cont "THỜI GIAN của tôi."
 
 	para "Bạn biết #MON"
 	line "có thể trao đổi,"
 	cont "đúng không?"
 
-	para "TIME CAPSULE của"
-	line "tôi được phát"
+	para "CỖ MÁY THỜI GIAN"
+	line "của tôi được phát"
 
 	para "triển để trao đổi"
 	line "với quá khứ."
@@ -138,17 +138,17 @@ EcruteakPokecenter1F_BillText2:
 	line "quá khứ."
 
 	para "Nói đơn giản, ko"
-	line "gửi chiêu mới"
+	line "gửi chiêu mới hay"
 
-	para "hay #MON mới"
-	line "vào TIME CAPSULE."
+	para "#MON mới vào CỖ"
+	line "MÁY THỜI GIAN."
 
 	para "Đừng lo lắng."
 	line "Tôi đã hoàn tất"
 	cont "điều chỉnh rồi."
 
-	para "Ngày mai, TIME"
-	line "CAPSULE sẽ hoạt"
+	para "Ngày mai, CỖ MÁY"
+	line "THỜI GIAN sẽ hoạt"
 
 	para "động ở tất cả"
 	line "TT #MON."

@@ -2883,6 +2883,7 @@ wPlayerData::
 wPlayerID:: dw
 
 wPlayerName:: ds NAME_LENGTH
+wTradeName:: ds NAME_LENGTH ; Pre-translated player name for link cable trading
 wMomsName::   ds NAME_LENGTH
 wRivalName::  ds NAME_LENGTH
 wRedsName::   ds NAME_LENGTH

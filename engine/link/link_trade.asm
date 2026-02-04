@@ -178,7 +178,7 @@ PlaceWaitingTextAndSyncAndExchangeNybble:
 	jp DelayFrames
 
 .Waiting:
-	db "ĐANG CHỜ..!@"
+	db "ĐANG CHỜ..@"
 
 LinkTradeMenu:
 	call .MenuAction

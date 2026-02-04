@@ -377,6 +377,7 @@ Continue:
 	jr z, .SpawnAfterE4
 	ld a, MAPSETUP_CONTINUE
 	ldh [hMapEntryMethod], a
+	call TranslatePlayerNameForLinkCable ; Translate for link cable (existing saves)
 	jp FinishContinueFunction
 
 .FailToLoad:
@@ -386,6 +387,7 @@ Continue:
 	ld a, SPAWN_NEW_BARK
 	ld [wDefaultSpawnpoint], a
 	call PostCreditsSpawn
+	call TranslatePlayerNameForLinkCable ; Translate for link cable (existing saves)
 	jp FinishContinueFunction
 
 SpawnAfterRed:
@@ -748,7 +750,7 @@ NamePlayer:
 	call StorePlayerName
 	farcall ApplyMonOrTrainerPals
 	farcall MovePlayerPicLeft
-	ret
+	jr TranslatePlayerNameForLinkCable
 
 .NewName:
 	ld b, NAME_PLAYER
@@ -770,18 +772,100 @@ NamePlayer:
 	call RotateThreePalettesLeft
 
 	ld hl, wPlayerName
-	ld de, .Chris
+	ld de, NamePlayer_Chris
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .Male
-	ld de, .Kris
+	ld de, NamePlayer_Kris
 .Male:
 	call InitName
+	; Fall through to TranslatePlayerNameForLinkCable
+
+TranslatePlayerNameForLinkCable:
+; Translate wPlayerName to wTradeName for link cable trading
+; Converts Vietnamese accented characters to base English letters
+	ld hl, wPlayerName
+	ld de, wTradeName
+.loop
+	ld a, [hli]
+	cp CHARVAL("@") ; terminator
+	jr z, .done
+	
+	; Check if already in base a-z range ($80-$99)
+	cp $80
+	jr c, .store
+	cp $9a
+	jr c, .store
+	
+	; a-family ($a0-$b0) -> "a" ($80)
+	cp $a0
+	jr c, .store
+	cp $b1
+	jr c, .set_a
+	
+	; e-family ($b1-$ba) -> "e" ($84)
+	cp $bb
+	jr c, .set_e
+	
+	; i-family ($bb-$bf) -> "i" ($88)
+	cp $c0
+	jr c, .set_i
+	
+	; u-family ($c0-$ca) -> "u" ($94)
+	cp $cb
+	jr c, .set_u
+	
+	; o-family ($cb-$db) -> "o" ($8e)
+	cp $dc
+	jr c, .set_o
+	
+	; y-family ($dc-$df) -> "y" ($98)
+	cp $e0
+	jr c, .set_y
+	
+	; đ ($e5) -> "d" ($83)
+	cp $e5
+	jr z, .set_d
+	
+	; é ($ea) -> "e" ($84)
+	cp $ea
+	jr z, .set_e
+	
+	; Unknown char, store as-is
+	jr .store
+
+.set_a
+	ld a, CHARVAL("a")
+	jr .store
+.set_e
+	ld a, CHARVAL("e")
+	jr .store
+.set_i
+	ld a, CHARVAL("i")
+	jr .store
+.set_u
+	ld a, CHARVAL("u")
+	jr .store
+.set_o
+	ld a, CHARVAL("o")
+	jr .store
+.set_y
+	ld a, CHARVAL("y")
+	jr .store
+.set_d
+	ld a, CHARVAL("d")
+.store
+	ld [de], a
+	inc de
+	jr .loop
+.done
+	ld a, CHARVAL("@") ; terminator
+	ld [de], a
 	ret
 
-.Chris:
+NamePlayer_Chris:
 	dname "Trung", NAME_LENGTH
-.Kris:
+NamePlayer_Kris:
 	dname "Trang", NAME_LENGTH
 
 GSShowPlayerNamingChoices: ; unreferenced

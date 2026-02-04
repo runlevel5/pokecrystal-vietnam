@@ -62,26 +62,39 @@ All other toned vowels (Á, À, Ả, Ắ, Ấ, Ế, Ố, etc.) map to their lowe
 
 ### Trading Compatibility Strategy
 
-**Problem:** Vietnamese and English versions have different font layouts. When trading Pokemon with nicknames:
-- English sends `$A0-$B9` for lowercase a-z
-- Vietnamese will wrongly render `$A0-$B9` as á-ị
+**Problem:** Vietnamese and English versions have different font layouts. When trading Pokemon:
 
-**Solution:** To devise a translation layer to map them to correct glyphs on Vietnamese side. 
+| Direction | Issue |
+|-----------|-------|
+| English → Vietnamese | English sends lowercase a-z as `$A0-$B9`, but Vietnamese uses `$A0-$DF` for accented characters |
+| Vietnamese → English | Vietnamese accented characters (`$A0-$DF`) would display as garbage in English |
 
-### Next Steps: Translation Layer
+**Solution:** Bidirectional translation layer in `engine/link/link_trade_text.asm`:
 
-To enable trading with English Crystal, implement translation functions:
+1. **TranslateEnglishToVietnamese** (Incoming): Convert English lowercase `$A0-$B9` → Vietnamese `$80-$99`
+2. **TranslateVietnameseToEnglish** (Outgoing): Convert Vietnamese accented chars → base English letters
 
-1. **TranslateEnglishToVietnamese**: Convert incoming English text (`$A0-$B9` = a-z) to Vietnamese (`$80-$99` = a-z)
-   - Already compatible! No translation needed for basic a-z.
+### Translation Layer Implementation
 
-2. **TranslateVietnameseToEnglish**: Convert Vietnamese accented characters to base letters
-   - á à ả ã ạ ă ắ ằ ẳ ẵ ặ â ấ ầ ẩ ẫ ậ → a (`$80`)
-   - é è ẻ ẽ ẹ ê ế ề ể ễ ệ → e (`$84`)
-   - í ì ỉ ĩ ị → i (`$88`)
-   - ó ò ỏ õ ọ ô ố ồ ổ ỗ ộ ơ ớ ờ ở ỡ ợ → o (`$8E`)
-   - ú ù ủ ũ ụ ư ứ ừ ử ữ ự → u (`$94`)
-   - ý ỳ ỷ ỹ → y (`$98`)
-   - đ → d (`$83`)
+#### Incoming (English → Vietnamese)
 
-3. **Hook into link cable code** in `engine/link/` to automatically translate names during trading/battling.
+When receiving data from English Crystal:
+- English uppercase A-Z (`$80-$99`) → Already compatible (displays as a-z)
+- English lowercase a-z (`$A0-$B9`) → Must translate to `$80-$99`
+
+```
+English $A0 (a) → Vietnamese $80 (a)
+English $A1 (b) → Vietnamese $81 (b)
+...
+English $B9 (z) → Vietnamese $99 (z)
+```
+
+**Hook location:** After `CopyBytes` in `Gen1ToGen2LinkComms` and `Gen2ToGen2LinkComms` (engine/link/link.asm)
+
+#### Outgoing (Vietnamese → English)
+
+When sending data to English Crystal:
+- Vietnamese a-z (`$80-$99`) → Already compatible with English uppercase
+- Vietnamese accented chars (`$A0-$DF`) → Must translate to base letters
+
+See [GLOSSARY.md](GLOSSARY.md) for the complete Vietnamese-to-English character mapping.

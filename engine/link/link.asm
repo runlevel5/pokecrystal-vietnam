@@ -191,6 +191,10 @@ endc
 	ld a, HIGH(wOTPartyMonOTs)
 	ld [wUnusedNamesPointer + 1], a
 
+; Translate received English text to Vietnamese character codes
+; English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
+	call TranslateAllReceivedOTData
+
 	ld de, MUSIC_NONE
 	call PlayMusic
 	ldh a, [hSerialConnectionStatus]
@@ -460,6 +464,10 @@ endc
 	ld [wUnusedNamesPointer], a
 	ld a, HIGH(wOTPartyMonOTs)
 	ld [wUnusedNamesPointer + 1], a
+
+; Translate received English text to Vietnamese character codes
+; English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
+	call TranslateAllReceivedOTData
 
 	ld de, MUSIC_NONE
 	call PlayMusic
@@ -876,7 +884,7 @@ Link_PrepPartyData_Gen2:
 	dec b
 	jr nz, .preamble_loop
 
-	ld hl, wPlayerName
+	ld hl, wTradeName ; Use pre-translated English name for link cable
 	ld bc, NAME_LENGTH
 	call CopyBytes
 
@@ -901,7 +909,7 @@ Link_PrepPartyData_Gen2:
 	call CopyBytes
 
 ; Translate Vietnamese text to English for link cable compatibility
-	call TranslateString_PlayerName
+; Note: Player name is already pre-translated to wTradeName at name entry time
 	call TranslateString_OTNames
 	call TranslateString_PartyMonNicknames
 
@@ -1427,7 +1435,7 @@ LinkTrade_TradeStatsMenu:
 
 .joy_loop
 	ld a, ' '
-	ldcoord_a 11, 16
+	ldcoord_a 10, 16
 	ld a, PAD_A | PAD_B | PAD_RIGHT
 	ld [wMenuJoypadFilter], a
 	ld a, 1
@@ -1468,7 +1476,7 @@ LinkTrade_TradeStatsMenu:
 	ld [w2DMenuNumCols], a
 	ld a, 16
 	ld [w2DMenuCursorInitY], a
-	ld a, 11
+	ld a, 10
 	ld [w2DMenuCursorInitX], a
 	ld a, 1
 	ld [wMenuCursorY], a
@@ -1729,16 +1737,16 @@ LinkTrade:
 	bccoord 1, 14
 	call PrintTextboxTextAt
 	call LoadStandardMenuHeader
-	hlcoord 10, 7
+	hlcoord 9, 7
 	ld b, 3
-	ld c, 7
+	ld c, 9
 	call LinkTextboxAtHL
 	ld de, String_TradeCancel
-	hlcoord 12, 8
+	hlcoord 11, 8
 	call PlaceString
 	ld a, 8
 	ld [w2DMenuCursorInitY], a
-	ld a, 11
+	ld a, 10
 	ld [w2DMenuCursorInitX], a
 	ld a, 1
 	ld [w2DMenuNumCols], a

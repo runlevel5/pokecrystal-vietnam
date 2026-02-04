@@ -732,7 +732,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | CINNABAR ISLAND | Guren | ĐẢO<BSP>GUREN |
 | INDIGO PLATEAU | Sekiei | CAO NGUYÊN<BSP>SEKIEI |
 | VICTORY ROAD | - | LỐI<BSP>VINH QUANG |
-| MT.MOON | - | NÚI M.TRĂNG |
+| MT.MOON | Otsukimi | NÚI OTSUKIMI |
 | ROCK TUNNEL | - | ĐƯỜNG HẦM<BSP>ĐÁ |
 | POWER PLANT | - | NHÀ MÁY<BSP>ĐIỆN |
 | LAV RADIO TOWER | - | ĐÀI RADIO<BSP>SHION |

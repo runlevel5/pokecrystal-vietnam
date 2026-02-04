@@ -125,7 +125,7 @@ FirebreatherBurtAfterBattleText:
 
 Route3MtMoonSquareSignText:
 	text "QUẢNG TRƯỜNG"
-	line "NÚI M.TRĂNG"
+	line "NÚI OTSUKIMI"
 
 	para "Đi lên cầu thang."
 	done

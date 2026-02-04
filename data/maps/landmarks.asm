@@ -147,7 +147,7 @@ FuchsiaCityName:     db "TP.<BSP>SEKICHIKU@"
 CinnabarIslandName:  db "ĐẢO<BSP>GUREN@"
 IndigoPlateauName:   db "CAO NGUYÊN<BSP>SEKIEI@"
 VictoryRoadName:     db "LỐI<BSP>VINH QUANG@"
-MtMoonName:          db "NÚI M.TRĂNG@"
+MtMoonName:          db "NÚI OTSUKIMI@"
 RockTunnelName:      db "ĐƯỜNG HẦM<BSP>ĐÁ@"
 LavRadioTowerName:   db "ĐÀI RADIO<BSP>SHION@"
 SilphCoName:         db "SILPH CO.@" ; unreferenced

@@ -77,7 +77,7 @@ PewterCityCooltrainerFText:
 PewterCityBugCatcherText:
 	text "Ban đêm, CLEFAIRY"
 	line "ra chơi ở NÚI"
-	cont "M.TRĂNG."
+	cont "OTSUKIMI."
 
 	para "Nhưng không phải"
 	line "đêm nào cũng thế."
@@ -140,8 +140,8 @@ PewterCityMtMoonGiftShopSignText:
 	text "Có thông báo"
 	line "ở đây…"
 
-	para "CỬA HÀNG QUÀ"
-	line "NÚI M.TRĂNG ĐÃ MỞ!"
+	para "CỬA HÀNG QUÀ NÚI"
+	line "OTSUKIMI ĐÃ MỞ!"
 	done
 
 PewterCityWelcomeSignText:

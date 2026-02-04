@@ -226,7 +226,7 @@ CeruleanCityYoungsterText2:
 	done
 
 CeruleanCitySignText:
-	text "TP. HANADA"
+	text "THÀNH PHỐ HANADA"
 
 	para "Hào Quang Xanh Bí"
 	line "Ẩn Bao Quanh Nó"

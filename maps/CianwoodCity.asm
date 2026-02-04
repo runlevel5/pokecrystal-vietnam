@@ -341,7 +341,7 @@ EusineAfterText:
 	done
 
 CianwoodCitySignText:
-	text "TP TANBA"
+	text "THÀNH PHỐ TANBA"
 
 	para "Cảng biển bao"
 	line "quanh bởi sóng dữ"

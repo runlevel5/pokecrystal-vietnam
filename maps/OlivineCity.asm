@@ -246,7 +246,7 @@ OlivineCitySailor2Text:
 	done
 
 OlivineCitySignText:
-	text "TP ASAGI"
+	text "THÀNH PHỐ ASAGI"
 
 	para "Cảng gần đất"
 	line "nước ngoài nhất"

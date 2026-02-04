@@ -217,7 +217,7 @@ EcruteakCityGramps3Text:
 	done
 
 EcruteakCitySignText:
-	text "TP ENJU"
+	text "THÀNH PHỐ ENJU"
 	line "Thành phố lịch sử"
 
 	para "Nơi quá khứ gặp"

@@ -687,14 +687,14 @@ This document contains all English-Vietnamese translation terms used in the Viet
 |---------|----------|------------|
 | NEW BARK TOWN | Wakaba | THỊ TRẤN<BSP>WAKABA |
 | CHERRYGROVE CITY | Yoshino | THÀNH PHỐ<BSP>YOSHINO |
-| VIOLET CITY | Kikyō | TP.<BSP>KIKYO |
+| VIOLET CITY | Kikyō | THÀNH PHỐ<BSP>KIKYO |
 | AZALEA TOWN | Hiwada | THỊ TRẤN<BSP>HIWADA |
-| GOLDENROD CITY | Kogane | TP.<BSP>KOGANE |
-| ECRUTEAK CITY | Enju | TP.<BSP>ENJU |
-| OLIVINE CITY | Asagi | TP.<BSP>ASAGI |
-| CIANWOOD CITY | Tanba | TP.<BSP>TANBA |
+| GOLDENROD CITY | Kogane | THÀNH PHỐ<BSP>KOGANE |
+| ECRUTEAK CITY | Enju | THÀNH PHỐ<BSP>ENJU |
+| OLIVINE CITY | Asagi | THÀNH PHỐ<BSP>ASAGI |
+| CIANWOOD CITY | Tanba | THÀNH PHỐ<BSP>TANBA |
 | MAHOGANY TOWN | Chōji | THỊ TRẤN<BSP>CHOUJI |
-| BLACKTHORN CITY | Fusube | TP.<BSP>FUSUBE |
+| BLACKTHORN CITY | Fusube | THÀNH PHỐ<BSP>FUSUBE |
 | LAKE OF RAGE | Ikari no Mizuumi | HỒ<BSP>GYARADOS |
 | SILVER CAVE | Shirogane | HANG NÚI<BSP>BẠC |
 | SPROUT TOWER | Madatsubomi | THÁP<BSP>MADATSUBOMI |
@@ -721,11 +721,11 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | English | Japanese | Vietnamese |
 |---------|----------|------------|
 | PALLET TOWN | Masara | THỊ TRẤN<BSP>MASARA |
-| VIRIDIAN CITY | Tokiwa | TP.<BSP>TOKIWA |
-| PEWTER CITY | Nibi | TP.<BSP>NIBI |
-| CERULEAN CITY | Hanada | TP.<BSP>HANADA |
+| VIRIDIAN CITY | Tokiwa | THÀNH PHỐ<BSP>TOKIWA |
+| PEWTER CITY | Nibi | THÀNH PHỐ<BSP>NIBI |
+| CERULEAN CITY | Hanada | THÀNH PHỐ<BSP>HANADA |
 | LAVENDER TOWN | Shion | THỊ TRẤN<BSP>SHION |
-| VERMILION CITY | Kuchiba | TP.<BSP>KUCHIBA |
+| VERMILION CITY | Kuchiba | THÀNH PHỐ<BSP>KUCHIBA |
 | CELADON CITY | Tamamushi | TP.<BSP>TAMAMUSHI |
 | SAFFRON CITY | Yamabuki | TP.<BSP>YAMABUKI |
 | FUCHSIA CITY | Sekichiku | TP.<BSP>SEKICHIKU |

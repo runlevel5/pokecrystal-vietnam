@@ -439,7 +439,7 @@ GoldenrodGymSignText:
 	done
 
 GoldenrodCitySignText:
-	text "TP. KOGANE"
+	text "THÀNH PHỐ KOGANE"
 
 	para "Thành phố lễ hội"
 	line "đầy quyến rũ"

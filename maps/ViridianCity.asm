@@ -185,7 +185,7 @@ ViridianCityYoungsterText:
 	done
 
 ViridianCitySignText:
-	text "TP. TOKIWA"
+	text "THÀNH PHỐ TOKIWA"
 
 	para "Thiên Đường Xanh"
 	line "Mãi Mãi"

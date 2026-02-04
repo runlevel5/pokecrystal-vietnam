@@ -234,7 +234,7 @@ VermilionCityBadgeGuyBattleEdgeText:
 	done
 
 VermilionCitySignText:
-	text "TP. KUCHIBA"
+	text "THÀNH PHỐ KUCHIBA"
 
 	para "Cảng Hoàng Hôn"
 	line "Tuyệt Đẹp"

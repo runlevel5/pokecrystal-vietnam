@@ -249,7 +249,7 @@ VioletCityYoungsterText:
 	done
 
 VioletCitySignText:
-	text "TP KIKYO"
+	text "THÀNH PHỐ KIKYO"
 
 	para "Thành phố của"
 	line "hương thơm xưa"

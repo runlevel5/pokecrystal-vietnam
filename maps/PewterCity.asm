@@ -114,7 +114,7 @@ PewterCityGrampsText_GotSilverWing:
 	done
 
 PewterCitySignText:
-	text "TP. NIBI"
+	text "THÀNH PHỐ NIBI"
 	line "TP Màu Xám Đá"
 	done
 

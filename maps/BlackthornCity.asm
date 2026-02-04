@@ -271,7 +271,7 @@ BlackthornCooltrainerF2Text:
 	done
 
 BlackthornCitySignText:
-	text "TP. FUSUBE"
+	text "THÀNH PHỐ FUSUBE"
 
 	para "Nơi Ẩn Dật Yên"
 	line "Tĩnh Trên Núi"

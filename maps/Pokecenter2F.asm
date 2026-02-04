@@ -818,9 +818,8 @@ Text_ThisWayToMobileRoom: ; unreferenced
 	done
 
 Text_BattleReceptionistIntro:
-	text "Chào mừng đến"
-	line "ĐẤU TRƯỜNG CÁP"
-	cont "CLUB."
+	text "Chào mừng đến CLB"
+	line "ĐẤU TRƯỜNG QUA CÁP"
 
 	para "Bạn có thể đấu"
 	line "với bạn bè ở đây."
@@ -831,8 +830,8 @@ Text_BattleReceptionistIntro:
 
 Text_TradeReceptionistIntro:
 	text "Chào mừng đến"
-	line "TT GIAO DỊCH"
-	cont "CÁP."
+	line "TRUNG TÂM GIAO"
+	cont "DỊCH QUA CÁP."
 
 	para "Bạn có thể giao"
 	line "dịch #MON ở đây"

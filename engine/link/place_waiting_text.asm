@@ -21,4 +21,4 @@ PlaceWaitingText::
 	jp DelayFrames
 
 .Waiting:
-	db "Đang chờ...!@"
+	db "Đang chờ...@"

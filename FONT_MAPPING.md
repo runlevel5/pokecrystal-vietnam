@@ -72,7 +72,7 @@ All other toned vowels (Á, À, Ả, Ắ, Ấ, Ế, Ố, etc.) map to their lowe
 
 To enable trading with English Crystal, implement translation functions:
 
-1. **TranslateEnglishToVietnamese**: Convert incoming English text ($80-$99 = a-z) to Vietnamese ($80-$99 = a-z)
+1. **TranslateEnglishToVietnamese**: Convert incoming English text (`$A0-$B9` = a-z) to Vietnamese (`$80-$99` = a-z)
    - Already compatible! No translation needed for basic a-z.
 
 2. **TranslateVietnameseToEnglish**: Convert Vietnamese accented characters to base letters

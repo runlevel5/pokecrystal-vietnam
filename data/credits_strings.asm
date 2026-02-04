@@ -101,9 +101,9 @@ CreditsStringsPointers:
 	dw .Coordination
 	dw .Copyright
 	dw .VnVersionStaff
-	dw .TrungLe
-	dw .HieuLe
-	dw .TrangLe
+	dw .LeTrung
+	dw .LeHieu
+	dw .LeTrang
 	dw .Programmer
 	dw .TextTranslation
 	assert_table_length NUM_CREDITS_STRINGS
@@ -213,9 +213,9 @@ CreditsStringsPointers:
 .VnVersionStaff:      db " BẢN TIẾNG VIỆT@"
 .Programmer:          db "  LẬP TRÌNH@"
 .TextTranslation:     db "   DỊCH THUẬT@"
-.TrungLe:             db "   LÊ ĐỨC TRUNG@"
-.HieuLe:              db "   LÊ ĐỨC HIẾU@"
-.TrangLe:             db " LÊ THỊ THU TRANG@"
+.LeTrung:             db "   LÊ ĐỨC TRUNG@"
+.LeHieu:              db "   LÊ ĐỨC HIẾU@"
+.LeTrang:             db " LÊ THỊ THU TRANG@"
 
 .Copyright:
 	;    (C) 1  9  9  5 - 2  0  0  1     N  i  n  t  e  n  d  o

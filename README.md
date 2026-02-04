@@ -37,6 +37,22 @@ This localization restores the original Japanese sprite designs for certain char
 **Restored Pokémon sprites:**
 - Jynx (front, back, and shiny palette)
 
+## Link Cable Trading Compatibility
+
+This Vietnamese version is **fully compatible** with English Pokémon Crystal for link cable trading and battling.
+
+**How it works:**
+- When trading with English Crystal, names are automatically translated in both directions
+- Vietnamese accented characters (á, ă, ê, etc.) are converted to base letters when sent to English
+- English text is properly displayed when received from English Crystal
+- Pokémon nicknames and PC Box names use English-only input to ensure 100% compatibility
+
+**Restrictions for compatibility:**
+- Pokémon nicknames: English characters only (A-Z, 0-9)
+- PC Box names: English characters only
+- Mail messages: English characters only
+- Player/Rival names: Full Vietnamese supported (translated automatically during trading)
+
 ## Screenshots
 
 ![Intro](./poke1.png)

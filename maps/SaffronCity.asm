@@ -123,7 +123,7 @@ SaffronCityLass1Text_ReturnedMachinePart:
 	line "trông buồn."
 
 	para "Cô ấy nói bị mất"
-	line "# DOLL yêu"
+	line "BÚP BÊ # yêu"
 	cont "thích--CLEFAIRY."
 	done
 

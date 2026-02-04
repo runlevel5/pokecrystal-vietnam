@@ -238,7 +238,7 @@ SantosGivesGiftText:
 SantosGaveGiftText:
 	text "SANTOS: …"
 
-	para "SPELL TAG…"
+	para "THẺ BÙA…"
 
 	para "Chiêu hệ Ma sẽ"
 	line "mạnh hơn…"

@@ -220,7 +220,7 @@ PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
 	para "bắt được. Nên tôi"
 	line "tạm dùng"
 
-	para "# DOLL mà tôi"
+	para "BÚP BÊ # mà tôi"
 	line "tìm được."
 	done
 
@@ -228,11 +228,11 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 	text "Ồ, tôi hiểu rồi."
 	line "Cô bé mất"
 
-	para "# DOLL này đang"
-	cont "buồn…"
+	para "BÚP BÊ # này"
+	cont "đang buồn…"
 
 	para "OK. Bạn có thể"
-	line "mang # DOLL"
+	line "mang BÚP BÊ #"
 
 	para "này trả lại cho"
 	line "cô bé không?"
@@ -246,7 +246,7 @@ PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
 
 PokemonFanClubPlayerReceivedDollText:
 	text "<PLAYER> nhận được"
-	line "# DOLL."
+	line "BÚP BÊ #."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:

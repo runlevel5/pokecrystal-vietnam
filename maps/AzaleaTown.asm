@@ -390,7 +390,7 @@ AzaleaTownKurtText1:
 
 AzaleaTownKurtText2:
 	text "<PLAYER>, đây là"
-	line "GS BALL của con!"
+	line "BÓNG GS của con!"
 	done
 
 AzaleaTownKurtText3:

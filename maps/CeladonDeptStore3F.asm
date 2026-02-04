@@ -58,7 +58,7 @@ CeladonDeptStore3FGameboyKid1Text:
 	text "Ôi không! Tôi đổi"
 	line "#MON mà không"
 
-	para "lấy UP-GRADE ra"
+	para "lấy NÂNG-CẤP ra"
 	line "khỏi nó."
 	done
 

@@ -225,7 +225,7 @@ endc
 CeladonCityTrainerTipsText:
 	text "MẸO CHO HLV"
 
-	para "GUARD SPEC. bảo"
+	para "BẢO VỆ SPEC. bảo"
 	line "vệ #MON khỏi"
 
 	para "đòn ĐẶC BIỆT như"

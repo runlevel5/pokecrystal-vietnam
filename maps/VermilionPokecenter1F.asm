@@ -58,11 +58,10 @@ VermilionPokecenter1FFishingGuruText_FoughtSnorlax:
 	done
 
 VermilionPokecenter1FSailorText:
-	text "TÀU NHANH là nơi"
-	line "tuyệt vời để gặp"
-
-	para "và chiến đấu với"
-	line "các HLV."
+	text "TÀU AQUA là"
+	line "nơi tuyệt vời để"
+	cont "gặp và chiến đấu"
+	cont "với các HLV."
 	done
 
 VermilionPokecenter1FBugCatcherText:

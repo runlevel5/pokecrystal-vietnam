@@ -11,7 +11,7 @@ Route8SaffronGateOfficerScript:
 
 Route8SaffronGateOfficerText:
 	text "Bạn đã đến TRẤN"
-	line "LAVENDER chưa?"
+	line "SHION chưa?"
 
 	para "Có THÁP RADIO cao"
 	line "ở đó."

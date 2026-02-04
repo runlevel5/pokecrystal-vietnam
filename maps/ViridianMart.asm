@@ -26,8 +26,8 @@ ViridianMartLassText:
 	done
 
 ViridianMartCooltrainerMText:
-	text "Bạn đã đến"
-	line "CINNABAR chưa?"
+	text "Bạn đã đến GUREN"
+	line "chưa?"
 
 	para "Đó là một hòn đảo"
 	line "ở xa phía nam."

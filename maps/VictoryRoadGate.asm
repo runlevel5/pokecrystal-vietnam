@@ -77,7 +77,7 @@ VictoryRoadGateEightBadgesText:
 
 VictoryRoadGateLeftBlackBeltText:
 	text "Đường này dẫn đến"
-	line "NÚI SILVER."
+	line "HANG NÚI BẠC."
 
 	para "Bạn sẽ thấy những"
 	line "#MON cực mạnh ở"

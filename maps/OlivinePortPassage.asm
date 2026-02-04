@@ -10,11 +10,10 @@ OlivinePortPassagePokefanMScript:
 	jumptextfaceplayer OlivinePortPassagePokefanMText
 
 OlivinePortPassagePokefanMText:
-	text "TÀU NHANH S.S.AQUA"
-	line "đi KANTO vào"
-
-	para "thứ Hai và thứ"
-	line "Sáu."
+	text "TÀU AQUA"
+	line "S.S.AQUA đi KANTO"
+	cont "vào thứ Hai và"
+	cont "thứ Sáu."
 	done
 
 OlivinePortPassage_MapEvents:

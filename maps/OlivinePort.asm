@@ -296,8 +296,8 @@ OlivinePortCantBoardText:
 	done
 
 OlivinePortAskBoardText:
-	text "Chào mừng đến với"
-	line "TÀU NHANH S.S.AQUA"
+	text "Chào mừng đến TÀU"
+	line "CAO TỐC S.S.AQUA!"
 
 	para "Bạn có lên tàu"
 	line "hôm nay không?"
@@ -336,15 +336,15 @@ OlivinePortNoTicketText:
 	done
 
 OlivinePortMondayShipText:
-	text "TÀU NHANH sẽ chạy"
-	line "vào thứ Hai tuần"
-	cont "sau."
+	text "TÀU AQUA sẽ"
+	line "chạy vào thứ Hai"
+	cont "tuần sau."
 	done
 
 OlivinePortFridayShipText:
-	text "TÀU NHANH sẽ chạy"
-	line "vào thứ Sáu tuần"
-	cont "sau."
+	text "TÀU AQUA sẽ"
+	line "chạy vào thứ Sáu"
+	cont "tuần sau."
 	done
 
 OlivinePortFishingGuru1Text:

@@ -38,8 +38,8 @@ LavenderMartRockerText:
 	text "Tôi nghe nói có"
 	line "thợ làm BÓNG #"
 
-	para "tùy chỉnh ở TRẤN"
-	line "AZALEA của JOHTO."
+	para "tùy chỉnh ở T.TRẤN"
+	line "HIWADA của JOHTO."
 
 	para "Tôi ước có mấy"
 	line "cái."

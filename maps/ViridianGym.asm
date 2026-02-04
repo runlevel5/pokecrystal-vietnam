@@ -66,7 +66,7 @@ LeaderBlueBeforeText:
 	line "cùng cũng tới hả?"
 
 	para "Tao không có hứng"
-	line "ở CINNABAR,"
+	line "ở GUREN,"
 
 	para "nhưng giờ tao sẵn"
 	line "sàng đấu với mày."

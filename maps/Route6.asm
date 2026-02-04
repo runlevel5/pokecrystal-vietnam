@@ -46,10 +46,10 @@ Route6PokefanMText:
 	done
 
 Route6UndergroundPathSignText:
-	text "HẦM NGẦM"
+	text "ĐỊA ĐẠO"
 
-	para "TP. CERULEAN -"
-	line "TP. VERMILION"
+	para "TP. HANADA -"
+	line "TP. KUCHIBA"
 	done
 
 PokefanmRexSeenText:

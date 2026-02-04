@@ -293,7 +293,7 @@ PicnickerDebraBeatenText:
 	done
 
 PicnickerDebraAfterBattleText:
-	text "SAFFRON, CELADON…"
+	text "YAMABUKI, TAMAMUSHI"
 	line "Tôi nghe có nhiều"
 
 	para "thành phố lớn ở"
@@ -332,8 +332,8 @@ SailorGarrettAfterBattleText:
 	text "Hành khách khác"
 	line "nhau giữa tuyến"
 
-	para "TP. VERMILION đến"
-	line "TP. OLIVINE."
+	para "TP. KUCHIBA đến"
+	line "TP. ASAGI."
 	done
 
 FisherJonahSeenText:
@@ -353,7 +353,7 @@ FisherJonahBeatenText:
 FisherJonahAfterBattleText:
 	text "Tôi dự định câu ở"
 	line "bến cảng"
-	cont "VERMILION."
+	cont "KUCHIBA."
 	done
 
 BlackbeltWaiSeenText:
@@ -416,7 +416,7 @@ TeacherShirleyBeatenText:
 TeacherShirleyAfterBattleText:
 	text "Chúng tôi đang đi"
 	line "tham quan TÀN TÍCH"
-	cont "ngoài VIOLET."
+	cont "ngoài KIKYO."
 	done
 
 SchoolboyNateSeenText:

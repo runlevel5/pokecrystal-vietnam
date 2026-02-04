@@ -283,7 +283,7 @@ GruntM9BeatenText:
 GruntM9AfterBattleText:
 	text "Cái gì?! Mày vượt"
 	line "qua bọn tao ở"
-	cont "HẦM NGẦM sao?"
+	cont "ĐỊA ĐẠO sao?"
 
 	para "Sao mày làm được?"
 	done

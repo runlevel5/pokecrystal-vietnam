@@ -91,7 +91,7 @@ TiffanyFoundItemText:
 	text "Tớ mua vài PINK"
 	line "BOW ở CỬA HÀNG"
 
-	para "BÁCH HÓA GOLDENROD"
+	para "BÁCH HÓA KOGANE"
 	line "cho CLEFAIRY."
 
 	para "Tớ mua nhiều quá,"

@@ -109,7 +109,7 @@ UnusedMissingDaughterText: ; unreferenced
 	done
 
 EcruteakCityGramps1Text:
-	text "ECRUTEAK từng có"
+	text "ENJU từng có"
 	line "hai tháp:"
 
 	para "một ở phía đông"
@@ -158,7 +158,7 @@ EcruteakCityLass2Text_ReleasedBeasts:
 EcruteakCityFisherText:
 	text "Tôi nghe tin đồn"
 	line "về HẢI ĐĂNG"
-	cont "OLIVINE."
+	cont "ASAGI."
 
 	para "#MON dùng làm"
 	line "đèn hiệu đã"
@@ -170,7 +170,7 @@ EcruteakCityFisherText:
 
 EcruteakCityFisherText_JasmineReturned:
 	text "#MON ở HẢI"
-	line "ĐĂNG OLIVINE đã"
+	line "ĐĂNG ASAGI đã"
 	cont "được chữa khỏi."
 
 	para "Thuyền có thể ra"
@@ -217,7 +217,7 @@ EcruteakCityGramps3Text:
 	done
 
 EcruteakCitySignText:
-	text "TP ECRUTEAK"
+	text "THÀNH PHỐ ENJU"
 	line "Thành phố lịch sử"
 
 	para "Nơi quá khứ gặp"
@@ -225,7 +225,7 @@ EcruteakCitySignText:
 	done
 
 TinTowerSignText:
-	text "THÁP THIẾC"
+	text "THÁP CHUÔNG"
 
 	para "#MON huyền"
 	line "thoại được cho là"
@@ -233,7 +233,7 @@ TinTowerSignText:
 	done
 
 EcruteakGymSignText:
-	text "TP ECRUTEAK"
+	text "TP ENJU"
 	line "GYM #MON"
 	cont "T.LĨNH: MORTY"
 
@@ -243,7 +243,7 @@ EcruteakGymSignText:
 
 EcruteakDanceTheaterSignText:
 	text "NHÀ HÁT MÚA"
-	line "ECRUTEAK"
+	line "ENJU"
 	done
 
 BurnedTowerSignText:

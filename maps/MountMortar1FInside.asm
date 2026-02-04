@@ -103,10 +103,9 @@ SupernerdMarkusBeatenText:
 
 SupernerdMarkusAfterBattleText:
 	text "Tôi đến khám phá"
-	line "NÚI MORTAR nhưng"
-
-	para "bị lạc với đồng"
-	line "đội…"
+	line "NÚI SURIBACHI"
+	cont "nhưng bị lạc với"
+	cont "đồng đội…"
 
 	para "Bạn có gặp HLV"
 	line "nào dùng SEADRA"

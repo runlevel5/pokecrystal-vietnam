@@ -187,7 +187,7 @@ BillsMomText_BeforeEcruteak:
 
 	para "Nó vừa được gọi"
 	line "đến TT #MON ở"
-	cont "TP. ECRUTEAK."
+	cont "TP. ENJU."
 
 	para "Bố nó thì đi đến"
 	line "GÓC GIẢI TRÍ mà"

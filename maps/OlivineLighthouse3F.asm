@@ -82,7 +82,7 @@ SailorTerrellBeatenText:
 
 SailorTerrellAfterBattleText:
 	text "Mỗi lần về đến"
-	line "OLIVINE, tôi đều"
+	line "ASAGI, tôi đều"
 	cont "ghé GYM."
 
 	para "Hệ #MON của"

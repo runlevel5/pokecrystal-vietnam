@@ -201,7 +201,7 @@ SaffronCityYoungster1Text:
 
 SaffronCityYoungster2Text:
 	text "Có nơi gọi là NHÀ"
-	line "HLV ở VIRIDIAN"
+	line "HLV ở TOKIWA"
 
 	para "nơi các HLV từ"
 	line "khắp nơi tụ tập."
@@ -220,14 +220,14 @@ SaffronCityLass2Text:
 	done
 
 SaffronCitySignText:
-	text "SAFFRON CITY"
+	text "TP. YAMABUKI"
 
 	para "Vùng Đất Thương"
 	line "Mại Vàng Rực"
 	done
 
 SaffronGymSignText:
-	text "SAFFRON CITY"
+	text "TP. YAMABUKI"
 	line "GYM #MON"
 	cont "TRƯỞNG: SABRINA"
 
@@ -252,7 +252,7 @@ MrPsychicsHouseSignText:
 
 SaffronCityMagnetTrainStationSignText:
 	text "GA TÀU TỪ TRƯỜNG"
-	line "SAFFRON CITY"
+	line "TP. YAMABUKI"
 	done
 
 SaffronCity_MapEvents:

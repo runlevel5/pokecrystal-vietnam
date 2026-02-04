@@ -44,8 +44,8 @@ ElmPhoneAssistantText:
 	para "Con thấy trợ lý"
 	line "của thầy chưa?"
 
-	para "Anh ấy ở TT #MON"
-	line "tại TP VIOLET."
+	para "Anh ấy ở TT #"
+	line "MON ở KIKYO."
 	done
 
 ElmPhoneHowIsTheEggText:
@@ -151,7 +151,7 @@ ElmPhoneEggAssistantText:
 	para "Trợ lý của thầy ở"
 	line "TT #MON tại"
 
-	para "TP VIOLET. Con"
+	para "TP KIKYO. Con"
 	line "nói chuyện với"
 	cont "anh ấy được ko?"
 	done

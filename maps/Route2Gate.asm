@@ -21,7 +21,7 @@ Route2GateScientistText:
 
 	para "PHÒNG THÍ NGHIỆM"
 	line "GS OAK ở gần đây"
-	cont "tại TRẤN PALLET."
+	cont "tại T.TRẤN MASARA"
 	done
 
 Route2Gate_MapEvents:

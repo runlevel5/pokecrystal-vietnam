@@ -353,7 +353,7 @@ PlayersHouse1FStoveText:
 	line "của Mẹ!"
 
 	para "BURGER NÚI LỬA"
-	line "CINNABAR!"
+	line "GUREN!"
 	done
 
 PlayersHouse1FSinkText:

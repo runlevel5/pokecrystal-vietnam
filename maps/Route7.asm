@@ -15,11 +15,11 @@ Route7UndergroundPathSignText:
 	para "… Các HLV thô lỗ"
 	line "tổ chức trận đấu"
 
-	para "trong HẦM NGẦM."
+	para "trong ĐỊA ĐẠO."
 
 	para "Do khiếu nại nhiều"
 	line "của cư dân địa"
-	cont "phương, HẦM NGẦM"
+	cont "phương, ĐỊA ĐẠO"
 	cont "đã bị đóng cửa"
 	cont "vô thời hạn."
 

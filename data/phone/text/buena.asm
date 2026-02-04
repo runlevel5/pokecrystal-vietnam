@@ -450,7 +450,7 @@ BuenaPhoneGoingShoppingText:
 	cont "sớm."
 
 	para "Sẽ tuyệt nếu BÁCH"
-	line "HÓA GOLDENROD có"
+	line "HÓA KOGANE có"
 
 	para "giảm giá khi chúng"
 	line "tớ đi…"

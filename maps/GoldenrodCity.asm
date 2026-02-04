@@ -316,7 +316,7 @@ GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
 
 GoldenrodCityCooltrainerF2Text:
 	text "THÁP RADIO ở"
-	line "GOLDENROD là biểu"
+	line "KOGANE là biểu"
 	cont "tượng nơi này."
 
 	para "Họ đang có chương"
@@ -414,23 +414,23 @@ GoldenrodCityRocket6Text:
 
 GoldenrodCityStationSignText:
 	text "NHÀ GA"
-	line "TP. GOLDENROD"
+	line "TP. KOGANE"
 	done
 
 GoldenrodCityRadioTowerSignText:
 	text "THÁP RADIO"
-	line "TP. GOLDENROD"
+	line "TP. KOGANE"
 	done
 
 GoldenrodDeptStoreSignText:
 	text "Đầy đủ hàng hóa"
 	line "#MON!"
 
-	para "TTMT TP.GOLDENROD"
+	para "TTMT TP. KOGANE"
 	done
 
 GoldenrodGymSignText:
-	text "TP. GOLDENROD"
+	text "TP. KOGANE"
 	line "GYM #MON"
 	cont "T.LĨNH: WHITNEY"
 
@@ -439,7 +439,7 @@ GoldenrodGymSignText:
 	done
 
 GoldenrodCitySignText:
-	text "TP. GOLDENROD"
+	text "THÀNH PHỐ KOGANE"
 
 	para "Thành phố lễ hội"
 	line "đầy quyến rũ"
@@ -455,7 +455,7 @@ GoldenrodCityGameCornerSignText:
 	text "Sân chơi của bạn!"
 
 	para "GÓC GIẢI TRÍ"
-	line "TP. GOLDENROD"
+	line "TP. KOGANE"
 	done
 
 GoldenrodCityNameRaterSignText:
@@ -468,12 +468,12 @@ GoldenrodCityNameRaterSignText:
 
 GoldenrodCityUndergroundSignNorthText:
 	text "LỐI VÀO"
-	line "HẦM NGẦM"
+	line "ĐỊA ĐẠO"
 	done
 
 GoldenrodCityUndergroundSignSouthText:
 	text "LỐI VÀO"
-	line "HẦM NGẦM"
+	line "ĐỊA ĐẠO"
 	done
 
 GoldenrodCityPokeComCenterSignText: ; unreferenced

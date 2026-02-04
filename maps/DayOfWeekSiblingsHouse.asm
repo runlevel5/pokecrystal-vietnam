@@ -62,7 +62,7 @@ DayOfWeekSiblingsHousePokedexText3:
 	line "TUYẾN ĐƯỜNG 32"
 
 	para "T7, SANTOS"
-	line "TP. BLACKTHORN"
+	line "TP. FUSUBE"
 
 	para "CN, SUNNY"
 	line "TUYẾN ĐƯỜNG 37"

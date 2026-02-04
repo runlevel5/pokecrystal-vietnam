@@ -39,7 +39,7 @@ GoodRodHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 OfferGoodRodText:
-	text "OLIVINE ở bên"
+	text "ASAGI ở bên"
 	line "biển!"
 
 	para "Và nếu ở bên biển"

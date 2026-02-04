@@ -23,7 +23,7 @@ VermilionMagnetTrainSpeechHousePokefanFText:
 
 	para "Đó là tuyến đường"
 	line "sắt đến TP."
-	cont "GOLDENROD ở JOHTO"
+	cont "KOGANE ở JOHTO"
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:

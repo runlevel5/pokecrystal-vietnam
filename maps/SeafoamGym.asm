@@ -64,7 +64,7 @@ BlaineIntroText:
 	text "BLAINE: Waaah!"
 
 	para "GYM của ta ở"
-	line "CINNABAR cháy rồi."
+	line "GUREN cháy rồi."
 
 	para "#MON phun lửa"
 	line "của ta và ta"
@@ -109,7 +109,7 @@ BlaineAfterBattleText:
 	line "lần sau."
 
 	para "Khi ta xây lại"
-	line "CINNABAR GYM,"
+	line "GUREN GYM,"
 
 	para "chúng ta phải"
 	line "đấu lại nhé."
@@ -131,7 +131,7 @@ SeafoamGymGuideWinText:
 
 	para "Xin lỗi, xin lỗi!"
 
-	para "CINNABAR GYM biến"
+	para "GUREN GYM biến"
 	line "mất, nên tôi"
 
 	para "không biết tìm"

@@ -156,7 +156,7 @@ SchoolboyJohnnySeenText:
 	text "Chúng tôi đang đi"
 	line "thực địa đến ĐÀI"
 
-	para "RADIO LAVENDER cho"
+	para "RADIO SHION cho"
 	line "môn xã hội học."
 	done
 
@@ -191,7 +191,7 @@ Route15SignText:
 	text "TUYẾN ĐƯỜNG 15"
 
 	para "TP. FUCHSIA -"
-	line "TRẤN LAVENDER"
+	line "TRẤN SHION"
 	done
 
 Route15_MapEvents:

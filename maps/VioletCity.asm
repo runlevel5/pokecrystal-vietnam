@@ -204,8 +204,8 @@ Text_HereTeacherIAm:
 
 VioletCityLassText:
 	text "Có tin đồn về ma"
-	line "xuất hiện ở"
-	cont "THÁP MẦM."
+	line "xuất hiện ở THÁP"
+	cont "MADATSUBOMI."
 
 	para "Họ nói chiêu hệ"
 	line "thường của #MON"
@@ -227,7 +227,7 @@ VioletCitySuperNerdText:
 
 VioletCityGrampsText:
 	text "FALKNER, từ GYM"
-	line "#MON VIOLET,"
+	line "#MON KIKYO,"
 
 	para "là một HLV"
 	line "tuyệt vời!"
@@ -249,7 +249,7 @@ VioletCityYoungsterText:
 	done
 
 VioletCitySignText:
-	text "TP VIOLET"
+	text "THÀNH PHỐ KIKYO"
 
 	para "Thành phố của"
 	line "hương thơm xưa"
@@ -257,7 +257,7 @@ VioletCitySignText:
 
 VioletGymSignText:
 	text "GYM #MON"
-	line "TP VIOLET"
+	line "TP KIKYO"
 	cont "T.LĨNH: FALKNER"
 
 	para "Bậc thầy thanh"
@@ -265,7 +265,7 @@ VioletGymSignText:
 	done
 
 SproutTowerSignText:
-	text "THÁP MẦM"
+	text "THÁP MADATSUBOMI"
 
 	para "Trải nghiệm"
 	line "đạo của #MON"

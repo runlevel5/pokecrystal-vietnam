@@ -443,7 +443,7 @@ GoldenrodGameCornerPokefanM2Text:
 if DEF(_CRYSTAL_AU)
 	text "HỘP XU? Tôi vứt"
 	line "nó trong"
-	cont "HẦM NGẦM rồi."
+	cont "ĐỊA ĐẠO rồi."
 	done
 else
 	text "Tôi không thắng"
@@ -454,7 +454,7 @@ else
 	para "Tôi giận quá, vứt"
 	line "luôn HỘP XU trong"
 
-	para "HẦM NGẦM."
+	para "ĐỊA ĐẠO."
 	done
 endc
 

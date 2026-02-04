@@ -76,7 +76,7 @@ LavenderTownYoungsterText:
 	done
 
 LavenderTownSignText:
-	text "LAVENDER TOWN"
+	text "THỊ TRẤN SHION"
 
 	para "Thị Trấn Tím"
 	line "Cao Quý"
@@ -92,7 +92,7 @@ KantoRadioStationSignText:
 
 VolunteerPokemonHouseSignText:
 	text "NHÀ TÌNH NGUYỆN"
-	line "#MON LAVENDER"
+	line "#MON SHION"
 	done
 
 SoulHouseSignText:

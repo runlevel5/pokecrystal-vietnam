@@ -254,7 +254,7 @@ ClairText_WhatsTheMatterDragonDen:
 	line "đến đó không?"
 
 	para "Từ đây, hãy đến"
-	line "THỊ TRẤN NEW BARK."
+	line "T.TRẤN WAKABA."
 
 	para "Rồi LƯỚT SÓNG về"
 	line "đông đến HỘI LIÊN"

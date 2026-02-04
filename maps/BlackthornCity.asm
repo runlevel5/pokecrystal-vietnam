@@ -219,7 +219,7 @@ BlackthornCooltrainerF1Text:
 BlackthornYoungsterText:
 	text "Bậc thầy Rồng đều"
 	line "đến từ thành phố"
-	cont "BLACKTHORN này."
+	cont "FUSUBE này."
 	done
 
 MeetSantosText:
@@ -271,14 +271,14 @@ BlackthornCooltrainerF2Text:
 	done
 
 BlackthornCitySignText:
-	text "BLACKTHORN CITY"
+	text "THÀNH PHỐ FUSUBE"
 
 	para "Nơi Ẩn Dật Yên"
 	line "Tĩnh Trên Núi"
 	done
 
 BlackthornGymSignText:
-	text "BLACKTHORN CITY"
+	text "TP. FUSUBE"
 	line "GYM #MON"
 	cont "TRƯỞNG: CLAIR"
 

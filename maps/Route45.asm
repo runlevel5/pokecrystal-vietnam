@@ -327,7 +327,7 @@ HikerErikBeatenText:
 
 HikerErikAfterBattleText:
 	text "Tôi sẽ về ĐỘI BĂNG"
-	line "BLACKTHORN và tập"
+	line "FUSUBE và tập"
 
 	para "luyện thêm."
 	done

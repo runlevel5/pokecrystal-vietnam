@@ -848,7 +848,7 @@ BurglarEddieBeatenText:
 	done
 
 BurglarEddieAfterBattleText:
-	text "KHO HẦM NGẦM?"
+	text "KHO ĐỊA ĐẠO?"
 
 	para "Mày muốn đến đó"
 	line "làm gì?"

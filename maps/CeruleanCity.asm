@@ -201,13 +201,13 @@ CeruleanCityCooltrainerFText3:
 CeruleanCityFisherText:
 	text "Tôi là fan cuồng"
 	line "MISTY ở GYM"
-	cont "CERULEAN."
+	cont "HANADA."
 	done
 
 CeruleanCityFisherRocketTipText:
 	text "Tôi thấy gã đáng"
 	line "ngờ đi về phía"
-	cont "MŨI ĐẤT CERULEAN."
+	cont "MŨI ĐẤT HANADA."
 	done
 
 CeruleanCityYoungsterText1:
@@ -226,14 +226,14 @@ CeruleanCityYoungsterText2:
 	done
 
 CeruleanCitySignText:
-	text "CERULEAN CITY"
+	text "THÀNH PHỐ HANADA"
 
 	para "Hào Quang Xanh Bí"
 	line "Ẩn Bao Quanh Nó"
 	done
 
 CeruleanGymSignText:
-	text "CERULEAN CITY"
+	text "TP. HANADA"
 	line "GYM #MON"
 	cont "TRƯỞNG: MISTY"
 
@@ -247,7 +247,7 @@ CeruleanBikeShopSignText:
 
 	para "TIỆM XE ĐẠP đã"
 	line "chuyển đến"
-	cont "GOLDENROD ở JOHTO…"
+	cont "KOGANE ở JOHTO…"
 	done
 
 CeruleanPoliceSignText:
@@ -260,11 +260,11 @@ CeruleanPoliceSignText:
 	para "thân thiện, vui"
 	line "vẻ hơn!"
 
-	para "CẢNH SÁT CERULEAN"
+	para "CẢNH SÁT HANADA"
 	done
 
 CeruleanCapeSignText:
-	text "MŨI ĐẤT CERULEAN"
+	text "MŨI ĐẤT HANADA"
 	line "PHÍA TRƯỚC"
 	done
 

@@ -29,7 +29,7 @@ Route7SaffronGuardPowerPlantText:
 
 	para "Nó nằm ở phía"
 	line "Đông, gần TRẤN"
-	cont "LAVENDER."
+	cont "SHION."
 	done
 
 Route7SaffronGuardSeriousText:

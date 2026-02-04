@@ -173,7 +173,7 @@ JasmineCianwoodPharmacyText:
 	para "…Ta biết rằng có"
 	line "một NHÀ THUỐC tốt"
 
-	para "ở CIANWOOD…"
+	para "ở TANBA…"
 
 	para "Nhưng đó là bên"
 	line "kia biển…"

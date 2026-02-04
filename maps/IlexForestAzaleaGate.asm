@@ -14,9 +14,9 @@ IlexForestAzaleaGateGrannyScript:
 	jumptextfaceplayer IlexForestAzaleaGateGrannyText
 
 IlexForestAzaleaGateOfficerText:
-	text "RỪNG ILEX rất rộng"
-	line "Cẩn thận nhé!"
-	cont "Đừng lạc đường."
+	text "RỪNG UBAME rất"
+	line "rộng. Cẩn thận"
+	cont "đừng lạc đường."
 	done
 
 IlexForestAzaleaGateGrannyText:

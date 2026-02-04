@@ -350,7 +350,8 @@ RadioTower1FRadioCardWomanQuestion4Text:
 	line "Câu hỏi 4:"
 
 	para "FALKNER có phải"
-	line "T.LĨNH GYM VIOLET"
+	line "T.LĨNH GYM CÁT"
+	cont "CÁNH"
 
 	para "dùng #MON chim"
 	line "không?"
@@ -362,7 +363,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	cont "cuối cùng:"
 
 	para "Máy đánh bạc ở"
-	line "GOLDENROD GAME"
+	line "KOGANE GAME"
 
 	para "CORNER có hình"
 	line "CHARMANDER không?"

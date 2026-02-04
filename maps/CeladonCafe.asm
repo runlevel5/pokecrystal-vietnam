@@ -155,7 +155,7 @@ Fisher3Text_MunchMunch:
 
 Fisher3Text_GoldenrodIsBest:
 	text "Đồ ăn ở đây ngon"
-	line "nhưng GOLDENROD"
+	line "nhưng KOGANE"
 	cont "mới là ngon nhất"
 	cont "nơi nào cũng vậy."
 	done

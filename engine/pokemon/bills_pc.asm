@@ -1008,7 +1008,7 @@ BillsPC_BoxName:
 	ret
 
 .PartyPKMN:
-	db "#MON ĐỒNG HÀNH@"
+	db "ĐỒNG HÀNH@"
 
 PCMonInfo:
 ; Display a monster's pic and

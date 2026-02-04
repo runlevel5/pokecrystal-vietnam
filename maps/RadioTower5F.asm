@@ -238,7 +238,7 @@ FakeDirectorTextAfter:
 
 Executivef1SeenText:
 	text "Còn nhớ tao ở SÀO"
-	line "HUYỆT tại THÔN"
+	line "HUYỆT tại T.TRẤN"
 	cont "CHOUJI không?"
 
 	para "Lần đó tao thua,"

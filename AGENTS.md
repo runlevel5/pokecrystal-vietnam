@@ -123,7 +123,7 @@ Location names are translated with Vietnamese prefixes. See [GLOSSARY.md](GLOSSA
 | English Pattern | Vietnamese Pattern |
 |-----------------|-------------------|
 | <NAME> CITY | TP. <NAME> or TP.<BSP><NAME> |
-| <NAME> TOWN | THÔN <NAME> or THÔN<BSP><NAME> |
+| <NAME> TOWN | THỊ TRẤN <NAME> or THỊ TRẤN<BSP><NAME> |
 | <NAME> TOWER | THÁP <NAME> or THÁP<BSP><NAME> |
 | <NAME> CAVE | ĐỘNG <NAME> or HANG <NAME> |
 | <NAME> FOREST | RỪNG <NAME> or RỪNG<BSP><NAME> |

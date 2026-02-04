@@ -499,7 +499,7 @@ Route44Sign1Text:
 Route44Sign2Text:
 	text "TUYẾN ĐƯỜNG 44"
 
-	para "THÔN CHOUJI -"
+	para "T.TRẤN CHOUJI -"
 	line "TP. FUSUBE"
 	done
 

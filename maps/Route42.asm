@@ -292,7 +292,7 @@ Route42Sign1Text:
 	text "TUYẾN ĐƯỜNG 42"
 
 	para "TP. ENJU -"
-	line "THÔN CHOUJI"
+	line "THỊ TRẤN CHOUJI"
 	done
 
 MtMortarSign1Text:
@@ -313,7 +313,7 @@ Route42Sign2Text:
 	text "TUYẾN ĐƯỜNG 42"
 
 	para "TP. ENJU -"
-	line "THÔN CHOUJI"
+	line "THỊ TRẤN CHOUJI"
 	done
 
 Route42_MapEvents:

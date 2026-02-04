@@ -672,7 +672,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | English Pattern | Vietnamese Pattern |
 |-----------------|-------------------|
 | <NAME> CITY | TP. <NAME> or TP.<BSP><NAME> |
-| <NAME> TOWN | THÔN <NAME> or THÔN<BSP><NAME> |
+| <NAME> TOWN | THỊ TRẤN <NAME> or THỊ TRẤN<BSP><NAME> |
 | <NAME> TOWER | THÁP <NAME> or THÁP<BSP><NAME> |
 | <NAME> CAVE | ĐỘNG <NAME> or HANG <NAME> |
 | <NAME> FOREST | RỪNG <NAME> or RỪNG<BSP><NAME> |
@@ -693,7 +693,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | ECRUTEAK CITY | Enju | TP.<BSP>ENJU |
 | OLIVINE CITY | Asagi | TP.<BSP>ASAGI |
 | CIANWOOD CITY | Tanba | TP.<BSP>TANBA |
-| MAHOGANY TOWN | Chōji | THÔN<BSP>CHOUJI |
+| MAHOGANY TOWN | Chōji | THỊ TRẤN<BSP>CHOUJI |
 | BLACKTHORN CITY | Fusube | TP.<BSP>FUSUBE |
 | LAKE OF RAGE | - | HỒ<BSP>GYARADOS |
 | SILVER CAVE | - | HANG NÚI<BSP>BẠC |
@@ -724,7 +724,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | VIRIDIAN CITY | Tokiwa | TP.<BSP>TOKIWA |
 | PEWTER CITY | Nibi | TP.<BSP>NIBI |
 | CERULEAN CITY | Hanada | TP.<BSP>HANADA |
-| LAVENDER TOWN | Shion | THÔN<BSP>SHION |
+| LAVENDER TOWN | Shion | THỊ TRẤN<BSP>SHION |
 | VERMILION CITY | Kuchiba | TP.<BSP>KUCHIBA |
 | CELADON CITY | Tamamushi | TP.<BSP>TAMAMUSHI |
 | SAFFRON CITY | Yamabuki | TP.<BSP>YAMABUKI |
@@ -788,7 +788,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | TRAINER | HLV | Huấn Luyện Viên |
 | ROUTE | ĐƯỜNG | Road/Route |
 | CITY | TP. | Thành Phố |
-| TOWN | THÔN | Village/Town |
+| TOWN | THỊ TRẤN | Town |
 | GYM LEADER | T.LĨNH GYM | Thủ Lĩnh (Leader) |
 | TEAM ROCKET | ĐỘI ROCKET | Team/Squad |
 | NATIONAL PARK | VƯỜN QUỐC GIA | Công Viên (Park) |

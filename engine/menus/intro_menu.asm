@@ -748,7 +748,7 @@ NamePlayer:
 	call StorePlayerName
 	farcall ApplyMonOrTrainerPals
 	farcall MovePlayerPicLeft
-	ret
+	jr TranslatePlayerNameForLinkCable
 
 .NewName:
 	ld b, NAME_PLAYER
@@ -770,18 +770,27 @@ NamePlayer:
 	call RotateThreePalettesLeft
 
 	ld hl, wPlayerName
-	ld de, .Chris
+	ld de, NamePlayer_Chris
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .Male
-	ld de, .Kris
+	ld de, NamePlayer_Kris
 .Male:
 	call InitName
+	; Fall through to TranslatePlayerNameForLinkCable
+
+TranslatePlayerNameForLinkCable:
+; Translate wPlayerName to wPlayerNameEnglish for link cable trading
+; This is done once at name entry time rather than at every trade
+	ld hl, wPlayerName
+	ld de, wPlayerNameEnglish
+	ld bc, NAME_LENGTH
+	farcall TranslateVietnameseToEnglish
 	ret
 
-.Chris:
+NamePlayer_Chris:
 	dname "Trung", NAME_LENGTH
-.Kris:
+NamePlayer_Kris:
 	dname "Trang", NAME_LENGTH
 
 GSShowPlayerNamingChoices: ; unreferenced

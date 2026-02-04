@@ -191,6 +191,10 @@ endc
 	ld a, HIGH(wOTPartyMonOTs)
 	ld [wUnusedNamesPointer + 1], a
 
+; Translate received English text to Vietnamese character codes
+; English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
+	call TranslateAllReceivedOTData
+
 	ld de, MUSIC_NONE
 	call PlayMusic
 	ldh a, [hSerialConnectionStatus]
@@ -460,6 +464,10 @@ endc
 	ld [wUnusedNamesPointer], a
 	ld a, HIGH(wOTPartyMonOTs)
 	ld [wUnusedNamesPointer + 1], a
+
+; Translate received English text to Vietnamese character codes
+; English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
+	call TranslateAllReceivedOTData
 
 	ld de, MUSIC_NONE
 	call PlayMusic
@@ -876,7 +884,7 @@ Link_PrepPartyData_Gen2:
 	dec b
 	jr nz, .preamble_loop
 
-	ld hl, wPlayerName
+	ld hl, wPlayerNameEnglish ; Use pre-translated English name for link cable
 	ld bc, NAME_LENGTH
 	call CopyBytes
 
@@ -901,7 +909,7 @@ Link_PrepPartyData_Gen2:
 	call CopyBytes
 
 ; Translate Vietnamese text to English for link cable compatibility
-	call TranslateString_PlayerName
+; Note: Player name is already pre-translated to wPlayerNameEnglish at name entry time
 	call TranslateString_OTNames
 	call TranslateString_PartyMonNicknames
 

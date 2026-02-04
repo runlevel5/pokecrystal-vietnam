@@ -695,26 +695,26 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | CIANWOOD CITY | Tanba | TP.<BSP>TANBA |
 | MAHOGANY TOWN | Chōji | THỊ TRẤN<BSP>CHOUJI |
 | BLACKTHORN CITY | Fusube | TP.<BSP>FUSUBE |
-| LAKE OF RAGE | - | HỒ<BSP>GYARADOS |
-| SILVER CAVE | - | HANG NÚI<BSP>BẠC |
+| LAKE OF RAGE | Ikari no Mizuumi | HỒ<BSP>GYARADOS |
+| SILVER CAVE | Shirogane | HANG NÚI<BSP>BẠC |
 | SPROUT TOWER | Madatsubomi | THÁP<BSP>MADATSUBOMI |
-| RUINS OF ALPH | - | TÀN TÍCH<BSP>ALPH |
-| UNION CAVE | - | HANG ĐỘNG<BSP>UNION |
-| SLOWPOKE WELL | - | GIẾNG<BSP>SLOWPOKE |
-| RADIO TOWER | - | THÁP<BSP>RADIO |
-| NATIONAL PARK | - | VƯỜN<BSP>QUỐC GIA |
-| TIN TOWER | - | THÁP<BSP>CHUÔNG |
-| BURNED TOWER | - | THÁP<BSP>CHÁY |
-| LIGHTHOUSE | - | HẢI ĐĂNG |
-| BATTLE TOWER | - | THÁP<BSP>CHIẾN ĐẤU |
-| WHIRL ISLANDS | - | QUẦN ĐẢO<BSP>NƯỚC XOÁY |
+| RUINS OF ALPH | Arufu | TÀN TÍCH<BSP>ALPH |
+| UNION CAVE | Tsunagari | HANG ĐỘNG<BSP>UNION |
+| SLOWPOKE WELL | Yadon | GIẾNG<BSP>SLOWPOKE |
+| RADIO TOWER | Kogane Radio | THÁP<BSP>RADIO |
+| NATIONAL PARK | Shizen Kouen | VƯỜN<BSP>QUỐC GIA |
+| TIN TOWER | Suzu | THÁP<BSP>CHUÔNG |
+| BURNED TOWER | Yaketa | THÁP<BSP>CHÁY |
+| LIGHTHOUSE | Asagi | HẢI ĐĂNG |
+| BATTLE TOWER | Battle Tower | THÁP<BSP>CHIẾN ĐẤU |
+| WHIRL ISLANDS | Uzumaki-jima | QUẦN ĐẢO<BSP>NƯỚC XOÁY |
 | MT.MORTAR | Suribachi | NÚI<BSP>SURIBACHI |
-| DRAGON'S DEN | - | HANG<BSP>RỒNG |
-| ICE PATH | - | LỐI<BSP>BĂNG |
-| DARK CAVE | - | HANG<BSP>TỐI |
+| DRAGON'S DEN | Ryuu no Ana | HANG<BSP>RỒNG |
+| ICE PATH | Koori no Nukemichi | LỐI<BSP>BĂNG |
+| DARK CAVE | Kurayami | HANG<BSP>TỐI |
 | ILEX FOREST | Ubame | RỪNG<BSP>UBAME |
-| FAST SHIP | - | TÀU CAO TỐC |
-| TOHJO FALLS | - | THÁC<BSP>TOHJO |
+| FAST SHIP | Aqua-gou | TÀU CAO TỐC |
+| TOHJO FALLS | Toujou | THÁC<BSP>TOHJO |
 
 ### Kanto Region
 
@@ -731,19 +731,19 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | FUCHSIA CITY | Sekichiku | TP.<BSP>SEKICHIKU |
 | CINNABAR ISLAND | Guren | ĐẢO<BSP>GUREN |
 | INDIGO PLATEAU | Sekiei | CAO NGUYÊN<BSP>SEKIEI |
-| VICTORY ROAD | - | LỐI<BSP>VINH QUANG |
+| VICTORY ROAD | Champion Road | LỐI<BSP>VINH QUANG |
 | MT.MOON | Otsukimi | NÚI OTSUKIMI |
-| ROCK TUNNEL | - | ĐƯỜNG HẦM<BSP>ĐÁ |
-| POWER PLANT | - | NHÀ MÁY<BSP>ĐIỆN |
-| LAV RADIO TOWER | - | ĐÀI RADIO<BSP>SHION |
-| SILPH CO. | - | SILPH CO. |
-| SAFARI ZONE | - | KHU SAFARI |
+| ROCK TUNNEL | Iwayama Tunnel | ĐƯỜNG HẦM<BSP>ĐÁ |
+| POWER PLANT | Muji Hatsudensho | NHÀ MÁY<BSP>ĐIỆN |
+| LAV RADIO TOWER | Shion Radio | ĐÀI RADIO<BSP>SHION |
+| SILPH CO. | Silph Co. | SILPH CO. |
+| SAFARI ZONE | Safari Zone | KHU SAFARI |
 | SEAFOAM ISLANDS | Futago | ĐẢO<BSP>SONG SINH |
-| POKEMON MANSION | - | DINH THỰ<BSP>#MON |
-| CERULEAN CAVE | - | ĐỘNG<BSP>HANADA |
-| DIGLETT'S CAVE | - | ĐỘNG<BSP>DIGLETT |
-| VIRIDIAN FOREST | - | RỪNG<BSP>TOKIWA |
-| UNDERGROUND | - | HẦM NGẦM |
+| POKEMON MANSION | Pokemon Yashiki | DINH THỰ<BSP>#MON |
+| CERULEAN CAVE | Hanada no Doukutsu | ĐỘNG<BSP>HANADA |
+| DIGLETT'S CAVE | Digda no Ana | ĐỘNG<BSP>DIGLETT |
+| VIRIDIAN FOREST | Tokiwa no Mori | RỪNG<BSP>TOKIWA |
+| UNDERGROUND | Chika Tsuro | HẦM NGẦM |
 
 ### Routes
 

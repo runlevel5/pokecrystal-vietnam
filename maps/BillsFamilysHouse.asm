@@ -115,7 +115,9 @@ BillTakeThisEeveeText:
 
 	para "Nó xuất hiện khi"
 	line "tôi đang điều"
-	cont "chỉnh TIME CAPSULE"
+
+	para "chỉnh CỖ MÁY"
+	line "THỜI GIAN."
 
 	para "Ai đó phải chăm"
 	line "sóc nó, nhưng tôi"

@@ -1161,7 +1161,7 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
 	inc a
-	cp 5 ; Now 5 pages (0-4) for Vietnamese mail
+	cp 3 ; Now 3 pages (0-2) for Vietnamese mail
 	jr c, .no_wrap
 	xor a
 .no_wrap
@@ -1184,8 +1184,6 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	dw MailEntry_Page1
 	dw MailEntry_Page2
 	dw MailEntry_Page3
-	dw MailEntry_Page4
-	dw MailEntry_Page5
 
 ; called from engine/sprite_anims/functions.asm
 

@@ -257,9 +257,12 @@ endc
 	call Serial_ExchangeBytes
 	ld a, SERIAL_NO_DATA_BYTE
 	ld [de], a
-; Read peer's language from preamble byte 5
-; If peer is English Crystal, this will be $FD (SERIAL_PREAMBLE_BYTE)
-; If peer is Vietnamese Crystal, this will be LANG_VN ($07)
+; Read peer's language from received RN data
+; NOTE: The preamble must be ALL $FD bytes for sync to work correctly.
+; Serial_ExchangeBytes discards received bytes until it sees $FD, then
+; stores subsequent bytes. Non-$FD bytes in preamble break synchronization.
+; Therefore, LANG_VN must be placed in the random bytes section, not preamble.
+; Due to variable sync timing, we scan the received data to find LANG_VN.
 	ld a, [wOTLinkBattleRNData + SERIAL_RN_PREAMBLE_LANG_OFFSET]
 	ld [wPeerLanguage], a
 
@@ -633,8 +636,10 @@ FixDataForLinkTransfer:
 	ld [hli], a
 	dec b
 	jr nz, .preamble_loop
-; Embed language identifier in preamble byte 5 for Vietnamese detection
-; English Crystal ignores non-$FD bytes in preamble (treats as noise)
+; BUG: This places LANG_VN inside the preamble, which breaks sync with English Crystal!
+; Serial_ExchangeBytes requires ALL preamble bytes to be $FD for synchronization.
+; Non-$FD bytes cause the receiver to keep waiting, creating a desync.
+; TODO: Move LANG_VN to the random bytes section (after preamble) to fix this.
 	ld a, LANG_VN
 	ld [wLinkBattleRNPreamble + SERIAL_RN_PREAMBLE_LANG_OFFSET], a
 

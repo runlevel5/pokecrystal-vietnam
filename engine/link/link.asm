@@ -430,34 +430,8 @@ endc
 	pop bc
 	dec b
 	jr nz, .copy_author_loop
-	ld b, PARTY_LENGTH
-	ld de, wLinkReceivedMail
-.fix_mail_loop
-	push bc
-	push de
-	farcall ParseMailLanguage
-	ld a, c
-	or a
-	jr z, .next
-	sub $3
-	jr nc, .skip
-	farcall ConvertEnglishMailToFrenchGerman
-	jr .next
-
-.skip
-	cp $2
-	jr nc, .next
-	farcall ConvertEnglishMailToSpanishItalian
-
-.next
-	pop de
-	ld hl, MAIL_STRUCT_LENGTH
-	add hl, de
-	ld d, h
-	ld e, l
-	pop bc
-	dec b
-	jr nz, .fix_mail_loop
+; No incoming mail translation needed - mail is displayed using the
+; appropriate font based on nationality (ParseMailLanguage in mail_2.asm)
 	ld de, wLinkReceivedMailEnd
 	xor a
 	ld [de], a
@@ -988,6 +962,8 @@ Link_PrepPartyData_Gen2:
 	ld a, c
 	or a ; MAIL_LANG_ENGLISH
 	jr z, .translate_next
+	cp MAIL_LANG_VIETNAMESE
+	jr z, .vietnamese
 	sub MAIL_LANG_ITALIAN
 	jr nc, .italian_spanish
 	farcall ConvertFrenchGermanMailToEnglish
@@ -996,6 +972,14 @@ Link_PrepPartyData_Gen2:
 	cp (MAIL_LANG_SPANISH + 1) - MAIL_LANG_ITALIAN
 	jr nc, .translate_next
 	farcall ConvertSpanishItalianMailToEnglish
+	jr .translate_next
+.vietnamese
+	; Calculate mail index (0-5) and pass in a
+	ld a, PARTY_LENGTH
+	sub b
+	; de = message pointer in wLinkPlayerMailMessages
+	; a = mail index
+	farcall ConvertVietnameseMailToEnglish
 .translate_next
 	pop de
 	ld hl, MAIL_STRUCT_LENGTH

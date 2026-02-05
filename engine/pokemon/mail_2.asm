@@ -34,18 +34,31 @@ ReadAnyMail:
 	farcall ParseMailLanguage
 	call CloseSRAM
 	ld a, c
+	; Check for Vietnamese first - it uses the standard Vietnamese font
+	cp MAIL_LANG_VIETNAMESE
+	jr z, .vietnamese_font
+	; European languages use their specific fonts
 	ld de, StandardEnglishFont
 	or a ; MAIL_LANG_ENGLISH
-	jr z, .got_font
+	jr z, .got_european_font
 	ld de, FrenchGermanFont
 	sub MAIL_LANG_ITALIAN
-	jr c, .got_font
+	jr c, .got_european_font
 	ld de, SpanishItalianFont
 
-.got_font
+.got_european_font
 	ld hl, vTiles1
 	lb bc, BANK(StandardEnglishFont), $80
 	call Get1bpp
+	jr .font_loaded
+
+.vietnamese_font
+	ld de, Font
+	ld hl, vTiles1
+	lb bc, BANK(Font), $80
+	call Get1bpp
+
+.font_loaded
 	pop de
 	call .LoadGFX
 	call EnableLCD

@@ -25,22 +25,44 @@ Item names are translated to Vietnamese. See [GLOSSARY.md](GLOSSARY.md) for comp
 
 **Mail Composition Input:**
 
-The mail composition character input screen (`data/text/mail_input_chars.asm`) uses **English-only characters** to ensure 100% compatibility with English Pokemon Crystal when trading mail items via link cable.
+The mail composition character input screen (`data/text/mail_input_chars.asm`) supports **full Vietnamese characters** with automatic translation for link cable compatibility.
 
-**Rationale:**
-- Mail items can be attached to Pokemon and traded via link cable
-- If mail contains Vietnamese characters, it would display as garbage in English Pokemon Crystal
-- By restricting mail input to English characters only, mail messages remain readable when traded between Vietnamese and English versions
-- This is a trade-off to maximize link cable trading compatibility
+**How it works:**
+- Mail messages can be written using Vietnamese characters (3 pages of characters)
+- When trading mail to English Pokemon Crystal, Vietnamese accented characters are automatically translated to base English letters (e.g., "Xin chào bạn!" → "Xin chao ban!")
+- The nationality field "VN" identifies Vietnamese mail for translation
+- Mail received from English Crystal displays correctly using the English font (no translation needed)
 
 **Implementation:**
 - File: `data/text/mail_input_chars.asm`
-- Layout: 2 pages (uppercase A-Z, numbers, and punctuation)
-- Page 1: A-Z uppercase letters
-- Page 2: Numbers (0-9) and punctuation marks
+- Layout: 3 pages of Vietnamese characters
+- Nationality code: "VN" (set in `engine/pokemon/mon_menu.asm:ComposeMailMessage`)
+- Outgoing translation: `engine/pokemon/european_mail.asm:ConvertVietnameseMailToEnglish`
+- Font switching: `engine/pokemon/mail_2.asm:ReadMailMessage` loads appropriate font based on nationality
 - Button labels: "tiếp" (next), "xoá" (delete), "xong" (done) - in Vietnamese for UI consistency
 
-**Note:** Pokemon and trainer name input (`data/text/name_input_chars.asm`) still supports full Vietnamese characters since those are handled by the translation layer during link cable trading.
+**Translation Flow (Outgoing VN → EN):**
+1. Player composes mail with Vietnamese characters
+2. Mail saved with nationality = "VN"
+3. When trading, `ParseMailLanguage` detects "VN" → `MAIL_LANG_VIETNAMESE`
+4. `ConvertVietnameseMailToEnglish` translates message and author name to base English letters
+5. English Crystal receives readable base-letter text
+
+**Incoming Mail Display (EN → VN):**
+1. English Crystal sends mail (any language: EN, FR, DE, IT, ES)
+2. `ParseMailLanguage` returns appropriate language code based on nationality
+3. `ReadMailMessage` in `mail_2.asm` loads the correct font for that language
+4. No character translation needed - the font handles display correctly
+
+**Font Loading by Nationality:**
+| Nationality | Font Loaded |
+|-------------|-------------|
+| "VN" | Vietnamese `Font` |
+| "EF", "EG" | `FrenchGermanFont` |
+| "EI", "ES" | `SpanishItalianFont` |
+| Other | `StandardEnglishFont` |
+
+**Note:** Pokemon and trainer name input (`data/text/name_input_chars.asm`) also supports full Vietnamese characters, handled by the translation layer during link cable trading.
 
 #### 3. Status Conditions
 Status effect names are translated to Vietnamese in move descriptions and dialogue. See [GLOSSARY.md](GLOSSARY.md) for translations.

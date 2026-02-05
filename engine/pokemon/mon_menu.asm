@@ -445,18 +445,33 @@ StartMenuYesNo:
 ComposeMailMessage:
 	ld de, wTempMailMessage
 	farcall _ComposeMailMessage
+	; Copy player name to author field
 	ld hl, wPlayerName
 	ld de, wTempMailAuthor
-	ld bc, NAME_LENGTH - 1
+	ld bc, PLAYER_NAME_LENGTH
 	call CopyBytes
+	; Set nationality to "VN" for Vietnamese mail
+	ld a, 'V'
+	ld [de], a
+	inc de
+	ld a, 'N'
+	ld [de], a
+	inc de
+	; Copy player ID
 	ld hl, wPlayerID
-	ld bc, 2
-	call CopyBytes
+	ld a, [hli]
+	ld [de], a
+	inc de
+	ld a, [hl]
+	ld [de], a
+	inc de
+	; Set species and mail type
 	ld a, [wCurPartySpecies]
 	ld [de], a
 	inc de
 	ld a, [wCurItem]
 	ld [de], a
+	; Save to SRAM
 	ld a, [wCurPartyMon]
 	ld hl, sPartyMail
 	ld bc, MAIL_STRUCT_LENGTH

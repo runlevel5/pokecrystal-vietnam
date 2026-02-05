@@ -3,8 +3,19 @@ ParseMailLanguage:
 	ld hl, sPartyMon1MailNationality - sPartyMon1Mail
 	add hl, de
 	ld a, [hli]
+	; Check for Vietnamese: 'V' 'N'
+	cp 'V'
+	jr nz, .not_vietnamese
+	ld a, [hl]
+	cp 'N'
+	jr nz, .check_european
+	ld c, MAIL_LANG_VIETNAMESE
+	ret
+.not_vietnamese
+	; Check for European languages: 'E' followed by language code
 	cp 'E'
 	ret nz
+.check_european
 	ld a, [hli]
 	assert MAIL_LANG_ENGLISH + 1 == MAIL_LANG_FRENCH
 	inc c
@@ -124,3 +135,44 @@ ConvertEnglishMailToSpanishItalian:
 	dec b
 	jr nz, .loop
 	ret
+
+ConvertVietnameseMailToEnglish:
+; Called when sending Vietnamese mail to English Crystal
+; Converts Vietnamese accented characters to base English letters
+; Uses TranslateVietnameseToEnglish from link_trade_text.asm
+; Input: 
+;   de = pointer to mail message in wLinkPlayerMailMessages
+;   a = mail index (0-5)
+	push af
+	; Translate the message (in-place)
+	; de already points to message, bc = length
+	push de
+	ld bc, MAIL_MSG_LENGTH
+	farcall TranslateVietnameseToEnglish
+	pop de
+	
+	; Calculate metadata pointer for author name
+	; wLinkPlayerMailMetadata + mailIndex * (MAIL_STRUCT_LENGTH - (MAIL_MSG_LENGTH + 1))
+	; Metadata size per mail = 14 bytes (MAIL_STRUCT_LENGTH - MAIL_MSG_LENGTH - 1 = $2f - $21 = 14)
+	pop af
+	ld hl, wLinkPlayerMailMetadata
+	; Multiply mail index by 14
+	ld b, a
+	ld de, MAIL_STRUCT_LENGTH - (MAIL_MSG_LENGTH + 1) ; 14
+	or a
+	jr z, .no_offset
+.offset_loop
+	add hl, de
+	dec b
+	jr nz, .offset_loop
+.no_offset
+	; hl now points to author name in metadata
+	; TranslateVietnameseToEnglish expects de = source/dest pointer
+	ld d, h
+	ld e, l
+	ld bc, PLAYER_NAME_LENGTH - 1
+	farcall TranslateVietnameseToEnglish
+	ret
+
+; ConvertEnglishMailToVietnamese is not needed - incoming English mail
+; is displayed using StandardEnglishFont (see mail_2.asm ReadMailMessage)

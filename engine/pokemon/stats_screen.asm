@@ -827,7 +827,7 @@ IDNoString:
 	db "<ID>№.@"
 
 OTString:
-	db "CHỦ/@"
+	db "HLV GỐC/@"
 
 StatsScreen_PlaceFrontpic:
 	ld hl, wTempMonDVs

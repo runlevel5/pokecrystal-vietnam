@@ -106,7 +106,7 @@ All Pokemon species names remain in English:
 - **Exception**: EGG (the placeholder name for unhatched Pokemon) is translated to TRỨNG
 
 #### 6. Special Terms
-- Badge names: Use "HC" (Huy Chương) prefix + English name (e.g., HC ZEPHYR, HC THUNDER)
+- Badge names: Fully translated to Vietnamese (e.g., HUY HIỆU GIÓ, HUY HIỆU SẤM, HUY HIỆU ĐẤT)
 - Game-specific terms: GYM (kept as GYM), RADIO (kept as RADIO)
 
 #### 7. Game Terms

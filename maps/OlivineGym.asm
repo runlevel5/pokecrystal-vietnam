@@ -130,11 +130,11 @@ Jasmine_BetterTrainer:
 
 Text_ReceivedMineralBadge:
 	text "<PLAYER> nhận được"
-	line "HC MINERAL."
+	line "HUY HIỆU KHOÁNG."
 	done
 
 Jasmine_BadgeSpeech:
-	text "HC MINERAL"
+	text "HUY HIỆU KHOÁNG"
 	line "tăng THỦ cho"
 	cont "#MON."
 

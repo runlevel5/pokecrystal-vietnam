@@ -189,16 +189,16 @@ ChuckLossText:
 
 	para "Hay đấy!"
 	line "Mày xứng đáng"
-	cont "với HC STORM!"
+	cont "HUY HIỆU BÃO!"
 	done
 
 GetStormBadgeText:
 	text "<PLAYER> nhận được"
-	line "HC STORM."
+	line "HUY HIỆU BÃO."
 	done
 
 ChuckExplainBadgeText:
-	text "HC STORM khiến"
+	text "HUY HIỆU BÃO khiến"
 	line "mọi #MON đến"
 
 	para "L70 vâng lời, kể"

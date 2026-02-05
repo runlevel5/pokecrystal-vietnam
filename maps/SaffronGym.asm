@@ -155,17 +155,17 @@ SabrinaWinLossText:
 
 	para "Được, ngươi thắng"
 	line "Ngươi xứng đáng"
-	cont "có HC MARSH."
+	cont "HUY HIỆU ĐẦM LẦY."
 	done
 
 ReceivedMarshBadgeText:
 	text "<PLAYER> nhận được"
-	line "HC MARSH."
+	line "HUY HIỆU ĐẦM LẦY."
 	done
 
 SabrinaMarshBadgeText:
-	text "SABRINA: HC MARSH"
-	line "khai phá"
+	text "SABRINA: HUY HIỆU"
+	line "ĐẦM LẦY khai phá"
 
 	para "sức mạnh tiềm ẩn"
 	line "của ngươi…"

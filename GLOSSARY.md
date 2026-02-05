@@ -775,7 +775,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | TEAM ROCKET | ĐỘI ROCKET | Team/Squad |
 | GYM LEADER | T.LĨNH GYM | Thủ Lĩnh (Leader) |
 
-**Note:** Compound badge names use "HC" prefix (e.g., HC THUNDER, HC MARSH). See Badge Names section below.
+**Note:** Badge names are fully translated to Vietnamese (e.g., HUY HIỆU SẤM, HUY HIỆU ĐẦM LẦY). See Badge Names section below.
 
 ---
 
@@ -814,26 +814,26 @@ All Pokemon species names remain in English (PIKACHU, RATTATA, etc.). Pokemon ni
 **Exception:** EGG (unhatched Pokemon placeholder) is translated to TRỨNG.
 
 ### Badge Names
-Badge names use "HC" (Huy Chương) prefix followed by the English badge name:
+Badge names are fully translated to Vietnamese:
 
 | English | Vietnamese |
 |---------|------------|
-| ZEPHYRBADGE | HC ZEPHYR |
-| HIVEBADGE | HC HIVE |
-| PLAINBADGE | HC PLAIN |
-| FOGBADGE | HC FOG |
-| STORMBADGE | HC STORM |
-| MINERALBADGE | HC MINERAL |
-| GLACIERBADGE | HC GLACIER |
-| RISINGBADGE | HC RISING |
-| BOULDERBADGE | HC BOULDER |
-| CASCADEBADGE | HC CASCADE |
-| THUNDERBADGE | HC THUNDER |
-| RAINBOWBADGE | HC RAINBOW |
-| MARSHBADGE | HC MARSH |
-| SOULBADGE | HC SOUL |
-| VOLCANOBADGE | HC VOLCANO |
-| EARTHBADGE | HC EARTH |
+| ZEPHYRBADGE | HUY HIỆU GIÓ |
+| HIVEBADGE | HUY HIỆU TỔ ONG |
+| PLAINBADGE | HUY HIỆU ĐỒNG BẰNG |
+| FOGBADGE | HUY HIỆU SƯƠNG MÙ |
+| STORMBADGE | HUY HIỆU BÃO |
+| MINERALBADGE | HUY HIỆU KHOÁNG |
+| GLACIERBADGE | HUY HIỆU BĂNG |
+| RISINGBADGE | HUY HIỆU THĂNG HOA |
+| BOULDERBADGE | HUY HIỆU ĐÁ |
+| CASCADEBADGE | HUY HIỆU THÁC |
+| THUNDERBADGE | HUY HIỆU SẤM |
+| RAINBOWBADGE | HUY HIỆU CẦU VỒNG |
+| MARSHBADGE | HUY HIỆU ĐẦM LẦY |
+| SOULBADGE | HUY HIỆU HỒN |
+| VOLCANOBADGE | HUY HIỆU NÚI LỬA |
+| EARTHBADGE | HUY HIỆU ĐẤT |
 
 ### Units
 Pokemon height and weight are converted from imperial to metric:

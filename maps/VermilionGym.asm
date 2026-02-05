@@ -130,18 +130,18 @@ LtSurgeWinLossText:
 	line "Ngươi rất mạnh!"
 
 	para "OK, nhóc. Ngươi"
-	line "nhận HC THUNDER!"
+	line "nhận HUY HIỆU SẤM!"
 	done
 
 ReceivedThunderBadgeText:
 	text "<PLAYER> nhận được"
-	line "HC THUNDER."
+	line "HUY HIỆU SẤM."
 	done
 
 LtSurgeThunderBadgeText:
-	text "SURGE: HC THUNDER"
-	line "tăng TỐC ĐỘ cho"
-	cont "#MON."
+	text "SURGE: HUY HIỆU"
+	line "SẤM tăng TỐC ĐỘ"
+	cont "cho #MON."
 
 	para "Hãy coi nó là"
 	line "bằng chứng ngươi"

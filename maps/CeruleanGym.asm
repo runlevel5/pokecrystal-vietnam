@@ -259,12 +259,12 @@ MistyWinLossText:
 	line "ngươi có tay nghề…"
 
 	para "Đây, nhận lấy"
-	line "HC CASCADE."
+	line "HUY HIỆU THÁC."
 	done
 
 ReceivedCascadeBadgeText:
 	text "<PLAYER> nhận được"
-	line "HC CASCADE."
+	line "HUY HIỆU THÁC."
 	done
 
 MistyFightDoneText:

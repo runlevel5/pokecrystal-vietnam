@@ -179,13 +179,13 @@ BugsyText_ResearchIncomplete:
 
 Text_ReceivedHiveBadge:
 	text "<PLAYER> nhận được"
-	line "HC HIVE."
+	line "HUY HIỆU TỔ ONG."
 	done
 
 BugsyText_HiveBadgeSpeech:
 	text "Bạn có biết lợi"
-	line "ích của HC HIVE"
-	cont "không?"
+	line "ích của HUY HIỆU"
+	cont "TỔ ONG không?"
 
 	para "Nếu có nó, #MON"
 	line "đến cấp 30 sẽ"

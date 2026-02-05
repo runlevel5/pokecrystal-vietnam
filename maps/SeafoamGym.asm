@@ -93,12 +93,12 @@ BlaineWinLossText:
 	line "Ta đã cháy hết…"
 
 	para "Ngươi xứng đáng"
-	line "HC VOLCANO!"
+	line "HUY HIỆU NÚI LỬA!"
 	done
 
 ReceivedVolcanoBadgeText:
 	text "<PLAYER> nhận được"
-	line "HC VOLCANO."
+	line "HUY HIỆU NÚI LỬA."
 	done
 
 BlaineAfterBattleText:

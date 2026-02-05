@@ -146,12 +146,13 @@ ErikaBeatenText:
 	line "rất mạnh…"
 
 	para "Ta sẽ trao cho"
-	line "ngươi HC RAINBOW"
+	line "ngươi HUY HIỆU"
+	cont "CẦU VỒNG."
 	done
 
 PlayerReceivedRainbowBadgeText:
 	text "<PLAYER> nhận được"
-	line "HC RAINBOW."
+	line "HUY HIỆU CẦU VỒNG."
 	done
 
 ErikaExplainTMText:

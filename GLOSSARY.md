@@ -802,7 +802,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 
 | English | Vietnamese | Notes |
 |---------|------------|-------|
-| MR. POKEMON | ÔNG LÃO POKEMON | The old man who gives you the Mystery Egg |
+| MR. POKEMON | ÔNG POKEMON | The old man who gives you the Mystery Egg |
 
 ---
 

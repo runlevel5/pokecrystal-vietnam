@@ -498,9 +498,9 @@ CherrygroveTeacherText_HaveMapCard:
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "Nhà ÔNG LÃO"
-	line "#MON còn xa"
-	cont "hơn phía trước."
+	text "Nhà ÔNG #MON"
+	line "còn xa hơn phía"
+	cont "trước."
 	done
 
 CherrygroveYoungsterText_HavePokedex:

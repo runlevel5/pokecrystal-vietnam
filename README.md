@@ -37,6 +37,20 @@ This localization restores the original Japanese sprite designs for certain char
 **Restored Pokémon sprites:**
 - Jynx (front, back, and shiny palette)
 
+## Metric Units
+
+Pokémon height and weight measurements have been converted from imperial to metric units. Vietnam uses the metric system, so displaying feet/inches and pounds would be unfamiliar to Vietnamese players.
+
+| Attribute | Original (English) | Vietnamese Version |
+|-----------|-------------------|-------------------|
+| Height | Feet and inches (e.g., 5'07") | Meters (e.g., 1.7m) |
+| Weight | Pounds (e.g., 200 lbs) | Kilograms (e.g., 91kg) |
+
+**Examples:**
+- Pikachu: 1'04" / 13 lbs → 0.4m / 6kg
+- Charizard: 5'07" / 200 lbs → 1.7m / 91kg
+- Snorlax: 6'11" / 1014 lbs → 2.1m / 460kg
+
 ## Celebi Event Enabled
 
 This localization enables the **GS Ball / Celebi event** that was originally exclusive to the Japanese version and later the 3DS Virtual Console release.

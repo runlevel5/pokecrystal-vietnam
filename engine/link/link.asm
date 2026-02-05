@@ -988,6 +988,8 @@ Link_PrepPartyData_Gen2:
 	ld a, c
 	or a ; MAIL_LANG_ENGLISH
 	jr z, .translate_next
+	cp MAIL_LANG_VIETNAMESE
+	jr z, .vietnamese
 	sub MAIL_LANG_ITALIAN
 	jr nc, .italian_spanish
 	farcall ConvertFrenchGermanMailToEnglish
@@ -996,6 +998,9 @@ Link_PrepPartyData_Gen2:
 	cp (MAIL_LANG_SPANISH + 1) - MAIL_LANG_ITALIAN
 	jr nc, .translate_next
 	farcall ConvertSpanishItalianMailToEnglish
+	jr .translate_next
+.vietnamese
+	farcall ConvertVietnameseMailToEnglish
 .translate_next
 	pop de
 	ld hl, MAIL_STRUCT_LENGTH

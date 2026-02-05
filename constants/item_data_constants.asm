@@ -65,6 +65,7 @@ DEF MAIL_STRUCT_LENGTH_JP EQU $2a ; mailmsg_jp struct
 	const MAIL_LANG_GERMAN
 	const MAIL_LANG_ITALIAN
 	const MAIL_LANG_SPANISH
+	const MAIL_LANG_VIETNAMESE
 
 ; held item effects
 	const_def

@@ -1161,23 +1161,31 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
 	inc a
-	cp 2 ; Now only 2 pages (0 and 1)
+	cp 5 ; Now 5 pages (0-4) for Vietnamese mail
 	jr c, .no_wrap
 	xor a
 .no_wrap
 	ld [hl], a
-	; a = 0: Page1, 1: Page2
-	and a
-	jr z, .mail_page1
-	; else page2
-	ld de, MailEntry_Page2
+	; Use lookup table for mail pages
+	ld hl, .MailPages
+	add a
+	add l
+	ld l, a
+	adc h
+	sub l
+	ld h, a
+	ld a, [hli]
+	ld d, [hl]
+	ld e, a
 	call .PlaceMailCharset
 	ret
 
-.mail_page1
-	ld de, MailEntry_Page1
-	call .PlaceMailCharset
-	ret
+.MailPages:
+	dw MailEntry_Page1
+	dw MailEntry_Page2
+	dw MailEntry_Page3
+	dw MailEntry_Page4
+	dw MailEntry_Page5
 
 ; called from engine/sprite_anims/functions.asm
 
@@ -1394,5 +1402,3 @@ MailComposition_TryAddLastCharacter:
 .done
 	ld a, [hl]
 	jp NamingScreen_LoadNextCharacter
-
-INCLUDE "data/text/mail_input_chars.asm"

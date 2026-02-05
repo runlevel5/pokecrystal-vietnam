@@ -45,12 +45,11 @@ This Vietnamese version is **fully compatible** with English Pokémon Crystal fo
 - When trading with English Crystal, names are automatically translated in both directions
 - Vietnamese accented characters (á, ă, ê, etc.) are converted to base letters when sent to English
 - English text is properly displayed when received from English Crystal
-- Pokémon nicknames and PC Box names use English-only input to ensure 100% compatibility
+- PC Box names use full Vietnamese (not transmitted over link cable)
 
 **Restrictions for compatibility:**
 - Pokémon nicknames: English characters only (A-Z, 0-9)
-- Mail messages: English characters only
-- Player/Rival names: Full Vietnamese supported (translated automatically during trading)
+- Player/Rival/Mail: Full Vietnamese supported (translated automatically during trading)
 
 ## Screenshots
 

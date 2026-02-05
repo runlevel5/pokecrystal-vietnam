@@ -3,8 +3,19 @@ ParseMailLanguage:
 	ld hl, sPartyMon1MailNationality - sPartyMon1Mail
 	add hl, de
 	ld a, [hli]
+	; Check for Vietnamese: 'V' 'N'
+	cp 'V'
+	jr nz, .not_vietnamese
+	ld a, [hl]
+	cp 'N'
+	jr nz, .check_european
+	ld c, MAIL_LANG_VIETNAMESE
+	ret
+.not_vietnamese
+	; Check for European languages: 'E' followed by language code
 	cp 'E'
 	ret nz
+.check_european
 	ld a, [hli]
 	assert MAIL_LANG_ENGLISH + 1 == MAIL_LANG_FRENCH
 	inc c
@@ -123,4 +134,26 @@ ConvertEnglishMailToSpanishItalian:
 	inc hl
 	dec b
 	jr nz, .loop
+	ret
+
+ConvertVietnameseMailToEnglish:
+; Called when sending Vietnamese mail to English Crystal
+; Converts Vietnamese accented characters to base English letters
+; Uses TranslateVietnameseToEnglish from link_trade_text.asm
+; Input: de = pointer to mail message in wLinkPlayerMailMessages
+	push de
+	ld h, d
+	ld l, e
+	ld d, h
+	ld e, l
+	ld bc, MAIL_MSG_LENGTH
+	farcall TranslateVietnameseToEnglish
+	pop de
+	; Also translate the author name (after message + messageEnd)
+	ld hl, sPartyMon1MailAuthor - sPartyMon1Mail
+	add hl, de
+	ld d, h
+	ld e, l
+	ld bc, PLAYER_NAME_LENGTH - 1
+	farcall TranslateVietnameseToEnglish
 	ret

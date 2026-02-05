@@ -48,12 +48,24 @@ The mail composition character input screen (`data/text/mail_input_chars.asm`) n
 4. `ConvertVietnameseMailToEnglish` translates message and author name
 5. English Crystal receives readable base-letter text
 
-**Translation Flow (Incoming EN → VN):**
-1. English Crystal sends mail with lowercase text (e.g., "hello")
-2. English lowercase uses $A0-$B9 which would display as Vietnamese accented chars
-3. `ParseMailLanguage` returns `MAIL_LANG_ENGLISH` (nationality not "VN")
-4. `ConvertEnglishMailToVietnamese` translates $A0-$B9 → $80-$99
-5. Vietnamese Crystal displays "hello" correctly
+**Translation Flow (Incoming EN/EU → VN):**
+1. English/European Crystal sends mail with text
+2. `ParseMailLanguage` returns language code (not "VN")
+3. `ConvertEnglishMailToVietnamese` translates:
+   - English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
+   - German umlauts Ä Ö Ü ä ö ü ($C0-$C5) → base letters a, o, u
+   - English contractions 'd 'l 'm 'r 's 't 'v ($D0-$D6) → base letters
+4. Vietnamese Crystal displays text correctly
+
+**European Character Handling:**
+| European Character | Code Range | Vietnamese Display |
+|-------------------|------------|-------------------|
+| Ä, ä | $C0, $C3 | a |
+| Ö, ö | $C1, $C4 | o |
+| Ü, ü | $C2, $C5 | u |
+| 'd 'l 'm 'r 's 't 'v | $D0-$D6 | d l m r s t v |
+
+Example: German "Grüße" → displays as "Grusse" (ü→u)
 
 **Note:** Pokemon and trainer name input (`data/text/name_input_chars.asm`) also supports full Vietnamese characters, handled by the same translation layer during link cable trading.
 

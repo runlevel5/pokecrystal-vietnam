@@ -438,11 +438,13 @@ endc
 	farcall ParseMailLanguage
 	ld a, c
 	; For Vietnamese Crystal, we need to translate any non-Vietnamese mail
-	; All other languages use $A0-$B9 for lowercase which displays wrong in Vietnamese
+	; European characters would display as wrong Vietnamese accented chars
 	cp MAIL_LANG_VIETNAMESE
 	jr z, .next ; Vietnamese mail needs no conversion
-	; Convert any other language's lowercase a-z ($A0-$B9) to Vietnamese a-z ($80-$99)
-	; This handles English, French, German, Italian, Spanish mail
+	; Convert European/English text to Vietnamese-compatible format:
+	; - lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
+	; - German umlauts ($C0-$C5) → base letters (a, o, u)
+	; - English contractions ($D0-$D6) → base letters (d, l, m, r, s, t, v)
 	farcall ConvertEnglishMailToVietnamese
 
 .next

@@ -114,7 +114,7 @@ BrockWinLossText:
 
 ReceivedBoulderBadgeText:
 	text "<PLAYER> nhận được"
-	line "HC BOULDER."
+	line "HUY HIỆU ĐÁ."
 	done
 
 BrockBoulderBadgeText:
@@ -124,7 +124,7 @@ BrockBoulderBadgeText:
 	para "đấu với ngươi, dù"
 	line "hơi buồn một chút."
 
-	para "HC BOULDER sẽ"
+	para "HUY HIỆU ĐÁ sẽ"
 	line "giúp #MON của"
 
 	para "ngươi mạnh hơn"

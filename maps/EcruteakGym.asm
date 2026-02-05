@@ -231,12 +231,12 @@ MortyWinLossText:
 
 Text_ReceivedFogBadge:
 	text "<PLAYER> đã nhận"
-	line "HC FOG."
+	line "HUY HIỆU SƯƠNG MÙ."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "Với HC FOG,"
-	line "#MON đến L50"
+	text "HUY HIỆU SƯƠNG MÙ"
+	line "cho #MON đến L50"
 
 	para "sẽ nghe lời"
 	line "bạn."

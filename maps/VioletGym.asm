@@ -140,17 +140,17 @@ FalknerWinLossText:
 	line "Cầm lấy cái này."
 
 	para "Đây là huy hiệu"
-	line "chính thức"
-	cont "HC ZEPHYR."
+	line "chính thức--"
+	cont "HUY HIỆU GIÓ."
 	done
 
 ReceivedZephyrBadgeText:
 	text "<PLAYER> nhận được"
-	line "HC ZEPHYR."
+	line "HUY HIỆU GIÓ."
 	done
 
 FalknerZephyrBadgeText:
-	text "HC ZEPHYR"
+	text "HUY HIỆU GIÓ"
 	line "tăng sức tấn công"
 	cont "của #MON."
 

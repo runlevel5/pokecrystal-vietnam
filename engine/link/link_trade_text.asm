@@ -236,17 +236,17 @@ Link_FixDataForPeerLanguage:
 ; Fixes outgoing data in wLinkData based on detected peer language
 ; Called after RN exchange, before party data exchange
 ; If peer is Vietnamese: keep original Vietnamese names (no changes needed)
-; If peer is English: copy pre-translated player name and translate OT/nicknames
+; If peer is English: translate player name, OT names, and nicknames
 	ld a, [wPeerLanguage]
 	cp LANG_VN
 	ret z  ; Peer is Vietnamese, data already has correct Vietnamese names
 
 ; Peer is English - apply translations for compatibility
-; 1. Copy pre-translated player name (wTradeName) over wPlayerName in wLinkData
-	ld hl, wTradeName
-	ld de, wLinkData + SERIAL_PREAMBLE_LENGTH  ; Skip preamble to player name
+; 1. Translate player name in wLinkData (already copied from wPlayerName)
+	ld hl, wLinkData + SERIAL_PREAMBLE_LENGTH  ; Skip preamble to player name
+	ld de, wLinkData + SERIAL_PREAMBLE_LENGTH
 	ld bc, NAME_LENGTH
-	call CopyBytes
+	call TranslateVietnameseToEnglish
 
 ; 2. Translate OT names and nicknames
 	call TranslateString_OTNames

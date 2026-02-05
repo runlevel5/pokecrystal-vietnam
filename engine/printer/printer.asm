@@ -647,7 +647,7 @@ PrintPCBox_Page1:
 	call Printer_PlaceSideBorders
 	call Printer_PlaceTopBorder
 
-	hlcoord 4, 3
+	hlcoord 1, 3
 	ld de, .String_PokemonList
 	call PlaceString
 
@@ -667,7 +667,7 @@ PrintPCBox_Page1:
 	ret
 
 .String_PokemonList:
-	db "D.SÁCH #MON@"
+	db "DANH SÁCH #MON@"
 
 PrintPCBox_Page2:
 	hlcoord 0, 0

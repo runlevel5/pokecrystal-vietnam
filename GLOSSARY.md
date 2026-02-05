@@ -833,7 +833,7 @@ Badge names use "HC" (Huy Chương) prefix followed by the English badge name:
 | MARSHBADGE | HC MARSH |
 | SOULBADGE | HC SOUL |
 | VOLCANOBADGE | HC VOLCANO |
-| EARTHBADGE | HC EARTH |
+| EARTHBADGE | HUY HIỆU ĐẤT |
 
 ### Units
 Pokemon height and weight are converted from imperial to metric:

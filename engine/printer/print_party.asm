@@ -326,7 +326,7 @@ PlaceGenderAndShininess:
 	ret
 
 PrintParty_OTString:
-	db "OT/@"
+	db "HLV GỐC/@"
 
 PrintParty_MoveString:
 	db "CHIÊU@"

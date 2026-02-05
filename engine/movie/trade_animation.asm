@@ -939,7 +939,7 @@ TrademonStats_MonTemplate:
 .OTMonData:
 	db   "─── №."
 	next ""
-	next "OT/"
+	next "HLV GỐC/"
 	next "<ID>№.@"
 
 TrademonStats_Egg:
@@ -958,7 +958,7 @@ TrademonStats_Egg:
 	ret
 
 .EggData:
-	db   "EGG"
+	db   "TRỨNG"
 	next "OT/?????"
 	next "<ID>№.?????@"
 

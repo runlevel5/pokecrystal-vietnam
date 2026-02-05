@@ -228,6 +228,32 @@ TranslateString_OTNames:
 
 
 ; ============================================================================
+; OUTGOING DATA FIX BASED ON PEER LANGUAGE
+; Called after RN exchange when peer language is known
+; ============================================================================
+
+Link_FixDataForPeerLanguage:
+; Fixes outgoing data in wLinkData based on detected peer language
+; Called after RN exchange, before party data exchange
+; If peer is Vietnamese: keep original Vietnamese names (no changes needed)
+; If peer is English: translate player name, OT names, and nicknames
+	ld a, [wPeerLanguage]
+	cp LANG_VN
+	ret z  ; Peer is Vietnamese, data already has correct Vietnamese names
+
+; Peer is English - apply translations for compatibility
+; 1. Translate player name in wLinkData (already copied from wPlayerName)
+	ld hl, wLinkData + SERIAL_PREAMBLE_LENGTH  ; Skip preamble to player name
+	ld de, wLinkData + SERIAL_PREAMBLE_LENGTH
+	ld bc, NAME_LENGTH
+	call TranslateVietnameseToEnglish
+
+; 2. Translate OT names and nicknames
+	call TranslateString_OTNames
+	jp TranslateString_PartyMonNicknames
+
+
+; ============================================================================
 ; INCOMING TRANSLATION (English → Vietnamese)
 ; Called after receiving data from English Crystal
 ; ============================================================================
@@ -279,6 +305,10 @@ TranslateReceivedOTPartyMonNicknames:
 TranslateAllReceivedOTData:
 ; Convenience function to translate all received text data
 ; Call this after copying OT data from wLinkData
+; Skip translation if peer is also Vietnamese (data already in correct format)
+	ld a, [wPeerLanguage]
+	cp LANG_VN
+	ret z
 	call TranslateReceivedOTPlayerName
 	call TranslateReceivedOTPartyMonOTs
 	jp TranslateReceivedOTPartyMonNicknames

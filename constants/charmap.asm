@@ -6,7 +6,6 @@
 	charmap "<PLAY_G>",  $14 ; "<PLAYER>くん" or "<PLAYER>ちゃん"; same as "<PLAYER>" in English
 	charmap "<MOBILE>",  $15
 	charmap "<CR>",      $16
-	charmap "<TRADE_NAME>", $17 ; wTradeName (pre-translated player name for link cable)
 	charmap "<BSP>",     $1f ; breakable space (usually " ", or "<LF>" on the Town Map)
 	charmap "<LF>",      $22
 	charmap "<POKE>",    $24 ; "<PO><KE>"

@@ -116,7 +116,7 @@ CinnabarIslandGymSignText:
 
 	para "GYM CINNABAR đã"
 	line "chuyển đến ĐẢO"
-	cont "SEAFOAM."
+	cont "BỌT BIỂN."
 
 	para "BLAINE"
 	done

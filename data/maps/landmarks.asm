@@ -128,9 +128,9 @@ SlowpokeWellName:    db "GIẾNG<BSP>SLOWPOKE@"
 RadioTowerName:      db "THÁP<BSP>RADIO@"
 PowerPlantName:      db "NHÀ MÁY<BSP>ĐIỆN@"
 NationalParkName:    db "VƯỜN<BSP>QUỐC GIA@"
-TinTowerName:        db "THÁP<BSP>THIẾC@"
+TinTowerName:        db "THÁP<BSP>CHUÔNG@"
 LighthouseName:      db "HẢI ĐĂNG@"
-WhirlIslandsName:    db "QUẦN ĐẢO<BSP>WHIRL@"
+WhirlIslandsName:    db "ĐẢO<BSP>XOÁY NƯỚC@"
 MtMortarName:        db "NÚI<BSP>MORTAR@"
 DragonsDenName:      db "HANG<BSP>RỒNG@"
 IcePathName:         db "LỐI ĐI<BSP>BĂNG ĐÁ@"
@@ -152,7 +152,7 @@ RockTunnelName:      db "ĐƯỜNG HẦM<BSP>ĐÁ@"
 LavRadioTowerName:   db "THÁP RADIO<BSP>LAV@"
 SilphCoName:         db "SILPH CO.@" ; unreferenced
 SafariZoneName:      db "KHU SAFARI@" ; unreferenced
-SeafoamIslandsName:  db "ĐẢO<BSP>SEAFOAM@"
+SeafoamIslandsName:  db "ĐẢO<BSP>BỌT BIỂN@"
 PokemonMansionName:  db "DINH THỰ<BSP>#MON@" ; unreferenced
 CeruleanCaveName:    db "ĐỘNG<BSP>CERULEAN@" ; unreferenced
 Route1Name:          db "ĐƯỜNG<BSP>1@"

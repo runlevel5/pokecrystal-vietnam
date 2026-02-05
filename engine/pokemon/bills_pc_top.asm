@@ -83,7 +83,7 @@ _BillsPC:
 	db "RÚT <PK><MN>@"
 	db "GỬI <PK><MN>@"
 	db "ĐỔI HỘP@"
-	db "DI CHUYỂN (K.TH)@"
+	db "DỜI <PK><MN> (TRỪ THƯ)@"
 	db "THOÁT@"
 
 .Jumptable:

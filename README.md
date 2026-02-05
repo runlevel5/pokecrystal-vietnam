@@ -1,4 +1,4 @@
-# Pokémon Crystal Vietnamese Translation
+# Pokémon Crystal Vietnamese localization project
 
 A complete Vietnamese localization of Pokémon Crystal.
 

@@ -40,7 +40,7 @@ TrainerHouse1FReceptionistText:
 
 	para "nơi mới nhất và"
 	line "sôi động nhất ở"
-	cont "TOKIWA."
+	cont "VIRIDIAN."
 
 	para "Chúng tôi chỉ mở"
 	line "cửa cho HLV."
@@ -53,16 +53,16 @@ TrainerHouse1FReceptionistText:
 	done
 
 TrainerHouse1FCooltrainerMText:
-	text "TOKIWA là thị"
+	text "VIRIDIAN là thị"
 	line "trấn gần"
-	cont "CAO NGUYÊN SEKIEI"
+	cont "CAO NGUYÊN INDIGO"
 	cont "nhất."
 
 	para "Họ xây nơi này vì"
 	line "nhiều HLV đi qua"
 
 	para "trên đường lên"
-	line "CAO NGUYÊN SEKIEI"
+	line "CAO NGUYÊN INDIGO"
 	done
 
 TrainerHouse1FCooltrainerFText:
@@ -85,7 +85,7 @@ TrainerHouse1FYoungsterText:
 	para "thì mới trở thành"
 	line "VÔ ĐỊCH được."
 
-	para "VÔ ĐỊCH từ MASARA"
+	para "VÔ ĐỊCH từ PALLET"
 	line "đã đi đến tất cả"
 
 	para "các thành phố ở"

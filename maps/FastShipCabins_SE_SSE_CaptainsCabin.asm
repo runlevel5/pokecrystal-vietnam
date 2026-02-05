@@ -459,7 +459,7 @@ SupernerdShawnAfterBattleText:
 SSAquaHasArrivedVermilionText:
 	text "TÀU AQUA"
 	line "S.S.AQUA đã tới"
-	cont "TP. KUCHIBA."
+	cont "TP. VERMILION."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:

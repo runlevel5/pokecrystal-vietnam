@@ -181,7 +181,7 @@ MortyIntroText:
 	text "Bạn đã đến."
 	line "Tốt lắm."
 
-	para "Tại ENJU này,"
+	para "Tại ECRUTEAK này,"
 	line "#MON được tôn"
 	cont "kính."
 
@@ -366,7 +366,7 @@ EcruteakGymGuideText:
 	line "có thể tiết lộ"
 
 	para "bí mật sâu xa về"
-	line "ENJU."
+	line "ECRUTEAK."
 	done
 
 EcruteakGymGuideWinText:

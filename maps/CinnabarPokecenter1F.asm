@@ -19,11 +19,11 @@ CinnabarPokecenter1FFisherScript:
 
 CinnabarPokecenter1FCooltrainerFText:
 	text "BLAINE của GYM"
-	line "GUREN có vẻ"
+	line "CINNABAR có vẻ"
 
 	para "sống một mình ở"
 	line "hang động ĐẢO"
-	cont "SONG SINH…"
+	cont "SEAFOAM…"
 	done
 
 CinnabarPokecenter1FFisherText:

@@ -23,7 +23,7 @@ Route19FuchsiaGateOfficerScript:
 	end
 
 Route19FuchsiaGateOfficerText:
-	text "Núi lửa GUREN"
+	text "Núi lửa CINNABAR"
 	line "đã phun trào."
 
 	para "Nó phun đá tảng"
@@ -31,13 +31,13 @@ Route19FuchsiaGateOfficerText:
 	cont "19 vô thời hạn."
 
 	para "Không biết dân"
-	line "GUREN có an toàn"
+	line "CINNABAR an toàn"
 	cont "không…"
 	done
 
 Route19FuchsiaGateOfficerText_RocksCleared:
 	text "Không dân nào của"
-	line "GUREN bị thương"
+	line "CINNABAR bị thương"
 
 	para "vì vụ phun trào."
 	line "Tuyệt vời!"

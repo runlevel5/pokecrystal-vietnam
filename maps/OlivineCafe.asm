@@ -55,7 +55,7 @@ OlivineCafeStrengthSailorText_GotStrength:
 
 OlivineCafeFishingGuruText:
 	text "Thực đơn QUÁN CÀ"
-	line "PHÊ ASAGI đầy"
+	line "PHÊ OLIVINE đầy"
 
 	para "món ăn bổ dưỡng"
 	line "cho THỦ THỦY!"
@@ -66,7 +66,7 @@ OlivineCafeSailorText:
 	line "thành phố này, tôi"
 
 	para "luôn ghé QUÁN CÀ"
-	line "PHÊ ASAGI."
+	line "PHÊ OLIVINE."
 
 	para "Mọi món trong thực"
 	line "đơn làm tôi cảm"

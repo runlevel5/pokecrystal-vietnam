@@ -132,7 +132,7 @@ SaffronMagnetTrainStationOfficerTrainIsntOperatingText:
 
 SaffronMagnetTrainStationOfficerAreYouComingOnBoardText:
 	text "Chúng tôi sắp đi"
-	line "đến KOGANE."
+	line "đến GOLDENROD."
 
 	para "Bạn có lên tàu"
 	line "không?"

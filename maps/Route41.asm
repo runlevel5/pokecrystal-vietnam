@@ -161,10 +161,10 @@ SwimmermGeorgeBeatenText:
 	done
 
 SwimmermGeorgeAfterBattleText:
-	text "TANBA quá xa."
+	text "CIANWOOD quá xa."
 
 	para "Nhưng quay về"
-	line "ASAGI cũng không"
+	line "OLIVINE cũng không"
 	cont "dễ."
 
 	para "Tôi nên làm sao?"
@@ -215,7 +215,7 @@ SwimmermKirkAfterBattleText:
 SwimmermMathewSeenText:
 	text "Bạn đang tìm kiếm"
 	line "bí mật của QUẦN"
-	cont "ĐẢO ỐC XOÁY?"
+	cont "ĐẢO WHIRL?"
 	done
 
 SwimmermMathewBeatenText:
@@ -225,7 +225,7 @@ SwimmermMathewBeatenText:
 
 SwimmermMathewAfterBattleText:
 	text "Bí mật về QUẦN"
-	line "ĐẢO ỐC XOÁY…"
+	line "ĐẢO WHIRL…"
 
 	para "Bên trong tối mù"
 	line "mịt!"
@@ -234,7 +234,7 @@ SwimmermMathewAfterBattleText:
 SwimmerfKayleeSeenText:
 	text "Tôi đang trên"
 	line "đường đến QUẦN"
-	cont "ĐẢO ỐC XOÁY."
+	cont "ĐẢO WHIRL."
 
 	para "Tôi đi khám phá"
 	line "với bạn bè."

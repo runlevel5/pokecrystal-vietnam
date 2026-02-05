@@ -287,7 +287,7 @@ LakeOfRageLanceRadioSignalText:
 	cont "phải tiến hóa."
 
 	para "Một tín hiệu radio"
-	line "bí ẩn từ CHOUJI"
+	line "bí ẩn từ MAHOGANY"
 	cont "là nguyên nhân."
 
 	para "Ta sẽ đợi con ở"
@@ -474,7 +474,7 @@ WesleyNotWednesdayText:
 	done
 
 LakeOfRageSignText:
-	text "HỒ GYARADOS, cũng"
+	text "HỒ GIẬN DỮ, cũng"
 	line "gọi là HỒ CỦA"
 	cont "SỰ GIẬN DỮ."
 	done

@@ -159,7 +159,7 @@ Route12SignText:
 	text "TUYẾN ĐƯỜNG 12"
 
 	para "BẮC ĐẾN THỊ TRẤN"
-	line "SHION"
+	line "LAVENDER"
 	done
 
 FishingSpotSignText:

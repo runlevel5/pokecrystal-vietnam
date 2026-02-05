@@ -71,7 +71,7 @@ Route10SignText:
 	text "TUYẾN ĐƯỜNG 10"
 
 	para "TP. CERULEAN -"
-	line "THỊ TRẤN SHION"
+	line "THỊ TRẤN LAVENDER"
 	done
 
 Route10South_MapEvents:

@@ -363,7 +363,7 @@ RadioTower1FRadioCardWomanQuestion5Text:
 	cont "cuối cùng:"
 
 	para "Máy đánh bạc ở"
-	line "KOGANE GAME"
+	line "GOLDENROD GAME"
 
 	para "CORNER có hình"
 	line "CHARMANDER không?"

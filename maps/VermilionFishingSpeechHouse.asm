@@ -21,7 +21,7 @@ FishingDudeText:
 	cont "ANH EM LÀNG CÂU."
 
 	para "Con đã gặp NGƯ ÔNG"
-	line "ở HỒ GYARADOS"
+	line "ở HỒ GIẬN DỮ"
 	cont "chưa?"
 
 	para "Ông ấy mơ về việc"

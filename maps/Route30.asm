@@ -364,8 +364,8 @@ Route30CooltrainerFText:
 Route30SignText:
 	text "TUYẾN ĐƯỜNG 30"
 
-	para "TP KIKYO -"
-	line "TP YOSHINO"
+	para "TP VIOLET -"
+	line "TP CHERRYGROVE"
 	done
 
 MrPokemonsHouseDirectionsSignText:

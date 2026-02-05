@@ -80,7 +80,7 @@ BirdKeeperDenisBeatenText:
 BirdKeeperDenisAfterBattleText:
 	text "#MON tôi học"
 	line "cách dùng BAY ở"
-	cont "TANBA."
+	cont "CIANWOOD."
 
 	para "Thôi, vì tôi thua"
 	line "rồi, tôi sẽ BAY"

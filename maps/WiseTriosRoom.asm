@@ -155,11 +155,11 @@ WiseTriosRoomSage2Text:
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "THÁP CHUÔNG chỉ có"
+	text "THÁP THIẾC chỉ có"
 	line "thể vào bởi người"
 
 	para "sở hữu HUY HIỆU"
-	line "GYM ENJU."
+	line "GYM ECRUTEAK."
 
 	para "Tuy nhiên, giờ"
 	line "SUICUNE, RAIKOU"
@@ -190,7 +190,7 @@ SageGakuSeenText:
 	line "#MON sẽ đến để"
 
 	para "thử thách HLV đó"
-	line "tại THÁP CHUÔNG."
+	line "tại THÁP THIẾC."
 
 	para "Truyền thuyết đã"
 	line "thành sự thật!"
@@ -326,7 +326,7 @@ SageKojiAfterBattleSpeechText:
 	cont "thật qua."
 
 	para "Xin hãy tiếp tục"
-	line "và vào THÁP CHUÔNG"
+	line "và vào THÁP THIẾC"
 	cont "phía trước."
 
 	para "SUICUNE sẽ kiểm"

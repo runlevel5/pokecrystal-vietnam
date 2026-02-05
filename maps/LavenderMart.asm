@@ -39,7 +39,7 @@ LavenderMartRockerText:
 	line "thợ làm BÓNG #"
 
 	para "tùy chỉnh ở T.TRẤN"
-	line "HIWADA của JOHTO."
+	line "AZALEA của JOHTO."
 
 	para "Tôi ước có mấy"
 	line "cái."

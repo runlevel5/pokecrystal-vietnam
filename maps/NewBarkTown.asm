@@ -259,7 +259,7 @@ NewBarkTownRivalText2:
 	done
 
 NewBarkTownSignText:
-	text "T.TRẤN WAKABA"
+	text "T.TRẤN NEW BARK"
 
 	para "Thị trấn nơi gió"
 	line "của khởi đầu"

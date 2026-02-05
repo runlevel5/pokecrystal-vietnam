@@ -132,7 +132,7 @@ ViridianCityGrampsNearGymText:
 	cont "gần đây."
 
 	para "Một thanh niên từ"
-	line "MASARA trở thành"
+	line "PALLET trở thành"
 
 	para "TRƯỞNG, nhưng anh"
 	line "ấy hay vắng mặt."
@@ -181,18 +181,18 @@ ViridianCityYoungsterText:
 	line "vật phẩm rơi trên"
 
 	para "mặt đất trong"
-	line "RỪNG TOKIWA."
+	line "RỪNG VIRIDIAN."
 	done
 
 ViridianCitySignText:
-	text "THÀNH PHỐ TOKIWA"
+	text "THÀNH PHỐ VIRIDIAN"
 
 	para "Thiên Đường Xanh"
 	line "Mãi Mãi"
 	done
 
 ViridianGymSignText:
-	text "TP. TOKIWA"
+	text "TP. VIRIDIAN"
 	line "GYM #MON"
 	cont "TRƯỞNG: …"
 
@@ -202,10 +202,10 @@ ViridianGymSignText:
 
 ViridianCityWelcomeSignText:
 	text "CHÀO MỪNG ĐẾN"
-	line "TP. TOKIWA,"
+	line "TP. VIRIDIAN,"
 
 	para "CỔNG VÀO"
-	line "CAO NGUYÊN SEKIEI"
+	line "CAO NGUYÊN INDIGO"
 	done
 
 TrainerHouseSignText:

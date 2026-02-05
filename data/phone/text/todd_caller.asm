@@ -17,7 +17,7 @@ ToddDefeatedMonText:
 	text " dễ."
 
 	para "Tớ nên thử thách"
-	line "GYM KOGANE."
+	line "GYM GOLDENROD."
 	done
 
 ToddLostAMonText:
@@ -61,14 +61,14 @@ ToddDepartmentStoreBargainSaleText:
 	line "chúng ta đã đợi!"
 
 	para "CỬA HÀNG BÁCH HÓA"
-	line "KOGANE đang"
+	line "GOLDENROD đang"
 	cont "giảm giá!"
 
 	para "Muốn rẻ?"
 	line "Muốn nhiều?"
 
 	para "Đừng bỏ lỡ cơ hội"
-	line "KOGANE này!"
+	line "GOLDENROD này!"
 
 	para "Hả? Tớ nghe như"
 	line "người bán rong?"
@@ -105,7 +105,7 @@ ToddHaveYouGoneToDepartmentStoreText:
 	text "Cậu đã đến CỬA"
 	line "HÀNG BÁCH HÓA"
 
-	para "KOGANE chưa?"
+	para "GOLDENROD chưa?"
 	line "Tớ đã khảo sát!"
 
 	para "Họ có nhiều món"

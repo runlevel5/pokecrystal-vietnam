@@ -13,7 +13,7 @@ Route38EcruteakGateOfficerText:
 	text "Bạn nói bạn đến"
 	line "từ đâu?"
 
-	para "T.TRẤN WAKABA?"
+	para "T.TRẤN NEW BARK?"
 
 	para "GS ELM sống ở"
 	line "đó, đúng không?"

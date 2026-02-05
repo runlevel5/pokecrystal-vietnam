@@ -37,7 +37,7 @@ Chris:
 
 PewterPokecenter1FTeacherText:
 	text "…Ừ, và GYM ở"
-	line "GUREN bị mất."
+	line "CINNABAR bị mất."
 
 	para "Tôi đã rất"
 	line "ngạc nhiên."

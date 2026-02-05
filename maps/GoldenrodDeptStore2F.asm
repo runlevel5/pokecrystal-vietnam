@@ -79,7 +79,7 @@ GoldenrodDeptStore2FGentlemanText:
 	text "TTMT này làm tôi"
 	line "nhận ra"
 
-	para "KOGANE là thành"
+	para "GOLDENROD là thành"
 	line "phố lớn."
 
 	para "Lựa chọn ở đây"

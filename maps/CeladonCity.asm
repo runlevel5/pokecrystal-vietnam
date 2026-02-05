@@ -130,7 +130,7 @@ CeladonCityYoungster1Text:
 	text "Cậu muốn biết bí"
 	line "mật không?"
 
-	para "DINH THỰ TAMAMUSHI"
+	para "DINH THỰ CELADON"
 	line "có cửa sau bí mật."
 	done
 
@@ -144,7 +144,7 @@ CeladonCityYoungster2Text:
 	done
 
 CeladonCityTeacher2Text:
-	text "TTMT TAMAMUSHI có"
+	text "TTMT CELADON có"
 	line "hàng hóa đa dạng"
 
 	para "và chất lượng"
@@ -165,7 +165,7 @@ CeladonCityLassText_Mobile: ; unreferenced
 	line "quanh bởi cao ốc!"
 
 	para "Có phải TT #MON"
-	line "KOGANE đã được"
+	line "GOLDENROD đã được"
 
 	para "làm lớn hơn nhiều"
 	line "không?"
@@ -185,14 +185,14 @@ CeladonCityLassText:
 	done
 
 CeladonCitySignText:
-	text "TP. TAMAMUSHI"
+	text "TP. CELADON"
 
 	para "Thành Phố Giấc Mơ"
 	line "Cầu Vồng"
 	done
 
 CeladonGymSignText:
-	text "TP. TAMAMUSHI"
+	text "TP. CELADON"
 	line "GYM #MON"
 	cont "TRƯỞNG: ERIKA"
 
@@ -202,11 +202,11 @@ CeladonGymSignText:
 
 CeladonCityDeptStoreSignText:
 	text "Tìm Thứ Bạn Cần"
-	line "TTMT TAMAMUSHI!"
+	line "TTMT CELADON!"
 	done
 
 CeladonCityMansionSignText:
-	text "DINH THỰ TAMAMUSHI"
+	text "DINH THỰ CELADON"
 	done
 
 CeladonCityGameCornerSignText:
@@ -232,7 +232,7 @@ CeladonCityTrainerTipsText:
 	line "lửa và nước."
 
 	para "Mua vật phẩm tại"
-	line "TTMT TAMAMUSHI!"
+	line "TTMT CELADON!"
 	done
 
 CeladonCity_MapEvents:

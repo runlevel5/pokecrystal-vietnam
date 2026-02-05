@@ -37,7 +37,7 @@ PewterMartSuperNerdText:
 	cont "MAGIKARP."
 
 	para "Ổng nói MAGIKARP"
-	line "từ HỒ GYARADOS"
+	line "từ HỒ GIẬN DỮ"
 
 	para "rất tuyệt vời."
 	done

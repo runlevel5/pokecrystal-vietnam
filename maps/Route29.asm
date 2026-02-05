@@ -307,7 +307,7 @@ Route29TeacherText:
 	cont "đáng sợ lắm."
 
 	para "Nhưng bạn có thể"
-	line "về WAKABA mà"
+	line "về NEW BARK mà"
 
 	para "không cần đi qua"
 	line "bụi cỏ."
@@ -396,15 +396,15 @@ TuscanyNotTuesdayText:
 Route29Sign1Text:
 	text "TUYẾN ĐƯỜNG 29"
 
-	para "TP. YOSHINO -"
-	line "T.TRẤN WAKABA"
+	para "TP. CHERRYGROVE -"
+	line "T.TRẤN NEW BARK"
 	done
 
 Route29Sign2Text:
 	text "TUYẾN ĐƯỜNG 29"
 
-	para "TP. YOSHINO -"
-	line "T.TRẤN WAKABA"
+	para "TP. CHERRYGROVE -"
+	line "T.TRẤN NEW BARK"
 	done
 
 Route29_MapEvents:

@@ -218,7 +218,7 @@ BurnedTowerB1FEusineText:
 	para "Tôi nghe nói các"
 	line "#MON huyền"
 
-	para "thoại ENJU"
+	para "thoại ECRUTEAK"
 	line "thử thách người"
 
 	para "được chọn bằng"

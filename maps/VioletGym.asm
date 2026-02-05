@@ -113,7 +113,7 @@ VioletGymStatue:
 FalknerIntroText:
 	text "Tôi là FALKNER,"
 	line "THỦ LĨNH GYM"
-	cont "TP KIKYO!"
+	cont "TP VIOLET!"
 
 	para "Người ta nói có"
 	line "thể cắt cánh"

@@ -211,7 +211,7 @@ ChucksWifeBeatChuckText:
 
 ChucksWifeGiveHMText:
 	text "Đó là HUY HIỆU GYM"
-	line "của TANBA!"
+	line "của CIANWOOD!"
 
 	para "Vậy bạn nên nhận"
 	line "HM này."
@@ -241,7 +241,7 @@ CianwoodCityYoungsterText:
 	text "Nếu dùng BAY,"
 	line "bạn có thể về"
 
-	para "ASAGI ngay"
+	para "OLIVINE ngay"
 	line "lập tức."
 	done
 
@@ -269,7 +269,7 @@ CianwoodCityLassText:
 CianwoodCityUnusedText:
 	text "Có vài hòn đảo"
 	line "giữa đây và"
-	cont "ASAGI."
+	cont "OLIVINE."
 
 	para "Nghe nói một sinh"
 	line "vật biển huyền"
@@ -341,14 +341,14 @@ EusineAfterText:
 	done
 
 CianwoodCitySignText:
-	text "THÀNH PHỐ TANBA"
+	text "THÀNH PHỐ CIANWOOD"
 
 	para "Cảng biển bao"
 	line "quanh bởi sóng dữ"
 	done
 
 CianwoodGymSignText:
-	text "TP TANBA"
+	text "TP CIANWOOD"
 	line "GYM #MON"
 
 	para "T.LĨNH: CHUCK"
@@ -362,7 +362,7 @@ CianwoodPharmacySignText:
 	line "thống"
 
 	para "HIỆU THUỐC"
-	line "TP TANBA"
+	line "TP CIANWOOD"
 
 	para "Chúng tôi chờ đợi"
 	line "câu hỏi y học"
@@ -370,7 +370,7 @@ CianwoodPharmacySignText:
 
 CianwoodPhotoStudioSignText:
 	text "STUDIO CHỤP HÌNH"
-	line "TP TANBA"
+	line "TP CIANWOOD"
 
 	para "Chụp ảnh kỷ niệm!"
 	done

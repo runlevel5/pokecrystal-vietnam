@@ -13,7 +13,7 @@ LavenderSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 LavenderSpeechHousePokefanFText:
-	text "SHION là thị trấn"
+	text "LAVENDER là thôn"
 	line "nhỏ, yên tĩnh"
 
 	para "ở chân núi."

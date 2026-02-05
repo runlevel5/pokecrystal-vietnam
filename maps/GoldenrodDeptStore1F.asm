@@ -29,7 +29,7 @@ GoldenrodDeptStore1FElevatorButton:
 
 GoldenrodDeptStore1FReceptionistText:
 	text "Chào mừng đến"
-	line "TTMT KOGANE."
+	line "TTMT GOLDENROD."
 	done
 
 GoldenrodDeptStore1FGentlemanText:

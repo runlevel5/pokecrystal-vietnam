@@ -291,19 +291,19 @@ PokemaniacShaneAfterBattleText:
 Route42Sign1Text:
 	text "TUYẾN ĐƯỜNG 42"
 
-	para "TP. ENJU -"
-	line "THỊ TRẤN CHOUJI"
+	para "TP. ECRUTEAK -"
+	line "THỊ TRẤN MAHOGANY"
 	done
 
 MtMortarSign1Text:
-	text "NÚI SURIBACHI"
+	text "NÚI MORTAR"
 
 	para "HANG THÁC NƯỚC"
 	line "BÊN TRONG"
 	done
 
 MtMortarSign2Text:
-	text "NÚI SURIBACHI"
+	text "NÚI MORTAR"
 
 	para "HANG THÁC NƯỚC"
 	line "BÊN TRONG"
@@ -312,8 +312,8 @@ MtMortarSign2Text:
 Route42Sign2Text:
 	text "TUYẾN ĐƯỜNG 42"
 
-	para "TP. ENJU -"
-	line "THỊ TRẤN CHOUJI"
+	para "TP. ECRUTEAK -"
+	line "THỊ TRẤN MAHOGANY"
 	done
 
 Route42_MapEvents:

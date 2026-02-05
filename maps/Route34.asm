@@ -517,7 +517,7 @@ YoungsterSamuelBeatenText:
 
 YoungsterSamuelMobileText: ; unreferenced
 	text "Cậu đã đến TP."
-	line "KOGANE chưa?"
+	line "GOLDENROD chưa?"
 
 	para "Cậu có ngạc nhiên"
 	line "với cách họ đổi"
@@ -724,17 +724,17 @@ CooltrainerfKateAfterText:
 	done
 
 Route34IlexForestSignText:
-	text "RỪNG UBAME"
+	text "RỪNG ILEX"
 	line "QUA CỔNG"
 	done
 
 Route34SignText:
 	text "TUYẾN ĐƯỜNG 34"
 
-	para "TP KOGANE -"
-	line "T.TRẤN HIWADA"
+	para "TP GOLDENROD -"
+	line "T.TRẤN AZALEA"
 
-	para "RỪNG UBAME"
+	para "RỪNG ILEX"
 	line "Ở GIỮA HAI NƠI"
 	done
 

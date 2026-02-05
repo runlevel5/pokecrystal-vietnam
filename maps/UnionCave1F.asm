@@ -85,7 +85,7 @@ UnionCave1FUnusedSign: ; unreferenced
 	jumptext UnionCave1FUnusedSignText
 
 HikerRussellSeenText:
-	text "Bạn đi HIWADA à?"
+	text "Bạn đi AZALEA à?"
 
 	para "#MON của tôi sẽ"
 	line "kiểm tra xem bạn"

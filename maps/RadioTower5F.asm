@@ -239,7 +239,7 @@ FakeDirectorTextAfter:
 Executivef1SeenText:
 	text "Còn nhớ tao ở SÀO"
 	line "HUYỆT tại T.TRẤN"
-	cont "CHOUJI không?"
+	cont "MAHOGANY không?"
 
 	para "Lần đó tao thua,"
 	line "nhưng lần này thì"
@@ -342,7 +342,7 @@ RadioTower5FDirectorThankYouText:
 RadioTower5FDirectorDescribeClearBellText:
 	text "Từng có một ngọn"
 	line "tháp ngay đây ở"
-	cont "TP. KOGANE."
+	cont "TP. GOLDENROD."
 
 	para "Nhưng nó cũ và"
 	line "xuống cấp."
@@ -359,7 +359,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "nhiều loại #MON"
 
 	para "từng sống ở"
-	line "KOGANE trước."
+	line "GOLDENROD trước."
 
 	para "Có lẽ…"
 
@@ -367,7 +367,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	line "quan đến THÁP"
 
 	para "THIẾC ở TP."
-	line "ENJU…"
+	line "ECRUTEAK…"
 
 	para "À!"
 
@@ -380,7 +380,7 @@ RadioTower5FDirectorDescribeClearBellText:
 	para "Có vẻ như có"
 	line "chuyện gì đó"
 	cont "đang xảy ra ở"
-	cont "THÁP CHUÔNG."
+	cont "THÁP THIẾC."
 
 	para "Tôi không biết"
 	line "đó là gì,"

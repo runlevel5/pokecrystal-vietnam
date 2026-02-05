@@ -677,7 +677,7 @@ GoldenrodPokecomCenterPerson12Text: ; unreferenced
 	text "Tôi đến đây khi"
 	line "nghe nói TT"
 
-	para "#MON KOGANE"
+	para "#MON GOLDENROD"
 	line "có máy mới mà"
 
 	para "chưa ai thấy bao"

@@ -184,7 +184,7 @@ Route13SignText:
 
 Route13DirectionsSignText:
 	text "ĐI BẮC ĐẾN THỊ"
-	line "TRẤN SHION"
+	line "TRẤN LAVENDER"
 
 	para "ĐI TÂY ĐẾN"
 	line "TP. FUCHSIA"

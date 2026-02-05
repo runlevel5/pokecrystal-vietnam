@@ -161,7 +161,7 @@ MahoganyMart1FRageCandyBarText: ; unreferenced
 	line "RAGECANDYBAR?"
 
 	para "Đó là đặc sản ở"
-	line "CHOUJI đó!"
+	line "MAHOGANY đó!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:

@@ -333,7 +333,7 @@ BirdKeeperTobyBeatenText:
 
 BirdKeeperTobyAfterBattleText:
 	text "Ta sẽ huấn luyện"
-	line "tại TP. TANBA"
+	line "tại TP. CIANWOOD"
 
 	para "để dạy #MON của"
 	line "ta BAY."
@@ -449,8 +449,8 @@ BeautyOliviaAfterBattleText:
 Route38SignText:
 	text "TUYẾN ĐƯỜNG 38"
 
-	para "TP. ASAGI -"
-	line "TP. ENJU"
+	para "TP. OLIVINE -"
+	line "TP. ECRUTEAK"
 	done
 
 Route38TrainerTipsText:

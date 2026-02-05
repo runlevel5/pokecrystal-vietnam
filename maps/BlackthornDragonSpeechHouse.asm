@@ -30,7 +30,7 @@ BlackthornDragonSpeechHouseGrannyText:
 
 	para "khiển rồng sống"
 	line "ngay tại TP."
-	cont "FUSUBE này."
+	cont "BLACKTHORN này."
 
 	para "Vì vậy, có nhiều"
 	line "truyền thuyết về"

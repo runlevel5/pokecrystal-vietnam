@@ -37,6 +37,22 @@ This localization restores the original Japanese sprite designs for certain char
 **Restored Pokémon sprites:**
 - Jynx (front, back, and shiny palette)
 
+## Celebi Event Enabled
+
+This localization enables the **GS Ball / Celebi event** that was originally exclusive to the Japanese version and later the 3DS Virtual Console release.
+
+**How to unlock:**
+1. Beat the Elite Four and enter the Hall of Fame
+2. The GS Ball event flag is automatically set
+3. Visit the Goldenrod City Pokémon Center to receive the GS Ball from the nurse
+4. Take the GS Ball to Kurt in Azalea Town
+5. Wait 24 hours (or adjust your system clock), then return to Kurt
+6. Go to the Ilex Forest shrine to encounter Celebi (Level 30)
+
+This feature was originally locked behind a special distribution event in Japan, and later unlocked for the 3DS Virtual Console release worldwide. We've enabled it by default so all players can experience this content without needing special hardware or emulator hacks.
+
+*Implementation based on [sceptios/pokecrystal](https://github.com/sceptios/pokecrystal/tree/vc_celebi_event).*
+
 ## Link Cable Trading Compatibility
 
 This Vietnamese version is **fully compatible** with English Pokémon Crystal for link cable trading and battling.
@@ -67,5 +83,6 @@ This Vietnamese version is **fully compatible** with English Pokémon Crystal fo
 
 ## Acknowledgements
 
-* [disassembly project](https://github.com/pret/pokecrystal)
+* [pret/pokecrystal](https://github.com/pret/pokecrystal) - disassembly project
+* [sceptios](https://github.com/sceptios/pokecrystal/tree/vc_celebi_event) - GS Ball / Celebi event implementation
 

@@ -140,38 +140,39 @@ ConvertVietnameseMailToEnglish:
 ; Called when sending Vietnamese mail to English Crystal
 ; Converts Vietnamese accented characters to base English letters
 ; Uses TranslateVietnameseToEnglish from link_trade_text.asm
-; Input: de = pointer to mail message in wLinkPlayerMailMessages
+; Input: 
+;   de = pointer to mail message in wLinkPlayerMailMessages
+;   a = mail index (0-5)
+	push af
+	; Translate the message (in-place)
+	; de already points to message, bc = length
 	push de
-	ld h, d
-	ld l, e
-	ld d, h
-	ld e, l
 	ld bc, MAIL_MSG_LENGTH
 	farcall TranslateVietnameseToEnglish
 	pop de
-	; Also translate the author name (after message + messageEnd)
-	ld hl, sPartyMon1MailAuthor - sPartyMon1Mail
+	
+	; Calculate metadata pointer for author name
+	; wLinkPlayerMailMetadata + mailIndex * (MAIL_STRUCT_LENGTH - (MAIL_MSG_LENGTH + 1))
+	; Metadata size per mail = 14 bytes (MAIL_STRUCT_LENGTH - MAIL_MSG_LENGTH - 1 = $2f - $21 = 14)
+	pop af
+	ld hl, wLinkPlayerMailMetadata
+	; Multiply mail index by 14
+	ld b, a
+	ld de, MAIL_STRUCT_LENGTH - (MAIL_MSG_LENGTH + 1) ; 14
+	or a
+	jr z, .no_offset
+.offset_loop
 	add hl, de
+	dec b
+	jr nz, .offset_loop
+.no_offset
+	; hl now points to author name in metadata
+	; TranslateVietnameseToEnglish expects de = source/dest pointer
 	ld d, h
 	ld e, l
 	ld bc, PLAYER_NAME_LENGTH - 1
 	farcall TranslateVietnameseToEnglish
 	ret
 
-ConvertEnglishMailToVietnamese:
-; Called when receiving English mail in Vietnamese Crystal
-; Converts English lowercase a-z ($A0-$B9) to Vietnamese a-z ($80-$99)
-; Input: de = pointer to mail message in wLinkReceivedMail
-; Translates both message and author name in-place
-	push de
-	ld h, d
-	ld l, e
-	ld bc, MAIL_MSG_LENGTH
-	farcall TranslateEnglishToVietnamese
-	pop de
-	; Also translate the author name (after message + messageEnd)
-	ld hl, sPartyMon1MailAuthor - sPartyMon1Mail
-	add hl, de
-	ld bc, PLAYER_NAME_LENGTH - 1
-	farcall TranslateEnglishToVietnamese
-	ret
+; ConvertEnglishMailToVietnamese is not needed - incoming English mail
+; is displayed using StandardEnglishFont (see mail_2.asm ReadMailMessage)

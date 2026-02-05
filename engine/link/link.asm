@@ -430,30 +430,8 @@ endc
 	pop bc
 	dec b
 	jr nz, .copy_author_loop
-	ld b, PARTY_LENGTH
-	ld de, wLinkReceivedMail
-.fix_mail_loop
-	push bc
-	push de
-	farcall ParseMailLanguage
-	ld a, c
-	; For Vietnamese Crystal, we need to translate any non-Vietnamese mail
-	; All other languages use $A0-$B9 for lowercase which displays wrong in Vietnamese
-	cp MAIL_LANG_VIETNAMESE
-	jr z, .next ; Vietnamese mail needs no conversion
-	; Convert any other language's lowercase a-z ($A0-$B9) to Vietnamese a-z ($80-$99)
-	; This handles English, French, German, Italian, Spanish mail
-	farcall ConvertEnglishMailToVietnamese
-
-.next
-	pop de
-	ld hl, MAIL_STRUCT_LENGTH
-	add hl, de
-	ld d, h
-	ld e, l
-	pop bc
-	dec b
-	jr nz, .fix_mail_loop
+; No incoming mail translation needed - mail is displayed using the
+; appropriate font based on nationality (ParseMailLanguage in mail_2.asm)
 	ld de, wLinkReceivedMailEnd
 	xor a
 	ld [de], a
@@ -996,6 +974,11 @@ Link_PrepPartyData_Gen2:
 	farcall ConvertSpanishItalianMailToEnglish
 	jr .translate_next
 .vietnamese
+	; Calculate mail index (0-5) and pass in a
+	ld a, PARTY_LENGTH
+	sub b
+	; de = message pointer in wLinkPlayerMailMessages
+	; a = mail index
 	farcall ConvertVietnameseMailToEnglish
 .translate_next
 	pop de

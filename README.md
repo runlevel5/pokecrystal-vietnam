@@ -49,7 +49,13 @@ This Vietnamese version is **fully compatible** with English Pokémon Crystal fo
 
 **Restrictions for compatibility:**
 - Pokémon nicknames: English characters only (A-Z, 0-9)
-- Player/Rival/Mail: Full Vietnamese supported (translated automatically during trading)
+- Player/Rival names: Full Vietnamese supported (translated automatically during trading)
+
+**Mail system:**
+- Full Vietnamese character input supported for composing mail
+- VN → EN: Vietnamese mail is automatically translated to base English letters
+- EN → VN: English mail displays correctly using the English font
+- VN → VN: Vietnamese mail preserves all accented characters
 
 ## Screenshots
 

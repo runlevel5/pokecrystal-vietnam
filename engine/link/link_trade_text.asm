@@ -17,10 +17,15 @@ TranslateEnglishToVietnamese:
 ; Translates a string of English characters to Vietnamese character codes
 ; This converts English lowercase a-z ($A0-$B9) to Vietnamese a-z ($80-$99)
 ; Input:
-;   hl = source string pointer (translates in-place)
+;   de = source string pointer (translates in-place)
 ;   bc = max length of string
 ; Output:
-;   String at hl contains translated characters
+;   String at de contains translated characters
+;
+; NOTE: Uses de instead of hl because farcall overwrites hl with the function address
+
+	ld h, d
+	ld l, e  ; hl = de = source/destination pointer
 
 .loop
 	ld a, [hl]
@@ -52,20 +57,27 @@ TranslateEnglishToVietnamese:
 TranslateVietnameseToEnglish:
 ; Translates a string of Vietnamese characters to base English letters
 ; Input:
-;   hl = source string pointer
-;   de = destination string pointer
+;   de = source/destination string pointer (in-place translation)
 ;   bc = length of string
 ; Output:
-;   String at de contains translated characters
+;   String at de contains translated characters (English character codes)
+; Note: English Crystal uses $80-$99 for uppercase A-Z
+;       Vietnamese a-z ($80-$99) maps directly to English A-Z (same codes!)
+;       Vietnamese accented chars get converted to uppercase base letters
+;
+; NOTE: This function translates in-place because farcall overwrites hl,
+;       so we can't pass separate source and destination pointers easily.
+
+	ld h, d
+	ld l, e  ; hl = de = source/destination pointer
 
 .loop
-	ld a, [hli]
+	ld a, [hl]
 	cp $50 ; "@" string terminator
 	jr z, .done
 	
 	call .TranslateChar
-	ld [de], a
-	inc de
+	ld [hli], a  ; write translated char and increment
 	
 	dec bc
 	ld a, b
@@ -73,90 +85,89 @@ TranslateVietnameseToEnglish:
 	jr nz, .loop
 
 .done
-	ld a, $50 ; "@"
-	ld [de], a
 	ret
 
 .TranslateChar:
-; Translates a single Vietnamese character to its base letter
+; Translates a single Vietnamese character to its base English letter
 ; Input: a = Vietnamese character code
-; Output: a = base English letter code
+; Output: a = English character code ($80-$99 for A-Z uppercase)
 ; Preserves: hl, de, bc
 
 	push hl
 	push bc
 	
-	; Check if already in English range ($80-$99 = a-z)
+	; Check if in Vietnamese a-z range ($80-$99)
+	; These map directly to English uppercase A-Z (same codes!)
 	cp $80
 	jr c, .no_translation
 	cp $9A
-	jr c, .no_translation
+	jr c, .no_translation ; Already correct code, no change needed
 	
-	; a-family: á à ả ã ạ ă ắ ằ ẳ ẵ ặ â ấ ầ ẩ ẫ ậ ($A0-$B0) → 'a' ($80)
+	; a-family: á à ả ã ạ ă ắ ằ ẳ ẵ ặ â ấ ầ ẩ ẫ ậ ($A0-$B0) → 'A' ($80)
 	cp $A0
 	jr c, .not_a_family
 	cp $B1
 	jr nc, .not_a_family
-	ld a, $80 ; 'a'
+	ld a, $80 ; English 'A'
 	jr .no_translation
 .not_a_family
 
-	; e-family: è ẻ ẽ ẹ ê ế ề ể ễ ệ ($B1-$BA) → 'e' ($84)
+	; e-family: è ẻ ẽ ẹ ê ế ề ể ễ ệ ($B1-$BA) → 'E' ($84)
 	cp $B1
 	jr c, .not_e_family
 	cp $BB
 	jr nc, .not_e_family
-	ld a, $84 ; 'e'
+	ld a, $84 ; English 'E'
 	jr .no_translation
 .not_e_family
 
-	; i-family: í ì ỉ ĩ ị ($BB-$BF) → 'i' ($88)
+	; i-family: í ì ỉ ĩ ị ($BB-$BF) → 'I' ($88)
 	cp $BB
 	jr c, .not_i_family
 	cp $C0
 	jr nc, .not_i_family
-	ld a, $88 ; 'i'
+	ld a, $88 ; English 'I'
 	jr .no_translation
 .not_i_family
 
-	; u-family: ú ù ủ ũ ụ ư ứ ừ ử ữ ự ($C0-$CA) → 'u' ($94)
+	; u-family: ú ù ủ ũ ụ ư ứ ừ ử ữ ự ($C0-$CA) → 'U' ($94)
 	cp $C0
 	jr c, .not_u_family
 	cp $CB
 	jr nc, .not_u_family
-	ld a, $94 ; 'u'
+	ld a, $94 ; English 'U'
 	jr .no_translation
 .not_u_family
 
-	; o-family: ó ò ỏ õ ọ ô ố ồ ổ ỗ ộ ơ ớ ờ ở ỡ ợ ($CB-$DB) → 'o' ($8E)
+	; o-family: ó ò ỏ õ ọ ô ố ồ ổ ỗ ộ ơ ớ ờ ở ỡ ợ ($CB-$DB) → 'O' ($8E)
 	cp $CB
 	jr c, .not_o_family
 	cp $DC
 	jr nc, .not_o_family
-	ld a, $8E ; 'o'
+	ld a, $8E ; English 'O'
 	jr .no_translation
 .not_o_family
 
-	; y-family: ý ỳ ỷ ỹ ($DC-$DF) → 'y' ($98)
+	; y-family: ý ỳ ỷ ỹ ($DC-$DF) → 'Y' ($98)
 	cp $DC
 	jr c, .not_y_family
 	cp $E0
 	jr nc, .not_y_family
-	ld a, $98 ; 'y'
+	ld a, $98 ; English 'Y'
 	jr .no_translation
 .not_y_family
 
-	; đ ($E5) → 'd' ($83)
+	; đ ($E5) → 'D' ($83)
 	cp $E5
 	jr nz, .not_d
-	ld a, $83 ; 'd'
+	ld a, $83 ; English 'D'
 	jr .no_translation
 .not_d
 
-	; é ($EA) → 'e' ($84)
+	; é ($EA) → 'E' ($84)
 	cp $EA
 	jr nz, .no_translation
-	ld a, $84 ; 'e'
+	ld a, $84 ; English 'E'
 
 .no_translation
 	pop bc
@@ -261,23 +272,25 @@ Link_FixDataForPeerLanguage:
 TranslateReceivedOTPlayerName:
 ; Translates the received OT player name from English to Vietnamese
 ; English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
-	ld hl, wOTPlayerName
+	ld de, wOTPlayerName
 	ld bc, NAME_LENGTH
 	jp TranslateEnglishToVietnamese
 
 
 TranslateReceivedOTPartyMonOTs:
 ; Translates all received OT names from English to Vietnamese
-	ld hl, wOTPartyMonOTs
+	ld de, wOTPartyMonOTs
 	ld b, PARTY_LENGTH
 .loop
 	push bc
-	push hl
+	push de
 	ld bc, NAME_LENGTH
 	call TranslateEnglishToVietnamese
-	pop hl
-	ld bc, NAME_LENGTH
-	add hl, bc
+	pop de
+	ld hl, NAME_LENGTH
+	add hl, de
+	ld d, h
+	ld e, l
 	pop bc
 	dec b
 	jr nz, .loop
@@ -286,16 +299,18 @@ TranslateReceivedOTPartyMonOTs:
 
 TranslateReceivedOTPartyMonNicknames:
 ; Translates all received Pokemon nicknames from English to Vietnamese
-	ld hl, wOTPartyMonNicknames
+	ld de, wOTPartyMonNicknames
 	ld b, PARTY_LENGTH
 .loop
 	push bc
-	push hl
+	push de
 	ld bc, MON_NAME_LENGTH
 	call TranslateEnglishToVietnamese
-	pop hl
-	ld bc, MON_NAME_LENGTH
-	add hl, bc
+	pop de
+	ld hl, MON_NAME_LENGTH
+	add hl, de
+	ld d, h
+	ld e, l
 	pop bc
 	dec b
 	jr nz, .loop

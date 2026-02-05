@@ -102,32 +102,32 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
-GBPrinterString_CheckingLink: next " CHECKING LINK...@"
-GBPrinterString_Transmitting: next "  TRANSMITTING...@"
-GBPrinterString_Printing: next "    PRINTING...@"
+GBPrinterString_CheckingLink: next " ĐANG KIỂM TRA...@"
+GBPrinterString_Transmitting: next "  ĐANG TRUYỀN...@"
+GBPrinterString_Printing: next "    ĐANG IN...@"
 GBPrinterString_PrinterError1:
-	db   " Printer Error 1"
+	db   "  Lỗi máy in 1"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Kiểm tra hướng dẫn"
+	next "máy in Game Boy."
 	db   "@"
 GBPrinterString_PrinterError2:
-	db   " Printer Error 2"
+	db   "  Lỗi máy in 2"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Kiểm tra hướng dẫn"
+	next "máy in Game Boy."
 	db   "@"
 GBPrinterString_PrinterError3:
-	db   " Printer Error 3"
+	db   "  Lỗi máy in 3"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Kiểm tra hướng dẫn"
+	next "máy in Game Boy."
 	db   "@"
 GBPrinterString_PrinterError4:
-	db   " Printer Error 4"
+	db   "  Lỗi máy in 4"
 	next ""
-	next "Check the Game Boy"
-	next "Printer Manual."
+	next "Kiểm tra hướng dẫn"
+	next "máy in Game Boy."
 	db   "@"
 
 PrintPartyMonPage1:

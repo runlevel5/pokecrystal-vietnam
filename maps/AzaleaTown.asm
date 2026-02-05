@@ -346,15 +346,15 @@ AzaleaTownGrampsTextAfter:
 
 AzaleaTownTeacherText:
 	text "Bạn đến nhờ KURT"
-	line "làm BALL à?"
+	line "làm BÓNG à?"
 
 	para "Nhiều người đến"
 	line "vì lý do đó lắm."
 	done
 
 AzaleaTownYoungsterText:
-	text "Băng qua HIWADA"
-	line "sẽ đến RỪNG UBAME"
+	text "Băng qua AZALEA"
+	line "sẽ đến RỪNG ILEX"
 
 	para "Nhưng mấy cây"
 	line "nhỏ này làm"
@@ -382,7 +382,7 @@ WoosterText:
 	done
 
 AzaleaTownKurtText1:
-	text "RỪNG UBAME đang"
+	text "RỪNG ILEX đang"
 	line "bất ổn!"
 
 	para "Chuyện gì vậy?"
@@ -395,12 +395,12 @@ AzaleaTownKurtText2:
 
 AzaleaTownKurtText3:
 	text "Con đi xem sao"
-	line "RỪNG UBAME lại"
+	line "RỪNG ILEX lại"
 	cont "bất ổn vậy nhé?"
 	done
 
 AzaleaTownSignText:
-	text "T.TRẤN HIWADA"
+	text "T.TRẤN AZALEA"
 	line "Nơi con người và"
 
 	para "#MON sống hòa"
@@ -412,7 +412,7 @@ KurtsHouseSignText:
 	done
 
 AzaleaGymSignText:
-	text "T.TRẤN HIWADA"
+	text "T.TRẤN AZALEA"
 	line "GYM #MON"
 	cont "T.LĨNH: BUGSY"
 
@@ -446,7 +446,7 @@ CharcoalKilnSignText:
 	done
 
 AzaleaTownIlexForestSignText:
-	text "RỪNG UBAME"
+	text "RỪNG ILEX"
 
 	para "Vào qua cổng."
 	done

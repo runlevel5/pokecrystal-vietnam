@@ -341,9 +341,9 @@ BugCatcherDonAfterText:
 	done
 
 Route30YoungsterText_DirectionsToMrPokemonsHouse:
-	text "Nhà ÔNG LÃO"
-	line "#MON? Đi thêm"
-	cont "một đoạn nữa."
+	text "Nhà ÔNG #MON?"
+	line "Đi thêm một đoạn"
+	cont "nữa."
 	done
 
 Route30YoungsterText_EveryoneIsBattling:
@@ -364,18 +364,18 @@ Route30CooltrainerFText:
 Route30SignText:
 	text "TUYẾN ĐƯỜNG 30"
 
-	para "TP KIKYO -"
-	line "TP YOSHINO"
+	para "TP VIOLET -"
+	line "TP CHERRYGROVE"
 	done
 
 MrPokemonsHouseDirectionsSignText:
-	text "NHÀ ÔNG LÃO"
-	line "#MON: PHÍA SAU"
+	text "NHÀ ÔNG #MON:"
+	line "PHÍA SAU"
 	done
 
 MrPokemonsHouseSignText:
-	text "NHÀ ÔNG LÃO"
-	line "#MON"
+	text "NHÀ ÔNG #MON"
+	line ""
 	done
 
 Route30TrainerTipsText:

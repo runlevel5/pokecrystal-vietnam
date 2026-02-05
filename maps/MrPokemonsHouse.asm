@@ -320,7 +320,7 @@ MrPokemonsHouse_OakText2:
 	line "hơi lâu rồi."
 
 	para "Ta phải đến"
-	line "KOGANE để làm"
+	line "GOLDENROD để làm"
 	cont "chương trình đài."
 
 	para "<PLAY_G>, ta tin"

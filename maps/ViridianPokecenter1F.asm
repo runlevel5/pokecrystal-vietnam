@@ -36,7 +36,7 @@ ViridianPokecenter1FBugCatcherScript:
 
 ViridianPokecenter1FCooltrainerMText:
 	text "TRƯỞNG GYM của"
-	line "TOKIWA ở đâu"
+	line "VIRIDIAN ở đâu"
 	cont "vậy nhỉ?"
 
 	para "Tôi muốn thách"
@@ -45,7 +45,7 @@ ViridianPokecenter1FCooltrainerMText:
 
 ViridianPokecenter1FCooltrainerMText_BlueReturned:
 	text "Không có HLV GYM"
-	line "tại GYM TOKIWA."
+	line "tại GYM VIRIDIAN."
 
 	para "TRƯỞNG nói rằng"
 	line "chính sách của"
@@ -57,7 +57,7 @@ ViridianPokecenter1FCooltrainerMText_BlueReturned:
 
 ViridianPokecenter1FCooltrainerFText:
 	text "Tôi nghe rằng GYM"
-	line "ở GUREN đã mất"
+	line "ở CINNABAR đã mất"
 	cont "rồi."
 
 	para "Tôi tự hỏi chuyện"

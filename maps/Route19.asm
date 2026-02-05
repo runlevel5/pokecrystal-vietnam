@@ -129,7 +129,7 @@ SwimmermTuckerSeenText:
 	line "Chỉ… còn một…"
 
 	para "chút nữa… đến…"
-	line "SEKICHIKU…"
+	line "FUCHSIA…"
 	done
 
 SwimmermTuckerBeatenText:
@@ -138,7 +138,7 @@ SwimmermTuckerBeatenText:
 
 SwimmermTuckerAfterBattleText:
 	text "Tôi… hẹn bạn gái"
-	line "bơi đến SEKICHIKU"
+	line "bơi đến FUCHSIA"
 	cont "Thở hổn hển…"
 	done
 
@@ -154,9 +154,9 @@ SwimmerfDawnBeatenText:
 
 SwimmerfDawnAfterBattleText:
 	text "Bơi nhanh giữa"
-	line "SEKICHIKU và"
+	line "FUCHSIA và"
 
-	para "ĐẢO SONG SINH…"
+	para "ĐẢO SEAFOAM…"
 	line "mà…"
 
 	para "Chà, bạn trai tôi"
@@ -191,10 +191,10 @@ Route19Fisher1Text:
 	cont "thi công."
 
 	para "Nếu muốn đến"
-	line "GUREN, tốt hơn"
+	line "CINNABAR, tốt hơn"
 
 	para "hãy đi về phía"
-	line "nam từ MASARA."
+	line "nam từ PALLET."
 	done
 
 Route19Fisher1Text_RocksCleared:
@@ -219,16 +219,16 @@ Route19Fisher2Text_RocksCleared:
 Route19SignText:
 	text "ĐƯỜNG 19"
 
-	para "TP.SEKICHIKU -"
-	line "ĐẢO SONG SINH"
+	para "TP.FUCHSIA -"
+	line "ĐẢO SEAFOAM"
 	done
 
 CarefulSwimmingSignText:
 	text "Hãy cẩn thận nếu"
 	line "bạn đang bơi đến"
-	cont "ĐẢO SONG SINH."
+	cont "ĐẢO SEAFOAM."
 
-	para "C.SÁT SEKICHIKU"
+	para "C.SÁT FUCHSIA"
 	done
 
 Route19_MapEvents:

@@ -902,7 +902,7 @@ ElmDirectionsText1:
 	text "ÔNG #MON"
 	line "sống hơi xa hơn"
 
-	para "YOSHINO, thành"
+	para "CHERRYGROVE, thành"
 	line "phố kế bên."
 
 	para "Đường đi gần như"
@@ -1019,7 +1019,7 @@ ElmAfterTheftText5:
 	line "GYM #MON đi."
 
 	para "GYM gần nhất là ở"
-	line "TP. KIKYO."
+	line "TP. VIOLET."
 	done
 
 ElmAfterTheftText6:
@@ -1050,7 +1050,7 @@ ElmAideHasEggText:
 	line "gặp con với TRỨNG"
 
 	para "tại TT #MON"
-	line "TP. KIKYO."
+	line "TP. VIOLET."
 
 	para "Chắc con vừa lỡ"
 	line "thôi. Thử gặp anh"
@@ -1156,7 +1156,7 @@ ElmGiveMasterBallText2:
 	text "BÓNG MASTER là"
 	line "tốt nhất!"
 
-	para "Đó là BALL tối"
+	para "Đó là BÓNG tối"
 	line "thượng! Nó bắt"
 
 	para "được mọi #MON"
@@ -1186,7 +1186,7 @@ ElmGiveTicketText1:
 
 ElmGiveTicketText2:
 	text "Tàu khởi hành từ"
-	line "TP. ASAGI."
+	line "TP. OLIVINE."
 
 	para "Nhưng con biết"
 	line "rồi, <PLAY_G>."

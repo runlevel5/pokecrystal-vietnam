@@ -10,7 +10,7 @@ Route42EcruteakGateOfficerScript:
 	jumptextfaceplayer Route42EcruteakGateOfficerText
 
 Route42EcruteakGateOfficerText:
-	text "NÚI SURIBACHI bên"
+	text "NÚI MORTAR bên"
 	line "trong như mê cung."
 
 	para "Cẩn thận nhé."

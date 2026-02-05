@@ -453,7 +453,7 @@ KurtsHouseKurtMakingBallsMustWaitText:
 
 	para "<PLAYER> à? Con"
 	line "muốn ta làm cho"
-	cont "mấy quả BALL?"
+	cont "mấy quả BÓNG?"
 
 	para "Xin lỗi, phải đợi"
 	line "thêm chút nữa."
@@ -501,7 +501,7 @@ KurtsHouseKurtHonoredToMakeBallsText:
 	para "Ta sẽ rất vinh"
 	line "hạnh được làm"
 
-	para "BALL cho một HLV"
+	para "BÓNG cho một HLV"
 	line "như con."
 
 	para "Đây là tất cả ta"
@@ -531,7 +531,7 @@ KurtsHouseKurtAskYouHaveAnApricornText:
 
 KurtsHouseKurtItWillTakeADayText:
 	text "KURT: Sẽ mất một"
-	line "ngày để làm BALL"
+	line "ngày để làm BÓNG"
 
 	para "cho con. Quay lại"
 	line "lấy sau nhé."
@@ -550,7 +550,7 @@ KurtsHouseKurtDontBotherMeText:
 KurtsHouseKurtJustFinishedYourBallText:
 	text "KURT: À, <PLAYER>!"
 	line "Ta vừa làm xong"
-	cont "BALL của con. Đây!"
+	cont "BÓNG của con. Đây!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
@@ -598,7 +598,7 @@ KurtsHouseKurtAhHaISeeText:
 KurtsHouseKurtThisBallStartedToShakeText:
 	text "<PLAYER>!"
 
-	para "Quả BALL này bắt"
+	para "Quả BÓNG này bắt"
 	line "đầu rung khi ta"
 	cont "đang kiểm tra nó."
 
@@ -642,17 +642,17 @@ KurtsGranddaughterHelpText:
 	line "rồi!"
 
 	para "Chúng cháu sẽ làm"
-	line "BALL tốt cho bạn,"
+	line "BÓNG tốt cho bạn,"
 	cont "hãy đợi nhé!"
 	done
 
 KurtsGranddaughterFunText:
-	text "Làm BALL vui lắm!"
+	text "Làm BÓNG vui lắm!"
 	done
 
 KurtsGranddaughterGSBallText:
 	text "Ông đang kiểm tra"
-	line "một quả BALL."
+	line "một quả BÓNG."
 
 	para "Nên cháu đang đợi"
 	line "đến khi ông xong."

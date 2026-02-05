@@ -68,7 +68,7 @@ DaisyHelloText:
 	line "Em trai tôi là"
 
 	para "THỦ LĨNH GYM ở"
-	line "TP TOKIWA."
+	line "TP VIRIDIAN."
 
 	para "Nhưng nó thường"
 	line "ra ngoài thành,"

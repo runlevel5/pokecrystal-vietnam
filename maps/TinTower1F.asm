@@ -419,7 +419,7 @@ TinTower1FSage4Text1:
 	text "HO-OH dường như"
 	line "đã giáng xuống"
 
-	para "đây, THÁP CHUÔNG"
+	para "đây, THÁP THIẾC"
 	line "này!"
 	done
 

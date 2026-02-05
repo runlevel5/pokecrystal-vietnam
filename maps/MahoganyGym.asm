@@ -194,7 +194,7 @@ PryceText_Impressed:
 
 Text_ReceivedGlacierBadge:
 	text "<PLAYER> nhận được"
-	line "GLACIERBADGE."
+	line "HC GLACIER."
 	done
 
 PryceText_GlacierBadgeSpeech:

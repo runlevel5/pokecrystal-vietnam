@@ -459,7 +459,7 @@ CooltrainermAllenAfterBattleText:
 	line "mạnh vậy."
 
 	para "Không biết MORTY"
-	line "của GYM ENJU"
+	line "của GYM ECRUTEAK"
 
 	para "còn đang luyện"
 	line "tập không?"
@@ -493,14 +493,14 @@ CooltrainerfCybilAfterBattleText:
 
 Route44Sign1Text:
 	text "TUYẾN ĐƯỜNG 44"
-	line "LỐI BĂNG PHÍ TRƯỚC"
+	line "LỐI ĐI BĂNG ĐÁ PHÍ TRƯỚC"
 	done
 
 Route44Sign2Text:
 	text "TUYẾN ĐƯỜNG 44"
 
-	para "T.TRẤN CHOUJI -"
-	line "TP. FUSUBE"
+	para "T.TRẤN MAHOGANY -"
+	line "TP. BLACKTHORN"
 	done
 
 Route44_MapEvents:

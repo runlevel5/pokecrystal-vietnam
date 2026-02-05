@@ -146,12 +146,12 @@ ErikaBeatenText:
 	line "rất mạnh…"
 
 	para "Ta sẽ trao cho"
-	line "ngươi RAINBOWBADGE"
+	line "ngươi HC RAINBOW"
 	done
 
 PlayerReceivedRainbowBadgeText:
 	text "<PLAYER> nhận được"
-	line "RAINBOWBADGE."
+	line "HC RAINBOW."
 	done
 
 ErikaExplainTMText:

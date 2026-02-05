@@ -119,7 +119,7 @@ ChadProfOaksDreamGossipText:
 
 ChadKurtGossipText:
 	text "Cậu biết KURT,"
-	line "người tạo BALL?"
+	line "người tạo BÓNG?"
 
 	para "Ông ấy và GS OAK"
 	line "quen từ lâu."

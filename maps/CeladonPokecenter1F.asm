@@ -106,12 +106,12 @@ EusineLeavesCeladonText:
 	line "#MON màu cầu"
 
 	para "vồng xuất hiện ở"
-	line "THÁP CHUÔNG."
+	line "THÁP THIẾC."
 
 	para "Tôi vừa chữa lành"
 	line "đội hình, giờ tôi"
 
-	para "sẽ đến ENJU."
+	para "sẽ đến ECRUTEAK."
 
 	para "Hẹn gặp lại,"
 	line "<PLAYER>!"

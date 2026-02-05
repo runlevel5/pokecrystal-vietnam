@@ -54,7 +54,7 @@ SupernerdHughBeatenText:
 
 SupernerdHughAfterBattleText:
 	text "Tôi đang điều tra"
-	line "NÚI SURIBACHI"
+	line "NÚI MORTAR"
 	cont "nhưng bạn mất tích"
 
 	para "Bạn có thấy HLV"

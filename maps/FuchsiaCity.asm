@@ -55,7 +55,7 @@ FuchsiaCityYoungsterText:
 	line "THIÊN VƯƠNG từng"
 
 	para "là TRƯỞNG GYM"
-	line "của SEKICHIKU."
+	line "của FUCHSIA."
 	done
 
 FuchsiaCityPokefanMText:
@@ -73,18 +73,18 @@ FuchsiaCityTeacherText:
 
 	para "quá, vì nó là điểm"
 	line "thu hút chính của"
-	cont "SEKICHIKU."
+	cont "FUCHSIA."
 	done
 
 FuchsiaCitySignText:
-	text "TP. SEKICHIKU"
+	text "TP. FUCHSIA"
 
 	para "Kìa! Đó Là"
 	line "Hồng Đam Mê!"
 	done
 
 FuchsiaGymSignText:
-	text "TP. SEKICHIKU"
+	text "TP. FUCHSIA"
 	line "GYM #MON"
 	cont "TRƯỞNG: JANINE"
 

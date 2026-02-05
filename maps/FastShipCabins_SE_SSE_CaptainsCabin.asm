@@ -451,7 +451,7 @@ SupernerdShawnBeatenText:
 	done
 
 SupernerdShawnAfterBattleText:
-	text "Bạn nên dùng BALL"
+	text "Bạn nên dùng BÓNG"
 	line "phù hợp với tình"
 	cont "huống."
 	done
@@ -459,7 +459,7 @@ SupernerdShawnAfterBattleText:
 SSAquaHasArrivedVermilionText:
 	text "TÀU AQUA"
 	line "S.S.AQUA đã tới"
-	cont "TP. KUCHIBA."
+	cont "TP. VERMILION."
 	done
 
 FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:

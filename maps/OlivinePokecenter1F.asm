@@ -25,7 +25,7 @@ OlivinePokecenter1FFisherText:
 	text "Người SAILOR trong"
 	line "QUÁN CÀ PHÊ"
 
-	para "ASAGI bên cạnh"
+	para "OLIVINE bên cạnh"
 	line "rất hào phóng."
 
 	para "Anh ấy dạy #MON"
@@ -37,7 +37,7 @@ OlivinePokecenter1FFisherText:
 
 OlivinePokecenter1FTeacherText:
 	text "Có một người ở"
-	line "TP. TANBA bên"
+	line "TP. CIANWOOD bên"
 	cont "kia biển."
 
 	para "Tôi nghe anh ta"

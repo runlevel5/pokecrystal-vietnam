@@ -127,7 +127,7 @@ ClefairyFleeMovement:
 
 DontLitterSignText:
 	text "Q.TRƯỜNG NÚI"
-	line "OTSUKIMI"
+	line "MOON"
 	cont "CẤM XẢ RÁC"
 	done
 

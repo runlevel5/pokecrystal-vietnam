@@ -99,7 +99,7 @@ LizFalknerGossipText:
 	para "Cậu có nghĩ rằng"
 	line "FALKNER ở GYM"
 
-	para "KIKYO ngầu và"
+	para "VIOLET ngầu và"
 	line "đẹp trai không?"
 
 	para "Nhưng người ta nói"
@@ -122,7 +122,7 @@ LizEarlGossipText:
 	line "thầy giáo điều"
 
 	para "hành HỌC VIỆN #"
-	line "MON ở KIKYO?"
+	line "MON ở VIOLET?"
 
 	para "Tớ thấy ông ấy"
 	line "xoay tròn trong"
@@ -174,7 +174,7 @@ LizSalonGossipText:
 	text "Nghe này!"
 
 	para "Có SALON #MON"
-	line "ở KOGANE"
+	line "ở GOLDENROD"
 
 	para "do hai anh em"
 	line "điều hành."
@@ -201,7 +201,7 @@ LizWhitneyGossipText:
 	text "Nghe này!"
 
 	para "WHITNEY của GYM"
-	line "KOGANE mới bắt"
+	line "GOLDENROD mới bắt"
 
 	para "đầu chiến đấu"
 	line "gần đây thôi!"

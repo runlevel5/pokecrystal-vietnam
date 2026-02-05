@@ -22,7 +22,7 @@ SaffronMartCooltrainerFScript:
 
 SaffronMartCooltrainerMText:
 	text "Có THÁP RADIO lớn"
-	line "ở SHION."
+	line "ở LAVENDER."
 	done
 
 SaffronMartCooltrainerFText:

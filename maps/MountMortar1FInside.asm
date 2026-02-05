@@ -103,7 +103,7 @@ SupernerdMarkusBeatenText:
 
 SupernerdMarkusAfterBattleText:
 	text "Tôi đến khám phá"
-	line "NÚI SURIBACHI"
+	line "NÚI MORTAR"
 	cont "nhưng bị lạc với"
 	cont "đồng đội…"
 

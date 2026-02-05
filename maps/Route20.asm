@@ -105,7 +105,7 @@ CinnabarGymSignText:
 	text "Biển báo này viết"
 	line "gì?"
 
-	para "GYM GUREN"
+	para "GYM CINNABAR"
 	line "T.LĨNH: BLAINE"
 	done
 

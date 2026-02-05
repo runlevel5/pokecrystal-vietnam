@@ -19,7 +19,7 @@ A complete Vietnamese localization of Pokémon Crystal.
 
 This project is based on [commit 2ad9616](https://github.com/pret/pokecrystal/commit/2ad9616586212e2a9ed3be812776d133dc47bb8a) of the pokecrystal disassembly project.
 
-While this translation is built upon the English version's codebase, it strives to be faithful to the original Japanese version wherever possible. This includes using romanized Japanese location names (e.g., "TP. KOGANE" instead of "GOLDENROD CITY", "NÚI OTSUKIMI" instead of "MT.MOON"), restoring censored sprites, and following Japanese naming conventions.
+While this translation is built upon the English version's codebase, it uses English-based location names with Vietnamese prefixes (e.g., "TP. GOLDENROD" for "GOLDENROD CITY", "NÚI MẶT TRĂNG" for "MT.MOON"). This approach maintains familiarity for players who know the international Pokemon community while providing Vietnamese context.
 
 As of Feb 3rd 2026, the project is considered complete. Please file a bug report if you find any issues.
 

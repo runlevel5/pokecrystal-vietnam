@@ -750,8 +750,8 @@ RocketBaseLanceWhirlpoolText:
 	para "Con chỉ có thể"
 	line "dùng nó ngoài"
 
-	para "trận đấu với BADGE"
-	line "từ CHOUJI GYM."
+	para "trận đấu với HC"
+	line "từ MAHOGANY GYM."
 	done
 
 RocketBaseLanceMonMasterText:

@@ -155,7 +155,7 @@ BugCatchingContestant6AText:
 	line "làm yếu #MON"
 
 	para "loại sâu trước,"
-	line "rồi ném BALL."
+	line "rồi ném BÓNG."
 	done
 
 BugCatchingContestant7AText:

@@ -246,19 +246,19 @@ OlivineCitySailor2Text:
 	done
 
 OlivineCitySignText:
-	text "THÀNH PHỐ ASAGI"
+	text "THÀNH PHỐ OLIVINE"
 
 	para "Cảng gần đất"
 	line "nước ngoài nhất"
 	done
 
 OlivineCityPortSignText:
-	text "CẢNG ASAGI"
+	text "CẢNG OLIVINE"
 	line "BẾN TÀU AQUA"
 	done
 
 OlivineGymSignText:
-	text "TP ASAGI"
+	text "TP OLIVINE"
 	line "GYM #MON"
 	cont "T.LĨNH: JASMINE"
 
@@ -267,7 +267,7 @@ OlivineGymSignText:
 	done
 
 OlivineLighthouseSignText:
-	text "HẢI ĐĂNG ASAGI"
+	text "HẢI ĐĂNG OLIVINE"
 	line "Còn gọi là"
 	cont "HẢI ĐĂNG LẤPLÁNH"
 	done

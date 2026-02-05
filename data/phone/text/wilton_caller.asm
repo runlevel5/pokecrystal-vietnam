@@ -99,6 +99,6 @@ WiltonWantThisText:
 	text "…"
 	line "Chỉ cần đi từ"
 
-	para "CHOUJI về phía"
-	line "FUSUBE!"
+	para "MAHOGANY về phía"
+	line "BLACKTHORN!"
 	done

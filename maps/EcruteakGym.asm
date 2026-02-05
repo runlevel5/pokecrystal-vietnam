@@ -181,7 +181,7 @@ MortyIntroText:
 	text "Bạn đã đến."
 	line "Tốt lắm."
 
-	para "Tại ENJU này,"
+	para "Tại ECRUTEAK này,"
 	line "#MON được tôn"
 	cont "kính."
 
@@ -231,11 +231,11 @@ MortyWinLossText:
 
 Text_ReceivedFogBadge:
 	text "<PLAYER> đã nhận"
-	line "FOGBADGE."
+	line "HC FOG."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "Với FOGBADGE,"
+	text "Với HC FOG,"
 	line "#MON đến L50"
 
 	para "sẽ nghe lời"
@@ -366,7 +366,7 @@ EcruteakGymGuideText:
 	line "có thể tiết lộ"
 
 	para "bí mật sâu xa về"
-	line "ENJU."
+	line "ECRUTEAK."
 	done
 
 EcruteakGymGuideWinText:

@@ -173,7 +173,7 @@ SwimmermSimonBeatenText:
 	done
 
 SwimmermSimonAfterBattleText:
-	text "TP. TANBA xa"
+	text "TP. CIANWOOD xa"
 	line "đây một khoảng"
 	cont "khá dài."
 	done
@@ -197,7 +197,7 @@ SwimmermRandallAfterBattleText:
 	done
 
 SwimmerfElaineSeenText:
-	text "Bạn đi TANBA à?"
+	text "Bạn đi CIANWOOD à?"
 
 	para "Đấu nhanh một trận"
 	line "trước đi?"
@@ -234,7 +234,7 @@ Route40Lass1Text:
 	text "Dù bạn không nhìn"
 	line "thấy từ đây,"
 
-	para "TANBA ở bên"
+	para "CIANWOOD ở bên"
 	line "kia biển."
 	done
 
@@ -254,7 +254,7 @@ Route40PokefanMText_Mobile:
 	done
 
 Route40Lass2Text:
-	text "Tôi đến ASAGI"
+	text "Tôi đến OLIVINE"
 	line "bằng tàu để xem"
 
 	para "phong cảnh và hít"
@@ -323,8 +323,8 @@ MonicaNotMondayText:
 Route40SignText:
 	text "TUYẾN ĐƯỜNG 40"
 
-	para "TP. TANBA -"
-	line "TP. ASAGI"
+	para "TP. CIANWOOD -"
+	line "TP. OLIVINE"
 	done
 
 Route40_MapEvents:

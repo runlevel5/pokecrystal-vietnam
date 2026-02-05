@@ -138,7 +138,7 @@ OakOpenMtSilverText:
 	line "của bạn, <PLAY_G>."
 
 	para "Hãy đến CAO NGUYÊN"
-	line "SEKIEI. Bạn có thể"
+	line "INDIGO. Bạn có thể"
 
 	para "đến NÚI BẠC từ"
 	line "đó."
@@ -249,7 +249,7 @@ OaksLabPCText:
 	line "nghe điều đó."
 
 	para "ELM ở T.TRẤN"
-	line "WAKABA 8-)"
+	line "NEW BARK 8-)"
 	done
 
 OaksLab_MapEvents:

@@ -83,7 +83,7 @@ Text_DayCareManTalksAboutEggTicket: ; unreferenced
 	line "TRẺ."
 
 	para "Có một thứ mới ở"
-	line "TP. KOGANE"
+	line "TP. GOLDENROD"
 
 	para "tên là QUẦY"
 	line "TRAO ĐỔI."

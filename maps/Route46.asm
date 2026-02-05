@@ -221,7 +221,7 @@ PicnickerErinAfterBattleText:
 	text "Tôi đã đến nhiều"
 	line "GYM, nhưng GYM ở"
 
-	para "KOGANE là ưa"
+	para "GOLDENROD là ưa"
 	line "thích nhất."
 
 	para "Nó đầy những hoa"

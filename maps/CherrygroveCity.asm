@@ -90,7 +90,7 @@ CherrygroveCityGuideGent:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "THẺ BẢN ĐỒ@"
 
 .No:
 	writetext GuideGentNoText
@@ -370,7 +370,7 @@ GuideGentMartText:
 	text "Đây là CỬA HÀNG"
 	line "#MART."
 
-	para "Họ bán BALL để"
+	para "Họ bán BÓNG để"
 	line "bắt #MON hoang"
 
 	para "dã và các vật"
@@ -498,9 +498,9 @@ CherrygroveTeacherText_HaveMapCard:
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "Nhà ÔNG LÃO"
-	line "#MON còn xa"
-	cont "hơn phía trước."
+	text "Nhà ÔNG #MON"
+	line "còn xa hơn phía"
+	cont "trước."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
@@ -532,7 +532,7 @@ MysticWaterGuyTextAfter:
 	done
 
 CherrygroveCitySignText:
-	text "THÀNH PHỐ YOSHINO"
+	text "TP. CHERRYGROVE"
 
 	para "Thành phố hoa"
 	line "dễ thương và thơm"

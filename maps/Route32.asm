@@ -543,17 +543,17 @@ Route32CooltrainerMText_AideIsWaiting:
 
 Route32CooltrainerMText_UnusedSproutTower:
 	text "Bạn đã đến THÁP"
-	line "MADATSUBOMI chưa?"
+	line "SPROUT chưa?"
 
 	para "Nếu có dịp đến"
-	line "TP KIKYO,"
+	line "TP VIOLET,"
 
 	para "họ sẽ muốn bạn"
 	line "tập luyện ở đó."
 
 	para "Đó là điều cơ bản"
 	line "cho HLV. Hãy đến"
-	cont "THÁP MADATSUBOMI!"
+	cont "THÁP SPROUT!"
 	done
 
 Route32CooltrainerMText_VioletGym:
@@ -576,7 +576,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	para "Chắc là nhờ tập"
 	line "luyện quanh vùng"
 
-	para "TP KIKYO"
+	para "TP VIOLET"
 	line "mà ra."
 
 	para "Tập luyện ở GYM"
@@ -586,7 +586,7 @@ Route32CooltrainerMText_HaveThisSeed:
 	line "nhiều."
 
 	para "Để kỷ niệm"
-	line "TP KIKYO, hãy"
+	line "TP VIOLET, hãy"
 	cont "nhận cái này."
 
 	para "Nó tăng sức mạnh"
@@ -595,7 +595,7 @@ Route32CooltrainerMText_HaveThisSeed:
 
 Route32CooltrainerMText_ExperiencesShouldBeUseful:
 	text "Kinh nghiệm của"
-	line "bạn ở KIKYO"
+	line "bạn ở VIOLET"
 
 	para "sẽ có ích cho"
 	line "hành trình."
@@ -815,7 +815,7 @@ PicnickerLiz1AfterText:
 
 BirdKeeperPeterSeenText:
 	text "HUY HIỆU đó! Của"
-	line "TP KIKYO!"
+	line "TP VIOLET!"
 
 	para "Bạn thắng FALKNER"
 	line "rồi à?"
@@ -829,7 +829,7 @@ BirdKeeperPeterBeatenText:
 BirdKeeperPeterAfterText:
 	text "Tôi nên tập luyện"
 	line "lại ở GYM"
-	cont "TP KIKYO."
+	cont "TP VIOLET."
 	done
 
 Route32UnusedText: ; unreferenced
@@ -915,8 +915,8 @@ FriedaNotFridayText:
 Route32SignText:
 	text "ROUTE 32"
 
-	para "TP KIKYO -"
-	line "T.TRẤN HIWADA"
+	para "TP VIOLET -"
+	line "T.TRẤN AZALEA"
 	done
 
 Route32RuinsSignText:

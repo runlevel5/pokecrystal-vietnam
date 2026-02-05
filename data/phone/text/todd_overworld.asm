@@ -3,7 +3,7 @@ ToddAskNumber1Text:
 	line "thấy CỬA HÀNG"
 
 	para "BÁCH HÓA"
-	line "KOGANE. Họ có"
+	line "GOLDENROD. Họ có"
 	cont "giảm giá"
 
 	para "trên mái nhà thỉnh"
@@ -28,7 +28,7 @@ ToddNumberAcceptedText:
 	text "Tớ kiểm tra CỬA"
 	line "HÀNG BÁCH HÓA"
 
-	para "KOGANE mỗi ngày"
+	para "GOLDENROD mỗi ngày"
 	line "nên tớ biết khi"
 	cont "có giảm giá."
 	done

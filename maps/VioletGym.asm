@@ -113,7 +113,7 @@ VioletGymStatue:
 FalknerIntroText:
 	text "Tôi là FALKNER,"
 	line "THỦ LĨNH GYM"
-	cont "TP KIKYO!"
+	cont "TP VIOLET!"
 
 	para "Người ta nói có"
 	line "thể cắt cánh"
@@ -141,16 +141,16 @@ FalknerWinLossText:
 
 	para "Đây là huy hiệu"
 	line "chính thức"
-	cont "ZEPHYRBADGE."
+	cont "HC ZEPHYR."
 	done
 
 ReceivedZephyrBadgeText:
 	text "<PLAYER> nhận được"
-	line "ZEPHYRBADGE."
+	line "HC ZEPHYR."
 	done
 
 FalknerZephyrBadgeText:
-	text "ZEPHYRBADGE"
+	text "HC ZEPHYR"
 	line "tăng sức tấn công"
 	cont "của #MON."
 

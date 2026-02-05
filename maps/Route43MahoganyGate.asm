@@ -24,7 +24,7 @@ Route43MahoganyGateOfficer:
 
 Route43MahoganyGateOfficerText:
 	text "Chỉ người đi đến"
-	line "HỒ GYARADOS"
+	line "HỒ GIẬN DỮ"
 
 	para "mới đi qua đây"
 	line "gần đây thôi."
@@ -32,7 +32,7 @@ Route43MahoganyGateOfficerText:
 
 Route43MahoganyGateOfficerRocketsClearedText:
 	text "Không ai đi đến"
-	line "HỒ GYARADOS"
+	line "HỒ GIẬN DỮ"
 	cont "dạo này nữa."
 	done
 

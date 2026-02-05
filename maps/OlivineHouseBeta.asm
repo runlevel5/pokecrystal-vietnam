@@ -28,7 +28,7 @@ OlivineHouseBetaTeacherText:
 	text "Khi #MON tôi"
 	line "bị ốm, DƯỢC SĨ ở"
 
-	para "ENJU đã làm"
+	para "ECRUTEAK đã làm"
 	line "thuốc cho tôi."
 	done
 

@@ -71,7 +71,7 @@ SproutTower1FSage1Text:
 	done
 
 SproutTower1FSage2Text:
-	text "THÁP MADATSUBOMI"
+	text "THÁP SPROUT"
 	line "được xây từ lâu"
 
 	para "nơi tập luyện"

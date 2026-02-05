@@ -226,16 +226,16 @@ WhitneyWhatDoYouWantText:
 
 	para "À, đúng rồi."
 	line "Mình quên. Đây,"
-	cont "PLAINBADGE."
+	cont "HC PLAIN."
 	done
 
 PlayerReceivedPlainBadgeText:
 	text "<PLAYER> nhận"
-	line "PLAINBADGE."
+	line "HC PLAIN."
 	done
 
 WhitneyPlainBadgeText:
-	text "PLAINBADGE cho"
+	text "HC PLAIN cho"
 	line "phép #MON của"
 
 	para "bạn dùng SỨC MẠNH"

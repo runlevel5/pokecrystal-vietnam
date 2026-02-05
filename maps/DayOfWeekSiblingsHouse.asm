@@ -53,7 +53,7 @@ DayOfWeekSiblingsHousePokedexText3:
 	line "TUYẾN ĐƯỜNG 29"
 
 	para "T4, WESLEY"
-	line "HỒ GYARADOS"
+	line "HỒ GIẬN DỮ"
 
 	para "T5, ARTHUR"
 	line "TUYẾN ĐƯỜNG 36"
@@ -62,7 +62,7 @@ DayOfWeekSiblingsHousePokedexText3:
 	line "TUYẾN ĐƯỜNG 32"
 
 	para "T7, SANTOS"
-	line "TP. FUSUBE"
+	line "TP. BLACKTHORN"
 
 	para "CN, SUNNY"
 	line "TUYẾN ĐƯỜNG 37"

@@ -52,7 +52,7 @@ SwimmermSethBeatenText:
 
 SwimmermSethAfterBattleText:
 	text "Có thằng kiêu căng"
-	line "ở núi lửa GUREN."
+	line "ở núi lửa CINNABAR"
 	done
 
 SwimmerfNikkiSeenText:

@@ -16,7 +16,7 @@ Route31VioletGateCooltrainerFScript:
 Route31VioletGateOfficerText:
 	text "Chào bạn! Bạn đã"
 	line "ghé thăm THÁP"
-	cont "MADATSUBOMI chưa?"
+	cont "SPROUT chưa?"
 	done
 
 Route31VioletGateCooltrainerFText:

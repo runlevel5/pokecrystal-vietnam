@@ -26,7 +26,7 @@ CeladonDeptStore1FElevatorButton:
 CeladonDeptStore1FReceptionistText:
 	text "Xin chào! Chào"
 	line "mừng đến TTMT"
-	cont "TAMAMUSHI!"
+	cont "CELADON!"
 
 	para "Sơ đồ chỉ dẫn ở"
 	line "trên tường."
@@ -36,7 +36,7 @@ CeladonDeptStore1FGentlemanText:
 	text "TTMT này là chuỗi"
 	line "liên kết với"
 
-	para "TTMT ở KOGANE"
+	para "TTMT ở GOLDENROD"
 	line "CITY."
 
 	para "Cả hai đều được"

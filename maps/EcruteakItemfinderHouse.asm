@@ -101,7 +101,7 @@ ItemfinderExplanationText:
 	line "nghe có vật phẩm"
 
 	para "ở THÁP CHÁY"
-	line "ENJU."
+	line "ECRUTEAK."
 	done
 
 EcruteakItemfinderToEachHisOwnText:
@@ -111,13 +111,13 @@ EcruteakItemfinderToEachHisOwnText:
 
 EcruteakHistoryBookText:
 	text "LỊCH SỬ"
-	line "ENJU"
+	line "ECRUTEAK"
 
 	para "Muốn đọc không?"
 	done
 
 EcruteakTwoTowersText:
-	text "Ở ENJU, có"
+	text "Ở ECRUTEAK, có"
 	line "hai tòa tháp."
 
 	para "Mỗi tháp là nơi"
@@ -135,7 +135,7 @@ EcruteakTwoTowersText:
 	done
 
 EcruteakThreeMonText:
-	text "ENJU cũng là"
+	text "ECRUTEAK cũng là"
 	line "nhà của ba #MON"
 
 	para "chạy quanh thành"

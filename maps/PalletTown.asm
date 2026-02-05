@@ -48,7 +48,7 @@ PalletTownFisherText:
 	done
 
 PalletTownSignText:
-	text "T.TRẤN MASARA"
+	text "T.TRẤN PALLET"
 
 	para "Nơi Yên Bình và"
 	line "Thuần Khiết"

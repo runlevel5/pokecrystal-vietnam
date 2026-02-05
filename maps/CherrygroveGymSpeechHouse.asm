@@ -27,7 +27,7 @@ CherrygroveGymSpeechHousePokefanMText:
 	line "các GYM #MON"
 
 	para "khắp JOHTO và thu"
-	line "thập BADGE."
+	line "thập HC."
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:

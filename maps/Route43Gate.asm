@@ -216,7 +216,7 @@ RocketText_MakingABundle:
 	para "Mọi người đều muốn"
 	line "xem điều gì xảy"
 
-	para "ra ở HỒ GYARADOS"
+	para "ra ở HỒ GIẬN DỮ"
 	line "cả."
 	done
 

@@ -66,7 +66,7 @@ LeaderBlueBeforeText:
 	line "cùng cũng tới hả?"
 
 	para "Tao không có hứng"
-	line "ở GUREN,"
+	line "ở CINNABAR,"
 
 	para "nhưng giờ tao sẵn"
 	line "sàng đấu với mày."
@@ -104,12 +104,12 @@ LeaderBlueWinText:
 
 	para "Tch, được rồi…"
 	line "Đây, cầm lấy cái"
-	cont "này--EARTHBADGE."
+	cont "này--HC EARTH."
 	done
 
 Text_ReceivedEarthBadge:
 	text "<PLAYER> nhận được"
-	line "EARTHBADGE."
+	line "HC EARTH."
 	done
 
 LeaderBlueAfterText:

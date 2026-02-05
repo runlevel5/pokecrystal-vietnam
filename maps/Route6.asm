@@ -48,8 +48,8 @@ Route6PokefanMText:
 Route6UndergroundPathSignText:
 	text "ĐỊA ĐẠO"
 
-	para "TP. HANADA -"
-	line "TP. KUCHIBA"
+	para "TP. CERULEAN -"
+	line "TP. VERMILION"
 	done
 
 PokefanmRexSeenText:

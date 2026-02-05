@@ -703,11 +703,11 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | SLOWPOKE WELL | GIẾNG<BSP>SLOWPOKE |
 | RADIO TOWER | THÁP<BSP>RADIO |
 | NATIONAL PARK | VƯỜN<BSP>QUỐC GIA |
-| TIN TOWER | THÁP<BSP>THIẾC |
+| TIN TOWER | THÁP<BSP>CHUÔNG |
 | BURNED TOWER | THÁP<BSP>CHÁY |
 | LIGHTHOUSE | HẢI ĐĂNG |
 | BATTLE TOWER | THÁP<BSP>CHIẾN ĐẤU |
-| WHIRL ISLANDS | QUẦN ĐẢO<BSP>WHIRL |
+| WHIRL ISLANDS | ĐẢO<BSP>XOÁY NƯỚC |
 | MT.MORTAR | NÚI<BSP>MORTAR |
 | DRAGON'S DEN | HANG<BSP>RỒNG |
 | ICE PATH | LỐI ĐI<BSP>BĂNG ĐÁ |
@@ -738,7 +738,7 @@ This document contains all English-Vietnamese translation terms used in the Viet
 | LAV RADIO TOWER | THÁP RADIO<BSP>LAV |
 | SILPH CO. | SILPH CO. |
 | SAFARI ZONE | KHU SAFARI |
-| SEAFOAM ISLANDS | ĐẢO<BSP>SEAFOAM |
+| SEAFOAM ISLANDS | ĐẢO<BSP>BỌT BIỂN |
 | POKEMON MANSION | DINH THỰ<BSP>#MON |
 | CERULEAN CAVE | ĐỘNG<BSP>CERULEAN |
 | DIGLETT'S CAVE | ĐỘNG<BSP>DIGLETT |

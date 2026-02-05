@@ -294,19 +294,9 @@ NamingScreen_InitText:
 	call ClearBox
 	ld de, NameInputPage1
 NamingScreen_ApplyTextInputMode:
-	; Check for Pokemon naming (English-only for link cable compatibility)
-	call NamingScreen_IsTargetMon
-	jr nz, .not_mon
-	; For Pokemon naming, use 2-page English system
-	ld de, MonNameInput1
-	ld a, [wNamingScreenLetterCase]
-	and 1
-	jr z, .apply_layout
-	ld de, MonNameInput2
-	jr .apply_layout
-
-.not_mon
-	; For player/rival/box/etc naming, use 5 Vietnamese pages
+	; All naming uses 5 Vietnamese pages
+	; Pokemon nicknames are translated to English when trading via link cable
+	; (see engine/link/link_trade_text.asm for translation layer)
 	ld a, [wNamingScreenLetterCase]
 	and a
 	jr z, .viet_page1
@@ -476,11 +466,7 @@ NamingScreenJoypadLoop:
 	ret
 
 .select
-	; Check if this is Pokemon naming (English-only, 2 pages)
-	call NamingScreen_IsTargetMon
-	jr z, .two_page_toggle
-
-	; Player/Rival/Box/etc naming uses 5 Vietnamese pages
+	; All naming uses 5 Vietnamese pages
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
 	inc a
@@ -488,15 +474,6 @@ NamingScreenJoypadLoop:
 	jr c, .no_wrap
 	xor a
 .no_wrap
-	ld [hl], a
-	call NamingScreen_ApplyTextInputMode
-	ret
-
-.two_page_toggle
-	; Pokemon naming uses only 2 pages (for link cable compatibility)
-	ld hl, wNamingScreenLetterCase
-	ld a, [hl]
-	xor 1  ; Toggle between 0 and 1
 	ld [hl], a
 	call NamingScreen_ApplyTextInputMode
 	ret

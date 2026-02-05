@@ -102,7 +102,8 @@ This change makes the game more accessible to Vietnamese players who use the met
 #### 5. Pokemon Names
 All Pokemon species names remain in English:
 - PIKACHU, RATTATA, BELLSPROUT, PIDGEY, TOGEPI, etc.
-- Pokemon nicknames are **English-only** (restricted input for link cable compatibility - see "Naming Screen Character Sets" section)
+- Pokemon nicknames use **full Vietnamese characters** (5-page input like player names)
+- Nicknames are automatically translated to base English letters when trading with English Crystal (see "Link Cable Trading Translation Layer" section)
 - **Exception**: EGG (the placeholder name for unhatched Pokemon) is translated to TRỨNG
 
 #### 6. Special Terms
@@ -156,34 +157,37 @@ Note: `<BSP>` is a line break macro used for the map name popup display when nam
 
 ## Naming Screen Character Sets
 
-The naming screen uses different character sets depending on what is being named:
+The naming screen uses the same 5-page Vietnamese character set for all naming types:
 
 ### Character Input Pages (data/text/name_input_chars.asm)
 
-| Naming Type | Character Set | Pages | Reason |
-|-------------|---------------|-------|--------|
-| Player name | Vietnamese (NameInputPage1-5) | 5 | Player names can use full Vietnamese with diacritics |
-| Rival name | Vietnamese (NameInputPage1-5) | 5 | Rival names can use full Vietnamese with diacritics |
-| Mom's name | Vietnamese (NameInputPage1-5) | 5 | Mom's name can use full Vietnamese with diacritics |
-| Friend name | Vietnamese (NameInputPage1-5) | 5 | Friend names can use full Vietnamese with diacritics |
-| Pokemon nickname | English (MonNameInput1-2) | 2 | Backward compatibility with link trading |
-| PC Box name | Vietnamese (NameInputPage1-5) | 5 | Box names are NOT transmitted over link cable, so Vietnamese is safe |
+| Naming Type | Character Set | Pages | Notes |
+|-------------|---------------|-------|-------|
+| Player name | Vietnamese (NameInputPage1-5) | 5 | Full Vietnamese with diacritics |
+| Rival name | Vietnamese (NameInputPage1-5) | 5 | Full Vietnamese with diacritics |
+| Mom's name | Vietnamese (NameInputPage1-5) | 5 | Full Vietnamese with diacritics |
+| Friend name | Vietnamese (NameInputPage1-5) | 5 | Full Vietnamese with diacritics |
+| Pokemon nickname | Vietnamese (NameInputPage1-5) | 5 | Translated to English when trading via link cable |
+| PC Box name | Vietnamese (NameInputPage1-5) | 5 | Box names are NOT transmitted over link cable |
 
-### Why Pokemon Nicknames Use English Only
+### Pokemon Nickname Translation for Link Cable
 
-**Backward Compatibility:** Pokemon nicknames are stored in save data and transmitted during link cable trading. Using Vietnamese characters would cause:
+Pokemon nicknames can now use **full Vietnamese characters** with automatic translation for link cable compatibility:
 
-1. **Display issues in English games:** Vietnamese accented characters would display as garbage/wrong characters when a Pokemon is traded to an English Pokemon Crystal
-2. **Save compatibility:** Pokemon traded from English games would display correctly, but Vietnamese-named Pokemon traded back might cause issues
+**How it works:**
+1. Player names their Pokemon using Vietnamese characters (e.g., "Rồng", "Điện")
+2. In Vietnamese game: Displays as "Rồng", "Điện" with accents
+3. When trading to English game: Automatically translated to "Rong", "Dien" (accents stripped)
+4. When trading VN↔VN: Preserves all accented characters
 
-**Trade-off Decision:** By restricting Pokemon nicknames to English characters (A-Z, a-z, 0-9, basic punctuation), these names remain readable and compatible when:
-- Trading with English Pokemon Crystal via link cable
-- Trading with Pokemon Stadium 2
-- Transferring save data between versions
+**Implementation:**
+- Input: 5-page Vietnamese keyboard (same as player name input)
+- Translation: `Link_FixDataForPeerLanguage` in `engine/link/link.asm` calls `TranslateString_PartyMonNicknames`
+- Peer detection: Uses `wPeerLanguage` to conditionally translate only for English peers
 
 **PC Box Names:** Box names are stored locally and are NOT transmitted during link cable trading. Therefore, PC Box names can safely use full Vietnamese characters. Default box names are "HỘP 1", "HỘP 2", etc.
 
-**Player/Rival/Mom/Friend Names:** These names are translated via the link cable translation layer (see "Link Cable Trading Translation Layer" section), so they can safely use Vietnamese characters. The translation layer converts Vietnamese accented characters to base English letters when sending data over link cable.
+**Player/Rival/Mom/Friend Names:** These names are also translated via the link cable translation layer when trading with English Crystal.
 
 ### Default Player Names
 

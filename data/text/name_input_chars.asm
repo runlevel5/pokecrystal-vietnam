@@ -1,11 +1,10 @@
 ; see engine/menus/naming_screen.asm
 ;
-; NameInputPage1-5: Vietnamese characters for Player/Rival/Mom/Friend/Box naming
-; MonNameInput1-2:  English characters for Pokemon nicknames (link cable compatibility)
+; NameInputPage1-5: Vietnamese characters for Player/Rival/Mom/Friend/Box/Pokemon naming
 ;
-; Pokemon nicknames use English-only characters to maintain
-; compatibility with link trading and Pokemon Stadium.
-; PC Box names use Vietnamese since they are NOT transmitted over link cable.
+; All naming uses 5-page Vietnamese input.
+; Pokemon nicknames with Vietnamese characters are translated to base English
+; letters when trading via link cable (see engine/link/link_trade_text.asm)
 
 NameInputPage1:
 	db "a ă â b c d đ e ê"

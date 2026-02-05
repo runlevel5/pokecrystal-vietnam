@@ -42,19 +42,20 @@ This localization restores the original Japanese sprite designs for certain char
 This Vietnamese version is **fully compatible** with English Pokémon Crystal for link cable trading and battling.
 
 **How it works:**
-- When trading with English Crystal, Orginal Player (OT) and Player names are automatically translated in both directions
-- Vietnamese accented characters (á, ă, ê, etc.) are converted to base letters when sent to English
+- When trading with English Crystal, all text data is automatically translated in both directions
+- Vietnamese accented characters (á, ă, ê, ô, ơ, ư, đ, etc.) are converted to base letters when sent to English
 - English text is properly displayed when received from English Crystal
 
-**Restrictions for compatibility:**
-- Pokémon nicknames: English characters only (A-Z, 0-9)
+**Full Vietnamese support:**
 - Player/Rival names: Full Vietnamese supported (translated automatically during trading)
+- Pokémon nicknames: Full Vietnamese supported (translated automatically during trading)
+- Mail messages: Full Vietnamese supported (translated automatically during trading)
 
 **Mail system:**
 - Full Vietnamese character input supported for composing mail
 - VN → EN: Vietnamese mail is automatically translated to base English letters
 - EN → VN: English mail displays correctly using the English font
-- VN → VN: Vietnamese mail preserves all accented characters
+- VN ↔ VN: Vietnamese mail preserves all accented characters
 
 ## Screenshots
 

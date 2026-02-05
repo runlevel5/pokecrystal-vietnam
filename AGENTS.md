@@ -329,11 +329,24 @@ This layout allows full Vietnamese text support while maximizing compatibility w
 
 To enable trading between Vietnamese and English Pokemon Crystal versions, a translation layer has been implemented that automatically converts Vietnamese accented characters to base English letters when sending data over the link cable.
 
-### Implementation (commit bdc8045)
+### Implementation
 
 **Files:**
 - `engine/link/link_trade_text.asm` - Core translation functions
-- `engine/link/link.asm` - Integration hooks in `Link_PrepPartyData_Gen2`
+- `engine/link/link.asm` - Integration hooks and language detection
+- `constants/serial_constants.asm` - Language identifier constants
+
+**Language Detection:**
+
+Vietnamese Crystal uses a language identifier (`LANG_VN = $55`) embedded in the random bytes section during the RN (random number) exchange to detect peer language:
+
+- **VN ↔ VN**: Both peers detect `LANG_VN`, preserve Vietnamese accented characters
+- **VN ↔ EN**: Vietnamese peer doesn't find `LANG_VN` in English data, applies translation
+
+The distinctive value `$55` (binary `01010101`) is used because:
+- It's unlikely to appear randomly in English Crystal's RNG data
+- It's outside character ranges ($80-$DF) to avoid confusion with text
+- It's not a special serial value ($FD, $FE, $FF)
 
 **Translation Functions:**
 
@@ -350,9 +363,14 @@ To enable trading between Vietnamese and English Pokemon Crystal versions, a tra
 3. **TranslatePlayerNameForLinkCable** - Pre-translates player name at input time (engine/menus/intro_menu.asm)
    - Translates `wPlayerName` to `wTradeName` when player enters their name
    - Also called when continuing a saved game
-4. **TranslateString_OTNames** - Translates outgoing Original Trainer names
-5. **TranslateString_PartyMonNicknames** - Translates outgoing Pokemon nicknames (defensive)
-6. **TranslateAllReceivedOTData** - Translates all incoming text (player name, OT names, nicknames)
+
+4. **Link_FixDataForPeerLanguage** - Conditionally applies translation based on detected peer
+   - If peer is VN: keeps original Vietnamese names (no translation)
+   - If peer is EN: copies `wTradeName` and translates OT names/nicknames
+
+5. **TranslateString_OTNames** - Translates outgoing Original Trainer names
+6. **TranslateString_PartyMonNicknames** - Translates outgoing Pokemon nicknames (defensive)
+7. **TranslateAllReceivedOTData** - Translates all incoming text (player name, OT names, nicknames)
 
 **Translation Rules:**
 
@@ -391,15 +409,18 @@ When an English player trades to Vietnamese:
 ### Technical Details
 
 **Hook Location:**
-Translation is called in `Link_PrepPartyData_Gen2` (engine/link/link.asm) after copying party data to `wLinkData` but before sending over the link cable.
+Language detection and conditional translation happen in `Gen2ToGen2LinkComms` (engine/link/link.asm) after the RN exchange but before party data exchange.
 
 **Order of Operations:**
-1. Copy pre-translated player name (wTradeName), party data, OT names, nicknames to wLinkData
-2. Call TranslateString_OTNames
-3. Call TranslateString_PartyMonNicknames
-4. Send translated wLinkData over link cable
+1. `Link_PrepPartyData_Gen2` copies original wPlayerName, party data, OT names, nicknames to wLinkData
+2. `FixDataForLinkTransfer` sets up RN preamble (all $FD bytes) and places LANG_VN ($55) as first random byte
+3. RN exchange happens via `Serial_ExchangeBytes`
+4. Scan received data for LANG_VN → set wPeerLanguage
+5. `Link_FixDataForPeerLanguage` conditionally applies translation based on peer language
+6. Party data exchange happens
+7. `TranslateAllReceivedOTData` translates incoming data if peer is English
 
-**Note:** Player name is pre-translated once at name entry time (stored in `wTradeName`), so no runtime translation is needed during trading.
+**Note:** Player name is pre-translated once at name entry time (stored in `wTradeName`). For VN↔VN trading, the original `wPlayerName` is used. For VN↔EN trading, `wTradeName` replaces it in wLinkData.
 
 **Incoming Translation:**
 After receiving data from English Crystal, `TranslateAllReceivedOTData` is called to convert English lowercase characters to Vietnamese character codes. This is hooked in both `Gen1ToGen2LinkComms` and `Gen2ToGen2LinkComms`.

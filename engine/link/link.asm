@@ -261,10 +261,22 @@ endc
 ; NOTE: The preamble must be ALL $FD bytes for sync to work correctly.
 ; Serial_ExchangeBytes discards received bytes until it sees $FD, then
 ; stores subsequent bytes. Non-$FD bytes in preamble break synchronization.
-; Therefore, LANG_VN must be placed in the random bytes section, not preamble.
+; Therefore, LANG_VN is placed in the random bytes section (after preamble).
 ; Due to variable sync timing, we scan the received data to find LANG_VN.
-	ld a, [wOTLinkBattleRNData + SERIAL_RN_PREAMBLE_LANG_OFFSET]
+	ld hl, wOTLinkBattleRNData
+	ld b, 10
+.scan_lang
+	ld a, [hli]
+	cp LANG_VN
+	jr z, .found_lang
+	dec b
+	jr nz, .scan_lang
+; Not found - assume non-Vietnamese (English Crystal)
+	ld a, LANG_EN
+.found_lang
 	ld [wPeerLanguage], a
+; Fix player name and translations based on peer language
+	call Link_FixDataForPeerLanguage
 
 	ld hl, wLinkData
 	ld de, wOTPartyData
@@ -636,16 +648,14 @@ FixDataForLinkTransfer:
 	ld [hli], a
 	dec b
 	jr nz, .preamble_loop
-; BUG: This places LANG_VN inside the preamble, which breaks sync with English Crystal!
-; Serial_ExchangeBytes requires ALL preamble bytes to be $FD for synchronization.
-; Non-$FD bytes cause the receiver to keep waiting, creating a desync.
-; TODO: Move LANG_VN to the random bytes section (after preamble) to fix this.
+; hl now points to wLinkBattleRNs (first random byte after preamble)
+; Place LANG_VN as the first random byte for peer detection
+; The distinctive value $55 is unlikely to appear in English Crystal's random data
 	ld a, LANG_VN
-	ld [wLinkBattleRNPreamble + SERIAL_RN_PREAMBLE_LANG_OFFSET], a
+	ld [hli], a
 
-; Initialize random seed, making sure special bytes are omitted
-	assert wLinkBattleRNPreamble + SERIAL_RN_PREAMBLE_LENGTH == wLinkBattleRNs
-	ld b, SERIAL_RNS_LENGTH
+; Initialize remaining random bytes, making sure special bytes are omitted
+	ld b, SERIAL_RNS_LENGTH - 1  ; one less since we used first for LANG_VN
 .rn_loop
 	call Random
 	cp SERIAL_PREAMBLE_BYTE
@@ -898,7 +908,7 @@ Link_PrepPartyData_Gen2:
 	dec b
 	jr nz, .preamble_loop
 
-	ld hl, wTradeName ; Use pre-translated English name for link cable
+	ld hl, wPlayerName ; Copy original name; will be replaced by wTradeName if peer is English
 	ld bc, NAME_LENGTH
 	call CopyBytes
 
@@ -922,15 +932,9 @@ Link_PrepPartyData_Gen2:
 	ld bc, PARTY_LENGTH * MON_NAME_LENGTH
 	call CopyBytes
 
-; Translate Vietnamese text to English for link cable compatibility
-; Skip translation if peer is also Vietnamese (preserve accented characters)
-; Note: Player name is already pre-translated to wTradeName at name entry time
-	ld a, [wPeerLanguage]
-	cp LANG_VN
-	jr z, .skip_outgoing_translation
-	call TranslateString_OTNames
-	call TranslateString_PartyMonNicknames
-.skip_outgoing_translation
+; NOTE: Translation for link compatibility is now handled in Link_FixDataForPeerLanguage,
+; which is called AFTER the RN exchange when we know the peer's language.
+; At this point, wPeerLanguage is not yet set, so we can't decide here.
 
 ; Okay, we did all that.  Now, are we in the trade center?
 	ld a, [wLinkMode]

@@ -346,7 +346,7 @@ AzaleaTownGrampsTextAfter:
 
 AzaleaTownTeacherText:
 	text "Bạn đến nhờ KURT"
-	line "làm BALL à?"
+	line "làm BÓNG à?"
 
 	para "Nhiều người đến"
 	line "vì lý do đó lắm."

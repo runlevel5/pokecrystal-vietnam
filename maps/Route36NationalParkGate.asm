@@ -496,8 +496,8 @@ Route36NationalParkGateOfficer1AskToParticipateText:
 	done
 
 Route36NationalParkGateOfficer1GiveParkBallsText:
-	text "Đây là các PARK"
-	line "BALLS cho cuộc"
+	text "Đây là các BÓNG"
+	line "C.VIÊN cho cuộc"
 	cont "thi."
 	done
 
@@ -515,8 +515,8 @@ Route36NationalParkGateOfficer1ExplainsRulesText:
 	para "Bạn có"
 	line "{d:BUG_CONTEST_MINUTES} phút."
 
-	para "Nếu hết PARK"
-	line "BALLS, bạn sẽ"
+	para "Nếu hết BÓNG"
+	line "C.VIÊN, bạn sẽ"
 	cont "kết thúc."
 
 	para "Bạn có thể giữ"

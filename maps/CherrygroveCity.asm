@@ -90,7 +90,7 @@ CherrygroveCityGuideGent:
 	end
 
 .mapcardname
-	db "MAP CARD@"
+	db "THẺ BẢN ĐỒ@"
 
 .No:
 	writetext GuideGentNoText
@@ -370,7 +370,7 @@ GuideGentMartText:
 	text "Đây là CỬA HÀNG"
 	line "#MART."
 
-	para "Họ bán BALL để"
+	para "Họ bán BÓNG để"
 	line "bắt #MON hoang"
 
 	para "dã và các vật"

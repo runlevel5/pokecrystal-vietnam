@@ -343,7 +343,7 @@ PicnickerKimAfterBattleText:
 
 BirdKeeperBryanSeenText:
 	text "Bạn dùng loại"
-	line "BALL nào?"
+	line "BÓNG nào?"
 	done
 
 BirdKeeperBryanBeatenText:
@@ -364,12 +364,12 @@ BirdKeeperBryanAfterBattleText:
 	cont "đưa cho KURT."
 
 	para "Ông ấy biến nó"
-	line "thành BALL đặc bệ"
+	line "thành BÓNG đặc bệ"
 	done
 
 JugglerIrwin1SeenText:
 	text "Hãy xem khéo léo"
-	line "tung BALL của tôi"
+	line "tung BÓNG của tôi"
 	done
 
 JugglerIrwin1BeatenText:

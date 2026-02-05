@@ -1156,7 +1156,7 @@ ElmGiveMasterBallText2:
 	text "BÓNG MASTER là"
 	line "tốt nhất!"
 
-	para "Đó là BALL tối"
+	para "Đó là BÓNG tối"
 	line "thượng! Nó bắt"
 
 	para "được mọi #MON"

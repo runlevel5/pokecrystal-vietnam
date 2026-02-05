@@ -451,7 +451,7 @@ SupernerdShawnBeatenText:
 	done
 
 SupernerdShawnAfterBattleText:
-	text "Bạn nên dùng BALL"
+	text "Bạn nên dùng BÓNG"
 	line "phù hợp với tình"
 	cont "huống."
 	done

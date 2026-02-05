@@ -898,7 +898,7 @@ Text_KurtCaughtCelebi:
 	cont "những gì vừa thấy."
 
 	para "Nó thúc đẩy ta làm"
-	line "BALL tốt hơn!"
+	line "BÓNG tốt hơn!"
 
 	para "Ta đi đây!"
 	done

@@ -21,13 +21,13 @@ AzaleaMartBugCatcherScript:
 	jumptextfaceplayer AzaleaMartBugCatcherText
 
 AzaleaMartCooltrainerMText:
-	text "Không có GREAT"
-	line "BALL ở đây. #"
+	text "Không có BÓNG"
+	line "SUPER ở đây. #"
 
-	para "BALL là đủ rồi."
+	para "BÓNG là đủ rồi."
 
 	para "Ước gì KURT làm"
-	line "cho tôi vài BALL"
+	line "cho tôi vài BÓNG"
 	cont "đặc biệt."
 	done
 

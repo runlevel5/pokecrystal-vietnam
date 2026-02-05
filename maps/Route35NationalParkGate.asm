@@ -245,8 +245,8 @@ Route35NationalParkGateOfficer1AskToParticipateText:
 	done
 
 Route35NationalParkGateOfficer1GiveParkBallsText:
-	text "Đây là các PARK"
-	line "BALL cho cuộc thi"
+	text "Đây là các BÓNG"
+	line "C.VIÊN cho c.thi"
 	cont ""
 	done
 

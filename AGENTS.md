@@ -84,13 +84,13 @@ All Pokemon species names remain in English:
 - **Exception**: EGG (the placeholder name for unhatched Pokemon) is translated to TRỨNG
 
 #### 6. Special Terms
-- Badge names (compound): ZEPHYRBADGE, HIVEBADGE, etc. (kept in English as item names)
+- Badge names: Use "HC" (Huy Chương) prefix + English name (e.g., HC ZEPHYR, HC THUNDER)
 - Game-specific terms: GYM (kept as GYM), RADIO (kept as RADIO)
 
 #### 7. Game Terms
 Game terms are translated to Vietnamese. See [GLOSSARY.md](GLOSSARY.md) for translations.
 
-**Note:** Compound badge names (THUNDERBADGE, MARSHBADGE, etc.) and specific mail item names (THƯ BIỂN, THƯ YÊU QUÝ, etc.) remain as item names - see Item Names section.
+**Note:** Specific mail item names (THƯ BIỂN, THƯ YÊU QUÝ, etc.) remain as item names - see Item Names section.
 
 ### Terms Translated to Vietnamese
 

@@ -242,7 +242,7 @@ MistyIntroText:
 	cont "phức!"
 
 	para "Ngươi có thể có"
-	line "nhiều BADGE JOHTO,"
+	line "nhiều HC JOHTO,"
 
 	para "nhưng đừng coi"
 	line "thường ta."
@@ -259,12 +259,12 @@ MistyWinLossText:
 	line "ngươi có tay nghề…"
 
 	para "Đây, nhận lấy"
-	line "CASCADEBADGE."
+	line "HC CASCADE."
 	done
 
 ReceivedCascadeBadgeText:
 	text "<PLAYER> nhận được"
-	line "CASCADEBADGE."
+	line "HC CASCADE."
 	done
 
 MistyFightDoneText:

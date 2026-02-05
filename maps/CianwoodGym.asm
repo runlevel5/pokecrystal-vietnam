@@ -189,16 +189,16 @@ ChuckLossText:
 
 	para "Hay đấy!"
 	line "Mày xứng đáng"
-	cont "với STORMBADGE!"
+	cont "với HC STORM!"
 	done
 
 GetStormBadgeText:
 	text "<PLAYER> nhận được"
-	line "STORMBADGE."
+	line "HC STORM."
 	done
 
 ChuckExplainBadgeText:
-	text "STORMBADGE khiến"
+	text "HC STORM khiến"
 	line "mọi #MON đến"
 
 	para "L70 vâng lời, kể"

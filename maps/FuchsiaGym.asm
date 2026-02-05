@@ -253,13 +253,13 @@ JanineText_ToughOne:
 	line "mạnh. Ngươi thắng"
 	cont "rồi…"
 
-	para "Đây là SOULBADGE."
+	para "Đây là HC SOUL."
 	line "Hãy nhận lấy."
 	done
 
 Text_ReceivedSoulBadge:
 	text "<PLAYER> nhận được"
-	line "SOULBADGE."
+	line "HC SOUL."
 	done
 
 JanineText_ToxicSpeech:

@@ -174,17 +174,17 @@ BugsyText_ResearchIncomplete:
 	line "chưa hoàn thành."
 
 	para "OK, bạn thắng."
-	line "Nhận BADGE này đi."
+	line "Nhận HC này đi."
 	done
 
 Text_ReceivedHiveBadge:
 	text "<PLAYER> nhận được"
-	line "HIVEBADGE."
+	line "HC HIVE."
 	done
 
 BugsyText_HiveBadgeSpeech:
 	text "Bạn có biết lợi"
-	line "ích của HIVEBADGE"
+	line "ích của HC HIVE"
 	cont "không?"
 
 	para "Nếu có nó, #MON"

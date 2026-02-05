@@ -121,7 +121,7 @@ SabrinaIntroText:
 	cont "xuất hiện của"
 	cont "ngươi."
 
-	para "Ngươi muốn BADGE"
+	para "Ngươi muốn HC"
 	line "của ta."
 
 	para "Ta không thích"
@@ -155,17 +155,17 @@ SabrinaWinLossText:
 
 	para "Được, ngươi thắng"
 	line "Ngươi xứng đáng"
-	cont "có MARSHBADGE."
+	cont "có HC MARSH."
 	done
 
 ReceivedMarshBadgeText:
 	text "<PLAYER> nhận được"
-	line "MARSHBADGE."
+	line "HC MARSH."
 	done
 
 SabrinaMarshBadgeText:
-	text "SABRINA: MARSH-"
-	line "BADGE khai phá"
+	text "SABRINA: HC MARSH"
+	line "khai phá"
 
 	para "sức mạnh tiềm ẩn"
 	line "của ngươi…"

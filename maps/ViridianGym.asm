@@ -104,12 +104,12 @@ LeaderBlueWinText:
 
 	para "Tch, được rồi…"
 	line "Đây, cầm lấy cái"
-	cont "này--EARTHBADGE."
+	cont "này--HC EARTH."
 	done
 
 Text_ReceivedEarthBadge:
 	text "<PLAYER> nhận được"
-	line "EARTHBADGE."
+	line "HC EARTH."
 	done
 
 LeaderBlueAfterText:

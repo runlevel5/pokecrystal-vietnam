@@ -472,7 +472,7 @@ DragonShrineMustIInformLanceText:
 
 	para "Hãy chấp nhận"
 	line "thua và trao"
-	cont "RISINGBADGE!"
+	cont "HC RISING!"
 
 	para "…Hay ta phải báo"
 	line "LANCE về việc này?"
@@ -622,18 +622,18 @@ DragonShrineIUnderstandText:
 
 DragonShrineHereRisingBadgeText:
 	text "Đây, đây là"
-	line "RISINGBADGE…"
+	line "HC RISING…"
 
 	para "Nhanh lên! Lấy đi!"
 	done
 
 DragonShrinePlayerReceivedRisingBadgeText:
 	text "<PLAYER> đã nhận"
-	line "RISINGBADGE."
+	line "HC RISING."
 	done
 
 DragonShrineRisingBadgeExplanationText:
-	text "RISINGBADGE sẽ cho"
+	text "HC RISING sẽ cho"
 	line "phép #MON dùng"
 
 	para "chiêu leo thác"

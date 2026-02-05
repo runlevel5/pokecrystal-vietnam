@@ -13,7 +13,7 @@ MailEntry_Page1:
 	db "h i j k l m n o ô ơ"
 	db "p q r s t u ư v x y"
 	db "z - ? ! . , / ♂ ♀ ×"
-	db "( ) : & [ ]   <PK> <MN>"
+	db "( ) : & [ ]     <PK> <MN>"
 	db "tiếp   xoá  xong   "
 
 MailEntry_Page2:

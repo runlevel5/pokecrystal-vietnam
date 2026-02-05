@@ -157,3 +157,21 @@ ConvertVietnameseMailToEnglish:
 	ld bc, PLAYER_NAME_LENGTH - 1
 	farcall TranslateVietnameseToEnglish
 	ret
+
+ConvertEnglishMailToVietnamese:
+; Called when receiving English mail in Vietnamese Crystal
+; Converts English lowercase a-z ($A0-$B9) to Vietnamese a-z ($80-$99)
+; Input: de = pointer to mail message in wLinkReceivedMail
+; Translates both message and author name in-place
+	push de
+	ld h, d
+	ld l, e
+	ld bc, MAIL_MSG_LENGTH
+	farcall TranslateEnglishToVietnamese
+	pop de
+	; Also translate the author name (after message + messageEnd)
+	ld hl, sPartyMon1MailAuthor - sPartyMon1Mail
+	add hl, de
+	ld bc, PLAYER_NAME_LENGTH - 1
+	farcall TranslateEnglishToVietnamese
+	ret

@@ -31,21 +31,29 @@ The mail composition character input screen (`data/text/mail_input_chars.asm`) n
 - Mail messages can be written using Vietnamese characters (5 pages, same as player name input)
 - When trading mail to English Pokemon Crystal, Vietnamese accented characters are automatically translated to base English letters (e.g., "Xin chào bạn!" → "Xin chao ban!")
 - The nationality field "VN" identifies Vietnamese mail for translation
-- Mail received from English Crystal displays correctly in Vietnamese Crystal
+- Mail received from English Crystal is automatically translated to display correctly in Vietnamese Crystal
 
 **Implementation:**
 - File: `data/text/mail_input_chars.asm`
 - Layout: 5 pages of Vietnamese characters (same as player name input)
 - Nationality code: "VN" (set in `engine/pokemon/mon_menu.asm:ComposeMailMessage`)
-- Translation: `engine/pokemon/european_mail.asm:ConvertVietnameseMailToEnglish`
+- Outgoing translation: `engine/pokemon/european_mail.asm:ConvertVietnameseMailToEnglish`
+- Incoming translation: `engine/pokemon/european_mail.asm:ConvertEnglishMailToVietnamese`
 - Button labels: "tiếp" (next), "xoá" (delete), "xong" (done) - in Vietnamese for UI consistency
 
-**Translation Flow (Outgoing):**
+**Translation Flow (Outgoing VN → EN):**
 1. Player composes mail with Vietnamese characters
 2. Mail saved with nationality = "VN"
 3. When trading, `ParseMailLanguage` detects "VN" → `MAIL_LANG_VIETNAMESE`
 4. `ConvertVietnameseMailToEnglish` translates message and author name
 5. English Crystal receives readable base-letter text
+
+**Translation Flow (Incoming EN → VN):**
+1. English Crystal sends mail with lowercase text (e.g., "hello")
+2. English lowercase uses $A0-$B9 which would display as Vietnamese accented chars
+3. `ParseMailLanguage` returns `MAIL_LANG_ENGLISH` (nationality not "VN")
+4. `ConvertEnglishMailToVietnamese` translates $A0-$B9 → $80-$99
+5. Vietnamese Crystal displays "hello" correctly
 
 **Note:** Pokemon and trainer name input (`data/text/name_input_chars.asm`) also supports full Vietnamese characters, handled by the same translation layer during link cable trading.
 

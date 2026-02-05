@@ -890,7 +890,7 @@ ShowPlayerTrademonStats:
 	ld de, wPlayerTrademonSpecies
 	ld a, [de]
 	cp EGG
-	jr z, TrademonStats_Egg
+	jp z, TrademonStats_Egg
 	call TrademonStats_MonTemplate
 	ld de, wPlayerTrademonSpecies
 	call TrademonStats_PrintSpeciesNumber
@@ -927,11 +927,11 @@ TrademonStats_MonTemplate:
 	call TradeAnim_BlankTilemap
 	ld a, HIGH(vBGMap1)
 	ldh [hBGMapAddress + 1], a
-	hlcoord 3, 0
+	hlcoord 0, 0
 	ld b, $6
-	ld c, $d
+	ld c, SCREEN_WIDTH - 2
 	call Textbox
-	hlcoord 4, 0
+	hlcoord 1, 0
 	ld de, .OTMonData
 	call PlaceString
 	ret
@@ -947,11 +947,11 @@ TrademonStats_Egg:
 	call TradeAnim_BlankTilemap
 	ld a, HIGH(vBGMap1)
 	ldh [hBGMapAddress + 1], a
-	hlcoord 3, 0
+	hlcoord 0, 0
 	ld b, 6
-	ld c, 13
+	ld c, SCREEN_WIDTH - 2
 	call Textbox
-	hlcoord 4, 2
+	hlcoord 1, 2
 	ld de, .EggData
 	call PlaceString
 	call TrademonStats_WaitBGMap
@@ -959,7 +959,7 @@ TrademonStats_Egg:
 
 .EggData:
 	db   "TRỨNG"
-	next "OT/?????"
+	next "HLV GỐC/?????"
 	next "<ID>№.?????@"
 
 TrademonStats_WaitBGMap:
@@ -970,14 +970,14 @@ TrademonStats_WaitBGMap:
 	ret
 
 TrademonStats_PrintSpeciesNumber:
-	hlcoord 10, 0
+	hlcoord 7, 0
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
 	call PrintNum
 	ld [hl], ' '
 	ret
 
 TrademonStats_PrintSpeciesName:
-	hlcoord 4, 2
+	hlcoord 1, 2
 	call PlaceString
 	ret
 
@@ -987,7 +987,7 @@ TrademonStats_PrintOTName:
 	xor a
 .caught_gender_okay
 	push af
-	hlcoord 7, 4
+	hlcoord 10, 4
 	call PlaceString
 	inc bc
 	pop af
@@ -1003,7 +1003,7 @@ TrademonStats_PrintOTName:
 	db " ", "♂", "♀"
 
 TrademonStats_PrintTrademonID:
-	hlcoord 7, 6
+	hlcoord 4, 6
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	call PrintNum
 	ret

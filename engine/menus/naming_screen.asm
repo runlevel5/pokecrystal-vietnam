@@ -294,22 +294,10 @@ NamingScreen_InitText:
 	call ClearBox
 	ld de, NameInputPage1
 NamingScreen_ApplyTextInputMode:
-	; Check for box naming first
-	call NamingScreen_IsTargetBox
-	jr nz, .not_box
-	; For box naming, use 2-page English system
-	ld de, BoxNameInput1
-	ld a, [wNamingScreenLetterCase]
-	and 1
-	jr z, .apply_layout
-	ld de, BoxNameInput2
-	jr .apply_layout
-
-.not_box
-	; Check for Pokemon naming
+	; Check for Pokemon naming (English-only for link cable compatibility)
 	call NamingScreen_IsTargetMon
 	jr nz, .not_mon
-	; For Pokemon naming, use 2-page English system (like box)
+	; For Pokemon naming, use 2-page English system
 	ld de, MonNameInput1
 	ld a, [wNamingScreenLetterCase]
 	and 1
@@ -318,7 +306,7 @@ NamingScreen_ApplyTextInputMode:
 	jr .apply_layout
 
 .not_mon
-	; For player/rival/etc naming, use 5 Vietnamese pages
+	; For player/rival/box/etc naming, use 5 Vietnamese pages
 	ld a, [wNamingScreenLetterCase]
 	and a
 	jr z, .viet_page1
@@ -488,13 +476,11 @@ NamingScreenJoypadLoop:
 	ret
 
 .select
-	; Check if this is box or Pokemon naming (English-only, 2 pages)
-	call NamingScreen_IsTargetBox
-	jr z, .two_page_toggle
+	; Check if this is Pokemon naming (English-only, 2 pages)
 	call NamingScreen_IsTargetMon
 	jr z, .two_page_toggle
 
-	; Player/Rival/etc naming uses 5 Vietnamese pages
+	; Player/Rival/Box/etc naming uses 5 Vietnamese pages
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
 	inc a
@@ -507,7 +493,7 @@ NamingScreenJoypadLoop:
 	ret
 
 .two_page_toggle
-	; Box and Pokemon naming uses only 2 pages
+	; Pokemon naming uses only 2 pages (for link cable compatibility)
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
 	xor 1  ; Toggle between 0 and 1

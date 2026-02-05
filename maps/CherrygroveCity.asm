@@ -407,12 +407,12 @@ GuideGentGiftText:
 	done
 
 GotMapCardText:
-	text "POKEGEAR của"
+	text "#GEAR của"
 	line "<PLAYER> có BẢN ĐỒ"
 	done
 
 GuideGentPokegearText:
-	text "POKEGEAR sẽ hữu"
+	text "#GEAR sẽ hữu"
 	line "ích hơn khi bạn"
 	cont "thêm THẺ vào."
 
@@ -488,7 +488,7 @@ CherrygroveTeacherText_NoMapCard:
 
 	para "Ông ấy sẽ cài BẢN"
 	line "ĐỒ JOHTO vào"
-	cont "POKEGEAR của bạn."
+	cont "#GEAR của bạn."
 	done
 
 CherrygroveTeacherText_HaveMapCard:

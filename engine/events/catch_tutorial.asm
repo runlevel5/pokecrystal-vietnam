@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/catch_tutorial.asm"
+else
+
 CatchTutorial::
 	ld a, [wBattleType]
 	dec a
@@ -75,7 +79,9 @@ CatchTutorial::
 	ret
 
 .Dude:
-	db "ANH BẠN@"
+	db "DUDE@"
 
 .AutoInput:
 	db NO_INPUT, $ff ; end
+
+endc

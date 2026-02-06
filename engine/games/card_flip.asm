@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/games/card_flip.asm"
+else
+
 DEF CARDFLIP_LIGHT_OFF EQU '♂' ; $ef
 DEF CARDFLIP_LIGHT_ON  EQU '♀' ; $f5
 
@@ -498,7 +502,7 @@ CardFlip_PrintCoinBalance:
 	ret
 
 .CoinStr:
-	db "XU@"
+	db "COIN@"
 
 CardFlip_InitTilemap:
 	xor a
@@ -1609,3 +1613,5 @@ INCBIN "gfx/card_flip/card_flip_2.2bpp.lz"
 
 CardFlipTilemap:
 INCBIN "gfx/card_flip/card_flip.tilemap"
+
+endc

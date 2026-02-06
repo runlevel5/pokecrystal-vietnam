@@ -37,49 +37,49 @@ SproutTower2FXAccuracy:
 	itemball X_ACCURACY
 
 SageNicoSeenText:
-	text "Dù chiến đấu gay"
-	line "gắt thế nào, THÁP"
-	cont "vẫn đứng vững."
+	text "However hard we"
+	line "battle, the TOWER"
+	cont "will stand strong."
 	done
 
 SageNicoBeatenText:
-	text "Tôi chiến đấu"
-	line "hết sức nhưng yếu"
+	text "I fought hard but"
+	line "I'm too weak."
 	done
 
 SageNicoAfterBattleText:
-	text "Cột trụ linh hoạt"
-	line "bảo vệ THÁP,"
+	text "The flexible pil-"
+	line "lar protects the"
 
-	para "ngay cả khỏi"
-	line "động đất."
+	para "TOWER, even from"
+	line "earthquakes."
 	done
 
 SageEdmondSeenText:
-	text "…Lay động như lá"
-	line "trong gió…"
+	text "…Sway like leaves"
+	line "in the wind…"
 	done
 
 SageEdmondBeatenText:
-	text "Ồ, tôi yếu quá!"
+	text "Oh, I'm weak!"
 	done
 
 SageEdmondAfterBattleText:
-	text "Tôi cố bắt chước"
-	line "chuyển động nhẹ"
+	text "I tried to copy"
+	line "BELLSPROUT's"
 
-	para "nhàng của"
-	line "BELLSPROUT…"
+	para "gentle movements"
+	line "for battle…"
 
-	para "Nhưng tôi chưa"
-	line "tập đủ chăm."
+	para "But I didn't train"
+	line "well enough."
 	done
 
 SproutTower2FStatueText:
-	text "Tượng #MON…"
+	text "A #MON statue…"
 
-	para "Trông rất"
-	line "uy nghi."
+	para "It looks very"
+	line "distinguished."
 	done
 
 SproutTower2F_MapEvents:

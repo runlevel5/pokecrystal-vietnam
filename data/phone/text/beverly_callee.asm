@@ -1,69 +1,68 @@
 BeverlyAnswerPhoneText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ồ! Chào buổi sáng"
+	para "Oh! Good morning,"
 	line "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneDayText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ồ! Chào ngày tốt,"
+	para "Oh! Good day,"
 	line "<PLAYER>."
 	done
 
 BeverlyAnswerPhoneNiteText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ồ! Chào buổi tối,"
+	para "Oh! Good evening,"
 	line "<PLAYER>."
 	done
 
 BeverlyGreetText:
-	text "Xin chào,"
-	line "<PLAYER>. Chào"
-	cont "buổi sáng."
+	text "Hello, <PLAYER>."
+	line "Good morning."
 
-	para "Đây là @"
+	para "This is @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu đang ngủ à?"
+	line "Were you asleep?"
 	done
 
 BeverlyGreetDayText:
-	text "Chào, <PLAYER>."
-	line "Đây là @"
+	text "Hi, <PLAYER>."
+	line "This is @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Cậu thế nào rồi?"
+	para "How are you doing?"
 	done
 
 BeverlyGreetNiteText:
-	text "Chào, <PLAYER>."
-	line "Đây là @"
+	text "Hi, <PLAYER>."
+	line "This is @"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Cậu đã thức à?"
+	para "Were you awake?"
 	done
 
 BeverlyGenericText:
-	text "Giữ #MON cậu"
-	line "vui vẻ chứ?"
+	text "Keeping your"
+	line "#MON happy?"
 
-	para "@"
+	para "My @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "khỏe mạnh. Nó ăn"
-	cont "nhiều mỗi ngày."
+	text " is"
+	line "healthy. It eats a"
+	cont "lot every day."
 	done

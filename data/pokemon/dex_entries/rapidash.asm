@@ -1,10 +1,10 @@
-	db "NGỰA LỬA@" ; species name
-	dw 17, 950 ; height, weight
+	db "FIRE HORSE@" ; species name
+	dw 507, 2090 ; height, weight
 
-	db   "Nó thích phi nước"
-	next "đại. Càng nhanh,"
-	next "bờm lửa bay"
+	db   "It just loves to"
+	next "gallop. The faster"
+	next "it goes, the long-"
 
-	page "phấp phới của nó"
-	next "càng dài hơn.@"
-	next "@"
+	page "er the swaying"
+	next "flames of its mane"
+	next "will become.@"

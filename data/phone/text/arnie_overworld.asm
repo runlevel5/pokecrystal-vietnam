@@ -1,59 +1,59 @@
 ArnieAskNumber1Text:
-	text "Cậu có cảm giác"
-	line "có nhiều #MON"
+	text "Do you get the"
+	line "feeling that there"
 
-	para "hiếm hơn xung"
-	line "quanh không?"
+	para "are more rare"
+	line "#MON around?"
 
-	para "Tớ chắc chắn có,"
-	line "nên tớ tìm mọi"
-	cont "lúc."
+	para "I'm positive there"
+	line "are, so I look all"
+	cont "the time."
 
-	para "Nếu tìm thấy, tớ"
-	line "muốn chia sẻ tin"
+	para "If I find one, I"
+	line "want to share the"
 
-	para "vui với mọi người"
-	line "tớ biết."
+	para "good news with"
+	line "everyone I know."
 
-	para "Biết rồi! Cho tớ"
-	line "số điện thoại."
+	para "I know! Give me"
+	line "your phone number."
 	done
 
 ArnieAskNumber2Text:
-	text "Tớ muốn cho mọi"
-	line "người biết nếu tớ"
-	cont "thấy #MON hiếm."
+	text "I want to let"
+	line "people know if I"
+	cont "see rare #MON."
 
-	para "Cho tớ số điện"
-	line "thoại đi!"
+	para "Please give me"
+	line "your phone number!"
 	done
 
 ArnieNumberAcceptedText:
-	text "Nếu tớ phát hiện"
-	line "#MON tuyệt vời,"
+	text "If I spot any"
+	line "awesome #MON,"
 
-	para "tớ chắc chắn sẽ"
-	line "gọi cho cậu!"
+	para "I'll be sure to"
+	line "give you a call!"
 	done
 
 ArnieNumberDeclinedText:
-	text "Ôi! Tớ muốn kể về"
-	line "khám phá của tớ"
-	cont "với ai đó!"
+	text "Aww! I want to"
+	line "tell someone about"
+	cont "my discoveries!"
 	done
 
 ArniePhoneFullText:
-	text "Không có chỗ cho"
-	line "số của tớ."
+	text "There's no space"
+	line "for my number."
 
-	para "Nếu cậu dọn chỗ,"
-	line "đăng ký tớ nhé!"
+	para "If you make room,"
+	line "register me!"
 	done
 
 ArnieRematchText:
-	text "Đến lượt tớ thắng"
-	line "bây giờ!"
+	text "It's my turn to"
+	line "win now!"
 
-	para "Tớ bắt đầu lại từ"
-	line "đầu rồi!"
+	para "I've turned over a"
+	line "new leaf!"
 	done

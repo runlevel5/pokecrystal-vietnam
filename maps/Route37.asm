@@ -115,117 +115,124 @@ Route37HiddenEther:
 	hiddenitem ETHER, EVENT_ROUTE_37_HIDDEN_ETHER
 
 TwinsAnnandanne1SeenText:
-	text "ANN: ANNE và tôi"
-	line "cùng nhau chiến!"
+	text "ANN: ANNE and I"
+	line "are in this to-"
+	cont "gether!"
 	done
 
 TwinsAnnandanne1BeatenText:
-	text "ANN & ANNE: Nnn…"
-	line "Hơi mạnh quá."
+	text "ANN & ANNE: Nnn… A"
+	line "little too strong."
 	done
 
 TwinsAnnandanne1AfterBattleText:
-	text "ANN: Tôi có thể"
-	line "biết chị và"
+	text "ANN: I can tell"
+	line "what my sister and"
 
-	para "#MON của tôi"
-	line "nghĩ gì."
+	para "my #MON are"
+	line "thinking."
 	done
 
 TwinsAnnandanne2SeenText:
-	text "ANNE: ANN và tôi"
-	line "cùng nhau chiến!"
+	text "ANNE: ANN and I"
+	line "are in this to-"
+	cont "gether!"
 	done
 
 TwinsAnnandanne2BeatenText:
-	text "ANN & ANNE: Nnn…"
-	line "Hơi mạnh quá."
+	text "ANN & ANNE: Nnn… A"
+	line "little too strong."
 	done
 
 TwinsAnnandanne2AfterBattleText:
-	text "ANNE: Chúng tôi có"
-	line "cùng cảm giác với"
-	cont "#MON của mình."
+	text "ANNE: We share the"
+	line "same feelings as"
+	cont "our #MON."
 	done
 
 PsychicGregSeenText:
-	text "#MON không làm"
-	line "gì được nếu ngủ."
+	text "#MON can't do a"
+	line "thing if they are"
+	cont "asleep."
 
-	para "Tôi sẽ chỉ bạn"
-	line "nó đáng sợ ra sao"
+	para "I'll show you how"
+	line "scary that is!"
 	done
 
 PsychicGregBeatenText:
-	text "Tôi thua. Buồn"
-	line "quá…"
+	text "I lost. That's"
+	line "pretty sad…"
 	done
 
 PsychicGregAfterBattleText:
-	text "Cho #MON ngủ"
-	line "hoặc tê liệt là"
-	cont "chiến thuật tốt."
+	text "Putting #MON to"
+	line "sleep or paralyz-"
+	cont "ing them are good"
+	cont "battle techniques."
 	done
 
 MeetSunnyText:
 	text "SUNNY: Hi!"
 
-	para "Tôi là SUNNY của"
-	line "Chủ Nhật, có nghĩa"
-	cont "hôm nay Chủ Nhật!"
+	para "I'm SUNNY of Sun-"
+	line "day, meaning it's"
+	cont "Sunday today!"
 	done
 
 SunnyGivesGiftText1:
-	text "Họ bảo tôi tặng"
-	line "bạn thứ này nếu"
-	cont "gặp bạn!"
+	text "I was told to give"
+	line "you this if I saw"
+	cont "you!"
 	done
 
 SunnyGivesGiftText2:
-	text "Họ bảo tôi tặng"
-	line "bạn thứ này nếu"
-	cont "gặp bạn!"
+	text "I was told to give"
+	line "you this if I saw"
+	cont "you!"
 	done
 
 SunnyGaveGiftText:
-	text "SUNNY: Cái đó…"
+	text "SUNNY: That thing…"
 
-	para "Ừm…"
+	para "Um…"
 
-	para "… Cái gì nhỉ…"
+	para "… What was it now…"
 
 	para "…"
 
-	para "Ồ! Tôi nhớ ra"
-	line "rồi!"
+	para "Oh! I remember"
+	line "now!"
 
-	para "#MON biết chiêu"
-	line "điện nên giữ nó."
+	para "A #MON that"
+	line "knows electric"
 
-	para "Chị MONICA của tôi"
-	line "nói nó tăng cường"
-	cont "chiêu điện!"
+	para "moves should hold"
+	line "it."
+
+	para "My sis MONICA said"
+	line "it powers up"
+	cont "electric moves!"
 	done
 
 SunnySundayText:
-	text "SUNNY: Anh chị em"
-	line "của tôi là"
+	text "SUNNY: My sisters"
+	line "and brothers are"
 	cont "MONICA, TUSCANY,"
 	cont "WESLEY, ARTHUR,"
-	cont "FRIEDA và SANTOS."
+	cont "FRIEDA and SANTOS."
 
-	para "Họ đều lớn hơn"
-	line "tôi!"
+	para "They're all older"
+	line "than me!"
 	done
 
 SunnyNotSundayText:
-	text "SUNNY: Hôm nay"
-	line "không phải Chủ"
-	cont "Nhật à? Tôi quên!"
+	text "SUNNY: Isn't today"
+	line "Sunday?"
+	cont "Um… I forgot!"
 	done
 
 Route37SignText:
-	text "TUYẾN ĐƯỜNG 37"
+	text "ROUTE 37"
 	done
 
 Route37_MapEvents:

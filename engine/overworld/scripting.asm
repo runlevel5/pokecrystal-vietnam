@@ -554,7 +554,15 @@ GetPocketName:
 	call CopyName2
 	ret
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/items/pocket_names.asm"
+
+else
+
 INCLUDE "data/items/pocket_names.asm"
+
+endc
 
 CurItemName:
 	ld a, [wCurItem]

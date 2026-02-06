@@ -1,10 +1,10 @@
-	db "DIỀU@" ; species name
-	dw 21, 2200 ; height, weight
+	db "KITE@" ; species name
+	dw 611, 4850 ; height, weight
 
-	db   "Nó bơi tự do,"
-	next "ăn những gì bơi"
-	next "vào miệng. Toàn"
+	db   "It swims along"
+	next "freely, eating"
+	next "things that swim"
 
-	page "thân nó rất"
-	next "xù xì.@"
-	next "@"
+	page "into its mouth."
+	next "Its whole body is"
+	next "very coarse.@"

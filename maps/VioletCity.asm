@@ -178,102 +178,102 @@ VioletCitySpinningEarl_MovementData:
 	step_end
 
 Text_EarlAsksIfYouBeatFalkner:
-	text "Xin chào!"
-	line "Bạn là HLV à?"
+	text "Hello!"
+	line "You are trainer?"
 
-	para "Đánh T.LĨNH GYM,"
-	line "thắng rồi chứ?"
+	para "Battle GYM LEADER,"
+	line "win you did?"
 	done
 
 Text_VeryNiceIndeed:
-	text "Ồ, hay quá!"
-	line "Tốt lắm thật sự!"
+	text "Ooh, la la!"
+	line "Very indeed nice!"
 	done
 
 Text_FollowEarl:
-	text "Vậy sao? Thế thì"
-	line "cần học thôi!"
-	cont "Theo tôi!"
+	text "Is that so? Then"
+	line "study shall you!"
+	cont "Follow me!"
 	done
 
 Text_HereTeacherIAm:
-	text "Đây, tôi là thầy"
-	line "giáo. Tốt khi bạn"
-	cont "học ở đây!"
+	text "Here, teacher I"
+	line "am. Good it is"
+	cont "you study here!"
 	done
 
 VioletCityLassText:
-	text "Có tin đồn về ma"
-	line "xuất hiện ở THÁP"
-	cont "SPROUT."
+	text "Ghosts are rumored"
+	line "to appear in"
+	cont "SPROUT TOWER."
 
-	para "Họ nói chiêu hệ"
-	line "thường của #MON"
+	para "They said normal-"
+	line "type #MON moves"
 
-	para "không hiệu quả"
-	line "với ma."
+	para "had no effect on"
+	line "ghosts."
 	done
 
 VioletCitySuperNerdText:
-	text "Này, bạn là"
-	line "HLV #MON à?"
+	text "Hey, you're a"
+	line "#MON trainer?"
 
-	para "Nếu bạn thắng"
-	line "T.LĨNH GYM ở đây,"
+	para "If you beat the"
+	line "GYM LEADER here,"
 
-	para "bạn sẽ sẵn sàng"
-	line "cho đấu trường!"
+	para "you'll be ready"
+	line "for prime time!"
 	done
 
 VioletCityGrampsText:
-	text "FALKNER, từ GYM"
-	line "#MON VIOLET,"
+	text "FALKNER, from the"
+	line "VIOLET #MON"
 
-	para "là một HLV"
-	line "tuyệt vời!"
+	para "GYM, is a fine"
+	line "trainer!"
 
-	para "Cậu ấy kế thừa"
-	line "gym từ cha và"
+	para "He inherited his"
+	line "father's gym and"
 
-	para "đã làm rất tốt"
-	line "công việc."
+	para "has done a great"
+	line "job with it."
 	done
 
 VioletCityYoungsterText:
-	text "Tôi thấy một cây"
-	line "lúc lắc phía sau!"
+	text "I saw a wiggly"
+	line "tree up ahead!"
 
-	para "Nếu chạm vào,"
-	line "nó lắc lư và"
-	cont "nhảy múa! Hay!"
+	para "If you touch it,"
+	line "it squirms and"
+	cont "dances! Cool!"
 	done
 
 VioletCitySignText:
-	text "THÀNH PHỐ VIOLET"
+	text "VIOLET CITY"
 
-	para "Thành phố của"
-	line "hương thơm xưa"
+	para "The City of"
+	line "Nostalgic Scents"
 	done
 
 VioletGymSignText:
-	text "GYM #MON"
-	line "TP VIOLET"
-	cont "T.LĨNH: FALKNER"
+	text "VIOLET CITY"
+	line "#MON GYM"
+	cont "LEADER: FALKNER"
 
-	para "Bậc thầy thanh"
-	line "lịch hệ bay"
+	para "The Elegant Master"
+	line "of Flying #MON"
 	done
 
 SproutTowerSignText:
-	text "THÁP SPROUT"
+	text "SPROUT TOWER"
 
-	para "Trải nghiệm"
-	line "đạo của #MON"
+	para "Experience the"
+	line "Way of #MON"
 	done
 
 EarlsPokemonAcademySignText:
-	text "HỌC VIỆN #MON"
-	line "CỦA EARL"
+	text "EARL'S #MON"
+	line "ACADEMY"
 	done
 
 VioletCity_MapEvents:

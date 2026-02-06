@@ -1,134 +1,136 @@
 WadeAreYourMonGrowingText:
-	text "#MON cậu có lớn"
-	line "không?"
+	text "Are your #MON"
+	line "growing?"
 
-	para "#MON tớ lớn hơi"
-	line "nhanh quá với tớ"
-	cont "rồi."
-	line "Thật quá tải!"
+	para "My #MON are"
+	line "growing a bit too"
+
+	para "quickly for me."
+	line "It's overwhelming!"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " đặc biệt"
-	line "lớn nhanh. Tớ nghĩ"
+	text "'s grow-"
+	line "ing especially"
 
-	para "nó sẽ trở nên"
-	line "mạnh mẽ."
+	para "quickly. I think"
+	line "it'll get tough."
 	done
 
 WadeDefeatedMonText:
-	text "À ừ, bọn tớ KO một"
-	line "@"
+	text "Oh yeah, we KO'd a"
+	line "wild @"
 	text_ram wStringBuffer4
-	text " hoang dã"
-	para "chỉ bằng một đòn"
-	line "cách đây không lâu"
+	text_start
+	para "with one hit a"
+	line "while back."
 
-	para "Nó ngã dễ dàng"
-	line "đến nỗi tớ cảm"
+	para "It went down so"
+	line "easily, I felt a"
 
-	para "thấy hơi tiếc cho"
-	line "con vật tội nghiệp"
+	para "little sorry for"
+	line "the poor thing."
 	done
 
 WadeLostAMonText:
-	text "À ừ, một con"
+	text "Oh yeah, a wild"
 	line "@"
 	text_ram wStringBuffer4
-	text " hoang dã"
+	text " got"
 
-	para "đã thoát khỏi tớ"
-	line "vào giây cuối."
+	para "away from me at"
+	line "the last second."
 
-	para "Tớ biết đó là"
-	line "#MON thường…"
+	para "I know it's a"
+	line "common #MON…"
 
-	para "Nhưng khó chịu"
-	line "khi nó thoát được"
+	para "But it does annoy"
+	line "me that it got"
 
-	para "trong khi tớ gần"
-	line "bắt được nó rồi."
+	para "away when I almost"
+	line "had it."
 	done
 
 WadeBattleRematchText:
-	text "Cậu có muốn đấu"
-	line "#MON không?"
+	text "Do you feel like a"
+	line "#MON battle?"
 
-	para "Sẽ không giống"
-	line "lần trước đâu!"
+	para "It won't be like"
+	line "last time!"
 
 	para "@"
 	text_ram wStringBuffer5
-	text " là nơi"
-	line "tớ sẽ ở."
+	text "'s"
+	line "where I'll be."
 
-	para "Cho tớ biết khi"
-	line "cậu đến nơi."
+	para "Let me know when"
+	line "you get there."
 	done
 
 WadeHangUpText:
-	text "Hẹn gặp lại!"
+	text "See you later!"
 	done
 
 WadeBugCatchingContestText:
-	text "Cuộc thi Bắt Bọ"
-	line "đang diễn ra ở"
+	text "The Bug-Catching"
+	line "Contest is at the"
 
-	para "VƯỜN QUỐC GIA"
-	line "hôm nay."
+	para "NATIONAL PARK"
+	line "today."
 
-	para "Cậu có đi không,"
+	para "Are you going,"
 	line "<PLAY_G>?"
 
-	para "Tớ đang cố nghĩ"
-	line "xem có đi không."
+	para "I'm trying to make"
+	line "up my mind."
 	done
 
 WadeFoundItemText:
-	text "Tớ tìm đủ loại QUẢ"
-	line "Nếu cậu muốn,"
+	text "I found all kinds"
+	line "of BERRIES. If you"
 
-	para "tớ sẽ chia sẻ cho"
-	line "cậu một ít."
+	para "want, I'll share"
+	line "some with you."
 
-	para "Tớ sẽ đợi tại"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 WadeNoBerriesText:
-	text "Hả? QUẢ?"
+	text "Huh? BERRIES?"
 
-	para "Xin lỗi, tớ chưa"
-	line "tìm thấy gì cả."
+	para "Sorry, I haven't"
+	line "found any yet."
 
-	para "Tớ sẽ gọi cậu nếu"
-	line "tìm thấy. Cậu đợi"
-	cont "được không?"
+	para "I'll call you if I"
+	line "find any. Will you"
+	cont "please wait?"
 	done
 
 WadeQuickBattleText:
-	text "Đấu đi!"
+	text "Let's battle"
+	line "already!"
 
 	para "@"
 	text_ram wStringBuffer5
-	text " là nơi"
-	line "tớ đang ở."
+	text " is"
+	line "where I am."
 
-	para "Hãy đến đây càng"
-	line "sớm càng tốt!"
+	para "Please get here as"
+	line "soon as you can!"
 	done
 
 WadeComeQuickText:
-	text "Sao cậu chưa đến"
-	line "đây vậy?"
+	text "How come you're"
+	line "not here yet?"
 
 	para "@"
 	text_ram wStringBuffer5
-	text " là nơi"
-	line "tớ đang ở."
+	text " is"
+	line "where I am."
 
-	para "Hãy đến đây càng"
-	line "sớm càng tốt!"
+	para "Please get here as"
+	line "soon as you can!"
 	done

@@ -148,137 +148,138 @@ AzaleaGymStatue:
 	jumpstd GymStatue2Script
 
 BugsyText_INeverLose:
-	text "Tôi là BUGSY!"
-	line "Tôi không bao giờ"
+	text "I'm BUGSY!"
+	line "I never lose when"
 
-	para "thua khi nói đến"
-	line "#MON SÂU BỌ."
+	para "it comes to bug"
+	line "#MON."
 
-	para "Nghiên cứu của tôi"
-	line "sẽ khiến tôi trở"
+	para "My research is"
+	line "going to make me"
 
-	para "thành chuyên gia"
-	line "về #MON SÂU BỌ!"
+	para "the authority on"
+	line "bug #MON!"
 
-	para "Để tôi cho bạn"
-	line "thấy những gì tôi"
-	cont "học được."
+	para "Let me demonstrate"
+	line "what I've learned"
+	cont "from my studies."
 	done
 
 BugsyText_ResearchIncomplete:
-	text "Ồ, tuyệt vời!"
-	line "Bạn là chuyên gia"
-	cont "về #MON!"
+	text "Whoa, amazing!"
+	line "You're an expert"
+	cont "on #MON!"
 
-	para "Nghiên cứu của tôi"
-	line "chưa hoàn thành."
+	para "My research isn't"
+	line "complete yet."
 
-	para "OK, bạn thắng."
-	line "Nhận HC này đi."
+	para "OK, you win. Take"
+	line "this BADGE."
 	done
 
 Text_ReceivedHiveBadge:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU TỔ ONG."
+	text "<PLAYER> received"
+	line "HIVEBADGE."
 	done
 
 BugsyText_HiveBadgeSpeech:
-	text "Bạn có biết lợi"
-	line "ích của HUY HIỆU"
-	cont "TỔ ONG không?"
+	text "Do you know the"
+	line "benefits of HIVE-"
+	cont "BADGE?"
 
-	para "Nếu có nó, #MON"
-	line "đến cấp 30 sẽ"
+	para "If you have it,"
+	line "#MON up to L30"
 
-	para "nghe lời bạn, kể"
-	line "cả loại trao đổi."
+	para "will obey you,"
+	line "even traded ones."
 
-	para "#MON biết CẮT"
-	line "có thể dùng nó"
+	para "#MON that know"
+	line "CUT will be able"
 
-	para "ngoài trận đấu"
-	line "nữa."
+	para "to use it outside"
+	line "of battle too."
 
-	para "Đây, tôi cũng muốn"
-	line "tặng bạn cái này."
+	para "Here, I also want"
+	line "you to have this."
 	done
 
 BugsyText_FuryCutterSpeech:
-	text "TM49 chứa chiêu"
-	line "CHÉM LIÊN."
+	text "TM49 contains"
+	line "FURY CUTTER."
 
-	para "Nếu không hụt, nó"
-	line "mạnh hơn mỗi lượt."
+	para "If you don't miss,"
+	line "it gets stronger"
+	cont "every turn."
 
-	para "Trận đấu càng dài,"
-	line "nó càng tốt."
+	para "The longer your"
+	line "battle goes, the"
+	cont "better it gets."
 
-	para "Tuyệt vời không?"
-	line "Tôi phát hiện ra!"
+	para "Isn't that great?"
+	line "I discovered it!"
 	done
 
 BugsyText_BugMonsAreDeep:
-	text "#MON SÂU BỌ rất"
-	line "sâu sắc. Có nhiều"
+	text "Bug #MON are"
+	line "deep. There are"
 
-	para "bí ẩn cần được"
-	line "khám phá."
+	para "many mysteries to"
+	line "be explored."
 
-	para "Hãy nghiên cứu kỹ"
-	line "những con bạn yêu"
-	cont "thích."
+	para "Study your favor-"
+	line "ites thoroughly."
 	done
 
 BugCatcherBennySeenText:
-	text "#MON SÂU BỌ"
-	line "tiến hóa sớm. Nên"
+	text "Bug #MON evolve"
+	line "young. So they get"
 
-	para "chúng mạnh lên"
-	line "nhanh hơn nhiều."
+	para "stronger that much"
+	line "faster."
 	done
 
 BugCatcherBennyBeatenText:
-	text "Chỉ tiến hóa thôi"
-	line "là chưa đủ!"
+	text "Just evolving"
+	line "isn't enough!"
 	done
 
 BugCatcherBennyAfterBattleText:
-	text "#MON mạnh hơn"
-	line "khi tiến hóa."
-	cont "Thật đấy!"
+	text "#MON become"
+	line "stronger if they"
+	cont "evolve. Really!"
 	done
 
 BugCatcherAlSeenText:
-	text "#MON SÂU BỌ"
-	line "ngầu và khỏe!"
+	text "Bug #MON are"
+	line "cool and tough!"
 
-	para "Tôi sẽ chứng minh"
-	line "cho bạn xem!"
+	para "I'll prove it to"
+	line "you!"
 	done
 
 BugCatcherAlBeatenText:
-	text "Bạn chứng minh"
-	line "bạn khỏe thế nào…"
+	text "You proved how"
+	line "tough you are…"
 	done
 
 BugCatcherAlAfterBattleText:
-	text "Chúng rất ngầu,"
-	line "nhưng đa số con"
+	text "They're so cool,"
+	line "but most girls"
 
-	para "gái không thích"
-	line "#MON SÂU BỌ."
+	para "don't like bug"
+	line "#MON."
 
-	para "Tôi không hiểu…"
+	para "I don't know why…"
 	done
 
 BugCatcherJoshSeenText:
-	text "Bạn cứu hết"
-	line "SLOWPOKE rồi à?"
-	cont "Bạn giỏi quá!"
+	text "You saved all the"
+	line "SLOWPOKE? Whew,"
+	cont "you're mighty!"
 
-	para "Nhưng #MON lớn"
-	line "của tôi cũng khá"
-	cont "mạnh!"
+	para "But my grown-up"
+	line "#MON are pretty"
+	cont "tough too!"
 	done
 
 BugCatcherJoshBeatenText:
@@ -286,76 +287,76 @@ BugCatcherJoshBeatenText:
 	done
 
 BugCatcherJoshAfterBattleText:
-	text "Chắc tôi nên dạy"
-	line "chúng chiêu tốt"
-	cont "hơn…"
+	text "I guess I should"
+	line "teach them better"
+	cont "moves…"
 	done
 
 TwinsAmyandmay1SeenText:
-	text "AMY: Chào! Bạn"
-	line "thách đấu T.LĨNH"
-	cont "à? Không đâu!"
+	text "AMY: Hi! Are you"
+	line "challenging the"
+	cont "LEADER? No way!"
 	done
 
 TwinsAmyandmay1BeatenText:
-	text "AMY & MAY: Ôi,"
-	line "tuyệt vời gấp đôi!"
+	text "AMY & MAY: Oh,"
+	line "double goodness!"
 	done
 
 TwinsAmyandmay1AfterBattleText:
-	text "AMY: Bạn giỏi"
-	line "thật đấy!"
+	text "AMY: You're"
+	line "really strong!"
 	done
 
 TwinsAmyandmay2SeenText:
-	text "MAY: Bạn muốn gặp"
-	line "T.LĨNH à? Phải qua"
-	cont "chúng tôi trước!"
+	text "MAY: You want to"
+	line "see the LEADER?"
+	cont "We come first!"
 	done
 
 TwinsAmyandmay2BeatenText:
-	text "AMY & MAY: Ôi,"
-	line "tuyệt vời gấp đôi!"
+	text "AMY & MAY: Oh,"
+	line "double goodness!"
 	done
 
 TwinsAmyandmay2AfterBattleText:
-	text "MAY: Con bọ thua"
-	line "rồi! Tiếc quá."
+	text "MAY: Our bug #-"
+	line "MON lost! Oh, what"
+	cont "a shame."
 	done
 
 AzaleaGymGuideText:
-	text "Yo, người thách"
-	line "đấu!"
+	text "Yo, challenger!"
 
-	para "BUGSY còn trẻ,"
-	line "nhưng kiến thức"
+	para "BUGSY's young, but"
+	line "his knowledge of"
 
-	para "về #MON SÂU BỌ"
-	line "của cậu ấy là thật"
+	para "bug #MON is for"
+	line "real."
 
-	para "Sẽ khó đấy nếu"
-	line "không có lời"
-	cont "khuyên của tôi."
+	para "It's going to be"
+	line "tough without my"
+	cont "advice."
 
-	para "Để xem… #MON"
-	line "SÂU BỌ không thích"
-	cont "lửa."
+	para "Let's see… Bug"
+	line "#MON don't like"
+	cont "fire."
 
-	para "Chiêu hệ BAY LƯỢN"
-	line "cũng siêu hiệu"
-	cont "quả."
+	para "Flying-type moves"
+	line "are super-effec-"
+	cont "tive too."
 	done
 
 AzaleaGymGuideWinText:
-	text "Làm tốt lắm! Đó là"
-	line "một trận đấu tuyệt"
+	text "Well done! That"
+	line "was a great clash"
 
-	para "vời giữa các HLV"
-	line "tài năng trẻ."
+	para "of talented young"
+	line "trainers."
 
-	para "Với những người"
-	line "như bạn, tương lai"
-	cont "của #MON sáng!"
+	para "With people like"
+	line "you, the future of"
+	cont "#MON is bright!"
 	done
 
 AzaleaGym_MapEvents:

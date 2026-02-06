@@ -1,10 +1,10 @@
-	db "SÂU BỌNG@" ; species name
-	dw 12, 1258 ; height, weight
+	db "BAGWORM@" ; species name
+	dw 311, 2770 ; height, weight
 
-	db   "Thường thấy bám"
-	next "trên thân cây mập"
-	next "Nó bắn mảnh vỏ"
+	db   "Usually found"
+	next "hanging on to a"
+	next "fat tree trunk. It"
 
-	page "khi thấy động.@"
-	next "@"
-	next "@"
+	page "shoots out bits of"
+	next "its shell when it"
+	next "sees action.@"

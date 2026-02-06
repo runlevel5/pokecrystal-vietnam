@@ -1,10 +1,10 @@
-	db "NGỦ ĐÔNG@" ; species name
-	dw 18, 1258 ; height, weight
+	db "HIBERNANT@" ; species name
+	dw 511, 2770 ; height, weight
 
-	db   "Dù thân hình lớn,"
-	next "nó khá giỏi leo"
-	next "cây. Nó ăn và"
+	db   "Although it has a"
+	next "large body, it is"
+	next "quite skilled at"
 
-	page "ngủ trên ngọn"
-	next "cây.@"
-	next "@"
+	page "climbing trees. It"
+	next "eats and sleeps in"
+	next "the treetops.@"

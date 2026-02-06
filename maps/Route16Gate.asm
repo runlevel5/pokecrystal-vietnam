@@ -34,28 +34,28 @@ Route16GateCannotPassMovement:
 	step_end
 
 Route16GateOfficerText:
-	text "ĐƯỜNG ĐUA XE"
-	line "bắt đầu ở đây."
+	text "CYCLING ROAD"
+	line "starts here."
 
-	para "Toàn đường xuống"
-	line "dốc, nên rất"
-	cont "phấn khích."
+	para "It's all downhill,"
+	line "so it's totally"
+	cont "exhilarating."
 
-	para "Đó là cảm giác"
-	line "tuyệt vời mà"
+	para "It's a great sort"
+	line "of feeling that"
 
-	para "không có từ tàu"
-	line "thủy hay tàu hỏa."
+	para "you can't get from"
+	line "a ship or train."
 	done
 
 Route16GateCannotPassText:
-	text "Này! Whoa! Dừng!"
+	text "Hey! Whoa! Stop!"
 
-	para "Bạn không thể ra"
-	line "ĐƯỜNG ĐUA XE"
+	para "You can't go out"
+	line "on the CYCLING"
 
-	para "nếu không có"
-	line "XE ĐẠP."
+	para "ROAD without a"
+	line "BICYCLE."
 	done
 
 Route16Gate_MapEvents:

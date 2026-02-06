@@ -40,92 +40,89 @@ CinnabarIslandBlueTeleport:
 	step_end
 
 CinnabarIslandBlueText:
-	text "Bạn là ai?"
+	text "Who are you?"
 
-	para "À, nhìn rõ ràng"
-	line "bạn là HLV…"
+	para "Well, it's plain"
+	line "to see that you're"
+	cont "a trainer…"
 
-	para "Tôi là BLUE."
+	para "My name's BLUE."
 
-	para "Tôi từng là"
-	line "NHÀ VÔ ĐỊCH, mặc"
+	para "I was once the"
+	line "CHAMPION, although"
 
-	para "dù chỉ trong"
-	line "một thời gian"
-	cont "ngắn…"
+	para "it was for only a"
+	line "short time…"
 
-	para "Thằng RED phiền"
-	line "phức đã hạ tôi…"
+	para "That meddling RED"
+	line "did me in…"
 
-	para "Dù sao, bạn muốn"
-	line "gì? Bạn muốn"
+	para "Anyway, what do"
+	line "you want? You want"
 
-	para "thách đấu tôi hay"
-	line "gì đó?"
+	para "to challenge me or"
+	line "something?"
 
-	para "…Tôi ghét phải"
-	line "nói điều này,"
+	para "…I hate to say"
+	line "it, but I'm not in"
 
-	para "nhưng tôi không"
-	line "có tâm trạng chiến"
-	cont "đấu bây giờ."
+	para "the mood for a"
+	line "battle now."
 
-	para "Hãy nhìn xung"
-	line "quanh bạn kỹ…"
+	para "Take a good look"
+	line "around you…"
 
-	para "Núi lửa phun,"
-	line "và chỉ cần thế,"
+	para "A volcano erupts,"
+	line "and just like"
 
-	para "cả thị trấn biến"
-	line "mất."
+	para "that, a whole town"
+	line "disappears."
 
-	para "Ta có thể thắng"
-	line "và thua trong"
+	para "We can go on win-"
+	line "ning and losing in"
 
-	para "#MON. Nhưng nếu"
-	line "thiên nhiên chỉ"
+	para "#MON. But if"
+	line "nature so much as"
 
-	para "cần giật mình,"
-	line "ta có thể thua"
-	cont "trong giây lát."
+	para "twitches, we can"
+	line "lose in a second."
 
 	para "…"
 
-	para "Đó là cách nó"
-	line "diễn ra…"
+	para "That's the way it"
+	line "is…"
 
-	para "Nhưng, dù sao,"
-	line "tôi vẫn là HLV."
+	para "But, anyway, I'm"
+	line "still a trainer."
 
-	para "Nếu tôi thấy đối"
-	line "thủ mạnh, nó khiến"
-	cont "tôi muốn chiến."
+	para "If I see a strong"
+	line "opponent, it makes"
+	cont "me want to battle."
 
-	para "Nếu bạn muốn"
-	line "chiến với tôi,"
-	cont "hãy đến GYM"
-	cont "VIRIDIAN."
+	para "If you want to"
+	line "battle me, come to"
+	cont "the VIRIDIAN GYM."
 
-	para "Tôi sẽ đấu với"
-	line "bạn lúc đó."
+	para "I'll take you on"
+	line "then."
 	done
 
 CinnabarIslandGymSignText:
-	text "Có một thông báo"
-	line "ở đây…"
+	text "There's a notice"
+	line "here…"
 
-	para "GYM CINNABAR đã"
-	line "chuyển đến ĐẢO"
-	cont "BỌT BIỂN."
+	para "CINNABAR GYM has"
+	line "relocated to SEA-"
+	cont "FOAM ISLANDS."
 
 	para "BLAINE"
 	done
 
 CinnabarIslandSignText:
-	text "ĐẢO CINNABAR"
+	text "CINNABAR ISLAND"
 
-	para "Thị Trấn Bốc Lửa"
-	line "Của Khát Khao"
+	para "The Fiery Town of"
+	line "Burning Desire"
 	done
 
 CinnabarIsland_MapEvents:

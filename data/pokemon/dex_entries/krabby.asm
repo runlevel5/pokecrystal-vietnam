@@ -1,10 +1,10 @@
-	db "CUA SÔNG@" ; species name
-	dw 4, 65 ; height, weight
+	db "RIVER CRAB@" ; species name
+	dw 104, 140 ; height, weight
 
-	db   "Nếu không tìm"
-	next "được thức ăn, nó"
-	next "sẽ hấp thụ chất"
+	db   "If it is unable"
+	next "to find food, it"
+	next "will absorb"
 
-	page "dinh dưỡng bằng"
-	next "cách nuốt"
-	next "một miệng cát.@"
+	page "nutrients by"
+	next "swallowing a"
+	next "mouthful of sand.@"

@@ -1,10 +1,10 @@
-	db "HOA@" ; species name
-	dw 4, 58 ; height, weight
+	db "FLOWER@" ; species name
+	dw 104, 130 ; height, weight
 
-	db   "Khi chúng nhảy"
-	next "cùng nhau, cánh"
-	next "hoa cọ vào nhau,"
+	db   "When these dance"
+	next "together, their"
+	next "petals rub against"
 
-	page "tạo ra âm thanh"
-	next "dễ chịu, êm dịu.@"
-	next "@"
+	page "each other,"
+	next "making pretty,"
+	next "relaxing sounds.@"

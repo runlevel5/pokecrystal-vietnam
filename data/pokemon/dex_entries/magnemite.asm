@@ -1,10 +1,10 @@
-	db "NAM CHÂM@" ; species name
-	dw 3, 60 ; height, weight
+	db "MAGNET@" ; species name
+	dw 100, 130 ; height, weight
 
-	db   "Điện phát ra từ"
-	next "hai bên cơ thể"
-	next "khiến nó trở"
+	db   "The electricity"
+	next "emitted by the"
+	next "units on each side"
 
-	page "thành một nam"
-	next "châm mạnh.@"
-	next "@"
+	page "of its body cause"
+	next "it to become a"
+	next "strong magnet.@"

@@ -1,10 +1,10 @@
-	db "NHẢTƠ@" ; species name
-	dw 5, 85 ; height, weight
+	db "STRINGSPIT@" ; species name
+	dw 108, 190 ; height, weight
 
-	db   "Nếu con mồi mắc"
-	next "vào tổ tơ, nó"
-	next "đứng yên chờ đợi"
+	db   "If prey becomes"
+	next "ensnared in its"
+	next "nest of spun"
 
-	page "cho đến khi"
-	next "trời tối.@"
-	next "@"
+	page "string, it waits"
+	next "motionlessly until"
+	next "it becomes dark.@"

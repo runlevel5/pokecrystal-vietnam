@@ -1,10 +1,10 @@
-	db "BẮT RUỒI@" ; species name
-	dw 10, 64 ; height, weight
+	db "FLYCATCHER@" ; species name
+	dw 303, 140 ; height, weight
 
-	db   "Khi đói, nó vung"
-	next "những chiếc lá"
-	next "sắc như dao,"
+	db   "When it's hungry,"
+	next "it swings its"
+	next "razor-sharp"
 
-	page "chém bất cứ thứ"
-	next "gì gần đó làm"
-	next "thức ăn.@"
+	page "leaves, slicing up"
+	next "any unlucky object"
+	next "nearby for food.@"

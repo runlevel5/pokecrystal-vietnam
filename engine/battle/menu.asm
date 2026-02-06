@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/battle/menu.asm"
+else
+
 LoadBattleMenu:
 	ld hl, BattleMenuHeader
 	call LoadMenuHeader
@@ -30,7 +34,7 @@ CommonBattleMenu:
 
 BattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 7, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
+	menu_coords 8, 12, SCREEN_WIDTH - 1, SCREEN_HEIGHT - 1
 	dw .MenuData
 	db 1 ; default option
 
@@ -42,10 +46,10 @@ BattleMenuHeader:
 	dbw BANK(@), NULL
 
 .Text:
-	db "ĐÁNH@"
+	db "FIGHT@"
 	db "<PKMN>@"
-	db "BA-LÔ@"
-	db "CHẠY@"
+	db "PACK@"
+	db "RUN@"
 
 SafariBattleMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -87,10 +91,10 @@ ContestBattleMenuHeader:
 	dba .PrintParkBallsRemaining
 
 .Text:
-	db "ĐÁNH@"
+	db "FIGHT@"
 	db "<PKMN>@"
 	db "PARKBALL×  @"
-	db "CHẠY@"
+	db "RUN@"
 
 .PrintParkBallsRemaining:
 	hlcoord 13, 16
@@ -98,3 +102,5 @@ ContestBattleMenuHeader:
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	call PrintNum
 	ret
+
+endc

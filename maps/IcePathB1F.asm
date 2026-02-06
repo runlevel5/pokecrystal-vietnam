@@ -69,8 +69,8 @@ IcePathB1FHiddenMaxPotion:
 	hiddenitem MAX_POTION, EVENT_ICE_PATH_B1F_HIDDEN_MAX_POTION
 
 IcePathBoulderFellThroughText:
-	text "Tảng đá rơi"
-	line "xuyên qua."
+	text "The boulder fell"
+	line "through."
 	done
 
 IcePathB1F_MapEvents:

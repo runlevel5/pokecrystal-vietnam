@@ -37,57 +37,56 @@ Route6UndergroundPathSign:
 	jumptext Route6UndergroundPathSignText
 
 Route6PokefanMText:
-	text "Con đường bị đóng"
-	line "cho đến khi vấn"
+	text "The road is closed"
+	line "until the problem"
 
-	para "đề tại NHÀ MÁY"
-	line "ĐIỆN được giải"
-	cont "quyết."
+	para "at the POWER PLANT"
+	line "is solved."
 	done
 
 Route6UndergroundPathSignText:
-	text "ĐỊA ĐẠO"
+	text "UNDERGROUND PATH"
 
-	para "TP. CERULEAN -"
-	line "TP. VERMILION"
+	para "CERULEAN CITY -"
+	line "VERMILION CITY"
 	done
 
 PokefanmRexSeenText:
-	text "PHANPY của tôi"
-	line "dễ thương nhất"
-	cont "thế giới."
+	text "My PHANPY is the"
+	line "cutest in the"
+	cont "world."
 	done
 
 PokefanmRexBeatenText:
-	text "PHANPY của tôi!"
+	text "My PHANPY!"
 	done
 
 PokefanmRexAfterBattleText:
-	text "Nhìn PHANPY tôi"
-	line "đáng yêu thế kia!"
+	text "Look how adorable"
+	line "my PHANPY acts!"
 
-	para "Có đủ dễ thương"
-	line "để làm tan chảy"
-	cont "trái tim không?"
+	para "Isn't it cute"
+	line "enough to make"
+	cont "your heart melt?"
 	done
 
 PokefanmAllanSeenText:
-	text "TEDDIURSA của tôi"
-	line "dễ thương nhất"
-	cont "thế giới."
+	text "My TEDDIURSA is"
+	line "the cutest in the"
+	cont "world."
 	done
 
 PokefanmAllanBeatenText:
-	text "TEDDIURSA của tôi"
+	text "My TEDDIURSA!"
 	done
 
 PokefanmAllanAfterBattleText:
-	text "Nhìn TEDDIURSA"
-	line "tôi đáng yêu thế!"
+	text "Look how adorable"
+	line "my TEDDIURSA acts!"
 
-	para "Có đủ dễ thương"
-	line "để làm tan chảy"
-	cont "trái tim không?"
+	para "Isn't it cute"
+	line "enough to make"
+	cont "your heart melt?"
 	done
 
 Route6_MapEvents:

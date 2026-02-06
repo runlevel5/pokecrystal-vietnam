@@ -168,120 +168,122 @@ OlivineCityPlayerStepsAsideBottomMovement:
 OlivineCityRivalText:
 	text "…"
 
-	para "Lại mày à?"
+	para "You again?"
 
-	para "Không cần hoảng"
-	line "hốt. Tao không"
+	para "There's no need to"
+	line "panic. I don't"
 
-	para "thèm quan tâm đồ"
-	line "yếu như mày."
+	para "bother with wimps"
+	line "like you."
 
-	para "Nói về kẻ yếu,"
-	line "T.LĨNH GYM thành"
+	para "Speaking of weak-"
+	line "lings, the city's"
 
-	para "phố này không có"
-	line "ở đây."
+	para "GYM LEADER isn't"
+	line "here."
 
-	para "Nghe nói đang"
-	line "chăm #MON ốm"
+	para "Supposedly taking"
+	line "care of a sick"
 
-	para "ở HẢI ĐĂNG."
+	para "#MON at the"
+	line "LIGHTHOUSE."
 
-	para "Hừ! Hu hu! Cứ để"
-	line "#MON ốm chết"
-	cont "đi!"
+	para "Humph! Boo-hoo!"
+	line "Just let sick"
+	cont "#MON go!"
 
-	para "#MON không"
-	line "đánh được thì"
-	cont "vô dụng!"
+	para "A #MON that"
+	line "can't battle is"
+	cont "worthless!"
 
-	para "Sao mày không đi"
-	line "tập ở HẢI ĐĂNG?"
+	para "Why don't you go"
+	line "train at the"
+	cont "LIGHTHOUSE?"
 
-	para "Biết đâu, có thể"
-	line "làm mày bớt yếu"
-	cont "đi!"
+	para "Who knows. It may"
+	line "make you a bit"
+	cont "less weak!"
 	done
 
 OlivineCitySailor1Text:
-	text "Đường tối nguy"
-	line "hiểm vào ban đêm."
+	text "Dark roads are"
+	line "dangerous at"
+	cont "night."
 
-	para "Nhưng trong đêm"
-	line "tối đen như mực,"
+	para "But in the pitch-"
+	line "black of night,"
 
-	para "biển còn nguy"
-	line "hiểm hơn!"
+	para "the sea is even"
+	line "more treacherous!"
 
-	para "Không có ánh đèn"
-	line "HẢI ĐĂNG dẫn lối,"
+	para "Without the beacon"
+	line "of the LIGHTHOUSE"
 
-	para "không tàu nào có"
-	line "thể ra khơi."
+	para "to guide it, no"
+	line "ship can sail."
 	done
 
 OlivineCityStandingYoungsterPokegearText:
-	text "Cái bạn có đó--"
-	line "là #GEAR phải"
-	cont "không? Wow, tuyệt"
-	cont "quá."
+	text "That thing you"
+	line "have--it's a #-"
+	cont "GEAR, right? Wow,"
+	cont "that's cool."
 	done
 
 OlivineCityStandingYoungsterPokedexText:
-	text "Wow, bạn có"
+	text "Wow, you have a"
 	line "#DEX!"
 
-	para "Hay quá đi."
+	para "That is just so"
+	line "awesome."
 	done
 
 OlivineCitySailor2Text:
-	text "Biển thật tuyệt!"
+	text "The sea is sweet!"
 
-	para "Hoàng hôn trên"
-	line "biển thật đẹp!"
+	para "Sunsets on the sea"
+	line "are marvelous!"
 
-	para "Hát cùng tôi!"
-	line "Yo-ho! Thổi bay"
-	cont "người đi!…"
+	para "Sing with me! "
+	line "Yo-ho! Blow the"
+	cont "man down!…"
 	done
 
 OlivineCitySignText:
-	text "THÀNH PHỐ OLIVINE"
+	text "OLIVINE CITY"
 
-	para "Cảng gần đất"
-	line "nước ngoài nhất"
+	para "The Port Closest"
+	line "to Foreign Lands"
 	done
 
 OlivineCityPortSignText:
-	text "CẢNG OLIVINE"
-	line "BẾN TÀU AQUA"
+	text "OLIVINE PORT"
+	line "FAST SHIP PIER"
 	done
 
 OlivineGymSignText:
-	text "TP OLIVINE"
-	line "GYM #MON"
-	cont "T.LĨNH: JASMINE"
+	text "OLIVINE CITY"
+	line "#MON GYM"
+	cont "LEADER: JASMINE"
 
-	para "Cô gái phòng thủ"
-	line "bọc thép"
+	para "The Steel-Clad"
+	line "Defense Girl"
 	done
 
 OlivineLighthouseSignText:
-	text "HẢI ĐĂNG OLIVINE"
-	line "Còn gọi là"
-	cont "HẢI ĐĂNG LẤPLÁNH"
+	text "OLIVINE LIGHTHOUSE"
+	line "Also known as the"
+	cont "GLITTER LIGHTHOUSE"
 	done
 
 OlivineCityBattleTowerSignText:
-	text "THÁP ĐẤU phía"
-	line "trước!"
-	cont "Đang mở cửa!"
+	text "BATTLE TOWER AHEAD"
+	line "Opening Now!"
 	done
 
 OlivineCityBattleTowerSignText_NotYetOpen: ; unreferenced
 ; originally shown when the Battle Tower was closed
-	text "THÁP ĐẤU phía"
-	line "trước"
+	text "BATTLE TOWER AHEAD"
 	done
 
 OlivineCity_MapEvents:

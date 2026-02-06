@@ -1,10 +1,10 @@
-	db "CÁO@" ; species name
-	dw 6, 99 ; height, weight
+	db "FOX@" ; species name
+	dw 200, 220 ; height, weight
 
-	db   "Khi cơ thể lớn"
-	next "lên, sáu đuôi ấm"
-	next "trở nên đẹp hơn,"
+	db   "As its body grows"
+	next "larger, its six"
+	next "warm tails become"
 
-	page "với bộ lông"
-	next "sang trọng hơn.@"
-	next "@"
+	page "more beautiful,"
+	next "with a more luxur-"
+	next "ious coat of fur.@"

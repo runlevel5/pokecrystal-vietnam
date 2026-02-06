@@ -79,11 +79,10 @@ GoldenrodVendingMachine:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	; Item names must match data/items/names.asm
-	db "NƯỚC SẠCH    ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"  ; FRESH_WATER
-	db "SÔ-ĐA POP    ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"     ; SODA_POP
-	db "CHANH MUỐI   ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"     ; LEMONADE
-	db "HỦY@"
+	db "FRESH WATER  ¥{d:GOLDENRODDEPTSTORE6F_FRESH_WATER_PRICE}@"
+	db "SODA POP     ¥{d:GOLDENRODDEPTSTORE6F_SODA_POP_PRICE}@"
+	db "LEMONADE     ¥{d:GOLDENRODDEPTSTORE6F_LEMONADE_PRICE}@"
+	db "CANCEL@"
 
 GoldenrodDeptStore6FLassScript:
 	jumptextfaceplayer GoldenrodDeptStore6FLassText
@@ -98,56 +97,56 @@ GoldenrodDeptStore6FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodVendingText:
-	text "Máy bán hàng tự"
-	line "động! Menu đây."
+	text "A vending machine!"
+	line "Here's the menu."
 	done
 
 GoldenrodClangText:
-	text "Lách cách! Một lon"
+	text "Clang! A can of"
 	line "@"
 	text_ram wStringBuffer3
 	text_start
-	cont "rơi ra!"
+	cont "popped out!"
 	done
 
 GoldenrodVendingNoMoneyText:
-	text "Úi, không đủ tiền."
+	text "Oops, not enough"
+	line "money."
 	done
 
 GoldenrodVendingNoSpaceText:
-	text "Không còn chỗ để"
-	line "đồ nữa."
+	text "There's no more"
+	line "room for stuff."
 	done
 
 GoldenrodDeptStore6FLassText:
-	text "Bạn có nghe LUCKY"
-	line "CHANNEL không?"
+	text "Do you listen to"
+	line "LUCKY CHANNEL?"
 
-	para "Nếu muốn thắng,"
-	line "trao đổi #MON"
+	para "If you want to"
+	line "win, trade #MON"
 
-	para "với càng nhiều"
-	line "người càng tốt để"
+	para "with as many peo-"
+	line "ple as possible to"
 
-	para "có số ID khác"
-	line "nhau."
+	para "get different ID"
+	line "numbers."
 	done
 
 GoldenrodDeptStore6FSuperNerdText:
-	text "Nếu mệt, thử đồ"
-	line "uống từ máy bán"
-	cont "tự động."
+	text "If you're tired,"
+	line "try the vending"
+	cont "machine's drinks."
 
-	para "#MON của bạn"
-	line "cũng thích chúng."
+	para "Your #MON will"
+	line "love them too."
 	done
 
 GoldenrodDeptStore6FDirectoryText:
-	text "Nghỉ Ngơi Sau Khi"
-	line "Mua Sắm!"
+	text "Take a Break from"
+	line "Shopping!"
 
-	para "6T QUẢNG TRƯỜNG"
-	line "   YÊN TĨNH"
+	para "6F TRANQUIL SQUARE"
 	done
 
 GoldenrodDeptStore6F_MapEvents:

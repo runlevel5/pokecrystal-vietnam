@@ -1,73 +1,76 @@
 BethExhilaratingRideText:
-	text "Cậu nhớ @"
+	text "Do you remember my"
+	line "sweet @"
 	text_ram wStringBuffer4
-	text_start
-	line "ngọt ngào của tớ?"
+	text "?"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " chạy"
-	line "rất nhanh."
+	text " runs"
+	line "very fast."
 
-	para "Thật phấn khích"
-	line "khi cưỡi lưng nó"
+	para "It's exhilarating"
+	line "to ride on its"
 
-	para "khi nó thực sự"
-	line "chạy hết tốc lực."
+	para "back when it"
+	line "really gets going."
 	done
 
 BethDefeatedMonText:
-	text "Ồ, cậu đã từng"
-	line "thấy @"
+	text "Oh, have you ever"
+	line "seen a @"
 	text_ram wStringBuffer4
 	text_start
-	cont "chưa?"
+	cont "before?"
 
-	para "Tớ vừa đấu với"
-	line "một con…"
+	para "I just battled"
+	line "one…"
 
-	para "Nó nhanh hơn tớ"
-	line "nghĩ nhiều."
+	para "It was much faster"
+	line "than I expected."
 
-	para "Tớ hơi sốc."
+	para "I was a little"
+	line "shocked."
 
-	para "Tất nhiên tớ vẫn"
-	line "thắng."
+	para "I still won, of"
+	line "course."
 	done
 
 BethLostAMonText:
-	text "Ồ, tớ vừa thấy"
-	line "@"
+	text "Oh, I just saw a"
+	line "wild @"
 	text_ram wStringBuffer4
-	text " hoang."
+	text "."
 
-	para "Tớ đang cố bắt nó"
-	line "thì phát hiện ra"
+	para "I was trying to"
+	line "catch it when I"
 
-	para "tớ hết BÓNG #"
-	line "rồi."
+	para "noticed that I was"
+	line "all out of #"
+	cont "BALLS."
 
-	para "Nếu cậu không kiểm"
-	line "tra đồ, cậu có thể"
+	para "If you don't check"
+	line "your items, you"
 
-	para "hết vào lúc tồi"
-	line "tệ nhất."
+	para "may run out at the"
+	line "worst time."
 
-	para "Tớ hy vọng cậu học"
-	line "từ sai lầm của tớ."
+	para "I hope you learn"
+	line "from my mistake."
 	done
 
 BethBattleRematchText:
-	text "Cậu muốn đấu? Lần"
-	line "này tớ sẽ thắng!"
+	text "Do you want to"
+	line "battle? I'm going"
+	cont "to win this time!"
 
-	para "Tớ sẽ đợi cậu"
-	line "quanh"
+	para "I'll be waiting"
+	line "for you around"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "."
-	line "Tìm tớ nhé, OK?"
+	line "Look for me, OK?"
 	done
 
 BethHangUpText:
@@ -75,21 +78,21 @@ BethHangUpText:
 	done
 
 BethLetsBattleAgainSometimeText:
-	text "Đấu lại lúc nào"
-	line "đó nhé!"
+	text "Let's battle again"
+	line "sometime!"
 	done
 
 BethReminderText:
-	text "Ừm… <PLAY_G>?"
-	line "Sao vậy?"
+	text "Um… <PLAY_G>?"
+	line "What's wrong?"
 
-	para "Cậu quên thỏa"
-	line "thuận à?"
+	para "Did you forget our"
+	line "deal?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Đó là nơi tớ"
-	line "đang đợi."
+	para "That's where I'm"
+	line "waiting."
 	done

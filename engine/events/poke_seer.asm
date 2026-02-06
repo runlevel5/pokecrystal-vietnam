@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/poke_seer.asm"
+else
+
 	const_def
 	const SEER_INTRO
 	const SEER_CANT_TELL
@@ -201,9 +205,9 @@ GetCaughtTime:
 	ret
 
 .times
-	db "Sáng@"
-	db "Ngày@"
-	db "Đêm@"
+	db "Morning@"
+	db "Day@"
+	db "Night@"
 
 UnknownCaughtData:
 	ld hl, .unknown
@@ -212,7 +216,7 @@ UnknownCaughtData:
 	ret
 
 .unknown
-	db "Không rõ@"
+	db "Unknown@"
 
 GetCaughtLocation:
 	ld a, [wSeerCaughtGender]
@@ -406,3 +410,5 @@ GetCaughtGender:
 .genderless
 	ld c, CAUGHT_BY_UNKNOWN
 	ret
+
+endc

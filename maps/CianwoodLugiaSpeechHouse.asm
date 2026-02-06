@@ -21,42 +21,42 @@ CianwoodLugiaSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CianwoodLugiaSpeechHouseTeacherText:
-	text "Bạn từ OLIVINE"
-	line "đến à?"
+	text "You came from"
+	line "OLIVINE?"
 
-	para "Bạn có nhớ bốn"
-	line "hòn đảo trên"
-	cont "đường không?"
+	para "Do you remember"
+	line "the four islands"
+	cont "along the way?"
 
-	para "Tôi nghe nói có"
-	line "sinh vật biển"
-	cont "huyền thoại ẩn"
-	cont "náu ở đó."
+	para "I heard that a "
+	line "mythical sea crea-"
+	cont "ture is hiding in"
+	cont "them."
 	done
 
 CianwoodLugiaSpeechHouseLassText:
-	text "Tôi nghe nói bạn"
-	line "chỉ có thể thấy"
+	text "I heard that you"
+	line "can only see it if"
 
-	para "nó nếu có SILVER"
+	para "you have a SILVER"
 	line "WING."
 
-	para "Nó hẳn có cùng"
-	line "mùi hương với"
-	cont "sinh vật đó."
+	para "It must have the"
+	line "same scent as the"
+	cont "creature."
 	done
 
 CianwoodLugiaSpeechHouseTwinText:
-	text "Tôi nghe nói các"
-	line "cơn xoáy nước"
+	text "I've heard that"
+	line "the whirlpools"
 
-	para "quanh đảo do sinh"
-	line "vật biển đó"
-	cont "gây ra."
+	para "around the islands"
+	line "are caused by the"
+	cont "sea creature."
 
-	para "Bạn có thể cần"
-	line "chiêu đặc biệt để"
-	cont "vượt qua chúng."
+	para "You might need a"
+	line "special move to"
+	cont "get past them."
 	done
 
 CianwoodLugiaSpeechHouse_MapEvents:

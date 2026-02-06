@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/bills_pc_top.asm"
+else
+
 _BillsPC:
 	call .CheckCanUsePC
 	ret c
@@ -80,11 +84,11 @@ _BillsPC:
 	dw .strings
 
 .strings
-	db "RÚT <PK><MN>@"
-	db "GỬI <PK><MN>@"
-	db "ĐỔI HỘP@"
-	db "DỜI <PK><MN> (BỎ THƯ)@"
-	db "THOÁT@"
+	db "WITHDRAW <PK><MN>@"
+	db "DEPOSIT <PK><MN>@"
+	db "CHANGE BOX@"
+	db "MOVE <PK><MN> W/O MAIL@"
+	db "SEE YA!@"
 
 .Jumptable:
 	dw BillsPC_WithdrawMenu
@@ -370,3 +374,5 @@ for n, 1, NUM_BOXES + 1
 	dba sBox{d:n}
 endr
 	assert_table_length NUM_BOXES
+
+endc

@@ -1,10 +1,10 @@
-	db "LOÀI MỚI@" ; species name
-	dw 4, 40 ; height, weight
+	db "NEW SPECIE@" ; species name
+	dw 104, 90 ; height, weight
 
-	db   "Vì học được mọi"
-	next "chiêu, người ta"
-	next "nghiên cứu xem"
+	db   "Because it can"
+	next "learn any move,"
+	next "some people began"
 
-	page "liệu nó có phải"
-	next "tổ tiên của mọi"
-	next "#MON.@"
+	page "research to see if"
+	next "it is the ancestor"
+	next "of all #MON.@"

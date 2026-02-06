@@ -506,255 +506,256 @@ Route34MovementData_DayCareManWalksBackInside_WalkAroundPlayer:
 	step_end
 
 YoungsterSamuelSeenText:
-	text "Đây là nơi tôi"
-	line "tập luyện!"
+	text "This is where I do"
+	line "my training!"
 	done
 
 YoungsterSamuelBeatenText:
-	text "Thua một người"
-	line "lạ đi ngang!"
+	text "Beaten by a"
+	line "passing stranger!"
 	done
 
 YoungsterSamuelMobileText: ; unreferenced
-	text "Cậu đã đến TP."
-	line "GOLDENROD chưa?"
+	text "Have you been to"
+	line "GOLDENROD CITY?"
 
-	para "Cậu có ngạc nhiên"
-	line "với cách họ đổi"
+	para "Weren't you amazed"
+	line "by how they've"
 
-	para "mới T.TÂM #MON"
-	line "không?"
+	para "changed the"
+	line "#MON CENTER?"
 	done
 
 YoungsterSamuelAfterText:
-	text "Tôi sẽ tập luyện"
-	line "chăm chỉ hơn."
+	text "I'm going to train"
+	line "even harder."
 
-	para "Vì tôi đang cố"
-	line "trở thành một"
-	cont "T.LĨNH GYM."
+	para "After all, I'm"
+	line "trying to become"
+	cont "a GYM LEADER."
 	done
 
 YoungsterIanSeenText:
-	text "Tôi giỏi #MON"
-	line "nhất lớp đấy!"
+	text "I'm the best in my"
+	line "class at #MON."
 	done
 
 YoungsterIanBeatenText:
-	text "Không! Có HLV"
-	line "giỏi hơn mình…"
+	text "No! There are bet-"
+	line "ter trainers…"
 	done
 
 YoungsterIanAfterText:
-	text "Tôi cố gắng hết"
-	line "sức để là ngôi"
-	cont "sao của lớp."
+	text "I'm trying hard so"
+	line "I can be the star"
+	cont "in my class."
 	done
 
 CamperTodd1SeenText:
-	text "Tôi tự tin vào"
-	line "khả năng nuôi"
-	cont "#MON của mình."
+	text "I'm confident in"
+	line "my ability to"
+	cont "raise #MON."
 
-	para "Muốn xem không?"
+	para "Want to see?"
 	done
 
 CamperTodd1BeatenText:
-	text "Tập luyện tôi"
-	line "sai rồi sao?"
+	text "Did I screw up my"
+	line "training?"
 	done
 
 CamperTodd1AfterText:
-	text "Có lẽ tôi nên"
-	line "gửi nó đến"
+	text "Maybe I should"
+	line "take one to a DAY-"
 
-	para "NHÀ GIỮ TRẺ. Hay"
-	line "dùng đồ gì đó…"
+	para "CARE. Or maybe use"
+	line "some items…"
 	done
 
 CamperToddSaleText:
-	text "Mua sắm dưới"
-	line "bầu trời!"
+	text "Shopping under the"
+	line "sky!"
 
-	para "Cảm giác tuyệt"
-	line "trên sân thượng."
+	para "It feels so nice"
+	line "up on a rooftop."
 	done
 
 PicnickerGina1SeenText:
-	text "Bạn là HLV à?"
+	text "Are you a trainer?"
 
-	para "Thử đấu tập"
-	line "với nhau đi."
+	para "Let's have a"
+	line "practice battle."
 	done
 
 PicnickerGina1BeatenText:
-	text "Ôi không! Tôi"
-	line "không thắng được…"
+	text "Oh, no! I just"
+	line "can't win…"
 	done
 
 PicnickerGina1AfterText:
-	text "Bạn mạnh quá để"
-	line "làm đối thủ tập"
-	cont "luyện rồi."
+	text "You're too strong"
+	line "to be a practice"
+	cont "partner."
 	done
 
 OfficerKeithSeenText:
-	text "Ai đó? Bạn đang"
-	line "làm gì thế?"
+	text "Who goes there?"
+	line "What are you up"
+	cont "to?"
 	done
 
 OfficerKeithWinText:
-	text "Cậu bé rắn"
-	line "chắc đấy."
+	text "You're a tough"
+	line "little kid."
 	done
 
 OfficerKeithAfterText:
-	text "Ừ, hôm nay không"
-	line "có gì bất thường."
+	text "Yep, I see nothing"
+	line "wrong today. You"
 
-	para "Hãy ngoan và tránh"
-	line "xa rắc rối nhé."
+	para "be good and stay"
+	line "out of trouble."
 	done
 
 OfficerKeithDaytimeText:
-	text "Tôi đang tuần tra"
-	line "tìm những người"
-	cont "khả nghi."
+	text "I'm on patrol for"
+	line "suspicious indi-"
+	cont "viduals."
 	done
 
 PokefanmBrandonSeenText:
-	text "Tôi vừa nhận lại"
-	line "#MON từ NHÀ"
-	cont "GIỮ TRẺ."
+	text "I just got my"
+	line "#MON back from"
+	cont "DAY-CARE."
 
-	para "Xem nó mạnh thêm"
-	line "bao nhiêu nào!"
+	para "Let's see how much"
+	line "stronger it got!"
 	done
 
 PokefanmBrandonBeatenText:
-	text "Sao lại kết thúc"
-	line "như thế này?"
+	text "Why does it end"
+	line "this way?"
 	done
 
 PokefanmBrandonAfterText:
-	text "#MON tôi biết"
-	line "chiêu tôi không"
-	cont "biết nó có."
+	text "My #MON knew"
+	line "moves I didn't"
+	cont "know it had."
 
-	para "Tôi hoang mang"
-	line "quá đi!"
+	para "That confounded me"
+	line "to no end!"
 	done
 
 CooltrainerfIreneSeenText:
 	text "IRENE: Kyaaah!"
-	line "Có người tìm ra!"
+	line "Someone found us!"
 	done
 
 CooltrainerfIreneBeatenText:
 	text "IRENE: Ohhh!"
-	line "Mạnh quá!"
+	line "Too strong!"
 	done
 
 CooltrainerfIreneAfterText1:
-	text "IRENE: Chị KATE"
-	line "sẽ trả thù cho"
-	cont "tôi đây!"
+	text "IRENE: My sister"
+	line "KATE will get you"
+	cont "for this!"
 	done
 
 CooltrainerfIreneAfterText2:
-	text "IRENE: Bãi biển"
-	line "này tuyệt không?"
+	text "IRENE: Isn't this"
+	line "beach great?"
 
-	para "Đây là nơi trốn"
-	line "bí mật của tụi!"
+	para "It's our secret"
+	line "little getaway!"
 	done
 
 CooltrainerfJennSeenText:
-	text "JENN: Bạn không"
-	line "thể thắng IRENE"
-	cont "mà không trả giá!"
+	text "JENN: You can't"
+	line "beat IRENE and go"
+	cont "unpunished!"
 	done
 
 CooltrainerfJennBeatenText:
-	text "JENN: Xin lỗi,"
-	line "IRENE! Chị ơi!"
+	text "JENN: So sorry,"
+	line "IRENE! Sis!"
 	done
 
 CooltrainerfJennAfterText1:
-	text "JENN: Đừng kiêu!"
-	line "Chị KATE của tôi"
-	cont "rất mạnh đấy!"
+	text "JENN: Don't get"
+	line "cocky! My sister"
+	cont "KATE is tough!"
 	done
 
 CooltrainerfJennAfterText2:
-	text "JENN: Ánh nắng"
-	line "làm cơ thể bạn"
-	cont "khỏe hơn."
+	text "JENN: Sunlight"
+	line "makes your body"
+	cont "stronger."
 	done
 
 CooltrainerfKateSeenText:
-	text "KATE: Bạn đúng là"
-	line "tệ với các em"
-	cont "gái tôi!"
+	text "KATE: You sure"
+	line "were mean to my"
+	cont "little sisters!"
 	done
 
 CooltrainerfKateBeatenText:
-	text "KATE: Không! Tôi"
-	line "không tin thua."
+	text "KATE: No! I can't"
+	line "believe I lost."
 	done
 
 CooltrainerfKateOfferSoftSandText:
-	text "KATE: Bạn mạnh"
-	line "quá. Tôi không"
-	cont "có cơ hội."
+	text "KATE: You're too"
+	line "strong. I didn't"
+	cont "stand a chance."
 
-	para "Đây. Bạn xứng"
-	line "đáng nhận nó."
+	para "Here. You deserve"
+	line "this."
 	done
 
 CooltrainerfKateAfterText:
-	text "KATE: Xin lỗi vì"
-	line "tụi tôi đánh bạn"
+	text "KATE: I'm sorry we"
+	line "jumped you."
 
-	para "Tụi tôi không ngờ"
-	line "có ai tìm được"
+	para "We never expected"
+	line "anyone to find us"
 
-	para "đến đây. Bạn làm"
-	line "tụi tôi giật mình"
+	para "here. You sure"
+	line "startled us."
 	done
 
 Route34IlexForestSignText:
-	text "RỪNG ILEX"
-	line "QUA CỔNG"
+	text "ILEX FOREST"
+	line "THROUGH THE GATE"
 	done
 
 Route34SignText:
-	text "TUYẾN ĐƯỜNG 34"
+	text "ROUTE 34"
 
-	para "TP GOLDENROD -"
-	line "T.TRẤN AZALEA"
+	para "GOLDENROD CITY -"
+	line "AZALEA TOWN"
 
-	para "RỪNG ILEX"
-	line "Ở GIỮA HAI NƠI"
+	para "ILEX FOREST"
+	line "SOMEWHERE BETWEEN"
 	done
 
 Route34TrainerTipsText:
-	text "MẸO CHO HLV"
+	text "TRAINER TIPS"
 
-	para "Cây QUẢ mọc"
-	line "QUẢ mới mỗi"
-	cont "ngày."
+	para "BERRY trees grow"
+	line "new BERRIES"
+	cont "every day."
 
-	para "Ghi chú cây nào"
-	line "ra QUẢ gì để"
-	cont "nhớ nhé."
+	para "Make a note of"
+	line "which trees bear"
+	cont "which BERRIES."
 	done
 
 DayCareSignText:
-	text "NHÀ GIỮ TRẺ"
+	text "DAY-CARE"
 
-	para "CHÚNG TÔI NUÔI"
-	line "#MON CHO BẠN!"
+	para "LET US RAISE YOUR"
+	line "#MON FOR YOU!"
 	done
 
 Route34_MapEvents:

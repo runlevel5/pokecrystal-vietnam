@@ -81,51 +81,50 @@ KogasRoom_EnterMovement:
 KogaScript_KogaBeforeText:
 	text "Fwahahahaha!"
 
-	para "Ta là KOGA của"
-	line "TỨ ĐẠI."
+	para "I am KOGA of the"
+	line "ELITE FOUR."
 
-	para "Ta sống trong"
-	line "bóng tối, một"
-	cont "ninja!"
+	para "I live in shadows,"
+	line "a ninja!"
 
-	para "Phong cách tinh vi"
-	line "của ta sẽ làm"
-	cont "ngươi rối loạn!"
+	para "My intricate style"
+	line "will confound and"
+	cont "destroy you!"
 
-	para "Hỗn loạn, ngủ,"
-	line "độc…"
+	para "Confusion, sleep,"
+	line "poison…"
 
-	para "Hãy chuẩn bị làm"
-	line "nạn nhân của kỹ"
-	cont "thuật đen tối!"
+	para "Prepare to be the"
+	line "victim of my sin-"
+	cont "ister technique!"
 
 	para "Fwahahahaha!"
 
-	para "#MON không chỉ"
-	line "là sức mạnh thô--"
+	para "#MON is not"
+	line "merely about brute"
 
-	para "ngươi sẽ sớm"
-	line "nhận ra điều đó!"
+	para "force--you shall"
+	line "see soon enough!"
 	done
 
 KogaScript_KogaBeatenText:
 	text "Ah!"
-	line "Ngươi đã chứng"
-	cont "minh giá trị!"
+	line "You have proven"
+	cont "your worth!"
 	done
 
 KogaScript_KogaDefeatText:
-	text "Ta đã dùng mọi"
-	line "thứ ta có để"
-	cont "chống lại ngươi."
+	text "I subjected you to"
+	line "everything I could"
+	cont "muster."
 
-	para "Nhưng ta đã thất"
-	line "bại. Ta phải rèn"
-	cont "luyện thêm."
+	para "But my efforts"
+	line "failed. I must"
+	cont "hone my skills."
 
-	para "Hãy đi tiếp sang"
-	line "phòng kế, thử"
-	cont "thách năng lực!"
+	para "Go on to the next"
+	line "room, and put your"
+	cont "abilities to test!"
 	done
 
 KogasRoom_MapEvents:

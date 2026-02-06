@@ -143,180 +143,179 @@ KurtSlowpokeWellVictoryMovementData:
 	step_end
 
 SlowpokeWellB1FKurtText:
-	text "KURT: Chào con,"
+	text "KURT: Hey there,"
 	line "<PLAYER>!"
 
-	para "Tên canh gác ở"
-	line "trên đã bỏ chạy"
-	cont "khi ta quát hắn."
+	para "The guard up top"
+	line "took off when I"
+	cont "shouted at him."
 
-	para "Nhưng sau đó ta"
-	line "bị ngã xuống"
-	cont "GIẾNG này."
+	para "But then I took a"
+	line "tumble down the"
+	cont "WELL."
 
-	para "Ta ngã đập lưng"
-	line "rất mạnh, nên"
-	cont "không cử động nổi."
+	para "I slammed down"
+	line "hard on my back,"
+	cont "so I can't move."
 
-	para "Chán quá! Nếu ta"
-	line "khỏe, #MON của"
+	para "Rats! If I were"
+	line "fit, my #MON"
 
-	para "ta đã trừng phạt"
-	line "bọn chúng rồi…"
+	para "would've punished"
+	line "them…"
 
-	para "Thôi, không còn"
-	line "cách nào khác."
+	para "Ah, it can't be"
+	line "helped."
 
-	para "<PLAYER>, hãy cho"
-	line "bọn chúng thấy sự"
-	cont "dũng cảm của con!"
+	para "<PLAYER>, show them"
+	line "how gutsy you are"
+	cont "in my place!"
 	done
 
 KurtLeaveSlowpokeWellText:
-	text "KURT: Làm tốt lắm,"
+	text "KURT: Way to go,"
 	line "<PLAYER>!"
 
-	para "ĐỘI ROCKET đã"
-	line "chuồn hết rồi."
+	para "TEAM ROCKET has"
+	line "taken off."
 
-	para "Lưng ta cũng đỡ"
-	line "rồi. Chúng ta ra"
-	cont "khỏi đây thôi."
+	para "My back's better"
+	line "too. Let's get out"
+	cont "of here."
 	done
 
 GruntM29SeenText:
-	text "Chết tiệt! Tao"
-	line "đang canh gác ở"
+	text "Darn! I was stand-"
+	line "ing guard up top"
 
-	para "trên thì một lão"
-	line "già quát tao."
+	para "when some old coot"
+	line "yelled at me."
 
-	para "Lão làm tao giật"
-	line "mình đến nỗi ngã"
-	cont "xuống đây."
+	para "He startled me so"
+	line "much that I fell"
+	cont "down here."
 
-	para "Tao sẽ trút giận"
-	line "lên đầu mày cho"
-	cont "bõ tức!"
+	para "I think I'll vent"
+	line "my anger by taking"
+	cont "it out on you!"
 	done
 
 GruntM29BeatenText:
-	text "Arrgh! Hôm nay"
-	line "xui thật!"
+	text "Arrgh! This is NOT"
+	line "my day!"
 	done
 
 GruntM29AfterBattleText:
-	text "Đúng, bọn tao chặt"
-	line "đuôi SLOWPOKE rồi"
+	text "Sure, we've been"
+	line "hacking the tails"
 
-	para "đem bán."
+	para "off SLOWPOKE and"
+	line "selling them."
 
-	para "Mọi việc bọn tao"
-	line "làm đều vì lợi"
-	cont "nhuận."
+	para "Everything we do"
+	line "is for profit."
 
-	para "Đúng vậy đó!"
-	line "Bọn tao là ĐỘI"
-	cont "ROCKET,"
+	para "That's right!"
+	line "We're TEAM ROCKET,"
 
-	para "và sẽ làm bất cứ"
-	line "gì để có tiền!"
+	para "and we'll do any-"
+	line "thing for money!"
 	done
 
 GruntM1SeenText:
-	text "Mày muốn gì?"
+	text "What do you want?"
 
-	para "Nếu mày cản trở"
-	line "công việc, đừng"
-	cont "mong được tha!"
+	para "If you interrupt"
+	line "our work, don't"
+	cont "expect any mercy!"
 	done
 
 GruntM1BeatenText:
-	text "Hôm nay mày thắng,"
-	line "nhưng lần sau thì"
-	cont "đừng hòng!"
+	text "You did OK today,"
+	line "but wait till next"
+	cont "time!"
 	done
 
 TrainerGruntM1WhenTalkText:
-	text "Đúng, ĐỘI ROCKET"
-	line "đã bị giải tán"
-	cont "ba năm trước."
+	text "Yeah, TEAM ROCKET"
+	line "was broken up"
+	cont "three years ago."
 
-	para "Nhưng bọn tao vẫn"
-	line "tiếp tục hoạt"
-	cont "động ngầm."
+	para "But we continued"
+	line "our activities"
+	cont "underground."
 
-	para "Giờ thì mày cứ"
-	line "xem bọn tao gây"
-	cont "rối nhé!"
+	para "Now you can have"
+	line "fun watching us"
+	cont "stir up trouble!"
 	done
 
 GruntM2SeenText:
-	text "Ngừng lấy ĐUÔI"
-	line "SLOWPOKE á?"
+	text "Quit taking SLOW-"
+	line "POKETAILS?"
 
-	para "Nếu nghe mày, uy"
-	line "tín của ĐỘI"
-	cont "ROCKET sẽ tiêu!"
+	para "If we obeyed you,"
+	line "TEAM ROCKET's rep"
+	cont "would be ruined!"
 	done
 
 GruntM2BeatenText:
-	text "Quá…"
-	line "Mạnh quá…"
+	text "Just…"
+	line "Too strong…"
 	done
 
 GruntM2AfterBattleText:
-	text "Bọn tao cần tiền,"
-	line "nhưng bán ĐUÔI"
-	cont "SLOWPOKE á?"
+	text "We need the money,"
+	line "but selling SLOW-"
+	cont "POKETAILS?"
 
-	para "Làm lính ROCKET"
-	line "khổ thật!"
+	para "It's tough being a"
+	line "ROCKET GRUNT!"
 	done
 
 GruntF1SeenText:
-	text "Ngừng lấy ĐUÔI á?"
+	text "Stop taking TAILS?"
 
-	para "Được, cứ thử đánh"
-	line "thắng hết bọn tao"
-	cont "đi!"
+	para "Yeah, just try to"
+	line "defeat all of us!"
 	done
 
 GruntF1BeatenText:
-	text "Đồ nhóc ranh!"
+	text "You rotten brat!"
 	done
 
 GruntF1AfterBattleText:
-	text "ĐUÔI SLOWPOKE"
-	line "mọc lại rất nhanh!"
+	text "SLOWPOKETAILS"
+	line "grow back fast!"
 
-	para "Bán chúng thì có"
-	line "gì sai?"
+	para "What's wrong with"
+	line "selling them?"
 	done
 
 SlowpokeWellB1FSlowpokeWithMailText:
-	text "Một con SLOWPOKE"
-	line "bị cắt mất ĐUÔI…"
+	text "A SLOWPOKE with"
+	line "its TAIL cut off…"
 
-	para "Hả? Nó có THƯ."
-	line "Đọc không?"
+	para "Huh? It has MAIL."
+	line "Read it?"
 	done
 
 SlowpokeWellB1FSlowpokeMailText:
-	text "<PLAYER> đọc"
-	line "THƯ."
+	text "<PLAYER> read the"
+	line "MAIL."
 
-	para "Con ngoan nhé, ở"
-	line "nhà với Ông và"
+	para "Be good and look"
+	line "after the house"
 
-	para "SLOWPOKE."
+	para "with Grandpa and"
+	line "SLOWPOKE."
 
-	para "Thương con, Bố"
+	para "Love, Dad"
 	done
 
 SlowpokeWellB1FTaillessSlowpokeText:
-	text "Một con SLOWPOKE"
-	line "bị cắt mất ĐUÔI…"
+	text "A SLOWPOKE with"
+	line "its TAIL cut off…"
 	done
 
 SlowpokeWellB1F_MapEvents:

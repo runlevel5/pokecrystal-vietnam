@@ -101,11 +101,10 @@ MoveTutorScript:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	; Move names must match data/moves/names.asm
-	db "PHUN LỬA@"     ; FLAMETHROWER
-	db "SÉT ĐÁNH@"     ; THUNDERBOLT
-	db "TIA BĂNG@"     ; ICE_BEAM
-	db "HỦY@"
+	db "FLAMETHROWER@"
+	db "THUNDERBOLT@"
+	db "ICE BEAM@"
+	db "CANCEL@"
 
 .Refused:
 	writetext GoldenrodCityMoveTutorAwwButTheyreAmazingText
@@ -283,264 +282,266 @@ GoldenrodCityMoveTutorWalkAroundPlayerThenEnterGameCornerMovement:
 	step_end
 
 GoldenrodCityPokefanMText:
-	text "Họ xây THÁP RADIO"
-	line "mới để thay thế"
+	text "They built the new"
+	line "RADIO TOWER to"
 
-	para "cái cũ đã xuống"
-	line "cấp."
+	para "replace the old,"
+	line "creaky one."
 	done
 
 GoldenrodCityYoungster1Text:
-	text "Tôi biết có CỬA"
-	line "HÀNG XE ĐẠP mới,"
+	text "I know there's a"
+	line "new BIKE SHOP, but"
 
-	para "nhưng không tìm"
-	line "thấy ở đâu cả."
+	para "I can't find it"
+	line "anywhere."
 	done
 
 GoldenrodCityCooltrainerF1Text:
-	text "Người đàn ông mặc"
-	line "đồ đen kia đang"
+	text "Is that man in"
+	line "black dressed up"
 
-	para "giả ĐỘI ROCKET à?"
-	line "Thật buồn cười!"
+	para "like a TEAM ROCKET"
+	line "member? How silly!"
 	done
 
 GoldenrodCityCooltrainerF1Text_ClearedRadioTower:
-	text "Người đàn ông mặc"
-	line "đồ đen kia thật"
+	text "Was that man in"
+	line "black really part"
 
-	para "sự là ĐỘI ROCKET"
-	line "à? Khó tin quá!"
+	para "of TEAM ROCKET? I"
+	line "can't believe it!"
 	done
 
 GoldenrodCityCooltrainerF2Text:
-	text "THÁP RADIO ở"
-	line "GOLDENROD là biểu"
-	cont "tượng nơi này."
+	text "The RADIO TOWER in"
+	line "GOLDENROD CITY is"
+	cont "a landmark."
 
-	para "Họ đang có chương"
-	line "trình khuyến mãi."
+	para "They're running a"
+	line "promotional cam- "
+	cont "paign right now."
 
-	para "Họ sẽ nâng cấp"
-	line "#GEAR của bạn,"
+	para "They'll modify"
+	line "your #GEAR,"
 
-	para "để nó có thể"
-	line "nghe radio."
+	para "so it can also"
+	line "serve as a radio."
 	done
 
 GoldenrodCityCooltrainerF2Text_GotRadioCard:
-	text "Ồ, #GEAR của"
-	line "bạn nghe được"
-	cont "radio rồi!"
+	text "Oh, your #GEAR"
+	line "works as a radio!"
 	done
 
 GoldenrodCityYoungster2Text:
 	text "E-he-he-he…"
 
-	para "Tôi bị la vì chơi"
-	line "trong tầng hầm"
+	para "I got in trouble"
+	line "for playing in the"
 
-	para "của TRUNG TÂM"
-	line "THƯƠNG MẠI."
+	para "basement of the"
+	line "DEPT.STORE."
 	done
 
 GoldenrodCityLassText:
-	text "Ông ở căn nhà kia"
-	line "đánh giá tên"
-	cont "#MON của bạn."
+	text "The man at that"
+	line "house rates your"
+	cont "#MON names."
 
-	para "Ông ấy còn có thể"
-	line "đổi tên #MON."
+	para "He can even rename"
+	line "your #MON."
 	done
 
 GoldenrodCityGrampsText:
-	text "Phù! Thành phố"
-	line "này lớn quá. Tôi"
+	text "Whew! This is one"
+	line "big town. I don't"
 
-	para "không biết gì ở"
-	line "đâu nữa."
+	para "know where any-"
+	line "thing is."
 	done
 
 GoldenrodCityRocketScoutText1:
-	text "Đây là THÁP"
-	line "RADIO à…"
+	text "So this is the"
+	line "RADIO TOWER…"
 	done
 
 GoldenrodCityRocketScoutText2:
-	text "Muốn gì, đồ phiền"
-	line "phức? Biến đi!"
+	text "What do you want,"
+	line "you pest? Scram!"
 	done
 
 GoldenrodCityRocket1Text:
-	text "Tránh ra! Cút đi!"
+	text "Stay out of the"
+	line "way! Beat it!"
 	done
 
 GoldenrodCityRocket2Text:
-	text "Chiếm THÁP"
-	line "RADIO…"
+	text "Take over the"
+	line "RADIO TOWER…"
 
-	para "Gì? Không liên"
-	line "quan đến mày!"
+	para "What? It's none of"
+	line "your business!"
 	done
 
 GoldenrodCityRocket3Text:
-	text "#MON à? Chúng"
-	line "chỉ là công cụ"
+	text "#MON? They're"
+	line "nothing more than"
 
-	para "để kiếm tiền"
-	line "thôi!"
+	para "tools for making"
+	line "money!"
 	done
 
 GoldenrodCityRocket4Text:
-	text "Giấc mơ sẽ sớm"
-	line "thành hiện thực…"
+	text "Our dream will"
+	line "soon come true…"
 
-	para "Đã phải đấu tranh"
-	line "lâu quá rồi…"
+	para "It was such a long"
+	line "struggle…"
 	done
 
 GoldenrodCityRocket5Text:
-	text "Này, nhóc! Mày"
-	line "không thuộc về"
-	cont "đây! Biến đi!"
+	text "Hey, brat! You"
+	line "don't belong here!"
+	cont "Get lost!"
 	done
 
 GoldenrodCityRocket6Text:
-	text "Đến mà nếm thử"
-	line "nỗi kinh hoàng"
-	cont "của ĐỘI ROCKET!"
+	text "Come taste the"
+	line "true terror of"
+	cont "TEAM ROCKET!"
 	done
 
 GoldenrodCityStationSignText:
-	text "NHÀ GA"
-	line "TP. GOLDENROD"
+	text "GOLDENROD CITY"
+	line "STATION"
 	done
 
 GoldenrodCityRadioTowerSignText:
-	text "THÁP RADIO"
-	line "TP. GOLDENROD"
+	text "GOLDENROD CITY"
+	line "RADIO TOWER"
 	done
 
 GoldenrodDeptStoreSignText:
-	text "Đầy đủ hàng hóa"
-	line "#MON!"
+	text "Full Selection of"
+	line "#MON Goods!"
 
-	para "TTMT TP. GOLDENROD"
+	para "GOLDENROD CITY"
+	line "DEPT.STORE"
 	done
 
 GoldenrodGymSignText:
-	text "TP. GOLDENROD"
-	line "GYM #MON"
-	cont "T.LĨNH: WHITNEY"
+	text "GOLDENROD CITY"
+	line "#MON GYM"
+	cont "LEADER: WHITNEY"
 
-	para "Cô gái xinh đẹp"
-	line "không thể tin!"
+	para "The Incredibly"
+	line "Pretty Girl!"
 	done
 
 GoldenrodCitySignText:
-	text "TP. GOLDENROD"
+	text "GOLDENROD CITY"
 
-	para "Thành phố lễ hội"
-	line "đầy quyến rũ"
+	para "The Festive City"
+	line "of Opulent Charm"
 	done
 
 GoldenrodCityBikeShopSignText:
-	text "Thế giới là con"
-	line "đường xe đạp!"
-	cont "CỬA HÀNG XE ĐẠP"
+	text "The World is a"
+	line "Cycle Path!"
+	cont "BIKE SHOP"
 	done
 
 GoldenrodCityGameCornerSignText:
-	text "Sân chơi của bạn!"
+	text "Your Playground!"
 
-	para "GÓC GIẢI TRÍ"
-	line "TP. GOLDENROD"
+	para "GOLDENROD CITY"
+	line "GAME CORNER"
 	done
 
 GoldenrodCityNameRaterSignText:
-	text "NGƯỜI ĐÁNH GIÁ"
-	line "TÊN"
+	text "NAME RATER"
 
-	para "Đánh giá biệt"
-	line "danh #MON"
+	para "Get Your #MON"
+	line "Nicknames Rated"
 	done
 
 GoldenrodCityUndergroundSignNorthText:
-	text "LỐI VÀO"
-	line "ĐỊA ĐẠO"
+	text "UNDERGROUND"
+	line "ENTRANCE"
 	done
 
 GoldenrodCityUndergroundSignSouthText:
-	text "LỐI VÀO"
-	line "ĐỊA ĐẠO"
+	text "UNDERGROUND"
+	line "ENTRANCE"
 	done
 
 GoldenrodCityPokeComCenterSignText: ; unreferenced
-	text "Mẹo di động!"
+	text "For Mobile Tips!"
 	line "#COM CENTER"
 	done
 
 GoldenrodCityFlowerShopSignText:
-	text "Nở rộ xinh đẹp"
-	line "CỬA HÀNG HOA"
+	text "Blooming Beautiful"
+	line "FLOWER SHOP"
 	done
 
 GoldenrodCityMoveTutorAskTeachAMoveText:
-	text "Tôi có thể dạy"
-	line "#MON của bạn"
+	text "I can teach your"
+	line "#MON amazing"
 
-	para "chiêu tuyệt vời"
-	line "nếu bạn muốn."
+	para "moves if you'd"
+	line "like."
 
-	para "Tôi dạy chiêu"
-	line "mới nhé?"
+	para "Should I teach a"
+	line "new move?"
 	done
 
 GoldenrodCityMoveTutorAsk4000CoinsOkayText:
-	text "Sẽ tốn 4000 xu."
-	line "Được không?"
+	text "It will cost you"
+	line "4000 coins. Okay?"
 	done
 
 GoldenrodCityMoveTutorAwwButTheyreAmazingText:
-	text "Ôi… Nhưng chúng"
-	line "tuyệt vời lắm…"
+	text "Aww… But they're"
+	line "amazing…"
 	done
 
 GoldenrodCityMoveTutorWhichMoveShouldITeachText:
-	text "Wahahah! Bạn sẽ"
-	line "không hối hận!"
+	text "Wahahah! You won't"
+	line "regret it!"
 
-	para "Tôi dạy chiêu"
-	line "nào đây?"
+	para "Which move should"
+	line "I teach?"
 	done
 
 GoldenrodCityMoveTutorHmTooBadText:
-	text "Hm, tiếc quá. Tôi"
-	line "phải về nhà lấy"
-	cont "tiền thôi…"
+	text "Hm, too bad. I'll"
+	line "have to get some"
+	cont "cash from home…"
 	done
 
 GoldenrodCityMoveTutorIfYouUnderstandYouveMadeItText:
-	text "Nếu bạn hiểu điều"
-	line "tuyệt vời về"
+	text "If you understand"
+	line "what's so amazing"
 
-	para "chiêu này, bạn đã"
-	line "thành HLV giỏi."
+	para "about this move,"
+	line "you've made it as"
+	cont "a trainer."
 	done
 
 GoldenrodCityMoveTutorFarewellKidText:
 	text "Wahahah!"
-	line "Tạm biệt, nhóc!"
+	line "Farewell, kid!"
 	done
 
 GoldenrodCityMoveTutorBButText:
-	text "N-nhưng…"
+	text "B-but…"
 	done
 
 GoldenrodCityMoveTutorYouDontHaveEnoughCoinsText:
-	text "…Bạn không đủ"
-	line "xu ở đây…"
+	text "…You don't have"
+	line "enough coins here…"
 	done
 
 GoldenrodCityMoveTutorMoveText:

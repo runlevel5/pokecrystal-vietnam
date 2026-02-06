@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/rtc/print_hours_mins.asm"
+else
+
 PrintFiveDigitNumber: ; unreferenced
 ; Debug function?
 ; Input: bc = value, de = destination
@@ -61,5 +65,7 @@ PrintHoursMins:
 	call PlaceString
 	ret
 
-String_AM: db "SA@"
-String_PM: db "CH@"
+String_AM: db "AM@"
+String_PM: db "PM@"
+
+endc

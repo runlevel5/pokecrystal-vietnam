@@ -14,16 +14,18 @@ IlexForestAzaleaGateGrannyScript:
 	jumptextfaceplayer IlexForestAzaleaGateGrannyText
 
 IlexForestAzaleaGateOfficerText:
-	text "RỪNG ILEX rất"
-	line "rộng. Cẩn thận"
-	cont "đừng lạc đường."
+	text "ILEX FOREST is"
+	line "big. Be careful!"
+	cont "Don't get lost."
 	done
 
 IlexForestAzaleaGateGrannyText:
-	text "RỪNG được bảo vệ"
-	line "bởi người giám hộ"
+	text "The FOREST is"
+	line "watched over by"
+	cont "its protector."
 
-	para "Đừng gây rối nhé!"
+	para "Stay out of"
+	line "mischief!"
 	done
 
 IlexForestAzaleaGate_MapEvents:

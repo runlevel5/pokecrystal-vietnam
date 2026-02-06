@@ -1,10 +1,10 @@
-	db "BỌ CÁNH CỨNG@" ; species name
-	dw 15, 550 ; height, weight
+	db "STAGBEETLE@" ; species name
+	dw 411, 1210 ; height, weight
 
-	db   "Khi nhiệt độ"
-	next "giảm vào đêm, nó"
-	next "ngủ trên ngọn cây"
+	db   "When the tempera-"
+	next "ture drops at"
+	next "night, it sleeps"
 
-	page "hoặc giữa các rễ"
-	next "cây nơi được"
-	next "che giấu kỹ.@"
+	page "on treetops or"
+	next "among roots where"
+	next "it is well hidden.@"

@@ -74,33 +74,33 @@ GoldenrodDeptStoreB1FUltraBall:
 	itemball ULTRA_BALL
 
 GoldenrodDeptStoreB1FBlackBelt1Text:
-	text "Này, nhóc! Cậu"
-	line "đang cản đường!"
+	text "Hey, kid! You're"
+	line "holding us up!"
 
-	para "Quy định là làm"
-	line "việc ở hậu trường"
+	para "Our policy is to"
+	line "work behind the"
 
-	para "nơi không ai"
-	line "có thể thấy!"
+	para "scenes where no"
+	line "one can see us!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt2Text:
-	text "Anh mất nhiệt"
-	line "huyết làm việc"
-	cont "khi có người nhìn."
+	text "I lose my passion"
+	line "for work if some-"
+	cont "one's watching."
 
-	para "Thôi, nhóc,"
-	line "cút đi!"
+	para "Come on, kid,"
+	line "scoot!"
 	done
 
 GoldenrodDeptStoreB1FBlackBelt3Text:
 	text "Oohah! Oohah!"
 
-	para "Đồ trên sàn là"
-	line "đồ thừa."
+	para "The stuff on the"
+	line "ground's junk."
 
-	para "Lấy nếu cậu"
-	line "muốn!"
+	para "Take it if you"
+	line "want it!"
 	done
 
 GoldenrodDeptStoreB1FMachokeText:

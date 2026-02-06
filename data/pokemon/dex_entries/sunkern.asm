@@ -1,10 +1,10 @@
-	db "HẠT@" ; species name
-	dw 3, 18 ; height, weight
+	db "SEED@" ; species name
+	dw 100, 40 ; height, weight
 
-	db   "Nó rất yếu. Cách"
-	next "tự vệ duy nhất"
-	next "là rung lá một"
+	db   "It is very weak."
+	next "Its only means of"
+	next "defense is to"
 
-	page "cách tuyệt vọng"
-	next "trước kẻ thù.@"
-	next "@"
+	page "shake its leaves"
+	next "desperately at its"
+	next "attacker.@"

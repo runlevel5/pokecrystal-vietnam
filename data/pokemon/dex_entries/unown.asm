@@ -1,10 +1,10 @@
-	db "BIỂU TƯỢNG@" ; species name
-	dw 5, 50 ; height, weight
+	db "SYMBOL@" ; species name
+	dw 108, 110 ; height, weight
 
-	db   "Vì có nhiều loại"
-	next "UNOWN khác nhau,"
-	next "người ta nói"
+	db   "Because different"
+	next "types of UNOWN"
+	next "exist, it is said"
 
-	page "chúng có nhiều"
-	next "khả năng"
-	next "khác nhau.@"
+	page "that they must"
+	next "have a variety of"
+	next "abilities.@"

@@ -1,10 +1,10 @@
-	db "MẶT TRỜI@" ; species name
-	dw 8, 85 ; height, weight
+	db "SUN@" ; species name
+	dw 207, 190 ; height, weight
 
-	db   "Khi mùa nóng đến,"
-	next "cánh hoa trên mặt"
-	next "#MON này trở"
+	db   "As the hot season"
+	next "approaches, the"
+	next "petals on this"
 
-	page "nên rực rỡ và"
-	next "sống động hơn.@"
-	next "@"
+	page "#MON's face"
+	next "become more vivid"
+	next "and lively.@"

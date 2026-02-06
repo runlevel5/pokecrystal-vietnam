@@ -10,11 +10,11 @@ Route42EcruteakGateOfficerScript:
 	jumptextfaceplayer Route42EcruteakGateOfficerText
 
 Route42EcruteakGateOfficerText:
-	text "NÚI MORTAR bên"
-	line "trong như mê cung."
+	text "MT.MORTAR is like"
+	line "a maze inside."
 
-	para "Cẩn thận nhé."
-	line "Đừng lạc đường."
+	para "Be careful. Don't"
+	line "get lost in there."
 	done
 
 Route42EcruteakGate_MapEvents:

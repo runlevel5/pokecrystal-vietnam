@@ -17,19 +17,18 @@ VermilionMagnetTrainSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 VermilionMagnetTrainSpeechHousePokefanFText:
-	text "Bạn có biết về"
-	line "TÀU NAM CHÂM"
-	cont "không?"
+	text "Do you know about"
+	line "the MAGNET TRAIN?"
 
-	para "Đó là tuyến đường"
-	line "sắt đến TP."
-	cont "GOLDENROD ở JOHTO"
+	para "It's a railway"
+	line "that goes to GOL-"
+	cont "DENROD in JOHTO."
 	done
 
 VermilionMagnetTrainSpeechHouseYoungsterText:
-	text "Tôi muốn đến"
-	line "SAFFRON để xem"
-	cont "TÀU NAM CHÂM."
+	text "I want to go to"
+	line "SAFFRON to see"
+	cont "the MAGNET TRAIN."
 	done
 
 VermilionMagnetTrainSpeechHouse_MapEvents:

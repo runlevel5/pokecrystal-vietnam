@@ -1,10 +1,10 @@
-	db "HÌNH SAO@" ; species name
-	dw 3, 30 ; height, weight
+	db "STARSHAPE@" ; species name
+	dw 100, 70 ; height, weight
 
-	db   "Nếu tìm thấy nơi"
-	next "thiên thạch rơi,"
-	next "#MON này chắc"
+	db   "If the impact site"
+	next "of a meteorite is"
+	next "found, this"
 
-	page "chắn ở gần đó.@"
-	next "@"
-	next "@"
+	page "#MON is certain"
+	next "to be within the"
+	next "immediate area.@"

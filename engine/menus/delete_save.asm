@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/delete_save.asm"
+else
+
 _DeleteSaveData:
 	farcall BlankScreen
 	ld b, SCGB_DIPLOMA
@@ -31,5 +35,7 @@ _DeleteSaveData:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "KHÔNG@"
-	db "CÓ@"
+	db "NO@"
+	db "YES@"
+
+endc

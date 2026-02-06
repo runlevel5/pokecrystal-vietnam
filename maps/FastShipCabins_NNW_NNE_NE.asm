@@ -132,41 +132,40 @@ FastShipLazySailorLeavesMovement2:
 	step_end
 
 CooltrainermSeanSeenText:
-	text "Tôi sẽ đi KANTO"
-	line "để thử kỹ năng."
+	text "I'm going to KANTO"
+	line "to test my skills."
 	done
 
 CooltrainermSeanBeatenText:
-	text "Tôi muốn thắng!"
+	text "I wanted to win!"
 	done
 
 CooltrainermSeanAfterBattleText:
-	text "HLV từ JOHTO có"
-	line "thể đấu với"
+	text "Trainers from"
+	line "JOHTO can battle"
 
-	para "T.LĨNH GYM ở"
-	line "KANTO."
+	para "with KANTO GYM"
+	line "LEADERS."
 	done
 
 CooltrainerfCarolSeenText:
-	text "Tôi đang rèn để"
-	line "trở thành VÔ ĐỊCH!"
+	text "I'm training to"
+	line "become the CHAMP!"
 	done
 
 CooltrainerfCarolBeatenText:
-	text "Khác biệt gì giữa"
-	line "chúng ta?"
+	text "What's so differ-"
+	line "ent between us?"
 	done
 
 CooltrainerfCarolAfterBattleText:
-	text "Tôi sẽ đánh bại"
-	line "bạn một ngày nào"
-	cont "đó!"
+	text "I'm going to beat"
+	line "you someday!"
 	done
 
 PokemaniacEthanSeenText:
-	text "Bạn có biết LILY?"
-	line "Nó là DJ nổi ở"
+	text "Do you know LILY?"
+	line "She's a hot DJ in"
 	cont "KANTO."
 	done
 
@@ -175,91 +174,94 @@ PokemaniacEthanBeatenText:
 	done
 
 PokemaniacEthanAfterBattleText:
-	text "LILY tốt, nhưng"
-	line "MARY mới hay nhất!"
+	text "LILY's nice, but"
+	line "MARY's the best!"
 
-	para "Tôi muốn nghe"
-	line "chương trình radio"
-	cont "của JOHTO!"
+	para "I want to check"
+	line "out JOHTO's radio"
+	cont "programs!"
 	done
 
 HikerNolandSeenText:
-	text "Bạn một mình?"
-	line "Hãy đấu đi!"
+	text "Are you alone?"
+	line "Then let's battle!"
 	done
 
 HikerNolandBeatenText:
-	text "Quá khó để xử lý!"
+	text "That's too much to"
+	line "handle!"
 	done
 
 HikerNolandAfterBattleText:
-	text "Không biết có ngọn"
-	line "núi nào đáng leo"
+	text "I wonder if there"
+	line "are any mountains"
 
-	para "ở KANTO không?"
+	para "worth climbing in"
+	line "KANTO?"
 	done
 
 SailorStanlySeenText:
-	text "Ừ, tôi là thủy"
-	line "thủ đúng rồi."
+	text "Yeah, I'm a sail-"
+	line "or, all right."
 
-	para "Tôi không trốn"
-	line "việc đâu!"
+	para "I wasn't goofing"
+	line "off!"
 
-	para "Cabin này trống,"
-	line "nên tôi chỉ ngủ"
-	cont "một chút!"
+	para "This cabin was"
+	line "vacant, so I just"
+	cont "took a quick nap!"
 
-	para "Thôi, quên đi!"
-	line "Đấu thôi!"
+	para "Ah, forget it!"
+	line "Let's battle!"
 	done
 
 SailorStanlyBeatenText:
-	text "Xin lỗi! Lỗi của"
-	line "tôi!"
+	text "Sorry! It's all my"
+	line "fault!"
 	done
 
 SailorStanlyAfterBattleText:
-	text "Làm thủy thủ, tôi"
-	line "phải làm việc"
-	cont "chân tay. Mệt"
-	cont "lắm!"
+	text "Being a sailor, I"
+	line "have to do phys-"
+	cont "ical labor. It's"
+	cont "exhausting!"
 	done
 
 GentlemanEdwardSeenText:
-	text "Ôi không. Tôi mất"
-	line "thứ gì đó rất"
-	cont "quan trọng."
+	text "Oh, no. I've lost"
+	line "something that's"
+	cont "very important."
 	done
 
 GentlemanEdwardBeatenText:
-	text "Tôi… không tìm"
-	line "thấy nó…"
+	text "I… I can't find"
+	line "it…"
 	done
 
 GentlemanEdwardAfterBattleText:
-	text "Tôi bỏ cuộc."
-	line "Bạn không cần"
+	text "I give up."
+	line "You don't have to"
 
-	para "tìm. Quên nó đi!"
+	para "look. Just forget"
+	line "about it!"
 	done
 
 BurglarCoreySeenText:
 	text "Yeehaw!"
-	line "May mắn!"
+	line "Lucky!"
 	done
 
 BurglarCoreyBeatenText:
-	text "Xui xẻo! Tôi"
-	line "thua rồi!"
+	text "How unlucky!"
+	line "I lost!"
 	done
 
 BurglarCoreyAfterBattleText:
-	text "Tôi tìm được đồng"
-	line "xu đẹp ở đây."
+	text "I found a pretty"
+	line "coin here."
 
-	para "Ai đó chắc đã"
-	line "đánh mất nó…"
+	para "Someone must have"
+	line "lost it…"
 	done
 
 FastShipCabins_NNW_NNE_NE_MapEvents:

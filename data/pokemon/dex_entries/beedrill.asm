@@ -1,10 +1,10 @@
-	db "ONG ĐỘC@" ; species name
-	dw 10, 295 ; height, weight
+	db "POISON BEE@" ; species name
+	dw 303, 650 ; height, weight
 
-	db   "Nó dùng ngòi độc"
-	next "sắc nhọn để đánh"
-	next "bại con mồi, rồi"
+	db   "It uses sharp,"
+	next "poisonous stings"
+	next "to defeat prey,"
 
-	page "mang nạn nhân về"
-	next "tổ làm thức ăn.@"
-	next "@"
+	page "then takes the"
+	next "victim back to its"
+	next "nest for food.@"

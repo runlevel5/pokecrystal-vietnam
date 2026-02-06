@@ -52,53 +52,54 @@ Route4HiddenUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_ROUTE_4_HIDDEN_ULTRA_BALL
 
 BirdKeeperHankSeenText:
-	text "Tôi đang nuôi"
-	line "#MON. Muốn đấu"
-	cont "với tôi không?"
+	text "I'm raising my"
+	line "#MON. Want to"
+	cont "battle with me?"
 	done
 
 BirdKeeperHankBeatenText:
-	text "Ack! Tôi thua…"
+	text "Ack! I lost that"
+	line "one…"
 	done
 
 BirdKeeperHankAfterBattleText:
-	text "Nếu bạn có #MON"
-	line "cụ thể muốn nuôi,"
+	text "If you have a"
+	line "specific #MON"
 
-	para "hãy cho nó ra"
-	line "trước, rồi đổi"
+	para "that you want to"
+	line "raise, put it out"
 
-	para "ngay lập tức."
+	para "first, then switch"
+	line "it right away."
 
-	para "Đó là cách để"
-	line "làm việc đó."
+	para "That's how to do"
+	line "it."
 	done
 
 PicnickerHopeSeenText:
-	text "Tôi có cảm giác"
-	line "mình sẽ thắng."
+	text "I have a feeling"
+	line "that I can win."
 
-	para "Xem nào tôi có"
-	line "đúng không!"
+	para "Let's see if I'm"
+	line "right!"
 	done
 
 PicnickerHopeBeatenText:
-	text "Aww, bạn mạnh"
-	line "quá."
+	text "Aww, you are too"
+	line "strong."
 	done
 
 PicnickerHopeAfterBattleText:
-	text "Tôi nghe CLEFAIRY"
-	line "xuất hiện ở"
-	cont "NÚI MẶT TRĂNG."
+	text "I heard CLEFAIRY"
+	line "appear at MT.MOON."
 
-	para "Nhưng chúng ở đâu"
-	line "nhỉ?"
+	para "But where could"
+	line "they be?"
 	done
 
 PicnickerSharonSeenText:
-	text "Ừm…"
-	line "Tôi…"
+	text "Um…"
+	line "I…"
 	done
 
 PicnickerSharonBeatenText:
@@ -106,16 +107,15 @@ PicnickerSharonBeatenText:
 	done
 
 PicnickerSharonAfterBattleText:
-	text "…Tôi sẽ đi luyện"
-	line "tập thêm…"
+	text "……I'll go train"
+	line "some more…"
 	done
 
 MtMoonSquareSignText:
-	text "QUẢNG TRƯỜNG"
-	line "NÚI MẶT TRĂNG"
+	text "MT.MOON SQUARE"
 
-	para "Chỉ cần đi lên"
-	line "cầu thang."
+	para "Just go up the"
+	line "stairs."
 	done
 
 Route4_MapEvents:

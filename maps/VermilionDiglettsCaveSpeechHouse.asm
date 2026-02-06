@@ -10,13 +10,12 @@ VermilionDiglettsCaveSpeechHouseGentlemanScript:
 	jumptextfaceplayer VermilionDiglettsCaveSpeechHouseGentlemanText
 
 VermilionDiglettsCaveSpeechHouseGentlemanText:
-	text "Qua nhiều năm,"
-	line "DIGLETT đã đào"
-	cont "một đường hầm lớn"
+	text "Over many years,"
+	line "DIGLETT dug a"
+	cont "large tunnel."
 
-	para "Đường hầm đó đi"
-	line "đến một thị trấn"
-	cont "xa xôi."
+	para "That tunnel goes"
+	line "to a distant town."
 	done
 
 VermilionDiglettsCaveSpeechHouse_MapEvents:

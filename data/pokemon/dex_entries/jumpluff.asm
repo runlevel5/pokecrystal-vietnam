@@ -1,10 +1,10 @@
-	db "HẠT BÔNG@" ; species name
-	dw 8, 30 ; height, weight
+	db "COTTONWEED@" ; species name
+	dw 207, 70 ; height, weight
 
-	db   "Kể cả trong gió"
-	next "dữ dội, nó có thể"
-	next "điều khiển lông"
+	db   "Even in the fierc-"
+	next "est wind, it can"
+	next "control its fluff"
 
-	page "để bay đến bất"
-	next "kỳ đâu trên"
-	next "thế giới.@"
+	page "to make its way to"
+	next "any place in the"
+	next "world it wants.@"

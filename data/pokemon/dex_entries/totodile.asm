@@ -1,10 +1,10 @@
-	db "HÀM LỚN@" ; species name
-	dw 6, 95 ; height, weight
+	db "BIG JAW@" ; species name
+	dw 200, 210 ; height, weight
 
-	db   "Sinh vật thô bạo"
-	next "này cắn bất cứ"
-	next "vật gì chuyển"
+	db   "This rough critter"
+	next "chomps at any"
+	next "moving object it"
 
-	page "động. Không nên"
-	next "quay lưng lại"
-	next "với nó.@"
+	page "sees. Turning your"
+	next "back on it is not"
+	next "recommended.@"

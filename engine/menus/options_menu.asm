@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/options_menu.asm"
+else
+
 ; GetOptionPointer.Pointers indexes
 	const_def
 	const OPT_TEXT_SPEED    ; 0
@@ -75,21 +79,21 @@ _Option:
 	ret
 
 StringOptions:
-	db "tốc độ chữ<LF>"
-	db "       :<LF>"
-	db "cảnh chiến đấu<LF>"
-	db "       :<LF>"
-	db "kiểu chiến đấu<LF>"
-	db "       :<LF>"
-	db "âm thanh<LF>"
-	db "       :<LF>"
-	db "in ấn<LF>"
-	db "     :<LF>"
-	db "menu tài khoản<LF>"
-	db "       :<LF>"
-	db "khung<LF>"
-	db "        :loại <LF>"
-	db "hủy@"
+	db "TEXT SPEED<LF>"
+	db "        :<LF>"
+	db "BATTLE SCENE<LF>"
+	db "        :<LF>"
+	db "BATTLE STYLE<LF>"
+	db "        :<LF>"
+	db "SOUND<LF>"
+	db "        :<LF>"
+	db "PRINT<LF>"
+	db "        :<LF>"
+	db "MENU ACCOUNT<LF>"
+	db "        :<LF>"
+	db "FRAME<LF>"
+	db "        :TYPE<LF>"
+	db "CANCEL@"
 
 GetOptionPointer:
 	jumptable .Pointers, wJumptableIndex
@@ -152,7 +156,7 @@ Options_TextSpeed:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 10, 3
+	hlcoord 11, 3
 	call PlaceString
 	and a
 	ret
@@ -163,9 +167,9 @@ Options_TextSpeed:
 	dw .Mid
 	dw .Slow
 
-.Fast: db "nhanh@"
-.Mid:  db "vừa  @"
-.Slow: db "chậm @"
+.Fast: db "FAST@"
+.Mid:  db "MID @"
+.Slow: db "SLOW@"
 
 GetTextSpeed:
 ; converts TEXT_DELAY_* value in a to OPT_TEXT_SPEED_* value in c,
@@ -222,13 +226,13 @@ Options_BattleScene:
 	ld de, .Off
 
 .Display:
-	hlcoord 10, 5
+	hlcoord 11, 5
 	call PlaceString
 	and a
 	ret
 
-.On:  db "bật@"
-.Off: db "tắt@"
+.On:  db "ON @"
+.Off: db "OFF@"
 
 Options_BattleStyle:
 	ld hl, wOptions
@@ -260,13 +264,13 @@ Options_BattleStyle:
 	ld de, .Set
 
 .Display:
-	hlcoord 10, 7
+	hlcoord 11, 7
 	call PlaceString
 	and a
 	ret
 
-.Shift: db "ĐỔI  @"
-.Set:   db "GIỮ  @"
+.Shift: db "SHIFT@"
+.Set:   db "SET  @"
 
 Options_Sound:
 	ld hl, wOptions
@@ -305,7 +309,7 @@ Options_Sound:
 	ld de, .Stereo
 
 .Display:
-	hlcoord 10, 9
+	hlcoord 11, 9
 	call PlaceString
 	and a
 	ret
@@ -359,7 +363,7 @@ Options_Print:
 	ld e, [hl]
 	inc hl
 	ld d, [hl]
-	hlcoord 8, 11
+	hlcoord 11, 11
 	call PlaceString
 	and a
 	ret
@@ -372,11 +376,11 @@ Options_Print:
 	dw .Darker
 	dw .Darkest
 
-.Lightest: db "nhạt nhất  @"
-.Lighter:  db "nhạt       @"
-.Normal:   db "bình thường@"
-.Darker:   db "đậm        @"
-.Darkest:  db "đậm nhất   @"
+.Lightest: db "LIGHTEST@"
+.Lighter:  db "LIGHTER @"
+.Normal:   db "NORMAL  @"
+.Darker:   db "DARKER  @"
+.Darkest:  db "DARKEST @"
 
 GetPrinterSetting:
 ; converts GBPRINTER_* value in a to OPT_PRINT_* value in c,
@@ -445,13 +449,13 @@ Options_MenuAccount:
 	ld de, .On
 
 .Display:
-	hlcoord 10, 13
+	hlcoord 11, 13
 	call PlaceString
 	and a
 	ret
 
-.Off: db "tắt@"
-.On:  db "bật@"
+.Off: db "OFF@"
+.On:  db "ON @"
 
 Options_Frame:
 	ld hl, wTextboxFrame
@@ -558,3 +562,5 @@ Options_UpdateCursorPosition:
 	call AddNTimes
 	ld [hl], '▶'
 	ret
+
+endc

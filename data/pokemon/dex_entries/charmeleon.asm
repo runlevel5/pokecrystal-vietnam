@@ -1,10 +1,10 @@
-	db "NGỌN LỬA@" ; species name
-	dw 11, 190 ; height, weight
+	db "FLAME@" ; species name
+	dw 307, 420 ; height, weight
 
-	db   "Nếu bị kích động"
-	next "trong trận đấu,"
-	next "nó phun ra lửa"
+	db   "If it becomes"
+	next "agitated during"
+	next "battle, it spouts"
 
-	page "dữ dội, thiêu rụi"
-	next "mọi thứ xung"
-	next "quanh.@"
+	page "intense flames,"
+	next "incinerating its"
+	next "surroundings.@"

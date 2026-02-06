@@ -76,150 +76,147 @@ LavRadioTower1FReferenceLibrary: ; unreferenced
 	jumptext LavRadioTower1FReferenceLibraryText
 
 LavRadioTower1FReceptionistText:
-	text "Chào mừng!"
-	line "Cứ tự nhiên tham"
+	text "Welcome!"
+	line "Feel free to look"
 
-	para "quan bất kỳ đâu ở"
-	line "tầng này."
+	para "around anywhere on"
+	line "this floor."
 	done
 
 LavRadioTower1FOfficerText:
-	text "Xin lỗi, nhưng bạn"
-	line "chỉ được tham quan"
-	cont "tầng trệt."
+	text "Sorry, but you can"
+	line "only tour the"
+	cont "ground floor."
 
-	para "Kể từ khi THÁP"
-	line "RADIO của JOHTO bị"
+	para "Ever since JOHTO's"
+	line "RADIO TOWER was"
 
-	para "băng đảng tội phạm"
-	line "chiếm đóng, chúng"
+	para "taken over by a"
+	line "criminal gang, we"
 
-	para "tôi đã phải tăng"
-	line "cường an ninh."
+	para "have had to step"
+	line "up our security."
 	done
 
 LavRadioTower1FSuperNerd1Text:
-	text "Nhiều người đang"
-	line "làm việc chăm chỉ"
+	text "Many people are"
+	line "hard at work here"
 
-	para "tại THÁP RADIO."
+	para "in the RADIO"
+	line "TOWER."
 
-	para "Họ chắc đang cố"
-	line "gắng hết sức để có"
-	cont "chương trình hay."
+	para "They must be doing"
+	line "their best to put"
+	cont "on good shows."
 	done
 
 LavRadioTower1FGentlemanText:
-	text "Ôi, không, không!"
+	text "Oh, no, no, no!"
 
-	para "Chúng tôi đã ngừng"
-	line "phát sóng kể từ"
+	para "We've been off the"
+	line "air ever since the"
 
-	para "khi NHÀ MÁY ĐIỆN"
-	line "ngừng hoạt động."
+	para "POWER PLANT shut"
+	line "down."
 
-	para "Mọi nỗ lực của"
-	line "tôi để khởi động"
+	para "All my efforts to"
+	line "start this station"
 
-	para "đài này sẽ công"
-	line "cốc nếu tôi không"
+	para "would be wasted if"
+	line "I can't broadcast."
 
-	para "thể phát sóng."
-
-	para "Tôi sẽ tan nát"
-	line "mất!"
+	para "I'll be ruined!"
 	done
 
 LavRadioTower1FGentlemanText_ReturnedMachinePart:
-	text "À! Vậy bạn là"
-	line "<PLAY_G> đã giải"
+	text "Ah! So you're the"
+	line "<PLAY_G> who solved"
 
-	para "quyết vấn đề của"
-	line "NHÀ MÁY ĐIỆN?"
+	para "the POWER PLANT's"
+	line "problem?"
 
-	para "Nhờ bạn, tôi không"
-	line "bao giờ mất việc."
+	para "Thanks to you, I"
+	line "never lost my job."
 
-	para "Tôi nói thật, bạn"
-	line "là cứu tinh!"
+	para "I tell you, you're"
+	line "a real lifesaver!"
 
-	para "Hãy nhận cái này"
-	line "để tôi cảm ơn."
+	para "Please take this"
+	line "as my thanks."
 	done
 
 LavRadioTower1FGentlemanText_GotExpnCard:
-	text "Với cái đó, bạn"
-	line "có thể bắt được"
+	text "With that thing,"
+	line "you can tune into"
 
-	para "các chương trình"
-	line "radio ở KANTO."
+	para "the radio programs"
+	line "here in KANTO."
 
 	para "Gahahahaha!"
 	done
 
 LavRadioTower1FSuperNerd2Text:
-	text "Chào bạn!"
+	text "Hey there!"
 
-	para "Tôi là GIÁM ĐỐC"
-	line "ÂM NHẠC siêu đẳng!"
+	para "I am the super"
+	line "MUSIC DIRECTOR!"
 
-	para "Hả? #GEAR của"
-	line "bạn không bắt được"
+	para "Huh? Your #GEAR"
+	line "can't tune into my"
 
-	para "chương trình âm"
-	line "nhạc của tôi à."
+	para "music programs."
+	line "How unfortunate!"
 
-	para "Thật đáng tiếc!"
+	para "If you get an EXPN"
+	line "CARD upgrade, you"
 
-	para "Nếu bạn nâng cấp"
-	line "EXPN CARD, bạn sẽ"
-
-	para "bắt được. Tốt nhất"
-	line "là lấy một cái!"
+	para "can tune in. You'd"
+	line "better get one!"
 	done
 
 LavRadioTower1FSuperNerd2Text_GotExpnCard:
-	text "Chào bạn!"
+	text "Hey there!"
 
-	para "Tôi là GIÁM ĐỐC"
-	line "ÂM NHẠC siêu đẳng!"
+	para "I am the super"
+	line "MUSIC DIRECTOR!"
 
-	para "Tôi chịu trách"
-	line "nhiệm về những"
+	para "I'm responsible"
+	line "for the gorgeous"
 
-	para "giai điệu tuyệt"
-	line "đẹp phát trên sóng"
+	para "melodies that go"
+	line "out over the air."
 
-	para "Đừng lỗi thời."
-	line "Nghe nhạc của tôi"
-	cont "trên sóng đi!"
+	para "Don't be square."
+	line "Grab your music"
+	cont "off the air!"
 	done
 
 LavRadioTower1FDirectoryText:
-	text "1F TIẾP TÂN"
-	line "2F BÁN HÀNG"
+	text "1F RECEPTION"
+	line "2F SALES"
 
-	para "3F NHÂN SỰ"
-	line "4F SẢN XUẤT"
+	para "3F PERSONNEL"
+	line "4F PRODUCTION"
 
-	para "5F VĂN PHÒNG"
-	line "   GIÁM ĐỐC"
+	para "5F DIRECTOR'S"
+	line "   OFFICE"
 	done
 
 LavRadioTower1FPokeFluteSignText:
-	text "Làm #MON Tỉnh"
-	line "Táo Với Âm Thanh"
+	text "Perk Up #MON"
+	line "with Mellow Sounds"
 
-	para "Êm Dịu Của #"
-	line "FLUTE Ở KÊNH 20"
+	para "of the # FLUTE"
+	line "on CHANNEL 20"
 	done
 
 LavRadioTower1FReferenceLibraryText:
-	text "Wow! Đầy đủ CD"
-	line "và video #MON."
+	text "Wow! A full rack"
+	line "of #MON CDs and"
+	cont "videos."
 
-	para "Đây chắc là thư"
-	line "viện tham khảo."
+	para "This must be the"
+	line "reference library."
 	done
 
 LavRadioTower1F_MapEvents:

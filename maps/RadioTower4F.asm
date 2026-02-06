@@ -104,43 +104,44 @@ RadioTower4FStudio2Sign:
 	jumptext RadioTower4FStudio2SignText
 
 RadioTower4FFisherText:
-	text "Tôi nghe radio"
-	line "khi ở TÀN TÍCH."
+	text "I listened to the"
+	line "radio while I was"
+	cont "at the RUINS."
 
-	para "Tôi nghe một"
-	line "chương trình lạ"
-	cont "ở đó."
+	para "I heard a strange"
+	line "broadcast there."
 	done
 
 RadioTower4FDJMaryText:
-	text "MARY: Tại sao? Tại"
-	line "sao tôi phải chịu"
-	cont "đựng điều này?"
+	text "MARY: Why? Why do"
+	line "I have to suffer"
+	cont "through this?"
 
-	para "MEOWTH, giúp tôi!"
+	para "MEOWTH, help me!"
 	done
 
 RadioTower4FDJMaryText_ClearedRockets:
-	text "MARY: Ồ! Bạn là"
-	line "vị cứu tinh nhỏ!"
+	text "MARY: Oh! You're"
+	line "my little savior!"
 
-	para "Bạn nhận cái này"
-	line "làm lời cảm ơn?"
+	para "Will you take this"
+	line "as my thanks?"
 	done
 
 RadioTower4FDJMaryText_GivePinkBow:
-	text "MARY: Nó phù hợp"
-	line "cho #MON biết"
+	text "MARY: It's just"
+	line "right for #MON"
 
-	para "chiêu hệ thường."
+	para "that know normal-"
+	line "type moves."
 	done
 
 RadioTower4FDJMaryText_After:
-	text "MARY: Hãy theo dõi"
-	line "tôi trên chương"
+	text "MARY: Please tune"
+	line "into me on PROF."
 
-	para "trình GS.OAK'S"
-	line "#MON TALK."
+	para "OAK'S #MON TALK"
+	line "show."
 	done
 
 RadioTowerMeowthText:
@@ -148,97 +149,94 @@ RadioTowerMeowthText:
 	done
 
 GruntM10SeenText:
-	text "Mày định cứu"
-	line "GIÁM ĐỐC hả?"
+	text "You plan to rescue"
+	line "the DIRECTOR?"
 
-	para "Không thể được"
-	line "vì tao sẽ đánh"
-	cont "bại mày!"
+	para "That won't be pos-"
+	line "sible because I'm"
+	cont "going to beat you!"
 	done
 
 GruntM10BeatenText:
-	text "Không! Không thể!"
+	text "No! Unbelievable!"
 	done
 
 GruntM10AfterBattleText:
-	text "Tao không tin"
-	line "nổi! Tao thua rồi!"
+	text "I don't believe"
+	line "it! I was beaten!"
 	done
 
 Executivem2SeenText:
-	text "Dừng lại! Tao nổi"
-	line "tiếng là pháo đài"
-	cont "ĐỘI ROCKET!"
+	text "Stop! I'm known as"
+	line "the TEAM ROCKET"
+	cont "fortress!"
 
-	para "Mày không thể"
-	line "tiến thêm bước!"
+	para "You're not taking"
+	line "another step!"
 	done
 
 Executivem2BeatenText:
-	text "Pháo đài đã sụp"
-	line "đổ!"
+	text "The fortress came"
+	line "down!"
 	done
 
 Executivem2AfterBattleText:
-	text "Mày đã giành được"
-	line "sự tôn trọng,"
-	cont "nên đây là lời"
-	cont "khuyên."
+	text "You've earned my"
+	line "respect, so here's"
+	cont "some advice."
 
-	para "Chưa muộn đâu."
-	line "Mày vẫn có thể"
-	cont "quay lại."
+	para "It's not too late."
+	line "You can still turn"
+	cont "back."
 	done
 
 GruntF4SeenText:
-	text "Tao có nghĩ"
-	line "#MON dễ thương"
-	cont "không á?"
+	text "Don't I think"
+	line "#MON are cute?"
 
-	para "Tao sẽ nghĩ #-"
-	line "MON của tao dễ"
+	para "I'll think my"
+	line "#MON are cute--"
 
-	para "thương--sau khi"
-	line "chúng đánh bại"
-	cont "của mày!"
+	para "after they beat"
+	line "yours!"
 	done
 
 GruntF4BeatenText:
-	text "Ồ, không! Chúng"
-	line "thật vô dụng!"
+	text "Oh, no! They're so"
+	line "useless!"
 	done
 
 GruntF4AfterBattleText:
-	text "Tao yêu bản thân"
-	line "xinh đẹp của tao!"
+	text "I love my"
+	line "beautiful self!"
 
-	para "Ai quan tâm đến"
-	line "#MON chứ?"
+	para "Who cares about"
+	line "#MON?"
 	done
 
 ScientistRichSeenText:
-	text "Tuyệt vời."
+	text "Most excellent."
 
-	para "THÁP RADIO này"
-	line "sẽ thực hiện kế"
-	cont "hoạch vĩ đại."
+	para "This RADIO TOWER"
+	line "will fulfill our"
+	cont "grand design."
 	done
 
 ScientistRichBeatenText:
 	text "Hmmm…"
 
-	para "Mọi kế hoạch lớn"
-	line "đều có trở ngại."
+	para "All grand plans"
+	line "come with snags."
 	done
 
 ScientistRichAfterBattleText:
-	text "Mày thật sự tin"
-	line "mày có thể ngăn"
-	cont "ĐỘI ROCKET sao?"
+	text "Do you honestly"
+	line "believe you can"
+	cont "stop TEAM ROCKET?"
 	done
 
 RadioTower4FProductionSignText:
-	text "4F SẢN XUẤT"
+	text "4F PRODUCTION"
 	done
 
 RadioTower4FStudio2SignText:

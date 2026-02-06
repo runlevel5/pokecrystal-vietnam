@@ -1,10 +1,10 @@
-	db "MỎ@" ; species name
-	dw 12, 380 ; height, weight
+	db "BEAK@" ; species name
+	dw 311, 840 ; height, weight
 
-	db   "Nó dùng mỏ dài"
-	next "để tấn công. Tầm"
-	next "với của nó rất"
+	db   "It uses its long"
+	next "beak to attack. It"
+	next "has a surprisingly"
 
-	page "xa, nên cần phải"
-	next "cẩn thận khi"
-	next "đối mặt.@"
+	page "long reach, so it"
+	next "must be treated"
+	next "with caution.@"

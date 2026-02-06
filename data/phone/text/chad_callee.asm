@@ -1,78 +1,78 @@
 ChadAnswerPhoneText:
-	text "A lô, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Chào, <PLAY_G>!"
-	line "Chào buổi sáng!"
+	para "Hi, <PLAY_G>!"
+	line "Good morning!"
 	done
 
 ChadAnswerPhoneDayText:
-	text "A lô, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Chào, <PLAY_G>,"
-	line "chào ngày mới!"
+	para "Hi, <PLAY_G>, good"
+	line "day!"
 	done
 
 ChadAnswerPhoneNiteText:
-	text "A lô, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Chào, <PLAY_G>,"
-	line "chào buổi tối!"
+	para "Hi, <PLAY_G>, good"
+	line "evening!"
 	done
 
 ChadGreetText:
-	text "Chào, <PLAY_G>,"
-	line "chào buổi sáng!"
+	text "Hi, <PLAY_G>, good"
+	line "morning!"
 
-	para "Đây là @"
+	para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu thế nào?"
+	line "How are you?"
 	done
 
 ChadGreetDayText:
-	text "Chào, <PLAY_G>,"
-	line "chào ngày mới!"
+	text "Hi, <PLAY_G>, good"
+	line "day!"
 
-	para "Đây là @"
+	para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu thế nào?"
+	line "How are you?"
 	done
 
 ChadGreetNiteText:
-	text "Chào, <PLAY_G>,"
-	line "chào buổi tối!"
+	text "Hi, <PLAY_G>, good"
+	line "evening!"
 
-	para "Đây là @"
+	para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu thế nào?"
+	line "How are you?"
 	done
 
 ChadGenericText:
-	text "#MON của cậu"
-	line "sao rồi?"
+	text "How are your"
+	line "#MON doing?"
 
-	para "Cậu biết GS OAK,"
-	line "nên tất nhiên"
-	cont "#MON cậu tốt!"
+	para "You know PROF.OAK,"
+	line "so of course your"
+	cont "#MON are fine!"
 
-	para "#MON của tớ"
-	line "cũng tốt."
+	para "My #MON are"
+	line "doing well too."
 
-	para "Nhưng thế thôi, tớ"
-	line "cố trở thành nhà"
+	para "But then, I am"
+	line "trying to become a"
 
-	para "nghiên cứu #MON"
-	line "nên không nên quá"
-	cont "ngạc nhiên."
+	para "#MON professor,"
+	line "so that shouldn't"
+	cont "be a big surprise."
 	done

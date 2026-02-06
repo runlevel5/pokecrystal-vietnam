@@ -1,10 +1,10 @@
-	db "CHUỘT NHỎ@" ; species name
-	dw 3, 20 ; height, weight
+	db "TINY MOUSE@" ; species name
+	dw 100, 40 ; height, weight
 
-	db   "Nó không giỏi"
-	next "trữ điện. Bất kỳ"
-	next "cú sốc nào cũng"
+	db   "It is unskilled at"
+	next "storing electric"
+	next "power. Any kind of"
 
-	page "khiến nó phóng"
-	next "điện tự phát.@"
-	next "@"
+	page "shock causes it to"
+	next "discharge energy"
+	next "spontaneously.@"

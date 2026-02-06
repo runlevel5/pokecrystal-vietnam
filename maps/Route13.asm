@@ -78,25 +78,25 @@ Route13HiddenCalcium:
 	hiddenitem CALCIUM, EVENT_ROUTE_13_HIDDEN_CALCIUM
 
 PokefanmAlexSeenText:
-	text "Quỳ xuống trước"
-	line "#MON hoàng gia!"
+	text "Bow down before my"
+	line "regal #MON!"
 	done
 
 PokefanmAlexBeatenText:
-	text "Sao… Sao dám cười"
-	line "nhạo hoàng tộc!"
+	text "How… How dare you"
+	line "mock royalty!"
 	done
 
 PokefanmAlexAfterBattleText:
-	text "Mọi người đều"
-	line "mơ ước trở thành"
-	cont "vua, phải không?"
+	text "Doesn't everyone"
+	line "wish to someday be"
+	cont "a king?"
 	done
 
 PokefanmJoshuaSeenText:
-	text "Nihihi! Muốn đấu"
-	line "với băng đảng"
-	cont "PIKACHU không?"
+	text "Nihihi! Would you"
+	line "like to battle my"
+	cont "PIKACHU gang?"
 	done
 
 PokefanmJoshuaBeatenText:
@@ -104,90 +104,89 @@ PokefanmJoshuaBeatenText:
 	done
 
 PokefanmJoshuaAfterBattleText:
-	text "Trông bạn có nhiều"
-	line "#MON,"
+	text "You look like you"
+	line "have many #MON,"
 
-	para "nhưng PIKACHU vẫn"
-	line "là tốt nhất."
+	para "but PIKACHU is"
+	line "still the best."
 	done
 
 BirdKeeperPerrySeenText:
-	text "Nhanh nhẹn là đặc"
-	line "điểm chính của"
-	cont "#MON chim."
+	text "Agility is the key"
+	line "attribute of bird"
+	cont "#MON."
 	done
 
 BirdKeeperPerryBeatenText:
-	text "Bạn đánh bại tôi"
-	line "bằng tốc độ…"
+	text "You beat me with"
+	line "your speed…"
 	done
 
 BirdKeeperPerryAfterBattleText:
-	text "#MON của bạn"
-	line "được huấn luyện"
-	cont "rất tốt."
+	text "Your #MON are"
+	line "remarkably well-"
+	cont "trained."
 	done
 
 BirdKeeperBretSeenText:
-	text "Hãy xem #MON"
-	line "của tôi. Nhìn màu"
+	text "Check out my #-"
+	line "MON. Just look at"
 
-	para "sắc và bộ lông"
-	line "của chúng."
+	para "their coloring and"
+	line "their plumage."
 	done
 
 BirdKeeperBretBeatenText:
-	text "Trời!"
-	line "Chưa đủ tốt!"
+	text "Shoot!"
+	line "Not good enough!"
 	done
 
 BirdKeeperBretAfterBattleText:
-	text "Nếu bạn chăm sóc"
-	line "chúng, #MON sẽ"
-	cont "vui vẻ."
+	text "If you groom them,"
+	line "#MON get happy."
 	done
 
 HikerKennySeenText:
-	text "Tôi nên đến ĐƯỜNG"
-	line "HẦM ĐÁ để tìm"
-	cont "ONIX."
+	text "I should go to"
+	line "ROCK TUNNEL to get"
+	cont "myself an ONIX."
 	done
 
 HikerKennyBeatenText:
-	text "Tôi thua…"
+	text "I lost…"
 	done
 
 HikerKennyAfterBattleText:
-	text "Đặc điểm địa chất"
-	line "có vẻ không thay"
-	cont "đổi."
+	text "Geological fea-"
+	line "tures don't appear"
+	cont "to change."
 
-	para "Nhưng chúng thực"
-	line "sự thay đổi,"
-	cont "từng chút một."
+	para "But they actually"
+	line "change, little by"
+	cont "little."
 	done
 
 Route13TrainerTipsText:
-	text "MẸO HLV"
+	text "TRAINER TIPS"
 
-	para "Nhìn kìa! Ngay"
-	line "đó, bên trái của"
-	cont "cột biển."
+	para "Look! Right there,"
+	line "at the left side"
+	cont "of the post."
 	done
 
 Route13SignText:
-	text "TUYẾN ĐƯỜNG 13"
+	text "ROUTE 13"
 
-	para "ĐI BẮC ĐẾN"
-	line "CẦU SILENCE"
+	para "NORTH TO SILENCE"
+	line "BRIDGE"
 	done
 
 Route13DirectionsSignText:
-	text "ĐI BẮC ĐẾN THỊ"
-	line "TRẤN LAVENDER"
+	text "NORTH TO LAVENDER"
+	line "TOWN"
 
-	para "ĐI TÂY ĐẾN"
-	line "TP. FUCHSIA"
+	para "WEST TO FUCHSIA"
+	line "CITY"
 	done
 
 Route13_MapEvents:

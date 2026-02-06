@@ -1,10 +1,10 @@
-	db "GHIM ĐỘC@" ; species name
-	dw 4, 70 ; height, weight
+	db "POISON PIN@" ; species name
+	dw 104, 150 ; height, weight
 
-	db   "Nhỏ và rất ngoan,"
-	next "nó tự bảo vệ"
-	next "bằng sừng độc"
+	db   "Small and very"
+	next "docile, it pro-"
+	next "tects itself with"
 
-	page "nhỏ khi bị"
-	next "tấn công.@"
-	next "@"
+	page "its small, poison-"
+	next "ous horn when"
+	next "attacked.@"

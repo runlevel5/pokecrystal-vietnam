@@ -1,10 +1,10 @@
-	db "NGOẠI CẢM@" ; species name
-	dw 9, 195 ; height, weight
+	db "PSI@" ; species name
+	dw 211, 430 ; height, weight
 
-	db   "Nó tự thôi miên"
-	next "để có thể dịch"
-	next "chuyển tức thời"
+	db   "It hypnotizes"
+	next "itself so that it"
+	next "can teleport away"
 
-	page "khi cảm thấy nguy"
-	next "hiểm, kể cả"
-	next "khi đang ngủ.@"
+	page "when it senses"
+	next "danger, even"
+	next "if it is asleep.@"

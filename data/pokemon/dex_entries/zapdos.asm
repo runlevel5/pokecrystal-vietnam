@@ -1,10 +1,10 @@
-	db "ĐIỆN@" ; species name
-	dw 16, 526 ; height, weight
+	db "ELECTRIC@" ; species name
+	dw 503, 1160 ; height, weight
 
-	db   "#MON chim huyền"
-	next "thoại. Sét do"
-	next "tiếng vỗ cánh của"
+	db   "Legendary bird"
+	next "#MON. They say"
+	next "lightning caused"
 
-	page "nó gây ra bão"
-	next "mùa hè.@"
-	next "@"
+	page "by the flapping of"
+	next "its wings causes"
+	next "summer storms.@"

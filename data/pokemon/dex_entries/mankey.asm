@@ -1,10 +1,10 @@
-	db "KHỈ LỢN@" ; species name
-	dw 5, 280 ; height, weight
+	db "PIG MONKEY@" ; species name
+	dw 108, 620 ; height, weight
 
-	db   "Nó sống theo bầy"
-	next "trên ngọn cây."
-	next "Nếu mất dấu đàn,"
+	db   "It lives in groups"
+	next "in the treetops."
+	next "If it loses sight"
 
-	page "nó sẽ nổi điên"
-	next "vì sự"
-	next "cô đơn.@"
+	page "of its group, it"
+	next "becomes infuriated"
+	next "by its loneliness.@"

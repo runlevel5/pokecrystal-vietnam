@@ -1,67 +1,68 @@
 DanaAnswerPhoneText:
-	text "Chào, @"
+	text "Hi, @"
 	text_ram wStringBuffer3
-	text " trên"
-	line "dây."
+	text " on the"
+	line "line."
 
-	para "Này! <PLAY_G> đây!"
+	para "Hey! It's <PLAY_G>!"
 	done
 
 DanaAnswerPhoneDayText:
-	text "Chào, @"
+	text "Hi, @"
 	text_ram wStringBuffer3
-	text " trên"
-	line "dây."
+	text " on the"
+	line "line."
 
-	para "Tớ biết!"
-	line "<PLAY_G> đây!"
+	para "I know!"
+	line "It's <PLAY_G>!"
 	done
 
 DanaAnswerPhoneNiteText:
-	text "Chào, @"
+	text "Hi, @"
 	text_ram wStringBuffer3
-	text " trên"
-	line "dây."
+	text " on the"
+	line "line."
 
 	para "<PLAY_G>?"
-	line "Có chuyện gì?"
+	line "What's up?"
 	done
 
 DanaGreetText:
-	text "Ừm, <PLAY_G>?"
+	text "Uh, <PLAY_G>?"
 
-	para "Tớ đây!"
-	line "Tớ đây, @"
+	para "It's me!"
+	line "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGreetDayText:
-	text "Ừm, <PLAY_G>?"
+	text "Uh, <PLAY_G>?"
 
-	para "Tớ đây!"
-	line "Tớ đây, @"
+	para "It's me!"
+	line "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGreetNiteText:
-	text "Ừm, <PLAY_G>?"
+	text "Uh, <PLAY_G>?"
 
-	para "Tớ đây!"
-	line "Tớ đây, @"
+	para "It's me!"
+	line "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 DanaGenericText:
-	text "@"
+	text "My @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "đầy năng lượng,"
+	text " is"
+	line "so full of energy,"
 
-	para "hơi đáng sợ."
+	para "it's a little"
+	line "scary."
 
-	para "#MON của cậu"
-	line "sao rồi?"
+	para "How are your"
+	line "#MON doing?"
 	done

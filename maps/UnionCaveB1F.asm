@@ -66,11 +66,12 @@ UnionCaveB1FBoulder:
 	jumpstd StrengthBoulderScript
 
 HikerPhillipSeenText:
-	text "Lâu rồi mới gặp"
-	line "người khác."
+	text "It's been a while"
+	line "since I last saw"
+	cont "another person."
 
-	para "Đừng ngại."
-	line "Đấu đi!"
+	para "Don't be shy."
+	line "Let's battle!"
 	done
 
 HikerPhillipBeatenText:
@@ -78,73 +79,75 @@ HikerPhillipBeatenText:
 	done
 
 HikerPhillipAfterBattleText:
-	text "Tôi bị lạc lâu"
-	line "rồi…"
+	text "I've been lost for"
+	line "a long time…"
 
-	para "Tôi không phiền,"
-	line "nhưng tôi đói"
-	cont "quáááá!"
+	para "I don't mind it"
+	line "here, but I am"
+	cont "soooo hungry!"
 	done
 
 HikerLeonardSeenText:
-	text "Ồ hay! Có khách!"
+	text "What do you know!"
+	line "A visitor!"
 	done
 
 HikerLeonardBeatenText:
-	text "Wahahah! Bạn khá"
-	line "dữ đấy!"
+	text "Wahahah! You're a"
+	line "feisty one!"
 	done
 
 HikerLeonardAfterBattleText:
-	text "Tôi sống ở đây."
+	text "I live down here."
 
-	para "Bạn cũng có thể"
-	line "ở nếu muốn."
+	para "You can, too, if"
+	line "you'd like."
 
-	para "Chỗ rộng lắm"
-	line "mà."
+	para "There's plenty of"
+	line "room, you see."
 	done
 
 PokemaniacAndrewSeenText:
-	text "Ai đó?"
+	text "Who's there?"
 
-	para "Để tôi và #MON"
-	line "yên!"
+	para "Leave me and my"
+	line "#MON alone!"
 	done
 
 PokemaniacAndrewBeatenText:
-	text "Đi…"
-	line "Đi chỗ khác đi!"
+	text "Go…"
+	line "Go away!"
 	done
 
 PokemaniacAndrewAfterBattleText:
-	text "Chỉ có tôi và"
-	line "#MON. Tôi sung"
-	cont "sướng điên lên."
+	text "Just me and my"
+	line "#MON. I'm de-"
+	cont "lirious with joy."
 	done
 
 PokemaniacCalvinSeenText:
-	text "Tôi đến đây để"
-	line "nghiên cứu #-"
-	cont "MON."
+	text "I came all the way"
+	line "here to conduct my"
+	cont "#MON research."
 
-	para "Để tôi trình diễn"
-	line "phát hiện trong"
-	cont "trận đấu thật!"
+	para "Let me demonstrate"
+	line "my findings in a"
+	cont "real battle!"
 	done
 
 PokemaniacCalvinBeatenText:
-	text "Bạn trình diễn"
-	line "trên tôi rồi!"
+	text "You demonstrated"
+	line "on me!"
 	done
 
 PokemaniacCalvinAfterBattleText:
-	text "Tôi nên biên soạn"
-	line "và công bố kết"
-	cont "quả nghiên cứu."
+	text "I should compile"
+	line "and announce my"
+	cont "study findings."
 
-	para "Tôi có thể nổi"
-	line "tiếng như GS ELM."
+	para "I might even be-"
+	line "come famous like"
+	cont "PROF.ELM."
 	done
 
 UnionCaveB1F_MapEvents:

@@ -1,10 +1,10 @@
-	db "ẨU ĐẢ@" ; species name
-	dw 7, 210 ; height, weight
+	db "SCUFFLE@" ; species name
+	dw 204, 460 ; height, weight
 
-	db   "Để rèn kỹ năng"
-	next "chiến đấu, nó sẽ"
-	next "thách đấu bất cứ"
+	db   "To brush up on its"
+	next "fighting skills,"
+	next "it will challenge"
 
-	page "ai. Nó có tinh"
-	next "thần cạnh tranh"
-	next "rất mạnh.@"
+	page "anyone. It has a"
+	next "very strong com-"
+	next "petitive spirit.@"

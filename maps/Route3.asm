@@ -57,77 +57,77 @@ Route3MtMoonSquareSign:
 	jumptext Route3MtMoonSquareSignText
 
 FirebreatherOtisSeenText:
-	text "À! Thời tiết đẹp"
-	line "như mọi khi."
+	text "Ah! The weather's"
+	line "as fine as ever."
 	done
 
 FirebreatherOtisBeatenText:
-	text "Trời nắng, nhưng"
-	line "tôi ướt hết…"
+	text "It's sunny, but"
+	line "I'm all wet…"
 	done
 
 FirebreatherOtisAfterBattleText:
-	text "Khi trời mưa,"
-	line "khó châm lửa…"
+	text "When it rains,"
+	line "it's hard to get"
+	cont "ignition…"
 	done
 
 YoungsterWarrenSeenText:
-	text "Hmmm… Tôi không"
-	line "biết phải làm gì…"
+	text "Hmmm… I don't know"
+	line "what to do…"
 	done
 
 YoungsterWarrenBeatenText:
-	text "Tôi biết mình sẽ"
-	line "thua…"
+	text "I knew I'd lose…"
 	done
 
 YoungsterWarrenAfterBattleText:
-	text "Bạn trông mạnh."
+	text "You looked strong."
 
-	para "Tôi sợ đấu với"
-	line "bạn…"
+	para "I was afraid to"
+	line "take you on…"
 	done
 
 YoungsterJimmySeenText:
-	text "Tôi chạy nhanh như"
-	line "gió!"
+	text "I can run like the"
+	line "wind!"
 	done
 
 YoungsterJimmyBeatenText:
-	text "Bay mất rồi!"
+	text "Blown away!"
 	done
 
 YoungsterJimmyAfterBattleText:
-	text "Tôi mặc quần đùi"
-	line "quanh năm."
+	text "I wear shorts the"
+	line "whole year round."
 
-	para "Đó là phong cách"
-	line "của tôi."
+	para "That's my fashion"
+	line "policy."
 	done
 
 FirebreatherBurtSeenText:
-	text "Bước lại đây và"
-	line "xem nào!"
+	text "Step right up and"
+	line "take a look!"
 	done
 
 FirebreatherBurtBeatenText:
-	text "Úi! Nóng quá!"
+	text "Yow! That's hot!"
 	done
 
 FirebreatherBurtAfterBattleText:
-	text "Người phun lửa vĩ"
-	line "đại nhất KANTO,"
-	cont "đó là tôi."
+	text "The greatest fire-"
+	line "breather in KANTO,"
+	cont "that's me."
 
-	para "Nhưng không phải"
-	line "HLV giỏi nhất…"
+	para "But not the best"
+	line "trainer…"
 	done
 
 Route3MtMoonSquareSignText:
-	text "QUẢNG TRƯỜNG"
-	line "NÚI MẶT TRĂNG"
+	text "MT.MOON SQUARE"
 
-	para "Đi lên cầu thang."
+	para "Just go up the"
+	line "stairs."
 	done
 
 Route3_MapEvents:

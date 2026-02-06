@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/start_menu.asm"
+else
+
 ; StartMenu.Items indexes
 	const_def
 	const STARTMENUITEM_POKEDEX  ; 0
@@ -188,49 +192,49 @@ StartMenu::
 
 .PokedexString:  db "#DEX@"
 .PartyString:    db "#MON@"
-.PackString:     db "BA LÔ@"
+.PackString:     db "PACK@"
 .StatusString:   db "<PLAYER>@"
-.SaveString:     db "LƯU@"
-.OptionString:   db "T.CHỌN@"
-.ExitString:     db "THOÁT@"
+.SaveString:     db "SAVE@"
+.OptionString:   db "OPTION@"
+.ExitString:     db "EXIT@"
 .PokegearString: db "<POKE>GEAR@"
-.QuitString:     db "THOÁT@"
+.QuitString:     db "QUIT@"
 
 .PokedexDesc:
-	db   "Từ điển"
-	next "#MON@"
+	db   "#MON"
+	next "database@"
 
 .PartyDesc:
-	db   "T.thái đội"
-	next "#MON@"
+	db   "Party <PKMN>"
+	next "status@"
 
 .PackDesc:
-	db   "Đựng"
-	next "đồ dùng@"
+	db   "Contains"
+	next "items@"
 
 .PokegearDesc:
-	db   "Thiết bị"
-	next "HLV@"
+	db   "Trainer's"
+	next "key device@"
 
 .StatusDesc:
-	db   "Trạng thái"
-	next "của bạn@"
+	db   "Your own"
+	next "status@"
 
 .SaveDesc:
-	db   "Lưu lại"
-	next "quá trình@"
+	db   "Save your"
+	next "progress@"
 
 .OptionDesc:
-	db   "Thay đổi"
-	next "cấu hình@"
+	db   "Change"
+	next "settings@"
 
 .ExitDesc:
-	db   "Đóng"
+	db   "Close this"
 	next "menu@"
 
 .QuitDesc:
-	db   "Thoát và"
-	next "chịu đánh giá.@"
+	db   "Quit and"
+	next "be judged.@"
 
 .OpenMenu:
 	ld a, [wMenuSelection]
@@ -540,3 +544,5 @@ StartMenu_Pokemon:
 	call ExitAllMenus
 	pop af
 	ret
+
+endc

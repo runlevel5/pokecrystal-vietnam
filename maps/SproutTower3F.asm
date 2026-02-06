@@ -152,181 +152,179 @@ SproutTower3FRivalLeavesElderMovement:
 	step_end
 
 SproutTowerElderLecturesRivalText:
-	text "TRƯỞNG LÃO: Con"
-	line "quả thật giỏi"
-	cont "như một HLV."
+	text "ELDER: You are in-"
+	line "deed skilled as a"
+	cont "trainer."
 
-	para "Như đã hứa, đây"
-	line "là HM của con."
+	para "As promised, here"
+	line "is your HM."
 
-	para "Nhưng để ta nói"
-	line "điều này: Con nên"
+	para "But let me say"
+	line "this: You should"
 
-	para "đối xử #MON"
-	line "tốt hơn."
+	para "treat your"
+	line "#MON better."
 
-	para "Cách con chiến"
-	line "đấu quá khắc"
-	cont "nghiệt."
+	para "The way you battle"
+	line "is far too harsh."
 
-	para "#MON không phải"
-	line "công cụ chiến…"
+	para "#MON are not"
+	line "tools of war…"
 	done
 
 SproutTowerRivalOnlyCareAboutStrongText:
 	text "…"
-	line "…Hừ!"
+	line "…Humph!"
 
-	para "Ông ta tự xưng"
-	line "là TRƯỞNG LÃO"
-	cont "nhưng lại yếu."
+	para "He claims to be"
+	line "the ELDER but"
+	cont "he's weak."
 
-	para "Điều đó đúng"
-	line "thôi."
+	para "It stands to"
+	line "reason."
 
-	para "Tao không bao giờ"
-	line "thua những kẻ"
+	para "I'd never lose to"
+	line "fools who babble"
 
-	para "ngu ngốc ba hoa"
-	line "về tử tế với"
-	cont "#MON."
+	para "about being nice"
+	line "to #MON."
 
-	para "Tao chỉ quan tâm"
-	line "#MON mạnh có"
-	cont "thể thắng."
+	para "I only care about"
+	line "strong #MON"
+	cont "that can win."
 
-	para "Tao thật sự không"
-	line "quan tâm #MON"
-	cont "yếu."
+	para "I really couldn't"
+	line "care less about"
+	cont "weak #MON."
 	done
 
 SproutTowerRivalUsedEscapeRopeText:
-	text "<RIVAL> đã dùng"
-	line "DÂY THOÁT!"
+	text "<RIVAL> used an"
+	line "ESCAPE ROPE!"
 	done
 
 SageLiSeenText:
-	text "Tốt khi con đến"
-	line "đây!"
+	text "So good of you to"
+	line "come here!"
 
-	para "THÁP SPROUT"
-	line "là nơi tu luyện."
+	para "SPROUT TOWER is a"
+	line "place of training."
 
-	para "Con người và"
-	line "#MON thử thách"
+	para "People and #MON"
+	line "test their bonds"
 
-	para "tình bạn để xây"
-	line "tương lai tươi."
+	para "to build a bright"
+	line "future together."
 
-	para "Ta là thử thách"
-	line "cuối cùng."
+	para "I am the final"
+	line "test."
 
-	para "Hãy để ta kiểm"
-	line "tra sợi dây giữa"
+	para "Allow me to check"
+	line "the ties between"
 
-	para "#MON và"
-	line "con!"
+	para "your #MON and"
+	line "you!"
 	done
 
 SageLiBeatenText:
-	text "À, tuyệt vời!"
+	text "Ah, excellent!"
 	done
 
 SageLiTakeThisFlashText:
-	text "Con và #MON"
-	line "của con không có"
+	text "You and your #-"
+	line "MON should have"
 
-	para "vấn đề gì khi"
-	line "dùng chiêu này."
+	para "no problem using"
+	line "this move."
 
-	para "Cầm lấy HM ÁNH"
-	line "CHỚP này."
+	para "Take this FLASH"
+	line "HM."
 	done
 
 SageLiFlashExplanationText:
-	text "ÁNH CHỚP sáng"
-	line "ngay cả nơi tối"
-	cont "nhất."
+	text "FLASH illuminates"
+	line "even the darkest"
+	cont "of all places."
 
-	para "Nhưng để dùng"
-	line "ngoài chiến đấu,"
+	para "But to use it out"
+	line "of battle, you"
 
-	para "con cần HUY HIỆU"
-	line "từ GYM VIOLET."
+	para "need the BADGE"
+	line "from VIOLET's GYM."
 	done
 
 SageLiAfterBattleText:
-	text "Ta hy vọng con"
-	line "học hỏi và trưởng"
-	cont "thành từ hành"
-	cont "trình của con."
+	text "I hope you learn"
+	line "and grow from your"
+	cont "journey."
 	done
 
 SageJinSeenText:
-	text "Tôi tu luyện để"
-	line "tìm giác ngộ"
-	cont "trong #MON!"
+	text "I train to find"
+	line "enlightenment in"
+	cont "#MON!"
 	done
 
 SageJinBeatenText:
-	text "Tu luyện của tôi"
-	line "chưa hoàn thành…"
+	text "My training is"
+	line "incomplete…"
 	done
 
 SageJinAfterBattleText:
-	text "Khi #MON mạnh"
-	line "hơn, HLV cũng vậy"
+	text "As #MON grow"
+	line "stronger, so does"
+	cont "the trainer."
 
-	para "Không, đợi đã."
-	line "Khi HLV mạnh hơn,"
+	para "No, wait. As the"
+	line "trainer grows"
 
-	para "#MON cũng"
-	line "mạnh theo."
+	para "stronger, so do"
+	line "the #MON."
 	done
 
 SageTroySeenText:
-	text "Để tôi xem con"
-	line "tin tưởng #MON"
-	cont "bao nhiêu."
+	text "Let me see how"
+	line "much you trust"
+	cont "your #MON."
 	done
 
 SageTroyBeatenText:
-	text "Đúng, niềm tin"
-	line "của con là thật!"
+	text "Yes, your trust is"
+	line "real!"
 	done
 
 SageTroyAfterBattleText:
-	text "Không còn xa đến"
-	line "TRƯỞNG LÃO."
+	text "It is not far to"
+	line "the ELDER."
 	done
 
 SageNealSeenText:
-	text "HM của TRƯỞNG LÃO"
-	line "chiếu sáng bóng"
-	cont "tối đen nhất."
+	text "The ELDER's HM"
+	line "lights even pitch-"
+	cont "black darkness."
 	done
 
 SageNealBeatenText:
-	text "Chính đầu tôi"
-	line "mới sáng!"
+	text "It is my head that"
+	line "is bright!"
 	done
 
 SageNealAfterBattleText:
-	text "Cầu cho ánh sáng"
-	line "trên hành trình."
+	text "Let there be light"
+	line "on your journey."
 	done
 
 SproutTower3FPaintingText:
-	text "Đây là bức tranh"
-	line "BELLSPROUT đầy"
-	cont "uy lực."
+	text "It's a powerful"
+	line "painting of a"
+	cont "BELLSPROUT."
 	done
 
 SproutTower3FStatueText:
-	text "Tượng #MON…"
+	text "A #MON statue…"
 
-	para "Trông rất"
-	line "uy nghi."
+	para "It looks very"
+	line "distinguished."
 	done
 
 SproutTower3F_MapEvents:

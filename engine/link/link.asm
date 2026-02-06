@@ -191,10 +191,6 @@ endc
 	ld a, HIGH(wOTPartyMonOTs)
 	ld [wUnusedNamesPointer + 1], a
 
-; Translate received English text to Vietnamese character codes
-; English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
-	call TranslateAllReceivedOTData
-
 	ld de, MUSIC_NONE
 	call PlayMusic
 	ldh a, [hSerialConnectionStatus]
@@ -257,26 +253,6 @@ endc
 	call Serial_ExchangeBytes
 	ld a, SERIAL_NO_DATA_BYTE
 	ld [de], a
-; Read peer's language from received RN data
-; NOTE: The preamble must be ALL $FD bytes for sync to work correctly.
-; Serial_ExchangeBytes discards received bytes until it sees $FD, then
-; stores subsequent bytes. Non-$FD bytes in preamble break synchronization.
-; Therefore, LANG_VN is placed in the random bytes section (after preamble).
-; Due to variable sync timing, we scan the received data to find LANG_VN.
-	ld hl, wOTLinkBattleRNData
-	ld b, 10
-.scan_lang
-	ld a, [hli]
-	cp LANG_VN
-	jr z, .found_lang
-	dec b
-	jr nz, .scan_lang
-; Not found - assume non-Vietnamese (English Crystal)
-	ld a, LANG_EN
-.found_lang
-	ld [wPeerLanguage], a
-; Fix player name and translations based on peer language
-	call Link_FixDataForPeerLanguage
 
 	ld hl, wLinkData
 	ld de, wOTPartyData
@@ -430,8 +406,34 @@ endc
 	pop bc
 	dec b
 	jr nz, .copy_author_loop
-; No incoming mail translation needed - mail is displayed using the
-; appropriate font based on nationality (ParseMailLanguage in mail_2.asm)
+	ld b, PARTY_LENGTH
+	ld de, wLinkReceivedMail
+.fix_mail_loop
+	push bc
+	push de
+	farcall ParseMailLanguage
+	ld a, c
+	or a
+	jr z, .next
+	sub $3
+	jr nc, .skip
+	farcall ConvertEnglishMailToFrenchGerman
+	jr .next
+
+.skip
+	cp $2
+	jr nc, .next
+	farcall ConvertEnglishMailToSpanishItalian
+
+.next
+	pop de
+	ld hl, MAIL_STRUCT_LENGTH
+	add hl, de
+	ld d, h
+	ld e, l
+	pop bc
+	dec b
+	jr nz, .fix_mail_loop
 	ld de, wLinkReceivedMailEnd
 	xor a
 	ld [de], a
@@ -458,10 +460,6 @@ endc
 	ld [wUnusedNamesPointer], a
 	ld a, HIGH(wOTPartyMonOTs)
 	ld [wUnusedNamesPointer + 1], a
-
-; Translate received English text to Vietnamese character codes
-; English lowercase a-z ($A0-$B9) → Vietnamese a-z ($80-$99)
-	call TranslateAllReceivedOTData
 
 	ld de, MUSIC_NONE
 	call PlayMusic
@@ -600,7 +598,7 @@ ExchangeBytes:
 	ret
 
 String_PleaseWait:
-	db "XIN CHỜ!@"
+	db "PLEASE WAIT!@"
 
 ClearLinkData:
 	ld hl, wLinkData
@@ -622,14 +620,10 @@ FixDataForLinkTransfer:
 	ld [hli], a
 	dec b
 	jr nz, .preamble_loop
-; hl now points to wLinkBattleRNs (first random byte after preamble)
-; Place LANG_VN as the first random byte for peer detection
-; The distinctive value $55 is unlikely to appear in English Crystal's random data
-	ld a, LANG_VN
-	ld [hli], a
 
-; Initialize remaining random bytes, making sure special bytes are omitted
-	ld b, SERIAL_RNS_LENGTH - 1  ; one less since we used first for LANG_VN
+; Initialize random seed, making sure special bytes are omitted
+	assert wLinkBattleRNPreamble + SERIAL_RN_PREAMBLE_LENGTH == wLinkBattleRNs
+	ld b, SERIAL_RNS_LENGTH
 .rn_loop
 	call Random
 	cp SERIAL_PREAMBLE_BYTE
@@ -882,7 +876,7 @@ Link_PrepPartyData_Gen2:
 	dec b
 	jr nz, .preamble_loop
 
-	ld hl, wPlayerName ; Copy original name; will be replaced by wTradeName if peer is English
+	ld hl, wPlayerName
 	ld bc, NAME_LENGTH
 	call CopyBytes
 
@@ -905,10 +899,6 @@ Link_PrepPartyData_Gen2:
 	ld hl, wPartyMonNicknames
 	ld bc, PARTY_LENGTH * MON_NAME_LENGTH
 	call CopyBytes
-
-; NOTE: Translation for link compatibility is now handled in Link_FixDataForPeerLanguage,
-; which is called AFTER the RN exchange when we know the peer's language.
-; At this point, wPeerLanguage is not yet set, so we can't decide here.
 
 ; Okay, we did all that.  Now, are we in the trade center?
 	ld a, [wLinkMode]
@@ -962,8 +952,6 @@ Link_PrepPartyData_Gen2:
 	ld a, c
 	or a ; MAIL_LANG_ENGLISH
 	jr z, .translate_next
-	cp MAIL_LANG_VIETNAMESE
-	jr z, .vietnamese
 	sub MAIL_LANG_ITALIAN
 	jr nc, .italian_spanish
 	farcall ConvertFrenchGermanMailToEnglish
@@ -972,14 +960,6 @@ Link_PrepPartyData_Gen2:
 	cp (MAIL_LANG_SPANISH + 1) - MAIL_LANG_ITALIAN
 	jr nc, .translate_next
 	farcall ConvertSpanishItalianMailToEnglish
-	jr .translate_next
-.vietnamese
-	; Calculate mail index (0-5) and pass in a
-	ld a, PARTY_LENGTH
-	sub b
-	; de = message pointer in wLinkPlayerMailMessages
-	; a = mail index
-	farcall ConvertVietnameseMailToEnglish
 .translate_next
 	pop de
 	ld hl, MAIL_STRUCT_LENGTH
@@ -1442,7 +1422,7 @@ LinkTrade_TradeStatsMenu:
 
 .joy_loop
 	ld a, ' '
-	ldcoord_a 10, 16
+	ldcoord_a 11, 16
 	ld a, PAD_A | PAD_B | PAD_RIGHT
 	ld [wMenuJoypadFilter], a
 	ld a, 1
@@ -1483,7 +1463,7 @@ LinkTrade_TradeStatsMenu:
 	ld [w2DMenuNumCols], a
 	ld a, 16
 	ld [w2DMenuCursorInitY], a
-	ld a, 10
+	ld a, 11
 	ld [w2DMenuCursorInitX], a
 	ld a, 1
 	ld [wMenuCursorY], a
@@ -1591,7 +1571,7 @@ LinkTrade_TradeStatsMenu:
 	text_end
 
 .String_Stats_Trade:
-	db "CHỈ SỐ   TRAO ĐỔI@"
+	db "STATS     TRADE@"
 
 .LinkAbnormalMonText:
 	text_far _LinkAbnormalMonText
@@ -1684,7 +1664,7 @@ GSPlaceTradeScreenFooter: ; unreferenced
 	jp PlaceString
 
 .CancelString:
-	db "HỦY@"
+	db "CANCEL@"
 
 LinkTradePlaceArrow:
 ; Indicates which pokemon the other player has selected to trade
@@ -1744,16 +1724,16 @@ LinkTrade:
 	bccoord 1, 14
 	call PrintTextboxTextAt
 	call LoadStandardMenuHeader
-	hlcoord 9, 7
+	hlcoord 10, 7
 	ld b, 3
-	ld c, 9
+	ld c, 7
 	call LinkTextboxAtHL
 	ld de, String_TradeCancel
-	hlcoord 11, 8
+	hlcoord 12, 8
 	call PlaceString
 	ld a, 8
 	ld [w2DMenuCursorInitY], a
-	ld a, 10
+	ld a, 11
 	ld [w2DMenuCursorInitX], a
 	ld a, 1
 	ld [w2DMenuNumCols], a
@@ -2080,19 +2060,19 @@ InitTradeMenuDisplay_Delay:
 	jp InitTradeMenuDisplay
 
 String_TradeCancel:
-	db   "TRAO ĐỔI"
-	next "HỦY BỎ@"
+	db   "TRADE"
+	next "CANCEL@"
 
 LinkAskTradeForText:
 	text_far _LinkAskTradeForText
 	text_end
 
 String_TradeCompleted:
-	db   "Trao đổi xong!@"
+	db   "Trade completed!@"
 
 String_TooBadTheTradeWasCanceled:
-	db   "Tiếc quá! Đã hủy"
-	next "trao đổi!@"
+	db   "Too bad! The trade"
+	next "was canceled!@"
 
 LinkTextboxAtHL:
 	ld d, h
@@ -2121,7 +2101,15 @@ PlaceTradeScreenTextbox: ; unreferenced
 	farcall PlaceTradePartnerNamesAndParty
 	ret
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/engine/movie/trade_animation.asm"
+
+else
+
 INCLUDE "engine/movie/trade_animation.asm"
+
+endc
 
 CheckTimeCapsuleCompatibility:
 ; Checks to see if your party is compatible with the Gen 1 games.
@@ -2700,5 +2688,3 @@ CheckSRAM0Flag: ; unreferenced
 	ld a, c
 	and a
 	ret
-
-INCLUDE "engine/link/link_trade_text.asm"

@@ -1,10 +1,10 @@
-	db "CẦU VỒNG@" ; species name
-	dw 38, 1990 ; height, weight
+	db "RAINBOW@" ; species name
+	dw 1206, 4390 ; height, weight
 
-	db   "Nó sẽ hiện ra"
-	next "trước HLV có tấm"
-	next "lòng trong sáng"
+	db   "It will reveal"
+	next "itself before a"
+	next "pure-hearted"
 
-	page "bằng cách tỏa"
-	next "sáng đôi cánh"
-	next "màu cầu vồng.@"
+	page "trainer by shining"
+	next "its bright rain-"
+	next "bow-colored wings.@"

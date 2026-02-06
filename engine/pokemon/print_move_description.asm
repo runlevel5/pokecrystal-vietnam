@@ -13,4 +13,12 @@ PrintMoveDescription:
 	pop hl
 	jp PlaceString
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/moves/descriptions.asm"
+
+else
+
 INCLUDE "data/moves/descriptions.asm"
+
+endc

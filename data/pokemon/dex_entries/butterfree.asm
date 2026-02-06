@@ -1,10 +1,10 @@
-	db "BƯỚM@" ; species name
-	dw 11, 320 ; height, weight
+	db "BUTTERFLY@" ; species name
+	dw 307, 710 ; height, weight
 
-	db   "Nó bay từ hoa này"
-	next "sang hoa kia để"
-	next "thu thập mật."
+	db   "It flits from"
+	next "flower to flower,"
+	next "collecting honey."
 
-	page "Nó có thể nhận"
-	next "ra những bông hoa"
-	next "nở từ xa.@"
+	page "It can even"
+	next "identify distant"
+	next "flowers in bloom.@"

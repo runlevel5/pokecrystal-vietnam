@@ -1,62 +1,59 @@
 AlanAnswerPhoneText:
-	text "Ừ, đây là @"
+	text "Yup, it's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "<PLAY_G> phải"
-	line "không? Chào buổi"
-	cont "sáng!"
+	para "Is this <PLAY_G>?"
+	line "Good morning!"
 	done
 
 AlanAnswerPhoneDayText:
-	text "Ừ, đây là @"
+	text "Yup, it's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "<PLAY_G> phải"
-	line "không?"
+	para "Is that <PLAY_G>?"
 	done
 
 AlanAnswerPhoneNiteText:
-	text "Ừ, đây là @"
+	text "Yup, it's @"
 	text_ram wStringBuffer3
 	text "!"
 
-	para "<PLAY_G> phải"
-	line "không? Chào buổi"
-	cont "tối!"
+	para "Is that <PLAY_G>?"
+	line "Good evening!"
 	done
 
 AlanGreetText:
-	text "Chào! Tớ đây,"
+	text "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGreetDayText:
-	text "Chào! Tớ đây,"
+	text "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGreetNiteText:
-	text "Chào! Tớ đây,"
+	text "Hello! It's me,"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 AlanGenericText:
-	text "<PLAY_G>, cậu có"
-	line "nuôi #MON đúng"
-	cont "cách không?"
+	text "<PLAY_G>, are you"
+	line "raising your"
+	cont "#MON properly?"
 
-	para "Tớ đọc trong sách"
-	line "là cậu nên nuôi"
+	para "I read in a book"
+	line "that you should"
 
-	para "bất kỳ #MON nào"
-	line "bắt được bằng tình"
-	cont "yêu và quan tâm."
+	para "raise any #MON"
+	line "you catch with"
+	cont "love and care."
 	done

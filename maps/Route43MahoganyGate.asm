@@ -23,17 +23,17 @@ Route43MahoganyGateOfficer:
 	end
 
 Route43MahoganyGateOfficerText:
-	text "Chỉ người đi đến"
-	line "HỒ GIẬN DỮ"
+	text "Only people headed"
+	line "up to LAKE OF RAGE"
 
-	para "mới đi qua đây"
-	line "gần đây thôi."
+	para "have been through"
+	line "here lately."
 	done
 
 Route43MahoganyGateOfficerRocketsClearedText:
-	text "Không ai đi đến"
-	line "HỒ GIẬN DỮ"
-	cont "dạo này nữa."
+	text "Nobody goes up to"
+	line "LAKE OF RAGE these"
+	cont "days."
 	done
 
 Route43MahoganyGate_MapEvents:

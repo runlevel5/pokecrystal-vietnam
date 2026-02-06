@@ -284,105 +284,102 @@ OlivinePortApproachFastShipAfterHOFRightMovement:
 	step_end
 
 OlivinePortSailorGetOnBoardText:
-	text "Chúng tôi sắp"
-	line "khởi hành. Xin mời"
-	cont "lên tàu."
+	text "We're departing"
+	line "soon. Please get"
+	cont "on board."
 	done
 
 OlivinePortCantBoardText:
-	text "Xin lỗi. Bạn không"
-	line "thể lên tàu bây"
-	cont "giờ."
+	text "Sorry. You can't"
+	line "board now."
 	done
 
 OlivinePortAskBoardText:
-	text "Chào mừng đến TÀU"
-	line "CAO TỐC S.S.AQUA!"
+	text "Welcome to FAST"
+	line "SHIP S.S.AQUA."
 
-	para "Bạn có lên tàu"
-	line "hôm nay không?"
+	para "Will you be board-"
+	line "ing today?"
 	done
 
 OlivinePortAskTicketText:
-	text "Cho tôi xem VÉ"
-	line "S.S. của bạn?"
+	text "May I see your"
+	line "S.S.TICKET?"
 	done
 
 OlivinePortComeAgainText:
-	text "Hy vọng gặp lại"
-	line "bạn!"
+	text "We hope to see you"
+	line "again!"
 	done
 
 OlivinePortFlashTicketText:
-	text "<PLAYER> đưa ra"
-	line "VÉ S.S."
+	text "<PLAYER> flashed"
+	line "the S.S.TICKET."
 
-	para "Đúng rồi."
-	line "Cảm ơn bạn!"
+	para "That's it."
+	line "Thank you!"
 	done
 
 OlivinePortNoTicketText:
-	text "<PLAYER> cố đưa"
-	line "VÉ S.S.…"
+	text "<PLAYER> tried to"
+	line "show the S.S."
+	cont "TICKET…"
 
-	para "…Nhưng không có"
-	line "VÉ!"
+	para "…But no TICKET!"
 
-	para "Xin lỗi!"
-	line "Bạn chỉ có thể lên"
+	para "Sorry!"
+	line "You may board only"
 
-	para "tàu nếu có"
-	line "VÉ S.S."
+	para "if you have an"
+	line "S.S.TICKET."
 	done
 
 OlivinePortMondayShipText:
-	text "TÀU AQUA sẽ"
-	line "chạy vào thứ Hai"
-	cont "tuần sau."
+	text "The FAST SHIP will"
+	line "sail next Monday."
 	done
 
 OlivinePortFridayShipText:
-	text "TÀU AQUA sẽ"
-	line "chạy vào thứ Sáu"
-	cont "tuần sau."
+	text "The FAST SHIP will"
+	line "sail next Friday."
 	done
 
 OlivinePortFishingGuru1Text:
-	text "SHELLDER dễ bắt ở"
-	line "đây lắm."
+	text "SHELLDER are easy"
+	line "to catch here."
 
-	para "Chúng khá hiếm ở"
-	line "nơi khác."
+	para "They're kind of"
+	line "rare elsewhere."
 	done
 
 OlivinePortFishingGuru2Text:
-	text "Bạn có bao nhiêu"
-	line "CẦN CÂU?"
+	text "How many RODS do"
+	line "you have?"
 
-	para "CÂN khác nhau bắt"
-	line "#MON khác nhau."
+	para "Different RODS"
+	line "catch different"
+	cont "#MON."
 	done
 
 OlivinePortYoungsterText:
-	text "S.S.AQUA dùng động"
-	line "cơ phản lực để"
-	cont "lướt trên sóng!"
+	text "S.S.AQUA uses jets"
+	line "to skim over the"
+	cont "waves!"
 	done
 
 OlivinePortCooltrainerFText:
-	text "Có rất nhiều"
-	line "#MON ở KANTO."
+	text "There are lots of"
+	line "#MON in KANTO."
 
-	para "Ước gì tôi có thể"
-	line "đi…"
+	para "I wish I could go…"
 	done
 
 OlivinePortSailorBeforeHOFText:
-	text "Chúng tôi không"
-	line "muốn bạn rơi xuống"
+	text "We don't want you"
+	line "to fall into the"
 
-	para "biển, nên bạn"
-	line "không được vào."
+	para "sea, so you're not"
+	line "allowed in."
 	done
 
 OlivinePort_MapEvents:

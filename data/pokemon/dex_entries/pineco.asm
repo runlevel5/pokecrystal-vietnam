@@ -1,10 +1,10 @@
-	db "SÂU BỌNG@" ; species name
-	dw 6, 72 ; height, weight
+	db "BAGWORM@" ; species name
+	dw 200, 160 ; height, weight
 
-	db   "Nó nhổ chất dịch"
-	next "để dán vỏ cây vào"
-	next "thân. Chất dịch"
+	db   "It spits out a"
+	next "fluid that it uses"
+	next "to glue tree bark"
 
-	page "cứng lại khi"
-	next "tiếp xúc không"
-	next "khí.@"
+	page "to its body. The"
+	next "fluid hardens when"
+	next "it touches air.@"

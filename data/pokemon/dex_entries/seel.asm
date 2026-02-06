@@ -1,10 +1,10 @@
-	db "SƯ TỬ BIỂN@" ; species name
-	dw 11, 900 ; height, weight
+	db "SEA LION@" ; species name
+	dw 307, 1980 ; height, weight
 
-	db   "Bộ lông xanh nhạt"
-	next "bảo vệ nó khỏi"
-	next "lạnh. Nó thích"
+	db   "The light blue fur"
+	next "that covers it"
+	next "keeps it protected"
 
-	page "vùng biển đầy"
-	next "băng trôi.@"
-	next "@"
+	page "against the cold."
+	next "It loves iceberg-"
+	next "filled oceans.@"

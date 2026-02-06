@@ -1,10 +1,10 @@
-	db "RỒNG@" ; species name
-	dw 22, 2100 ; height, weight
+	db "DRAGON@" ; species name
+	dw 703, 4630 ; height, weight
 
-	db   "Người ta nói đâu"
-	next "đó ngoài biển có"
-	next "một hòn đảo nơi"
+	db   "It is said that"
+	next "somewhere in the"
+	next "ocean lies an"
 
-	page "chúng tụ họp."
-	next "Chỉ chúng sống"
-	next "ở đó.@"
+	page "island where these"
+	next "gather. Only they"
+	next "live there.@"

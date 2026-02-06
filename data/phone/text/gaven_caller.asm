@@ -1,83 +1,85 @@
 GavenMonGreaterThanImaginedText:
-	text "@"
+	text "My @"
 	text_ram wStringBuffer4
-	text " của mình"
-	line "mạnh hơn mình"
-	cont "tưởng tượng."
+	text_start
+	line "might be greater"
+	cont "than I imagined."
 
-	para "Khó tìm @"
+	para "I doubt I'll see a"
+	line "@"
 	text_ram wStringBuffer4
-	text " nào"
-	cont "mạnh hơn nó."
+	text " that's"
+	cont "better than mine."
 	done
 
 GavenDefeatedMonText:
-	text "À, mình vừa mới"
-	line "đánh bại được"
+	text "Oh, and I managed"
+	line "to barely defeat"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " hôm"
-	line "nọ."
+	text " the"
+	line "other day."
 
-	para "Chưa từng thấy"
+	para "I've never seen a"
 	line "@"
 	text_ram wStringBuffer4
-	text " nào"
-	cont "mạnh thế…"
+	text " get"
+	cont "that strong…"
 
-	para "Cậu không được"
-	line "chủ quan,"
+	para "You shouldn't let"
+	line "your guard down,"
 
-	para "kể cả với #MON"
-	line "cậu quen gặp."
+	para "even against a"
+	line "#MON you're"
+	cont "used to seeing."
 	done
 
 GavenLostAMonText:
-	text "Trước đây,"
-	line "mình thử bắt một"
-	cont "con @"
+	text "And a while back,"
+	line "I tried to catch a"
+	cont "wild @"
 	text_ram wStringBuffer4
-	text " hoang."
+	text "."
 
-	para "Nhưng nó trốn"
-	line "mất rồi."
+	para "But it managed to"
+	line "elude me."
 
-	para "Quyết định sai một"
-	line "chút có thể thất"
+	para "One wrong decision"
+	line "could mean total"
 
-	para "bại toàn bộ… Cậu"
-	line "cũng nên cẩn thận"
+	para "failure… You ought"
+	line "to be careful too."
 	done
 
 GavenBattleRematchText:
-	text "Đấu thôi!"
+	text "Let's battle!"
 
-	para "Mình sẽ đợi tại"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Gọi cho mình khi"
-	line "cậu gần đến."
+	para "Give me a shout"
+	line "when you're close."
 	done
 
 GavenHangUpText:
-	text "OK, nói chuyện sau"
-	line "nhé!"
+	text "OK, I'll talk to"
+	line "you soon!"
 	done
 
 GavenHangUpNotThursdayText:
-	text "Mình ám ảnh về"
-	line "cách đánh bại cậu"
+	text "I obsess over how"
+	line "to beat you."
 	done
 
 GavenReminderText:
-	text "<PLAY_G>, sao cậu"
-	line "chưa tới?"
+	text "<PLAY_G>, why"
+	line "aren't you here?"
 
-	para "Mình sẽ hạ cậu"
-	line "tại @"
+	para "I'll take you down"
+	line "with @"
 	text_ram wStringBuffer5
 	text "!"
 	done

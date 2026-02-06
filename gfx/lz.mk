@@ -68,6 +68,7 @@ gfx/tilesets/tower.2bpp.lz: LZFLAGS += --method 2 --align 4
 
 gfx/title/crystal.2bpp.lz: LZFLAGS += --align 4
 gfx/title/logo.2bpp.lz: LZFLAGS = --compressor null --method 1 --align 1
+versions/crystal-vn/gfx/title/logo.2bpp.lz: LZFLAGS = --compressor null --method 1 --align 1
 gfx/title/suicune.2bpp.lz: LZFLAGS += --align 4
 
 gfx/unown_puzzle/%.lz: LZFLAGS += --align 4

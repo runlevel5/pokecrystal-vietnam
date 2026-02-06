@@ -98,108 +98,110 @@ EcruteakPokecenter1FPlayerMovement1:
 	step_end
 
 EcruteakPokecenter1F_BillText1:
-	text "Chào, tôi là BILL."
-	line "Còn bạn là ai?"
+	text "Hi, I'm BILL. And"
+	line "who are you?"
 
-	para "Hmm, <PLAYER> hả?"
-	line "Bạn đến đúng lúc"
-	cont "rồi."
+	para "Hmm, <PLAYER>, huh?"
+	line "You've come at the"
+	cont "right time."
 	done
 
 EcruteakPokecenter1F_BillText2:
-	text "Tôi vừa hoàn tất"
-	line "điều chỉnh CỖ MÁY"
-	cont "THỜI GIAN của tôi."
+	text "I just finished"
+	line "adjustments on my"
+	cont "TIME CAPSULE."
 
-	para "Bạn biết #MON"
-	line "có thể trao đổi,"
-	cont "đúng không?"
+	para "You know that"
+	line "#MON can be"
+	cont "traded, right?"
 
-	para "CỖ MÁY THỜI GIAN"
-	line "của tôi được phát"
+	para "My TIME CAPSULE"
+	line "was developed to"
 
-	para "triển để trao đổi"
-	line "với quá khứ."
+	para "enable trades with"
+	line "the past."
 
-	para "Nhưng bạn không"
-	line "thể gửi thứ gì"
+	para "But you can't send"
+	line "anything that"
 
-	para "không tồn tại"
-	line "trong quá khứ."
+	para "didn't exist in"
+	line "the past."
 
-	para "Nếu bạn làm vậy,"
-	line "PC ở quá khứ sẽ"
-	cont "bị hỏng."
+	para "If you did, the PC"
+	line "in the past would"
+	cont "have a breakdown."
 
-	para "Vì vậy bạn phải"
-	line "loại bỏ mọi thứ"
+	para "So you have to"
+	line "remove anything"
 
-	para "không có trong"
-	line "quá khứ."
+	para "that wasn't around"
+	line "in the past."
 
-	para "Nói đơn giản, ko"
-	line "gửi chiêu mới hay"
+	para "Put simply, no"
+	line "sending new moves"
 
-	para "#MON mới vào CỖ"
-	line "MÁY THỜI GIAN."
+	para "or new #MON in"
+	line "the TIME CAPSULE."
 
-	para "Đừng lo lắng."
-	line "Tôi đã hoàn tất"
-	cont "điều chỉnh rồi."
+	para "Don't you worry."
+	line "I'm done with the"
+	cont "adjustments."
 
-	para "Ngày mai, CỖ MÁY"
-	line "THỜI GIAN sẽ hoạt"
+	para "Tomorrow, TIME"
+	line "CAPSULES will be"
 
-	para "động ở tất cả"
-	line "TT #MON."
+	para "running at all"
+	line "#MON CENTERS."
 
-	para "Tôi phải mau về"
-	line "GOLDENROD gặp"
-	cont "gia đình."
+	para "I have to hurry on"
+	line "back to GOLDENROD"
+	cont "and see my folks."
 
-	para "Tạm biệt!"
+	para "Buh-bye!"
 	done
 
 EcruteakPokecenter1FPokefanMText:
-	text "Cách các CÔ GÁI"
-	line "KIMONO nhảy múa"
+	text "The way the KIMONO"
+	line "GIRLS dance is"
 
-	para "thật kỳ diệu. Như"
-	line "cách họ dùng"
-	cont "#MON vậy."
+	para "marvelous. Just"
+	line "like the way they"
+	cont "use their #MON."
 	done
 
 EcruteakPokecenter1FPokefanMTextMobile:
-	text "Bạn chắc muốn đấu"
-	line "với nhiều người"
+	text "You must be hoping"
+	line "to battle more"
 
-	para "hơn, đúng không?"
-	line "Nghe nói có một"
+	para "people, right?"
+	line "There's apparently"
 
-	para "nơi HLV tụ tập."
+	para "some place where"
+	line "trainers gather."
 
-	para "Ở đâu ư?"
+	para "Where, you ask?"
 
-	para "Nó qua TP."
-	line "OLIVINE một chút."
+	para "It's a little past"
+	line "OLIVINE CITY."
 	done
 
 EcruteakPokecenter1FCooltrainerFText:
-	text "MORTY, T.LĨNH"
-	line "GYM, rất ngầu."
+	text "MORTY, the GYM"
+	line "LEADER, is soooo"
+	cont "cool."
 
-	para "#MON của anh ấy"
-	line "cũng rất mạnh."
+	para "His #MON are"
+	line "really tough too."
 	done
 
 EcruteakPokecenter1FGymGuideText:
-	text "HỒ GIẬN DỮ…"
+	text "LAKE OF RAGE…"
 
-	para "Sự xuất hiện của"
-	line "đàn GYARADOS…"
+	para "The appearance of"
+	line "a GYARADOS swarm…"
 
-	para "Tôi ngửi thấy âm"
-	line "mưu. Tôi biết mà!"
+	para "I smell a conspir-"
+	line "acy. I know it!"
 	done
 
 EcruteakPokecenter1F_MapEvents:

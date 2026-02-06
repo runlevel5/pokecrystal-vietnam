@@ -1,10 +1,10 @@
-	db "TỐI@" ; species name
-	dw 14, 350 ; height, weight
+	db "DARK@" ; species name
+	dw 407, 770 ; height, weight
 
-	db   "Ngọn lửa có mùi"
-	next "hăng phun ra từ"
-	next "miệng là kết quả"
+	db   "The pungent-"
+	next "smelling flame"
+	next "that shoots from"
 
-	page "của độc tố đốt"
-	next "trong cơ thể.@"
-	next "@"
+	page "its mouth results"
+	next "from toxins burn-"
+	next "ing in its body.@"

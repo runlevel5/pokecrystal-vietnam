@@ -439,7 +439,15 @@ LoadMailPalettes:
 .MailPals:
 INCLUDE "gfx/mail/mail.pal"
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/engine/gfx/cgb_layouts.asm"
+
+else
+
 INCLUDE "engine/gfx/cgb_layouts.asm"
+
+endc
 
 CopyFourPalettes:
 	ld de, wBGPals1

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/scrolling_menu.asm"
+else
+
 _InitScrollingMenu::
 	xor a
 	ld [wMenuJoypad], a
@@ -406,7 +410,7 @@ ScrollingMenu_UpdateDisplay:
 	ret
 
 .CancelString
-	db "HỦY@"
+	db "CANCEL@"
 
 .call_function
 	ld d, h
@@ -517,3 +521,5 @@ ScrollingMenu_GetListItemCoordAndFunctionArgs:
 	pop hl
 	pop de
 	ret
+
+endc

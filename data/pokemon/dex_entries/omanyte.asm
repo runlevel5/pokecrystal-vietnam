@@ -1,10 +1,10 @@
-	db "XOẮN ỐC@" ; species name
-	dw 4, 75 ; height, weight
+	db "SPIRAL@" ; species name
+	dw 104, 170 ; height, weight
 
-	db   "Thời tiền sử, nó"
-	next "bơi dưới đáy"
-	next "biển, ăn sinh vật"
+	db   "In prehistoric"
+	next "times, it swam on"
+	next "the sea floor,"
 
-	page "phù du. Hóa thạch"
-	next "đôi khi được"
-	next "tìm thấy.@"
+	page "eating plankton."
+	next "Its fossils are"
+	next "sometimes found.@"

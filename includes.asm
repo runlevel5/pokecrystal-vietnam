@@ -1,4 +1,8 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/charmap.asm"
+else
 INCLUDE "constants/charmap.asm"
+endc
 
 INCLUDE "macros/asserts.asm"
 INCLUDE "macros/const.asm"
@@ -30,7 +34,11 @@ INCLUDE "constants/audio_constants.asm"
 INCLUDE "constants/battle_anim_constants.asm"
 INCLUDE "constants/battle_constants.asm"
 INCLUDE "constants/collision_constants.asm"
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/credits_constants.asm"
+else
 INCLUDE "constants/credits_constants.asm"
+endc
 INCLUDE "constants/cry_constants.asm"
 INCLUDE "constants/engine_flags.asm"
 INCLUDE "constants/event_flags.asm"
@@ -46,7 +54,11 @@ INCLUDE "constants/mobile_constants.asm"
 INCLUDE "constants/move_constants.asm"
 INCLUDE "constants/move_effect_constants.asm"
 INCLUDE "constants/item_constants.asm"
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/item_data_constants.asm"
+else
 INCLUDE "constants/item_data_constants.asm"
+endc
 INCLUDE "constants/music_constants.asm"
 INCLUDE "constants/npc_trade_constants.asm"
 INCLUDE "constants/phone_constants.asm"
@@ -56,7 +68,11 @@ INCLUDE "constants/printer_constants.asm"
 INCLUDE "constants/radio_constants.asm"
 INCLUDE "constants/scgb_constants.asm"
 INCLUDE "constants/script_constants.asm"
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/serial_constants.asm"
+else
 INCLUDE "constants/serial_constants.asm"
+endc
 INCLUDE "constants/sfx_constants.asm"
 INCLUDE "constants/sprite_anim_constants.asm"
 INCLUDE "constants/sprite_constants.asm"

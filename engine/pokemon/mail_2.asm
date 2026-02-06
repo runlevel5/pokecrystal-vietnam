@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/mail_2.asm"
+else
+
 ; MailGFXPointers indexes
 ; LoadMailPalettes.MailPals indexes (see gfx/mail/mail.pal)
 	const_def
@@ -34,31 +38,18 @@ ReadAnyMail:
 	farcall ParseMailLanguage
 	call CloseSRAM
 	ld a, c
-	; Check for Vietnamese first - it uses the standard Vietnamese font
-	cp MAIL_LANG_VIETNAMESE
-	jr z, .vietnamese_font
-	; European languages use their specific fonts
 	ld de, StandardEnglishFont
 	or a ; MAIL_LANG_ENGLISH
-	jr z, .got_european_font
+	jr z, .got_font
 	ld de, FrenchGermanFont
 	sub MAIL_LANG_ITALIAN
-	jr c, .got_european_font
+	jr c, .got_font
 	ld de, SpanishItalianFont
 
-.got_european_font
+.got_font
 	ld hl, vTiles1
 	lb bc, BANK(StandardEnglishFont), $80
 	call Get1bpp
-	jr .font_loaded
-
-.vietnamese_font
-	ld de, Font
-	ld hl, vTiles1
-	lb bc, BANK(Font), $80
-	call Get1bpp
-
-.font_loaded
 	pop de
 	call .LoadGFX
 	call EnableLCD
@@ -958,3 +949,5 @@ ItemIsMail:
 	jp IsInArray
 
 INCLUDE "data/items/mail_items.asm"
+
+endc

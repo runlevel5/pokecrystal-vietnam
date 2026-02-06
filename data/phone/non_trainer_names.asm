@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/phone/non_trainer_names.asm"
+else
+
 NonTrainerCallerNames:
 ; entries correspond to PHONECONTACT_* constants (see constants/trainer_constants.asm)
 	table_width 2
@@ -10,8 +14,10 @@ NonTrainerCallerNames:
 	assert_table_length NUM_NONTRAINER_PHONECONTACTS + 1
 
 .none:     db "----------@"
-.mom:      db "MẸ:@"
+.mom:      db "MOM:@"
 .bill:     db "BILL:@"
-.elm:      db "GS.ELM:@"
-.bikeshop: db "SHOP XE ĐẠP:@"
+.elm:      db "PROF.ELM:@"
+.bikeshop: db "BIKE SHOP:@"
 .buena:    db "BUENA:<LF>   DISC JOCKEY@"
+
+endc

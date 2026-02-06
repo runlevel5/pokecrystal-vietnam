@@ -70,67 +70,68 @@ HappinessRatersHouseRadio:
 	jumpstd Radio2Script
 
 GoldenrodHappinessRaterTeacherText:
-	text "Nếu đối xử tốt"
-	line "với #MON,"
+	text "If you treat your"
+	line "#MON nicely,"
 
-	para "chúng sẽ yêu bạn"
-	line "lại."
+	para "they will love you"
+	line "in return."
 
-	para "À? Để tôi xem"
-	line "@"
+	para "Oh? Let me see"
+	line "your @"
 	text_ram wStringBuffer3
-	text " của bạn…"
+	text "…"
 	done
 
 GoldenrodHappinessRatingText_LovesYouALot:
-	text "Trông thật hạnh"
-	line "phúc! Nó chắc"
-	cont "rất yêu bạn."
+	text "It looks really"
+	line "happy! It must"
+	cont "love you a lot."
 	done
 
 GoldenrodHappinessRatingText_ReallyTrustsYou:
-	text "Tôi cảm thấy nó"
-	line "thực sự tin tưởng"
-	cont "bạn."
+	text "I get the feeling"
+	line "that it really"
+	cont "trusts you."
 	done
 
 GoldenrodHappinessRatingText_SortOfHappy:
-	text "Nó thân thiện với"
-	line "bạn. Trông khá"
-	cont "vui."
+	text "It's friendly to-"
+	line "ward you. It looks"
+	cont "sort of happy."
 	done
 
 GoldenrodHappinessRatingText_QuiteCute:
-	text "Nó khá dễ thương."
+	text "It's quite cute."
 	done
 
 GoldenrodHappinessRatingText_NotUsedToYou:
-	text "Bạn nên đối xử"
-	line "tốt hơn. Nó chưa"
-	cont "quen với bạn."
+	text "You should treat"
+	line "it better. It's"
+	cont "not used to you."
 	done
 
 GoldenrodHappinessRatingText_LooksMean:
-	text "Nó không thích"
-	line "bạn chút nào."
-	cont "Trông hung dữ."
+	text "It doesn't seem to"
+	line "like you at all."
+	cont "It looks mean."
 	done
 
 GoldenrodHappinessRaterPokefanMText:
-	text "Tôi cứ thua trận,"
-	line "và #MON của tôi"
+	text "I keep losing in"
+	line "battles, and my"
 
-	para "bị ngất đi…"
+	para "#MON end up"
+	line "fainting…"
 
-	para "Có lẽ vì thế mà"
-	line "chúng không thích"
-	cont "tôi lắm…"
+	para "Maybe that's why"
+	line "my #MON don't"
+	cont "like me much…"
 	done
 
 GoldenrodHappinessRaterTwinText:
-	text "Khi dùng vật phẩm"
-	line "cho #MON, nó"
-	cont "vui lắm!"
+	text "When I use an item"
+	line "on my #MON, it"
+	cont "acts really glad!"
 	done
 
 GoldenrodHappinessRater_MapEvents:

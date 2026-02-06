@@ -76,163 +76,172 @@ CeladonCityHiddenPpUp:
 	hiddenitem PP_UP, EVENT_CELADON_CITY_HIDDEN_PP_UP
 
 CeladonCityFisherText:
-	text "Con POLIWRATH này"
-	line "là bạn đồng hành."
+	text "This POLIWRATH is"
+	line "my partner."
 
-	para "Tôi tự hỏi liệu"
-	line "nó có tiến hóa"
-	cont "thành ếch #MON."
+	para "I wonder if it'll"
+	line "ever evolve into a"
+	cont "frog #MON."
 	done
 
 CeladonCityPoliwrathText:
-	text "POLIWRATH: Quạc!"
+	text "POLIWRATH: Croak!"
 	done
 
 CeladonCityTeacher1Text:
 if DEF(_CRYSTAL_AU)
-	text "Tôi thua ở máy."
+	text "I lost at the"
+	line "machines."
 	done
 else
-	text "Tôi lại thua ở"
-	line "máy đánh bạc…"
+	text "I lost at the slot"
+	line "machines again…"
 
-	para "Con gái bọn tôi"
-	line "giờ cũng chơi rồi."
+	para "We girls also play"
+	line "the slots now."
 
-	para "Cậu cũng nên thử"
-	line "xem."
+	para "You should check"
+	line "them out too."
 	done
 endc
 
 CeladonCityGramps1Text:
-	text "GRIMER xuất hiện"
-	line "gần đây."
+	text "GRIMER have been"
+	line "appearing lately."
 
-	para "Thấy cái ao trước"
-	line "nhà không? GRIMER"
+	para "See that pond out"
+	line "in front of the"
 
-	para "sống ở đó bây giờ."
+	para "house? GRIMER live"
+	line "there now."
 
-	para "Chúng từ đâu đến?"
-	line "Đây là vấn đề"
-	cont "nghiêm trọng…"
+	para "Where did they"
+	line "come from? This is"
+	cont "a serious problem…"
 	done
 
 CeladonCityGramps2Text:
-	text "Hihihi! GYM này"
-	line "tuyệt quá! Chỉ"
+	text "Nihihi! This GYM"
+	line "is great! Only"
 
-	para "con gái mới được"
-	line "vào đây!"
+	para "girls are allowed"
+	line "here!"
 	done
 
 CeladonCityYoungster1Text:
-	text "Cậu muốn biết bí"
-	line "mật không?"
+	text "Want to know a"
+	line "secret?"
 
-	para "DINH THỰ CELADON"
-	line "có cửa sau bí mật."
+	para "CELADON MANSION"
+	line "has a hidden back"
+	cont "door."
 	done
 
 CeladonCityYoungster2Text:
-	text "Họ đang tổ chức"
-	line "thi ăn ở nhà hàng."
+	text "They're holding an"
+	line "eating contest at"
+	cont "the restaurant."
 
-	para "Chỉ nhìn họ ăn"
-	line "cũng khiến tôi"
-	cont "thấy no căng…"
+	para "Just watching them"
+	line "go at it makes me"
+	cont "feel bloated…"
 	done
 
 CeladonCityTeacher2Text:
-	text "TTMT CELADON có"
-	line "hàng hóa đa dạng"
+	text "CELADON DEPT.STORE"
+	line "has the biggest"
 
-	para "và chất lượng"
-	line "nhất."
+	para "and best selection"
+	line "of merchandise."
 
-	para "Nếu không có ở đó"
-	line "thì không có ở"
+	para "If you can't get"
+	line "it there, you"
 
-	para "đâu cả."
+	para "can't get it any-"
+	line "where."
 
-	para "Trời… Tôi nghe như"
-	line "nhân viên bán"
-	cont "hàng vậy."
+	para "Gee… I sound like"
+	line "a sales clerk."
 	done
 
 CeladonCityLassText_Mobile: ; unreferenced
-	text "Tôi thích được bao"
-	line "quanh bởi cao ốc!"
+	text "I love being"
+	line "surrounded by tall"
+	cont "buildings!"
 
-	para "Có phải TT #MON"
-	line "GOLDENROD đã được"
+	para "Isn't it true that"
+	line "GOLDENROD #MON"
 
-	para "làm lớn hơn nhiều"
-	line "không?"
+	para "CENTER was made"
+	line "much, much bigger?"
 
-	para "Thật tuyệt! Tôi"
-	line "ước KANTO có chỗ"
+	para "That is so neat!"
+	line "I wish we had a"
 
-	para "như vậy…"
+	para "place like that in"
+	line "KANTO…"
 	done
 
 CeladonCityLassText:
-	text "Nhìn xuống đất"
-	line "khi đi bộ làm"
+	text "Looking at the"
+	line "ground while I was"
 
-	para "tôi thấy chóng"
-	line "mặt."
+	para "walking made me"
+	line "dizzy."
 	done
 
 CeladonCitySignText:
-	text "TP. CELADON"
+	text "CELADON CITY"
 
-	para "Thành Phố Giấc Mơ"
-	line "Cầu Vồng"
+	para "The City of"
+	line "Rainbow Dreams"
 	done
 
 CeladonGymSignText:
-	text "TP. CELADON"
-	line "GYM #MON"
-	cont "TRƯỞNG: ERIKA"
+	text "CELADON CITY"
+	line "#MON GYM"
+	cont "LEADER: ERIKA"
 
-	para "Công Chúa Yêu"
-	line "Thiên Nhiên"
+	para "The Nature-Loving"
+	line "Princess"
 	done
 
 CeladonCityDeptStoreSignText:
-	text "Tìm Thứ Bạn Cần"
-	line "TTMT CELADON!"
+	text "Find What You"
+	line "Need at CELADON"
+	cont "DEPT.STORE!"
 	done
 
 CeladonCityMansionSignText:
-	text "DINH THỰ CELADON"
+	text "CELADON MANSION"
 	done
 
 CeladonCityGameCornerSignText:
 if DEF(_CRYSTAL_AU)
-	text "Khu Vui Chơi Cho"
-	line "Người Lớn"
-	cont "GÓC GIẢI TRÍ"
+	text "The Game Area for"
+	line "Grown-ups--CELADON"
+	cont "GAME CORNER"
 	done
 else
-	text "Sân Chơi Cho Mọi"
-	line "Người"
-	cont "GÓC GIẢI TRÍ"
+	text "The Playground for"
+	line "Everybody--CELADON"
+	cont "GAME CORNER"
 	done
 endc
 
 CeladonCityTrainerTipsText:
-	text "MẸO CHO HLV"
+	text "TRAINER TIPS"
 
-	para "BẢO VỆ SPEC. bảo"
-	line "vệ #MON khỏi"
+	para "GUARD SPEC."
+	line "protects #MON"
 
-	para "đòn ĐẶC BIỆT như"
-	line "lửa và nước."
+	para "against SPECIAL"
+	line "attacks such as"
+	cont "fire and water."
 
-	para "Mua vật phẩm tại"
-	line "TTMT CELADON!"
+	para "Get your items at"
+	line "CELADON DEPT."
+	cont "STORE!"
 	done
 
 CeladonCity_MapEvents:

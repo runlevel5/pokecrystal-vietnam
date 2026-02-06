@@ -1,10 +1,10 @@
-	db "TIẾN HÓA@" ; species name
-	dw 3, 65 ; height, weight
+	db "EVOLUTION@" ; species name
+	dw 100, 140 ; height, weight
 
-	db   "Khả năng tiến hóa"
-	next "thành nhiều dạng"
-	next "giúp nó thích"
+	db   "Its ability to"
+	next "evolve into many"
+	next "forms allows it to"
 
-	page "nghi hoàn hảo"
-	next "với mọi"
-	next "môi trường.@"
+	page "adapt smoothly"
+	next "and perfectly to"
+	next "any environment.@"

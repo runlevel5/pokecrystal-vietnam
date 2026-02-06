@@ -76,70 +76,70 @@ CharcoalKilnRadio:
 	jumpstd Radio2Script
 
 CharcoalKilnBossText1:
-	text "Tất cả SLOWPOKE"
-	line "đã biến mất khỏi"
-	cont "thị trấn."
+	text "All the SLOWPOKE"
+	line "have disappeared"
+	cont "from the town."
 
-	para "Người bảo vệ rừng"
-	line "có lẽ đang giận"
-	cont "chúng ta…"
+	para "The forest's pro-"
+	line "tector may be"
+	cont "angry with us…"
 
-	para "Có thể là điềm"
-	line "xấu. Chúng ta nên"
-	cont "ở trong nhà."
+	para "It may be a bad"
+	line "omen. We should"
+	cont "stay in."
 	done
 
 CharcoalKilnBossText2:
-	text "SLOWPOKE đã trở về"
-	line "rồi…"
+	text "The SLOWPOKE have"
+	line "returned…"
 
-	para "Nhưng ĐỆ TỬ của"
-	line "ta vẫn chưa về"
-	cont "từ RỪNG ILEX."
+	para "But my APPRENTICE"
+	line "hasn't come back"
+	cont "from ILEX FOREST."
 
-	para "Thằng lười biếng"
-	line "đó ở đâu vậy?"
+	para "Where in the world"
+	line "is that lazy guy?"
 	done
 
 CharcoalKilnBossText3:
-	text "Cháu đã đuổi ĐỘI"
-	line "ROCKET đi và"
+	text "You chased off"
+	line "TEAM ROCKET and"
 
-	para "đến RỪNG ILEX"
-	line "một mình à?"
+	para "went to ILEX"
+	line "FOREST alone?"
 
-	para "Thật dũng cảm!"
-	line "Tôi thích thế."
-	cont "Đến luyện tập."
+	para "That takes guts!"
+	line "I like that. Come"
+	cont "train with us."
 	done
 
 CharcoalKilnApprenticeText1:
-	text "Tất cả SLOWPOKE"
-	line "đi đâu hết rồi?"
+	text "Where have all the"
+	line "SLOWPOKE gone?"
 
-	para "Chúng ra ngoài"
-	line "chơi đâu đó à?"
+	para "Are they out play-"
+	line "ing somewhere?"
 	done
 
 CharcoalKilnApprenticeText2:
-	text "Xin lỗi, tôi quên"
-	line "cảm ơn bạn."
+	text "I'm sorry--I for-"
+	line "got to thank you."
 
-	para "Đây là CHARCOAL"
-	line "tôi làm ra."
+	para "This is CHARCOAL"
+	line "that I made."
 
-	para "#MON LỬA sẽ"
-	line "rất thích cầm nó"
-	cont "đấy."
+	para "Fire-type #MON"
+	line "would be happy to"
+	cont "hold that."
 	done
 
 CharcoalKilnApprenticeText3:
-	text "SLOWPOKE trở về,"
-	line "và bạn còn tìm"
-	cont "được FARFETCH'D."
+	text "The SLOWPOKE came"
+	line "back, and you even"
+	cont "found FARFETCH'D."
 
-	para "Bạn thật tuyệt"
-	line "vời!"
+	para "You're the cool-"
+	line "est, man!"
 	done
 
 FarfetchdText:

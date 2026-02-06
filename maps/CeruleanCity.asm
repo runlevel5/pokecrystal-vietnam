@@ -148,35 +148,36 @@ CeruleanCityHiddenBerserkGene:
 	hiddenitem BERSERK_GENE, EVENT_FOUND_BERSERK_GENE_IN_CERULEAN_CITY
 
 CeruleanCityCooltrainerMText1:
-	text "NHÀ MÁY ĐIỆN"
-	line "của KANTO à?"
+	text "KANTO's POWER"
+	line "PLANT?"
 
-	para "Nó nằm gần cuối"
-	line "ĐƯỜNG 9, con đường"
+	para "It's near the end"
+	line "of ROUTE 9, the"
 
-	para "đi về phía đông"
-	line "từ đây."
+	para "road that heads"
+	line "east from here."
 
-	para "Tôi nghĩ có tai"
-	line "nạn gì đó xảy ra"
-	cont "ở đó."
+	para "I think there was"
+	line "an accident of"
+	cont "some sort there."
 	done
 
 CeruleanCityCooltrainerMText2:
-	text "Cậu đang sưu tầm"
-	line "mọi loại #MON?"
+	text "You're collecting"
+	line "every single kind"
+	cont "of #MON?"
 
-	para "Đó phải là một"
-	line "thử thách lớn,"
-	cont "nhưng nghe vui đấy"
+	para "That must be quite"
+	line "a challenge, but"
+	cont "it sounds fun too."
 	done
 
 CeruleanCitySuperNerdText:
-	text "MŨI ĐẤT phía bắc"
-	line "là nơi tốt để"
+	text "The CAPE in the"
+	line "north is a good"
 
-	para "hẹn hò."
-	line "Con gái thích lắm!"
+	para "place for dates."
+	line "Girls like it!"
 	done
 
 CeruleanCitySlowbroText:
@@ -184,14 +185,14 @@ CeruleanCitySlowbroText:
 	done
 
 CeruleanCityCooltrainerFText1:
-	text "SLOWBRO và tôi"
-	line "là bộ đôi tuyệt"
-	cont "vời!"
+	text "My SLOWBRO and I"
+	line "make an awesome"
+	cont "combination!"
 	done
 
 CeruleanCityCooltrainerFText2:
-	text "SLOWBRO, cho xem"
-	line "LẪN LỘN của cậu!"
+	text "SLOWBRO, show me"
+	line "your CONFUSION!"
 	done
 
 CeruleanCityCooltrainerFText3:
@@ -199,77 +200,77 @@ CeruleanCityCooltrainerFText3:
 	done
 
 CeruleanCityFisherText:
-	text "Tôi là fan cuồng"
-	line "MISTY ở GYM"
-	cont "CERULEAN."
+	text "I'm a huge fan of"
+	line "CERULEAN GYM's"
+	cont "MISTY."
 	done
 
 CeruleanCityFisherRocketTipText:
-	text "Tôi thấy gã đáng"
-	line "ngờ đi về phía"
-	cont "MŨI ĐẤT CERULEAN."
+	text "I saw this shady"
+	line "guy go off toward"
+	cont "CERULEAN's CAPE."
 	done
 
 CeruleanCityYoungsterText1:
-	text "Trước đây có một"
-	line "hang động có"
+	text "There used to be a"
+	line "cave here that had"
 
-	para "#MON cực kỳ"
-	line "mạnh ở đây."
+	para "horribly powerful"
+	line "#MON in it."
 	done
 
 CeruleanCityYoungsterText2:
-	text "Ơ?"
+	text "Ayuh?"
 
-	para "MÁY TÌM ĐỒ của"
-	line "tôi đang phản ứng…"
+	para "My ITEMFINDER is"
+	line "responding…"
 	done
 
 CeruleanCitySignText:
-	text "THÀNH PHỐ CERULEAN"
+	text "CERULEAN CITY"
 
-	para "Hào Quang Xanh Bí"
-	line "Ẩn Bao Quanh Nó"
+	para "A Mysterious Blue"
+	line "Aura Surrounds It"
 	done
 
 CeruleanGymSignText:
-	text "TP. CERULEAN"
-	line "GYM #MON"
-	cont "TRƯỞNG: MISTY"
+	text "CERULEAN CITY"
+	line "#MON GYM"
+	cont "LEADER: MISTY"
 
-	para "Nàng Tiên Cá"
-	line "Tomboy"
+	para "The Tomboyish"
+	line "Mermaid"
 	done
 
 CeruleanBikeShopSignText:
-	text "Có thông báo"
-	line "ở đây…"
+	text "There's a notice"
+	line "here…"
 
-	para "TIỆM XE ĐẠP đã"
-	line "chuyển đến"
-	cont "GOLDENROD ở JOHTO…"
+	para "The BIKE SHOP has"
+	line "moved to GOLDENROD"
+	cont "CITY in JOHTO…"
 	done
 
 CeruleanPoliceSignText:
-	text "Có thông báo"
-	line "ở đây…"
+	text "There's a notice"
+	line "here…"
 
-	para "Xóa sổ trộm cắp"
-	line "và làm thành phố"
+	para "Stamp out thievery"
+	line "and make the city"
 
-	para "thân thiện, vui"
-	line "vẻ hơn!"
+	para "a friendlier, more"
+	line "cheerful place!"
 
-	para "CẢNH SÁT CERULEAN"
+	para "CERULEAN POLICE"
 	done
 
 CeruleanCapeSignText:
-	text "MŨI ĐẤT CERULEAN"
-	line "PHÍA TRƯỚC"
+	text "CERULEAN CAPE"
+	line "AHEAD"
 	done
 
 CeruleanLockedDoorText:
-	text "Nó bị khóa…"
+	text "It's locked…"
 	done
 
 CeruleanCity_MapEvents:

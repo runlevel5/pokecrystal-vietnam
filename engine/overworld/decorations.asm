@@ -60,14 +60,14 @@ _PlayerDecorationMenu:
 	dw DecoExitMenu,     .exit
 	assert_table_length NUM_DECO_CATEGORIES + 1
 
-.bed:      db "GIƯỜNG@"
-.carpet:   db "THẢM@"
-.plant:    db "CÂY KIỂNG@"
-.poster:   db "ÁP PHÍCH@"
-.game:     db "MÁY GAME@"
-.ornament: db "TRANG TRÍ@"
-.big_doll: db "BÚP BÊ LỚN@"
-.exit:     db "THOÁT@"
+.bed:      db "BED@"
+.carpet:   db "CARPET@"
+.plant:    db "PLANT@"
+.poster:   db "POSTER@"
+.game:     db "GAME CONSOLE@"
+.ornament: db "ORNAMENT@"
+.big_doll: db "BIG DOLL@"
+.exit:     db "EXIT@"
 
 .FindCategoriesWithOwnedDecos:
 	xor a
@@ -500,7 +500,15 @@ GetDecorationSprite:
 
 INCLUDE "data/decorations/attributes.asm"
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/decorations/names.asm"
+
+else
+
 INCLUDE "data/decorations/names.asm"
+
+endc
 
 GetDecoName:
 	ld a, [hli] ; DECOATTR_TYPE
@@ -531,19 +539,13 @@ GetDecoName:
 	jr .getdeconame
 
 .bed:
-	push de
+	call .plant
 	ld a, _BED
-	call .getdeconame
-	pop de
-	ld a, e
 	jr .getdeconame
 
 .carpet:
-	push de
+	call .plant
 	ld a, _CARPET
-	call .getdeconame
-	pop de
-	ld a, e
 	jr .getdeconame
 
 .poster:
@@ -894,9 +896,9 @@ DecoSideMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "BÊN PHẢI@"
-	db "BÊN TRÁI@"
-	db "HỦY@"
+	db "RIGHT SIDE@"
+	db "LEFT SIDE@"
+	db "CANCEL@"
 
 PutAwayTheDecoText:
 	text_far _PutAwayTheDecoText

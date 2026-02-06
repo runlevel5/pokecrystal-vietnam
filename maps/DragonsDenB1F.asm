@@ -204,205 +204,204 @@ MovementDragonsDen_ClairWalksAway:
 	step_end
 
 ClairText_Wait:
-	text "Đợi đã!"
+	text "Wait!"
 	done
 
 ClairText_GiveDragonbreathDragonDen:
-	text "CLAIR: Ta xin lỗi"
-	line "về chuyện này."
+	text "CLAIR: I'm sorry"
+	line "about this."
 
-	para "Đây, cầm lấy như"
-	line "lời xin lỗi."
+	para "Here, take this as"
+	line "my apology."
 	done
 
 Text_ReceivedTM24:
-	text "<PLAYER> đã nhận"
+	text "<PLAYER> received"
 	line "TM24."
 	done
 
 ClairText_DescribeDragonbreathDragonDen:
-	text "Đó chứa"
-	line "HƠI RỒNG."
+	text "That contains"
+	line "DRAGONBREATH."
 
-	para "Không, nó chẳng"
-	line "liên quan gì đến"
-	cont "hơi thở của ta."
+	para "No, it doesn't"
+	line "have anything to"
+	cont "do with my breath."
 
-	para "Nếu ngươi không"
-	line "muốn, không cần"
-	cont "phải nhận."
+	para "If you don't want"
+	line "it, you don't have"
+	cont "to take it."
 	done
 
 ClairText_NoRoom:
-	text "Ồ? Ngươi không còn"
-	line "chỗ cho thứ này."
+	text "Oh? You don't have"
+	line "any room for this."
 
-	para "Ta sẽ về GYM, hãy"
-	line "dọn chỗ rồi đến"
+	para "I'm going back to"
+	line "the GYM, so make"
 
-	para "gặp ta ở đó."
+	para "room, then come"
+	line "see me there."
 	done
 
 ClairText_WhatsTheMatterDragonDen:
-	text "CLAIR: Sao vậy?"
-	line "Ngươi không đi"
+	text "CLAIR: What's the"
+	line "matter? Aren't you"
 
-	para "HỘI LIÊN ĐOÀN"
-	line "#MON sao?"
+	para "going on to the"
+	line "#MON LEAGUE?"
 
-	para "Ngươi biết đường"
-	line "đến đó không?"
+	para "Do you know how to"
+	line "get there?"
 
-	para "Từ đây, hãy đến"
-	line "T.TRẤN NEW BARK."
+	para "From here, go to"
+	line "NEW BARK TOWN."
 
-	para "Rồi LƯỚT SÓNG về"
-	line "đông đến HỘI LIÊN"
-	cont "ĐOÀN #MON."
+	para "Then SURF east to"
+	line "#MON LEAGUE."
 
-	para "Đường đi rất"
-	line "gian nan."
+	para "The route there is"
+	line "very tough."
 
-	para "Đừng có dám thua"
-	line "ở HỘI LIÊN ĐOÀN"
-	cont "#MON!"
+	para "Don't you dare"
+	line "lose at the #-"
+	cont "MON LEAGUE!"
 
-	para "Nếu ngươi thua,"
-	line "ta sẽ còn khó"
+	para "If you do, I'll"
+	line "feel even worse"
 
-	para "chịu hơn vì đã"
-	line "thua ngươi!"
+	para "about having lost"
+	line "to you!"
 
-	para "Hãy cố hết sức"
-	line "mình."
+	para "Give it everything"
+	line "you've got."
 	done
 
 DragonShrineSignpostText:
-	text "MIẾU THỜ RỒNG"
+	text "DRAGON SHRINE"
 
-	para "Miếu thờ tôn vinh"
-	line "#MON rồng"
+	para "A shrine honoring"
+	line "the dragon #MON"
 
-	para "tương truyền sống"
-	line "ở HANG RỒNG."
+	para "said to have lived"
+	line "in DRAGON'S DEN."
 	done
 
 RivalText_Training1:
 	text "…"
-	line "Gì? <PLAYER>?"
+	line "What? <PLAYER>?"
 
-	para "…Không, tao sẽ"
-	line "không đấu giờ…"
+	para "…No, I won't"
+	line "battle you now…"
 
-	para "#MON của tao"
-	line "chưa sẵn sàng"
-	cont "đánh bại mày."
+	para "My #MON aren't"
+	line "ready to beat you."
 
-	para "Tao không thể ép"
-	line "chúng quá mức."
+	para "I can't push them"
+	line "too hard now."
 
-	para "Tao phải kỷ luật"
-	line "để trở thành HLV"
+	para "I have to be dis-"
+	line "ciplined to become"
 
-	para "#MON giỏi"
-	line "nhất…"
+	para "the greatest #-"
+	line "MON trainer…"
 	done
 
 RivalText_Training2:
 	text "…"
 
-	para "Phù…"
+	para "Whew…"
 
-	para "Học cách tránh"
-	line "xa tao đi…"
+	para "Learn to stay out"
+	line "of my way…"
 	done
 
 CooltrainermDarinSeenText:
-	text "Ngươi! Sao dám"
-	line "vào không mời!"
+	text "You! How dare you"
+	line "enter uninvited!"
 	done
 
 CooltrainermDarinBeatenText:
-	text "M-mạnh quá!"
+	text "S-strong!"
 	done
 
 CooltrainermDarinAfterBattleText:
-	text "MIẾU phía trước"
-	line "là nơi ở của"
+	text "The SHRINE ahead"
+	line "is home to the"
 
-	para "BẬC THẦY gia tộc"
-	line "dùng rồng."
+	para "MASTER of our"
+	line "dragon-user clan."
 
-	para "Ngươi không được"
-	line "phép vào!"
+	para "You're not allowed"
+	line "to just go in!"
 	done
 
 CooltrainerfCaraSeenText:
-	text "Ngươi không nên"
-	line "ở đây!"
+	text "You shouldn't be"
+	line "in here!"
 	done
 
 CooltrainerfCaraBeatenText:
-	text "Ôi, tôi thua rồi!"
+	text "Oh yikes, I lost!"
 	done
 
 CooltrainerfCaraAfterBattleText:
-	text "Sớm thôi tôi sẽ"
-	line "được BẬC THẦY cho"
+	text "Soon I'm going to"
+	line "get permission"
 
-	para "phép dùng rồng."
+	para "from our MASTER to"
+	line "use dragons."
 
-	para "Khi đó, tôi sẽ"
-	line "trở thành HLV"
+	para "When I do, I'm"
+	line "going to become an"
 
-	para "rồng đáng ngưỡng"
-	line "mộ và được"
+	para "admirable dragon"
+	line "trainer and gain"
 
-	para "BẬC THẦY công"
-	line "nhận."
+	para "our MASTER's"
+	line "approval."
 	done
 
 TwinsLeaandpia1SeenText:
-	text "Đó là người lạ"
-	line "bọn mình không"
-	cont "biết."
+	text "It's a stranger we"
+	line "don't know."
 	done
 
 TwinsLeaandpia1BeatenText:
-	text "Đau quá."
+	text "Ouchies."
 	done
 
 TwinsLeaandpia1AfterBattleText:
-	text "Như phải đấu với"
-	line "LANCE vậy."
+	text "It was like having"
+	line "to battle LANCE."
 	done
 
 TwinsLeaandpia2SeenText:
-	text "Bạn là ai?"
+	text "Who are you?"
 	done
 
 TwinsLeaandpia2BeatenText:
-	text "Ác quá."
+	text "Meanie."
 	done
 
 TwinsLeaandpia2AfterBattleText:
-	text "Bọn mình sẽ mách."
+	text "We'll tell on you."
 
-	para "BẬC THẦY sẽ giận"
-	line "bạn đấy."
+	para "MASTER will be"
+	line "angry with you."
 	done
 
 Text_FoundDragonFang:
-	text "<PLAYER> tìm thấy"
+	text "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 Text_NoRoomForDragonFang:
-	text "Nhưng <PLAYER>"
-	line "không mang thêm"
-	cont "đồ được."
+	text "But <PLAYER> can't"
+	line "carry any more"
+	cont "items."
 	done
 
 DragonsDenB1F_MapEvents:

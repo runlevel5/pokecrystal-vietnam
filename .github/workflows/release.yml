@@ -12,22 +12,20 @@ permissions:
 
 env:
   rgbds_version: v1.0.1
-  # Commit hash of the original pret/pokecrystal that our Vietnamese version is based on
-  original_commit: 2ad9616586212e2a9ed3be812776d133dc47bb8a
+  # Expected SHA1 of the English ROM (must match upstream pret/pokecrystal)
+  expected_english_sha1: f2f52230b536214ef7c9924f483392993e226cfb
 
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Vietnamese version
+      - name: Checkout repository
         uses: actions/checkout@v6
-        with:
-          path: vietnamese
 
       - name: Read version
         id: version
         run: |
-          VERSION=$(cat vietnamese/VERSION | tr -d '\n\r')
+          VERSION=$(cat VERSION | tr -d '\n\r')
           echo "version=$VERSION" >> $GITHUB_OUTPUT
           echo "Building release v$VERSION"
 
@@ -36,21 +34,12 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cd vietnamese
           if gh release view "v${{ steps.version.outputs.version }}" > /dev/null 2>&1; then
             echo "exists=true" >> $GITHUB_OUTPUT
             echo "Release v${{ steps.version.outputs.version }} already exists, skipping..."
           else
             echo "exists=false" >> $GITHUB_OUTPUT
           fi
-
-      - name: Checkout original pokecrystal
-        if: steps.check_release.outputs.exists == 'false'
-        uses: actions/checkout@v6
-        with:
-          repository: pret/pokecrystal
-          ref: ${{ env.original_commit }}
-          path: original
 
       - name: Checkout rgbds
         if: steps.check_release.outputs.exists == 'false'
@@ -72,23 +61,33 @@ jobs:
         if: steps.check_release.outputs.exists == 'false'
         run: rm -rf rgbds
 
-      - name: Build original ROM
+      - name: Build English ROM
         if: steps.check_release.outputs.exists == 'false'
-        working-directory: original
         run: |
           make -j$(nproc) crystal11
-          cp pokecrystal11.gbc ../pokecrystal11.orig.gbc
-          echo "Original ROM built successfully"
-          sha1sum ../pokecrystal11.orig.gbc
+          echo "English ROM built successfully"
+
+      - name: Verify English ROM matches upstream
+        if: steps.check_release.outputs.exists == 'false'
+        run: |
+          ACTUAL_SHA=$(sha1sum pokecrystal11.gbc | cut -d' ' -f1)
+          echo "English ROM SHA1: $ACTUAL_SHA"
+          echo "Expected SHA1:    ${{ env.expected_english_sha1 }}"
+          
+          if [ "$ACTUAL_SHA" = "${{ env.expected_english_sha1 }}" ]; then
+            echo "✓ English ROM matches upstream pret/pokecrystal!"
+          else
+            echo "✗ English ROM SHA1 mismatch!"
+            echo "This indicates the i18n system has a bug - English build should be identical to upstream."
+            exit 1
+          fi
 
       - name: Build Vietnamese ROM
         if: steps.check_release.outputs.exists == 'false'
-        working-directory: vietnamese
         run: |
-          make -j$(nproc) crystal11
-          cp pokecrystal11.gbc ../pokecrystal11vn.gbc
+          make -j$(nproc) crystal11_vn
           echo "Vietnamese ROM built successfully"
-          sha1sum ../pokecrystal11vn.gbc
+          sha1sum pokecrystal11_vn.gbc
 
       - name: Install Lipx
         if: steps.check_release.outputs.exists == 'false'
@@ -102,20 +101,19 @@ jobs:
       - name: Create IPS patch
         if: steps.check_release.outputs.exists == 'false'
         run: |
-          lipx create pokecrystal11.orig.gbc pokecrystal11vn.gbc pokecrystal11vn.ips
+          lipx create pokecrystal11.gbc pokecrystal11_vn.gbc pokecrystal11vn.ips
           echo "IPS patch created"
           ls -la pokecrystal11vn.ips
 
       - name: Verify IPS patch
         if: steps.check_release.outputs.exists == 'false'
         run: |
-          # Apply patch to original and compare with Vietnamese ROM
-          # lipx apply creates output file with _patched suffix
-          lipx apply pokecrystal11vn.ips pokecrystal11.orig.gbc
+          # Apply patch to English ROM and compare with Vietnamese ROM
+          lipx apply pokecrystal11vn.ips pokecrystal11.gbc
           
-          # Compare checksums (output is pokecrystal11.orig_patched.gbc)
-          PATCHED_SHA=$(sha1sum pokecrystal11.orig_patched.gbc | cut -d' ' -f1)
-          EXPECTED_SHA=$(sha1sum pokecrystal11vn.gbc | cut -d' ' -f1)
+          # Compare checksums (output is pokecrystal11_patched.gbc)
+          PATCHED_SHA=$(sha1sum pokecrystal11_patched.gbc | cut -d' ' -f1)
+          EXPECTED_SHA=$(sha1sum pokecrystal11_vn.gbc | cut -d' ' -f1)
           
           if [ "$PATCHED_SHA" = "$EXPECTED_SHA" ]; then
             echo "✓ IPS patch verification successful!"
@@ -133,16 +131,16 @@ jobs:
         run: |
           echo "## Checksums" > checksums.md
           echo "" >> checksums.md
-          echo "### Original ROM (pokecrystal11.gbc from pret/pokecrystal @ ${{ env.original_commit }})" >> checksums.md
+          echo "### Original ROM (pokecrystal11.gbc - verified identical to upstream)" >> checksums.md
           echo '```' >> checksums.md
-          sha1sum pokecrystal11.orig.gbc >> checksums.md
-          md5sum pokecrystal11.orig.gbc >> checksums.md
+          sha1sum pokecrystal11.gbc >> checksums.md
+          md5sum pokecrystal11.gbc >> checksums.md
           echo '```' >> checksums.md
           echo "" >> checksums.md
-          echo "### Vietnamese ROM (after applying patch)" >> checksums.md
+          echo "### Vietnamese ROM (pokecrystal11_vn.gbc)" >> checksums.md
           echo '```' >> checksums.md
-          sha1sum pokecrystal11vn.gbc >> checksums.md
-          md5sum pokecrystal11vn.gbc >> checksums.md
+          sha1sum pokecrystal11_vn.gbc >> checksums.md
+          md5sum pokecrystal11_vn.gbc >> checksums.md
           echo '```' >> checksums.md
           echo "" >> checksums.md
           echo "### IPS Patch" >> checksums.md
@@ -158,8 +156,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          cd vietnamese
-          
           # Create release notes
           cat > release_notes.md << 'NOTES'
           # Pokemon Crystal Vietnamese v${{ steps.version.outputs.version }}
@@ -185,10 +181,10 @@ jobs:
           
           NOTES
           
-          cat ../checksums.md >> release_notes.md
+          cat checksums.md >> release_notes.md
           
           # Create GitHub release
           gh release create "v${{ steps.version.outputs.version }}" \
             --title "Pokemon Crystal Vietnamese v${{ steps.version.outputs.version }}" \
             --notes-file release_notes.md \
-            ../pokecrystal11vn.ips
+            pokecrystal11vn.ips

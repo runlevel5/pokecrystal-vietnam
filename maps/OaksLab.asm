@@ -78,178 +78,180 @@ OaksLabPC:
 	jumptext OaksLabPCText
 
 OakWelcomeKantoText:
-	text "OAK: Ồ, <PLAY_G>!"
-	line "Tốt lắm khi bạn"
+	text "OAK: Ah, <PLAY_G>!"
+	line "It's good of you"
 
-	para "đến tận KANTO"
-	line "như vậy."
+	para "to come all this"
+	line "way to KANTO."
 
-	para "Bạn nghĩ sao về"
-	line "các HLV ở đây?"
+	para "What do you think"
+	line "of the trainers"
 
-	para "Khá khó khăn,"
-	line "phải không?"
+	para "out here?"
+	line "Pretty tough, huh?"
 	done
 
 OakLabDexCheckText:
-	text "#DEX của bạn"
-	line "thế nào rồi?"
+	text "How is your #-"
+	line "DEX coming?"
 
-	para "Để xem nào…"
+	para "Let's see…"
 	done
 
 OakLabGoodbyeText:
-	text "Nếu bạn qua đây,"
-	line "tôi hy vọng bạn"
-	cont "ghé thăm lại."
+	text "If you're in the"
+	line "area, I hope you"
+	cont "come visit again."
 	done
 
 OakOpenMtSilverText:
-	text "OAK: Wow! Tuyệt"
-	line "vời!"
+	text "OAK: Wow! That's"
+	line "excellent!"
 
-	para "Bạn thu thập đủ"
-	line "HUYÊN HIỆU của"
-	cont "KANTO. Giỏi lắm!"
+	para "You collected the"
+	line "BADGES of GYMS in"
+	cont "KANTO. Well done!"
 
-	para "Tôi đúng khi đánh"
-	line "giá bạn cao."
+	para "I was right in my"
+	line "assessment of you."
 
-	para "Nghe này,"
-	line "<PLAY_G>. Tôi sẽ"
+	para "Tell you what,"
+	line "<PLAY_G>. I'll make"
 
-	para "sắp xếp để bạn"
-	line "có thể đến"
-	cont "NÚI BẠC."
+	para "arrangements so"
+	line "that you can go to"
+	cont "MT.SILVER."
 
-	para "NÚI BẠC là ngọn"
-	line "núi lớn, nơi ở"
+	para "MT.SILVER is a big"
+	line "mountain that is"
 
-	para "của nhiều #MON"
-	line "hoang dã."
+	para "home to many wild"
+	line "#MON."
 
-	para "Quá nguy hiểm cho"
-	line "HLV bình thường,"
+	para "It's too dangerous"
+	line "for your average"
 
-	para "nên bị cấm. Nhưng"
-	line "ta có thể ngoại"
+	para "trainer, so it's"
+	line "off limits. But"
 
-	para "lệ cho trường hợp"
-	line "của bạn, <PLAY_G>."
+	para "we can make an"
+	line "exception in your"
+	cont "case, <PLAY_G>."
 
-	para "Hãy đến CAO NGUYÊN"
-	line "INDIGO. Bạn có thể"
+	para "Go up to INDIGO"
+	line "PLATEAU. You can"
 
-	para "đến NÚI BẠC từ"
-	line "đó."
+	para "reach MT.SILVER"
+	line "from there."
 	done
 
 OakNoKantoBadgesText:
-	text "OAK: Hmm? Bạn"
-	line "không thu thập"
-	cont "HUYÊN HIỆU KANTO?"
+	text "OAK: Hmm? You're"
+	line "not collecting"
+	cont "KANTO GYM BADGES?"
 
-	para "T.LĨNH GYM ở"
-	line "KANTO cũng khó"
+	para "The GYM LEADERS in"
+	line "KANTO are as tough"
 
-	para "như những người"
-	line "bạn đấu ở JOHTO."
+	para "as any you battled"
+	line "in JOHTO."
 
-	para "Tôi khuyên bạn"
-	line "nên thách đấu"
-	cont "họ."
+	para "I recommend that"
+	line "you challenge"
+	cont "them."
 	done
 
 OakYesKantoBadgesText:
-	text "OAK: À, bạn đang"
-	line "thu thập HUYÊN"
-	cont "HIỆU KANTO."
+	text "OAK: Ah, you're"
+	line "collecting KANTO"
+	cont "GYM BADGES."
 
-	para "Tôi nghĩ là khó,"
-	line "nhưng kinh nghiệm"
+	para "I imagine that"
+	line "it's hard, but the"
 
-	para "chắc chắn sẽ giúp"
-	line "ích bạn."
+	para "experience is sure"
+	line "to help you."
 
-	para "Hãy gặp tôi khi"
-	line "bạn có đủ."
+	para "Come see me when"
+	line "you get them all."
 
-	para "Tôi có quà cho"
-	line "bạn."
+	para "I'll have a gift"
+	line "for you."
 
-	para "Cố gắng lên,"
+	para "Keep trying hard,"
 	line "<PLAY_G>!"
 	done
 
 OaksAssistant1Text:
-	text "Chương trình"
-	line "#MON TALK radio"
+	text "The PROF's #MON"
+	line "TALK radio program"
 
-	para "của GS không phát"
-	line "ở KANTO."
+	para "isn't aired here"
+	line "in KANTO."
 
-	para "Thật tiếc--tôi"
-	line "muốn nghe lắm."
+	para "It's a shame--I'd"
+	line "like to hear it."
 	done
 
 OaksAssistant2Text:
-	text "Nhờ công việc của"
-	line "bạn với #DEX,"
+	text "Thanks to your"
+	line "work on the #-"
+	cont "DEX, the PROF's"
 
-	para "nghiên cứu của GS"
-	line "tiến triển tốt."
+	para "research is coming"
+	line "along great."
 	done
 
 OaksAssistant3Text:
-	text "Đừng nói ai nhé,"
-	line "nhưng #MON TALK"
+	text "Don't tell anyone,"
+	line "but PROF.OAK'S"
 
-	para "của GS OAK không"
-	line "phát trực tiếp."
+	para "#MON TALK isn't"
+	line "a live broadcast."
 	done
 
 OaksLabPoster1Text:
-	text "Nhấn START để mở"
-	line "MENU."
+	text "Press START to"
+	line "open the MENU."
 	done
 
 OaksLabPoster2Text:
-	text "Tùy chọn LƯU ở"
-	line "trong MENU."
+	text "The SAVE option is"
+	line "on the MENU."
 
-	para "Hãy dùng nó đúng"
-	line "lúc."
+	para "Use it in a timely"
+	line "manner."
 	done
 
 OaksLabTrashcanText:
-	text "Không có gì trong"
-	line "này…"
+	text "There's nothing in"
+	line "here…"
 	done
 
 OaksLabPCText:
-	text "Có một tin nhắn"
-	line "e-mail trên PC."
+	text "There's an e-mail"
+	line "message on the PC."
 
 	para "…"
 
-	para "GS OAK, nghiên cứu"
-	line "của ông thế nào"
-	cont "rồi?"
+	para "PROF.OAK, how is"
+	line "your research"
+	cont "coming along?"
 
-	para "Tôi vẫn đang tiếp"
-	line "tục làm việc."
+	para "I'm still plugging"
+	line "away."
 
-	para "Tôi nghe đồn"
-	line "<PLAY_G> đang có"
+	para "I heard rumors"
+	line "that <PLAY_G> is"
 
-	para "danh tiếng khá"
-	line "tốt."
+	para "getting quite a"
+	line "reputation."
 
-	para "Tôi rất vui khi"
-	line "nghe điều đó."
+	para "I'm delighted to"
+	line "hear that."
 
-	para "ELM ở T.TRẤN"
-	line "NEW BARK 8-)"
+	para "ELM in NEW BARK"
+	line "TOWN 8-)"
 	done
 
 OaksLab_MapEvents:

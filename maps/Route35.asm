@@ -275,186 +275,189 @@ Route35FruitTree:
 	fruittree FRUITTREE_ROUTE_35
 
 CamperIvanSeenText:
-	text "Tôi lấy dữ liệu"
-	line "#MON từ radio."
+	text "I've been getting"
+	line "#MON data off"
 
-	para "Tôi nghĩ mình"
-	line "khá giỏi đó."
+	para "my radio. I think"
+	line "I'm good."
 	done
 
 CamperIvanBeatenText:
-	text "Tôi đầu hàng!"
+	text "I give!"
 	done
 
 CamperIvanAfterBattleText:
-	text "Nhạc trên radio"
-	line "thay đổi tâm trạn"
-	cont "#MON hoang dã."
+	text "Music on the radio"
+	line "changes the moods"
+	cont "of wild #MON."
 	done
 
 CamperElliotSeenText:
-	text "Tôi sẽ chứng minh"
-	line "với bạn gái tôi"
-	cont "thật tài giỏi!"
+	text "I'm gonna show my"
+	line "girlfriend I'm hot"
+	cont "stuff!"
 	done
 
 CamperElliotBeatenText:
-	text "Ước gì bạn thua"
-	line "cho tôi…"
+	text "I wish you would"
+	line "have lost for me…"
 	done
 
 CamperElliotAfterBattleText:
-	text "Tôi bị sỉ nhục"
-	line "trước mặt bạn gái"
-	cont "của tôi…"
+	text "I was humiliated"
+	line "in front of my"
+	cont "girlfriend…"
 	done
 
 PicnickerBrookeSeenText:
-	text "Bạn trai tôi yếu"
-	line "nên tôi không thể"
-	cont "dựa vào anh ấy."
+	text "My boyfriend's"
+	line "weak, so I can't"
+	cont "rely on him."
 	done
 
 PicnickerBrookeBeatenText:
-	text "Ôi chao! Bạn"
-	line "mạnh thật!"
+	text "Oh, my! You're so"
+	line "strong!"
 	done
 
 PicnickerBrookeAfterBattleText:
-	text "Tôi tin #MON"
-	line "hơn bạn trai tôi."
+	text "I can count on my"
+	line "#MON more than"
+	cont "my boyfriend."
 	done
 
 PicnickerKimSeenText:
-	text "Bạn đến GYM à?"
-	line "Tôi cũng thế!"
+	text "Are you going to"
+	line "the GYM? Me too!"
 	done
 
 PicnickerKimBeatenText:
-	text "Ôi. Tôi không thể"
-	line "thắng…"
+	text "Oh. I couldn't"
+	line "win…"
 	done
 
 PicnickerKimAfterBattleText:
-	text "HUY HIỆU GYM thật"
-	line "đẹp. Tôi sưu tập"
-	cont "chúng."
+	text "The GYM BADGES are"
+	line "pretty. I collect"
+	cont "them."
 	done
 
 BirdKeeperBryanSeenText:
-	text "Bạn dùng loại"
-	line "BÓNG nào?"
+	text "What kinds of"
+	line "BALLS do you use?"
 	done
 
 BirdKeeperBryanBeatenText:
-	text "Chà! Không đủ"
-	line "nhanh!"
+	text "Yikes! Not fast"
+	line "enough!"
 	done
 
 BirdKeeperBryanAfterBattleText:
-	text "Một số #MON bỏ"
-	line "chạy ngay lập tức"
+	text "Some #MON flee"
+	line "right away."
 
-	para "Hãy thử bắt chúng"
-	line "với BÓNG NHANH"
-	cont "của KURT."
+	para "Try catching them"
+	line "with KURT's FAST"
+	cont "BALL."
 
-	para "Khi tôi tìm thấy"
-	line "MƠ TRẮNG, tôi"
-	cont "đưa cho KURT."
+	para "Whenever I find a"
+	line "WHT APRICORN, I"
+	cont "take it to KURT."
 
-	para "Ông ấy biến nó"
-	line "thành BÓNG đặc bệ"
+	para "He turns it into a"
+	line "custom BALL."
 	done
 
 JugglerIrwin1SeenText:
-	text "Hãy xem khéo léo"
-	line "tung BÓNG của tôi"
+	text "Behold my graceful"
+	line "BALL dexterity!"
 	done
 
 JugglerIrwin1BeatenText:
-	text "Phù! Sốc quá!"
+	text "Whew! That was a"
+	line "jolt!"
 	done
 
 JugglerIrwinAfterBattleText:
-	text "Tôi định làm bạn"
-	line "kinh ngạc với con"
-	cont "#MON cưng."
+	text "I was going to"
+	line "dazzle you with my"
+	cont "prize #MON."
 
-	para "Nhưng kỹ năng của"
-	line "bạn điện tôi rồi!"
+	para "But your prowess"
+	line "electrified me!"
 	done
 
 BugCatcherArnieSeenText:
-	text "Tôi sẽ đi bất cứ"
-	line "đâu có #MON sâu"
-	cont "bọ xuất hiện."
+	text "I'll go anywhere"
+	line "if bug #MON"
+	cont "appear there."
 	done
 
 BugCatcherArnieBeatenText:
-	text "Hả? Tôi không nên"
-	line "thua chứ…"
+	text "Huh? I shouldn't"
+	line "have lost that…"
 	done
 
 BugCatcherArnieAfterBattleText:
-	text "VENONAT của tôi"
-	line "thắng cuộc thi"
+	text "My VENONAT won me"
+	line "the Bug-Catching"
 
-	para "Bắt Sâu Bọ tại"
-	line "VƯỜN QUỐC GIA."
+	para "Contest at the"
+	line "NATIONAL PARK."
 	done
 
 BugCatcherArnieYanmaText:
-	text "Chà… Nhìn toàn bộ"
-	line "những YANMA kia!"
+	text "Wow… Look at all"
+	line "those YANMA!"
 
-	para "Tôi choáng ngợp"
-	line "không cử động nổi"
+	para "I'm so blown away,"
+	line "I can't move."
 	done
 
 FirebreatherWaltSeenText:
-	text "Tôi đang tập thổi"
-	line "lửa."
+	text "I'm practicing my"
+	line "fire breathing."
 	done
 
 FirebreatherWaltBeatenText:
-	text "Úi! Tôi cháy đầu"
-	line "mũi rồi!"
+	text "Ow! I scorched the"
+	line "tip of my nose!"
 	done
 
 FirebreatherWaltAfterBattleText:
-	text "Bản March #MON"
-	line "trên radio dụ dỗ"
-	cont "#MON hoang dã."
+	text "The #MON March"
+	line "on the radio lures"
+	cont "wild #MON."
 	done
 
 OfficerDirkSeenText:
-	text "Nguy hiểm rình rập"
-	line "trong đêm!"
+	text "Danger lurks in"
+	line "the night!"
 	done
 
 OfficerDirkBeatenText:
-	text "Úi!"
+	text "Whoops!"
 	done
 
 OfficerDirkAfterBattleText:
-	text "Ban đêm cũng vui"
-	line "theo cách riêng."
+	text "You know, night-"
+	line "time is fun in its"
+	cont "own ways."
 
-	para "Nhưng đừng quá"
-	line "đà, được chứ?"
+	para "But don't overdo"
+	line "it, OK?"
 	done
 
 OfficerDirkPrettyToughText:
-	text "#MON của bạn"
-	line "trông khá mạnh."
+	text "Your #MON look"
+	line "pretty tough."
 
-	para "Bạn có thể đi bất"
-	line "cứ đâu an toàn."
+	para "You could go any-"
+	line "where safely."
 	done
 
 Route35SignText:
-	text "TUYẾN ĐƯỜNG 35"
+	text "ROUTE 35"
 	done
 
 Route35_MapEvents:

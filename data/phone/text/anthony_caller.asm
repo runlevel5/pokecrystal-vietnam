@@ -1,136 +1,139 @@
 AnthonyMonAteSomeBerriesText:
-	text "Hôm trước, tớ"
-	line "xem @"
-	text_ram wStringBuffer4
-
-	para "của tớ ăn QUẢ."
-
-	para "Trông như nó rất"
-	line "thích bữa ăn,"
-
-	para "nên tớ quyết định"
-	line "thử."
-
-	para "Tớ không chắc"
-	line "người nên ăn"
-
-	para "thứ đó, nhưng rất"
-	line "ngon!"
-	done
-
-AnthonyDefeatedMonText:
-	text "Gần đây, tớ hay"
-	line "gặp @"
-	text_ram wStringBuffer4
-
-	para "hoang khá thường"
-	line "xuyên."
-
-	para "Dễ dàng giải"
-	line "quyết thôi."
-	done
-
-AnthonyLostAMonText:
-	text "À này, tớ đang"
-	line "đấu với con"
+	text "The other day, I"
+	line "was watching my"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " hôm"
-	line "trước…"
+	text " eat"
+	line "some BERRIES."
 
-	para "Nó trốn khi tớ bị"
-	line "sao nhãng bởi cô"
-	cont "BEAUTY đi qua."
+	para "It looked like it"
+	line "was enjoying its"
 
-	para "Học từ sai lầm của"
-	line "tớ--luôn tập trung"
+	para "meal, so I decided"
+	line "to try some."
 
-	para "vào việc đang"
-	line "làm!"
+	para "I'm not sure if"
+	line "people should eat"
+
+	para "that stuff, but it"
+	line "was delicious!"
+	done
+
+AnthonyDefeatedMonText:
+	text "Lately, I've been"
+	line "running across"
+
+	para "wild @"
+	text_ram wStringBuffer4
+	text_start
+	line "quite often."
+
+	para "They're easily"
+	line "taken care of."
+	done
+
+AnthonyLostAMonText:
+	text "Oh yeah, I was"
+	line "battling this"
+
+	para "@"
+	text_ram wStringBuffer4
+	text " the"
+	line "other day…"
+
+	para "It took off when I"
+	line "got distracted by"
+	cont "a passing BEAUTY."
+
+	para "Learn from my"
+	line "mistake--always"
+
+	para "stay focused on"
+	line "the job at hand!"
 	done
 
 AnthonyBattleRematchText:
-	text "Nào--đấu ngay bây"
-	line "giờ thôi!"
+	text "Come on--let's"
+	line "battle right now!"
 
-	para "Tớ đang ở"
-	line "@"
+	para "@"
 	text_ram wStringBuffer5
-	text "."
+	text " is"
+	line "where I am."
 
-	para "Đến đây nếu cậu"
-	line "sẵn sàng!"
+	para "Come on down if"
+	line "you feel up to it!"
 	done
 
 AnthonyHangUpText:
-	text "Được rồi!"
-	line "Cẩn thận nhé!"
+	text "All right then!"
+	line "Be good!"
 	done
 
 AnthonySwarmText:
-	text "<PLAYER>! Quá"
-	line "kinh ngạc!"
+	text "<PLAYER>! It's"
+	line "mind-blowing!"
 
-	para "Tớ leo núi ở"
+	para "I took a hike in"
 	line "@"
 	text_ram wStringBuffer5
 	text_start
-	cont "hôm qua, thấy"
+	cont "yesterday, see?"
 
-	para "không? Có rất rất"
-	line "nhiều @"
+	para "Well, there were"
+	line "tons of @"
 	text_ram wStringBuffer4
 	text_start
-	para "xung quanh! Cậu"
-	line "phải thấy!"
+	para "around! You have"
+	line "to see it!"
 
-	para "Tớ có cảm giác"
-	line "@"
+	para "I get this feeling"
+	line "that @"
 	text_ram wStringBuffer4
-	text " có thể"
-	para "e dè. Tớ không"
-	line "thấy chúng ở nơi"
+	text_start
+	para "may be timid."
+	line "I didn't see any"
 
-	para "có #MON"
-	line "mạnh."
+	para "where there are"
+	line "strong #MON."
 	done
 
 AnthonyWasntPayingAttentionText:
-	text "#MON hiếm?"
+	text "Rare #MON?"
 
-	para "Này, xin lỗi! Tớ"
-	line "tập trung vào leo"
+	para "Hey, sorry! I was"
+	line "too focused on my"
 
-	para "núi, nên không"
-	line "chú ý."
+	para "hike, so I wasn't"
+	line "paying attention."
 	done
 
 AnthonyReminderText:
-	text "Chào! Cậu chưa"
-	line "quên về trận đấu"
+	text "Hello! You haven't"
+	line "forgotten about"
 
-	para "của tụi mình,"
-	line "đúng không?"
+	para "our battle, have"
+	line "you?"
 
 	para "@"
 	text_ram wStringBuffer5
 	text "!"
-	line "Tớ đang đợi!"
+	line "I'm waiting!"
 	done
 
 AnthonyHurryText:
-	text "A lô? Gì?"
-	line "DUNSPARCE ở đâu?"
+	text "Hello? What? Where"
+	line "is DUNSPARCE?"
 
-	para "HANG TỐI! Nhanh!"
+	para "DARK CAVE! Hurry!"
 
-	para "Tớ biết tớ đã nói"
-	line "rồi, nhưng"
+	para "I know I've said"
+	line "it before, but"
 
-	para "DUNSPARCE không"
-	line "xuất hiện khi có"
+	para "DUNSPARCE don't"
+	line "appear when there"
 
-	para "#MON mạnh"
-	line "xung quanh."
+	para "are strong #MON"
+	line "around."
 	done

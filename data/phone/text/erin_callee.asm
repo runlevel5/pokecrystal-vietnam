@@ -1,68 +1,68 @@
 ErinAnswerPhoneText:
-	text "Vâng, đây là"
+	text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ. Chào, <PLAY_G>!"
-	line "Chào buổi sáng!"
+	para "Oh. Hi, <PLAY_G>!"
+	line "Good morning!"
 	done
 
 ErinAnswerPhoneDayText:
-	text "Vâng, đây là"
+	text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ, chào, <PLAY_G>!"
+	para "Oh, hi, <PLAY_G>!"
 	line "Yahoo!"
 	done
 
 ErinAnswerPhoneNiteText:
-	text "Vâng, đây là"
+	text "Yes, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ, chào, <PLAY_G>!"
+	para "Oh, hi, <PLAY_G>!"
 	done
 
 ErinGreetText:
 	text "<PLAY_G>!"
 
-	para "Đây là @"
+	para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Chào buổi sáng!"
+	line "Good morning!"
 	done
 
 ErinGreetDayText:
 	text "<PLAY_G>!"
 
-	para "Đây là @"
+	para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Làm việc chăm chỉ?"
+	line "Working hard?"
 	done
 
 ErinGreetNiteText:
 	text "<PLAY_G>!"
 
-	para "Đây là @"
+	para "It's @"
 	text_ram wStringBuffer3
 	text "!"
-	line "Cậu còn thức à?"
+	line "Were you up?"
 	done
 
 ErinGenericText:
-	text "Cậu có nuôi"
-	line "#MON không?"
+	text "Are you raising"
+	line "your #MON?"
 
-	para "Này, @"
-	text_ram wStringBuffer4
-	text_start
-	line "của @"
+	para "Hey, @"
 	text_ram wStringBuffer3
-	text_start
-	cont "trông tốt đấy!"
+	text "'s"
+	line "@"
+	text_ram wStringBuffer4
+	text " is"
+	cont "looking good!"
 	done

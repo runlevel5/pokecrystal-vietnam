@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/mon_stats.asm"
+else
+
 DrawPlayerHP:
 	ld a, $1
 	jr DrawHP
@@ -114,11 +118,11 @@ PrintTempMonStats:
 	ret
 
 .StatNames:
-	db   "CÔNG"
-	next "THỦ"
-	next "CÔNG Đ.B"
-	next "THỦ Đ.B"
-	next "TỐC ĐỘ"
+	db   "ATTACK"
+	next "DEFENSE"
+	next "SPCL.ATK"
+	next "SPCL.DEF"
+	next "SPEED"
 	next "@"
 
 GetGender:
@@ -384,7 +388,7 @@ PlaceStatusString:
 	ret
 
 FntString:
-	db "NGẤ@"
+	db "FNT@"
 
 CopyStatusString:
 	ld a, [de]
@@ -425,11 +429,11 @@ PlaceNonFaintStatus:
 	pop de
 	ret
 
-SlpString: db "NGỦ@"
-PsnString: db "ĐỘC@"
-BrnString: db "BỎN@"
-FrzString: db "ĐÔN@"
-ParString: db "TÊ @"
+SlpString: db "SLP@"
+PsnString: db "PSN@"
+BrnString: db "BRN@"
+FrzString: db "FRZ@"
+ParString: db "PAR@"
 
 ListMoves:
 ; List moves at hl, spaced every [wListMovesLineSpacing] tiles.
@@ -484,3 +488,5 @@ ListMoves:
 
 .done
 	ret
+
+endc

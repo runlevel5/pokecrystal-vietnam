@@ -13,16 +13,16 @@ GuideGentsHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 GuideGentsHouseGuideGentText:
-	text "Khi ta còn bé,"
-	line "ta là một HLV"
-	cont "thiên tài!"
+	text "When I was a wee"
+	line "lad, I was a hot-"
+	cont "shot trainer!"
 
-	para "Đây là lời khuyên"
-	line "cho con: Bắt"
-	cont "nhiều #MON!"
+	para "Here's a word of"
+	line "advice: Catch lots"
+	cont "of #MON!"
 
-	para "Đối xử tử tế"
-	line "với chúng nhé!"
+	para "Treat them all"
+	line "with kindness!"
 	done
 
 GuideGentsHouse_MapEvents:

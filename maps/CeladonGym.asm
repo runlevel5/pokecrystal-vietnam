@@ -111,160 +111,158 @@ CeladonGymStatue:
 	jumpstd GymStatue2Script
 
 ErikaBeforeBattleText:
-	text "ERIKA: Xin chào…"
-	line "Thời tiết đẹp"
+	text "ERIKA: Hello…"
+	line "Lovely weather,"
 
-	para "quá, phải không?"
-	line "Thật dễ chịu…"
+	para "isn't it?"
+	line "It's so pleasant…"
 
-	para "…Ta e rằng ta"
-	line "sắp ngủ gật mất…"
+	para "…I'm afraid I may"
+	line "doze off…"
 
-	para "Ta tên ERIKA."
-	line "Ta là THỦ LĨNH GYM"
-	cont "CELADON."
+	para "My name is ERIKA."
+	line "I am the LEADER of"
+	cont "CELADON GYM."
 
-	para "…Ồ? Ngươi đến từ"
-	line "tận JOHTO sao?"
-	cont "Thật tuyệt…"
+	para "…Oh? All the way"
+	line "from JOHTO, you"
+	cont "say? How nice…"
 
-	para "Ồ. Xin lỗi, ta"
-	line "không nhận ra"
+	para "Oh. I'm sorry, I"
+	line "didn't realize"
 
-	para "ngươi muốn thách"
-	line "đấu với ta."
+	para "that you wished to"
+	line "challenge me."
 
-	para "Được thôi, nhưng"
-	line "ta sẽ không thua."
+	para "Very well, but I"
+	line "shall not lose."
 	done
 
 ErikaBeatenText:
-	text "ERIKA: Ôi!"
-	line "Ta chịu thua…"
+	text "ERIKA: Oh!"
+	line "I concede defeat…"
 
-	para "Ngươi thật sự"
-	line "rất mạnh…"
+	para "You are remarkably"
+	line "strong…"
 
-	para "Ta sẽ trao cho"
-	line "ngươi HUY HIỆU"
-	cont "CẦU VỒNG."
+	para "I shall give you"
+	line "RAINBOWBADGE…"
 	done
 
 PlayerReceivedRainbowBadgeText:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU CẦU VỒNG."
+	text "<PLAYER> received"
+	line "RAINBOWBADGE."
 	done
 
 ErikaExplainTMText:
-	text "ERIKA: Đó là một"
-	line "trận đấu thú vị."
+	text "ERIKA: That was a"
+	line "delightful match."
 
-	para "Ta cảm thấy được"
-	line "truyền cảm hứng."
+	para "I felt inspired."
+	line "Please, I wish you"
+	cont "to have this TM."
 
-	para "Xin hãy nhận TM"
-	line "này."
+	para "It is GIGA DRAIN."
 
-	para "Đó là SIÊU HÚT."
+	para "It is a wonderful"
+	line "move that drains"
 
-	para "Đây là chiêu tuyệt"
-	line "vời hút nửa sát"
+	para "half the damage it"
+	line "inflicts to heal"
+	cont "your #MON."
 
-	para "thương gây ra để"
-	line "hồi máu #MON"
-	cont "của ngươi."
-
-	para "Hãy dùng nó nếu"
-	line "ngươi thích…"
+	para "Please use it if"
+	line "it pleases you…"
 	done
 
 ErikaAfterBattleText:
-	text "ERIKA: Thua cuộc"
-	line "để lại dư vị"
-	cont "đắng…"
+	text "ERIKA: Losing"
+	line "leaves a bitter"
+	cont "aftertaste…"
 
-	para "Nhưng biết rằng"
-	line "có những HLV"
+	para "But knowing that"
+	line "there are strong"
 
-	para "mạnh thúc đẩy ta"
-	line "cố gắng hơn…"
+	para "trainers spurs me"
+	line "to do better…"
 	done
 
 LassMichelleSeenText:
-	text "Bạn nghĩ GYM toàn"
-	line "nữ là hiếm sao?"
+	text "Do you think a"
+	line "girls-only GYM"
+	cont "is rare?"
 	done
 
 LassMichelleBeatenText:
-	text "Ôi, tệ quá!"
+	text "Oh, bleah!"
 	done
 
 LassMichelleAfterBattleText:
-	text "Tôi chỉ bất cẩn"
-	line "thôi, có vậy!"
+	text "I just got care-"
+	line "less, that's all!"
 	done
 
 PicnickerTanyaSeenText:
-	text "Ồ, đấu hả?"
-	line "Hơi đáng sợ,"
-	cont "nhưng được!"
+	text "Oh, a battle?"
+	line "That's kind of"
+	cont "scary, but OK!"
 	done
 
 PicnickerTanyaBeatenText:
-	text "Ồ, vậy thôi à?"
+	text "Oh, that's it?"
 	done
 
 PicnickerTanyaAfterBattleText:
-	text "Ồ, nhìn tất cả"
-	line "HUY HIỆU của bạn."
+	text "Oh, look at all"
+	line "your BADGES. No"
 
-	para "Không lạ gì tôi"
-	line "không thắng nổi!"
+	para "wonder I couldn't"
+	line "win!"
 	done
 
 BeautyJuliaSeenText:
-	text "Bạn đang nhìn hoa"
-	line "hay nhìn tôi?"
+	text "Were you looking"
+	line "at these flowers"
+	cont "or at me?"
 	done
 
 BeautyJuliaBeatenText:
-	text "Thật khó chịu!"
+	text "How annoying!"
 	done
 
 BeautyJuliaAfterBattleText:
-	text "Làm sao để trở"
-	line "nên thanh lịch"
-	cont "như ERIKA nhỉ?"
+	text "How do I go about"
+	line "becoming ladylike"
+	cont "like ERIKA?"
 	done
 
 TwinsJoAndZoe1SeenText:
-	text "Chúng tôi sẽ cho"
-	line "bạn xem chiêu"
-	cont "ERIKA dạy chúng"
-	cont "tôi!"
+	text "We'll show you"
+	line "#MON moves that"
+	cont "ERIKA taught us!"
 	done
 
 TwinsJoAndZoe1BeatenText:
-	text "Ồ… Thua rồi…"
+	text "Oh… We lost…"
 	done
 
 TwinsJoAndZoe1AfterBattleText:
-	text "ERIKA sẽ trả thù"
-	line "cho chúng tôi!"
+	text "ERIKA will get you"
+	line "back for us!"
 	done
 
 TwinsJoAndZoe2SeenText:
-	text "Chúng tôi sẽ bảo"
-	line "vệ ERIKA!"
+	text "We're going to"
+	line "protect ERIKA!"
 	done
 
 TwinsJoAndZoe2BeatenText:
-	text "Không thắng nổi…"
+	text "We couldn't win…"
 	done
 
 TwinsJoAndZoe2AfterBattleText:
-	text "ERIKA còn mạnh"
-	line "hơn nhiều!"
+	text "ERIKA is much,"
+	line "much stronger!"
 	done
 
 CeladonGym_MapEvents:

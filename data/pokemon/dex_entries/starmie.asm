@@ -1,10 +1,10 @@
-	db "BÍ ẨN@" ; species name
-	dw 11, 800 ; height, weight
+	db "MYSTERIOUS@" ; species name
+	dw 307, 1760 ; height, weight
 
-	db   "Người ta nói nó"
-	next "dùng lõi bảy màu"
-	next "ở giữa thân để"
+	db   "It is said that it"
+	next "uses the seven-"
+	next "colored core of"
 
-	page "gửi sóng điện"
-	next "vào vũ trụ.@"
-	next "@"
+	page "its body to send"
+	next "electric waves"
+	next "into outer space.@"

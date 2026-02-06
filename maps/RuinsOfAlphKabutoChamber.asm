@@ -146,106 +146,109 @@ RuinsOfAlphKabutoChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphKabutoChamberReceptionistText:
-	text "Chào mừng bạn"
-	line "đến căn phòng."
+	text "Welcome to this"
+	line "chamber."
 
-	para "Có các tấm trượt"
-	line "vẽ #MON bởi"
+	para "There are sliding"
+	line "panels that depict"
 
-	para "người xưa."
+	para "a #MON drawn by"
+	line "the ancients."
 
-	para "Trượt các tấm để"
-	line "tạo thành bức"
-	cont "tranh."
+	para "Slide the panels"
+	line "around to form the"
+	cont "picture."
 
-	para "Bên phải là mô"
-	line "tả của #MON."
+	para "To the right is a"
+	line "description of the"
+	cont "#MON."
 
-	para "Các nhà khoa học"
-	line "ở đằng sau đang"
+	para "Scientists in the"
+	line "back are examining"
 
-	para "nghiên cứu những"
-	line "họa tiết mới tìm."
+	para "some newly found"
+	line "patterns."
 	done
 
 RuinsOfAlphKabutoChamberScientistCrypticText:
-	text "Gần đây, những"
-	line "họa tiết lạ, bí"
-	cont "ẩn đã xuất hiện."
+	text "Recently, strange,"
+	line "cryptic patterns"
+	cont "have appeared."
 
-	para "Kỳ lạ thật. Chúng"
-	line "không có ở đây"
-	cont "cách đây ít lâu…"
+	para "It's odd. They"
+	line "weren't here a"
+	cont "little while ago…"
 
-	para "Bạn nên xem"
-	line "tường đi."
+	para "You should take a"
+	line "look at the walls."
 	done
 
 RuinsOfAlphKabutoChamberScientistHoleText:
-	text "Ah! Đây là một"
-	line "lỗ to nữa!"
+	text "Ah! Here's another"
+	line "huge hole!"
 
-	para "Nó đủ lớn để đi"
-	line "qua!"
+	para "It's big enough to"
+	line "go through!"
 	done
 
 RuinsOfAlphKabutoChamberScientistTremorText:
-	text "Trận rung đó khá"
-	line "đáng sợ!"
+	text "That tremor was"
+	line "pretty scary!"
 
-	para "Nhưng tôi lo về"
-	line "bức tường này"
-	cont "hơn…"
+	para "But I'm more"
+	line "concerned about"
+	cont "this wall here…"
 	done
 
 RuinsOfAlphKabutoChamberUnusedText: ; unreferenced
-	text "Họa tiết trên"
-	line "tường có vẻ là"
-	cont "chữ viết!"
+	text "The patterns on"
+	line "the wall appear to"
+	cont "be words!"
 
-	para "Và các tấm đá"
-	line "trượt dường như"
+	para "And those sliding"
+	line "stone panels seem"
 
-	para "là tín hiệu gì"
-	line "đó."
+	para "to be signals of"
+	line "some kind."
 
-	para "Tôi nghĩ chúng"
-	line "làm #MON hiện"
+	para "I think they make"
+	line "#MON appear,"
 
-	para "ra, nhưng chưa"
-	line "rõ lắm…"
+	para "but it's not clear"
+	line "yet…"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternLeftText:
-	text "Họa tiết xuất"
-	line "hiện trên tường…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphKabutoChamberUnownText: ; unreferenced
-	text "Đó là chữ UNOWN!"
+	text "It's UNOWN text!"
 	done
 
 RuinsOfAlphKabutoChamberWallPatternRightText:
-	text "Họa tiết xuất"
-	line "hiện trên tường…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphKabutoChamberWallHoleText:
-	text "Có một lỗ lớn"
-	line "trên tường!"
+	text "There's a big hole"
+	line "in the wall!"
 	done
 
 RuinsOfAlphKabutoChamberAncientReplicaText:
-	text "Đây là bản sao"
-	line "#MON cổ đại."
+	text "It's a replica of"
+	line "an ancient #-"
+	cont "MON."
 	done
 
 RuinsOfAlphKabutoChamberDescriptionText:
-	text "#MON ẩn dưới"
-	line "đáy biển."
+	text "A #MON that hid"
+	line "on the sea floor."
 
-	para "Mắt ở lưng quét"
-	line "khu vực."
+	para "Eyes on its back"
+	line "scanned the area."
 	done
 
 RuinsOfAlphKabutoChamber_MapEvents:

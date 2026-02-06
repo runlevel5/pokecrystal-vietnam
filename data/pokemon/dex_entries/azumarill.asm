@@ -1,10 +1,10 @@
-	db "THỎ NƯỚC@" ; species name
-	dw 8, 285 ; height, weight
+	db "AQUARABBIT@" ; species name
+	dw 207, 630 ; height, weight
 
-	db   "Hoa văn bong bóng"
-	next "trên bụng giúp nó"
-	next "ngụy trang khi"
+	db   "The bubble-like"
+	next "pattern on its"
+	next "stomach helps it"
 
-	page "ở trong nước.@"
-	next "@"
-	next "@"
+	page "camouflage itself"
+	next "when it's in the"
+	next "water.@"

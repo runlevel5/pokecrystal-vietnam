@@ -178,211 +178,208 @@ EcruteakGymGrampsSlowStepDownMovement:
 	step_end
 
 MortyIntroText:
-	text "Bạn đã đến."
-	line "Tốt lắm."
+	text "Good of you to"
+	line "have come."
 
-	para "Tại ECRUTEAK này,"
-	line "#MON được tôn"
-	cont "kính."
+	para "Here in ECRUTEAK,"
+	line "#MON have been"
+	cont "revered."
 
-	para "Người ta nói rằng"
-	line "một #MON màu"
+	para "It's said that a"
+	line "rainbow-colored"
 
-	para "cầu vồng sẽ xuất"
-	line "hiện trước một"
+	para "#MON will come"
+	line "down to appear"
 
-	para "HLV thực sự"
-	line "mạnh mẽ."
+	para "before a truly"
+	line "powerful trainer."
 
-	para "Ta tin vào truyền"
-	line "thuyết đó, nên ta"
+	para "I believed that"
+	line "tale, so I have"
 
-	para "đã bí mật luyện"
-	line "tập ở đây suốt"
-	cont "đời."
+	para "secretly trained"
+	line "here all my life."
 
-	para "Kết quả là, ta có"
-	line "thể thấy những gì"
-	cont "người khác không."
+	para "As a result, I can"
+	line "now see what"
+	cont "others cannot."
 
-	para "Chỉ cần thêm một"
-	line "chút nữa…"
+	para "Just a bit more…"
 
-	para "Với một chút nữa,"
-	line "ta có thể thấy"
+	para "With a little"
+	line "more, I could see"
 
-	para "tương lai mà ta"
-	line "gặp #MON màu"
-	cont "cầu vồng."
+	para "a future in which"
+	line "I meet the #MON"
+	cont "of rainbow colors."
 
-	para "Bạn sẽ giúp ta"
-	line "đạt đến tầm cao"
-	cont "đó!"
+	para "You're going to"
+	line "help me reach that"
+	cont "level!"
 	done
 
 MortyWinLossText:
-	text "Ta vẫn chưa đủ"
-	line "giỏi…"
+	text "I'm not good"
+	line "enough yet…"
 
-	para "Được rồi. HUY"
-	line "HIỆU này là của"
-	cont "bạn."
+	para "All right. This"
+	line "BADGE is yours."
 	done
 
 Text_ReceivedFogBadge:
-	text "<PLAYER> đã nhận"
-	line "HUY HIỆU SƯƠNG MÙ."
+	text "<PLAYER> received"
+	line "FOGBADGE."
 	done
 
 MortyText_FogBadgeSpeech:
-	text "HUY HIỆU SƯƠNG MÙ"
-	line "cho #MON đến L50"
+	text "By having FOG-"
+	line "BADGE, #MON up"
 
-	para "sẽ nghe lời"
-	line "bạn."
+	para "to L50 will obey"
+	line "you."
 
-	para "Ngoài ra, #MON"
-	line "biết LƯỚT SÓNG"
+	para "Also, #MON that"
+	line "know SURF will be"
 
-	para "có thể dùng chiêu"
-	line "đó lúc nào cũng"
-	cont "được."
+	para "able to use that"
+	line "move anytime."
 
-	para "Ta muốn tặng bạn"
-	line "thứ này nữa."
+	para "I want you to have"
+	line "this too."
 	done
 
 MortyText_ShadowBallSpeech:
-	text "Đó là BÓNG MA."
-	line "Nó gây sát thương"
+	text "It's SHADOW BALL."
+	line "It causes damage"
 
-	para "và có thể giảm"
+	para "and may reduce"
 	line "SPCL.DEF."
 
-	para "Hãy dùng nếu bạn"
-	line "thấy phù hợp."
+	para "Use it if it"
+	line "appeals to you."
 	done
 
 MortyFightDoneText:
-	text "Ta hiểu rồi…"
+	text "I see…"
 
-	para "Hành trình của"
-	line "bạn đã đưa bạn"
-	cont "đến nơi xa xôi."
+	para "Your journey has"
+	line "taken you to far-"
+	cont "away places."
 
-	para "Và bạn đã chứng"
-	line "kiến nhiều hơn"
-	cont "ta."
+	para "And you have wit-"
+	line "nessed much more"
+	cont "than I."
 
-	para "Ta ghen tị với"
-	line "bạn vì điều đó…"
+	para "I envy you for"
+	line "that…"
 	done
 
 SageJeffreySeenText:
-	text "Tôi đã trải qua"
-	line "mùa xuân với"
-	cont "#MON của tôi."
+	text "I spent the spring"
+	line "with my #MON."
 
-	para "Rồi mùa hè, mùa"
-	line "thu và mùa đông…"
+	para "Then summer, fall"
+	line "and winter…"
 
-	para "Rồi xuân lại đến."
-	line "Chúng tôi đã sống"
+	para "Then spring came"
+	line "again. We have"
 
-	para "cùng nhau rất"
-	line "lâu."
+	para "lived together"
+	line "for a long time."
 	done
 
 SageJeffreyBeatenText:
-	text "Thắng và thua, tôi"
-	line "đều đã trải qua."
+	text "Wins and losses, I"
+	line "experienced both."
 	done
 
 SageJeffreyAfterBattleText:
-	text "#MON từ đâu"
-	line "mà đến?"
+	text "Where did #MON"
+	line "come from?"
 	done
 
 SagePingSeenText:
-	text "Bạn có thể gây"
-	line "sát thương cho"
-	cont "#MON của ta?"
+	text "Can you inflict"
+	line "any damage on our"
+	cont "#MON?"
 	done
 
 SagePingBeatenText:
-	text "À! Giỏi lắm!"
+	text "Ah! Well done!"
 	done
 
 SagePingAfterBattleText:
-	text "Chúng tôi chỉ"
-	line "dùng #MON"
-	cont "hệ ma."
+	text "We use only ghost-"
+	line "type #MON."
 
-	para "Không đòn bình"
-	line "thường nào có thể"
-	cont "hại được chúng!"
+	para "No normal-type"
+	line "attack can harm"
+	cont "them!"
 	done
 
 MediumMarthaSeenText:
-	text "Ta sẽ thắng!"
+	text "I shall win!"
 	done
 
 MediumMarthaBeatenText:
-	text "Ta, ta, ta thua!"
+	text "I, I, I lost!"
 	done
 
 MediumMarthaAfterBattleText:
-	text "Ai muốn thắng"
-	line "nhất--sẽ thắng!"
+	text "The one who wants"
+	line "to win most--will!"
 	done
 
 MediumGraceSeenText:
-	text "Bị bối rối bởi"
-	line "sàn vô hình à?"
+	text "Stumped by our in-"
+	line "visible floor?"
 
-	para "Đánh bại ta nếu"
-	line "muốn gợi ý!"
+	para "Defeat me if you"
+	line "want a hint!"
 	done
 
 MediumGraceBeatenText:
-	text "Gì-gì cơ?"
+	text "Wha-what?"
 	done
 
 MediumGraceAfterBattleText:
-	text "Được rồi. Ta sẽ"
-	line "nói bí mật của"
+	text "Fine. I shall tell"
+	line "you the secret of"
 
-	para "sàn vô hình."
+	para "the invisible"
+	line "floor."
 
-	para "Con đường nằm"
-	line "ngay trước mắt!"
+	para "The path is right"
+	line "before our eyes!"
 	done
 
 EcruteakGymGuideText:
-	text "Các HLV ở đây có"
-	line "động cơ bí mật."
+	text "The trainers here"
+	line "have secret mo-"
+	cont "tives."
 
-	para "Nếu bạn thắng, họ"
-	line "có thể tiết lộ"
+	para "If you win, they"
+	line "may tell you some"
 
-	para "bí mật sâu xa về"
+	para "deep secrets about"
 	line "ECRUTEAK."
 	done
 
 EcruteakGymGuideWinText:
-	text "Chà, <PLAYER>."
-	line "Bạn giỏi quá!"
+	text "Whew, <PLAYER>."
+	line "You did great!"
 
-	para "Tôi đã co rúm ở"
-	line "góc vì quá sợ!"
+	para "I was cowering in"
+	line "the corner out of"
+	cont "pure terror!"
 	done
 
 EcruteakGymClosedText:
-	text "MORTY, T.LĨNH"
-	line "GYM, đang vắng."
+	text "MORTY, the GYM"
+	line "LEADER, is absent."
 
-	para "Xin lỗi, nhưng"
-	line "bạn phải đi thôi."
+	para "Sorry, but you'll"
+	line "have to leave."
 
 	para "Hohohoho."
 	done

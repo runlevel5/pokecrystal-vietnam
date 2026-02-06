@@ -421,10 +421,10 @@ Pokedex_ReinitDexEntryScreen:
 
 DexEntryScreen_ArrowCursorData:
 	db PAD_RIGHT | PAD_LEFT, 4
-	dwcoord 1, 17  ; TIẾP
-	dwcoord 6, 17  ; P.BỔ
-	dwcoord 11, 17 ; TIẾNG 
-	dwcoord 17, 17 ; IN
+	dwcoord 1, 17  ; PAGE
+	dwcoord 6, 17  ; AREA
+	dwcoord 11, 17 ; CRY
+	dwcoord 15, 17 ; PRNT
 
 DexEntryScreen_MenuActionJumptable:
 	dw Pokedex_Page
@@ -1127,9 +1127,9 @@ Pokedex_DrawMainScreenBG:
 	ret
 
 String_SEEN:
-	db "THẤY", -1
+	db "SEEN", -1
 String_OWN:
-	db "SỞ HỮU", -1
+	db "OWN", -1
 String_SELECT_OPTION:
 	db $3b, $48, $49, $4a, $44, $45, $46, $47 ; SELECT > OPTION
 	; fallthrough
@@ -1171,11 +1171,11 @@ Pokedex_DrawDexEntryScreenBG:
 .Number: ; unreferenced
 	db $5c, $5d, -1 ; No.
 .Height:
-	db "CAO   . ", $5e, -1 ; CAO X.Xm (metric)
+	db "HT  ?", $5e, "??", $5f, -1 ; HT  ?'??"
 .Weight:
-	db "CÂN   . ", $5f, -1 ; CÂN XXX.Xkg (metric)
+	db "WT   ???lb", -1
 .MenuItems:
-	db $3b, " TIẾP P.BỔ TIẾNG IN", -1
+	db $3b, " PAGE AREA CRY PRNT", -1
 
 Pokedex_DrawOptionScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1203,13 +1203,13 @@ Pokedex_DrawOptionScreenBG:
 	db $3b, " OPTION ", $3c, -1
 
 .Modes:
-	db   "CHẾ ĐỘ #DEX MỚI"
-	next "CHẾ ĐỘ #DEX CŨ"
-	next "CHẾ ĐỘ A đến Z"
+	db   "NEW #DEX MODE"
+	next "OLD #DEX MODE"
+	next "A to Z MODE"
 	db   "@"
 
 .UnownMode:
-	db "CHẾ ĐỘ UNOWN@"
+	db "UNOWN MODE@"
 
 Pokedex_DrawSearchScreenBG:
 	call Pokedex_FillBackgroundColor2
@@ -1234,19 +1234,19 @@ Pokedex_DrawSearchScreenBG:
 	ret
 
 .Title:
-	db $3b, "TRA KHẢO", $3c, -1
+	db $3b, " SEARCH ", $3c, -1
 
 .TypeLeftRightArrows:
 	db $3d, "        ", $3e, -1
 
 .Types:
-	db   "HỆ 1"
-	next "HỆ 2"
+	db   "TYPE1"
+	next "TYPE2"
 	db   "@"
 
 .Menu:
-	db   "BẮT ĐẦU TÌM!!"
-	next "HỦY"
+	db   "BEGIN SEARCH!!"
+	next "CANCEL"
 	db   "@"
 
 Pokedex_DrawSearchResultsScreenBG:
@@ -1280,9 +1280,9 @@ Pokedex_DrawSearchResultsScreenBG:
 	ret
 
 .BottomWindowText:
-	db   "KẾT QUẢ TÌM KIẾM"
-	next "  HỆ"
-	next "    TÌM THẤY!"
+	db   "SEARCH RESULTS"
+	next "  TYPE"
+	next "    FOUND!"
 	db   "@"
 
 Pokedex_PlaceSearchResultsTypeStrings:
@@ -1740,12 +1740,12 @@ Pokedex_DisplayModeDescription:
 	next "official type.@"
 
 .ABCMode:
-	db   "<PK><MN> được liệt kê"
-	next "theo thứ tự A-Z.@"
+	db   "<PK><MN> are listed"
+	next "alphabetically.@"
 
 .UnownMode:
-	db   "UNOWN được liệt kê"
-	next "theo thứ tự bắt.@"
+	db   "UNOWN are listed"
+	next "in catching order.@"
 
 Pokedex_DisplayChangingModesMessage:
 	xor a
@@ -1767,8 +1767,8 @@ Pokedex_DisplayChangingModesMessage:
 	ret
 
 String_ChangingModesPleaseWait:
-	db   "Đang đổi chế độ."
-	next "Xin chờ.@"
+	db   "Changing modes."
+	next "Please wait.@"
 
 Pokedex_UpdateSearchMonType:
 	ld a, [wDexArrowCursorPosIndex]
@@ -1872,7 +1872,15 @@ endr
 	call PlaceString
 	ret
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/types/search_strings.asm"
+
+else
+
 INCLUDE "data/types/search_strings.asm"
+
+endc
 
 Pokedex_SearchForMons:
 	ld a, [wDexSearchMonType2]
@@ -1967,8 +1975,8 @@ Pokedex_DisplayTypeNotFoundMessage:
 	ret
 
 .TypeNotFound:
-	db   "Không tìm thấy"
-	next "hệ đã chọn.@"
+	db   "The specified type"
+	next "was not found.@"
 
 Pokedex_UpdateCursorOAM:
 	ld a, [wCurDexMode]

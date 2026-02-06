@@ -1,118 +1,118 @@
 GinaGettingInSyncWithMonText:
-	text "@"
+	text "My @"
 	text_ram wStringBuffer4
-	text " và"
-	line "tớ ngày càng hiểu"
+	text " and"
+	line "I are getting more"
 
-	para "ý nhau hơn."
+	para "in sync with each"
+	line "other."
 	done
 
 GinaDefeatedMonText:
-	text "Bọn tớ đấu với"
-	line "con @"
+	text "We battled a wild"
+	line "@"
 	text_ram wStringBuffer4
-	text " hoang"
+	text " and"
 
-	para "và đánh bại nó"
-	line "trong trận đấu."
+	para "managed to drop it"
+	line "in a close match."
 
-	para "Bọn tớ đang rất"
-	line "ăn ý!"
+	para "We're getting into"
+	line "the groove!"
 	done
 
 GinaLostAMonText:
-	text "Nhưng, cậu biết"
-	line "không?"
+	text "But, you know?"
 
-	para "Tớ vẫn chưa bắt"
-	line "được @"
+	para "I still haven't"
+	line "caught @"
 	text_ram wStringBuffer4
 	text "."
 
-	para "Điều này thật quá"
-	line "thất vọng…"
+	para "It's getting past"
+	line "frustrating…"
 	done
 
 GinaBattleRematchText:
-	text "Cậu có thể làm bạn"
-	line "tập luyện của tớ"
-	cont "lần nữa không?"
+	text "Would you be my"
+	line "practice partner"
+	cont "again sometime?"
 
-	para "Tớ sẽ đợi tại"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "…Lần sau cậu có"
-	line "thể nhẹ tay hơn"
-	cont "không?"
+	para "…Could you take it"
+	line "a little easier on"
+	cont "me next time?"
 	done
 
 GinaHangUpText:
-	text "Tạm biệt! Nói"
-	line "chuyện lần sau!"
+	text "Bye! Let's chat"
+	line "again!"
 	done
 
 GinaRocketTakeoverRumorText:
-	text "Cậu có nghe về"
-	line "ĐỘI ROCKET chưa?"
+	text "Have you heard"
+	line "about TEAM ROCKET?"
 
-	para "Chúng đã chiếm"
-	line "THÁP RADIO ở"
+	para "They've taken over"
+	line "the RADIO TOWER in"
 	cont "GOLDENROD."
 
-	para "Mọi người bên"
-	line "trong có an toàn?"
+	para "Are the people"
+	line "inside safe?"
 	done
 
 GinaFoundItemText:
-	text "Hôm nay tớ nhặt"
-	line "được món hay."
+	text "I picked up some-"
+	line "thing nice today."
 
-	para "Tớ muốn đưa cậu"
-	line "nên mới gọi!"
+	para "I want you to have"
+	line "it, so I called!"
 
-	para "Cậu sẽ đến lấy"
-	line "chứ?"
+	para "You will come for"
+	line "it, won't you?"
 
 	para "@"
 	text_ram wStringBuffer5
-	text " là"
-	line "nơi tớ đang ở."
+	text " is"
+	line "where I am."
 	done
 
 GinaHaventFoundAnythingYetText:
-	text "Xin lỗi, tớ chưa"
-	line "tìm được gì"
+	text "Sorry, I haven't"
+	line "found anything"
 
-	para "hữu ích… Tớ hứa,"
-	line "nếu tìm được,"
+	para "useful yet…"
+	line "I promise, if I"
 
-	para "cậu có thể lấy"
-	line "nó!"
+	para "find anything, you"
+	line "can have it!"
 	done
 
 GinaReminderText:
-	text "Ồ, <PLAY_G>!"
-	line "Bao giờ tớ mới"
+	text "Oh, <PLAY_G>!"
+	line "How soon can I"
 
-	para "được gặp cậu"
-	line "để đấu?"
+	para "expect to see you"
+	line "for our battle?"
 
-	para "Đừng quên,"
+	para "Don't forget,"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 GinaComePickUpText:
-	text "Tớ đang rất sốt"
-	line "ruột, đợi để"
+	text "I'm getting really"
+	line "impatient, waiting"
 
-	para "tặng quà cho"
-	line "cậu!"
+	para "to give you my"
+	line "present!"
 
-	para "Nhanh đến"
+	para "Hurry over to"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

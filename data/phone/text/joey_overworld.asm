@@ -1,69 +1,71 @@
 JoeyAskNumber1Text:
-	text "Nghe này, cho tớ"
-	line "xin SĐT được không"
+	text "Listen, can I get"
+	line "your phone number?"
 
-	para "Tớ sẽ gọi cho cậu"
-	line "để đấu."
+	para "I'll ring you for"
+	line "some battles."
 
-	para "Tớ cũng mới, nên"
-	line "nghĩ đó sẽ là"
-	cont "động lực tốt."
+	para "I'm a rookie too, "
+	line "so I think it'd be"
+	cont "a good motivator."
 	done
 
 JoeyAskNumber2Text:
-	text "Cho tớ xin SĐT"
-	line "được không?"
+	text "Can I get your"
+	line "phone number?"
 
-	para "Tớ không muốn thua"
-	line "cậu!"
+	para "I don't want to"
+	line "lose against you!"
 
-	para "Bọn mình phải đấu"
-	line "lại, OK?"
+	para "We have to battle"
+	line "again, OK?"
 	done
 
 JoeyNumberAcceptedText:
-	text "Tớ sẽ gọi bất cứ"
-	line "khi nào muốn đấu!"
+	text "I'll ring you"
+	line "whenever I get the"
+	cont "urge to battle!"
 	done
 
 JoeyNumberDeclinedText:
-	text "Ồ, được rồi…"
+	text "Oh, all right…"
 
-	para "Nhưng tớ sẽ không"
-	line "thua cậu lần nữa!"
+	para "But I won't lose"
+	line "to you again!"
 	done
 
 JoeyPhoneFullText:
-	text "Hả, gì? Điện"
-	line "thoại cậu đầy rồi"
+	text "Huh, what? Your"
+	line "phone's full."
 	done
 
 JoeyRematchText:
-	text "Tớ đợi rồi!"
-	line "Đấu ngay thôi!"
+	text "I've been waiting!"
+	line "Let's battle now!"
 	done
 
 JoeyPackFullText:
-	text "Này, chờ đã! TÚI"
-	line "cậu đầy rồi!"
+	text "Hey, wait! Your"
+	line "PACK is stuffed!"
 
-	para "Thôi, để lần sau"
-	line "vậy."
+	para "Well, we'll leave"
+	line "it till next time."
 	done
 
 JoeyRematchGiftText:
-	text "Và lại thua nữa…"
+	text "And yet another"
+	line "loss…"
 
-	para "Không nghi ngờ gì"
-	line "cậu rất mạnh."
+	para "No doubt about"
+	line "it--you're tough."
 
-	para "Bị đánh bại thường"
-	line "xuyên thế này giờ"
-	cont "lại cảm thấy tốt!"
+	para "Being beaten this"
+	line "often actually"
+	cont "feels good now!"
 
-	para "Cầm lấy. Dùng nó"
-	line "để mạnh hơn. Điều"
+	para "Here, take this. "
+	line "Use it to get even"
 
-	para "đó cũng sẽ làm tớ"
-	line "mạnh hơn!"
+	para "tougher. That will"
+	line "toughen me up too!"
 	done

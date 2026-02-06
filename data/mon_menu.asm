@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/mon_menu.asm"
+else
+
 ; MonMenuOptionStrings indexes
 	const_def 1
 	const MONMENUVALUE_STATS  ; 1
@@ -12,13 +16,13 @@ DEF NUM_MONMENUVALUES EQU const_value - 1
 MonMenuOptionStrings:
 ; entries correspond to MONMENUVALUE_* constants
 	list_start MOVE_NAME_LENGTH - 2
-	li "CHỈ SỐ"
-	li "ĐỔI VỊ TRÍ"
-	li "VẬT PHẨM"
-	li "HỦY"
-	li "CHIÊU THỨC"
-	li "THƯ"
-	li "LỖI!"
+	li "STATS"
+	li "SWITCH"
+	li "ITEM"
+	li "CANCEL"
+	li "MOVE"
+	li "MAIL"
+	li "ERROR!"
 	assert_list_length NUM_MONMENUVALUES
 
 MonMenuOptions:
@@ -49,3 +53,5 @@ MonMenuOptions:
 	db MONMENU_MENUOPTION, MONMENUITEM_ERROR,      MONMENUVALUE_ERROR
 	assert_table_length NUM_MONMENUITEMS
 	db -1 ; end
+
+endc

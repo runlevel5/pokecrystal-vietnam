@@ -1,10 +1,10 @@
-	db "DƠI@" ; species name
-	dw 16, 550 ; height, weight
+	db "BAT@" ; species name
+	dw 503, 1210 ; height, weight
 
-	db   "Khi cắm nanh vào"
-	next "con mồi, nó ngay"
-	next "lập tức hút và"
+	db   "When it plunges"
+	next "its fangs into its"
+	next "prey, it instantly"
 
-	page "nuốt hơn 300ml"
-	next "máu.@"
-	next "@"
+	page "draws and gulps"
+	next "down more than ten"
+	next "ounces of blood.@"

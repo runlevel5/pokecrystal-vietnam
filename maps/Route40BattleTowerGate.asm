@@ -19,51 +19,53 @@ Route40BattleTowerGateTwinScript:
 	jumptextfaceplayer Route40BattleTowerGateTwinText
 
 Route40BattleTowerGateUnusedText1: ; unreferenced
-	text "Cậu đến xem THÁP"
-	line "ĐẤU cũng à?"
+	text "Did you come to"
+	line "see the BATTLE"
+	cont "TOWER too?"
 
-	para "Nhưng có lẽ cậu"
-	line "chưa vào được."
+	para "But I guess you"
+	line "can't go in yet."
 	done
 
 Route40BattleTowerGateUnusedText2: ; unreferenced
-	text "THÁP ĐẤU đã"
-	line "mở rồi."
+	text "BATTLE TOWER has"
+	line "opened."
 
-	para "Tôi muốn đi, nhưng"
-	line "chưa nghĩ ra câu"
+	para "I want to go, but"
+	line "I haven't thought"
 
-	para "nói hay khi thắng"
-	line "cuộc."
+	para "up a cool line for"
+	line "when I win."
 	done
 
 Route40BattleTowerGateRockerText:
-	text "Cậu đi đến THÁP"
-	line "ĐẤU à?"
+	text "Are you going to"
+	line "the BATTLE TOWER?"
 
-	para "Đây là bí mật,"
-	line "nhưng nếu thắng"
+	para "This is a secret,"
+	line "but if you win a"
 
-	para "nhiều lần, cậu sẽ"
-	line "nhận quà đặc biệt."
+	para "whole lot, you can"
+	line "win special gifts."
 	done
 
 Route40BattleTowerGateUnusedText3: ; unreferenced
-	text "Tôi sẽ huấn luyện"
-	line "#MON để sẵn"
+	text "I'm going to train"
+	line "my #MON so I'll"
 
-	para "sàng cho THÁP"
-	line "ĐẤU."
+	para "be all ready for"
+	line "the BATTLE TOWER."
 	done
 
 Route40BattleTowerGateTwinText:
-	text "Cấp độ #MON"
-	line "tôi muốn dùng"
+	text "The levels of the"
+	line "#MON I want to"
 
-	para "đều khác nhau."
+	para "use are all"
+	line "different."
 
-	para "Tôi phải đi luyện"
-	line "chúng ngay!"
+	para "I have to go train"
+	line "them now!"
 	done
 
 Route40BattleTowerGate_MapEvents:

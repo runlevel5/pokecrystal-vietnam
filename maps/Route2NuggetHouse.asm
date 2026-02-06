@@ -27,28 +27,26 @@ Route2NuggetHouseBookshelf: ; unreferenced
 	jumpstd DifficultBookshelfScript
 
 Route2NuggetHouseFisherText:
-	text "Chào! Wow, tôi"
-	line "vui lắm khi gặp"
-	cont "bạn."
+	text "Hi! Wow, I'm glad"
+	line "to see you."
 
-	para "Bạn là khách đầu"
-	line "tiên sau rất lâu"
-	cont "rồi."
+	para "You're the first"
+	line "visitor I've had"
+	cont "in a long time."
 
-	para "Tôi vui quá!"
-	line "Để tôi tặng bạn"
-	cont "món quà nhỏ này."
+	para "I'm super-happy!"
+	line "Let me give you a"
+	cont "little present."
 	done
 
 Route2NuggetHouseFisherText_GotNugget:
-	text "Đây là CỤC VÀNG."
+	text "That's a NUGGET."
 
-	para "Tôi không thể"
-	line "đưa cho bạn lời"
+	para "I can't give you"
+	line "any nuggets of"
 
-	para "khuyên quý báu,"
-	line "nên đây là tất"
-	cont "cả tôi có!"
+	para "wisdom, so that'll"
+	line "have to do!"
 	done
 
 Route2NuggetHouse_MapEvents:

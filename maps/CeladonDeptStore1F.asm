@@ -24,48 +24,51 @@ CeladonDeptStore1FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 CeladonDeptStore1FReceptionistText:
-	text "Xin chào! Chào"
-	line "mừng đến TTMT"
-	cont "CELADON!"
+	text "Hello! Welcome to"
+	line "CELADON DEPT."
+	cont "STORE!"
 
-	para "Sơ đồ chỉ dẫn ở"
-	line "trên tường."
+	para "The directory is"
+	line "on the wall."
 	done
 
 CeladonDeptStore1FGentlemanText:
-	text "TTMT này là chuỗi"
-	line "liên kết với"
+	text "This DEPT.STORE is"
+	line "part of the same"
 
-	para "TTMT ở GOLDENROD"
-	line "CITY."
+	para "chain as the one"
+	line "in GOLDENROD CITY."
 
-	para "Cả hai đều được"
-	line "cải tạo cùng lúc."
+	para "They were both"
+	line "renovated at the"
+	cont "same time."
 	done
 
 CeladonDeptStore1FTeacherText:
-	text "Đây là lần đầu tôi"
-	line "đến đây."
+	text "This is my first"
+	line "time here."
 
-	para "Rộng quá…"
+	para "It's so big…"
 
-	para "Tôi sợ bị lạc"
-	line "mất."
+	para "I'm afraid I'll"
+	line "get lost."
 	done
 
 CeladonDeptStore1FDirectoryText:
-	text "1F: QUẦY PHỤC VỤ"
+	text "1F: SERVICE"
+	line "    COUNTER"
 
-	para "2F: KHU HLV"
+	para "2F: TRAINER'S"
+	line "    MARKET"
 
-	para "3F: CỬA HÀNG TM"
+	para "3F: TM SHOP"
 
-	para "4F: QUÀ TẶNG"
+	para "4F: WISEMAN GIFTS"
 
-	para "5F: NHÀ THUỐC"
+	para "5F: DRUG STORE"
 
-	para "6F: QUẢNG TRƯỜNG"
-	line "    SÂN THƯỢNG"
+	para "6F: ROOFTOP"
+	line "    SQUARE"
 	done
 
 CeladonDeptStore1F_MapEvents:

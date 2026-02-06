@@ -79,52 +79,47 @@ BrunosRoom_EnterMovement:
 	step_end
 
 BrunoScript_BrunoBeforeText:
-	text "Ta là BRUNO của"
-	line "TỨ ĐẠI."
+	text "I am BRUNO of the"
+	line "ELITE FOUR."
 
-	para "Ta luôn tập luyện"
-	line "đến cực hạn vì ta"
-	cont "tin vào tiềm năng"
-	cont "của chúng ta."
+	para "I always train to"
+	line "the extreme be-"
+	cont "cause I believe in"
+	cont "our potential."
 
-	para "Đó là cách chúng"
-	line "ta trở nên mạnh."
+	para "That is how we"
+	line "became strong."
 
-	para "Ngươi có thể chịu"
-	line "được sức mạnh"
-	cont "của ta không?"
+	para "Can you withstand"
+	line "our power?"
 
-	para "Hừm? Ta không"
-	line "thấy sợ hãi trong"
-	cont "mắt ngươi."
+	para "Hm? I see no fear"
+	line "in you. You look"
 
-	para "Ngươi rất quyết"
-	line "tâm. Hoàn hảo để"
-	cont "chiến đấu!"
+	para "determined. Per-"
+	line "fect for battle!"
 
-	para "Sẵn sàng chưa,"
-	line "<PLAYER>? Ngươi sẽ"
-	cont "phải cúi đầu"
+	para "Ready, <PLAYER>?"
+	line "You will bow down"
 
-	para "trước sức mạnh"
-	line "áp đảo của ta!"
+	para "to our overwhelm-"
+	line "ing power!"
 
 	para "Hoo hah!"
 	done
 
 BrunoScript_BrunoBeatenText:
-	text "Sao? Sao ta lại"
-	line "có thể thua?"
+	text "Why? How could we"
+	line "lose?"
 	done
 
 BrunoScript_BrunoDefeatText:
-	text "Đã thua, ta không"
-	line "có quyền nói gì"
-	cont "nữa…"
+	text "Having lost, I"
+	line "have no right to"
+	cont "say anything…"
 
-	para "Hãy đối mặt với"
-	line "thử thách tiếp"
-	cont "theo đi!"
+	para "Go face your next"
+	line "challenge!"
 	done
 
 BrunosRoom_MapEvents:

@@ -1,10 +1,10 @@
-	db "ĐIỆN@" ; species name
-	dw 11, 300 ; height, weight
+	db "ELECTRIC@" ; species name
+	dw 307, 660 ; height, weight
 
-	db   "Khi hai ELECTABUZZ"
-	next "chạm nhau, chúng"
-	next "điều khiển dòng"
+	db   "When two"
+	next "ELECTABUZZ touch,"
+	next "they control the"
 
-	page "điện để giao tiếp"
-	next "cảm xúc.@"
-	next "@"
+	page "electric currents"
+	next "to communicate"
+	next "their feelings.@"

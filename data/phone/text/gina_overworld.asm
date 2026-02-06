@@ -1,64 +1,67 @@
 GinaAskNumber1Text:
-	text "Khi thấy HLV mạnh"
-	line "tớ muốn cổ vũ"
-	cont "họ."
+	text "Whenever I see a"
+	line "strong trainer, I"
 
-	para "Khi đi dạo, đôi"
-	line "khi tớ nhặt đồ."
+	para "want to be their"
+	line "cheerleader."
 
-	para "Nếu nhặt được gì,"
-	line "cậu có thể lấy!"
+	para "When I'm on my"
+	line "walk, I sometimes"
+	cont "pick up items."
 
-	para "Cậu có muốn cho"
-	line "tớ SĐT không?"
+	para "If I get anything,"
+	line "you can have it!"
 
-	para "Tớ sẽ gọi ngay khi"
-	line "có đồ."
+	para "Want to give me"
+	line "your number?"
+
+	para "I'll call as soon"
+	line "as I get anything."
 	done
 
 GinaAskNumber2Text:
-	text "Nếu tớ tìm đồ,"
-	line "cậu có thể lấy!"
+	text "If I find an item,"
+	line "you can have it!"
 
-	para "Cậu có muốn cho"
-	line "tớ SĐT không?"
+	para "Want to give me"
+	line "your number?"
 	done
 
 GinaNumberAcceptedText:
-	text "Tớ sẽ gọi ngay khi"
-	line "có đồ!"
+	text "I'll call as soon"
+	line "as I get anything!"
 	done
 
 GinaNumberDeclinedText:
-	text "Thế à? Nhưng, tớ"
-	line "vẫn sẽ cổ vũ"
-	cont "cho cậu!"
+	text "Is that so? Well,"
+	line "I'll still be"
+	cont "rooting for you!"
 	done
 
 GinaPhoneFullText:
-	text "Nhưng điện thoại"
-	line "cậu đầy rồi!"
+	text "But your phone is"
+	line "all filled up!"
 	done
 
 GinaRematchText:
-	text "Tớ đợi rồi!"
+	text "I've been waiting!"
 
-	para "Tớ đã tiến bộ"
-	line "hơn chút rồi!"
+	para "I've gotten a bit"
+	line "better at this!"
 	done
 
 GinaGiftText:
-	text "Cuối cùng cậu"
-	line "cũng đến!"
+	text "So you're finally"
+	line "here!"
 
-	para "Tớ nghĩ món này"
-	line "sẽ làm cậu vui."
+	para "I think this will"
+	line "make you happy."
 	done
 
 GinaPackFullText:
-	text "TÚI của cậu trông"
-	line "đầy rồi."
+	text "Your PACK looks"
+	line "completely full."
 
-	para "Tớ phải giữ lại"
-	line "cái này."
+	para "I'll have to hold"
+	line "on to this."
 	done

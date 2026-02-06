@@ -1,10 +1,10 @@
-	db "CHUỘT@" ; species name
-	dw 3, 35 ; height, weight
+	db "RAT@" ; species name
+	dw 100, 80 ; height, weight
 
-	db   "Sức sống ấn tượng"
-	next "của #MON này"
-	next "cho phép nó sống"
+	db   "This #MON's"
+	next "impressive vital-"
+	next "ity allows it to"
 
-	page "ở bất cứ đâu."
-	next "Nó cũng sinh sản"
-	next "rất nhanh.@"
+	page "live anywhere. It"
+	next "also multiplies"
+	next "very quickly.@"

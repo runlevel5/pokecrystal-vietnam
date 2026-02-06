@@ -4,6 +4,97 @@ This document contains key decisions and guidelines for AI agents working on the
 
 **For complete English-Vietnamese term translations, see [GLOSSARY.md](GLOSSARY.md).**
 
+## i18n Build System Architecture
+
+### Overview
+
+This project uses an **internationalization (i18n) build system** that produces both English and Vietnamese ROMs from a single unified codebase. This architecture was adopted to:
+
+1. **Ensure upstream compatibility**: The English build (`make crystal11`) produces a byte-identical ROM to upstream `pret/pokecrystal`, verified by SHA1 checksum
+2. **Simplify rebasing**: When upstream makes changes, we can rebase/merge without complex conflict resolution in translated files
+3. **Maintain a single source of truth**: All code lives in one repository, with Vietnamese-specific content cleanly separated
+
+### How It Works
+
+Vietnamese-specific content is stored in `versions/crystal-vn/` and included conditionally using assembly preprocessor directives:
+
+```asm
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/path/to/file.asm"
+else
+; ... original English content ...
+endc
+```
+
+### Build Targets
+
+| Command | Output | Flags |
+|---------|--------|-------|
+| `make crystal11` | English ROM | `-D _CRYSTAL11` |
+| `make crystal11_vn` | Vietnamese ROM | `-D _CRYSTAL11 -D _CRYSTAL_VN -I versions/crystal-vn` |
+| `make crystal11_vn_debug` | Vietnamese debug ROM | `-D _CRYSTAL11 -D _CRYSTAL_VN -D _DEBUG -I versions/crystal-vn` |
+
+### Directory Structure
+
+```
+versions/crystal-vn/
+├── constants/          # Vietnamese charmap, constants
+│   └── charmap.asm     # Vietnamese character mappings
+├── data/               # Vietnamese text, pokemon names, items, etc.
+│   ├── items/          # Item names and descriptions
+│   ├── moves/          # Move names and descriptions  
+│   ├── pokemon/        # Pokemon names, types, dex entries
+│   ├── text/           # Dialog text, menus
+│   └── trainers/       # Trainer class names
+├── engine/             # Vietnamese engine modifications
+│   ├── link/           # Link cable text translation (VN↔EN)
+│   ├── menus/          # Start menu, naming screen
+│   └── pokemon/        # Mail, party menu, stats
+├── gfx/
+│   ├── credits/        # Vietnamese credits graphics
+│   └── font/           # Vietnamese font files
+└── maps/               # Vietnamese map scripts (327 files)
+```
+
+### Adding New Vietnamese Content
+
+When translating a new file:
+
+1. **Create the Vietnamese version** in `versions/crystal-vn/` mirroring the original path
+2. **Add conditional include** to the base file:
+   ```asm
+   if DEF(_CRYSTAL_VN)
+   INCLUDE "versions/crystal-vn/path/to/file.asm"
+   else
+   ; original English content
+   endc
+   ```
+3. **Test both builds**:
+   ```bash
+   make crystal11 && shasum pokecrystal11.gbc  # Must match upstream SHA1
+   make crystal11_vn                            # Vietnamese build
+   ```
+
+### Rebasing from Upstream
+
+When `pret/pokecrystal` has updates:
+
+1. Fetch upstream changes
+2. Rebase or merge into the feature branch
+3. Resolve conflicts (usually minimal since Vietnamese content is separate)
+4. Verify English build still matches upstream SHA1
+5. Test Vietnamese build
+
+The i18n system ensures that upstream changes to game logic, bug fixes, etc. can be incorporated without affecting Vietnamese translations.
+
+### CI/CD Pipeline
+
+The GitHub Actions workflow:
+1. Builds English ROM and verifies SHA1 matches upstream
+2. Builds Vietnamese ROM
+3. Creates IPS patch (English → Vietnamese)
+4. Publishes release artifacts
+
 ## Language Decisions
 
 ### Terms Kept in English (UPPERCASE)

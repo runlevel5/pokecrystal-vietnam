@@ -21,27 +21,27 @@ BlackthornMartBlackBeltScript:
 	jumptextfaceplayer BlackthornMartBlackBeltText
 
 BlackthornMartCooltrainerMText:
-	text "Cậu không thể mua"
-	line "H.SINH MAX, nhưng"
+	text "You can't buy MAX"
+	line "REVIVE, but it"
 
-	para "nó hồi sinh hoàn"
-	line "toàn #MON ngất."
+	para "fully restores a"
+	line "fainted #MON."
 
-	para "Cẩn thận--nó sẽ"
-	line "không hồi PP, số"
+	para "Beware--it won't"
+	line "restore PP, the"
 
-	para "ĐIỂM SỨC MẠNH"
-	line "cần cho chiêu."
+	para "POWER POINTS"
+	line "needed for moves."
 	done
 
 BlackthornMartBlackBeltText:
-	text "MAX XUA ĐUỔI tránh"
-	line "#MON yếu xa"
-	cont "cậu."
+	text "MAX REPEL keeps"
+	line "weak #MON away"
+	cont "from you."
 
-	para "Nó là loại kéo"
-	line "dài nhất trong"
-	cont "các loại XUA ĐI."
+	para "It's the longest"
+	line "lasting of the"
+	cont "REPEL sprays."
 	done
 
 BlackthornMart_MapEvents:

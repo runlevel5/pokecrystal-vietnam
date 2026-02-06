@@ -1,10 +1,10 @@
-	db "CÁ VÀNG@" ; species name
-	dw 6, 150 ; height, weight
+	db "GOLDFISH@" ; species name
+	dw 200, 330 ; height, weight
 
-	db   "Mùa sinh sản,"
-	next "chúng bơi duyên"
-	next "dáng trong nước,"
+	db   "During spawning"
+	next "season, they swim"
+	next "gracefully in the"
 
-	page "tìm kiếm bạn"
-	next "đời hoàn hảo.@"
-	next "@"
+	page "water, searching"
+	next "for their perfect"
+	next "mate.@"

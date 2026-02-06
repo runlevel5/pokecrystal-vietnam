@@ -31,100 +31,100 @@ BattleTowerOutsideSign:
 	jumptext BattleTowerOutsideSignText
 
 BattleTowerOutsideYoungsterText_NotYetOpen: ; unreferenced
-	text "Ôi, THÁP ĐẤU thật"
-	line "to lớn! Cổ tôi"
+	text "Wow, the BATTLE"
+	line "TOWER is huge! My"
 
-	para "mỏi vì cứ ngước"
-	line "lên nhìn nó."
+	para "neck is tired from"
+	line "looking up at it."
 	done
 
 BattleTowerOutsideYoungsterText_Mobile: ; unreferenced
-	text "Ôi, THÁP ĐẤU thật"
-	line "to lớn!"
+	text "Wow, the BATTLE"
+	line "TOWER is huge!"
 
-	para "Vì có rất nhiều"
-	line "HLV bên trong,"
+	para "Since there are a"
+	line "whole bunch of"
 
-	para "nên chắc cũng có"
-	line "rất nhiều loại"
+	para "trainers inside,"
+	line "there must also be"
 
-	para "#MON khác nhau"
-	line "ở đây."
+	para "a wide variety of"
+	line "#MON."
 	done
 
 BattleTowerOutsideYoungsterText:
-	text "Ôi, THÁP ĐẤU thật"
-	line "to lớn!"
+	text "Wow, the BATTLE"
+	line "TOWER is huge!"
 
-	para "Chắc có nhiều loại"
-	line "#MON khác nhau"
-	cont "ở đó!"
+	para "There must be many"
+	line "kinds of #MON"
+	cont "in there!"
 	done
 
 BattleTowerOutsideBeautyText_NotYetOpen: ; unreferenced
-	text "Họ làm gì ở đây"
-	line "nhỉ?"
+	text "What on earth do"
+	line "they do here?"
 
-	para "Nếu cái tên nói"
-	line "lên điều gì, tôi"
+	para "If the name says"
+	line "anything, I guess"
 
-	para "đoán là phải là"
-	line "để đấu #MON."
+	para "it must be for"
+	line "#MON battles."
 	done
 
 BattleTowerOutsideBeautyText:
-	text "Chỉ dùng được ba"
-	line "#MON thôi."
+	text "You can use only"
+	line "three #MON."
 
-	para "Thật khó để quyết"
-	line "định ba con nào"
+	para "It's so hard to"
+	line "decide which three"
 
-	para "nên tham gia"
-	line "trận đấu…"
+	para "should go into"
+	line "battle…"
 	done
 
 BattleTowerOutsideSailorText_Mobile: ; unreferenced
-	text "Hehehe…"
-	line "Tôi lén ra khỏi"
-	cont "công việc để đến"
+	text "Ehehehe…"
+	line "I sneaked out of"
+	cont "work to come here."
 
-	para "Tôi sẽ không từ"
-	line "bỏ cho đến khi"
-	cont "trở thành THỦLĨNH"
+	para "I'm never giving"
+	line "up until I become"
+	cont "a LEADER!"
 	done
 
 BattleTowerOutsideSailorText:
-	text "Hehehe, tôi trốn"
-	line "việc đến đây."
+	text "Hehehe, I snuck"
+	line "out from work."
 
-	para "Không thể bỏ về"
-	line "cho đến khi thắng"
+	para "I can't bail out"
+	line "until I've won!"
 
-	para "Tôi phải thắng tất"
-	line "cả. Nhất định!"
+	para "I have to win it"
+	line "all. That I must!"
 	done
 
 BattleTowerOutsideSignText_NotYetOpen: ; unreferenced
 ; originally shown when the Battle Tower was closed
-	text "THÁP ĐẤU"
+	text "BATTLE TOWER"
 	done
 
 BattleTowerOutsideSignText:
-	text "THÁP ĐẤU"
+	text "BATTLE TOWER"
 
-	para "Thử thách HLV"
-	line "tối thượng!"
+	para "Take the Ultimate"
+	line "Trainer Challenge!"
 	done
 
 BattleTowerOutsideText_DoorsClosed: ; unreferenced
 ; originally shown when the Battle Tower was closed
-	text "Cửa THÁP ĐẤU"
-	line "đóng rồi…"
+	text "The BATTLE TOWER's"
+	line "doors are closed…"
 	done
 
 BattleTowerOutsideText_DoorsOpen: ; unreferenced
 ; originally shown after the Battle Tower opened
-	text "Mở cửa rồi!"
+	text "It's open!"
 	done
 
 BattleTowerOutside_MapEvents:

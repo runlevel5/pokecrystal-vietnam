@@ -29,4 +29,12 @@ PrintItemDescription:
 	pop hl
 	jp PlaceString
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/items/descriptions.asm"
+
+else
+
 INCLUDE "data/items/descriptions.asm"
+
+endc

@@ -1,10 +1,10 @@
-	db "NÚI LỬA@" ; species name
-	dw 17, 795 ; height, weight
+	db "VOLCANO@" ; species name
+	dw 507, 1750 ; height, weight
 
-	db   "Khi nhiệt từ thân"
-	next "làm không khí"
-	next "lung linh, đó là"
+	db   "When heat from its"
+	next "body causes the"
+	next "air around it to"
 
-	page "dấu hiệu nó sẵn"
-	next "sàng chiến đấu.@"
-	next "@"
+	page "shimmer, this is a"
+	next "sign that it is"
+	next "ready to battle.@"

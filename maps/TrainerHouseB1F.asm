@@ -110,58 +110,61 @@ Movement_TrainerHouseTurnBack:
 	step_end
 
 TrainerHouseB1FIntroText:
-	text "Chào. Chào mừng"
-	line "đến PHÒNG LUYỆN"
-	cont "TẬP."
+	text "Hi. Welcome to our"
+	line "TRAINING HALL."
 
-	para "Bạn có thể đấu với"
-	line "một HLV mỗi ngày."
+	para "You may battle a"
+	line "trainer once per"
+	cont "day."
 	done
 
 TrainerHouseB1FYourOpponentIsText:
 	text_ram wStringBuffer3
-	text " là đối"
-	line "thủ hôm nay."
+	text " is your"
+	line "opponent today."
 	done
 
 TrainerHouseB1FAskWantToBattleText:
-	text "Bạn có muốn đấu"
-	line "không?"
+	text "Would you like to"
+	line "battle?"
 	done
 
 TrainerHouseB1FGoRightInText:
-	text "Mời bạn đi thẳng"
-	line "vào."
+	text "Please go right"
+	line "through."
 
-	para "Bạn có thể bắt"
-	line "đầu ngay."
+	para "You may begin"
+	line "right away."
 	done
 
 TrainerHouseB1FPleaseComeAgainText:
-	text "Xin lỗi. Chỉ HLV"
-	line "nào sẽ đấu mới"
+	text "Sorry. Only those"
+	line "trainers who will"
 
-	para "được phép vào"
-	line "trong."
+	para "be battling are"
+	line "allowed to go in."
 	done
 
 TrainerHouseB1FSecondChallengeDeniedText:
-	text "Tôi xin lỗi."
-	line "Đây là lần thứ"
-	cont "hai hôm nay."
+	text "I'm sorry."
+	line "This would be your"
 
-	para "Bạn chỉ được vào"
-	line "một lần mỗi ngày."
+	para "second time today."
+	line "You're permitted"
+
+	para "to enter just once"
+	line "a day."
 	done
 
 TrainerHouseB1FCalBeatenText:
-	text "Tôi thua…"
-	line "Chết tiệt…"
+	text "I lost…"
+	line "Darn…"
 	done
 
 TrainerHouseB1FCalBeforeText:
-	text "Tôi đi đến đây để"
-	line "được đấu với bạn."
+	text "I traveled out"
+	line "here just so I"
+	cont "could battle you."
 	done
 
 TrainerHouseB1F_MapEvents:

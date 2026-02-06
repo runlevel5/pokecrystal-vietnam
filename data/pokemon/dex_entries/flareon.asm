@@ -1,10 +1,10 @@
-	db "LỬA@" ; species name
-	dw 9, 250 ; height, weight
+	db "FLAME@" ; species name
+	dw 211, 550 ; height, weight
 
-	db   "Khi tích đủ"
-	next "nhiệt, thân nhiệt"
-	next "của #MON này"
+	db   "Once it has stored"
+	next "up enough heat,"
+	next "this #MON's"
 
-	page "có thể lên tới"
-	next "1700 độ.@"
-	next "@"
+	page "body temperature"
+	next "can reach up to"
+	next "1700 degrees.@"

@@ -1,99 +1,103 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/text/battle.asm"
+else
+
 BattleText:: ; used only for BANK(BattleText)
 
 BattleText_PlayerPickedUpPayDayMoney:
-	text "<PLAYER> nhặt được"
+	text "<PLAYER> picked up"
 	line "¥@"
 	text_decimal wPayDayMoney, 3, 6
 	text "!"
 	prompt
 
 WildPokemonAppearedText:
-	text "@"
+	text "Wild @"
 	text_ram wEnemyMonNickname
-	text " hoang"
-	line "dã xuất hiện!"
+	text_start
+	line "appeared!"
 	prompt
 
 HookedPokemonAttackedText:
-	text "@"
+	text "The hooked"
+	line "@"
 	text_ram wEnemyMonNickname
 	text_start
-	line "cắn câu tấn công!"
+	cont "attacked!"
 	prompt
 
 PokemonFellFromTreeText:
 	text_ram wEnemyMonNickname
-	text " rơi"
-	line "ra khỏi cây!"
+	text " fell"
+	line "out of the tree!"
 	prompt
 
 WildCelebiAppearedText:
-	text "@"
+	text "Wild @"
 	text_ram wEnemyMonNickname
-	text " hoang"
-	line "dã xuất hiện!"
+	text_start
+	line "appeared!"
 	prompt
 
 WantsToBattleText::
 	text "<ENEMY>"
-	line "muốn đấu!"
+	line "wants to battle!"
 	prompt
 
 BattleText_WildFled:
-	text "@"
+	text "Wild @"
 	text_ram wEnemyMonNickname
-	text " hoang"
-	line "dã chạy mất!"
+	text_start
+	line "fled!"
 	prompt
 
 BattleText_EnemyFled:
-	text "@"
+	text "Enemy @"
 	text_ram wEnemyMonNickname
-	text " đ.thủ"
-	line "đã chạy mất!"
+	text_start
+	line "fled!"
 	prompt
 
 HurtByPoisonText:
 	text "<USER>"
-	line "bị ĐỘC làm đau!"
+	line "is hurt by poison!"
 	prompt
 
 HurtByBurnText:
-	text "<USER>"
-	line "bị BỎNG làm đau!"
+	text "<USER>'s"
+	line "hurt by its burn!"
 	prompt
 
 LeechSeedSapsText:
-	text "KÝ SINH hút"
+	text "LEECH SEED saps"
 	line "<USER>!"
 	prompt
 
 HasANightmareText:
 	text "<USER>"
-	line "gặp ÁC MỘNG!"
+	line "has a NIGHTMARE!"
 	prompt
 
 HurtByCurseText:
-	text "<USER>"
-	line "bị LỜI NGUYỀN"
-	cont "làm đau!"
+	text "<USER>'s"
+	line "hurt by the CURSE!"
 	prompt
 
 SandstormHitsText:
-	text "BÃO CÁT đánh"
+	text "The SANDSTORM hits"
 	line "<USER>!"
 	prompt
 
 PerishCountText:
-	text "Số DIỆT VONG của"
-	line "<USER> là @"
+	text "<USER>'s"
+	line "PERISH count is @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 BattleText_TargetRecoveredWithItem:
 	text "<TARGET>"
-	line "hồi phục bằng"
+	line "recovered with"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -101,7 +105,7 @@ BattleText_TargetRecoveredWithItem:
 
 BattleText_UserRecoveredPPUsing:
 	text "<USER>"
-	line "hồi PP bằng"
+	line "recovered PP using"
 	cont "@"
 	text_ram wStringBuffer1
 	text "."
@@ -109,241 +113,241 @@ BattleText_UserRecoveredPPUsing:
 
 BattleText_TargetWasHitByFutureSight:
 	text "<TARGET>"
-	line "bị trúng TIÊN TRI!"
+	line "was hit by FUTURE"
+	cont "SIGHT!"
 	prompt
 
 BattleText_SafeguardFaded:
-	text "BẢO HỘ của"
-	line "<USER> tan!"
+	text "<USER>'s"
+	line "SAFEGUARD faded!"
 	prompt
 
 BattleText_MonsLightScreenFell:
 	text_ram wStringBuffer1
-	text " #MON"
-	line "MÀN SÁNG hết!"
+	text " #MON's"
+	line "LIGHT SCREEN fell!"
 	prompt
 
 BattleText_MonsReflectFaded:
 	text_ram wStringBuffer1
-	text " #MON"
-	line "PHẢN CHIẾU hết!"
+	text " #MON's"
+	line "REFLECT faded!"
 	prompt
 
 BattleText_RainContinuesToFall:
-	text "Mưa vẫn tiếp tục"
-	line "rơi."
+	text "Rain continues to"
+	line "fall."
 	prompt
 
 BattleText_TheSunlightIsStrong:
-	text "Ánh nắng rất"
-	line "mạnh."
+	text "The sunlight is"
+	line "strong."
 	prompt
 
 BattleText_TheSandstormRages:
-	text "BÃO CÁT"
-	line "hoành hành."
+	text "The SANDSTORM"
+	line "rages."
 	prompt
 
 BattleText_TheRainStopped:
-	text "Mưa đã tạnh."
+	text "The rain stopped."
 	prompt
 
 BattleText_TheSunlightFaded:
-	text "Ánh nắng"
-	line "đã nhạt đi."
+	text "The sunlight"
+	line "faded."
 	prompt
 
 BattleText_TheSandstormSubsided:
-	text "BÃO CÁT"
-	line "đã lắng xuống."
+	text "The SANDSTORM"
+	line "subsided."
 	prompt
 
 BattleText_EnemyMonFainted:
-	text "@"
+	text "Enemy @"
 	text_ram wEnemyMonNickname
-	text " đ.thủ"
-	line "đã gục!"
+	text_start
+	line "fainted!"
 	prompt
 
 GotMoneyForWinningText:
-	text "<PLAYER> được ¥@"
+	text "<PLAYER> got ¥@"
 	text_decimal wBattleReward, 3, 6
 	text_start
-	line "vì chiến thắng!"
+	line "for winning!"
 	prompt
 
 BattleText_EnemyWasDefeated:
 	text "<ENEMY>"
-	line "đã bị đánh bại!"
+	line "was defeated!"
 	prompt
 
 TiedAgainstText:
-	text "Hòa với"
+	text "Tied against"
 	line "<ENEMY>!"
 	prompt
 
 SentSomeToMomText:
-	text "<PLAYER> được ¥@"
+	text "<PLAYER> got ¥@"
 	text_decimal wBattleReward, 3, 6
 	text_start
-	line "vì chiến thắng!"
-	cont "Gửi một ít cho MẸ!"
+	line "for winning!"
+	cont "Sent some to MOM!"
 	prompt
 
 SentHalfToMomText:
-	text "Gửi một nửa cho MẸ"
+	text "Sent half to MOM!"
 	prompt
 
 SentAllToMomText:
-	text "Gửi hết cho MẸ!"
+	text "Sent all to MOM!"
 	prompt
 
 UnusedRivalLossText: ; unreferenced
-	text "<RIVAL>: Hả? Đáng"
-	line "ra tao phải chọn"
-	cont "#MON của mày!"
+	text "<RIVAL>: Huh? I"
+	line "should've chosen"
+	cont "your #MON!"
 	prompt
 
 BattleText_MonFainted:
 	text_ram wBattleMonNickname
 	text_start
-	line "đã gục!"
+	line "fainted!"
 	prompt
 
 BattleText_UseNextMon:
-	text "Dùng #MON tiếp?"
+	text "Use next #MON?"
 	done
 
 UnusedRivalWinText: ; unreferenced
-	text "<RIVAL>: Được!"
-	line "Tao đã chọn đúng"
-	cont "#MON rồi!"
+	text "<RIVAL>: Yes!"
+	line "I guess I chose a"
+	cont "good #MON!"
 	prompt
 
 LostAgainstText:
-	text "Thua"
+	text "Lost against"
 	line "<ENEMY>!"
 	prompt
 
 BattleText_EnemyIsAboutToUseWillPlayerChangeMon:
 	text "<ENEMY>"
-	line "sắp dùng"
+	line "is about to use"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "."
 
-	para "<PLAYER> có đổi"
-	line "#MON không?"
+	para "Will <PLAYER>"
+	line "change #MON?"
 	done
 
 BattleText_EnemySentOut:
 	text "<ENEMY>"
-	line "gửi ra"
+	line "sent out"
 	cont "@"
 	text_ram wEnemyMonNickname
 	text "!"
 	done
 
 BattleText_TheresNoWillToBattle:
-	text "Không còn ý chí"
-	line "để chiến đấu!"
+	text "There's no will to"
+	line "battle!"
 	prompt
 
 BattleText_AnEGGCantBattle:
-	text "TRỨNG không thể"
-	line "chiến đấu!"
+	text "An EGG can't"
+	line "battle!"
 	prompt
 
 BattleText_CantEscape2:
-	text "Không thể chạy!"
+	text "Can't escape!"
 	prompt
 
 BattleText_TheresNoEscapeFromTrainerBattle:
-	text "Không! Không thể"
-	line "chạy khỏi trận"
-	cont "đấu với HLV!"
+	text "No! There's no"
+	line "running from a"
+	cont "trainer battle!"
 	prompt
 
 BattleText_GotAwaySafely:
-	text "Chạy thoát an"
-	line "toàn!"
+	text "Got away safely!"
 	prompt
 
 BattleText_UserFledUsingAStringBuffer1:
 	text "<USER>"
-	line "chạy thoát bằng"
+	line "fled using a"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 BattleText_CantEscape:
-	text "Không thể chạy!"
+	text "Can't escape!"
 	prompt
 
 BattleText_UserHurtBySpikes:
-	text "<USER>"
-	line "bị RẮC ĐINH đâm!"
+	text "<USER>'s"
+	line "hurt by SPIKES!"
 	prompt
 
 RecoveredUsingText:
 	text "<TARGET>"
-	line "hồi phục bằng"
+	line "recovered using a"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 BattleText_UsersStringBuffer1Activated:
-	text "@"
+	text "<USER>'s"
+	line "@"
 	text_ram wStringBuffer1
-	text " của"
-	line "<USER>"
-	cont "đã kích hoạt!"
+	text_start
+	cont "activated!"
 	prompt
 
 BattleText_ItemsCantBeUsedHere:
-	text "Không thể dùng"
-	line "vật phẩm ở đây."
+	text "Items can't be"
+	line "used here."
 	prompt
 
 BattleText_MonIsAlreadyOut:
 	text_ram wBattleMonNickname
 	text_start
-	line "đã ra trận rồi."
+	line "is already out."
 	prompt
 
 BattleText_MonCantBeRecalled:
 	text_ram wBattleMonNickname
 	text_start
-	line "không rút về được!"
+	line "can't be recalled!"
 	prompt
 
 BattleText_TheresNoPPLeftForThisMove:
-	text "Chiêu này hết PP"
-	line "rồi!"
+	text "There's no PP left"
+	line "for this move!"
 	prompt
 
 BattleText_TheMoveIsDisabled:
-	text "Chiêu này đã bị"
-	line "VÔ HIỆU!"
+	text "The move is"
+	line "DISABLED!"
 	prompt
 
 BattleText_MonHasNoMovesLeft:
 	text_ram wBattleMonNickname
 	text_start
-	line "không còn chiêu!"
+	line "has no moves left!"
 	done
 
 BattleText_TargetsEncoreEnded:
-	text "HÒA CA của"
-	line "<TARGET> hết!"
+	text "<TARGET>'s"
+	line "ENCORE ended!"
 	prompt
 
 BattleText_StringBuffer1GrewToLevel:
 	text_ram wStringBuffer1
-	text " lên cấp"
-	line "@"
+	text " grew to"
+	line "level @"
 	text_decimal wCurPartyLevel, 1, 3
 	text "!@"
 	sound_dex_fanfare_50_79
@@ -352,85 +356,85 @@ BattleText_StringBuffer1GrewToLevel:
 	text_end ; unreferenced
 
 BattleText_WildMonIsEating:
-	text "@"
+	text "Wild @"
 	text_ram wEnemyMonNickname
-	text " hoang"
-	line "dã đang ăn!"
+	text_start
+	line "is eating!"
 	prompt
 
 BattleText_WildMonIsAngry:
-	text "@"
+	text "Wild @"
 	text_ram wEnemyMonNickname
-	text " hoang"
-	line "dã đang giận!"
+	text_start
+	line "is angry!"
 	prompt
 
 FastAsleepText:
 	text "<USER>"
-	line "đang ngủ say!"
+	line "is fast asleep!"
 	prompt
 
 WokeUpText:
 	text "<USER>"
-	line "thức dậy!"
+	line "woke up!"
 	prompt
 
 FrozenSolidText:
 	text "<USER>"
-	line "bị đóng băng!"
+	line "is frozen solid!"
 	prompt
 
 FlinchedText:
 	text "<USER>"
-	line "bị khiếp sợ!"
+	line "flinched!"
 	prompt
 
 MustRechargeText:
 	text "<USER>"
-	line "phải nạp lại sức!"
+	line "must recharge!"
 	prompt
 
 DisabledNoMoreText:
-	text "<USER>"
-	line "hết bị vô hiệu!"
+	text "<USER>'s"
+	line "disabled no more!"
 	prompt
 
 IsConfusedText:
 	text "<USER>"
-	line "đang bối rối!"
+	line "is confused!"
 	prompt
 
 HurtItselfText:
-	text "Nó tự làm đau mình"
-	line "vì bối rối!"
+	text "It hurt itself in"
+	line "its confusion!"
 	prompt
 
 ConfusedNoMoreText:
-	text "<USER>"
-	line "hết bối rối rồi!"
+	text "<USER>'s"
+	line "confused no more!"
 	prompt
 
 BecameConfusedText:
 	text "<TARGET>"
-	line "bị bối rối!"
+	line "became confused!"
 	prompt
 
 BattleText_ItemHealedConfusion:
-	text "@"
+	text "A @"
 	text_ram wStringBuffer1
-	text " giúp"
+	text " rid"
 	line "<TARGET>"
-	cont "hết bối rối."
+	cont "of its confusion."
 	prompt
 
 AlreadyConfusedText:
-	text "<TARGET>"
-	line "đã bối rối rồi!"
+	text "<TARGET>'s"
+	line "already confused!"
 	prompt
 
 BattleText_UsersHurtByStringBuffer1:
-	text "<USER>"
-	line "bị đau bởi"
+	text "<USER>'s"
+	line "hurt by"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -438,7 +442,7 @@ BattleText_UsersHurtByStringBuffer1:
 
 BattleText_UserWasReleasedFromStringBuffer1:
 	text "<USER>"
-	line "đã thoát khỏi"
+	line "was released from"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -446,47 +450,45 @@ BattleText_UserWasReleasedFromStringBuffer1:
 
 UsedBindText:
 	text "<USER>"
-	line "dùng SIẾT trói"
+	line "used BIND on"
 	cont "<TARGET>!"
 	prompt
 
 WhirlpoolTrapText:
 	text "<TARGET>"
-	line "bị mắc bẫy!"
+	line "was trapped!"
 	prompt
 
 FireSpinTrapText:
 	text "<TARGET>"
-	line "bị mắc bẫy!"
+	line "was trapped!"
 	prompt
 
 WrappedByText:
 	text "<TARGET>"
-	line "bị <USER>"
-	cont "QUẤN!"
+	line "was WRAPPED by"
+	cont "<USER>!"
 	prompt
 
 ClampedByText:
 	text "<TARGET>"
-	line "bị <USER>"
-	cont "KẸP CÀNG!"
+	line "was CLAMPED by"
+	cont "<USER>!"
 	prompt
 
 StoringEnergyText:
 	text "<USER>"
-	line "đang tích năng"
-	cont "lượng!"
+	line "is storing energy!"
 	prompt
 
 UnleashedEnergyText:
 	text "<USER>"
-	line "giải phóng năng"
-	cont "lượng!"
+	line "unleashed energy!"
 	prompt
 
 HungOnText:
 	text "<TARGET>"
-	line "bám trụ bằng"
+	line "hung on with"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -494,73 +496,73 @@ HungOnText:
 
 EnduredText:
 	text "<TARGET>"
-	line "BỀN BỈ chịu đòn!"
+	line "ENDURED the hit!"
 	prompt
 
 InLoveWithText:
 	text "<USER>"
-	line "đang yêu"
+	line "is in love with"
 	cont "<TARGET>!"
 	prompt
 
 InfatuationText:
-	text "Sự mê đắm làm"
-	line "<USER> không"
-	cont "tấn công được!"
+	text "<USER>'s"
+	line "infatuation kept"
+	cont "it from attacking!"
 	prompt
 
 DisabledMoveText:
-	text "@"
+	text "<USER>'s"
+	line "@"
 	text_ram wStringBuffer1
-	text " của"
-	line "<USER> bị"
-	cont "VÔ HIỆU!"
+	text " is"
+	cont "DISABLED!"
 	prompt
 
 LoafingAroundText:
 	text_ram wBattleMonNickname
-	text " đang"
-	line "lười biếng."
+	text " is"
+	line "loafing around."
 	prompt
 
 BeganToNapText:
 	text_ram wBattleMonNickname
-	text " bắt"
-	line "đầu ngủ gật!"
+	text " began"
+	line "to nap!"
 	prompt
 
 WontObeyText:
 	text_ram wBattleMonNickname
-	text " không"
-	line "nghe lời!"
+	text " won't"
+	line "obey!"
 	prompt
 
 TurnedAwayText:
 	text_ram wBattleMonNickname
-	text " quay"
-	line "mặt đi!"
+	text " turned"
+	line "away!"
 	prompt
 
 IgnoredOrdersText:
 	text_ram wBattleMonNickname
-	text " bỏ"
-	line "qua lệnh!"
+	text " ignored"
+	line "orders!"
 	prompt
 
 IgnoredSleepingText:
 	text_ram wBattleMonNickname
-	text " bỏ qua"
-	line "lệnh…đang ngủ!"
+	text " ignored"
+	line "orders…sleeping!"
 	prompt
 
 NoPPLeftText:
-	text "Nhưng không còn PP"
-	line "cho chiêu này!"
+	text "But no PP is left"
+	line "for the move!"
 	prompt
 
 HasNoPPLeftText:
 	text "<USER>"
-	line "hết PP cho"
+	line "has no PP left for"
 	cont "@"
 	text_ram wStringBuffer2
 	text "!"
@@ -568,264 +570,262 @@ HasNoPPLeftText:
 
 WentToSleepText:
 	text "<USER>"
-	line "đã đi ngủ!"
+	line "went to sleep!"
 	done
 
 RestedText:
 	text "<USER>"
-	line "ngủ và trở nên"
-	cont "khỏe mạnh!"
+	line "fell asleep and"
+	cont "became healthy!"
 	done
 
 RegainedHealthText:
 	text "<USER>"
-	line "hồi phục sức khỏe!"
+	line "regained health!"
 	prompt
 
 AttackMissedText:
-	text "Đòn tấn công của"
-	line "<USER>"
-	cont "trượt!"
+	text "<USER>'s"
+	line "attack missed!"
 	prompt
 
 AttackMissed2Text:
-	text "Đòn tấn công của"
-	line "<USER>"
-	cont "trượt!"
+	text "<USER>'s"
+	line "attack missed!"
 	prompt
 
 CrashedText:
 	text "<USER>"
-	line "tiếp tục lao đi"
-	cont "và đâm sầm!"
+	line "kept going and"
+	cont "crashed!"
 	prompt
 
 UnaffectedText:
-	text "<TARGET>"
-	line "không bị tác động!"
+	text "<TARGET>'s"
+	line "unaffected!"
 	prompt
 
 DoesntAffectText:
-	text "Không có tác dụng"
-	line "với <TARGET>!"
+	text "It doesn't affect"
+	line "<TARGET>!"
 	prompt
 
 CriticalHitText:
-	text "Đòn chí mạng!"
+	text "A critical hit!"
 	prompt
 
 OneHitKOText:
-	text "Hạ gục một đòn!"
+	text "It's a one-hit KO!"
 	prompt
 
 SuperEffectiveText:
-	text "Rất hiệu quả!"
+	text "It's super-"
+	line "effective!"
 	prompt
 
 NotVeryEffectiveText:
-	text "Không hiệu quả"
-	line "lắm…"
+	text "It's not very"
+	line "effective…"
 	prompt
 
 TookDownWithItText:
 	text "<TARGET>"
-	line "kéo theo,"
+	line "took down with it,"
 	cont "<USER>!"
 	prompt
 
 RageBuildingText:
-	text "NỔI GIẬN của"
-	line "<USER> tăng!"
+	text "<USER>'s"
+	line "RAGE is building!"
 	prompt
 
 GotAnEncoreText:
 	text "<TARGET>"
-	line "bị HÒA CA!"
+	line "got an ENCORE!"
 	prompt
 
 SharedPainText:
-	text "Hai bên chia sẻ"
-	line "nỗi đau!"
+	text "The battlers"
+	line "shared pain!"
 	prompt
 
 TookAimText:
 	text "<USER>"
-	line "đã ngắm bắn!"
+	line "took aim!"
 	prompt
 
 SketchedText:
 	text "<USER>"
-	line "đã PHÁC THẢO"
+	line "SKETCHED"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 DestinyBondEffectText:
-	text "<USER>"
-	line "muốn kéo đối thủ"
-	cont "theo cùng!"
+	text "<USER>'s"
+	line "trying to take its"
+	cont "opponent with it!"
 	prompt
 
 SpiteEffectText:
-	text "@"
+	text "<TARGET>'s"
+	line "@"
 	text_ram wStringBuffer1
-	text " của"
-	line "<TARGET> giảm"
-	cont "@"
+	text " was"
+	cont "reduced by @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 BellChimedText:
-	text "Chuông reo!"
+	text "A bell chimed!"
 	line ""
 	prompt
 
 FellAsleepText:
 	text "<TARGET>"
-	line "đã ngủ thiếp đi!"
+	line "fell asleep!"
 	prompt
 
 AlreadyAsleepText:
-	text "<TARGET>"
-	line "đã ngủ rồi!"
+	text "<TARGET>'s"
+	line "already asleep!"
 	prompt
 
 WasPoisonedText:
 	text "<TARGET>"
-	line "bị trúng độc!"
+	line "was poisoned!"
 	prompt
 
 BadlyPoisonedText:
-	text "<TARGET>"
-	line "bị trúng độc nặng!"
+	text "<TARGET>'s"
+	line "badly poisoned!"
 	prompt
 
 AlreadyPoisonedText:
-	text "<TARGET>"
-	line "đã bị độc rồi!"
+	text "<TARGET>'s"
+	line "already poisoned!"
 	prompt
 
 SuckedHealthText:
-	text "Hút máu từ"
+	text "Sucked health from"
 	line "<TARGET>!"
 	prompt
 
 DreamEatenText:
-	text "Giấc mơ của"
-	line "<TARGET> bị ăn!"
+	text "<TARGET>'s"
+	line "dream was eaten!"
 	prompt
 
 WasBurnedText:
 	text "<TARGET>"
-	line "bị bỏng!"
+	line "was burned!"
 	prompt
 
 DefrostedOpponentText:
 	text "<TARGET>"
-	line "đã tan băng!"
+	line "was defrosted!"
 	prompt
 
 WasFrozenText:
 	text "<TARGET>"
-	line "bị đóng băng!"
+	line "was frozen solid!"
 	prompt
 
 WontRiseAnymoreText:
-	text "@"
+	text "<USER>'s"
+	line "@"
 	text_ram wStringBuffer2
-	text " của"
-	line "<USER> không"
-	cont "tăng thêm được!"
+	text " won't"
+	cont "rise anymore!"
 	prompt
 
 WontDropAnymoreText:
-	text "@"
+	text "<TARGET>'s"
+	line "@"
 	text_ram wStringBuffer2
-	text " của"
-	line "<TARGET> không"
-	cont "giảm thêm được!"
+	text " won't"
+	cont "drop anymore!"
 	prompt
 
 FledFromBattleText::
 	text "<USER>"
-	line "chạy khỏi trận!"
+	line "fled from battle!"
 	prompt
 
 FledInFearText:
 	text "<TARGET>"
-	line "chạy vì sợ hãi!"
+	line "fled in fear!"
 	prompt
 
 BlownAwayText:
 	text "<TARGET>"
-	line "bị thổi bay!"
+	line "was blown away!"
 	prompt
 
 PlayerHitTimesText:
-	text "Đánh @"
+	text "Hit @"
 	text_decimal wPlayerDamageTaken, 1, 1
-	text " lần!"
+	text " times!"
 	prompt
 
 EnemyHitTimesText:
-	text "Đánh @"
+	text "Hit @"
 	text_decimal wEnemyDamageTaken, 1, 1
-	text " lần!"
+	text " times!"
 	prompt
 
 MistText:
-	text "<USER>"
-	line "phủ SƯƠNG MÙ!"
+	text "<USER>'s"
+	line "shrouded in MIST!"
 	prompt
 
 ProtectedByMistText:
-	text "<TARGET>"
-	line "được SƯƠNG MÙ"
-	cont "bảo vệ."
+	text "<TARGET>'s"
+	line "protected by MIST."
 	prompt
 
 GettingPumpedText:
 	text_pause
-	text "<USER>"
-	line "đang hưng phấn!"
+	text "<USER>'s"
+	line "getting pumped!"
 	prompt
 
 RecoilText:
-	text "<USER>"
-	line "bị phản đòn!"
+	text "<USER>'s"
+	line "hit with recoil!"
 	prompt
 
 MadeSubstituteText:
 	text "<USER>"
-	line "tạo THẾ THÂN!"
+	line "made a SUBSTITUTE!"
 	prompt
 
 HasSubstituteText:
 	text "<USER>"
-	line "có THẾ THÂN!"
+	line "has a SUBSTITUTE!"
 	prompt
 
 TooWeakSubText:
-	text "Quá yếu để tạo"
-	line "THẾ THÂN!"
+	text "Too weak to make"
+	line "a SUBSTITUTE!"
 	prompt
 
 SubTookDamageText:
-	text "THẾ THÂN chịu"
-	line "sát thương thay"
+	text "The SUBSTITUTE"
+	line "took damage for"
 	cont "<TARGET>!"
 	prompt
 
 SubFadedText:
-	text "THẾ THÂN của"
-	line "<TARGET> tan!"
+	text "<TARGET>'s"
+	line "SUBSTITUTE faded!"
 	prompt
 
 MimicLearnedMoveText:
 	text "<USER>"
-	line "học được"
+	line "learned"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
@@ -833,281 +833,282 @@ MimicLearnedMoveText:
 
 WasSeededText:
 	text "<TARGET>"
-	line "bị gieo hạt!"
+	line "was seeded!"
 	prompt
 
 EvadedText:
 	text "<TARGET>"
-	line "né được đòn!"
+	line "evaded the attack!"
 	prompt
 
 WasDisabledText:
-	text "@"
+	text "<TARGET>'s"
+	line "@"
 	text_ram wStringBuffer1
-	text " của"
-	line "<TARGET> bị"
-	cont "VÔ HIỆU!"
+	text " was"
+	cont "DISABLED!"
 	prompt
 
 CoinsScatteredText:
-	text "Tiền xu rải khắp"
-	line "nơi!"
+	text "Coins scattered"
+	line "everywhere!"
 	prompt
 
 TransformedTypeText:
 	text "<USER>"
-	line "biến thành hệ"
-	cont "@"
+	line "transformed into"
+	cont "the @"
 	text_ram wStringBuffer1
-	text "!"
+	text "-type!"
 	prompt
 
 EliminatedStatsText:
-	text "Mọi thay đổi chỉ"
-	line "số bị xóa bỏ!"
+	text "All stat changes"
+	line "were eliminated!"
 	prompt
 
 TransformedText:
 	text "<USER>"
-	line "BIẾN HÌNH thành"
+	line "TRANSFORMED into"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 LightScreenEffectText:
-	text "SP.DEF của"
-	line "<USER> tăng!"
+	text "<USER>'s"
+	line "SPCL.DEF rose!"
 	prompt
 
 ReflectEffectText:
-	text "PHÒNG THỦ của"
-	line "<USER> tăng!"
+	text "<USER>'s"
+	line "DEFENSE rose!"
 	prompt
 
 NothingHappenedText:
-	text "Nhưng không có gì"
-	line "xảy ra."
+	text "But nothing"
+	line "happened."
 	prompt
 
 ButItFailedText:
-	text "Nhưng thất bại!"
+	text "But it failed!"
 	prompt
 
 ItFailedText:
-	text "Thất bại!"
+	text "It failed!"
 	prompt
 
 DidntAffect1Text:
-	text "Không có tác dụng"
-	line "với <TARGET>!"
+	text "It didn't affect"
+	line "<TARGET>!"
 	prompt
 
 DidntAffect2Text:
-	text "Không có tác dụng"
-	line "với <TARGET>!"
+	text "It didn't affect"
+	line "<TARGET>!"
 	prompt
 
 HPIsFullText:
-	text "HP của <USER>"
-	line "đã đầy!"
+	text "<USER>'s"
+	line "HP is full!"
 	prompt
 
 DraggedOutText:
 	text "<USER>"
-	line "bị kéo ra ngoài!"
+	line "was dragged out!"
 	prompt
 
 ParalyzedText:
-	text "<TARGET>"
-	line "bị tê liệt! Có thể"
-	cont "không đánh được!"
+	text "<TARGET>'s"
+	line "paralyzed! Maybe"
+	cont "it can't attack!"
 	prompt
 
 FullyParalyzedText:
-	text "<USER>"
-	line "tê liệt hoàn toàn!"
+	text "<USER>'s"
+	line "fully paralyzed!"
 	prompt
 
 AlreadyParalyzedText:
-	text "<TARGET>"
-	line "đã bị tê liệt rồi!"
+	text "<TARGET>'s"
+	line "already paralyzed!"
 	prompt
 
 ProtectedByText:
-	text "<TARGET>"
-	line "được bảo vệ bởi"
+	text "<TARGET>'s"
+	line "protected by"
 	cont "@"
 	text_ram wStringBuffer1
 	text "!"
 	prompt
 
 MirrorMoveFailedText:
-	text "SAO CHÉP"
-	next "thất bại!"
+	text "The MIRROR MOVE"
+	next "failed!"
 	prompt
 
 StoleText:
 	text "<USER>"
-	line "cướp @"
+	line "stole @"
 	text_ram wStringBuffer1
 	text_start
-	cont "từ đối thủ!"
+	cont "from its foe!"
 	prompt
 
 CantEscapeNowText:
 	text "<TARGET>"
-	line "không thể chạy!"
+	line "can't escape now!"
 	prompt
 
 StartedNightmareText:
 	text "<TARGET>"
-	line "bắt đầu gặp"
-	cont "ÁC MỘNG!"
+	line "started to have a"
+	cont "NIGHTMARE!"
 	prompt
 
 WasDefrostedText:
 	text "<USER>"
-	line "đã tan băng!"
+	line "was defrosted!"
 	prompt
 
 PutACurseText:
 	text "<USER>"
-	line "cắt HP của mình"
+	line "cut its own HP and"
 
-	para "và NGUYỀN RỦA"
+	para "put a CURSE on"
 	line "<TARGET>!"
 	prompt
 
 ProtectedItselfText:
 	text "<USER>"
-	line "BẢO VỆ bản thân!"
+	line "PROTECTED itself!"
 	prompt
 
 ProtectingItselfText:
-	text "<TARGET>"
-	line "đang BẢO VỆ!"
+	text "<TARGET>'s"
+	line "PROTECTING itself!"
 	done
 
 SpikesText:
-	text "RẮC ĐINH rải khắp"
-	line "xung quanh"
+	text "SPIKES scattered"
+	line "all around"
 	cont "<TARGET>!"
 	prompt
 
 IdentifiedText:
 	text "<USER>"
-	line "nhận diện"
+	line "identified"
 	cont "<TARGET>!"
 	prompt
 
 StartPerishText:
-	text "Cả hai #MON sẽ"
-	line "gục sau 3 lượt!"
+	text "Both #MON will"
+	line "faint in 3 turns!"
 	prompt
 
 SandstormBrewedText:
-	text "BÃO CÁT"
-	line "nổi lên!"
+	text "A SANDSTORM"
+	line "brewed!"
 	prompt
 
 BracedItselfText:
 	text "<USER>"
-	line "đã chuẩn bị!"
+	line "braced itself!"
 	prompt
 
 FellInLoveText:
 	text "<TARGET>"
-	line "đã phải lòng!"
+	line "fell in love!"
 	prompt
 
 CoveredByVeilText:
-	text "<USER>"
-	line "được che bởi màn!"
+	text "<USER>'s"
+	line "covered by a veil!"
 	prompt
 
 SafeguardProtectText:
 	text "<TARGET>"
-	line "được bảo vệ bởi"
-	cont "BẢO HỘ!"
+	line "is protected by"
+	cont "SAFEGUARD!"
 	prompt
 
 MagnitudeText:
-	text "Cường độ @"
+	text "Magnitude @"
 	text_decimal wTextDecimalByte, 1, 1
 	text "!"
 	prompt
 
 ReleasedByText:
 	text "<USER>"
-	line "được <TARGET>"
-	cont "giải thoát!"
+	line "was released by"
+	cont "<TARGET>!"
 	prompt
 
 ShedLeechSeedText:
 	text "<USER>"
-	line "rũ bỏ LEECH SEED!"
+	line "shed LEECH SEED!"
 	prompt
 
 BlewSpikesText:
 	text "<USER>"
-	line "thổi bay SPIKES!"
+	line "blew away SPIKES!"
 	prompt
 
 DownpourText:
-	text "Mưa lớn"
-	line "bắt đầu!"
+	text "A downpour"
+	line "started!"
 	prompt
 
 SunGotBrightText:
-	text "Ánh nắng mặt trời"
-	line "trở nên chói!"
+	text "The sunlight got"
+	line "bright!"
 	prompt
 
 BellyDrumText:
 	text "<USER>"
-	line "cắt HP và tối đa"
-	cont "hóa TẤN CÔNG!"
+	line "cut its HP and"
+	cont "maximized ATTACK!"
 	prompt
 
 CopiedStatsText:
 	text "<USER>"
-	line "sao chép thay đổi"
+	line "copied the stat"
 
-	para "chỉ số của"
+	para "changes of"
 	line "<TARGET>!"
 	prompt
 
 ForesawAttackText:
 	text "<USER>"
-	line "thấy trước đòn"
-	cont "tấn công!"
+	line "foresaw an attack!"
 	prompt
 
 BeatUpAttackText:
 	text_ram wStringBuffer1
-	text ""
-	line "tấn công!"
+	text "'s"
+	line "attack!"
 	done
 
 PresentFailedText:
 	text "<TARGET>"
-	line "từ chối quà!"
+	line "refused the gift!"
 	prompt
 
 IgnoredOrders2Text:
 	text "<USER>"
-	line "bỏ qua lệnh!"
+	line "ignored orders!"
 	prompt
 
 BattleText_LinkErrorBattleCanceled:
-	text "Lỗi kết nối…"
+	text "Link error…"
 
-	para "Trận đấu đã bị"
-	line "hủy bỏ…"
+	para "The battle has"
+	line "been canceled…"
 	prompt
 
 BattleText_NoTimeLeftToday: ; unreferenced
-	text "Hôm nay không còn"
-	line "thời gian!"
+	text "There is no time"
+	line "left today!"
 	done
+
+endc

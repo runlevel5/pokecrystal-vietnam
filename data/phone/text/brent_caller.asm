@@ -1,160 +1,162 @@
 BrentRareTradeText:
-	text "À này, tớ có được"
-	line "#MON cực hiếm"
+	text "Oh yeah, I got an"
+	line "extremely rare"
 
-	para "trong giao dịch"
-	line "trước đây."
+	para "#MON in a trade"
+	line "a while back."
 
-	para "Cậu muốn biết nó"
-	line "là gì?"
+	para "Do you want to"
+	line "know what it is?"
 
-	para "Hehe, tớ giữ bí"
-	line "mật!"
+	para "Hehe, I'm keeping"
+	line "it a secret!"
 	done
 
 BrentDefeatedMonText:
-	text "À này, tớ hạ con"
-	line "@"
-	text_ram wStringBuffer4
-	text_start
-	cont "hoang này."
+	text "Oh yeah, I took"
+	line "down this wild"
 
-	para "Nó không đủ hiếm"
-	line "để bận tâm bắt."
+	para "@"
+	text_ram wStringBuffer4
+	text "."
+	line "It wasn't rare"
+
+	para "enough to bother"
+	line "catching."
 	done
 
 BrentLostAMonText:
-	text "À này, tớ thấy"
-	line "#MON hiếm"
-	cont "khoảng một giờ"
+	text "Oh yeah, I saw a"
+	line "rare #MON about"
+	cont "an hour ago."
 
-	para "trước. Đó là lần"
-	line "đầu tớ thấy."
+	para "It was my first"
+	line "sighting. But I"
 
-	para "Nhưng tớ không có"
-	line "BÓNG # nào…"
+	para "didn't have any"
+	line "# BALLS…"
 
-	para "BILL có cười sai"
-	line "lầm của tớ không?"
+	para "Would BILL laugh"
+	line "at my mistakes?"
 	done
 
 BrentBattleRematchText:
-	text "Cậu có thời gian"
-	line "như thường, phải"
-	cont "không?"
+	text "You've got time"
+	line "like usual, right?"
 
-	para "Muốn đấu không?"
+	para "Feel like having a"
+	line "battle?"
 
-	para "Đây là cơ hội thấy"
-	line "#MON hiếm của"
+	para "It'll be a chance"
+	line "to see my rare"
 
-	para "tớ. Sẽ xứng đáng"
-	line "thời gian của cậu!"
+	para "#MON. It'll be"
+	line "worth your time!"
 
-	para "Cậu biết đấy--"
+	para "You know where--"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 BrentHangUpText:
-	text "Vậy thôi."
+	text "So that's it then."
 	done
 
 BrentFatherGossipText:
-	text "Cậu có biết…?"
-	line "Bố của BILL được"
+	text "Did you know…?"
+	line "BILL's father is"
 
-	para "cho là #MANIAC"
-	line "tuyệt vời."
+	para "supposed to be a"
+	line "great #MANIAC."
 	done
 
 BrentGrandpaGossipText:
-	text "Cậu có biết…?"
-	line "Hình như ông của"
+	text "Did you know…?"
+	line "Apparently BILL's"
 
-	para "BILL không phải là"
+	para "grandpa isn't a"
 	line "#MANIAC."
 	done
 
 BrentGoldenrodGossipText:
-	text "Cậu có biết…?"
-	line "BILL gốc từ"
-	cont "TP. GOLDENROD."
+	text "Did you know…?"
+	line "BILL's originally"
+	cont "from GOLDENROD."
 	done
 
 BrentRoute25GossipText:
-	text "Cậu có biết…?"
-	line "BILL rõ ràng"
+	text "Did you know…?"
+	line "BILL evidently"
 
-	para "sống ở TUYẾN ĐƯỜNG"
-	line "25 ở KANTO."
+	para "lives on ROUTE 25"
+	line "in KANTO."
 	done
 
 BrentAbraGossipText:
-	text "Cậu có biết…?"
-	line "ABRA là #MON"
+	text "Did you know…?"
+	line "ABRA was the first"
 
-	para "đầu tiên mà BILL"
-	line "có lẽ đã bắt."
+	para "#MON that BILL"
+	line "ostensibly caught."
 	done
 
 BrentSisterGossipText:
-	text "Cậu có biết…?"
-	line "Em gái của BILL"
+	text "Did you know…?"
+	line "BILL's younger"
 
-	para "có lẽ không thể"
-	line "nháy mắt."
+	para "sister apparently"
+	line "can't wink."
 	done
 
 BrentMilkGossipText:
-	text "Cậu có biết…?"
-	line "BILL được cho là"
+	text "Did you know…?"
+	line "BILL supposedly"
 
-	para "ghét sữa và không"
-	line "thể uống."
+	para "hates milk and"
+	line "can't drink it."
 	done
 
 BrentBattlingGossipText:
-	text "Cậu có biết…?"
-	line "Rõ ràng, BILL"
+	text "Did you know…?"
+	line "Evidently, BILL"
 
-	para "không giỏi chiến"
-	line "đấu lắm."
+	para "isn't very good at"
+	line "battling."
 	done
 
 BrentFlowerShopGossipText:
-	text "Cậu có biết…?"
-	line "BILL có vẻ thích"
+	text "Did you know…?"
+	line "BILL appears to"
 
-	para "cô gái ở TIỆM"
-	line "HOA."
+	para "like the lady at"
+	line "the FLOWER SHOP."
 	done
 
 BrentKimonoGirlGossipText:
-	text "Cậu có biết…?"
-	line "Mẹ của BILL được"
+	text "Did you know…?"
+	line "BILL's mother is"
 
-	para "cho là từng là CÔ"
-	line "GÁI KIMONO."
+	para "said to have been"
+	line "a KIMONO GIRL."
 	done
 
 BrentSorryImTooBusyText:
-	text "Cậu muốn nghe về"
-	line "BILL?"
+	text "You wanted to hear"
+	line "about BILL?"
 
-	para "Xin lỗi, nhưng tớ"
-	line "bận quá."
+	para "Sorry, but I'm too"
+	line "busy for you."
 
-	para "Tớ sẽ gọi khi có"
-	line "thời gian."
+	para "I'll call when I"
+	line "have time."
 	done
 
 BrentReminderText:
-	text "Cậu muốn thấy"
-	line "#MON hiếm tớ."
+	text "You want to see my"
+	line "rare #MON."
 
-	para "Nhanh đến"
+	para "Hurry over to"
 	line "@"
 	text_ram wStringBuffer5
 	text "."

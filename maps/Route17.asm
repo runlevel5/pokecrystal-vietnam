@@ -66,68 +66,68 @@ Route17HiddenMaxElixer:
 	hiddenitem MAX_ELIXER, EVENT_ROUTE_17_HIDDEN_MAX_ELIXER
 
 BikerRileySeenText:
-	text "Này! Cậu từ JOHTO"
-	line "đến phải không?"
+	text "Hey, you! You're"
+	line "from JOHTO, huh?"
 	done
 
 BikerRileyBeatenText:
-	text "Wow, cậu đá bốp!"
+	text "Whoa, you kick!"
 	done
 
 BikerRileyAfterBattleText:
-	text "Đừng có kiêu ngạo"
-	line "nhóc JOHTO!"
+	text "Don't get cocky,"
+	line "you JOHTO punk!"
 	done
 
 BikerJoelSeenText:
-	text "Ồ. Đó là chiếc"
-	line "XE ĐẠP ngầu đấy!"
+	text "Wow. That's a cool"
+	line "BICYCLE!"
 	done
 
 BikerJoelBeatenText:
-	text "Nhưng cậu không"
-	line "chỉ trông ngầu…"
+	text "But you don't just"
+	line "look cool…"
 	done
 
 BikerJoelAfterBattleText:
-	text "Tôi trông ngầu mà"
-	line "yếu nên không"
-	cont "thật sự ngầu."
+	text "I look cool, but"
+	line "I'm weak, so I'm"
+	cont "not really cool."
 
-	para "Phải tập chăm"
-	line "hơn mới được…"
+	para "I have to train"
+	line "harder…"
 	done
 
 BikerGlennSeenText:
-	text "Này! Muốn đua tốc"
-	line "độ không?"
+	text "Hey! Want to have"
+	line "a speed battle?"
 	done
 
 BikerGlennBeatenText:
-	text "Trời! Cậu mạnh"
-	line "kinh khủng luôn!"
+	text "Yikes! You've got"
+	line "awesome torque!"
 	done
 
 BikerGlennAfterBattleText:
-	text "Đi xe không cần"
-	line "tay là điều ngầu"
-	cont "ở ĐƯỜNG ĐUA XE."
+	text "Hands-free riding"
+	line "is considered cool"
+	cont "on CYCLING ROAD."
 	done
 
 BikerCharlesSeenText:
-	text "Chúng tôi là sao"
-	line "sáng của xa lộ!"
+	text "We're fearless"
+	line "highway stars!"
 	done
 
 BikerCharlesBeatenText:
-	text "Arrrgh! Đâm và"
-	line "cháy!"
+	text "Arrrgh! Crash and"
+	line "burn!"
 	done
 
 BikerCharlesAfterBattleText:
-	text "Lái xe liều lĩnh"
-	line "dễ gây tai nạn!"
-	cont "Bình tĩnh nào!"
+	text "Reckless driving"
+	line "causes accidents!"
+	cont "Take it easy!"
 	done
 
 Route17_MapEvents:

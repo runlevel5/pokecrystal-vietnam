@@ -1,10 +1,10 @@
-	db "NGOẠI CẢM@" ; species name
-	dw 15, 480 ; height, weight
+	db "PSI@" ; species name
+	dw 411, 1060 ; height, weight
 
-	db   "Nó có IQ 5000."
-	next "Nó tính toán mọi"
-	next "thứ để luôn"
+	db   "It has an IQ of"
+	next "5000. It calcu-"
+	next "lates many things"
 
-	page "chiếm ưu thế"
-	next "trong mọi"
-	next "trận chiến.@"
+	page "in order to gain"
+	next "the edge in every"
+	next "battle.@"

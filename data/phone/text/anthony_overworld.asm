@@ -1,50 +1,52 @@
 AnthonyAskNumber1Text:
-	text "À này, tớ là"
-	line "HIKER, nên tớ hay"
+	text "By the way, I'm a"
+	line "HIKER, so I often"
 
-	para "đi núi và hang"
-	line "động."
+	para "go to mountains"
+	line "and caves."
 
-	para "Thỉnh thoảng thấy"
-	line "#MON hiếm."
+	para "I occasionally see"
+	line "rare #MON."
 
-	para "Tớ có thể gọi cậu"
-	line "lần sau tớ thấy"
-	cont "chúng."
+	para "I could call you"
+	line "the next time I"
+	cont "see one."
 
-	para "Đổi số điện thoại"
-	line "nhé?"
+	para "Feel like swapping"
+	line "phone numbers?"
 	done
 
 AnthonyAskNumber2Text:
-	text "Tớ có thể gọi khi"
-	line "thấy #MON hiếm."
+	text "I could call you"
+	line "when I see some"
+	cont "rare #MON."
 
-	para "Đổi số điện thoại"
-	line "nhé?"
+	para "Feel like swapping"
+	line "phone numbers?"
 	done
 
 AnthonyNumberAcceptedText:
-	text "Kiên nhẫn nhé. Tớ"
-	line "sẽ tìm #MON"
-	cont "hiếm cho cậu!"
+	text "Be patient. I'll"
+	line "find some rare"
+	cont "#MON for you!"
 	done
 
 AnthonyNumberDeclinedText:
-	text "Cậu lạnh lùng. Tớ"
-	line "nên về núi thôi…"
+	text "You're cold. I may"
+	line "as well head to"
+	cont "the mountains…"
 	done
 
 AnthonyPhoneFullText:
-	text "Điện thoại đầy."
+	text "Your phone's full."
 
-	para "Không thể đăng ký"
-	line "số của tớ."
+	para "It can't register"
+	line "my phone number."
 	done
 
 AnthonyRematchText:
-	text "Được rồi!"
+	text "All righty, then!"
 
-	para "#MON của tớ và"
-	line "tớ sẵn sàng!"
+	para "My #MON and I"
+	line "are raring to go!"
 	done

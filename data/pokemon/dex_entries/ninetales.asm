@@ -1,10 +1,10 @@
-	db "CÁO@" ; species name
-	dw 11, 199 ; height, weight
+	db "FOX@" ; species name
+	dw 307, 440 ; height, weight
 
-	db   "Tương truyền nó"
-	next "sống ngàn năm,"
-	next "và mỗi chiếc đuôi"
+	db   "It is said to live"
+	next "a thousand years,"
+	next "and each of its"
 
-	page "chứa đầy sức"
-	next "mạnh siêu nhiên.@"
-	next "@"
+	page "tails is loaded"
+	next "with supernatural"
+	next "powers.@"

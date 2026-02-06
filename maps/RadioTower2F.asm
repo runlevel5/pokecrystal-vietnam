@@ -344,21 +344,21 @@ RadioTower2FPlayerWalksToMicrophoneMovement:
 	step_end
 
 RadioTower2FSuperNerdText:
-	text "Bạn có thể nghe"
-	line "radio ở bất cứ"
-	cont "đâu. Hãy nghe đi!"
+	text "You can listen to"
+	line "the radio any-"
+	cont "where. Tune in!"
 	done
 
 RadioTower2FTeacherText:
-	text "Bài hát ru trên"
-	line "radio có thể làm"
-	cont "#MON ngủ."
+	text "Lullabies on the"
+	line "radio may make"
+	cont "#MON sleep."
 	done
 
 RadioTower2FTeacherText_Rockets:
-	text "Tại sao chúng lại"
-	line "muốn chiếm THÁP"
-	cont "RADIO?"
+	text "Why would they"
+	line "want to take over"
+	cont "the RADIO TOWER?"
 	done
 
 RadioTowerJigglypuffText:
@@ -367,343 +367,346 @@ RadioTowerJigglypuffText:
 	done
 
 RadioTower2FBlackBelt1Text:
-	text "Xin lỗi. Chỉ nhân"
-	line "viên được phép"
-	cont "vào khu vực này."
+	text "Sorry. Authorized"
+	line "personnel only"
+	cont "beyond this point."
 
-	para "Trước đây không"
-	line "như vậy."
+	para "It wasn't that way"
+	line "before."
 
-	para "Có gì đó không ổn"
-	line "với GIÁM ĐỐC…"
+	para "There's something"
+	line "wrong with the"
+	cont "DIRECTOR…"
 	done
 
 RadioTower2FBlackBelt2Text:
-	text "Cứ tự nhiên tham"
-	line "quan mọi nơi."
+	text "Feel free to look"
+	line "around anywhere."
 
-	para "GIÁM ĐỐC đã tốt"
-	line "bụng trở lại như"
-	cont "trước."
+	para "The DIRECTOR is"
+	line "nice again, just"
+	cont "as he was before."
 	done
 
 GruntM4SeenText:
-	text "Ba năm trước,"
-	line "ĐỘI ROCKET bị"
-	cont "buộc giải tán."
+	text "Three years ago,"
+	line "TEAM ROCKET was"
+	cont "forced to disband."
 
-	para "Nhưng bọn tao sẽ"
-	line "trở lại ở đây!"
+	para "But we're making a"
+	line "comeback here!"
 	done
 
 GruntM4BeatenText:
-	text "Gwah! Đừng có làm"
-	line "màu!"
+	text "Gwah! Don't get"
+	line "cute!"
 	done
 
 GruntM4AfterBattleText:
-	text "Bọn tao không để"
-	line "mày phá hoại kế"
-	cont "hoạch trở lại!"
+	text "We won't let you"
+	line "ruin our plans"
+	cont "for our comeback!"
 	done
 
 GruntM5SeenText:
-	text "Bọn tao là"
-	line "ĐỘI ROCKET, bọn"
-	cont "bóc lột #MON!"
+	text "We're TEAM ROCKET,"
+	line "the exploiters of"
+	cont "#MON!"
 
-	para "Bọn tao thích làm"
-	line "kẻ xấu! Sợ chưa?"
+	para "We love being"
+	line "evil! Scared?"
 	done
 
 GruntM5BeatenText:
-	text "Mày tưởng mày là"
-	line "anh hùng hả?"
+	text "You think you're a"
+	line "hero?"
 	done
 
 GruntM5AfterBattleText:
-	text "Bọn tao không lúc"
-	line "nào cũng xấu. Bọn"
-	cont "tao thích gì làm"
-	cont "nấy thôi."
+	text "We're not always"
+	line "evil. We just do"
+	cont "whatever we like."
 	done
 
 GruntM6SeenText:
-	text "Này, này! Tránh"
-	line "đường bọn tao ra!"
+	text "Hey, hey! Keep out"
+	line "of our way!"
 	done
 
 GruntM6BeatenText:
-	text "Argh. Tao bỏ cuộc."
+	text "Arggh. I give up."
 	done
 
 GruntM6AfterBattleText:
-	text "Các EXECUTIVE bọn"
-	line "tao đang cố chiếm"
-	cont "nơi này."
+	text "Our EXECUTIVES are"
+	line "trying to take"
+	cont "this place over."
 
-	para "Họ có kế hoạch"
-	line "lớn. Tao tự hỏi"
-	cont "đó là gì?"
+	para "They have some big"
+	line "plan. I wonder"
+	cont "what that is?"
 	done
 
 GruntF2SeenText:
 	text "Hahaha!"
 
-	para "Chán thật."
-	line "Chiếm nơi này"
+	para "How boring."
+	line "It was far too"
 
-	para "quá dễ dàng!"
+	para "easy to take over"
+	line "this place!"
 
-	para "Nào, làm tao vui"
-	line "đi nào!"
+	para "Come on, keep me"
+	line "amused!"
 	done
 
 GruntF2BeatenText:
-	text "M-mày là ai?"
+	text "Wh-who are you?"
 	done
 
 GruntF2AfterBattleText:
-	text "Mày đánh bại tao,"
-	line "tao sẽ nhớ đấy!"
+	text "You beat me, and"
+	line "I won't forget it!"
 	done
 
 RadioTower2FBuenaShowIntroductionText:
-	text "BUENA: Chào! Tôi"
-	line "là BUENA!"
+	text "BUENA: Hi! I'm"
+	line "BUENA!"
 
-	para "Bạn có biết về"
-	line "c.trình radio tên"
-	cont "MẬT KHẨU không?"
+	para "Do you know about"
+	line "a radio program"
+	cont "called PASSWORD?"
 
-	para "Nếu bạn nói đúng"
-	line "mật khẩu từ"
+	para "If you can tell me"
+	line "the password from"
 
-	para "chương trình, bạn"
-	line "sẽ được điểm."
+	para "the program, you"
+	line "will earn points."
 
-	para "Tích điểm và đổi"
-	line "với cô gái xinh"
+	para "Save up those"
+	line "points and trade"
 
-	para "đẹp kia để lấy"
-	line "phần thưởng!"
+	para "them to that sweet"
+	line "young lady over"
 
-	para "Đây nè!"
+	para "there for some"
+	line "choice prizes!"
 
-	para "Đây là thẻ điểm"
-	line "của riêng bạn!"
+	para "Here you go!"
+
+	para "It's your very own"
+	line "point card!"
 	done
 
 RadioTower2FBuenaTuneInToMyShowText:
-	text "BUENA: Hãy theo"
-	line "dõi SHOW MẬT KHẨU"
-	cont "của tôi!"
+	text "BUENA: Tune in to"
+	line "my PASSWORD SHOW!"
 	done
 
 RadioTower2FBuenaDoYouKnowPasswordText:
-	text "BUENA: Chào!"
-	line "Bạn đã nghe chương"
-	cont "trình radio chưa?"
+	text "BUENA: Hi!"
+	line "Did you tune in to"
+	cont "my radio show?"
 
-	para "Bạn còn nhớ mật"
-	line "khẩu hôm nay?"
+	para "Do you remember"
+	line "today's password?"
 	done
 
 RadioTower2FBuenaJoinTheShowText:
-	text "BUENA: Ồ, tuyệt!"
-	line "Cảm ơn bạn!"
+	text "BUENA: Oh, wow!"
+	line "Thank you!"
 
-	para "Tên bạn là gì"
-	line "nhỉ?"
+	para "What was your name"
+	line "again?"
 
 	para "…<PLAY_G>, OK!"
 
-	para "Nào, <PLAY_G>."
-	line "Tham gia show đi."
+	para "Come on, <PLAY_G>."
+	line "Join the show."
 	done
 
 RadioTower2FBuenaEveryoneSayPasswordText:
-	text "BUENA: Mọi người"
-	line "sẵn sàng chưa?"
+	text "BUENA: Everyone"
+	line "ready?"
 
-	para "Tôi muốn nghe các"
-	line "bạn hét to mật"
+	para "I want to hear you"
+	line "shout out today's"
 
-	para "khẩu hôm nay cho"
+	para "password for"
 	line "<PLAY_G>!"
 	done
 
 RadioTower2FBuenaComeBackAfterListeningText:
-	text "BUENA: Quay lại"
-	line "sau khi nghe show"
+	text "BUENA: Come back"
+	line "after you listen"
 
-	para "của tôi nhé?"
-	line "Hẹn gặp lại!"
+	para "to my show, OK?"
+	line "Catch ya later!"
 	done
 
 RadioTower2FBuenaAlreadyPlayedText:
-	text "BUENA: Xin lỗi…"
+	text "BUENA: Sorry…"
 
-	para "Bạn chỉ có một"
-	line "cơ hội mỗi ngày."
+	para "You get just one"
+	line "chance each day."
 
-	para "Quay lại ngày mai"
-	line "để thử lại nhé!"
+	para "Come back tomorrow"
+	line "for another try!"
 	done
 
 RadioTower2FBuenaCorrectAnswerText:
 	text "BUENA: YIPPEE!"
-	line "Đúng rồi!"
+	line "That's right!"
 
-	para "Bạn đã nghe show!"
-	line "Tôi vui quá!"
+	para "You did tune in!"
+	line "I'm so happy!"
 
-	para "Bạn được một"
-	line "điểm! Chúc mừng!"
+	para "You earned one"
+	line "point! Congrats!"
 	done
 
 RadioTower2FBuenaDidYouForgetText:
 	text "BUENA: Aww…"
-	line "Không phải vậy…"
+	line "That's not it…"
 
-	para "Bạn quên mật khẩu"
-	line "rồi sao?"
+	para "Did you forget the"
+	line "password?"
 	done
 
 RadioTower2FBuenaThanksForComingText:
-	text "BUENA: Vâng! Thí"
-	line "sinh của chúng ta"
+	text "BUENA: Yup! Our"
+	line "contestant was"
 
-	para "là <PLAY_G>."
-	line "Cảm ơn đã đến!"
+	para "<PLAY_G>."
+	line "Thanks for coming!"
 
-	para "Tôi hy vọng các"
-	line "bạn thính giả"
+	para "I hope all you"
+	line "listeners will"
 
-	para "cũng sẽ đến!"
-	line "Tôi sẽ chờ đợi!"
+	para "come too!"
+	line "I'll be waiting!"
 	done
 
 RadioTower2FBuenaPasswordIsHelpText:
-	text "BUENA: Hả?"
-	line "Mật khẩu hôm nay?"
+	text "BUENA: Huh?"
+	line "Today's password?"
 
-	para "HELP, dĩ nhiên!"
+	para "HELP, of course!"
 	done
 
 RadioTower2FBuenaCardIsFullText:
-	text "BUENA: THẺ XANH"
-	line "của bạn đầy rồi."
+	text "BUENA: Your BLUE"
+	line "CARD's full."
 
-	para "Đổi lấy phần"
-	line "thưởng tuyệt vời!"
+	para "Trade it in for a"
+	line "fabulous prize!"
 	done
 
 RadioTower2FBuenaTuneInAfterSixText:
-	text "BUENA: Hãy nghe"
-	line "MẬT KHẨU mỗi"
+	text "BUENA: Tune in to"
+	line "PASSWORD every"
 
-	para "tối từ 6 giờ đến"
-	line "nửa đêm!"
+	para "night from six to"
+	line "midnight!"
 
-	para "Nghe xong thì ghé"
-	line "thăm tôi nhé!"
+	para "Tune in, then drop"
+	line "in for a visit!"
 	done
 
 RadioTower2FBuenaNoBlueCardText:
-	text "BUENA: Ồ? Bạn"
-	line "quên mang THẺ"
-	cont "XANH sao?"
+	text "BUENA: Oh? You"
+	line "forgot to bring"
+	cont "your BLUE CARD?"
 
-	para "Tôi không thể cho"
-	line "điểm nếu bạn"
-	cont "không có nó."
+	para "I can't give you"
+	line "points if you"
+	cont "don't have it."
 	done
 
 RadioTower2FBuenaOfferPhoneNumberText:
-	text "BUENA: Ồ! THẺ"
-	line "XANH của bạn đạt"
+	text "BUENA: Oh! Your"
+	line "BLUE CARD reached"
 
-	para "30 điểm hôm nay!"
-	line "Thật tuyệt vời!"
+	para "{d:BLUE_CARD_POINT_CAP} points today!"
+	line "That's so wild!"
 
-	para "Hmm… Không có giải"
-	line "cho 30 điểm,"
-	cont "nhưng…"
+	para "Hmm… There isn't a"
+	line "prize for hitting"
+	cont "{d:BLUE_CARD_POINT_CAP} points, but…"
 
-	para "Bạn ghé thường"
-	line "xuyên, <PLAY_G>."
+	para "You came by so"
+	line "often, <PLAY_G>."
 
-	para "Tôi sẽ cho bạn"
-	line "ưu đãi đặc biệt!"
+	para "I'll make you a"
+	line "special deal!"
 
-	para "Bạn có muốn số"
-	line "điện thoại tôi?"
+	para "How would you like"
+	line "my phone number?"
 	done
 
 RadioTower2FBuenaOfferNumberAgainText:
 	text "BUENA: <PLAY_G>,"
-	line "bạn có muốn đăng"
+	line "do you want to"
 
-	para "ký số điện thoại"
-	line "của tôi không?"
+	para "register my phone"
+	line "number?"
 	done
 
 RadioTower2FRegisteredBuenasNumberText:
-	text "<PLAYER> đăng ký"
-	line "số của BUENA."
+	text "<PLAYER> registered"
+	line "BUENA's number."
 	done
 
 RadioTower2FBuenaCallMeText:
-	text "BUENA: Tôi mong"
-	line "được nghe tin"
-	cont "từ bạn!"
+	text "BUENA: I look"
+	line "forward to hearing"
+	cont "from you!"
 	done
 
 RadioTower2FBuenaSadRejectedText:
-	text "BUENA: Aww… Đây"
-	line "là giải đặc biệt…"
+	text "BUENA: Aww… It's a"
+	line "special prize…"
 	done
 
 RadioTower2FBuenaYourPhoneIsFullText:
 	text "BUENA: <PLAY_G>,"
-	line "danh bạ của bạn"
+	line "your phone list"
 
-	para "không còn chỗ cho"
-	line "tôi nữa…"
+	para "has no room left"
+	line "for me…"
 	done
 
 RadioTower2FBuenaReceptionistPointsForPrizesText:
-	text "Bạn có thể đổi"
-	line "điểm đã tích lũy"
+	text "You can cash in"
+	line "your saved points"
 
-	para "lấy phần thưởng"
-	line "tuyệt vời!"
+	para "for a lovely prize"
+	line "of your choice!"
 	done
 
 RadioTower2FBuenaReceptionistNoCardText:
-	text "Bạn không thể đổi"
-	line "điểm nếu không có"
-	cont "THẺ XANH."
+	text "You can't trade in"
+	line "points without"
+	cont "your BLUE CARD."
 
-	para "Đừng quên mang"
-	line "THẺ XANH nhé!"
+	para "Don't forget your"
+	line "BLUE CARD!"
 	done
 
 RadioTower2FSalesSignText:
-	text "2F BÁN HÀNG"
+	text "2F SALES"
 	done
 
 RadioTower2FOaksPKMNTalkSignText:
-	text "GS.OAK'S #MON"
+	text "PROF.OAK'S #MON"
 	line "TALK"
 
-	para "C.Trình Nóng Nhất"
-	line "Trên Sóng!"
+	para "The Hottest Show"
+	line "on the Air!"
 	done
 
 RadioTower2FPokemonRadioSignText:
-	text "Mọi Nơi, Mọi Lúc"
+	text "Anywhere, Anytime"
 	line "#MON Radio"
 	done
 

@@ -1,10 +1,10 @@
-	db "TIÊN@" ; species name
-	dw 13, 400 ; height, weight
+	db "FAIRY@" ; species name
+	dw 403, 880 ; height, weight
 
-	db   "Được cho là sống"
-	next "ở núi xa xôi,"
-	next "loại tiên này"
+	db   "Said to live in"
+	next "quiet, remote"
+	next "mountains, this"
 
-	page "rất ghét bị"
-	next "nhìn thấy.@"
-	next "@"
+	page "type of fairy has"
+	next "a strong aversion"
+	next "to being seen.@"

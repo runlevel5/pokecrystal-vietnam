@@ -56,106 +56,108 @@ ItemFinderHouseRadio:
 	jumpstd Radio2Script
 
 EcruteakItemfinderAdventureText:
-	text "À. Bạn đang phiêu"
-	line "lưu cùng #MON"
-	cont "của mình?"
+	text "Ah. You're on an"
+	line "adventure with"
+	cont "your #MON?"
 
-	para "Ừm, phiêu lưu mà"
-	line "không tìm kho báu"
-	cont "thì thế nào?"
+	para "Well, what's an"
+	line "adventure without"
+	cont "treasure hunting?"
 
-	para "Tôi nói đúng không"
-	line "nào?"
+	para "Am I right, or am"
+	line "I right?"
 	done
 
 EcruteakItemfinderTrueSpiritText:
-	text "Tốt! Bạn hiểu tinh"
-	line "thần thực sự"
+	text "Good! You under-"
+	line "stand the true"
 
-	para "của sự phiêu lưu."
+	para "spirit of adven-"
+	line "ture."
 
-	para "Tôi thích vậy!"
-	line "Hãy mang theo đồ"
-	cont "này."
+	para "I like that! Take"
+	line "this with you."
 	done
 
 ItemfinderExplanationText:
-	text "Có nhiều vật phẩm"
-	line "nằm rải rác không"
+	text "There are many"
+	line "items lying about"
 
-	para "dễ nhìn thấy."
+	para "that aren't ob-"
+	line "vious."
 
-	para "Dùng MÁY TÌM ĐỒ"
-	line "để kiểm tra xem"
+	para "Use ITEMFINDER to"
+	line "check if there is"
 
-	para "có vật phẩm trên"
-	line "mặt đất gần bạn."
+	para "an item on the"
+	line "ground near you."
 
-	para "Nó không chỉ chỗ"
-	line "chính xác,"
+	para "It doesn't show"
+	line "the exact spot,"
 
-	para "nên bạn phải tự"
-	line "tìm."
+	para "so you'll have to"
+	line "look yourself."
 
-	para "À đúng rồi--tôi"
-	line "nghe có vật phẩm"
+	para "Oh yeah--I heard"
+	line "there are items"
 
-	para "ở THÁP CHÁY"
-	line "ECRUTEAK."
+	para "in ECRUTEAK's"
+	line "BURNED TOWER."
 	done
 
 EcruteakItemfinderToEachHisOwnText:
-	text "Ồ… Mỗi người một"
-	line "ý…"
+	text "Oh… To each his"
+	line "own, I suppose…"
 	done
 
 EcruteakHistoryBookText:
-	text "LỊCH SỬ"
+	text "HISTORY OF"
 	line "ECRUTEAK"
 
-	para "Muốn đọc không?"
+	para "Want to read it?"
 	done
 
 EcruteakTwoTowersText:
-	text "Ở ECRUTEAK, có"
-	line "hai tòa tháp."
+	text "In ECRUTEAK, there"
+	line "were two towers."
 
-	para "Mỗi tháp là nơi"
-	line "trú ngụ của #-"
-	cont "MON bay mạnh mẽ."
+	para "Each tower was the"
+	line "roost of powerful"
+	cont "flying #MON."
 
-	para "Nhưng một tháp"
-	line "bị cháy rụi."
+	para "But one of the"
+	line "towers burned to"
+	cont "the ground."
 
-	para "Hai #MON đó"
-	line "không thấy xuất"
-	cont "hiện kể từ đó…"
+	para "The two #MON"
+	line "haven't been seen"
+	cont "since…"
 
-	para "Đọc tiếp?"
+	para "Keep reading?"
 	done
 
 EcruteakThreeMonText:
-	text "ECRUTEAK cũng là"
-	line "nhà của ba #MON"
+	text "ECRUTEAK was also"
+	line "home to three"
 
-	para "chạy quanh thành"
-	line "phố."
+	para "#MON that raced"
+	line "around the town."
 
-	para "Chúng được cho là"
-	line "sinh ra từ"
+	para "They were said to"
+	line "have been born of"
 
-	para "nước, sét"
-	line "và lửa."
+	para "water, lightning"
+	line "and fire."
 
-	para "Nhưng chúng không"
-	line "thể kiềm chế sức"
-	cont "mạnh quá lớn."
+	para "But they could not"
+	line "contain their"
+	cont "excessive power."
 
-	para "Nên người ta nói"
-	line "ba con chạy như"
+	para "So they say the"
+	line "three ran like the"
 
-	para "gió về phía đồng"
-	line "cỏ."
+	para "wind off into the"
+	line "grassland."
 	done
 
 EcruteakItemfinderHouse_MapEvents:

@@ -10,12 +10,12 @@ Route5SaffronGateOfficerScript:
 	jumptextfaceplayer Route5SaffronGateOfficerText
 
 Route5SaffronGateOfficerText:
-	text "Bạn từ JOHTO đến,"
-	line "phải không?"
+	text "You're from JOHTO,"
+	line "aren't you?"
 
-	para "Bạn thấy KANTO"
-	line "thế nào? Đẹp,"
-	cont "phải không?"
+	para "How do you like"
+	line "KANTO? It's nice,"
+	cont "don't you agree?"
 	done
 
 Route5SaffronGate_MapEvents:

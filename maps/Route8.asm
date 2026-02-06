@@ -76,98 +76,98 @@ Route8FruitTree:
 	fruittree FRUITTREE_ROUTE_8
 
 BikerDwayneSeenText:
-	text "Chúng tao là"
-	line "LIÊN ĐOÀN #MON"
-	cont "KANTO."
+	text "We're the KANTO"
+	line "#MON FEDERATION"
+	cont "trainer group."
 
-	para "Chúng tao sẽ"
-	line "nghiền nát mày!"
+	para "We'll drive you"
+	line "under our wheels!"
 	done
 
 BikerDwayneBeatenText:
-	text "X-xin lỗi!"
+	text "S-sorry!"
 	done
 
 BikerDwayneAfterBattleText:
-	text "LIÊN ĐOÀN #MON"
-	line "KANTO sẽ không"
-	cont "bao giờ sụp đổ!"
+	text "The KANTO #MON"
+	line "FEDERATION will"
+	cont "never fall!"
 	done
 
 BikerHarrisSeenText:
-	text "Lũ cảnh sát đã"
-	line "đóng ĐỊA ĐẠO"
+	text "The cops shut down"
+	line "our UNDERGROUND"
 
-	para "của chúng tao!"
-	line "Thực sự tức tôi!"
+	para "PATH! That really"
+	line "fries me!"
 	done
 
 BikerHarrisBeatenText:
-	text "T-tha thứ cho tôi"
+	text "F-forgive me!"
 	done
 
 BikerHarrisAfterBattleText:
-	text "Bị đánh bại bởi"
-	line "thằng nhóc JOHTO…"
+	text "Wiped out by some"
+	line "punk from JOHTO…"
 	done
 
 BikerZekeSeenText:
-	text "Chúng tao là LIÊN"
-	line "ĐOÀN #MON"
-	cont "KANTO!"
-	cont "Đúng rồi!"
+	text "We're the KANTO"
+	line "#MON FEDERA-"
+	cont "TION!"
+	cont "Right on!"
 	done
 
 BikerZekeBeatenText:
-	text "Ối! Xin lỗi!"
+	text "Yikes! Sorry!"
 	done
 
 BikerZekeAfterBattleText:
-	text "Chúng tôi sẽ cố"
-	line "không làm phiền"
-	cont "ai nữa…"
+	text "We'll try not to"
+	line "disturb anyone"
+	cont "from now on…"
 	done
 
 SupernerdSamSeenText:
-	text "TÀU NAM CHÂM hoạt"
-	line "động thế nào?"
+	text "How does the MAG-"
+	line "NET TRAIN work?"
 	done
 
 SupernerdSamBeatenText:
-	text "Tôi chỉ muốn xem"
-	line "TÀU NAM CHÂM…"
+	text "I just want to see"
+	line "the MAGNET TRAIN…"
 	done
 
 SupernerdSamAfterBattleText:
-	text "Sức mạnh của nam"
-	line "châm thật tuyệt!"
+	text "The power of mag-"
+	line "nets is awesome!"
 	done
 
 SupernerdTomSeenText:
-	text "Hm… Bạn có nhiều"
-	line "HUYỀN HIỆU GYM."
+	text "Hm… You've got"
+	line "many GYM BADGES."
 	done
 
 SupernerdTomBeatenText:
-	text "Đúng như tôi nghĩ"
-	line "Bạn rất mạnh!"
+	text "Just as I thought…"
+	line "You're tough!"
 	done
 
 SupernerdTomAfterBattleText:
-	text "HUYỀN HIỆU GYM"
-	line "cho bạn lợi thế"
-	cont "trong chiến đấu."
+	text "GYM BADGES give"
+	line "you advantages in"
+	cont "battles."
 	done
 
 Route8LockedDoorText:
-	text "Bị khóa…"
+	text "It's locked…"
 	done
 
 Route8UndergroundPathSignText:
-	text "Tờ rơi bị rách."
+	text "The flyer's torn."
 
-	para "Không thể đọc"
-	line "được…"
+	para "It's impossible to"
+	line "read…"
 	done
 
 Route8_MapEvents:

@@ -93,101 +93,106 @@ OlivineGymStatue:
 	jumpstd GymStatue2Script
 
 Jasmine_SteelTypeIntro:
-	text "…Cảm ơn bạn đã"
-	line "giúp đỡ ở"
-	cont "HẢI ĐĂNG…"
+	text "…Thank you for"
+	line "your help at the"
+	cont "LIGHTHOUSE…"
 
-	para "Nhưng đây là việc"
-	line "khác. Tôi xin tự"
-	cont "giới thiệu."
+	para "But this is dif-"
+	line "ferent. Please"
 
-	para "Tôi là JASMINE,"
-	line "T.LĨNH GYM. Tôi"
-	cont "dùng hệ THÉP."
+	para "allow me to intro-"
+	line "duce myself."
 
-	para "…Bạn có biết về"
-	line "hệ THÉP không?"
+	para "I am JASMINE, a"
+	line "GYM LEADER. I use"
+	cont "the steel-type."
 
-	para "Đó là hệ mới được"
-	line "phát hiện gần"
-	cont "đây."
+	para "…Do you know about"
+	line "the steel-type?"
 
-	para "…À… Bắt đầu nhé?"
+	para "It's a type that"
+	line "was only recently"
+	cont "discovered."
+
+	para "…Um… May I begin?"
 	done
 
 Jasmine_BetterTrainer:
-	text "…Bạn là HLV giỏi"
-	line "hơn tôi, cả về"
+	text "…You are a better"
+	line "trainer than me,"
 
-	para "kỹ năng lẫn lòng"
-	line "tốt bụng."
+	para "in both skill and"
+	line "kindness."
 
-	para "Theo quy định của"
-	line "LIÊN ĐOÀN, tôi"
-	cont "trao cho bạn HUY"
-	cont "HIỆU này."
+	para "In accordance with"
+	line "LEAGUE rules, I"
+
+	para "confer upon you"
+	line "this BADGE."
 	done
 
 Text_ReceivedMineralBadge:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU KHOÁNG."
+	text "<PLAYER> received"
+	line "MINERALBADGE."
 	done
 
 Jasmine_BadgeSpeech:
-	text "HUY HIỆU KHOÁNG"
-	line "tăng THỦ cho"
-	cont "#MON."
+	text "MINERALBADGE"
+	line "raises #MON's"
+	cont "DEFENSE."
 
-	para "…À… Xin nhận thêm"
-	line "cái này…"
+	para "…Um… Please take"
+	line "this too…"
 	done
 
 Text_ReceivedTM09: ; unreferenced
-	text "<PLAYER> nhận được"
+	text "<PLAYER> received"
 	line "TM09."
 	done
 
 Jasmine_IronTailSpeech:
-	text "…Bạn có thể dùng"
-	line "TM đó để dạy"
-	cont "ĐUÔI SẮT."
+	text "…You could use"
+	line "that TM to teach"
+	cont "IRON TAIL."
 	done
 
 Jasmine_GoodLuck:
-	text "À… Tôi không biết"
-	line "nói sao, nhưng…"
-	cont "chúc may mắn…"
+	text "Um… I don't know"
+	line "how to say this,"
+	cont "but good luck…"
 	done
 
 OlivineGymGuideText:
-	text "JASMINE dùng hệ"
-	line "THÉP mới được"
-	cont "phát hiện."
+	text "JASMINE uses the"
+	line "newly discovered"
+	cont "steel-type."
 
-	para "Tôi không biết"
-	line "nhiều về nó."
+	para "I don't know very"
+	line "much about it."
 	done
 
 OlivineGymGuideWinText:
-	text "Quá tuyệt vời."
+	text "That was awesome."
 
-	para "Hệ THÉP, hả?"
+	para "The steel-type,"
+	line "huh?"
 
-	para "Đó là cuộc chạm"
-	line "trán với một thứ"
-	cont "bí ẩn!"
+	para "That was a close"
+	line "encounter of an"
+	cont "unknown kind!"
 	done
 
 OlivineGymGuidePreText:
-	text "JASMINE, T.LĨNH"
-	line "GYM, đang ở"
-	cont "HẢI ĐĂNG."
+	text "JASMINE, the GYM"
+	line "LEADER, is at the"
+	cont "LIGHTHOUSE."
 
-	para "Cô ấy đang chăm"
-	line "sóc #MON bị ốm."
+	para "She's been tending"
+	line "to a sick #MON."
 
-	para "HLV giỏi cần có"
-	line "lòng trắc ẩn."
+	para "A strong trainer"
+	line "has to be compas-"
+	cont "sionate."
 	done
 
 OlivineGym_MapEvents:

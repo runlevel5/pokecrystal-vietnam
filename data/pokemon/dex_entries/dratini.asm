@@ -1,10 +1,10 @@
-	db "RỒNG@" ; species name
-	dw 18, 33 ; height, weight
+	db "DRAGON@" ; species name
+	dw 511, 70 ; height, weight
 
-	db   "Nó lột nhiều lớp"
-	next "da khi lớn lên."
-	next "Trong quá trình"
+	db   "It sheds many lay-"
+	next "ers of skin as it"
+	next "grows larger. Dur-"
 
-	page "này, nó được"
-	next "thác nước chảy"
-	next "xiết bảo vệ.@"
+	page "ing this process,"
+	next "it is protected by"
+	next "a rapid waterfall.@"

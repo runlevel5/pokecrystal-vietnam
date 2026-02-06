@@ -1,67 +1,67 @@
 KenjiAskNumber1Text:
-	text "Trận đấu của bọn"
-	line "mình tuyệt vời!"
+	text "Our battle was"
+	line "remarkable!"
 
-	para "Tớ muốn có cái gì"
-	line "đó để nhớ về"
-	cont "cậu!"
+	para "I wish for some-"
+	line "thing to remember"
+	cont "you by!"
 
-	para "Có lẽ SĐT của cậu"
-	line "sẽ được?"
+	para "Perhaps your phone"
+	line "number will do?"
 
-	para "Việc luyện tập làm"
-	line "tớ không thể nói"
-	cont "chuyện nhiều…"
+	para "My training makes"
+	line "it impossible to"
+	cont "chat much, but…"
 	done
 
 KenjiAskNumber2Text:
-	text "Việc luyện tập làm"
-	line "nói chuyện khó,"
+	text "My training makes"
+	line "chatting tough,"
 
-	para "nhưng cậu có nhận"
-	line "SĐT của tớ không?"
+	para "but will you take"
+	line "down my number?"
 	done
 
 KenjiNumberAcceptedText:
-	text "Tớ phải luyện tập"
-	line "chăm hơn để trở"
-	cont "thành mạnh nhất!"
+	text "I must train"
+	line "harder to become"
+	cont "the mightiest!"
 	done
 
 KenjiNumberDeclinedText:
-	text "Nếu cậu quyết định"
-	line "muốn SĐT tớ,"
-	cont "hãy đến gặp tớ."
+	text "If you decide you"
+	line "want my number,"
+	cont "come see me."
 	done
 
 KenjiPhoneFullText:
-	text "Điện thoại của cậu"
-	line "hình như đầy rồi."
+	text "Your phone appears"
+	line "to be full."
 
-	para "Quay lại sau nhé!"
+	para "Come back later!"
 	done
 
 KenjiGiftText:
-	text "Tớ muốn cảm ơn"
-	line "cậu, <PLAYER>!"
+	text "I wish to thank"
+	line "you, <PLAYER>!"
 
-	para "Tớ đã luyện tập"
-	line "một mình…"
+	para "I've been training"
+	line "all alone…"
 
-	para "Tớ vui vì cậu"
-	line "quan tâm gọi…"
+	para "I was happy that"
+	line "you cared to call…"
 
-	para "Tớ muốn cậu có"
-	line "cái này!"
+	para "I want you to have"
+	line "this!"
 	done
 
 KenjiPackFullText:
-	text "Sức mạnh của cậu"
-	line "không cho mang"
+	text "Your strength will"
+	line "not let you carry"
 
-	para "thêm được nữa!"
-	line "Tớ sẽ giữ cái này"
+	para "another thing!"
+	line "I will hold this"
 
-	para "cho đến khi TÚI"
-	line "cậu nhẹ hơn!"
+	para "till you lighten"
+	line "your PACK!"
 	done

@@ -1,72 +1,72 @@
 ReenaAnswerPhoneText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ. Chào, <PLAYER>."
-	line "Có chuyện gì?"
+	para "Oh. Hi, <PLAYER>."
+	line "What's up?"
 	done
 
 ReenaAnswerPhoneDayText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ, chào, <PLAYER>,"
-	line "có chuyện gì?"
+	para "Oh, hi, <PLAYER>,"
+	line "what's up?"
 	done
 
 ReenaAnswerPhoneNiteText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ, chào, <PLAYER>,"
-	line "có chuyện gì?"
+	para "Oh, hi, <PLAYER>,"
+	line "what's up?"
 	done
 
 ReenaGreetText:
-	text "Cậu chậm quá! Trả"
-	line "lời nhanh lên!"
+	text "You're slow! Hurry"
+	line "up and answer!"
 
-	para "Tớ đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetDayText:
-	text "Cậu chậm quá! Trả"
-	line "lời nhanh lên!"
+	text "You're slow! Hurry"
+	line "up and answer!"
 
-	para "Tớ đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGreetNiteText:
-	text "Cậu chậm quá! Trả"
-	line "lời nhanh lên!"
+	text "You're slow! Hurry"
+	line "up and answer!"
 
-	para "Tớ đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ReenaGenericText:
-	text "Này, #MON của"
-	line "cậu thế nào?"
+	text "Hey, how are your"
+	line "#MON doing?"
 
-	para "Gì? Tuyệt à?"
-	line "Ra vậy…"
+	para "What? Great?"
+	line "I see…"
 
-	para "Gì? #MON tớ?"
+	para "What? My #MON?"
 
-	para "Dĩ nhiên chúng"
-	line "rất tuyệt! Hỏi"
+	para "Of course they're"
+	line "doing great! What"
 
-	para "câu gì kỳ lạ"
-	line "vậy?"
+	para "kind of a question"
+	line "is that?"
 	done

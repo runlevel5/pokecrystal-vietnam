@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/intro_menu.asm"
+else
+
 Intro_MainMenu:
 	ld de, MUSIC_NONE
 	call PlayMusic
@@ -28,16 +32,16 @@ PrintDayOfWeek:
 	ret
 
 .Days:
-	db "CN@"
-	db "T2@"
-	db "T3@"
-	db "T4@"
-	db "T5@"
-	db "T6@"
-	db "T7@"
+	db "SUN@"
+	db "MON@"
+	db "TUES@"
+	db "WEDNES@"
+	db "THURS@"
+	db "FRI@"
+	db "SATUR@"
 
 .Day:
-	db "ngày@"
+	db "DAY@"
 
 NewGame_ClearTilemapEtc:
 	xor a
@@ -262,7 +266,7 @@ SetDefaultBoxNames:
 	ret
 
 .Box:
-	db "HỘP @"
+	db "BOX@"
 
 InitializeMagikarpHouse:
 	ld hl, wBestMagikarpLengthFeet
@@ -301,7 +305,7 @@ InitializeNPCNames:
 .Rival:  db "???@"
 .Red:    db "RED@"
 .Green:  db "GREEN@"
-.Mom:    db "Mẹ@"
+.Mom:    db "MOM@"
 
 InitializeWorld:
 	call ShrinkPlayer
@@ -533,10 +537,10 @@ Continue_LoadMenuHeader:
 .MenuData_Dex:
 	db 0 ; flags
 	db 4 ; items
-	db "TÊN@"
-	db "HUY HIỆU@"
+	db "PLAYER@"
+	db "BADGES@"
 	db "#DEX@"
-	db "T.GIAN@"
+	db "TIME@"
 
 .MenuHeader_NoDex:
 	db MENU_BACKUP_TILES ; flags
@@ -547,10 +551,10 @@ Continue_LoadMenuHeader:
 .MenuData_NoDex:
 	db 0 ; flags
 	db 4 ; items
-	db "TÊN@"
-	db "HUY HIỆU@"
+	db "PLAYER <PLAYER>@"
+	db "BADGES@"
 	db " @"
-	db "T.GIAN@"
+	db "TIME@"
 
 Continue_DisplayBadgesDexPlayerName:
 	call MenuBoxCoord2Tile
@@ -653,7 +657,7 @@ OakSpeech:
 	call RotateThreePalettesRight
 	call ClearTilemap
 
-	ld a, PIKACHU
+	ld a, WOOPER
 	ld [wCurSpecies], a
 	ld [wCurPartySpecies], a
 	call GetBaseData
@@ -713,7 +717,7 @@ OakText1:
 OakText2:
 	text_far _OakText2
 	text_asm
-	ld a, PIKACHU
+	ld a, WOOPER
 	call PlayMonCry
 	call WaitSFX
 	ld hl, OakText3
@@ -770,18 +774,19 @@ NamePlayer:
 	call RotateThreePalettesLeft
 
 	ld hl, wPlayerName
-	ld de, NamePlayer_Chris
+	ld de, .Chris
 	ld a, [wPlayerGender]
 	bit PLAYERGENDER_FEMALE_F, a
 	jr z, .Male
-	ld de, NamePlayer_Kris
+	ld de, .Kris
 .Male:
-	jp InitName
+	call InitName
+	ret
 
-NamePlayer_Chris:
-	dname "Trung", NAME_LENGTH
-NamePlayer_Kris:
-	dname "Trang", NAME_LENGTH
+.Chris:
+	dname "CHRIS", NAME_LENGTH
+.Kris:
+	dname "KRIS", NAME_LENGTH
 
 GSShowPlayerNamingChoices: ; unreferenced
 	call LoadMenuHeader
@@ -1357,3 +1362,5 @@ GameInit::
 	ldh [hWY], a
 	call WaitBGMap
 	jp IntroSequence
+
+endc

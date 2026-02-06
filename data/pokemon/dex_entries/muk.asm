@@ -1,10 +1,10 @@
-	db "BÙN@" ; species name
-	dw 12, 300 ; height, weight
+	db "SLUDGE@" ; species name
+	dw 311, 660 ; height, weight
 
-	db   "Khi di chuyển,"
-	next "chất độc cực mạnh"
-	next "rỉ ra từ nó,"
+	db   "As it moves, a"
+	next "very strong poison"
+	next "leaks from it,"
 
-	page "khiến mặt đất"
-	next "cằn cỗi suốt"
-	next "ba năm.@"
+	page "making the ground"
+	next "there barren for"
+	next "three years.@"

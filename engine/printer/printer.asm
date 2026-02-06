@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/printer/printer.asm"
+else
+
 SendScreenToPrinter:
 .loop
 	call JoyTextDelay
@@ -618,7 +622,7 @@ PlacePrinterStatusStringBorderless: ; unreferenced
 	ret
 
 String_PressBToCancel:
-	db "Nhấn B để hủy@"
+	db "Press B to Cancel@"
 
 PrinterStatusStringPointers:
 	dw GBPrinterString_Null ; @
@@ -647,7 +651,7 @@ PrintPCBox_Page1:
 	call Printer_PlaceSideBorders
 	call Printer_PlaceTopBorder
 
-	hlcoord 1, 3
+	hlcoord 4, 3
 	ld de, .String_PokemonList
 	call PlaceString
 
@@ -667,7 +671,7 @@ PrintPCBox_Page1:
 	ret
 
 .String_PokemonList:
-	db "DANH SÁCH #MON@"
+	db "#MON LIST@"
 
 PrintPCBox_Page2:
 	hlcoord 0, 0
@@ -930,3 +934,5 @@ Printer_PlaceEmptyBoxSlotString:
 
 .EmptyBoxSlotString:
 	db "  ------@"
+
+endc ; _CRYSTAL_VN

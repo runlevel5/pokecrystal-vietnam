@@ -25,18 +25,18 @@ BlackthornDragonSpeechHouseMagazineBookshelf: ; unreferenced
 	jumpstd MagazineBookshelfScript
 
 BlackthornDragonSpeechHouseGrannyText:
-	text "Một bộ tộc HLV có"
-	line "thể tự do điều"
+	text "A clan of trainers"
+	line "who can freely"
 
-	para "khiển rồng sống"
-	line "ngay tại TP."
-	cont "BLACKTHORN này."
+	para "command dragons"
+	line "live right here in"
+	cont "BLACKTHORN."
 
-	para "Vì vậy, có nhiều"
-	line "truyền thuyết về"
+	para "As a result, there"
+	line "are many legends"
 
-	para "rồng ở thành phố"
-	line "này."
+	para "about dragons in"
+	line "this town."
 	done
 
 BlackthornDragonSpeechHouseDratiniText:

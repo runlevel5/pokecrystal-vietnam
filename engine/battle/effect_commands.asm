@@ -4620,7 +4620,15 @@ GetStatName:
 	ld bc, STRING_BUFFER_LENGTH
 	jp CopyBytes
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/battle/stat_names.asm"
+
+else
+
 INCLUDE "data/battle/stat_names.asm"
+
+endc
 
 StatLevelMultipliers:
 INCLUDE "data/battle/stat_multipliers.asm"

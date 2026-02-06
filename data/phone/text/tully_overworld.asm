@@ -1,73 +1,73 @@
 TullyAskNumber1Text:
-	text "Này, cậu cũng đang"
-	line "cố trở thành HLV"
+	text "Hey, you're trying"
+	line "to be the ultimate"
 
-	para "tối thượng à? Vậy"
-	line "ta là đồng chí!"
+	para "trainer too? Then"
+	line "we're comrades!"
 
-	para "Nếu tớ tìm thêm"
-	line "đồ bên bờ nước,"
+	para "If I find any more"
+	line "items by the"
 
-	para "tớ sẽ cho cậu"
-	line "một ít."
+	para "water, I'll give"
+	line "you some."
 
-	para "Chỉ cần cho tớ"
-	line "SĐT cậu."
+	para "Just give me your"
+	line "phone number."
 	done
 
 TullyAskNumber2Text:
-	text "Nếu tớ tìm thêm"
-	line "đồ bên bờ nước,"
+	text "If I find any more"
+	line "items by the"
 
-	para "tớ sẽ cho cậu"
-	line "một ít."
+	para "water, I'll give"
+	line "you some."
 
-	para "Chỉ cần cho tớ"
-	line "SĐT cậu."
+	para "Just give me your"
+	line "phone number."
 	done
 
 TullyNumberAcceptedText:
-	text "Cậu sẽ nghe từ tớ"
-	line "nếu tớ tìm thấy"
-	cont "thứ tốt."
+	text "You'll be hearing"
+	line "from me if I find"
+	cont "something good."
 	done
 
 TullyNumberDeclinedText:
-	text "Vậy à? Vậy tớ sẽ"
-	line "phải tự dùng"
-	cont "chúng thôi."
+	text "Is that so? Then"
+	line "I'll just have to"
+	cont "use them myself."
 	done
 
 TullyPhoneFullText:
-	text "Danh bạ điện"
-	line "thoại cậu đầy."
+	text "Your phone list is"
+	line "all filled up."
 
-	para "Hãy quay lại nếu"
-	line "cậu dành chỗ cho"
-	cont "tớ."
+	para "Come back if you"
+	line "make room for me."
 	done
 
 TullyRematchText:
-	text "Tớ làm nhiều việc"
-	line "hơn là chỉ câu cá"
+	text "I've been doing"
+	line "more than just"
 
-	para "kể từ lần cuối"
-	line "gặp nhau."
+	para "fishing since we"
+	line "last met."
 
-	para "Cậu sẽ ngạc nhiên"
-	line "lớn đấy!"
+	para "You're in for a"
+	line "big surprise!"
 	done
 
 TullyGiftText:
-	text "Này, cậu đây rồi!"
+	text "Hey, there you"
+	line "are!"
 
-	para "Đây là quà, như"
-	line "đã hứa!"
+	para "Here's a gift, as"
+	line "promised!"
 	done
 
 TullyPackFullText:
-	text "BA LÔ cậu đầy?"
+	text "Your PACK's full?"
 
-	para "Quay lại sau--"
-	line "thế là được."
+	para "Come back later--"
+	line "that'll do it."
 	done

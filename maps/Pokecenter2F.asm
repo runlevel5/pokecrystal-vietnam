@@ -797,230 +797,226 @@ Pokecenter2FMovementData_ReceptionistStepsRightLooksLeft_2:
 	step_end
 
 Text_BattleReceptionistMobile:
-	text "Bạn muốn đấu qua"
-	line "dây GAME LINK hay"
+	text "Would you like to"
+	line "battle over a GAME"
 
-	para "qua điện thoại di"
-	line "động?"
+	para "LINK cable or by"
+	line "mobile phone?"
 	done
 
 Text_TradeReceptionistMobile:
-	text "Bạn muốn giao dịch"
-	line "qua dây GAME LINK"
+	text "Would you like to"
+	line "trade over a GAME"
 
-	para "hay qua điện thoại"
-	line "di động?"
+	para "LINK cable or by"
+	line "mobile phone?"
 	done
 
 Text_ThisWayToMobileRoom: ; unreferenced
-	text "Đường này đến"
-	line "PHÒNG DI ĐỘNG."
+	text "This way to the"
+	line "MOBILE ROOM."
 	done
 
 Text_BattleReceptionistIntro:
-	text "Chào mừng đến CLB"
-	line "ĐẤU TRƯỜNG QUA CÁP"
+	text "Welcome to CABLE"
+	line "CLUB COLOSSEUM."
 
-	para "Bạn có thể thi đấu"
-	line "với bạn bè ở đây."
+	para "You may battle a"
+	line "friend here."
 
-	para "Bạn có muốn thách"
-	line "thức không?"
+	para "Would you like to"
+	line "battle?"
 	done
 
 Text_TradeReceptionistIntro:
-	text "Chào mừng đến"
-	line "TRUNG TÂM GIAO"
-	cont "DỊCH QUA CÁP."
+	text "Welcome to CABLE"
+	line "TRADE CENTER."
 
-	para "Bạn có thể giao"
-	line "dịch #MON ở đây"
-	cont "với bạn bè."
+	para "You may trade your"
+	line "#MON here with"
+	cont "a friend."
 
-	para "Bạn có muốn giao"
-	line "dịch không?"
+	para "Would you like to"
+	line "trade?"
 	done
 
 Text_TimeCapsuleReceptionistIntro:
-	text "Chào mừng đến"
-	line "CỖ MÁY THỜI GIAN."
+	text "Welcome to CABLE"
+	line "CLUB TIME CAPSULE."
 
-	para "Bạn có thể du"
-	line "hành về quá khứ"
-	cont "và giao dịch"
-	cont "#MON."
+	para "You can travel to"
+	line "the past and trade"
+	cont "your #MON."
 
-	para "Bạn có muốn giao"
-	line "dịch xuyên thời"
-	cont "gian không?"
+	para "Would you like to"
+	line "trade across time?"
 	done
 
 YourFriendIsNotReadyText:
-	text "Bạn bè của bạn"
-	line "chưa sẵn sàng."
+	text "Your friend is not"
+	line "ready."
 	prompt
 
 Text_MustSaveGame:
-	text "Trước khi mở kết"
-	line "nối, bạn phải lưu"
-	cont "game."
+	text "Before opening the"
+	line "link, you must"
+	cont "save your game."
 	done
 
 Text_PleaseWait:
-	text "Vui lòng đợi."
+	text "Please wait."
 	done
 
 Text_LinkTimedOut:
-	text "Kết nối đã bị đóng"
-	line "do không hoạt"
-	cont "động."
+	text "The link has been"
+	line "closed because of"
+	cont "inactivity."
 
-	para "Hãy liên lạc với"
-	line "bạn bè và quay lại"
-	cont "sau."
+	para "Please contact"
+	line "your friend and"
+	cont "come again."
 	prompt
 
 Text_PleaseComeAgain:
-	text "Hãy quay lại nhé."
+	text "Please come again."
 	prompt
 
 Text_PleaseComeInDuplicate: ; unreferenced
-	text "Mời bạn vào."
+	text "Please come in."
 	prompt
 
 Text_TemporaryStagingInLinkRoom: ; unreferenced
-	text "Chúng tôi sẽ đưa"
-	line "bạn vào phòng kết"
-	cont "nối tạm thời."
+	text "We'll put you in"
+	line "the link room for"
+	cont "the time being."
 	done
 
 Text_CantLinkToThePast:
-	text "Bạn không thể kết"
-	line "nối về quá khứ ở"
-	cont "đây."
+	text "You can't link to"
+	line "the past here."
 	prompt
 
 Text_IncompatibleRooms:
-	text "Đã chọn các phòng"
-	line "không tương thích."
+	text "Incompatible rooms"
+	line "were chosen."
 	prompt
 
 Text_PleaseComeIn:
-	text "Mời bạn vào."
+	text "Please come in."
 	done
 
 Text_PleaseEnter: ; unreferenced
-	text "Mời bạn vào."
+	text "Please enter."
 	prompt
 
 Text_RejectNewMon:
-	text "Xin lỗi--@"
+	text "Sorry--@"
 	text_ram wStringBuffer1
 	text_start
-	line "không thể mang đi."
+	line "can't be taken."
 	prompt
 
 Text_RejectMonWithNewMove:
-	text "Bạn không thể mang"
+	text "You can't take the"
 	line "@"
 	text_ram wStringBuffer1
-	text " với"
+	text " with a"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 Text_RejectMonWithMail:
-	text "Bạn không thể mang"
+	text "You can't take the"
 	line "@"
 	text_ram wStringBuffer1
-	text " có"
-	cont "THƯ theo."
+	text " that"
+	cont "has MAIL with you."
 	prompt
 
 Text_TimeCapsuleClosed:
-	text "Xin lỗi--MÁY THỜI"
-	line "GIAN đang được bảo"
-	cont "trì."
+	text "I'm sorry--the"
+	line "TIME CAPSULE is"
+	cont "being adjusted."
 	done
 
 Text_TradeRoomClosed:
-	text "Xin lỗi--MÁY GIAO"
-	line "DỊCH đang được bảo"
-	cont "trì."
+	text "I'm sorry--the"
+	line "TRADE MACHINE is"
+	cont "being adjusted."
 	done
 
 Text_BattleRoomClosed:
-	text "Xin lỗi--MÁY ĐẤU"
-	line "đang được bảo trì."
+	text "I'm sorry--the"
+	line "BATTLE MACHINE is"
+	cont "being adjusted."
 	done
 
 Text_MysteryGiftDeliveryGuy_Intro:
-	text "Xin chào! Bạn là"
-	line "<PLAYER>, đúng"
-	cont "không?"
+	text "Hello! You're"
+	line "<PLAYER>, right?"
 
-	para "Tôi có thứ dành"
-	line "cho bạn."
+	para "I have some-"
+	line "thing for you."
 	done
 
 Text_MysteryGiftDeliveryGuy_HereYouGo:
-	text "Đây này!"
+	text "Here you go!"
 	done
 
 Text_MysteryGiftDeliveryGuy_Outro:
-	text "Chúng tôi hy vọng"
-	line "phục vụ bạn lần"
-	cont "nữa."
+	text "We hope to serve"
+	line "you again."
 	done
 
 Text_MysteryGiftDeliveryGuy_NoRoom:
-	text "Ồ, bạn không có"
-	line "chỗ cho đồ này."
+	text "Oh, you have no"
+	line "space for this."
 
-	para "Ghé vào bất kỳ TT"
-	line "#MON nào trong"
+	para "Stop in at any"
+	line "#MON CENTER"
 
-	para "cả nước để lấy"
-	line "nó."
+	para "across the country"
+	line "to pick it up."
 	done
 
 Text_MysteryGiftDeliveryGuy_SaidNo:
-	text "Không? Lạ thật…"
+	text "No? That's very"
+	line "strange…"
 	done
 
 Text_OhPleaseWait:
-	text "Ồ, vui lòng đợi."
+	text "Oh, please wait."
 	done
 
 Text_ChangeTheLook:
-	text "Chúng tôi cần đổi"
-	line "diện mạo ở đây…"
+	text "We need to change"
+	line "the look here…"
 	done
 
 Text_LikeTheLook:
-	text "Kiểu này bạn thấy"
-	line "thế nào?"
+	text "How does this"
+	line "style look to you?"
 	done
 
 Text_BrokeStadiumRules:
-	text "Xin lỗi!"
+	text "Excuse me!"
 
-	para "Theo luật STADIUM,"
-	line "hãy mang sáu"
+	para "For STADIUM rules,"
+	line "please bring six"
 
-	para "#MON khác nhau,"
-	line "không bao gồm EGG."
+	para "different #MON,"
+	line "excluding EGGS."
 
-	para "Sáu #MON phải"
-	line "khác nhau."
+	para "The six #MON"
+	line "must be different."
 
-	para "Ngoài ra, chúng"
-	line "không được cầm"
-	cont "đồ giống nhau."
+	para "Also, they must"
+	line "not be holding"
+	cont "identical items."
 
-	para "Hãy quay lại khi"
-	line "bạn đã sẵn sàng."
+	para "Please come back"
+	line "when you're ready."
 	done
 
 Pokecenter2F_MapEvents:

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/mail.asm"
+else
+
 SendMailToPC:
 	ld a, MON_ITEM
 	call GetPartyParamLocation
@@ -561,7 +565,9 @@ MailboxPC:
 .SubMenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "ĐỌC THƯ@"
-	db "CẤT VÀO TÚI@"
-	db "GẮN THƯ@"
-	db "HỦY@"
+	db "READ MAIL@"
+	db "PUT IN PACK@"
+	db "ATTACH MAIL@"
+	db "CANCEL@"
+
+endc

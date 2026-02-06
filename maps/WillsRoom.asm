@@ -79,54 +79,51 @@ WillsRoom_EnterMovement:
 	step_end
 
 WillScript_WillBeforeText:
-	text "Chào mừng đến"
-	line "LIÊN ĐOÀN #MON,"
-	cont "<PLAYER>."
+	text "Welcome to #MON"
+	line "LEAGUE, <PLAYER>."
 
-	para "Để ta tự giới"
-	line "thiệu. Ta là"
+	para "Allow me to intro-"
+	line "duce myself. I am"
 	cont "WILL."
 
-	para "Ta đã luyện tập"
-	line "khắp thế giới,"
+	para "I have trained all"
+	line "around the world,"
 
-	para "làm cho #MON"
-	line "tâm linh của ta"
-	cont "mạnh mẽ."
+	para "making my psychic"
+	line "#MON powerful."
 
-	para "Và cuối cùng, ta"
-	line "đã được nhận vào"
-	cont "TỨ ĐẠI."
+	para "And, at last, I've"
+	line "been accepted into"
+	cont "the ELITE FOUR."
 
-	para "Ta chỉ có thể"
-	line "ngày càng giỏi!"
+	para "I can only keep"
+	line "getting better!"
 
-	para "Thua không phải"
-	line "là một lựa chọn!"
+	para "Losing is not an"
+	line "option!"
 	done
 
 WillScript_WillBeatenText:
-	text "Ta… Ta không"
-	line "thể… tin được…"
+	text "I… I can't…"
+	line "believe it…"
 	done
 
 WillScript_WillDefeatText:
-	text "Dù ta đã thua,"
-	line "ta sẽ không thay"
-	cont "đổi con đường."
+	text "Even though I was"
+	line "defeated, I won't"
+	cont "change my course."
 
-	para "Ta sẽ tiếp tục"
-	line "chiến đấu cho đến"
+	para "I will continue"
+	line "battling until I"
 
-	para "khi ta đứng trên"
-	line "tất cả HLV!"
+	para "stand above all"
+	line "trainers!"
 
-	para "Giờ, <PLAYER>,"
-	line "hãy tiến lên và"
+	para "Now, <PLAYER>, move"
+	line "on and experience"
 
-	para "trải nghiệm sự"
-	line "dữ dội thật sự"
-	cont "của ELITE FOUR."
+	para "the true ferocity"
+	line "of the ELITE FOUR."
 	done
 
 WillsRoom_MapEvents:

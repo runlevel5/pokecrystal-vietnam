@@ -113,191 +113,179 @@ SaffronGymStatue:
 	jumpstd GymStatue2Script
 
 SabrinaIntroText:
-	text "SABRINA: Ta biết"
-	line "ngươi sẽ đến…"
+	text "SABRINA: I knew"
+	line "you were coming…"
 
-	para "Ba năm trước ta"
-	line "đã thấy trước sự"
-	cont "xuất hiện của"
-	cont "ngươi."
+	para "Three years ago I"
+	line "had a vision of"
+	cont "your arrival."
 
-	para "Ngươi muốn HC"
-	line "của ta."
+	para "You're after my"
+	line "BADGE."
 
-	para "Ta không thích"
-	line "đấu, nhưng đó là"
+	para "I don't enjoy bat-"
+	line "tling, but it's my"
 
-	para "nghĩa vụ của một"
-	line "T.LĨNH để trao"
+	para "duty as a LEADER"
+	line "to confer BADGES"
 
-	para "HUY HIỆU cho ai"
-	line "chứng minh được"
-	cont "bản thân."
+	para "on anyone who has"
+	line "proven him- or"
+	cont "herself worthy."
 
-	para "Vì ngươi muốn,"
-	line "ta sẽ cho ngươi"
-	cont "thấy sức mạnh"
-	cont "tâm linh của ta!"
+	para "Since you wish it,"
+	line "I will show you my"
+	cont "psychic powers!"
 	done
 
 SabrinaWinLossText:
-	text "SABRINA: Sức mạnh"
-	line "của ngươi…"
+	text "SABRINA: Your"
+	line "power…"
 
-	para "Nó vượt xa những"
-	line "gì ta tiên đoán…"
+	para "It far exceeds"
+	line "what I foresaw…"
 
-	para "Có lẽ không thể"
-	line "dự đoán hoàn toàn"
+	para "Maybe it isn't"
+	line "possible to fully"
 
-	para "những gì tương"
-	line "lai nắm giữ…"
+	para "predict what the"
+	line "future holds…"
 
-	para "Được, ngươi thắng"
-	line "Ngươi xứng đáng"
-	cont "HUY HIỆU ĐẦM LẦY."
+	para "OK, you win. You"
+	line "earned yourself"
+	cont "MARSHBADGE."
 	done
 
 ReceivedMarshBadgeText:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU ĐẦM LẦY."
+	text "<PLAYER> received"
+	line "MARSHBADGE."
 	done
 
 SabrinaMarshBadgeText:
-	text "SABRINA: HUY HIỆU"
-	line "ĐẦM LẦY khai phá"
+	text "SABRINA: MARSH-"
+	line "BADGE draws out"
 
-	para "sức mạnh tiềm ẩn"
-	line "của ngươi…"
+	para "your subliminal"
+	line "powers…"
 
-	para "Dù ta không tiên"
-	line "đoán chính xác"
-	cont "sức mạnh ngươi,"
+	para "Although I failed"
+	line "to accurately pre-"
+	cont "dict your power,"
+	cont "this much I know"
+	cont "to be true."
 
-	para "ta biết điều này"
-	line "là thật."
-
-	para "Ngươi sẽ trở"
-	line "thành một nhà"
-	cont "VÔ ĐỊCH lừng"
-	cont "danh và được"
-	cont "yêu mến!"
+	para "You will become a"
+	line "celebrated and"
+	cont "beloved CHAMPION!"
 	done
 
 SabrinaFightDoneText:
-	text "SABRINA: Tình yêu"
-	line "của ngươi dành"
+	text "SABRINA: Your love"
+	line "for your #MON"
 
-	para "cho #MON áp đảo"
-	line "sức mạnh tâm linh"
-	cont "của ta…"
+	para "overwhelmed my"
+	line "psychic power…"
 
-	para "Sức mạnh của tình"
-	line "yêu, ta nghĩ,"
+	para "The power of love,"
+	line "I think, is also a"
 
-	para "cũng là một loại"
-	line "sức mạnh tâm"
-	cont "linh…"
+	para "kind of psychic"
+	line "power…"
 	done
 
 MediumRebeccaSeenText:
-	text "Sức mạnh của tất"
-	line "cả người bạn"
-
-	para "đánh bại đến với"
-	line "tôi!"
+	text "The power of all"
+	line "those you defeated"
+	cont "comes to me!"
 	done
 
 MediumRebeccaBeatenText:
-	text "Mạnh quá…"
-	line "Mạnh quá…"
+	text "Strong…"
+	line "Far too strong…"
 	done
 
 MediumRebeccaAfterBattleText:
-	text "Nguồn sức mạnh"
-	line "của bạn là gì?"
+	text "What is the source"
+	line "of your power?"
 	done
 
 PsychicFranklinSeenText:
-	text "Sức mạnh tâm linh"
-	line "là sức mạnh của"
-	cont "linh hồn."
+	text "Psychic power is"
+	line "the power of your"
+	cont "soul."
 	done
 
 PsychicFranklinBeatenText:
-	text "Linh hồn bạn mạnh"
-	line "hơn tôi!"
+	text "Your soul has more"
+	line "power than mine!"
 	done
 
 PsychicFranklinAfterBattleText:
-	text "Bạn làm linh hồn"
-	line "mạnh hơn, không"
-
-	para "chỉ khả năng"
-	line "của bạn."
+	text "You made your soul"
+	line "stronger, not just"
+	cont "your abilities."
 	done
 
 MediumDorisSeenText:
-	text "Hùhùhù…"
-	line "Tôi thấy rõ."
+	text "Fufufufu…"
+	line "I see it clearly."
 
-	para "Tôi có thể nhìn"
-	line "vào linh hồn bạn!"
+	para "I can see into"
+	line "your soul!"
 	done
 
 MediumDorisBeatenText:
-	text "Dù đọc được bạn,"
-	line "tôi vẫn thua…"
+	text "Though I read you,"
+	line "I still lost…"
 	done
 
 MediumDorisAfterBattleText:
-	text "Chết! Tôi quên"
-	line "rằng tôi đã tiên"
-
-	para "đoán sẽ thua"
-	line "bạn."
+	text "Darn! I forgot"
+	line "that I predicted I"
+	cont "would lose to you."
 	done
 
 PsychicJaredSeenText:
-	text "VÕ ĐƯỜNG bên cạnh"
-	line "từng là GYM của"
-	cont "thành phố này."
+	text "The FIGHTING DOJO"
+	line "next door was once"
+	cont "this city's GYM."
 	done
 
 PsychicJaredBeatenText:
-	text "Tôi không địch"
-	line "nổi…"
+	text "I was no match…"
 	done
 
 PsychicJaredAfterBattleText:
-	text "VUA KARATE, chủ"
-	line "của VÕ ĐƯỜNG,"
+	text "KARATE KING, the"
+	line "master of the"
 
-	para "đã bị SABRINA"
-	line "đánh bại hoàn"
-	cont "toàn."
+	para "FIGHTING DOJO, was"
+	line "just destroyed by"
+	cont "SABRINA."
 	done
 
 SaffronGymGuideText:
-	text "Yo, nhà vô địch"
-	line "tương lai!"
+	text "Yo, CHAMP in"
+	line "making!"
 
-	para "Một HLV giỏi như"
-	line "bạn không cần ai"
+	para "A trainer as"
+	line "skilled as you"
 
-	para "dạy cách đối phó"
-	line "#MON tâm linh,"
-	cont "phải không?"
+	para "doesn't need to be"
+	line "told how to deal"
 
-	para "Tôi kỳ vọng lớn"
-	line "vào bạn!"
+	para "with psychic-type"
+	line "#MON, right?"
 
-	para "Chúc may mắn!"
+	para "I expect great"
+	line "things from you!"
+
+	para "Good luck!"
 	done
 
 SaffronGymGuideWinText:
-	text "Đó là một trận"
-	line "đấu tuyệt vời!"
+	text "That was another"
+	line "fantastic battle!"
 	done
 
 SaffronGym_MapEvents:

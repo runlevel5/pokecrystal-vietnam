@@ -1,5 +1,4 @@
 DEF ROUTE43GATE_TOLL EQU 1000
-DEF TOLL EQU 1000
 
 	object_const_def
 	const ROUTE43GATE_OFFICER
@@ -194,54 +193,56 @@ Rocket2Script_LetsYouPassNorth:
 	step_end
 
 RocketText_TollFee:
-	text "Dừng lại, nhóc!"
+	text "Hold it there,"
+	line "kiddo!"
 
-	para "Phí ¥{d:TOLL} để"
-	line "qua đây."
+	para "The toll is ¥{d:ROUTE43GATE_TOLL}"
+	line "to go through."
 	done
 
 RocketText_ThankYou:
-	text "Cảm ơn nhóc!"
+	text "Thank you very"
+	line "much!"
 	done
 
 RocketText_AllYouGot:
-	text "Thế thì trả hết"
-	line "tiền mày có đi."
+	text "Then pay what you"
+	line "have, please."
 	done
 
 RocketText_MakingABundle:
-	text "Hê hê hê. Bọn tao"
-	line "kiếm bộn tiền đây."
+	text "He-he-he. We're"
+	line "making a bundle."
 
-	para "Mọi người đều muốn"
-	line "xem điều gì xảy"
+	para "Everyone wants to"
+	line "see what's going"
 
-	para "ra ở HỒ GIẬN DỮ"
-	line "cả."
+	para "on up at LAKE OF"
+	line "RAGE."
 	done
 
 OfficerText_FoundTM:
-	text "Tôi bị bọn côn đồ"
-	line "mặc đen xua đuổi"
-	cont "khỏi vị trí."
+	text "I got chased from"
+	line "my post by these"
+	cont "thugs in black."
 
-	para "Chúng để lại cái"
-	line "này."
+	para "They left this"
+	line "behind."
 
-	para "Nó làm tôi khó"
-	line "chịu. Cậu lấy đi"
-	cont "được không?"
+	para "It makes me uncom-"
+	line "fortable. Could"
+	cont "you take it away?"
 	done
 
 Text_ReceivedTM30: ; unreferenced
-	text "<PLAYER> nhận được"
+	text "<PLAYER> received"
 	line "TM30."
 	done
 
 OfficerText_AvoidGrass:
-	text "Dùng cổng này để"
-	line "tránh đi vào"
-	cont "bãi cỏ."
+	text "Use this gate to"
+	line "avoid walking in"
+	cont "the grass."
 	done
 
 Route43Gate_MapEvents:

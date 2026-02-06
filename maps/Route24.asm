@@ -35,85 +35,85 @@ Route24RocketScript:
 	end
 
 Route24RocketSeenText:
-	text "Này, con! Tao là"
-	line "thành viên ĐỘI"
-	cont "ROCKET đấy nhá!"
+	text "Hey, kid! Me am a"
+	line "TEAM ROCKET member"
+	cont "kind of guy!"
 
-	para "Đến từ nước khác,"
-	line "HLV số một, tao"
-	cont "là!"
+	para "Come from another"
+	line "country, a trainer"
+	cont "number one, me!"
 
-	para "Tao nghĩ, nếu"
-	line "dừng nguồn điện,"
+	para "Think I did, if"
+	line "stop the energy,"
 
-	para "sẽ hoảng loạn ở"
-	line "đây người!"
+	para "be big panic for"
+	line "here people!"
 
-	para "Bí mật là nhiệm"
-	line "vụ tao, nói cho"
-	cont "mày tao không!"
+	para "Secret it is my"
+	line "mission, so tell"
+	cont "you I not!"
 
-	para "Nhưng! Nếu thắng"
-	line "mày làm với tao,"
+	para "But! If win you do"
+	line "versus me, a man I"
 
-	para "đàn ông tao sẽ và"
-	line "bí mật cho mày."
+	para "be and mine secret"
+	line "to you I tell."
 
-	para "Này, con! Đấu"
-	line "bắt đầu ta làm!"
+	para "Hey, kid! Battle"
+	line "begin we do!"
 	done
 
 Route24RocketBeatenText:
-	text "Áiii! Không, không"
-	line "không, tin được"
-	cont "không tao!"
+	text "Ayieeeh! No, no,"
+	line "no, believe it I"
+	cont "can't!"
 
-	para "Mạnh rất nhiều"
-	line "là mày! Ngang tao"
-	cont "không với mày!"
+	para "Strong very much"
+	line "be you! Match I am"
+	cont "not to you!"
 	done
 
 Route24RocketAfterBattleText:
-	text "OK. Nói mày bí"
-	line "mật tao sẽ."
+	text "OK. Tell you mine"
+	line "secret will I."
 
-	para "BỘ PHẬN MÁY ăn"
-	line "cắp tao, giấu tao"
+	para "MACHINE PART steal"
+	line "by me, hide it I"
 
-	para "làm trong GYM của"
+	para "did in GYM of the"
 	line "CERULEAN."
 
-	para "Trong nước để"
-	line "nó tao làm. Tìm"
+	para "Inside water put"
+	line "it I did. Look for"
 
-	para "trong nước giữa"
-	line "GYM ở."
+	para "in water center of"
+	line "GYM at."
 
-	para "Nhưng mày quên tao"
-	line "không đấy!"
+	para "But you forget me"
+	line "not!"
 
-	para "Đánh mày chắc"
-	line "chắn sẽ ĐỘI ROCKET"
+	para "Beat you for sure"
+	line "will TEAM ROCKET."
 
-	para "Đến từ JOHTO"
-	line "sẽ họ, bạn tao,"
+	para "Come from JOHTO"
+	line "will they, mine"
 
-	para "đúng. Sẽ trả thù"
-	line "họ là."
+	para "friends, yes. Will"
+	line "revenge they are."
 	done
 
 Route24RocketDisappearsText:
 	text "…"
 
-	para "Mày nói gì? ĐỘI"
-	line "ROCKET tạm biệt đi"
+	para "You say what? TEAM"
+	line "ROCKET bye-bye a"
 
-	para "đi? Tan rã nó"
-	line "là nói mày?"
+	para "go-go? Broken it"
+	line "is says you?"
 
-	para "Ồ, không! Phải tao"
-	line "làm gì bây giờ"
-	cont "từ, tao?"
+	para "Oh, no! Should I"
+	line "do what now on"
+	cont "from, me?"
 	done
 
 Route24_MapEvents:

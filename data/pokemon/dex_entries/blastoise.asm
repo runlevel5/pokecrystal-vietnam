@@ -1,10 +1,10 @@
-	db "SÒ@" ; species name
-	dw 16, 855 ; height, weight
+	db "SHELLFISH@" ; species name
+	dw 503, 1890 ; height, weight
 
-	db   "Nó đứng vững"
-	next "trên mặt đất"
-	next "trước khi bắn"
+	db   "It firmly plants"
+	next "its feet on the"
+	next "ground before"
 
-	page "nước từ các vòi"
-	next "phun trên lưng.@"
-	next "@"
+	page "shooting water"
+	next "from the jets on"
+	next "its back.@"

@@ -1,10 +1,10 @@
-	db "GIAO HÀNG@" ; species name
-	dw 9, 160 ; height, weight
+	db "DELIVERY@" ; species name
+	dw 211, 350 ; height, weight
 
-	db   "Nó luôn mang thức"
-	next "ăn theo bên mình"
-	next "đi đâu. Nếu bị"
+	db   "It always carries"
+	next "its food with it,"
+	next "wherever it goes."
 
-	page "tấn công, nó ném"
-	next "thức ăn vào đối"
-	next "thủ.@"
+	page "If attacked, it"
+	next "throws its food at"
+	next "the opponent.@"

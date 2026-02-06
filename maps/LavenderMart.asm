@@ -21,28 +21,28 @@ LavenderMartRockerScript:
 	jumptextfaceplayer LavenderMartRockerText
 
 LavenderMartPokefanMText:
-	text "XUA ĐUỔI là cần"
-	line "thiết nếu bạn đi"
+	text "REPEL is a neces-"
+	line "sity if you are"
 
-	para "khám phá hang"
-	line "động."
+	para "going to explore a"
+	line "cave."
 
-	para "Dù tôi thích khám"
-	line "phá, tôi vẫn chưa"
+	para "Even though I like"
+	line "exploring, I still"
 
-	para "đến được hết tất"
-	line "cả các hang động."
+	para "haven't made it to"
+	line "all the caves."
 	done
 
 LavenderMartRockerText:
-	text "Tôi nghe nói có"
-	line "thợ làm BÓNG #"
+	text "I heard about a"
+	line "craftsman who"
 
-	para "tùy chỉnh ở T.TRẤN"
-	line "AZALEA của JOHTO."
+	para "makes custom BALLS"
+	line "in the JOHTO town"
 
-	para "Tôi ước có mấy"
-	line "cái."
+	para "of AZALEA. I wish"
+	line "I had some."
 	done
 
 LavenderMart_MapEvents:

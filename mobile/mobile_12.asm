@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/mobile/mobile_12.asm"
+else
+
 InitMobileProfile:
 	xor a
 	set 6, a
@@ -539,17 +543,17 @@ Mobile12_Bin2Dec:
 	db "8@"
 	db "9@"
 
-MobileProfileString:         db "  Hồ Sơ Mobile@"
-MobileString_Gender:         db "Giới Tính@"
-MobileString_Age:            db "Tuổi@"
-MobileString_Address:        db "Địa Chỉ@"
-MobileString_ZipCode:        db "Mã Vùng@"
+MobileProfileString:         db "  Mobile Profile@"
+MobileString_Gender:         db "Gender@"
+MobileString_Age:            db "Age@"
+MobileString_Address:        db "Address@"
+MobileString_ZipCode:        db "Zip Code@"
 MobileString_OK:             db "OK@"
-MobileString_ProfileChanged: db "Đổi Hồ Sơ@"
-MobileDesc_Gender:           db "Trai hay gái?@"
-MobileDesc_Age:              db "Bao nhiêu tuổi?@"
-MobileDesc_Address:          db "Sống ở đâu?@"
-MobileDesc_ZipCode:          db "Mã vùng của bạn?@"
+MobileString_ProfileChanged: db "Profile Changed@"
+MobileDesc_Gender:           db "Boy or girl?@"
+MobileDesc_Age:              db "How old are you?@"
+MobileDesc_Address:          db "Where do you live?@"
+MobileDesc_ZipCode:          db "Your zip code?@"
 
 MenuHeader_0x484f1:
 	db MENU_BACKUP_TILES ; flags
@@ -561,8 +565,8 @@ MenuData_0x484f9:
 	db STATICMENU_CURSOR | STATICMENU_WRAP ; flags
 	db 2 ; items
 Strings_484fb:
-String_484fb: db "nam@"
-String_484ff: db "nữ@"
+String_484fb: db "Boy@"
+String_484ff: db "Girl@"
 
 MenuHeader_0x48504:
 	db MENU_BACKUP_TILES ; flags
@@ -1815,3 +1819,5 @@ Function48d94:
 	or b
 	ld [hl], a
 	ret
+
+endc

@@ -10,17 +10,17 @@ RedsHouse2FPCScript:
 	jumptext RedsHouse2FPCText
 
 RedsHouse2FN64Text:
-	text "<PLAYER> chơi"
+	text "<PLAYER> played the"
 	line "N64."
 
-	para "Phải đi thôi--"
-	line "không rảnh nữa!"
+	para "Better get going--"
+	line "no time to lose!"
 	done
 
 RedsHouse2FPCText:
-	text "Có vẻ như nó"
-	line "không được dùng"
-	cont "lâu lắm rồi…"
+	text "It looks like it"
+	line "hasn't been used"
+	cont "in a long time…"
 	done
 
 RedsHouse2F_MapEvents:

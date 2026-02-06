@@ -1,10 +1,10 @@
-	db "HẠT GIỐNG@" ; species name
-	dw 10, 130 ; height, weight
+	db "SEED@" ; species name
+	dw 303, 290 ; height, weight
 
-	db   "Nụ trên lưng nó"
-	next "lớn lên khi hấp"
-	next "thụ dinh dưỡng."
+	db   "The bulb on its"
+	next "back grows as it"
+	next "absorbs nutrients."
 
-	page "Nụ tỏa ra hương"
-	next "thơm dễ chịu khi"
-	next "nở hoa.@"
+	page "The bulb gives off"
+	next "a pleasant aroma"
+	next "when it blooms.@"

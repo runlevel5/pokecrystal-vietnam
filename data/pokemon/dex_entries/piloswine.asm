@@ -1,10 +1,10 @@
-	db "LỢN@" ; species name
-	dw 11, 558 ; height, weight
+	db "SWINE@" ; species name
+	dw 307, 1230 ; height, weight
 
-	db   "Dù chân ngắn,"
-	next "móng chắc khỏe"
-	next "giúp nó không"
+	db   "Although its legs"
+	next "are short, its"
+	next "rugged hooves"
 
-	page "trượt, ngay cả"
-	next "trên mặt băng.@"
-	next "@"
+	page "prevent it from"
+	next "slipping, even on"
+	next "icy ground.@"

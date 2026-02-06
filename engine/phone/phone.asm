@@ -664,7 +664,15 @@ GetCallerName:
 	call PlaceString
 	ret
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/phone/non_trainer_names.asm"
+
+else
+
 INCLUDE "data/phone/non_trainer_names.asm"
+
+endc
 
 Phone_GetTrainerName:
 	push hl

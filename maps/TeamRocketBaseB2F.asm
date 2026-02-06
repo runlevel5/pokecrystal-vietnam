@@ -558,178 +558,177 @@ RocketBasePlayerLeavesElectrodesMovement3:
 	step_end
 
 RocketBaseExecutiveFHoldItText:
-	text "Đứng lại đó!"
+	text "Hold it right"
+	line "there!"
 	done
 
 RocketBaseBossFThrashText:
-	text "Bọn tao không thể"
-	line "để một thằng nhóc"
-	cont "như mày chạy quanh"
-	cont "được."
+	text "We can't have a"
+	line "brat like you on"
+	cont "the loose."
 
-	para "Mày làm tổn hại"
-	line "danh dự của"
-	cont "ĐỘI ROCKET đấy."
+	para "It's harmful to"
+	line "TEAM ROCKET's"
+	cont "pride, you see."
 
-	para "Dù mày có mạnh đến"
-	line "đâu, mày không thể"
+	para "However strong you"
+	line "may be, you can't"
 
-	para "đánh cả hai bọn"
-	line "tao cùng lúc."
+	para "take both of us at"
+	line "the same time."
 
-	para "Xin lỗi nhé, nhóc."
-	line "Chuẩn bị ăn đòn"
-	cont "đi!"
+	para "Sorry, baby. Now"
+	line "get ready to be"
+	cont "thrashed."
 	done
 
 RocketBaseLanceShareFunText:
-	text "Này! Đừng ích kỷ"
-	line "thế. Hãy chia sẻ"
-	cont "niềm vui nào."
+	text "Hey! Don't be so"
+	line "selfish. Spread"
+	cont "the fun around."
 	done
 
 RocketBaseBossDontMeddleText:
-	text "Cái gì? Mày có"
-	line "đồng bọn à?"
+	text "What? You had an"
+	line "accomplice?"
 
-	para "Danh dự của bọn"
-	line "mày ở đâu rồi?"
+	para "Where is your"
+	line "sense of honor?"
 
-	para "Với tư cách là"
-	line "trùm tạm thời thay"
+	para "As the interim"
+	line "boss in place of"
 
-	para "GIOVANNI, tao sẽ"
-	line "cho bọn mày thấy"
+	para "GIOVANNI, I'll"
+	line "show you how wrong"
 
-	para "cái giá của việc"
-	line "chọc ĐỘI ROCKET!"
+	para "it is to meddle"
+	line "with TEAM ROCKET!"
 	done
 
 RocketBaseBossWinText:
-	text "Tch, bọn mày thật"
-	line "sự mạnh."
+	text "Tch, you really"
+	line "are strong."
 
-	para "Thật đáng tiếc."
+	para "It's too bad."
 
-	para "Nếu mày gia nhập"
-	line "ĐỘI ROCKET,"
+	para "If you were to"
+	line "join TEAM ROCKET,"
 
-	para "mày có thể trở"
-	line "thành EXECUTIVE."
+	para "you could become"
+	line "an EXECUTIVE."
 	done
 
 RocketBaseBossRetreatText:
-	text "…Sào huyệt này"
-	line "xong rồi…"
+	text "…This hideout is"
+	line "done for…"
 
-	para "Nhưng không sao."
-	line "Thí nghiệm phát"
-	cont "sóng đã thành"
-	cont "công hoàn toàn."
+	para "But that's fine."
+	line "The broadcast ex-"
+	cont "periment was a"
+	cont "total success."
 
-	para "Giờ chuyện gì xảy"
-	line "ra với nơi này"
-	cont "cũng không quan"
-	cont "trọng nữa."
+	para "It doesn't matter"
+	line "what happens to"
+	cont "this hideout now."
 
-	para "Bọn tao có kế"
-	line "hoạch lớn hơn."
+	para "We have much big-"
+	line "ger plans."
 
-	para "Sớm thôi mày sẽ"
-	line "thấy sức mạnh thật"
+	para "You'll come to"
+	line "appreciate TEAM"
 
-	para "sự của ĐỘI"
-	line "ROCKET."
+	para "ROCKET's true"
+	line "power soon enough."
 
-	para "Cứ tận hưởng khi"
-	line "còn có thể…"
+	para "Enjoy yourself"
+	line "while you can…"
 
-	para "Hừ hừ hừ…"
+	para "Fufufufu…"
 	done
 
 RocketBaseLancePostBattleText:
-	text "LANCE: Xong rồi."
-	line "Chúng ta đã đánh"
+	text "LANCE: That did"
+	line "it. We defeated"
 
-	para "bại hết bọn ROCKET"
-	line "ở đây."
+	para "all the ROCKETS"
+	line "here."
 
-	para "Nhưng ta lo lắng"
-	line "về cậu thanh niên"
+	para "But I'm concerned"
+	line "about the young"
 
-	para "ta đã chiến đấu"
-	line "lúc nãy…"
+	para "guy I battled in"
+	line "the process…"
 	done
 
 RocketBaseLancePowerOffText:
-	text "Xin lỗi, <PLAY_G>."
-	line "Ta thấy con làm"
+	text "Sorry, <PLAY_G>."
+	line "I saw how well you"
 
-	para "tốt lắm, nên ta"
-	line "chỉ đứng xem thôi."
+	para "were doing, so I"
+	line "just hung back."
 
-	para "Giờ việc còn lại"
-	line "là tắt tín hiệu"
+	para "Now all there is"
+	line "left to do is to"
 
-	para "radio kỳ lạ kia"
-	line "đi."
+	para "turn off that odd"
+	line "radio signal."
 	done
 
 RockerBaseLanceElectrodeFaintText:
-	text "Cái máy này là"
-	line "nguyên nhân gây"
-	cont "ra mọi rắc rối."
+	text "It's this machine"
+	line "that's causing all"
+	cont "the problems."
 
-	para "Ta không thấy"
-	line "công tắc nào…"
+	para "I don't see a"
+	line "switch on it…"
 
-	para "Không còn cách"
-	line "nào khác. Chúng ta"
+	para "We have no choice."
+	line "We have to make"
 
-	para "phải làm tất cả"
-	line "ELECTRODE ngất đi."
+	para "all the ELECTRODE"
+	line "faint."
 
-	para "Như vậy sẽ ngăn"
-	line "cái máy này phát"
+	para "That should stop"
+	line "this machine from"
 
-	para "tín hiệu kỳ lạ"
-	line "kia."
+	para "transmitting that"
+	line "strange signal."
 
-	para "Không phải lỗi"
-	line "của #MON, nên"
+	para "It's no fault of"
+	line "the #MON, so it"
 
-	para "ta thấy có lỗi"
-	line "với chúng."
+	para "makes me feel"
+	line "guilty."
 
-	para "<PLAY_G>, ta chia"
-	line "nhau làm nhé."
+	para "<PLAY_G>, let's"
+	line "split the job."
 	done
 
 RocketBaseLancesSideText:
-	text "LANCE: Để bên này"
-	line "cho ta."
+	text "LANCE: Leave this"
+	line "side to me."
 	done
 
 RocketBaseLanceElectrodeDoneText:
-	text "LANCE: Tín hiệu"
-	line "kỳ lạ cuối cùng"
-	cont "đã dừng."
+	text "LANCE: That odd"
+	line "signal has finally"
+	cont "stopped."
 
-	para "Hồ sẽ trở lại"
-	line "bình thường."
+	para "The LAKE should be"
+	line "back to normal."
 
-	para "Con là anh hùng!"
-	line "Để ta cảm ơn con"
+	para "You're the hero!"
+	line "Let me thank you"
 
-	para "thay mặt cho tất"
-	line "cả #MON."
+	para "on behalf of all"
+	line "the #MON."
 
-	para "À, đúng rồi. Con"
-	line "nên lấy cái này."
+	para "Oh, yes. You"
+	line "should take this."
 
-	para "Ta tìm thấy ở đây,"
-	line "nhưng ta không cần"
-	cont "nó."
+	para "I found it here,"
+	line "but I don't have"
+	cont "any need for it."
 	done
 
 RocketBaseReceivedHM06Text: ; unreferenced
@@ -738,173 +737,173 @@ RocketBaseReceivedHM06Text: ; unreferenced
 	done
 
 RocketBaseLanceWhirlpoolText:
-	text "Đó là XOÁY NƯỚC."
-	line "Dạy nó cho #MON"
+	text "That's WHIRLPOOL."
+	line "Teach it to a"
 
-	para "để vượt qua vùng"
-	line "nước xoáy."
+	para "#MON to get"
+	line "across wild water."
 
-	para "Nhưng hãy nhớ"
-	line "điều này."
+	para "But keep this in"
+	line "mind."
 
-	para "Con chỉ có thể"
-	line "dùng nó ngoài"
+	para "You can use that"
+	line "out of battle only"
 
-	para "trận đấu với HC"
-	line "từ MAHOGANY GYM."
+	para "with the BADGE"
+	line "from MAHOGANY GYM."
 	done
 
 RocketBaseLanceMonMasterText:
 	text "<PLAY_G>…"
 
-	para "Hành trình trở"
-	line "thành BẬC THẦY"
+	para "The journey to be-"
+	line "coming the #MON"
 
-	para "#MON rất dài và"
-	line "khó khăn."
+	para "MASTER is long and"
+	line "difficult."
 
-	para "Biết vậy, con có"
-	line "tiếp tục không?"
+	para "Knowing that, will"
+	line "you keep going?"
 
 	para "…"
 
-	para "Ta hiểu. Không,"
-	line "con đúng."
+	para "I see. No, you're"
+	line "right."
 
-	para "Nếu con dễ dàng"
-	line "từ bỏ như vậy,"
+	para "If you would give"
+	line "up that easily,"
 
-	para "thì ngay từ đầu"
-	line "con đã không theo"
+	para "you would have"
+	line "never chased that"
 
-	para "đuổi giấc mơ đó"
-	line "rồi."
+	para "dream in the first"
+	line "place."
 
-	para "Ta mong được gặp"
-	line "lại con!"
+	para "I look forward to"
+	line "seeing you again!"
 	done
 
 LanceHealsText1:
-	text "LANCE: Con có sao"
-	line "không?"
+	text "LANCE: Are you all"
+	line "right?"
 
-	para "#MON của con bị"
-	line "thương và mệt rồi."
+	para "Your #MON are"
+	line "hurt and tired."
 
-	para "Đây, cho chúng"
-	line "uống thuốc của ta"
-	cont "đi."
+	para "Here, give them"
+	line "some of my medi-"
+	cont "cine."
 	done
 
 LanceHealsText2:
 	text "LANCE: <PLAY_G>,"
-	line "hãy cố gắng hết"
-	cont "sức vì #MON."
+	line "let's give it our"
+	cont "best for #MON."
 	done
 
 GruntM17SeenText:
-	text "Cửa không mở à?"
+	text "The door won't"
+	line "open?"
 
-	para "Dĩ nhiên rồi."
-	line "Nó cần mật khẩu"
+	para "Well, duh."
+	line "It has to have a"
 
-	para "mà chỉ ĐỘI ROCKET"
-	line "mới biết."
+	para "password that only"
+	line "TEAM ROCKET knows."
 	done
 
 GruntM17BeatenText:
-	text "Cái gì? Tao thua?"
+	text "What? I lost?"
 	done
 
 GruntM17AfterBattleText:
-	text "Heh, tao chỉ là"
-	line "lính quèn."
+	text "Heh, I'm just a"
+	line "GRUNT."
 
-	para "Tao không biết mật"
-	line "khẩu đâu. Đen cho"
-	cont "mày nhé."
+	para "I don't know the"
+	line "password. Too bad"
+	cont "for you."
 	done
 
 GruntM18SeenText:
-	text "Ồ, một đứa nhóc?"
-	line "Tao không thích"
+	text "Oh, a kid? I don't"
+	line "really like this,"
 
-	para "lắm, nhưng tao"
-	line "phải diệt mày."
+	para "but eliminate you"
+	line "I must."
 	done
 
 GruntM18BeatenText:
-	text "Tao biết tao sẽ"
-	line "thua mà…"
+	text "I knew I'd lose…"
 	done
 
 GruntM18AfterBattleText:
-	text "Nhiệm vụ trước tao"
-	line "cũng bị một đứa"
-	cont "nhóc đánh bại."
+	text "I got wiped out on"
+	line "the last mission"
+	cont "by a kid too."
 
-	para "Lúc bọn tao đang"
-	line "bắt cóc #MON,"
+	para "When we were ab-"
+	line "ducting #MON,"
 
-	para "một thằng nhóc tóc"
-	line "đỏ dài với đôi mắt"
+	para "this kid with long"
+	line "red hair and mean-"
 
-	para "hung dữ đã cho"
-	line "tao ăn hành…"
+	para "looking eyes just"
+	line "creamed me…"
 	done
 
 GruntM19SeenText:
-	text "Đồ nhóc ranh hư"
-	line "đốn!"
+	text "You rotten little"
+	line "pest!"
 	done
 
 GruntM19BeatenText:
-	text "Grrrrr…"
+	text "Grrrr…"
 	done
 
 GruntM19AfterBattleText:
-	text "Heh, chỉ có trùm"
-	line "mới biết mật khẩu"
-	cont "cửa đó."
+	text "Heh, only the boss"
+	line "knows the password"
+	cont "for that door."
 
-	para "Trùm ở đâu à? Ai"
-	line "biết? Tự đi mà"
-	cont "tìm."
+	para "Where's the boss?"
+	line "Who knows? Go look"
+	cont "for yourself."
 	done
 
 RocketBaseDoorNoPasswordText:
-	text "Cửa bị đóng…"
+	text "The door's closed…"
 
-	para "Cần mật khẩu để"
-	line "mở."
+	para "It needs a pass-"
+	line "word to open."
 	done
 
 RocketBaseDoorKnowPasswordText:
-	text "Cửa bị đóng…"
+	text "The door's closed…"
 
-	para "<PLAYER> đã nhập"
-	line "mật khẩu."
+	para "<PLAYER> entered"
+	line "the password."
 
-	para "Cửa đã mở!"
+	para "The door opened!"
 	done
 
 RocketBaseB2FTransmitterText:
-	text "Đây là máy phát"
-	line "sóng radio đang"
+	text "It's the radio"
+	line "transmitter that's"
 
-	para "gửi tín hiệu"
-	line "đáng ngại."
+	para "sending the"
+	line "sinister signal."
 
-	para "Nó đang hoạt động"
-	line "hết công suất."
+	para "It's working at"
+	line "full capacity."
 	done
 
 RocketBaseB2FDeactivateTransmitterText:
-	text "Máy phát sóng"
-	line "radio cuối cùng"
+	text "The radio trans-"
+	line "mitter has finally"
 
-	para "đã ngừng phát"
-	line "sóng xấu xa."
+	para "stopped its evil"
+	line "broadcast."
 	done
 
 TeamRocketBaseB2F_MapEvents:

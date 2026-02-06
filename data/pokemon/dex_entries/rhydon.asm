@@ -1,10 +1,10 @@
-	db "KHOAN@" ; species name
-	dw 19, 1200 ; height, weight
+	db "DRILL@" ; species name
+	dw 603, 2650 ; height, weight
 
-	db   "Chỉ cần xoay nhẹ"
-	next "sừng hình khoan,"
-	next "nó có thể dễ"
+	db   "By lightly spin-"
+	next "ning its drill-"
+	next "like horn, it can"
 
-	page "dàng nghiền nát"
-	next "cả kim cương"
-	next "thô.@"
+	page "easily shatter"
+	next "even a diamond in"
+	next "the rough.@"

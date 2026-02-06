@@ -25,8 +25,9 @@ RuinsOfAlphKabutoItemRoomAncientReplica:
 	jumptext RuinsOfAlphKabutoItemRoomAncientReplicaText
 
 RuinsOfAlphKabutoItemRoomAncientReplicaText:
-	text "Đây là bản sao"
-	line "#MON cổ đại."
+	text "It's a replica of"
+	line "an ancient #-"
+	cont "MON."
 	done
 
 RuinsOfAlphKabutoItemRoom_MapEvents:

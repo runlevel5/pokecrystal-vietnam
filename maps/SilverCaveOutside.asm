@@ -18,7 +18,7 @@ SilverCaveOutsideHiddenFullRestore:
 	hiddenitem FULL_RESTORE, EVENT_SILVER_CAVE_OUTSIDE_HIDDEN_FULL_RESTORE
 
 MtSilverSignText:
-	text "NÚI BẠC"
+	text "MT.SILVER"
 	done
 
 SilverCaveOutside_MapEvents:

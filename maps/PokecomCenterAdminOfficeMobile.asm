@@ -105,153 +105,157 @@ PokecomCenterAdminOfficeMobileComputer3:
 	jumptext PokecomCenterAdminOfficeMobileComputer3Text
 
 PokecomCenterAdminOfficeMobileScientist1Text:
-	text "T.TÂM #COM và"
-	line "TT DI ĐỘNG được"
+	text "#COM CENTER and"
+	line "MOBILE CENTER were"
 
-	para "xây dựng để đáp"
-	line "ứng nhu cầu đổi"
+	para "built to satisfy"
+	line "demands for trades"
 
-	para "và đấu với HLV ở"
-	line "xa và với người"
+	para "and battles with"
+	line "trainers far away"
 
-	para "hoàn toàn xa lạ."
+	para "and with total"
+	line "strangers."
 	done
 
 PokecomCenterAdminOfficeMobileScientist2Text:
-	text "Khi bạn kết nối"
-	line "với ai đó qua"
+	text "When you linked"
+	line "with someone by"
 
-	para "điện thoại di động"
-	line "lần đầu tiên,"
+	para "mobile phone for"
+	line "the first time,"
 
-	para "bạn có ấn tượng"
-	line "không?"
+	para "weren't you"
+	line "impressed?"
 
-	para "Lần đầu của tôi"
-	line "thành công, tôi"
+	para "When my first try"
+	line "worked, I was so"
 
-	para "ấn tượng đến nỗi"
-	line "tôi run lên!"
+	para "impressed that I"
+	line "got the shakes!"
 	done
 
 PokecomCenterAdminOfficeMobileScientist3Text:
-	text "Họ có thể xây cơ"
-	line "sở lớn này nhờ"
+	text "They were able to"
+	line "build this huge"
 
-	para "tiến bộ công nghệ"
-	line "không dây."
+	para "facility thanks to"
+	line "advances in wire-"
+	cont "less technology."
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text:
-	text "Đây là thông báo"
-	line "về nơi BỘ CHUYỂN"
+	text "It's a notice"
+	line "about where MOBILE"
 
-	para "ĐỔI DI ĐỘNG được"
-	line "sử dụng…"
+	para "ADAPTERS are to be"
+	line "used…"
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text_PokeComClub:
-	text "Có CLB #COM ở"
-	line "tầng trên của bất"
+	text "There's a #COM"
+	line "CLUB upstairs in"
 
-	para "kỳ T.TÂM #MON"
-	line "nào."
+	para "any #MON"
+	line "CENTER."
 
-	para "Ở đó, bạn có thể"
-	line "đấu hoặc đổi với"
+	para "There, you can"
+	line "battle or trade"
 
-	para "bạn bè ở xa bằng"
-	line "BỘ CHUYỂN ĐỔI DI"
-	cont "ĐỘNG."
+	para "with a friend far"
+	line "away by using a"
+	cont "MOBILE ADAPTER."
 
-	para "Để kết nối, bạn"
-	line "bè phải có cùng"
+	para "To link up, your"
+	line "friend must have"
 
-	para "loại BỘ CHUYỂN ĐỔI"
-	line "DI ĐỘNG như bạn."
+	para "the same kind of"
+	line "MOBILE ADAPTER as"
+	cont "you."
 	done
 
 PokecomCenterAdminOfficeMobileComputer1Text_MobileCenter:
-	text "Để dùng GÓC ĐỔI"
-	line "hoặc đọc TIN TỨC"
+	text "To use the TRADE"
+	line "CORNER or read the"
 
-	para "#MON, bạn cần"
-	line "gọi TT DI ĐỘNG."
+	para "#MON NEWS, you"
+	line "need to phone the"
+	cont "MOBILE CENTER."
 
-	para "Bạn phải đăng ký"
-	line "tại TT DI ĐỘNG"
+	para "You must register"
+	line "at the MOBILE"
 
-	para "trước khi kết nối"
-	line "vào đó."
+	para "CENTER before"
+	line "connecting there."
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text:
-	text "Đây là thông báo"
-	line "về việc sử dụng"
-	cont "điện thoại…"
+	text "It's a notice"
+	line "about using the"
+	cont "phone…"
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text_UsePhone:
-	text "Hãy đảm bảo điện"
-	line "thoại và BỘ"
+	text "Please ensure that"
+	line "your phone and"
 
-	para "CHUYỂN ĐỔI DI ĐỘNG"
-	line "được kết nối đúng"
+	para "MOBILE ADAPTER are"
+	line "properly linked."
 
-	para "Hãy chắc chắn tín"
-	line "hiệu điện thoại"
+	para "Please make sure"
+	line "the wireless phone"
+	cont "signal is strong."
 
-	para "không dây mạnh."
-
-	para "Đừng chạm hoặc"
-	line "ngắt điện thoại"
-	cont "khi kết nối."
+	para "Don't touch or"
+	line "hang up the phone"
+	cont "while linking."
 	done
 
 PokecomCenterAdminOfficeMobileComputer2Text_DontUsePhone:
-	text "Nếu máy chủ bận,"
-	line "có thể không thể"
+	text "If the server is"
+	line "busy, it may not"
 
-	para "đăng nhập được."
+	para "be possible to log"
+	line "on."
 
-	para "Nếu vậy, hãy gọi"
-	line "lại sau."
+	para "If so, please call"
+	line "back later."
 
-	para "Nếu bạn không thể"
-	line "đăng nhập hoặc"
+	para "If you are unable"
+	line "to log on or don't"
 
-	para "không hiểu thông"
-	line "báo lỗi,"
+	para "understand the"
+	line "error messages,"
 
-	para "hãy gọi trung tâm"
-	line "hỗ trợ hoặc đọc"
-	cont "hướng dẫn."
+	para "call a support"
+	line "center or read the"
+	cont "instructions."
 	done
 
 PokecomCenterAdminOfficeMobileComputer3Text:
-	text "VĂN PHÒNG QUẢN TRỊ"
-	line "nhận được e-mail."
-	cont "Nó nói…"
+	text "The ADMINISTRATION"
+	line "OFFICE received an"
+	cont "e-mail. It says…"
 
 	para "<……> <……> <……>"
 
-	para "Gửi nhân viên"
-	line "T.TÂM #COM…"
+	para "To the #COM"
+	line "CENTER staff…"
 
-	para "Truyền thông không"
-	line "dây đã cho phép"
+	para "Wireless communi-"
+	line "cation has enabled"
 
-	para "HLV #MON tương"
-	line "tác trên toàn"
+	para "#MON trainers"
+	line "to interact across"
 
-	para "quốc. Hãy tiếp tục"
-	line "làm việc cho ngày"
+	para "the nation. Let's"
+	line "keep working for"
 
-	para "tất cả HLV trên"
-	line "thế giới có thể"
+	para "the day when all"
+	line "the trainers in"
 
-	para "kết nối không rào"
-	line "cản!"
+	para "the world can link"
+	line "without barriers!"
 
 	para "<……> <……> <……>"
 	done

@@ -1,10 +1,10 @@
-	db "HOA@" ; species name
-	dw 7, 40 ; height, weight
+	db "FLOWER@" ; species name
+	dw 204, 90 ; height, weight
 
-	db   "Nếu phát hiện bất"
-	next "cứ thứ gì cử"
-	next "động, nó lập tức"
+	db   "If it notices"
+	next "anything that"
+	next "moves, it"
 
-	page "quất dây leo vào"
-	next "vật thể đó.@"
-	next "@"
+	page "immediately flings"
+	next "its vine at the"
+	next "object.@"

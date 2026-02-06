@@ -1,10 +1,10 @@
-	db "SÉT@" ; species name
-	dw 8, 245 ; height, weight
+	db "LIGHTNING@" ; species name
+	dw 207, 540 ; height, weight
 
-	db   "Các ion âm sinh"
-	next "ra từ lông tạo"
-	next "nên tiếng lách"
+	db   "The negatively"
+	next "charged ions"
+	next "generated in its"
 
-	page "tách liên tục.@"
-	next "@"
-	next "@"
+	page "fur create a"
+	next "constant sparking"
+	next "noise.@"

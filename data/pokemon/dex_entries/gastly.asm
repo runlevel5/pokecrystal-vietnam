@@ -1,10 +1,10 @@
-	db "KHÍ@" ; species name
-	dw 13, 1 ; height, weight
+	db "GAS@" ; species name
+	dw 403, 2 ; height, weight
 
-	db   "Nó bao bọc đối"
-	next "thủ trong thân"
-	next "khí, từ từ đầu"
+	db   "It wraps its op-"
+	next "ponent in its gas-"
+	next "like body, slowly"
 
-	page "độc con mồi qua"
-	next "da.@"
-	next "@"
+	page "weakening its prey"
+	next "by poisoning it"
+	next "through the skin.@"

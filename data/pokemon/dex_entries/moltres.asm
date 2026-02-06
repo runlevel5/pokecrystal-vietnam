@@ -1,10 +1,10 @@
-	db "LỬA@" ; species name
-	dw 20, 600 ; height, weight
+	db "FLAME@" ; species name
+	dw 607, 1320 ; height, weight
 
-	db   "#MON chim huyền"
-	next "thoại. Người ta"
-	next "nói nó di cư từ"
+	db   "Legendary bird"
+	next "#MON. It is"
+	next "said to migrate"
 
-	page "phương nam cùng"
-	next "mùa xuân.@"
-	next "@"
+	page "from the south"
+	next "along with the"
+	next "spring.@"

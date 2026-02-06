@@ -1,10 +1,10 @@
-	db "VỊT HOANG@" ; species name
-	dw 8, 150 ; height, weight
+	db "WILD DUCK@" ; species name
+	dw 207, 330 ; height, weight
 
-	db   "Để ngăn chúng"
-	next "tuyệt chủng,"
-	next "nhiều người đã"
+	db   "In order to pre-"
+	next "vent their"
+	next "extinction, more"
 
-	page "nỗ lực nhân"
-	next "giống loài"
-	next "#MON này.@"
+	page "people have made"
+	next "an effort to breed"
+	next "these #MON.@"

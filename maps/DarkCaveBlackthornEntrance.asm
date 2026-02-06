@@ -32,31 +32,31 @@ DarkCaveBlackthornEntranceTMSnore:
 	itemball TM_SNORE
 
 DarkCaveBlackthornEntrancePharmacistText1:
-	text "Chà! Cậu làm tôi"
-	line "giật mình!"
+	text "Whoa! You startled"
+	line "me there!"
 
-	para "Tôi đang đeo"
-	line "BLACKGLASSES nên"
+	para "I had my BLACK-"
+	line "GLASSES on, so I"
 
-	para "không để ý cậu"
-	line "chút nào."
+	para "didn't notice you"
+	line "at all."
 
-	para "Tôi đang làm gì ở"
-	line "đây á?"
+	para "What am I doing"
+	line "here?"
 
-	para "Này, đừng lo về"
-	line "chuyện đó."
+	para "Hey, don't you"
+	line "worry about it."
 
-	para "Tôi cho cậu một"
-	line "cặp BLACKGLASSES,"
-	cont "nên quên cậu thấy"
-	cont "tôi nhé?"
+	para "I'll give you a"
+	line "pair of BLACK-"
+	cont "GLASSES, so forget"
+	cont "you saw me, OK?"
 	done
 
 DarkCaveBlackthornEntrancePharmacistText2:
-	text "BLACKGLASSES tăng"
-	line "sức mạnh chiêu"
-	cont "hệ HẮC ÁM."
+	text "BLACKGLASSES ups"
+	line "the power of dark-"
+	cont "type moves."
 	done
 
 DarkCaveBlackthornEntrance_MapEvents:

@@ -253,158 +253,161 @@ Route26MaxElixer:
 	itemball MAX_ELIXER
 
 CooltrainermJakeSeenText:
-	text "Tôi đang chuẩn bị"
-	line "lần cuối cho"
+	text "I'm making my"
+	line "final preparations"
 
-	para "LIÊN MINH #MON."
+	para "for the #MON"
+	line "LEAGUE."
 	done
 
 CooltrainermJakeBeatenText:
-	text "Tôi thất bại!"
+	text "I blew it!"
 	done
 
 CooltrainermJakeAfterBattleText:
-	text "Thắng ở LIÊN MINH"
-	line "sẽ rất khó."
+	text "It's going to be"
+	line "tough to win at"
+	cont "the LEAGUE."
 
-	para "Tôi cần luyện tập"
-	line "nhiều hơn nữa."
+	para "I need to do some"
+	line "more training."
 
-	para "Nghe nói bốn cao"
-	line "thủ của LIÊN MINH"
+	para "I hear that the"
+	line "LEAGUE's ELITE"
 
-	para "còn khó hơn"
-	line "T.LĨNH GYM."
+	para "FOUR are tougher"
+	line "than GYM LEADERS."
 	done
 
 CooltrainermGaven3SeenText:
-	text "Trải qua trận đấu"
-	line "khó khăn, bạn sẽ"
-	cont "mạnh lên."
+	text "By experiencing"
+	line "tough battles, you"
+	cont "gain power."
 	done
 
 CooltrainermGaven3BeatenText:
-	text "Gaah! Cuộc sống"
-	line "còn khó hơn nữa!"
+	text "Gaah! Life is even"
+	line "tougher!"
 	done
 
 CooltrainermGavenAfterText:
-	text "Để đến LIÊN MINH"
-	line "#MON, bạn phải"
+	text "To get to #MON"
+	line "LEAGUE, you have"
 
-	para "vượt qua LỐI"
-	line "VINH QUANG."
+	para "to get through"
+	line "VICTORY ROAD."
 
-	para "Nhưng LỐI VINH"
-	line "QUANG rất khó."
+	para "But VICTORY ROAD"
+	line "is tough."
 
-	para "Gần như không ai"
-	line "đến đó được!"
+	para "Practically nobody"
+	line "goes there!"
 	done
 
 CooltrainerfJoyceSeenText:
-	text "Vì bạn đến được"
-	line "đây, chắc bạn"
-	cont "giỏi lắm."
+	text "Since you've come"
+	line "this far, you must"
+	cont "be good."
 
-	para "Tôi sẽ chiến đấu"
-	line "hết sức mình!"
+	para "I'm going to give"
+	line "this battle every-"
+	cont "thing I've got!"
 	done
 
 CooltrainerfJoyceBeatenText:
-	text "Không! Tôi không"
-	line "tin được!"
+	text "No! I don't"
+	line "believe this!"
 	done
 
 CooltrainerfJoyceAfterBattleText:
-	text "Tôi đã đánh bại"
-	line "8 T.LĨNH GYM,"
+	text "I've defeated"
+	line "eight GYM LEADERS,"
 
-	para "nên tôi tự tin"
-	line "lắm."
+	para "so I was feeling"
+	line "confident."
 
-	para "Tôi sẽ cố gắng"
-	line "hơn lần sau."
+	para "I'll have to try"
+	line "harder next time."
 	done
 
 CooltrainerfBeth1SeenText:
-	text "Tôi thua một HLV"
-	line "tên <RIVAL>."
+	text "I lost to a train-"
+	line "er named <RIVAL>."
 
-	para "Anh ấy rất mạnh,"
-	line "nhưng…"
+	para "He was really"
+	line "strong, but…"
 
-	para "Như thể anh ấy"
-	line "bắt buộc phải"
-	cont "thắng bằng mọi giá"
+	para "It was as if he"
+	line "absolutely had to"
+	cont "win at any cost."
 
-	para "Tôi thấy thương"
-	line "#MON anh ấy."
+	para "I felt sorry for"
+	line "his #MON."
 	done
 
 CooltrainerfBeth1BeatenText:
-	text "#MON không phải"
-	line "công cụ chiến đấu"
+	text "#MON aren't"
+	line "tools of war."
 	done
 
 CooltrainerfBethAfterText:
-	text "#MON là bạn"
-	line "đồng hành vô giá"
-	cont "suốt đời."
+	text "#MON are in-"
+	line "valuable, lifelong"
+	cont "partners."
 	done
 
 PsychicRichardSeenText:
-	text "Ồ, nhìn kìa, bao"
-	line "nhiêu HUY HIỆU!"
-	cont "Ấn tượng đấy."
+	text "Wow, look at all"
+	line "those BADGES!"
+	cont "I'm impressed."
 
-	para "Nhưng bạn không"
-	line "chỉ thỏa mãn với"
+	para "But you're not"
+	line "satisfied by just"
 
-	para "việc sưu tầm,"
-	line "đúng không?"
+	para "collecting them,"
+	line "right?"
 	done
 
 PsychicRichardBeatenText:
-	text "Trận hay!"
+	text "Good battle!"
 	done
 
 PsychicRichardAfterBattleText:
-	text "Người và #MON"
-	line "lớn lên từ trải"
-	cont "nghiệm của mình."
+	text "People and #MON"
+	line "grow from their"
+	cont "experiences."
 
-	para "Đừng lười biếng"
-	line "và tự mãn."
+	para "Don't get lazy and"
+	line "complacent."
 	done
 
 FisherScottSeenText:
-	text "Hôm nay tôi cảm"
-	line "thấy tuyệt!"
+	text "I'm feeling great"
+	line "today!"
 
-	para "Tôi cảm thấy có"
-	line "thể đá bay cả"
-	cont "NHÀ V.ĐỊCH!"
+	para "I feel like I"
+	line "could boot even"
+	cont "the LEAGUE CHAMP!"
 	done
 
 FisherScottBeatenText:
-	text "Không! Không phải"
-	line "trong trận này!"
+	text "No! Not in this"
+	line "battle!"
 	done
 
 FisherScottAfterBattleText:
-	text "Giống như câu cá,"
-	line "mọi thứ kết thúc"
+	text "Just like in fish-"
+	line "ing, it's all over"
 
-	para "trong #MON nếu"
-	line "bạn bỏ cuộc."
+	para "in #MON if you"
+	line "give up."
 	done
 
 Route26SignText:
-	text "TUYẾN ĐƯỜNG 26"
+	text "ROUTE 26"
 
-	para "CỔNG TIẾP TÂN"
-	line "LIÊN MINH #MON"
+	para "#MON LEAGUE"
+	line "RECEPTION GATE"
 	done
 
 Route26_MapEvents:

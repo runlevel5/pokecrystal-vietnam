@@ -69,7 +69,15 @@ ShowPlayerNamingChoices:
 	call CloseWindow
 	ret
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/player_names.asm"
+
+else
+
 INCLUDE "data/player_names.asm"
+
+endc
 
 GetPlayerNameArray: ; unreferenced
 	ld hl, wPlayerName
@@ -118,7 +126,11 @@ KrisCardPic:
 INCBIN "gfx/trainer_card/kris_card.2bpp"
 
 TrainerCardGFX:
+if DEF(_CRYSTAL_VN)
+INCBIN "versions/crystal-vn/gfx/trainer_card/trainer_card.2bpp"
+else
 INCBIN "gfx/trainer_card/trainer_card.2bpp"
+endc
 
 GetPlayerBackpic:
 	ld a, [wPlayerGender]

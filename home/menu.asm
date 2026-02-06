@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/home/menu.asm"
+else
+
 Load2DMenuData::
 	push hl
 	push bc
@@ -416,7 +420,7 @@ CopyNameFromMenu::
 	ret
 
 YesNoBox::
-	lb bc, SCREEN_WIDTH - 8, 7
+	lb bc, SCREEN_WIDTH - 6, 7
 
 PlaceYesNoBox::
 	jr _YesNoBox
@@ -434,15 +438,15 @@ _YesNoBox::
 ; This seems to be an overflow prevention,
 ; but it was coded wrong.
 	ld a, b
-	cp SCREEN_WIDTH - 1 - 7
+	cp SCREEN_WIDTH - 1 - 5
 	jr nz, .okay ; should this be "jr nc"?
-	ld a, SCREEN_WIDTH - 1 - 7
+	ld a, SCREEN_WIDTH - 1 - 5
 	ld b, a
 
 .okay
 	ld a, b
 	ld [wMenuBorderLeftCoord], a
-	add 7
+	add 5
 	ld [wMenuBorderRightCoord], a
 	ld a, c
 	ld [wMenuBorderTopCoord], a
@@ -472,15 +476,15 @@ InterpretTwoOptionMenu::
 
 YesNoMenuHeader::
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 10, 5, 17, 9
+	menu_coords 10, 5, 15, 9
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2
-	db "CÓ@"
-	db "KHÔNG@"
+	db "YES@"
+	db "NO@"
 
 OffsetMenuHeader::
 	call _OffsetMenuHeader
@@ -848,3 +852,5 @@ InterpretMobileMenu:: ; unreferenced
 	farcall _InterpretMobileMenu
 	ld a, [wMenuCursorPosition]
 	ret
+
+endc

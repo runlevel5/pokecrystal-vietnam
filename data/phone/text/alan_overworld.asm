@@ -1,71 +1,71 @@
 AlanAskNumber1Text:
-	text "Đọc sách giáo khoa"
-	line "bổ ích thỉnh"
-	cont "thoảng."
+	text "Reading textbooks"
+	line "is worthwhile"
+	cont "every so often."
 
-	para "Khi đọc sách và"
-	line "đi bộ, tớ phải"
-	cont "nhìn xuống."
+	para "When I'm reading"
+	line "and walking, I"
+	cont "have to look down."
 
-	para "Nên tớ thấy đồ"
-	line "trên mặt đất."
+	para "So I notice items"
+	line "on the ground."
 
-	para "Lần sau tìm thấy"
-	line "gì, tớ sẽ cho"
-	cont "cậu."
+	para "Next time I find"
+	line "something, I'll"
+	cont "give it to you."
 
-	para "Cho tớ số điện"
-	line "thoại nhé?"
+	para "May I have your"
+	line "phone number?"
 	done
 
 AlanAskNumber2Text:
-	text "Nếu tớ tìm thấy"
-	line "gì, là của cậu."
+	text "If I find some-"
+	line "thing, it's yours."
 
-	para "Vậy cho tớ số"
-	line "điện thoại nhé?"
+	para "So may I have your"
+	line "phone number?"
 	done
 
 AlanNumberAcceptedText:
-	text "Tớ sẽ gọi ngay khi"
-	line "tìm thấy gì đó."
+	text "I'll call you as"
+	line "soon as I find"
 
-	para "Cậu cứ yên tâm"
-	line "nhé!"
+	para "something. You can"
+	line "count on it!"
 	done
 
 AlanNumberDeclinedText:
-	text "Ồ… tớ nghĩ sẽ"
-	line "tốt nếu gọi cho"
+	text "Oh… I thought it"
+	line "would be a good"
 
-	para "cậu khi tớ đang"
-	line "học…"
+	para "break to call you"
+	line "when I'm studying…"
 	done
 
 AlanPhoneFullText:
-	text "Không còn chỗ cho"
-	line "số của tớ."
+	text "There's no room"
+	line "for my number."
 	done
 
 AlanRematchText:
-	text "Tớ đợi cậu mãi"
-	line "rồi!"
+	text "I waited around"
+	line "for you!"
 
-	para "Hôm nay tớ chuẩn"
-	line "bị kỹ càng rồi!"
+	para "I'm thoroughly"
+	line "prepared today!"
 	done
 
 AlanGiftText:
-	text "Này, này! Của cậu"
-	line "đây! Ta-da!"
+	text "This, this! This"
+	line "is yours! Ta-da!"
 	done
 
 AlanPackFullText:
-	text "Ối!"
+	text "Whoops!"
 
-	para "Cậu không thể mang"
-	line "thêm đồ nữa!"
+	para "You can't carry"
+	line "any more items!"
 
-	para "Tớ giữ đến lần"
-	line "sau vậy."
+	para "I'll hold it until"
+	line "next time."
 	done

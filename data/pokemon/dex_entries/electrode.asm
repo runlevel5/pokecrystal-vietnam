@@ -1,10 +1,10 @@
-	db "QUẢ CẦU@" ; species name
-	dw 12, 666 ; height, weight
+	db "BALL@" ; species name
+	dw 311, 1470 ; height, weight
 
-	db   "Càng tích điện,"
-	next "nó càng nhanh."
-	next "Nhưng điều này"
+	db   "The more energy it"
+	next "charges up, the"
+	next "faster it gets."
 
-	page "cũng khiến nó"
-	next "dễ phát nổ hơn.@"
-	next "@"
+	page "But this also"
+	next "makes it more"
+	next "likely to explode.@"

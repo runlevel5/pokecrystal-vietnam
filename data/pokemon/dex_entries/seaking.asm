@@ -1,10 +1,10 @@
-	db "CÁ VÀNG@" ; species name
-	dw 13, 390 ; height, weight
+	db "GOLDFISH@" ; species name
+	dw 403, 860 ; height, weight
 
-	db   "Mùa thu đến, con"
-	next "đực tuần tra"
-	next "quanh tổ để bảo"
+	db   "When autumn comes,"
+	next "the males patrol"
+	next "the area around"
 
-	page "vệ con non.@"
-	next "@"
-	next "@"
+	page "their nests in"
+	next "order to protect"
+	next "their offspring.@"

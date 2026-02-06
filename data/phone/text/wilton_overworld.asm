@@ -1,60 +1,61 @@
 WiltonAskNumber1Text:
-	text "Eh, trận đấu của"
-	line "chúng ta vui đấy…"
+	text "Eh, our battle was"
+	line "fun, I'd say…"
 
-	para "Khi tớ câu cá, tớ"
-	line "thỉnh thoảng câu"
+	para "When I'm fishing,"
+	line "I sometimes snag"
 
-	para "được đồ mà người"
-	line "ta đánh rơi."
+	para "items that people"
+	line "have dropped."
 
-	para "Cậu muốn chúng?"
-	line "SĐT là gì?"
+	para "Do you want them?"
+	line "What's the number?"
 	done
 
 WiltonAskNumber2Text:
-	text "Nếu tớ câu được"
-	line "vật phẩm khi câu,"
+	text "If I snag an item"
+	line "while I'm fishing,"
 
-	para "nó là của cậu. SĐT"
-	line "cậu là gì?"
+	para "it's yours. What's"
+	line "your number?"
 	done
 
 WiltonNumberAcceptedText:
-	text "Nếu tớ câu được"
-	line "thứ tốt, tớ chắc"
-	cont "chắn sẽ báo cậu."
+	text "If I snag anything"
+	line "good, I'll be sure"
+	cont "to let you know."
 	done
 
 WiltonNumberDeclinedText:
-	text "Được rồi… Quay"
-	line "lại nếu cậu đổi ý"
+	text "All right… Come"
+	line "back if you have a"
+	cont "change of heart."
 	done
 
 WiltonPhoneFullText:
-	text "Cậu không thể đăng"
-	line "ký thêm số nữa."
+	text "You can't register"
+	line "another number."
 	done
 
 WiltonRematchText:
-	text "Argh! Cậu làm"
-	line "POLIWAG bỏ chạy"
-	cont "rồi!"
+	text "Argh! You startled"
+	line "POLIWAG into"
+	cont "fleeing again!"
 	done
 
 WiltonGiftText:
-	text "Cậu đến rồi đây."
+	text "So here you are."
 
-	para "Thấy không?"
-	line "Tớ câu được nó"
+	para "See this?"
+	line "I snagged it just"
 
-	para "cách đây ít lâu."
-	line "Nó là của cậu."
+	para "a little while"
+	line "ago. It's yours."
 	done
 
 WiltonPackFullText:
-	text "BA LÔ cậu đầy?"
+	text "Your PACK's full?"
 
-	para "Tớ sẽ cho cậu"
-	line "sau."
+	para "I'll give it to"
+	line "you later."
 	done

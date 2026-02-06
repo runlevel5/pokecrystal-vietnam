@@ -313,113 +313,114 @@ Route45HiddenPpUp:
 	hiddenitem PP_UP, EVENT_ROUTE_45_HIDDEN_PP_UP
 
 HikerErikSeenText:
-	text "Hãy chuẩn bị cho"
-	line "mọi tình huống!"
+	text "Be prepared for"
+	line "anything!"
 
-	para "Để tôi xem #-"
-	line "MON của cậu được"
-	cont "nuôi tử tế chưa!"
+	para "Let me see if your"
+	line "#MON have been"
+	cont "raised properly!"
 	done
 
 HikerErikBeatenText:
-	text "Ôi, tôi thua rồi!"
+	text "Oh, I lost that!"
 	done
 
 HikerErikAfterBattleText:
-	text "Tôi sẽ về ĐỘI BĂNG"
-	line "BLACKTHORN và tập"
+	text "I'll head back to"
+	line "BLACKTHORN's ICE"
 
-	para "luyện thêm."
+	para "PATH and train"
+	line "some more."
 	done
 
 HikerMichaelSeenText:
-	text "Ồ! Cậu hăng hái!"
-	line "Nhưng biết không?"
+	text "Yo! You're spunky!"
+	line "But you know what?"
 
-	para "Khi nói đến sự"
-	line "hăng hái thực sự,"
-	cont "tôi mới là cao"
-	cont "thủ!"
+	para "When it comes to"
+	line "sheer spunkiness,"
+	cont "I'm the man!"
 	done
 
 HikerMichaelBeatenText:
-	text "#MON của tôi"
-	line "chưa đủ hăng!"
+	text "My #MON weren't"
+	line "spunky enough!"
 	done
 
 HikerMichaelAfterBattleText:
-	text "Trời, tôi thích"
-	line "HP UP quá! Ngon!"
+	text "Boy, do I love"
+	line "HP UP! Mmmm, yum!"
 
-	para "Tôi cứ uống của"
-	line "#MON mình hoài!"
+	para "I keep drinking my"
+	line "#MON's!"
 
-	para "Tôi không chịu"
-	line "nổi!"
+	para "I can't help it!"
 	done
 
 HikerParry3SeenText:
-	text "#MON tôi tràn"
-	line "đầy sức mạnh!"
+	text "My #MON are"
+	line "power packed!"
 	done
 
 HikerParry3BeatenText:
-	text "Wahahah! Tôi là"
-	line "người thua lớn!"
+	text "Wahahah! I'm the"
+	line "big loser!"
 	done
 
 HikerParryAfterBattleText:
-	text "Tôi không giỏi"
-	line "suy nghĩ lắm đâu."
+	text "I'm not much good"
+	line "at thinking, see?"
 
-	para "Nên tôi chỉ lao"
-	line "thẳng bằng sức!"
+	para "So, I just plow"
+	line "ahead with power!"
 	done
 
 HikerTimothySeenText:
-	text "Tại sao tôi leo"
-	line "núi?"
+	text "Why do I climb"
+	line "mountains?"
 
-	para "Vì chúng ở đó."
+	para "Because they're"
+	line "there."
 
-	para "Tại sao tôi huấn"
-	line "luyện #MON?"
+	para "Why do I train"
+	line "#MON?"
 
-	para "Vì chúng ở đó!"
+	para "Because they're"
+	line "there!"
 	done
 
 HikerTimothyBeatenText:
-	text "Thua cuộc…"
-	line "Chúng cũng ở đó!"
+	text "Losses…"
+	line "They're there too!"
 	done
 
 HikerTimothyAfterBattleText:
-	text "Điều tốt nhất từng"
-	line "xảy ra với tôi"
+	text "The best thing to"
+	line "ever happen to me"
 
-	para "là khám phá ra"
+	para "was discovering"
 	line "#MON."
 	done
 
 HikerParryGivesIronText:
-	text "Tôi không tìm ra"
-	line "cách chiến thắng!"
+	text "I just can't find"
+	line "a way to win!"
 
-	para "Cứ cố lên nhé!"
+	para "Keep it up!"
 
-	para "Ồ, và lấy cái"
-	line "này--đây là quà"
+	para "Oh, and take this"
+	line "--it's the gift"
 
-	para "cậu không thể nhận"
-	line "lần trước."
+	para "you couldn't take"
+	line "when we last met."
 	done
 
 BlackbeltKenji3SeenText:
-	text "Tôi đã tập một"
-	line "mình ở đây."
+	text "I was training"
+	line "here alone."
 
-	para "Hãy xem thành quả"
-	line "của tôi!"
+	para "Behold the fruits"
+	line "of my labor!"
 	done
 
 BlackbeltKenji3BeatenText:
@@ -427,109 +428,105 @@ BlackbeltKenji3BeatenText:
 	done
 
 BlackbeltKenjiAfterBattleText:
-	text "Việc này cần biện"
-	line "pháp đặc biệt."
+	text "This calls for"
+	line "extreme measures."
 
-	para "Tôi phải lên núi"
-	line "và tập luyện trong"
-	cont "cô độc."
+	para "I must take to the"
+	line "hills and train in"
+	cont "solitude."
 	done
 
 BlackbeltKenjiMorningText:
-	text "Tôi sẽ tập thêm"
-	line "chút trước khi"
-	cont "nghỉ ăn trưa."
+	text "I'm going to train"
+	line "a bit more before"
+	cont "I break for lunch."
 	done
 
 BlackbeltKenjiNightText:
-	text "Chúng tôi đã nghỉ"
-	line "đủ lúc ăn trưa,"
+	text "We had plenty of"
+	line "rest at lunch, so"
 
-	para "nên giờ sẵn sàng"
-	line "tiếp tục rồi!"
+	para "now we're all"
+	line "ready to go again!"
 
-	para "Chúng tôi sẽ tập"
-	line "luyện tiếp!"
+	para "We're going to"
+	line "train again!"
 	done
 
 CooltrainermRyanSeenText:
-	text "Cậu nghĩ sao về"
-	line "việc nuôi dưỡng"
-	cont "#MON?"
+	text "What are your"
+	line "thoughts on rais-"
+	cont "ing #MON?"
 	done
 
 CooltrainermRyanBeatenText:
-	text "Cậu giành được sự"
-	line "tôn trọng của tôi."
+	text "You've won my"
+	line "respect."
 	done
 
 CooltrainermRyanAfterBattleText:
-	text "Tôi thấy cậu đang"
-	line "nuôi #MON với"
-	cont "cẩn thận."
+	text "I see you're rais-"
+	line "ing your #MON"
+	cont "with care."
 
-	para "Mối liên kết cậu"
-	line "xây dựng sẽ cứu"
-	cont "cậu trong tình"
-	cont "huống khó khăn."
+	para "The bond you build"
+	line "will save you in"
+	cont "tough situations."
 	done
 
 CooltrainerfKellySeenText:
-	text "Chiến thuật chiến"
-	line "đấu của cậu là"
-	cont "gì?"
+	text "What is your"
+	line "battle strategy?"
 
-	para "Dùng chiêu mạnh"
-	line "bừa bãi là ngu"
-	cont "ngốc."
+	para "It is foolish to"
+	line "use strong moves"
+	cont "indiscriminately."
 	done
 
 CooltrainerfKellyBeatenText:
-	text "Được. Tôi thua."
+	text "Fine. I lost."
 	done
 
 CooltrainerfKellyAfterBattleText:
-	text "Tôi không ủng hộ"
-	line "các chiêu quá"
-	cont "mạnh."
+	text "I'm not in favor"
+	line "of overly power-"
+	cont "ful moves."
 
-	para "Tôi muốn thắng,"
-	line "nhưng cũng không"
-	cont "muốn làm hại"
-	cont "#MON."
+	para "I want to win, but"
+	line "I also don't want"
+	cont "to harm #MON."
 	done
 
 Route45DummyText:
-	text "Tôi thực sự,"
-	line "thực sự mạnh!"
+	text "I'm really, really"
+	line "tough!"
 
-	para "Có chỗ nào để tôi"
-	line "chứng minh mình"
-	cont "mạnh thế nào không"
-	cont "nhỉ?"
+	para "Is there anywhere"
+	line "I can prove how"
+	cont "tough I really am?"
 	done
 
 CamperQuentinSeenText:
-	text "Tôi thực sự,"
-	line "thực sự mạnh!"
+	text "I'm really, really"
+	line "tough!"
 	done
 
 CamperQuentinBeatenText:
-	text "Tôi mạnh ở THÁP"
-	line "ĐẤU mà…"
+	text "I was tough at the"
+	line "BATTLE TOWER…"
 	done
 
 CamperQuentinAfterBattleText:
-	text "Cậu đã đến THÁP"
-	line "ĐẤU chưa?"
+	text "Have you been to"
+	line "the BATTLE TOWER?"
 
-	para "Tôi không bao giờ"
-	line "thua ở đó, nhưng…"
+	para "I never, ever lose"
+	line "there, but…"
 	done
 
 Route45SignText:
-	text "TUYẾN ĐƯỜNG 45"
-	line "ĐỐI DIỆN NÚI PHI"
+	text "ROUTE 45"
+	line "MOUNTAIN RD. AHEAD"
 	done
 
 Route45_MapEvents:

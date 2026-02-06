@@ -1,133 +1,136 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/text/std_text.asm"
+else
+
 NurseMornText:
-	text "Chào buổi sáng!"
-	line "Chào mừng đến"
-	cont "T.TÂM #MON."
+	text "Good morning!"
+	line "Welcome to our"
+	cont "#MON CENTER."
 	done
 
 NurseDayText:
-	text "Xin chào!"
-	line "Chào mừng đến"
-	cont "T.TÂM #MON."
+	text "Hello!"
+	line "Welcome to our"
+	cont "#MON CENTER."
 	done
 
 NurseNiteText:
-	text "Chào buổi tối!"
-	line "Bạn ra muộn thế."
+	text "Good evening!"
+	line "You're out late."
 
-	para "Chào mừng đến"
-	line "T.TÂM #MON."
+	para "Welcome to our"
+	line "#MON CENTER."
 	done
 
 PokeComNurseMornText:
-	text "Chào buổi sáng!"
+	text "Good morning!"
 
-	para "Đây là T.TÂM"
-	line "LIÊN LẠC #MON"
+	para "This is the #-"
+	line "MON COMMUNICATION"
 
-	para "--hay gọi là"
-	line "T.TÂM #COM."
+	para "CENTER--or the"
+	line "#COM CENTER."
 	done
 
 PokeComNurseDayText:
-	text "Xin chào!"
+	text "Hello!"
 
-	para "Đây là T.TÂM"
-	line "LIÊN LẠC #MON"
+	para "This is the #-"
+	line "MON COMMUNICATION"
 
-	para "--hay gọi là"
-	line "T.TÂM #COM."
+	para "CENTER--or the"
+	line "#COM CENTER."
 	done
 
 PokeComNurseNiteText:
-	text "Vui thấy bạn"
-	line "làm việc khuya."
+	text "Good to see you"
+	line "working so late."
 
-	para "Đây là T.TÂM"
-	line "LIÊN LẠC #MON"
+	para "This is the #-"
+	line "MON COMMUNICATION"
 
-	para "--hay gọi là"
-	line "T.TÂM #COM."
+	para "CENTER--or the"
+	line "#COM CENTER."
 	done
 
 NurseAskHealText:
-	text "Chúng tôi có"
-	line "thể hồi phục"
-	cont "#MON của bạn."
+	text "We can heal your"
+	line "#MON to perfect"
+	cont "health."
 
-	para "Bạn có muốn hồi"
-	line "phục #MON?"
+	para "Shall we heal your"
+	line "#MON?"
 	done
 
 NurseTakePokemonText:
-	text "OK, cho tôi xem"
-	line "#MON nhé?"
+	text "OK, may I see your"
+	line "#MON?"
 	done
 
 NurseReturnPokemonText:
-	text "Cảm ơn bạn đã"
-	line "chờ đợi."
+	text "Thank you for"
+	line "waiting."
 
-	para "#MON của bạn"
-	line "đã hồi phục."
+	para "Your #MON are"
+	line "fully healed."
 	done
 
 NurseGoodbyeText:
-	text "Hy vọng gặp lại"
-	line "bạn."
+	text "We hope to see you"
+	line "again."
 	done
 
 ; not used
-	text "Hy vọng gặp lại"
-	line "bạn."
+	text "We hope to see you"
+	line "again."
 	done
 
 NursePokerusText:
-	text "#MON của bạn"
-	line "có vẻ đã bị"
+	text "Your #MON"
+	line "appear to be"
 
-	para "nhiễm vi sinh"
-	line "vật nhỏ."
+	para "infected by tiny"
+	line "life forms."
 
-	para "#MON của bạn"
-	line "khỏe mạnh và"
-	cont "có vẻ ổn."
+	para "Your #MON are"
+	line "healthy and seem"
+	cont "to be fine."
 
-	para "Nhưng chúng tôi"
-	line "không nói gì"
+	para "But we can't tell"
+	line "you anything more"
 
-	para "thêm ở T.TÂM"
-	line "#MON."
+	para "at a #MON"
+	line "CENTER."
 	done
 
 PokeComNursePokerusText:
-	text "#MON của bạn"
-	line "có vẻ đã bị"
+	text "Your #MON"
+	line "appear to be"
 
-	para "nhiễm vi sinh"
-	line "vật nhỏ."
+	para "infected by tiny"
+	line "life forms."
 
-	para "#MON của bạn"
-	line "khỏe mạnh và"
-	cont "có vẻ ổn."
+	para "Your #MON are"
+	line "healthy and seem"
+	cont "to be fine."
 
-	para "Nhưng chúng tôi"
-	line "không nói gì"
-	cont "thêm được."
+	para "But we can't tell"
+	line "you anything more."
 	done
 
 DifficultBookshelfText:
-	text "Đầy sách"
-	line "khó hiểu."
+	text "It's full of"
+	line "difficult books."
 	done
 
 PictureBookshelfText:
-	text "Cả bộ sưu tập"
-	line "sách tranh"
-	cont "#MON!"
+	text "A whole collection"
+	line "of #MON picture"
+	cont "books!"
 	done
 
 MagazineBookshelfText:
-	text "Tạp chí #MON…"
+	text "#MON magazines…"
 	line "#MON PAL,"
 
 	para "#MON HANDBOOK,"
@@ -135,255 +138,257 @@ MagazineBookshelfText:
 	done
 
 TeamRocketOathText:
-	text "LỜI THỀ ROCKET"
+	text "TEAM ROCKET OATH"
 
-	para "Ăn cắp #MON"
-	line "để kiếm lời!"
+	para "Steal #MON for"
+	line "profit!"
 
-	para "Bóc lột #MON"
-	line "để kiếm lời!"
+	para "Exploit #MON"
+	line "for profit!"
 
-	para "Mọi #MON tồn"
-	line "tại vì vinh"
-	cont "quang ROCKET!"
+	para "All #MON exist"
+	line "for the glory of"
+	cont "TEAM ROCKET!"
 	done
 
 IncenseBurnerText:
-	text "Cái gì đây?"
+	text "What is this?"
 
-	para "À, đó là lư"
-	line "đốt hương!"
+	para "Oh, it's an"
+	line "incense burner!"
 	done
 
 MerchandiseShelfText:
-	text "Nhiều hàng hóa"
-	line "#MON!"
+	text "Lots of #MON"
+	line "merchandise!"
 	done
 
 LookTownMapText:
-	text "Đây là BẢN ĐỒ."
+	text "It's the TOWN MAP."
 	done
 
 WindowText:
-	text "Bóng của tôi!"
-	line "Trông đẹp đấy!"
+	text "My reflection!"
+	line "Lookin' good!"
 	done
 
 TVText:
-	text "Đây là TV."
+	text "It's a TV."
 	done
 
 HomepageText:
-	text "TRANG CHỦ"
-	line "BÁO #MON…"
+	text "#MON JOURNAL"
+	line "HOME PAGE…"
 
-	para "Chưa được"
-	line "cập nhật…"
+	para "It hasn't been"
+	line "updated…"
 	done
 
 ; not used
-	text "ĐÀI #MON!"
+	text "#MON RADIO!"
 
-	para "Gọi điện gửi"
-	line "yêu cầu ngay!"
+	para "Call in with your"
+	line "requests now!"
 	done
 
 TrashCanText:
-	text "Không có gì"
-	line "ở đây…"
+	text "There's nothing in"
+	line "here…"
 	done
 
 ; not used
-	text "Có thể #MON"
-	line "dời được này."
+	text "A #MON may be"
+	line "able to move this."
 	done
 
 ; not used
-	text "Có thể #MON"
-	line "phá được này."
+	text "Maybe a #MON"
+	line "can break this."
 	done
 
 PokecenterSignText:
-	text "Phục hồi #MON!"
-	line "T.TÂM #MON"
+	text "Heal Your #MON!"
+	line "#MON CENTER"
 	done
 
 MartSignText:
-	text "Mọi Thứ Cho"
-	line "#MON Của Bạn"
+	text "For All Your"
+	line "#MON Needs"
 
-	para "C.HÀNG #MART"
+	para "#MON MART"
 	done
 
 ContestResults_ReadyToJudgeText:
-	text "Giờ chúng tôi"
-	line "sẽ đánh giá"
-	cont "#MON bạn bắt."
+	text "We will now judge"
+	line "the #MON you've"
+	cont "caught."
 
 	para "<……>"
 	line "<……>"
 
-	para "Chúng tôi đã"
-	line "chọn người thắng!"
+	para "We have chosen the"
+	line "winners!"
 
-	para "Bạn sẵn sàng"
-	line "chưa?"
+	para "Are you ready for"
+	line "this?"
 	done
 
 ContestResults_PlayerWonAPrizeText:
-	text "<PLAYER>, hạng @"
+	text "<PLAYER>, the No.@"
 	text_ram wStringBuffer3
 	text_start
-	line "thắng giải"
+	line "finisher, wins"
 	cont "@"
 	text_ram wStringBuffer4
 	text "!"
 	done
 
 ReceivedItemText:
-	text "<PLAYER> nhận"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 ContestResults_JoinUsNextTimeText:
-	text "Hãy tham gia"
-	line "Cuộc Thi tới!"
+	text "Please join us for"
+	line "the next Contest!"
 	done
 
 ContestResults_ConsolationPrizeText:
-	text "Người khác"
-	line "nhận BERRY làm"
-	cont "giải an ủi!"
+	text "Everyone else gets"
+	line "a BERRY as a con-"
+	cont "solation prize!"
 	done
 
 ContestResults_DidNotWinText:
-	text "Hy vọng bạn làm"
-	line "tốt hơn lần sau."
+	text "We hope you do"
+	line "better next time."
 	done
 
 ContestResults_ReturnPartyText:
-	text "Chúng tôi trả"
-	line "lại #MON mà"
+	text "We'll return the"
+	line "#MON we kept"
 
-	para "chúng tôi giữ."
-	line "Đây của bạn!"
+	para "for you."
+	line "Here you go!"
 	done
 
 ContestResults_PartyFullText:
-	text "Đội bạn đầy,"
-	line "nên #MON đã"
+	text "Your party's full,"
+	line "so the #MON was"
 
-	para "gửi vào BOX PC"
-	line "của BILL."
+	para "sent to your BOX"
+	line "in BILL's PC."
 	done
 
 GymStatue_CityGymText:
 	text_ram wStringBuffer3
 	text_start
-	line "GYM #MON"
+	line "#MON GYM"
 	done
 
 GymStatue_WinningTrainersText:
-	text "QUÁN QUÂN: @"
+	text "LEADER: @"
 	text_ram wStringBuffer4
 	text_start
-	para "NGƯỜI THẮNG:"
+	para "WINNING TRAINERS:"
 	line "<PLAYER>"
 	done
 
 CoinVendor_WelcomeText:
-	text "Chào mừng đến"
-	line "KHU TRÒ CHƠI."
+	text "Welcome to the"
+	line "GAME CORNER."
 	done
 
 CoinVendor_NoCoinCaseText:
-	text "Bạn cần xu chơi"
-	line "game không?"
+	text "Do you need game"
+	line "coins?"
 
-	para "Ồ, bạn không có"
-	line "HỘP XU để đựng"
-	cont "xu."
+	para "Oh, you don't have"
+	line "a COIN CASE for"
+	cont "your coins."
 	done
 
 CoinVendor_IntroText:
-	text "Bạn cần xu chơi"
-	line "game không?"
+	text "Do you need some"
+	line "game coins?"
 
-	para "¥1000 cho 50 xu."
-	line "Bạn có muốn"
-	cont "mua không?"
+	para "It costs ¥1000 for"
+	line "50 coins. Do you"
+	cont "want some?"
 	done
 
 CoinVendor_Buy50CoinsText:
-	text "Cảm ơn!"
-	line "Đây là 50 xu."
+	text "Thank you!"
+	line "Here are 50 coins."
 	done
 
 CoinVendor_Buy500CoinsText:
-	text "Cảm ơn! Đây"
-	line "là 500 xu."
+	text "Thank you! Here"
+	line "are 500 coins."
 	done
 
 CoinVendor_NotEnoughMoneyText:
-	text "Bạn không có"
-	line "đủ tiền."
+	text "You don't have"
+	line "enough money."
 	done
 
 CoinVendor_CoinCaseFullText:
-	text "Ối! HỘP XU"
-	line "của bạn đầy."
+	text "Whoops! Your COIN"
+	line "CASE is full."
 	done
 
 CoinVendor_CancelText:
-	text "Không mua xu à?"
-	line "Hẹn gặp lại!"
+	text "No coins for you?"
+	line "Come again!"
 	done
 
 BugContestPrizeNoRoomText:
-	text "Ồ? TÚI của bạn"
-	line "đầy rồi."
+	text "Oh? Your PACK is"
+	line "full."
 
-	para "Chúng tôi giữ"
-	line "cái này hôm nay,"
+	para "We'll keep this"
+	line "for you today, so"
 
-	para "quay lại khi"
-	line "bạn có chỗ."
+	para "come back when you"
+	line "make room for it."
 	done
 
 HappinessText3:
-	text "Wow! Bạn và"
-	line "#MON thực sự"
-	cont "rất thân!"
+	text "Wow! You and your"
+	line "#MON are really"
+	cont "close!"
 	done
 
 HappinessText2:
-	text "#MON sẽ thân"
-	line "thiện hơn nếu"
+	text "#MON get more"
+	line "friendly if you"
 
-	para "bạn dành thời"
-	line "gian với chúng."
+	para "spend time with"
+	line "them."
 	done
 
 HappinessText1:
-	text "Bạn chưa thuần"
-	line "hóa #MON."
+	text "You haven't tamed"
+	line "your #MON."
 
-	para "Nếu bạn không"
-	line "tốt, nó sẽ giận."
+	para "If you aren't"
+	line "nice, it'll pout."
 	done
 
 RegisteredNumber1Text:
-	text "<PLAYER> lưu số"
-	line "của @"
+	text "<PLAYER> registered"
+	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text "'s number."
 	done
 
 RegisteredNumber2Text:
-	text "<PLAYER> lưu số"
-	line "của @"
+	text "<PLAYER> registered"
+	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text "'s number."
 	done
+
+endc

@@ -1,10 +1,10 @@
-	db "HẠT GIỐNG@" ; species name
-	dw 20, 1000 ; height, weight
+	db "SEED@" ; species name
+	dw 607, 2210 ; height, weight
 
-	db   "Khi sưởi ấm và"
-	next "hấp thụ ánh nắng,"
-	next "cánh hoa của nó"
+	db   "As it warms it-"
+	next "self and absorbs"
+	next "the sunlight, its"
 
-	page "tỏa ra hương"
-	next "thơm dễ chịu.@"
-	next "@"
+	page "flower petals"
+	next "release a pleasant"
+	next "fragrance.@"

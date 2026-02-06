@@ -1,71 +1,70 @@
 ToddAnswerPhoneText:
-	text "Vâng? Đây là"
+	text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây."
+	text " speaking."
 
-	para "Này, <PLAY_G>!"
+	para "Hey, <PLAY_G>!"
 	done
 
 ToddAnswerPhoneDayText:
-	text "Vâng? Đây là"
+	text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây."
+	text " speaking."
 
-	para "Hẳn là"
-	line "<PLAY_G> rồi."
+	para "This must be"
+	line "<PLAY_G>."
 	done
 
 ToddAnswerPhoneNiteText:
-	text "Vâng? Đây là"
+	text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây."
+	text " speaking."
 
 	para "Ah, <PLAY_G>!"
 	done
 
 ToddGreetText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Là <PLAY_G>,"
-	line "đúng không?"
+	para "<PLAY_G>, right?"
 	done
 
 ToddGreetDayText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAY_G>, cậu đang"
-	line "làm gì vậy?"
+	para "<PLAY_G>, what are"
+	line "you doing?"
 	done
 
 ToddGreetNiteText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "<PLAY_G>, xin lỗi"
-	line "vì gọi muộn quá."
+	para "<PLAY_G>, sorry to"
+	line "call you so late."
 	done
 
 ToddGenericText:
-	text "Cậu nuôi #MON"
-	line "như thế nào?"
+	text "How do you raise"
+	line "your #MON?"
 
-	para "Tớ làm đủ thứ,"
-	line "như là"
+	para "I do all sorts"
+	line "of things, like"
 
-	para "để chúng ở"
-	line "NHÀ TRẺ và"
+	para "leaving them in"
+	line "DAY-CARE and"
 
-	para "cho chúng dùng"
-	line "vật phẩm mạnh."
+	para "toughening them up"
+	line "with items."
 	done

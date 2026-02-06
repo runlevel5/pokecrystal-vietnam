@@ -1,10 +1,10 @@
-	db "DÂY LEO@" ; species name
-	dw 10, 350 ; height, weight
+	db "VINE@" ; species name
+	dw 303, 770 ; height, weight
 
-	db   "Trong chiến đấu,"
-	next "nó liên tục di"
-	next "chuyển đám dây"
+	db   "During battle, it"
+	next "constantly moves"
+	next "the vines that"
 
-	page "leo phủ thân để"
-	next "làm đối thủ"
-	next "bực mình.@"
+	page "cover its body in"
+	next "order to annoy its"
+	next "opponent.@"

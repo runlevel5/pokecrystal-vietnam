@@ -37,41 +37,40 @@ HikerJimSeenText:
 	done
 
 HikerJimBeatenText:
-	text "Hahaha-hắt hơi!"
+	text "Hahaha-hachoo!"
 	done
 
 HikerJimAfterBattleText:
-	text "Sốt cỏ khô khiến"
-	line "tôi hắt hơi!"
-	cont "Ahahah-HẮT!"
+	text "Hay fever is"
+	line "making me sneeze!"
+	cont "Ahahah-CHOO!"
 	done
 
 PokefanmRobertSeenText:
-	text "Bạn cũng thích"
-	line "#MON, phải hôn?"
+	text "You like #MON,"
+	line "don't you?"
 
-	para "Tôi cũng thế!"
+	para "Me too!"
 	done
 
 PokefanmRobertBeatenText:
-	text "Đó là thất bại"
-	line "của tôi."
+	text "I'd have to say"
+	line "that's my loss."
 	done
 
 PokefanmRobertAfterBattleText:
-	text "Nhìn điều bạn vừa"
-	line "làm #MON tôi…"
+	text "Look what you did"
+	line "to my #MON…"
 
-	para "Tôi sẽ không bao"
-	line "giờ quên chuyện"
-	cont "này…"
+	para "I won't forget"
+	line "this…"
 	done
 
 Route10SignText:
-	text "TUYẾN ĐƯỜNG 10"
+	text "ROUTE 10"
 
-	para "TP. CERULEAN -"
-	line "THỊ TRẤN LAVENDER"
+	para "CERULEAN CITY -"
+	line "LAVENDER TOWN"
 	done
 
 Route10South_MapEvents:

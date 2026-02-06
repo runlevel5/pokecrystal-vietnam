@@ -22,27 +22,27 @@ OlivinePokecenter1FTeacherScript:
 	jumptextfaceplayer OlivinePokecenter1FTeacherText
 
 OlivinePokecenter1FFisherText:
-	text "Người SAILOR trong"
-	line "QUÁN CÀ PHÊ"
+	text "The SAILOR in the"
+	line "OLIVINE CAFE next"
 
-	para "OLIVINE bên cạnh"
-	line "rất hào phóng."
+	para "door is really"
+	line "generous."
 
-	para "Anh ấy dạy #MON"
-	line "của tôi SỨC MẠNH."
+	para "He taught my"
+	line "#MON STRENGTH."
 
-	para "Giờ nó có thể đẩy"
-	line "những tảng đá to."
+	para "Now it can move"
+	line "big boulders."
 	done
 
 OlivinePokecenter1FTeacherText:
-	text "Có một người ở"
-	line "TP. CIANWOOD bên"
-	cont "kia biển."
+	text "There's a person"
+	line "in CIANWOOD CITY"
+	cont "across the sea."
 
-	para "Tôi nghe anh ta"
-	line "khoe về #MON"
-	cont "hiếm của mình."
+	para "I heard him brag-"
+	line "ging about his"
+	cont "rare #MON."
 	done
 
 OlivinePokecenter1F_MapEvents:

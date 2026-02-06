@@ -1,65 +1,62 @@
 BrentAskNumber1Text:
-	text "À này, cậu là"
-	line "#MANIAC…"
+	text "By the way, you're"
+	line "a #MANIAC…"
 
-	para "Tớ biết mà."
-	line "Ừ, cậu đúng vậy."
+	para "I can tell."
+	line "Yes, you are."
 
-	para "Nhưng kiến thức"
-	line "cậu còn nông!"
+	para "But your knowledge"
+	line "is shallow still!"
 
-	para "Cậu biết BILL?"
-	line "Anh ấy là"
+	para "Do you know BILL?"
+	line "He's an incredible"
 
-	para "#MANIAC đáng"
-	line "kinh ngạc. Tớ tôn"
-	cont "kính anh ấy."
+	para "#MANIAC."
+	line "I revere him."
 
-	para "Tớ sẽ dạy cậu mọi"
-	line "điều tớ biết về"
+	para "I'll teach you all"
+	line "I know about BILL,"
 
-	para "BILL, nên cho tớ"
-	line "số điện thoại."
+	para "so leave me your"
+	line "phone number."
 	done
 
 BrentAskNumber2Text:
-	text "Tớ sẽ dạy cậu mọi"
-	line "điều tớ biết về"
+	text "I'll teach you all"
+	line "I know about BILL,"
 
-	para "BILL, nên cho tớ"
-	line "số điện thoại."
+	para "so leave me your"
+	line "phone number."
 	done
 
 BrentNumberAcceptedText:
-	text "BILL--anh ấy hơn"
-	line "cả tuyệt vời!"
+	text "BILL--he's more"
+	line "than amazing!"
 
-	para "Trở thành"
-	line "#MANIAC như"
-	cont "anh ấy…"
+	para "To be a #MANIAC"
+	line "like him someday…"
 
-	para "Đó là ước mơ của"
-	line "tớ."
+	para "That's my dream."
 	done
 
 BrentNumberDeclinedText:
-	text "Cậu sẽ hối hận…"
+	text "You're going to"
+	line "regret it…"
 
-	para "Và tớ không quan"
-	line "tâm…"
+	para "And I won't care…"
 	done
 
 BrentPhoneFullText:
-	text "Hả? Danh sách điện"
-	line "thoại đầy rồi."
+	text "Huh? Your phone"
+	line "list's full."
 
-	para "#MANIAC phải"
-	line "gọn gàng hơn!"
+	para "A #MANIAC has"
+	line "to be more tidy!"
 	done
 
 BrentRematchText:
-	text "Tớ đợi rồi."
+	text "I've been waiting."
 
-	para "Nhìn này, kiểm tra"
-	line "#MON của tớ!"
+	para "Look, check out my"
+	line "#MON!"
 	done

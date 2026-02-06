@@ -80,68 +80,68 @@ Route2HiddenRevive:
 	hiddenitem REVIVE, EVENT_ROUTE_2_HIDDEN_REVIVE
 
 BugCatcherRobSeenText:
-	text "#MON sâu bọ của"
-	line "tao rất mạnh."
-	cont "Chuẩn bị thua đi!"
+	text "My bug #MON are"
+	line "tough. Prepare to"
+	cont "lose!"
 	done
 
 BugCatcherRobBeatenText:
-	text "Tao bị đánh bại…"
+	text "I was whipped…"
 	done
 
 BugCatcherRobAfterBattleText:
-	text "Tao sẽ đi tìm"
-	line "#MON sâu bọ"
-	cont "mạnh hơn."
+	text "I'm going to look"
+	line "for stronger bug"
+	cont "#MON."
 	done
 
 BugCatcherEdSeenText:
-	text "Đi trong cỏ cao"
-	line "mặc quần đùi thì"
+	text "If you walk in"
+	line "tall grass wearing"
 
-	para "có bị xây xát"
-	line "không nhỉ?"
+	para "shorts, do you get"
+	line "nicks and cuts?"
 	done
 
 BugCatcherEdBeatenText:
-	text "Ối, ối, ối!"
+	text "Ouch, ouch, ouch!"
 	done
 
 BugCatcherEdAfterBattleText:
-	text "Chúng sẽ rất đau"
-	line "khi tắm đấy."
+	text "They'll really"
+	line "sting when you"
+	cont "take a bath."
 	done
 
 BugCatcherDougSeenText:
-	text "Sao con gái không"
-	line "thích #MON sâu"
-	cont "bọ nhỉ?"
+	text "Why don't girls"
+	line "like bug #MON?"
 	done
 
 BugCatcherDougBeatenText:
-	text "Tệ quá!"
+	text "No good!"
 	done
 
 BugCatcherDougAfterBattleText:
-	text "#MON sâu bọ"
-	line "mềm như thú nhồi"
+	text "Bug #MON squish"
+	line "like plush toys"
 
-	para "bông khi bóp bụng"
-	line "chúng."
+	para "when you squeeze"
+	line "their bellies."
 
-	para "Tao thích cảm"
-	line "giác đó lắm!"
+	para "I love how they"
+	line "feel!"
 	done
 
 Route2SignText:
-	text "TUYẾN ĐƯỜNG 2"
+	text "ROUTE 2"
 
-	para "TP. VIRIDIAN -"
-	line "TP. PEWTER"
+	para "VIRIDIAN CITY -"
+	line "PEWTER CITY"
 	done
 
 Route2DiglettsCaveSignText:
-	text "ĐỘNG DIGLETT"
+	text "DIGLETT'S CAVE"
 	done
 
 Route2_MapEvents:

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/save.asm"
+else
+
 SaveMenu:
 	call LoadStandardMenuHeader
 	farcall DisplaySaveInfoOnSave
@@ -160,20 +164,7 @@ AddHallOfFameEntry:
 	ld de, sHallOfFame
 	ld bc, wHallOfFamePokemonListEnd - wHallOfFamePokemonList + 1
 	call CopyBytes
-
-; bake setting GSBall event flags into ROM
-	ld a, BANK(sGSBallFlag)
-	call OpenSRAM
-	ld a, GS_BALL_AVAILABLE
-	ld [sGSBallFlag], a
-	push af
-	ld a, BANK(sGSBallFlagBackup)
-	call OpenSRAM
-	pop af
-	ld [sGSBallFlagBackup], a
-
 	call CloseSRAM
-
 ; This vc_hook causes the Virtual Console to set [sGSBallFlag] and [sGSBallFlagBackup]
 ; to GS_BALL_AVAILABLE, which enables you to get the GS Ball, take it to Kurt, and
 ; encounter Celebi. It assumes that sGSBallFlag and sGSBallFlagBackup are at their
@@ -1143,3 +1134,5 @@ ChangeBoxSaveText:
 MoveMonWOMailSaveText:
 	text_far _MoveMonWOMailSaveText
 	text_end
+
+endc

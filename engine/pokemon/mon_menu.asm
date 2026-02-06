@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/mon_menu.asm"
+else
+
 HasNoItems:
 	ld a, [wNumItems]
 	and a
@@ -383,8 +387,8 @@ GiveTakeItemMenuData:
 .Items:
 	db STATICMENU_CURSOR ; flags
 	db 2 ; # items
-	db "ĐƯA@"
-	db "LẤY@"
+	db "GIVE@"
+	db "TAKE@"
 
 PokemonSwapItemText:
 	text_far _PokemonSwapItemText
@@ -445,33 +449,18 @@ StartMenuYesNo:
 ComposeMailMessage:
 	ld de, wTempMailMessage
 	farcall _ComposeMailMessage
-	; Copy player name to author field
 	ld hl, wPlayerName
 	ld de, wTempMailAuthor
-	ld bc, PLAYER_NAME_LENGTH
+	ld bc, NAME_LENGTH - 1
 	call CopyBytes
-	; Set nationality to "VN" for Vietnamese mail
-	ld a, 'V'
-	ld [de], a
-	inc de
-	ld a, 'N'
-	ld [de], a
-	inc de
-	; Copy player ID
 	ld hl, wPlayerID
-	ld a, [hli]
-	ld [de], a
-	inc de
-	ld a, [hl]
-	ld [de], a
-	inc de
-	; Set species and mail type
+	ld bc, 2
+	call CopyBytes
 	ld a, [wCurPartySpecies]
 	ld [de], a
 	inc de
 	ld a, [wCurItem]
 	ld [de], a
-	; Save to SRAM
 	ld a, [wCurPartyMon]
 	ld hl, sPartyMail
 	ld bc, MAIL_STRUCT_LENGTH
@@ -567,9 +556,9 @@ MonMailAction:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 3 ; items
-	db "ĐỌC@"
-	db "LẤY@"
-	db "THOÁT@"
+	db "READ@"
+	db "TAKE@"
+	db "QUIT@"
 
 .MailLoseMessageText:
 	text_far _MailLoseMessageText
@@ -1102,7 +1091,7 @@ MoveScreen2DMenuData:
 	db PAD_CTRL_PAD | PAD_A | PAD_B ; accepted buttons
 
 String_MoveWhere:
-	db "Tới đâu?@"
+	db "Where?@"
 
 SetUpMoveScreenBG:
 	call ClearBGPalettes
@@ -1239,9 +1228,9 @@ PlaceMoveData:
 String_MoveType_Top:
 	db "┌─────┐@"
 String_MoveType_Bottom:
-	db "│KIỂU/└@"
+	db "│TYPE/└@"
 String_MoveAtk:
-	db "CÔNG@"
+	db "ATK/@"
 String_MoveNoPower:
 	db "---@"
 
@@ -1309,3 +1298,5 @@ PlaceMoveScreenRightArrow:
 	hlcoord 18, 0
 	ld [hl], '▶'
 	ret
+
+endc

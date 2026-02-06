@@ -1,10 +1,10 @@
-	db "CHIM BA ĐẦU@" ; species name
-	dw 18, 852 ; height, weight
+	db "TRIPLEBIRD@" ; species name
+	dw 511, 1880 ; height, weight
 
-	db   "Kẻ thù nào rời"
-	next "mắt khỏi bất kỳ"
-	next "đầu nào - dù chỉ"
+	db   "An enemy that"
+	next "takes its eyes off"
+	next "any of the three"
 
-	page "một giây - sẽ bị"
-	next "mổ thê thảm.@"
-	next "@"
+	page "heads--even for a"
+	next "second--will get"
+	next "pecked severely.@"

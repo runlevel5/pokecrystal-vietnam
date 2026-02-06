@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/party_menu.asm"
+else
+
 SelectMonFromParty:
 	call DisableSpriteUpdates
 	xor a
@@ -110,7 +114,7 @@ PlacePartyNicknames:
 	ret
 
 .CancelString:
-	db "HỦY@"
+	db "CANCEL@"
 
 PlacePartyHPBar:
 	xor a
@@ -341,10 +345,10 @@ PlacePartyMonTMHMCompatibility:
 	ret
 
 .string_able
-	db "ĐƯỢC@"
+	db "ABLE@"
 
 .string_not_able
-	db "KHÔNG@"
+	db "NOT ABLE@"
 
 PlacePartyMonEvoStoneCompatibility:
 	ld a, [wPartyCount]
@@ -423,9 +427,9 @@ PlacePartyMonEvoStoneCompatibility:
 	ret
 
 .string_able
-	db "ĐƯỢC@"
+	db "ABLE@"
 .string_not_able
-	db "KHÔNG@"
+	db "NOT ABLE@"
 
 PlacePartyMonGender:
 	ld a, [wPartyCount]
@@ -467,13 +471,13 @@ PlacePartyMonGender:
 	ret
 
 .male
-	db "♂…ĐỰC@"
+	db "♂…MALE@"
 
 .female
-	db "♀…CÁI@"
+	db "♀…FEMALE@"
 
 .unknown
-	db "…KHÔNG RÕ@"
+	db "…UNKNOWN@"
 
 PlacePartyMonMobileBattleSelection:
 	ld a, [wPartyCount]
@@ -544,13 +548,13 @@ PlacePartyMonMobileBattleSelection:
 	jr .loop2
 
 .String_Banme:
-	db " VỊ TRÍ  @" ; Place
+	db "　ばんめ　　@" ; Place
 .String_Sanka_Shinai:
-	db "KHÔNG THI@" ; Cancel/Don't participate
+	db "さんかしない@" ; Cancel
 .String_Kettei_Yameru:
-	db "CHỌN    HỦY@" ; Select / Quit
+	db "けってい　　やめる@" ; Quit
 .Strings_1_2_3:
-	db "1@", "2@", "3@" ; 1st, 2nd, 3rd
+	db "１@", "２@", "３@" ; 1st, 2nd, 3rd
 
 PartyMenuCheckEgg:
 	ld a, LOW(wPartySpecies)
@@ -747,31 +751,31 @@ PartyMenuStrings:
 	dw ToWhichPKMNString
 
 ChooseAMonString:
-	db "Chọn một #MON.@"
+	db "Choose a #MON.@"
 
 UseOnWhichPKMNString:
-	db "Dùng cho <PK><MN>?@"
+	db "Use on which <PK><MN>?@"
 
 WhichPKMNString:
-	db "<PK><MN> nào?@"
+	db "Which <PK><MN>?@"
 
 TeachWhichPKMNString:
-	db "Dạy <PK><MN> nào?@"
+	db "Teach which <PK><MN>?@"
 
 MoveToWhereString:
-	db "Chuyển đến đâu?@"
+	db "Move to where?@"
 
 ChooseAFemalePKMNString: ; unreferenced
-	db "Chọn ♀<PK><MN>.@"
+	db "Choose a ♀<PK><MN>.@"
 
 ChooseAMalePKMNString: ; unreferenced
-	db "Chọn ♂<PK><MN>.@"
+	db "Choose a ♂<PK><MN>.@"
 
 ToWhichPKMNString:
-	db "Cho <PK><MN> nào?@"
+	db "To which <PK><MN>?@"
 
 YouHaveNoPKMNString:
-	db "Bạn không có <PK><MN>!@"
+	db "You have no <PK><MN>!@"
 
 PrintPartyMenuActionText:
 	ld a, [wCurPartyMon]
@@ -852,3 +856,5 @@ PrintPartyMenuActionText:
 	pop af
 	ld [wOptions], a
 	ret
+
+endc

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/trainer_card.asm"
+else
+
 ; TrainerCard.Jumptable indexes
 	const_def
 	const TRAINERCARDSTATE_PAGE1_LOADGFX ; 0
@@ -256,9 +260,9 @@ TrainerCard_PrintTopHalfOfCard:
 	ret
 
 .Name_Money:
-	db   "TÊN/"
+	db   "NAME/"
 	next ""
-	next "TIỀN@"
+	next "MONEY@"
 
 .ID_No:
 	db $27, $28, -1 ; ID NO
@@ -294,13 +298,13 @@ TrainerCard_Page1_PrintDexCaught_GameTime:
 
 .Dex_PlayTime:
 	db   "#DEX"
-	next "THỜI GIAN@"
+	next "PLAY TIME@"
 
 .Unused: ; unreferenced
 	db "@"
 
 .Badges:
-	db "HUY HIỆU▶@"
+	db "  BADGES▶@"
 
 .StatusTilemap:
 	db $29, $2a, $2b, $2c, $2d, -1
@@ -617,3 +621,5 @@ BadgeGFX:   INCBIN "gfx/trainer_card/badges.2bpp"
 BadgeGFX2:  INCBIN "gfx/trainer_card/badges.2bpp"
 
 CardRightCornerGFX: INCBIN "gfx/trainer_card/card_right_corner.2bpp"
+
+endc

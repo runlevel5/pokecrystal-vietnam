@@ -1,10 +1,10 @@
-	db "SẤM SÉT@" ; species name
-	dw 19, 1780 ; height, weight
+	db "THUNDER@" ; species name
+	dw 603, 3920 ; height, weight
 
-	db   "#MON dữ tợn này"
-	next "tích điện trong"
-	next "cơ thể, rồi lướt"
+	db   "This rough #MON"
+	next "stores energy"
+	next "inside its body,"
 
-	page "qua mặt đất, bắn"
-	next "ra những tia"
-	next "điện chớp nhoáng.@"
+	page "then sweeps across"
+	next "the land, shooting"
+	next "off electricity.@"

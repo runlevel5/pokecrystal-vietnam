@@ -1,77 +1,77 @@
 WadeAnswerPhoneText:
-	text "Xin chào? Đây là"
+	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text " speaking."
 
-	para "Ồ. Chào, <PLAY_G>!"
-	line "Chào buổi sáng!"
+	para "Oh. Hi, <PLAY_G>!"
+	line "Good morning!"
 	done
 
 WadeAnswerPhoneDayText:
-	text "Xin chào? Đây là"
+	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text " speaking."
 
-	para "Ồ, chào, <PLAY_G>!"
+	para "Oh, hi, <PLAY_G>!"
 	done
 
 WadeAnswerPhoneNiteText:
-	text "Xin chào? Đây là"
+	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
-	text "."
+	text " speaking."
 
-	para "Ồ, chào, <PLAY_G>!"
-	line "Chào buổi tối!"
+	para "Oh, hi, <PLAY_G>!"
+	line "Good evening!"
 	done
 
 WadeGreetText:
-	text "<PLAY_G>, chào"
-	line "buổi sáng!"
+	text "<PLAY_G>, good"
+	line "morning!"
 
-	para "Đây là @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Trời đẹp nhỉ?"
+	line "Isn't it nice out?"
 	done
 
 WadeGreetDayText:
-	text "<PLAY_G>, chào!"
+	text "<PLAY_G>, howdy!"
 
-	para "Đây là @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Trời đẹp nhỉ?"
+	line "Isn't it nice out?"
 	done
 
 WadeGreetNiteText:
-	text "Chào buổi tối,"
+	text "Good evening,"
 	line "<PLAY_G>!"
 
-	para "Đây là @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu đã thức à?"
+	line "Were you awake?"
 	done
 
 WadeGenericText:
-	text "#MON của cậu"
-	line "thế nào rồi?"
+	text "How are your"
+	line "#MON doing?"
 
-	para "#MON của tớ có"
-	line "quá nhiều năng"
+	para "My #MON have"
+	line "too much energy to"
 
-	para "lượng cần đốt cháy"
-	line "Trở thành vấn đề."
+	para "burn. It gets to"
+	line "be a problem."
 
-	para "Trong tất cả"
-	line "#MON của tớ, @"
+	para "Of all my #MON,"
+	line "@"
 	text_ram wStringBuffer4
-	text ""
-	cont "khó xử lý nhất."
+	text " is the"
+	cont "hardest to handle."
 
-	para "Làm việc với nó"
-	line "thật mệt mỏi."
+	para "Working with it is"
+	line "exhausting."
 	done

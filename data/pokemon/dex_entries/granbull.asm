@@ -1,10 +1,10 @@
-	db "TIÊN@" ; species name
-	dw 14, 487 ; height, weight
+	db "FAIRY@" ; species name
+	dw 407, 1070 ; height, weight
 
-	db   "Nó có thể làm hầu"
-	next "hết #MON bỏ"
-	next "chạy chỉ bằng"
+	db   "It can make most"
+	next "any #MON run"
+	next "away simply by"
 
-	page "cách há miệng"
-	next "lộ răng nanh to.@"
-	next "@"
+	page "opening its mouth"
+	next "wide to reveal its"
+	next "big fangs.@"

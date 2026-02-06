@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/move_mon.asm"
+else
+
 DEF RANDY_OT_ID EQU 01001
 
 TryAddMonToParty:
@@ -1217,7 +1221,7 @@ GiveEgg::
 	ret
 
 String_Egg:
-	db "TRỨNG@"
+	db "EGG@"
 
 RemoveMonFromPartyOrBox:
 	ld hl, wPartyCount
@@ -1820,3 +1824,5 @@ InitNickname:
 	ld hl, ExitAllMenus
 	rst FarCall
 	ret
+
+endc

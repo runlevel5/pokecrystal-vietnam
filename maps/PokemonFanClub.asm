@@ -119,162 +119,162 @@ PokemonFanClubBraggingSign:
 	jumptext PokemonFanClubBraggingSignText
 
 PokemonFanClubChairmanDidYouVisitToHearAboutMyMonText:
-	text "Tôi là CHỦ TỊCH"
-	line "của CLB FAN"
-	cont "#MON."
+	text "I'm the CHAIRMAN"
+	line "of the #MON FAN"
+	cont "CLUB."
 
-	para "Tôi đã nuôi hơn"
+	para "I've raised over"
 	line "150 #MON."
 
-	para "Tôi rất khó tính"
-	line "khi nói về"
+	para "I'm very fussy"
+	line "when it comes to"
 	cont "#MON."
 
-	para "Bạn đến để nghe"
-	line "về #MON của"
-	cont "tôi đúng không?"
+	para "Did you visit just"
+	line "to hear about my"
+	cont "#MON?"
 	done
 
 PokemonFanClubChairmanRapidashText:
-	text "Tốt lắm!"
-	line "Vậy nghe đây!"
+	text "Good!"
+	line "Then listen up!"
 
-	para "Vậy… RAPIDASH"
-	line "yêu quý của tôi…"
+	para "So… my favorite"
+	line "RAPIDASH…"
 
-	para "Nó… dễ thương…"
-	line "thông minh… khó"
-	cont "chịu nổi… thêm…"
-	cont "tuyệt vời… ồ…"
-	cont "bạn nghĩ vậy?…"
-	cont "Quá… hoang dã…"
-	cont "đẹp… hiền… yêu!"
+	para "It… cute… lovely…"
+	line "smart… unbearably…"
+	cont "plus… amazing… oh…"
+	cont "you think so?…"
+	cont "Too much… wild…"
+	cont "beautiful… kindly…"
+	cont "love it!"
 
-	para "Ôm… khi… ngủ…"
-	line "ấm… dễ thương…"
-	cont "Ồ, và… ngoạn"
-	cont "mục… tuyệt đẹp…"
-	cont "hoàn hảo… Ối!"
-	cont "Xem thời gian!"
-	cont "Tôi giữ bạn lâu"
-	cont "quá rồi!"
+	para "Hug it… when…"
+	line "sleeping… warm and"
+	cont "cuddly… Oh, and…"
+	cont "spectacular…"
+	cont "ravishing… simply"
+	cont "divine…"
+	cont "Oops! Look at the"
+	cont "time! I've kept"
+	cont "you too long!"
 	done
 
 PokemonFanClubChairmanIWantYouToHaveThisText:
-	text "Cảm ơn vì đã"
-	line "lắng nghe. Hãy"
-	cont "nhận món này!"
+	text "Thanks for hearing"
+	line "me out. I want you"
+	cont "to have this!"
 	done
 
 PokemonFanClubChairmanItsARareCandyText:
-	text "Đó là KẸO HIẾM"
-	line "giúp #MON"
-	cont "mạnh hơn."
+	text "It's a RARE CANDY"
+	line "that makes #MON"
+	cont "stronger."
 
-	para "Tôi thích làm"
-	line "#MON mạnh hơn"
+	para "I prefer making my"
+	line "#MON stronger"
 
-	para "bằng chiến đấu,"
-	line "nên bạn giữ lấy."
+	para "by battling, so"
+	line "you can have it."
 	done
 
 PokemonFanClubChairmanMoreTalesToTellText:
-	text "Chào, <PLAY_G>!"
+	text "Hello, <PLAY_G>!"
 
-	para "Bạn đến để nghe"
-	line "về #MON của tôi"
-	cont "nữa sao?"
+	para "Did you come see"
+	line "me about my #-"
+	cont "MON again?"
 
-	para "Không? Ồ… Tôi còn"
-	line "nhiều chuyện…"
+	para "No? Oh… I had more"
+	line "tales to tell…"
 	done
 
 PokemonFanClubChairmanHowDisappointingText:
-	text "Thật thất vọng…"
+	text "How disappointing…"
 
-	para "Hãy quay lại nếu"
-	line "bạn muốn nghe."
+	para "Come back if you"
+	line "want to listen."
 	done
 
 PokemonFanClubReceptionistText:
-	text "CHỦ TỊCH của chúng"
-	line "tôi rất nhiều lời"
-	cont "về #MON…"
+	text "Our CHAIRMAN is"
+	line "very vocal when it"
+	cont "comes to #MON…"
 	done
 
 PokemonFanClubClefairyGuyClefairyIsSoAdorableText:
-	text "Tôi yêu cách"
-	line "CLEFAIRY vẫy"
+	text "I love the way"
+	line "CLEFAIRY waggles"
 
-	para "ngón tay khi nó"
-	line "cố dùng"
+	para "its finger when"
+	line "it's trying to use"
 
-	para "ĐIỆU NGŨ."
-	line "Thật đáng yêu!"
+	para "METRONOME."
+	line "It's so adorable!"
 	done
 
 PokemonFanClubClefairyGuyMakingDoWithADollIFoundText:
-	text "Tôi yêu CLEFAIRY,"
-	line "nhưng không thể"
+	text "I love CLEFAIRY,"
+	line "but I could never"
 
-	para "bắt được. Nên tôi"
-	line "tạm dùng"
+	para "catch one. So I'm"
+	line "making do with a"
 
-	para "BÚP BÊ # mà tôi"
-	line "tìm được."
+	para "# DOLL that I"
+	line "found."
 	done
 
 PokemonFanClubClefairyGuyTakeThisDollBackToGirlText:
-	text "Ồ, tôi hiểu rồi."
-	line "Cô bé mất"
+	text "Oh, I see now. The"
+	line "girl who lost this"
 
-	para "BÚP BÊ # này"
-	cont "đang buồn…"
+	para "# DOLL is sad…"
 
-	para "OK. Bạn có thể"
-	line "mang BÚP BÊ #"
+	para "OK. Could you take"
+	line "this # DOLL"
 
-	para "này trả lại cho"
-	line "cô bé không?"
+	para "back to that poor"
+	line "little girl?"
 
-	para "Tôi sẽ kết bạn"
-	line "với CLEFAIRY thật"
+	para "I'll befriend a"
+	line "real CLEFAIRY on"
 
-	para "một ngày nào đó."
-	line "Đừng lo!"
+	para "my own one day."
+	line "No worries!"
 	done
 
 PokemonFanClubPlayerReceivedDollText:
-	text "<PLAYER> nhận được"
-	line "BÚP BÊ #."
+	text "<PLAYER> received"
+	line "# DOLL."
 	done
 
 PokemonFanClubClefairyGuyGoingToGetARealClefairyText:
-	text "Bạn xem đi. Tôi"
-	line "sẽ có được một"
+	text "You watch. I'm"
+	line "going to get a"
 
-	para "CLEFAIRY thật làm"
-	line "bạn của tôi."
+	para "real CLEFAIRY as"
+	line "my friend."
 	done
 
 PokemonFanClubClefairyGuyPackIsJammedFullText:
-	text "BALO của bạn"
-	line "đã đầy."
+	text "Your PACK is"
+	line "jammed full."
 	done
 
 PokemonFanClubTeacherText:
-	text "Nhìn BAYLEEF"
-	line "yêu dấu của tôi!"
+	text "Look at my darling"
+	line "BAYLEEF!"
 
-	para "Chiếc lá trên đầu"
-	line "nó dễ thương quá!"
+	para "The leaf on its"
+	line "head is so cute!"
 	done
 
 PokemonFanClubClefairyDollText:
-	text "Đó là CLEFAIRY!"
-	line "Hả?"
+	text "It's a CLEFAIRY!"
+	line "Huh?"
 
-	para "Ồ, đúng rồi. Đó là"
+	para "Oh, right. It's a"
 	line "CLEFAIRY #"
 	cont "DOLL."
 	done
@@ -284,14 +284,14 @@ PokemonFanClubBayleefText:
 	done
 
 PokemonFanClubListenSignText:
-	text "Hãy lắng nghe"
-	line "lịch sự HLV"
-	cont "khác."
+	text "Let's all listen"
+	line "politely to other"
+	cont "trainers."
 	done
 
 PokemonFanClubBraggingSignText:
-	text "Nếu ai khoe khoang"
-	line "khoe lại ngay!"
+	text "If someone brags,"
+	line "brag right back!"
 	done
 
 PokemonFanClub_MapEvents:

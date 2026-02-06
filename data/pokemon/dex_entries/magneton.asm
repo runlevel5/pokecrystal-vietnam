@@ -1,10 +1,10 @@
-	db "NAM CHÂM@" ; species name
-	dw 10, 600 ; height, weight
+	db "MAGNET@" ; species name
+	dw 303, 1320 ; height, weight
 
-	db   "Khi nhiều"
-	next "MAGNETON tụ lại,"
-	next "bão từ trường"
+	db   "When many"
+	next "MAGNETON gather"
+	next "together, the"
 
-	page "gây ra sẽ làm"
-	next "nhiễu sóng"
-	next "vô tuyến.@"
+	page "resulting magnetic"
+	next "storm disrupts"
+	next "radio waves.@"

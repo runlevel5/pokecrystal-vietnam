@@ -43,7 +43,15 @@ GetLandmarkName::
 	pop hl
 	ret
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/maps/landmarks.asm"
+
+else
+
 INCLUDE "data/maps/landmarks.asm"
+
+endc
 
 RegionCheck:
 ; Checks if the player is in Kanto or Johto.

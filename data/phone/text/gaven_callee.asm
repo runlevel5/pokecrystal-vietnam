@@ -1,71 +1,72 @@
 GavenAnswerPhoneText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây…"
+	text " speaking…"
 
-	para "Chào, <PLAY_G>!"
-	line "Chào buổi sáng!"
+	para "Hi, <PLAY_G>!"
+	line "Good morning!"
 	done
 
 GavenAnswerPhoneDayText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây…"
+	text " speaking…"
 
-	para "Chào, <PLAY_G>!"
+	para "Hi, <PLAY_G>!"
 	done
 
 GavenAnswerPhoneNiteText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây…"
+	text " speaking…"
 
-	para "Chào, <PLAY_G>!"
-	line "Chào buổi tối!"
+	para "Hi, <PLAY_G>!"
+	line "Good evening!"
 	done
 
 GavenGreetText:
-	text "<PLAY_G>, chào"
-	line "buổi sáng!"
+	text "<PLAY_G>, good"
+	line "morning!"
 
-	para "Là mình đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu khỏe không?"
+	line "How are you doing?"
 	done
 
 GavenGreetDayText:
-	text "Chào, <PLAY_G>!"
+	text "Hi, <PLAY_G>!"
 
-	para "Là mình đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu khỏe không?"
+	line "How are you doing?"
 	done
 
 GavenGreetNiteText:
-	text "<PLAY_G>, chào"
-	line "buổi tối!"
+	text "<PLAY_G>, good"
+	line "evening!"
 
-	para "Là mình đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu khỏe không?"
+	line "How are you doing?"
 	done
 
 GavenGenericText:
-	text "#MON của cậu"
-	line "thế nào rồi?"
+	text "How are your"
+	line "#MON doing?"
 
-	para "@"
+	para "My @"
 	text_ram wStringBuffer4
-	text " của mình"
-	line "tốt như mọi khi."
+	text "'s"
+	line "doing as great as"
+	cont "ever."
 
-	para "Hãy cùng cố lên"
-	line "và trở thành VĐQG"
-	cont "#MON nhé!"
+	para "Let's keep at it"
+	line "and become #MON"
+	cont "CHAMPS!"
 	done

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/pokemon/names.asm"
+else
+
 PokemonNames::
 	table_width NAME_LENGTH - 1
 	dname "BULBASAUR"
@@ -253,9 +257,11 @@ PokemonNames::
 	dname "CELEBI"
 	assert_table_length NUM_POKEMON
 	dname "?????"
-	dname "TRỨNG"
+	dname "EGG"
 	assert_table_length EGG
 	dname "?????"
 	dname "?????"
 	dname "?????"
 	assert_table_length $100
+
+endc

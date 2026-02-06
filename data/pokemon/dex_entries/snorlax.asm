@@ -1,10 +1,10 @@
-	db "NGỦ@" ; species name
-	dw 21, 4600 ; height, weight
+	db "SLEEPING@" ; species name
+	dw 611, 10140 ; height, weight
 
-	db   "Dạ dày #MON này"
-	next "quá khỏe, ngay"
-	next "cả ăn đồ mốc"
+	db   "This #MON's"
+	next "stomach is so"
+	next "strong, even"
 
-	page "hay thối cũng"
-	next "không ảnh hưởng.@"
-	next "@"
+	page "eating moldy or"
+	next "rotten food will"
+	next "not affect it.@"

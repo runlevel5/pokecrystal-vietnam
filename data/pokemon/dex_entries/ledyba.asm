@@ -1,10 +1,10 @@
-	db "NĂM SAO@" ; species name
-	dw 10, 108 ; height, weight
+	db "FIVE STAR@" ; species name
+	dw 303, 240 ; height, weight
 
-	db   "Nó nhút nhát và"
-	next "tụ lại với nhau."
-	next "Chất dịch từ chân"
+	db   "It is timid and"
+	next "clusters together"
+	next "with others. The"
 
-	page "tiết ra cho biết"
-	next "vị trí của nó.@"
-	next "@"
+	page "fluid secreted by"
+	next "its feet indicates"
+	next "its location.@"

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/home/text.asm"
+else
+
 ClearBox::
 ; Fill a c*b box at hl with blank tiles.
 	ld a, ' '
@@ -398,13 +402,13 @@ PlaceCommandCharacter::
 	jp NextChar
 
 TMCharText::      db "TM@"
-TrainerCharText:: db "HLV@"
+TrainerCharText:: db "TRAINER@"
 PCCharText::      db "PC@"
 RocketCharText::  db "ROCKET@"
 PlacePOKeText::   db "POKé@"
 KougekiText::     db "こうげき@"
 SixDotsCharText:: db "……@"
-EnemyText::       db "Đ.thủ @"
+EnemyText::       db "Enemy @"
 PlacePKMNText::   db "<PK><MN>@"
 PlacePOKEText::   db "<PO><KE>@"
 String_Space::    db " @"
@@ -1049,11 +1053,13 @@ TextCommand_DAY::
 	dw .Fri
 	dw .Satur
 
-.Sun:    db "CHỦ NHẬT@"
-.Mon:    db "THỨ HAI@"
-.Tues:   db "THỨ BA@"
-.Wednes: db "THỨ TƯ@"
-.Thurs:  db "THỨ NĂM@"
-.Fri:    db "THỨ SÁU@"
-.Satur:  db "THỨ BẢY@"
-.Day:    db "@"
+.Sun:    db "SUN@"
+.Mon:    db "MON@"
+.Tues:   db "TUES@"
+.Wednes: db "WEDNES@"
+.Thurs:  db "THURS@"
+.Fri:    db "FRI@"
+.Satur:  db "SATUR@"
+.Day:    db "DAY@"
+
+endc

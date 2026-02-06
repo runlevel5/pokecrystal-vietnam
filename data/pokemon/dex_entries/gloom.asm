@@ -1,10 +1,10 @@
-	db "CỎ DẠI@" ; species name
-	dw 8, 86 ; height, weight
+	db "WEED@" ; species name
+	dw 207, 190 ; height, weight
 
-	db   "Mùi từ nhựa như"
-	next "nước dãi và phấn"
-	next "hoa trên cánh"
+	db   "The smell from its"
+	next "drool-like syrup"
+	next "and the pollen on"
 
-	page "hôi đến mức có"
-	next "thể làm đối thủ"
-	next "ngất xỉu.@"
+	page "its petals is so"
+	next "bad, it may make"
+	next "opponents faint.@"

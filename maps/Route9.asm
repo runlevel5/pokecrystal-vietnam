@@ -84,119 +84,123 @@ Route9HiddenEther:
 	hiddenitem ETHER, EVENT_ROUTE_9_HIDDEN_ETHER
 
 CamperDeanSeenText:
-	text "Tôi đến khám phá"
-	line "ĐƯỜNG HẦM ĐÁ."
+	text "I came to explore"
+	line "ROCK TUNNEL."
 	done
 
 CamperDeanBeatenText:
-	text "Ối! Nguy hiểm quá."
+	text "Whoa! Danger, man."
 	done
 
 CamperDeanAfterBattleText:
-	text "#MON của tôi bị"
-	line "thương trước khi"
+	text "My #MON were"
+	line "hurt before even"
 
-	para "vào ĐƯỜNG HẦM ĐÁ."
+	para "entering ROCK"
+	line "TUNNEL."
 
-	para "Tốt nhất tôi nên"
-	line "đưa chúng đến TT"
-	cont "#MON ngay."
+	para "I'd better take"
+	line "them to a #MON"
+	cont "CENTER right away."
 	done
 
 PicnickerHeidiSeenText:
-	text "Bạn đã từng đi dã"
-	line "ngoại chưa?"
+	text "Have you ever been"
+	line "to a picnic?"
 
-	para "Vui lắm!"
+	para "They're so much"
+	line "fun!"
 	done
 
 PicnickerHeidiBeatenText:
-	text "Ôiiiii!"
+	text "Ohhhh!"
 	done
 
 PicnickerHeidiAfterBattleText:
-	text "Chúng tôi nướng"
-	line "nhiều đồ ngon và"
+	text "We bake lots of"
+	line "goodies and share"
 
-	para "chia sẻ với nhau."
-	line "Ngon tuyệt!"
+	para "them all around."
+	line "They're delicious!"
 	done
 
 CamperSidSeenText:
-	text "Này, bạn!"
-	line "Đừng vứt rác!"
+	text "Hey, you!"
+	line "Don't litter!"
 	done
 
 CamperSidBeatenText:
-	text "Tôi chỉ nhắc nhở"
-	line "thôi…"
+	text "I was just point-"
+	line "ing out…"
 	done
 
 CamperSidAfterBattleText:
-	text "Xin lỗi. Bạn không"
-	line "vứt rác. Tôi lầm."
+	text "Sorry. You weren't"
+	line "littering. It was"
+	cont "my mistake."
 	done
 
 PicnickerEdnaSeenText:
-	text "Mọi người không"
-	line "nên để lại rác"
-	cont "đâu cả."
+	text "People shouldn't"
+	line "leave any litter"
+	cont "behind."
 	done
 
 PicnickerEdnaBeatenText:
-	text "Ôi… Tôi thua…"
+	text "Ohh… I lost…"
 	done
 
 PicnickerEdnaAfterBattleText:
-	text "Tiết kiệm năng"
-	line "lượng quan trọng,"
+	text "Conserving energy"
+	line "is important, but"
 
-	para "nhưng môi trường"
-	line "còn quan trọng hơn"
+	para "the environment is"
+	line "even more vital."
 	done
 
 HikerTimSeenText:
-	text "Cô ấy sẽ đến vòng"
-	line "quanh NÚI BẠC khi"
-	cont "cô ấy đến…"
+	text "She'll be coming"
+	line "'round MT.SILVER"
+	cont "when she comes…"
 
-	para "NÚI BẠC ở JOHTO"
-	line "phải không?"
+	para "MT.SILVER is in"
+	line "JOHTO, right?"
 	done
 
 HikerTimBeatenText:
-	text "Tôi mải hát quá…"
+	text "I was too busy"
+	line "singing…"
 	done
 
 HikerTimAfterBattleText:
-	text "Trận đấu cần sự"
-	line "tập trung."
+	text "Battles are about"
+	line "concentration."
 	done
 
 HikerSidneySeenText:
-	text "Tôi sẽ nói cho bạn"
-	line "điều bí mật."
+	text "I'll tell you a"
+	line "secret."
 
-	para "Nhưng trước tiên,"
-	line "đấu nào!"
+	para "But first, we"
+	line "battle!"
 	done
 
 HikerSidneyBeatenText:
-	text "Ôi, chết!"
-	line "Tôi thua rồi…"
+	text "Oh, dang!"
+	line "I lost that…"
 	done
 
 HikerSidneyAfterBattleText:
-	text "NHÀ MÁY ĐIỆN nằm"
-	line "bên kia con sông"
-	cont "nhỏ."
+	text "The POWER PLANT is"
+	line "across a small"
+	cont "river."
 	done
 
 Route9SignText:
-	text "TUYẾN ĐƯỜNG 9"
+	text "ROUTE 9"
 
-	para "TP. CERULEAN -"
-	line "ĐƯỜNG HẦM ĐÁ"
+	para "CERULEAN CITY -"
+	line "ROCK TUNNEL"
 	done
 
 Route9_MapEvents:

@@ -1,10 +1,10 @@
-	db "SÂU@" ; species name
-	dw 3, 29 ; height, weight
+	db "WORM@" ; species name
+	dw 100, 60 ; height, weight
 
-	db   "Nó bò vào tán lá"
-	next "nơi nó ngụy trang"
-	next "giữa những chiếc"
+	db   "It crawls into"
+	next "foliage where it"
+	next "camouflages itself"
 
-	page "lá có màu giống"
-	next "như cơ thể nó.@"
-	next "@"
+	page "among leaves that"
+	next "are the same color"
+	next "as its body.@"

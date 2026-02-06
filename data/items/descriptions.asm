@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/items/descriptions.asm"
+else
+
 ItemDescriptions:
 ; entries correspond to item ids (see constants/item_constants.asm)
 	table_width 2
@@ -260,523 +264,525 @@ ItemDescriptions:
 	assert_table_length $ff
 
 MasterBallDesc:
-	db   "BALL tốt nhất."
-	next "Chắc chắn bắt.@"
+	db   "The best BALL. It"
+	next "never misses.@"
 
 UltraBallDesc:
-	db   "BALL có tỉ lệ bắt"
-	next "cao.@"
+	db   "A BALL with a high"
+	next "rate of success.@"
 
 BrightpowderDesc:
-	db   "Giảm chính xác"
-	next "đối thủ. (GIỮ)@"
+	db   "Lowers the foe's"
+	next "accuracy. (HOLD)@"
 
 GreatBallDesc:
-	db   "BALL có tỉ lệ bắt"
-	next "khá tốt.@"
+	db   "A BALL with a de-"
+	next "cent success rate.@"
 
 PokeBallDesc:
-	db   "Vật dụng dùng để"
-	next "bắt #MON.@"
+	db   "An item for catch-"
+	next "ing #MON.@"
 
 TeruSama1Desc:
 	db   "?@"
 
 BicycleDesc:
-	db   "Xe đạp gấp gọn"
-	next "di chuyển nhanh.@"
+	db   "A collapsible bike"
+	next "for fast movement.@"
 
 MoonStoneDesc:
-	db   "Tiến hoá một số"
-	next "loại #MON.@"
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 AntidoteDesc:
-	db   "Chữa trúng độc"
-	next "cho #MON.@"
+	db   "Cures poisoned"
+	next "#MON.@"
 
 BurnHealDesc:
-	db   "Chữa bỏng cho"
+	db   "Heals burned"
 	next "#MON.@"
 
 IceHealDesc:
-	db   "Chữa đóng băng"
-	next "cho #MON.@"
+	db   "Defrosts frozen"
+	next "#MON.@"
 
 AwakeningDesc:
-	db   "Đánh thức #MON"
-	next "đang ngủ.@"
+	db   "Awakens sleeping"
+	next "#MON.@"
 
 ParlyzHealDesc:
-	db   "Chữa tê liệt cho"
+	db   "Heals paralyzed"
 	next "#MON.@"
 
 FullRestoreDesc:
-	db   "Hồi đầy HP và"
-	next "trạng thái.@"
+	db   "Fully restores HP"
+	next "& status.@"
 
 MaxPotionDesc:
-	db   "Hồi đầy HP cho"
-	next "#MON.@"
+	db   "Fully restores"
+	next "#MON HP.@"
 
 HyperPotionDesc:
-	db   "Hồi 200 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 200.@"
 
 SuperPotionDesc:
-	db   "Hồi 50 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 50.@"
 
 PotionDesc:
-	db   "Hồi 20 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 20.@"
 
 EscapeRopeDesc:
-	db   "Dùng để thoát"
-	next "khỏi hang động.@"
+	db   "Use for escaping"
+	next "from caves, etc.@"
 
 RepelDesc:
-	db   "Xua #MON yếu"
-	next "trong 100 bước.@"
+	db   "Repels weak #-"
+	next "MON for 100 steps.@"
 
 MaxElixerDesc:
-	db   "Hồi đầy PP của"
-	next "một #MON.@"
+	db   "Fully restores the"
+	next "PP of one #MON.@"
 
 FireStoneDesc:
-	db   "Tiến hoá một số"
-	next "loại #MON.@"
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 ThunderStoneDesc:
-	db   "Tiến hoá một số"
-	next "loại #MON.@"
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 WaterStoneDesc:
-	db   "Tiến hoá một số"
-	next "loại #MON.@"
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 TeruSama2Desc:
 	db   "?@"
 
 HPUpDesc:
-	db   "Tăng HP của một"
-	next "#MON.@"
+	db   "Raises the HP of"
+	next "one #MON.@"
 
 ProteinDesc:
-	db   "Tăng CÔNG của"
-	next "một #MON.@"
+	db   "Raises ATTACK of"
+	next "one #MON.@"
 
 IronDesc:
-	db   "Tăng THỦ của"
-	next "một #MON.@"
+	db   "Raises DEFENSE of"
+	next "one #MON.@"
 
 CarbosDesc:
-	db   "Tăng TỐC ĐỘ của"
-	next "một #MON.@"
+	db   "Raises SPEED of"
+	next "one #MON.@"
 
 LuckyPunchDesc:
-	db   "Tăng chí mạng"
-	next "của CHANSEY.@"
+	db   "Ups critical hit"
+	next "ratio of CHANSEY.@"
 
 CalciumDesc:
-	db   "Tăng ĐẶC BIỆT của"
-	next "một #MON.@"
+	db   "Ups SPECIAL stats"
+	next "of one #MON.@"
 
 RareCandyDesc:
-	db   "Tăng 1 cấp cho"
-	next "một #MON.@"
+	db   "Raises level of a"
+	next "#MON by one.@"
 
 XAccuracyDesc:
-	db   "Tăng chính xác."
-	next "(1 TRẬN)@"
+	db   "Raises accuracy."
+	next "(1 BTL)@"
 
 LeafStoneDesc:
-	db   "Tiến hoá một số"
-	next "loại #MON.@"
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 MetalPowderDesc:
-	db   "Tăng THỦ của"
-	next "DITTO. (GIỮ)@"
+	db   "Raises DEFENSE of"
+	next "DITTO. (HOLD)@"
 
 NuggetDesc:
-	db   "Cục vàng nguyên"
-	next "chất. Bán cao.@"
+	db   "Made of pure gold."
+	next "Sell high.@"
 
 PokeDollDesc:
-	db   "Dùng để thoát"
-	next "#MON hoang dã.@"
+	db   "Use to escape from"
+	next "a wild #MON.@"
 
 FullHealDesc:
-	db   "Chữa mọi vấn đề"
-	next "trạng thái.@"
+	db   "Eliminates all"
+	next "status problems.@"
 
 ReviveDesc:
-	db   "Hồi sinh #MON"
-	next "ngất về 1/2 HP.@"
+	db   "Restores a fainted"
+	next "#MON to 1/2 HP.@"
 
 MaxReviveDesc:
-	db   "Hồi sinh đầy HP"
-	next "cho #MON ngất.@"
+	db   "Fully restores a"
+	next "fainted #MON.@"
 
 GuardSpecDesc:
-	db   "Ngăn giảm chỉ số."
-	next "(1 TRẬN)@"
+	db   "Prevents stats"
+	next "reduction. (1 BTL)@"
 
 SuperRepelDesc:
-	db   "Xua #MON yếu"
-	next "trong 200 bước.@"
+	db   "Repels weak #-"
+	next "MON for 200 steps.@"
 
 MaxRepelDesc:
-	db   "Xua #MON yếu"
-	next "trong 250 bước.@"
+	db   "Repels weak #-"
+	next "MON for 250 steps.@"
 
 DireHitDesc:
-	db   "Tăng tỉ lệ chí"
-	next "mạng. (1 TRẬN)@"
+	db   "Ups critical hit"
+	next "ratio. (1 BTL)@"
 
 TeruSama3Desc:
 	db   "?@"
 
 FreshWaterDesc:
-	db   "Hồi 50 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 50.@"
 
 SodaPopDesc:
-	db   "Hồi 60 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 60.@"
 
 LemonadeDesc:
-	db   "Hồi 80 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 80.@"
 
 XAttackDesc:
-	db   "Tăng CÔNG."
-	next "(1 TRẬN)@"
+	db   "Raises ATTACK."
+	next "(1 BTL)@"
 
 TeruSama4Desc:
 	db   "?@"
 
 XDefendDesc:
-	db   "Tăng THỦ."
-	next "(1 TRẬN)@"
+	db   "Raises DEFENSE."
+	next "(1 BTL)@"
 
 XSpeedDesc:
-	db   "Tăng TỐC ĐỘ."
-	next "(1 TRẬN)@"
+	db   "Raises SPEED."
+	next "(1 BTL)@"
 
 XSpecialDesc:
-	db   "Tăng CÔNG Đ.B."
-	next "(1 TRẬN)@"
+	db   "Raises SPECIAL"
+	next "ATTACK. (1 BTL)@"
 
 CoinCaseDesc:
-	db   "Chứa tới 9.999"
-	next "đồng xu chơi.@"
+	db   "Holds up to 9,999"
+	next "game coins.@"
 
 ItemfinderDesc:
-	db   "Tìm vật phẩm ẩn"
-	next "trong khu vực.@"
+	db   "Checks for unseen"
+	next "items in the area.@"
 
 TeruSama5Desc:
 	db   "?@"
 
 ExpShareDesc:
-	db   "Chia sẻ điểm EXP"
-	next "trong trận. (GIỮ)@"
+	db   "Shares battle EXP."
+	next "Points. (HOLD)@"
 
 OldRodDesc:
-	db   "Dùng bên nước để"
-	next "câu #MON.@"
+	db   "Use by water to"
+	next "fish for #MON.@"
 
 GoodRodDesc:
-	db   "Cần câu tốt để"
-	next "bắt #MON.@"
+	db   "A good ROD for"
+	next "catching #MON.@"
 
 SilverLeafDesc:
-	db   "Chiếc lá màu bạc"
-	next "kỳ lạ.@"
+	db   "A strange, silver-"
+	next "colored leaf.@"
 
 SuperRodDesc:
-	db   "Cần câu tốt nhất"
-	next "để bắt #MON.@"
+	db   "The best ROD for"
+	next "catching #MON.@"
 
 PPUpDesc:
-	db   "Tăng PP tối đa"
-	next "của một chiêu.@"
+	db   "Raises max PP of"
+	next "a selected move.@"
 
 EtherDesc:
-	db   "Hồi 10 PP của"
-	next "một chiêu.@"
+	db   "Restores PP of one"
+	next "move by 10.@"
 
 MaxEtherDesc:
-	db   "Hồi đầy PP của"
-	next "một chiêu.@"
+	db   "Fully restores PP"
+	next "of one move.@"
 
 ElixerDesc:
-	db   "Hồi 10 PP của"
-	next "tất cả chiêu.@"
+	db   "Restores PP of all"
+	next "moves by 10.@"
 
 RedScaleDesc:
-	db   "Vảy từ GYARADOS"
-	next "đỏ.@"
+	db   "A scale from the"
+	next "red GYARADOS.@"
 
 SecretPotionDesc:
-	db   "Chữa hoàn toàn"
-	next "mọi #MON.@"
+	db   "Fully heals any"
+	next "#MON.@"
 
 SSTicketDesc:
-	db   "Vé tàu cho"
+	db   "A ticket for the"
 	next "S.S.AQUA.@"
 
 MysteryEggDesc:
-	db   "TRỨNG nhận từ"
-	next "ÔNG #MON.@"
+	db   "An EGG obtained"
+	next "from MR.#MON.@"
 
 ClearBellDesc:
-	db   "Phát ra tiếng"
-	next "rung nhẹ nhàng.@"
+	db   "Makes a gentle"
+	next "ringing.@"
 
 SilverWingDesc:
-	db   "Chiếc lông màu"
-	next "bạc kỳ lạ.@"
+	db   "A strange, silver-"
+	next "colored feather.@"
 
 MoomooMilkDesc:
-	db   "Hồi 100 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 100.@"
 
 QuickClawDesc:
-	db   "Tăng tỉ lệ đánh"
-	next "trước. (GIỮ)@"
+	db   "Raises 1st strike"
+	next "ratio. (HOLD)@"
 
 PsnCureBerryDesc:
-	db   "Tự chữa trúng"
-	next "độc. (GIỮ)@"
+	db   "A self-cure for"
+	next "poison. (HOLD)@"
 
 GoldLeafDesc:
-	db   "Chiếc lá màu"
-	next "vàng kỳ lạ.@"
+	db   "A strange, gold-"
+	next "colored leaf.@"
 
 SoftSandDesc:
-	db   "Tăng chiêu hệ"
-	next "ĐẤT. (GIỮ)@"
+	db   "Powers up ground-"
+	next "type moves. (HOLD)@"
 
 SharpBeakDesc:
-	db   "Tăng chiêu hệ"
-	next "BAY LƯỢN. (GIỮ)@"
+	db   "Powers up flying-"
+	next "type moves. (HOLD)@"
 
 PrzCureBerryDesc:
-	db   "Tự chữa tê liệt."
-	next "(GIỮ)@"
+	db   "A self-cure for"
+	next "paralysis. (HOLD)@"
 
 BurntBerryDesc:
-	db   "Tự chữa đóng"
-	next "băng. (GIỮ)@"
+	db   "A self-cure for"
+	next "freezing. (HOLD)@"
 
 IceBerryDesc:
-	db   "Tự chữa bỏng."
-	next "(GIỮ)@"
+	db   "A self-heal for a"
+	next "burn. (HOLD)@"
 
 PoisonBarbDesc:
-	db   "Tăng chiêu hệ"
-	next "ĐỘC. (GIỮ)@"
+	db   "Powers up poison-"
+	next "type moves. (HOLD)@"
 
 KingsRockDesc:
-	db   "Có thể làm đối"
-	next "thủ khựng. (GIỮ)@"
+	db   "May make the foe"
+	next "flinch. (HOLD)@"
 
 BitterBerryDesc:
-	db   "Tự chữa hỗn"
-	next "loạn. (GIỮ)@"
+	db   "A self-cure for"
+	next "confusion. (HOLD)@"
 
 MintBerryDesc:
-	db   "Tự đánh thức khi"
-	next "ngủ. (GIỮ)@"
+	db   "A self-awakening"
+	next "for sleep. (HOLD)@"
 
 RedApricornDesc:
-	db   "Quả APRICORN đỏ.@"
+	db   "A red APRICORN.@"
 
 TinyMushroomDesc:
-	db   "Nấm thường."
-	next "Bán thấp.@"
+	db   "An ordinary mush-"
+	next "room. Sell low.@"
 
 BigMushroomDesc:
-	db   "Nấm hiếm."
-	next "Bán cao.@"
+	db   "A rare mushroom."
+	next "Sell high.@"
 
 SilverPowderDesc:
-	db   "Tăng chiêu hệ"
-	next "SÂU BỌ. (GIỮ)@"
+	db   "Powers up bug-type"
+	next "moves. (HOLD)@"
 
 BluApricornDesc:
-	db   "APRICORN xanh.@"
+	db   "A blue APRICORN.@"
 
 TeruSama6Desc:
 	db   "?@"
 
 AmuletCoinDesc:
-	db   "Nhân đôi tiền"
-	next "thưởng. (GIỮ)@"
+	db   "Doubles monetary"
+	next "earnings. (HOLD)@"
 
 YlwApricornDesc:
-	db   "APRICORN vàng.@"
+	db   "A yellow APRICORN.@"
 
 GrnApricornDesc:
-	db   "APRICORN xanh lá.@"
+	db   "A green APRICORN.@"
 
 CleanseTagDesc:
-	db   "Giúp xua #MON"
-	next "hoang. (GIỮ)@"
+	db   "Helps repel wild"
+	next "#MON. (HOLD)@"
 
 MysticWaterDesc:
-	db   "Tăng chiêu hệ"
-	next "NƯỚC. (GIỮ)@"
+	db   "Powers up water-"
+	next "type moves. (HOLD)@"
 
 TwistedSpoonDesc:
-	db   "Tăng chiêu hệ"
-	next "TÂM LINH. (GIỮ)@"
+	db   "Powers up psychic-"
+	next "type moves. (HOLD)@"
 
 WhtApricornDesc:
-	db   "APRICORN trắng.@"
+	db   "A white APRICORN.@"
 
 BlackbeltDesc:
-	db   "Tăng chiêu hệ"
-	next "VÕ THUẬT. (GIỮ)@"
+	db   "Boosts fighting-"
+	next "type moves. (HOLD)@"
 
 BlkApricornDesc:
-	db   "APRICORN đen."
+	db   "A black APRICORN."
 	next "@"
 
 TeruSama7Desc:
 	db   "?@"
 
 PnkApricornDesc:
-	db   "APRICORN hồng."
+	db   "A pink APRICORN."
 	next "@"
 
 BlackGlassesDesc:
-	db   "Tăng chiêu hệ"
-	next "HẮC ÁM. (GIỮ)@"
+	db   "Powers up dark-"
+	next "type moves. (HOLD)@"
 
 SlowpokeTailDesc:
-	db   "Rất ngon."
-	next "Bán cao.@"
+	db   "Very tasty. Sell"
+	next "high.@"
 
 PinkBowDesc:
-	db   "Tăng chiêu hệ"
-	next "B.THƯỜNG. (GIỮ)@"
+	db   "Powers up normal-"
+	next "type moves. (HOLD)@"
 
 StickDesc:
-	db   "Que gỗ thường."
-	next "Bán thấp.@"
+	db   "An ordinary stick."
+	next "Sell low.@"
 
 SmokeBallDesc:
-	db   "Thoát khỏi #MON"
-	next "hoang. (GIỮ)@"
+	db   "Escape from wild"
+	next "#MON. (HOLD)@"
 
 NeverMeltIceDesc:
-	db   "Tăng chiêu hệ"
-	next "ĐÁ BĂNG. (GIỮ)@"
+	db   "Powers up ice-type"
+	next "moves. (HOLD)@"
 
 MagnetDesc:
-	db   "Tăng chiêu hệ"
-	next "ĐIỆN. (GIỮ)@"
+	db   "Boosts electric-"
+	next "type moves. (HOLD)@"
 
 MiracleBerryDesc:
-	db   "Chữa mọi trạng"
-	next "thái. (GIỮ)@"
+	db   "Cures all status"
+	next "problems. (HOLD)@"
 
 PearlDesc:
-	db   "Ngọc trai đẹp."
-	next "Bán thấp.@"
+	db   "A beautiful pearl."
+	next "Sell low.@"
 
 BigPearlDesc:
-	db   "Ngọc trai lớn,"
-	next "đẹp. Bán cao.@"
+	db   "A big, beautiful"
+	next "pearl. Sell high.@"
 
 EverStoneDesc:
-	db   "Ngăn tiến hoá."
-	next "(GIỮ)@"
+	db   "Stops evolution."
+	next "(HOLD)@"
 
 SpellTagDesc:
-	db   "Tăng chiêu hệ"
-	next "MA. (GIỮ)@"
+	db   "Powers up ghost-"
+	next "type moves. (HOLD)@"
 
 RageCandyBarDesc:
-	db   "Hồi 20 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 20.@"
 
 GSBallDesc:
-	db   "BALL bí ẩn.@"
+	db   "The mysterious"
+	next "BALL.@"
 
 BlueCardDesc:
-	db   "Thẻ lưu điểm.@"
+	db   "Card to save"
+	next "points.@"
 
 MiracleSeedDesc:
-	db   "Tăng chiêu hệ"
-	next "CỎ. (GIỮ)@"
+	db   "Powers up grass-"
+	next "type moves. (HOLD)@"
 
 ThickClubDesc:
-	db   "Một loại xương."
-	next "Bán thấp.@"
+	db   "A bone of some"
+	next "sort. Sell low.@"
 
 FocusBandDesc:
-	db   "Có thể ngăn"
-	next "ngất. (GIỮ)@"
+	db   "May prevent faint-"
+	next "ing. (HOLD)@"
 
 TeruSama8Desc:
 	db   "?@"
 
 EnergyPowderDesc:
-	db   "Hồi 50 HP cho"
-	next "#MON. Đắng.@"
+	db   "Restores #MON"
+	next "HP by 50. Bitter.@"
 
 EnergyRootDesc:
-	db   "Hồi 200 HP cho"
-	next "#MON. Đắng.@"
+	db   "Restores #MON"
+	next "HP by 200. Bitter.@"
 
 HealPowderDesc:
-	db   "Chữa mọi trạng"
-	next "thái. Đắng.@"
+	db   "Cures all status"
+	next "problems. Bitter.@"
 
 RevivalHerbDesc:
-	db   "Hồi sinh #MON"
-	next "ngất. Đắng.@"
+	db   "Revives fainted"
+	next "#MON. Bitter.@"
 
 HardStoneDesc:
-	db   "Tăng chiêu hệ"
-	next "SỎI ĐÁ. (GIỮ)@"
+	db   "Powers up rock-"
+	next "type moves. (HOLD)@"
 
 LuckyEggDesc:
-	db   "Tăng điểm EXP"
-	next "nhận được. (GIỮ)@"
+	db   "Earns extra EXP."
+	next "points. (HOLD)@"
 
 CardKeyDesc:
-	db   "Mở cửa cuốn ở"
-	next "ĐÀI RADIO.@"
+	db   "Opens shutters in"
+	next "the RADIO TOWER.@"
 
 MachinePartDesc:
-	db   "Linh kiện cho"
-	next "NHÀ MÁY ĐIỆN.@"
+	db   "A machine part for"
+	next "the POWER PLANT.@"
 
 EggTicketDesc:
-	db   "Dùng tại quầy"
-	next "đổi GOLDENROD.@"
+	db   "May use at Golden-"
+	next "rod trade corner.@"
 
 LostItemDesc:
-	db   "Búp bê # bị mất"
-	next "của COPYCAT.@"
+	db   "The # DOLL lost"
+	next "by the COPYCAT.@"
 
 StardustDesc:
-	db   "Cát đỏ đẹp."
-	next "Bán cao.@"
+	db   "Pretty, red sand."
+	next "Sell high.@"
 
 StarPieceDesc:
-	db   "Mảnh đá quý đỏ."
-	next "Bán rất cao.@"
+	db   "A hunk of red gem."
+	next "Sell very high.@"
 
 BasementKeyDesc:
-	db   "Mở cửa.@"
+	db   "Opens doors.@"
 
 PassDesc:
-	db   "Vé cho tàu"
+	db   "A ticket for the"
 	next "MAGNET TRAIN.@"
 
 TeruSama9Desc:
@@ -789,16 +795,16 @@ TeruSama11Desc:
 	db   "?@"
 
 CharcoalDesc:
-	db   "Tăng chiêu hệ"
-	next "LỬA. (GIỮ)@"
+	db   "Powers up fire-"
+	next "type moves. (HOLD)@"
 
 BerryJuiceDesc:
-	db   "Hồi 20 HP cho"
-	next "#MON.@"
+	db   "Restores #MON"
+	next "HP by 20.@"
 
 ScopeLensDesc:
-	db   "Tăng tỉ lệ chí"
-	next "mạng. (GIỮ)@"
+	db   "Raises critical"
+	next "hit ratio. (HOLD)@"
 
 TeruSama12Desc:
 	db   "?@"
@@ -807,19 +813,19 @@ TeruSama13Desc:
 	db   "?@"
 
 MetalCoatDesc:
-	db   "Tăng chiêu hệ"
-	next "THÉP. (GIỮ)@"
+	db   "Powers up steel-"
+	next "type moves. (HOLD)@"
 
 DragonFangDesc:
-	db   "Tăng chiêu hệ"
-	next "RỒNG. (GIỮ)@"
+	db   "Powers up dragon-"
+	next "type moves. (HOLD)@"
 
 TeruSama14Desc:
 	db   "?@"
 
 LeftoversDesc:
-	db   "Hồi HP trong"
-	next "trận. (GIỮ)@"
+	db   "Restores HP during"
+	next "battle. (HOLD)@"
 
 TeruSama15Desc:
 	db   "?@"
@@ -831,16 +837,16 @@ TeruSama17Desc:
 	db   "?@"
 
 MysteryBerryDesc:
-	db   "Tự hồi PP."
-	next "(GIỮ)@"
+	db   "A self-restore"
+	next "for PP. (HOLD)@"
 
 DragonScaleDesc:
-	db   "Vật phẩm hệ RỒNG"
-	next "hiếm.@"
+	db   "A rare dragon-type"
+	next "item.@"
 
 BerserkGeneDesc:
-	db   "Tăng CÔNG nhưng"
-	next "gây hỗn loạn.@"
+	db   "Boosts ATTACK but"
+	next "causes confusion.@"
 
 TeruSama18Desc:
 	db   "?@"
@@ -852,135 +858,136 @@ TeruSama20Desc:
 	db   "?@"
 
 SacredAshDesc:
-	db   "Hồi sinh đầy HP"
-	next "mọi #MON ngất.@"
+	db   "Fully revives all"
+	next "fainted #MON.@"
 
 HeavyBallDesc:
-	db   "BALL bắt #MON"
-	next "nặng.@"
+	db   "A BALL for catch-"
+	next "ing heavy #MON.@"
 
 FlowerMailDesc:
-	db   "THƯ hình hoa."
-	next "(GIỮ)@"
+	db   "Flower-print MAIL."
+	next "(HOLD)@"
 
 LevelBallDesc:
-	db   "BALL bắt #MON"
-	next "cấp thấp.@"
+	db   "A BALL for lower-"
+	next "level #MON.@"
 
 LureBallDesc:
-	db   "BALL bắt #MON"
-	next "câu bằng cần.@"
+	db   "A BALL for #MON"
+	next "hooked by a ROD.@"
 
 FastBallDesc:
-	db   "BALL bắt #MON"
-	next "nhanh.@"
+	db   "A BALL for catch-"
+	next "ing fast #MON.@"
 
 TeruSama21Desc:
 	db   "?@"
 
 LightBallDesc:
-	db   "Quả cầu điện kỳ"
-	next "lạ. (GIỮ)@"
+	db   "An odd, electrical"
+	next "orb. (HOLD)@"
 
 FriendBallDesc:
-	db   "BALL làm #MON"
-	next "thân thiện.@"
+	db   "A BALL that makes"
+	next "#MON friendly.@"
 
 MoonBallDesc:
-	db   "BALL bắt #MON"
-	next "tiến hoá MOONST.@"
+	db   "A BALL for MOON"
+	next "STONE evolvers.@"
 
 LoveBallDesc:
-	db   "Bắt #MON khác"
-	next "giới.@"
+	db   "For catching the"
+	next "opposite gender.@"
 
 NormalBoxDesc:
-	db   "Mở ra xem có gì"
-	next "bên trong.@"
+	db   "Open it and see"
+	next "what's inside.@"
 
 GorgeousBoxDesc:
-	db   "Mở ra xem có gì"
-	next "bên trong.@"
+	db   "Open it and see"
+	next "what's inside.@"
 
 SunStoneDesc:
-	db   "Tiến hoá một số"
-	next "loại #MON.@"
+	db   "Evolves certain"
+	next "kinds of #MON.@"
 
 PolkadotBowDesc:
-	db   "Tăng chiêu hệ"
-	next "B.THƯỜNG. (GIỮ)@"
+	db   "Powers up normal-"
+	next "type moves. (HOLD)@"
 
 TeruSama22Desc:
 	db   "?@"
 
 UpGradeDesc:
-	db   "Hộp bí ẩn do"
-	next "SILPH CO. làm.@"
+	db   "A mysterious box"
+	next "made by SILPH CO.@"
 
 BerryDesc:
-	db   "Tự hồi phục."
-	next "(10HP, GIỮ)@"
+	db   "A self-restore"
+	next "item. (10HP, HOLD)@"
 
 GoldBerryDesc:
-	db   "Tự hồi phục."
-	next "(30HP, GIỮ)@"
+	db   "A self-restore"
+	next "item. (30HP, HOLD)@"
 
 SquirtBottleDesc:
-	db   "Bình dùng để"
-	next "tưới cây.@"
+	db   "A bottle used for"
+	next "watering plants.@"
 
 TeruSama23Desc:
 	db   "?@"
 
 ParkBallDesc:
-	db   "BALL cuộc thi"
-	next "bắt côn trùng.@"
+	db   "The Bug-Catching"
+	next "Contest BALL.@"
 
 RainbowWingDesc:
-	db   "Lông huyền bí"
-	next "màu cầu vồng.@"
+	db   "A mystical feather"
+	next "of rainbow colors.@"
 
 TeruSama24Desc:
 	db   "?@"
 
 BrickPieceDesc:
-	db   "Mảnh gạch hiếm.@"
+	db   "A rare chunk of"
+	next "tile.@"
 
 SurfMailDesc:
-	db   "THƯ hình LAPRAS."
-	next "(GIỮ)@"
+	db   "LAPRAS-print MAIL."
+	next "(HOLD)@"
 
 LiteBlueMailDesc:
-	db   "THƯ hình DRATINI."
-	next "(GIỮ)@"
+	db   "DRATINI-print"
+	next "MAIL. (HOLD)@"
 
 PortraitMailDesc:
-	db   "THƯ có hình người"
-	next "gửi.@"
+	db   "MAIL featuring the"
+	next "holder's likeness.@"
 
 LovelyMailDesc:
-	db   "THƯ hình trái"
-	next "tim. (GIỮ)@"
+	db   "Heart-print MAIL."
+	next "(HOLD)@"
 
 EonMailDesc:
-	db   "THƯ hình EEVEE."
-	next "(GIỮ)@"
+	db   "EEVEE-print MAIL."
+	next "(HOLD)@"
 
 MorphMailDesc:
-	db   "THƯ hình DITTO."
-	next "(GIỮ)@"
+	db   "DITTO-print MAIL."
+	next "(HOLD)@"
 
 BlueSkyMailDesc:
-	db   "THƯ hình bầu"
-	next "trời. (GIỮ)@"
+	db   "Sky-print MAIL."
+	next "(HOLD)@"
 
 MusicMailDesc:
-	db   "THƯ hình NATU."
-	next "(GIỮ)@"
+	db   "NATU-print MAIL."
+	next "(HOLD)@"
 
 MirageMailDesc:
-	db   "THƯ hình MEW."
-	next "(GIỮ)@"
+	db   "MEW-print MAIL."
+	next "(HOLD)@"
 
 TeruSama25Desc:
 	db   "?@"
@@ -1008,3 +1015,5 @@ TeruSama32Desc:
 
 TeruSama33Desc:
 	db   "?@"
+
+endc

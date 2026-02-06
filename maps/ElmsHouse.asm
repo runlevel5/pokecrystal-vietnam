@@ -20,61 +20,63 @@ ElmsHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 ElmsWifeText:
-	text "Chào, <PLAY_G>!"
-	line "Chồng cô lúc nào"
+	text "Hi, <PLAY_G>! My"
+	line "husband's always"
 
-	para "cũng bận--cô hy"
-	line "vọng anh ấy ổn."
+	para "so busy--I hope"
+	line "he's OK."
 
-	para "Khi mải nghiên cứu"
-	line "#MON, anh ấy"
+	para "When he's caught"
+	line "up in his #MON"
 
-	para "còn quên cả ăn"
-	line "nữa."
+	para "research, he even"
+	line "forgets to eat."
 	done
 
 ElmsSonText:
-	text "Khi em lớn lên, em"
-	line "sẽ giúp bố!"
+	text "When I grow up,"
+	line "I'm going to help"
+	cont "my dad!"
 
-	para "Em sẽ trở thành"
-	line "giáo sư #MON"
-	cont "vĩ đại!"
+	para "I'm going to be a"
+	line "great #MON"
+	cont "professor!"
 	done
 
 ElmsHouseLabFoodText: ; unreferenced
-	text "Có ít thức ăn ở"
-	line "đây. Chắc là cho"
-	cont "phòng thí nghiệm."
+	text "There's some food"
+	line "here. It must be"
+	cont "for the LAB."
 	done
 
 ElmsHousePokemonFoodText: ; unreferenced
-	text "Có ít thức ăn ở"
-	line "đây. Chắc là cho"
-	cont "#MON."
+	text "There's some food"
+	line "here. This must be"
+	cont "for #MON."
 	done
 
 ElmsHousePCText:
-	text "#MON. Chúng đến"
-	line "từ đâu?"
+	text "#MON. Where do"
+	line "they come from? "
 
-	para "Chúng đi đâu?"
+	para "Where are they"
+	line "going?"
 
-	para "Tại sao chưa ai"
-	line "chứng kiến #MON"
-	cont "được sinh ra?"
+	para "Why has no one"
+	line "ever witnessed a"
+	cont "#MON's birth?"
 
-	para "Tôi muốn biết! Tôi"
-	line "sẽ cống hiến đời"
+	para "I want to know! I"
+	line "will dedicate my"
 
-	para "mình để nghiên"
-	line "cứu #MON!"
+	para "life to the study"
+	line "of #MON!"
 
 	para "…"
 
-	para "Đây là một phần"
-	line "bài nghiên cứu"
-	cont "của GS ELM."
+	para "It's a part of"
+	line "PROF.ELM's re-"
+	cont "search papers."
 	done
 
 ElmsHouse_MapEvents:

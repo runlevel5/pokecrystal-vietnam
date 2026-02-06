@@ -1,66 +1,66 @@
 GinaAnswerPhoneText:
-	text "Xin chào? Đây là"
+	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ, <PLAY_G>!"
-	line "Chào buổi sáng!"
+	para "Oh, <PLAY_G>!"
+	line "Good morning!"
 	done
 
 GinaAnswerPhoneDayText:
-	text "Xin chào? Đây là"
+	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ, <PLAY_G>!"
-	line "Chào, khỏe không?"
+	para "Oh, <PLAY_G>!"
+	line "Hi, how are you?"
 	done
 
 GinaAnswerPhoneNiteText:
-	text "Xin chào? Đây là"
+	text "Hello? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ, <PLAY_G>!"
-	line "Chào buổi tối!"
+	para "Oh, <PLAY_G>!"
+	line "Good evening!"
 	done
 
 GinaGreetText:
 	text "<PLAY_G>?"
 
-	para "Là @"
+	para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "Chào buổi sáng!"
+	line "Good morning!"
 	done
 
 GinaGreetDayText:
 	text "<PLAY_G>?"
 
-	para "Là @"
+	para "It's @"
 	text_ram wStringBuffer3
-	text ". Có đúng"
-	line "lúc không?"
+	text ". Is"
+	line "this a bad time?"
 	done
 
 GinaGreetNiteText:
 	text "<PLAY_G>?"
 
-	para "Là @"
+	para "It's @"
 	text_ram wStringBuffer3
 	text "."
-	line "Rảnh trò chuyện?"
+	line "Got time to chat?"
 	done
 
 GinaGenericText:
-	text "#MON của cậu"
-	line "vẫn mạnh chứ?"
+	text "Are your #MON"
+	line "still tough?"
 
-	para "Tớ luyện tập hàng"
-	line "ngày với @"
+	para "I train every day"
+	line "with @"
 	text_ram wStringBuffer4
 	text "."
 	done

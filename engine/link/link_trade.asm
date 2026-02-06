@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/link/link_trade.asm"
+else
+
 LinkCommsBorderGFX:
 INCBIN "gfx/trade/border_tiles.2bpp"
 
@@ -123,7 +127,7 @@ InitTradeSpeciesList:
 	ret
 
 .CancelString:
-	db "HỦY@"
+	db "CANCEL@"
 
 _LoadTradeScreenBorderGFX:
 	call __LoadTradeScreenBorderGFX
@@ -178,7 +182,7 @@ PlaceWaitingTextAndSyncAndExchangeNybble:
 	jp DelayFrames
 
 .Waiting:
-	db "ĐANG CHỜ..@"
+	db "WAITING..!@"
 
 LinkTradeMenu:
 	call .MenuAction
@@ -340,3 +344,5 @@ LinkTradeMenu:
 	ret z
 	scf
 	ret
+
+endc

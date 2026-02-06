@@ -38,41 +38,41 @@ GoldenrodDeptStore4FElevatorButton:
 	jumpstd ElevatorButtonScript
 
 GoldenrodDeptStore4FCooltrainerMText:
-	text "Này. Tôi yêu các"
-	line "#MON mạnh."
+	text "Hey. I love strong"
+	line "#MON."
 
-	para "Tôi cho chúng ăn"
-	line "ĐẠM để tăng"
-	cont "CÔNG."
+	para "I feed them PRO-"
+	line "TEIN to crank up"
+	cont "their ATTACK."
 	done
 
 GoldenrodDeptStore4FBugCatcherText:
-	text "SẮT tăng THỦ cho"
-	line "#MON của bạn."
+	text "IRON adds to your"
+	line "#MON's DEFENSE."
 	done
 
 GoldenrodDeptStore4FGameboyKidText:
-	text "Một số #MON chỉ"
-	line "tiến hóa qua"
+	text "Some #MON"
+	line "evolve only by"
 
-	para "trao đổi qua dây"
-	line "Game Link."
+	para "being traded via a"
+	line "Game Link cable."
 
-	para "Tôi biết bốn con:"
+	para "I know of four:"
 	line "MACHOKE, KADABRA,"
 
-	para "HAUNTER và, ừm,"
+	para "HAUNTER and, um,"
 	line "GRAVELER."
 
-	para "Tôi nghe có thêm"
-	line "con khác nữa."
+	para "I heard there are"
+	line "others too."
 	done
 
 GoldenrodDeptStore4FDirectoryText:
-	text "Hãy Nâng Cấp"
-	line "#MON Của Bạn!"
+	text "Let Us Pump Up"
+	line "Your #MON!"
 
-	para "4T HỘP THUỐC"
+	para "4F MEDICINE BOX"
 	done
 
 GoldenrodDeptStore4F_MapEvents:

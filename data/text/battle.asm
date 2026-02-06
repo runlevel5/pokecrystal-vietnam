@@ -265,7 +265,8 @@ BattleText_TheresNoEscapeFromTrainerBattle:
 	prompt
 
 BattleText_GotAwaySafely:
-	text "Thoát an toàn!"
+	text "Chạy thoát an"
+	line "toàn!"
 	prompt
 
 BattleText_UserFledUsingAStringBuffer1:

@@ -90,7 +90,7 @@ CherrygroveCityGuideGent:
 	end
 
 .mapcardname
-	db "THẺ BẢN ĐỒ@"
+	db "MAP CARD@"
 
 .No:
 	writetext GuideGentNoText
@@ -334,212 +334,214 @@ CherrygroveCity_RivalExitsStageLeft:
 	step_end
 
 GuideGentIntroText:
-	text "Bạn là HLV mới vào"
-	line "nghề phải không?"
-	cont "Tôi nhận ra!"
+	text "You're a rookie"
+	line "trainer, aren't"
+	cont "you? I can tell!"
 
-	para "Không sao! Ai cũng"
-	line "từng là người mới"
-	cont "mà!"
+	para "That's OK! Every-"
+	line "one is a rookie"
+	cont "at some point!"
 
-	para "Nếu muốn, tôi có"
-	line "thể chỉ bạn vài"
-	cont "điều."
+	para "If you'd like, I"
+	line "can teach you a"
+	cont "few things."
 	done
 
 GuideGentTourText1:
-	text "OK, vậy thì!"
-	line "Đi theo tôi!"
+	text "OK, then!"
+	line "Follow me!"
 	done
 
 GuideGentPokecenterText:
-	text "Đây là TRUNG TÂM"
-	line "#MON. Họ hồi"
+	text "This is a #MON"
+	line "CENTER. They heal"
 
-	para "phục #MON của"
-	line "bạn rất nhanh."
+	para "your #MON in no"
+	line "time at all."
 
-	para "Bạn sẽ cần đến"
-	line "họ nhiều, nên hãy"
+	para "You'll be relying"
+	line "on them a lot, so"
 
-	para "tìm hiểu về họ"
-	line "đi."
+	para "you better learn"
+	line "about them."
 	done
 
 GuideGentMartText:
-	text "Đây là CỬA HÀNG"
-	line "#MART."
+	text "This is a #MON"
+	line "MART."
 
-	para "Họ bán BÓNG để"
-	line "bắt #MON hoang"
+	para "They sell BALLS"
+	line "for catching wild"
 
-	para "dã và các vật"
-	line "phẩm hữu ích."
+	para "#MON and other"
+	line "useful items."
 	done
 
 GuideGentRoute30Text:
-	text "TUYẾN ĐƯỜNG 30 nằm"
-	line "ở phía này."
+	text "ROUTE 30 is out"
+	line "this way."
 
-	para "Các HLV sẽ chiến"
-	line "đấu #MON quý"
+	para "Trainers will be"
+	line "battling their"
 
-	para "của họ ở đó."
+	para "prized #MON"
+	line "there."
 	done
 
 GuideGentSeaText:
-	text "Đây là biển, như"
-	line "bạn thấy đó."
+	text "This is the sea,"
+	line "as you can see."
 
-	para "Một số #MON"
-	line "chỉ sống trong"
-	cont "nước."
+	para "Some #MON are"
+	line "found only in"
+	cont "water."
 	done
 
 GuideGentGiftText:
-	text "Đây rồi…"
+	text "Here…"
 
-	para "Đây là nhà tôi!"
-	line "Cảm ơn đã đi cùng."
+	para "It's my house!"
+	line "Thanks for your"
+	cont "company."
 
-	para "Để tôi tặng bạn"
-	line "món quà nhỏ."
+	para "Let me give you a"
+	line "small gift."
 	done
 
 GotMapCardText:
-	text "#GEAR của"
-	line "<PLAYER> có BẢN ĐỒ"
+	text "<PLAYER>'s #GEAR"
+	line "now has a MAP!"
 	done
 
 GuideGentPokegearText:
-	text "#GEAR sẽ hữu"
-	line "ích hơn khi bạn"
-	cont "thêm THẺ vào."
+	text "#GEAR becomes"
+	line "more useful as you"
+	cont "add CARDS."
 
-	para "Chúc bạn may mắn"
-	line "trên hành trình!"
+	para "I wish you luck on"
+	line "your journey!"
 	done
 
 GuideGentNoText:
-	text "Ồ… Tôi thích làm"
-	line "việc này mà…"
+	text "Oh… It's something"
+	line "I enjoy doing…"
 
-	para "Thôi được. Ghé"
-	line "thăm tôi khi rảnh."
+	para "Fine. Come see me"
+	line "when you like."
 	done
 
 CherrygroveRivalText_Seen:
 	text "<……> <……> <……>"
 
-	para "Mày có #MON ở"
-	line "PTN rồi à."
+	para "You got a #MON"
+	line "at the LAB."
 
-	para "Thật phí."
-	line "Đồ yếu đuối."
+	para "What a waste."
+	line "A wimp like you."
 
 	para "<……> <……> <……>"
 
-	para "Mày không hiểu tao"
-	line "nói gì à?"
+	para "Don't you get what"
+	line "I'm saying?"
 
-	para "Tao cũng có một"
-	line "#MON xịn sò."
+	para "Well, I too, have"
+	line "a good #MON."
 
-	para "Tao sẽ cho mày"
-	line "thấy!"
+	para "I'll show you"
+	line "what I mean!"
 	done
 
 RivalCherrygroveWinText:
-	text "Hừ. Mày vui vì"
-	line "thắng hả?"
+	text "Humph. Are you"
+	line "happy you won?"
 	done
 
 CherrygroveRivalText_YouLost:
 	text "<……> <……> <……>"
 
-	para "Tao tên ???."
+	para "My name's ???."
 
-	para "Tao sẽ trở thành"
-	line "HLV #MON vĩ"
-	cont "đại nhất thế"
-	cont "giới."
+	para "I'm going to be"
+	line "the world's great-"
+	cont "est #MON"
+	cont "trainer."
 	done
 
 RivalCherrygroveLossText:
-	text "Hừ. Thật phí"
-	line "thời gian."
+	text "Humph. That was a"
+	line "waste of time."
 	done
 
 CherrygroveRivalText_YouWon:
 	text "<……> <……> <……>"
 
-	para "Tao tên ???."
+	para "My name's ???."
 
-	para "Tao sẽ trở thành"
-	line "HLV #MON vĩ"
-	cont "đại nhất thế"
-	cont "giới."
+	para "I'm going to be"
+	line "the world's great-"
+	cont "est #MON"
+	cont "trainer."
 	done
 
 CherrygroveTeacherText_NoMapCard:
-	text "Bạn có nói chuyện"
-	line "với ông già ở TT"
-	cont "#MON chưa?"
+	text "Did you talk to"
+	line "the old man by the"
+	cont "#MON CENTER?"
 
-	para "Ông ấy sẽ cài BẢN"
-	line "ĐỒ JOHTO vào"
-	cont "#GEAR của bạn."
+	para "He'll put a MAP of"
+	line "JOHTO on your"
+	cont "#GEAR."
 	done
 
 CherrygroveTeacherText_HaveMapCard:
-	text "Khi đi cùng"
-	line "#MON, đi đâu"
-	cont "cũng vui."
+	text "When you're with"
+	line "#MON, going"
+	cont "anywhere is fun."
 	done
 
 CherrygroveYoungsterText_NoPokedex:
-	text "Nhà ÔNG #MON"
-	line "còn xa hơn phía"
-	cont "trước."
+	text "MR.#MON's house"
+	line "is still farther"
+	cont "up ahead."
 	done
 
 CherrygroveYoungsterText_HavePokedex:
-	text "Tôi đã đấu với"
-	line "các HLV trên"
-	cont "đường đi."
+	text "I battled the"
+	line "trainers on the"
+	cont "road."
 
-	para "#MON tôi thua."
-	line "Chúng tan tác!"
+	para "My #MON lost."
+	line "They're a mess! I"
 
-	para "Tôi phải đưa chúng"
-	line "đến TT #MON."
+	para "must take them to"
+	line "a #MON CENTER."
 	done
 
 MysticWaterGuyTextBefore:
-	text "#MON tôi bắt"
-	line "có mang vật phẩm."
+	text "A #MON I caught"
+	line "had an item."
 
-	para "Tôi nghĩ đó là"
-	line "NƯỚC HUYỀN BÍ."
+	para "I think it's"
+	line "MYSTIC WATER."
 
-	para "Tôi không cần, bạn"
-	line "muốn không?"
+	para "I don't need it,"
+	line "so do you want it?"
 	done
 
 MysticWaterGuyTextAfter:
-	text "Tôi quay lại câu"
-	line "cá đây."
+	text "Back to fishing"
+	line "for me, then."
 	done
 
 CherrygroveCitySignText:
-	text "TP. CHERRYGROVE"
+	text "CHERRYGROVE CITY"
 
-	para "Thành phố hoa"
-	line "dễ thương và thơm"
+	para "The City of Cute,"
+	line "Fragrant Flowers"
 	done
 
 GuideGentsHouseSignText:
-	text "NHÀ ÔNG HƯỚNG DẪN"
+	text "GUIDE GENT'S HOUSE"
 	done
 
 CherrygroveCity_MapEvents:

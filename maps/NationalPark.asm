@@ -306,71 +306,72 @@ NationalParkHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 NationalParkLassText:
-	text "Nhìn này! Xem túi"
-	line "của tôi!"
+	text "Look! Check out my"
+	line "bag!"
 
-	para "Tôi in các #MON"
-	line "yêu thích từ"
+	para "I printed out my"
+	line "favorites from my"
 
-	para "#DEX và dán lên"
-	line "túi của tôi."
+	para "#DEX and stuck"
+	line "them on my bag."
 	done
 
 NationalParkPokefanFText:
-	text "Đây là THƯ con"
-	line "gái tôi gửi."
-	cont "Nó làm tôi vui."
+	text "This is MAIL I got"
+	line "from my daughter."
+	cont "It cheers me up."
 	done
 
 NationalParkTeacher1Text:
-	text "Hãy chú ý nào!"
+	text "Pay attention,"
+	line "please!"
 
-	para "…Ối, tôi phải"
-	line "thôi suy nghĩ như"
+	para "…Oops, I have to"
+	line "quit thinking like"
 
-	para "một giáo viên"
-	line "mọi lúc."
+	para "a teacher all the"
+	line "time."
 
-	para "Bạn chắc là HLV"
-	line "#MON."
+	para "You must be a"
+	line "#MON trainer."
 
-	para "Vì bạn đã cố"
-	line "gắng rất nhiều,"
+	para "Since you're work-"
+	line "ing so hard, I"
 
-	para "tôi muốn bạn nhận"
-	line "cái này."
+	para "want you to have"
+	line "this."
 	done
 
 NationalParkTeacher1Text_GotQuickClaw:
-	text "Cho #MON cầm"
-	line "QUICK CLAW đó."
+	text "Let a #MON hold"
+	line "that QUICK CLAW."
 
-	para "Đôi khi nó sẽ"
-	line "tấn công trước"
-	cont "trong trận đấu."
+	para "Sometimes it will"
+	line "strike first"
+	cont "during battle."
 	done
 
 NationalParkYoungster1Text:
-	text "Tôi đang chơi với"
-	line "sticker in từ"
-	cont "#DEX của tôi."
+	text "I'm playing with"
+	line "stickers I printed"
+	cont "from my #DEX."
 	done
 
 NationalParkYoungster2Text:
-	text "Tôi sẽ lấy sticker"
-	line "#DEX của bạn ấy"
-	cont "nếu tôi thắng."
+	text "I get the other"
+	line "guy's #DEX"
+	cont "sticker if I win."
 	done
 
 NationalParkTeacher2Text:
-	text "Tôi đi dạo trong"
-	line "VƯỜN, nhưng tôi"
+	text "I take walks in"
+	line "the PARK, but I"
 
-	para "không bao giờ đi"
-	line "vào cỏ."
+	para "never go into the"
+	line "grass."
 
-	para "Các HLV luôn muốn"
-	line "chiến đấu…"
+	para "Trainers always"
+	line "want to battle…"
 	done
 
 NationalParkPersianText:
@@ -378,135 +379,136 @@ NationalParkPersianText:
 	done
 
 NationalParkGameboyKidText:
-	text "Tôi đang in"
-	line "#DEX của tôi."
+	text "I'm printing out"
+	line "my #DEX."
 
-	para "Bạn cũng có thể"
-	line "in những thứ như"
+	para "You can also print"
+	line "out stuff like"
 
-	para "THƯ và PC BOXES"
-	line "của bạn."
+	para "MAIL and your PC"
+	line "BOXES."
 	done
 
 SchoolboyJack1SeenText:
-	text "Thế giới #MON"
-	line "rất sâu sắc."
+	text "The world of"
+	line "#MON is deep."
 
-	para "Vẫn còn rất nhiều"
-	line "điều chúng ta"
-	cont "chưa biết."
+	para "There are still"
+	line "lots of things we"
+	cont "don't know."
 
-	para "Nhưng tôi biết"
-	line "nhiều hơn bạn!"
+	para "But I know more"
+	line "than you do!"
 	done
 
 SchoolboyJack1BeatenText:
-	text "Cái-cái gì?"
+	text "Wha-wha-what?"
 	done
 
 SchoolboyJackTradeMonText:
-	text "Có rất nhiều thứ"
-	line "để học."
+	text "There is a lot"
+	line "to learn."
 
-	para "Ví dụ…"
+	para "For example…"
 
-	para "Có {d:NUM_TMS} TM"
-	line "khác nhau."
+	para "There are {d:NUM_TMS} kinds"
+	line "of TMs."
 
-	para "#MON trao đổi"
-	line "lên cấp nhanh hơn"
+	para "Traded #MON"
+	line "level up faster."
 	done
 
 PokefanfBeverly1SeenText:
-	text "#MON của tôi"
-	line "thật đáng yêu."
+	text "My #MON are"
+	line "simply darling."
 
-	para "Để tôi nói cho bạn"
-	line "biết chúng khiến"
-	cont "tôi tự hào thế nào"
+	para "Let me tell you"
+	line "how proud my"
+	cont "darlings make me."
 	done
 
 PokefanfBeverly1BeatenText:
-	text "Tôi thắng bạn về"
-	line "niềm tự hào…"
+	text "I can beat you in"
+	line "pride, but…"
 	done
 
 PokefanBeverlyCuteMonText:
-	text "Tôi phải nói rằng"
-	line "#MON bạn cũng"
-	cont "khá dễ thương."
+	text "I must say, your"
+	line "#MON are quite"
+	cont "cute, too."
 	done
 
 PokefanmWilliamSeenText:
-	text "Chúng tôi yêu quý"
-	line "#MON của mình,"
-	cont "dù chúng ghét ta."
+	text "We adore our #-"
+	line "MON, even if they"
+	cont "dislike us."
 
-	para "Đó là ý nghĩa của"
-	line "một FAN."
+	para "That's what being"
+	line "a FAN is about."
 	done
 
 PokefanmWilliamBeatenText:
-	text "#MON của tôi!"
+	text "M-my #MON!"
 	done
 
 PokefanmWilliamAfterBattleText:
-	text "Tôi thua trận đấu"
-	line "nhưng #MON của"
+	text "I lost the battle,"
+	line "but my #MON win"
 
-	para "tôi thắng giải"
-	line "đáng yêu nhất."
+	para "the prize for"
+	line "being most lovely."
 	done
 
 PokefanFBeverlyMarillFriendText:
-	text "Bạn tôi có một"
-	line "con MARILL!"
+	text "My friend keeps a"
+	line "MARILL!"
 
-	para "Tôi thấy chúng rất"
-	line "đáng yêu."
+	para "I find them very"
+	line "endearing."
 
-	para "Ôi, tôi ước có một"
-	line "con MARILL…"
+	para "Oh, I wish for a"
+	line "MARILL of my own…"
 	done
 
 LassKriseSeenText:
-	text "Xin chào? Sao bạn"
-	line "nhìn chằm chằm?"
+	text "Hello? Why are you"
+	line "staring at me?"
 
-	para "Ồ, muốn đấu à?"
+	para "Oh, a battle?"
 	done
 
 LassKriseBeatenText:
-	text "…Hừm…"
+	text "…Hmmm…"
 	done
 
 LassKriseAfterBattleText:
-	text "Tôi nghĩ bạn nhìn"
-	line "tôi vì tôi dễ"
-	cont "thương!"
+	text "I thought you were"
+	line "staring at me"
+	cont "because I'm cute!"
 	done
 
 NationalParkRelaxationSquareText:
-	text "QUẢNG TRƯỜNG"
-	line "VƯỜN QUỐC GIA"
+	text "RELAXATION SQUARE"
+	line "NATIONAL PARK"
 	done
 
 NationalParkBattleNoticeText:
-	text "Thông báo gì đây?"
+	text "What is this"
+	line "notice?"
 
-	para "Vui lòng chỉ đấu"
-	line "trong bãi cỏ."
+	para "Please battle only"
+	line "in the grass."
 
-	para "VƯỜN QUỐC GIA"
-	line "VP QUẢN LÝ"
+	para "NATIONAL PARK"
+	line "WARDEN'S OFFICE"
 	done
 
 NationalParkTrainerTipsText:
-	text "MẸO CHO HLV"
+	text "TRAINER TIPS"
 
-	para "In THƯ bằng cách"
-	line "mở nó rồi nhấn"
-	cont "nút START."
+	para "Print out MAIL by"
+	line "opening it then"
+	cont "pressing START."
 	done
 
 NationalPark_MapEvents:

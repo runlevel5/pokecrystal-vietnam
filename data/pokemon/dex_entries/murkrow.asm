@@ -1,10 +1,10 @@
-	db "BÓNG TỐI@" ; species name
-	dw 5, 21 ; height, weight
+	db "DARKNESS@" ; species name
+	dw 108, 50 ; height, weight
 
-	db   "Nó giấu mọi vật"
-	next "sáng bóng ở nơi"
-	next "bí mật. MURKROW"
+	db   "It hides any shiny"
+	next "object it finds in"
+	next "a secret location."
 
-	page "và MEOWTH hay"
-	next "cướp kho của"
-	next "nhau.@"
+	page "MURKROW and"
+	next "MEOWTH loot one"
+	next "another's stashes.@"

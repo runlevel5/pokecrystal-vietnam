@@ -1,10 +1,10 @@
-	db "DI TRUYỀN@" ; species name
-	dw 20, 1220 ; height, weight
+	db "GENETIC@" ; species name
+	dw 607, 2690 ; height, weight
 
-	db   "Người ta nói nó"
-	next "nghỉ ngơi trong"
-	next "hang động chưa"
+	db   "Said to rest qui-"
+	next "etly in an"
+	next "undiscovered cave,"
 
-	page "được khám phá."
-	next "#MON này được"
-	next "tạo ra để đánh.@"
+	page "this #MON was"
+	next "created solely for"
+	next "battling.@"

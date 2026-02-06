@@ -32,17 +32,14 @@ CeruleanTradeSpeechHouseZubatScript:
 	end
 
 CeruleanTradeSpeechHouseGrannyText:
-	text "Chồng tôi sống"
-	line "hạnh phúc với"
-
-	para "#MON mà ông ấy"
-	line "nhận được qua"
-	cont "trao đổi."
+	text "My husband lives"
+	line "happily with #-"
+	cont "MON he got through"
+	cont "trades."
 	done
 
 CeruleanTradeSpeechHouseGrampsText:
-	text "Ahh… Tôi hạnh"
-	line "phúc quá…"
+	text "Ah… I'm so happy…"
 	done
 
 CeruleanTradeSpeechHouseRhydonText:

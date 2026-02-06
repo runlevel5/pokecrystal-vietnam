@@ -205,133 +205,134 @@ LancesRoomMovementData_MaryRunsBackAndForth:
 	step_end
 
 LanceBattleIntroText:
-	text "LANCE: Ta đã đợi"
-	line "con rồi."
+	text "LANCE: I've been"
+	line "waiting for you."
 
 	para "<PLAY_G>!"
 
-	para "Ta biết rằng con,"
-	line "với kỹ năng của"
+	para "I knew that you,"
+	line "with your skills,"
 
-	para "mình, sẽ đến được"
-	line "đây."
+	para "would eventually"
+	line "reach me here."
 
-	para "Giờ không cần"
-	line "nói nhiều nữa."
+	para "There's no need"
+	line "for words now."
 
-	para "Chúng ta sẽ đấu"
-	line "để xem ai mạnh"
-	cont "hơn."
+	para "We will battle to"
+	line "determine who is"
 
-	para "Với tư cách là"
-	line "HLV mạnh nhất và"
+	para "the stronger of"
+	line "the two of us."
 
-	para "là VÔ ĐỊCH của"
-	line "LIÊN ĐOÀN #MON…"
+	para "As the most power-"
+	line "ful trainer and as"
 
-	para "Ta, LANCE bậc"
-	line "thầy rồng, chấp"
-	cont "nhận thách đấu!"
+	para "the #MON LEAGUE"
+	line "CHAMPION…"
+
+	para "I, LANCE the drag-"
+	line "on master, accept"
+	cont "your challenge!"
 	done
 
 LanceBattleWinText:
-	text "…Kết thúc rồi."
+	text "…It's over."
 
-	para "Nhưng thật kỳ lạ."
+	para "But it's an odd"
+	line "feeling."
 
-	para "Ta không giận vì"
-	line "thua. Thực ra, ta"
-	cont "rất vui."
+	para "I'm not angry that"
+	line "I lost. In fact, I"
+	cont "feel happy."
 
-	para "Vui vì đã chứng"
-	line "kiến sự trỗi dậy"
+	para "Happy that I"
+	line "witnessed the rise"
 
-	para "của một VÔ ĐỊCH"
-	line "vĩ đại mới!"
+	para "of a great new"
+	line "CHAMPION!"
 	done
 
 LanceBattleAfterText:
-	text "…Phù."
+	text "…Whew."
 
-	para "Con đã trở nên"
-	line "thật sự mạnh mẽ,"
-	cont "<PLAY_G> ạ."
+	para "You have become"
+	line "truly powerful,"
+	cont "<PLAY_G>."
 
-	para "#MON của con đã"
-	line "đáp lại bản tính"
+	para "Your #MON have"
+	line "responded to your"
 
-	para "mạnh mẽ và chính"
-	line "trực của con."
+	para "strong and up-"
+	line "standing nature."
 
-	para "Là một HLV, con"
-	line "sẽ tiếp tục lớn"
+	para "As a trainer, you"
+	line "will continue to"
 
-	para "mạnh cùng với"
-	line "#MON của mình."
+	para "grow strong with"
+	line "your #MON."
 	done
 
 LancesRoomMaryOhNoOakText:
-	text "MARY: Ôi, không!"
-	line "Xong hết rồi!"
+	text "MARY: Oh, no!"
+	line "It's all over!"
 
-	para "PROF.OAK, nếu ông"
-	line "không chậm thế…"
+	para "PROF.OAK, if you"
+	line "weren't so slow…"
 	done
 
 LancesRoomOakCongratulationsText:
-	text "PROF.OAK: À,"
+	text "PROF.OAK: Ah,"
 	line "<PLAY_G>!"
 
-	para "Lâu lắm rồi mới"
-	line "gặp con."
+	para "It's been a long"
+	line "while."
 
-	para "Con trông ấn"
-	line "tượng hơn nhiều."
+	para "You certainly look"
+	line "more impressive."
 
-	para "Chiến thắng của"
-	line "con ở LEAGUE thật"
-	cont "tuyệt vời!"
+	para "Your conquest of"
+	line "the LEAGUE is just"
+	cont "fantastic!"
 
-	para "Sự cống hiến,"
-	line "niềm tin và tình"
+	para "Your dedication,"
+	line "trust and love for"
 
-	para "yêu thương của"
-	line "con dành cho"
+	para "your #MON made"
+	line "this happen."
 
-	para "#MON đã làm"
-	line "nên điều này."
+	para "Your #MON were"
+	line "outstanding too."
 
-	para "#MON của con"
-	line "cũng rất xuất sắc"
+	para "Because they be-"
+	line "lieved in you as a"
 
-	para "Vì chúng tin vào"
-	line "con là HLV, chúng"
+	para "trainer, they per-"
+	line "severed."
 
-	para "đã kiên trì đến"
-	line "cùng."
-
-	para "Chúc mừng con,"
+	para "Congratulations,"
 	line "<PLAY_G>!"
 	done
 
 LancesRoomMaryInterviewText:
-	text "MARY: Hãy phỏng"
-	line "vấn VÔ ĐỊCH mới"
-	cont "nào!"
+	text "MARY: Let's inter-"
+	line "view the brand new"
+	cont "CHAMPION!"
 	done
 
 LancesRoomNoisyText:
-	text "LANCE: Ở đây bắt"
-	line "đầu ồn ào quá…"
+	text "LANCE: This is"
+	line "getting to be a"
+	cont "bit too noisy…"
 
-	para "<PLAY_G>, con đi"
-	line "theo ta được chứ?"
+	para "<PLAY_G>, could you"
+	line "come with me?"
 	done
 
 LancesRoomMaryNoInterviewText:
-	text "MARY: Ơ, đợi đã!"
-	line "Chúng tôi chưa"
-	cont "phỏng vấn mà!"
+	text "MARY: Oh, wait!"
+	line "We haven't done"
+	cont "the interview!"
 	done
 
 LancesRoom_MapEvents:

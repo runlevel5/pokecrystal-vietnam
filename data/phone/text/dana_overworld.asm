@@ -1,71 +1,72 @@
 DanaAskNumber1Text:
-	text "Cậu thực sự giỏi"
-	line "#MON!"
+	text "You're really good"
+	line "at #MON!"
 
-	para "Các bạn nam cho"
-	line "tớ đồ sau trận"
+	para "Boys give me items"
+	line "after battles, but"
 
-	para "đấu, nhưng đôi khi"
-	line "họ cho quá nhiều."
+	para "sometimes they"
+	line "give me too much."
 
-	para "Lần sau, tớ có thể"
-	line "chia sẻ nếu cậu"
+	para "Next time, I can"
+	line "share some if you"
 
-	para "muốn. Cho tớ số"
-	line "điện thoại nhé."
+	para "want. Let me get"
+	line "your phone number."
 	done
 
 DanaAskNumber2Text:
-	text "Tớ sẽ chia sẻ quà"
-	line "với cậu."
+	text "I'll share my"
+	line "gifts with you."
 
-	para "Cho tớ số điện"
-	line "thoại nhé."
+	para "Let me get your"
+	line "phone number."
 	done
 
 DanaNumberAcceptedText:
-	text "Lần sau bạn nam"
-	line "cho tớ gì đó sau"
+	text "Next time a boy"
+	line "gives me something"
 
-	para "trận đấu, tớ sẽ"
-	line "chia sẻ!"
+	para "after a battle,"
+	line "I'll share some!"
 
-	para "Điều đó có làm tớ"
-	line "xấu không?"
+	para "Does that make me"
+	line "bad?"
 	done
 
 DanaNumberDeclinedText:
-	text "Ôi, cậu không muốn"
-	line "gì à?"
+	text "Aww, you don't"
+	line "want anything?"
 
-	para "Nhưng tất cả đều"
-	line "miễn phí mà…"
+	para "But it's all for"
+	line "free…"
 	done
 
 DanaPhoneFullText:
-	text "Nhưng điện thoại"
-	line "đầy rồi!"
+	text "But your phone's"
+	line "out of memory!"
 	done
 
 DanaRematchText:
-	text "Cậu thực sự trễ!"
+	text "You're really"
+	line "late!"
 
-	para "Tớ háo hức muốn"
-	line "bắt đầu!"
+	para "I'm eager to get"
+	line "going!"
 	done
 
 DanaGiftText:
-	text "Chào! Cậu đến lấy"
-	line "quà à?"
+	text "Hi! Are you here"
+	line "for your gift?"
 
-	para "Cái này thực sự"
-	line "làm cậu vui đấy!"
+	para "This should really"
+	line "make your day!"
 	done
 
 DanaPackFullText:
-	text "Cậu sẽ để cái này"
-	line "ở đâu?"
+	text "Where are you"
+	line "going to put this?"
 
-	para "Tớ giữ, đến lấy"
-	line "sau nhé!"
+	para "I'll keep it, so"
+	line "come get it later!"
 	done

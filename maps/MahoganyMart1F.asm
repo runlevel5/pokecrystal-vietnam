@@ -155,67 +155,67 @@ MahoganyMart1FLanceGoDownStairsMovement:
 	step_end
 
 MahoganyMart1FRageCandyBarText: ; unreferenced
-	text "Chào nhóc!"
+	text "Hello, kiddo!"
 
-	para "Cháu có muốn thử"
-	line "RAGECANDYBAR?"
+	para "How would you like"
+	line "some RAGECANDYBAR?"
 
-	para "Đó là đặc sản ở"
-	line "MAHOGANY đó!"
+	para "It's the thing to"
+	line "eat in MAHOGANY!"
 	done
 
 MahoganyMart1FPharmacistText_LanceEntered:
-	text "Arrgh… Cháu tìm"
-	line "thấy cầu thang"
-	cont "bí mật rồi…"
+	text "Arrgh… You found"
+	line "the secret stair-"
+	cont "way…"
 	done
 
 MahoganyMart1FBlackBeltText:
-	text "Heheh! Thí nghiệm"
-	line "thành công hoàn"
-	cont "hảo."
+	text "Heheh! The experi-"
+	line "ment worked like a"
+	cont "charm."
 
-	para "MAGIKARP chẳng có"
-	line "giá trị gì, nhưng"
+	para "MAGIKARP are just"
+	line "worthless, but"
 
-	para "GYARADOS thì kiếm"
-	line "tiền cực tốt."
+	para "GYARADOS are big"
+	line "moneymakers."
 	done
 
 MahoganyMart1FBlackBeltText_LanceEntered:
 	text "Urrgh…"
 
-	para "#MON rồng của"
-	line "gã đó mạnh quá…"
+	para "That guy's dragon"
+	line "#MON are tough…"
 	done
 
 MahoganyMart1FLanceDragoniteHyperBeamText:
 	text "LANCE: DRAGONITE,"
-	line "TIA HỦY DIỆT."
+	line "HYPER BEAM."
 	done
 
 MahoganyMart1FLanceRadioText:
-	text "Sao cháu lâu thế,"
+	text "What took you,"
 	line "<PLAY_G>?"
 
-	para "Đúng như tôi nghĩ,"
-	line "tín hiệu radio kỳ"
+	para "Just as I thought,"
+	line "that strange radio"
 
-	para "lạ đó đang phát"
-	line "từ đây."
+	para "signal is coming"
+	line "from here."
 	done
 
 MahoganyMart1FLanceStairsText:
-	text "Cầu thang ngay ở"
-	line "đây."
+	text "The stairs are"
+	line "right here."
 	done
 
 MahoganyMart1FLanceSplitUpText:
-	text "LANCE: <PLAY_G>,"
-	line "ta nên chia nhau"
+	text "LANCE: <PLAY_G>, we"
+	line "should split up to"
 
-	para "để kiểm tra nơi"
-	line "này. Ta đi trước."
+	para "check this place."
+	line "I'll go first."
 	done
 
 MahoganyMart1F_MapEvents:

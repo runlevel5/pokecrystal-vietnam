@@ -83,74 +83,75 @@ FlowerShopRadio: ; unreferenced
 	jumpstd Radio2Script
 
 GoldenrodFlowerShopTeacherMySisterWentToSeeWigglyTreeRoute36Text:
-	text "Bạn có thấy cây"
-	line "lắc lư đang mọc"
+	text "Have you seen that"
+	line "wiggly tree that's"
 
-	para "ở TUYẾN ĐƯỜNG 36"
-	line "không?"
+	para "growing on ROUTE"
+	line "36?"
 
-	para "Em gái tôi thích"
-	line "thú quá nên đi"
+	para "My little sister"
+	line "got all excited"
 
-	para "xem nó…"
+	para "and went to see"
+	line "it…"
 
-	para "Chị lo quá… Nó có"
-	line "nguy hiểm không?"
+	para "I'm worried… Isn't"
+	line "it dangerous?"
 	done
 
 GoldenrodFlowerShopTeacherAskWantToBorrowWaterBottleText:
-	text "Bạn cũng muốn"
-	line "mượn bình tưới"
+	text "Do you want to"
+	line "borrow the water"
 
-	para "nước à?"
-	line "Chị không muốn"
+	para "bottle too?"
+	line "I don't want you"
 
-	para "bạn làm gì nguy"
-	line "hiểm với nó."
+	para "doing anything"
+	line "dangerous with it."
 	done
 
 GoldenrodFlowerShopTeacherHeresTheSquirtbottleText:
-	text "Ồ, bạn giỏi hơn"
-	line "WHITNEY…"
+	text "Oh, you're better"
+	line "than WHITNEY…"
 
-	para "Bạn ổn mà, vậy"
-	line "thì đây, BÌNH XỊT"
-	cont "đó!"
+	para "You'll be OK,"
+	line "then. Here's the"
+	cont "SQUIRTBOTTLE!"
 	done
 
 GoldenrodFlowerShopTeacherDontDoAnythingDangerousText:
-	text "Đừng làm gì quá"
-	line "nguy hiểm nhé!"
+	text "Don't do anything"
+	line "too dangerous!"
 	done
 
 GoldenrodFlowerShopTeacherLalalaHavePlentyOfWaterText:
 	text "Lalala lalalala."
-	line "Uống nhiều nước,"
-	cont "con yêu quý!"
+	line "Have plenty of"
+	cont "water, my lovely!"
 	done
 
 GoldenrodFlowerShopFloriaWonderIfSisWillLendWaterBottleText:
-	text "Khi tớ nói với chị"
-	line "về cây rung động,"
+	text "When I told my sis"
+	line "about the jiggly"
 
-	para "chị bảo nó nguy"
-	line "hiểm."
+	para "tree, she told me"
+	line "it's dangerous."
 
-	para "Nếu tớ thắng"
-	line "WHITNEY, chị có"
+	para "If I beat WHITNEY,"
+	line "I wonder if she'll"
 
-	para "cho tớ mượn bình"
-	line "nước không nhỉ…"
+	para "lend me her water"
+	line "bottle…"
 	done
 
 GoldenrodFlowerShopFloriaYouBeatWhitneyText:
-	text "Wow, bạn thắng"
-	line "WHITNEY à? Tuyệt!"
+	text "Wow, you beat"
+	line "WHITNEY? Cool!"
 	done
 
 GoldenrodFlowerShopFloriaItReallyWasAMonText:
-	text "Hóa ra thật sự là"
-	line "#MON luôn!"
+	text "So it really was a"
+	line "#MON!"
 	done
 
 GoldenrodFlowerShop_MapEvents:

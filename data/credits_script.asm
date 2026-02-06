@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/credits_script.asm"
+else
+
 CreditsScript:
 
 ; Clear the banner.
@@ -190,22 +194,42 @@ CreditsScript:
 ; Update the banner.
 	db CREDITS_SCENE, 3 ; Igglybuff
 
-	db     VN_VERSION_STAFF, 2
+	db     US_VERSION_STAFF, 2
 
 	db CREDITS_WAIT, 9
 
-	db           PROGRAMMER, 1
-	db             TRUNG_LE, 2
+	db      US_COORDINATION, 1
+	db          GAIL_TILDEN, 2
+	db        HIRO_NAKAMURA, 3
 
 	db CREDITS_WAIT, 12
 
-	db      GRAPHICS_DESIGN, 1
-	db              HIEU_LE, 2
+	db      US_COORDINATION, 1
+	db       JUNICHI_MASUDA, 2
+	db        SETH_MCMAHILL, 3
+
+	db CREDITS_WAIT, 12
+
+	db      US_COORDINATION, 1
+	db     HIROTO_ALEXANDER, 2
+	db     TERESA_LILLYGREN, 3
 
 	db CREDITS_WAIT, 12
 
 	db     TEXT_TRANSLATION, 1
-	db             TRANG_LE, 2
+	db        NOB_OGASAWARA, 2
+
+	db CREDITS_WAIT, 12
+
+	db          PROGRAMMERS, 1
+	db      TERUKI_MURAKAWA, 2
+	db      KAZUYOSHI_OSAWA, 3
+
+	db CREDITS_WAIT, 12
+
+	db         PAAD_TESTING, 1
+	db       THOMAS_HERTZOG, 2
+	db         ERIK_JOHNSON, 3
 
 	db CREDITS_WAIT, 12
 
@@ -264,3 +288,5 @@ CreditsScript:
 	db CREDITS_WAIT, 20
 
 	db CREDITS_END
+
+endc

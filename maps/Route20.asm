@@ -50,45 +50,46 @@ CinnabarGymSign:
 	jumptext CinnabarGymSignText
 
 SwimmerfNicoleSeenText:
-	text "Tôi cảm thấy nhẹ"
-	line "hơn nhiều trong"
-	cont "nước."
+	text "I feel so much"
+	line "lighter in water."
 	done
 
 SwimmerfNicoleBeatenText:
-	text "Ôi không!"
+	text "Oh, no!"
 	done
 
 SwimmerfNicoleAfterBattleText:
-	text "Bơi lội rèn luyện"
-	line "toàn thân."
+	text "Swimming exercises"
+	line "your full body."
 
-	para "Rất tốt cho sức"
-	line "khỏe."
+	para "It's really good"
+	line "for you."
 	done
 
 SwimmerfLoriSeenText:
-	text "Bộ sưu tập HUY"
-	line "HIỆU GYM ấn tượng"
+	text "What an impressive"
+	line "collection of GYM"
 
-	para "quá. Đấu nào!"
+	para "BADGES. We should"
+	line "battle!"
 	done
 
 SwimmerfLoriBeatenText:
-	text "Không!"
+	text "No!"
 	done
 
 SwimmerfLoriAfterBattleText:
-	text "LƯỚT SÓNG không"
-	line "còn là chiêu HM"
-	cont "d.nhất trong nước."
+	text "SURF is no longer"
+	line "the only HM move"
+	cont "you use in water."
 	done
 
 SwimmermCameronSeenText:
-	text "Tôi đoán không thể"
-	line "bơi suốt đường"
+	text "I guess it's im-"
+	line "possible to swim"
 
-	para "đến JOHTO được."
+	para "all the way to"
+	line "JOHTO."
 	done
 
 SwimmermCameronBeatenText:
@@ -96,17 +97,17 @@ SwimmermCameronBeatenText:
 	done
 
 SwimmermCameronAfterBattleText:
-	text "Ngoài biển, tôi"
-	line "cũng bơi được ở"
-	cont "ao và sông."
+	text "Besides the sea, I"
+	line "can also swim in"
+	cont "ponds and rivers."
 	done
 
 CinnabarGymSignText:
-	text "Biển báo này viết"
-	line "gì?"
+	text "What does this"
+	line "sign say?"
 
-	para "GYM CINNABAR"
-	line "T.LĨNH: BLAINE"
+	para "CINNABAR GYM"
+	line "LEADER: BLAINE"
 	done
 
 Route20_MapEvents:

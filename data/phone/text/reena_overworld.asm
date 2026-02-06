@@ -1,44 +1,45 @@
 ReenaAskNumber1Text:
-	text "Không tệ…"
-	line "Thắng tớ cũng là"
+	text "Not bad…"
+	line "It's something to"
 
-	para "điều gì đó, dù chỉ"
-	line "là may rủi…"
+	para "beat me, even by"
+	line "an unlikely fluke…"
 
-	para "Tớ thích cậu! Cho"
-	line "tớ SĐT đi!"
+	para "I like you! Give"
+	line "me your number!"
 
-	para "Cậu sẽ là đối thủ"
-	line "luyện tập của tớ!"
+	para "You can be my"
+	line "practice partner!"
 	done
 
 ReenaAskNumber2Text:
-	text "Cho tớ SĐT của"
-	line "cậu đi!"
+	text "Give me your phone"
+	line "number!"
 
-	para "Cậu sẽ là đối thủ"
-	line "luyện tập của tớ!"
+	para "You are going to"
+	line "be my practice"
+	cont "partner!"
 	done
 
 ReenaNumberAcceptedText:
-	text "Đừng tự hào quá"
-	line "vì thắng tớ!"
+	text "Don't be too proud"
+	line "about beating me!"
 
-	para "Đó là may rủi!"
+	para "It was a fluke!"
 	done
 
 ReenaNumberDeclinedText:
-	text "Không thể tin!"
-	line "Cậu sẽ hối hận"
-	cont "đấy!"
+	text "I don't believe"
+	line "it! You're going"
+	cont "to regret this!"
 	done
 
 ReenaPhoneFullText:
-	text "Gì? Điện thoại cậu"
-	line "không có chỗ!"
+	text "What? Your phone"
+	line "list has no room!"
 	done
 
 ReenaRematchText:
-	text "Sao lâu vậy?"
-	line "Bắt đầu ngay đi!"
+	text "What took you?"
+	line "Start right away!"
 	done

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/buena.asm"
+else
+
 BuenasPassword:
 	xor a
 	ld [wWhichIndexSet], a
@@ -203,7 +207,7 @@ PrintBlueCardBalance:
 	ret
 
 .Points_string:
-	db "Điểm@"
+	db "Points@"
 
 BlueCardBalanceMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -298,3 +302,5 @@ Buena_GetPrize:
 	ret
 
 INCLUDE "data/items/buena_prizes.asm"
+
+endc

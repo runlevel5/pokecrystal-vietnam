@@ -26,51 +26,52 @@ AzaleaPokecenter1FPokefanFScript:
 	jumptextfaceplayer AzaleaPokecenter1FPokefanFText
 
 AzaleaPokecenter1FGentlemanText:
-	text "#MON của bạn"
-	line "có biết chiêu HM"
-	cont "không?"
+	text "Do your #MON"
+	line "know HM moves?"
 
-	para "Những chiêu đó"
-	line "dùng được ngay cả"
+	para "Those moves can"
+	line "be used even if"
 
-	para "khi #MON của"
-	line "bạn bất tỉnh."
+	para "your #MON has"
+	line "fainted."
 	done
 
 AzaleaPokecenter1FUnusedText: ; unreferenced
-	text "Anh BILL này đã"
-	line "tạo ra hệ thống"
+	text "This BILL guy"
+	line "created the system"
 
-	para "lưu trữ #MON"
-	line "trong PC."
+	para "for storing"
+	line "#MON in a PC."
 
-	para "PC của BILL có"
-	line "thể lưu đến 20"
-	cont "#MON mỗi HỘP."
+	para "BILL's PC can"
+	line "store up to 20"
+	cont "#MON per BOX."
 	done
 
 AzaleaPokecenter1FFishingGuruText:
-	text "PC của BILL có"
-	line "thể lưu đến 20"
-	cont "#MON mỗi HỘP."
+	text "BILL's PC can"
+	line "store up to 20"
+	cont "#MON per BOX."
 	done
 
 AzaleaPokecenter1FPokefanFText:
-	text "Bạn biết về"
-	line "MƠ không?"
+	text "Do you know about"
+	line "APRICORNS?"
 
-	para "Bổ ra, khoét rỗng"
-	line "và lắp thiết bị"
-	cont "đặc biệt vào."
+	para "Crack one open,"
+	line "hollow it out and"
 
-	para "Rồi dùng nó để"
-	line "bắt #MON."
+	para "fit it with a"
+	line "special device."
 
-	para "Trước khi phát"
-	line "minh BÓNG #,"
+	para "Then you can catch"
+	line "#MON with it."
 
-	para "mọi người đều"
-	line "dùng MƠ."
+	para "Before # BALLS"
+	line "were invented,"
+
+	para "everyone used"
+	line "APRICORNS."
 	done
 
 AzaleaPokecenter1F_MapEvents:

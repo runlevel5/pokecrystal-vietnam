@@ -1,10 +1,10 @@
-	db "KHÍ@" ; species name
-	dw 16, 1 ; height, weight
+	db "GAS@" ; species name
+	dw 503, 2 ; height, weight
 
-	db   "Nó ẩn trong bóng"
-	next "tối, chờ lấy mạng"
-	next "sinh vật tiếp"
+	db   "It hides in the"
+	next "dark, planning to"
+	next "take the life of"
 
-	page "theo đi ngang"
-	next "qua.@"
-	next "@"
+	page "the next living"
+	next "thing that wanders"
+	next "close by.@"

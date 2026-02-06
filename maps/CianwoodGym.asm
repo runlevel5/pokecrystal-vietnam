@@ -150,129 +150,132 @@ CianwoodGymMovement_ChuckChucksBoulder:
 ChuckIntroText1:
 	text "WAHAHAH!"
 
-	para "Mày đã đến"
-	line "được đây rồi!"
+	para "So you've come"
+	line "this far!"
 
-	para "Ta nói cho mà"
-	line "nghe, ta mạnh lắm!"
+	para "Let me tell you,"
+	line "I'm tough!"
 
-	para "#MON của ta"
-	line "nghiền nát đá và"
-	cont "đập vỡ xương!"
+	para "My #MON will"
+	line "crush stones and"
+	cont "shatter bones!"
 
-	para "Xem đây!"
+	para "Watch this!"
 	done
 
 ChuckIntroText2:
-	text "CHUCK: Hừừừ!"
+	text "CHUCK: Urggh!"
 	line "…"
 
 	para "Oooarrgh!"
 	done
 
 ChuckIntroText3:
-	text "Đấy! Sợ chưa?"
+	text "There! Scared now,"
+	line "are you?"
 
-	para "Cái gì?"
-	line "Không liên quan"
+	para "What?"
+	line "It has nothing to"
 
-	para "đến #MON à?"
-	line "Đúng vậy!"
+	para "do with #MON?"
+	line "That's true!"
 
-	para "Nào. Chiến đấu"
-	line "thôi!"
+	para "Come on. We shall"
+	line "do battle!"
 	done
 
 ChuckLossText:
-	text "Hả? Cái gì?"
-	line "Ta thua sao?"
+	text "Wha? Huh?"
+	line "I lost?"
 
-	para "Hay đấy!"
-	line "Mày xứng đáng"
-	cont "HUY HIỆU BÃO!"
+	para "How about that!"
+	line "You're worthy of"
+	cont "STORMBADGE!"
 	done
 
 GetStormBadgeText:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU BÃO."
+	text "<PLAYER> received"
+	line "STORMBADGE."
 	done
 
 ChuckExplainBadgeText:
-	text "HUY HIỆU BÃO khiến"
-	line "mọi #MON đến"
+	text "STORMBADGE makes"
+	line "all #MON up to"
 
-	para "L70 vâng lời, kể"
-	line "cả khi trao đổi."
+	para "L70 obey, even"
+	line "traded ones."
 
-	para "Nó cũng cho phép"
-	line "#MON dùng BAY"
+	para "It also lets your"
+	line "#MON use FLY"
 
-	para "khi không trong"
-	line "trận đấu."
+	para "when you're not in"
+	line "a battle."
 
-	para "Đây, lấy cái này"
-	line "nữa!"
+	para "Here, take this"
+	line "too!"
 	done
 
 ChuckExplainTMText:
-	text "Đó là ĐẤM NĂNG."
+	text "That is DYNAMIC-"
+	line "PUNCH."
 
-	para "Nó không phải lúc"
-	line "nào cũng trúng,"
+	para "It doesn't always"
+	line "hit, but when it"
 
-	para "nhưng khi trúng,"
-	line "gây ra hoang mang!"
+	para "does, it causes"
+	line "confusion!"
 	done
 
 ChuckAfterText:
-	text "WAHAHAH! Ta thích"
-	line "đấu với mày!"
+	text "WAHAHAH! I enjoyed"
+	line "battling you!"
 
-	para "Nhưng thua là"
-	line "thua!"
+	para "But a loss is a"
+	line "loss!"
 
-	para "Từ giờ, ta sẽ"
-	line "tập luyện 24 giờ"
-	cont "mỗi ngày!"
+	para "From now on, I'm"
+	line "going to train 24"
+	cont "hours a day!"
 	done
 
 BlackbeltYoshiSeenText:
-	text "#MON và tôi"
-	line "gắn kết với nhau"
-	cont "bởi tình bạn."
+	text "My #MON and I"
+	line "are bound togeth-"
+	cont "er by friendship."
 
-	para "Mối liên kết của"
-	line "chúng tôi bất diệt"
+	para "Our bond will"
+	line "never be broken!"
 	done
 
 BlackbeltYoshiBeatenText:
-	text "Không thể nào!"
+	text "This isn't real!"
 	done
 
 BlackbeltYoshiAfterText:
-	text "Bạn có vẻ cũng có"
-	line "mối liên kết mạnh"
-	cont "với #MON!"
+	text "You seem to have a"
+	line "strong bond with"
+	cont "your #MON too!"
 	done
 
 BlackbeltLaoSeenText:
-	text "Võ sĩ chúng tôi"
-	line "không sợ gì cả!"
+	text "We martial artists"
+	line "fear nothing!"
 	done
 
 BlackbeltLaoBeatenText:
-	text "Thật sốc!"
+	text "That's shocking!"
 	done
 
 BlackbeltLaoAfterText:
-	text "#MON hệ võ"
-	line "sợ hệ tâm linh…"
+	text "Fighting #MON"
+	line "are afraid of psy-"
+	cont "chics…"
 	done
 
 BlackbeltNobSeenText:
-	text "Lời nói vô dụng."
-	line "Hãy để nắm đấm"
-	cont "nói thay!"
+	text "Words are useless."
+	line "Let your fists do"
+	cont "the talking!"
 	done
 
 BlackbeltNobBeatenText:
@@ -280,24 +283,24 @@ BlackbeltNobBeatenText:
 	done
 
 BlackbeltNobAfterText:
-	text "Tôi thua!"
-	line "Tôi câm lặng!"
+	text "I lost! "
+	line "I'm speechless!"
 	done
 
 BlackbeltLungSeenText:
-	text "Nắm đấm cuồng nộ"
-	line "của tôi sẽ nghiền"
-	cont "nát #MON mày!"
+	text "My raging fists"
+	line "will shatter your"
+	cont "#MON!"
 	done
 
 BlackbeltLungBeatenText:
-	text "Tôi bị nghiền nát!"
+	text "I got shattered!"
 	done
 
 BlackbeltLungAfterText:
-	text "#MON tôi thua…"
-	line "Niềm tự hào của"
-	cont "tôi… tan vỡ…"
+	text "My #MON lost…"
+	line "My… my pride is"
+	cont "shattered…"
 	done
 
 CianwoodGym_MapEvents:

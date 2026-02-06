@@ -17,12 +17,20 @@ INCLUDE "home/joypad.asm"
 INCLUDE "home/decompress.asm"
 INCLUDE "home/palettes.asm"
 INCLUDE "home/gfx.asm"
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/home/text.asm"
+else
 INCLUDE "home/text.asm"
+endc
 INCLUDE "home/video.asm"
 INCLUDE "home/map_objects.asm"
 INCLUDE "home/sine.asm"
 INCLUDE "home/movement.asm"
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/home/menu.asm"
+else
 INCLUDE "home/menu.asm"
+endc
 INCLUDE "home/printer.asm"
 INCLUDE "home/game_time.asm"
 INCLUDE "home/map.asm"

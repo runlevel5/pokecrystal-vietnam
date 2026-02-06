@@ -449,228 +449,229 @@ KurtsHouseKurtGoAroundPlayerThenExitHouseMovement:
 	step_end
 
 KurtsHouseKurtMakingBallsMustWaitText:
-	text "Hm? Con là ai?"
+	text "Hm? Who are you?"
 
-	para "<PLAYER> à? Con"
-	line "muốn ta làm cho"
-	cont "mấy quả BÓNG?"
+	para "<PLAYER>, eh? You"
+	line "want me to make"
+	cont "some BALLS?"
 
-	para "Xin lỗi, phải đợi"
-	line "thêm chút nữa."
+	para "Sorry, but that'll"
+	line "have to wait."
 
-	para "Con biết ĐỘI"
-	line "ROCKET không? À,"
+	para "Do you know TEAM"
+	line "ROCKET? Ah, don't"
 
-	para "không sao. Ta sẽ"
-	line "kể cho con nghe."
+	para "worry. I'll tell"
+	line "you anyhow."
 
-	para "ĐỘI ROCKET là một"
-	line "băng đảng độc ác"
+	para "TEAM ROCKET's an"
+	line "evil gang that"
 
-	para "sử dụng #MON"
-	line "cho việc bẩn thỉu."
+	para "uses #MON for"
+	line "their dirty work."
 
-	para "Bọn chúng được cho"
-	line "là đã giải tán ba"
-	cont "năm trước."
+	para "They're supposed"
+	line "to have disbanded"
+	cont "three years ago."
 
-	para "Dù sao, chúng đang"
-	line "ở GIẾNG, chặt đuôi"
+	para "Anyway, they're at"
+	line "the WELL, cutting"
 
-	para "SLOWPOKE để bán!"
+	para "off SLOWPOKETAILS"
+	line "for sale!"
 
-	para "Vậy ta sẽ đi dạy"
-	line "cho chúng một bài"
-	cont "học đau đớn!"
+	para "So I'm going to"
+	line "go give them a"
+	cont "lesson in pain!"
 
-	para "Chờ đó, SLOWPOKE!"
-	line "Lão KURT đang đến"
-	cont "đây!"
+	para "Hang on, SLOWPOKE!"
+	line "Old KURT is on his"
+	cont "way!"
 	done
 
 KurtsHouseKurtHonoredToMakeBallsText:
-	text "KURT: Chào,"
-	line "<PLAYER>!"
+	text "KURT: Hi, <PLAYER>!"
 
-	para "Con xử lý chuyện"
-	line "ở GIẾNG như một"
-	cont "anh hùng thực sự."
+	para "You handled your-"
+	line "self like a real"
+	cont "hero at the WELL."
 
-	para "Ta thích con lắm!"
+	para "I like your style!"
 
-	para "Ta sẽ rất vinh"
-	line "hạnh được làm"
+	para "I would be honored"
+	line "to make BALLS for"
 
-	para "BÓNG cho một HLV"
-	line "như con."
+	para "a trainer like"
+	line "you."
 
-	para "Đây là tất cả ta"
-	line "có bây giờ, cầm"
-	cont "lấy đi."
+	para "This is all I have"
+	line "now, but take it."
 	done
 
 KurtsHouseKurtBallsFromApricornsText:
-	text "KURT: Ta làm BÓNG"
-	line "từ MƠ."
+	text "KURT: I make BALLS"
+	line "from APRICORNS."
 
-	para "Hái chúng từ cây"
-	line "và mang đến cho"
-	cont "ta."
+	para "Collect them from"
+	line "trees and bring"
+	cont "'em to me."
 
-	para "Ta sẽ làm BÓNG"
-	line "từ chúng."
+	para "I'll make BALLS"
+	line "out of them."
 	done
 
 KurtsHouseKurtAskYouHaveAnApricornText:
-	text "KURT: Con có"
-	line "MƠ cho ta?"
+	text "KURT: You have an"
+	line "APRICORN for me?"
 
-	para "Tốt! Ta sẽ biến"
-	line "nó thành BÓNG."
+	para "Fine! I'll turn it"
+	line "into a BALL."
 	done
 
 KurtsHouseKurtItWillTakeADayText:
-	text "KURT: Sẽ mất một"
-	line "ngày để làm BÓNG"
+	text "KURT: It'll take a"
+	line "day to make you a"
 
-	para "cho con. Quay lại"
-	line "lấy sau nhé."
+	para "BALL. Come back"
+	line "for it later."
 	done
 
 KurtsHouseKurtThatsALetdownText:
-	text "KURT: Ồ…"
-	line "Thật đáng tiếc."
+	text "KURT: Oh…"
+	line "That's a letdown."
 	done
 
 KurtsHouseKurtDontBotherMeText:
-	text "KURT: Ta đang làm"
-	line "việc! Đừng quấy!"
+	text "KURT: I'm working!"
+	line "Don't bother me!"
 	done
 
 KurtsHouseKurtJustFinishedYourBallText:
-	text "KURT: À, <PLAYER>!"
-	line "Ta vừa làm xong"
-	cont "BÓNG của con. Đây!"
+	text "KURT: Ah, <PLAYER>!"
+	line "I just finished"
+	cont "your BALL. Here!"
 	done
 
 KurtsHouseKurtTurnedOutGreatText:
-	text "KURT: Nó ra tuyệt"
-	line "vời."
+	text "KURT: That turned"
+	line "out great."
 
-	para "Thử bắt #MON"
-	line "bằng nó xem."
+	para "Try catching"
+	line "#MON with it."
 	done
 
 KurtsHouseKurtGranddaughterHelpingWorkFasterText:
-	text "KURT: Giờ cháu gái"
-	line "ta đang giúp đỡ,"
+	text "KURT: Now that my"
+	line "granddaughter is"
 
-	para "ta có thể làm"
-	line "nhanh hơn nhiều."
+	para "helping me, I can"
+	line "work much faster."
 	done
 
 KurtsHouseKurtWhatIsThatText:
-	text "C-cái gì đây?"
+	text "Wh-what is that?"
 
-	para "Ta chưa từng thấy"
-	line "cái này bao giờ."
+	para "I've never seen"
+	line "one before."
 
-	para "Trông nó giống"
-	line "BÓNG # lắm,"
+	para "It looks a lot"
+	line "like a # BALL,"
 
-	para "nhưng hình như nó"
-	line "là thứ khác."
+	para "but it appears to"
+	line "be something else."
 
-	para "Để ta kiểm tra"
-	line "cho con."
+	para "Let me check it"
+	line "for you."
 	done
 
 KurtsHouseKurtImCheckingItNowText:
-	text "Ta đang kiểm tra"
-	line "nó đây."
+	text "I'm checking it"
+	line "now."
 	done
 
 KurtsHouseKurtAhHaISeeText:
-	text "A-ha! Ta hiểu rồi!"
-	line "Vậy ra…"
+	text "Ah-ha! I see!"
+	line "So…"
 	done
 
 KurtsHouseKurtThisBallStartedToShakeText:
 	text "<PLAYER>!"
 
-	para "Quả BÓNG này bắt"
-	line "đầu rung khi ta"
-	cont "đang kiểm tra nó."
+	para "This BALL started"
+	line "to shake while I"
+	cont "was checking it."
 
-	para "Chắc chắn có điều"
-	line "gì đó ở đây!"
+	para "There must be"
+	line "something to this!"
 	done
 
 KurtsGranddaughterSlowpokeGoneText:
-	text "Mấy con SLOWPOKE"
-	line "biến mất rồi…"
+	text "The SLOWPOKE are"
+	line "gone… Were they"
 
-	para "Chúng bị người xấu"
-	line "bắt đi sao?"
+	para "taken away by bad"
+	line "people?"
 	done
 
 KurtsGranddaughterLonelyText:
-	text "Ông đi rồi…"
-	line "Cháu cô đơn quá…"
+	text "Grandpa's gone…"
+	line "I'm so lonely…"
 	done
 
 KurtsGranddaughterSlowpokeBackText:
-	text "Con SLOWPOKE bố"
-	line "tặng cháu đã về"
+	text "The SLOWPOKE my"
+	line "dad gave me came"
 
-	para "rồi! Đuôi nó cũng"
-	line "đang mọc lại!"
+	para "back! Its TAIL is"
+	line "growing back too!"
 	done
 
 KurtsGranddaughterDadText:
-	text "Bố làm ở SILPH,"
-	line "nơi bố nghiên cứu"
-	cont "BÓNG #."
+	text "Dad works at SILPH"
+	line "where he studies"
+	cont "# BALLS."
 
-	para "Cháu phải ở nhà"
-	line "với Ông và"
-	cont "SLOWPOKE."
+	para "I have to stay"
+	line "home with Grandpa"
+	cont "and SLOWPOKE."
 	done
 
 KurtsGranddaughterHelpText:
-	text "Cháu được giúp Ông"
-	line "rồi!"
+	text "I get to help"
+	line "Grandpa now!"
 
-	para "Chúng cháu sẽ làm"
-	line "BÓNG tốt cho bạn,"
-	cont "hãy đợi nhé!"
+	para "We'll make good"
+	line "BALLS for you, so"
+	cont "please wait!"
 	done
 
 KurtsGranddaughterFunText:
-	text "Làm BÓNG vui lắm!"
+	text "It's fun to make"
+	line "BALLS!"
 	done
 
 KurtsGranddaughterGSBallText:
-	text "Ông đang kiểm tra"
-	line "một quả BÓNG."
+	text "Grandpa's checking"
+	line "a BALL right now."
 
-	para "Nên cháu đang đợi"
-	line "đến khi ông xong."
+	para "So I'm waiting"
+	line "till he's done."
 	done
 
 KurtsHouseSlowpokeText:
 	text "SLOWPOKE: …"
-	line "Ngáp?"
+	line "Yawn?"
 	done
 
 KurtsHouseOakPhotoText:
-	text "…GS OAK thời trẻ?"
+	text "…A young PROF."
+	line "OAK?"
 	done
 
 KurtsHouseCelebiStatueText:
-	text "Đây là tượng của"
-	line "vị thần bảo vệ"
-	cont "khu rừng."
+	text "It's a statue of"
+	line "the forest's pro-"
+	cont "tector."
 	done
 
 KurtsHouse_MapEvents:

@@ -1,10 +1,10 @@
-	db "HÀM LỚN@" ; species name
-	dw 11, 250 ; height, weight
+	db "BIG JAW@" ; species name
+	dw 307, 550 ; height, weight
 
-	db   "Đầu răng nanh"
-	next "nghiêng về sau."
-	next "Khi răng cắp vào,"
+	db   "The tips of its"
+	next "fangs are slanted"
+	next "backward. Once"
 
-	page "con mồi không"
-	next "có cơ hội"
-	next "thoát thân.@"
+	page "those fangs clamp"
+	next "down, the prey has"
+	next "no hope of escape.@"

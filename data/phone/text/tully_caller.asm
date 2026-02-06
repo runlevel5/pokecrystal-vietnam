@@ -1,103 +1,103 @@
 TullyMonHasGrownText:
-	text "@"
+	text "My @"
 	text_ram wStringBuffer4
-	text " của tớ đã"
-	line "lớn thêm rồi."
+	text " has"
+	line "grown again."
 
-	para "Nó chỉ khoảng bấy"
-	line "nhiêu khi tớ bắt"
+	para "It was only about"
+	line "so big when I"
 
-	para "được nó, nhưng"
-	line "giờ to hơn nhiều."
+	para "caught it, but now"
+	line "it's way bigger."
 	done
 
 TullyDefeatedMonText:
-	text "À ừ, tớ KO một"
-	line "@"
+	text "Oh yeah, I KO'd a"
+	line "wild @"
 	text_ram wStringBuffer4
-	text " hoang dã."
+	text "."
 
-	para "Nó to lắm, khoảng"
-	line "bằng thế này."
+	para "It was huge, like"
+	line "this big even."
 
-	para "Heh, có lẽ cậu"
-	line "không thấy được"
-	cont "qua điện thoại…"
+	para "Heh, I guess you"
+	line "can't tell over"
+	cont "the phone…"
 	done
 
 TullyLostAMonText:
-	text "À ừ, tớ thua một"
-	line "@"
+	text "Oh yeah, I lost a"
+	line "wild @"
 	text_ram wStringBuffer4
-	text " hoang dã."
+	text "."
 
-	para "Nó to lắm, khoảng"
-	line "bằng thế này."
+	para "It was huge, like"
+	line "this big even."
 
-	para "Heh, có lẽ cậu"
-	line "không thấy được"
-	cont "qua điện thoại…"
+	para "Heh, I guess you"
+	line "can't tell over"
+	cont "the phone…"
 	done
 
 TullyBattleRematchText:
-	text "Chúng ta nên đấu"
-	line "một trận!"
+	text "We should get a"
+	line "battle going!"
 
-	para "Tớ sẽ câu cá tại"
+	para "I'll be fishing on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Ghé qua nếu cậu"
-	line "có thời gian."
+	para "Swing by if you"
+	line "have the time."
 	done
 
 TullyHangUpText:
-	text "Vậy, hẹn gặp"
-	line "lại cậu."
+	text "Well, I'll be"
+	line "seeing you."
 	done
 
 TullyFoundItemText:
-	text "Tớ nhặt được một"
-	line "món tốt ở bờ"
-	cont "nước."
+	text "I picked up a good"
+	line "little thing at"
+	cont "the water's edge."
 
-	para "Như tớ đã hứa,"
-	line "nó thuộc về cậu."
+	para "Like I promised,"
+	line "it's yours."
 
-	para "Tớ sẽ đợi tại"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyNoItemText:
-	text "Tớ có tìm thấy"
-	line "gì tốt không?"
+	text "Have I found"
+	line "anything good?"
 
-	para "Chưa, chưa có."
+	para "Nope, not yet."
 
-	para "Giống như câu cá,"
-	line "cần kiên nhẫn."
+	para "It's like fishing,"
+	line "you need patience."
 	done
 
 TullyForwardText:
-	text "Ừ, TULLY đây…"
+	text "Yup, TULLY here…"
 
-	para "<PLAY_G>? Hả?"
-	line "Cậu bị lạc?"
+	para "<PLAY_G>? What?"
+	line "You're lost?"
 
-	para "Trận đấu của chúng"
-	line "ta sẽ ở @"
+	para "Our battle will be"
+	line "on @"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 TullyHurryText:
-	text "Tớ có thứ tốt"
-	line "cho cậu."
+	text "I've got something"
+	line "good for you."
 
-	para "Nhanh đến"
+	para "Hustle over to"
 	line "@"
 	text_ram wStringBuffer5
 	text "."

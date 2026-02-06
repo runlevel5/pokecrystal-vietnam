@@ -1,10 +1,10 @@
-	db "BỌ NGỰA@" ; species name
-	dw 15, 560 ; height, weight
+	db "MANTIS@" ; species name
+	dw 411, 1230 ; height, weight
 
-	db   "Nó rất tự hào về"
-	next "tốc độ. Nó nhanh"
-	next "đến mức đối thủ"
+	db   "It's very proud of"
+	next "its speed. It"
+	next "moves so fast that"
 
-	page "không biết cái gì"
-	next "đã hạ gục mình.@"
-	next "@"
+	page "its opponent does"
+	next "not even know what"
+	next "knocked it down.@"

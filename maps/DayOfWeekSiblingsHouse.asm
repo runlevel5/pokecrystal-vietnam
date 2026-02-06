@@ -21,51 +21,51 @@ DayOfWeekSiblingsHousePokedexScript:
 	end
 
 DayOfWeekSiblingsHousePokedexText1:
-	text "Có thứ gì đó"
-	line "viết ở đây."
+	text "There's something"
+	line "written here."
 
-	para "Đọc không?"
+	para "Read it?"
 	done
 
 DayOfWeekSiblingsHousePokedexText2:
-	text "Gửi các anh chị"
-	line "em của mình:"
+	text "To my brothers and"
+	line "sisters:"
 
-	para "Chúng ta tự hào"
-	line "phục vụ các HLV"
-	cont "#MON."
+	para "We take pride in"
+	line "serving #MON"
+	cont "trainers."
 
-	para "Khi HLV nói với"
-	line "bạn, hãy tặng họ"
-	cont "thứ gì hữu ích."
+	para "When trainers talk"
+	line "to you, give them"
+	cont "something useful."
 
-	para "Yêu thương,"
+	para "Love,"
 	line "MONICA"
 
-	para "Đọc tiếp không?"
+	para "Keep reading?"
 	done
 
 DayOfWeekSiblingsHousePokedexText3:
-	text "T2, MONICA"
-	line "TUYẾN ĐƯỜNG 40"
+	text "Monday, MONICA"
+	line "ROUTE 40"
 
-	para "T3, TUSCANY"
-	line "TUYẾN ĐƯỜNG 29"
+	para "Tuesday, TUSCANY"
+	line "ROUTE 29"
 
-	para "T4, WESLEY"
-	line "HỒ GIẬN DỮ"
+	para "Wednesday, WESLEY"
+	line "LAKE OF RAGE"
 
-	para "T5, ARTHUR"
-	line "TUYẾN ĐƯỜNG 36"
+	para "Thursday, ARTHUR"
+	line "ROUTE 36"
 
-	para "T6, FRIEDA"
-	line "TUYẾN ĐƯỜNG 32"
+	para "Friday, FRIEDA"
+	line "ROUTE 32"
 
-	para "T7, SANTOS"
-	line "TP. BLACKTHORN"
+	para "Saturday, SANTOS"
+	line "BLACKTHORN CITY"
 
-	para "CN, SUNNY"
-	line "TUYẾN ĐƯỜNG 37"
+	para "Sunday, SUNNY"
+	line "ROUTE 37"
 	done
 
 DayOfWeekSiblingsHouse_MapEvents:

@@ -183,203 +183,198 @@ BridgetWalksAwayMovement:
 	step_end
 
 WhitneyBeforeText:
-	text "Chào! Mình là"
-	line "WHITNEY!"
+	text "Hi! I'm WHITNEY!"
 
-	para "Mọi người đều mê"
-	line "#MON, nên mình"
-	cont "cũng thích luôn!"
+	para "Everyone was into"
+	line "#MON, so I got"
+	cont "into it too!"
 
-	para "#MON dễ"
-	line "thương quá đi!"
+	para "#MON are"
+	line "super-cute!"
 
-	para "Bạn muốn đấu hả?"
-	line "Cảnh báo nhé--"
-	cont "mình giỏi lắm!"
+	para "You want to bat-"
+	line "tle? I'm warning"
+	cont "you--I'm good!"
 	done
 
 WhitneyShouldntBeSoSeriousText:
-	text "Hức…"
+	text "Sob…"
 
-	para "…Huhuhuhu!"
-	line "Bạn ác quá!"
+	para "…Waaaaaaah!"
+	line "You're mean!"
 
-	para "Sao bạn nghiêm"
-	line "túc vậy! Bạn…"
-	cont "đồ trẻ con!"
+	para "You shouldn't be"
+	line "so serious! You…"
+	cont "you child, you!"
 	done
 
 WhitneyYouMeanieText:
-	text "Huhuhu!"
+	text "Waaaaah!"
 
-	para "Huhuhu!"
+	para "Waaaaah!"
 
-	para "…Hức, hức…"
-	line "…Đồ xấu xa!"
+	para "…Snivel, hic…"
+	line "…You meanie!"
 	done
 
 WhitneyWhatDoYouWantText:
-	text "…Hức…"
+	text "…Sniff…"
 
-	para "Gì? Bạn muốn gì?"
-	line "HUY HIỆU hả?"
+	para "What? What do you"
+	line "want? A BADGE?"
 
-	para "À, đúng rồi."
-	line "Mình quên. Đây,"
-	cont "HUY HIỆU"
-	cont "ĐỒNG BẰNG."
+	para "Oh, right."
+	line "I forgot. Here's"
+	cont "PLAINBADGE."
 	done
 
 PlayerReceivedPlainBadgeText:
-	text "<PLAYER> nhận"
-	line "HUY HIỆU"
-	cont "ĐỒNG BẰNG."
+	text "<PLAYER> received"
+	line "PLAINBADGE."
 	done
 
 WhitneyPlainBadgeText:
-	text "HUY HIỆU ĐỒNG BẰNG"
-	line "cho phép #MON"
+	text "PLAINBADGE lets"
+	line "your #MON use"
 
-	para "bạn dùng SỨC MẠNH"
-	line "ngoài trận đấu."
+	para "STRENGTH outside"
+	line "of battle."
 
-	para "Nó cũng tăng"
-	line "TỐC ĐỘ cho"
-	cont "#MON của bạn."
+	para "It also boosts"
+	line "your #MON's"
+	cont "SPEED."
 
-	para "À, bạn cũng có"
-	line "thể lấy cái này!"
+	para "Oh, you can have"
+	line "this too!"
 	done
 
 WhitneyAttractText:
-	text "Đó là MÊ HOẶC!"
-	line "Nó tận dụng hết"
+	text "It's ATTRACT!"
+	line "It makes full use"
 
-	para "sức quyến rũ của"
-	line "#MON."
+	para "of a #MON's"
+	line "charm."
 
-	para "Thích hợp cho"
-	line "người dễ thương"
-	cont "như mình nhỉ?"
+	para "Isn't it just per-"
+	line "fect for a cutie"
+	cont "like me?"
 	done
 
 WhitneyGoodCryText:
-	text "À, khóc một trận"
-	line "thật đã!"
+	text "Ah, that was a"
+	line "good cry!"
 
-	para "Ghé chơi lần nữa"
-	line "nhé! Tạm biệt!"
+	para "Come for a visit"
+	line "again! Bye-bye!"
 	done
 
 LassCarrieSeenText:
-	text "Đừng để vẻ dễ"
-	line "thương của #MON"
+	text "Don't let my"
+	line "#MON's cute"
 
-	para "tớ đánh lừa bạn."
-	line "Chúng mạnh lắm!"
+	para "looks fool you."
+	line "They can whip you!"
 	done
 
 LassCarrieBeatenText:
-	text "Chà… Tớ tưởng"
-	line "bạn yếu chứ…"
+	text "Darn… I thought"
+	line "you were weak…"
 	done
 
 LassCarrieAfterBattleText:
-	text "#MON của tớ"
-	line "có thấy tớ dễ"
-	cont "thương không?"
+	text "Do my #MON"
+	line "think I'm cute?"
 	done
 
 LassBridgetSeenText:
-	text "Tớ thích #MON"
-	line "dễ thương hơn là"
-	cont "#MON mạnh."
+	text "I like cute #-"
+	line "MON better than"
+	cont "strong #MON."
 
-	para "Nhưng tớ có cả"
-	line "hai loại đó!"
+	para "But I have strong"
+	line "and cute #MON!"
 	done
 
 LassBridgetBeatenText:
-	text "Ôi, không không!"
+	text "Oh, no, no, no!"
 	done
 
 LassBridgetAfterBattleText:
-	text "Tớ đang cố thắng"
-	line "WHITNEY, nhưng…"
-	cont "Chán quá."
+	text "I'm trying to beat"
+	line "WHITNEY, but…"
+	cont "It's depressing."
 
-	para "Không sao! Nếu"
-	line "thua, tớ sẽ cố"
+	para "I'm okay! If I"
+	line "lose, I'll just"
 
-	para "gắng hơn lần"
-	line "sau!"
+	para "try harder next"
+	line "time!"
 	done
 
 BridgetWhitneyCriesText:
-	text "Ôi không. Bạn làm"
-	line "WHITNEY khóc rồi."
+	text "Oh, no. You made"
+	line "WHITNEY cry."
 
-	para "Không sao. Cô ấy"
-	line "sẽ ngừng thôi."
+	para "It's OK. She'll"
+	line "stop soon. She"
 
-	para "Cô ấy luôn khóc"
-	line "khi thua mà."
+	para "always cries when"
+	line "she loses."
 	done
 
 BeautyVictoriaSeenText:
-	text "Ồ, em là một HLV"
-	line "nhỏ dễ thương!"
+	text "Oh, you are a cute"
+	line "little trainer! "
 
-	para "Chị thích em,"
-	line "nhưng chị không"
-	cont "nương tay đâu!"
+	para "I like you, but I"
+	line "won't hold back!"
 	done
 
 BeautyVictoriaBeatenText:
-	text "Để xem… Ôi,"
-	line "hết rồi sao?"
+	text "Let's see… Oops,"
+	line "it's over?"
 	done
 
 BeautyVictoriaAfterBattleText:
-	text "Wow, em phải giỏi"
-	line "lắm mới thắng"
-	cont "chị! Cố lên nhé!"
+	text "Wow, you must be"
+	line "good to beat me!"
+	cont "Keep it up!"
 	done
 
 BeautySamanthaSeenText:
-	text "Cố gắng hết sức"
-	line "đi, không thì chị"
-	cont "hạ gục em đó!"
+	text "Give it your best"
+	line "shot, or I'll take"
+	cont "you down!"
 	done
 
 BeautySamanthaBeatenText:
-	text "Không! Ôi, MEOWTH"
-	line "chị xin lỗi!"
+	text "No! Oh, MEOWTH,"
+	line "I'm so sorry!"
 	done
 
 BeautySamanthaAfterBattleText:
-	text "Chị dạy MEOWTH"
-	line "chiêu để đối phó"
-	cont "mọi hệ…"
+	text "I taught MEOWTH"
+	line "moves for taking"
+	cont "on any type…"
 	done
 
 GoldenrodGymGuideText:
-	text "Yo! NHÀ VÔ ĐỊCH"
-	line "tương lai!"
+	text "Yo! CHAMP in"
+	line "making!"
 
-	para "GYM này là nhà"
-	line "của các HLV hệ"
-	cont "B.THƯỜNG."
+	para "This GYM is home"
+	line "to normal-type"
+	cont "#MON trainers."
 
-	para "Tôi khuyên bạn"
-	line "dùng #MON hệ"
-	cont "VÕ THUẬT."
+	para "I recommend you"
+	line "use fighting-type"
+	cont "#MON."
 	done
 
 GoldenrodGymGuideWinText:
-	text "Bạn thắng? Tuyệt!"
-	line "Tôi bận ngắm các"
-	cont "cô gái ở đây."
+	text "You won? Great! I"
+	line "was busy admiring"
+	cont "the ladies here."
 	done
 
 GoldenrodGym_MapEvents:

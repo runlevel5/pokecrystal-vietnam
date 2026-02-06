@@ -74,134 +74,136 @@ PewterGymStatue:
 	jumpstd GymStatue2Script
 
 BrockIntroText:
-	text "BROCK: Ồ, thật"
-	line "hiếm khi ta có"
+	text "BROCK: Wow, it's"
+	line "not often that we"
 
-	para "đối thủ đến từ"
-	line "JOHTO."
+	para "get a challenger"
+	line "from JOHTO."
 
-	para "Ta là BROCK,"
-	line "T.LĨNH GYM PEWTER."
+	para "I'm BROCK, the"
+	line "PEWTER GYM LEADER."
 
-	para "Ta là chuyên gia"
-	line "#MON hệ SỎI ĐÁ."
+	para "I'm an expert on"
+	line "rock-type #MON."
 
-	para "#MON của ta"
-	line "miễn nhiễm với đa"
+	para "My #MON are im-"
+	line "pervious to most"
 
-	para "số đòn vật lý."
-	line "Ngươi sẽ rất khó"
+	para "physical attacks."
+	line "You'll have a hard"
 
-	para "gây sát thương"
-	line "được đấy."
+	para "time inflicting"
+	line "any damage."
 
-	para "Lên đi!"
+	para "Come on!"
 	done
 
 BrockWinLossText:
-	text "BROCK: Đòn tấn"
-	line "công mạnh của"
-	cont "#MON ngươi đã"
-	cont "vượt qua phòng"
-	cont "thủ đá cứng…"
+	text "BROCK: Your #-"
+	line "MON's powerful at-"
+	cont "tacks overcame my"
+	cont "rock-hard defense…"
 
-	para "Ngươi mạnh hơn"
-	line "ta tưởng…"
+	para "You're stronger"
+	line "than I expected…"
 
-	para "Đây, nhận lấy"
-	line "HUY HIỆU này."
+	para "Go ahead--take"
+	line "this BADGE."
 	done
 
 ReceivedBoulderBadgeText:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU ĐÁ."
+	text "<PLAYER> received"
+	line "BOULDERBADGE."
 	done
 
 BrockBoulderBadgeText:
 	text "BROCK: <PLAY_G>,"
-	line "cảm ơn. Ta thích"
+	line "thanks. I enjoyed"
 
-	para "đấu với ngươi, dù"
-	line "hơi buồn một chút."
+	para "battling you, even"
+	line "though I am a bit"
+	cont "upset."
 
-	para "HUY HIỆU ĐÁ sẽ"
-	line "giúp #MON của"
+	para "That BOULDERBADGE"
+	line "will make your"
 
-	para "ngươi mạnh hơn"
-	line "nữa."
+	para "#MON even more"
+	line "powerful."
 	done
 
 BrockFightDoneText:
-	text "BROCK: Thế giới"
-	line "rất rộng. Vẫn còn"
+	text "BROCK: The world"
+	line "is huge. There are"
 
-	para "nhiều HLV giỏi"
-	line "như ngươi."
+	para "still many strong"
+	line "trainers like you."
 
-	para "Cứ chờ xem. Ta sẽ"
-	line "còn trở nên mạnh"
-	cont "hơn nhiều."
+	para "Just wait and see."
+	line "I'm going to be-"
+	cont "come a lot strong-"
+	cont "er too."
 	done
 
 CamperJerrySeenText:
-	text "Các HLV ở GYM này"
-	line "dùng #MON hệ"
-	cont "SỎI ĐÁ."
+	text "The trainers of"
+	line "this GYM use rock-"
+	cont "type #MON."
 
-	para "Hệ SỎI ĐÁ có chỉ"
-	line "số THỦ cao."
+	para "The rock-type has"
+	line "high DEFENSE."
 
-	para "Trận đấu có thể"
-	line "kéo dài. Bạn đã"
+	para "Battles could end"
+	line "up going a long"
 
-	para "sẵn sàng chưa?"
+	para "time. Are you"
+	line "ready for this?"
 	done
 
 CamperJerryBeatenText:
-	text "Tôi phải thắng"
-	line "mới được…"
+	text "I have to win"
+	line "these battles…"
 	done
 
 CamperJerryAfterBattleText:
-	text "Này, HLV từ"
-	line "JOHTO! BROCK rất"
+	text "Hey, you! Trainer"
+	line "from JOHTO! BROCK"
 
-	para "mạnh. Ông ấy sẽ"
-	line "trừng phạt bạn"
+	para "is tough. He'll"
+	line "punish you if you"
 
-	para "nếu bạn không"
-	line "nghiêm túc đâu."
+	para "don't take him"
+	line "seriously."
 	done
 
 PewterGymGuideText:
-	text "Yo! NHÀ VÔ ĐỊCH"
-	line "tương lai! Bạn"
+	text "Yo! CHAMP in"
+	line "making! You're"
 
-	para "thật tuyệt vời."
-	line "Bạn đang đấu"
+	para "really rocking."
+	line "Are you battling"
 
-	para "các T.LĨNH GYM"
-	line "ở KANTO à?"
+	para "the GYM LEADERS of"
+	line "KANTO?"
 
-	para "Họ rất mạnh và"
-	line "tận tâm, giống"
+	para "They're strong and"
+	line "dedicated people,"
 
-	para "như các T.LĨNH"
-	line "GYM ở JOHTO vậy."
+	para "just like JOHTO's"
+	line "GYM LEADERS."
 	done
 
 PewterGymGuideWinText:
-	text "Yo! NHÀ VÔ ĐỊCH"
-	line "tương lai! GYM"
+	text "Yo! CHAMP in"
+	line "making! That GYM"
 
-	para "này không khó"
-	line "với bạn nhỉ."
+	para "didn't give you"
+	line "much trouble."
 
-	para "Cách bạn chiến"
-	line "đấu thật đáng"
+	para "The way you took"
+	line "charge was really"
 
-	para "ngưỡng mộ. Tôi"
-	line "nói thật đấy."
+	para "inspiring. I mean"
+	line "that seriously."
 	done
 
 PewterGym_MapEvents:

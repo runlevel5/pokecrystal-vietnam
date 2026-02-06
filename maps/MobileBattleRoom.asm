@@ -54,14 +54,14 @@ MobileBattleRoomConsoleScript:
 	end
 
 MobileBattleRoom_EstablishingCommsText:
-	text "Đang thiết lập"
-	line "kết nối…"
+	text "Establishing"
+	line "communications…"
 	done
 
 MobileBattleRoom_HealText:
-	text "#MON của bạn sẽ"
-	line "được hồi phục"
-	cont "trước khi đấu."
+	text "Your #MON will"
+	line "be fully healed"
+	cont "before battle."
 	done
 
 MobileBattleRoom_MapEvents:

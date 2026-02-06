@@ -23,39 +23,41 @@ CeruleanPokecenter1FGymGuideScript:
 	jumptextfaceplayer CeruleanPokecenter1FGymGuideText
 
 CeruleanPokecenter1FSuperNerdText:
-	text "Trong trận đấu,"
-	line "tôi thích dùng"
+	text "For battles, I'd"
+	line "much rather use"
 
-	para "#MON tôi đã"
-	line "nuôi dưỡng hơn,"
+	para "#MON I've been"
+	line "raising, even if"
 
-	para "dù chúng yếu hơn"
-	line "#MON mới bắt."
+	para "they're weaker"
+	line "than some newly"
+	cont "caught #MON."
 	done
 
 CeruleanPokecenter1FSuperNerdText_Mobile:
-	text "Bạn đấu qua điện"
-	line "thoại di động à?"
+	text "Do you battle by"
+	line "mobile phone?"
 
-	para "Nếu hết giờ trong"
-	line "trận đấu,"
+	para "If time runs out"
+	line "during a battle,"
 
-	para "việc chờ xem ai"
-	line "thắng thật hồi hộp"
-	cont "quá."
+	para "waiting to see who"
+	line "won is really"
+	cont "nerve wracking."
 	done
 
 CeruleanPokecenter1FGymGuideText:
-	text "TÀU NAM CHÂM chạy"
-	line "trên 340 dặm/giờ."
+	text "The MAGNET TRAIN"
+	line "travels at over"
 
-	para "Nó đi giữa KANTO"
-	line "và JOHTO trong"
+	para "340 mph. It goes"
+	line "between KANTO and"
 
-	para "chớp mắt."
+	para "JOHTO in almost no"
+	line "time at all."
 
-	para "Thật sự làm JOHTO"
-	line "dễ tiếp cận hơn."
+	para "It really makes"
+	line "JOHTO accessible."
 	done
 
 CeruleanPokecenter1F_MapEvents:

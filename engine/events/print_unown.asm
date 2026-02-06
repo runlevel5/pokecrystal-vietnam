@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/print_unown.asm"
+else
+
 DEF UNOWNSTAMP_BOLD_A EQU '♂' ; $ef
 DEF UNOWNSTAMP_BOLD_B EQU '♀' ; $f5
 
@@ -206,17 +210,17 @@ AlphRuinsStampString:
 	db " ALPH RUINS STAMP@"
 
 UnownDexDoWhatString:
-	db "Làm gì?@"
+	db "Do what?@"
 
 UnownDexMenuString:
-	db   UNOWNSTAMP_BOLD_A, " IN ẤN"
-	next UNOWNSTAMP_BOLD_B, " HỦY"
-	next "← TRƯỚC"
-	next "→ SAU"
+	db   UNOWNSTAMP_BOLD_A, " PRINT"
+	next UNOWNSTAMP_BOLD_B, " CANCEL"
+	next "← PREVIOUS"
+	next "→ NEXT"
 	db   "@"
 
 UnownDexVacantString:
-	db "TRỐNG@"
+	db "VACANT@"
 
 UnownDexATile:
 INCBIN "gfx/printer/bold_a.1bpp"
@@ -234,3 +238,5 @@ PlaceUnownPrinterFrontpic:
 	lb bc, 7, 7
 	predef PlaceGraphic
 	ret
+
+endc

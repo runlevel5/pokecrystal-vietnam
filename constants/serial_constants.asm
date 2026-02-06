@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/serial_constants.asm"
+else
+
 ; wLinkMode
 	const_def
 	const LINK_NULL        ; 0
@@ -47,17 +51,4 @@ DEF SERIAL_LINK_BYTE_TIMEOUT EQU $5000
 
 DEF MAX_MYSTERY_GIFT_PARTNERS EQU 5
 
-; Language identifiers for link cable detection
-; Language identifiers for link cable detection
-; LANG_VN is placed in the random bytes section (after preamble) for detection
-; English/other versions send random bytes which are unlikely to match LANG_VN
-DEF LANG_JP EQU $00  ; Japanese (incompatible serial protocol)
-DEF LANG_EN EQU $01  ; English (US/AU/EU)
-DEF LANG_FR EQU $02  ; French
-DEF LANG_DE EQU $03  ; German
-DEF LANG_IT EQU $04  ; Italian
-DEF LANG_ES EQU $05  ; Spanish
-DEF LANG_KO EQU $06  ; Korean (incompatible serial protocol)
-DEF LANG_VN EQU $55  ; Vietnamese (using distinctive value $55 for detection)
-
-; Offset constants are kept for reference but detection now scans the full buffer
+endc

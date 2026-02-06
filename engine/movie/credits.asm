@@ -537,7 +537,11 @@ GetCreditsPalette:
 	ret
 
 CreditsPalettes:
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/gfx/credits/credits.pal"
+else
 INCLUDE "gfx/credits/credits.pal"
+endc
 
 Credits_LoadBorderGFX:
 	ld hl, wCreditsBorderFrame
@@ -612,5 +616,17 @@ CreditsSmoochumGFX:  INCBIN "gfx/credits/smoochum.2bpp"
 CreditsDittoGFX:     INCBIN "gfx/credits/ditto.2bpp"
 CreditsIgglybuffGFX: INCBIN "gfx/credits/igglybuff.2bpp"
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/credits_script.asm"
+
+else
+
 INCLUDE "data/credits_script.asm"
+
+endc
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/credits_strings.asm"
+else
 INCLUDE "data/credits_strings.asm"
+endc

@@ -1,19 +1,19 @@
 BikeShopPhoneCallerText:
-	text "Chào, <PLAY_G>!"
-	line "Doanh số XE ĐẠP"
+	text "Hi, <PLAY_G>!"
+	line "Our BICYCLE sales"
 
-	para "của chúng tôi đã"
-	line "tăng vọt!"
+	para "have gone through"
+	line "the roof!"
 
-	para "Tất cả nhờ cậu"
-	line "quảng cáo bằng"
+	para "We owe it all to"
+	line "your advertising"
 
-	para "cách đi vòng vòng"
-	line "trên XE ĐẠP."
+	para "by riding around"
+	line "on our BICYCLE."
 
-	para "Để cảm ơn, xin"
-	line "hãy giữ chiếc XE"
+	para "As our way of say-"
+	line "ing thanks, please"
 
-	para "ĐẠP đó. Cảm ơn"
-	line "cậu một lần nữa!"
+	para "keep that BICYCLE."
+	line "Thanks again!"
 	done

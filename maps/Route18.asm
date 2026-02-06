@@ -33,45 +33,46 @@ Route18Sign:
 	jumptext Route18SignText
 
 BirdKeeperBorisSeenText:
-	text "Nếu tìm #MON,"
-	line "phải tìm trong"
+	text "If you're looking"
+	line "for #MON, you"
 
-	para "cỏ cao mới được."
+	para "have to look in"
+	line "the tall grass."
 	done
 
 BirdKeeperBorisBeatenText:
-	text "Áiiii!"
+	text "Ayieee!"
 	done
 
 BirdKeeperBorisAfterBattleText:
-	text "Vì cậu mạnh nên"
-	line "chắc đấu vui"
-	cont "lắm nhỉ."
+	text "Since you're so"
+	line "strong, it must be"
+	cont "fun to battle."
 	done
 
 BirdKeeperBobSeenText:
-	text "ĐƯỜNG ĐUA XE là"
-	line "đường tắt đến"
-	cont "TP. CELADON."
+	text "CYCLING ROAD is a"
+	line "quick shortcut to"
+	cont "CELADON."
 	done
 
 BirdKeeperBobBeatenText:
-	text "…Phù!"
+	text "…Whew!"
 	done
 
 BirdKeeperBobAfterBattleText:
-	text "Không có XE ĐẠP"
-	line "thì không được"
+	text "If you don't have"
+	line "a BICYCLE, you're"
 
-	para "dùng đường tắt"
-	line "đâu."
+	para "not allowed to use"
+	line "the shortcut."
 	done
 
 Route18SignText:
-	text "TUYẾN ĐƯỜNG 18"
+	text "ROUTE 18"
 
-	para "TP. CELADON -"
-	line "TP. FUCHSIA"
+	para "CELADON CITY -"
+	line "FUCHSIA CITY"
 	done
 
 Route18_MapEvents:

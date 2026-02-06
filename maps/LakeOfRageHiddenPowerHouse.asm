@@ -31,38 +31,38 @@ HiddenPowerHouseBookshelf:
 	jumpstd DifficultBookshelfScript
 
 HiddenPowerGuyText1:
-	text "…Con đã đi lạc"
-	line "xa…"
+	text "…You have strayed"
+	line "far…"
 
-	para "Ở đây ta đã thiền"
-	line "định. Trong ta,"
+	para "Here I have medi-"
+	line "tated. Inside me,"
 
-	para "một sức mạnh mới"
-	line "đã được đánh thức."
+	para "a new power has"
+	line "been awakened."
 
-	para "Để ta chia sẻ sức"
-	line "mạnh của ta với"
+	para "Let me share my"
+	line "power with your"
 
-	para "#MON của con."
-	line "Nhận lấy, con ơi."
+	para "#MON."
+	line "Take this, child."
 	done
 
 HiddenPowerGuyText2:
-	text "Con có thấy không?"
-	line "Đó là sức mạnh ẩn!"
+	text "Do you see it? It"
+	line "is HIDDEN POWER!"
 
-	para "Nó khai thác sức"
-	line "mạnh của #MON"
-	cont "để tấn công."
+	para "It draws out the"
+	line "power of #MON"
+	cont "for attacking."
 
-	para "Nhớ điều này: hệ"
-	line "và sức mạnh của nó"
-	cont "tùy thuộc vào"
-	cont "#MON dùng nó."
+	para "Remember this: its"
+	line "type and power de-"
+	cont "pend on the #-"
+	cont "MON using it."
 	done
 
 HiddenPowerGuyText3:
-	text "Ta đang thiền…"
+	text "I am meditating…"
 	done
 
 LakeOfRageHiddenPowerHouse_MapEvents:

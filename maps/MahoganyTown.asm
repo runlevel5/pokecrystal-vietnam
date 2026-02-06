@@ -141,105 +141,107 @@ MahoganyTownRageCandyBarMerchantReturnsMovement:
 	step_end
 
 RageCandyBarMerchantTryOneText:
-	text "Chào nhóc!"
+	text "Hiya, kid!"
 
-	para "Mới đến THỊ TRẤN"
-	line "MAHOGANY hả?"
+	para "I see you're new"
+	line "in MAHOGANY TOWN."
 
-	para "Mới đến thì nên"
-	line "thử RAGECANDYBAR"
+	para "Since you're new,"
+	line "you should try a"
 
-	para "ngon lành này!"
+	para "yummy RAGECANDY-"
+	line "BAR!"
 
-	para "Chỉ ¥300 thôi!"
-	line "Mua không?"
+	para "Right now, it can"
+	line "be yours for just"
+	cont "¥300! Want one?"
 	done
 
 RageCandyBarMerchantSavorItText:
-	text "Tốt! Ăn ngon nhé!"
+	text "Good! Savor it!"
 	done
 
 RageCandyBarMerchantNotEnoughMoneyText:
-	text "Cháu không đủ"
-	line "tiền rồi."
+	text "You don't have"
+	line "enough money."
 	done
 
 RageCandyBarMerchantRefusedText:
-	text "Ồ, thôi vậy…"
+	text "Oh, fine then…"
 	done
 
 RageCandyBarMerchantNoRoomText:
-	text "Cháu không còn"
-	line "chỗ chứa rồi."
+	text "You don't have"
+	line "room for this."
 	done
 
 RageCandyBarMerchantSoldOutText:
-	text "RAGECANDYBAR đã"
-	line "hết sạch rồi."
+	text "RAGECANDYBAR's"
+	line "sold out."
 
-	para "Tôi đang dọn hàng"
-	line "Đừng làm phiền,"
-	cont "nhóc ạ."
+	para "I'm packing up."
+	line "Don't bother me,"
+	cont "kiddo."
 	done
 
 MahoganyTownGrampsText:
-	text "Cháu đi xem"
-	line "GYARADOS nổi điên"
-	cont "ở HỒ hả?"
+	text "Are you off to see"
+	line "the GYARADOS ram-"
+	cont "page at the LAKE?"
 	done
 
 MahoganyTownGrampsText_ClearedRocketHideout:
-	text "MAGIKARP đã quay"
-	line "về HỒ PHẪN NỘ."
+	text "MAGIKARP have"
+	line "returned to LAKE"
+	cont "OF RAGE."
 
-	para "Tin tốt cho những"
-	line "người câu cá ở"
-	cont "đó đấy."
+	para "That should be"
+	line "good news for the"
+	cont "anglers there."
 	done
 
 MahoganyTownFisherText:
-	text "Đã đến đây rồi"
-	line "thì hãy dành thời"
+	text "Since you came"
+	line "this far, take the"
 
-	para "gian tham quan"
-	line "một chút đi."
+	para "time to do some"
+	line "sightseeing."
 
-	para "Cháu nên đi về"
-	line "phía bắc xem"
+	para "You should head"
+	line "north and check"
 
-	para "HỒ PHẪN NỘ ngay"
-	line "bây giờ."
+	para "out LAKE OF RAGE"
+	line "right now."
 	done
 
 MahoganyTownLassText:
-	text "Ghé tiệm của Bà"
-	line "đi. Bà bán những"
+	text "Visit Grandma's"
+	line "shop. She sells"
 
-	para "thứ không ai khác"
-	line "có đâu."
+	para "stuff that nobody"
+	line "else has."
 	done
 
 MahoganyTownSignText:
-	text "THỊ TRẤN MAHOGANY"
+	text "MAHOGANY TOWN"
 
-	para "Chào mừng đến"
-	line "Quê Hương Ninja"
+	para "Welcome to the"
+	line "Home of the Ninja"
 	done
 
 MahoganyTownRagecandybarSignText:
-	text "Khi ghé thăm"
-	line "T.TRẤN MAHOGANY,"
-	cont "hãy thử"
-	cont "RAGECANDYBAR!"
+	text "While visiting"
+	line "MAHOGANY TOWN, try"
+	cont "a RAGECANDYBAR!"
 	done
 
 MahoganyGymSignText:
-	text "THỊ TRẤN MAHOGANY"
-	line "GYM #MON"
-	cont "TRƯỞNG: PRYCE"
+	text "MAHOGANY TOWN"
+	line "#MON GYM"
+	cont "LEADER: PRYCE"
 
-	para "Người Dạy Sự"
-	line "Khắc Nghiệt Đông"
+	para "The Teacher of"
+	line "Winter's Harshness"
 	done
 
 MahoganyTown_MapEvents:

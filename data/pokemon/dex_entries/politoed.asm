@@ -1,10 +1,10 @@
-	db "ẾCH@" ; species name
-	dw 11, 339 ; height, weight
+	db "FROG@" ; species name
+	dw 307, 750 ; height, weight
 
-	db   "Khi nó phồng cổ"
-	next "lên kêu, POLIWAG"
-	next "và POLIWHIRL gần"
+	db   "When it expands"
+	next "its throat to"
+	next "croak out a tune,"
 
-	page "đó tụ lại ngay.@"
-	next "@"
-	next "@"
+	page "nearby POLIWAG and"
+	next "POLIWHIRL gather"
+	next "immediately.@"

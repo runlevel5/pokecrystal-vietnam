@@ -1,10 +1,10 @@
-	db "RÙA NHỎ@" ; species name
-	dw 5, 90 ; height, weight
+	db "TINYTURTLE@" ; species name
+	dw 108, 200 ; height, weight
 
-	db   "Khi cảm thấy bị"
-	next "đe dọa, nó rụt"
-	next "chân vào mai"
+	db   "When it feels"
+	next "threatened, it"
+	next "draws its legs"
 
-	page "và phun nước"
-	next "từ miệng.@"
-	next "@"
+	page "inside its shell"
+	next "and sprays water"
+	next "from its mouth.@"

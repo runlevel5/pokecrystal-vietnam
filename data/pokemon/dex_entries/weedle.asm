@@ -1,10 +1,10 @@
-	db "SÂU LÔNG@" ; species name
-	dw 3, 32 ; height, weight
+	db "HAIRY BUG@" ; species name
+	dw 100, 70 ; height, weight
 
-	db   "Cái gai trên đầu"
-	next "tiết ra chất độc"
-	next "mạnh. Nó dùng"
+	db   "The barb on top of"
+	next "its head secretes"
+	next "a strong poison."
 
-	page "gai độc này để"
-	next "tự bảo vệ mình.@"
-	next "@"
+	page "It uses this toxic"
+	next "barb to protect"
+	next "itself.@"

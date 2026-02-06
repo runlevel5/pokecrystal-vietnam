@@ -1,78 +1,80 @@
 HueyAskNumber1Text:
-	text "Tuyệt! Đây là lần"
-	line "đầu tiên tớ thua"
-	cont "sau lâu rồi!"
+	text "Cool! That's the"
+	line "first time I've"
+	cont "lost in a while!"
 
-	para "Này, cho tớ SĐT"
-	line "cậu đi."
+	para "Hey, give me your"
+	line "phone number."
 
-	para "Cậu sẽ vui khi"
-	line "đấu, nên tớ sẽ"
+	para "You'd be fun to"
+	line "battle, so I'll"
 
-	para "gọi cậu khi tớ"
-	line "mạnh hơn!"
+	para "call you when I"
+	line "get stronger!"
 	done
 
 HueyAskNumber2Text:
-	text "Này, cho tớ SĐT"
-	line "cậu đi."
+	text "Hey, give me your"
+	line "phone number."
 
-	para "Cậu sẽ vui khi"
-	line "đấu, nên tớ sẽ"
+	para "You'd be fun to"
+	line "battle, so I'll"
 
-	para "gọi cậu khi tớ"
-	line "mạnh hơn!"
+	para "call you when I"
+	line "get stronger!"
 	done
 
 HueyNumberAcceptedText:
-	text "Này, hãy đấu lại"
-	line "nhé!"
+	text "Hey, let's battle"
+	line "again!"
 	done
 
 HueyNumberDeclinedText:
-	text "Trông cậu như đồ"
-	line "hèn nhát…"
+	text "Looks like you're"
+	line "a wimp…"
 	done
 
 HueyPhoneFullText:
-	text "Này! Điện thoại"
-	line "cậu đầy rồi!"
+	text "Hey! Your phone's"
+	line "already full!"
 	done
 
 HueyRematchText:
-	text "Này! Tớ chán đợi"
-	line "cậu rồi!"
+	text "Hey! I'm tired of"
+	line "waiting for you!"
 	done
 
 HueyPackFullText:
-	text "Ồ… TÚI cậu đầy rồi"
-	line "Tớ sẽ đưa cậu"
-	cont "sau."
+	text "Oh… Your PACK's"
+	line "full. I'll give it"
+	cont "to you later."
 	done
 
 HueyRematchGiftText:
-	text "Trời! Cậu vẫn"
-	line "mạnh như thường!"
+	text "Man! You're as"
+	line "tough as ever!"
 
-	para "Tớ đấu cậu nhiều"
-	line "lần rồi, nhưng"
+	para "I've battled you"
+	line "over and over, but"
 
-	para "<PLAYER>, tớ chưa"
-	line "thắng lần nào."
+	para "<PLAYER>, I haven't"
+	line "won once."
 
-	para "Tớ mua đống đồ để"
-	line "làm #MON mạnh,"
+	para "I bought tons of"
+	line "items to toughen"
 
-	para "nhưng vô ích…"
+	para "up my #MON, but"
+	line "to no avail…"
 
-	para "Chỉ đồ thôi không"
-	line "phải là câu trả"
-	cont "lời."
+	para "Items alone aren't"
+	line "the answer."
 
-	para "Chắc là thế…"
+	para "That must be what"
+	line "it is…"
 
-	para "Cầm lấy, <PLAYER>."
+	para "Here, take this,"
+	line "<PLAYER>."
 
-	para "Tớ không cần nó"
-	line "nữa…"
+	para "I won't be needing"
+	line "it anymore…"
 	done

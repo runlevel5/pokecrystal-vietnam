@@ -162,80 +162,78 @@ VictoryRoadRivalBattleExitMovement2:
 	step_end
 
 VictoryRoadRivalBeforeText:
-	text "Đứng lại."
+	text "Hold it."
 
-	para "…Mày định tham"
-	line "gia thách thức"
-	cont "LIÊN ĐOÀN #MON?"
+	para "…Are you going to"
+	line "take the #MON"
+	cont "LEAGUE challenge?"
 
-	para "…Đừng có làm tao"
-	line "cười."
+	para "…Don't make me"
+	line "laugh."
 
-	para "Mày yếu hơn tao"
-	line "nhiều."
+	para "You're so much"
+	line "weaker than I am."
 
-	para "Tao không còn như"
-	line "trước nữa."
+	para "I'm not like I was"
+	line "before."
 
-	para "Giờ tao có những"
-	line "#MON tốt nhất"
+	para "I now have the"
+	line "best and strongest"
 
-	para "và mạnh nhất."
-	line "Tao bất khả chiến"
-	cont "bại!"
+	para "#MON with me."
+	line "I'm invincible!"
 
 	para "<PLAYER>!"
-	line "Tao thách thức mày"
+	line "I challenge you!"
 	done
 
 VictoryRoadRivalDefeatText:
-	text "…Tao không thắng"
-	line "được…"
+	text "…I couldn't win…"
 
-	para "Tao đã làm hết"
-	line "sức mình…"
+	para "I gave it every-"
+	line "thing I had…"
 
-	para "Thứ mày có, và thứ"
-	line "tao thiếu…"
+	para "What you possess,"
+	line "and what I lack…"
 
-	para "Tao bắt đầu hiểu"
-	line "điều mà vị cao thủ"
+	para "I'm beginning to"
+	line "understand what"
 
-	para "rồng nói với"
-	line "tao…"
+	para "that dragon master"
+	line "said to me…"
 	done
 
 VictoryRoadRivalAfterText:
-	text "…Tao chưa từ bỏ"
-	line "việc trở thành HLV"
-	cont "vĩ đại nhất…"
+	text "…I haven't given up"
+	line "on becoming the"
+	cont "greatest trainer…"
 
-	para "Tao sẽ tìm ra tại"
-	line "sao tao không thể"
+	para "I'm going to find"
+	line "out why I can't"
 
-	para "thắng và trở nên"
-	line "mạnh hơn…"
+	para "win and become"
+	line "stronger…"
 
-	para "Khi tìm ra, tao sẽ"
-	line "thách thức mày."
+	para "When I do, I will"
+	line "challenge you."
 
-	para "Và tao sẽ đánh bại"
-	line "mày bằng toàn bộ"
-	cont "sức mạnh của tao."
+	para "And I'll beat you"
+	line "down with all my"
+	cont "power."
 
-	para "…Hừ! Cứ cố lên"
-	line "cho tới lúc đó."
+	para "…Humph! You keep"
+	line "at it until then."
 	done
 
 VictoryRoadRivalVictoryText:
-	text "…Hừ!"
+	text "…Humph!"
 
-	para "Xét cho cùng,"
-	line "không gì có thể"
-	cont "thắng sức mạnh."
+	para "When it comes down"
+	line "to it, nothing can"
+	cont "beat power."
 
-	para "Tao không cần gì"
-	line "khác."
+	para "I don't need any-"
+	line "thing else."
 	done
 
 VictoryRoad_MapEvents:

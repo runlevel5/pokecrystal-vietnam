@@ -1,284 +1,289 @@
 IrwinHangUpText:
-	text "Tớ ghét phải cúp"
-	line "máy với cậu!"
+	text "I hate having to"
+	line "hang up on you!"
 
-	para "Gọi lại sau nhé!"
+	para "Call you later!"
 	done
 
 IrwinRocketTakeoverRumorText:
-	text "<PLAY_G>, cậu có"
-	line "nghe chưa?"
+	text "<PLAY_G>, have you"
+	line "heard?"
 
-	para "THÁP RADIO ở"
-	line "GOLDENROD bị"
+	para "GOLDENROD's RADIO"
+	line "TOWER has been"
 
-	para "chiếm bởi ĐỘI"
+	para "taken over by TEAM"
 	line "ROCKET!"
 
-	para "…Um… ĐỘI ROCKET"
-	line "là gì?"
+	para "…Um… What's TEAM"
+	line "ROCKET?"
 	done
 
 IrwinPlainBadgeGossipText:
-	text "<PLAY_G>, tớ nghe!"
+	text "<PLAY_G>, I heard!"
 
-	para "Cậu đánh bại"
-	line "WHITNEY à?"
+	para "You defeated that"
+	line "WHITNEY?"
 
-	para "Được làm bạn cậu"
-	line "thật tự hào!"
+	para "It makes me proud"
+	line "to be your friend!"
 	done
 
 IrwinJasmineReturnedGossipText:
-	text "Này, tớ nghe về"
-	line "cậu!"
+	text "Hey, I heard about"
+	line "you!"
 
-	para "Cậu cứu con"
-	line "#MON tại"
+	para "You saved that"
+	line "#MON at the"
 
-	para "HẢI ĐĂNG phải"
-	line "không?"
+	para "LIGHTHOUSE, didn't"
+	line "you?"
 
-	para "<PLAY_G>, tớ ước"
-	line "cậu đến thăm tớ"
+	para "<PLAY_G>, I wish"
+	line "you'd come see me"
 
-	para "khi tớ ốm nằm"
-	line "trên giường!"
+	para "when I'm sick in"
+	line "bed with a cold!"
 	done
 
 IrwinRocketHideoutGossipText:
-	text "Tớ nghe, tớ nghe,"
-	line "tớ nghe!"
+	text "I heard, I heard,"
+	line "I heard!"
 
-	para "Cậu đập tan hang"
-	line "ổ ĐỘI ROCKET!"
+	para "You smashed TEAM"
+	line "ROCKET's hideout!"
 
-	para "Cậu giống như anh"
-	line "hùng phim ấy!"
+	para "You're like a"
+	line "movie hero, even!"
 
-	para "Nhưng um… ĐỘI"
-	line "ROCKET là gì?"
+	para "But um… What was"
+	line "TEAM ROCKET?"
 	done
 
 IrwinRadioTowerGossipText:
-	text "Tớ nghe, tớ nghe,"
-	line "tớ nghe!"
+	text "I heard, I heard,"
+	line "I heard!"
 
-	para "Về chiến công anh"
-	line "hùng giải phóng"
+	para "About your heroic"
+	line "liberation of the"
 
-	para "THÁP RADIO! Cậu"
-	line "đỉnh quá đi!"
+	para "RADIO TOWER! You"
+	line "rock so hard!"
 	done
 
 IrwinRisingBadgeGossipText:
-	text "Tớ thấy rồi!"
+	text "I saw, I saw!"
 
-	para "Tớ thấy cậu vào"
-	line "HANG RỒNG!"
+	para "I saw you go into"
+	line "the DRAGON'S DEN!"
 
-	para "Tớ chắc cậu đã"
-	line "qua! Aww, không"
+	para "I'm certain you"
+	line "passed! Aww, no"
 
-	para "cần khiêm tốn đâu!"
-	line "Cậu không thể thua"
+	para "need to be modest!"
+	line "You can't fail!"
 	done
 
 IrwinEliteFourGossipText:
-	text "Hôm qua, tớ đi"
-	line "đến NEW BARK."
+	text "Yesterday, I went"
+	line "out to NEW BARK"
 
-	para "Có một bà trông"
-	line "giống cậu,"
+	para "TOWN.  There was a"
+	line "lady who looked a"
 
-	para "<PLAY_G>."
+	para "lot like you,"
+	line "<PLAY_G>."
 
-	para "Gì? Bà ấy là mẹ"
-	line "cậu à?"
+	para "What? That lady"
+	line "was your mom?"
 
-	para "Aww, tớ đáng lẽ"
-	line "nên tự giới thiệu!"
+	para "Aww, I should've"
+	line "introduced myself!"
 
-	para "Chắc mẹ cậu rất"
-	line "tự hào về"
+	para "I bet your mom's"
+	line "really proud of"
 
-	para "tất cả những gì"
-	line "cậu đã làm."
+	para "all that you've"
+	line "accomplished."
 
-	para "Heh, nói vậy đi."
-	line "Tớ cũng tự hào"
+	para "Heh, put it this"
+	line "way. I'd be proud"
 
-	para "nếu là mẹ cậu,"
-	line "tin tớ đi!"
+	para "if I were your"
+	line "mom, believe me!"
 	done
 
 IrwinVermilionCityGossipText:
-	text "Tớ thấy, tớ thấy,"
-	line "tớ thấy!"
+	text "I saw, I saw,"
+	line "I saw!"
 
-	para "Cậu bước lên"
-	line "con tàu, <PLAY_G>!"
+	para "You striding onto"
+	line "a ship, <PLAY_G>!"
 
-	para "Tớ không thể nào"
-	line "quên cảnh cậu đẹp"
+	para "I can't get over"
+	line "how good you look"
 
-	para "với biển làm"
-	line "hậu cảnh!"
+	para "with the sea as"
+	line "your backdrop!"
 	done
 
 IrwinTrainPassGossipText:
-	text "Tớ nghe rồi!"
+	text "I heard, I heard!"
 
-	para "Cậu có VÉ TÀU"
-	line "TỪ!"
+	para "You got a MAGNET"
+	line "TRAIN PASS!"
 
-	para "Khi thấy cậu lên"
-	line "tàu,"
+	para "When I saw you"
+	line "departing on the"
 
-	para "tớ buồn vì không"
-	line "gặp cậu"
+	para "ship, I felt sad"
+	line "that I wouldn't be"
 
-	para "một thời gian."
+	para "able to see you"
+	line "for a while."
 
-	para "Nhưng vì cậu có"
-	line "VÉ đó, cậu có thể"
+	para "But since you have"
+	line "that PASS, you can"
 
-	para "quay lại bất kỳ"
-	line "lúc nào! An tâm!"
+	para "zip back anytime!"
+	line "That's reassuring!"
 
-	para "Gì? Cậu có thể BAY"
-	line "về bất kỳ lúc?"
+	para "What? You can FLY"
+	line "back anytime?"
 
-	para "BAY có nghĩa"
-	line "là gì?"
+	para "What do you mean"
+	line "by FLY?"
 	done
 
 IrwinSnorlaxGossipText:
-	text "Tớ thấy rồi!"
+	text "I saw, I saw!"
 
-	para "Cậu đánh thức"
+	para "You waking up"
 	line "SNORLAX!"
 
-	para "Tớ xem cậu từ xa,"
-	line "nên tớ"
+	para "I was watching you"
+	line "from afar, so I"
 
-	para "không biết chính"
-	line "xác cậu làm gì."
+	para "couldn't tell what"
+	line "you did exactly."
 
-	para "Cậu thổi sáo để"
-	line "đánh thức nó à?"
+	para "Did you play a"
+	line "flute to wake it?"
 
-	para "Wow! Như phép"
-	line "thuật vậy!"
+	para "Wow! That's like"
+	line "magic!"
 	done
 
 IrwinMtSilverGossipText:
-	text "Tớ nghe tin đồn"
-	line "về cậu khắp nơi."
+	text "I hear rumors"
+	line "about you all over"
+	cont "the place."
 
-	para "Điều đó làm tớ"
-	line "thở dài, <PLAY_G>."
+	para "It just makes me"
+	line "sigh, <PLAY_G>."
 
-	para "Làm sao cậu mạnh"
-	line "thế được?"
+	para "How did you get so"
+	line "strong?"
 
-	para "Hãy đi đến vô địch"
-	line "thế giới đi!"
+	para "Go for the world"
+	line "championship now!"
 
-	para "Tớ sẽ luôn cổ vũ"
-	line "cho cậu!"
+	para "I'll always be"
+	line "cheering you on!"
 	done
 
 IrwinCalledRightAwayText:
-	text "Hehe, tớ gọi ngay"
-	line "được đấy!"
+	text "Hehe, I called"
+	line "right away!"
 
-	para "Tớ nghĩ bọn mình"
-	line "có thể là bạn tốt!"
+	para "I think we can be"
+	line "good friends!"
 	done
 
 IrwinFogBadgeGossipText:
-	text "Tớ thấy, tớ nghe!"
+	text "I saw, I heard!"
 
-	para "Cậu đánh bại"
-	line "MORTY của GYM"
-	cont "ECRUTEAK!"
+	para "You beat MORTY of"
+	line "ECRUTEAK GYM!"
 
-	para "Th-thật không"
-	line "thể tin được!"
+	para "Th-that's just"
+	line "incredible!"
 
-	para "Tớ thực sự đã đến"
-	line "cổng GYM"
+	para "I actually went to"
+	line "the GYM's entrance"
 
-	para "để cổ vũ cậu."
-	line "Cậu có biết không?"
+	para "to cheer you on."
+	line "Did you know that?"
 
-	para "Nhưng mọi người"
-	line "bay lơ lửng,"
+	para "But everyone was"
+	line "floating, and"
 
-	para "và có ma khắp"
-	line "nơi! Nên tớ"
+	para "there were ghosts"
+	line "all over! So I"
 
-	para "hoảng sợ và chạy"
-	line "về nhà…"
+	para "chickened out and"
+	line "took off for home…"
 	done
 
 IrwinMarshBadgeGossipText:
-	text "<PLAY_G>, tớ nghe!"
+	text "<PLAY_G>, I heard!"
 
-	para "Cậu gây ầm ĩ lớn"
-	line "ở KANTO!"
+	para "You're kicking up"
+	line "a mighty ruckus"
 
-	para "Thật là một cuộc"
-	line "tàn phá vẻ vang!"
+	para "over in KANTO!"
+	line "What a glorious"
 
-	para "Cậu đỉnh quá!"
+	para "rampage it must"
+	line "be!"
+
+	para "You so rock!"
 	done
 
 IrwinYourEscapadesRockText:
-	text "Nghe về những cuộc"
-	line "phiêu lưu của cậu"
+	text "Hearing about your"
+	line "escapades rocks my"
 
-	para "làm tớ phấn khích!"
-	line "Đúng vậy!"
+	para "soul!"
+	line "It sure does!"
 	done
 
 IrwinGoodMatchText:
-	text "Tớ rất vui cậu gọi"
-	line "đấy!"
+	text "I'm so glad you"
+	line "called!"
 
-	para "Tớ cũng định gọi"
-	line "cho cậu!"
+	para "I was just about"
+	line "to call you too!"
 
-	para "Chắc bọn mình hợp"
-	line "nhau lắm!"
+	para "I guess we must be"
+	line "a good match!"
 	done
 
 IrwinSoMuchToChatAboutText:
-	text "Cậu thế nào?"
+	text "How are you?"
 
-	para "Cậu đang làm"
-	line "gì?"
+	para "What are you"
+	line "doing?"
 
-	para "Cậu ở đâu?"
+	para "Where are you?"
 
-	para "Cậu có bao nhiêu"
-	line "HUY HIỆU rồi?"
+	para "How many BADGES do"
+	line "you have now?"
 
-	para "Cậu tiết kiệm được"
-	line "bao nhiêu tiền?"
+	para "How much money"
+	line "have you saved?"
 
-	para "Mẹ cậu khỏe không"
+	para "How's your mom?"
 
-	para "Cậu có nhiều"
-	line "#MON chưa?"
+	para "Have you got lots"
+	line "of #MON?"
 
-	para "Ngày mai có nắng"
-	line "không?"
+	para "Is it going to be"
+	line "sunny tomorrow?"
 
-	para "Arrgh, có quá nhiề"
-	line "điều tớ muốn"
+	para "Arrgh, there's so"
+	line "much I want to"
 
-	para "nói chuyện! Không"
-	line "xong được rồi!"
+	para "chat about! This"
+	line "is going nowhere!"
 	done

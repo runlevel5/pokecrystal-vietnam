@@ -59,31 +59,31 @@ FuchsiaPokecenter1FJanineImpersonatorSpinMovement:
 	step_end
 
 FuchsiaPokecenter1FCooltrainerMText:
-	text "Này! Bạn có một"
-	line "loại #DEX hoàn"
-	cont "toàn mới."
+	text "Hey! You have a"
+	line "brand new kind of"
+	cont "#DEX."
 
-	para "GS OAK đưa cho"
-	line "bạn sao?"
+	para "Did PROF.OAK give"
+	line "that to you?"
 	done
 
 FuchsiaPokecenter1FCooltrainerFText:
-	text "Tôi khá sốc tại"
-	line "GYM đó."
+	text "I got quite a"
+	line "shock at the GYM."
 
-	para "Có rất nhiều cô"
-	line "gái trông giống"
-	cont "hệt nhau."
+	para "There were all"
+	line "these girls who"
+	cont "looked identical."
 	done
 
 FuchsiaPokecenter1FJanineImpersonatorText1:
-	text "Tôi là JANINE!"
-	line "Hocus-pocus… Bùm!"
+	text "I'm JANINE! Hocus-"
+	line "pocus… Poof!"
 	done
 
 FuchsiaPokecenter1FJanineImpersonatorText2:
-	text "Thấy chưa? Giờ"
-	line "tôi giống cô ấy!"
+	text "See? I look just"
+	line "like her now!"
 	done
 
 FuchsiaPokecenter1F_MapEvents:

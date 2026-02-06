@@ -1,10 +1,10 @@
-	db "DƠI@" ; species name
-	dw 18, 750 ; height, weight
+	db "BAT@" ; species name
+	dw 511, 1650 ; height, weight
 
-	db   "Do theo đuổi bay"
-	next "nhanh và im lặng"
-	next "hơn, đôi cánh mới"
+	db   "As a result of its"
+	next "pursuit of faster,"
+	next "yet more silent"
 
-	page "mọc ra ở chân"
-	next "sau của nó.@"
-	next "@"
+	page "flight, a new set"
+	next "of wings grew on"
+	next "its hind legs.@"

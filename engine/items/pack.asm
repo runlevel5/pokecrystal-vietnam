@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/items/pack.asm"
+else
+
 ; Pack.Jumptable and BattlePack.Jumptable indexes
 	const_def
 	const PACKSTATE_INITGFX            ;  0
@@ -159,15 +163,15 @@ Pack:
 
 .MenuHeader1:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData_1
 	db 1 ; default option
 
 .MenuData_1:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "DÙNG@"
-	db "THOÁT@"
+	db "USE@"
+	db "QUIT@"
 
 .Jumptable1:
 	dw .UseItem
@@ -175,16 +179,16 @@ Pack:
 
 .MenuHeader2:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData_2
 	db 1 ; default option
 
 .MenuData_2:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3 ; items
-	db "DÙNG@"
-	db "TẶNG@"
-	db "THOÁT@"
+	db "USE@"
+	db "GIVE@"
+	db "QUIT@"
 
 .Jumptable2:
 	dw .UseItem
@@ -310,18 +314,18 @@ Pack:
 
 MenuHeader_UsableKeyItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 1, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 1, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 5 ; items
-	db "DÙNG@"
-	db "TẶNG@"
-	db "BỎ@"
-	db "GÁN@"
-	db "THOÁT@"
+	db "USE@"
+	db "GIVE@"
+	db "TOSS@"
+	db "SEL@"
+	db "QUIT@"
 
 Jumptable_UseGiveTossRegisterQuit:
 	dw UseItem
@@ -332,17 +336,17 @@ Jumptable_UseGiveTossRegisterQuit:
 
 MenuHeader_UsableItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 4 ; items
-	db "DÙNG@"
-	db "TẶNG@"
-	db "BỎ@"
-	db "THOÁT@"
+	db "USE@"
+	db "GIVE@"
+	db "TOSS@"
+	db "QUIT@"
 
 Jumptable_UseGiveTossQuit:
 	dw UseItem
@@ -352,15 +356,15 @@ Jumptable_UseGiveTossQuit:
 
 MenuHeader_UnusableItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "DÙNG@"
-	db "THOÁT@"
+	db "USE@"
+	db "QUIT@"
 
 Jumptable_UseQuit:
 	dw UseItem
@@ -368,16 +372,16 @@ Jumptable_UseQuit:
 
 MenuHeader_UnusableKeyItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3 ; items
-	db "DÙNG@"
-	db "GÁN@"
-	db "THOÁT@"
+	db "USE@"
+	db "SEL@"
+	db "QUIT@"
 
 Jumptable_UseRegisterQuit:
 	dw UseItem
@@ -386,17 +390,17 @@ Jumptable_UseRegisterQuit:
 
 MenuHeader_HoldableKeyItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 3, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 4 ; items
-	db "TẶNG@"
-	db "BỎ@"
-	db "GÁN@"
-	db "THOÁT@"
+	db "GIVE@"
+	db "TOSS@"
+	db "SEL@"
+	db "QUIT@"
 
 Jumptable_GiveTossRegisterQuit:
 	dw GiveItem
@@ -406,16 +410,16 @@ Jumptable_GiveTossRegisterQuit:
 
 MenuHeader_HoldableItem:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 5, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .MenuData
 	db 1 ; default option
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3 ; items
-	db "TẶNG@"
-	db "BỎ@"
-	db "THOÁT@"
+	db "GIVE@"
+	db "TOSS@"
+	db "QUIT@"
 
 Jumptable_GiveTossQuit:
 	dw GiveItem
@@ -807,15 +811,15 @@ TMHMSubmenu:
 
 .UsableMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .UsableMenuData
 	db 1 ; default option
 
 .UsableMenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "DÙNG@"
-	db "THOÁT@"
+	db "USE@"
+	db "QUIT@"
 
 .UsableJumptable:
 	dw .Use
@@ -823,14 +827,14 @@ TMHMSubmenu:
 
 .UnusableMenuHeader:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 9, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 13, 9, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw .UnusableMenuData
 	db 1 ; default option
 
 .UnusableMenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 1 ; items
-	db "THOÁT@"
+	db "QUIT@"
 
 .UnusableJumptable:
 	dw .Quit
@@ -1582,3 +1586,5 @@ PackMenuGFX:
 INCBIN "gfx/pack/pack_menu.2bpp"
 PackGFX:
 INCBIN "gfx/pack/pack.2bpp"
+
+endc

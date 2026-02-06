@@ -41,32 +41,32 @@ CherrygroveMartYoungsterScript:
 	jumptextfaceplayer CherrygroveMartYoungsterText
 
 CherrygroveMartCooltrainerMText:
-	text "Họ vừa hết sạch"
-	line "BÓNG #!"
+	text "They're fresh out"
+	line "of # BALLS!"
 
-	para "Khi nào họ sẽ có"
-	line "thêm đây?"
+	para "When will they get"
+	line "more of them?"
 	done
 
 CherrygroveMartCooltrainerMText_PokeBallsInStock:
-	text "BÓNG # đã có"
-	line "hàng! Giờ tôi có"
-	cont "thể bắt #MON!"
+	text "# BALLS are in"
+	line "stock! Now I can"
+	cont "catch #MON!"
 	done
 
 CherrygroveMartYoungsterText:
-	text "Khi tôi đang đi"
-	line "trong bụi cỏ, một"
+	text "When I was walking"
+	line "in the grass, a"
 
-	para "#MON bọ đã đầu"
-	line "độc #MON tôi!"
+	para "bug #MON poi-"
+	line "soned my #MON!"
 
-	para "Tôi cứ tiếp tục"
-	line "đi, nhưng rồi"
-	cont "#MON tôi ngất."
+	para "I just kept going,"
+	line "but then my"
+	cont "#MON fainted."
 
-	para "Bạn nên mang theo"
-	line "GIẢI ĐỘC bên mình."
+	para "You should keep an"
+	line "ANTIDOTE with you."
 	done
 
 CherrygroveMart_MapEvents:

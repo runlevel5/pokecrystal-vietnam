@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/items/item_effects.asm"
+else
+
 _DoItemEffect::
 	ld a, [wCurItem]
 	ld [wNamedObjectIndex], a
@@ -1231,11 +1235,11 @@ StatStrings:
 	dw .speed
 	dw .special
 
-.health  db "HP@"
-.attack  db "CÔNG@"
-.defense db "THỦ@"
-.speed   db "TỐC ĐỘ@"
-.special db "ĐẶC BIỆT@"
+.health  db "HEALTH@"
+.attack  db "ATTACK@"
+.defense db "DEFENSE@"
+.speed   db "SPEED@"
+.special db "SPECIAL@"
 
 GetStatExpRelativePointer:
 	ld a, [wCurItem]
@@ -2921,3 +2925,5 @@ GetMthMoveOfCurrentMon:
 	ld b, 0
 	add hl, bc
 	ret
+
+endc

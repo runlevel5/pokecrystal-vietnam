@@ -79,48 +79,48 @@ TrainerCooltrainerfFran:
 	end
 
 CooltrainermCodySeenText:
-	text "Không phải tất cả"
-	line "chúng tôi đều"
-	cont "dùng #MON rồng."
+	text "It's not as if we"
+	line "all use dragon-"
+	cont "type #MON."
 	done
 
 CooltrainermCodyBeatenText:
-	text "Chết rồi! Giá như"
-	line "tôi có rồng!"
+	text "Rats! If only I"
+	line "had a dragon!"
 	done
 
 CooltrainermCodyAfterBattleText:
-	text "Thành viên của bộ"
-	line "tộc dùng rồng này"
+	text "Members of our"
+	line "dragon-user clan"
 
-	para "chỉ được dùng"
-	line "#MON rồng sau"
+	para "can use dragon"
+	line "#MON only after"
 
-	para "khi BẬC THẦY ta"
-	line "cho phép."
+	para "our MASTER allows"
+	line "it."
 	done
 
 CooltrainerfFranSeenText:
-	text "Tôi không thể cho"
-	line "HLV vô danh qua"
-	cont "được!"
+	text "I can't allow a"
+	line "nameless trainer"
+	cont "past me!"
 
-	para "CLAIR sẽ tức nếu"
-	line "tôi để đi!"
+	para "CLAIR would be"
+	line "livid if I did!"
 	done
 
 CooltrainerfFranBeatenText:
-	text "Ôi… Tôi thua rồi…"
+	text "Awww… I lost…"
 	done
 
 CooltrainerfFranAfterBattleText:
-	text "Ối chao… CLAIR sẽ"
-	line "giận tôi mất…"
+	text "Uh-oh… CLAIR is"
+	line "going to be mad…"
 	done
 
 BlackthornGym2FBoulderFellText:
-	text "Tảng đá rơi"
-	line "xuyên qua!"
+	text "The boulder fell"
+	line "through!"
 	done
 
 BlackthornGym2F_MapEvents:

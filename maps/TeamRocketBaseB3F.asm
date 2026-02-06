@@ -317,261 +317,250 @@ RocketBaseRivalShovesPlayerMovement:
 	step_end
 
 LanceGetPasswordText:
-	text "LANCE: Cần hai"
-	line "mật khẩu để vào"
+	text "LANCE: It takes"
+	line "two passwords to"
 
-	para "phòng của tên"
-	line "trùm."
+	para "get into the"
+	line "boss's quarters."
 
-	para "Chỉ vài tên"
-	line "ROCKET biết mật"
-	cont "khẩu đó."
+	para "Those passwords"
+	line "are known only to"
+	cont "a few ROCKETS."
 
-	para "Tên ROCKET kia đã"
-	line "tử tế cho ta"
-	cont "biết."
+	para "That ROCKET there"
+	line "very graciously"
+	cont "told me so."
 
-	para "<PLAY_G>, đi lấy"
-	line "mật khẩu thôi."
+	para "<PLAY_G>, let's go"
+	line "get the passwords."
 	done
 
 TeamRocketBaseB3FRocketText:
-	text "Urrggh… Gã mặc"
-	line "áo choàng đó"
-	cont "mạnh quá…"
+	text "Urrggh… The guy"
+	line "in the cape is"
+	cont "incredibly tough…"
 	done
 
 RocketBaseRivalText:
 	text "…"
 
-	para "Tao đã nói với"
-	line "mày là tao sẽ"
+	para "Didn't I tell you"
+	line "that I was going"
 
-	para "tiêu diệt"
-	line "ĐỘI ROCKET chưa?"
+	para "to destroy TEAM"
+	line "ROCKET?"
 
-	para "…Cho tao hỏi, gã"
-	line "mặc áo choàng"
+	para "…Tell me, who was"
+	line "the guy in the"
 
-	para "dùng #MON rồng"
-	line "đó là ai?"
+	para "cape who used"
+	line "dragon #MON?"
 
-	para "#MON của tao"
-	line "không địch nổi."
+	para "My #MON were no"
+	line "match at all."
 
-	para "Tao không quan"
-	line "tâm việc thua."
+	para "I don't care that"
+	line "I lost. I can beat"
 
-	para "Tao có thể thắng"
-	line "hắn bằng cách có"
+	para "him by getting"
+	line "stronger #MON."
 
-	para "#MON mạnh"
-	line "hơn."
+	para "It's what he said"
+	line "that bothers me…"
 
-	para "Điều hắn nói mới"
-	line "làm tao bực…"
+	para "He told me that"
+	line "I don't love and"
 
-	para "Hắn nói tao không"
-	line "yêu thương và tin"
+	para "trust my #MON"
+	line "enough."
 
-	para "tưởng #MON"
-	line "của tao đủ."
+	para "I'm furious that I"
+	line "lost to a bleeding"
+	cont "heart like him."
 
-	para "Tao tức vì thua"
-	line "một kẻ ủy mị"
-	cont "như hắn."
-
-	para "…Hừ! Tao không"
-	line "có thời gian cho"
-	cont "mày đâu!"
+	para "…Humph! I don't"
+	line "have the time for"
+	cont "the likes of you!"
 	done
 
 ExecutiveM4BeforeText:
-	text "Gì? Ngươi là ai?"
-	line "Đây là văn phòng"
+	text "What? Who are you?"
+	line "This is the office"
 
-	para "của thủ lĩnh"
+	para "of our leader,"
 	line "GIOVANNI."
 
-	para "Kể từ khi giải"
-	line "tán ĐỘI ROCKET"
+	para "Since disbanding"
+	line "TEAM ROCKET three"
 
-	para "ba năm trước, ông"
-	line "ấy đang tu luyện."
+	para "years ago, he has"
+	line "been in training."
 
-	para "Nhưng chúng tôi"
-	line "chắc ông ấy sẽ"
+	para "But we're certain"
+	line "he will be back"
 
-	para "quay lại chỉ huy"
-	line "một ngày nào đó."
+	para "some day to assume"
+	line "command again."
 
-	para "Đó là lý do"
-	line "chúng tôi canh"
-	cont "gác ở đây."
+	para "That's why we're"
+	line "standing guard."
 
-	para "Ta không để ai"
-	line "quấy rầy nơi"
-	cont "này!"
+	para "I won't let any-"
+	line "one disturb this"
+	cont "place!"
 	done
 
 ExecutiveM4BeatenText:
-	text "Ta… Ta không làm"
-	line "được gì…"
+	text "I… I couldn't do a"
+	line "thing…"
 
-	para "GIOVANNI, xin"
-	line "tha thứ cho ta…"
+	para "GIOVANNI, please"
+	line "forgive me…"
 	done
 
 ExecutiveM4AfterText:
-	text "Không, ta không"
-	line "thể để điều này"
-	cont "ảnh hưởng."
+	text "No, I can't let"
+	line "this affect me."
 
-	para "Ta phải thông báo"
-	line "cho những người"
-	cont "khác…"
+	para "I have to inform"
+	line "the others…"
 	done
 
 RocketBaseMurkrowText:
-	text "MURKROW: Mật"
-	line "khẩu là…"
+	text "MURKROW: The"
+	line "password is…"
 
 	para "HAIL GIOVANNI."
 	done
 
 GruntF5SeenText:
-	text "Tôi có biết mật"
-	line "khẩu không ư?"
+	text "Do I know the"
+	line "password?"
 
-	para "Có thể."
+	para "Maybe."
 
-	para "Nhưng kẻ yếu sẽ"
-	line "không có được!"
+	para "But no weakling's"
+	line "going to get it!"
 	done
 
 GruntF5BeatenText:
-	text "Được rồi. Dừng"
-	line "lại. Tôi sẽ nói."
+	text "All right. Stop."
+	line "I'll tell you."
 	done
 
 GruntF5AfterBattleText:
-	text "Mật khẩu phòng"
-	line "của trùm là"
+	text "The password to"
+	line "the boss's room is"
 
 	para "SLOWPOKETAIL."
 
-	para "Nhưng vô dụng"
-	line "nếu không có cả"
-	cont "hai mật khẩu."
+	para "But it's useless"
+	line "unless you have"
+	cont "two passwords."
 	done
 
 GruntM28SeenText:
-	text "Hức-hức-hức!"
+	text "Hyuck-hyuck-hyuck!"
 
-	para "Mày đòi thách đấu"
-	line "tao sao?"
+	para "You're challenging"
+	line "me to a battle?"
 
-	para "Ha! Mày điên,"
-	line "nhưng có gan!"
+	para "Hah! You're nuts,"
+	line "but you have guts!"
 
-	para "Tao thích điều"
-	line "đó!"
+	para "I like that!"
 
-	para "Nếu mày thắng"
-	line "được tao, tao sẽ"
+	para "If you can beat"
+	line "me, I'll tell you"
 
-	para "cho mày mật khẩu"
-	line "phòng của trùm!"
+	para "a password to the"
+	line "boss's room!"
 	done
 
 GruntM28BeatenText:
-	text "Hức-hức-hức!"
-	line "Mày giỏi đấy!"
+	text "Hyuck-hyuck-hyuck!"
+	line "You're good!"
 	done
 
 GruntM28AfterBattleText:
-	text "Hức-hức-hức!"
+	text "Hyuck-hyuck-hyuck!"
 
-	para "Mật khẩu phòng"
-	line "của trùm…"
+	para "The password to"
+	line "the boss's room…"
 
-	para "Ờ… Tao nghĩ là"
+	para "Uh…, I think it is"
 	line "RATICATE TAIL."
 	done
 
 ScientistRossSeenText:
-	text "Tôi từng làm ở"
-	line "SILPH, nhưng giờ"
+	text "I used to work for"
+	line "SILPH, but now I"
 
-	para "tôi điều hành"
-	line "nghiên cứu cho"
-	cont "ĐỘI ROCKET."
+	para "run research for"
+	line "TEAM ROCKET."
 
-	para "Đứa trẻ tọc mạch"
-	line "như ngươi cần"
-	cont "bị trừng phạt."
+	para "A meddlesome child"
+	line "like you needs to"
+	cont "be punished."
 	done
 
 ScientistRossBeatenText:
-	text "Chỉ là lỗi chiến"
-	line "thuật nhỏ…"
+	text "A mere tactical"
+	line "error cost me…"
 	done
 
 ScientistRossAfterBattleText:
-	text "Sóng radio làm"
-	line "#MON phát"
-	cont "điên…"
+	text "A radio signal"
+	line "that drives #-"
+	cont "MON mad…"
 
-	para "Thí nghiệm của"
-	line "tôi thành công"
-	cont "hoàn toàn."
+	para "My experiment is a"
+	line "complete success."
 
-	para "Tôi chắc chắn"
-	line "được thăng chức."
+	para "My promotion is"
+	line "assured. This loss"
 
-	para "Thua trận này"
-	line "chẳng nghĩa lý"
-	cont "gì."
+	para "means absolutely"
+	line "nothing."
 	done
 
 ScientistMitchSeenText:
-	text "Tôi không quan"
-	line "tâm #MON bị"
-	cont "hại vì thí"
-	cont "nghiệm."
+	text "I don't care that"
+	line "#MON are hurt"
+	cont "by our experiment."
 	done
 
 ScientistMitchBeatenText:
-	text "Suy nghĩ là thế"
-	line "mạnh của tôi,"
-	cont "không phải đấu."
+	text "Thinking is my"
+	line "strong suit, not"
+	cont "battling."
 	done
 
 ScientistMitchAfterBattleText:
-	text "Nếu chúng tôi"
-	line "tăng công suất"
+	text "If we turn up the"
+	line "power of our radio"
 
-	para "sóng radio để"
-	line "phát toàn quốc…"
+	para "signal for broad-"
+	line "cast nationwide…"
 
-	para "Chỉ nghĩ thôi"
-	line "cũng phấn khích!"
+	para "The very thought"
+	line "excites me!"
 	done
 
 TeamRocketBaseB3FLockedDoorNeedsPasswordText:
-	text "Cửa đóng rồi…"
+	text "The door's closed…"
 
-	para "Cần hai mật khẩu"
-	line "để mở."
+	para "It needs two"
+	line "passwords to open."
 	done
 
 TeamRocketBaseB3FLockedDoorOpenSesameText:
-	text "Cửa đóng rồi…"
+	text "The door's closed…"
 
-	para "<PLAYER> đã nhập"
-	line "hai mật khẩu."
+	para "<PLAYER> entered"
+	line "the two passwords."
 
-	para "Cửa mở ra!"
+	para "The door opened!"
 	done
 
 TeamRocketBaseB3F_MapEvents:

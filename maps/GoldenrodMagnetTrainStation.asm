@@ -104,62 +104,62 @@ GoldenrodMagnetTrainStationPlayerLeaveTrainAndEnterStationMovement:
 	step_end
 
 GoldenrodMagnetTrainStationOfficerTheTrainHasntComeInText:
-	text "Tàu vẫn chưa"
-	line "đến…"
+	text "The train hasn't"
+	line "come in…"
 
-	para "Biết rồi! Tôi sẽ"
-	line "cõng hành khách"
-	cont "trên lưng!"
+	para "I know! I'll carry"
+	line "the passengers on"
+	cont "my back!"
 
-	para "Không được đâu."
+	para "That won't work."
 	done
 
 GoldenrodMagnetTrainStationOfficerAreYouComingAboardText:
-	text "Chúng tôi sắp khởi"
-	line "hành đến SAFFRON."
+	text "We'll soon depart"
+	line "for SAFFRON."
 
-	para "Bạn có lên tàu"
-	line "không?"
+	para "Are you coming"
+	line "aboard?"
 	done
 
 GoldenrodMagnetTrainStationOfficerRightThisWayText:
-	text "Cho xem THẺ ĐI"
-	line "của bạn nhé?"
+	text "May I see your"
+	line "rail PASS, please?"
 
-	para "OK. Mời bạn"
-	line "vào đây."
+	para "OK. Right this"
+	line "way, please."
 	done
 
 GoldenrodMagnetTrainStationOfficerYouDontHaveARailPassText:
-	text "Xin lỗi. Bạn không"
-	line "có THẺ ĐI."
+	text "Sorry. You don't"
+	line "have a rail PASS."
 	done
 
 GoldenrodMagnetTrainStationOfficerHopeToSeeYouAgainText:
-	text "Chúng tôi hy vọng"
-	line "gặp lại bạn!"
+	text "We hope to see you"
+	line "again!"
 	done
 
 GoldenrodMagnetTrainStationOfficerArrivedInGoldenrodText:
-	text "Chúng tôi đã đến"
+	text "We have arrived in"
 	line "GOLDENROD."
 
-	para "Hy vọng gặp lại"
-	line "bạn."
+	para "We hope to see you"
+	line "again."
 	done
 
 GoldenrodMagnetTrainStationGentlemanText:
-	text "Tôi là CHỦ TỊCH."
+	text "I'm the PRESIDENT."
 
-	para "Ước mơ của tôi là"
-	line "xây tàu nhanh hơn"
+	para "My dream was to"
+	line "build a train that"
 
-	para "bất kỳ #MON"
-	line "nào."
+	para "is faster than any"
+	line "#MON."
 
-	para "Nó thực sự đưa"
-	line "JOHTO đến gần"
-	cont "KANTO hơn nhiều."
+	para "It really brings"
+	line "JOHTO much closer"
+	cont "to KANTO."
 	done
 
 GoldenrodMagnetTrainStation_MapEvents:

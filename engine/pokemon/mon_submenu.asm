@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/mon_submenu.asm"
+else
+
 INCLUDE "data/mon_menu.asm"
 
 MonSubmenu:
@@ -285,6 +289,8 @@ BattleMonMenu:
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 3 ; items
-	db "ĐỔI@"
-	db "C. SỐ@"
-	db "HỦY@"
+	db "SWITCH@"
+	db "STATS@"
+	db "CANCEL@"
+
+endc

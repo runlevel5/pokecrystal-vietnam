@@ -1,104 +1,106 @@
 ArnieMonIsSoCuteText:
-	text "Tớ luôn ở với"
+	text "I'm always with my"
 	line "@"
 	text_ram wStringBuffer4
 	text "!"
 
-	para "Dễ thương quá!"
-	line "Tớ yêu nó lắm!"
+	para "It's so cute!"
+	line "I just love it!"
 	done
 
 ArnieDefeatedMonText:
-	text "Đổi chủ đề, tớ"
-	line "thấy con"
+	text "Changing the topic"
+	line "here, I saw this"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " lần"
-	line "đầu tiên."
+	text " for the"
+	line "first time."
 
-	para "Thật ra dễ đánh"
-	line "bại."
+	para "It was easy to"
+	line "beat, actually."
 	done
 
 ArnieLostAMonText:
-	text "Tớ tò mò, cậu có"
-	line "@"
+	text "I was wondering,"
+	line "do you happen to"
+	cont "have @"
 	text_ram wStringBuffer4
-	text " không?"
+	text "?"
 
-	para "Tớ không bắt được"
-	line "con nào. Điểm yếu"
+	para "I can't seem to"
+	line "catch one. What is"
 
-	para "của nó là gì"
-	line "nhỉ?"
+	para "its weakness, I"
+	line "wonder."
 	done
 
 ArnieBattleRematchText:
-	text "Này, đấu #MON"
-	line "thôi!"
+	text "Hey, let's battle"
+	line "our #MON!"
 
-	para "Tớ sẽ không thua"
-	line "trong chiến đấu"
+	para "I won't lose to"
+	line "you battling or in"
 
-	para "hay thi bắt côn"
-	line "trùng!"
+	para "the Bug-Catching"
+	line "Contest!"
 
-	para "Tớ sẽ ở đây ở"
+	para "I'll be here on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ArnieHangUpText:
-	text "Nói chuyện lại"
-	line "nhé, nhá?"
+	text "Let's talk again,"
+	line "huh?"
 	done
 
 ArnieSwarmText:
-	text "Trời, tớ vui vì"
-	line "gặp cậu!"
+	text "Boy, am I glad I"
+	line "caught you!"
 
-	para "Cả đàn"
+	para "A whole bunch of"
 	line "@"
 	text_ram wStringBuffer4
-	text " đã"
+	text " have"
 
-	para "xuất hiện gần"
+	para "appeared around"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 
-	para "Cậu phải thấy!"
+	para "You have to see"
+	line "this!"
 	done
 
 ArnieHaventSeenRareMonText:
-	text "Tớ không may mắn"
-	line "thấy #MON hiếm"
-	cont "gần đây…"
+	text "I haven't had any"
+	line "luck seeing rare"
+	cont "#MON lately…"
 
-	para "Nhưng tớ biết"
-	line "chúng ở ngoài kia!"
+	para "But I know they're"
+	line "out there!"
 	done
 
 ArnieReminderText:
-	text "Này, cậu đang ở"
-	line "đâu?"
+	text "Hey, where are you"
+	line "now?"
 
-	para "Đấu thôi. Tớ sẽ"
-	line "đợi cậu ở"
-	cont "@"
+	para "Let's battle. I'll"
+	line "be waiting for you"
+	cont "on @"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ArnieHurryText:
-	text "A lô? Cậu đến hay"
-	line "sao?"
+	text "Hello? Are you"
+	line "coming or what?"
 
-	para "Cậu đang bỏ lỡ cơ"
-	line "hội thấy YANMA!"
+	para "You're missing out"
+	line "on seeing YANMA!"
 
-	para "Đến TUYẾN ĐƯỜNG 35"
-	line "ngay bây giờ!"
+	para "Get down to ROUTE"
+	line "35 right now!"
 	done

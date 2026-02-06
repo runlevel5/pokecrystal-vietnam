@@ -117,92 +117,92 @@ CeladonCafeTrashcan:
 	jumpstd TrashCanScript
 
 ChefText_Eatathon:
-	text "Chào!"
+	text "Hi!"
 
-	para "Chúng tôi đang tổ"
-	line "chức thi ăn."
+	para "We're holding an"
+	line "eatathon contest."
 
-	para "Không phục vụ bây"
-	line "giờ. Xin lỗi."
+	para "We can't serve you"
+	line "right now. Sorry."
 	done
 
 Fisher1Text_Snarfle:
-	text "…Ăm ạch, nhai…"
+	text "…Snarfle, chew…"
 	done
 
 Fisher1Text_Concentration:
-	text "Đừng nói chuyện!"
+	text "Don't talk to me!"
 
-	para "Bạn sẽ phá vỡ sự"
-	line "tập trung của tôi!"
+	para "You'll break my"
+	line "concentration!"
 	done
 
 Fisher2Text_GulpChew:
-	text "…Ực… Nhai…"
+	text "…Gulp… Chew…"
 	done
 
 Fisher2Text_Quantity:
-	text "Tôi thích số lượng"
-	line "hơn chất lượng!"
+	text "I take quantity"
+	line "over quality!"
 
-	para "Chỉ cần no là"
-	line "được rồi!"
+	para "I'm happy when I'm"
+	line "full!"
 	done
 
 Fisher3Text_MunchMunch:
-	text "Nhóp nháp, nhóp…"
+	text "Munch, munch…"
 	done
 
 Fisher3Text_GoldenrodIsBest:
-	text "Đồ ăn ở đây ngon"
-	line "nhưng GOLDENROD"
-	cont "mới là ngon nhất"
-	cont "nơi nào cũng vậy."
+	text "The food is good"
+	line "here, but GOLDEN-"
+	cont "ROD has the best"
+	cont "food anywhere."
 	done
 
 TeacherText_CrunchCrunch:
-	text "Sọc sạc… Sọc sạc…"
+	text "Crunch… Crunch…"
 	done
 
 TeacherText_NoCoinCase:
-	text "Không ai ở đây"
-	line "cho bạn HỘP XU."
+	text "Nobody here will"
+	line "give you a COIN"
 
-	para "Bạn nên tìm ở"
-	line "JOHTO."
+	para "CASE. You should"
+	line "look in JOHTO."
 	done
 
 TeacherText_KeepEating:
-	text "Sọc sạc… Sọc sạc…"
+	text "Crunch… Crunch…"
 
-	para "Tôi ăn tiếp được!"
+	para "I can keep eating!"
 	done
 
 TeacherText_MoreChef:
-	text "Thêm nữa, ĐẦU BẾP!"
+	text "More, CHEF!"
 	done
 
 EatathonContestPosterText:
-	text "Cuộc Thi Ăn Uống!"
-	line "Không giới hạn!"
+	text "Eatathon Contest!"
+	line "No time limit!"
 
-	para "Trận chiến không"
-	line "kết thúc! Ai ăn"
+	para "A battle without"
+	line "end! The biggest"
 
-	para "nhiều nhất được"
-	line "ăn miễn phí!"
+	para "muncher gets it"
+	line "all for free!"
 	done
 
 FoundLeftoversText:
-	text "<PLAYER> tìm thấy"
+	text "<PLAYER> found"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 NoRoomForLeftoversText:
-	text "Nhưng <PLAYER>"
-	line "không mang thêm…"
+	text "But <PLAYER> can't"
+	line "hold another item…"
 	done
 
 CeladonCafe_MapEvents:

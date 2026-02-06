@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/item_data_constants.asm"
+else
+
 ; item_attributes struct members (see data/items/attributes.asm)
 rsreset
 DEF ITEMATTR_PRICE       rw
@@ -65,7 +69,6 @@ DEF MAIL_STRUCT_LENGTH_JP EQU $2a ; mailmsg_jp struct
 	const MAIL_LANG_GERMAN
 	const MAIL_LANG_ITALIAN
 	const MAIL_LANG_SPANISH
-	const MAIL_LANG_VIETNAMESE
 
 ; held item effects
 	const_def
@@ -142,3 +145,5 @@ DEF MAIL_STRUCT_LENGTH_JP EQU $2a ; mailmsg_jp struct
 	const HELD_BRIGHTPOWDER
 	const_skip
 	const HELD_FOCUS_BAND
+
+endc

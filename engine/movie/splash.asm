@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/movie/splash.asm"
+else
+
 SplashScreen:
 ; Play the copyright screen and GameFreak Presents sequence.
 ; Return carry if user cancels animation by pressing a button.
@@ -61,7 +65,7 @@ SplashScreen:
 GameFreakPresentsInit:
 	ld de, GameFreakLogoGFX
 	ld hl, vTiles2
-	lb bc, BANK(GameFreakLogoGFX), 26
+	lb bc, BANK(GameFreakLogoGFX), 28
 	call Get1bpp
 
 	ldh a, [rWBK]
@@ -173,25 +177,15 @@ GameFreakPresents_PlacePresents:
 
 .place_presents
 	ld [hl], 0
-	; First row (top halves - tiles 7-12 from PNG)
-	ld hl, .presents_row1
+	ld hl, .presents
 	decoord 7, 11
-	ld bc, .presents_row2 - .presents_row1
-	call CopyBytes
-	; Second row (bottom halves - tiles 20-24 from PNG)
-	ld hl, .presents_row2
-	decoord 7, 12
-	ld bc, .end - .presents_row2
+	ld bc, .end - .presents
 	call CopyBytes
 	call GameFreakPresents_NextScene
 	ret
 
-.presents_row1
-	; Top halves: tiles 7-12 from PNG row 1 (6 tiles)
+.presents
 	db $07, $08, $09, $0a, $0b, $0c
-.presents_row2
-	; Bottom halves: tiles 20-25 from PNG row 2 (6 tiles)
-	db $14, $15, $16, $17, $18, $19
 .end
 	db "@"
 
@@ -357,3 +351,5 @@ INCLUDE "gfx/splash/ditto_fade.pal"
 GameFreakLogoGFX:
 INCBIN "gfx/splash/gamefreak_presents.1bpp"
 INCBIN "gfx/splash/gamefreak_logo.1bpp"
+
+endc

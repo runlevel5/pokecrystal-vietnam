@@ -1,10 +1,10 @@
-	db "SỪNG LỚN@" ; species name
-	dw 14, 712 ; height, weight
+	db "BIG HORN@" ; species name
+	dw 407, 1570 ; height, weight
 
-	db   "Các viên tròn trên"
-	next "sừng rụng có thể"
-	next "nghiền thành bột"
+	db   "The round balls"
+	next "found on the"
+	next "fallen antlers can"
 
-	page "giúp dễ ngủ.@"
-	next "@"
-	next "@"
+	page "be ground into a"
+	next "powder that aids"
+	next "in sleeping.@"

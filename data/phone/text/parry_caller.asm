@@ -1,69 +1,69 @@
 ParryNothingCanMatchText:
-	text "Không gì sánh được"
-	line "@"
+	text "Nothing can match"
+	line "my @"
 	text_ram wStringBuffer4
-	text " của tớ."
+	text " now."
 	done
 
 ParryDefeatedMonText:
-	text "Yeah, bọn tớ KO"
-	line "@"
+	text "Yeah, we KO'd a"
+	line "wild @"
 	text_ram wStringBuffer4
-	text " hoang!"
+	text "!"
 
-	para "Cũng OK, nhưng tớ"
-	line "muốn bắt nó…"
+	para "That was OK, but I"
+	line "wanted to get it…"
 	done
 
 ParryLostAMonText:
-	text "Và hôm qua, bọn"
-	line "tớ thấy con"
+	text "And yesterday, we"
+	line "spotted a wild"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " hoang."
-	line "Bọn tớ đang tranh"
+	text "."
+	line "We were debating"
 
-	para "luận nên bắt hay"
-	line "đánh nó."
+	para "whether to catch"
+	line "it or beat it."
 
-	para "Thì có anh chàng"
-	line "khác tới"
+	para "When along came"
+	line "another guy who"
 
-	para "và bắt nó mất!"
-	line "Tệ chưa!"
+	para "caught it!"
+	line "How about that!"
 	done
 
 ParryBattleRematchText:
-	text "Cậu đang nghĩ"
-	line "muốn đấu với tớ."
+	text "You're thinking"
+	line "you'd like to"
 
-	para "Tớ đoán đúng"
-	line "không?"
+	para "battle me. Am I"
+	line "right or what?"
 
-	para "Yep! Gặp nhau tại"
+	para "Yep! We'll meet on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 ParryHangUpText:
-	text "OK, gọi lại cho"
-	line "tớ nhé!"
+	text "OK, give me a call"
+	line "again!"
 	done
 
 ParryBattleWithMeText:
-	text "Cậu sẽ đấu với tớ"
-	line "lần nữa chứ?"
+	text "You'll battle with"
+	line "me again, right?"
 	done
 
 ParryHaventYouGottenToText:
-	text "Cậu chưa tới"
-	line "@"
+	text "Haven't you gotten"
+	line "to @"
 	text_ram wStringBuffer5
-	text " à?"
+	text "?"
 
-	para "Đợi ở đây không"
-	line "tệ, nhưng tớ"
-	cont "muốn đấu lắm!"
+	para "Waiting here isn't"
+	line "bad, but I'd sure"
+	cont "like to battle!"
 	done

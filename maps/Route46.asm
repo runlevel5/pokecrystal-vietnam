@@ -169,83 +169,83 @@ Route46FruitTree2:
 	fruittree FRUITTREE_ROUTE_46_2
 
 HikerBaileySeenText:
-	text "Được rồi! Tôi sẽ"
-	line "cho cậu thấy sức"
-	cont "mạnh #MON núi!"
+	text "Awright! I'll show"
+	line "you the power of"
+	cont "mountain #MON!"
 	done
 
 HikerBaileyBeatenText:
-	text "Trời! Cậu cho tôi"
-	line "thấy sức mạnh rồi!"
+	text "Mercy! You showed"
+	line "me your power!"
 	done
 
 HikerBaileyAfterBattleText:
-	text "Xong rồi. Tôi"
-	line "không bận tâm. Bọn"
-	cont "LEO NÚI như thế."
+	text "It's over. I don't"
+	line "mind. We HIKERS"
+	cont "are like that."
 	done
 
 CamperTedSeenText:
-	text "Tôi cũng đang nuôi"
-	line "#MON đấy!"
+	text "I'm raising #-"
+	line "MON too!"
 
-	para "Cậu có đấu với"
-	line "tôi không?"
+	para "Will you battle"
+	line "with me?"
 	done
 
 CamperTedBeatenText:
-	text "Cái gì…?"
+	text "Wha…?"
 	done
 
 CamperTedAfterBattleText:
-	text "Tôi đã cố hết sức"
-	line "nhưng vẫn thiếu."
+	text "I did my best but"
+	line "came up short."
 
-	para "Không lý do--tôi"
-	line "nhận thua."
+	para "No excuses--I"
+	line "admit I lost."
 	done
 
 PicnickerErin1SeenText:
-	text "Tôi cũng nuôi"
-	line "#MON đấy!"
+	text "I raise #MON"
+	line "too!"
 
-	para "Bạn có đấu với"
-	line "tôi không?"
+	para "Will you battle"
+	line "with me?"
 	done
 
 PicnickerErin1BeatenText:
-	text "Ôi, chết!"
+	text "Oh, rats!"
 	done
 
 PicnickerErinAfterBattleText:
-	text "Tôi đã đến nhiều"
-	line "GYM, nhưng GYM ở"
+	text "I've been to many"
+	line "GYMS, but the GYM"
 
-	para "GOLDENROD là ưa"
-	line "thích nhất."
+	para "in GOLDENROD is my"
+	line "favorite."
 
-	para "Nó đầy những hoa"
-	line "đẹp!"
+	para "It's filled with"
+	line "pretty flowers!"
 	done
 
 PicnickerErin2BeatenText:
-	text "Ôi… Tôi cứ thua"
-	line "mãi!"
+	text "Aww… I keep losing"
+	line "all the time!"
 
-	para "Tôi sẽ phải cố"
-	line "gắng hơn nữa!"
+	para "I'll just have to"
+	line "try harder!"
 
-	para "Dù sao, cảm ơn vì"
-	line "đấu với tôi lần"
+	para "Anyway, thanks for"
+	line "battling me again"
 
-	para "này đến lần khác."
-	line "Đây là quà từ lần"
-	cont "trước."
+	para "and again. Here's"
+	line "that present from"
+	cont "the other time."
 	done
 
 Route46SignText:
-	text "TUYẾN ĐƯỜNG 46"
-	line "ĐƯỜNG NÚI PHI TRƯỚC"
+	text "ROUTE 46"
+	line "MOUNTAIN RD. AHEAD"
 	done
 
 Route46_MapEvents:

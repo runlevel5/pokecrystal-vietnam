@@ -1,10 +1,10 @@
-	db "TRỨNG@" ; species name
-	dw 11, 346 ; height, weight
+	db "EGG@" ; species name
+	dw 307, 760 ; height, weight
 
-	db   "Người ta cố bắt"
-	next "nó vì trứng rất"
-	next "bổ dưỡng, nhưng"
+	db   "People try to"
+	next "catch it for its"
+	next "extremely"
 
-	page "hiếm khi tìm"
-	next "thấy nó.@"
-	next "@"
+	page "nutritious eggs,"
+	next "but it rarely can"
+	next "be found.@"

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokemon/stats_screen.asm"
+else
+
 	const_def 1
 	const PINK_PAGE  ; 1
 	const GREEN_PAGE ; 2
@@ -233,7 +237,7 @@ if DEF(_DEBUG)
 	jp StatsScreen_JoypadAction
 
 .HatchSoonString:
-	db "▶SẮP NỞ!@"
+	db "▶HATCH SOON!@"
 endc
 
 StatsScreen_LoadPage:
@@ -706,20 +710,20 @@ LoadPinkPage:
 	ret
 
 .Status_Type:
-	db   "T.THÁI/"
-	next "LOẠI/@"
+	db   "STATUS/"
+	next "TYPE/@"
 
 .OK_str:
-	db "ỔN @"
+	db "OK @"
 
 .ExpPointStr:
-	db "ĐIỂM K.N@"
+	db "EXP POINTS@"
 
 .LevelUpStr:
-	db "TĂNG CẤP@"
+	db "LEVEL UP@"
 
 .ToStr:
-	db "ĐẾN@"
+	db "TO@"
 
 .PkrsStr:
 	db "#RUS@"
@@ -761,13 +765,13 @@ LoadGreenPage:
 	ret
 
 .Item:
-	db "GIỮ@"
+	db "ITEM@"
 
 .ThreeDashes:
 	db "---@"
 
 .Move:
-	db "CHIÊU@"
+	db "MOVE@"
 
 LoadBluePage:
 	call .PlaceOTInfo
@@ -827,7 +831,7 @@ IDNoString:
 	db "<ID>№.@"
 
 OTString:
-	db "HLV GỐC/@"
+	db "OT/@"
 
 StatsScreen_PlaceFrontpic:
 	ld hl, wTempMonDVs
@@ -1023,7 +1027,7 @@ if DEF(_DEBUG)
 	jr .placed_push_start
 
 .PushStartString:
-	db "▶ẤN START.@"
+	db "▶PUSH START.@"
 
 .placed_push_start
 endc
@@ -1058,29 +1062,31 @@ endc
 	ret
 
 EggString:
-	db "TRỨNG@"
+	db "EGG@"
 
 FiveQMarkString:
 	db "?????@"
 
 EggSoonString:
-	db   "Có tiếng bên trong"
-	next "Nó sắp nở rồi!@"
+	db   "It's making sounds"
+	next "inside. It's going"
+	next "to hatch soon!@"
 
 EggCloseString:
-	db   "Thỉnh thoảng nó"
-	next "cử động bên trong"
-	next "Sắp nở rồi.@"
+	db   "It moves around"
+	next "inside sometimes."
+	next "It must be close"
+	next "to hatching.@"
 
 EggMoreTimeString:
-	db   "Bên trong có gì?"
-	next "Nó cần thêm"
-	next "thời gian.@"
+	db   "Wonder what's"
+	next "inside? It needs"
+	next "more time, though.@"
 
 EggALotMoreTimeString:
-	db   "TRỨNG này cần"
-	next "nhiều thời gian"
-	next "hơn để nở.@"
+	db   "This EGG needs a"
+	next "lot more time to"
+	next "hatch.@"
 
 StatsScreen_AnimateEgg:
 	call StatsScreen_GetAnimationParam
@@ -1195,3 +1201,5 @@ CheckFaintedFrzSlp:
 .fainted_frz_slp
 	scf
 	ret
+
+endc

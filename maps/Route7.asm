@@ -10,24 +10,26 @@ Route7LockedDoor:
 	jumptext Route7LockedDoorText
 
 Route7UndergroundPathSignText:
-	text "Tờ rơi này là gì?"
+	text "What's this flyer?"
 
-	para "… Các HLV thô lỗ"
-	line "tổ chức trận đấu"
+	para "… Uncouth trainers"
+	line "have been holding"
 
-	para "trong ĐỊA ĐẠO."
+	para "battles in the"
+	line "UNDERGROUND PATH."
 
-	para "Do khiếu nại nhiều"
-	line "của cư dân địa"
-	cont "phương, ĐỊA ĐẠO"
-	cont "đã bị đóng cửa"
-	cont "vô thời hạn."
+	para "Because of rising"
+	line "complaints by lo-"
+	cont "cal residents, the"
+	cont "UNDERGROUND PATH"
+	cont "has been sealed"
+	cont "indefinitely."
 
-	para "CÔNG AN CELADON"
+	para "CELADON POLICE"
 	done
 
 Route7LockedDoorText:
-	text "Đã khóa…"
+	text "It's locked…"
 	done
 
 Route7_MapEvents:

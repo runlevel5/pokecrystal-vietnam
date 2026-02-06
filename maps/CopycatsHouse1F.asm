@@ -36,35 +36,34 @@ CopycatsHouse1FBlisseyScript:
 	end
 
 CopycatsHouse1FPokefanMText:
-	text "Con gái tôi thích"
-	line "bắt chước người"
-	cont "khác."
+	text "My daughter likes"
+	line "to mimic people."
 
-	para "Khả năng bắt chước"
-	line "giúp cháu có biệt"
+	para "Her mimicry has"
+	line "earned her the"
 
-	para "danh COPYCAT quanh"
-	line "đây."
+	para "nickname COPYCAT"
+	line "around here."
 	done
 
 CopycatsHouse1FPokefanFText:
-	text "Con gái tôi quá"
-	line "tự mãn…"
+	text "My daughter is so"
+	line "self-centered…"
 
-	para "Cháu chỉ có vài"
-	line "người bạn."
+	para "She only has a few"
+	line "friends."
 	done
 
 CopycatsHouse1FPokefanFText_ReturnedMachinePart:
-	text "Gần đây cháu làm"
-	line "mất con búp bê"
+	text "She recently lost"
+	line "the # DOLL that"
 
-	para "mà một cậu bé đã"
-	line "tặng ba năm trước."
+	para "a boy gave her"
+	line "three years ago."
 
-	para "Từ đó, cháu càng"
-	line "giỏi bắt chước"
-	cont "hơn…"
+	para "Ever since then,"
+	line "she's gotten even"
+	cont "better at mimicry…"
 	done
 
 CopycatsHouse1FBlisseyText:

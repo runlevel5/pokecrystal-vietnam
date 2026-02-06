@@ -1,99 +1,101 @@
 BillPhoneMornGreetingText:
-	text "Chào buổi sáng!"
+	text "Good morning!"
 
-	para "Đây là DỊCH VỤ"
-	line "QUẢN LÝ HỆ THỐNG"
+	para "This is the #-"
+	line "MON STORAGE SYSTEM"
 
-	para "LƯU TRỮ"
-	line "#MON."
+	para "ADMINISTRATION"
+	line "SERVICE."
 	done
 
 BillPhoneDayGreetingText:
-	text "Xin chào!"
+	text "Good day!"
 
-	para "Đây là DỊCH VỤ"
-	line "QUẢN LÝ HỆ THỐNG"
+	para "This is the #-"
+	line "MON STORAGE SYSTEM"
 
-	para "LƯU TRỮ"
-	line "#MON."
+	para "ADMINISTRATION"
+	line "SERVICE."
 	done
 
 BillPhoneNiteGreetingText:
-	text "Chào buổi tối!"
+	text "Good evening!"
 
-	para "Đây là DỊCH VỤ"
-	line "QUẢN LÝ HỆ THỐNG"
+	para "This is the #-"
+	line "MON STORAGE SYSTEM"
 
-	para "LƯU TRỮ"
-	line "#MON."
+	para "ADMINISTRATION"
+	line "SERVICE."
 	done
 
 BillPhoneGenericText:
-	text "Ai đang gọi vậy?"
+	text "Who's calling?"
 
-	para "<PLAY_G> phải ko?"
-	line "Đợi một chút…"
+	para "<PLAY_G>, is it?"
+	line "Hang on a sec…"
 
 	para "<……>"
 	line "<……>"
 	done
 
 BillPhoneNotFullText:
-	text "Cảm ơn đã chờ"
-	line "đợi!"
+	text "Thanks for"
+	line "waiting!"
 
-	para "<PLAY_G>, BOX còn"
-	line "chỗ cho @"
+	para "<PLAY_G>, your BOX"
+	line "has room for @"
 	text_ram wStringBuffer3
 	text_start
-	cont "#MON nữa."
+	cont "more #MON."
 
-	para "Ra ngoài và lấp"
-	line "đầy nó đi!"
+	para "Get out there and"
+	line "fill it up!"
 	done
 
 BillPhoneNearlyFullText:
-	text "Cảm ơn đã chờ"
-	line "đợi!"
+	text "Thanks for"
+	line "waiting!"
 
-	para "<PLAY_G>, BOX chỉ"
-	line "còn chỗ cho"
+	para "<PLAY_G>, your BOX"
+	line "has room for only"
 	cont "@"
 	text_ram wStringBuffer3
-	text " #MON nữa."
+	text " more #MON."
 
-	para "Có lẽ bạn nên đổi"
-	line "BOX đi."
+	para "Maybe you should"
+	line "switch your BOX."
 	done
 
 BillPhoneFullText:
-	text "Cảm ơn đã chờ"
-	line "đợi!"
+	text "Thanks for"
+	line "waiting!"
 
-	para "<PLAY_G>, BOX của"
-	line "bạn đã đầy!"
+	para "<PLAY_G>, your BOX"
+	line "is full!"
 
-	para "Bạn phải đổi BOX"
-	line "nếu muốn bắt thêm"
+	para "You'll have to"
+	line "switch BOXES if"
 
-	para "#MON."
+	para "you want to catch"
+	line "more #MON."
 	done
 
 BillPhoneNewlyFullText:
-	text "Chào, <PLAY_G>?"
-	line "Tôi là BILL đây!"
+	text "Hi, <PLAY_G>?"
+	line "It's me, BILL!"
 
-	para "Cảm ơn đã dùng HỆ"
-	line "THỐNG LƯU TRỮ."
+	para "Thanks for using"
+	line "my STORAGE SYSTEM."
 
-	para "#MON vừa gửi đã"
-	line "làm đầy BOX"
-	cont "của bạn."
+	para "That last #MON"
+	line "you sent filled"
+	cont "your BOX up."
 
-	para "Bạn phải đổi BOX"
-	line "nếu muốn bắt thêm"
+	para "You'll have to"
+	line "switch BOXES if"
 
-	para "#MON nữa."
+	para "you want to catch"
+	line "more #MON."
 
-	para "Tạm biệt nhé!"
+	para "Bye now!"
 	done

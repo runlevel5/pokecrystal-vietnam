@@ -12,13 +12,12 @@ IndigoPlateauSign:
 	jumptext IndigoPlateauSignText
 
 IndigoPlateauSignText:
-	text "CAO NGUYÊN INDIGO"
+	text "INDIGO PLATEAU"
 
-	para "Mục tiêu tối thượng"
-	line "của HLV!"
+	para "The Ultimate Goal"
+	line "for Trainers!"
 
-	para "LIÊN ĐOÀN #MON"
-	line "HQ"
+	para "#MON LEAGUE HQ"
 	done
 
 Route23_MapEvents:

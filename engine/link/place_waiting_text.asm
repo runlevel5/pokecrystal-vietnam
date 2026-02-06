@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/link/place_waiting_text.asm"
+else
+
 PlaceWaitingText::
 	hlcoord 3, 10
 	ld b, 1
@@ -21,4 +25,6 @@ PlaceWaitingText::
 	jp DelayFrames
 
 .Waiting:
-	db "Đang chờ...@"
+	db "Waiting...!@"
+
+endc

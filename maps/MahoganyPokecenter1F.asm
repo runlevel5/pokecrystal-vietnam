@@ -22,33 +22,33 @@ MahoganyPokecenter1FCooltrainerFScript:
 	jumptextfaceplayer MahoganyPokecenter1FCooltrainerFText
 
 MahoganyPokecenter1FPokefanMText:
-	text "Cái gì đây? ĐỘI"
-	line "ROCKET quay trở"
-	cont "lại rồi sao?"
+	text "What's this? TEAM"
+	line "ROCKET has come"
+	cont "back?"
 
-	para "Tôi thấy mấy"
-	line "người đàn ông mặc"
-	cont "đen ở HỒ PHẪN NỘ…"
+	para "I saw some men in"
+	line "black at LAKE OF"
+	cont "RAGE…"
 	done
 
 MahoganyPokecenter1FYoungsterText:
-	text "Tôi ngăn #MON"
-	line "của tôi tiến hóa"
-	cont "quá sớm."
+	text "I stop my #MON"
+	line "from evolving too"
+	cont "early."
 
-	para "Tôi cho chúng học"
-	line "một số chiêu nhất"
-	cont "định trước khi để"
-	cont "chúng tiến hóa."
+	para "I make them learn"
+	line "certain moves be-"
+	cont "fore I let them"
+	cont "evolve."
 	done
 
 MahoganyPokecenter1FCooltrainerFText:
-	text "#MON sẽ mạnh"
-	line "hơn khi chúng"
+	text "#MON do become"
+	line "stronger when they"
 
-	para "tiến hóa, nhưng"
-	line "chúng cũng học"
-	cont "chiêu chậm hơn."
+	para "evolve, but they"
+	line "also learn moves"
+	cont "more slowly."
 	done
 
 MahoganyPokecenter1F_MapEvents:

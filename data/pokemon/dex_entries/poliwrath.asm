@@ -1,10 +1,10 @@
-	db "NÒN NOC@" ; species name
-	dw 13, 540 ; height, weight
+	db "TADPOLE@" ; species name
+	dw 403, 1190 ; height, weight
 
-	db   "Với tay chân phát"
-	next "triển, nó có thể"
-	next "chạy trên mặt"
+	db   "It can use its"
+	next "well-developed"
+	next "arms and legs to"
 
-	page "nước trong"
-	next "tích tắc.@"
-	next "@"
+	page "run on the surface"
+	next "of the water for a"
+	next "split second.@"

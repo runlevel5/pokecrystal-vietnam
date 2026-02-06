@@ -24,13 +24,21 @@ INCBIN "gfx/pokemon/egg/unused_front.2bpp.lz"
 SECTION "The End", ROMX
 
 TheEndGFX::
+if DEF(_CRYSTAL_VN)
+INCBIN "versions/crystal-vn/gfx/credits/theend.2bpp"
+else
 INCBIN "gfx/credits/theend.2bpp"
+endc
 
 
 SECTION "Font Inversed", ROMX
 
 FontInversed::
+if DEF(_CRYSTAL_VN)
+INCBIN "versions/crystal-vn/gfx/font/font_inversed.1bpp"
+else
 INCBIN "gfx/font/font_inversed.1bpp"
+endc
 
 
 SECTION "Copyright", ROMX

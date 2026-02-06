@@ -1,10 +1,10 @@
-	db "HẠT BÔNG@" ; species name
-	dw 6, 10 ; height, weight
+	db "COTTONWEED@" ; species name
+	dw 200, 20 ; height, weight
 
-	db   "Trời mưa là nó"
-	next "đóng hoa và trốn"
-	next "trong bóng cây"
+	db   "As soon as it"
+	next "rains, it closes"
+	next "its flower and"
 
-	page "để tránh bị ướt.@"
-	next "@"
-	next "@"
+	page "hides in the shade"
+	next "of a tree to avoid"
+	next "getting wet.@"

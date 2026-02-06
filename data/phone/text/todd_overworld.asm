@@ -1,68 +1,67 @@
 ToddAskNumber1Text:
-	text "Từ đây, tớ có thể"
-	line "thấy CỬA HÀNG"
+	text "From here, I can"
+	line "see GOLDENROD's"
 
-	para "BÁCH HÓA"
-	line "GOLDENROD. Họ có"
-	cont "giảm giá"
+	para "DEPT.STORE. They"
+	line "have bargain sales"
 
-	para "trên mái nhà thỉnh"
-	line "thoảng."
+	para "up on the rooftop"
+	line "every so often."
 
-	para "Cho tớ xin SĐT"
-	line "được không?"
+	para "Could I get your"
+	line "phone number?"
 
-	para "Tớ sẽ gọi khi họ"
-	line "có giảm giá."
+	para "I'll call you when"
+	line "they have a sale."
 	done
 
 ToddAskNumber2Text:
-	text "Nếu cậu cho tớ"
-	line "SĐT, tớ sẽ"
+	text "If you give me"
+	line "your number, I'll"
 
-	para "gọi khi họ"
-	line "có giảm giá."
+	para "call you when they"
+	line "have a sale."
 	done
 
 ToddNumberAcceptedText:
-	text "Tớ kiểm tra CỬA"
-	line "HÀNG BÁCH HÓA"
+	text "I check GOLDENROD"
+	line "DEPT.STORE every"
 
-	para "GOLDENROD mỗi ngày"
-	line "nên tớ biết khi"
-	cont "có giảm giá."
+	para "day, so I know"
+	line "when there's a"
+	cont "sale."
 	done
 
 ToddNumberDeclinedText:
-	text "Dù sao…"
+	text "Anyway…"
 
-	para "Nếu cậu thiếu"
-	line "tiền, ghi SĐT"
-	cont "tớ xuống."
+	para "If you're short on"
+	line "money, take down"
+	cont "my number."
 
-	para "Tớ sẽ gọi khi"
-	line "có giảm giá."
+	para "I'll call you when"
+	line "there's a sale."
 	done
 
 ToddPhoneFullText:
-	text "Điện thoại cậu"
-	line "không đủ bộ nhớ"
-	cont "cho thêm số nữa."
+	text "Your phone doesn't"
+	line "have enough memory"
+	cont "for more numbers."
 	done
 
 ToddRematchText:
-	text "Tớ đã đợi cậu!"
-	line "Tớ thậm chí cắt"
+	text "I waited for you!"
+	line "I even cut back my"
 
-	para "giảm mua sắm để"
-	line "nuôi #MON tốt!"
+	para "shopping to raise"
+	line "my #MON better!"
 	done
 
 ToddSaleText: ; unreferenced
 ; This is a duplicate of CamperToddSaleText in maps/Route34.asm.
-	text "Mua sắm dưới"
-	line "bầu trời!"
+	text "Shopping under the"
+	line "sky!"
 
-	para "Cảm giác thật tốt"
-	line "trên mái nhà."
+	para "It feels so nice"
+	line "up on a rooftop."
 	done

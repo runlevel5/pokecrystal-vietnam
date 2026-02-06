@@ -1,10 +1,10 @@
-	db "ẢO@" ; species name
-	dw 8, 365 ; height, weight
+	db "VIRTUAL@" ; species name
+	dw 207, 800 ; height, weight
 
-	db   "#MON nhân tạo"
-	next "này được tạo ra"
-	next "từ nghiên cứu sâu"
+	db   "An artificial"
+	next "#MON created"
+	next "due to extensive"
 
-	page "rộng, chỉ làm"
-	next "được những gì đã"
-	next "lập trình sẵn.@"
+	page "research, it can"
+	next "perform only what"
+	next "is in its program.@"

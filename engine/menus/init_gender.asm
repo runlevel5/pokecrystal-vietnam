@@ -18,7 +18,15 @@ InitCrystalData:
 	ld [wCrystalFlags], a
 	ret
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/mobile/mobile_12.asm"
+
+else
+
 INCLUDE "mobile/mobile_12.asm"
+
+endc
 
 InitGender:
 	call InitGenderScreen
@@ -48,9 +56,9 @@ InitGender:
 
 .MenuData:
 	db STATICMENU_CURSOR | STATICMENU_WRAP | STATICMENU_DISABLE_B ; flags
-	db 2; items
-	db "Nam@"
-	db "Nữ @"
+	db 2 ; items
+	db "Boy@"
+	db "Girl@"
 
 AreYouABoyOrAreYouAGirlText:
 	text_far _AreYouABoyOrAreYouAGirlText

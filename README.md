@@ -15,11 +15,50 @@ A complete Vietnamese localization of Pokémon Crystal.
    - [Rom Patcher JS](https://www.marcrobledo.com/RomPatcher.js/) (Online)
 4. Play the patched ROM on any Game Boy Color emulator or flash cart
 
+## Building from Source
+
+This project uses an i18n build system that can produce both English and Vietnamese ROMs from the same codebase.
+
+### Prerequisites
+
+Install [RGBDS](https://rgbds.gbdev.io/install) v0.6.0 or later.
+
+### Build Commands
+
+| Command | Output | Description |
+|---------|--------|-------------|
+| `make crystal11` | `pokecrystal11.gbc` | English ROM (v1.1) - matches upstream |
+| `make crystal11_vn` | `pokecrystal11_vn.gbc` | Vietnamese ROM (v1.1) |
+| `make crystal11_vn_debug` | `pokecrystal11_vn_debug.gbc` | Vietnamese ROM with debug symbols |
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/runlevel5/pokecrystal-vietnam.git
+cd pokecrystal-vietnam
+
+# Build Vietnamese ROM
+make crystal11_vn
+
+# The ROM will be at pokecrystal11_vn.gbc
+```
+
+### Verify English ROM Matches Upstream
+
+The English build should produce a byte-identical ROM to the original:
+
+```bash
+make crystal11
+shasum pokecrystal11.gbc
+# Expected: f2f52230b536214ef7c9924f483392993e226cfb
+```
+
 ## About
 
 This project is based on [commit 2ad9616](https://github.com/pret/pokecrystal/commit/2ad9616586212e2a9ed3be812776d133dc47bb8a) of the pokecrystal disassembly project.
 
-While this translation is built upon the English version's codebase, it uses English-based location names with Vietnamese prefixes (e.g., "TP. GOLDENROD" for "GOLDENROD CITY", "NÚI MẶT TRĂNG" for "MT.MOON"). This approach maintains familiarity for players who know the international Pokemon community while providing Vietnamese context.
+While this project is built upon the English version's codebase, it uses hybrid location names with Vietnamese prefixes for English landmarks (e.g., "TP. GOLDENROD" for "GOLDENROD CITY", "NÚI MẶT TRĂNG" for "MT.MOON"). This approach maintains familiarity for players who know the international Pokemon community while providing Vietnamese context. However it also take freedom in adopting Japanese name such as "THÁP CHUÔNG" for "TIN TOWER" if the context is better expressed.
 
 As of Feb 3rd 2026, the project is considered complete. Please file a bug report if you find any issues.
 

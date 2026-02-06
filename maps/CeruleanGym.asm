@@ -196,165 +196,168 @@ CeruleanGymGruntBacksAwayMovement:
 	step_end
 
 CeruleanGymGruntIntroText:
-	text "Ối! Tôi xin lỗi!"
-	line "Bạn không sao"
-	cont "chứ?"
+	text "Oops! I so sorry!"
+	line "You not hurt,"
+	cont "okay?"
 
-	para "Tôi rất bận. Không"
-	line "có thời gian nói"
-	cont "chuyện. Không tốt"
-	cont "nếu bị ai nhìn"
-	cont "thấy."
+	para "I very busy."
+	line "No time for talk-"
+	cont "ing with you. Not"
+	cont "good for me if"
+	cont "seen by somebody."
 	done
 
 CeruleanGymGruntBigMistakeText:
-	text "Ôi không! Bạn đã"
-	line "thấy tôi rồi! Tôi"
-	cont "sai lầm lớn rồi!"
+	text "Oh no! You seen"
+	line "me already! I make"
+	cont "big mistake!"
 	done
 
 CeruleanGymGruntByeText:
-	text "Này! Quên đi là"
-	line "bạn thấy tôi nhé?"
+	text "Hey, you! Forget"
+	line "you see me, okay?"
 
-	para "Bạn không thấy,"
-	line "không nghe, không"
+	para "You see, hear,"
+	line "know nothing,"
 
-	para "biết gì nhé?"
-	line "Tạm biệt! Bye-bye!"
+	para "okay?"
+	line "Bye, kid! Nothing!"
+
+	para "Bye-bye a go-go!"
 	done
 
 CeruleanGymNote1Text:
-	text "Xin lỗi, tôi sẽ"
-	line "ra ngoài một lúc."
-	cont "MISTY, T.LĨNH GYM"
+	text "Sorry, I'll be out"
+	line "for a while."
+	cont "MISTY, GYM LEADER"
 	done
 
 CeruleanGymNote2Text:
-	text "Vì MISTY đi vắng,"
-	line "chúng tôi cũng đi."
-	cont "CÁC HLV GYM"
+	text "Since MISTY's out,"
+	line "we'll be away too."
+	cont "GYM TRAINERS"
 	done
 
 MistyIntroText:
-	text "MISTY: Ta đã chờ"
-	line "ngươi, đồ phiền"
-	cont "phức!"
+	text "MISTY: I was ex-"
+	line "pecting you, you"
+	cont "pest!"
 
-	para "Ngươi có thể có"
-	line "nhiều HC JOHTO,"
+	para "You may have a"
+	line "lot of JOHTO GYM"
 
-	para "nhưng đừng coi"
-	line "thường ta."
+	para "BADGES, but you'd"
+	line "better not take me"
+	cont "too lightly."
 
-	para "#MON hệ NƯỚC"
-	line "của ta rất mạnh!"
+	para "My water-type"
+	line "#MON are tough!"
 	done
 
 MistyWinLossText:
-	text "MISTY: Ngươi thật"
-	line "sự giỏi…"
+	text "MISTY: You really"
+	line "are good…"
 
-	para "Ta thừa nhận"
-	line "ngươi có tay nghề…"
+	para "I'll admit that"
+	line "you are skilled…"
 
-	para "Đây, nhận lấy"
-	line "HUY HIỆU THÁC."
+	para "Here you go. It's"
+	line "CASCADEBADGE."
 	done
 
 ReceivedCascadeBadgeText:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU THÁC."
+	text "<PLAYER> received"
+	line "CASCADEBADGE."
 	done
 
 MistyFightDoneText:
-	text "MISTY: Ở JOHTO có"
-	line "nhiều HLV giỏi"
-	cont "không? Như ngươi"
-	cont "ấy."
+	text "MISTY: Are there"
+	line "many strong train-"
+	cont "ers in JOHTO? Like"
+	cont "you, I mean."
 
-	para "Ta sẽ đi du lịch"
-	line "một ngày nào đó,"
+	para "I'm going to"
+	line "travel one day, so"
 
-	para "để đấu với các"
-	line "HLV tài năng."
+	para "I can battle some"
+	line "skilled trainers."
 	done
 
 SwimmerfDianaSeenText:
-	text "Xin lỗi đã đi"
-	line "vắng. Giờ bắt đầu"
-	cont "thôi!"
+	text "Sorry about being"
+	line "away. Let's get on"
+	cont "with it!"
 	done
 
 SwimmerfDianaBeatenText:
-	text "Tôi chịu thua!"
-	line "Bạn thắng rồi!"
+	text "I give up! You're"
+	line "the winner!"
 	done
 
 SwimmerfDianaAfterBattleText:
-	text "Tôi sẽ bơi lặng"
-	line "lẽ thôi."
+	text "I'll be swimming"
+	line "quietly."
 	done
 
 SwimmerfBrianaSeenText:
-	text "Đừng để kiểu bơi"
-	line "duyên dáng của"
-	cont "tôi làm bạn lo."
+	text "Don't let my ele-"
+	line "gant swimming un-"
+	cont "nerve you."
 	done
 
 SwimmerfBrianaBeatenText:
-	text "Ồ, bạn thản nhiên"
-	line "hạ gục tôi…"
+	text "Ooh, you calmly"
+	line "disposed of me…"
 	done
 
 SwimmerfBrianaAfterBattleText:
-	text "Đừng tự mãn vì"
-	line "đã thắng tôi."
+	text "Don't be too smug"
+	line "about beating me."
 
-	para "MISTY sẽ nghiền"
-	line "nát bạn nếu bạn"
-	cont "chủ quan đấy."
+	para "MISTY will destroy"
+	line "you if you get"
+	cont "complacent."
 	done
 
 SwimmermParkerSeenText:
 	text "Glub…"
 
-	para "Tôi đầu tiên!"
-	line "Đến đây đi!"
+	para "I'm first! Come"
+	line "and get me!"
 	done
 
 SwimmermParkerBeatenText:
-	text "Không thể nào…"
+	text "This can't be…"
 	done
 
 SwimmermParkerAfterBattleText:
-	text "MISTY đã tiến bộ"
-	line "rất nhiều trong"
-	cont "vài năm qua."
+	text "MISTY has gotten"
+	line "much better in the"
+	cont "past few years."
 
-	para "Đừng lơ là, nếu"
-	line "không bạn sẽ bị"
-	cont "nghiền nát!"
+	para "Don't let your"
+	line "guard down, or"
+	cont "you'll be crushed!"
 	done
 
 CeruleanGymGuideText:
-	text "Yo! NHÀ VÔ ĐỊCH"
-	line "tương lai!"
+	text "Yo! CHAMP in"
+	line "making!"
 
-	para "Vì MISTY đi vắng,"
-	line "tôi cũng đi chơi"
+	para "Since MISTY was"
+	line "away, I went out"
 
-	para "một chút. He-he."
+	para "for some fun too."
+	line "He-he-he."
 	done
 
 CeruleanGymGuideWinText:
-	text "Hoo, bạn cho tôi"
-	line "thấy bạn mạnh cỡ"
-	cont "nào rồi đấy."
+	text "Hoo, you showed me"
+	line "how tough you are."
 
-	para "Như mọi khi, đó"
-	line "là một trận đấu"
-	cont "tuyệt vời!"
+	para "As always, that"
+	line "was one heck of a"
+	cont "great battle!"
 	done
 
 CeruleanGym_MapEvents:

@@ -34,82 +34,84 @@ CeladonMansionRoofHousePharmacistScript:
 	end
 
 CeladonMansionRoofHousePharmacistIntroText:
-	text "Để tôi kể cho bạn"
-	line "nghe câu chuyện"
-	cont "đáng sợ…"
+	text "Let me recount a"
+	line "terrifying tale…"
 	done
 
 CeladonMansionRoofHousePharmacistNotNightText:
-	text "Thôi nhưng mà nó"
-	line "không đáng sợ khi"
+	text "Then again, it's"
+	line "not as scary while"
 
-	para "trời còn sáng."
+	para "it's still light"
+	line "outside."
 
-	para "Hãy quay lại sau"
-	line "khi mặt trời lặn,"
-	cont "nhé?"
+	para "Come back after"
+	line "sunset, OK?"
 	done
 
 CeladonMansionRoofHousePharmacistStoryText:
-	text "Ngày xửa ngày xưa,"
-	line "có một cậu bé được"
+	text "Once upon a time,"
+	line "there was a little"
 
-	para "tặng chiếc XE ĐẠP"
-	line "mới…"
+	para "boy who was given"
+	line "a new BICYCLE…"
 
-	para "Cậu muốn thử nó"
-	line "ngay lập tức…"
+	para "He wanted to try"
+	line "it right away…"
 
-	para "Cậu vui đến nỗi"
-	line "không để ý"
+	para "He was having so"
+	line "much fun that he"
 
-	para "mặt trời đã lặn…"
+	para "didn't notice the"
+	line "sun had set…"
 
-	para "Khi đạp xe về nhà"
-	line "trong đêm tối mịt,"
+	para "While riding home"
+	line "in the pitch-black"
 
-	para "chiếc xe đột nhiên"
-	line "chậm lại!"
+	para "night, the bike"
+	line "suddenly slowed!"
 
-	para "Bàn đạp trở nên"
-	line "nặng!"
+	para "The pedals became"
+	line "heavy!"
 
-	para "Khi cậu ngừng đạp,"
-	line "xe bắt đầu"
+	para "When he stopped"
+	line "pedaling, the bike"
 
-	para "trượt ngược lại!"
+	para "began slipping"
+	line "backwards!"
 
-	para "Như thể chiếc xe"
-	line "bị nguyền rủa"
+	para "It was as if the"
+	line "bike were cursed"
 
-	para "và cố kéo cậu vào"
-	line "hư vô!"
+	para "and trying to drag"
+	line "him into oblivion!"
+
+	para "…"
 
 	para "…"
 
-	para "…"
+	para "SHRIEEEEK!"
 
-	para "KHÊ KHẾ KHÊ!"
-
-	para "Cậu bé đang đạp"
-	line "lên dốc trên"
-	cont "ĐƯỜNG ĐUA XE!"
+	para "The boy had been"
+	line "riding uphill on"
+	cont "CYCLING ROAD!"
 
 	para "…"
-	line "Đùng đùng đùng!"
+	line "Ba-dum ba-dum!"
 
-	para "Vì nghe kiên nhẫn"
-	line "như vậy, bạn có"
-	cont "thể nhận TM03!"
+	para "For listening so"
+	line "patiently, you may"
+	cont "take this--TM03!"
 	done
 
 CeladonMansionRoofHousePharmacistCurseText:
-	text "TM03 là LỜI NGUYỀN."
+	text "TM03 is CURSE."
 
-	para "Đây là chiêu đáng"
-	line "sợ làm giảm dần"
+	para "It's a terrifying"
+	line "move that slowly"
 
-	para "HP của nạn nhân."
+	para "whittles down the"
+	line "victim's HP."
 	done
 
 CeladonMansionRoofHouse_MapEvents:

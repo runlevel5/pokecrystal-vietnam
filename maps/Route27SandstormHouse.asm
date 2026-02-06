@@ -40,54 +40,55 @@ SandstormHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 SandstormHouseWomanText1:
-	text "Cháu đang đi đâu"
-	line "với #MON?"
+	text "Where are you off"
+	line "to with #MON?"
 
-	para "GIẢI ĐẤU #MON?"
+	para "#MON LEAGUE?"
 
-	para "#MON của cháu"
-	line "có trung thành đủ"
-	cont "để cháu thắng?"
+	para "Are your #MON"
+	line "loyal enough for"
+	cont "you to win?"
 
-	para "Để bà xem…"
+	para "Let me see…"
 	done
 
 SandstormHouseWomanLoyalText:
-	text "À! #MON cháu"
-	line "rất tin cháu."
+	text "Ah! Your #MON"
+	line "trusts you very"
+	cont "much."
 
-	para "Vui khi thấy HLV"
-	line "giỏi."
+	para "It's nice to see a"
+	line "good trainer."
 
-	para "Của cháu đây. Quà"
-	line "cho hành trình."
+	para "Here. A gift for"
+	line "your journey."
 	done
 
 SandstormHouseSandstormDescription:
-	text "TM37 đó là"
-	line "BÃO CÁT."
+	text "TM37 happens to be"
+	line "SANDSTORM."
 
-	para "Đó là chiêu gây"
-	line "sát thương cho cả"
-	cont "hai bên."
+	para "It's a move that"
+	line "inflicts damage on"
+	cont "both battlers."
 
-	para "Chỉ dành cho HLV"
-	line "cao cấp."
+	para "It's for advanced"
+	line "trainers only."
 
-	para "Dùng nếu cháu dám"
-	line "Chúc may mắn!"
+	para "Use it if you"
+	line "dare. Good luck!"
 	done
 
 SandstormHouseWomanDisloyalText:
-	text "Nếu nó không tin"
-	line "tưởng cháu hơn,"
+	text "If it doesn't come"
+	line "to trust you some"
 
-	para "sẽ khó khăn lắm"
-	line "đấy."
+	para "more, it could be"
+	line "tough going."
 
-	para "Lòng tin là dây"
-	line "kết nối #MON và"
-	cont "HLV."
+	para "Trust is the tie"
+	line "that binds #MON"
+	cont "and trainers."
 	done
 
 Route27SandstormHouse_MapEvents:

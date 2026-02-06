@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/mom.asm"
+else
+
 BankOfMom:
 	ldh a, [hInMenu]
 	push af
@@ -627,16 +631,16 @@ MomJustDoWhatYouCanText:
 	text_end
 
 Mom_SavedString:
-	db "ĐÃ LƯU@"
+	db "SAVED@"
 
 Mon_WithdrawString:
-	db "RÚT@"
+	db "WITHDRAW@"
 
 Mom_DepositString:
-	db "GỬI@"
+	db "DEPOSIT@"
 
 Mom_HeldString:
-	db "ĐÃ GIỮ@"
+	db "HELD@"
 
 BankOfMom_MenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -647,7 +651,9 @@ BankOfMom_MenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 4 ; items
-	db "LẤY@"
-	db "LƯU@"
-	db "THAY@"
-	db "HỦY@"
+	db "GET@"
+	db "SAVE@"
+	db "CHANGE@"
+	db "CANCEL@"
+
+endc

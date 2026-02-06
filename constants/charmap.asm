@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/charmap.asm"
+else
+
 ; $00-$16 are TX_* constants (see macros/scripts/text.asm)
 
 ; Control characters (see home/text.asm)
@@ -97,131 +101,7 @@
 	charmap "⁂",         $3f ; gfx/stats/stats_tiles.png, tile 14
 
 ; Actual characters (from gfx/font/font.png)
-; Vietnamese localization font layout
-; Pokemon Crystal Vietnamese - New Layout 2025
 
-; Row $8x: a-p (lowercase letters)
-	charmap "a",         $80
-	charmap "b",         $81
-	charmap "c",         $82
-	charmap "d",         $83
-	charmap "e",         $84
-	charmap "f",         $85
-	charmap "g",         $86
-	charmap "h",         $87
-	charmap "i",         $88
-	charmap "j",         $89
-	charmap "k",         $8a
-	charmap "l",         $8b
-	charmap "m",         $8c
-	charmap "n",         $8d
-	charmap "o",         $8e
-	charmap "p",         $8f
-
-; Row $9x: q-z + punctuation (English-compatible)
-	charmap "q",         $90
-	charmap "r",         $91
-	charmap "s",         $92
-	charmap "t",         $93
-	charmap "u",         $94
-	charmap "v",         $95
-	charmap "w",         $96
-	charmap "x",         $97
-	charmap "y",         $98
-	charmap "z",         $99
-	charmap "(",         $9a
-	charmap ")",         $9b
-	charmap ":",         $9c
-	charmap ";",         $9d
-	charmap "[",         $9e
-	charmap "]",         $9f
-
-; Row $Ax: a-family (á à ả ã ạ) + ă-family (ă ắ ằ ẳ ẵ ặ) + â-family (â ấ ầ ẩ ẫ)
-	charmap "á",         $a0
-	charmap "à",         $a1
-	charmap "ả",         $a2
-	charmap "ã",         $a3
-	charmap "ạ",         $a4
-	charmap "ă",         $a5
-	charmap "ắ",         $a6
-	charmap "ằ",         $a7
-	charmap "ẳ",         $a8
-	charmap "ẵ",         $a9
-	charmap "ặ",         $aa
-	charmap "â",         $ab
-	charmap "ấ",         $ac
-	charmap "ầ",         $ad
-	charmap "ẩ",         $ae
-	charmap "ẫ",         $af
-
-; Row $Bx: â-family cont. (ậ) + e-family (è ẻ ẽ ẹ) + ê-family (ê ế ề ể ễ ệ) + i-family (í ì ỉ ĩ ị)
-	charmap "ậ",         $b0
-	charmap "è",         $b1
-	charmap "ẻ",         $b2
-	charmap "ẽ",         $b3
-	charmap "ẹ",         $b4
-	charmap "ê",         $b5
-	charmap "ế",         $b6
-	charmap "ề",         $b7
-	charmap "ể",         $b8
-	charmap "ễ",         $b9
-	charmap "ệ",         $ba
-	charmap "í",         $bb
-	charmap "ì",         $bc
-	charmap "ỉ",         $bd
-	charmap "ĩ",         $be
-	charmap "ị",         $bf
-
-; Row $Cx: u-family (ú ù ủ ũ ụ) + ư-family (ư ứ ừ ử ữ ự) + o-family (ó ò ỏ õ ọ)
-	charmap "ú",         $c0
-	charmap "ù",         $c1
-	charmap "ủ",         $c2
-	charmap "ũ",         $c3
-	charmap "ụ",         $c4
-	charmap "ư",         $c5
-	charmap "ứ",         $c6
-	charmap "ừ",         $c7
-	charmap "ử",         $c8
-	charmap "ữ",         $c9
-	charmap "ự",         $ca
-	charmap "ó",         $cb
-	charmap "ò",         $cc
-	charmap "ỏ",         $cd
-	charmap "õ",         $ce
-	charmap "ọ",         $cf
-
-; Row $Dx: ô-family (ô ố ồ ổ ỗ ộ) + ơ-family (ơ ớ ờ ở ỡ ợ) + y-family (ý ỳ ỷ ỹ)
-	charmap "ô",         $d0
-	charmap "ố",         $d1
-	charmap "ồ",         $d2
-	charmap "ổ",         $d3
-	charmap "ỗ",         $d4
-	charmap "ộ",         $d5
-	charmap "ơ",         $d6
-	charmap "ớ",         $d7
-	charmap "ờ",         $d8
-	charmap "ở",         $d9
-	charmap "ỡ",         $da
-	charmap "ợ",         $db
-	charmap "ý",         $dc
-	charmap "ỳ",         $dd
-	charmap "ỷ",         $de
-	charmap "ỹ",         $df
-
-; Row $Ex: punctuation and symbols + đ, é
-	charmap "'",         $e0
-	charmap "<PK>",      $e1
-	charmap "<MN>",      $e2
-	charmap "-",         $e3
-	charmap "←",         $e4
-	charmap "đ",         $e5
-	charmap "?",         $e6
-	charmap "!",         $e7
-	charmap ".",         $e8
-	charmap "&",         $e9
-	charmap "é",         $ea
-
-; Uppercase letters map to lowercase (for compatibility with existing English text)
 	charmap "A",         $80
 	charmap "B",         $81
 	charmap "C",         $82
@@ -249,85 +129,67 @@
 	charmap "Y",         $98
 	charmap "Z",         $99
 
-; Uppercase Vietnamese characters map to lowercase equivalents
-	charmap "Ă",         $a5
-	charmap "Â",         $ab
-	charmap "Ê",         $b5
-	charmap "Ư",         $c5
-	charmap "Ô",         $d0
-	charmap "Ơ",         $d6
-	charmap "Á",         $a0
-	charmap "À",         $a1
-	charmap "Ả",         $a2
-	charmap "Ã",         $a3
-	charmap "Ạ",         $a4
-	charmap "É",         $ea
-	charmap "È",         $b1
-	charmap "Ẻ",         $b2
-	charmap "Ẽ",         $b3
-	charmap "Ẹ",         $b4
-	charmap "Í",         $bb
-	charmap "Ì",         $bc
-	charmap "Ỉ",         $bd
-	charmap "Ĩ",         $be
-	charmap "Ị",         $bf
-	charmap "Đ",         $e5
-	charmap "Ó",         $cb
-	charmap "Ò",         $cc
-	charmap "Ỏ",         $cd
-	charmap "Õ",         $ce
-	charmap "Ọ",         $cf
-	charmap "Ú",         $c0
-	charmap "Ù",         $c1
-	charmap "Ủ",         $c2
-	charmap "Ũ",         $c3
-	charmap "Ụ",         $c4
-	charmap "Ý",         $dc
-	charmap "Ỳ",         $dd
-	charmap "Ỷ",         $de
-	charmap "Ỹ",         $df
-	charmap "Ắ",         $a6
-	charmap "Ằ",         $a7
-	charmap "Ẳ",         $a8
-	charmap "Ẵ",         $a9
-	charmap "Ặ",         $aa
-	charmap "Ấ",         $ac
-	charmap "Ầ",         $ad
-	charmap "Ẩ",         $ae
-	charmap "Ẫ",         $af
-	charmap "Ậ",         $b0
-	charmap "Ế",         $b6
-	charmap "Ề",         $b7
-	charmap "Ể",         $b8
-	charmap "Ễ",         $b9
-	charmap "Ệ",         $ba
-	charmap "Ố",         $d1
-	charmap "Ồ",         $d2
-	charmap "Ổ",         $d3
-	charmap "Ỗ",         $d4
-	charmap "Ộ",         $d5
-	charmap "Ớ",         $d7
-	charmap "Ờ",         $d8
-	charmap "Ở",         $d9
-	charmap "Ỡ",         $da
-	charmap "Ợ",         $db
-	charmap "Ứ",         $c6
-	charmap "Ừ",         $c7
-	charmap "Ử",         $c8
-	charmap "Ữ",         $c9
-	charmap "Ự",         $ca
+	charmap "(",         $9a
+	charmap ")",         $9b
+	charmap ":",         $9c
+	charmap ";",         $9d
+	charmap "[",         $9e
+	charmap "]",         $9f
 
-; English contractions - keep for european_mail.asm compatibility
-; (they'll display as Vietnamese chars but code will compile)
-	charmap "'d",        $d1 ; ố
-	charmap "'l",        $d2 ; ồ
-	charmap "'m",        $d3 ; ổ
-	charmap "'r",        $d4 ; ỗ
-	charmap "'s",        $d5 ; ộ
-	charmap "'t",        $d7 ; ớ
-	charmap "'v",        $d8 ; ờ
+	charmap "a",         $a0
+	charmap "b",         $a1
+	charmap "c",         $a2
+	charmap "d",         $a3
+	charmap "e",         $a4
+	charmap "f",         $a5
+	charmap "g",         $a6
+	charmap "h",         $a7
+	charmap "i",         $a8
+	charmap "j",         $a9
+	charmap "k",         $aa
+	charmap "l",         $ab
+	charmap "m",         $ac
+	charmap "n",         $ad
+	charmap "o",         $ae
+	charmap "p",         $af
+	charmap "q",         $b0
+	charmap "r",         $b1
+	charmap "s",         $b2
+	charmap "t",         $b3
+	charmap "u",         $b4
+	charmap "v",         $b5
+	charmap "w",         $b6
+	charmap "x",         $b7
+	charmap "y",         $b8
+	charmap "z",         $b9
 
-; Row $Ex continued: arrows and symbols
+	charmap "Ä",         $c0
+	charmap "Ö",         $c1
+	charmap "Ü",         $c2
+	charmap "ä",         $c3
+	charmap "ö",         $c4
+	charmap "ü",         $c5
+
+	charmap "'d",        $d0
+	charmap "'l",        $d1
+	charmap "'m",        $d2
+	charmap "'r",        $d3
+	charmap "'s",        $d4
+	charmap "'t",        $d5
+	charmap "'v",        $d6
+
+	charmap "←",         $df
+	charmap "'",         $e0
+	charmap "<PK>",      $e1
+	charmap "<MN>",      $e2
+	charmap "-",         $e3
+
+	charmap "?",         $e6
+	charmap "!",         $e7
+	charmap ".",         $e8
+	charmap "&",         $e9
+
+	charmap "é",         $ea
 	charmap "→",         $eb
 	charmap "▷",         $ec
 	charmap "▶",         $ed
@@ -582,3 +444,5 @@ pushc
 	charmap "\n", $0a
 	charmap "\r", $0d
 popc
+
+endc

@@ -20,9 +20,9 @@ MountMoonGiftShopLassScript:
 	jumptextfaceplayer MountMoonGiftShopLassText
 
 MountMoonGiftShopLassText:
-	text "Khi mặt trời lặn,"
-	line "CLEFAIRY sẽ ra"
-	cont "chơi."
+	text "When the sun goes"
+	line "down, CLEFAIRY"
+	cont "come out to play."
 	done
 
 MountMoonGiftShop_MapEvents:

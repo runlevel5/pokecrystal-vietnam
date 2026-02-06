@@ -1,61 +1,63 @@
 GavenAskNumber1Text:
-	text "Wow, cậu mạnh ghê"
-	line "Mình lâu rồi mới"
+	text "Wow, you're tough."
+	line "I haven't battled"
 
-	para "chiến đấu nghiêm"
-	line "túc thế."
+	para "that seriously in"
+	line "a long time."
 
-	para "Cho mình xin SĐT"
-	line "cậu được không?"
+	para "Could I get your"
+	line "phone number?"
 
-	para "Mình muốn đấu lại"
-	line "khi chữa @"
+	para "I'd like to battle"
+	line "again when I heal"
+
+	para "@"
 	text_ram wStringBuffer4
-
-	para "và các bạn khác"
-	line "trong đội."
+	text " and the"
+	line "rest of my team."
 	done
 
 GavenAskNumber2Text:
-	text "Cho mình xin SĐT"
-	line "cậu được không?"
+	text "Could I get your"
+	line "phone number?"
 
-	para "Mình muốn đấu lại"
-	line "khi chữa @"
+	para "I'd like to battle"
+	line "again when I heal"
+
+	para "@"
 	text_ram wStringBuffer4
-
-	para "và các bạn khác"
-	line "trong đội."
+	text " and the"
+	line "rest of my team."
 	done
 
 GavenNumberAcceptedText:
-	text "Làm sao để thắng"
-	line "cậu? Mình luôn bị"
+	text "How should I beat"
+	line "you? I'm tormented"
 
-	para "ám ảnh bởi ý nghĩ"
-	line "đó…"
+	para "by those thoughts"
+	line "all the time…"
 	done
 
 GavenNumberDeclinedText:
-	text "OK… Mình hiểu…"
-	line "Nhưng nếu đổi ý,"
+	text "OK… I understand…"
+	line "But if you change"
 
-	para "hãy gọi cho mình"
-	line "bất cứ lúc nào."
+	para "your mind, give me"
+	line "a shout anytime."
 	done
 
 GavenPhoneFullText:
-	text "Bộ nhớ điện thoại"
-	line "của cậu đầy rồi."
+	text "Your phone's"
+	line "memory is full."
 
-	para "Không thể đăng ký"
-	line "SĐT của mình."
+	para "You can't register"
+	line "my number."
 	done
 
 GavenRematchText:
-	text "Chào! Mình đợi cậu"
-	line "rồi đấy!"
+	text "Hi! I've been"
+	line "waiting for you!"
 
-	para "Lần này, mình sẽ"
-	line "thắng cho xem!"
+	para "This time, I'm"
+	line "going to win!"
 	done

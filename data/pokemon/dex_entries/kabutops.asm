@@ -1,10 +1,10 @@
-	db "SÒ@" ; species name
-	dw 13, 405 ; height, weight
+	db "SHELLFISH@" ; species name
+	dw 403, 890 ; height, weight
 
-	db   "Nó có thể bơi"
-	next "nhanh trong nước"
-	next "bằng cách gập"
+	db   "It was able to"
+	next "swim quickly thro-"
+	next "ugh the water by"
 
-	page "gọn những chiếc"
-	next "lưỡi liềm"
-	next "sắc bén.@"
+	page "compactly folding"
+	next "up its razor-sharp"
+	next "sickles.@"

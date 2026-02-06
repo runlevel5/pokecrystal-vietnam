@@ -1,70 +1,70 @@
 WadeAskNumber1Text:
-	text "Cậu tuyệt đấy!"
-	line "Tớ thích cậu!"
+	text "You're awesome!"
+	line "I like you!"
 
-	para "Tớ tìm #MON ở"
-	line "đây mỗi ngày."
+	para "I look for #MON"
+	line "here every day."
 
-	para "Khi tớ ở trong"
-	line "bụi cỏ, tớ tìm"
-	cont "đủ loại QUẢ."
+	para "When I'm in the"
+	line "grass, I find all"
+	cont "kinds of BERRIES."
 
-	para "Nếu cậu muốn, tớ"
-	line "sẽ chia sẻ."
+	para "If you'd like,"
+	line "I'll share some."
 
-	para "Cho tớ SĐT cậu"
-	line "được không?"
+	para "Could I get your"
+	line "phone number?"
 	done
 
 WadeAskNumber2Text:
-	text "Khi tớ ở trong"
-	line "bụi cỏ, tớ tìm"
-	cont "đủ loại QUẢ."
+	text "When I'm in the"
+	line "grass, I find all"
+	cont "kinds of BERRIES."
 
-	para "Nếu cậu muốn, tớ"
-	line "sẽ chia sẻ."
+	para "If you'd like,"
+	line "I'll share some."
 
-	para "Cho tớ SĐT cậu"
-	line "được không?"
+	para "Could I get your"
+	line "phone number?"
 	done
 
 WadeNumberAcceptedText:
-	text "Cậu sẽ nghe từ tớ"
-	line "ngay khi tớ tìm"
+	text "You'll hear from"
+	line "me as soon as I"
 
-	para "thấy thứ gì mà"
-	line "cậu có thể thích."
+	para "find anything that"
+	line "you might like."
 	done
 
 WadeNumberDeclinedText:
-	text "Thôi được. Đừng"
-	line "ngại nếu cậu muốn"
-	cont "lấy SĐT tớ."
+	text "Oh well. Don't be"
+	line "shy if you want to"
+	cont "get my number."
 	done
 
 WadePhoneFullText:
-	text "Danh bạ điện thoại"
-	line "cậu không có chỗ"
-	cont "cho SĐT tớ."
+	text "Your phone list"
+	line "has no room for my"
+	cont "number."
 	done
 
 WadeRematchText:
-	text "Tớ đã đợi cậu."
-	line "Đấu thôi!"
+	text "I was waiting for"
+	line "you. Let's battle!"
 	done
 
 WadeGiftText:
-	text "Vui khi gặp cậu!"
-	line "Thấy không? Đây"
+	text "Good to see you!"
+	line "See? This is what"
 
-	para "là thứ tớ tìm"
-	line "thấy. Dành cho cậu"
+	para "I found."
+	line "It's for you!"
 	done
 
 WadePackFullText:
-	text "Ối, BA LÔ cậu đầy"
-	line "rồi. Tiếc quá."
+	text "Oops, your PACK's"
+	line "full. Too bad."
 
-	para "Cậu nên quay lại"
-	line "lấy sau."
+	para "You should come"
+	line "back for it later."
 	done

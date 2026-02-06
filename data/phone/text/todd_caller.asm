@@ -1,116 +1,117 @@
 ToddLooksCuteLikeMeText:
-	text "@"
+	text "My @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "ngày càng giống"
+	text " is"
+	line "looking more and"
 
-	para "tớ hơn. Nó đang"
-	line "dễ thương hơn!"
+	para "more like me. It's"
+	line "getting cuter!"
 	done
 
 ToddDefeatedMonText:
-	text "Cậu biết không?"
+	text "And, you know?"
 
-	para "Giờ bọn tớ có thể"
-	line "KO @"
+	para "Now we can KO"
+	line "@"
 	text_ram wStringBuffer4
-	text " dễ."
+	text " easily."
 
-	para "Tớ nên thử thách"
-	line "GYM GOLDENROD."
+	para "I should challenge"
+	line "the GOLDENROD GYM."
 	done
 
 ToddLostAMonText:
-	text "Cậu biết không?"
-	line "Bọn tớ thất bại"
+	text "And, you know?"
+	line "We just failed to"
 
-	para "đánh bại @"
+	para "beat @"
 	text_ram wStringBuffer4
-	text ""
-	line "chỉ chút xíu."
+	text " by"
+	line "a tiny margin."
 
-	para "Tớ đoán cấp độ"
-	line "#MON của tớ"
+	para "I'm guessing my"
+	line "#MON's levels"
 
-	para "chưa đủ cao"
-	line "lắm…"
+	para "aren't high enough"
+	line "yet…"
 	done
 
 ToddBattleRematchText:
-	text "Cậu giờ giỏi hơn"
-	line "nhiều rồi đúng ko?"
+	text "You must be a lot"
+	line "better now, huh?"
 
-	para "Thế còn cho tớ"
-	line "xem kỹ năng của"
+	para "How about showing"
+	line "me your technique"
 
-	para "cậu trong trận đấu"
-	line "thật với tớ?"
+	para "in a real battle"
+	line "with me?"
 
-	para "Tớ sẽ đợi tại"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 ToddHangUpText:
-	text "Hẹn gặp lại!"
+	text "See you later!"
 	done
 
 ToddDepartmentStoreBargainSaleText:
-	text "Đây rồi--cái mà"
-	line "chúng ta đã đợi!"
+	text "This is it--the"
+	line "one we've all been"
+	cont "waiting for!"
 
-	para "CỬA HÀNG BÁCH HÓA"
-	line "GOLDENROD đang"
-	cont "giảm giá!"
+	para "GOLDENROD DEPT."
+	line "STORE's bargain"
+	cont "sale is on now!"
 
-	para "Muốn rẻ?"
-	line "Muốn nhiều?"
+	para "Want it cheap?"
+	line "Want it lots?"
 
-	para "Đừng bỏ lỡ cơ hội"
-	line "GOLDENROD này!"
+	para "Don't miss this"
+	line "GOLDENROD chance!"
 
-	para "Hả? Tớ nghe như"
-	line "người bán rong?"
+	para "Huh? I sound like"
+	line "a huckster?"
 
-	para "Ừ, đúng. Tớ đang"
-	line "bắt chước họ…"
+	para "Well, yeah. I was"
+	line "mimicking them…"
 
-	para "Dù sao đi nữa, cậu"
-	line "phải đến đó càng"
-	cont "sớm càng tốt!"
+	para "Anyway, you've got"
+	line "to get there as"
+	cont "soon as you can!"
 	done
 
 ToddSavingUpForBargainSaleText:
-	text "Tớ đang tiết kiệm"
-	line "cho đợt giảm giá"
+	text "I'm saving up for"
+	line "the next bargain"
 
-	para "tiếp theo. Khi nào"
-	line "có đợt tiếp theo?"
+	para "sale. When's the"
+	line "next one?"
 	done
 
 ToddLookingForwardToBattleText:
-	text "Cậu ở đâu vậy?"
+	text "Where are you?"
 
-	para "Hãy đấu sớm"
-	line "thôi!"
+	para "Let's have our"
+	line "battle soon!"
 
-	para "Tớ sẽ đợi tại"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 	done
 
 ToddHaveYouGoneToDepartmentStoreText:
-	text "Cậu đã đến CỬA"
-	line "HÀNG BÁCH HÓA"
+	text "Haven't you gone"
+	line "to GOLDENROD DEPT."
 
-	para "GOLDENROD chưa?"
-	line "Tớ đã khảo sát!"
+	para "STORE? I've scoped"
+	line "it out already!"
 
-	para "Họ có nhiều món"
-	line "hời thật."
+	para "They had some real"
+	line "bargains."
 
-	para "Cậu nên đến ngay"
-	line "đi."
+	para "You should get"
+	line "there quickly."
 	done

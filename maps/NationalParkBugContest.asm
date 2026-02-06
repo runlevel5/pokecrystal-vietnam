@@ -116,104 +116,106 @@ NationalParkBugContestHiddenFullHeal:
 	hiddenitem FULL_HEAL, EVENT_NATIONAL_PARK_HIDDEN_FULL_HEAL
 
 BugCatchingContestant1AText:
-	text "DON: Tôi sẽ thắng!"
-	line "Đừng làm phiền"
-	cont "tôi."
+	text "DON: I'm going to"
+	line "win! Don't bother"
+	cont "me."
 	done
 
 BugCatchingContestant2AText:
-	text "ED: PARASECT của"
-	line "tôi dùng SPORE cho"
-	cont "#MON ngủ."
+	text "ED: My PARASECT"
+	line "puts #MON to"
+	cont "sleep with SPORE."
 	done
 
 BugCatchingContestant3AText:
-	text "NICK: Tôi nuôi"
-	line "#MON nhanh để"
-	cont "chiến đấu."
+	text "NICK: I'm raising"
+	line "fast #MON for"
+	cont "battles."
 	done
 
 BugCatchingContestant4AText:
-	text "WILLIAM: Tôi không"
-	line "quan tâm thắng"
-	cont "thua."
+	text "WILLIAM: I'm not"
+	line "concerned about"
+	cont "winning."
 
-	para "Tôi chỉ tìm"
-	line "#MON hiếm."
+	para "I'm just looking"
+	line "for rare #MON."
 	done
 
 BugCatchingContestant5AText:
-	text "BENNY: Xịt! Bạn sẽ"
-	line "làm SCYTHER sợ."
+	text "BENNY: Ssh! You'll"
+	line "scare off SCYTHER."
 
-	para "Tôi sẽ nói chuyện"
-	line "với bạn sau."
+	para "I'll talk to you"
+	line "later."
 	done
 
 BugCatchingContestant6AText:
-	text "BARRY: Bạn nên"
-	line "làm yếu #MON"
+	text "BARRY: You should"
+	line "weaken bug #MON"
 
-	para "loại sâu trước,"
-	line "rồi ném BÓNG."
+	para "first, then throw"
+	line "a BALL."
 	done
 
 BugCatchingContestant7AText:
-	text "CINDY: Tôi yêu"
-	line "#MON loại sâu."
+	text "CINDY: I love bug"
+	line "#MON."
 
-	para "Tôi đoán bạn cũng"
-	line "thích chúng."
+	para "I guess you must"
+	line "like them too."
 	done
 
 BugCatchingContestant8AText:
-	text "JOSH: Tôi sưu tầm"
-	line "#MON sâu từ khi"
+	text "JOSH: I've been"
+	line "collecting bug"
 
-	para "tôi còn nhỏ xíu."
+	para "#MON since I"
+	line "was just a baby."
 
-	para "Không có cách nào"
-	line "tôi thua!"
+	para "There's no way I'm"
+	line "going to lose!"
 	done
 
 BugCatchingContestant9AText:
-	text "SAMUEL: Nếu bạn"
-	line "có thời gian tán"
+	text "SAMUEL: If you've"
+	line "got the time to"
 
-	para "gẫu, hãy đi tìm"
-	line "#MON sâu."
+	para "chat, go find some"
+	line "bug #MON."
 	done
 
 BugCatchingContestant10AText:
-	text "KIPP: Tôi đã học"
-	line "nhiều về #MON"
-	cont "loại sâu."
+	text "KIPP: I've studied"
+	line "about bug #MON"
+	cont "a lot."
 
-	para "Tôi sẽ thắng chắc"
-	line "chắn."
+	para "I'm going to win"
+	line "for sure."
 	done
 
 NationalParkBugContestRelaxationSquareText:
-	text "QUẢNG TRƯỜNG"
-	line "VƯỜN QUỐC GIA"
+	text "RELAXATION SQUARE"
+	line "NATIONAL PARK"
 	done
 
 NationalParkBugContestBattleNoticeText:
-	text "Thông báo gì đây?"
+	text "What is this"
+	line "notice?"
 
-	para "Vui lòng chỉ đấu"
-	line "trong bãi cỏ."
+	para "Please battle only"
+	line "in the grass."
 
-	para "VƯỜN QUỐC GIA"
-	line "VP QUẢN LÝ"
+	para "NATIONAL PARK"
+	line "WARDEN'S OFFICE"
 	done
 
 NationalParkBugContestTrainerTipsText:
-	text "MẸO CHO HLV"
+	text "TRAINER TIPS"
 
-	para "In THƯ bằng cách"
-	line "mở nó rồi nhấn"
-	cont "nút START."
+	para "Print out MAIL by"
+	line "opening it then"
+	cont "pressing START."
 	done
 
 NationalParkBugContest_MapEvents:

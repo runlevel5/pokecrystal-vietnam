@@ -1,97 +1,97 @@
 AlanGettingStrongerText:
-	text "@"
+	text "My @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "mạnh hơn,"
+	text "'s"
+	line "getting stronger,"
 
-	para "đúng như tớ đã"
-	line "tính toán!"
+	para "exactly as I"
+	line "calculated!"
 	done
 
 AlanDefeatedMonText:
-	text "À này, tụi tớ đã"
-	line "đánh bại một con"
+	text "By the way, we"
+	line "knocked out a wild"
 
 	para "@"
 	text_ram wStringBuffer4
-	text " hoang"
-	line "hôm trước."
+	text " just"
+	line "the other day."
 
-	para "Học trước"
-	line "có hiệu quả!"
+	para "Studying up in"
+	line "advance worked!"
 	done
 
 AlanLostAMonText:
-	text "À này, một con"
+	text "By the way, a wild"
 	line "@"
 	text_ram wStringBuffer4
-	text " hoang đã"
-	cont "trốn thoát hôm qua"
+	text " escaped"
+	cont "on me yesterday."
 
-	para "Lỗi tính toán"
-	line "của tớ…"
+	para "A computational"
+	line "error on my part…"
 	done
 
 AlanBattleRematchText:
-	text "Tớ học rất nhiều"
-	line "từ đó,"
+	text "I've studied quite"
+	line "a bit since then,"
 
-	para "và tớ giỏi hơn"
-	line "nhiều rồi!"
+	para "and I've gotten a"
+	line "lot better!"
 
-	para "Tớ đang ở"
+	para "I'm hanging out on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Cậu đến đây đấu"
-	line "nhé?"
+	para "Can you come down"
+	line "for a battle?"
 	done
 
 AlanHangUpText:
-	text "Hẹn gặp lại!"
+	text "See you later!"
 	done
 
 AlanFoundItemText:
-	text "Hehehe, tớ nhặt"
-	line "đồ hay rồi!"
+	text "Hehehe, I picked"
+	line "up something nice!"
 
-	para "Cậu lấy nhé!"
-	line "Sao cậu không đến"
+	para "You can have it!"
+	line "Why don't you come"
 
-	para "@"
+	para "to @"
 	text_ram wStringBuffer5
 	text_start
-	line "lấy nó đi?"
+	line "and pick it up?"
 	done
 
 AlanHaventPickedUpAnythingText:
-	text "Tớ chưa nhặt gì"
-	line "cả."
+	text "I haven't picked"
+	line "up anything yet."
 
-	para "Tớ sẽ gọi nếu tìm"
-	line "thấy gì đó."
+	para "I'll call you if I"
+	line "find something."
 	done
 
 AlanReminderText:
-	text "Không đấu sớm thì"
-	line "tớ quên chiến"
-	cont "thuật mất!"
+	text "If we don't battle"
+	line "soon, I'll forget"
+	cont "my strategy!"
 
-	para "Tớ đang đợi ở"
+	para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"
 	done
 
 AlanComePickUpGiftText:
-	text "Tớ phải làm bài"
-	line "về, vậy cậu đến"
+	text "I have to do my"
+	line "homework, so can"
 
-	para "lấy quà ngay bây"
-	line "giờ nhé?"
+	para "you come get your"
+	line "gift right away?"
 
-	para "Tớ đang đợi ở"
+	para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

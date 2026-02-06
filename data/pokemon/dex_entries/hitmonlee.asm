@@ -1,10 +1,10 @@
-	db "ĐÁ@" ; species name
-	dw 15, 498 ; height, weight
+	db "KICKING@" ; species name
+	dw 411, 1100 ; height, weight
 
-	db   "Còn gọi là Vua Đá"
-	next "Nó dùng đôi chân"
-	next "đàn hồi để thực"
+	db   "It is also called"
+	next "the Kick Master."
+	next "It uses its"
 
-	page "hiện mọi cú đá"
-	next "có thể.@"
-	next "@"
+	page "elastic legs to"
+	next "execute every"
+	next "known kick.@"

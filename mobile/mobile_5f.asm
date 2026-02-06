@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/mobile/mobile_5f.asm"
+else
+
 Function17c000:
 	call DisableLCD
 
@@ -492,7 +496,7 @@ MenuData_ChallengeExplanationCancel:
 	db 3
 	db "Challenge@"
 	db "Explanation@"
-	db "HỦY@"
+	db "Cancel@"
 
 Function17d2b6:
 	call Function17d2c0
@@ -5170,3 +5174,5 @@ Function17ff3c:
 
 String_17ff68:
 	db "１０１@"
+
+endc

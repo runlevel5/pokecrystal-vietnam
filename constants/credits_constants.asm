@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/credits_constants.asm"
+else
+
 ; CreditsStringsPointers indexes (see data/credits_strings.asm)
 	const_def
 	const SATOSHI_TAJIRI
@@ -99,12 +103,10 @@
 	const MOBILE_STADIUM_DIR
 	const COORDINATION
 	const COPYRIGHT
-	const VN_VERSION_STAFF
-	const TRUNG_LE
-	const HIEU_LE
-	const TRANG_LE
-	const PROGRAMMER
+	const US_VERSION_STAFF
+	const US_COORDINATION
 	const TEXT_TRANSLATION
+	const PAAD_TESTING
 DEF NUM_CREDITS_STRINGS EQU const_value
 
 ; CreditsScript indexes (see data/credits_script.asm)
@@ -116,3 +118,5 @@ DEF NUM_CREDITS_STRINGS EQU const_value
 	const CREDITS_MUSIC
 	const CREDITS_WAIT2
 	const CREDITS_THEEND
+
+endc

@@ -308,221 +308,216 @@ TinTower1FSage3EntersMovement:
 	step_end
 
 TinTower1FEusineSuicuneText:
-	text "EUSINE: Tuyệt vời"
-	line "Quá tuyệt vời!"
+	text "EUSINE: Awesome!"
+	line "Too awesome, even!"
 
-	para "Tôi chưa bao giờ"
-	line "thấy trận đấu"
+	para "I've never seen a"
+	line "battle that great."
 
-	para "tuyệt như thế."
-	line "Thật cảm hứng."
+	para "That was truly"
+	line "inspiring to see."
 
-	para "SUICUNE thật mạnh"
-	line "nhưng cậu còn"
+	para "SUICUNE was tough,"
+	line "but you were even"
 
-	para "ấn tượng hơn,"
+	para "more incredible,"
 	line "<PLAYER>."
 
-	para "Tôi nghe sức mạnh"
-	line "huyền bí của"
+	para "I heard SUICUNE's"
+	line "mystic power"
 
-	para "SUICUNE có thể"
-	line "triệu hồi một"
+	para "summons a rainbow-"
+	line "colored #MON."
 
-	para "#MON có màu"
-	line "cầu vồng."
+	para "Maybe, just maybe,"
+	line "what went on today"
 
-	para "Có lẽ, chỉ có lẽ"
-	line "chuyện hôm nay"
+	para "will cause that"
+	line "#MON to appear."
 
-	para "sẽ làm #MON đó"
-	line "xuất hiện."
+	para "I'm going to study"
+	line "the legends more."
 
-	para "Tôi sẽ nghiên cứu"
-	line "truyền thuyết."
+	para "Thanks for showing"
+	line "me that fantastic"
+	cont "battle."
 
-	para "Cảm ơn đã cho tôi"
-	line "xem trận đấu"
-	cont "tuyệt vời."
-
-	para "Tạm biệt,"
-	line "<PLAYER>!"
+	para "Later, <PLAYER>!"
 	done
 
 TinTower1FSage1Text:
-	text "Theo truyền"
-	line "thuyết…"
+	text "According to"
+	line "legend…"
 
-	para "Khi hồn #MON và"
-	line "con người"
+	para "When the souls of"
+	line "#MON and humans"
 
-	para "giao hòa, từ trời"
-	line "cao giáng xuống"
+	para "commune, from the"
+	line "heavens descends a"
 
-	para "một #MON có"
-	line "màu cầu vồng…"
+	para "#MON of rainbow"
+	line "colors…"
 
-	para "Phải chăng #MON"
-	line "huyền thoại đang"
+	para "Could it mean the"
+	line "legendary #MON"
 
-	para "thử thách loài"
-	line "người chúng ta?"
+	para "are testing us"
+	line "humans?"
 	done
 
 TinTower1FSage2Text:
-	text "Khi THÁP CHÁY bị"
-	line "thiêu rụi, ba"
+	text "When the BRASS"
+	line "TOWER burned down,"
 
-	para "#MON vô danh"
-	line "đã chết."
+	para "three nameless"
+	line "#MON were said"
 
-	para "Thật bi thương."
+	para "to have perished."
+	line "It was tragic."
 
-	para "Tuy nhiên…"
+	para "However…"
 
-	para "Một #MON có màu"
-	line "cầu vồng…"
+	para "A rainbow-colored"
+	line "#MON…"
 
-	para "Nói cách khác…"
+	para "In other words…"
 
-	para "HO-OH đã từ trời"
-	line "giáng xuống và"
+	para "HO-OH descended"
+	line "from the sky and"
 
-	para "ban sự sống mới"
-	line "cho ba #MON đó."
+	para "gave new life to"
+	line "the three #MON."
 
-	para "Chúng là…"
+	para "They are…"
 
-	para "SUICUNE, ENTEI và"
+	para "SUICUNE, ENTEI and"
 	line "RAIKOU."
 
-	para "Người ta kể lại"
-	line "như vậy."
+	para "That is what they"
+	line "say."
 	done
 
 TinTower1FSage3Text:
-	text "Hai THÁP được xây"
-	line "để nuôi dưỡng"
+	text "The two TOWERS are"
+	line "said to have been"
 
-	para "tình bạn và hy"
-	line "vọng giữa #MON"
-	cont "và con người."
+	para "built to foster"
+	line "friendship and"
 
-	para "Đó là 700 năm"
-	line "trước, nhưng lý"
+	para "hope between #-"
+	line "MON and people."
 
-	para "tưởng ấy vẫn còn"
-	line "quan trọng."
+	para "That was 700 years"
+	line "ago, but the ideal"
+
+	para "still remains"
+	line "important today."
 	done
 
 TinTower1FSage4Text1:
-	text "HO-OH dường như"
-	line "đã giáng xuống"
+	text "HO-OH appears to"
+	line "have descended"
 
-	para "đây, THÁP THIẾC"
-	line "này!"
+	para "upon this, the TIN"
+	line "TOWER!"
 	done
 
 TinTower1FSage5Text1:
-	text "Vật này sẽ bảo"
-	line "vệ con. Hãy cầm."
+	text "This will protect"
+	line "you. Take it."
 	done
 
 TinTower1FSage5Text2:
-	text "Giờ đi đi."
+	text "Now, go."
 	done
 
 TinTower1FSage6Text1:
-	text "Ta tin con đang"
-	line "bị thử thách."
+	text "I believe you are"
+	line "being tested."
 
-	para "Hãy giải phóng"
-	line "tâm trí khỏi sự"
-	cont "nghi ngờ và tiến"
+	para "Free your mind"
+	line "from uncertainty,"
+	cont "and advance."
 	done
 
 TinTower1FEusineHoOhText:
-	text "Tôi biết mà."
+	text "I knew it."
 
-	para "Tôi biết cậu sẽ"
-	line "được gặp #MON"
+	para "I knew you'd get"
+	line "to see the #MON"
 
-	para "màu cầu vồng,"
+	para "of rainbow colors,"
 	line "<PLAYER>."
 
-	para "Mọi thứ xảy ra"
-	line "đúng như tôi"
+	para "It happened just"
+	line "as I envisioned."
 
-	para "tưởng tượng."
+	para "My research isn't"
+	line "bad, I might say."
 
-	para "Nghiên cứu của"
-	line "tôi khá tốt đấy."
+	para "I'm going to keep"
+	line "studying #MON"
 
-	para "Tôi sẽ tiếp tục"
-	line "nghiên cứu #MON"
-
-	para "để trở thành một"
-	line "#MANIAC nổi"
-	cont "tiếng!"
+	para "to become a famous"
+	line "#MANIAC!"
 	done
 
 TinTower1FSage4Text2:
-	text "Các #MON huyền"
-	line "thoại là hiện"
+	text "The legendary"
+	line "#MON are said"
 
-	para "thân của ba sức"
-	line "mạnh…"
+	para "to embody three"
+	line "powers…"
 
-	para "Tia sét đánh vào"
-	line "THÁP."
+	para "The lightning that"
+	line "struck the TOWER."
 
-	para "Ngọn lửa thiêu"
-	line "cháy THÁP."
+	para "The fire that"
+	line "burned the TOWER."
 
-	para "Và cơn mưa dập"
-	line "tắt ngọn lửa…"
+	para "And the rain that"
+	line "put out the fire…"
 	done
 
 TinTower1FSage5Text3:
-	text "Khi #MON huyền"
-	line "thoại xuất hiện…"
+	text "When the legendary"
+	line "#MON appeared…"
 
-	para "Chúng khiến ai"
-	line "chứng kiến sự"
-	cont "trỗi dậy khiếp sợ"
+	para "They struck terror"
+	line "in those who saw"
+	cont "their rise."
 
-	para "Và…"
+	para "And…"
 
-	para "Một số thậm chí"
-	line "đã tấn công chúng"
-	cont "một cách vô ích."
+	para "Some even took to"
+	line "futile attacks."
 
-	para "Các #MON huyền"
-	line "thoại, biết sức"
+	para "The legendary"
+	line "#MON, knowing"
 
-	para "mạnh mình, đã bỏ"
-	line "chạy, bỏ mặc"
-	cont "người sợ hãi."
+	para "their own power,"
+	line "fled, ignoring the"
+	cont "frightened people."
 	done
 
 TinTower1FSage6Text2:
-	text "Trong các #MON"
-	line "huyền thoại,"
+	text "Of the legendary"
+	line "#MON, SUICUNE"
 
-	para "SUICUNE được cho"
-	line "là gần HO-OH nhất"
+	para "is said to be the"
+	line "closest to HO-OH."
 
-	para "Tôi nghe nói có"
-	line "thể có mối liên"
+	para "I hear there may"
+	line "also be a link to"
 
-	para "hệ với #MON"
-	line "gọi là UNOWN."
+	para "#MON known as"
+	line "UNOWN."
 
-	para "#MON UNOWN chắc"
-	line "hẳn đang chia sẻ"
+	para "The #MON UNOWN"
+	line "must be sharing a"
 
-	para "mối liên kết với"
-	line "SUICUNE."
+	para "cooperative bond"
+	line "with SUICUNE."
 	done
 
 TinTower1F_MapEvents:

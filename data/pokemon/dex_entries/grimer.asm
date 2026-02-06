@@ -1,10 +1,10 @@
-	db "BÙN@" ; species name
-	dw 9, 300 ; height, weight
+	db "SLUDGE@" ; species name
+	dw 211, 660 ; height, weight
 
-	db   "Khi hai #MON"
-	next "này hợp thể,"
-	next "chất độc mới"
+	db   "When two of these"
+	next "#MON's bodies"
+	next "are combined"
 
-	page "được tạo ra.@"
-	next "@"
-	next "@"
+	page "together, new"
+	next "poisons are"
+	next "created.@"

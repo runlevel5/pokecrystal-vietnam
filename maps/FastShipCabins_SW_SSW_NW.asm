@@ -112,108 +112,112 @@ FastShipCabinsNorthwestCabinTrashcan:
 	jumpstd TrashCanScript
 
 FirebreatherLyleSeenText:
-	text "Tôi sẽ đi KANTO"
-	line "để biểu diễn"
-	cont "phun lửa!"
+	text "I'm going to KANTO"
+	line "to put on fire-"
+	cont "breathing shows!"
 	done
 
 FirebreatherLyleBeatenText:
-	text "Tắt rồi… Ngọn lửa"
-	line "nhỏ xíu…"
+	text "Fizzle… The"
+	line "flame's tiny…"
 	done
 
 FirebreatherLyleAfterBattleText:
-	text "Tôi nghĩ lửa yếu"
-	line "trên biển."
+	text "I guess fire is"
+	line "weak on the sea."
 
-	para "Không quan trọng?"
-	line "Thật sao?"
+	para "It doesn't matter?"
+	line "Really?"
 	done
 
 BugCatcherKenSeenText:
-	text "Tôi đang thăm bà"
-	line "để bắt côn trùng!"
+	text "I'm visiting my"
+	line "grandma to catch"
+	cont "me some bugs!"
 	done
 
 BugCatcherKenBeatenText:
-	text "Ồ, trời."
-	line "Bạn mạnh!"
+	text "Ooh, wow."
+	line "You're tough!"
 	done
 
 BugCatcherKenAfterBattleText:
-	text "Bạn có thể tìm"
-	line "nhiều #MON trên"
-	cont "cây ở JOHTO!"
+	text "You can find lots"
+	line "of #MON in the"
+	cont "trees of JOHTO!"
 	done
 
 BeautyCassieSeenText:
-	text "Tôi đang cố quên"
-	line "nỗi buồn."
-	cont "Hãy đấu thôi!"
+	text "I'm trying to"
+	line "forget my woes."
+	cont "Let's battle!"
 	done
 
 BeautyCassieBeatenText:
-	text "Tim tôi khóc…"
+	text "My heart weeps…"
 	done
 
 BeautyCassieAfterBattleText:
-	text "Du lịch tốt nhất"
-	line "để vượt qua"
-	cont "trái tim tan vỡ."
+	text "A voyage is best"
+	line "for getting over"
+	cont "a broken heart."
 
-	para "Nhưng chuyến TÀU"
-	line "NHANH quá ngắn"
-	cont "để buồn."
+	para "But a FAST SHIP"
+	line "trip is too short"
+	cont "for grieving."
 	done
 
 GuitaristClydeSeenText:
-	text "Tôi sẽ thử giọng"
-	line "tại ĐÀI RADIO của"
+	text "I'm going to audi-"
+	line "tion my songs at"
 
-	para "GOLDENROD."
+	para "GOLDENROD's RADIO"
+	line "STATION."
 	done
 
 GuitaristClydeBeatenText:
 	text "Yowza!"
-	line "Méo mó hết!"
+	line "Total distortion!"
 	done
 
 GuitaristClydeAfterBattleMobileText:
-	text "Tôi định ra mắt"
-	line "tại THÁP ĐẤU…"
+	text "I was going to"
+	line "make my debut at"
+	cont "the BATTLE TOWER…"
 
-	para "Tôi nên quay lại"
-	line "VERMILION và luyện"
-	cont "lại từ đầu…"
+	para "I should go back"
+	line "to VERMILION and"
+	cont "redo my training…"
 	done
 
 GuitaristClydeAfterBattleText:
-	text "Nói về ĐÀI RADIO,"
+	text "Speaking of the"
+	line "RADIO STATION,"
 
-	para "số may mắn tuần"
-	line "này là gì?"
+	para "what's this week's"
+	line "lucky number?"
 	done
 
 FastShipBedText1:
-	text "Giường êm ái!"
-	line "Đến giờ ngủ…"
+	text "A comfy bed!"
+	line "Time to sleep…"
 	done
 
 FastShipBedText2:
-	text "Ah, sảng khoái và"
-	line "hồi phục!"
+	text "Ah, refreshed and"
+	line "restored!"
 	done
 
 FastShipArrivedOlivineText:
-	text "TÀU AQUA"
-	line "S.S.AQUA đã tới"
-	cont "TP. OLIVINE."
+	text "FAST SHIP S.S.AQUA"
+	line "has arrived in"
+	cont "OLIVINE CITY."
 	done
 
 FastShipArrivedVermilionText:
-	text "TÀU AQUA"
-	line "S.S.AQUA đã tới"
-	cont "TP. VERMILION."
+	text "FAST SHIP S.S.AQUA"
+	line "has arrived in"
+	cont "VERMILION CITY."
 	done
 
 FastShipCabins_SW_SSW_NW_MapEvents:

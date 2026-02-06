@@ -206,82 +206,81 @@ FastShip1F_PlayerLeavesShipRightMovement:
 	step_end
 
 FastShip1FSailor1Text_ToVermilion:
-	text "TÀU AQUA"
-	line "S.S.AQUA đang đi"
-	cont "tới VERMILION."
+	text "FAST SHIP S.S.AQUA"
+	line "is en route to"
+	cont "VERMILION CITY."
 
-	para "Chúng tôi sẽ báo"
-	line "khi tới nơi."
+	para "We will make an"
+	line "announcement when"
+	cont "we arrive."
 	done
 
 FastShip1FSailor1Text_ToOlivine:
-	text "TÀU AQUA"
-	line "S.S.AQUA đang đi"
-	cont "tới TP. OLIVINE."
+	text "FAST SHIP S.S.AQUA"
+	line "is en route to"
+	cont "OLIVINE CITY."
 
-	para "Chúng tôi sẽ báo"
-	line "khi tới nơi."
+	para "We will make an"
+	line "announcement when"
+	cont "we arrive."
 	done
 
 FastShip1FSailor2Text_FirstTime:
-	text "Đây là cabin của"
-	line "bạn."
+	text "Here's your cabin."
 
-	para "Nếu #MON của"
-	line "bạn bị thương,"
-	cont "hãy ngủ trên"
-	cont "giường."
+	para "If your #MON"
+	line "are hurt, take a"
+	cont "nap in the bed."
 
-	para "Điều đó sẽ hồi"
-	line "phục chúng."
+	para "That will heal"
+	line "them."
 	done
 
 FastShip1FSailor2Text:
-	text "Đây là cabin của"
-	line "bạn."
+	text "Here's your cabin."
 
-	para "Bạn có thể hồi"
-	line "phục #MON bằng"
-	cont "cách ngủ trên"
-	cont "giường."
+	para "You can heal your"
+	line "#MON by taking"
+	cont "a nap in the bed."
 
-	para "Tàu sẽ tới nơi"
-	line "khi bạn ngủ."
+	para "The ship will"
+	line "arrive while"
+	cont "you're sleeping."
 	done
 
 FastShip1FSailor3Text:
-	text "Hành khách đều"
-	line "là HLV."
+	text "The passengers are"
+	line "all trainers."
 
-	para "Họ đều muốn đấu"
-	line "trong cabin của"
-	cont "họ."
+	para "They're all itch-"
+	line "ing to battle in"
+	cont "their cabins."
 	done
 
 FastShip1FGrandpaText:
-	text "Ối! Xin lỗi."
-	line "Tôi đang vội!"
+	text "Whoa! Excuse me."
+	line "I was in a hurry!"
 
-	para "Cháu gái tôi mất"
-	line "tích rồi!"
+	para "My granddaughter"
+	line "is missing!"
 
-	para "Nó chỉ là một"
-	line "cô bé. Nếu bạn"
+	para "She's just a wee"
+	line "girl. If you see"
 
-	para "thấy nó, làm ơn"
-	line "báo cho tôi!"
+	para "her, please let me"
+	line "know!"
 	done
 
 FastShip1FSailor1Text_InOlivine:
-	text "TÀU AQUA"
-	line "S.S.AQUA đã tới"
-	cont "TP. OLIVINE."
+	text "FAST SHIP S.S.AQUA"
+	line "has arrived in"
+	cont "OLIVINE CITY."
 	done
 
 FastShip1FSailor1Text_InVermilion:
-	text "TÀU AQUA"
-	line "S.S.AQUA đã tới"
-	cont "TP. VERMILION."
+	text "FAST SHIP S.S.AQUA"
+	line "has arrived in"
+	cont "VERMILION CITY."
 	done
 
 FastShip1F_MapEvents:

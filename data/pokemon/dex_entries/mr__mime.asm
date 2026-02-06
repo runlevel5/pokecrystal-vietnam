@@ -1,10 +1,10 @@
-	db "RÀO CẢN@" ; species name
-	dw 13, 545 ; height, weight
+	db "BARRIER@" ; species name
+	dw 403, 1200 ; height, weight
 
-	db   "Nó dùng sức mạnh"
-	next "bí ẩn ở ngón tay"
-	next "để đông đặc"
+	db   "It uses the"
+	next "mysterious"
+	next "power it has in"
 
-	page "không khí thành"
-	next "bức tường"
-	next "vô hình.@"
+	page "its fingers to"
+	next "solidify air into"
+	next "an invisible wall.@"

@@ -1,10 +1,10 @@
-	db "LẶN SÂU@" ; species name
-	dw 52, 2160 ; height, weight
+	db "DIVING@" ; species name
+	dw 1701, 4760 ; height, weight
 
-	db   "Nó có khả năng"
-	next "phi thường để làm"
-	next "dịu những cơn"
+	db   "It has an incred-"
+	next "ible ability to"
+	next "calm raging sto-"
 
-	page "bão dữ dội. Người"
-	next "ta nói LUGIA xuất"
-	next "hiện khi có bão.@"
+	page "rms. It is said"
+	next "that LUGIA appears"
+	next "when storms start.@"

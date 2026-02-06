@@ -1,305 +1,307 @@
 LizMonAlwaysWantsToNuzzleText:
-	text "Ồ, cậu phải nghe"
-	line "cái này."
+	text "Oh, you have to"
+	line "hear this."
 
-	para "@"
+	para "My @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "dễ thương quá!"
+	text " is"
+	line "so adorable!"
 
-	para "Nó luôn muốn cọ"
-	line "vào tớ!"
+	para "It always wants to"
+	line "nuzzle me!"
 	done
 
 LizDefeatedMonText:
-	text "Và, và! Um…"
+	text "And, and! Um…"
 
-	para "Bọn tớ đánh bại"
-	line "con @"
+	para "We beat a wild"
+	line "@"
 	text_ram wStringBuffer4
-	text " hoang"
+	text " with"
 
-	para "chỉ bằng một đòn"
-	line "cách đây vừa rồi."
+	para "just one hit a"
+	line "little while ago."
 
-	para "Nhưng bọn tớ thấy"
-	line "tội cho nó."
+	para "We felt sorry for"
+	line "it, though."
 	done
 
 LizLostAMonText:
-	text "Và, và! Uh…"
+	text "And, and! Uh…"
 
-	para "Bọn tớ vừa thấy"
-	line "con @"
+	para "We just saw a"
+	line "really gorgeous"
+	cont "@"
 	text_ram wStringBuffer4
-	text " đẹp"
-	cont "tuyệt."
+	text "."
 
-	para "Nhưng tớ đang gọi"
-	line "điện, nên nó"
+	para "But I was on the"
+	line "phone, so it got"
 
-	para "trốn mất. Bọn tớ"
-	line "thật tức giận!"
+	para "away. It made us"
+	line "really angry!"
 	done
 
 LizBattleRematchText:
-	text "Chào! Cậu có thời"
-	line "gian rảnh không?"
+	text "Hi! Do you have"
+	line "some free time?"
 
-	para "Tớ có rất nhiều"
-	line "thời gian. Nếu cậu"
+	para "I've got all sorts"
+	line "of time. If you're"
 
-	para "rảnh, cậu có muốn"
-	line "đấu không?"
+	para "free, would you"
+	line "like to battle?"
 
-	para "Tớ sẽ đợi tại"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "."
 
-	para "Cho tớ biết khi"
-	line "cậu đến nhé!"
+	para "Let me know when"
+	line "you get here!"
 	done
 
 LizWrongNumberText:
-	text "Chào, TANIA. Khỏe"
-	line "không? Là LIZ đây."
+	text "Hi, TANIA. How are"
+	line "you? This is LIZ."
 
-	para "Tớ khỏe, nhưng tớ"
-	line "chán lắm!"
+	para "I'm fine, but I'm"
+	line "bored silly!"
 
-	para "Hả… Nhầm số?"
-	line "Oops! Xin lỗi!"
+	para "Huh… Wrong number?"
+	line "Oops! Sorry!"
 	done
 
 LizHangUpText:
-	text "OK, tớ sẽ gọi cậu"
-	line "sau!"
+	text "OK, I'll call you"
+	line "later!"
 	done
 
 LizRuinsOfAlphGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Tớ đang nghe radio"
-	line "ở TÀN TÍCH ALPH"
+	para "I was listening to"
+	line "the radio in the"
 
-	para "thì đột nhiên có"
-	line "tiếng phát thanh"
+	para "RUINS OF ALPH when"
+	line "an odd broadcast"
 
-	para "lạ chen vào chương"
-	line "trình bình thường."
+	para "suddenly cut it on"
+	line "the regular show."
 
-	para "Tớ tự hỏi đó là"
-	line "gì. Lạ quá!"
+	para "I wonder what it"
+	line "was. So strange!"
 	done
 
 LizFalknerGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Cậu có nghĩ rằng"
-	line "FALKNER ở GYM"
+	para "Don't you think"
+	line "FALKNER of VIOLET"
 
-	para "VIOLET ngầu và"
-	line "đẹp trai không?"
+	para "GYM is cool and"
+	line "handsome?"
 
-	para "Nhưng người ta nói"
-	line "bố cậu ấy, người"
+	para "But they say his"
+	line "dad, who's out"
 
-	para "đang đi tu luyện"
-	line "trên đường, còn"
+	para "training on the"
+	line "road, is even more"
 
-	para "ngầu và đẹp trai"
-	line "hơn FALKNER nữa."
+	para "cool and handsome"
+	line "than FALKNER."
 
-	para "Tớ ước mình được"
-	line "gặp ông ấy!"
+	para "I wish I could"
+	line "meet him!"
 	done
 
 LizEarlGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Cậu có biết EARL,"
-	line "thầy giáo điều"
+	para "Do you know EARL,"
+	line "the teacher who"
 
-	para "hành HỌC VIỆN #"
-	line "MON ở VIOLET?"
+	para "runs the #MON"
+	line "ACADEMY in VIOLET?"
 
-	para "Tớ thấy ông ấy"
-	line "xoay tròn trong"
+	para "I saw him doing"
+	line "pirouettes while"
 
-	para "khi chạy. Buồn"
-	line "cười lắm luôn!"
+	para "he was running. It"
+	line "was wildly funny!"
 	done
 
 LizSurfPikachuGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Tớ sưu tầm búp bê"
-	line "bông #MON."
+	para "I collect #MON"
+	line "plush dolls."
 
-	para "Nhưng tớ không"
-	line "thể kiếm được"
+	para "But I can't seem"
+	line "to get a hold of a"
 
-	para "BÚNG BÊ SURF"
-	line "PIKACHU. Không ai"
+	para "SURF PIKACHU DOLL."
+	line "None of my friends"
 
-	para "trong bạn tớ có."
-	line "Chắc hiếm lắm!"
+	para "have it. It must"
+	line "be totally rare!"
 
-	para "Cậu có thể khoe"
-	line "khoang nếu có"
-	cont "một con."
+	para "You could really"
+	line "brag about it if"
+	cont "you had one."
 	done
 
 LizMooMooMilkGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Cậu có biết về"
-	line "MOOMOO MILK không?"
+	para "Do you know about"
+	line "MOOMOO MILK?"
 
-	para "Cậu có thể mua ở"
-	line "TRANG TRẠI MOOMOO."
+	para "You can buy it at"
+	line "MOOMOO FARM."
 
-	para "Người ta nói nó"
-	line "tốt cho sức khỏe"
+	para "It's supposed to"
+	line "be good for health"
 
-	para "và nhan sắc."
-	line "Tớ thật sự muốn"
+	para "and beauty."
+	line "I really want to"
 
-	para "thử. Chắc ngon"
-	line "lắm!"
+	para "try some. I bet"
+	line "it's delicious!"
 	done
 
 LizSalonGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Có SALON #MON"
-	line "ở GOLDENROD"
+	para "There's a #MON"
+	line "SALON in GOLDENROD"
 
-	para "do hai anh em"
-	line "điều hành."
+	para "that's run by two"
+	line "brothers."
 
-	para "Anh cả giỏi, nhưng"
-	line "em trai thì"
+	para "The older brother"
+	line "is good, but the"
 
-	para "không mấy giỏi"
-	line "lắm."
+	para "younger one really"
+	line "isn't."
 
-	para "Nhưng đôi khi em"
-	line "làm tốt hơn"
+	para "But sometimes the"
+	line "younger one does a"
 
-	para "anh trai mình."
+	para "better job than"
+	line "his brother."
 
-	para "Mỗi lần đi, tớ"
-	line "khó quyết định"
+	para "Every time I go, I"
+	line "have a hard time"
 
-	para "nên dùng người"
-	line "nào…"
+	para "trying to decide"
+	line "whom I should use…"
 	done
 
 LizWhitneyGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "WHITNEY của GYM"
-	line "GOLDENROD mới bắt"
+	para "GOLDENROD GYM's"
+	line "WHITNEY began"
 
-	para "đầu chiến đấu"
-	line "gần đây thôi!"
+	para "battling only a"
+	line "little while ago!"
 
-	para "Nhưng LIÊN ĐOÀN"
-	line "#MON đã chọn"
-	cont "cô làm T.LĨNH GYM!"
+	para "But the #MON"
+	line "LEAGUE chose her"
+	cont "as a GYM LEADER!"
 
-	para "Tớ cá là cô ấy"
-	line "tài năng lắm."
+	para "I bet she must be"
+	line "totally talented."
 	done
 
 LizBugCatchingContestGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Cậu đã bao giờ"
-	line "tham gia Cuộc Thi"
+	para "Have you ever"
+	line "taken part in a"
 
-	para "Bắt Côn Trùng tại"
-	line "VƯỜN QUỐC GIA"
-	cont "chưa?"
+	para "Bug-Catching"
+	line "Contest at the"
+	cont "NATIONAL PARK?"
 
-	para "Tớ đã tham gia lần"
-	line "một, nhưng chỉ"
-	cont "bắt được CATERPIE."
+	para "I did once, but"
+	line "all I could catch"
+	cont "was a CATERPIE."
 
-	para "Nhưng đoán xem!"
+	para "But guess what!"
 
-	para "Tớ thắng với con"
-	line "CATERPIE đó. Tuyệt"
-	cont "không?"
+	para "I won with that"
+	line "CATERPIE. Isn't"
+	cont "that great?"
 	done
 
 LizBeautifulTrainerGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Tớ thấy một @"
+	para "I saw a beautiful"
+	line "@"
 	text_ram wStringBuffer4
-	text ""
-	line "đẹp tuyệt!"
+	text "!"
 
-	para "Tớ ước mình cũng"
-	line "trở thành một"
+	para "I wish I could"
+	line "become a beautiful"
 	cont "@"
 	text_ram wStringBuffer4
-	text " đẹp."
+	text " too."
 	done
 
 LizForgotGossipText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "Uh… Um… Oops!"
+	para "Uh… Um… Whoops!"
 
-	para "Tớ quên mất tớ"
-	line "định nói gì rồi!"
+	para "I forgot what I"
+	line "was going to say!"
 	done
 
 LizFawningOverMonText:
-	text "Nghe này!"
+	text "Listen, listen!"
 
-	para "@"
+	para "My @"
 	text_ram wStringBuffer4
-	text " của tớ…"
-	line "nó… đẹp quá…"
+	text "…"
+	line "it… so pretty…"
 
-	para "và… hihi… tuyệt"
-	line "vời… ừm… nhưng…"
+	para "and… giggle… so"
+	line "awesome… yes… but…"
 
-	para "rất nhiều… eeek!"
-	line "Và… đáng yêu…"
+	para "very much… eeek!"
+	line "And… lovely…"
 
-	para "Thật cuốn hút…"
-	line "Ôi, quá nhiều!"
+	para "Just ravishing…"
+	line "Oh, too much!"
 
-	para "…Ôm nó… ngủ…"
-	line "Đúng rồi…"
+	para "…Hug it… sleeping…"
+	line "That's right…"
 
-	para "đẹp… hah… Thật"
-	line "tốt… Dễ thương…"
+	para "pretty… sigh… So"
+	line "nice… Cute…"
 
-	para "…Oops! Xem nào!"
-	line "Tớ nói chuyện"
-	cont "lâu quá!"
+	para "…Oops! Look at the"
+	line "time! I chatted"
+	cont "too long!"
 
-	para "Xin lỗi vì đã lấy"
-	line "quá nhiều thời"
+	para "I'm sorry I took"
+	line "so much of your"
 
-	para "gian của cậu!"
-	line "Tớ thích tán gẫu!"
+	para "time!"
+	line "I love chatting!"
 	done
 
 LizReminderText:
-	text "Tớ có quá nhiều"
-	line "thời gian rảnh!"
+	text "I've got too much"
+	line "time on my hands!"
 
-	para "Đấu ngay đi!"
+	para "Let's battle right"
+	line "away!"
 
-	para "Tớ sẽ đợi tại"
+	para "I'll be waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

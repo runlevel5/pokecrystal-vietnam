@@ -1,10 +1,10 @@
-	db "KÉN@" ; species name
-	dw 6, 100 ; height, weight
+	db "COCOON@" ; species name
+	dw 200, 220 ; height, weight
 
-	db   "Gần như không thể"
-	next "di chuyển, nó dựa"
-	next "vào cây chắc"
+	db   "Nearly incapable"
+	next "of movement, it"
+	next "leans against"
 
-	page "trong khi chờ đợi"
-	next "sự tiến hóa.@"
-	next "@"
+	page "stout trees while"
+	next "waiting for its"
+	next "evolution.@"

@@ -117,8 +117,8 @@ NamingScreenJumptable:
 	ret
 
 .NicknameStrings:
-	db "@"
-	db "BIỆT DANH?@"
+	db "'S@"
+	db "NICKNAME?@"
 
 .Player:
 	farcall GetPlayerIcon
@@ -130,7 +130,7 @@ NamingScreenJumptable:
 	ret
 
 .PlayerNameString:
-	db "Tên bạn là?@"
+	db "YOUR NAME?@"
 
 .Rival:
 	ld de, RivalSpriteGFX
@@ -143,7 +143,7 @@ NamingScreenJumptable:
 	ret
 
 .RivalNameString:
-	db "TÊN ĐỐI THỦ@"
+	db "RIVAL'S NAME?@"
 
 .Mom:
 	ld de, MomSpriteGFX
@@ -156,7 +156,7 @@ NamingScreenJumptable:
 	ret
 
 .MomNameString:
-	db "TÊN MẸ?@"
+	db "MOTHER'S NAME?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX
@@ -180,7 +180,7 @@ NamingScreenJumptable:
 	ret
 
 .BoxNameString:
-	db "TÊN HỘP?@"
+	db "BOX NAME?@"
 
 .Friend:
 	hlcoord 3, 2
@@ -259,30 +259,6 @@ NamingScreen_IsTargetBox:
 	pop bc
 	ret
 
-NamingScreen_IsTargetMon:
-; Return z if [wNamingScreenType] == NAME_MON, NAME_6, or NAME_7.
-	push bc
-	push af
-	ld a, [wNamingScreenType]
-	and a ; NAME_MON = 0
-	jr z, .is_mon
-	cp NAME_6
-	jr z, .is_mon
-	cp NAME_7
-	jr z, .is_mon
-	; not a mon
-	ld b, 2
-	pop af
-	dec b ; nz (2-1=1, non-zero)
-	pop bc
-	ret
-.is_mon
-	ld b, 1
-	pop af
-	dec b ; z
-	pop bc
-	ret
-
 NamingScreen_InitText:
 	call WaitTop
 	hlcoord 0, 0
@@ -291,40 +267,32 @@ NamingScreen_InitText:
 	call ByteFill
 	hlcoord 1, 1
 	lb bc, 6, 18
-	call ClearBox
-	ld de, NameInputPage1
-NamingScreen_ApplyTextInputMode:
-	; All naming uses 5 Vietnamese pages
-	; Pokemon nicknames are translated to English when trading via link cable
-	; (see engine/link/link_trade_text.asm for translation layer)
-	ld a, [wNamingScreenLetterCase]
-	and a
-	jr z, .viet_page1
-	cp 1
-	jr z, .viet_page2
-	cp 2
-	jr z, .viet_page3
-	cp 3
-	jr z, .viet_page4
-	; else page5
-	ld de, NameInputPage5
-	jr .apply_layout
-.viet_page1
-	ld de, NameInputPage1
-	jr .apply_layout
-.viet_page2
-	ld de, NameInputPage2
-	jr .apply_layout
-.viet_page3
-	ld de, NameInputPage3
-	jr .apply_layout
-.viet_page4
-	ld de, NameInputPage4
+	call NamingScreen_IsTargetBox
+	jr nz, .not_box
+	lb bc, 4, 18
 
-.apply_layout
+.not_box
+	call ClearBox
+	ld de, NameInputUpper
+NamingScreen_ApplyTextInputMode:
+	call NamingScreen_IsTargetBox
+	jr nz, .not_box
+	assert BoxNameInputLower - NameInputLower == BoxNameInputUpper - NameInputUpper
+	ld hl, BoxNameInputLower - NameInputLower
+	add hl, de
+	ld d, h
+	ld e, l
+
+.not_box
 	push de
 	hlcoord 1, 8
 	lb bc, 7, 18
+	call NamingScreen_IsTargetBox
+	jr nz, .not_box_2
+	hlcoord 1, 6
+	lb bc, 9, 18
+
+.not_box_2
 	call ClearBox
 	hlcoord 1, 16
 	lb bc, 1, 18
@@ -332,6 +300,10 @@ NamingScreen_ApplyTextInputMode:
 	pop de
 	hlcoord 2, 8
 	ld b, $5
+	call NamingScreen_IsTargetBox
+	jr nz, .row
+	hlcoord 2, 6
+	ld b, $6
 
 .row
 	ld c, $11
@@ -374,6 +346,11 @@ NamingScreenJoypadLoop:
 	xor a
 	ldh [hBGMapMode], a
 	hlcoord 1, 5
+	call NamingScreen_IsTargetBox
+	jr nz, .got_coords
+	hlcoord 1, 3
+
+.got_coords
 	lb bc, 1, 18
 	call ClearBox
 	ld hl, wNamingScreenDestinationPointer
@@ -398,6 +375,10 @@ NamingScreenJoypadLoop:
 
 .InitCursor:
 	depixel 10, 3
+	call NamingScreen_IsTargetBox
+	jr nz, .got_cursor_position
+	ld d, 8 * TILE_WIDTH
+.got_cursor_position
 	ld a, SPRITE_ANIM_OBJ_NAMING_SCREEN_CURSOR
 	call InitSpriteAnimStruct
 	ld a, c
@@ -453,6 +434,9 @@ NamingScreenJoypadLoop:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld [hl], $4
+	call NamingScreen_IsTargetBox
+	ret nz
+	inc [hl]
 	ret
 
 .b
@@ -466,15 +450,17 @@ NamingScreenJoypadLoop:
 	ret
 
 .select
-	; All naming uses 5 Vietnamese pages
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
-	inc a
-	cp 5
-	jr c, .no_wrap
-	xor a
-.no_wrap
+	xor 1
 	ld [hl], a
+	jr z, .upper
+	ld de, NameInputLower
+	call NamingScreen_ApplyTextInputMode
+	ret
+
+.upper
+	ld de, NameInputUpper
 	call NamingScreen_ApplyTextInputMode
 	ret
 
@@ -490,6 +476,10 @@ NamingScreen_GetCursorPosition:
 	ld a, [hl]
 	push bc
 	ld b, $4
+	call NamingScreen_IsTargetBox
+	jr nz, .not_box
+	inc b
+.not_box
 	cp b
 	pop bc
 	jr nz, .not_bottom_row
@@ -526,6 +516,10 @@ NamingScreen_AnimateCursor:
 	add hl, bc
 	ld [hl], e
 	ld d, $4
+	call NamingScreen_IsTargetBox
+	jr nz, .ok
+	inc d
+.ok
 	cp d
 	ld de, .LetterEntries
 	ld a, SPRITE_ANIM_FRAMESET_TEXT_ENTRY_CURSOR - SPRITE_ANIM_FRAMESET_TEXT_ENTRY_CURSOR ; 0
@@ -636,6 +630,14 @@ NamingScreen_AnimateCursor:
 	ld hl, SPRITEANIMSTRUCT_VAR2
 	add hl, bc
 	ld a, [hl]
+	call NamingScreen_IsTargetBox
+	jr nz, .not_box
+	cp $5
+	jr nc, .wrap_up
+	inc [hl]
+	ret
+
+.not_box
 	cp $4
 	jr nc, .wrap_up
 	inc [hl]
@@ -656,6 +658,9 @@ NamingScreen_AnimateCursor:
 
 .wrap_down
 	ld [hl], $4
+	call NamingScreen_IsTargetBox
+	ret nz
+	inc [hl]
 	ret
 
 NamingScreen_TryAddCharacter:
@@ -876,7 +881,15 @@ INCBIN "gfx/naming_screen/border.2bpp"
 NamingScreenGFX_Cursor:
 INCBIN "gfx/naming_screen/cursor.2bpp"
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/text/name_input_chars.asm"
+
+else
+
 INCLUDE "data/text/name_input_chars.asm"
+
+endc
 
 NamingScreenGFX_End: ; unreferenced
 INCBIN "gfx/naming_screen/end.1bpp"
@@ -981,7 +994,7 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 	hlcoord 1, 1
 	lb bc, 4, SCREEN_WIDTH - 2
 	call ClearBox
-	ld de, MailEntry_Page1
+	ld de, MailEntry_Uppercase
 
 .PlaceMailCharset:
 	hlcoord 1, 7
@@ -1137,30 +1150,17 @@ INCBIN "gfx/naming_screen/mail.2bpp"
 .select
 	ld hl, wNamingScreenLetterCase
 	ld a, [hl]
-	inc a
-	cp 3 ; Now 3 pages (0-2) for Vietnamese mail
-	jr c, .no_wrap
-	xor a
-.no_wrap
+	xor 1
 	ld [hl], a
-	; Use lookup table for mail pages
-	ld hl, .MailPages
-	add a
-	add l
-	ld l, a
-	adc h
-	sub l
-	ld h, a
-	ld a, [hli]
-	ld d, [hl]
-	ld e, a
+	jr nz, .switch_to_lowercase
+	ld de, MailEntry_Uppercase
 	call .PlaceMailCharset
 	ret
 
-.MailPages:
-	dw MailEntry_Page1
-	dw MailEntry_Page2
-	dw MailEntry_Page3
+.switch_to_lowercase
+	ld de, MailEntry_Lowercase
+	call .PlaceMailCharset
+	ret
 
 ; called from engine/sprite_anims/functions.asm
 
@@ -1377,3 +1377,13 @@ MailComposition_TryAddLastCharacter:
 .done
 	ld a, [hl]
 	jp NamingScreen_LoadNextCharacter
+
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/text/mail_input_chars.asm"
+
+else
+
+INCLUDE "data/text/mail_input_chars.asm"
+
+endc

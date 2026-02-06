@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/player_names.asm"
+else
+
 ChrisNameMenuHeader:
 	db MENU_BACKUP_TILES ; flags
 	menu_coords 0, 0, 10, TEXTBOX_Y - 1
@@ -8,14 +12,14 @@ ChrisNameMenuHeader:
 .MaleNames:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B ; flags
 	db 5 ; items
-	db "tên mới@"
+	db "NEW NAME@"
 MalePlayerNameArray:
-	db "TRUNG@"
-	db "HIẾU@"
-	db "AN@"
-	db "TRẤN@"
+	db "CHRIS@"
+	db "MAT@"
+	db "ALLAN@"
+	db "JON@"
 	db 2 ; title indent
-	db " TÊN @" ; title
+	db " NAME @" ; title
 
 KrisNameMenuHeader:
 	db MENU_BACKUP_TILES ; flags
@@ -27,11 +31,13 @@ KrisNameMenuHeader:
 .FemaleNames:
 	db STATICMENU_CURSOR | STATICMENU_PLACE_TITLE | STATICMENU_DISABLE_B ; flags
 	db 5 ; items
-	db "tên mới@"
+	db "NEW NAME@"
 FemalePlayerNameArray:
-	db "TRANG@"
-	db "NGỌC@"
-	db "ĐÀO@"
-	db "MAI@"
+	db "KRIS@"
+	db "AMANDA@"
+	db "JUANA@"
+	db "JODI@"
 	db 2 ; title indent
-	db " TÊN @" ; title
+	db " NAME @" ; title
+
+endc

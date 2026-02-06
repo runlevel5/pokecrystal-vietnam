@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/mobile/mobile_46.asm"
+else
+
 Function118000:
 	ld a, $1
 	ld [wcd38], a
@@ -3877,17 +3881,17 @@ Strings_L10ToL100:
 	db " L:80 @@"
 	db " L:90 @@"
 	db " L:100@@"
-	db "HỦY@@"
+	db "CANCEL@@"
 
 Strings_Ll0ToL40:
 	db " L:10 @@"
 	db " L:20 @@"
 	db " L:30 @@"
 	db " L:40 @@"
-	db "HỦY@@"
+	db "CANCEL@@"
 
 BattleTowerCancelString: ; unreferenced
-	db "HỦY@"
+	db "CANCEL@"
 
 BattleTower_LevelCheck:
 	ldh a, [rWBK]
@@ -4519,13 +4523,13 @@ BattleTowerRoomMenu2_PlaceYesNoMenu:
 	call MenuBox
 	call MenuBoxCoord2Tile
 	call ApplyTilemap
-	hlcoord 14, 8
+	hlcoord 16, 8
 	ld de, String_11a2cf
 	call PlaceString
-	hlcoord 14, 10
+	hlcoord 16, 10
 	ld de, String_11a2d3
 	call PlaceString
-	hlcoord 13, 8
+	hlcoord 15, 8
 	ld a, $ed
 	ld [hl], a
 	xor a
@@ -4621,20 +4625,20 @@ BattleTowerRoomMenu2_UpdateYesNoMenu:
 	ret
 
 String_11a2cf:
-	db "CÓ@"
+	db "YES@"
 
 String_11a2d3:
-	db "KHÔNG@"
+	db "NO@"
 
 MenuHeader_11a2d6: ; unreferenced
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 6, SCREEN_WIDTH - 1, 10
+	menu_coords 14, 6, SCREEN_WIDTH - 1, 10
 	dw NULL
 	db 0 ; default option
 
 MenuHeader_11a2de:
 	db MENU_BACKUP_TILES ; flags
-	menu_coords 12, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
+	menu_coords 14, 7, SCREEN_WIDTH - 1, TEXTBOX_Y - 1
 	dw NULL
 	db 0 ; default option
 
@@ -5029,7 +5033,7 @@ Function11a5b9:
 	ret
 
 Function11a5f5:
-	ld a, $c
+	ld a, $e
 	ld [wMenuBorderLeftCoord], a
 	ld a, $13
 	ld [wMenuBorderRightCoord], a
@@ -5038,20 +5042,20 @@ Function11a5f5:
 	ld a, $a
 	ld [wMenuBorderBottomCoord], a
 	call PushWindow
-	hlcoord 12, 6, wAttrmap
-	ld b, $7
-	ld c, $6
-	hlcoord 12, 6
+	hlcoord 14, 6, wAttrmap
 	ld b, $5
+	ld c, $6
+	hlcoord 14, 6
+	ld b, $3
 	ld c, $4
 	call Function3eea
-	hlcoord 14, 7
+	hlcoord 16, 7
 	ld de, String_11a2cf
 	call PlaceString
-	hlcoord 14, 9
+	hlcoord 16, 9
 	ld de, String_11a2d3
 	call PlaceString
-	hlcoord 13, 7
+	hlcoord 15, 7
 	ld a, $ed
 	ld [hl], a
 	farcall HDMATransferTilemapAndAttrmap_Overworld
@@ -5415,103 +5419,102 @@ Function11a9f4: ; unreferenced
 	ret
 
 Text_SaveFileWillBeSent:
-	text "FILE LƯU sẽ được"
-	line "gửi đi."
+	text "SAVE FILE will be"
+	line "sent."
 	done
 
 Text_SentSaveFileReadingNews:
-	text "Đã gửi FILE LƯU."
-	line "Đọc TIN TỨC…"
+	text "Sent SAVE FILE."
+	line "Reading NEWS…"
 	done
 
 Text_ReadingNews:
-	text "Đọc TIN TỨC…"
+	text "Reading NEWS…"
 	done
 
 Text_ReceivedNews:
-	text "Nhận TIN TỨC!"
+	text "Received NEWS!"
 	done
 
 Text_QuitReadingNews:
-	text "Thoát đọc TIN?"
+	text "Quit reading NEWS?"
 	done
 
 Text_CanceledSendingSaveFile: ; unreferenced
-	text "Hủy gửi"
-	line "FILE LƯU."
+	text "Canceled sending"
+	line "SAVE FILE."
 	done
 
 Text_ReceivedOddEgg: ; unreferenced
-	text "Đã nhận"
-	line "TRỨNG LẠ!"
+	text "ODD EGG"
+	line "was received!"
 	done
 
 Text_RegisteringRecord:
-	text "Đăng ký kỉ lục"
-	line "của bạn…"
+	text "Registering your"
+	line "record…"
 	done
 
 Text_BattleRoomVisitLimit: ; unreferenced
-	text "Mỗi PHÒNG ĐẤU"
-	line "một lần mỗi ngày!"
+	text "One visit per day"
+	line "per BATTLE ROOM!"
 	done
 
 Text_PartyMonTopsThisLevel:
-	text "#MON trong đội"
-	line "vượt cấp độ này."
+	text "A party #MON"
+	line "tops this level."
 	done
 
 Text_UberRestriction:
 	text_ram wcd49
-	text " chỉ được vào"
-	line "PHÒNG ĐẤU"
+	text " may go"
+	line "only to BATTLE"
 
-	para "từ Lv.70"
-	line "trở lên."
+	para "ROOMS that are"
+	line "Lv.70 or higher."
 	done
 
 Text_CancelBattleRoomChallenge:
-	text "Hủy thử thách"
-	line "PHÒNG ĐẤU?"
+	text "Cancel your BATTLE"
+	line "ROOM challenge?"
 	done
 
 Text_ExitGymLeaderHonorRoll:
-	text "Thoát BẢNG VÀNG"
-	line "T.LĨNH GYM?"
+	text "Exit GYM LEADER"
+	line "HONOR ROLL?"
 	done
 
 Text_LinkingWithCenter: ; unreferenced
-	text "Kết nối với"
-	line "TRUNG TÂM…"
+	text "Linking with the"
+	line "CENTER…"
 	done
 
 Text_WhatLevelDoYouWantToChallenge:
-	text "Cấp độ nào bạn"
-	line "muốn thử thách?"
+	text "What level do you"
+	line "want to challenge?"
 	done
 
 Text_CheckBattleRoomListByMaxLevel:
-	text "Xem danh sách"
-	line "PHÒNG ĐẤU theo"
-	cont "cấp độ tối đa?"
+	text "Check BATTLE ROOM"
+	line "list by max level?"
 	done
 
 Text_EnterWhichBattleRoom: ; unreferenced
-	text "Vào PHÒNG ĐẤU"
-	line "nào?"
+	text "Enter which"
+	line "BATTLE ROOM?"
 	done
 
 Text_WhichBattleRoom: ; unreferenced
-	text "PHÒNG ĐẤU nào?"
+	text "Which BATTLE ROOM?"
 	done
 
 Text_ThisBattleRoomPleaseWait: ; unreferenced
 	text_ram wStringBuffer3
-	text " PHÒNG của"
+	text "'s ROOM"
 	line "@"
 	text_ram wStringBuffer4
 	text "?"
-	cont "Xin chờ…"
+	cont "Please wait…"
 	done
 
 Function11ac3e:
@@ -7696,3 +7699,5 @@ TilemapPack_11bb7d:
 	db $2e, $0a, $85, $0a, $0a, $0a, $8d, $00 ; 22
 	db $2e, $0a, $0a, $84, $0a, $0a, $8e, $00 ; 23
 	db -1
+
+endc

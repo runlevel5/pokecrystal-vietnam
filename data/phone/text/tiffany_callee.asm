@@ -1,78 +1,78 @@
 TiffanyAnswerPhoneText:
-	text "Vâng? Đây là"
+	text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ồ, <PLAY_G>."
-	line "Chào buổi sáng."
+	para "Oh, <PLAY_G>."
+	line "Good morning."
 	done
 
 TiffanyAnswerPhoneDayText:
-	text "Vâng? Đây là"
+	text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ồ, <PLAY_G>."
-	line "Xin chào."
+	para "Oh, <PLAY_G>."
+	line "Hello."
 	done
 
 TiffanyAnswerPhoneNiteText:
-	text "Vâng? Đây là"
+	text "Yes? This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "."
 
-	para "Ồ, <PLAY_G>,"
-	line "chào buổi tối."
+	para "Oh, <PLAY_G>, good"
+	line "evening."
 	done
 
 TiffanyGreetText:
-	text "Đó là <PLAY_G> à?"
+	text "Is this <PLAY_G>?"
 
-	para "Chào buổi sáng."
-	line "Đây là @"
+	para "Good morning. This"
+	line "is @"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 TiffanyGreetDayText:
-	text "Đó là <PLAY_G> à?"
+	text "Is this <PLAY_G>?"
 
-	para "Chào, đây là @"
+	para "Hi, it's @"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 TiffanyGreetNiteText:
-	text "Đó là <PLAY_G> à?"
+	text "Is this <PLAY_G>?"
 
-	para "Chào buổi tối."
-	line "Đây là @"
+	para "Good evening. This"
+	line "is @"
 	text_ram wStringBuffer3
 	text "."
 	done
 
 TiffanyGenericText:
-	text "#MON cậu có"
-	line "khỏe không?"
+	text "Are your #MON"
+	line "doing well?"
 
-	para "Tớ hy vọng cậu đưa"
-	line "chúng tới TT"
-	cont "#MON mỗi ngày."
+	para "I hope you take"
+	line "them to a #MON"
+	cont "CENTER every day."
 
-	para "Đừng ép chúng quá"
-	line "sức."
+	para "Don't push them"
+	line "too hard."
 
-	para "@"
+	para "My @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "dễ thương và sống"
+	text " is"
+	line "cute and lively"
 
-	para "động chính xác vì"
-	line "tớ đưa nó tới"
+	para "precisely because"
+	line "I take it to a"
 
-	para "TT #MON mỗi"
-	line "ngày."
+	para "#MON CENTER"
+	line "every day."
 	done

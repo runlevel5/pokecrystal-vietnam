@@ -33,18 +33,16 @@ MrPsychicText1:
 
 	para "…"
 
-	para "…Ta hiểu rồi!"
+	para "…I got it!"
 
-	para "Ngươi muốn cái"
-	line "này!"
+	para "You wanted this!"
 	done
 
 MrPsychicText2:
-	text "TM29 là NIỆM LỰC."
+	text "TM29 is PSYCHIC."
 
-	para "Có thể làm giảm"
-	line "THỦ Đ.B của đối"
-	cont "thủ."
+	para "It may lower the"
+	line "target's SPCL.DEF."
 	done
 
 MrPsychicsHouse_MapEvents:

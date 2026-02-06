@@ -1,10 +1,10 @@
-	db "KHÍ ĐỘC@" ; species name
-	dw 6, 10 ; height, weight
+	db "POISON GAS@" ; species name
+	dw 200, 20 ; height, weight
 
-	db   "Nếu đến gần khi"
-	next "nó xả khí độc, có"
-	next "thể thấy khí xoáy"
+	db   "If one gets close"
+	next "enough to it when"
+	next "it expels poison-"
 
-	page "bên trong nó.@"
-	next "@"
-	next "@"
+	page "ous gas, the gas"
+	next "swirling inside it"
+	next "can be seen.@"

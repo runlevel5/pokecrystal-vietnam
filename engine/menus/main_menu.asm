@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/main_menu.asm"
+else
+
 	; MainMenuItems indexes
 	const_def
 	const MAINMENU_NEW_GAME               ; 0
@@ -65,10 +69,10 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "TIẾp TỤC@"
-	db "GAME MỚI@"
-	db "TÙY CHỌN@"
-	db "QUÀ BÍ MẬT@"
+	db "CONTINUE@"
+	db "NEW GAME@"
+	db "OPTION@"
+	db "MYSTERY GIFT@"
 	db "MOBILE@"
 	db "MOBILE STUDIUM@"
 if DEF(_DEBUG)
@@ -317,7 +321,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .minString: ; unreferenced
-	db "phút@"
+	db "min.@"
 
 .PrintTimeNotSet:
 	hlcoord 1, 14
@@ -326,7 +330,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .TimeNotSetString:
-	db "CHƯA ĐẶT GIỜ@"
+	db "TIME NOT SET@"
 
 .MainMenuTimeUnknownText: ; unreferenced
 	text_far _MainMenuTimeUnknownText
@@ -348,15 +352,15 @@ MainMenu_PrintCurrentTimeAndDay:
 	ret
 
 .Days:
-	db "CHỦ NHẬT@"
-	db "THỨ HAI@"
-	db "THỨ BA@"
-	db "THỨ TƯ@"
-	db "THỨ NĂM@"
-	db "THỨ SÁU@"
-	db "THỨ BẢY@"
+	db "SUN@"
+	db "MON@"
+	db "TUES@"
+	db "WEDNES@"
+	db "THURS@"
+	db "FRI@"
+	db "SATUR@"
 .Day:
-	db "@"
+	db "DAY@"
 
 ClearTilemapEtc:
 	xor a
@@ -382,3 +386,5 @@ MainMenu_Continue:
 MainMenu_MysteryGift:
 	farcall MysteryGift
 	ret
+
+endc

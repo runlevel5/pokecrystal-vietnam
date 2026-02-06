@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/items/tmhm.asm"
+else
+
 TMHMPocket:
 	ld a, $1
 	ldh [hInMenu], a
@@ -451,7 +455,7 @@ PlaceMoveNameAfterTMHMName: ; unreferenced
 	ret
 
 TMHM_CancelString:
-	db "HỦY@"
+	db "CANCEL@"
 
 TMHM_GetCurrentPocketPosition:
 	ld hl, wTMsHMs
@@ -552,3 +556,5 @@ CountTMsHMs:
 	ld a, b
 	ld [wTempTMHM], a
 	ret
+
+endc

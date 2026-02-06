@@ -1,10 +1,10 @@
-	db "PHẢN LỰC@" ; species name
-	dw 6, 120 ; height, weight
+	db "JET@" ; species name
+	dw 200, 260 ; height, weight
 
-	db   "Để thoát khỏi kẻ"
-	next "tấn công, nó có"
-	next "thể bắn nước ra"
+	db   "To escape from an"
+	next "attacker, it may"
+	next "shoot water out of"
 
-	page "khỏi miệng, rồi"
-	next "dùng lực đó bơi"
-	next "lùi.@"
+	page "its mouth, then"
+	next "use that force to"
+	next "swim backward.@"

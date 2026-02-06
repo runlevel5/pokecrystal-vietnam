@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokedex/pokedex_2.asm"
+else
+
 AnimateDexSearchSlowpoke:
 	ld hl, .FrameIDs
 	ld b, 25
@@ -99,26 +103,13 @@ DisplayDexEntry:
 	ld de, wTempSpecies
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
 	call PrintNum
-; Check to see if we caught it.
+; Check to see if we caught it.  Get out of here if we haven't.
 	ld a, [wTempSpecies]
 	dec a
 	call CheckCaughtMon
 	pop hl
 	pop bc
-	jr nz, .caught
-; Not caught - display ?.? for height and weight
-	ld a, '?'
-	hlcoord 14, 7  ; height: X.X format, position before dot
-	ld [hli], a
-	inc hl ; skip the dot at position 15
-	ld [hl], a    ; position after dot
-	hlcoord 13, 9  ; weight: XXX.X format (shifted 1 tile right)
-	ld [hli], a
-	ld [hli], a
-	inc hl ; skip the dot at position 15
-	ld [hl], a
-	ret
-.caught
+	ret z
 ; Get the height of the Pokemon.
 	ld a, [wCurPartySpecies]
 	ld [wCurSpecies], a
@@ -137,13 +128,16 @@ DisplayDexEntry:
 	jr z, .skip_height
 	push hl
 	push de
-; Print the height in metric (decimeters), with 1 digit before decimal point
+; Print the height, with two of the four digits in front of the decimal point
 	ld hl, sp+0
 	ld d, h
 	ld e, l
-	hlcoord 14, 7
-	lb bc, 2, (1 << 4) | 2
+	hlcoord 12, 7
+	lb bc, 2, (2 << 4) | 4
 	call PrintNum
+; Replace the decimal point with a ft symbol
+	hlcoord 14, 7
+	ld [hl], $5e
 	pop af
 	pop hl
 
@@ -160,12 +154,12 @@ DisplayDexEntry:
 	or d
 	jr z, .skip_weight
 	push de
-; Print the weight in metric (hectograms), with 3 digits before decimal point
+; Print the weight, with four of the five digits in front of the decimal point
 	ld hl, sp+0
 	ld d, h
 	ld e, l
-	hlcoord 12, 9
-	lb bc, 2, (3 << 4) | 4
+	hlcoord 11, 9
+	lb bc, 2, (4 << 4) | 5
 	call PrintNum
 	pop de
 
@@ -293,3 +287,5 @@ endr
 	ret
 
 INCLUDE "data/pokemon/dex_entry_pointers.asm"
+
+endc

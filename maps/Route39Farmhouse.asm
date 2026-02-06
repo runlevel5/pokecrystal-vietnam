@@ -94,83 +94,82 @@ FarmhouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 FarmerMText_SickCow:
-	text "MILTANK của ông"
-	line "không cho sữa"
-	cont "nữa."
+	text "My MILTANK ain't"
+	line "givin' me milk"
+	cont "n'more."
 
-	para "FARM này nổi tiếng"
-	line "với sữa."
+	para "This here FARM's"
+	line "got famous milk."
 
-	para "Hầu hết mọi người"
-	line "đều muốn uống."
+	para "Most everyone"
+	line "wants a drink."
 
-	para "Nó sẽ cho ông"
-	line "nhiều sữa nếu"
+	para "It'll give me lots"
+	line "o' milk if'n I"
 
-	para "ông cho nó ăn"
-	line "nhiều QUẢ."
+	para "feed it lots o'"
+	line "BERRIES, I reckon."
 	done
 
 FarmerMText_BuyMilk:
-	text "Bạn có muốn SỮA"
-	line "MOOMOO của ông?"
+	text "How'd you like my"
+	line "MOOMOO MILK?"
 
-	para "Đó là niềm tự hào"
-	line "của ông."
+	para "It's my pride and"
+	line "joy, there."
 
-	para "Cho #MON để hồi"
-	line "phục HP!"
+	para "Give it to #MON"
+	line "to restore HP!"
 
-	para "Chỉ có"
-	line "¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."
+	para "I'll give it to ya"
+	line "fer just ¥{d:ROUTE39FARMHOUSE_MILK_PRICE}."
 	done
 
 FarmerMText_GotMilk:
-	text "Của bạn đây!"
-	line "Uống và tận hưởng!"
+	text "Here ya go!"
+	line "Drink up'n enjoy!"
 	done
 
 FarmerMText_NoMoney:
-	text "Xin lỗi nhé."
-	line "Không tiền, không"
-	cont "bán!"
+	text "Sorry, there."
+	line "No cash, no sale!"
 	done
 
 FarmerMText_NoRoom:
-	text "Ông nghĩ BALO của"
-	line "bạn đầy rồi."
+	text "I reckon yer"
+	line "PACK's full."
 	done
 
 FarmerMText_NoSale:
-	text "Bạn không muốn à?"
-	line "Lần sau ghé lại!"
+	text "You don't want it?"
+	line "Come again, hear?"
 	done
 
 FarmerMText_Milking:
-	text "Ông phải đi vắt"
-	line "sữa đây."
+	text "I best go do my"
+	line "milkin'."
 	done
 
 FarmerFText_InTrouble:
-	text "Sữa của chúng tôi"
-	line "cả KANTO mua."
+	text "Our milk even goes"
+	line "out to KANTO."
 
-	para "Vì thế nếu MILTANK"
-	line "không cho sữa,"
+	para "So if our own"
+	line "MILTANK won't give"
 
-	para "chúng tôi gặp"
-	line "rắc rối lắm."
+	para "us any milk, we're"
+	line "in trouble."
 	done
 
 FarmerFText_HealedMiltank:
-	text "Con đã chữa lành"
-	line "MILTANK của bà rồi"
+	text "You fixed our"
+	line "MILTANK, hon. Now"
 
-	para "Bây giờ nó cho SỮA"
-	line "MOOMOO trở lại."
+	para "it gives MOOMOO"
+	line "MILK again."
 
-	para "Đây là phần thưởng"
-	line "cho công của con."
+	para "Here's somethin'"
+	line "fer your trouble."
 	done
 
 Text_ReceivedTM13: ; unreferenced
@@ -179,17 +178,18 @@ Text_ReceivedTM13: ; unreferenced
 	done
 
 FarmerFText_SnoreSpeech:
-	text "Đó là NGÁY."
+	text "That there's"
+	line "SNORE."
 
-	para "Đó là chiêu hiếm"
-	line "chỉ hoạt động"
+	para "It's a rare move"
+	line "that only works"
 
-	para "khi #MON đang"
-	line "ngủ."
+	para "while the #MON"
+	line "is asleep."
 
-	para "Con nên nghĩ cách"
-	line "dùng nó thế nào"
-	cont "nhé."
+	para "You best think how"
+	line "you ought to use"
+	cont "it, hon."
 	done
 
 Route39Farmhouse_MapEvents:

@@ -13,11 +13,11 @@ Route16FuchsiaSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 Route16FuchsiaSpeechHouseSuperNerdText:
-	text "Nếu bạn đạp xe"
-	line "trên ĐƯỜNG ĐUA XE"
+	text "If you cruise down"
+	line "CYCLING ROAD, you"
 
-	para "bạn sẽ đến được"
-	line "TP. FUCHSIA."
+	para "will end up in"
+	line "FUCHSIA CITY."
 	done
 
 Route16FuchsiaSpeechHouse_MapEvents:

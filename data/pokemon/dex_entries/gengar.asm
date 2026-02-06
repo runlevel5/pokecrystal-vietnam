@@ -1,10 +1,10 @@
-	db "BÓNG TỐI@" ; species name
-	dw 15, 405 ; height, weight
+	db "SHADOW@" ; species name
+	dw 411, 890 ; height, weight
 
-	db   "Ẩn trong bóng"
-	next "người ban đêm,"
-	next "nó hút nhiệt."
+	db   "Hiding in people's"
+	next "shadows at night,"
+	next "it absorbs their"
 
-	page "Cái lạnh khiến"
-	next "nạn nhân run rẩy."
-	next "@"
+	page "heat. The chill it"
+	next "causes makes the"
+	next "victims shake.@"

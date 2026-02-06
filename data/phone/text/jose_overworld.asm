@@ -1,71 +1,73 @@
 JoseAskNumber1Text:
-	text "Nếu @"
+	text "If my @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "thấy gì đẹp,"
+	text_start
+	line "sees anything"
 
-	para "nó sẽ đi lấy về."
+	para "pretty, it goes"
+	line "and gets it."
 
-	para "Cậu có thích đồ"
-	line "đẹp không?"
+	para "Do you like pretty"
+	line "things?"
 
-	para "Tớ có thể chia nếu"
-	line "nó lấy được nhiều."
+	para "I could share if"
+	line "it gets some more."
 
-	para "SĐT của cậu là gì?"
-	line "Tớ sẽ gọi."
+	para "What's your phone"
+	line "number? I'll call."
 
-	para "Đừng kỳ vọng quá"
-	line "nhiều nhé?"
+	para "Don't expect a"
+	line "whole lot, OK?"
 	done
 
 JoseAskNumber2Text:
-	text "Cậu có thích đồ"
-	line "đẹp không?"
+	text "Do you like pretty"
+	line "things?"
 
-	para "Tớ có thể chia nếu"
-	line "FARFETCH'D lấy về"
-	cont "nhiều."
+	para "I could share if"
+	line "FARFETCH'D goes"
+	cont "and gets more."
 
-	para "SĐT của cậu là gì?"
-	line "Tớ sẽ gọi."
+	para "What's your phone"
+	line "number? I'll call."
 	done
 
 JoseNumberAcceptedText:
-	text "Tớ sẽ gọi ngay khi"
-	line "có gì đẹp."
+	text "I'll call you as"
+	line "soon as I get"
+	cont "something pretty."
 	done
 
 JoseNumberDeclinedText:
-	text "Cậu chắc? Thôi,"
-	line "nói cho tớ nếu"
-	cont "cậu đổi ý."
+	text "You sure? Well,"
+	line "tell me if you"
+	cont "change your mind."
 	done
 
 JosePhoneFullText:
-	text "Hả? Danh sách"
-	line "điện thoại đầy."
+	text "Huh? Your phone"
+	line "list is full."
 	done
 
 JoseRematchText:
 	text "Tweet! Tweeeet!"
 
-	para "Để tớ đợi lâu!"
-	line "Đi nào, FARFETCH'D"
+	para "Kept me waiting!"
+	line "Go, FARFETCH'D!"
 	done
 
 JoseGiftText:
-	text "Để tớ đợi lâu!"
-	line "Nhìn này, đây rồi!"
+	text "Kept me waiting!"
+	line "Look, this is it!"
 
-	para "Thấy không? Đẹp"
-	line "chứ?"
+	para "See? Isn't it some"
+	line "kind of pretty?"
 	done
 
 JosePackFullText:
-	text "Hả? Cậu không có"
-	line "chỗ để đồ."
+	text "Huh? You don't"
+	line "have anywhere to"
 
-	para "Quay lại lấy sau"
-	line "nhé."
+	para "put this. Better"
+	line "come back for it."
 	done

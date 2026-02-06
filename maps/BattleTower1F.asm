@@ -348,183 +348,183 @@ MovementData_BattleTowerBattleRoomPlayerTurnsToFaceNextOpponent:
 	step_end
 
 Text_BattleTowerWelcomesYou:
-	text "THÁP ĐẤU"
-	line "chào mừng bạn!"
+	text "BATTLE TOWER"
+	line "welcomes you!"
 
-	para "Tôi có thể dẫn"
-	line "bạn đến PHÒNG ĐẤU"
+	para "I could show you"
+	line "to a BATTLE ROOM."
 	done
 
 Text_WantToGoIntoABattleRoom:
-	text "Bạn có muốn vào"
-	line "PHÒNG ĐẤU không?"
+	text "Want to go into a"
+	line "BATTLE ROOM?"
 	done
 
 Text_RightThisWayToYourBattleRoom:
-	text "Mời bạn đi bên"
-	line "này đến PHÒNG ĐẤU"
+	text "Right this way to"
+	line "your BATTLE ROOM."
 	done
 
 Text_BattleTowerIntroduction_1: ; unreferenced
-	text "THÁP ĐẤU là một"
-	line "cơ sở được tạo ra"
-	cont "cho trận #MON."
+	text "BATTLE TOWER is a"
+	line "facility made for"
+	cont "#MON battles."
 
-	para "Vô số HLV #MON"
-	line "tụ họp từ khắp"
+	para "Countless #MON"
+	line "trainers gather"
 
-	para "nơi để tham gia"
-	line "trận đấu trong"
+	para "from all over to"
+	line "hold battles in"
 
-	para "PHÒNG ĐẤU được"
-	line "thiết kế đặc biệt"
+	para "specially designed"
+	line "BATTLE ROOMS."
 
-	para "Có rất nhiều"
-	line "PHÒNG ĐẤU trong"
-	cont "THÁP ĐẤU."
+	para "There are many"
+	line "BATTLE ROOMS in"
+	cont "the BATTLE TOWER."
 
-	para "Mỗi PHÒNG có"
-	line "bảy HLV."
+	para "Each ROOM holds"
+	line "seven trainers."
 
-	para "Nếu bạn đánh bại"
-	line "bảy HLV trong một"
+	para "If you defeat the"
+	line "seven in a ROOM,"
 
-	para "PHÒNG, và có thành"
-	line "tích tốt, bạn có"
+	para "and you have a"
+	line "good record, you"
 
-	para "thể trở thành"
-	line "THỦLĨNH PHÒNG đó."
+	para "could become the"
+	line "ROOM's LEADER."
 
-	para "Mọi THỦLĨNH sẽ"
-	line "được ghi vào"
+	para "All LEADERS will"
+	line "be recorded in the"
 
-	para "BẢNG DANH DỰ để"
-	line "lưu lại hậu thế."
+	para "HONOR ROLL for"
+	line "posterity."
 
-	para "Bạn có thể thách"
-	line "đấu tối đa năm"
+	para "You may challenge"
+	line "in up to five"
 
-	para "PHÒNG ĐẤU mỗi"
-	line "ngày."
+	para "BATTLE ROOMS each"
+	line "day."
 
-	para "Tuy nhiên, bạn chỉ"
-	line "có thể đấu một lần"
+	para "However, you may"
+	line "battle only once a"
 
-	para "mỗi ngày trong"
-	line "mỗi PHÒNG."
+	para "day in any given"
+	line "ROOM."
 
-	para "Để tạm ngưng, bạn"
-	line "phải LƯU GAME."
+	para "To interrupt a"
+	line "session, you must"
 
-	para "Nếu không, bạn"
-	line "sẽ không thể tiếp"
+	para "SAVE. If not, you"
+	line "won't be able to"
 
-	para "tục thử thách"
-	line "PHÒNG của mình."
+	para "resume your ROOM"
+	line "challenge."
 
 	para ""
 	done
 
 Text_BattleTowerIntroduction_2:
-	text "THÁP ĐẤU là một"
-	line "cơ sở được tạo ra"
-	cont "cho trận #MON."
+	text "BATTLE TOWER is a"
+	line "facility made for"
+	cont "#MON battles."
 
-	para "Vô số HLV #MON"
-	line "tụ họp từ khắp"
+	para "Countless #MON"
+	line "trainers gather"
 
-	para "nơi để tham gia"
-	line "trận đấu trong"
+	para "from all over to"
+	line "hold battles in"
 
-	para "PHÒNG ĐẤU được"
-	line "thiết kế đặc biệt"
+	para "specially designed"
+	line "BATTLE ROOMS."
 
-	para "Có rất nhiều"
-	line "PHÒNG ĐẤU trong"
-	cont "THÁP ĐẤU."
+	para "There are many"
+	line "BATTLE ROOMS in"
+	cont "the BATTLE TOWER."
 
-	para "Mỗi PHÒNG có"
-	line "bảy HLV."
+	para "Each ROOM holds"
+	line "seven trainers."
 
-	para "Đánh bại tất cả,"
-	line "và nhận giải!"
+	para "Beat them all, and"
+	line "win a prize."
 
-	para "Để tạm ngưng, bạn"
-	line "phải LƯU GAME."
+	para "To interrupt a"
+	line "session, you must"
 
-	para "Nếu không, bạn"
-	line "sẽ không thể tiếp"
+	para "SAVE. If not, you"
+	line "won't be able to"
 
-	para "tục thử thách"
-	line "PHÒNG của mình."
+	para "resume your ROOM"
+	line "challenge."
 
 	para ""
 	done
 
 Text_ReceivedAListOfLeadersOnTheHonorRoll:
-	text "Đã nhận danh sách"
-	line "THỦLĨNH trên"
-	cont "BẢNG DANH DỰ."
+	text "Received a list of"
+	line "LEADERS on the"
+	cont "HONOR ROLL."
 
 	para ""
 	done
 
 Text_PleaseConfirmOnThisMonitor:
-	text "Vui lòng xác nhận"
-	line "trên màn hình này"
+	text "Please confirm on"
+	line "this monitor."
 	done
 
 Text_ThankYou: ; unreferenced
-	text "Cảm ơn bạn!"
+	text "Thank you!"
 
 	para ""
 	done
 
 Text_ThanksForVisiting:
-	text "Cảm ơn đã"
-	line "ghé thăm!"
+	text "Thanks for"
+	line "visiting!"
 	done
 
 Text_BeatenAllTheTrainers_Mobile: ; unreferenced
-	text "Chúc mừng!"
+	text "Congratulations!"
 
-	para "Bạn đã đánh bại"
-	line "tất cả HLV!"
+	para "You've beaten all"
+	line "the trainers!"
 
-	para "Thành tích của bạn"
-	line "có thể được ghi"
+	para "Your feat may be"
+	line "worth registering,"
 
-	para "lại, <PLAYER>. Với"
-	line "kết quả này, bạn"
+	para "<PLAYER>. With your"
+	line "results, you may"
 
-	para "có thể được chọn"
-	line "làm THỦLĨNH PHÒNG"
+	para "be chosen as a"
+	line "ROOM LEADER."
 
 	para ""
 	done
 
 Text_CongratulationsYouveBeatenAllTheTrainers:
-	text "Chúc mừng!"
+	text "Congratulations!"
 
-	para "Bạn đã đánh bại"
-	line "tất cả HLV!"
+	para "You've beaten all"
+	line "the trainers!"
 
-	para "Vì thế, bạn nhận"
-	line "phần thưởng này!"
+	para "For that, you get"
+	line "this great prize!"
 
 	para ""
 	done
 
 Text_AskRegisterRecord_Mobile: ; unreferenced
-	text "Bạn có muốn ghi"
-	line "lại thành tích"
+	text "Would you like to"
+	line "register your"
 
-	para "của mình với"
-	line "TRUNG TÂM không?"
+	para "record with the"
+	line "CENTER?"
 	done
 
 Text_PlayerGotFive:
-	text "<PLAYER> nhận năm"
+	text "<PLAYER> got five"
 	line "@"
 	text_ram wStringBuffer4
 	text "!@"
@@ -533,259 +533,263 @@ Text_PlayerGotFive:
 	text_end
 
 Text_YourPackIsStuffedFull:
-	text "Ối, TÚI của bạn"
-	line "đã đầy."
+	text "Oops, your PACK is"
+	line "stuffed full."
 
-	para "Xin hãy dọn chỗ"
-	line "và quay lại."
+	para "Please make room"
+	line "and come back."
 	done
 
 Text_YourRegistrationIsComplete: ; unreferenced
-	text "Đăng ký của bạn"
-	line "đã hoàn tất."
+	text "Your registration"
+	line "is complete."
 
-	para "Hẹn gặp lại!"
+	para "Please come again!"
 	done
 
 Text_WeHopeToServeYouAgain:
-	text "Mong được phục vụ"
-	line "bạn lần nữa."
+	text "We hope to serve"
+	line "you again."
 	done
 
 Text_PleaseStepThisWay:
-	text "Mời bạn đi bên"
-	line "này."
+	text "Please step this"
+	line "way."
 	done
 
 Text_WouldYouLikeToHearAboutTheBattleTower:
-	text "Bạn có muốn nghe"
-	line "về THÁP ĐẤU"
-	cont "không?"
+	text "Would you like to"
+	line "hear about the"
+	cont "BATTLE TOWER?"
 	done
 
 Text_CantBeRegistered:
-	text "Thành tích từ"
-	line "PHÒNG ĐẤU trước"
+	text "Your record from"
+	line "the previous"
 
-	para "không thể ghi lại"
-	line "Được chứ?"
+	para "BATTLE ROOM can't"
+	line "be registered. OK?"
 	done
 
 Text_CantBeRegistered_PreviousRecordDeleted:
-	text "Thành tích từ"
-	line "PHÒNG ĐẤU trước"
+	text "Your record from"
+	line "the previous"
 
-	para "không thể ghi lại"
+	para "BATTLE ROOM can't"
+	line "be registered."
 
-	para "Hơn nữa, thành"
-	line "tích hiện có sẽ"
-	cont "bị xóa. Được chứ?"
+	para "Also, the existing"
+	line "record will be"
+	cont "deleted. OK?"
 	done
 
 Text_CheckTheLeaderHonorRoll: ; unreferenced
-	text "Xem BẢNG DANH DỰ"
-	line "THỦLĨNH không?"
+	text "Check the LEADER"
+	line "HONOR ROLL?"
 	done
 
 Text_ReadBattleTowerRules:
-	text "Luật THÁP ĐẤU"
-	line "được viết ở đây."
+	text "BATTLE TOWER rules"
+	line "are written here."
 
-	para "Đọc luật chứ?"
+	para "Read the rules?"
 	done
 
 Text_BattleTowerRules:
-	text "Ba #MON có thể"
-	line "tham gia trận đấu"
+	text "Three #MON may"
+	line "enter battles."
 
-	para "Cả ba phải khác"
-	line "nhau."
+	para "All three must be"
+	line "different."
 
-	para "Đồ họ mang cũng"
-	line "phải khác nhau."
+	para "The items they"
+	line "hold must also be"
+	cont "different."
 
-	para "Một số #MON có"
-	line "thể bị giới hạn"
+	para "Certain #MON"
+	line "may also have"
 
-	para "cấp độ trong"
-	line "một số PHÒNG."
+	para "level restrictions"
+	line "placed on them."
 	done
 
 Text_BattleTower_LeftWithoutSaving:
-	text "Xin lỗi!"
-	line "Bạn đã không LƯU"
+	text "Excuse me!"
+	line "You didn't SAVE"
 
-	para "trước khi thoát"
-	line "PHÒNG ĐẤU."
+	para "before exiting"
+	line "the BATTLE ROOM."
 
-	para "Tôi rất xin lỗi,"
-	line "nhưng thử thách"
+	para "I'm awfully sorry,"
+	line "but your challenge"
 
-	para "của bạn sẽ bị"
-	line "tuyên bố vô hiệu."
+	para "will be declared"
+	line "invalid."
 	done
 
 Text_YourMonWillBeHealedToFullHealth:
-	text "#MON của bạn"
-	line "sẽ được hồi phục"
-	cont "toàn bộ máu."
+	text "Your #MON will"
+	line "be healed to full"
+	cont "health."
 	done
 
 Text_NextUpOpponentNo:
-	text "Tiếp theo, đối thủ"
-	line "số @"
+	text "Next up, opponent"
+	line "no.@"
 	text_ram wStringBuffer3
-	text ". Sẵn sàng?"
+	text ". Ready?"
 	done
 
 Text_SaveBeforeConnecting_Mobile: ; unreferenced
-	text "Tiến trình của bạn"
-	line "sẽ được LƯU trước"
+	text "Your session will"
+	line "be SAVED before"
 
-	para "khi kết nối với"
-	line "TRUNG TÂM."
+	para "connecting with"
+	line "the CENTER."
 	done
 
 Text_SaveBeforeEnteringBattleRoom:
-	text "Trước khi vào"
-	line "PHÒNG ĐẤU,"
+	text "Before entering"
+	line "the BATTLE ROOM,"
 
-	para "tiến trình của bạn"
-	line "sẽ được lưu lại."
+	para "your progress will"
+	line "be saved."
 	done
 
 Text_SaveAndEndTheSession:
-	text "LƯU và kết thúc"
-	line "phiên chơi?"
+	text "SAVE and end the"
+	line "session?"
 	done
 
 Text_SaveBeforeReentry:
-	text "Thành tích của bạn"
-	line "sẽ được LƯU trước"
+	text "Your record will"
+	line "be SAVED before"
 
-	para "khi bạn quay lại"
-	line "PHÒNG trước đó."
+	para "you go back into"
+	line "the previous ROOM."
 	done
 
 Text_CancelYourBattleRoomChallenge:
-	text "Hủy thử thách"
-	line "PHÒNG ĐẤU của bạn"
+	text "Cancel your BATTLE"
+	line "ROOM challenge?"
 	done
 
 Text_RegisterRecordOnFile_Mobile: ; unreferenced
-	text "Chúng tôi có thành"
-	line "tích trước của bạn"
+	text "We have your"
+	line "previous record on"
 
-	para "Bạn có muốn ghi nó"
-	line "tại TRUNG TÂM"
-	cont "không?"
+	para "file. Would you"
+	line "like to register"
+	cont "it at the CENTER?"
 	done
 
 Text_WeveBeenWaitingForYou:
-	text "Chúng tôi đang đợi"
-	line "bạn. Mời đi bên"
+	text "We've been waiting"
+	line "for you. This way"
 
-	para "này đến PHÒNG ĐẤU,"
-	line "nhé."
+	para "to a BATTLE ROOM,"
+	line "please."
 	done
 
 Text_FiveDayBattleLimit_Mobile:
-	text "Bạn chỉ được vào"
-	line "năm PHÒNG ĐẤU"
-	cont "mỗi ngày."
+	text "You may enter only"
+	line "five BATTLE ROOMS"
+	cont "each day."
 
-	para "Xin hãy quay lại"
-	line "vào ngày mai."
+	para "Please come back"
+	line "tomorrow."
 	done
 
 Text_TooMuchTimeElapsedNoRegister:
-	text "Xin lỗi, không thể"
-	line "ghi lại thành tích"
+	text "Sorry, but it's"
+	line "not possible to"
 
-	para "hiện tại của bạn"
-	line "tại TRUNG TÂM vì"
+	para "register your"
+	line "current record at"
 
-	para "đã hết quá nhiều"
-	line "thời gian kể từ"
+	para "the CENTER because"
+	line "too much time has"
 
-	para "khi bắt đầu thử"
-	line "thách của bạn."
+	para "elapsed since the"
+	line "start of your"
+	cont "challenge."
 	done
 
 Text_RegisterRecordTimedOut_Mobile: ; unreferenced
 ; duplicate of Text_TooMuchTimeElapsedNoRegister
-	text "Xin lỗi, không thể"
-	line "ghi lại thành tích"
+	text "Sorry, but it's"
+	line "not possible to"
 
-	para "gần nhất của bạn"
-	line "tại TRUNG TÂM vì"
+	para "register your most"
+	line "recent record at"
 
-	para "đã hết quá nhiều"
-	line "thời gian kể từ"
+	para "the CENTER because"
+	line "too much time has"
 
-	para "khi bắt đầu thử"
-	line "thách của bạn."
+	para "elapsed since the"
+	line "start of your"
+	cont "challenge."
 	done
 
 Text_AMonLevelExceeds:
-	text "Một hoặc nhiều"
-	line "cấp #MON của"
-	cont "bạn vượt quá @"
+	text "One or more of"
+	line "your #MON's"
+	cont "levels exceeds @"
 	text_decimal wScriptVar, 1, 3
 	text "."
 	done
 
 Text_MayNotEnterABattleRoomUnderL70:
 	text_ram wcd49
-	text " không thể"
-	line "vào PHÒNG ĐẤU"
-	cont "dưới L70."
+	text " may not"
+	line "enter a BATTLE"
+	cont "ROOM under L70."
 
-	para "PHÒNG ĐẤU này"
-	line "dành cho L@"
+	para "This BATTLE ROOM"
+	line "is for L@"
 	text_decimal wScriptVar, 1, 3
 	text "."
 	done
 
 Text_BattleTowerYoungster:
-	text "Bị đối thủ đầu"
-	line "tiên phá tan tành"
+	text "Destroyed by the"
+	line "first opponent in"
 
-	para "trong chốc lát…"
-	line "Tôi kém quá…"
+	para "no time at all…"
+	line "I'm no good…"
 	done
 
 Text_BattleTowerCooltrainerF:
-	text "Có rất nhiều"
-	line "PHÒNG ĐẤU, nhưng"
+	text "There are lots of"
+	line "BATTLE ROOMS, but"
 
-	para "tôi sẽ thắng tất"
-	line "cả chúng!"
+	para "I'm going to win"
+	line "them all!"
 	done
 
 Text_BattleTowerGranny:
-	text "Thật là một nhiệm"
-	line "vụ khắc nghiệt,"
+	text "It's a grueling"
+	line "task, not being"
 
-	para "không thể dùng đồ"
-	line "trong trận đấu."
+	para "able to use items"
+	line "in battle."
 
-	para "Việc cho #MON"
-	line "mang đồ là chìa"
+	para "Making your"
+	line "#MON hold items"
 
-	para "khóa để thắng"
-	line "trận đấu."
+	para "is the key to"
+	line "winning battles."
 	done
 
 Text_BattleTowerBugCatcher:
-	text "Tôi đang thử xem"
-	line "mình đi xa được"
+	text "I'm trying to see"
+	line "how far I can go"
 
-	para "đến đâu chỉ dùng"
-	line "#MON sâu bọ."
+	para "using just bug"
+	line "#MON."
 
-	para "Đừng có #MON"
-	line "lửa nào nhé…"
+	para "Don't let there be"
+	line "any fire #MON…"
 	done
 
 BattleTower1F_MapEvents:

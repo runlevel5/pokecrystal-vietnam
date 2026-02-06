@@ -166,7 +166,6 @@ CyndaquilPokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
-	getmonname STRING_BUFFER_3, CYNDAQUIL
 	writetext TakeCyndaquilText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -197,7 +196,6 @@ TotodilePokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
-	getmonname STRING_BUFFER_3, TOTODILE
 	writetext TakeTotodileText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -226,7 +224,6 @@ ChikoritaPokeBallScript:
 	waitbutton
 	closepokepic
 	opentext
-	getmonname STRING_BUFFER_3, CHIKORITA
 	writetext TakeChikoritaText
 	yesorno
 	iffalse DidntChooseStarterScript
@@ -727,631 +724,648 @@ AfterChikoritaMovement:
 	step_end
 
 ElmText_Intro:
-	text "<PLAY_G>!"
-	line "Con đến rồi à!"
+	text "ELM: <PLAY_G>!"
+	line "There you are!"
 
-	para "Thầy cần nhờ con"
-	line "một việc."
+	para "I needed to ask"
+	line "you a favor."
 
-	para "Thầy đang nghiên"
-	line "cứu #MON mới."
+	para "I'm conducting new"
+	line "#MON research"
 
-	para "Thầy muốn hỏi con"
-	line "có thể giúp thầy"
+	para "right now. I was"
+	line "wondering if you"
 
-	para "được không,"
-	line "<PLAY_G>."
+	para "could help me with"
+	line "it, <PLAY_G>."
 
-	para "Con thấy đấy…"
+	para "You see…"
 
-	para "Thầy đang viết bài"
-	line "để trình bày tại"
+	para "I'm writing a"
+	line "paper that I want"
 
-	para "một hội nghị."
+	para "to present at a"
+	line "conference."
 
-	para "Nhưng vẫn còn vài"
-	line "điều thầy chưa"
+	para "But there are some"
+	line "things I don't"
 
-	para "hiểu rõ lắm."
+	para "quite understand"
+	line "yet."
 
-	para "Vậy nên!"
+	para "So!"
 
-	para "Thầy muốn con nuôi"
-	line "một #MON mà"
+	para "I'd like you to"
+	line "raise a #MON"
 
-	para "thầy mới bắt được."
+	para "that I recently"
+	line "caught."
 	done
 
 ElmText_Accepted:
-	text "Cảm ơn, <PLAY_G>!"
+	text "Thanks, <PLAY_G>!"
 
-	para "Con giúp thầy"
-	line "nhiều lắm!"
+	para "You're a great"
+	line "help!"
 	done
 
 ElmText_Refused:
-	text "Nhưng… Làm ơn,"
-	line "thầy cần con giúp!"
+	text "But… Please, I"
+	line "need your help!"
 	done
 
 ElmText_ResearchAmbitions:
-	text "Khi thầy công bố"
-	line "phát hiện, chắc"
+	text "When I announce my"
+	line "findings, I'm sure"
 
-	para "chắn ta sẽ hiểu"
-	line "sâu hơn về nhiều"
+	para "we'll delve a bit"
+	line "deeper into the"
 
-	para "bí ẩn của #MON."
+	para "many mysteries of"
+	line "#MON."
 
-	para "Con cứ tin đi!"
+	para "You can count on"
+	line "it!"
 	done
 
 ElmText_GotAnEmail:
-	text "Ồ, này! Thầy có"
-	line "e-mail mới!"
+	text "Oh, hey! I got an"
+	line "e-mail!"
 
 	para "<……><……><……>"
-	line "Hm… Ừ-hứ…"
+	line "Hm… Uh-huh…"
 
-	para "OK…"
+	para "Okay…"
 	done
 
 ElmText_MissionFromMrPokemon:
-	text "Này, nghe đây."
+	text "Hey, listen."
 
-	para "Thầy có quen một"
-	line "người tên"
-	cont "ÔNG #MON."
+	para "I have an acquain-"
+	line "tance called MR."
+	cont "#MON."
 
-	para "Ông ấy hay tìm"
-	line "được thứ lạ và"
+	para "He keeps finding"
+	line "weird things and"
 
-	para "kể về phát hiện"
-	line "của mình."
+	para "raving about his"
+	line "discoveries."
 
-	para "Vừa rồi thầy nhận"
-	line "được e-mail nói"
+	para "Anyway, I just got"
+	line "an e-mail from him"
 
-	para "rằng lần này"
-	line "là thật."
+	para "saying that this"
+	line "time it's real."
 
-	para "Nghe hấp dẫn đấy,"
-	line "nhưng bọn thầy"
+	para "It is intriguing,"
+	line "but we're busy"
 
-	para "đang bận nghiên"
-	line "cứu #MON…"
+	para "with our #MON"
+	line "research…"
 
-	para "Khoan!"
+	para "Wait!"
 
-	para "Thầy biết rồi!"
+	para "I know!"
 
-	para "<PLAY_G>, con có"
-	line "thể đi thay không?"
+	para "<PLAY_G>, can you"
+	line "go in our place?"
 	done
 
 ElmText_ChooseAPokemon:
-	text "Thầy muốn con nuôi"
-	line "một trong những"
+	text "I want you to"
+	line "raise one of the"
 
-	para "#MON trong"
-	line "các BÓNG này."
+	para "#MON contained"
+	line "in these BALLS."
 
-	para "Con sẽ là người"
-	line "bạn đầu tiên của"
-	cont "#MON đó,"
-	cont "<PLAY_G>!"
+	para "You'll be that"
+	line "#MON's first"
+	cont "partner, <PLAY_G>!"
 
-	para "Nào. Chọn một đi!"
+	para "Go on. Pick one!"
 	done
 
 ElmText_LetYourMonBattleIt:
-	text "Nếu gặp #MON"
-	line "hoang dã, cho"
-	cont "#MON con đánh!"
+	text "If a wild #MON"
+	line "appears, let your"
+	cont "#MON battle it!"
 	done
 
 LabWhereGoingText:
-	text "Khoan! Con"
-	line "định đi đâu vậy?"
+	text "ELM: Wait! Where"
+	line "are you going?"
 	done
 
 TakeCyndaquilText:
-	text "Con chọn"
-	line "@"
-	text_ram wStringBuffer3
-	text ", #MON"
-	cont "hệ lửa chứ?"
+	text "ELM: You'll take"
+	line "CYNDAQUIL, the"
+	cont "fire #MON?"
 	done
 
 TakeTotodileText:
-	text "Con muốn"
-	line "@"
-	text_ram wStringBuffer3
-	text ", #MON"
-	cont "hệ nước chứ?"
+	text "ELM: Do you want"
+	line "TOTODILE, the"
+	cont "water #MON?"
 	done
 
 TakeChikoritaText:
-	text "Vậy con thích"
-	line "@"
-	text_ram wStringBuffer3
-	text ", #MON"
-	cont "hệ cỏ chứ?"
+	text "ELM: So, you like"
+	line "CHIKORITA, the"
+	cont "grass #MON?"
 	done
 
 DidntChooseStarterText:
-	text "Suy nghĩ kỹ đi nhé"
-	para "Bạn đồng hành rất"
-	line "quan trọng đấy."
+	text "ELM: Think it over"
+	line "carefully."
+
+	para "Your partner is"
+	line "important."
 	done
 
 ChoseStarterText:
-	text "Thầy cũng"
-	line "nghĩ đó là #MON"
-	cont "tuyệt vời!"
+	text "ELM: I think"
+	line "that's a great"
+	cont "#MON too!"
 	done
 
 ReceivedStarterText:
-	text "<PLAYER> nhận được"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer3
 	text "!"
 	done
 
 ElmDirectionsText1:
-	text "ÔNG #MON"
-	line "sống hơi xa hơn"
+	text "MR.#MON lives a"
+	line "little bit beyond"
 
-	para "CHERRYGROVE, thành"
-	line "phố kế bên."
+	para "CHERRYGROVE, the"
+	line "next city over."
 
-	para "Đường đi gần như"
-	line "thẳng nên con"
+	para "It's almost a"
+	line "direct route"
 
-	para "không thể lạc"
-	line "được."
+	para "there, so you"
+	line "can't miss it."
 
-	para "Nhưng phòng khi,"
-	line "đây là số điện"
+	para "But just in case,"
+	line "here's my phone"
 
-	para "thoại thầy. Gọi"
-	line "nếu có chuyện gì!"
+	para "number. Call me if"
+	line "anything comes up!"
 	done
 
 ElmDirectionsText2:
-	text "Nếu #MON con bị"
-	line "thương, con có"
+	text "If your #MON is"
+	line "hurt, you should"
 
-	para "thể hồi phục bằng"
-	line "máy này."
+	para "heal it with this"
+	line "machine."
 
-	para "Cứ thoải mái dùng"
-	line "bất cứ lúc nào."
+	para "Feel free to use"
+	line "it anytime."
 	done
 
 ElmDirectionsText3:
-	text "<PLAY_G>, thầy"
-	line "trông cậy vào con!"
+	text "<PLAY_G>, I'm"
+	line "counting on you!"
 	done
 
 GotElmsNumberText:
-	text "<PLAYER> có số"
-	line "của GS ELM."
+	text "<PLAYER> got ELM's"
+	line "phone number."
 	done
 
 ElmDescribesMrPokemonText:
-	text "ÔNG #MON"
-	line "hay đi khắp nơi"
-	cont "và tìm đồ hiếm."
+	text "MR.#MON goes"
+	line "everywhere and"
+	cont "finds rarities."
 
-	para "Tiếc là chúng chỉ"
-	line "hiếm thôi chứ"
-	cont "không hữu ích…"
+	para "Too bad they're"
+	line "just rare and"
+	cont "not very useful…"
 	done
 
 ElmPokeBallText:
-	text "Bên trong là"
-	line "#MON do GS"
-	cont "ELM bắt được."
+	text "It contains a"
+	line "#MON caught by"
+	cont "PROF.ELM."
 	done
 
 ElmsLabHealingMachineText1:
-	text "Không biết cái này"
-	line "dùng để làm gì?"
+	text "I wonder what this"
+	line "does?"
 	done
 
 ElmsLabHealingMachineText2:
-	text "Bạn muốn hồi phục"
-	line "#MON không?"
+	text "Would you like to"
+	line "heal your #MON?"
 	done
 
 ElmAfterTheftText1:
-	text "<PLAY_G>,"
-	line "thật khủng khiếp…"
+	text "ELM: <PLAY_G>, this"
+	line "is terrible…"
 
-	para "À đúng rồi, phát"
-	line "hiện của ÔNG"
-	cont "#MON là gì?"
+	para "Oh, yes, what was"
+	line "MR.#MON's big"
+	cont "discovery?"
 	done
 
 ElmAfterTheftText2:
-	text "<PLAYER> đưa TRỨNG"
-	line "BÍ ẨN cho GS"
-	cont "ELM."
+	text "<PLAYER> handed"
+	line "the MYSTERY EGG to"
+	cont "PROF.ELM."
 	done
 
 ElmAfterTheftText3:
-	text "Cái này?"
+	text "ELM: This?"
 	done
 
 ElmAfterTheftText4:
-	text "Nhưng… Đây là"
-	line "TRỨNG #MON sao?"
+	text "But… Is it a"
+	line "#MON EGG?"
 
-	para "Nếu đúng, đây là"
-	line "phát hiện lớn!"
+	para "If it is, it is a"
+	line "great discovery!"
 	done
 
 ElmAfterTheftText5:
-	text "Gì cơ?!?"
+	text "ELM: What?!?"
 
-	para "GS OAK cho con"
-	line "#DEX á?"
+	para "PROF.OAK gave you"
+	line "a #DEX?"
 
-	para "<PLAY_G>, thật"
-	line "không? Thật là"
-	cont "đáng kinh ngạc!"
+	para "<PLAY_G>, is that"
+	line "true? Th-that's"
+	cont "incredible!"
 
-	para "Ông ấy rất giỏi"
-	line "nhìn thấy tiềm"
-	cont "năng của huấn"
-	cont "luyện viên."
+	para "He is superb at"
+	line "seeing the poten-"
+	cont "tial of people as"
+	cont "trainers."
 
-	para "Ồ, <PLAY_G>. Con"
-	line "có thể trở thành"
+	para "Wow, <PLAY_G>. You"
+	line "may have what it"
 
-	para "NHÀ VÔ ĐỊCH đấy."
+	para "takes to become"
+	line "the CHAMPION."
 
-	para "Con có vẻ hợp"
-	line "với #MON lắm."
+	para "You seem to be"
+	line "getting on great"
+	cont "with #MON too."
 
-	para "Con nên thử thách"
-	line "GYM #MON đi."
+	para "You should take"
+	line "the #MON GYM"
+	cont "challenge."
 
-	para "GYM gần nhất là ở"
-	line "TP. VIOLET."
+	para "The closest GYM"
+	line "would be the one"
+	cont "in VIOLET CITY."
 	done
 
 ElmAfterTheftText6:
-	text "…<PLAY_G>. Con"
-	line "đường đến vô địch"
+	text "…<PLAY_G>. The"
+	line "road to the"
 
-	para "sẽ còn dài lắm."
+	para "championship will"
+	line "be a long one."
 
-	para "Trước khi đi, nhớ"
-	line "nói chuyện với"
-	cont "mẹ con nhé."
+	para "Before you leave,"
+	line "make sure that you"
+	cont "talk to your mom."
 	done
 
 ElmStudyingEggText:
-	text "Đừng bỏ cuộc!"
-	line "Thầy sẽ gọi nếu"
+	text "ELM: Don't give"
+	line "up! I'll call if"
 
-	para "biết gì về TRỨNG"
-	line "đó!"
+	para "I learn anything"
+	line "about that EGG!"
 	done
 
 ElmAideHasEggText:
 	text "ELM: <PLAY_G>?"
-	line "Con không gặp trợ"
-	cont "lý của thầy à?"
+	line "Didn't you meet my"
+	cont "assistant?"
 
-	para "Anh ấy đáng lẽ"
-	line "gặp con với TRỨNG"
+	para "He should have met"
+	line "you with the EGG"
 
-	para "tại TT #MON"
-	line "TP. VIOLET."
+	para "at VIOLET CITY's"
+	line "#MON CENTER."
 
-	para "Chắc con vừa lỡ"
-	line "thôi. Thử gặp anh"
-	cont "ấy ở đó xem."
+	para "You must have just"
+	line "missed him. Try to"
+	cont "catch him there."
 	done
 
 ElmWaitingEggHatchText:
-	text "ELM: Này, TRỨNG"
-	line "có thay đổi gì"
-	cont "chưa?"
+	text "ELM: Hey, has that"
+	line "EGG changed any?"
 	done
 
 ElmThoughtEggHatchedText:
-	text "<PLAY_G>? Thầy"
-	line "tưởng TRỨNG nở"
-	cont "rồi mà."
+	text "<PLAY_G>? I thought"
+	line "the EGG hatched."
 
-	para "#MON đâu rồi?"
+	para "Where is the"
+	line "#MON?"
 	done
 
 ShowElmTogepiText1:
-	text "ELM: <PLAY_G>, con"
-	line "trông khỏe quá!"
+	text "ELM: <PLAY_G>, you"
+	line "look great!"
 	done
 
 ShowElmTogepiText2:
-	text "Gì?!? #MON đó!?"
+	text "What?"
+	line "That #MON!?!"
 	done
 
 ShowElmTogepiText3:
-	text "TRỨNG đã nở!"
-	line "Vậy #MON sinh"
-	cont "ra từ TRỨNG…"
+	text "The EGG hatched!"
+	line "So, #MON are"
+	cont "born from EGGS…"
 
-	para "Không, có lẽ không"
-	line "phải tất cả."
+	para "No, perhaps not"
+	line "all #MON are."
 
-	para "Ồ, còn rất nhiều"
-	line "thứ cần nghiên"
-	cont "cứu."
+	para "Wow, there's still"
+	line "a lot of research"
+	cont "to be done."
 	done
 
 ElmGiveEverstoneText1:
-	text "Cảm ơn, <PLAY_G>!"
-	line "Con đang giúp giải"
+	text "Thanks, <PLAY_G>!"
+	line "You're helping"
 
-	para "bí ẩn #MON cho"
-	line "bọn thầy!"
+	para "unravel #MON"
+	line "mysteries for us!"
 
-	para "Thầy muốn tặng con"
-	line "thứ này để cảm ơn."
+	para "I want you to have"
+	line "this as a token of"
+	cont "our appreciation."
 	done
 
 ElmGiveEverstoneText2:
-	text "Đó là ĐÁ BẤT BIẾN."
+	text "That's an"
+	line "EVERSTONE."
 
-	para "Một số #MON sẽ"
-	line "tiến hóa khi đạt"
+	para "Some species of"
+	line "#MON evolve"
 
-	para "cấp độ nhất định."
+	para "when they grow to"
+	line "certain levels."
 
-	para "#MON giữ ĐÁ"
-	line "BẤT BIẾN sẽ"
-	cont "không tiến hóa."
+	para "A #MON holding"
+	line "the EVERSTONE"
+	cont "won't evolve."
 
-	para "Đưa nó cho #MON"
-	line "mà con không muốn"
-	cont "tiến hóa."
+	para "Give it to a #-"
+	line "MON you don't want"
+	cont "to evolve."
 	done
 
 ElmText_CallYou:
-	text "ELM: <PLAY_G>,"
-	line "thầy sẽ gọi nếu"
-	cont "có chuyện gì."
+	text "ELM: <PLAY_G>, I'll"
+	line "call you if any-"
+	cont "thing comes up."
 	done
 
 AideText_AfterTheft:
-	text "…thở dài… #MON"
-	line "bị đánh cắp đó."
+	text "…sigh… That"
+	line "stolen #MON."
 
-	para "Không biết nó"
-	line "đang thế nào."
+	para "I wonder how it's"
+	line "doing."
 
-	para "Người ta nói"
-	line "#MON nuôi bởi"
+	para "They say a #MON"
+	line "raised by a bad"
 
-	para "người xấu sẽ trở"
-	line "nên xấu tính."
+	para "person turns bad"
+	line "itself."
 	done
 
 ElmGiveMasterBallText1:
-	text "ELM: Chào,"
-	line "<PLAY_G>! Nhờ con,"
+	text "ELM: Hi, <PLAY_G>!"
+	line "Thanks to you, my"
 
-	para "nghiên cứu thầy"
-	line "tiến triển tốt!"
+	para "research is going"
+	line "great!"
 
-	para "Nhận cái này như"
-	line "lời cảm ơn nhé."
+	para "Take this as a"
+	line "token of my"
+	cont "appreciation."
 	done
 
 ElmGiveMasterBallText2:
-	text "BÓNG MASTER là"
-	line "tốt nhất!"
+	text "The MASTER BALL is"
+	line "the best!"
 
-	para "Đó là BÓNG tối"
-	line "thượng! Nó bắt"
+	para "It's the ultimate"
+	line "BALL! It'll catch"
 
-	para "được mọi #MON"
-	line "chắc chắn."
+	para "any #MON with-"
+	line "out fail."
 
-	para "Nó chỉ được trao"
-	line "cho nhà nghiên"
-	cont "cứu #MON."
+	para "It's given only to"
+	line "recognized #MON"
+	cont "researchers."
 
-	para "Thầy nghĩ con dùng"
-	line "nó tốt hơn thầy,"
-	cont "<PLAY_G>!"
+	para "I think you can"
+	line "make much better"
+
+	para "use of it than I"
+	line "can, <PLAY_G>!"
 	done
 
 ElmGiveTicketText1:
 	text "ELM: <PLAY_G>!"
-	line "Con đây rồi!"
+	line "There you are!"
 
-	para "Thầy gọi vì có"
-	line "thứ cho con."
+	para "I called because I"
+	line "have something for"
+	cont "you."
 
-	para "Đây là VÉ TÀU."
+	para "See? It's an"
+	line "S.S.TICKET."
 
-	para "Giờ con có thể bắt"
-	line "#MON ở KANTO."
+	para "Now you can catch"
+	line "#MON in KANTO."
 	done
 
 ElmGiveTicketText2:
-	text "Tàu khởi hành từ"
-	line "TP. OLIVINE."
+	text "The ship departs"
+	line "from OLIVINE CITY."
 
-	para "Nhưng con biết"
-	line "rồi, <PLAY_G>."
+	para "But you knew that"
+	line "already, <PLAY_G>."
 
-	para "Xét cho cùng, con"
-	line "đã đi khắp nơi"
-	cont "với #MON."
+	para "After all, you've"
+	line "traveled all over"
+	cont "with your #MON."
 
-	para "Gửi lời thăm GS"
-	line "OAK ở KANTO nhé!"
+	para "Give my regards to"
+	line "PROF.OAK in KANTO!"
 	done
 
 ElmsLabMonEggText: ; unreferenced
-	text "Đây là TRỨNG #"
-	line "MON được GS ELM"
-	cont "nghiên cứu."
+	text "It's the #MON"
+	line "EGG being studied"
+	cont "by PROF.ELM."
 	done
 
 AideText_GiveYouPotion:
-	text "<PLAY_G>, anh muốn"
-	line "đưa em cái này cho"
-	cont "chuyến đi."
+	text "<PLAY_G>, I want"
+	line "you to have this"
+	cont "for your errand."
 	done
 
 AideText_AlwaysBusy:
-	text "Chỉ có hai người"
-	line "nên bọn anh luôn"
-	cont "bận rộn."
+	text "There are only two"
+	line "of us, so we're"
+	cont "always busy."
 	done
 
 AideText_TheftTestimony:
-	text "Có tiếng động lớn"
-	line "bên ngoài…"
+	text "There was a loud"
+	line "noise outside…"
 
-	para "Khi ra xem, ai đó"
-	line "đã trộm #MON."
+	para "When we went to"
+	line "look, someone"
+	cont "stole a #MON."
 
-	para "Không thể tin"
-	line "được có người làm"
-	cont "vậy!"
+	para "It's unbelievable"
+	line "that anyone would"
+	cont "do that!"
 
-	para "…thở dài… #MON"
-	line "bị trộm đó."
+	para "…sigh… That"
+	line "stolen #MON."
 
-	para "Không biết nó"
-	line "đang thế nào."
+	para "I wonder how it's"
+	line "doing."
 
-	para "Người ta nói"
-	line "#MON nuôi bởi"
+	para "They say a #MON"
+	line "raised by a bad"
 
-	para "người xấu sẽ trở"
-	line "nên xấu tính."
+	para "person turns bad"
+	line "itself."
 	done
 
 AideText_GiveYouBalls:
 	text "<PLAY_G>!"
 
-	para "Dùng mấy cái này"
-	line "cho #DEX nhé!"
+	para "Use these on your"
+	line "#DEX quest!"
 	done
 
 AideText_ExplainBalls:
-	text "Để thêm vào"
-	line "#DEX, em phải"
-	cont "bắt #MON."
+	text "To add to your"
+	line "#DEX, you have"
+	cont "to catch #MON."
 
-	para "Ném BÓNG # vào"
-	line "#MON hoang dã"
-	cont "để bắt chúng."
+	para "Throw # BALLS"
+	line "at wild #MON"
+	cont "to get them."
 	done
 
 ElmsLabOfficerText1:
-	text "Tôi nghe có vụ"
-	line "trộm #MON…"
+	text "I heard a #MON"
+	line "was stolen here…"
 
-	para "Tôi đang lấy thông"
-	line "tin từ GS ELM."
+	para "I was just getting"
+	line "some information"
+	cont "from PROF.ELM."
 
-	para "Hình như đó là nam"
-	line "thanh niên có tóc"
-	cont "dài màu đỏ…"
+	para "Apparently, it was"
+	line "a young male with"
+	cont "long, red hair…"
 
-	para "Gì cơ?"
+	para "What?"
 
-	para "Cậu đấu với người"
-	line "như vậy à?"
+	para "You battled a"
+	line "trainer like that?"
 
-	para "Cậu có biết tên"
-	line "hắn không?"
+	para "Did you happen to"
+	line "get his name?"
 	done
 
 ElmsLabOfficerText2:
-	text "OK! Vậy <RIVAL>"
-	line "là tên hắn."
+	text "OK! So <RIVAL>"
+	line "was his name."
 
-	para "Cảm ơn đã giúp"
-	line "điều tra!"
+	para "Thanks for helping"
+	line "my investigation!"
 	done
 
 ElmsLabWindowText1:
-	text "Cửa sổ đang mở."
+	text "The window's open."
 
-	para "Gió mát đang thổi"
-	line "vào."
+	para "A pleasant breeze"
+	line "is blowing in."
 	done
 
 ElmsLabWindowText2:
-	text "Hắn đột nhập qua"
-	line "đây!"
+	text "He broke in"
+	line "through here!"
 	done
 
 ElmsLabTravelTip1Text:
-	text "<PLAYER> mở"
-	line "một cuốn sách."
+	text "<PLAYER> opened a"
+	line "book."
 
-	para "Mẹo đi đường 1:"
+	para "Travel Tip 1:"
 
-	para "Nhấn START để"
-	line "mở MENU."
+	para "Press START to"
+	line "open the MENU."
 	done
 
 ElmsLabTravelTip2Text:
-	text "<PLAYER> mở"
-	line "một cuốn sách."
+	text "<PLAYER> opened a"
+	line "book."
 
-	para "Mẹo đi đường 2:"
+	para "Travel Tip 2:"
 
-	para "Ghi lại hành trình"
-	line "bằng LƯU!"
+	para "Record your trip"
+	line "with SAVE!"
 	done
 
 ElmsLabTravelTip3Text:
-	text "<PLAYER> mở"
-	line "một cuốn sách."
+	text "<PLAYER> opened a"
+	line "book."
 
-	para "Mẹo đi đường 3:"
+	para "Travel Tip 3:"
 
-	para "Mở TÚI ĐỒ và nhấn"
-	line "SELECT để di"
-	cont "chuyển vật phẩm."
+	para "Open your PACK and"
+	line "press SELECT to"
+	cont "move items."
 	done
 
 ElmsLabTravelTip4Text:
-	text "<PLAYER> mở"
-	line "một cuốn sách."
+	text "<PLAYER> opened a"
+	line "book."
 
-	para "Mẹo đi đường 4:"
+	para "Travel Tip 4:"
 
-	para "Xem chiêu #MON."
-	line "Nhấn A để đổi"
+	para "Check your #MON"
+	line "moves. Press the"
 
-	para "thứ tự chiêu."
+	para "A Button to switch"
+	line "moves."
 	done
 
 ElmsLabTrashcanText:
-	text "Vỏ bánh GS ELM"
-	line "ăn nằm trong đó…"
+	text "The wrapper from"
+	line "the snack PROF.ELM"
+	cont "ate is in there…"
 	done
 
 ElmsLabPCText:
-	text "QUAN SÁT VỀ"
-	line "TIẾN HÓA #MON"
+	text "OBSERVATIONS ON"
+	line "#MON EVOLUTION"
 
-	para "…Trên màn hình"
-	line "ghi vậy…"
+	para "…It says on the"
+	line "screen…"
 	done
 
 ElmsLab_MapEvents:

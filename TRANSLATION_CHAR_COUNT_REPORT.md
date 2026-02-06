@@ -1,7 +1,6 @@
 # Pokemon Crystal Vietnamese Translation - Character Count Analysis
 
 **Analysis Date**: February 3, 2026  
-**Branch Comparison**: `master` (English) vs `viet` (Vietnamese)  
 **Total Files Analyzed**: 55 files
 
 ---

@@ -1,10 +1,10 @@
-	db "HÔN@" ; species name
-	dw 4, 60 ; height, weight
+	db "KISS@" ; species name
+	dw 104, 130 ; height, weight
 
-	db   "Độ nhạy cảm của"
-	next "môi phát triển"
-	next "nhanh nhất. Nó"
+	db   "The sensitivity of"
+	next "its lips develops"
+	next "most quickly."
 
-	page "dùng môi để nhận"
-	next "biết vật lạ.@"
-	next "@"
+	page "It uses them to"
+	next "try to identify"
+	next "unknown objects.@"

@@ -1,10 +1,10 @@
-	db "RÙA@" ; species name
-	dw 10, 225 ; height, weight
+	db "TURTLE@" ; species name
+	dw 303, 500 ; height, weight
 
-	db   "Đuôi lông dài"
-	next "của nó là biểu"
-	next "tượng trường thọ,"
+	db   "Its long, furry"
+	next "tail is a symbol"
+	next "of longevity,"
 
-	page "khiến nó khá"
-	next "được người già"
-	next "yêu thích.@"
+	page "making it quite"
+	next "popular among"
+	next "older people.@"

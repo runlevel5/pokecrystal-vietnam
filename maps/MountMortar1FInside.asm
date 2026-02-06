@@ -65,53 +65,53 @@ MountMortar1FInsideHiddenMaxRepel:
 	hiddenitem MAX_REPEL, EVENT_MOUNT_MORTAR_1F_INSIDE_HIDDEN_MAX_REPEL
 
 PokemaniacMillerSeenText:
-	text "Lần này tôi sẽ"
-	line "không thua!"
+	text "I'm not losing"
+	line "this time!"
 	done
 
 PokemaniacMillerBeatenText:
-	text "Tôi thua một đứa"
-	line "trẻ con…?"
+	text "I lost to some"
+	line "kid…?"
 	done
 
 PokemaniacMillerAfterBattleText:
-	text "Cách đây ít lâu,"
-	line "có một bậc thầy"
-	cont "karate muốn đấu."
+	text "A while back, this"
+	line "karate dude wanted"
 
-	para "Ông ấy mạnh vô"
-	line "cùng."
+	para "to battle. He was"
+	line "ridiculously good."
 
-	para "Ông ấy đánh bại"
-	line "chúng tôi dễ dàng"
+	para "He just thrashed"
+	line "us silly."
 
-	para "Ông ấy đi vào sâu"
-	line "hơn, nói rằng để"
+	para "He went in deeper"
+	line "saying it was for"
 
-	para "tu luyện. Không"
-	line "biết giờ thế nào?"
+	para "his training. I"
+	line "wonder how he is?"
 	done
 
 SupernerdMarkusSeenText:
-	text "Này! HUGH!"
+	text "Hey! HUGH!"
 	done
 
 SupernerdMarkusBeatenText:
-	text "Tôi nhầm bạn với"
-	line "người khác…"
+	text "I mistook you for"
+	line "someone else…"
 	done
 
 SupernerdMarkusAfterBattleText:
-	text "Tôi đến khám phá"
-	line "NÚI MORTAR"
-	cont "nhưng bị lạc với"
-	cont "đồng đội…"
+	text "I came to explore"
+	line "MT.MORTAR, but I"
 
-	para "Bạn có gặp HLV"
-	line "nào dùng SEADRA"
+	para "got separated from"
+	line "my partner…"
 
-	para "biết chiêu"
-	line "THÁC NƯỚC không?"
+	para "Did you run into a"
+	line "trainer who uses a"
+
+	para "SEADRA that knows"
+	line "WATERFALL?"
 	done
 
 MountMortar1FInside_MapEvents:

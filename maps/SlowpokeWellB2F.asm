@@ -31,30 +31,32 @@ SlowpokeWellB2FTMRainDance:
 	itemball TM_RAIN_DANCE
 
 SlowpokeWellB2FGymGuideText:
-	text "Tôi đang chờ xem"
-	line "khoảnh khắc tiến"
-	cont "hóa của SLOWPOKE."
+	text "I'm waiting to see"
+	line "SLOWPOKE's moment"
+	cont "of evolution."
 
-	para "Qua quan sát, tôi"
-	line "có phát hiện mới."
+	para "Through observa-"
+	line "tion, I made a new"
+	cont "discovery."
 
-	para "SLOWPOKE có"
-	line "KING'S ROCK thường"
+	para "A SLOWPOKE with a"
+	line "KING'S ROCK often"
 
-	para "bị SHELLDER cắn."
+	para "gets bitten by a"
+	line "SHELLDER."
 
-	para "Đây, tôi chia sẻ"
-	line "KING'S ROCK với"
-	cont "bạn."
+	para "Here, I'll share a"
+	line "KING'S ROCK with"
+	cont "you."
 	done
 
 SlowpokeWellB2FGymGuideText_GotKingsRock:
-	text "Tôi sẽ như"
-	line "SLOWPOKE vậy."
+	text "I'm going to be"
+	line "like SLOWPOKE."
 
-	para "Tôi kiên nhẫn chờ"
-	line "để xem một con"
-	cont "tiến hóa."
+	para "I'll wait patient-"
+	line "ly, so I can see"
+	cont "one evolve."
 	done
 
 SlowpokeWellB2F_MapEvents:

@@ -1,10 +1,10 @@
-	db "BÓNG BAY@" ; species name
-	dw 5, 55 ; height, weight
+	db "BALLOON@" ; species name
+	dw 108, 120 ; height, weight
 
-	db   "Nó đảo mắt dễ"
-	next "thương khi hát"
-	next "bài ru êm dịu."
+	db   "It rolls its cute"
+	next "eyes as it sings a"
+	next "soothing lullaby."
 
-	page "Bài hát nhẹ nhàng"
-	next "ru ngủ bất cứ ai"
-	next "nghe thấy.@"
+	page "Its gentle song"
+	next "puts anyone who"
+	next "hears it to sleep.@"

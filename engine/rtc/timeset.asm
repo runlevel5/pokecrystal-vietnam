@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/rtc/timeset.asm"
+else
+
 DEF TIMESET_UP_ARROW   EQU '♂' ; $ef
 DEF TIMESET_DOWN_ARROW EQU '♀' ; $f5
 
@@ -298,7 +302,7 @@ OakTimeWhatTimeIsItText:
 	text_end
 
 String_oclock:
-	db "giờ@"
+	db "o'clock@"
 
 OakTimeWhatHoursText:
 	; What?@ @
@@ -318,7 +322,7 @@ OakTimeHowManyMinutesText:
 	text_end
 
 String_min:
-	db "phút@"
+	db "min.@"
 
 OakTimeWhoaMinutesText:
 	; Whoa!@ @
@@ -516,13 +520,13 @@ SetDayOfWeek:
 	dw .Saturday
 	dw .Sunday
 
-.Sunday:    db "CHỦ NHẬT@"
-.Monday:    db "THỨ HAI@"
-.Tuesday:   db "THỨ BA@"
-.Wednesday: db "THỨ TƯ@"
-.Thursday:  db "THỨ NĂM@"
-.Friday:    db "THỨ SÁU@"
-.Saturday:  db "THỨ BẢY@"
+.Sunday:    db " SUNDAY@"
+.Monday:    db " MONDAY@"
+.Tuesday:   db " TUESDAY@"
+.Wednesday: db "WEDNESDAY@"
+.Thursday:  db "THURSDAY@"
+.Friday:    db " FRIDAY@"
+.Saturday:  db "SATURDAY@"
 
 .OakTimeWhatDayIsItText:
 	text_far _OakTimeWhatDayIsItText
@@ -706,9 +710,9 @@ GetTimeOfDayString:
 	ld de, .day_string
 	ret
 
-.nite_string: db "đêm@"
-.morn_string: db "Sáng@"
-.day_string:  db "Ngày@"
+.nite_string: db "NITE@"
+.morn_string: db "MORN@"
+.day_string:  db "DAY@"
 
 AdjustHourForAMorPM:
 ; Convert the hour stored in c (0-23) to a 1-12 value
@@ -724,3 +728,5 @@ AdjustHourForAMorPM:
 .midnight
 	ld a, NOON_HOUR
 	ret
+
+endc

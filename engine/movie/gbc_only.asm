@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/movie/gbc_only.asm"
+else
+
 GBCOnlyScreen:
 	ldh a, [hCGB]
 	and a
@@ -124,9 +128,12 @@ DrawGBCOnlyGraphic:
 	ret
 
 GBCOnlyString:
-	db   "Game Pak này chỉ"
-	next "dùng được trên"
+	db   "This Game Pak is"
+	next "designed only for"
+	next "use on the"
 	next "Game Boy Color.@"
 
 GBCOnlyGFX:
 INCBIN "gfx/sgb/gbc_only.2bpp.lz"
+
+endc

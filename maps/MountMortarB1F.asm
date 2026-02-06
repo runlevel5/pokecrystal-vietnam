@@ -73,64 +73,63 @@ MountMortarB1FHiddenMaxRevive:
 	hiddenitem MAX_REVIVE, EVENT_MOUNT_MORTAR_B1F_HIDDEN_MAX_REVIVE
 
 MountMortarB1FKiyoIntroText:
-	text "Này!"
+	text "Hey!"
 
-	para "Ta là VUA"
-	line "KARATE!"
+	para "I am the KARATE"
+	line "KING!"
 
-	para "Ta tu luyện một"
-	line "mình ở đây trong"
-	cont "bóng tối!"
+	para "I train alone here"
+	line "in the dark!"
 
-	para "Con!"
-	line "Đấu với ta!"
+	para "You!"
+	line "Battle with me!"
 
 	para "Hwaaarggh!"
 	done
 
 MountMortarB1FKiyoWinText:
 	text "Waaaarggh!"
-	line "Ta bị đánh bại!"
+	line "I'm beaten!"
 	done
 
 MountMortarB1FTyrogueRewardText:
-	text "Ta… Ta thua…"
+	text "I… I'm crushed…"
 
-	para "Tu luyện của ta"
-	line "vẫn chưa đủ…"
+	para "My training is"
+	line "still not enough…"
 
-	para "Nhưng thua là thua"
-	line "Ta chấp nhận."
+	para "But a loss is a"
+	line "loss. I admit it."
 
-	para "Bằng chứng con"
-	line "đánh bại ta,"
+	para "As proof that you"
+	line "defeated me, I'll"
 
-	para "ta tặng con một"
-	line "#MON võ thuật."
+	para "give you a rare"
+	line "fighting #MON."
 	done
 
 MountMortarB1FReceiveMonText:
-	text "<PLAYER> nhận"
+	text "<PLAYER> received"
 	line "TYROGUE."
 	done
 
 MountMortarB1FKiyoGotTyrogueText:
-	text "TYROGUE là loại"
-	line "võ thuật."
+	text "TYROGUE is a"
+	line "fighting-type."
 
-	para "Nó tiến hóa thành"
-	line "#MON mạnh hơn."
+	para "It evolves into a"
+	line "tougher #MON."
 
-	para "Hãy cố gắng. Ta"
-	line "cũng sẽ tiếp tục"
-	cont "tu luyện."
+	para "Keep up the hard"
+	line "work. I'll keep"
+	cont "training too."
 
-	para "Tạm biệt!"
+	para "Farewell!"
 	done
 
 MountMortarB1FKiyoFullPartyText:
-	text "Con không còn chỗ"
-	line "trong nhóm!"
+	text "You have no room"
+	line "in your party!"
 	done
 
 MountMortarB1F_MapEvents:

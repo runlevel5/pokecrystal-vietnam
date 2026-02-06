@@ -1,10 +1,10 @@
-	db "ÁNH SÁNG@" ; species name
-	dw 14, 615 ; height, weight
+	db "LIGHT@" ; species name
+	dw 407, 1360 ; height, weight
 
-	db   "Khi trời tối, ánh"
-	next "sáng từ đuôi"
-	next "sáng bóng có thể"
+	db   "When it gets dark,"
+	next "the light from its"
+	next "bright, shiny tail"
 
-	page "nhìn thấy từ xa"
-	next "trên mặt biển.@"
-	next "@"
+	page "can be seen from"
+	next "far away on the"
+	next "ocean's surface.@"

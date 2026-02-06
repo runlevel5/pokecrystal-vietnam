@@ -21,26 +21,26 @@ OlivineMartLassScript:
 	jumptextfaceplayer OlivineMartLassText
 
 OlivineMartCooltrainerFText:
-	text "#MON của bạn đã"
-	line "biết chiêu thức"
+	text "Do your #MON"
+	line "already know the"
 
-	para "để chở người trên"
-	line "mặt nước chưa?"
+	para "move for carrying"
+	line "people on water?"
 	done
 
 OlivineMartLassText:
-	text "BUTTERFREE của tôi"
-	line "từ bạn trai tôi"
-	cont "ở nước ngoài."
+	text "My BUTTERFREE came"
+	line "from my boyfriend"
+	cont "overseas."
 
-	para "Nó mang THƯ từ"
-	line "anh ấy."
+	para "It carried some"
+	line "MAIL from him."
 
-	para "Bạn muốn biết nó"
-	line "viết gì không?"
+	para "Want to know what"
+	line "it says?"
 
-	para "Để xem… Không!"
-	line "Đó là bí mật!"
+	para "Let's see… Nope!"
+	line "It's a secret!"
 	done
 
 OlivineMart_MapEvents:

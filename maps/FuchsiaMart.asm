@@ -21,17 +21,18 @@ FuchsiaMartCooltrainerFScript:
 	jumptextfaceplayer FuchsiaMartCooltrainerFText
 
 FuchsiaMartFisherText:
-	text "Tôi hy vọng mua"
-	line "được quà lưu niệm"
+	text "I was hoping to"
+	line "buy some SAFARI"
 
-	para "KHU SAFARI, nhưng"
-	line "nó đóng cửa rồi…"
+	para "ZONE souvenirs,"
+	line "but it's closed…"
 	done
 
 FuchsiaMartCooltrainerFText:
-	text "Cháu gái của QUẢN"
-	line "LÝ KHU SAFARI"
-	cont "sống trong thành."
+	text "The SAFARI ZONE"
+	line "WARDEN's grand-"
+	cont "daughter lives in"
+	cont "town."
 	done
 
 FuchsiaMart_MapEvents:

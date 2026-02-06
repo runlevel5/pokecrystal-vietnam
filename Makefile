@@ -2,8 +2,12 @@ roms := \
 	pokecrystal.gbc \
 	pokecrystal11.gbc \
 	pokecrystal_au.gbc \
+	pokecrystal_vn.gbc \
+	pokecrystal11_vn.gbc \
 	pokecrystal_debug.gbc \
-	pokecrystal11_debug.gbc
+	pokecrystal11_debug.gbc \
+	pokecrystal_vn_debug.gbc \
+	pokecrystal11_vn_debug.gbc
 patches := pokecrystal11.patch
 
 rom_obj := \
@@ -28,9 +32,13 @@ rom_obj := \
 pokecrystal_obj         := $(rom_obj:.o=.o)
 pokecrystal11_obj       := $(rom_obj:.o=11.o)
 pokecrystal_au_obj      := $(rom_obj:.o=_au.o)
-pokecrystal_debug_obj   := $(rom_obj:.o=_debug.o)
-pokecrystal11_debug_obj := $(rom_obj:.o=11_debug.o)
-pokecrystal11_vc_obj    := $(rom_obj:.o=11_vc.o)
+pokecrystal_vn_obj      := $(rom_obj:.o=_vn.o)
+pokecrystal11_vn_obj    := $(rom_obj:.o=11_vn.o)
+pokecrystal_debug_obj      := $(rom_obj:.o=_debug.o)
+pokecrystal11_debug_obj    := $(rom_obj:.o=11_debug.o)
+pokecrystal_vn_debug_obj   := $(rom_obj:.o=_vn_debug.o)
+pokecrystal11_vn_debug_obj := $(rom_obj:.o=11_vn_debug.o)
+pokecrystal11_vc_obj       := $(rom_obj:.o=11_vc.o)
 
 
 ### Build tools
@@ -64,8 +72,12 @@ RGBGFXFLAGS  ?= -Weverything
 	crystal \
 	crystal11 \
 	crystal_au \
+	crystal_vn \
+	crystal11_vn \
 	crystal_debug \
 	crystal11_debug \
+	crystal_vn_debug \
+	crystal11_vn_debug \
 	crystal11_vc \
 	clean \
 	tidy \
@@ -77,9 +89,13 @@ all: crystal
 crystal:         pokecrystal.gbc
 crystal11:       pokecrystal11.gbc
 crystal_au:      pokecrystal_au.gbc
-crystal_debug:   pokecrystal_debug.gbc
-crystal11_debug: pokecrystal11_debug.gbc
-crystal11_vc:    pokecrystal11.patch
+crystal_vn:      pokecrystal_vn.gbc
+crystal11_vn:    pokecrystal11_vn.gbc
+crystal_debug:      pokecrystal_debug.gbc
+crystal11_debug:    pokecrystal11_debug.gbc
+crystal_vn_debug:   pokecrystal_vn_debug.gbc
+crystal11_vn_debug: pokecrystal11_vn_debug.gbc
+crystal11_vc:       pokecrystal11.patch
 
 check-text:
 	python3 tools/check_text_length.py
@@ -112,8 +128,12 @@ tidy:
 	      $(pokecrystal11_obj) \
 	      $(pokecrystal11_vc_obj) \
 	      $(pokecrystal_au_obj) \
+	      $(pokecrystal_vn_obj) \
+	      $(pokecrystal11_vn_obj) \
 	      $(pokecrystal_debug_obj) \
 	      $(pokecrystal11_debug_obj) \
+	      $(pokecrystal_vn_debug_obj) \
+	      $(pokecrystal11_vn_debug_obj) \
 	      rgbdscheck.o
 	$(MAKE) clean -C tools/
 
@@ -133,9 +153,13 @@ endif
 $(pokecrystal_obj):         RGBASMFLAGS +=
 $(pokecrystal11_obj):       RGBASMFLAGS += -D _CRYSTAL11
 $(pokecrystal_au_obj):      RGBASMFLAGS += -D _CRYSTAL11 -D _CRYSTAL_AU
-$(pokecrystal_debug_obj):   RGBASMFLAGS += -D _DEBUG
-$(pokecrystal11_debug_obj): RGBASMFLAGS += -D _CRYSTAL11 -D _DEBUG
-$(pokecrystal11_vc_obj):    RGBASMFLAGS += -D _CRYSTAL11 -D _CRYSTAL11_VC
+$(pokecrystal_vn_obj):      RGBASMFLAGS += -D _CRYSTAL_VN -I versions/crystal-vn
+$(pokecrystal11_vn_obj):    RGBASMFLAGS += -D _CRYSTAL11 -D _CRYSTAL_VN -I versions/crystal-vn
+$(pokecrystal_debug_obj):      RGBASMFLAGS += -D _DEBUG
+$(pokecrystal11_debug_obj):    RGBASMFLAGS += -D _CRYSTAL11 -D _DEBUG
+$(pokecrystal_vn_debug_obj):   RGBASMFLAGS += -D _CRYSTAL_VN -D _DEBUG -I versions/crystal-vn
+$(pokecrystal11_vn_debug_obj): RGBASMFLAGS += -D _CRYSTAL11 -D _CRYSTAL_VN -D _DEBUG -I versions/crystal-vn
+$(pokecrystal11_vc_obj):       RGBASMFLAGS += -D _CRYSTAL11 -D _CRYSTAL11_VC
 
 %.patch: %_vc.gbc %.gbc vc/%.patch.template
 # Ignore the checksums added by tools/stadium at the end of the ROM
@@ -163,20 +187,28 @@ endef
 $(foreach obj, $(pokecrystal_obj), $(eval $(call DEP,$(obj),$(obj:.o=.asm))))
 $(foreach obj, $(pokecrystal11_obj), $(eval $(call DEP,$(obj),$(obj:11.o=.asm))))
 $(foreach obj, $(pokecrystal_au_obj), $(eval $(call DEP,$(obj),$(obj:_au.o=.asm))))
+$(foreach obj, $(pokecrystal_vn_obj), $(eval $(call DEP,$(obj),$(obj:_vn.o=.asm))))
+$(foreach obj, $(pokecrystal11_vn_obj), $(eval $(call DEP,$(obj),$(obj:11_vn.o=.asm))))
 $(foreach obj, $(pokecrystal_debug_obj), $(eval $(call DEP,$(obj),$(obj:_debug.o=.asm))))
 $(foreach obj, $(pokecrystal11_debug_obj), $(eval $(call DEP,$(obj),$(obj:11_debug.o=.asm))))
+$(foreach obj, $(pokecrystal_vn_debug_obj), $(eval $(call DEP,$(obj),$(obj:_vn_debug.o=.asm))))
+$(foreach obj, $(pokecrystal11_vn_debug_obj), $(eval $(call DEP,$(obj),$(obj:11_vn_debug.o=.asm))))
 $(foreach obj, $(pokecrystal11_vc_obj), $(eval $(call DEP,$(obj),$(obj:11_vc.o=.asm))))
 
 endif
 
 
-RGBFIXFLAGS += -Cjv -t PKMN_PHA_LE -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
+RGBFIXFLAGS += -Cjv -t PM_CRYSTAL -k 01 -l 0x33 -m MBC3+TIMER+RAM+BATTERY -r 3 -p 0
 pokecrystal.gbc:         RGBFIXFLAGS += -i BYTE -n 0
 pokecrystal11.gbc:       RGBFIXFLAGS += -i BYTE -n 1
 pokecrystal_au.gbc:      RGBFIXFLAGS += -i BYTU -n 0
-pokecrystal_debug.gbc:   RGBFIXFLAGS += -i BYTE -n 0
-pokecrystal11_debug.gbc: RGBFIXFLAGS += -i BYTE -n 1
-pokecrystal11_vc.gbc:    RGBFIXFLAGS += -i BYTE -n 1
+pokecrystal_vn.gbc:      RGBFIXFLAGS += -i BYTV -n 0
+pokecrystal11_vn.gbc:    RGBFIXFLAGS += -i BYTV -n 1
+pokecrystal_debug.gbc:      RGBFIXFLAGS += -i BYTE -n 0
+pokecrystal11_debug.gbc:    RGBFIXFLAGS += -i BYTE -n 1
+pokecrystal_vn_debug.gbc:   RGBFIXFLAGS += -i BYTV -n 0
+pokecrystal11_vn_debug.gbc: RGBFIXFLAGS += -i BYTV -n 1
+pokecrystal11_vc.gbc:       RGBFIXFLAGS += -i BYTE -n 1
 
 %.gbc: $$(%_obj) layout.link
 	$(RGBLINK) $(RGBLINKFLAGS) -l layout.link -n $*.sym -m $*.map -o $@ $(filter %.o,$^)
@@ -290,6 +322,7 @@ gfx/mystery_gift/mystery_gift.2bpp: tools/gfx += --trim-whitespace
 gfx/title/crystal.2bpp: tools/gfx += --interleave --png=$<
 gfx/title/old_fg.2bpp: tools/gfx += --interleave --png=$<
 gfx/title/logo.2bpp: RGBGFXFLAGS += --trim-end 4
+versions/crystal-vn/gfx/title/logo.2bpp: RGBGFXFLAGS += --trim-end 4
 
 gfx/trade/ball.2bpp: tools/gfx += --remove-whitespace
 gfx/trade/game_boy.2bpp: tools/gfx += --remove-duplicates --preserve=0x23,0x27

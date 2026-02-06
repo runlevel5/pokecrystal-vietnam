@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/movie/trade_animation.asm"
+else
+
 DEF TRADEANIM_RIGHT_ARROW EQU '▶' ; $ed
 DEF TRADEANIM_LEFT_ARROW  EQU '▼' ; $ee
 
@@ -890,7 +894,7 @@ ShowPlayerTrademonStats:
 	ld de, wPlayerTrademonSpecies
 	ld a, [de]
 	cp EGG
-	jp z, TrademonStats_Egg
+	jr z, TrademonStats_Egg
 	call TrademonStats_MonTemplate
 	ld de, wPlayerTrademonSpecies
 	call TrademonStats_PrintSpeciesNumber
@@ -927,11 +931,11 @@ TrademonStats_MonTemplate:
 	call TradeAnim_BlankTilemap
 	ld a, HIGH(vBGMap1)
 	ldh [hBGMapAddress + 1], a
-	hlcoord 0, 0
+	hlcoord 3, 0
 	ld b, $6
-	ld c, SCREEN_WIDTH - 2
+	ld c, $d
 	call Textbox
-	hlcoord 1, 0
+	hlcoord 4, 0
 	ld de, .OTMonData
 	call PlaceString
 	ret
@@ -939,7 +943,7 @@ TrademonStats_MonTemplate:
 .OTMonData:
 	db   "─── №."
 	next ""
-	next "HLV GỐC/"
+	next "OT/"
 	next "<ID>№.@"
 
 TrademonStats_Egg:
@@ -947,19 +951,19 @@ TrademonStats_Egg:
 	call TradeAnim_BlankTilemap
 	ld a, HIGH(vBGMap1)
 	ldh [hBGMapAddress + 1], a
-	hlcoord 0, 0
+	hlcoord 3, 0
 	ld b, 6
-	ld c, SCREEN_WIDTH - 2
+	ld c, 13
 	call Textbox
-	hlcoord 1, 2
+	hlcoord 4, 2
 	ld de, .EggData
 	call PlaceString
 	call TrademonStats_WaitBGMap
 	ret
 
 .EggData:
-	db   "TRỨNG"
-	next "HLV GỐC/?????"
+	db   "EGG"
+	next "OT/?????"
 	next "<ID>№.?????@"
 
 TrademonStats_WaitBGMap:
@@ -970,14 +974,14 @@ TrademonStats_WaitBGMap:
 	ret
 
 TrademonStats_PrintSpeciesNumber:
-	hlcoord 7, 0
+	hlcoord 10, 0
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 3
 	call PrintNum
 	ld [hl], ' '
 	ret
 
 TrademonStats_PrintSpeciesName:
-	hlcoord 1, 2
+	hlcoord 4, 2
 	call PlaceString
 	ret
 
@@ -987,7 +991,7 @@ TrademonStats_PrintOTName:
 	xor a
 .caught_gender_okay
 	push af
-	hlcoord 10, 4
+	hlcoord 7, 4
 	call PlaceString
 	inc bc
 	pop af
@@ -1003,7 +1007,7 @@ TrademonStats_PrintOTName:
 	db " ", "♂", "♀"
 
 TrademonStats_PrintTrademonID:
-	hlcoord 4, 6
+	hlcoord 7, 6
 	lb bc, PRINTNUM_LEADINGZEROS | 2, 5
 	call PrintNum
 	ret
@@ -1449,3 +1453,5 @@ TradeBubbleGFX:       INCBIN "gfx/trade/bubble.2bpp"
 TradeGameBoyLZ:       INCBIN "gfx/trade/game_boy_cable.2bpp.lz"
 TradeBallGFX:         INCBIN "gfx/trade/ball.2bpp"
 TradePoofGFX:         INCBIN "gfx/trade/poof.2bpp"
+
+endc

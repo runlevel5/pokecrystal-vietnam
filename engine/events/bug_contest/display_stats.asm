@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/bug_contest/display_stats.asm"
+else
+
 DisplayCaughtContestMonStats:
 	call ClearBGPalettes
 	call ClearTilemap
@@ -80,11 +84,11 @@ DisplayCaughtContestMonStats:
 	ret
 
 .Health:
-	db "MÁU@"
+	db "HEALTH@"
 .Stock:
-	db " <PKMN> KHO  @"
+	db " STOCK <PKMN> @"
 .This:
-	db " <PKMN> NÀY  @"
+	db " THIS <PKMN>  @"
 
 ContestAskSwitchText:
 	text_far _ContestAskSwitchText
@@ -103,3 +107,5 @@ DummyPredef2F:
 DummyPredef38:
 DummyPredef39:
 	ret
+
+endc

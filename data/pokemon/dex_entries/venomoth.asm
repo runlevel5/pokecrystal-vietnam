@@ -1,10 +1,10 @@
-	db "BƯỚM ĐỘC@" ; species name
-	dw 15, 125 ; height, weight
+	db "POISONMOTH@" ; species name
+	dw 411, 280 ; height, weight
 
-	db   "Vảy phấn mà nó"
-	next "rải sẽ làm tê"
-	next "liệt bất cứ ai"
+	db   "The scales it"
+	next "scatters will"
+	next "paralyze anyone"
 
-	page "chạm vào, khiến"
-	next "người đó không"
-	next "thể đứng được.@"
+	page "who touches them,"
+	next "making that person"
+	next "unable to stand.@"

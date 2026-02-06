@@ -1,44 +1,44 @@
 KenjiAnswerPhoneText:
 	text_ram wStringBuffer3
-	text " đây…"
+	text " here…"
 
-	para "<PLAYER>! Sáng nay"
-	line "đẹp nhỉ?"
+	para "<PLAYER>! Beautiful"
+	line "morning, hey?"
 	done
 
 KenjiAnswerPhoneDayText:
 	text_ram wStringBuffer3
-	text " đây…"
+	text " here…"
 
-	para "<PLAYER>! Trời đẹp"
-	line "nhỉ?"
+	para "<PLAYER>! Beautiful"
+	line "weather, hey?"
 	done
 
 KenjiAnswerPhoneNiteText:
 	text_ram wStringBuffer3
-	text " đây…"
+	text " here…"
 
-	para "<PLAYER>! Đêm đẹp"
-	line "nhỉ?"
+	para "<PLAYER>! Beautiful"
+	line "moonlight, hey?"
 	done
 
 KenjiGreetText:
-	text "Này, <PLAYER>!"
-	line "Là @"
+	text "Hey, <PLAYER>!"
+	line "This is @"
 	text_ram wStringBuffer3
-	text " đây!"
+	text "!"
 	done
 
 KenjiGreetDayText:
-	text "Này, <PLAYER>!"
-	line "Là @"
+	text "Hey, <PLAYER>!"
+	line "This is @"
 	text_ram wStringBuffer3
-	text " đây!"
+	text "!"
 	done
 
 KenjiGreetNiteText:
-	text "Này, <PLAYER>!"
-	line "Là @"
+	text "Hey, <PLAYER>!"
+	line "This is @"
 	text_ram wStringBuffer3
-	text " đây!"
+	text "!"
 	done

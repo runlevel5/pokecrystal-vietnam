@@ -109,35 +109,36 @@ RuinsOfAlphOmanyteChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphOmanyteChamberWallPatternLeftText:
-	text "Họa tiết xuất"
-	line "hiện trên tường…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphOmanyteChamberUnownText: ; unreferenced
-	text "Đó là chữ UNOWN!"
+	text "It's UNOWN text!"
 	done
 
 RuinsOfAlphOmanyteChamberWallPatternRightText:
-	text "Họa tiết xuất"
-	line "hiện trên tường…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphOmanyteChamberWallHoleText:
-	text "Có một lỗ lớn"
-	line "trên tường!"
+	text "There's a big hole"
+	line "in the wall!"
 	done
 
 RuinsOfAlphOmanyteChamberAncientReplicaText:
-	text "Đây là bản sao"
-	line "#MON cổ đại."
+	text "It's a replica of"
+	line "an ancient #-"
+	cont "MON."
 	done
 
 RuinsOfAlphOmanyteChamberDescriptionText:
-	text "#MON này trôi"
-	line "dạt trên biển"
+	text "This #MON"
+	line "drifted in the"
 
-	para "bằng cách xoắn"
-	line "mười xúc tu."
+	para "sea by twisting"
+	line "its ten tentacles."
 	done
 
 RuinsOfAlphOmanyteChamber_MapEvents:

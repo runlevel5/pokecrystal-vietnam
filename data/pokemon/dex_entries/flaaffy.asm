@@ -1,10 +1,10 @@
-	db "LEN@" ; species name
-	dw 8, 133 ; height, weight
+	db "WOOL@" ; species name
+	dw 207, 290 ; height, weight
 
-	db   "Nhờ da cao su"
-	next "cách điện, nó có"
-	next "thể trữ nhiều"
+	db   "Because of its"
+	next "rubbery, electric-"
+	next "ity-resistant"
 
-	page "điện trong"
-	next "bộ lông.@"
-	next "@"
+	page "skin, it can store"
+	next "lots of electric-"
+	next "ity in its fur.@"

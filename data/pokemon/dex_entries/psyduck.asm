@@ -1,10 +1,10 @@
-	db "VỊT@" ; species name
-	dw 8, 196 ; height, weight
+	db "DUCK@" ; species name
+	dw 207, 430 ; height, weight
 
-	db   "Nó chỉ có thể"
-	next "dùng sức mạnh"
-	next "tâm linh khi các"
+	db   "The only time it"
+	next "can use its psy-"
+	next "chic power is when"
 
-	page "tế bào não đang"
-	next "ngủ tình cờ"
-	next "thức dậy.@"
+	page "its sleeping brain"
+	next "cells happen to"
+	next "wake.@"

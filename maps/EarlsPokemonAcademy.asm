@@ -119,7 +119,7 @@ AcademyBlackboard:
 	db "SLP@"
 	db "BRN@"
 	db "FRZ@"
-	db "THOÁT@"
+	db "QUIT@"
 
 AcademyNotebook:
 	opentext
@@ -161,250 +161,250 @@ AcademyEarlSpinMovement:
 	step_end
 
 AcademyEarlIntroText:
-	text "Ta là EARL đây!"
+	text "EARL, I am!"
 
-	para "#MON thật kỳ"
-	line "diệu, phải không!"
+	para "Wonderful are"
+	line "#MON, yes!"
 
-	para "Ta sẽ dạy ngươi"
-	line "trở thành HLV"
-	cont "giỏi hơn!"
+	para "Teach you I will"
+	line "to be a better"
+	cont "trainer!"
 
-	para "Ngươi muốn biết"
-	line "điều gì? Muốn"
-	cont "thắng trận chăng?"
+	para "What you want to"
+	line "know? Want to be"
+	cont "a winner is you?"
 	done
 
 AcademyEarlTeachHowToWinText:
-	text "Tốt lắm! Ta sẽ"
-	line "dạy ngươi!"
+	text "Good! Teach you,"
+	line "I will!"
 
-	para "Trong trận đấu,"
-	line "#MON ở đầu"
-	cont "danh sách ra đầu!"
+	para "In battle, #MON"
+	line "top on list jump"
+	cont "out first!"
 
-	para "Đổi thứ tự trong"
-	line "danh sách, khiến"
-	cont "trận đấu dễ hơn!"
+	para "Change order in"
+	line "list, make battle"
+	cont "easy, maybe!"
 
-	para "Ngươi còn muốn"
-	line "nghe ta nói gì?"
+	para "More from me you"
+	line "want to hear?"
 	done
 
 AcademyEarlTeachMoreText:
-	text "Vậy, muốn biết"
-	line "cách nuôi #MON"
-	cont "tốt chăng?"
+	text "So, want to know"
+	line "how to raise"
+	cont "#MON well?"
 	done
 
 AcademyEarlTeachHowToRaiseWellText:
-	text "Được! Ta sẽ dạy"
-	line "ngươi!"
+	text "Fine! Teach you,"
+	line "I will!"
 
-	para "Nếu #MON ra"
-	line "trận đấu dù chỉ"
+	para "If #MON come"
+	line "out in battle even"
 
-	para "trong chốc lát,"
-	line "nó vẫn nhận EXP."
+	para "briefly, some EXP."
+	line "Points it gets."
 
-	para "Đặt #MON yếu"
-	line "lên đầu danh sách."
+	para "At top of list put"
+	line "weak #MON."
 
-	para "Đổi trong trận"
-	line "đấu nhanh chóng!"
+	para "Switch in battle"
+	line "quick!"
 
-	para "Như vậy, #MON"
-	line "yếu sẽ trở nên"
-	cont "mạnh mẽ!"
+	para "This way, weak"
+	line "#MON strong"
+	cont "become!"
 	done
 
 AcademyEarlNoMoreToTeachText:
-	text "Ồ! Học trò thông"
-	line "minh ngươi là! Ta"
-	cont "chẳng còn gì dạy!"
+	text "Oh! Smart student"
+	line "you are! Nothing"
+	cont "more do I teach!"
 
-	para "Hãy tốt với"
-	line "#MON nhé!"
+	para "Good to #MON"
+	line "you must be!"
 	done
 
 EarlsPokemonAcademyYoungster1Text:
-	text "Tôi đang ghi chép"
-	line "bài giảng của"
-	cont "thầy giáo."
+	text "I'm taking notes"
+	line "of the teacher's"
+	cont "lecture."
 
-	para "Tôi nên chép cả"
-	line "những gì trên"
-	cont "bảng đen nữa."
+	para "I'd better copy"
+	line "the stuff on the"
+	cont "blackboard too."
 	done
 
 EarlsPokemonAcademyGameboyKid1Text:
-	text "Tôi đã đổi #MON"
-	line "tốt nhất cho bạn"
-	cont "bên cạnh."
+	text "I traded my best"
+	line "#MON to the"
+	cont "guy beside me."
 	done
 
 EarlsPokemonAcademyGameboyKid2Text:
-	text "Hử? #MON tôi"
-	line "vừa nhận đang cầm"
-	cont "thứ gì đó!"
+	text "Huh? The #MON I"
+	line "just got is hold-"
+	cont "ing something!"
 	done
 
 EarlsPokemonAcademyYoungster2Text:
-	text "#MON cầm QUẢ"
-	line "sẽ tự chữa lành"
-	cont "trong trận đấu."
+	text "A #MON holding"
+	line "a BERRY will heal"
+	cont "itself in battle."
 
-	para "Nhiều vật phẩm"
-	line "khác có thể được"
-	cont "#MON cầm…"
+	para "Many other items"
+	line "can be held by"
+	cont "#MON…"
 
-	para "Ghi chép thật"
-	line "khó nhằn…"
+	para "It sure is tough"
+	line "taking notes…"
 	done
 
 AcademyBlackboardText:
-	text "Bảng đen mô tả"
-	line "trạng thái #MON"
+	text "The blackboard"
+	line "describes #MON"
 
-	para "thay đổi trong"
-	line "trận đấu."
+	para "status changes in"
+	line "battle."
 	done
 
 AcademyBlackboardText2: ; unreferenced
-	text "Đọc chủ đề nào?"
+	text "Read which topic?"
 	done
 
 AcademyPoisonText:
-	text "Nếu bị độc,"
-	line "#MON sẽ liên"
-	cont "tục mất HP."
+	text "If poisoned, a"
+	line "#MON steadily"
+	cont "loses HP."
 
-	para "Độc còn lại sau"
-	line "trận đấu,"
+	para "Poison lingers"
+	line "after the battle,"
 
-	para "và HP bị mất khi"
-	line "bạn đi bộ."
+	para "and HP is lost as"
+	line "you walk."
 
-	para "Để chữa, dùng"
-	line "GIẢI ĐỘC."
+	para "To cure it, use an"
+	line "ANTIDOTE."
 	done
 
 AcademyParalysisText:
-	text "Tê liệt giảm tốc"
-	line "độ và có thể ngăn"
-	cont "di chuyển."
+	text "Paralysis reduces"
+	line "speed and may"
+	cont "prevent movement."
 
-	para "Nó còn lại sau"
-	line "trận đấu, hãy"
-	cont "dùng TRỊ TÊ LIỆT."
+	para "It remains after"
+	line "battle, so use"
+	cont "a PARLYZ HEAL."
 	done
 
 AcademySleepText:
-	text "Nếu ngủ, #MON"
-	line "không thể ra"
-	cont "chiêu."
+	text "If asleep, your"
+	line "#MON can't make"
+	cont "a move."
 
-	para "#MON ngủ sẽ"
-	line "không tỉnh sau"
-	cont "trận đấu."
+	para "A sleeping #MON"
+	line "doesn't wake up"
+	cont "after battle."
 
-	para "Đánh thức nó bằng"
-	line "ĐÁNH THỨC."
+	para "Wake it up with"
+	line "an AWAKENING."
 	done
 
 AcademyBurnText:
-	text "Bỏng sẽ liên tục"
-	line "tiêu hao HP."
+	text "A burn steadily"
+	line "consumes HP."
 
-	para "Nó cũng giảm sức"
-	line "tấn công."
+	para "It also reduces"
+	line "attack power."
 
-	para "Bỏng còn lại sau"
-	line "trận đấu."
+	para "A burn lingers"
+	line "after battle."
 
-	para "Dùng TRỊ BỎNG để"
-	line "chữa."
+	para "Use a BURN HEAL as"
+	line "the cure."
 	done
 
 AcademyFreezeText:
-	text "Nếu #MON bị"
-	line "đóng băng, nó"
-	cont "không làm gì được."
+	text "If your #MON is"
+	line "frozen, it can't"
+	cont "do a thing."
 
-	para "Nó vẫn đóng băng"
-	line "sau trận đấu."
+	para "It remains frozen"
+	line "after battle."
 
-	para "Rã băng bằng"
-	line "TRỊ ĐÔNG."
+	para "Thaw it out with"
+	line "an ICE HEAL."
 	done
 
 AcademyNotebookText:
-	text "Đây là vở ghi của"
-	line "cậu bé này…"
+	text "It's this kid's"
+	line "notebook…"
 
-	para "Bắt #MON bằng"
-	line "BÓNG #."
+	para "Catch #MON"
+	line "using # BALLS."
 
-	para "Tối đa sáu con"
-	line "trong đội."
+	para "Up to six can be"
+	line "in your party."
 
-	para "Đọc tiếp không?"
+	para "Keep reading?"
 	done
 
 AcademyNotebookText1:
-	text "Trước khi ném"
-	line "BÓNG #, làm yếu"
-	cont "mục tiêu trước."
+	text "Before throwing a"
+	line "# BALL, weaken"
+	cont "the target first."
 
-	para "#MON bị độc"
-	line "hoặc bỏng sẽ dễ"
-	cont "bắt hơn."
+	para "A poisoned or"
+	line "burned #MON is"
+	cont "easier to catch."
 
-	para "Đọc tiếp không?"
+	para "Keep reading?"
 	done
 
 AcademyNotebookText2:
-	text "Một số chiêu có"
-	line "thể gây rối loạn."
+	text "Some moves may"
+	line "cause confusion."
 
-	para "Rối loạn có thể"
-	line "khiến #MON tự"
-	cont "tấn công mình."
+	para "Confusion may make"
+	line "a #MON attack"
+	cont "itself."
 
-	para "Rời khỏi trận"
-	line "đấu sẽ hết rối"
-	cont "loạn."
+	para "Leaving battle"
+	line "clears up any"
+	cont "confusion."
 
-	para "Đọc tiếp không?"
+	para "Keep reading?"
 	done
 
 AcademyNotebookText3:
-	text "Người bắt và dùng"
-	line "#MON"
+	text "People who catch"
+	line "and use #MON"
 
-	para "trong trận đấu là"
-	line "HLV #MON."
+	para "in battle are"
+	line "#MON trainers."
 
-	para "Họ phải đến các"
-	line "GYM #MON"
+	para "They are expected"
+	line "to visit #MON"
 
-	para "và đánh bại các"
-	line "HLV khác."
+	para "GYMS and defeat"
+	line "other trainers."
 
-	para "Trang kế là…"
-	line "Trống rỗng!"
+	para "The next page"
+	line "is… Blank!"
 
-	para "Bạn: Hê-hê-hê…"
+	para "Boy: E-he-he…"
 
-	para "Tôi chưa viết"
-	line "thêm gì…"
+	para "I haven't written"
+	line "anymore…"
 	done
 
 AcademyStickerMachineText:
-	text "Cỗ máy siêu đẳng"
-	line "này in dữ liệu"
+	text "This super machine"
+	line "prints data out as"
 
-	para "thành nhãn dán!"
+	para "stickers!"
 	done
 
 EarlsPokemonAcademy_MapEvents:

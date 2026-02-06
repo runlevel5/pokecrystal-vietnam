@@ -189,200 +189,202 @@ RuinsOfAlphResearchCenterLeavesPlayerMovement:
 	step_end
 
 RuinsOfAlphResearchCenterModifiedDexText:
-	text "Xong!"
+	text "Done!"
 
-	para "Tôi đã sửa đổi"
-	line "#DEX của bạn."
+	para "I modified your"
+	line "#DEX."
 
-	para "Tôi thêm #DEX"
-	line "tùy chọn"
+	para "I added an"
+	line "optional #DEX"
 
-	para "để lưu dữ liệu"
-	line "UNOWN."
+	para "to store UNOWN"
+	line "data."
 
-	para "Nó ghi chúng theo"
-	line "thứ tự bắt được."
+	para "It records them in"
+	line "the sequence that"
+	cont "they were caught."
 	done
 
 RuinsOfAlphResearchCenterDexUpgradedText:
-	text "#DEX <PLAYER>"
-	line "đã nâng cấp."
+	text "<PLAYER>'s #DEX"
+	line "was upgraded."
 	done
 
 RuinsOfAlphResearchCenterScientist3Text:
-	text "UNOWN bạn bắt sẽ"
-	line "đều được ghi lại."
+	text "The UNOWN you"
+	line "catch will all be"
+	cont "recorded."
 
-	para "Kiểm tra xem có"
-	line "bao nhiêu loại."
+	para "Check to see how"
+	line "many kinds exist."
 	done
 
 RuinsOfAlphResearchCenterScientist3_PrinterAvailable:
-	text "Bạn bắt hết các"
-	line "biến thể UNOWN?"
+	text "You caught all the"
+	line "UNOWN variations?"
 
-	para "Đó là thành tích"
-	line "tuyệt vời!"
+	para "That's a great"
+	line "achievement!"
 
-	para "Tôi đã thiết lập"
-	line "máy in ở đây cho"
-	cont "UNOWN."
+	para "I've set up the"
+	line "printer here for"
+	cont "handling UNOWN."
 
-	para "Dùng thoải mái"
-	line "bất cứ lúc nào."
+	para "Feel free to use"
+	line "it anytime."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text:
-	text "TÀN TÍCH có từ"
-	line "khoảng 1500 năm"
-	cont "trước."
+	text "The RUINS are"
+	line "about 1500 years"
+	cont "old."
 
-	para "Nhưng không biết"
-	line "tại sao chúng được"
-	cont "xây--hay bởi ai."
+	para "But it's not known"
+	line "why they were"
+	cont "built--or by whom."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotUnownDex:
-	text "Tôi tự hỏi có bao"
-	line "nhiêu loại #MON"
-	cont "trong TÀN TÍCH?"
+	text "I wonder how many"
+	line "kinds of #MON"
+	cont "are in the RUINS?"
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_UnownAppeared:
-	text "#MON xuất hiện"
-	line "trong TÀN TÍCH?"
+	text "#MON appeared"
+	line "in the RUINS?"
 
-	para "Đó là tin không"
-	line "thể tin được!"
+	para "That's incredible"
+	line "news!"
 
-	para "Chúng ta cần điều"
-	line "tra chuyện này."
+	para "We'll need to"
+	line "investigate this."
 	done
 
 RuinsOfAlphResearchCenterScientist1Text_GotAllUnown:
-	text "Cuộc điều tra,"
-	line "với sự giúp đỡ"
+	text "Our investigation,"
+	line "with your help, is"
 
-	para "của bạn, đang cho"
-	line "ta hiểu về TÀN"
-	cont "TÍCH."
+	para "giving us insight"
+	line "into the RUINS."
 
-	para "TÀN TÍCH dường"
-	line "như được xây"
+	para "The RUINS appear"
+	line "to have been built"
 
-	para "như nơi ở cho"
+	para "as a habitat for"
 	line "#MON."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text:
-	text "Có những họa tiết"
-	line "lạ vẽ trên tường"
+	text "There are odd pat-"
+	line "terns drawn on the"
 
-	para "của TÀN TÍCH."
+	para "walls of the"
+	line "RUINS."
 
-	para "Chúng hẳn là chìa"
-	line "khóa để giải mã"
-	cont "bí ẩn của TÀN"
-	cont "TÍCH."
+	para "They must be the"
+	line "keys for unravel-"
+	cont "ing the mystery"
+	cont "of the RUINS."
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_UnownAppeared:
-	text "#MON lạ bạn"
-	line "thấy trong TÀN"
-	cont "TÍCH?"
+	text "The strange #-"
+	line "MON you saw in the"
+	cont "RUINS?"
 
-	para "Chúng có vẻ rất"
-	line "giống các bức vẽ"
+	para "They appear to be"
+	line "very much like the"
 
-	para "trên tường ở đó."
+	para "drawings on the"
+	line "walls there."
 
 	para "Hmm…"
 
-	para "Điều đó có nghĩa"
-	line "là có nhiều loại"
-	cont "của chúng…"
+	para "That must mean"
+	line "there are many"
+	cont "kinds of them…"
 	done
 
 RuinsOfAlphResearchCenterUnusedText1: ; unreferenced
-	text "Chúng tôi nghĩ có"
-	line "điều gì đó khiến"
+	text "We think something"
+	line "caused the cryptic"
 
-	para "các họa tiết bí ẩn"
-	line "xuất hiện trong"
-	cont "TÀN TÍCH."
+	para "patterns to appear"
+	line "in the RUINS."
 
-	para "Chúng tôi tập"
-	line "trung vào điều đó"
+	para "We've focused our"
+	line "studies on that."
 	done
 
 RuinsOfAlphResearchCenterUnusedText2: ; unreferenced
-	text "Theo nghiên cứu"
-	line "của tôi…"
+	text "According to my"
+	line "research…"
 
-	para "Những họa tiết bí"
-	line "ẩn đó xuất hiện"
+	para "Those mysterious"
+	line "patterns appeared"
 
-	para "khi TT #COM"
-	line "được xây."
+	para "when the #COM"
+	line "CENTER was built."
 
-	para "Điều đó có nghĩa"
-	line "là sóng radio có"
+	para "It must mean that"
+	line "radio waves have"
 
-	para "một dạng liên hệ"
-	line "nào đó…"
+	para "some sort of a"
+	line "link…"
 	done
 
 RuinsOfAlphResearchCenterScientist2Text_GotAllUnown:
-	text "Tại sao những họa"
-	line "tiết cổ đại đó"
+	text "Why did those"
+	line "ancient patterns"
 
-	para "xuất hiện trên"
-	line "tường bây giờ?"
+	para "appear on the wall"
+	line "now?"
 
-	para "Bí ẩn càng sâu"
-	line "thêm…"
+	para "The mystery"
+	line "deepens…"
 	done
 
 RuinsOfAlphResearchCenterComputerText:
-	text "TÀN TÍCH ALPH"
+	text "RUINS OF ALPH"
 
-	para "Khám Phá"
-	line "Năm 10"
+	para "Exploration"
+	line "Year 10"
 	done
 
 RuinsOfAlphResearchCenterComputerText_GotAllUnown:
-	text "#MON Bí Ẩn"
-	line "Tên: UNOWN"
+	text "Mystery #MON"
+	line "Name: UNOWN"
 
-	para "Tổng {d:NUM_UNOWN}"
-	line "loại tìm thấy."
+	para "A total of {d:NUM_UNOWN}"
+	line "kinds found."
 	done
 
 RuinsOfAlphResearchCenterPrinterText_DoesntWork:
-	text "Cái này chưa hoạt"
-	line "động được."
+	text "This doesn't seem"
+	line "to work yet."
 	done
 
 RuinsOfAlphResearchCenterUnownPrinterText:
-	text "UNOWN có thể được"
-	line "in ra."
+	text "UNOWN may be"
+	line "printed out."
 	done
 
 RuinsOfAlphResearchCenterProfSilktreePhotoText:
-	text "Đây là ảnh người"
-	line "sáng lập TT"
+	text "It's a photo of"
+	line "the RESEARCH"
 
-	para "NGHIÊN CỨU,"
-	line "GS.SILKTREE."
+	para "CENTER'S founder,"
+	line "PROF.SILKTREE."
 	done
 
 RuinsOfAlphResearchCenterAcademicBooksText:
-	text "Có nhiều sách học"
-	line "thuật."
+	text "There are many"
+	line "academic books."
 
-	para "Tàn Tích Cổ Đại…"
-	line "Bí Ẩn Của Người"
-	cont "Xưa…"
+	para "Ancient Ruins…"
+	line "Mysteries of the"
+	cont "Ancients…"
 	done
 
 RuinsOfAlphResearchCenter_MapEvents:

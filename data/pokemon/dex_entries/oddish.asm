@@ -1,10 +1,10 @@
-	db "CỎ DẠI@" ; species name
-	dw 5, 54 ; height, weight
+	db "WEED@" ; species name
+	dw 108, 120 ; height, weight
 
-	db   "Ban ngày, nó ở"
-	next "dưới lòng đất"
-	next "lạnh để tránh"
+	db   "During the day, it"
+	next "stays in the cold"
+	next "underground to"
 
-	page "nắng. Nó lớn lên"
-	next "nhờ tắm ánh"
-	next "trăng.@"
+	page "avoid the sun."
+	next "It grows by bath-"
+	next "ing in moonlight.@"

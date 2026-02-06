@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/printer/print_party.asm"
+else
+
 DEF PRINTPARTY_HP EQU '◀' ; $71
 
 PrintPage1:
@@ -102,32 +106,32 @@ PrintPage2:
 
 GBPrinterStrings: ; used only for BANK(GBPrinterStrings)
 GBPrinterString_Null: db "@"
-GBPrinterString_CheckingLink: next " ĐANG KIỂM TRA...@"
-GBPrinterString_Transmitting: next "  ĐANG TRUYỀN...@"
-GBPrinterString_Printing: next "    ĐANG IN...@"
+GBPrinterString_CheckingLink: next " CHECKING LINK...@"
+GBPrinterString_Transmitting: next "  TRANSMITTING...@"
+GBPrinterString_Printing: next "    PRINTING...@"
 GBPrinterString_PrinterError1:
-	db   "  Lỗi máy in 1"
+	db   " Printer Error 1"
 	next ""
-	next "Kiểm tra hướng dẫn"
-	next "máy in Game Boy."
+	next "Check the Game Boy"
+	next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError2:
-	db   "  Lỗi máy in 2"
+	db   " Printer Error 2"
 	next ""
-	next "Kiểm tra hướng dẫn"
-	next "máy in Game Boy."
+	next "Check the Game Boy"
+	next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError3:
-	db   "  Lỗi máy in 3"
+	db   " Printer Error 3"
 	next ""
-	next "Kiểm tra hướng dẫn"
-	next "máy in Game Boy."
+	next "Check the Game Boy"
+	next "Printer Manual."
 	db   "@"
 GBPrinterString_PrinterError4:
-	db   "  Lỗi máy in 4"
+	db   " Printer Error 4"
 	next ""
-	next "Kiểm tra hướng dẫn"
-	next "máy in Game Boy."
+	next "Check the Game Boy"
+	next "Printer Manual."
 	db   "@"
 
 PrintPartyMonPage1:
@@ -326,20 +330,20 @@ PlaceGenderAndShininess:
 	ret
 
 PrintParty_OTString:
-	db "HLV GỐC/@"
+	db "OT/@"
 
 PrintParty_MoveString:
-	db "CHIÊU@"
+	db "MOVE@"
 
 PrintParty_IDNoString:
 	db "<ID>№.@"
 
 PrintParty_StatsString:
-	db   "CÔNG"
-	next "THỦ"
-	next "CÔNG Đ.B"
-	next "THỦ Đ.B"
-	next "TỐC ĐỘ"
+	db   "ATTACK"
+	next "DEFENSE"
+	next "SPCL.ATK"
+	next "SPCL.DEF"
+	next "SPEED"
 	db   "@"
 
 PrintParty_NoMoveString:
@@ -350,3 +354,5 @@ INCBIN "gfx/printer/hp.1bpp"
 
 GBPrinterLvIcon:
 INCBIN "gfx/printer/lv.1bpp"
+
+endc ; _CRYSTAL_VN

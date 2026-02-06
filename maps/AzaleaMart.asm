@@ -21,24 +21,26 @@ AzaleaMartBugCatcherScript:
 	jumptextfaceplayer AzaleaMartBugCatcherText
 
 AzaleaMartCooltrainerMText:
-	text "Không có BÓNG"
-	line "SUPER ở đây. #"
+	text "There's no GREAT"
+	line "BALL here. #"
 
-	para "BÓNG là đủ rồi."
+	para "BALLS will have"
+	line "to do."
 
-	para "Ước gì KURT làm"
-	line "cho tôi vài BÓNG"
-	cont "đặc biệt."
+	para "I wish KURT would"
+	line "make me some of"
+	cont "his custom BALLS."
 	done
 
 AzaleaMartBugCatcherText:
-	text "BÓNG SUPER bắt"
-	line "#MON tốt hơn"
-	cont "BÓNG #."
+	text "A GREAT BALL is"
+	line "better for catch-"
+	cont "ing #MON than a"
+	cont "# BALL."
 
-	para "Nhưng của KURT"
-	line "thì đôi khi tốt"
-	cont "hơn."
+	para "But KURT's might"
+	line "be better some-"
+	cont "times."
 	done
 
 AzaleaMart_MapEvents:

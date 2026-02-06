@@ -1,10 +1,10 @@
-	db "VẬN CHUYỂN@" ; species name
-	dw 25, 2200 ; height, weight
+	db "TRANSPORT@" ; species name
+	dw 802, 4850 ; height, weight
 
-	db   "#MON hiền lành"
-	next "này thích chở"
-	next "người và mang đến"
+	db   "This gentle"
+	next "#MON loves to"
+	next "give people rides"
 
-	page "một cách di"
-	next "chuyển rất"
-	next "thoải mái.@"
+	page "and provides a ve-"
+	next "ry comfortable way"
+	next "to get around.@"

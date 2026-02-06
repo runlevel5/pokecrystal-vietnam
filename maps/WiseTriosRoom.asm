@@ -129,215 +129,217 @@ WiseTriosRoomSageAllowsPassageMovement:
 	step_end
 
 WiseTriosRoomSage1Text:
-	text "Kinh ngạc…"
+	text "Astounding…"
 
-	para "SUICUNE, ENTEI và"
-	line "RAIKOU đã tỉnh"
-	cont "giấc…"
+	para "SUICUNE, ENTEI and"
+	line "RAIKOU have arisen"
+	cont "from their sleep…"
 
-	para "Truyền thuyết có"
-	line "thành sự thật?"
+	para "Is the legend"
+	line "coming true?"
 	done
 
 WiseTriosRoomSage2Text:
-	text "Chúng tôi rèn"
-	line "luyện tại THÁP"
-	cont "CHÁY,"
+	text "We train at the"
+	line "BURNED TOWER, but"
 
-	para "nhưng chúng tôi"
-	line "chưa từng nghe có"
+	para "we've never heard"
+	line "of a hole opening"
 
-	para "lỗ hổng xuất hiện"
-	line "ở đó trước đây."
+	para "up there before."
+	line "It must have been"
 
-	para "Hẳn đã cố ý được"
-	line "tạo ra bởi ai đó."
+	para "deliberately made"
+	line "by someone."
 	done
 
 WiseTriosRoomSage3BlocksExitText:
-	text "THÁP THIẾC chỉ có"
-	line "thể vào bởi người"
+	text "TIN TOWER may be"
+	line "entered by those"
 
-	para "sở hữu HUY HIỆU"
-	line "GYM ECRUTEAK."
+	para "bearing ECRUTEAK's"
+	line "GYM BADGE."
 
-	para "Tuy nhiên, giờ"
+	para "However, now that"
 	line "SUICUNE, RAIKOU"
 
-	para "và ENTEI đã thức"
-	line "dậy, tôi yêu cầu"
+	para "and ENTEI have"
+	line "arisen, I ask you"
 
-	para "bạn không được"
-	line "vào!"
+	para "to refrain from"
+	line "entering!"
 	done
 
 WiseTriosRoomSage3Text:
-	text "Chúng tôi, BA"
-	line "HIỀN TRÍ, là người"
+	text "We, the WISE TRIO,"
+	line "are the protectors"
 
-	para "bảo vệ các #MON"
-	line "huyền thoại."
+	para "of the legendary"
+	line "#MON."
 	done
 
 SageGakuSeenText:
-	text "Truyền thuyết nói"
-	line "rằng khi xuất hiện"
+	text "Legend has it that"
+	line "upon the emergence"
 
-	para "HLV có khả năng"
-	line "chạm đến tâm hồn"
+	para "of a trainer who"
+	line "has the ability to"
 
-	para "của #MON, một"
-	line "#MON sẽ đến để"
+	para "touch the souls of"
+	line "#MON, a #MON"
 
-	para "thử thách HLV đó"
-	line "tại THÁP THIẾC."
+	para "will come forth to"
+	line "put that trainer"
 
-	para "Truyền thuyết đã"
-	line "thành sự thật!"
+	para "to test at the TIN"
+	line "TOWER."
 
-	para "#MON huyền"
-	line "thoại SUICUNE đã"
-	cont "đến!"
+	para "The legend has"
+	line "come true!"
 
-	para "Chúng tôi, BA HIỀN"
-	line "TRÍ, sẽ kiểm tra"
+	para "The legendary"
+	line "#MON SUICUNE"
+	cont "has arrived!"
 
-	para "xem bạn có đủ tư"
-	line "cách để vào!"
+	para "We, the WISE TRIO,"
+	line "shall test your"
+
+	para "worthiness to go"
+	line "inside!"
 	done
 
 SageGakuBeatenText:
-	text "Mạnh hơn chúng tôi"
-	line "nghĩ? Có lẽ…"
+	text "Stronger than we"
+	line "thought? Perhaps…"
 	done
 
 SageGakuAfterBattleText:
-	text "À, vậy bạn là"
-	line "người nói đã thấy"
+	text "Ah, so it is you"
+	line "who claim to have"
 
-	para "SUICUNE, ENTEI và"
-	line "RAIKOU khi chúng"
-	cont "ngủ?"
+	para "seen SUICUNE,"
+	line "ENTEI and RAIKOU"
+	cont "while they slept?"
 
-	para "Không thể tin được"
+	para "Unbelievable!"
 
-	para "Truyền thuyết nói"
-	line "rằng không thể"
-
-	para "nhìn thấy chúng"
-	line "khi chúng ngủ…"
+	para "Legend has it that"
+	line "they can't be seen"
+	cont "while they sleep…"
 	done
 
 SageMasaSeenText:
-	text "Bạn có thể được"
-	line "tin tưởng với sự"
-	cont "thật không?"
+	text "Can you be trusted"
+	line "with the truth?"
 
-	para "Tôi phải xác nhận"
-	line "tư cách của bạn."
+	para "I must ascertain"
+	line "your worthiness."
 	done
 
 SageMasaBeatenText:
-	text "…Tôi sẽ nói cho"
-	line "bạn sự thật…"
+	text "…I will tell you"
+	line "the truth…"
 	done
 
 SageMasaAfterBattleText:
-	text "Ngày xưa, có hai"
-	line "tòa tháp chín tầng"
-	cont "ở đây."
+	text "In the past, there"
+	line "were two nine-tier"
+	cont "towers here."
 
-	para "THÁP ĐỒNG, được"
-	line "nói là đánh thức"
+	para "The BRASS TOWER,"
+	line "which was said to"
 
-	para "#MON, và THÁP"
-	line "THIẾC, nơi #MON"
+	para "awaken #MON,"
+	line "and the TIN TOWER,"
 
-	para "được nói là nghỉ"
-	line "ngơi."
+	para "where #MON were"
+	line "said to rest."
 
-	para "Quang cảnh từ đỉnh"
-	line "các THÁP hẳn rất"
+	para "The view from the"
+	line "tops of the TOWERS"
 
-	para "tráng lệ."
+	para "must have been"
+	line "magnificent."
 
-	para "Vào thời đó, một"
-	line "#MON to lớn màu"
+	para "At the time, an"
+	line "immense, silver-"
 
-	para "bạc được cho là"
-	line "đậu trên đỉnh"
+	para "colored #MON"
+	line "was said to make"
 
-	para "THÁP ĐỒNG."
+	para "its roost atop the"
+	line "BRASS TOWER."
 
-	para "Tuy nhiên…"
+	para "However…"
 
-	para "Khoảng 150 năm"
-	line "trước, một tia sét"
+	para "About 150 years"
+	line "ago, a lightning"
 
-	para "đánh trúng một"
-	line "trong hai THÁP."
+	para "bolt struck one of"
+	line "the TOWERS."
 
-	para "Nó bị nuốt trong"
-	line "lửa cháy ba ngày"
-	cont "ba đêm."
+	para "It was engulfed in"
+	line "flames that raged"
+	cont "for three days."
 
-	para "Một trận mưa đột"
-	line "ngột cuối cùng"
+	para "A sudden downpour"
+	line "finally put out"
+	cont "the blaze."
 
-	para "dập tắt ngọn lửa."
-
-	para "Và đó là cách THÁP"
-	line "CHÁY ra đời."
+	para "And that is how"
+	line "the BURNED TOWER"
+	cont "came to be."
 	done
 
 SageKojiSeenText:
-	text "Hãy cho tôi thấy"
-	line "sức mạnh của bạn!"
+	text "Let me see your"
+	line "power!"
 	done
 
 SageKojiBeatenText:
-	text "Quá mạnh!"
-	line "Sao vậy?"
+	text "Too strong!"
+	line "Why?"
 	done
 
 SageKojiAfterBattleQuestionText:
-	text "Bạn… Bạn có phải"
-	line "là HLV được chờ"
+	text "You… Are you the"
+	line "trainer who is"
 
-	para "đợi bởi #MON"
-	line "huyền thoại?"
+	para "awaited by the"
+	line "legendary #MON?"
 	done
 
 SageKojiAfterBattleSpeechText:
-	text "Tôi hiểu rồi…"
+	text "I see…"
 
-	para "Chúng tôi, BA HIỀN"
-	line "TRÍ, được giao"
+	para "We, the WISE TRIO,"
+	line "have been given "
 
-	para "trách nhiệm bảo vệ"
-	line "#MON huyền"
-	cont "thoại."
+	para "the responsibility"
+	line "of protecting the"
 
-	para "Chúng tôi chỉ cho"
-	line "phép những người"
+	para "legendary #MON."
+	line "We are to allow"
 
-	para "sở hữu sức mạnh"
-	line "và linh hồn sự"
-	cont "thật qua."
+	para "passage only to"
+	line "those people who"
 
-	para "Xin hãy tiếp tục"
-	line "và vào THÁP THIẾC"
-	cont "phía trước."
+	para "possess the power"
+	line "and soul of truth."
 
-	para "SUICUNE sẽ kiểm"
-	line "tra bạn."
+	para "Please, do go on"
+	line "and enter the TIN"
+	cont "TOWER ahead."
+
+	para "SUICUNE will put"
+	line "you to the test."
 	done
 
 SageKojiAfterBattleFinalText:
-	text "Xin hãy tiếp tục."
+	text "Please, do go on."
 
-	para "SUICUNE sẽ kiểm"
-	line "tra bạn."
+	para "SUICUNE will put"
+	line "you to the test."
 	done
 
 WiseTriosRoom_MapEvents:

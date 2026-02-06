@@ -45,55 +45,55 @@ PlayersNeighborsHouseRadioScript:
 	end
 
 PlayersNeighborsDaughterText:
-	text "PIKACHU là #MON"
-	line "đã tiến hóa."
+	text "PIKACHU is an"
+	line "evolved #MON."
 
-	para "Em rất ngạc nhiên"
-	line "với phát hiện của"
-	cont "GS ELM."
+	para "I was amazed by"
+	line "PROF.ELM's find-"
+	cont "ings."
 
-	para "Ông ấy nổi tiếng"
-	line "về nghiên cứu"
-	cont "tiến hóa #MON."
+	para "He's so famous for"
+	line "his research on"
+	cont "#MON evolution."
 
-	para "…thở dài…"
+	para "…sigh…"
 
-	para "Ước gì em có thể"
-	line "là nhà nghiên cứu"
-	cont "như ông ấy…"
+	para "I wish I could be"
+	line "a researcher like"
+	cont "him…"
 	done
 
 PlayersNeighborText:
-	text "Con gái cô nhất"
-	line "quyết muốn làm"
+	text "My daughter is"
+	line "adamant about"
 
-	para "trợ lý cho"
-	line "GS ELM."
+	para "becoming PROF."
+	line "ELM's assistant."
 
-	para "Nó mê #MON lắm!"
+	para "She really loves"
+	line "#MON!"
 
-	para "Mà cô cũng thế!"
+	para "But then, so do I!"
 	done
 
 PlayerNeighborRadioText1:
-	text "CHUYỆN #MON CỦA"
-	line "GS OAK! Hẹn gặp"
-	cont "lại lần sau!"
+	text "PROF.OAK'S #MON"
+	line "TALK! Please tune"
+	cont "in next time!"
 	done
 
 PlayerNeighborRadioText2:
-	text "KÊNH #MON!"
+	text "#MON CHANNEL!"
 	done
 
 PlayerNeighborRadioText3:
-	text "Đây là DJ MARY,"
-	line "người dẫn chương"
-	cont "trình của bạn!"
+	text "This is DJ MARY,"
+	line "your co-host!"
 	done
 
 PlayerNeighborRadioText4:
 	text "#MON!"
-	line "KÊNH #MON…"
+	line "#MON CHANNEL…"
 	done
 
 PlayersNeighborsHouse_MapEvents:

@@ -1,3 +1,3 @@
 UnusedPhoneText:
-	text "Chào buổi sáng."
+	text "Good morning."
 	done

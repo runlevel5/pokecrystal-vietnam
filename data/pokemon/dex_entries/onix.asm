@@ -1,10 +1,10 @@
-	db "RẮN ĐÁ@" ; species name
-	dw 88, 2100 ; height, weight
+	db "ROCK SNAKE@" ; species name
+	dw 2810, 4630 ; height, weight
 
-	db   "Khi đào xuyên"
-	next "mặt đất, nó hấp"
-	next "thụ nhiều vật"
+	db   "As it digs through"
+	next "the ground, it"
+	next "absorbs many hard"
 
-	page "cứng. Điều này"
-	next "khiến thân nó"
-	next "rất chắc.@"
+	page "objects. This is"
+	next "what makes its"
+	next "body so solid.@"

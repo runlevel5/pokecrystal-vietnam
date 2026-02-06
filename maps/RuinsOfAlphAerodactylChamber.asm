@@ -108,35 +108,36 @@ RuinsOfAlphAerodactylChamberSkyfallTopMovement:
 	step_end
 
 RuinsOfAlphAerodactylChamberWallPatternLeftText:
-	text "Họa tiết xuất"
-	line "hiện trên tường…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphAerodactylChamberUnownText: ; unreferenced
-	text "Đó là chữ UNOWN!"
+	text "It's UNOWN text!"
 	done
 
 RuinsOfAlphAerodactylChamberWallPatternRightText:
-	text "Họa tiết xuất"
-	line "hiện trên tường…"
+	text "Patterns appeared"
+	line "on the walls…"
 	done
 
 RuinsOfAlphAerodactylChamberWallHoleText:
-	text "Có một lỗ lớn"
-	line "trên tường!"
+	text "There's a big hole"
+	line "in the wall!"
 	done
 
 RuinsOfAlphAerodactylChamberAncientReplicaText:
-	text "Đây là bản sao"
-	line "#MON cổ đại."
+	text "It's a replica of"
+	line "an ancient #-"
+	cont "MON."
 	done
 
 RuinsOfAlphAerodactylChamberDescriptionText:
-	text "#MON bay này"
-	line "tấn công con mồi"
+	text "This flying #-"
+	line "MON attacked its"
 
-	para "bằng hàm răng"
-	line "sắc như cưa."
+	para "prey with saw-like"
+	line "fangs."
 	done
 
 RuinsOfAlphAerodactylChamber_MapEvents:

@@ -21,29 +21,29 @@ VioletMartCooltrainerMScript:
 	jumptextfaceplayer VioletMartCooltrainerMText
 
 VioletMartGrannyText:
-	text "Khi mới bắt được"
-	line "#MON, nó có"
-	cont "thể yếu."
+	text "When you first"
+	line "catch a #MON,"
+	cont "it may be weak."
 
-	para "Nhưng cuối cùng"
-	line "nó sẽ trở nên"
-	cont "mạnh mẽ."
+	para "But it will even-"
+	line "tually grow to be"
+	cont "strong."
 
-	para "Điều quan trọng"
-	line "là đối xử #MON"
-	cont "bằng tình yêu."
+	para "It's important to"
+	line "treat #MON with"
+	cont "love."
 	done
 
 VioletMartCooltrainerMText:
-	text "#MON có thể"
-	line "cầm vật phẩm như"
-	cont "LỌ THUỐC, GIẢI ĐỘC"
+	text "#MON can hold"
+	line "items like POTION"
+	cont "and ANTIDOTE."
 
-	para "Nhưng chúng không"
-	line "biết cách dùng"
+	para "But they don't"
+	line "appear to know how"
 
-	para "đồ do con người"
-	line "tạo ra."
+	para "to use manmade"
+	line "items."
 	done
 
 VioletMart_MapEvents:

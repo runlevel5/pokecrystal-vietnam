@@ -227,73 +227,73 @@ VermilionPortApproachFastShipRightMovement:
 	step_end
 
 VermilionPortDepartingText:
-	text "Tàu sắp khởi hành"
-	line "Xin hãy lên tàu."
+	text "We're departing"
+	line "soon. Please get"
+	cont "on board."
 	done
 
 VermilionPortCantBoardText:
-	text "Xin lỗi. Bạn không"
-	line "thể lên tàu bây"
-	cont "giờ."
+	text "Sorry. You can't"
+	line "board now."
 	done
 
 VermilionPortAskBoardingText:
-	text "Chào mừng đến TÀU"
-	line "CAO TỐC S.S.AQUA!"
+	text "Welcome to FAST"
+	line "SHIP S.S.AQUA."
 
-	para "Hôm nay bạn có"
-	line "lên tàu không?"
+	para "Will you be board-"
+	line "ing today?"
 	done
 
 VermilionPortAskTicketText:
-	text "Xin cho xem"
-	line "VÉ S.S. của bạn?"
+	text "May I see your"
+	line "S.S.TICKET?"
 	done
 
 VermilionPortComeAgainText:
-	text "Hy vọng được gặp"
-	line "lại bạn!"
+	text "We hope to see you"
+	line "again!"
 	done
 
 VermilionPortSSTicketText:
-	text "<PLAYER> đưa ra"
-	line "VÉ S.S."
+	text "<PLAYER> flashed"
+	line "the S.S.TICKET."
 
-	para "Đúng rồi."
-	line "Cảm ơn bạn!"
+	para "That's it."
+	line "Thank you!"
 	done
 
 VermilionPortNoTicketText:
-	text "<PLAYER> thử đưa"
-	line "VÉ S.S…"
+	text "<PLAYER> tried to"
+	line "show the S.S."
+	cont "TICKET…"
 
-	para "…Nhưng không có"
-	line "VÉ!"
+	para "…But no TICKET!"
 
-	para "Xin lỗi!"
-	line "Bạn chỉ có thể"
+	para "Sorry!"
+	line "You may board only"
 
-	para "lên tàu nếu có"
-	line "VÉ S.S."
+	para "if you have an"
+	line "S.S.TICKET."
 	done
 
 VermilionPortSailWednesdayText:
-	text "TÀU AQUA sẽ"
-	line "khởi hành Thứ Tư."
+	text "The FAST SHIP will"
+	line "sail on Wednesday."
 	done
 
 VermilionPortSailSundayText:
-	text "TÀU AQUA sẽ"
-	line "khởi hành C.Nhật."
+	text "The FAST SHIP will"
+	line "sail next Sunday."
 	done
 
 VermilionPortSuperNerdText:
-	text "Bạn đến từ"
-	line "JOHTO à?"
+	text "You came from"
+	line "JOHTO?"
 
-	para "Tôi nghe nói nhiều"
-	line "#MON hiếm sống"
-	cont "ở đó."
+	para "I hear many rare"
+	line "#MON live over"
+	cont "there."
 	done
 
 VermilionPort_MapEvents:

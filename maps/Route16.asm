@@ -20,10 +20,10 @@ CyclingRoadSign:
 	jumptext CyclingRoadSignText
 
 CyclingRoadSignText:
-	text "ĐƯỜNG ĐUA XE"
+	text "CYCLING ROAD"
 
-	para "LÊN DỐC XUỐNG DỐC"
-	line "KHÔNG NGỪNG!"
+	para "DOWNHILL COASTING"
+	line "ALL THE WAY!"
 	done
 
 Route16_MapEvents:

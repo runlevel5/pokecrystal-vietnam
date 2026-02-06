@@ -27,21 +27,21 @@ Route30BerryHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 Route30BerrySpeechHouseMonEatBerriesText:
-	text "Bạn biết không,"
-	line "#MON ăn QUẢ."
+	text "You know, #MON"
+	line "eat BERRIES."
 
-	para "À, #MON của tôi"
-	line "khỏe hơn nhờ ăn"
-	cont "QUẢ đấy."
+	para "Well, my #MON"
+	line "got healthier by"
+	cont "eating a BERRY."
 
-	para "Đây. Tôi chia cho"
-	line "bạn một quả!"
+	para "Here. I'll share"
+	line "one with you!"
 	done
 
 Route30BerrySpeechHouseCheckTreesText:
-	text "Kiểm tra cây để"
-	line "tìm QUẢ. Chúng"
-	cont "rơi xuống ngay."
+	text "Check trees for"
+	line "BERRIES. They just"
+	cont "drop right off."
 	done
 
 Route30BerryHouse_MapEvents:

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/items/mart.asm"
+else
+
 	const_def
 	const MARTTEXT_HOW_MANY
 	const MARTTEXT_COSTS_THIS_MUCH
@@ -824,9 +828,9 @@ MenuHeader_BuySell:
 .MenuData
 	db STATICMENU_CURSOR ; strings
 	db 3 ; items
-	db "MUA@"
-	db "BÁN@"
-	db "THOÁT@"
+	db "BUY@"
+	db "SELL@"
+	db "QUIT@"
 
 MartThanksText:
 	text_far _MartThanksText
@@ -867,3 +871,5 @@ MartTextbox:
 	call JoyWaitAorB
 	call ExitMenu
 	ret
+
+endc

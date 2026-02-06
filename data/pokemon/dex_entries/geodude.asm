@@ -1,10 +1,10 @@
-	db "ĐÁ@" ; species name
-	dw 4, 200 ; height, weight
+	db "ROCK@" ; species name
+	dw 104, 440 ; height, weight
 
-	db   "Tự hào về thân"
-	next "hình cứng cáp,"
-	next "chúng đập vào"
+	db   "Proud of their"
+	next "sturdy bodies,"
+	next "they bash against"
 
-	page "nhau để xem ai"
-	next "cứng hơn.@"
-	next "@"
+	page "each other in a"
+	next "contest to prove"
+	next "whose is harder.@"

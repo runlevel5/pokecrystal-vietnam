@@ -17,29 +17,29 @@ CherrygroveGymSpeechHouseBookshelf:
 	jumpstd PictureBookshelfScript
 
 CherrygroveGymSpeechHousePokefanMText:
-	text "Bạn đang muốn xem"
-	line "mình giỏi đến đâu"
+	text "You're trying to"
+	line "see how good you"
 
-	para "với tư cách HLV"
-	line "#MON à?"
+	para "are as a #MON"
+	line "trainer?"
 
-	para "Bạn nên ghé thăm"
-	line "các GYM #MON"
+	para "You better visit"
+	line "the #MON GYMS"
 
-	para "khắp JOHTO và thu"
-	line "thập HC."
+	para "all over JOHTO and"
+	line "collect BADGES."
 	done
 
 CherrygroveGymSpeechHouseBugCatcherText:
-	text "Khi lớn lên, tớ"
-	line "sẽ trở thành"
-	cont "T.LĨNH GYM!"
+	text "When I get older,"
+	line "I'm going to be a"
+	cont "GYM LEADER!"
 
-	para "Tớ cho #MON của"
-	line "mình chiến đấu"
+	para "I make my #MON"
+	line "battle with my"
 
-	para "với bạn bè để"
-	line "chúng mạnh hơn!"
+	para "friend's to make"
+	line "them tougher!"
 	done
 
 CherrygroveGymSpeechHouse_MapEvents:

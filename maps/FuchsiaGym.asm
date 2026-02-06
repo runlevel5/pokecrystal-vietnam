@@ -234,151 +234,148 @@ Movement_NinjaSpin:
 	step_end
 
 JanineText_DisappointYou:
-	text "Hùhùhù…"
+	text "Fufufufu…"
 
-	para "Ta xin lỗi đã làm"
-	line "ngươi thất vọng…"
+	para "I'm sorry to dis-"
+	line "appoint you…"
 
-	para "Ta chỉ đùa thôi!"
+	para "I'm only joking!"
 
-	para "Ta là thật đấy!"
+	para "I'm the real deal!"
 
-	para "JANINE của GYM"
-	line "FUCHSIA, chính"
-	cont "là ta!"
+	para "JANINE of FUCHSIA"
+	line "GYM, that's me!"
 	done
 
 JanineText_ToughOne:
-	text "JANINE: Ngươi rất"
-	line "mạnh. Ngươi thắng"
-	cont "rồi…"
+	text "JANINE: You're a"
+	line "tough one. You"
+	cont "definitely won…"
 
-	para "Đây là HUY HIỆU"
-	line "HỒN. Hãy nhận lấy."
+	para "Here's SOULBADGE."
+	line "Take it."
 	done
 
 Text_ReceivedSoulBadge:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU HỒN."
+	text "<PLAYER> received"
+	line "SOULBADGE."
 	done
 
 JanineText_ToxicSpeech:
-	text "JANINE: Ngươi"
-	line "mạnh quá! Ta có"
-	cont "quà đặc biệt!"
+	text "JANINE: You're so"
+	line "tough! I have a"
+	cont "special gift!"
 
-	para "Đó là CỰC ĐỘC, một"
-	line "độc mạnh liên tục"
+	para "It's TOXIC, a pow-"
+	line "erful poison that"
 
-	para "hút HP của nạn"
-	line "nhân."
+	para "steadily saps the"
+	line "victim's HP."
 	done
 
 JanineText_ApplyMyself:
-	text "JANINE: Ta sẽ"
-	line "thật sự cố gắng"
+	text "JANINE: I'm going"
+	line "to really apply"
 
-	para "và cải thiện kỹ"
-	line "năng của mình."
+	para "myself and improve"
+	line "my skills."
 
-	para "Ta muốn trở nên"
-	line "giỏi hơn cả Cha"
-	cont "và ngươi!"
+	para "I want to become"
+	line "better than both"
+	cont "Father and you!"
 	done
 
 LassAliceBeforeText:
-	text "Hùhù!"
+	text "Fufufu!"
 
-	para "Ta là JANINE,"
-	line "T.LĨNH GYM!"
+	para "I'm JANINE, the"
+	line "GYM LEADER!"
 
-	para "Không, ta không"
-	line "phải! Lừa được"
-	cont "ngươi rồi!"
+	para "No, I'm not!"
+	line "Gotcha, sucker!"
 	done
 
 LassAliceBeatenText:
-	text "Ta lừa được bạn…"
+	text "I had you fooled…"
 	done
 
 LassAliceAfterText:
-	text "Bạn sẽ phân biệt"
-	line "T.LĨNH thật của"
-	cont "chúng tôi sao?"
+	text "How will you dis-"
+	line "tinguish our real"
+	cont "LEADER?"
 	done
 
 LassLindaBeforeText:
-	text "Lừa được rồi!"
+	text "Fooled you!"
 	line "Hahaha!"
 	done
 
 LassLindaBeatenText:
-	text "Ùm… Thua rồi…"
-	line "Bạn không yếu…"
+	text "Ooh… I lost…"
+	line "You're not weak…"
 	done
 
 LassLindaAfterText:
-	text "Sao? Tôi cải"
-	line "trang hoàn hảo"
-	cont "chứ?"
+	text "Well? Wasn't my"
+	line "disguise perfect?"
 	done
 
 PicnickerCindyBeforeText:
-	text "Ta là JANINE!"
+	text "I'm JANINE!"
 
-	para "Sao bạn biết ta"
-	line "là thật?"
+	para "How did you know I"
+	line "was real?"
 
-	para "Đấu đi!"
+	para "Let's battle!"
 	done
 
 PicnickerCindyBeatenText:
-	text "Chết thật!"
-	line "Tôi muốn thắng!"
+	text "Darn it!"
+	line "I wanted to win!"
 	done
 
 PicnickerCindyAfterText:
-	text "Bạn chắc đang"
-	line "mệt rồi."
+	text "You must be"
+	line "getting tired."
 	done
 
 CamperBarryBeforeText:
 	text "Wahahaha!"
 
-	para "Đúng vậy đó!"
-	line "Ta là JANINE!"
+	para "You betcha!"
+	line "I'm JANINE!"
 	done
 
 CamperBarryBeatenText:
-	text "Tôi cải trang"
-	line "chuẩn mà! Chết!"
+	text "My disguise was"
+	line "right on! Dang!"
 	done
 
 CamperBarryAfterText:
-	text "Này bạn. Tôi cải"
-	line "trang dễ thương"
-	cont "không, hả?"
+	text "Hey, you. Was my"
+	line "disguise cute or"
+	cont "what, huh?"
 	done
 
 FuchsiaGymGuideText:
-	text "Yo, nhà vô địch"
-	line "tương lai!"
+	text "Yo, CHAMP in"
+	line "making!"
 
-	para "Khoan! Nhìn xung"
-	line "quanh bạn đi."
+	para "Whoops! Take a"
+	line "good look around"
 
-	para "Tất cả HLV đều"
-	line "trông giống"
-	cont "T.LĨNH JANINE."
+	para "you. The trainers"
+	line "all look like the"
+	cont "LEADER, JANINE."
 
-	para "Ai mới là JANINE"
-	line "thật?"
+	para "Which of them is"
+	line "the real JANINE?"
 	done
 
 FuchsiaGymGuideWinText:
-	text "Đó là trận đấu"
-	line "tuyệt vời, HLV"
-	cont "từ JOHTO!"
+	text "That was a great"
+	line "battle, trainer"
+	cont "from JOHTO!"
 	done
 
 FuchsiaGym_MapEvents:

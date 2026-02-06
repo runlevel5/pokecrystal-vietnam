@@ -143,54 +143,53 @@ Route33FruitTree:
 	fruittree FRUITTREE_ROUTE_33
 
 HikerAnthony2SeenText:
-	text "Tôi đi qua đường"
-	line "hầm, nhưng vẫn"
+	text "I came through the"
+	line "tunnel, but I"
 
-	para "còn rất nhiều"
-	line "năng lượng."
+	para "still have plenty"
+	line "of energy left."
 	done
 
 HikerAnthony2BeatenText:
-	text "Whoa! Cậu có năng"
-	line "lượng hơn tôi!"
+	text "Whoa! You've got"
+	line "more zip than me!"
 	done
 
 HikerAnthony2AfterText:
-	text "Chúng tôi, HIKERS"
-	line "tốt nhất ở trong"
-	cont "núi."
+	text "We HIKERS are at"
+	line "our best in the"
+	cont "mountains."
 	done
 
 HikerAnthonyDunsparceText:
-	text "Này, cậu bắt được"
-	line "DUNSPARCE chưa?"
+	text "Hey, did you get a"
+	line "DUNSPARCE?"
 
-	para "Tôi cũng bắt một"
-	line "con."
+	para "I caught one too."
 
-	para "Nhìn nó dưới ánh"
-	line "sáng. Mặt nó hài"
-	cont "hước ghê!"
+	para "Take a look at it"
+	line "in the light. It's"
+	cont "got a funny face!"
 	done
 
 Route33LassText:
-	text "Hổn hển…"
+	text "Pant, pant…"
 
-	para "Cuối cùng tôi cũng"
-	line "ra khỏi hang đó."
+	para "I finally got"
+	line "through that cave."
 
-	para "Nó lớn hơn tôi"
-	line "nghĩ nhiều."
+	para "It was much bigger"
+	line "than I'd expected."
 
-	para "Tôi mệt quá nên"
-	line "không khám phá"
+	para "I got too tired to"
+	line "explore the whole"
 
-	para "hết được, nên ra"
-	line "ngoài thôi."
+	para "thing, so I came"
+	line "outside."
 	done
 
 Route33SignText:
-	text "TUYẾN ĐƯỜNG 33"
+	text "ROUTE 33"
 	done
 
 Route33_MapEvents:

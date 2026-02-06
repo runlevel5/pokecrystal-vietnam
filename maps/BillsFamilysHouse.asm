@@ -107,137 +107,137 @@ BillsHouseRadio:
 	jumpstd Radio2Script
 
 BillTakeThisEeveeText:
-	text "BILL: Chào, "
-	line "<PLAYER>! Giúp"
+	text "BILL: Hi, <PLAYER>!"
+	line "Do us a favor and"
+	cont "take this EEVEE."
 
-	para "tôi và nhận con"
-	line "EEVEE này nhé."
+	para "It came over when"
+	line "I was adjusting"
+	cont "the TIME CAPSULE."
 
-	para "Nó xuất hiện khi"
-	line "tôi đang điều"
+	para "Someone has to"
+	line "take care of it,"
 
-	para "chỉnh CỖ MÁY"
-	line "THỜI GIAN."
+	para "but I don't like"
+	line "being outside."
 
-	para "Ai đó phải chăm"
-	line "sóc nó, nhưng tôi"
-
-	para "không thích ra"
-	line "ngoài lắm."
-
-	para "Tôi có thể nhờ"
-	line "bạn chơi với nó"
-	cont "được không?"
+	para "Can I count on you"
+	line "to play with it,"
+	cont "<PLAYER>?"
 	done
 
 BillImCountingOnYouText:
-	text "BILL: Tôi biết"
-	line "bạn sẽ đồng ý!"
+	text "BILL: I knew you'd"
+	line "come through!"
 
-	para "Tuyệt vời! Bạn"
-	line "thật sự giỏi!"
+	para "Way to go! You're"
+	line "the real deal!"
 
-	para "OK, tôi tin tưởng"
-	line "bạn nhé."
+	para "OK, I'm counting"
+	line "on you."
 
-	para "Hãy chăm sóc nó"
-	line "thật tốt!"
+	para "Take good care of"
+	line "it!"
 	done
 
 ReceivedEeveeText:
-	text "<PLAYER> nhận"
-	line "được EEVEE!"
+	text "<PLAYER> received"
+	line "EEVEE!"
 	done
 
 BillEeveeMayEvolveText:
-	text "BILL: GS ELM nói"
-	line "EEVEE có thể tiến"
+	text "BILL: PROF.ELM"
+	line "claims EEVEE may"
 
-	para "hóa theo những"
-	line "cách mới và chưa"
-	cont "từng biết."
+	para "evolve in new and"
+	line "unknown ways."
 	done
 
 BillPartyFullText:
-	text "Khoan đã. Bạn"
-	line "không thể mang"
-	cont "thêm #MON."
+	text "Whoa, wait. You"
+	line "can't carry any"
+	cont "more #MON."
 	done
 
 BillNoEeveeText:
-	text "Ồ… Vậy giờ phải"
-	line "làm sao đây?"
+	text "Oh… Now what to"
+	line "do?"
 	done
 
 BillPopWontWorkText:
-	text "BILL: Bố tôi ấy,"
-	line "ông không chịu"
+	text "BILL: My pop, he"
+	line "won't work. All he"
 
-	para "làm việc. Chỉ cả"
-	line "ngày lang thang."
+	para "does is goof off"
+	line "all day long."
 
-	para "Ông ấy đang trở"
-	line "thành vấn đề…"
+	para "He's getting to be"
+	line "a real headache…"
 	done
 
 BillsMomText_BeforeEcruteak:
-	text "Ồ, con sưu tầm"
-	line "#MON à? BILL"
+	text "Oh, you collect"
+	line "#MON? My son"
+	cont "BILL is an expert."
 
-	para "con trai mẹ là"
-	line "chuyên gia đấy."
+	para "He just got called"
+	line "to the #MON"
 
-	para "Nó vừa được gọi"
-	line "đến TT #MON ở"
-	cont "TP. ECRUTEAK."
+	para "CENTER in ECRUTEAK"
+	line "CITY."
 
-	para "Bố nó thì đi đến"
-	line "GÓC GIẢI TRÍ mà"
+	para "My husband went"
+	line "off to the GAME"
 
-	para "không ai gọi cả…"
+	para "CORNER without"
+	line "being called…"
 	done
 
 BillsMomText_AfterEcruteak:
-	text "Bố nó từng được"
-	line "gọi là #MANIAC."
+	text "My husband was"
+	line "once known as a"
 
-	para "BILL chắc là giống"
-	line "bố nó."
+	para "#MANIAC."
+	line "BILL must have"
+
+	para "taken after his"
+	line "father."
 	done
 
 BillsYoungerSisterUsefulNumberText:
-	text "Bạn là HLV à?"
+	text "Are you a trainer?"
 
-	para "Em có số điện"
-	line "thoại hữu ích cho"
-	cont "bạn này."
+	para "I've got a useful"
+	line "phone number for"
+	cont "you."
 	done
 
 RecordedBillsNumberText:
-	text "<PLAYER> đã lưu số"
-	line "của BILL."
+	text "<PLAYER> recorded"
+	line "BILL's number."
 	done
 
 BillsYoungerSisterRefusedNumberText:
-	text "Anh em làm hệ"
-	line "thống lưu trữ"
-	cont "#MON trên PC."
+	text "My brother made"
+	line "the PC #MON"
+	cont "storage system."
 
-	para "Em định cho bạn"
-	line "số của anh BILL…"
+	para "I was going to"
+	line "give you BILL's"
+	cont "number…"
 	done
 
 BillsYoungerSisterPhoneFullText:
-	text "Bạn không thể lưu"
-	line "thêm số nữa."
+	text "You can't record"
+	line "any more numbers."
 	done
 
 BillsYoungerSisterStorageSystemText:
-	text "Anh em là BILL đã"
-	line "làm hệ thống lưu"
+	text "My big brother"
+	line "BILL made the PC"
 
-	para "trữ #MON trên"
-	line "PC đấy."
+	para "#MON storage"
+	line "system."
 	done
 
 BillsFamilysHouse_MapEvents:

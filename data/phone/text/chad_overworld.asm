@@ -1,55 +1,56 @@
 ChadAskNumber1Text:
-	text "Hả? Cái đó là"
-	line "#DEX? Cậu gặp"
-	cont "GS OAK à?"
+	text "Huh? Is that thing"
+	line "a #DEX? Have"
+	cont "you met PROF.OAK?"
 
-	para "Hả? Cậu gặp?"
-	line "Tuyệt vời!"
+	para "Huh? You have? "
+	line "That's way cool!"
 
-	para "Tớ có ước mơ trở"
-	line "thành nhà nghiên"
+	para "I have a dream of"
+	line "becoming a #MON"
 
-	para "cứu #MON như"
-	line "GS OAK."
+	para "researcher like"
+	line "PROF.OAK."
 
-	para "Cho tớ số điện"
-	line "thoại được không?"
+	para "May I please have"
+	line "your phone number?"
 
-	para "Chúng ta nên nói"
-	line "chuyện về GS OAK."
+	para "We should chat"
+	line "about PROF.OAK."
 
-	para "Tớ chắc sẽ rất"
-	line "vui!"
+	para "I'm sure it will"
+	line "be loads of fun!"
 	done
 
 ChadAskNumber2Text:
-	text "Cho tớ số điện"
-	line "thoại được không?"
+	text "May I please have"
+	line "your phone number?"
 
-	para "Chúng ta nên nói"
-	line "chuyện về GS OAK."
+	para "We should chat"
+	line "about PROF.OAK."
 
-	para "Tớ chắc sẽ rất"
-	line "vui!"
+	para "I'm sure it will"
+	line "be loads of fun!"
 	done
 
 ChadNumberAcceptedText:
-	text "Cậu phải nghe"
-	line "#MON TALK"
-	cont "GS OAK, đúng không"
+	text "You must listen to"
+	line "PROF.OAK'S #MON"
+	cont "TALK, right?"
 	done
 
 ChadNumberDeclinedText:
-	text "Ồ… tớ ước có cơ"
-	line "hội gặp GS OAK…"
+	text "Oh… I wish I had a"
+	line "chance to meet"
+	cont "PROF.OAK…"
 	done
 
 ChadPhoneFullText:
-	text "Danh sách điện"
-	line "thoại đầy hết!"
+	text "Your phone list is"
+	line "completely full!"
 	done
 
 ChadRematchText:
-	text "Tớ đợi rồi!"
-	line "Đấu thôi!"
+	text "I've been waiting!"
+	line "Let's battle now!"
 	done

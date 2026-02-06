@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/rtc/reset_password.asm"
+else
+
 _ResetClock:
 	farcall BlankScreen
 	ld b, SCGB_DIPLOMA
@@ -52,8 +56,8 @@ _ResetClock:
 .NoYes_MenuData:
 	db STATICMENU_CURSOR | STATICMENU_NO_TOP_SPACING ; flags
 	db 2 ; items
-	db "KHÔNG@"
-	db "CÓ@"
+	db "NO@"
+	db "YES@"
 
 ClockResetPassword:
 	call .CalculatePassword
@@ -253,3 +257,5 @@ ClockResetPassword:
 	dec c
 	jr nz, .ComponentFromString
 	ret
+
+endc

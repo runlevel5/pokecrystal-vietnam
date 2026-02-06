@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/std_scripts.asm"
+else
+
 MACRO add_stdscript
 \1StdScript::
 	dba \1
@@ -276,19 +280,19 @@ DayToTextScript:
 	getstring STRING_BUFFER_3, .SaturdayText
 	end
 .SundayText:
-	db "CHỦ NHẬT@"
+	db "SUNDAY@"
 .MondayText:
-	db "THỨ HAI@"
+	db "MONDAY@"
 .TuesdayText:
-	db "THỨ BA@"
+	db "TUESDAY@"
 .WednesdayText:
-	db "THỨ TƯ@"
+	db "WEDNESDAY@"
 .ThursdayText:
-	db "THỨ NĂM@"
+	db "THURSDAY@"
 .FridayText:
-	db "THỨ SÁU@"
+	db "FRIDAY@"
 .SaturdayText:
-	db "THỨ BẢY@"
+	db "SATURDAY@"
 
 GoldenrodRocketsScript:
 	clearevent EVENT_GOLDENROD_CITY_ROCKET_TAKEOVER
@@ -1865,7 +1869,7 @@ CoinVendor_IntroScript:
 	db 3 ; items
 	db " 50 :  ¥1000@"
 	db "500 : ¥10000@"
-	db "HỦY@"
+	db "CANCEL@"
 
 HappinessCheckScript:
 	faceplayer
@@ -1895,3 +1899,5 @@ Movement_ContestResults_WalkAfterWarp:
 	step DOWN
 	turn_head UP
 	step_end
+
+endc

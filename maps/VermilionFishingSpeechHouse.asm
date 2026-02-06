@@ -16,40 +16,35 @@ FishingDudesHouseBookshelf: ; unreferenced
 	jumpstd PictureBookshelfScript
 
 FishingDudeText:
-	text "Ta là CẦN THỦ"
-	line "bậc trưởng của"
-	cont "ANH EM LÀNG CÂU."
+	text "I am the FISHING"
+	line "DUDE, the elder of"
+	cont "the FISHING BROS."
 
-	para "Con đã gặp NGƯ ÔNG"
-	line "ở HỒ GIẬN DỮ"
-	cont "chưa?"
+	para "Have you met the"
+	line "FISHING GURU at"
+	cont "LAKE OF RAGE?"
 
-	para "Ông ấy mơ về việc"
-	line "nhìn thấy MAGIKARP"
-	cont "vĩ đại nhất thế"
-	cont "giới."
+	para "He dreams about"
+	line "seeing the world's"
+	cont "greatest MAGIKARP."
 
-	para "Nếu con không ngại"
-	line "hãy cho ông ấy"
+	para "If you don't mind,"
+	line "could you show him"
 
-	para "xem bất kỳ con"
-	line "MAGIKARP nào con"
-	cont "câu được."
+	para "any MAGIKARP you"
+	line "catch?"
 
-	para "Ai biết được, con"
-	line "có thể câu được"
-	cont "MAGIKARP trong mơ"
-	cont "của ông ấy."
+	para "Who knows, you may"
+	line "catch the MAGIKARP"
+	cont "of his dreams."
 	done
 
 FishingDudesHousePhotoText:
-	text "Đó là bức ảnh về"
-	line "những người đang"
-	cont "câu cá…"
+	text "It's a photo of"
+	line "people fishing…"
 
-	para "Họ đang có khoảng"
-	line "thời gian tuyệt"
-	cont "vời…"
+	para "They're having a"
+	line "great time…"
 	done
 
 VermilionFishingSpeechHouse_MapEvents:

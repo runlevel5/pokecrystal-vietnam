@@ -213,180 +213,177 @@ PowerPlantOfficer1ReturnToPostMovement:
 	step_end
 
 PowerPlantOfficer1AThiefBrokeInText:
-	text "Một tên trộm đã"
-	line "đột nhập vào"
-	cont "NHÀ MÁY ĐIỆN…"
+	text "A thief broke into"
+	line "the POWER PLANT…"
 
-	para "Thế giới này sao"
-	line "lại thế này?"
+	para "What is the world"
+	line "coming to?"
 	done
 
 PowerPlantOfficer1CeruleanShadyCharacterText:
-	text "Tôi vừa nhận tin"
-	line "từ CERULEAN."
+	text "I just got word"
+	line "from CERULEAN."
 
-	para "Có vẻ như một kẻ"
-	line "đáng ngờ"
+	para "It appears that a"
+	line "shady character"
 
-	para "đang lảng vảng"
-	line "quanh đó."
+	para "has been loitering"
+	line "around."
 	done
 
 PowerPlantOfficer1CouldIAskForYourCooperationText:
-	text "Tôi có thể nhờ"
-	line "bạn giúp đỡ?"
+	text "Could I ask for"
+	line "your cooperation?"
 	done
 
 PowerPlantOfficer1HaveToBeefUpSecurityText:
-	text "Chúng tôi phải"
-	line "tăng cường an"
-	cont "ninh hơn."
+	text "We'll have to beef"
+	line "up our security"
+	cont "presence."
 	done
 
 PowerPlantGymGuide1SomeoneStoleAPartText:
-	text "Ai đó đã lấy mất"
-	line "một bộ phận"
+	text "Someone made off"
+	line "with a part that's"
 
-	para "cần thiết cho"
-	line "máy phát điện."
+	para "essential for the"
+	line "generator."
 
-	para "Không có nó, máy"
-	line "phát điện mới"
-	cont "vô dụng luôn!"
+	para "Without it, the"
+	line "new generator's"
+	cont "useless!"
 	done
 
 PowerPlantGymGuide1GeneratorUpAndRunningText:
-	text "Máy phát điện đã"
-	line "hoạt động. Nó"
+	text "The generator's up"
+	line "and running. It's"
 
-	para "đang tạo ra điện"
-	line "dư thừa."
+	para "making electricity"
+	line "to spare."
 	done
 
 PowerPlantGymGuide2PowerPlantUpAndRunningText:
-	text "NHÀ MÁY ĐIỆN này"
-	line "đã bị bỏ hoang"
-	cont "trong quá khứ."
+	text "This POWER PLANT"
+	line "had been abandoned"
+	cont "in the past."
 
-	para "Chúng tôi đã khôi"
-	line "phục nó để"
+	para "We got it back up"
+	line "and running to"
 
-	para "cung cấp điện cho"
-	line "TÀU NAM CHÂM."
+	para "provide power to"
+	line "the MAGNET TRAIN."
 	done
 
 PowerPlantGymGuide2GeneratorIsRunningAgainText:
-	text "Máy phát điện đã"
-	line "chạy lại rồi!"
+	text "The generator's"
+	line "running again!"
 	done
 
 PowerPlantOfficer2ManagerHasBeenSadAndFuriousText:
-	text "QUẢN LÝ của"
-	line "NHÀ MÁY ĐIỆN ở"
-	cont "phía trước."
+	text "The POWER PLANT's"
+	line "MANAGER is up"
+	cont "ahead."
 
-	para "Nhưng từ khi ai"
-	line "đó phá hỏng máy,"
-	cont "ông ấy vừa buồn"
-	cont "vừa tức giận…"
+	para "But since someone"
+	line "wrecked the gener-"
+	cont "ator, he's been"
+	cont "both sad and"
+	cont "furious…"
 	done
 
 PowerPlantOfficer2ManagerHasBeenCheerfulText:
-	text "Từ khi máy phát"
-	line "điện được sửa,"
+	text "Since the gener-"
+	line "ator's been fixed,"
 
-	para "QUẢN LÝ đã vui"
-	line "trở lại."
+	para "the MANAGER has"
+	line "been cheerful."
 	done
 
 PowerPlantGymGuide4MagnetTrainConsumesElectricityText:
-	text "TÀU NAM CHÂM tiêu"
-	line "thụ rất nhiều"
-	cont "điện năng."
+	text "The MAGNET TRAIN"
+	line "consumes a lot of"
+	cont "electricity."
 
-	para "Nó không thể chạy"
-	line "nếu máy phát điện"
-	cont "không hoạt động."
+	para "It can't move if"
+	line "the new generator"
+	cont "isn't operating."
 	done
 
 PowerPlantGymGuide4WeCanGetMagnetTrainRunningText:
-	text "Tốt lắm! Cuối"
-	line "cùng chúng ta có"
+	text "All right! We can"
+	line "finally get the"
 
-	para "thể cho TÀU NAM"
-	line "CHÂM chạy lại."
+	para "MAGNET TRAIN"
+	line "running again."
 	done
 
 PowerPlantManagerWhoWouldRuinMyGeneratorText:
-	text "QUẢN LÝ: Tôi, tôi"
-	line "tôi sẵn sàng nổ"
-	cont "tung ai đó rồi!"
+	text "MANAGER: I, I, I'm"
+	line "ready to blast"
+	cont "someone!"
 
-	para "Ai dám phá hỏng"
-	line "máy phát điện?"
+	para "Who would dare"
+	line "ruin my generator?"
 
-	para "Tôi đã dành bao"
-	line "nhiêu thời gian!"
+	para "I spent so much"
+	line "time on it!"
 
-	para "Nếu bắt được hắn,"
-	line "hắn sẽ phải nếm"
+	para "If I catch him,"
+	line "he's going to get"
 
-	para "trải PHÁO ĐIỆN"
-	line "của tôi!"
+	para "a taste of my ZAP"
+	line "CANNON!"
 	done
 
 PowerPlantManagerIWontForgiveCulpritText:
-	text "QUẢN LÝ: Tôi sẽ"
-	line "không tha thứ!"
+	text "MANAGER: I won't"
+	line "forgive him!"
 
-	para "Thằng thủ phạm có"
-	line "thể khóc lóc xin"
-	cont "lỗi,"
+	para "The culprit can"
+	line "cry and apologize,"
 
-	para "nhưng tôi vẫn sẽ"
-	line "đánh cho hắn!"
+	para "but I'll still"
+	line "hammer him!"
 
 	para "Gahahahah!"
 	done
 
 PowerPlantManagerThatsThePartText:
-	text "QUẢN LÝ: Ồ! Đúng!"
+	text "MANAGER: Ah! Yeah!"
 
-	para "Đó là BỘ PHẬN MÁY"
-	line "bị mất từ máy"
-	cont "phát điện yêu dấu"
-	cont "của tôi!"
-	cont "Bạn tìm thấy à?"
+	para "That's the missing"
+	line "PART from my be-"
+	cont "loved generator!"
+	cont "You found it?"
 	done
 
 PowerPlantManagerTakeThisTMText:
-	text "Wahah! Cảm ơn!"
+	text "Wahah! Thanks!"
 
-	para "Đây! Nhận TM này"
-	line "làm phần thưởng!"
+	para "Here! Take this TM"
+	line "as a reward!"
 	done
 
 PowerPlantManagerTM07IsZapCannonText:
-	text "QUẢN LÝ: TM07 là"
-	line "PHÁO ĐIỆN của tôi"
+	text "MANAGER: TM07 is"
+	line "my ZAP CANNON."
 
-	para "Đó là kỹ năng"
-	line "mạnh mẽ!"
+	para "It's a powerful"
+	line "technique!"
 
-	para "Không ai coi nó"
-	line "là chính xác,"
+	para "It's not what any-"
+	line "one would consider"
 
-	para "nhưng nó rất"
-	line "mạnh!"
+	para "accurate, but it"
+	line "packs a wallop!"
 	done
 
 PowerPlantManagerMyBelovedGeneratorText:
-	text "QUẢN LÝ: Máy phát"
-	line "điện yêu dấu của"
-	cont "tôi!"
+	text "MANAGER: My be-"
+	line "loved generator!"
 
-	para "Hãy tiếp tục bơm"
-	line "điện ra!"
+	para "Keep pumping the"
+	line "electricity out!"
 	done
 
 PowerPlant_MapEvents:

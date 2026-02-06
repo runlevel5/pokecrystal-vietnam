@@ -1,10 +1,10 @@
-	db "LEN@" ; species name
-	dw 6, 78 ; height, weight
+	db "WOOL@" ; species name
+	dw 200, 170 ; height, weight
 
-	db   "Nó trữ nhiều"
-	next "không khí trong"
-	next "bộ lông mềm, giúp"
+	db   "It stores lots of"
+	next "air in its soft"
+	next "fur, allowing it"
 
-	page "mát mùa hè và"
-	next "ấm mùa đông.@"
-	next "@"
+	page "to stay cool in"
+	next "summer and warm"
+	next "in winter.@"

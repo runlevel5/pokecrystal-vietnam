@@ -89,4 +89,12 @@ GetTypeName:
 	ld bc, MOVE_NAME_LENGTH
 	jp CopyBytes
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/types/names.asm"
+
+else
+
 INCLUDE "data/types/names.asm"
+
+endc

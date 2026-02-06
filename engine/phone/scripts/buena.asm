@@ -166,4 +166,12 @@ BuenaPhoneScript_RandomCallee:
 	writetext BuenaPhoneCoopedUpInRadioTowerAnswerText
 	end
 
+if DEF(_CRYSTAL_VN)
+
+INCLUDE "versions/crystal-vn/data/phone/text/buena.asm"
+
+else
+
 INCLUDE "data/phone/text/buena.asm"
+
+endc

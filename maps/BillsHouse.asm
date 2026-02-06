@@ -210,147 +210,145 @@ BillsGrandpa:
 	end
 
 BillsGrandpaIntroText:
-	text "Hừm? Bạn quen"
-	line "BILL à? Nó là cháu"
-	cont "trai ta đây."
+	text "Hm? You know BILL?"
+	line "He's my grandson."
 
-	para "Nó đang ở JOHTO."
-	line "Nó làm việc gì đó"
+	para "He's in JOHTO. He"
+	line "does something"
 
-	para "với PC, nên ta"
-	line "đang trông nhà."
+	para "with PCs, so I'm"
+	line "house-sitting."
 	done
 
 BillsGrandpaAskToSeeMonText:
-	text "Nếu bạn có con"
-	line "#MON đó, cho"
-
-	para "ta xem được"
-	line "không?"
+	text "If you have that"
+	line "#MON, may I see"
+	cont "it, please?"
 	done
 
 BillsGrandpaExcitedToSeeText:
-	text "Bạn sẽ cho ta"
-	line "xem à? Tốt quá!"
+	text "You will show me?"
+	line "How good of you!"
 	done
 
 BillsGrandpaYouDontHaveItTextText:
-	text "Bạn không có nó"
-	line "à? Tiếc quá…"
+	text "You don't have it?"
+	line "That's too bad…"
 	done
 
 BillsGrandpaShownPokemonText:
-	text "À, thì ra đây là"
+	text "Ah, so that is"
 	line "@"
 	text_ram wStringBuffer3
 	text "?"
 
-	para "Dễ thương quá!"
-	line "Bạn tốt lắm đấy."
+	para "Isn't it cute!"
+	line "That's so kind of"
+	cont "you."
 	done
 
 BillsGrandpaTokenOfAppreciationText:
-	text "Cám ơn!"
+	text "Thanks!"
 
-	para "Đây là lời cảm ơn"
-	line "nhỏ của ta."
+	para "This is a token of"
+	line "my appreciation."
 	done
 
 BillsGrandpaComeAgainText:
-	text "Ghé thăm lại"
-	line "nhé."
+	text "Come visit again"
+	line "sometime."
 	done
 
 BillsGrandpaShownAllThePokemonText:
-	text "Cám ơn vì đã cho"
-	line "ta xem nhiều con"
-	cont "#MON dễ thương."
+	text "Thanks for showing"
+	line "me so many cute"
+	cont "#MON."
 
-	para "Ta rất vui. Ta vui"
-	line "vì đã sống đủ lâu"
+	para "I really enjoyed"
+	line "myself. I'm glad"
 
-	para "để được thấy"
-	line "những điều này."
+	para "I've lived such a"
+	line "long life."
 	done
 
 BillsGrandpaWrongPokemonText:
-	text "Hừm?"
+	text "Hm?"
 
-	para "Đây không phải là"
-	line "#MON mà ta đã"
-	cont "được nghe nói đến."
+	para "That's not the"
+	line "#MON that I was"
+	cont "told about."
 	done
 
 BillsGrandpaLickitungText:
-	text "Cháu ta là BILL đã"
-	line "kể về một con"
+	text "My grandson BILL"
+	line "told me about a"
 
-	para "#MON có cái"
-	line "lưỡi rất dài."
+	para "#MON that has a"
+	line "long tongue."
 	done
 
 BillsGrandpaOddishText:
-	text "À, cháu ta có nhắc"
-	line "về con #MON"
+	text "Ah, my grandson"
+	line "mentioned a round,"
 
-	para "tròn, màu xanh và"
-	line "có lá mọc trên"
-	cont "đầu."
+	para "green #MON that"
+	line "has leaves growing"
+	cont "on its head."
 	done
 
 BillsGrandpaStaryuText:
-	text "Bạn có biết con"
-	line "#MON biển nào"
+	text "Do you know of a"
+	line "sea #MON that"
 
-	para "có quả cầu đỏ"
-	line "trong cơ thể?"
+	para "has a red sphere"
+	line "in its body?"
 
-	para "Nó có hình dạng"
-	line "giống như ngôi"
-	cont "sao ấy."
+	para "You know, the one"
+	line "that's shaped like"
+	cont "a star?"
 
-	para "Ta nghe nói nó"
-	line "xuất hiện vào ban"
-	cont "đêm."
+	para "I heard that it"
+	line "appears at night."
 
-	para "Ta rất muốn được"
-	line "nhìn thấy nó."
+	para "I would surely"
+	line "like to see it."
 	done
 
 BillsGrandpaGrowlitheText:
-	text "BILL kể về con"
-	line "#MON rất trung"
+	text "BILL told me about"
+	line "a #MON that is"
 
-	para "thành với HLV của"
-	line "nó."
+	para "very loyal to its"
+	line "trainer."
 
-	para "Nó có thể ROAR"
-	line "rất hay."
+	para "It's supposed to"
+	line "ROAR well."
 	done
 
 BillsGrandpaVulpixText:
-	text "Ta nghe nói có con"
-	line "#MON dễ thương"
-	cont "có sáu cái đuôi."
+	text "I heard about a"
+	line "cute #MON that"
+	cont "has six tails."
 
-	para "Ta rất muốn ôm"
-	line "một con #MON"
-	cont "dễ thương thế."
+	para "I would love to"
+	line "hug a cute #MON"
+	cont "like that."
 	done
 
 BillsGrandpaPichuText:
-	text "Bạn có biết con"
-	line "#MON nổi tiếng"
-	cont "đó không?"
+	text "Do you know that"
+	line "hugely popular"
+	cont "#MON?"
 
-	para "#MON có thân"
-	line "vàng và má đỏ."
+	para "The #MON that"
+	line "has a yellow body"
+	cont "and red cheeks."
 
-	para "Ta rất muốn xem"
-	line "nó trông như thế"
+	para "I would love to"
+	line "see what it looks"
 
-	para "nào trước khi nó"
-	line "tiến hóa."
+	para "like before it"
+	line "evolves."
 	done
 
 BillsHouse_MapEvents:

@@ -1,10 +1,10 @@
-	db "HÌNH SAO@" ; species name
-	dw 8, 345 ; height, weight
+	db "STARSHAPE@" ; species name
+	dw 207, 760 ; height, weight
 
-	db   "Khi sao lấp lánh"
-	next "ban đêm, nó nổi"
-	next "lên từ đáy biển,"
+	db   "When the stars"
+	next "twinkle at night,"
+	next "it floats up from"
 
-	page "và lõi ở giữa"
-	next "thân nhấp nháy.@"
-	next "@"
+	page "the sea floor, and"
+	next "its body's center"
+	next "core flickers.@"

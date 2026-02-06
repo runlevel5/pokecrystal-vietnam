@@ -82,22 +82,22 @@ CeladonMansion3FReferenceMaterial:
 	jumptext CeladonMansion3FReferenceMaterialText
 
 GameFreakGameDesignerText:
-	text "Đúng không?"
+	text "Is that right?"
 
-	para "Tôi là NHÀ THIẾT"
-	line "KẾ GAME!"
+	para "I'm the GAME"
+	line "DESIGNER!"
 
-	para "Điền đầy #DEX"
-	line "khó lắm, nhưng"
-	cont "đừng bỏ cuộc!"
+	para "Filling up your"
+	line "#DEX is tough,"
+	cont "but don't give up!"
 	done
 
 GameFreakGameDesignerCompletedPokedexText:
-	text "Wow! Xuất sắc!"
-	line "Bạn hoàn thành"
-	cont "#DEX rồi!"
+	text "Wow! Excellent!"
+	line "You completed your"
+	cont "#DEX!"
 
-	para "Chúc mừng!"
+	para "Congratulations!"
 	done
 
 GameFreakGameDesignerPauseForDiplomaText:
@@ -105,86 +105,86 @@ GameFreakGameDesignerPauseForDiplomaText:
 	done
 
 GameFreakGameDesignerAfterDiplomaText:
-	text "HỌA SĨ ĐỒ HỌA sẽ"
-	line "in BẰNG KHEN cho"
-	cont "bạn."
+	text "The GRAPHIC ARTIST"
+	line "will print out a"
+	cont "DIPLOMA for you."
 
-	para "Bạn nên đi khoe"
-	line "nó đi."
+	para "You should go show"
+	line "it off."
 	done
 
 GameFreakGraphicArtistText:
-	text "Tôi là HỌA SĨ"
-	line "ĐỒ HỌA."
+	text "I'm the GRAPHIC"
+	line "ARTIST."
 
-	para "Tôi vẽ bạn đấy!"
+	para "I drew you!"
 	done
 
 GameFreakGraphicArtistPrintDiplomaText:
-	text "Tôi là HỌA SĨ"
-	line "ĐỒ HỌA."
+	text "I'm the GRAPHIC"
+	line "ARTIST."
 
-	para "Ồ, bạn hoàn thành"
-	line "#DEX rồi à?"
+	para "Oh, you completed"
+	line "your #DEX?"
 
-	para "Bạn muốn tôi in"
-	line "BẰNG KHEN không?"
+	para "Want me to print"
+	line "out your DIPLOMA?"
 	done
 
 GameFreakGraphicArtistRefusedText:
-	text "Hãy gọi tôi nếu"
-	line "bạn muốn in BẰNG"
-	cont "KHEN nhé."
+	text "Give me a shout if"
+	line "you want your"
+	cont "DIPLOMA printed."
 	done
 
 GameFreakGraphicArtistErrorText:
-	text "Có gì đó sai sai."
-	line "Tôi phải hủy việc"
-	cont "in."
+	text "Something's wrong."
+	line "I'll have to can-"
+	cont "cel printing."
 	done
 
 GameFreakProgrammerText:
-	text "Ai, tôi? Tôi là"
-	line "LẬP TRÌNH VIÊN."
+	text "Who, me? I'm the"
+	line "PROGRAMMER."
 
-	para "Chơi máy quay đi!"
+	para "Play the slot"
+	line "machines!"
 	done
 
 GameFreakCharacterDesignerText:
-	text "Hai bé TWINS đáng"
-	line "yêu quá phải hông?"
+	text "Aren't the TWINS"
+	line "adorable?"
 
-	para "JASMINE cũng xinh"
-	line "nữa."
+	para "JASMINE's pretty"
+	line "too."
 
-	para "Ồ, tôi thích họ!"
+	para "Oh, I love them!"
 	done
 
 CeladonMansion3FDevRoomSignText:
 	text "GAME FREAK"
-	line "PHÒNG PHÁT TRIỂN"
+	line "DEVELOPMENT ROOM"
 	done
 
 CeladonMansion3FDrawingText:
-	text "Đây là bức vẽ chi"
-	line "tiết về một cô"
-	cont "gái xinh đẹp."
+	text "It's a detailed"
+	line "drawing of a"
+	cont "pretty girl."
 	done
 
 CeladonMansion3FGameProgramText:
-	text "Đây là chương"
-	line "trình game. Sửa"
+	text "It's the game"
+	line "program. Messing"
 
-	para "nó có thể tạo ra"
-	line "lỗi trong game!"
+	para "with it could put"
+	line "a bug in the game!"
 	done
 
 CeladonMansion3FReferenceMaterialText:
-	text "Chật cứng tài liệu"
-	line "tham khảo."
-
-	para "Có cả BÚP BÊ #"
-	line "nữa."
+	text "It's crammed with"
+	line "reference materi-"
+	cont "als. There's even"
+	cont "a # DOLL."
 	done
 
 CeladonMansion3F_MapEvents:

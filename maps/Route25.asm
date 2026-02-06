@@ -236,192 +236,191 @@ Route25MistyLeavesMovement:
 	step_end
 
 Route25MistyDateText:
-	text "MISTY: Ôi! Sao bạn"
-	line "phải xuất hiện và"
+	text "MISTY: Aww! Why"
+	line "did you have to"
 
-	para "làm phiền chúng"
-	line "tôi bây giờ?"
+	para "show up and bug us"
+	line "now?"
 
-	para "Bạn có biết người"
-	line "ta gọi những người"
-	cont "như bạn là gì?"
+	para "Do you know what"
+	line "they call people"
+	cont "like you?"
 
-	para "Kẻ phá rối! Bạn"
-	line "nghe rõ, phá rối!"
+	para "Pests! You heard"
+	line "me right, pest!"
 
 	para "…"
 
-	para "…Ồ? Những HUYỀN"
-	line "HIỆU đó… Có phải"
-	cont "GYM của JOHTO?"
+	para "…Oh? Those BADGES"
+	line "you have… Are they"
+	cont "JOHTO GYM BADGES?"
 
-	para "Nếu có tám, bạn"
-	line "hẳn giỏi lắm."
+	para "If you have eight,"
+	line "you must be good."
 
-	para "OK, vậy. Đến"
-	line "GYM CERULEAN."
+	para "OK, then. Come to"
+	line "CERULEAN GYM."
 
-	para "Tôi rất vui được"
-	line "đấu với bạn."
+	para "I'll be happy to"
+	line "take you on."
 
-	para "Tôi là MISTY,"
-	line "T.LĨNH GYM ở"
+	para "I'm MISTY, the"
+	line "GYM LEADER in"
 	cont "CERULEAN."
 	done
 
 SchoolboyDudleySeenText:
-	text "Đánh bại sáu HLV"
-	line "để giành giải"
-	cont "tuyệt vời!"
+	text "Beat the six of us"
+	line "trainers to win a"
+	cont "fabulous prize!"
 
-	para "Bạn nghĩ mình có"
-	line "đủ khả năng?"
+	para "Think you've got"
+	line "what it takes?"
 	done
 
 SchoolboyDudleyBeatenText:
-	text "Whoo! Tuyệt vời."
+	text "Whoo! Good stuff."
 	done
 
 SchoolboyDudleyAfterBattleText:
-	text "Tôi đã cố hết sức."
-	line "Tôi không hối tiếc"
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 LassEllenSeenText:
-	text "Tôi là người thứ"
-	line "hai. Giờ nghiêm"
-	cont "túc đây!"
+	text "I'm second."
+	line "Now it's serious!"
 	done
 
 LassEllenBeatenText:
-	text "Sao tôi lại thua?"
+	text "How could I lose?"
 	done
 
 LassEllenAfterBattleText:
-	text "Tôi đã cố hết sức."
-	line "Tôi không hối tiếc"
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 SchoolboyJoeSeenText:
-	text "Đây là số 3!"
-	line "Tôi sẽ không dễ."
+	text "Here's No. 3!"
+	line "I won't be easy."
 	done
 
 SchoolboyJoeBeatenText:
-	text "Ow! Bị đè bẹp!"
+	text "Ow! Stomped flat!"
 	done
 
 SchoolboyJoeAfterBattleText:
-	text "Tôi đã cố hết sức."
-	line "Tôi không hối tiếc"
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 LassLauraSeenText:
-	text "Tôi là số 4!"
-	line "Bạn mệt chưa?"
+	text "I'm No. 4!"
+	line "Getting tired?"
 	done
 
 LassLauraBeatenText:
-	text "Tôi cũng thua…"
+	text "I lost too…"
 	done
 
 LassLauraAfterBattleText:
-	text "Tôi đã cố hết sức."
-	line "Tôi không hối tiếc"
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 CamperLloydSeenText:
-	text "OK! Tôi là số 5."
-	line "Tôi sẽ đè bạn!"
+	text "OK! I'm No. 5."
+	line "I'll stomp you!"
 	done
 
 CamperLloydBeatenText:
-	text "Whoa! Quá mạnh."
+	text "Whoa! Too much."
 	done
 
 CamperLloydAfterBattleText:
-	text "Tôi đã cố hết sức."
-	line "Tôi không hối tiếc"
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 LassShannonSeenText:
-	text "Tôi là người cuối,"
-	line "nhưng tôi nói với"
-	cont "bạn, tôi mạnh lắm!"
+	text "I'm the last in"
+	line "line, but I tell"
+	cont "you, I'm tough!"
 	done
 
 LassShannonBeatenText:
-	text "Bạn đùa à."
+	text "You're kidding."
 	done
 
 LassShannonAfterBattleText:
-	text "Tôi đã cố hết sức."
-	line "Tôi không hối tiếc"
+	text "I did my best."
+	line "I have no regrets."
 	done
 
 SupernerdPatSeenText:
 	text "Mufufufu…"
 
-	para "Tôi không liên"
-	line "quan gì đến sáu"
-	cont "HLV kia."
+	para "I have nothing to"
+	line "do with the six-"
+	cont "pack trainers."
 
-	para "Tôi đợi ở đây để"
-	line "đánh bại bạn khi"
+	para "I waited here to"
+	line "beat you when you"
 
-	para "bạn mệt mỏi vì"
-	line "chiến đấu."
+	para "were tired out by"
+	line "all the battles."
 	done
 
 SupernerdPatBeatenText:
-	text "Bạn không mệt"
-	line "chút nào à?"
+	text "Aren't you tired"
+	line "at all?"
 	done
 
 SupernerdPatAfterBattleText:
-	text "Xin lỗi… Tôi sẽ"
-	line "không gian lận"
-	cont "nữa…"
+	text "I'm sorry… I won't"
+	line "cheat anymore…"
 	done
 
 CooltrainermKevinNuggetText:
-	text "Bạn đã đấu thêm"
-	line "một trận hơn dự"
+	text "You took on one"
+	line "more battle than"
 
-	para "kiến, nhưng bạn"
-	line "vẫn thắng."
+	para "you expected, but"
+	line "you won anyway."
 
-	para "Như đã hứa, bạn"
-	line "nhận giải thưởng."
+	para "As promised, you"
+	line "win a prize."
 	done
 
 CooltrainermKevinSeenText:
-	text "Nhưng sau khi xem"
-	line "bạn chiến đấu,"
+	text "But after seeing"
+	line "how you battle, I"
 
-	para "tôi muốn xem tôi"
-	line "sẽ thế nào."
+	para "want to see how"
+	line "I'll fare."
 
-	para "Thế nào? Để tôi"
-	line "đấu với bạn."
+	para "How about it? Let"
+	line "me take you on."
 	done
 
 CooltrainermKevinBeatenText:
-	text "Chưa bao giờ có"
-	line "trận hay như vậy!"
+	text "I've never had a"
+	line "battle this good!"
 	done
 
 CooltrainermKevinAfterBattleText:
-	text "Đó là trận đấu"
-	line "tuyệt vời!"
+	text "That was a great"
+	line "battle!"
 
-	para "Bạn và #MON"
-	line "thật sự xuất sắc!"
+	para "You and your #-"
+	line "MON are truly out-"
+	cont "standing!"
 	done
 
 BillsHouseSignText:
-	text "NHÀ BÊN BIỂN"
-	line "NHÀ CỦA BILL"
+	text "SEA COTTAGE"
+	line "BILL'S HOUSE"
 	done
 
 UnusedBillsHouseSignText: ; unreferenced

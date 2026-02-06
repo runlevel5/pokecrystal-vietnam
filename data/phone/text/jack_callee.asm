@@ -1,71 +1,71 @@
 JackAnswerPhoneText:
-	text "Xin chào. Đây là"
+	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Chào buổi sáng,"
+	para "Good morning,"
 	line "<PLAY_G>!"
 	done
 
 JackAnswerPhoneDayText:
-	text "Xin chào. Đây là"
+	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Sao rồi,"
+	para "How's it going,"
 	line "<PLAY_G>?"
 	done
 
 JackAnswerPhoneNiteText:
-	text "Xin chào. Đây là"
+	text "Hello. This is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Chào buổi tối,"
+	para "Good evening,"
 	line "<PLAY_G>!"
 	done
 
 JackGreetText:
-	text "<PLAY_G>, chào"
-	line "buổi sáng!"
+	text "<PLAY_G>, good"
+	line "morning!"
 
-	para "Là tớ đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Cậu khỏe không?"
+	line "How are you doing?"
 	done
 
 JackGreetDayText:
-	text "<PLAY_G>, chào!"
+	text "<PLAY_G>, howdy!"
 
-	para "Là tớ đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Trời đẹp nhỉ?"
+	line "Isn't it nice out?"
 	done
 
 JackGreetNiteText:
-	text "<PLAY_G>, chào"
-	line "buổi tối!"
+	text "<PLAY_G>, good"
+	line "evening!"
 
-	para "Là tớ đây, @"
+	para "It's me, @"
 	text_ram wStringBuffer3
 	text "."
-	line "Có rảnh không?"
+	line "Got a minute?"
 	done
 
 JackGenericText:
-	text "#MON của cậu"
-	line "thế nào?"
+	text "How are your"
+	line "#MON doing?"
 
-	para "@"
+	para "My @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "rất tò mò, đó là"
+	text " is"
+	line "so curious, it's a"
 
-	para "vấn đề. Có lẽ nó"
-	line "giống tớ…"
+	para "problem. Maybe"
+	line "it's like me…"
 	done

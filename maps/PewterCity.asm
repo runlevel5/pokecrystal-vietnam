@@ -67,86 +67,87 @@ PewterCityFruitTree2:
 	fruittree FRUITTREE_PEWTER_CITY_2
 
 PewterCityCooltrainerFText:
-	text "Cậu đã ghé thăm"
-	line "GYM PEWTER chưa?"
+	text "Have you visited"
+	line "PEWTER GYM?"
 
-	para "TRƯỞNG dùng"
-	line "#MON hệ Đá."
+	para "The LEADER uses"
+	line "rock-type #MON."
 	done
 
 PewterCityBugCatcherText:
-	text "Ban đêm, CLEFAIRY"
-	line "ra chơi ở NÚI"
-	cont "MOON."
+	text "At night, CLEFAIRY"
+	line "come out to play"
+	cont "at MT.MOON."
 
-	para "Nhưng không phải"
-	line "đêm nào cũng thế."
+	para "But not every"
+	line "night."
 	done
 
 PewterCityGrampsText:
-	text "À, cậu đã đến tận"
-	line "đây từ JOHTO à?"
+	text "Ah, you came all"
+	line "the way out here"
+	cont "from JOHTO?"
 
-	para "Gợi lại ký ức xưa."
-	line "Khi tôi còn trẻ,"
+	para "That brings back"
+	line "memories. When I"
 
-	para "tôi đến JOHTO để"
-	line "tập luyện."
+	para "was young, I went"
+	line "to JOHTO to train."
 
-	para "Cậu làm tôi nhớ"
-	line "lại chính mình"
+	para "You remind me so"
+	line "much of what I was"
 
-	para "khi còn là thanh"
-	line "niên."
+	para "like as a young"
+	line "man."
 
-	para "Đây. Tôi muốn tặng"
-	line "cậu vật phẩm tôi"
-	cont "tìm được ở JOHTO."
+	para "Here. I want you"
+	line "to have this item"
+	cont "I found in JOHTO."
 	done
 
 PewterCityGrampsText_GotSilverWing:
-	text "Đến những nơi mới"
-	line "lạ và gặp gỡ"
-	cont "người mới…"
+	text "Going to new, un-"
+	line "known places and"
+	cont "seeing new people…"
 
-	para "Đó là niềm vui"
-	line "của du lịch."
+	para "Those are the joys"
+	line "of travel."
 	done
 
 PewterCitySignText:
-	text "THÀNH PHỐ PEWTER"
-	line "TP Màu Xám Đá"
+	text "PEWTER CITY"
+	line "A Stone Gray City"
 	done
 
 PewterGymSignText:
-	text "TP. PEWTER"
-	line "GYM #MON"
-	cont "TRƯỞNG: BROCK"
+	text "PEWTER CITY"
+	line "#MON GYM"
+	cont "LEADER: BROCK"
 
-	para "HLV #MON"
-	line "Vững Như Đá"
+	para "The Rock Solid"
+	line "#MON Trainer"
 	done
 
 PewterMuseumSignText:
-	text "Có thông báo"
-	line "ở đây…"
+	text "There's a notice"
+	line "here…"
 
-	para "BẢO TÀNG KHOA HỌC"
-	line "PEWTER đang đóng"
-	cont "cửa tu sửa…"
+	para "PEWTER MUSEUM OF"
+	line "SCIENCE is closed"
+	cont "for renovations…"
 	done
 
 PewterCityMtMoonGiftShopSignText:
-	text "Có thông báo"
-	line "ở đây…"
+	text "There's a notice"
+	line "here…"
 
-	para "CỬA HÀNG QUÀ NÚI"
-	line "MOON ĐÃ MỞ!"
+	para "MT.MOON GIFT SHOP"
+	line "NOW OPEN!"
 	done
 
 PewterCityWelcomeSignText:
-	text "CHÀO MỪNG ĐẾN"
-	line "TP. PEWTER!"
+	text "WELCOME TO"
+	line "PEWTER CITY!"
 	done
 
 PewterCity_MapEvents:

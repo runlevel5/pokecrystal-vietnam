@@ -1,10 +1,10 @@
-	db "GIÁP SẮT@" ; species name
-	dw 20, 2020 ; height, weight
+	db "ARMOR@" ; species name
+	dw 607, 4450 ; height, weight
 
-	db   "Chỉ với một bàn"
-	next "tay mạnh mẽ, nó"
-	next "có sức mạnh làm"
+	db   "In just one of its"
+	next "mighty hands, it"
+	next "has the power to"
 
-	page "rung chuyển mặt"
-	next "đất và sụp đổ"
-	next "cả núi non.@"
+	page "make the ground"
+	next "shake and moun-"
+	next "tains crumble.@"

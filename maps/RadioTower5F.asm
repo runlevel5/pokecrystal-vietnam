@@ -191,233 +191,227 @@ RadioTower5FPlayerTwoStepsLeftMovement:
 	step_end
 
 FakeDirectorTextBefore1:
-	text "M-mày! Mày đến"
-	line "cứu tao sao?"
+	text "Y-you! You came to"
+	line "rescue me?"
 	done
 
 FakeDirectorTextBefore2:
-	text "Đó là điều mày"
-	line "mong đợi hả?"
+	text "Is that what you"
+	line "were expecting?"
 
-	para "Sai rồi!"
-	line "Tao là kẻ mạo"
-	cont "danh!"
+	para "Wrong!"
+	line "I'm an imposter!"
 
-	para "Tao giả làm người"
-	line "thật để chuẩn bị"
+	para "I pretended to be"
+	line "the real thing to"
 
-	para "cho cuộc tiếp"
-	line "quản."
+	para "prepare for our"
+	line "takeover."
 
-	para "Mày muốn biết bọn"
-	line "tao giấu GIÁM ĐỐC"
-	cont "thật ở đâu không?"
+	para "Do you want to"
+	line "know where we hid"
+	cont "the real DIRECTOR?"
 
-	para "Được, tao sẽ nói."
-	line "Nhưng chỉ khi mày"
-	cont "đánh bại tao!"
+	para "Sure, I'll tell"
+	line "you. But only if"
+	cont "you can beat me!"
 	done
 
 FakeDirectorWinText:
-	text "OK, OK. Tao sẽ nói"
-	line "ông ta ở đâu."
+	text "OK, OK. I'll tell"
+	line "you where he is."
 	done
 
 FakeDirectorTextAfter:
-	text "Bọn tao giấu"
-	line "GIÁM ĐỐC thật ở"
+	text "We stashed the"
+	line "real DIRECTOR in"
 
-	para "KHO ĐỊA ĐẠO."
+	para "the UNDERGROUND"
+	line "WAREHOUSE."
 
-	para "Nó ở tận cuối"
-	line "ĐỊA ĐẠO."
+	para "It's at the far"
+	line "end of the UNDER-"
+	cont "GROUND."
 
-	para "Nhưng tao ngờ"
-	line "mày đến được đó."
+	para "But I doubt you'll"
+	line "get that far."
 	done
 
 Executivef1SeenText:
-	text "Còn nhớ tao ở SÀO"
-	line "HUYỆT tại T.TRẤN"
-	cont "MAHOGANY không?"
+	text "Remember me from"
+	line "the HIDEOUT in"
+	cont "MAHOGANY TOWN?"
 
-	para "Lần đó tao thua,"
-	line "nhưng lần này thì"
-	cont "không."
+	para "I lost then, but I"
+	line "won't this time."
 	done
 
 Executivef1BeatenText:
-	text "Không thể như"
-	line "thế được!"
+	text "This can't be"
+	line "happening!"
 
-	para "Tao đã chiến đấu"
-	line "hết sức, nhưng vẫn"
-	cont "thua…"
+	para "I fought hard, but"
+	line "I still lost…"
 	done
 
 Executivef1AfterBattleText:
-	text "<PLAYER>, đúng ko?"
+	text "<PLAYER>, isn't it?"
 
-	para "Một thằng nhóc"
-	line "như mày sẽ không"
+	para "A brat like you"
+	line "won't appreciate"
 
-	para "hiểu được sự vĩ"
-	line "đại của"
-	cont "ĐỘI ROCKET."
+	para "the magnificence"
+	line "of TEAM ROCKET."
 
-	para "Thật đáng tiếc."
-	line "Tao thật sự ngưỡng"
-	cont "mộ sức mạnh mày."
+	para "That's too bad."
+	line "I really admire"
+	cont "your power."
 	done
 
 RadioTower5FRocketBossBeforeText:
-	text "Ồ? Mày đã đến"
-	line "được tận đây?"
+	text "Oh? You managed to"
+	line "get this far?"
 
-	para "Mày chắc phải là"
-	line "HLV giỏi lắm."
+	para "You must be quite"
+	line "the trainer."
 
-	para "Bọn tao định"
-	line "chiếm ĐÀI RADIO"
+	para "We intend to take"
+	line "over this RADIO"
 
-	para "này và thông báo"
-	line "sự trở lại."
+	para "STATION and an-"
+	line "nounce our come-"
+	cont "back."
 
-	para "Điều đó sẽ đưa"
-	line "trùm GIOVANNI"
+	para "That should bring"
+	line "our boss GIOVANNI"
 
-	para "trở về từ khóa"
-	line "tu đơn độc."
+	para "back from his solo"
+	line "training."
 
-	para "Bọn tao sẽ giành"
-	line "lại vinh quang"
-	cont "xưa."
+	para "We are going to"
+	line "regain our former"
+	cont "glory."
 
-	para "Tao không cho"
-	line "phép mày can"
-	cont "thiệp vào kế"
-	cont "hoạch bọn tao."
+	para "I won't allow you"
+	line "to interfere with"
+	cont "our plans."
 	done
 
 RadioTower5FRocketBossWinText:
-	text "Không! Xin tha"
-	line "thứ, GIOVANNI!"
+	text "No! Forgive me,"
+	line "GIOVANNI!"
 	done
 
 RadioTower5FRocketBossAfterText:
-	text "Sao có thể như"
-	line "thế được?"
+	text "How could this be?"
 
-	para "Giấc mơ của bọn"
-	line "tao tan thành mây."
+	para "Our dreams have"
+	line "come to naught."
 
-	para "Tao không đủ sức"
-	line "cho nhiệm vụ này."
+	para "I wasn't up to the"
+	line "task after all."
 
-	para "Như GIOVANNI đã"
-	line "làm trước tao,"
+	para "Like GIOVANNI did"
+	line "before me, I will"
 
-	para "tao sẽ giải tán"
-	line "ĐỘI ROCKET hôm"
-	cont "nay."
+	para "disband TEAM"
+	line "ROCKET here today."
 
-	para "Vĩnh biệt."
+	para "Farewell."
 	done
 
 RadioTower5FDirectorThankYouText:
-	text "GIÁM ĐỐC:"
-	line "<PLAY_G>, cảm ơn!"
+	text "DIRECTOR: <PLAY_G>,"
+	line "thank you!"
 
-	para "Hành động dũng"
-	line "cảm của cháu đã"
+	para "Your courageous"
+	line "actions have saved"
 
-	para "cứu #MON khắp"
-	line "cả nước."
+	para "#MON nation-"
+	line "wide."
 
-	para "Tôi biết không"
-	line "nhiều, nhưng hãy"
-	cont "nhận cái này."
+	para "I know it's not"
+	line "much, but please"
+	cont "take this."
 	done
 
 RadioTower5FDirectorDescribeClearBellText:
-	text "Từng có một ngọn"
-	line "tháp ngay đây ở"
-	cont "TP. GOLDENROD."
+	text "There used to be a"
+	line "tower right here"
+	cont "in GOLDENROD CITY."
 
-	para "Nhưng nó cũ và"
-	line "xuống cấp."
+	para "But it was old and"
+	line "creaky."
 
-	para "Nên chúng tôi"
-	line "thay bằng THÁP"
-	cont "RADIO."
+	para "So we replaced it"
+	line "with our RADIO"
+	cont "TOWER."
 
-	para "Chúng tôi đào"
-	line "được chuông này"
-	cont "khi xây dựng."
+	para "We dug up that"
+	line "bell during"
+	cont "construction."
 
-	para "Tôi nghe rằng"
-	line "nhiều loại #MON"
+	para "I heard that all"
+	line "sorts of #MON"
 
-	para "từng sống ở"
-	line "GOLDENROD trước."
+	para "lived in GOLDENROD"
+	line "in the past."
 
-	para "Có lẽ…"
+	para "Perhaps…"
 
-	para "Chuông đó có liên"
-	line "quan đến THÁP"
+	para "That bell has some"
+	line "connection to the"
 
-	para "THIẾC ở TP."
-	line "ECRUTEAK…"
+	para "TIN TOWER in"
+	line "ECRUTEAK CITY…"
 
-	para "À!"
+	para "Ah!"
 
-	para "Điều đó nhắc tôi…"
+	para "That reminds me…"
 
-	para "Tôi nghe lén"
-	line "ĐỘI ROCKET thì"
-	cont "thầm."
+	para "I overheard TEAM"
+	line "ROCKET whispering."
 
-	para "Có vẻ như có"
-	line "chuyện gì đó"
-	cont "đang xảy ra ở"
-	cont "THÁP THIẾC."
+	para "Apparently, some-"
+	line "thing is going on"
+	cont "at the TIN TOWER."
 
-	para "Tôi không biết"
-	line "đó là gì,"
+	para "I have no idea"
+	line "what is happening,"
 
-	para "nhưng cháu có thể"
-	line "tìm hiểu."
+	para "but you might look"
+	line "into it."
 
-	para "OK, tôi phải đi"
-	line "VĂN PHÒNG đây."
+	para "OK, I better go to"
+	line "my OFFICE."
 	done
 
 RadioTower5FDirectorText:
-	text "GIÁM ĐỐC: Chào,"
+	text "DIRECTOR: Hello,"
 	line "<PLAY_G>!"
 
-	para "Cháu biết không,"
-	line "tôi yêu #MON."
+	para "You know, I love"
+	line "#MON."
 
-	para "Tôi xây THÁP"
-	line "RADIO này để tôi"
+	para "I built this RADIO"
+	line "TOWER so I could"
 
-	para "có thể bày tỏ"
-	line "tình yêu #MON."
+	para "express my love"
+	line "of #MON."
 
-	para "Sẽ tuyệt nếu mọi"
-	line "người thích các"
-	cont "chương trình."
+	para "It would be nice"
+	line "if people enjoyed"
+	cont "our programs."
 	done
 
 BenText:
-	text "BEN: Bạn có nghe"
-	line "nhạc của tôi?"
+	text "BEN: Do you listen"
+	line "to our music?"
 	done
 
 RadioTower5FDirectorsOfficeSignText:
-	text "5F VĂN PHÒNG"
-	line "   GIÁM ĐỐC"
+	text "5F DIRECTOR'S"
+	line "   OFFICE"
 	done
 
 RadioTower5FStudio1SignText:

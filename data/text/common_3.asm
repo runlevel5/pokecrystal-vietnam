@@ -1,460 +1,457 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/data/text/common_3.asm"
+else
+
 _OakText6::
-	text "Lúc nãy bạn nói"
-	line "tên bạn là?"
+	text "Now, what did you"
+	line "say your name was?"
 	prompt
 
 _OakText7::
-	text "<PLAYER>, bạn đã"
-	line "sẵn sàng?"
+	text "<PLAYER>, are you"
+	line "ready?"
 
-	para "Câu chuyện"
-	line "#MON chuẩn bị"
-	cont "bắt đầu."
+	para "Your very own"
+	line "#MON story is"
+	cont "about to unfold."
 
-    para "Bạn sẽ gặp nhiều"
-    line "thử thách và trải"
-    cont "nghiệm thú vị."
+	para "You'll face fun"
+	line "times and tough"
+	cont "challenges."
 
-    para "Một thế giới của"
-	line "mơ ước và phiêu"
+	para "A world of dreams"
+	line "and adventures"
 
-	para "lưu với #MON"
-	line "đang chờ đợi bạn!"
-	cont "Hãy bắt đầu nào!"
+	para "with #MON"
+	line "awaits! Let's go!"
 
-    para "Tôi sẽ gặp bạn"
-	line "sau một chút!"
+	para "I'll be seeing you"
+	line "later!"
 	done
 
 _ClockTimeMayBeWrongText::
-	text "Giờ đồng hồ có"
-	line "thể bị sai."
+	text "The clock's time"
+	line "may be wrong."
 
-	para "Hãy chỉnh lại"
-	line "thời gian."
+	para "Please reset the"
+	line "time."
 	prompt
 
 _ClockSetWithControlPadText::
-	text "Dùng phím điều"
-	line "hướng để chỉnh."
+	text "Set with the"
+	line "Control Pad."
 
-	para "Xác nhận: Nút A"
-	line "Hủy:      Nút B"
+	para "Confirm: A Button"
+	line "Cancel:  B Button"
 	done
 
 _ClockIsThisOKText::
-	text "Như vậy được chưa?"
+	text "Is this OK?"
 	done
 
 _ClockHasResetText::
-	text "Đồng hồ đã được"
-	line "đặt lại."
+	text "The clock has been"
+	line "reset."
 	done
 
 _LinkTimeoutText::
-	text "Đã hết thời gian."
-	line "Hãy thử lại."
-	cont ""
+	text "Too much time has"
+	line "elapsed. Please"
+	cont "try again."
 	prompt
 
 _LinkTradeCantBattleText::
-	text "Nếu bạn đổi con"
-	line "#MON đó, bạn sẽ"
-	cont "không đấu được."
+	text "If you trade that"
+	line "#MON, you won't"
+	cont "be able to battle."
 	prompt
 
 _LinkAbnormalMonText::
-	text "@"
+	text "Your friend's"
+	line "@"
 	text_ram wStringBuffer1
-	text " của"
-	line "bạn bè bạn có vẻ"
-	cont "bất thường!"
+	text " appears"
+	cont "to be abnormal!"
 	prompt
 
 _LinkAskTradeForText::
-	text "Đổi @"
+	text "Trade @"
 	text_ram wBufferTrademonNickname
 	text_start
-	line "lấy @"
+	line "for @"
 	text_ram wStringBuffer1
 	text "?"
 	done
 
 _MobileBattleMustPickThreeMonText::
-	text "Để tham gia trận"
-	line "đấu di động, bạn"
+	text "To enter a mobile"
+	line "battle, you must"
 
-	para "phải chọn đội ba"
-	line "con #MON."
+	para "pick a team of"
+	line "three #MON."
 
-	para "Được chứ?"
+	para "Is that OK?"
 	done
 
 _MobileBattleMoreInfoText::
-	text "Cần thêm thông tin"
-	line "về đấu di động?"
+	text "Need more info on"
+	line "mobile battles?"
 	done
 
 _MobileBattleRulesText::
-	text "Để đấu di động,"
-	line "chọn ba #MON."
+	text "For a mobile"
+	line "battle, choose"
+	cont "three #MON."
 
-	para "Thời gian chơi tối"
-	line "đa mỗi ngày là 10"
+	para "The maximum daily"
+	line "play time is ten"
 
-	para "phút cho mỗi người"
-	line "chơi kết nối."
+	para "minutes for each"
+	line "linked player."
 
-	para "Nếu trận đấu không"
-	line "kết thúc trong"
+	para "If a battle isn't"
+	line "finished within"
 
-	para "giới hạn thời"
-	line "gian, người chơi"
+	para "the time limit,"
+	line "the player with"
 
-	para "có ít #MON ngất"
-	line "nhất sẽ thắng."
+	para "the fewest fainted"
+	line "#MON wins."
 
-	para "Nếu hoà, đội mất"
-	line "ít HP nhất sẽ"
+	para "If tied, the team"
+	line "that lost the"
 
-	para "thắng."
-	line ""
+	para "least amount of HP"
+	line "wins."
 	done
 
 _WouldYouLikeToMobileBattleText::
-	text "Thời gian còn lại"
-	line "hôm nay là @"
+	text "Today's remaining"
+	line "time is @"
 	text_decimal wStringBuffer2, 1, 2
-	text " phút"
+	text " min."
 
-	para "Bạn muốn đấu?"
-	line ""
+	para "Would you like to"
+	line "battle?"
 	done
 
 _WantAQuickMobileBattleText::
-	text "Chỉ còn @"
+	text "There are only @"
 	text_decimal wStringBuffer2, 1, 2
-	text " phút"
-	line "cho hôm nay."
+	text_start
+	line "min. left today."
 
-	para "Muốn đấu nhanh?"
-	line ""
+	para "Want a quick"
+	line "battle?"
 	done
 
 _WantToRushThroughAMobileBattleText::
-	text "Chỉ còn 1 phút"
-	line "cho hôm nay!"
+	text "There is only"
+	line "1 min. left today!"
 
-	para "Muốn đấu vội?"
-	line ""
+	para "Want to rush"
+	line "through a battle?"
 	done
 
 _PleaseTryAgainTomorrowText::
-	text "Còn ít hơn 1 phút"
-	line "cho hôm nay!"
+	text "There is less than"
+	line "1 min. left today!"
 
-	para "Hãy thử lại vào"
-	line "ngày mai."
+	para "Please try again"
+	line "tomorrow."
 	done
 
 _TryAgainUsingSameSettingsText::
-	text "Thử lại với cùng"
-	line "cài đặt?"
+	text "Try again using"
+	line "the same settings?"
 	done
 
 _MobileBattleLessThanOneMinuteLeftText::
-	text "Còn ít hơn 1 phút"
-	line "cho hôm nay!"
+	text "There is less than"
+	line "1 min. left today!"
 	done
 
 _MobileBattleNoTimeLeftForLinkingText::
-	text "Hết thời gian kết"
-	line "nối cho hôm nay."
+	text "No time left for"
+	line "linking today."
 	done
 
 _PickThreeMonForMobileBattleText::
-	text "Chọn ba #MON"
-	line "để đấu."
+	text "Pick three #MON"
+	line "for battle."
 	done
 
 _MobileBattleRemainingTimeText::
-	text "Thời gian còn lại"
-	line "hôm nay là @"
+	text "Today's remaining"
+	line "time is @"
 	text_decimal wStringBuffer2, 1, 2
-	text " phút"
+	text " min."
 	done
 
 _WouldYouLikeToSaveTheGameText::
-	text "Bạn có muốn lưu"
-	line "trò chơi không?"
+	text "Would you like to"
+	line "save the game?"
 	done
 
 _SavingDontTurnOffThePowerText::
-	text "ĐANG LƯU… ĐỪNG"
-	line "TẮT NGUỒN."
+	text "SAVING… DON'T TURN"
+	line "OFF THE POWER."
 	done
 
 _SavedTheGameText::
-	text "<PLAYER> đã lưu"
-	line "trò chơi."
+	text "<PLAYER> saved"
+	line "the game."
 	done
 
 _AlreadyASaveFileText::
-	text "Đã có file lưu"
-	line "rồi. Ghi đè lên"
-	cont "được không?"
+	text "There is already a"
+	line "save file. Is it"
+	cont "OK to overwrite?"
 	done
 
 _AnotherSaveFileText::
-	text "Có một file lưu"
-	line "khác. Ghi đè lên"
-	cont "được không?"
+	text "There is another"
+	line "save file. Is it"
+	cont "OK to overwrite?"
 	done
 
 _SaveFileCorruptedText::
-	text "File lưu đã bị"
-	line "hỏng!"
+	text "The save file is"
+	line "corrupted!"
 	prompt
 
 _ChangeBoxSaveText::
-	text "Khi bạn đổi HỘP"
-	line "#MON, dữ liệu"
-	cont "sẽ được lưu. OK?"
+	text "When you change a"
+	line "#MON BOX, data"
+	cont "will be saved. OK?"
 	done
 
 _MoveMonWOMailSaveText::
-	text "Mỗi khi bạn di"
-	line "chuyển #MON, dữ"
-	cont "liệu sẽ lưu. OK?"
+	text "Each time you move"
+	line "a #MON, data"
+	cont "will be saved. OK?"
 	done
 
 _WindowAreaExceededErrorText:: ; unreferenced
-	text "Vùng lưu cửa sổ"
-	line "đã vượt quá."
+	text "The window save"
+	line "area was exceeded."
 	done
 
 _WindowPoppingErrorText::
-	text "Không có cửa sổ"
-	line "nào để đóng."
+	text "No windows avail-"
+	line "able for popping."
 	done
 
 _CorruptedEventText:: ; unreferenced
-	text "Sự kiện bị hỏng!"
+	text "Corrupted event!"
 	prompt
 
 _ObjectEventText::
-	text "Sự kiện đối tượng"
+	text "Object event"
 	done
 
 _BGEventText::
-	text "Sự kiện nền"
+	text "BG event"
 	done
 
 _CoordinatesEventText::
-	text "Sự kiện toạ độ"
+	text "Coordinates event"
 	done
 
 _ReceivedItemText::
-	text "<PLAYER> nhận được"
+	text "<PLAYER> received"
 	line "@"
 	text_ram wStringBuffer4
 	text "."
 	done
 
 _PutItemInPocketText::
-	text "<PLAYER> cất"
+	text "<PLAYER> put the"
 	line "@"
 	text_ram wStringBuffer1
-	text " vào"
-	cont "@"
+	text " in"
+	cont "the @"
 	text_ram wStringBuffer3
 	text "."
 	prompt
 
 _PocketIsFullText::
-	text "@"
+	text "The @"
 	text_ram wStringBuffer3
-	text " đã đầy…"
+	text_start
+	line "is full…"
 	prompt
 
 _SeerSeeAllText::
-	text "Ta thấy tất cả."
-	line "Ta biết tất cả…"
+	text "I see all."
+	line "I know all…"
 
-	para "Đương nhiên, ta"
-	line "biết về #MON"
-	cont "của ngươi!"
+	para "Certainly, I know"
+	line "of your #MON!"
 	done
 
 _SeerCantTellAThingText::
-	text "Gì cơ? Ta không"
-	line "thấy gì cả!"
+	text "Whaaaat? I can't"
+	line "tell a thing!"
 
-	para "Sao ta lại không"
-	line "biết điều này?"
+	para "How could I not"
+	line "know of this?"
 	done
 
 _SeerNameLocationText::
-	text "Hừm… Ta thấy ngươi"
-	line "gặp @"
+	text "Hm… I see you met"
+	line "@"
 	text_ram wSeerNickname
-	text_start
-	cont "tại: @"
+	text " here:"
+	cont "@"
 	text_ram wSeerCaughtLocation
 	text "!"
 	prompt
 
 _SeerTimeLevelText::
-	text "Thời gian là"
+	text "The time was"
 	line "@"
 	text_ram wSeerTimeOfDay
 	text "!"
 
-	para "Cấp độ của nó"
-	line "là @"
+	para "Its level was @"
 	text_ram wSeerCaughtLevelString
 	text "!"
 
-	para "Ta giỏi chưa?"
+	para "Am I good or what?"
 	prompt
 
 _SeerTradeText::
-	text "Hừm… @"
+	text "Hm… @"
 	text_ram wSeerNickname
 	text_start
-	line "đến từ @"
+	line "came from @"
 	text_ram wSeerOT
 	text_start
-	cont "qua trao đổi?"
+	cont "in a trade?"
 
 	para "@"
 	text_ram wSeerCaughtLocation
 	text_start
-	line "là nơi @"
+	line "was where @"
 	text_ram wSeerOT
 	text_start
-	cont "gặp @"
+	cont "met @"
 	text_ram wSeerNickname
 	text "!"
 	prompt
 
 _SeerNoLocationText::
-	text "Gì!? Lạ thật!"
+	text "What!? Incredible!"
 
-	para "Ta không hiểu"
-	line "làm sao, nhưng"
+	para "I don't understand"
+	line "how, but it is"
 
-	para "thật phi thường!"
-	line "Ngươi đặc biệt."
+	para "incredible!"
+	line "You are special."
 
-	para "Ta không biết"
-	line "ngươi gặp nó ở"
-	cont "đâu, nhưng nó"
-
-	para "ở cấp @"
+	para "I can't tell where"
+	line "you met it, but it"
+	cont "was at level @"
 	text_ram wSeerCaughtLevelString
 	text "."
 
-	para "Ta giỏi chưa?"
+	para "Am I good or what?"
 	prompt
 
 _SeerEggText::
-	text "Này!"
+	text "Hey!"
 
-	para "Đó là TRỨNG!"
+	para "That's an EGG!"
 
-	para "Ngươi chưa thể"
-	line "nói là đã gặp"
-	cont "nó được…"
+	para "You can't say that"
+	line "you've met it yet…"
 	done
 
 _SeerDoNothingText::
-	text "Hừ hừ hừ! Ta thấy"
-	line "ngươi sẽ không"
-	cont "làm gì!"
+	text "Fufufu! I saw that"
+	line "you'd do nothing!"
 	done
 
 _SeerMoreCareText::
-	text "Nhân tiện…"
+	text "Incidentally…"
 
-	para "Ngươi nên nuôi"
-	line "#MON của mình"
+	para "It would be wise"
+	line "to raise your"
 
-	para "cẩn thận hơn"
-	line "một chút."
+	para "#MON with a"
+	line "little more care."
 	done
 
 _SeerMoreConfidentText::
-	text "Nhân tiện…"
+	text "Incidentally…"
 
-	para "Có vẻ nó đã"
-	line "lớn lên một chút."
+	para "It seems to have"
+	line "grown a little."
 
 	para "@"
 	text_ram wSeerNickname
-	text " có vẻ"
-	line "đang trở nên"
-	cont "tự tin hơn."
+	text " seems"
+	line "to be becoming"
+	cont "more confident."
 	done
 
 _SeerMuchStrengthText::
-	text "Nhân tiện…"
+	text "Incidentally…"
 
 	para "@"
 	text_ram wSeerNickname
-	text " đã"
-	line "trưởng thành. Nó"
-	cont "mạnh hơn nhiều."
+	text " has"
+	line "grown. It's gained"
+	cont "much strength."
 	done
 
 _SeerMightyText::
-	text "Nhân tiện…"
+	text "Incidentally…"
 
-	para "Nó thực sự đã"
-	line "trở nên hùng mạnh!"
+	para "It certainly has"
+	line "grown mighty!"
 
-	para "@"
+	para "This @"
 	text_ram wSeerNickname
-	text " này"
-	line "đã trải qua"
+	text_start
+	line "must have come"
 
-	para "nhiều trận đấu"
-	line "#MON."
+	para "through numerous"
+	line "#MON battles."
 
-	para "Nó trông tràn"
-	line "đầy tự tin."
+	para "It looks brimming"
+	line "with confidence."
 	done
 
 _SeerImpressedText::
-	text "Nhân tiện…"
+	text "Incidentally…"
 
-	para "Ta ấn tượng với"
-	line "sự tận tâm của"
-	cont "ngươi."
+	para "I'm impressed by"
+	line "your dedication."
 
-	para "Đã lâu rồi ta"
-	line "mới thấy #MON"
+	para "It's been a long"
+	line "time since I've"
 
-	para "hùng mạnh như"
-	line "@"
+	para "seen a #MON as"
+	line "mighty as this"
+	cont "@"
 	text_ram wSeerNickname
-	text " này."
+	text "."
 
-	para "Ta chắc rằng"
-	line "xem @"
+	para "I'm sure that"
+	line "seeing @"
 	text_ram wSeerNickname
 	text_start
 
-	para "chiến đấu sẽ"
-	line "khiến ai cũng"
-	cont "phấn khích."
+	para "in battle would"
+	line "excite anyone."
 	done
 
 _CongratulationsYourPokemonText::
-	text "Chúc mừng!"
-	line "@"
+	text "Congratulations!"
+	line "Your @"
 	text_ram wStringBuffer2
-	text " của bạn"
 	text_end
 
 	text_end ; unreferenced
@@ -462,307 +459,307 @@ _CongratulationsYourPokemonText::
 _EvolvedIntoText::
 	text_start
 
-	para "tiến hóa thành"
+	para "evolved into"
 	line "@"
 	text_ram wStringBuffer1
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Hả? @"
+	text "Huh? @"
 	text_ram wStringBuffer2
 	text_start
-	line "ngừng tiến hóa!"
+	line "stopped evolving!"
 	prompt
 
 _EvolvingText::
-	text "Gì? @"
+	text "What? @"
 	text_ram wStringBuffer2
 	text_start
-	line "đang tiến hóa!"
+	line "is evolving!"
 	done
 
 _MartHowManyText::
-	text "Mua bao nhiêu?"
+	text "How many?"
 	done
 
 _MartFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text_start
-	line "sẽ là ¥@"
+	text "(S)"
+	line "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbShopLadyIntroText::
-	text "Xin chào, cưng."
+	text "Hello, dear."
 
-	para "Tôi bán thuốc thảo"
-	line "dược giá rẻ."
+	para "I sell inexpensive"
+	line "herbal medicine."
 
-	para "Chúng tốt lắm,"
-	line "nhưng hơi đắng."
+	para "They're good, but"
+	line "a trifle bitter."
 
-	para "#MON của bạn có"
-	line "thể không thích."
+	para "Your #MON may"
+	line "not like them."
 
-	para "Hê hê hê…"
+	para "Hehehehe…"
 	done
 
 _HerbalLadyHowManyText::
-	text "Mua bao nhiêu?"
+	text "How many?"
 	done
 
 _HerbalLadyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text_start
-	line "sẽ là ¥@"
+	text "(S)"
+	line "will be ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _HerbalLadyThanksText::
-	text "Cảm ơn cưng."
-	line "Hê hê hê…"
+	text "Thank you, dear."
+	line "Hehehehe…"
 	done
 
 _HerbalLadyPackFullText::
-	text "Ồ? BA LÔ của bạn"
-	line "đầy rồi, cưng."
+	text "Oh? Your PACK is"
+	line "full, dear."
 	done
 
 _HerbalLadyNoMoneyText::
-	text "Hê hê… Bạn không"
-	line "đủ tiền."
+	text "Hehehe… You don't"
+	line "have the money."
 	done
 
 _HerbalLadyComeAgainText::
-	text "Quay lại nhé cưng."
-	line "Hê hê hê…"
+	text "Come again, dear."
+	line "Hehehehe…"
 	done
 
 _BargainShopIntroText::
-	text "Chào! Muốn xem"
-	line "đồ giảm giá không?"
+	text "Hiya! Care to see"
+	line "some bargains?"
 
-	para "Tôi bán đồ hiếm"
-	line "mà không ai khác"
+	para "I sell rare items"
+	line "that nobody else"
 
-	para "có--nhưng mỗi"
-	line "loại chỉ một cái."
+	para "carries--but only"
+	line "one of each item."
 	done
 
 _BargainShopFinalPriceText::
 	text_ram wStringBuffer2
-	text " giá"
+	text " costs"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text ". Mua không?"
+	text ". Want it?"
 	done
 
 _BargainShopThanksText::
-	text "Cảm ơn."
+	text "Thanks."
 	done
 
 _BargainShopPackFullText::
-	text "Ối, BA LÔ của bạn"
-	line "đầy cứng rồi."
+	text "Uh-oh, your PACK"
+	line "is chock-full."
 	done
 
 _BargainShopSoldOutText::
-	text "Bạn mua cái đó"
-	line "rồi. Tôi hết hàng"
-	cont "mất rồi."
+	text "You bought that"
+	line "already. I'm all"
+	cont "sold out of it."
 	done
 
 _BargainShopNoFundsText::
-	text "Ối, bạn không"
-	line "đủ tiền."
+	text "Uh-oh, you're"
+	line "short on funds."
 	done
 
 _BargainShopComeAgainText::
-	text "Ghé lại lần sau"
-	line "nhé."
+	text "Come by again"
+	line "sometime."
 	done
 
 _PharmacyIntroText::
-	text "Có gì không? Cần"
-	line "thuốc không?"
+	text "What's up? Need"
+	line "some medicine?"
 	done
 
 _PharmacyHowManyText::
-	text "Mua bao nhiêu?"
+	text "How many?"
 	done
 
 _PharmacyFinalPriceText::
 	text_decimal wItemQuantityChange, 1, 2
 	text " @"
 	text_ram wStringBuffer2
-	text_start
-	line "sẽ là ¥@"
+	text "(S)"
+	line "will cost ¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 	done
 
 _PharmacyThanksText::
-	text "Cảm ơn nhiều!"
+	text "Thanks much!"
 	done
 
 _PharmacyPackFullText::
-	text "Bạn không còn chỗ"
-	line "nữa."
+	text "You don't have any"
+	line "more space."
 	done
 
 _PharmacyNoMoneyText::
-	text "Hả? Không đủ"
-	line "tiền."
+	text "Huh? That's not"
+	line "enough money."
 	done
 
 _PharmacyComeAgainText::
-	text "Được rồi."
-	line "Hẹn gặp lại."
+	text "All right."
+	line "See you around."
 	done
 
 _NothingToSellText::
-	text "Bạn không có gì"
-	line "để bán."
+	text "You don't have"
+	line "anything to sell."
 	prompt
 
 _MartSellHowManyText::
-	text "Bán bao nhiêu?"
+	text "How many?"
 	done
 
 _MartSellPriceText::
-	text "Tôi trả bạn"
+	text "I can pay you"
 	line "¥@"
 	text_decimal hMoneyTemp, 3, 6
 	text "."
 
-	para "Được chứ?"
+	para "Is that OK?"
 	done
 
 _MartWelcomeText::
-	text "Chào mừng! Tôi có"
-	line "thể giúp gì?"
+	text "Welcome! How may I"
+	line "help you?"
 	done
 
 _MartThanksText::
-	text "Của bạn đây."
-	line "Cảm ơn!"
+	text "Here you are."
+	line "Thank you!"
 	done
 
 _MartNoMoneyText::
-	text "Bạn không đủ"
-	line "tiền."
+	text "You don't have"
+	line "enough money."
 	done
 
 _MartPackFullText::
-	text "Bạn không mang"
-	line "thêm đồ được nữa."
+	text "You can't carry"
+	line "any more items."
 	done
 
 _MartCantBuyText::
-	text "Xin lỗi, tôi không"
-	line "mua được cái đó."
+	text "Sorry, I can't buy"
+	line "that from you."
 	prompt
 
 _MartComeAgainText::
-	text "Mời quay lại lần"
-	line "sau!"
+	text "Please come again!"
 	done
 
 _MartAskMoreText::
-	text "Tôi có thể giúp"
-	line "gì nữa không?"
+	text "Can I do anything"
+	line "else for you?"
 	done
 
 _MartBoughtText::
-	text "Nhận ¥@"
+	text "Got ¥@"
 	text_decimal hMoneyTemp, 3, 6
-	text " cho"
+	text " for"
 	line "@"
 	text_ram wStringBuffer2
-	text "."
+	text "(S)."
 	done
 
 _SlotsBetHowManyCoinsText::
-	text "Cược bao nhiêu"
-	line "xu?"
+	text "Bet how many"
+	line "coins?"
 	done
 
 _SlotsStartText::
-	text "Bắt đầu!"
+	text "Start!"
 	done
 
 _SlotsNotEnoughCoinsText::
-	text "Không đủ xu."
+	text "Not enough"
+	line "coins."
 	prompt
 
 _SlotsRanOutOfCoinsText::
-	text "Chết… Hết xu"
-	line "rồi…"
+	text "Darn… Ran out of"
+	line "coins…"
 	done
 
 _SlotsPlayAgainText::
-	text "Chơi lại không?"
+	text "Play again?"
 	done
 
 _SlotsLinedUpText::
-	text "thẳng hàng!"
-	line "Thắng @"
+	text "lined up!"
+	line "Won @"
 	text_ram wStringBuffer2
-	text " xu!"
+	text " coins!"
 	done
 
 _SlotsDarnText::
-	text "Tiếc thật!"
+	text "Darn!"
 	done
 
 _MobileStadiumEntryText::
-	text "Dữ liệu dùng cho"
-	line "MOBILE STADIUM"
+	text "Data for use in"
+	line "the MOBILE STADIUM"
 
-	para "của N64 #MON"
-	line "STADIUM 2 có thể"
-	cont "đọc ở đây."
+	para "of the N64 #MON"
+	line "STADIUM 2 can be"
+	cont "read here."
 
-	para "Đọc dữ liệu?"
+	para "Read the data?"
 	done
 
 _MobileStadiumSuccessText::
-	text "Chuyển dữ liệu"
-	line "hoàn tất."
+	text "Data transfer is"
+	line "complete."
 
-	para "Chúc bạn vui với"
-	line "các trận MOBILE"
+	para "We hope you enjoy"
+	line "MOBILE STADIUM"
 
-	para "STADIUM trong N64"
+	para "battles in the N64"
 	line "#MON STADIUM 2."
 
 	para ""
 	done
 
 _MainMenuTimeUnknownText::
-	text "Không rõ giờ"
+	text "Clock time unknown"
 	done
 
 _DeleteSavedLoginPasswordText::
-	text "Xóa MẬT KHẨU ĐĂNG"
-	line "NHẬP đã lưu?"
+	text "Delete the saved"
+	line "LOG-IN PASSWORD?"
 	done
 
 _DeletedTheLoginPasswordText::
-	text "Đã xóa MẬT KHẨU"
-	line "ĐĂNG NHẬP."
+	text "Deleted the LOG-IN"
+	line "PASSWORD."
 	done
 
 _MobilePickThreeMonForBattleText::
-	text "Chọn ba #MON"
-	line "để chiến đấu."
+	text "Pick three #MON"
+	line "for battle."
 	prompt
 
 _MobileUseTheseThreeMonText::
@@ -770,125 +767,128 @@ _MobileUseTheseThreeMonText::
 	text ","
 	line "@"
 	text_ram wMobileParticipant2Nickname
-	text " và"
+	text " and"
 	cont "@"
 	text_ram wMobileParticipant3Nickname
 	text "."
 
-	para "Dùng ba con này?"
+	para "Use these three?"
 	done
 
 _MobileOnlyThreeMonMayEnterText::
-	text "Chỉ được dùng"
-	line "ba #MON."
+	text "Only three #MON"
+	line "may enter."
 	prompt
 
 _MobileCardFolderIntro1Text::
-	text "THƯ MỤC THẺ lưu"
-	line "trữ THẺ của bạn"
+	text "The CARD FOLDER"
+	line "stores your and"
 
-	para "và bạn bè."
+	para "your friends'"
+	line "CARDS."
 
-	para "Một THẺ chứa"
-	line "thông tin như"
+	para "A CARD contains"
+	line "information like"
 
-	para "tên, số điện"
-	line "thoại và hồ sơ"
-	cont "của người đó."
+	para "the person's name,"
+	line "phone number and"
+	cont "profile."
 
 	para ""
 	done
 
 _MobileCardFolderIntro2Text::
-	text "Đây là THẺ của"
-	line "bạn."
+	text "This is your CARD."
 
-	para "Khi đã nhập số"
-	line "điện thoại, bạn"
+	para "Once you've"
+	line "entered your phone"
 
-	para "có thể trao đổi"
-	line "THẺ với bạn bè."
+	para "number, you can"
+	line "trade CARDS with"
+	cont "your friends."
 
 	para ""
 	done
 
 _MobileCardFolderIntro3Text::
-	text "Nếu có THẺ của"
-	line "bạn bè, bạn có"
+	text "If you have your"
+	line "friend's CARD, you"
 
-	para "thể dùng nó để"
-	line "gọi từ điện thoại"
+	para "can use it to make"
+	line "a call from a"
 
-	para "di động ở tầng 2"
-	line "TRUNG TÂM #MON."
+	para "mobile phone on"
+	line "the 2nd floor of a"
+	cont "#MON CENTER."
 
 	para ""
 	done
 
 _MobileCardFolderIntro4Text::
-	text "Để lưu trữ bộ sưu"
-	line "tập THẺ an toàn,"
+	text "To safely store"
+	line "your collection of"
 
-	para "bạn phải đặt MÃ"
-	line "KHÓA cho THƯ MỤC"
-	cont "THẺ."
+	para "CARDS, you must"
+	line "set a PASSCODE for"
+	cont "your CARD FOLDER."
 
 	para ""
 	done
 
 _MobileCardFolderAskDeleteText::
-	text "Nếu xóa THƯ MỤC"
-	line "THẺ, tất cả THẺ"
+	text "If the CARD FOLDER"
+	line "is deleted, all"
 
-	para "và MÃ KHÓA cũng"
-	line "sẽ bị xóa."
+	para "its CARDS and the"
+	line "PASSCODE will also"
+	cont "be deleted."
 
-	para "Cảnh báo--THƯ MỤC"
-	line "THẺ đã xóa không"
-	cont "thể khôi phục."
+	para "Beware--a deleted"
+	line "CARD FOLDER can't"
+	cont "be restored."
 
-	para "Muốn xóa THƯ MỤC"
-	line "THẺ của bạn?"
+	para "Want to delete"
+	line "your CARD FOLDER?"
 	done
 
 _MobileCardFolderDeleteAreYouSureText::
-	text "Bạn chắc chắn muốn"
-	line "xóa nó không?"
+	text "Are you sure you"
+	line "want to delete it?"
 	done
 
 _MobileCardFolderDeletedText::
-	text "THƯ MỤC THẺ đã"
-	line "được xóa."
+	text "The CARD FOLDER"
+	line "has been deleted."
 
 	para ""
 	done
 
 _MobileCardFolderAskOpenOldText::
-	text "Có THƯ MỤC THẺ cũ"
-	line "từ hành trình"
-	cont "trước."
+	text "There is an older"
+	line "CARD FOLDER from a"
+	cont "previous journey."
 
-	para "Bạn muốn mở nó"
-	line "không?"
+	para "Do you want to"
+	line "open it?"
 	done
 
 _MobileCardFolderAskDeleteOldText::
-	text "Xóa THƯ MỤC THẺ"
-	line "cũ?"
+	text "Delete the old"
+	line "CARD FOLDER?"
 	done
 
 _MobileCardFolderFinishRegisteringCardsText::
-	text "Hoàn tất đăng ký"
-	line "THẺ?"
+	text "Finish registering"
+	line "CARDS?"
 	done
 
 _PhoneWrongNumberText::
-	text "Hả? Xin lỗi, sai"
-	line "số rồi!"
+	text "Huh? Sorry, wrong"
+	line "number!"
 	done
 
 _PhoneClickText::
-	text "Cạch!"
+	text "Click!"
 	done
 
 _PhoneEllipseText::
@@ -896,17 +896,17 @@ _PhoneEllipseText::
 	done
 
 _PhoneOutOfAreaText::
-	text "Số đó nằm ngoài"
-	line "vùng phủ sóng."
+	text "That number is out"
+	line "of the area."
 	done
 
 _PhoneJustTalkToThemText::
-	text "Đi nói chuyện"
-	line "trực tiếp đi!"
+	text "Just go talk to"
+	line "that person!"
 	done
 
 _PhoneThankYouText::
-	text "Cảm ơn!"
+	text "Thank you!"
 	done
 
 _SpaceSpaceColonText:: ; unreferenced
@@ -914,32 +914,32 @@ _SpaceSpaceColonText:: ; unreferenced
 	done
 
 _PasswordAskResetText::
-	text "Mật khẩu đúng."
-	line "Chọn TIẾP TỤC để"
-	cont "đặt lại cài đặt."
+	text "Password OK."
+	line "Select CONTINUE &"
+	cont "reset settings."
 	prompt
 
 _PasswordWrongText::
-	text "Sai mật khẩu!"
+	text "Wrong password!"
 	prompt
 
 _PasswordAskResetClockText::
-	text "Đặt lại đồng hồ?"
+	text "Reset the clock?"
 	done
 
 _PasswordAskEnterText::
-	text "Vui lòng nhập"
-	line "mật khẩu."
+	text "Please enter the"
+	line "password."
 	done
 
 _ClearAllSaveDataText::
-	text "Xóa tất cả dữ"
-	line "liệu đã lưu?"
+	text "Clear all save"
+	line "data?"
 	done
 
 _LearnedMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " đã học"
+	text " learned"
 	line "@"
 	text_ram wStringBuffer2
 	text "!@"
@@ -950,12 +950,12 @@ _LearnedMoveText::
 	text_end ; unreferenced
 
 _MoveAskForgetText::
-	text "Nên quên chiêu"
-	next "nào?"
+	text "Which move should"
+	next "be forgotten?"
 	done
 
 _StopLearningMoveText::
-	text "Dừng học"
+	text "Stop learning"
 	line "@"
 	text_ram wStringBuffer2
 	text "?"
@@ -964,7 +964,7 @@ _StopLearningMoveText::
 _DidNotLearnMoveText::
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "đã không học"
+	line "did not learn"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
@@ -972,84 +972,85 @@ _DidNotLearnMoveText::
 
 _AskForgetMoveText::
 	text_ram wMonOrItemNameBuffer
-	text " đang"
-	line "cố học"
+	text " is"
+	line "trying to learn"
 	cont "@"
 	text_ram wStringBuffer2
 	text "."
 
-	para "Nhưng @"
+	para "But @"
 	text_ram wMonOrItemNameBuffer
 	text_start
-	line "không thể học quá"
-	cont "bốn chiêu."
+	line "can't learn more"
+	cont "than four moves."
 
-	para "Xóa chiêu cũ để"
-	line "nhường chỗ cho"
-	cont "@"
+	para "Delete an older"
+	line "move to make room"
+	cont "for @"
 	text_ram wStringBuffer2
 	text "?"
 	done
 
 Text_MoveForgetCount::
-	text "1, 2 và…@"
+	text "1, 2 and…@"
 	text_pause
 	text_end
 
 	text_end ; unreferenced
 
 _MoveForgotText::
-	text " Phù!@"
+	text " Poof!@"
 	text_pause
 	text_start
 
 	para "@"
 	text_ram wMonOrItemNameBuffer
-	text " đã quên"
+	text " forgot"
 	line "@"
 	text_ram wStringBuffer1
 	text "."
 
-	para "Và…"
+	para "And…"
 	prompt
 
 _MoveCantForgetHMText::
-	text "Chiêu HM không thể"
-	line "quên được."
+	text "HM moves can't be"
+	line "forgotten now."
 	prompt
 
 _CardFlipPlayWithThreeCoinsText::
-	text "Chơi với ba xu?"
+	text "Play with three"
+	line "coins?"
 	done
 
 _CardFlipNotEnoughCoinsText::
-	text "Không đủ xu…"
+	text "Not enough coins…"
 	prompt
 
 _CardFlipChooseACardText::
-	text "Chọn một lá bài."
+	text "Choose a card."
 	done
 
 _CardFlipPlaceYourBetText::
-	text "Đặt cược đi."
+	text "Place your bet."
 	done
 
 _CardFlipPlayAgainText::
-	text "Muốn chơi lại"
-	line "không?"
+	text "Want to play"
+	line "again?"
 	done
 
 _CardFlipShuffledText::
-	text "Bài đã được"
-	line "xáo."
+	text "The cards have"
+	line "been shuffled."
 	prompt
 
 _CardFlipYeahText::
-	text "Tuyệt!"
+	text "Yeah!"
 	done
 
 _CardFlipDarnText::
-	text "Tiếc…"
+	text "Darn…"
 	done
 
 _GearTodayText::
@@ -1063,166 +1064,165 @@ _GearEllipseText::
 	done
 
 _GearOutOfServiceText::
-	text "Bạn đang ở ngoài"
-	line "vùng phục vụ."
+	text "You're out of the"
+	line "service area."
 	prompt
 
 _PokegearAskWhoCallText::
-	text "Bạn muốn gọi cho"
-	line "ai?"
+	text "Whom do you want"
+	line "to call?"
 	done
 
 _PokegearPressButtonText::
-	text "Nhấn nút bất kỳ"
-	line "để thoát."
+	text "Press any button"
+	line "to exit."
 	done
 
 _PokegearAskDeleteText::
-	text "Xóa số điện thoại"
-	line "đã lưu này?"
+	text "Delete this stored"
+	line "phone number?"
 	done
 
 _BuenaAskWhichPrizeText::
-	text "Bạn muốn nhận"
-	line "phần thưởng nào?"
+	text "Which prize would"
+	line "you like?"
 	done
 
 _BuenaIsThatRightText::
 	text_ram wStringBuffer1
 	text "?"
-	line "Đúng không?"
+	line "Is that right?"
 	done
 
 _BuenaHereYouGoText::
-	text "Của bạn đây!"
+	text "Here you go!"
 
 	para ""
 	done
 
 _BuenaNotEnoughPointsText::
-	text "Bạn không đủ"
-	line "điểm."
+	text "You don't have"
+	line "enough points."
 
 	para ""
 	done
 
 _BuenaNoRoomText::
-	text "Bạn không còn chỗ"
-	line "cho nó."
+	text "You have no room"
+	line "for it."
 
 	para ""
 	done
 
 _BuenaComeAgainText::
-	text "Ồ. Mời quay lại"
-	line "lần sau!"
+	text "Oh. Please come"
+	line "back again!"
 	done
 
 _BTExcuseMeText::
-	text "Xin lỗi!"
+	text "Excuse me!"
 
 	para ""
 	done
 
 _ExcuseMeYoureNotReadyText::
-	text "Xin lỗi."
-	line "Bạn chưa sẵn sàng."
+	text "Excuse me."
+	line "You're not ready."
 
 	para ""
 	done
 
 _BattleTowerReturnWhenReadyText::
-	text "Hãy quay lại khi"
-	line "bạn sẵn sàng."
+	text "Please return when"
+	line "you're ready."
 	done
 
 _NeedAtLeastThreeMonText::
-	text "Bạn cần ít nhất"
-	line "ba #MON."
+	text "You need at least"
+	line "three #MON."
 
 	para ""
 	done
 
 _EggDoesNotQualifyText::
-	text "Xin lỗi, TRỨNG"
-	line "không đủ điều"
-	cont "kiện."
+	text "Sorry, an EGG"
+	line "doesn't qualify."
 
 	para ""
 	done
 
 _OnlyThreeMonMayBeEnteredText::
-	text "Chỉ được dùng"
-	line "ba #MON."
+	text "Only three #MON"
+	line "may be entered."
 
 	para ""
 	done
 
 _TheMonMustAllBeDifferentKindsText::
-	text "@"
+	text "The @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "phải khác loại"
-	cont "nhau."
+	line "must all be"
+	cont "different kinds."
 
 	para ""
 	done
 
 _TheMonMustNotHoldTheSameItemsText::
-	text "@"
+	text "The @"
 	text_ram wStringBuffer2
 	text " #MON"
-	line "không được cầm"
-	cont "cùng một vật."
+	line "must not hold the"
+	cont "same items."
 
 	para ""
 	done
 
 _YouCantTakeAnEggText::
-	text "Bạn không thể mang"
-	line "TRỨNG!"
+	text "You can't take an"
+	line "EGG!"
 
 	para ""
 	done
 
 _BallDodgedText::
-	text "Nó né được BÓNG"
-	line "ném!"
+	text "It dodged the"
+	line "thrown BALL!"
 
-	para "#MON này không"
-	line "thể bắt được!"
+	para "This #MON"
+	line "can't be caught!"
 	prompt
 
 _BallMissedText::
-	text "Bạn ném trượt"
+	text "You missed the"
 	line "#MON!"
 	prompt
 
 _BallBrokeFreeText::
-	text "Ôi không! #MON"
-	line "thoát ra rồi!"
+	text "Oh no! The #MON"
+	line "broke free!"
 	prompt
 
 _BallAppearedCaughtText::
-	text "Ôi! Tưởng đã"
-	line "bắt được rồi!"
+	text "Aww! It appeared"
+	line "to be caught!"
 	prompt
 
 _BallAlmostHadItText::
-	text "Trời ơi!"
-	line "Suýt nữa là được!"
+	text "Aargh!"
+	line "Almost had it!"
 	prompt
 
 _BallSoCloseText::
-	text "Tiếc thật! Suýt"
-	line "chút nữa rồi!"
+	text "Shoot! It was so"
+	line "close too!"
 	prompt
 
 Text_BallCaught::
-	text "Bắt được!"
-	line "@"
+	text "Gotcha! @"
 	text_ram wEnemyMonNickname
-	text " bị bắt!@"
+	text_start
+	line "was caught!@"
 	sound_caught_mon
 	text_end
 
@@ -1236,15 +1236,15 @@ _WaitButtonText::
 
 _BallSentToPCText::
 	text_ram wMonOrItemNameBuffer
-	text " đã được"
-	line "gửi đến PC BILL."
+	text " was"
+	line "sent to BILL's PC."
 	prompt
 
 _NewDexDataText::
 	text_ram wEnemyMonNickname
-	text " đã"
-	line "được thêm vào"
-	cont "#DEX.@"
+	text "'s data"
+	line "was newly added to"
+	cont "the #DEX.@"
 	sound_slot_machine_start
 	text_promptbutton
 	text_end
@@ -1252,7 +1252,7 @@ _NewDexDataText::
 	text_end ; unreferenced
 
 _AskGiveNicknameText::
-	text "Đặt biệt danh cho"
+	text "Give a nickname to"
 	line "@"
 	text_ram wStringBuffer1
 	text "?"
@@ -1260,52 +1260,53 @@ _AskGiveNicknameText::
 
 _ItemStatRoseText::
 	text_ram wStringBuffer1
-	text_start
+	text "'s"
 	line "@"
 	text_ram wStringBuffer2
-	text " tăng."
+	text " rose."
 	prompt
 
 _ItemCantUseOnMonText::
-	text "Không thể dùng cho"
-	line "#MON này."
+	text "That can't be used"
+	line "on this #MON."
 	prompt
 
 _RepelUsedEarlierIsStillInEffectText::
-	text "THUỐC XỊT dùng"
-	line "trước vẫn còn"
-	cont "tác dụng."
+	text "The REPEL used"
+	line "earlier is still"
+	cont "in effect."
 	prompt
 
 _PlayedFluteText::
-	text "Đã thổi SÁO #."
+	text "Played the #"
+	line "FLUTE."
 
-	para "Giai điệu hay"
-	line "thật!"
+	para "Now, that's a"
+	line "catchy tune!"
 	prompt
 
 _FluteWakeUpText::
-	text "Tất cả #MON"
-	line "đang ngủ tỉnh dậy."
+	text "All sleeping"
+	line "#MON woke up."
 	prompt
 
 Text_PlayedPokeFlute::
-	text "<PLAYER> đã thổi"
-	line "SÁO #.@"
+	text "<PLAYER> played the"
+	line "# FLUTE.@"
 	text_promptbutton
 	text_end
 
 	text_end ; unreferenced
 
 _BlueCardBalanceText::
-	text "Bạn hiện có"
+	text "You now have"
 	line "@"
 	text_decimal wBlueCardBalance, 1, 2
-	text " điểm."
+	text " points."
 	done
 
 _CoinCaseCountText::
-	text "Xu:"
+	text "Coins:"
 	line "@"
 	text_decimal wCoins, 2, 4
 	text_end
@@ -1313,216 +1314,219 @@ _CoinCaseCountText::
 	text_end ; unreferenced
 
 _RaiseThePPOfWhichMoveText::
-	text "Tăng PP của chiêu"
-	line "nào?"
+	text "Raise the PP of"
+	line "which move?"
 	done
 
 _RestoreThePPOfWhichMoveText::
-	text "Phục hồi PP của"
-	line "chiêu nào?"
+	text "Restore the PP of"
+	line "which move?"
 	done
 
 _PPIsMaxedOutText::
-	text "PP của @"
 	text_ram wStringBuffer2
-	text_start
-	line "đã tối đa."
+	text "'s PP"
+	line "is maxed out."
 	prompt
 
 _PPsIncreasedText::
-	text "PP của @"
 	text_ram wStringBuffer2
-	text_start
-	line "đã tăng."
+	text "'s PP"
+	line "increased."
 	prompt
 
 _PPRestoredText::
-	text "PP đã phục hồi."
+	text "PP was restored."
 	prompt
 
 _SentTrophyHomeText::
-	text "Có một cúp bên"
-	line "trong!@"
+	text "There was a trophy"
+	line "inside!@"
 	sound_dex_fanfare_50_79
 	text_start
 
 	para "@"
 	text_ram wPlayerName
-	text " đã gửi"
-	line "cúp về nhà."
+	text " sent the"
+	line "trophy home."
 	prompt
 
 _ItemLooksBitterText::
-	text "Trông có vẻ đắng…"
+	text "It looks bitter…"
 	prompt
 
 _ItemCantUseOnEggText::
-	text "Không thể dùng cho"
-	line "TRỨNG."
+	text "That can't be used"
+	line "on an EGG."
 	prompt
 
 _ItemOakWarningText::
-	text "GS.OAK: <PLAYER>!"
-	line "Giờ không phải lúc"
-	cont "dùng cái đó!"
+	text "OAK: <PLAYER>!"
+	line "This isn't the"
+	cont "time to use that!"
 	prompt
 
 _ItemBelongsToSomeoneElseText::
-	text "Đó là của người"
-	line "khác!"
+	text "That belongs to"
+	line "someone else!"
 	prompt
 
 _ItemWontHaveEffectText::
-	text "Nó sẽ không có"
-	line "tác dụng."
+	text "It won't have any"
+	line "effect."
 	prompt
 
 _BallBlockedText::
-	text "Huấn luyện viên đã"
-	line "chặn BÓNG!"
+	text "The trainer"
+	line "blocked the BALL!"
 	prompt
 
 _BallDontBeAThiefText::
-	text "Đừng làm kẻ cắp!"
+	text "Don't be a thief!"
 	prompt
 
 _NoCyclingText::
-	text "Không được đi xe"
-	line "đạp ở đây."
+	text "Cycling isn't"
+	line "allowed here."
 	prompt
 
 _ItemCantGetOnText::
-	text "Không thể lên"
+	text "Can't get on your"
 	line "@"
 	text_ram wStringBuffer1
-	text " bây giờ."
+	text " now."
 	prompt
 
 _BallBoxFullText::
-	text "HỘP #MON đầy."
-	line "Không thể dùng"
-	cont "bây giờ."
+	text "The #MON BOX"
+	line "is full. That"
+	cont "can't be used now."
 	prompt
 
 _ItemUsedText::
-	text "<PLAYER> dùng@"
+	text "<PLAYER> used the@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	done
 
 _ItemGotOnText::
-	text "<PLAYER> lên@"
+	text "<PLAYER> got on the@"
 	text_low
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _ItemGotOffText::
-	text "<PLAYER> xuống@"
+	text "<PLAYER> got off@"
 	text_low
+	text "the @"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _KnowsMoveText::
 	text_ram wStringBuffer1
-	text " biết"
+	text " knows"
 	line "@"
 	text_ram wStringBuffer2
 	text "."
 	prompt
 
 _MoveKnowsOneText::
-	text "#MON chỉ biết"
-	line "một chiêu thôi."
+	text "That #MON knows"
+	line "only one move."
 	done
 
 _AskDeleteMoveText::
-	text "Ồ, muốn nó quên"
+	text "Oh, make it forget"
 	line "@"
 	text_ram wStringBuffer1
-	text " à?"
+	text "?"
 	done
 
 _DeleterForgotMoveText::
-	text "Xong! #MON của"
-	line "bạn đã quên chiêu."
+	text "Done! Your #MON"
+	line "forgot the move."
 	done
 
 _DeleterEggText::
-	text "TRỨNG không biết"
-	line "chiêu nào cả!"
+	text "An EGG doesn't"
+	line "know any moves!"
 	done
 
 _DeleterNoComeAgainText::
-	text "Không? Hãy ghé"
-	line "thăm tôi lần sau."
+	text "No? Come visit me"
+	line "again."
 	done
 
 _DeleterAskWhichMoveText::
-	text "Vậy nó nên quên"
-	line "chiêu nào?"
+	text "Which move should"
+	line "it forget, then?"
 	prompt
 
 _DeleterIntroText::
-	text "Ừm… À, tôi là"
-	line "NGƯỜI XÓA CHIÊU."
+	text "Um… Oh, yes, I'm"
+	line "the MOVE DELETER."
 
-	para "Tôi có thể làm"
-	line "#MON quên chiêu"
+	para "I can make #MON"
+	line "forget moves."
 
-	para "Tôi làm #MON"
-	line "quên chiêu nhé?"
+	para "Shall I make a"
+	line "#MON forget?"
 	done
 
 _DeleterAskWhichMonText::
-	text "#MON nào?"
+	text "Which #MON?"
 	prompt
 
 _DSTIsThatOKText::
 	text " DST,"
-	line "được chứ?"
+	line "is that OK?"
 	done
 
 _TimeAskOkayText::
 	text ","
-	line "được chứ?"
+	line "is that OK?"
 	done
 
 _TimesetAskDSTText::
-	text "Bạn muốn chuyển"
-	line "sang Giờ Mùa Hè"
-	cont "không?"
+	text "Do you want to"
+	line "switch to Daylight"
+	cont "Saving Time?"
 	done
 
 _TimesetDSTText::
-	text "Tôi đã chỉnh đồng"
-	line "hồ lên một tiếng."
+	text "I set the clock"
+	line "forward by one"
+	cont "hour."
 	prompt
 
 _TimesetAskNotDSTText::
-	text "Giờ Mùa Hè đã hết"
-	line "chưa?"
+	text "Is Daylight Saving"
+	line "Time over?"
 	done
 
 _TimesetNotDSTText::
-	text "Tôi đã chỉnh đồng"
-	line "hồ lùi một tiếng."
+	text "I put the clock"
+	line "back one hour."
 	prompt
 
 _TimesetAskAdjustDSTText::
-	text "Bạn muốn chỉnh"
-	line "đồng hồ cho Giờ"
+	text "Do you want to"
+	line "adjust your clock"
 
-	para "Mùa Hè không?"
+	para "for Daylight"
+	line "Saving Time?"
 	done
 
 _MomLostGearBookletText::
-	text "Mẹ làm mất sách"
-	line "hướng dẫn của"
-	cont "#GEAR rồi."
+	text "I lost the in-"
+	line "struction booklet"
+	cont "for the #GEAR."
 
-	para "Con quay lại sau"
-	line "nhé."
+	para "Come back again in"
+	line "a while."
 	prompt
+
+endc

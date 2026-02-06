@@ -85,8 +85,8 @@ Route15PPUp:
 	itemball PP_UP
 
 TeacherColetteSeenText:
-	text "Bạn có quên gì"
-	line "không?"
+	text "Have you forgotten"
+	line "anything?"
 	done
 
 TeacherColetteBeatenText:
@@ -94,104 +94,109 @@ TeacherColetteBeatenText:
 	done
 
 TeacherColetteAfterBattleText:
-	text "Trước khi làm giáo"
-	line "viên, tôi hay quên"
-	cont "nhiều thứ."
+	text "Before I became a"
+	line "teacher, I used to"
+
+	para "forget a lot of"
+	line "things."
 	done
 
 TeacherHillarySeenText:
-	text "Ngày nắng đẹp, tôi"
-	line "nghĩ trẻ con thích"
+	text "On sunny days, I"
+	line "think that the"
 
-	para "chơi ở sân trường"
-	line "hơn học trong lớp"
+	para "kids would rather"
+	line "be playing in the"
+
+	para "schoolyard than"
+	line "studying in class."
 	done
 
 TeacherHillaryBeatenText:
-	text "Tôi không muốn"
-	line "thua…"
+	text "I didn't want to"
+	line "lose…"
 	done
 
 TeacherHillaryAfterBattleText:
-	text "Học quan trọng,"
-	line "nhưng thể dục cũng"
-	cont "quan trọng ngang."
+	text "Studying is impor-"
+	line "tant, but exercise"
+	cont "is just as vital."
 	done
 
 SchoolboyKippSeenText:
-	text "Đợi chút. Tôi phải"
-	line "gọi cho mẹ tôi."
+	text "Hang on. I have to"
+	line "phone my mom."
 	done
 
 SchoolboyKippBeatenText:
-	text "Xin lỗi mẹ!"
-	line "Con bị đánh bại!"
+	text "Sorry, Mom!"
+	line "I was beaten!"
 	done
 
 SchoolboyKippAfterBattleText:
-	text "Mẹ tôi lo cho tôi"
-	line "quá, nên tôi phải"
+	text "My mom worries so"
+	line "much about me, I"
 
-	para "gọi cho mẹ suốt"
-	line "ngày."
+	para "have to phone her"
+	line "all the time."
 	done
 
 SchoolboyTommySeenText:
-	text "Đấu nào."
-	line "Tôi sẽ không thua!"
+	text "Let's battle."
+	line "I won't lose!"
 	done
 
 SchoolboyTommyBeatenText:
-	text "Tôi quên làm bài"
-	line "tập về nhà!"
+	text "I forgot to do my"
+	line "homework!"
 	done
 
 SchoolboyTommyAfterBattleText:
-	text "Sayonara! Tôi vừa"
-	line "học từ đó trong"
-	cont "lớp tiếng Nhật."
+	text "Sayonara! I just"
+	line "learned that in my"
+	cont "Japanese class."
 	done
 
 SchoolboyJohnnySeenText:
-	text "Chúng tôi đang đi"
-	line "thực địa đến ĐÀI"
+	text "We're on a field"
+	line "trip to LAVENDER"
 
-	para "RADIO LAVENDER cho"
-	line "môn xã hội học."
+	para "RADIO TOWER for"
+	line "social studies."
 	done
 
 SchoolboyJohnnyBeatenText:
-	text "Bạn mạnh khủng"
-	line "khiếp luôn!"
+	text "You're wickedly"
+	line "tough!"
 	done
 
 SchoolboyJohnnyAfterBattleText:
-	text "Tôi mệt vì đi bộ."
-	line "Tôi cần nghỉ một"
-	cont "chút."
+	text "I'm tired of walk-"
+	line "ing. I need to"
+	cont "take a break."
 	done
 
 SchoolboyBillySeenText:
-	text "Môn yêu thích của"
-	line "tôi là thể dục!"
+	text "My favorite class"
+	line "is gym!"
 	done
 
 SchoolboyBillyBeatenText:
-	text "Ôi không!"
-	line "Sao tôi lại thua?"
+	text "Oh, no!"
+	line "How could I lose?"
 	done
 
 SchoolboyBillyAfterBattleText:
-	text "Nếu #MON là môn"
-	line "học ở trường, tôi"
-	cont "sẽ giỏi nhất!"
+	text "If #MON were a"
+	line "subject at school,"
+	cont "I'd be the best!"
 	done
 
 Route15SignText:
-	text "TUYẾN ĐƯỜNG 15"
+	text "ROUTE 15"
 
-	para "TP. FUCHSIA -"
-	line "TRẤN LAVENDER"
+	para "FUCHSIA CITY -"
+	line "LAVENDER TOWN"
 	done
 
 Route15_MapEvents:

@@ -1,75 +1,73 @@
 VanceAskNumber1Text:
-	text "Cậu biết đấy, cậu"
-	line "thật sự mạnh."
+	text "You know, you are"
+	line "really strong."
 
-	para "Nhưng tớ không"
-	line "muốn bỏ đi…"
+	para "But I don't want"
+	line "to just slink off…"
 
-	para "Tớ biết rồi! Cho"
-	line "tớ SĐT cậu nhé?"
+	para "I know! Could I"
+	line "get your number?"
 
-	para "Hãy gặp nhau để"
-	line "đấu nhiều hơn!"
+	para "Let's meet up for"
+	line "more battles!"
 	done
 
 VanceAskNumber2Text:
-	text "Tớ muốn đấu với"
-	line "HLV mạnh càng"
-	cont "thường xuyên càng"
-	cont "tốt!"
+	text "I want to battle"
+	line "tough trainers as"
+	cont "often as I can!"
 
-	para "Cho tớ SĐT cậu"
-	line "được không?"
+	para "Could I get your"
+	line "number?"
 
-	para "Hãy gặp nhau để"
-	line "đấu nhiều hơn!"
+	para "Let's meet up for"
+	line "more battles!"
 	done
 
 VanceNumberAcceptedText:
-	text "Đừng quên đến gặp"
-	line "tớ khi tớ thách"
-	cont "đấu cậu!"
+	text "Don't forget to"
+	line "come see me when I"
+	cont "challenge you!"
 	done
 
 VanceNumberDeclinedText:
-	text "Bạn dùng #MON"
-	line "chim không phải"
-	cont "điều tệ…"
+	text "A bird-user friend"
+	line "isn't a bad thing"
+	cont "to have, I think…"
 
-	para "Cậu không thể"
-	line "suy nghĩ lại sao?"
+	para "Won't you"
+	line "reconsider?"
 	done
 
 VancePhoneFullText:
-	text "Điện thoại cậu hết"
-	line "bộ nhớ rồi. Xóa"
-	cont "một số cho tớ!"
+	text "Your phone's out"
+	line "of memory. Delete"
+	cont "a number for me!"
 	done
 
 VanceRematchText:
-	text "Vui thế khi gặp"
-	line "cậu! Tớ ko thua!"
+	text "Am I happy to see"
+	line "you! I won't lose!"
 	done
 
 VancePackFullText:
-	text "Ồ, tiếc quá. Cậu"
-	line "không có chỗ."
+	text "Oh, too bad. You"
+	line "don't have room."
 
-	para "Tớ sẽ cho cậu lần"
-	line "sau!"
+	para "I'll give it to"
+	line "you next time!"
 	done
 
 VanceRematchGiftText:
-	text "Cậu thật sự, thật"
-	line "sự mạnh!"
+	text "You are really,"
+	line "really strong!"
 
-	para "Cảm ơn vì đã đấu"
-	line "với tớ thường"
+	para "Thanks for taking"
+	line "me on so often--I"
 
-	para "xuyên--tớ học được"
-	line "rất nhiều từ cậu."
+	para "learned a whole"
+	line "lot from you."
 
-	para "Tớ biết rồi! Đây"
-	line "sẽ là lời cảm ơn"
-	cont "của tớ!"
+	para "I know! This will"
+	line "do as my thanks!"
 	done

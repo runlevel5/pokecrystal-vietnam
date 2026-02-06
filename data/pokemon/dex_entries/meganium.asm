@@ -1,10 +1,10 @@
-	db "THẢO MỘC@" ; species name
-	dw 18, 1005 ; height, weight
+	db "HERB@" ; species name
+	dw 511, 2220 ; height, weight
 
-	db   "Ai đứng cạnh nó"
-	next "đều cảm thấy sảng"
-	next "khoái, như đang"
+	db   "Anyone who stands"
+	next "beside it becomes"
+	next "refreshed, just as"
 
-	page "thư giãn trong"
-	next "rừng đầy nắng.@"
-	next "@"
+	page "if they were"
+	next "relaxing in a"
+	next "sunny forest.@"

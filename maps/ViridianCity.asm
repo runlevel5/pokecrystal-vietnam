@@ -86,133 +86,131 @@ ViridianCityMartSign:
 	jumpstd MartSignScript
 
 ViridianCityCoffeeGrampsQuestionText:
-	text "Này, nhóc! Tôi"
-	line "vừa uống hai ly"
-	cont "cà phê đậm,"
+	text "Hey, kid! I just"
+	line "had a double shot"
 
-	para "và tôi đang phấn"
-	line "khích đây!"
+	para "of espresso, and"
+	line "I am wired!"
 
-	para "Tôi cần nói với"
-	line "ai đó, nên cậu"
-	cont "phải nghe vậy!"
+	para "I need to talk to"
+	line "someone, so you'll"
+	cont "have to do!"
 
-	para "Tôi trông không"
-	line "bảnh bây giờ,"
+	para "I might not look"
+	line "like much now, but"
 
-	para "nhưng tôi từng là"
-	line "chuyên gia bắt"
-	cont "#MON đấy."
+	para "I was an expert at"
+	line "catching #MON."
 
-	para "Cậu có tin không?"
+	para "Do you believe me?"
 	done
 
 ViridianCityCoffeeGrampsBelievedText:
-	text "Tốt, tốt. Phải,"
-	line "tôi từng là người"
+	text "Good, good. Yes, I"
+	line "was something out"
 
-	para "phi thường, để"
-	line "tôi kể cho nghe!"
+	para "of the ordinary,"
+	line "let me tell you!"
 	done
 
 ViridianCityCoffeeGrampsDoubtedText:
-	text "Cái gì? Đồ nhóc"
-	line "con này!"
+	text "What? You little"
+	line "whelp!"
 
-	para "Nếu tôi trẻ hơn"
-	line "chút, tôi sẽ cho"
+	para "If I were just a"
+	line "bit younger, I'd"
 
-	para "cậu thấy một vài"
-	line "điều. Hừ!"
+	para "show you a thing"
+	line "or two. Humph!"
 	done
 
 ViridianCityGrampsNearGymText:
-	text "GYM này không có"
-	line "TRƯỞNG cho đến"
-	cont "gần đây."
+	text "This GYM didn't"
+	line "have a LEADER"
+	cont "until recently."
 
-	para "Một thanh niên từ"
-	line "PALLET trở thành"
+	para "A young man from"
+	line "PALLET became the"
 
-	para "TRƯỞNG, nhưng anh"
-	line "ấy hay vắng mặt."
+	para "LEADER, but he's"
+	line "often away."
 	done
 
 ViridianCityGrampsNearGymBlueReturnedText:
-	text "Cậu sắp đấu với"
-	line "TRƯỞNG GYM sao?"
+	text "Are you going to"
+	line "battle the LEADER?"
 
-	para "Chúc cậu may mắn."
-	line "Cậu sẽ cần đấy."
+	para "Good luck to you."
+	line "You'll need it."
 	done
 
 ViridianCityDreamEaterFisherText:
-	text "Ngáp!"
+	text "Yawn!"
 
-	para "Chắc tôi ngủ gật"
-	line "dưới nắng mất."
+	para "I must have dozed"
+	line "off in the sun."
 
-	para "…Tôi mơ thấy"
-	line "DROWZEE ăn giấc"
+	para "…I had this dream"
+	line "about a DROWZEE"
 
-	para "mơ của tôi."
-	line "Lạ nhỉ?"
+	para "eating my dream."
+	line "Weird, huh?"
 
-	para "Hả?"
-	line "Cái gì đây?"
+	para "Huh?"
+	line "What's this?"
 
-	para "TM này từ đâu"
-	line "ra vậy?"
+	para "Where did this TM"
+	line "come from?"
 
-	para "Ma quái quá!"
-	line "Đây, cậu có thể"
-	cont "có TM này."
+	para "This is spooky!"
+	line "Here, you can have"
+	cont "this TM."
 	done
 
 ViridianCityDreamEaterFisherGotDreamEaterText:
-	text "TM42 chứa"
-	line "ĂN MỘNG…"
+	text "TM42 contains"
+	line "DREAM EATER…"
 
 	para "…Zzzzz…"
 	done
 
 ViridianCityYoungsterText:
-	text "Tôi nghe có nhiều"
-	line "vật phẩm rơi trên"
+	text "I heard that there"
+	line "are many items on"
 
-	para "mặt đất trong"
-	line "RỪNG VIRIDIAN."
+	para "the ground in"
+	line "VIRIDIAN FOREST."
 	done
 
 ViridianCitySignText:
-	text "THÀNH PHỐ VIRIDIAN"
+	text "VIRIDIAN CITY"
 
-	para "Thiên Đường Xanh"
-	line "Mãi Mãi"
+	para "The Eternally"
+	line "Green Paradise"
 	done
 
 ViridianGymSignText:
-	text "TP. VIRIDIAN"
-	line "GYM #MON"
-	cont "TRƯỞNG: …"
+	text "VIRIDIAN CITY"
+	line "#MON GYM"
+	cont "LEADER: …"
 
-	para "Phần còn lại của"
-	line "chữ không rõ được"
+	para "The rest of the"
+	line "text is illegible…"
 	done
 
 ViridianCityWelcomeSignText:
-	text "CHÀO MỪNG ĐẾN"
-	line "TP. VIRIDIAN,"
+	text "WELCOME TO"
+	line "VIRIDIAN CITY,"
 
-	para "CỔNG VÀO"
-	line "CAO NGUYÊN INDIGO"
+	para "THE GATEWAY TO"
+	line "INDIGO PLATEAU"
 	done
 
 TrainerHouseSignText:
-	text "NHÀ HLV"
+	text "TRAINER HOUSE"
 
-	para "CLB Đấu Cho"
-	line "HLV Hàng Đầu"
+	para "The Club for Top"
+	line "Trainer Battles"
 	done
 
 ViridianCity_MapEvents:

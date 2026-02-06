@@ -1,10 +1,10 @@
-	db "RÍT@" ; species name
-	dw 7, 10 ; height, weight
+	db "SCREECH@" ; species name
+	dw 204, 20 ; height, weight
 
-	db   "Nó thích xem"
-	next "người bị nó dọa."
-	next "Nó dọa họ bằng"
+	db   "It loves to watch"
+	next "people it's scar-"
+	next "ed. It frightens"
 
-	page "cách hét to hoặc"
-	next "xuất hiện"
-	next "bất ngờ.@"
+	page "them by screaming"
+	next "loudly or appear-"
+	next "ing suddenly.@"

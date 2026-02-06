@@ -19,7 +19,7 @@ PewterNidoran:
 	end
 
 PewterNidoranSpeechHouseSuperNerdText:
-	text "NIDORAN, bắt tay!"
+	text "NIDORAN, shake!"
 	done
 
 PewterNidoranText:

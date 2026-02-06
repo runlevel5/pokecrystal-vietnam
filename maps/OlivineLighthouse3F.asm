@@ -46,68 +46,68 @@ OlivineLighthouse3FEther:
 	itemball ETHER
 
 BirdKeeperTheoSeenText:
-	text "Sao bạn ở đây?"
-	line "Chỉ để nhìn thôi"
+	text "Why are you here?"
+	line "Are you just going"
 
-	para "à? Tôi khuyên bạn"
-	line "nên ra về!"
+	para "to gawk? I suggest"
+	line "that you leave!"
 	done
 
 BirdKeeperTheoBeatenText:
-	text "Bạn thật sự lo"
-	line "lắng…"
+	text "You really are"
+	line "concerned…"
 	done
 
 BirdKeeperTheoAfterBattleText:
-	text "Làm sao để lên"
-	line "trên được nhỉ?"
+	text "How the heck do"
+	line "you go up?"
 
-	para "Tôi muốn thăm"
-	line "#MON bị ốm,"
+	para "I want to visit"
+	line "the sick #MON,"
 
-	para "nhưng không thể"
-	line "lên đó…"
+	para "but I can't get up"
+	line "there…"
 	done
 
 SailorTerrellSeenText:
-	text "Thủy thủ vừa tốt"
-	line "bụng vừa mạnh mẽ."
-	cont "Còn bạn thì sao?"
+	text "Sailors are both"
+	line "kind and strong."
+	cont "How about you?"
 	done
 
 SailorTerrellBeatenText:
-	text "Bạn vừa tốt bụng"
-	line "vừa mạnh mẽ…"
+	text "You are both kind"
+	line "and strong…"
 	done
 
 SailorTerrellAfterBattleText:
-	text "Mỗi lần về đến"
-	line "OLIVINE, tôi đều"
-	cont "ghé GYM."
+	text "Every time I come"
+	line "back to OLIVINE, I"
+	cont "visit the GYM."
 
-	para "Hệ #MON của"
-	line "T.LĨNH GYM đã"
+	para "The GYM LEADER's"
+	line "#MON type has"
 
-	para "thay đổi mà tôi"
-	line "không để ý."
+	para "changed without me"
+	line "noticing."
 	done
 
 GentlemanPrestonSeenText:
-	text "Tôi đi khắp thế"
-	line "giới để rèn #-"
-	cont "MON. Tôi muốn đấu"
-	cont "với bạn."
+	text "I travel the world"
+	line "to train my #-"
+	cont "MON. I wish to"
+	cont "battle with you."
 	done
 
 GentlemanPrestonBeatenText:
-	text "…thở dài… Tôi phải"
-	line "luyện tập thêm…"
+	text "…sigh… I must"
+	line "train some more…"
 	done
 
 GentlemanPrestonAfterBattleText:
-	text "JASMINE từng dùng"
-	line "#MON SỎI ĐÁ như"
-	cont "ONIX."
+	text "JASMINE used to"
+	line "use rock #MON"
+	cont "like ONIX."
 	done
 
 OlivineLighthouse3F_MapEvents:

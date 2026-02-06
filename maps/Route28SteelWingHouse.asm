@@ -42,26 +42,26 @@ CelebrityHouseBookshelf:
 	jumpstd MagazineBookshelfScript
 
 CelebrityText1:
-	text "Ôi trời."
-	line "Bạn đã tìm ra tôi."
+	text "Oh, dear."
+	line "You've found me."
 
-	para "Xin đừng nói với"
-	line "ai về tôi."
+	para "Please don't tell"
+	line "anyone about me."
 
-	para "Tôi sẽ cho bạn"
-	line "cái này để bạn"
-	cont "giữ bí mật nhé?"
+	para "I'll give you this"
+	line "for keeping my"
+	cont "secret. Please?"
 	done
 
 CelebrityText2:
-	text "Thật khó khi là"
-	line "người nổi tiếng."
+	text "It's tough being a"
+	line "top celebrity."
 
-	para "Đi đâu tôi cũng"
-	line "bị người ta đuổi."
+	para "Everywhere I go,"
+	line "people chase me."
 
-	para "Tôi chỉ muốn được"
-	line "yên thân thôi…"
+	para "I just want to be"
+	line "left alone…"
 	done
 
 CelebritysFearowText:

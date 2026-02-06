@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/phone/scripts/generic_callee.asm"
+else
+
 PhoneScript_Random2:
 	random 2
 	end
@@ -1255,9 +1259,11 @@ PhoneScript_MonFlavorText:
 	promptbutton
 	farsjump PhoneScript_HangUpText_Male
 
-GrandmaString: db "Bà@"
-GrandpaString: db "Ông@"
-MomString: db "Mẹ@"
-DadString: db "Bố@"
-SisterString: db "Chị@"
-BrotherString: db "Anh@"
+GrandmaString: db "Grandma@"
+GrandpaString: db "Grandpa@"
+MomString: db "Mom@"
+DadString: db "Dad@"
+SisterString: db "Sister@"
+BrotherString: db "Brother@"
+
+endc

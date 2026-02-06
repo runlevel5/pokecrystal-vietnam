@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/elevator.asm"
+else
+
 Elevator::
 	call .LoadPointer
 	call .FindCurrentFloor
@@ -161,7 +165,7 @@ Elevator_GetCurrentFloorText:
 	ret
 
 Elevator_CurrentFloorText:
-	db "Tầng:@"
+	db "Now on:@"
 
 Elevator_GetCurrentFloorString:
 	push hl
@@ -214,3 +218,5 @@ FloorToString:
 	ret
 
 INCLUDE "data/events/elevator_floors.asm"
+
+endc

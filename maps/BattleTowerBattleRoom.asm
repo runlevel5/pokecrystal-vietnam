@@ -133,8 +133,8 @@ Script_ChallengeCanceled: ; unreferenced
 	end
 
 Text_ReturnedAfterSave_Mobile: ; unreferenced
-	text "Bạn sẽ được đưa về"
-	line "sau khi LƯU."
+	text "You'll be returned"
+	line "after you SAVE."
 	done
 
 BattleTowerBattleRoom_MapEvents:

@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/diploma.asm"
+else
+
 _Diploma:
 	call PlaceDiplomaOnScreen
 	call WaitPressAorB_BlinkCursor
@@ -36,16 +40,17 @@ PlaceDiplomaOnScreen:
 	ret
 
 .Player:
-	db "NGƯỜI CHƠI@"
+	db "PLAYER@"
 
 .EmptyString:
 	db "@"
 
 .Certification:
-	db   "Chứng nhận rằng"
-	next "bạn đã hoàn thành"
-	next "#DEX mới."
-	next "Chúc mừng!"
+	db   "This certifies"
+	next "that you have"
+	next "completed the"
+	next "new #DEX."
+	next "Congratulations!"
 	db   "@"
 
 PrintDiplomaPage2:
@@ -74,7 +79,7 @@ PrintDiplomaPage2:
 	call PrintNum
 	ret
 
-.PlayTime: db "THỜI GIAN@"
+.PlayTime: db "PLAY TIME@"
 .GameFreak: db "GAME FREAK@"
 
 DiplomaGFX:
@@ -88,3 +93,5 @@ INCBIN "gfx/diploma/page2.tilemap"
 
 Diploma_DummyFunction: ; unreferenced
 	ret
+
+endc

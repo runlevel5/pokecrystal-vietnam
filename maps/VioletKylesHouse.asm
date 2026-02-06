@@ -19,15 +19,15 @@ Kyle:
 	end
 
 VioletKylesHousePokefanMText:
-	text "#MON bạn nhận"
-	line "từ trao đổi sẽ"
-	cont "lớn nhanh."
+	text "A #MON you get"
+	line "in a trade grows"
+	cont "quickly."
 
-	para "Nhưng nếu không"
-	line "có HUY HIỆU GYM"
+	para "But if you don't"
+	line "have the right GYM"
 
-	para "phù hợp, chúng có"
-	line "thể không nghe."
+	para "BADGE, they may"
+	line "disobey you."
 	done
 
 VioletKylesHouse_MapEvents:

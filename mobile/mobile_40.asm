@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/mobile/mobile_40.asm"
+else
+
 Function100000:
 ; d: 1 or 2
 ; e: bank
@@ -6520,7 +6524,7 @@ Function102e3e:
 	ret
 
 .CancelString:
-	db "HỦY@"
+	db "CANCEL@"
 
 Function102e4f:
 	farcall LoadMobileTradeBorderTilemap
@@ -7685,3 +7689,5 @@ Function10387b:
 MobileBattleRemainingTimeText:
 	text_far _MobileBattleRemainingTimeText
 	text_end
+
+endc

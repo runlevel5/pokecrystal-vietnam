@@ -1,67 +1,67 @@
 TullyAnswerPhoneText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Ồ, chào buổi sáng"
+	para "Oh, Good morning,"
 	line "<PLAY_G>."
 	done
 
 TullyAnswerPhoneDayText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Giọng đó…"
-	line "<PLAY_G>, đúng ko?"
+	para "That voice…"
+	line "<PLAY_G>, right?"
 	done
 
 TullyAnswerPhoneNiteText:
-	text "Xin chào, đây là"
+	text "Hello, this is"
 	line "@"
 	text_ram wStringBuffer3
 	text "…"
 
-	para "Chắc là"
+	para "This must be"
 	line "<PLAY_G>!"
 	done
 
 TullyGreetText:
-	text "Xin chào!"
+	text "Hello!"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây…"
+	text " here…"
 
-	para "Chào buổi sáng!"
-	line "Thời tiết tuyệt!"
+	para "Good morning! The"
+	line "weather's great!"
 	done
 
 TullyGreetDayText:
-	text "Xin chào!"
+	text "Hello!"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây…"
+	text " here…"
 
-	para "Ngày hoàn hảo"
-	line "để câu cá!"
+	para "What a perfect day"
+	line "for fishing!"
 	done
 
 TullyGreetNiteText:
-	text "Xin chào!"
+	text "Hello!"
 	line "@"
 	text_ram wStringBuffer3
-	text " đây…"
+	text " here…"
 
-	para "Đêm tuyệt vời"
-	line "để câu cá!"
+	para "It's a great night"
+	line "for fishing!"
 	done
 
 TullyGenericText:
-	text "Chuyến đi của"
-	line "cậu thế nào?"
+	text "How's your trip"
+	line "coming along?"
 
-	para "Tớ không phàn nàn"
-	line "gì về câu cá!"
+	para "I can't complain"
+	line "about my fishing!"
 	done

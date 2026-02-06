@@ -132,148 +132,153 @@ Route41HiddenMaxEther:
 	hiddenitem MAX_ETHER, EVENT_ROUTE_41_HIDDEN_MAX_ETHER
 
 SwimmermCharlieSeenText:
-	text "Nước ở đây ấm. Tôi"
-	line "thả lỏng và linh"
-	cont "hoạt."
+	text "The water's warm"
+	line "here. I'm loose"
+	cont "and limber."
 
-	para "Chắc chắn, tôi sẽ"
-	line "đấu với bạn!"
+	para "Sure, I'll take"
+	line "you on!"
 	done
 
 SwimmermCharlieBeatenText:
-	text "Yikes! Da tôi nhăn"
-	line "nhúm rồi!"
+	text "Yikes! I've got"
+	line "prune skin!"
 	done
 
 SwimmermCharlieAfterBattleText:
-	text "Nổi như thế này có"
-	line "thư giãn không?"
+	text "Isn't it relaxing"
+	line "just floating like"
+	cont "this?"
 	done
 
 SwimmermGeorgeSeenText:
-	text "Tôi hơi mệt. Nếu"
-	line "tôi thắng, cho tôi"
-	cont "mượn #MON."
+	text "I'm a bit tired."
+	line "If I win, lend me"
+	cont "your #MON."
 	done
 
 SwimmermGeorgeBeatenText:
-	text "Hổn hển, hổn…"
+	text "Pant, pant…"
 	done
 
 SwimmermGeorgeAfterBattleText:
-	text "CIANWOOD quá xa."
+	text "It's so far to"
+	line "CIANWOOD."
 
-	para "Nhưng quay về"
-	line "OLIVINE cũng không"
-	cont "dễ."
+	para "But it's no easy"
+	line "return trip to"
+	cont "OLIVINE either."
 
-	para "Tôi nên làm sao?"
+	para "What should I do?"
 	done
 
 SwimmermBerkeSeenText:
-	text "Thấy những hòn đảo"
-	line "bị chặn bởi xoáy"
-	cont "nước không?"
+	text "See those islands"
+	line "that are blocked"
+	cont "by whirlpools?"
 
-	para "Chắc chắn phải có"
-	line "bí mật!"
+	para "There just has to"
+	line "be a secret!"
 	done
 
 SwimmermBerkeBeatenText:
-	text "Bí mật sức mạnh"
-	line "của bạn là gì?"
+	text "What's the secret"
+	line "to your strength?"
 	done
 
 SwimmermBerkeAfterBattleText:
-	text "Đó là một đêm tối"
-	line "và có bão…"
+	text "It was a dark and"
+	line "stormy night…"
 
-	para "Tôi thấy #MON"
-	line "khổng lồ bay từ"
-	cont "đảo ra."
+	para "I saw this giant"
+	line "#MON flying"
+	cont "from the islands."
 
-	para "Nó rải lông vũ từ"
-	line "đôi cánh bạc."
+	para "It was scattering"
+	line "feathers from its"
+	cont "silver wings."
 	done
 
 SwimmermKirkSeenText:
-	text "Sóng ở đây hung dữ"
+	text "The waves are wild"
+	line "here."
 
-	para "Chúng làm bạn mệt"
-	line "khi bơi."
+	para "They tire you out"
+	line "while you swim."
 	done
 
 SwimmermKirkBeatenText:
-	text "Tôi kiệt sức!"
+	text "I'm beat!"
 	done
 
 SwimmermKirkAfterBattleText:
-	text "Dòng chảy ngăn tôi"
-	line "đến đảo kia."
+	text "The currents keep"
+	line "me from reaching"
+	cont "that island."
 	done
 
 SwimmermMathewSeenText:
-	text "Bạn đang tìm kiếm"
-	line "bí mật của ĐẢO"
-	cont "XOÁY NƯỚC?"
+	text "Are you seeking"
+	line "the secrets of"
+	cont "WHIRL ISLANDS?"
 	done
 
 SwimmermMathewBeatenText:
-	text "Ooh, bạn có sức"
-	line "bền tuyệt vời!"
+	text "Ooh, you've got"
+	line "great endurance!"
 	done
 
 SwimmermMathewAfterBattleText:
-	text "Bí mật về ĐẢO"
-	line "XOÁY NƯỚC…"
+	text "A secret about"
+	line "WHIRL ISLANDS…"
 
-	para "Bên trong tối mù"
-	line "mịt!"
+	para "It's pitch-black"
+	line "inside!"
 	done
 
 SwimmerfKayleeSeenText:
-	text "Tôi đang trên"
-	line "đường đến ĐẢO"
-	cont "XOÁY NƯỚC."
+	text "I'm on my way to"
+	line "WHIRL ISLANDS."
 
-	para "Tôi đi khám phá"
-	line "với bạn bè."
+	para "I'm going explor-"
+	line "ing with friends."
 	done
 
 SwimmerfKayleeBeatenText:
-	text "Bạn làm thế à?"
+	text "Is that how you do"
+	line "it?"
 	done
 
 SwimmerfKayleeAfterBattleText:
-	text "Nghe nói có #-"
-	line "MON lớn ở sâu"
-	cont "dưới Q.ĐẢO NƯỚC"
-	cont "XOÁY."
+	text "There's supposed"
+	line "to be a big #-"
+	cont "MON deep beneath"
+	cont "WHIRL ISLANDS."
 
-	para "Tôi tò mò nó là"
-	line "gì?"
+	para "I wonder what it"
+	line "could be?"
 	done
 
 SwimmerfSusieSeenText:
-	text "Bạn trông thanh"
-	line "lịch, cưỡi #MON"
-	cont "như vậy."
+	text "You look so ele-"
+	line "gant, riding your"
+	cont "#MON."
 	done
 
 SwimmerfSusieBeatenText:
-	text "Tôi bị nghiền…"
+	text "I'm crushed…"
 	done
 
 SwimmerfSusieAfterBattleText:
-	text "Có bài hát hit về"
-	line "cậu bé cưỡi"
-	cont "LAPRAS phải không?"
+	text "Wasn't there a hit"
+	line "song about a boy"
+	cont "riding a LAPRAS?"
 	done
 
 SwimmerfDeniseSeenText:
-	text "Thời tiết đẹp quá,"
-	line "tôi như bị mê"
-	cont "mẩn!"
+	text "The weather is so"
+	line "beautiful, I'm in"
+	cont "a daze!"
 	done
 
 SwimmerfDeniseBeatenText:
@@ -281,55 +286,56 @@ SwimmerfDeniseBeatenText:
 	done
 
 SwimmerfDeniseAfterBattleText:
-	text "Cháy nắng là tệ"
-	line "nhất cho da."
+	text "A sunburn is the"
+	line "worst for skin."
 
-	para "Nhưng tôi không"
-	line "dùng kem chống"
-	cont "nắng."
+	para "But I don't use a"
+	line "sunblock."
 
-	para "Tôi không muốn"
-	line "làm ô nhiễm nước."
+	para "I won't pollute"
+	line "the water."
 	done
 
 SwimmerfKaraSeenText:
-	text "Nếu cần nghỉ, chỉ"
-	line "cần lặn nước."
+	text "If you need to"
+	line "rest, just tread"
+	cont "water."
 
-	para "Bạn sẽ lấy lại"
-	line "hơi, vì vậy bạn"
+	para "You'll get your"
+	line "wind back, so you"
 
-	para "có thể tiếp tục"
-	line "mạnh mẽ."
+	para "can keep on going"
+	line "strong."
 	done
 
 SwimmerfKaraBeatenText:
-	text "Oh! Bạn nhiều năng"
-	line "lượng hơn tôi."
+	text "Oh! You have more"
+	line "energy than I do."
 	done
 
 SwimmerfKaraAfterBattleText:
-	text "Tôi nghe tiếng gầm"
-	line "từ sâu bên trong"
-	cont "ĐẢO."
+	text "I heard roars from"
+	line "deep inside the"
+	cont "ISLANDS."
 	done
 
 SwimmerfWendySeenText:
-	text "Ban đêm, STARYU"
-	line "tụ họp gần mặt"
-	cont "nước."
+	text "At night, STARYU"
+	line "gather near the"
+	cont "water's surface."
 	done
 
 SwimmerfWendyBeatenText:
-	text "Oh, trời…"
+	text "Oh, dear…"
 	done
 
 SwimmerfWendyAfterBattleText:
-	text "Cụm STARYU sáng"
-	line "lên cùng lúc."
+	text "The clusters of"
+	line "STARYU light up"
+	cont "at the same time."
 
-	para "Nó đẹp đến mức"
-	line "đáng sợ."
+	para "It's so beautiful,"
+	line "it's scary."
 	done
 
 Route41_MapEvents:

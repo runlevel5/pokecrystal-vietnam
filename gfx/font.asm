@@ -2,10 +2,18 @@ FontExtra:
 INCBIN "gfx/font/font_extra.2bpp"
 
 Font:
+if DEF(_CRYSTAL_VN)
+INCBIN "versions/crystal-vn/gfx/font/font.1bpp"
+else
 INCBIN "gfx/font/font.1bpp"
+endc
 
 FontBattleExtra:
+if DEF(_CRYSTAL_VN)
+INCBIN "versions/crystal-vn/gfx/font/font_battle_extra.2bpp"
+else
 INCBIN "gfx/font/font_battle_extra.2bpp"
+endc
 
 Frames:
 	table_width TEXTBOX_FRAME_TILES * TILE_1BPP_SIZE

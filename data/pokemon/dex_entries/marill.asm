@@ -1,10 +1,10 @@
-	db "CHUỘT NƯỚC@" ; species name
-	dw 4, 85 ; height, weight
+	db "AQUAMOUSE@" ; species name
+	dw 104, 190 ; height, weight
 
-	db   "Lông của nó tự"
-	next "nhiên đẩy nước."
-	next "Nó có thể giữ"
+	db   "The fur on its"
+	next "body naturally"
+	next "repels water. It"
 
-	page "khô ngay cả khi"
-	next "chơi trong nước.@"
-	next "@"
+	page "can stay dry, even"
+	next "when it plays in"
+	next "the water.@"

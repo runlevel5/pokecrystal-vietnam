@@ -1,10 +1,10 @@
-	db "ĐẤM@" ; species name
-	dw 14, 502 ; height, weight
+	db "PUNCHING@" ; species name
+	dw 407, 1110 ; height, weight
 
-	db   "Để tăng sức mạnh"
-	next "các đòn đấm, nó"
-	next "xoay tay ngay"
+	db   "To increase the"
+	next "strength of all"
+	next "its punch moves,"
 
-	page "trước khi tiếp"
-	next "xúc.@"
-	next "@"
+	page "it spins its arms"
+	next "just before making"
+	next "contact.@"

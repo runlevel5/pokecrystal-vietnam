@@ -52,47 +52,47 @@ VictoryRoadGateStepDownMovement:
 	step_end
 
 VictoryRoadGateOfficerText:
-	text "Chỉ HLV đã chứng"
-	line "minh được bản thân"
-	cont "mới được qua."
+	text "Only trainers who"
+	line "have proven them-"
+	cont "selves may pass."
 	done
 
 VictoryRoadGateNotEnoughBadgesText:
-	text "Bạn chưa có đủ"
-	line "huy hiệu GYM của"
+	text "You don't have all"
+	line "the GYM BADGES of"
 	cont "JOHTO."
 
-	para "Tôi xin lỗi, nhưng"
-	line "tôi không thể cho"
-	cont "bạn qua."
+	para "I'm sorry, but I"
+	line "can't let you go"
+	cont "through."
 	done
 
 VictoryRoadGateEightBadgesText:
-	text "Ồ! Tám huy hiệu"
-	line "của JOHTO!"
+	text "Oh! The eight"
+	line "BADGES of JOHTO!"
 
-	para "Xin mời, đi thẳng"
-	line "vào đi!"
+	para "Please, go right"
+	line "on through!"
 	done
 
 VictoryRoadGateLeftBlackBeltText:
-	text "Đường này dẫn đến"
-	line "HANG NÚI BẠC."
+	text "This way leads to"
+	line "MT.SILVER."
 
-	para "Bạn sẽ thấy những"
-	line "#MON cực mạnh ở"
-	cont "ngoài đó."
+	para "You'll see scary-"
+	line "strong #MON out"
+	cont "there."
 	done
 
 VictoryRoadGateRightBlackBeltText:
-	text "Đi tới LIÊN ĐOÀN"
-	line "#MON à?"
+	text "Off to the #MON"
+	line "LEAGUE, are you?"
 
-	para "BỐN V.ĐỊCH rất"
-	line "mạnh đến đáng sợ,"
+	para "The ELITE FOUR are"
+	line "so strong it's"
 
-	para "và họ đã sẵn sàng"
-	line "đón bạn!"
+	para "scary, and they're"
+	line "ready for you!"
 	done
 
 VictoryRoadGate_MapEvents:

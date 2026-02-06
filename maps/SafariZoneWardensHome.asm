@@ -32,48 +32,46 @@ WardensHomeBookshelf:
 	jumpstd PictureBookshelfScript
 
 WardensGranddaughterText1:
-	text "Ông nội tôi là"
-	line "QUẢN LÝ SAFARI"
-	cont "ZONE."
+	text "My grandpa is the"
+	line "SAFARI ZONE WAR-"
+	cont "DEN."
 
-	para "Ít nhất là trước"
-	line "đây…"
+	para "At least he was…"
 
-	para "Ông quyết định đi"
-	line "nghỉ mát và tự"
+	para "He decided to go"
+	line "on a vacation and"
 
-	para "bản thân bay ra"
-	line "nước ngoài."
+	para "took off overseas"
+	line "all by himself."
 
-	para "Ông bỏ quản lý"
-	line "KHU SAFARI ngay"
-	cont "như vậy luôn."
+	para "He quit running"
+	line "SAFARI ZONE just"
+	cont "like that."
 	done
 
 WardensGranddaughterText2:
-	text "Nhiều người thất"
-	line "vọng vì KHU"
+	text "Many people were"
+	line "disappointed that"
 
-	para "SAFARI đóng cửa,"
-	line "nhưng Ông nội"
-	cont "rất bướng bỉnh…"
+	para "SAFARI ZONE closed"
+	line "down, but Grandpa"
+	cont "is so stubborn…"
 	done
 
 WardenPhotoText:
-	text "Đây là ảnh của"
-	line "một ông cụ đang"
+	text "It's a photo of a"
+	line "grinning old man"
 
-	para "cười tươi được"
-	line "#MON bao vây."
+	para "who's surrounded"
+	line "by #MON."
 	done
 
 SafariZonePhotoText:
-	text "Đây là ảnh của"
-	line "một đồng cỏ khổng"
+	text "It's a photo of a"
+	line "huge grassy plain"
 
-	para "lồ với #MON"
-	line "hiếm đang vui chơi"
-	cont "trong đó."
+	para "with rare #MON"
+	line "frolicking in it."
 	done
 
 SafariZoneWardensHome_MapEvents:

@@ -10,7 +10,11 @@ LoadOverworldFont::
 	ret
 
 .OverworldFontGFX:
+if DEF(_CRYSTAL_VN)
+INCBIN "versions/crystal-vn/gfx/font/overworld.2bpp"
+else
 INCBIN "gfx/font/overworld.2bpp"
+endc
 
 .OverworldFontSpaceGFX:
 INCBIN "gfx/font/overworld_space.2bpp"

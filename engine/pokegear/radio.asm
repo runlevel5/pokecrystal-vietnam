@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokegear/radio.asm"
+else
+
 PlayRadioShow:
 ; If we're already in the radio program proper, we don't need to be here.
 	ld a, [wCurRadioLine]
@@ -583,7 +587,7 @@ OaksPKMNTalk12:
 	jp PlaceRadioString
 
 .pokemon_channel_string
-	db "Kênh #MON@"
+	db "#MON Channel@"
 
 OaksPKMNTalk13:
 	ld hl, wRadioTextDelay
@@ -1818,3 +1822,5 @@ NextRadioLine:
 	call CopyRadioTextToRAM
 	pop af
 	jp PrintRadioLine
+
+endc

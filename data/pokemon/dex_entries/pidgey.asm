@@ -1,10 +1,10 @@
-	db "CHIM NHỎ@" ; species name
-	dw 3, 18 ; height, weight
+	db "TINY BIRD@" ; species name
+	dw 100, 40 ; height, weight
 
-	db   "Nó vỗ cánh nhanh"
-	next "trong cỏ, tạo ra"
-	next "đám bụi để đuổi"
+	db   "It rapidly flaps"
+	next "its wings in the"
+	next "grass, stirring up"
 
-	page "côn trùng ra"
-	next "ngoài.@"
-	next "@"
+	page "a dust cloud that"
+	next "drives insect prey"
+	next "out into the open.@"

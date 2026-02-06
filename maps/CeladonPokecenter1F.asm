@@ -71,70 +71,76 @@ CeladonEusine:
 	step_end
 
 CeladonPokecenter1FCooltrainerFText:
-	text "ERIKA là bậc thầy"
-	line "#MON CỎ."
+	text "ERIKA is a master"
+	line "of grass #MON."
 
-	para "Cô ấy sẽ làm bạn"
-	line "trả giá nếu không"
-	cont "cẩn thận."
+	para "She'll make you"
+	line "pay if you don't"
+	cont "watch yourself."
 	done
 
 CeladonPokecenter1FPharmacistText:
-	text "Hang ĐỘI ROCKET"
-	line "ở tầng hầm"
+	text "TEAM ROCKET's"
+	line "hideout is in the"
 
-	para "GÓC GIẢI TRÍ."
+	para "basement of the"
+	line "GAME CORNER."
 
-	para "Ồ, chờ đã. Đó là"
-	line "ba năm trước."
+	para "Oh, wait. That was"
+	line "three years ago."
 	done
 
 CeladonEusineText1:
-	text "EUSINE: Chào!"
+	text "EUSINE: Hi!"
 
-	para "Tôi đang thăm lại"
-	line "quê hương."
+	para "I'm back visiting"
+	line "my hometown."
 
-	para "Đã lâu rồi."
+	para "It's been quite a"
+	line "while."
 	done
 
 EusineLeavesCeladonText:
-	text "<PLAYER>, bạn đã"
-	line "nghe chưa?"
+	text "<PLAYER>, have you"
+	line "heard?"
 
-	para "Có tin đồn mới về"
-	line "#MON màu cầu"
+	para "There have been"
+	line "fresh rumors of a"
 
-	para "vồng xuất hiện ở"
-	line "THÁP THIẾC."
+	para "rainbow-colored"
+	line "#MON appearing"
+	cont "at TIN TOWER."
 
-	para "Tôi vừa chữa lành"
-	line "đội hình, giờ tôi"
+	para "I've just had my"
+	line "party healed, so"
 
-	para "sẽ đến ECRUTEAK."
+	para "now I'm headed to"
+	line "ECRUTEAK."
 
-	para "Hẹn gặp lại,"
-	line "<PLAYER>!"
+	para "I'll be seeing"
+	line "you, <PLAYER>!"
 	done
 
 NoBeastsText:
-	text "À này, <PLAYER>."
+	text "Oh, by the way,"
+	line "<PLAYER>."
 
-	para "Bạn đã bắt #MON"
-	line "huyền thoại RAIKOU"
+	para "Have you caught"
+	line "the legendary"
 
-	para "và ENTEI chưa?"
+	para "#MON RAIKOU and"
+	line "ENTEI?"
 
 	para "<……><……><……>"
 
-	para "Được rồi…"
+	para "Okay…"
 
-	para "Nếu bắt được con"
-	line "nào, mong bạn báo"
-	cont "tôi nhé."
+	para "If you catch even"
+	line "one, I hope that"
+	cont "you'll inform me."
 
-	para "Tôi trông cậy vào"
-	line "bạn, <PLAYER>!"
+	para "I'm counting on"
+	line "you, <PLAYER>!"
 	done
 
 CeladonPokecenter1F_MapEvents:

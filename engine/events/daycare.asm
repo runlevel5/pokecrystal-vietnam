@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/daycare.asm"
+else
+
 ; PrintDayCareText.TextTable indexes
 	const_def
 	const DAYCARETEXT_MAN_INTRO
@@ -721,4 +725,6 @@ DayCare_InitBreeding:
 	ret
 
 .String_EGG:
-	db "TRỨNG@"
+	db "EGG@"
+
+endc

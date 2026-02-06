@@ -18,31 +18,30 @@ Route32RuinsOfAlphGateYoungsterScript:
 	jumptextfaceplayer Route32RuinsOfAlphGateYoungsterText
 
 Route32RuinsOfAlphGateOfficerText:
-	text "TÀN TÍCH ALPH"
+	text "RUINS OF ALPH"
 
-	para "Địa Điểm Du Lịch"
-	line "Nhìn và Chạm"
+	para "A Look-and-Touch"
+	line "Tourist Site"
 
-	para "Hãy thử các tấm"
-	line "đá trượt!"
+	para "Try the sliding"
+	line "stone panels!"
 	done
 
 Route32RuinsOfAlphGatePokefanMText:
-	text "Bạn đang nghiên"
-	line "cứu RUINS à?"
+	text "You're studying"
+	line "the RUINS?"
 
-	para "Tôi thấy một nhà"
-	line "khoa học tương"
-	cont "lai đây."
+	para "I see a scientist"
+	line "in the making."
 	done
 
 Route32RuinsOfAlphGateYoungsterText:
-	text "Có hình vẽ trên"
-	line "các tấm đá."
+	text "There are drawings"
+	line "on stone panels."
 
-	para "Tôi thử di chuyển"
-	line "chúng. Không biết"
-	cont "chúng là gì."
+	para "I tried moving"
+	line "them. I wonder"
+	cont "what they are."
 	done
 
 Route32RuinsOfAlphGate_MapEvents:

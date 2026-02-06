@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/pokegear/pokegear.asm"
+else
+
 ; Pokégear cards
 	const_def
 	const POKEGEARCARD_CLOCK ; 0
@@ -320,7 +324,7 @@ InitPokegearTilemap:
 	ret
 
 .switch
-	db " ĐỔI▶@"
+	db " SWITCH▶@"
 
 .Map:
 	ld a, [wPokegearMapPlayerIconLandmark]
@@ -521,8 +525,8 @@ Pokegear_UpdateClock:
 	call PrintTextboxTextAt
 	ret
 
-	db "SA@"
-	db "CH@"
+	db "ごぜん@"
+	db "ごご@"
 
 .GearTodayText:
 	text_far _GearTodayText
@@ -1248,9 +1252,9 @@ PokegearPhoneContactSubmenu:
 .CallDeleteCancelStrings:
 	dwcoord 10, 6
 	db 3
-	db   "GỌI"
-	next "XOÁ"
-	next "HỦY"
+	db   "CALL"
+	next "DELETE"
+	next "CANCEL"
 	db   "@"
 
 .CallDeleteCancelJumptable:
@@ -1261,8 +1265,8 @@ PokegearPhoneContactSubmenu:
 .CallCancelStrings:
 	dwcoord 10, 8
 	db 2
-	db   "GỌI"
-	next "HỦY"
+	db   "CALL"
+	next "CANCEL"
 	db   "@"
 
 .CallCancelJumptable:
@@ -1610,7 +1614,7 @@ LoadStation_BuenasPassword:
 	ld de, BuenasPasswordName
 	ret
 
-BuenasPasswordName:    db "MẬT KHẨU BUENA@"
+BuenasPasswordName:    db "BUENA'S PASSWORD@"
 NotBuenasPasswordName: db "@"
 
 LoadStation_UnownRadio:
@@ -1743,15 +1747,15 @@ NoRadioName:
 	call Textbox
 	ret
 
-OaksPKMNTalkName:     db "#MON của GS OAK@"
-PokedexShowName:      db "Sô #DEX@"
-PokemonMusicName:     db "Nhạc #MON@"
-LuckyChannelName:     db "Kênh May Mắn@"
+OaksPKMNTalkName:     db "OAK's <PK><MN> Talk@"
+PokedexShowName:      db "#DEX Show@"
+PokemonMusicName:     db "#MON Music@"
+LuckyChannelName:     db "Lucky Channel@"
 UnownStationName:     db "?????@"
 
-PlacesAndPeopleName:  db "Nơi & Người@"
-LetsAllSingName:      db "Cùng Hát Nào!@"
-PokeFluteStationName: db "Sáo #MON@"
+PlacesAndPeopleName:  db "Places & People@"
+LetsAllSingName:      db "Let's All Sing!@"
+PokeFluteStationName: db "# FLUTE@"
 
 _TownMap:
 	ld hl, wOptions
@@ -2177,7 +2181,7 @@ TownMapBubble:
 	ret
 
 .Where:
-	db "Ở đâu?@"
+	db "Where?@"
 
 .Name:
 ; We need the map location of the default flypoint
@@ -2459,17 +2463,17 @@ Pokedex_GetArea:
 	ld a, $07
 	call ByteFill
 	ld [hl], $17
+	call GetPokemonName
 	hlcoord 2, 0
-	ld de, .String_Nest
 	call PlaceString
 	ld h, b
 	ld l, c
-	call GetPokemonName
+	ld de, .String_SNest
 	call PlaceString
 	ret
 
-.String_Nest:
-	db "TỔ @"
+.String_SNest:
+	db "'S NEST@"
 
 .GetAndPlaceNest:
 	ld [wTownMapCursorLandmark], a
@@ -2921,3 +2925,5 @@ EntireFlyMap: ; unreferenced
 	xor a
 	ldh [hBGMapMode], a
 	ret
+
+endc

@@ -1,87 +1,90 @@
 JoeyMonLookingSharperText:
-	text "@"
+	text "My @"
 	text_ram wStringBuffer4
-	text " của tớ"
-	line "trông sắc sảo hơn"
-	cont "trước!"
+	text "'s"
+	line "looking sharper"
+	cont "than before!"
 
-	para "Tớ nghĩ không có"
-	line "#MON nào ngầu"
+	para "I doubt there's a"
+	line "#MON as cool as"
 
-	para "như nó trong đội"
-	line "của cậu đâu!"
+	para "this guy in your"
+	line "party!"
 	done
 
 JoeyDefeatedMonText:
-	text "À đúng rồi, tớ hạ"
-	line "con @"
+	text "Oh yeah, I took"
+	line "down a @"
 	text_ram wStringBuffer4
-	text " hoang"
-	para "hôm nọ."
+	text_start
+	para "in the wild the"
+	line "other day."
 
-	para "Dễ như ăn bánh."
-	line "À, chắc cũng phải"
+	para "It was a cakewalk."
+	line "Well, I guess it"
 
-	para "thôi, vì bọn tớ"
-	line "mạnh thế mà."
+	para "can't be helped,"
+	line "us being so tough."
 	done
 
 JoeyLostAMonText:
-	text "À đúng rồi, tớ"
-	line "thấy con @"
+	text "Oh yeah, I saw a"
+	line "wild @"
 	text_ram wStringBuffer4
-	text " hoang"
+	text "!"
 
-	para "Tớ nghĩ đến việc"
-	line "bắt nó, nhưng"
+	para "I thought about"
+	line "going for it, but"
 
-	para "tớ quyết định chỉ"
-	line "dùng một con duy"
+	para "I decided to work"
+	line "with my one-and-"
 
-	para "nhất này đến tận"
-	line "cùng."
+	para "only right to the"
+	line "extreme end."
 	done
 
 JoeyBattleRematchText:
-	text "Hãy gặp nhau và"
-	line "đấu!"
+	text "Let's get together"
+	line "and battle!"
 
-	para "Tớ hứa mọi thứ sẽ"
-	line "khác đấy!"
+	para "I promise things"
+	line "will be different!"
 
-	para "Tớ sẽ ở"
-	line "@"
+	para "@"
 	text_ram wStringBuffer5
-	text "."
+	text "'s"
+	line "where I'll be."
 
-	para "Gọi cho tớ khi"
-	line "cậu đến."
+	para "Give me a shout"
+	line "when you come."
 	done
 
 JoeyHangUpText:
-	text "Được rồi. Hẹn sau"
+	text "All right. Later!"
 	done
 
 JoeyDevisingStrategiesText:
-	text "Tớ đang kiểm tra"
-	line "chiêu của @"
+	text "I'm checking out"
+	line "@"
 	text_ram wStringBuffer4
+	text "'s moves"
 
-	para "và suy nghĩ chiến"
-	line "thuật."
+	para "and devising some"
+	line "strategies."
 
-	para "Khi tớ nghĩ ra"
-	line "một cái hay, hãy"
-	cont "đấu nhé!"
+	para "When I come up"
+	line "with a good one,"
+	cont "let's battle!"
 	done
 
 JoeyReminderText:
-	text "Cậu đang chần chừ"
-	line "gì, <PLAYER>!"
+	text "What's keeping"
+	line "you, <PLAYER>!"
 
-	para "Xuống đây đấu đi!"
+	para "Let's get down and"
+	line "battle already!"
 
-	para "Tớ đang đợi tại"
+	para "I'm waiting on"
 	line "@"
 	text_ram wStringBuffer5
 	text "!"

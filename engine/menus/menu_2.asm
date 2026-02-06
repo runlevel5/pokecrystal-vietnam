@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/menus/menu_2.asm"
+else
+
 PlaceMenuItemName:
 	push de
 	ld a, [wMenuSelection]
@@ -104,9 +108,9 @@ DisplayMoneyAndCoinBalance:
 	ret
 
 MoneyString:
-	db "TIỀN@"
+	db "MONEY@"
 CoinString:
-	db "XU@"
+	db "COIN@"
 ShowMoney_TerminatorString:
 	db "@"
 
@@ -196,13 +200,13 @@ StartMenu_PrintBugContestStatus:
 .BallsJPString: ; unreferenced
 	db "ボール　　　こ@"
 .CaughtString:
-	db "BẮT ĐƯỢC@"
+	db "CAUGHT@"
 .BallsString:
-	db "BÓNG:@"
+	db "BALLS:@"
 .NoneString:
-	db "Không@"
+	db "None@"
 .LevelString:
-	db "CẤP@"
+	db "LEVEL@"
 
 FindApricornsInBag:
 ; Checks the bag for Apricorns.
@@ -251,3 +255,5 @@ FindApricornsInBag:
 	ret
 
 INCLUDE "data/items/apricorn_balls.asm"
+
+endc

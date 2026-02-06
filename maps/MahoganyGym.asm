@@ -148,226 +148,226 @@ MahoganyGymStatue:
 	jumpstd GymStatue2Script
 
 PryceText_Intro:
-	text "#MON có nhiều"
-	line "trải nghiệm trong"
+	text "#MON have many"
+	line "experiences in"
 
-	para "cuộc sống, giống"
-	line "như chúng ta."
+	para "their lives, just "
+	line "like we do. "
 
-	para "Ta cũng đã thấy"
-	line "và chịu đựng"
-	cont "nhiều trong đời."
+	para "I, too, have seen"
+	line "and suffered much"
+	cont "in my life."
 
-	para "Vì ta là bậc"
-	line "trưởng lão, để ta"
-	cont "chỉ cho con thấy."
+	para "Since I am your"
+	line "elder, let me show"
+	cont "you what I mean."
 
-	para "Ta đã ở bên"
-	line "#MON từ trước"
+	para "I have been with"
+	line "#MON since"
 
-	para "khi con được"
-	line "sinh ra."
+	para "before you were"
+	line "born."
 
-	para "Ta không dễ dàng"
-	line "thua đâu."
+	para "I do not lose"
+	line "easily."
 
-	para "Ta, PRYCE--HLV"
-	line "mùa đông--"
+	para "I, PRYCE--the"
+	line "winter trainer--"
 
-	para "sẽ thể hiện sức"
-	line "mạnh của ta!"
+	para "shall demonstrate"
+	line "my power!"
 	done
 
 PryceText_Impressed:
-	text "À, ta rất ấn"
-	line "tượng với con."
+	text "Ah, I am impressed"
+	line "by your prowess."
 
-	para "Với ý chí mạnh"
-	line "mẽ, ta biết con"
+	para "With your strong"
+	line "will, I know you"
 
-	para "sẽ vượt qua mọi"
-	line "trở ngại đời."
+	para "will overcome all"
+	line "life's obstacles."
 
-	para "Con xứng đáng"
-	line "với HUY HIỆU này!"
+	para "You are worthy of"
+	line "this BADGE!"
 	done
 
 Text_ReceivedGlacierBadge:
-	text "<PLAYER> nhận được"
-	line "HUY HIỆU BĂNG."
+	text "<PLAYER> received"
+	line "GLACIERBADGE."
 	done
 
 PryceText_GlacierBadgeSpeech:
-	text "HUY HIỆU đó sẽ"
-	line "tăng chỉ số"
-	cont "ĐẶC BIỆT #MON."
+	text "That BADGE will"
+	line "raise the SPECIAL"
+	cont "stats of #MON."
 
-	para "Nó cũng cho phép"
-	line "#MON dùng"
-	cont "XOÁY NƯỚC để qua"
-	cont "xoáy nước thật."
+	para "It also lets your"
+	line "#MON use WHIRL-"
+	cont "POOL to get across"
+	cont "real whirlpools."
 
-	para "Và đây… Đây là"
-	line "quà từ ta!"
+	para "And this… This is"
+	line "a gift from me!"
 	done
 
 PryceText_IcyWindSpeech:
-	text "TM đó chứa chiêu"
-	line "GIÓ LẠNH."
+	text "That TM contains"
+	line "ICY WIND."
 
-	para "Nó gây sát thương"
-	line "và giảm tốc độ."
+	para "It inflicts damage"
+	line "and lowers speed."
 
-	para "Nó thể hiện sự"
-	line "khắc nghiệt của"
-	cont "mùa đông."
+	para "It demonstrates"
+	line "the harshness of"
+	cont "winter."
 	done
 
 PryceText_CherishYourPokemon:
-	text "Khi băng tuyết"
-	line "tan, mùa xuân"
-	cont "sẽ đến."
+	text "When the ice and"
+	line "snow melt, spring"
+	cont "arrives."
 
-	para "Con và #MON"
-	line "của con sẽ bên"
+	para "You and your #-"
+	line "MON will be to-"
 
-	para "nhau nhiều năm"
-	line "nữa."
+	para "gether for many"
+	line "years to come."
 
-	para "Hãy trân trọng"
-	line "thời gian bên nhau"
+	para "Cherish your time"
+	line "together!"
 	done
 
 BoarderRonaldSeenText:
-	text "Tao sẽ đóng băng"
-	line "#MON của mày,"
-	cont "mày hết đường!"
+	text "I'll freeze your"
+	line "#MON, so you"
+	cont "can't do a thing!"
 	done
 
 BoarderRonaldBeatenText:
-	text "Chết tiệt. Tao"
-	line "không làm gì nổi."
+	text "Darn. I couldn't"
+	line "do a thing."
 	done
 
 BoarderRonaldAfterBattleText:
-	text "Tao nghĩ có chiêu"
-	line "mà #MON dùng"
+	text "I think there's a"
+	line "move a #MON"
 
-	para "được khi bị"
-	line "đóng băng."
+	para "can use while it's"
+	line "frozen."
 	done
 
 BoarderBradSeenText:
-	text "GYM này có sàn"
-	line "trơn trượt."
+	text "This GYM has a"
+	line "slippery floor."
 
-	para "Vui lắm, phải"
-	line "không?"
+	para "It's fun, isn't"
+	line "it?"
 
-	para "Nhưng này--đây"
-	line "không phải trò"
-	cont "chơi đâu!"
+	para "But hey--we're"
+	line "not playing games"
+	cont "here!"
 	done
 
 BoarderBradBeatenText:
-	text "Mày thấy bọn tao"
-	line "nghiêm túc chưa?"
+	text "Do you see how"
+	line "serious we are?"
 	done
 
 BoarderBradAfterBattleText:
-	text "GYM này tuyệt vời."
-	line "Tao thích trượt"
-	cont "với #MON!"
+	text "This GYM is great."
+	line "I love boarding"
+	cont "with my #MON!"
 	done
 
 BoarderDouglasSeenText:
-	text "Tao biết bí mật"
-	line "của PRYCE."
+	text "I know PRYCE's"
+	line "secret."
 	done
 
 BoarderDouglasBeatenText:
-	text "OK. Tao sẽ kể cho"
-	line "mày bí mật PRYCE."
+	text "OK. I'll tell you"
+	line "PRYCE's secret."
 	done
 
 BoarderDouglasAfterBattleText:
-	text "Bí mật đằng sau"
-	line "sức mạnh PRYCE…"
+	text "The secret behind"
+	line "PRYCE's power…"
 
-	para "Ông ấy thiền dưới"
-	line "thác nước mỗi ngày"
+	para "He meditates under"
+	line "a waterfall daily"
 
-	para "để rèn luyện tâm"
-	line "trí và thể xác."
+	para "to strengthen his"
+	line "mind and body."
 	done
 
 SkierRoxanneSeenText:
-	text "Để gặp PRYCE,"
-	line "T.LĨNH GYM của ta,"
+	text "To get to PRYCE,"
+	line "our GYM LEADER,"
 
-	para "mày cần suy nghĩ"
-	line "trước khi trượt."
+	para "you need to think"
+	line "before you skate."
 	done
 
 SkierRoxanneBeatenText:
-	text "Tao không thua mày"
-	line "về trượt tuyết!"
+	text "I wouldn't lose to"
+	line "you in skiing!"
 	done
 
 SkierRoxanneAfterBattleText:
-	text "Nếu không trượt"
-	line "chính xác,"
+	text "If you don't skate"
+	line "with precision,"
 
-	para "mày sẽ không đi"
-	line "xa trong GYM này."
+	para "you won't get far"
+	line "in this GYM."
 	done
 
 SkierClarissaSeenText:
-	text "Xem cú rẽ song"
-	line "song của tao này!"
+	text "Check out my"
+	line "parallel turn!"
 	done
 
 SkierClarissaBeatenText:
-	text "Không! Mày làm"
-	line "tao ngã rồi!"
+	text "No! You made me"
+	line "wipe out!"
 	done
 
 SkierClarissaAfterBattleText:
-	text "Lẽ ra tao không"
-	line "nên khoe khoang"
-	cont "về trượt tuyết…"
+	text "I shouldn't have"
+	line "been bragging"
+	cont "about my skiing…"
 	done
 
 MahoganyGymGuideText:
-	text "PRYCE là kỳ cựu"
-	line "đã huấn luyện"
+	text "PRYCE is a veteran"
+	line "who has trained"
 
-	para "#MON khoảng"
-	line "50 năm rồi."
+	para "#MON for some"
+	line "50 years."
 
-	para "Nghe nói ông ấy"
-	line "giỏi đóng băng"
+	para "He's said to be"
+	line "good at freezing"
 
-	para "đối thủ bằng"
-	line "chiêu hệ băng."
+	para "opponents with"
+	line "ice-type moves."
 
-	para "Vậy nghĩa là bạn"
-	line "nên làm tan chảy"
+	para "That means you"
+	line "should melt him"
 
-	para "ông ấy bằng tham"
-	line "vọng cháy bỏng!"
+	para "with your burning"
+	line "ambition!"
 	done
 
 MahoganyGymGuideWinText:
-	text "PRYCE rất giỏi,"
-	line "nhưng bạn còn"
-	cont "giỏi hơn!"
+	text "PRYCE is some-"
+	line "thing, but you're"
+	cont "something else!"
 
-	para "Đó là trận đấu"
-	line "nóng bỏng đã"
+	para "That was a hot"
+	line "battle that"
 
-	para "nối liền khoảng"
-	line "cách thế hệ!"
+	para "bridged the gen-"
+	line "eration gap!"
 	done
 
 MahoganyGym_MapEvents:

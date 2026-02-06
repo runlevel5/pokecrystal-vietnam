@@ -1,10 +1,10 @@
-	db "TRỒNG CHUỐI@" ; species name
-	dw 14, 480 ; height, weight
+	db "HANDSTAND@" ; species name
+	dw 407, 1060 ; height, weight
 
-	db   "Sau khi trồng"
-	next "chuối để làm đối"
-	next "thủ lỡ nhịp, nó"
+	db   "After doing a"
+	next "handstand to"
+	next "throw off the"
 
-	page "tung ra những"
-	next "cú đá hoa mỹ.@"
-	next "@"
+	page "opponent's timing,"
+	next "it presents its"
+	next "fancy kick moves.@"

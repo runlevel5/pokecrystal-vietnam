@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/battle/core.asm"
+else
+
 ; Core components of the battle engine.
 
 DoBattle:
@@ -1654,9 +1658,9 @@ HandleScreens:
 	jp CopyName2
 
 .Your:
-	db "Của @"
+	db "Your@"
 .Enemy:
-	db "Đ.thủ@"
+	db "Enemy@"
 
 .LightScreenTick:
 	ld a, [de]
@@ -5706,9 +5710,9 @@ MoveInfoBox:
 	ret
 
 .Disabled:
-	db "Bị khoá!@"
+	db "Disabled!@"
 .Type:
-	db "HỆ/@"
+	db "TYPE/@"
 
 .PrintPP:
 	hlcoord 5, 11
@@ -8425,11 +8429,11 @@ DisplayLinkBattleResult:
 	ret
 
 .YouWin:
-	db "BẠN THẮNG@"
+	db "YOU WIN@"
 .YouLose:
-	db "BẠN THUA@"
+	db "YOU LOSE@"
 .Draw:
-	db "  HÒA@"
+	db "  DRAW@"
 
 .Mobile_InvalidBattle:
 	hlcoord 6, 8
@@ -8441,7 +8445,7 @@ DisplayLinkBattleResult:
 	ret
 
 .InvalidBattle:
-	db "TRẬN K.HỢP LỆ@"
+	db "INVALID BATTLE@"
 
 IsMobileBattle2:
 	ld a, [wLinkMode]
@@ -8593,11 +8597,11 @@ ReadAndPrintLinkBattleRecord:
 	db "  ---  <LF>"
 	db "         -    -    -@"
 .Record:
-	db "KẾT QUẢ <PLAYER>@"
+	db "<PLAYER>'s RECORD@"
 .Result:
-	db "K.QUẢ THẮNG THUA HÒA@"
+	db "RESULT WIN LOSE DRAW@"
 .Total:
-	db "TỔNG  THẮNG THUA HÒA@"
+	db "TOTAL  WIN LOSE DRAW@"
 
 BattleEnd_HandleRoamMons:
 	ld a, [wBattleType]
@@ -9145,3 +9149,5 @@ BattleStartMessage:
 	farcall Mobile_PrintOpponentBattleMessage
 
 	ret
+
+endc

@@ -40,36 +40,38 @@ RuinsOfAlphInnerChamberStatue:
 	jumptext RuinsOfAlphInnerChamberStatueText
 
 RuinsOfAlphStrangePresenceText:
-	text "Có hiện diện kỳ"
-	line "lạ ở đây…"
+	text "There is a strange"
+	line "presence here…"
 	done
 
 RuinsOfAlphInnerChamberFisherText:
-	text "Đây là phòng lớn,"
-	line "nhưng không có gì"
-	cont "ở đây cả."
+	text "This is a big"
+	line "room, but there's"
+	cont "nothing here."
 	done
 
 RuinsOfAlphInnerChamberTeacherText:
-	text "Nơi này có chất"
-	line "huyền bí."
+	text "This place has a"
+	line "mystical quality"
+	cont "to it."
 
-	para "Cảm giác như nó"
-	line "siêu thực vậy."
+	para "It feels sort of"
+	line "ethereal even."
 	done
 
 RuinsOfAlphInnerChamberGrampsText:
-	text "Kiến trúc cổ đại"
-	line "thường là lăng mộ"
-	cont "của các vua."
+	text "Ancient buildings"
+	line "are often tombs of"
+	cont "kings."
 
-	para "Như kim tự tháp"
-	line "chẳng hạn."
+	para "Like the pyramids,"
+	line "for instance."
 	done
 
 RuinsOfAlphInnerChamberStatueText:
-	text "Đây là bản sao"
-	line "#MON cổ đại."
+	text "It's a replica of"
+	line "an ancient #-"
+	cont "MON."
 	done
 
 RuinsOfAlphInnerChamber_MapEvents:

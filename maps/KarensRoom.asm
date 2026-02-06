@@ -79,56 +79,55 @@ KarensRoom_EnterMovement:
 	step_end
 
 KarenScript_KarenBeforeText:
-	text "Ta là KAREN của"
-	line "TỨ ĐẠI."
+	text "I am KAREN of the"
+	line "ELITE FOUR."
 
-	para "Ngươi là <PLAYER>?"
-	line "Thú vị đấy."
+	para "You're <PLAYER>?"
+	line "How amusing."
 
-	para "Ta yêu #MON"
-	line "hệ bóng tối."
+	para "I love dark-type"
+	line "#MON."
 
-	para "Hình ảnh hoang dã"
-	line "và mạnh mẽ của"
+	para "I find their wild,"
+	line "tough image to be"
 
-	para "chúng thật cuốn"
-	line "hút và mãnh liệt."
+	para "so appealing. And"
+	line "they're so strong."
 
-	para "Ngươi nghĩ mình"
-	line "thắng nổi ư? Hãy"
-	cont "giải trí cho ta."
+	para "Think you can take"
+	line "them? Just try to"
+	cont "entertain me."
 
-	para "Bắt đầu thôi."
+	para "Let's go."
 	done
 
 KarenScript_KarenBeatenText:
-	text "Ồ, ngươi giỏi"
-	line "thật. Ta thích"
-	cont "điều đó ở HLV."
+	text "Well, aren't you"
+	line "good. I like that"
+	cont "in a trainer."
 	done
 
 KarenScript_KarenDefeatText:
-	text "#MON mạnh."
+	text "Strong #MON."
 
-	para "#MON yếu."
+	para "Weak #MON."
 
-	para "Đó chỉ là nhận"
-	line "thức ích kỷ của"
-	cont "con người."
+	para "That is only the"
+	line "selfish perception"
+	cont "of people."
 
-	para "HLV thực thụ nên"
-	line "cố chiến thắng"
+	para "Truly skilled"
+	line "trainers should"
 
-	para "cùng những #MON"
-	line "mình yêu thích."
+	para "try to win with"
+	line "their favorites."
 
-	para "Ta thích phong"
-	line "cách của ngươi."
-	cont "Ngươi hiểu điều"
-	cont "quan trọng."
+	para "I like your style."
+	line "You understand"
+	cont "what's important."
 
-	para "Tiếp tục đi--"
-	line "VÔ ĐỊCH đang chờ."
+	para "Go on--the CHAM-"
+	line "PION is waiting."
 	done
 
 KarensRoom_MapEvents:

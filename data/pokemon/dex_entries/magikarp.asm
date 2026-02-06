@@ -1,10 +1,10 @@
-	db "CÁ@" ; species name
-	dw 9, 100 ; height, weight
+	db "FISH@" ; species name
+	dw 211, 220 ; height, weight
 
-	db   "#MON yếu ớt"
-	next "và thảm hại này"
-	next "dễ dàng bị dòng"
+	db   "This weak and"
+	next "pathetic #MON"
+	next "gets easily pushed"
 
-	page "chảy mạnh cuốn"
-	next "trôi trên sông.@"
-	next "@"
+	page "along rivers when"
+	next "there are strong"
+	next "currents.@"

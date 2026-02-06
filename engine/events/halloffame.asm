@@ -1,3 +1,7 @@
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/engine/events/halloffame.asm"
+else
+
 DEF HALLOFFAME_COLON EQU $63
 
 HallOfFame::
@@ -132,7 +136,7 @@ AnimateHallOfFame:
 	ret
 
 .String_NewHallOfFamer:
-	db "Nhà vô địch mới!@"
+	db "New Hall of Famer!@"
 
 GetHallOfFameParty:
 	ld hl, wHallOfFamePokemonList
@@ -602,4 +606,6 @@ HOF_AnimatePlayerPic:
 	ret
 
 .PlayTime:
-	db "THỜI GIAN@"
+	db "PLAY TIME@"
+
+endc

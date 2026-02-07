@@ -65,7 +65,7 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "TIẾp TỤC@"
+	db "TIẾP TỤC@"
 	db "GAME MỚI@"
 	db "TÙY CHỌN@"
 	db "QUÀ BÍ MẬT@"
@@ -283,8 +283,8 @@ MainMenu_PrintCurrentTimeAndDay:
 	call CheckRTCStatus
 	and RTC_RESET
 	jr nz, .TimeFail
-	hlcoord 0, 14
-	ld b, 2
+	hlcoord 0, 12
+	ld b, 4
 	ld c, 18
 	call Textbox
 	ret
@@ -303,7 +303,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	call UpdateTime
 	call GetWeekday
 	ld b, a
-	decoord 1, 15
+	decoord 1, 14
 	call .PrintDayOfWeek
 	decoord 4, 16
 	ldh a, [hHours]
@@ -320,7 +320,7 @@ MainMenu_PrintCurrentTimeAndDay:
 	db "phút@"
 
 .PrintTimeNotSet:
-	hlcoord 1, 14
+	hlcoord 1, 15
 	ld de, .TimeNotSetString
 	call PlaceString
 	ret

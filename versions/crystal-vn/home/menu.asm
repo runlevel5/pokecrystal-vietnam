@@ -559,6 +559,7 @@ AutomaticGetMenuBottomCoord::
 	ld a, [wMenuDataItems]
 	add a
 	inc a
+	inc a ; +1 row for nặng accent below last menu item
 	ld b, a
 	ld a, [wMenuBorderTopCoord]
 	add b

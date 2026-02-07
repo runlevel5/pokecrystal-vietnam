@@ -30,6 +30,9 @@ INCLUDE "constants/ram_constants.asm"
 INCLUDE "constants/misc_constants.asm"
 INCLUDE "constants/gfx_constants.asm"
 INCLUDE "constants/text_constants.asm"
+if DEF(_CRYSTAL_VN)
+INCLUDE "versions/crystal-vn/constants/vn_font_constants.asm"
+endc
 INCLUDE "constants/audio_constants.asm"
 INCLUDE "constants/battle_anim_constants.asm"
 INCLUDE "constants/battle_constants.asm"

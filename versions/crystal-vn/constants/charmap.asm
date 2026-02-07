@@ -190,7 +190,7 @@
 	charmap "õ",         $ce
 	charmap "ọ",         $cf
 
-; Row $Dx: ô-family (ô ố ồ ổ ỗ ộ) + ơ-family (ơ ớ ờ ở ỡ ợ) + y-family (ý ỳ ỷ ỹ)
+; Row $Dx: ô-family (ô ố ồ ổ ỗ ộ) + ơ-family (ơ ớ ờ ở ỡ ợ) + y-family (ý) + đ/Đ + y cont. (ỷ ỹ)
 	charmap "ô",         $d0
 	charmap "ố",         $d1
 	charmap "ồ",         $d2
@@ -204,17 +204,17 @@
 	charmap "ỡ",         $da
 	charmap "ợ",         $db
 	charmap "ý",         $dc
-	charmap "ỳ",         $dd
+	charmap "đ",         $dd
 	charmap "ỷ",         $de
 	charmap "ỹ",         $df
 
-; Row $Ex: punctuation and symbols + đ, é
+; Row $Ex: punctuation and symbols + ỳ, é
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
 	charmap "<MN>",      $e2
 	charmap "-",         $e3
 	charmap "←",         $e4
-	charmap "đ",         $e5
+	charmap "ỳ",         $e5
 	charmap "?",         $e6
 	charmap "!",         $e7
 	charmap ".",         $e8
@@ -249,13 +249,18 @@
 	charmap "Y",         $98
 	charmap "Z",         $99
 
-; Uppercase Vietnamese characters map to lowercase equivalents
-	charmap "Ă",         $a5
-	charmap "Â",         $ab
-	charmap "Ê",         $b5
-	charmap "Ư",         $c5
-	charmap "Ô",         $d0
-	charmap "Ơ",         $d6
+; Uppercase Vietnamese characters
+; Characters with special base tiles (ă, â, ê, ô, ơ, ư, đ) emit a 2-byte
+; sequence: <UPPER> prefix ($23) + lowercase charmap code. The text engine
+; sets hVnUpperFlag so _PlaceAccentedChar remaps the base tile to uppercase.
+; Characters with plain vowel bases (a, e, i, o, u, y) already use uppercase-
+; style font glyphs at $80-$99, so they map directly (no prefix needed).
+	charmap "Ă",         $23, $a5
+	charmap "Â",         $23, $ab
+	charmap "Ê",         $23, $b5
+	charmap "Ư",         $23, $c5
+	charmap "Ô",         $23, $d0
+	charmap "Ơ",         $23, $d6
 	charmap "Á",         $a0
 	charmap "À",         $a1
 	charmap "Ả",         $a2
@@ -271,7 +276,7 @@
 	charmap "Ỉ",         $bd
 	charmap "Ĩ",         $be
 	charmap "Ị",         $bf
-	charmap "Đ",         $e5
+	charmap "Đ",         $23, $dd
 	charmap "Ó",         $cb
 	charmap "Ò",         $cc
 	charmap "Ỏ",         $cd
@@ -283,39 +288,39 @@
 	charmap "Ũ",         $c3
 	charmap "Ụ",         $c4
 	charmap "Ý",         $dc
-	charmap "Ỳ",         $dd
+	charmap "Ỳ",         $e5
 	charmap "Ỷ",         $de
 	charmap "Ỹ",         $df
-	charmap "Ắ",         $a6
-	charmap "Ằ",         $a7
-	charmap "Ẳ",         $a8
-	charmap "Ẵ",         $a9
-	charmap "Ặ",         $aa
-	charmap "Ấ",         $ac
-	charmap "Ầ",         $ad
-	charmap "Ẩ",         $ae
-	charmap "Ẫ",         $af
-	charmap "Ậ",         $b0
-	charmap "Ế",         $b6
-	charmap "Ề",         $b7
-	charmap "Ể",         $b8
-	charmap "Ễ",         $b9
-	charmap "Ệ",         $ba
-	charmap "Ố",         $d1
-	charmap "Ồ",         $d2
-	charmap "Ổ",         $d3
-	charmap "Ỗ",         $d4
-	charmap "Ộ",         $d5
-	charmap "Ớ",         $d7
-	charmap "Ờ",         $d8
-	charmap "Ở",         $d9
-	charmap "Ỡ",         $da
-	charmap "Ợ",         $db
-	charmap "Ứ",         $c6
-	charmap "Ừ",         $c7
-	charmap "Ử",         $c8
-	charmap "Ữ",         $c9
-	charmap "Ự",         $ca
+	charmap "Ắ",         $23, $a6
+	charmap "Ằ",         $23, $a7
+	charmap "Ẳ",         $23, $a8
+	charmap "Ẵ",         $23, $a9
+	charmap "Ặ",         $23, $aa
+	charmap "Ấ",         $23, $ac
+	charmap "Ầ",         $23, $ad
+	charmap "Ẩ",         $23, $ae
+	charmap "Ẫ",         $23, $af
+	charmap "Ậ",         $23, $b0
+	charmap "Ế",         $23, $b6
+	charmap "Ề",         $23, $b7
+	charmap "Ể",         $23, $b8
+	charmap "Ễ",         $23, $b9
+	charmap "Ệ",         $23, $ba
+	charmap "Ố",         $23, $d1
+	charmap "Ồ",         $23, $d2
+	charmap "Ổ",         $23, $d3
+	charmap "Ỗ",         $23, $d4
+	charmap "Ộ",         $23, $d5
+	charmap "Ớ",         $23, $d7
+	charmap "Ờ",         $23, $d8
+	charmap "Ở",         $23, $d9
+	charmap "Ỡ",         $23, $da
+	charmap "Ợ",         $23, $db
+	charmap "Ứ",         $23, $c6
+	charmap "Ừ",         $23, $c7
+	charmap "Ử",         $23, $c8
+	charmap "Ữ",         $23, $c9
+	charmap "Ự",         $23, $ca
 
 ; English contractions - keep for european_mail.asm compatibility
 ; (they'll display as Vietnamese chars but code will compile)

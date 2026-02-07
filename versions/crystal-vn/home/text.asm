@@ -226,7 +226,7 @@ ENDM
 	dict '<ROCKET>',  RocketChar
 	dict '<TM>',      TMChar
 	dict '<TRAINER>', TrainerChar
-	dict '<KOUGEKI>', PlaceKougeki
+	dict '<KOUGEKI>', SetUpperFlag
 	dict '<LF>',      LineFeedChar
 	dict '<CONT>',    ContText
 	dict '<……>',      SixDotsChar
@@ -284,6 +284,17 @@ ENDM
 	call Diacritic
 
 .place
+; Check if this is a Vietnamese accented character ($A0-$DF)
+	cp VN_ACCENT_START
+	jr c, .place_regular
+	cp VN_ACCENT_END + 1
+	jr nc, .place_regular
+; Accented character: decompose into base glyph + accent tile
+	call PlaceAccentedChar
+	call PrintLetterDelay
+	jp NextChar
+
+.place_regular
 	ld [hli], a
 	call PrintLetterDelay
 	jp NextChar
@@ -311,6 +322,13 @@ TMChar:       print_name TMCharText
 PCChar:       print_name PCCharText
 RocketChar:   print_name RocketCharText
 PlacePOKe:    print_name PlacePOKeText
+SetUpperFlag:
+; Set the uppercase flag so the next Vietnamese accented character
+; uses its uppercase base tile variant. Then skip to the next byte.
+	ld a, 1
+	ldh [hVnUpperFlag], a
+	jp NextChar
+
 PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
@@ -635,6 +653,21 @@ LoadBlinkingCursor::
 UnloadBlinkingCursor::
 	lda_coord 17, 17
 	ldcoord_a 18, 17
+	ret
+
+PlaceAccentedChar::
+; Decompose a Vietnamese accented character into base glyph + accent tiles.
+; Input:  a = charmap code ($A0-$E5), hl = current tilemap position
+;         de = source string pointer (must be preserved for caller)
+; Output: hl incremented by 1 (like ld [hli], a would)
+; Thin stub — passes a in b, hl in de, then farcalls the banked implementation.
+	push de          ; save source string pointer (used by NextChar)
+	ld b, a
+	ld d, h
+	ld e, l
+	farcall _PlaceAccentedChar
+	; hl = updated tilemap position from banked function
+	pop de           ; restore source string pointer
 	ret
 
 PlaceFarString::

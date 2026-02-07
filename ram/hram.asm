@@ -175,6 +175,14 @@ hDebugRoomMenuPage::
 endc
 hClockResetTrigger:: db
 
+if DEF(_CRYSTAL_VN)
+hVnUpperFlag::
+; Nonzero if the next Vietnamese accented character should use uppercase base tile.
+; Set by the <UPPER> shift code ($23) in text rendering, cleared after use.
+	db
+	ds 18
+else
 	ds 19
+endc
 
 ENDSECTION

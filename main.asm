@@ -1389,6 +1389,9 @@ INCLUDE "versions/crystal-vn/data/phone/text/kenji_callee.asm"
 INCLUDE "versions/crystal-vn/data/phone/text/parry_callee.asm"
 INCLUDE "versions/crystal-vn/data/phone/text/erin_callee.asm"
 INCLUDE "versions/crystal-vn/data/phone/text/unused.asm"
+
+; Vietnamese accent decomposition table (banked, referenced by home/text.asm)
+INCLUDE "versions/crystal-vn/data/vn_accent_decomp.asm"
 endc
 
 

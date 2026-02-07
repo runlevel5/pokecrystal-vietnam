@@ -1356,4 +1356,6 @@ GameInit::
 	ld a, $90
 	ldh [hWY], a
 	call WaitBGMap
+	; DEBUG: Show credits on startup to test text rendering
+	farcall RedCredits
 	jp IntroSequence

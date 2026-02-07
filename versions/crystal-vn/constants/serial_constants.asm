@@ -48,9 +48,6 @@ DEF SERIAL_LINK_BYTE_TIMEOUT EQU $5000
 DEF MAX_MYSTERY_GIFT_PARTNERS EQU 5
 
 ; Language identifiers for link cable detection
-; Language identifiers for link cable detection
-; LANG_VN is placed in the random bytes section (after preamble) for detection
-; English/other versions send random bytes which are unlikely to match LANG_VN
 DEF LANG_JP EQU $00  ; Japanese (incompatible serial protocol)
 DEF LANG_EN EQU $01  ; English (US/AU/EU)
 DEF LANG_FR EQU $02  ; French
@@ -58,6 +55,29 @@ DEF LANG_DE EQU $03  ; German
 DEF LANG_IT EQU $04  ; Italian
 DEF LANG_ES EQU $05  ; Spanish
 DEF LANG_KO EQU $06  ; Korean (incompatible serial protocol)
-DEF LANG_VN EQU $55  ; Vietnamese (using distinctive value $55 for detection)
 
-; Offset constants are kept for reference but detection now scans the full buffer
+; Vietnamese language detection uses a 2-byte signature in the RN data section
+; and a 2-byte backup signature in the player name field trailing bytes.
+;
+; Primary detection (RN data): LANG_VN_BYTE1 followed by LANG_VN_BYTE2 as the
+; first two random bytes. Using two consecutive bytes drops the false-positive
+; probability from ~3.9% (single byte) to ~0.014% (two adjacent bytes).
+;
+; Backup detection (player name field): NAME_LENGTH is 11 bytes but player names
+; are at most PLAYER_NAME_LENGTH (8) bytes including the $50 terminator. The last
+; two bytes (offsets 9 and 10) are unused by English Crystal and are filled with
+; LANG_VN_SIG1 and LANG_VN_SIG2. This mirrors the technique used by European
+; G/S/C for mail nationality detection (see european_mail.asm).
+;
+; Both $55 and $AA are safe: below SERIAL_PREAMBLE_BYTE ($FD), not equal to
+; SERIAL_NO_DATA_BYTE ($FE), and outside the $50 terminator range.
+DEF LANG_VN_BYTE1 EQU $55  ; First byte of 2-byte RN signature
+DEF LANG_VN_BYTE2 EQU $AA  ; Second byte of 2-byte RN signature
+
+; Player name field signature offsets (within the NAME_LENGTH region)
+; These are the last 2 bytes of the 11-byte NAME_LENGTH field
+DEF LANG_VN_NAME_SIG_OFFSET1 EQU NAME_LENGTH - 2  ; offset 9
+DEF LANG_VN_NAME_SIG_OFFSET2 EQU NAME_LENGTH - 1  ; offset 10
+
+; Keep LANG_VN as an alias for the primary detection byte (used by wPeerLanguage)
+DEF LANG_VN EQU LANG_VN_BYTE1

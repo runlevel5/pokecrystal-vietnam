@@ -124,13 +124,13 @@ For characters outside the shared `$80-$9F` range, a translation layer converts 
 
 Vietnamese Crystal uses a **two-layer detection system** to identify the peer's language during link cable communication:
 
-1. `FixDataForLinkTransfer` places `$55 $AA` as the first two random bytes after the `$FD` preamble
-2. After receiving peer RN data, scan for the consecutive pair `$55` followed by `$AA`
+1. `FixDataForLinkTransfer` places `$55` as the first random byte after the `$FD` preamble
+2. After receiving peer RN data, scan for `$55`
 3. If found → peer is Vietnamese, set `wPeerLanguage = LANG_VN`
 4. If not found → peer is English, set `wPeerLanguage = LANG_EN`
 5. After receiving party data, backup check: verify `$55 $AA` at offsets 9-10 of the received player name field to confirm or correct the RN-based detection
 
-Using a 2-byte consecutive signature reduces the false-positive rate from ~3.9% (single byte) to ~0.014%. The backup name field check (mirroring the technique used by European G/S/C for mail nationality detection) eliminates remaining false positives for incoming translation.
+A single byte is used for the RN signature because 2-byte RN signatures caused unpredictable behavior in VN↔VN trading due to variable sync timing. The backup name field check (mirroring the technique used by European G/S/C for mail nationality detection) uses a reliable 2-byte signature to eliminate false positives for incoming translation.
 
 #### Outgoing Translation (Vietnamese to English)
 

@@ -56,23 +56,25 @@ DEF LANG_IT EQU $04  ; Italian
 DEF LANG_ES EQU $05  ; Spanish
 DEF LANG_KO EQU $06  ; Korean (incompatible serial protocol)
 
-; Vietnamese language detection uses a 2-byte signature in the RN data section
+; Vietnamese language detection uses a 1-byte signature in the RN data section
 ; and a 2-byte backup signature in the player name field trailing bytes.
 ;
-; Primary detection (RN data): LANG_VN_BYTE1 followed by LANG_VN_BYTE2 as the
-; first two random bytes. Using two consecutive bytes drops the false-positive
-; probability from ~3.9% (single byte) to ~0.014% (two adjacent bytes).
+; Primary detection (RN data): LANG_VN_BYTE1 is placed as the first random byte.
+; This provides a quick early detection before party data exchange. The single-byte
+; approach was chosen because 2-byte RN signatures caused unpredictable behavior
+; in VN↔VN trading due to variable sync timing.
 ;
 ; Backup detection (player name field): NAME_LENGTH is 11 bytes but player names
 ; are at most PLAYER_NAME_LENGTH (8) bytes including the $50 terminator. The last
 ; two bytes (offsets 9 and 10) are unused by English Crystal and are filled with
-; LANG_VN_SIG1 and LANG_VN_SIG2. This mirrors the technique used by European
-; G/S/C for mail nationality detection (see european_mail.asm).
+; LANG_VN_BYTE1 and LANG_VN_BYTE2. This mirrors the technique used by European
+; G/S/C for mail nationality detection (see european_mail.asm). The backup
+; provides reliable confirmation and corrects any false positives from the RN scan.
 ;
 ; Both $55 and $AA are safe: below SERIAL_PREAMBLE_BYTE ($FD), not equal to
 ; SERIAL_NO_DATA_BYTE ($FE), and outside the $50 terminator range.
-DEF LANG_VN_BYTE1 EQU $55  ; First byte of 2-byte RN signature
-DEF LANG_VN_BYTE2 EQU $AA  ; Second byte of 2-byte RN signature
+DEF LANG_VN_BYTE1 EQU $55  ; RN signature byte and first byte of name field signature
+DEF LANG_VN_BYTE2 EQU $AA  ; Second byte of name field backup signature
 
 ; Player name field signature offsets (within the NAME_LENGTH region)
 ; These are the last 2 bytes of the 11-byte NAME_LENGTH field

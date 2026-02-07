@@ -257,22 +257,15 @@ endc
 	call Serial_ExchangeBytes
 	ld a, SERIAL_NO_DATA_BYTE
 	ld [de], a
-; Read peer's language from received RN data using 2-byte signature detection.
-; We scan for LANG_VN_BYTE1 ($55) followed immediately by LANG_VN_BYTE2 ($AA).
-; Using two consecutive bytes reduces false-positive probability to ~0.014%
-; compared to ~3.9% with a single-byte scan.
-; Due to variable sync timing, we scan the received buffer for the pair.
+; Read peer's language from received RN data by scanning for LANG_VN_BYTE1 ($55).
+; Due to variable sync timing, we scan the entire received buffer for the byte.
+; The name field backup (after party data exchange) provides reliable confirmation.
 	ld hl, wOTLinkBattleRNData
-	ld b, SERIAL_RNS_LENGTH - 1  ; we check pairs, so max iterations = length - 1
+	ld b, SERIAL_RNS_LENGTH
 .scan_lang
 	ld a, [hli]
 	cp LANG_VN_BYTE1
-	jr nz, .scan_next
-	; Found first byte - check if next byte matches
-	ld a, [hl]
-	cp LANG_VN_BYTE2
 	jr z, .found_lang
-.scan_next
 	dec b
 	jr nz, .scan_lang
 ; Not found - assume non-Vietnamese (English Crystal)
@@ -653,16 +646,13 @@ FixDataForLinkTransfer:
 	dec b
 	jr nz, .preamble_loop
 ; hl now points to wLinkBattleRNs (first random byte after preamble)
-; Place 2-byte Vietnamese language signature for peer detection.
-; Using two consecutive bytes ($55, $AA) reduces false-positive probability
-; from ~3.9% (single byte in 10 random bytes) to ~0.014%.
+; Place Vietnamese language signature byte for peer detection.
+; A single byte is used here; the name field backup provides reliable confirmation.
 	ld a, LANG_VN_BYTE1
-	ld [hli], a
-	ld a, LANG_VN_BYTE2
 	ld [hli], a
 
 ; Initialize remaining random bytes, making sure special bytes are omitted
-	ld b, SERIAL_RNS_LENGTH - 2  ; two less since we used first two for signature
+	ld b, SERIAL_RNS_LENGTH - 1  ; one less since we used the first byte for signature
 .rn_loop
 	call Random
 	cp SERIAL_PREAMBLE_BYTE

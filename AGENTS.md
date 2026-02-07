@@ -459,11 +459,11 @@ To enable trading between Vietnamese and English Pokemon Crystal versions, a tra
 
 Vietnamese Crystal uses a **two-layer detection system** to identify the peer's language during link cable communication:
 
-**Layer 1 — 2-byte RN signature:** A consecutive pair `LANG_VN_BYTE1` (`$55`) + `LANG_VN_BYTE2` (`$AA`) is embedded as the first two random bytes in the RN data section. The receiver scans for this consecutive pair, reducing false-positive probability from ~3.9% (single byte) to ~0.014%.
+**Layer 1 — 1-byte RN signature:** `LANG_VN_BYTE1` (`$55`) is embedded as the first random byte in the RN data section. The receiver scans for this byte to get an early language detection before party data exchange. A single byte is used because 2-byte RN signatures caused unpredictable behavior in VN↔VN trading due to variable sync timing.
 
-**Layer 2 — Player name field backup:** The same `$55, $AA` signature is embedded at offsets 9-10 of the `NAME_LENGTH` (11-byte) player name field. Player names are at most `PLAYER_NAME_LENGTH` (8 bytes including `$50` terminator), so these trailing bytes are unused by English Crystal. After receiving party data, the backup check confirms or corrects the RN-based detection. This mirrors the technique used by European G/S/C for mail nationality detection (see `european_mail.asm`).
+**Layer 2 — Player name field backup:** A 2-byte signature `$55, $AA` (`LANG_VN_BYTE1` + `LANG_VN_BYTE2`) is embedded at offsets 9-10 of the `NAME_LENGTH` (11-byte) player name field. Player names are at most `PLAYER_NAME_LENGTH` (8 bytes including `$50` terminator), so these trailing bytes are unused by English Crystal. After receiving party data, the backup check confirms or corrects the RN-based detection. This mirrors the technique used by European G/S/C for mail nationality detection (see `european_mail.asm`).
 
-- **VN ↔ VN**: Both peers detect the 2-byte signature, preserve Vietnamese accented characters
+- **VN ↔ VN**: Both peers detect the signature, preserve Vietnamese accented characters
 - **VN ↔ EN**: Vietnamese peer doesn't find the signature in English data, applies translation
 
 Both `$55` and `$AA` are safe values:
@@ -533,9 +533,9 @@ Language detection and conditional translation happen in `Gen2ToGen2LinkComms` (
 **Order of Operations:**
 1. `Link_PrepPartyData_Gen2` copies original wPlayerName, party data, OT names, nicknames to wLinkData
 2. `Link_PrepPartyData_Gen2` embeds `$55, $AA` signature at offsets 9-10 of the player name field
-3. `FixDataForLinkTransfer` sets up RN preamble (all $FD bytes) and places 2-byte signature (`$55, $AA`) as first two random bytes
+3. `FixDataForLinkTransfer` sets up RN preamble (all $FD bytes) and places 1-byte signature (`$55`) as the first random byte
 4. RN exchange happens via `Serial_ExchangeBytes`
-5. Scan received data for 2-byte signature (`$55` followed by `$AA`) → set wPeerLanguage
+5. Scan received data for `$55` → set wPeerLanguage
 6. `Link_FixDataForPeerLanguage` conditionally applies translation based on peer language
 7. Party data exchange happens
 8. Backup detection: check received player name field (offsets 9-10) for `$55, $AA` → confirm or correct wPeerLanguage

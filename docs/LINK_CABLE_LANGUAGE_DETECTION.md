@@ -83,9 +83,9 @@ The preamble **must** be all `$FD` bytes. The sync mechanism in `Serial_Exchange
 
 ### The Approach
 
-1. **Embed a 2-byte language signature** (`$55`, `$AA`) as the first two bytes of the random bytes section
-2. **Embed the same signature** in the unused trailing bytes (offsets 9-10) of the player name field as a backup
-3. **Scan received RN data** for the 2-byte signature after the RN exchange
+1. **Embed a 1-byte language signature** (`$55`) as the first byte of the random bytes section
+2. **Embed a 2-byte signature** (`$55`, `$AA`) in the unused trailing bytes (offsets 9-10) of the player name field as a backup
+3. **Scan received RN data** for the signature byte after the RN exchange
 4. **Verify via backup** after receiving party data — check the name field signature to confirm or correct the RN-based detection
 5. **Conditionally apply translation** based on detected peer language
 
@@ -107,9 +107,9 @@ DEF LANG_IT EQU $04  ; Italian
 DEF LANG_ES EQU $05  ; Spanish
 DEF LANG_KO EQU $06  ; Korean (incompatible serial protocol)
 
-; Vietnamese language detection uses a 2-byte signature
-DEF LANG_VN_BYTE1 EQU $55  ; First byte of 2-byte RN signature
-DEF LANG_VN_BYTE2 EQU $AA  ; Second byte of 2-byte RN signature
+; Vietnamese language detection uses a 1-byte signature
+DEF LANG_VN_BYTE1 EQU $55  ; RN signature byte and first byte of name field signature
+DEF LANG_VN_BYTE2 EQU $AA  ; Second byte of name field backup signature
 
 ; Player name field signature offsets (within the NAME_LENGTH region)
 DEF LANG_VN_NAME_SIG_OFFSET1 EQU NAME_LENGTH - 2  ; offset 9
@@ -119,16 +119,15 @@ DEF LANG_VN_NAME_SIG_OFFSET2 EQU NAME_LENGTH - 1  ; offset 10
 DEF LANG_VN EQU LANG_VN_BYTE1
 ```
 
-### 2. Why a 2-Byte Signature ($55, $AA)?
+### 2. Why $55 for RN and $55 $AA for Name Field?
 
-Using a single byte `$55` for detection had a ~3.9% false-positive rate (1/256 per byte × 10 bytes scanned). By requiring two consecutive bytes (`$55` followed by `$AA`), the false-positive probability drops to ~0.014%.
+The RN data section uses a single byte (`$55`) because 2-byte RN signatures caused unpredictable behavior in VN↔VN trading due to variable sync timing. The name field backup uses a 2-byte signature (`$55`, `$AA`) for reliable confirmation since player name data is exchanged reliably.
 
 The values `$55` and `$AA` were chosen because:
 
 - **Not control bytes**: Neither is `$FD` (preamble), `$FE` (sync), or `$50` (terminator)
 - **Not character codes**: Both are outside the text character range in English Crystal
 - **Distinctive patterns**: `$55` = `01010101`, `$AA` = `10101010` — easy to spot in hex dumps
-- **Complementary**: The pair is unlikely to occur naturally in random data
 
 ### 3. WRAM Variable
 
@@ -148,16 +147,13 @@ wPeerLanguage::
 File: `engine/link/link.asm` in `FixDataForLinkTransfer`
 
 ```asm
-; Place 2-byte Vietnamese language signature for peer detection.
-; Using two consecutive bytes ($55, $AA) reduces false-positive probability
-; from ~3.9% (single byte in 10 random bytes) to ~0.014%.
+; Place Vietnamese language signature byte for peer detection.
+; A single byte is used here; the name field backup provides reliable confirmation.
 	ld a, LANG_VN_BYTE1
-	ld [hli], a
-	ld a, LANG_VN_BYTE2
 	ld [hli], a
 
 ; Initialize remaining random bytes, making sure special bytes are omitted
-	ld b, SERIAL_RNS_LENGTH - 2  ; two less since we used first two for signature
+	ld b, SERIAL_RNS_LENGTH - 1  ; one less since we used the first byte for signature
 .rn_loop
 	call Random
 	cp SERIAL_PREAMBLE_BYTE
@@ -189,8 +185,7 @@ Offset  | Content
 --------|------------------------------------------
 0-6     | $FD $FD $FD $FD $FD $FD $FD (preamble)
 7       | $55 (LANG_VN_BYTE1)
-8       | $AA (LANG_VN_BYTE2)
-9-16    | Random bytes (RNG seed)
+8-16    | Random bytes (RNG seed)
 17+     | Player name (with $55 $AA at offsets 9-10), party data, etc.
 ```
 
@@ -201,21 +196,15 @@ File: `engine/link/link.asm` in `Gen2ToGen2LinkComms`
 **Layer 1: RN data scan (primary detection)**
 
 ```asm
-; Read peer's language from received RN data using 2-byte signature detection.
-; We scan for LANG_VN_BYTE1 ($55) followed immediately by LANG_VN_BYTE2 ($AA).
-; Using two consecutive bytes reduces false-positive probability to ~0.014%
-; compared to ~3.9% with a single-byte scan.
+; Read peer's language from received RN data by scanning for LANG_VN_BYTE1 ($55).
+; Due to variable sync timing, we scan the entire received buffer for the byte.
+; The name field backup (after party data exchange) provides reliable confirmation.
 	ld hl, wOTLinkBattleRNData
-	ld b, SERIAL_RNS_LENGTH - 1  ; we check pairs, so max iterations = length - 1
+	ld b, SERIAL_RNS_LENGTH
 .scan_lang
 	ld a, [hli]
 	cp LANG_VN_BYTE1
-	jr nz, .scan_next
-	; Found first byte - check if next byte matches
-	ld a, [hl]
-	cp LANG_VN_BYTE2
 	jr z, .found_lang
-.scan_next
 	dec b
 	jr nz, .scan_lang
 ; Not found - assume non-Vietnamese (English Crystal)
@@ -256,7 +245,7 @@ File: `engine/link/link.asm` in `Gen2ToGen2LinkComms`
 
 **Why two layers?**
 
-The RN scan provides early detection (before party data exchange) so outgoing data can be translated on-the-fly. The name field backup runs after party data is received and provides a definitive confirmation, correcting any rare false positives from the RN scan. The backup can only affect incoming translation (outgoing is already sent), but with the 2-byte RN signature the outgoing false-positive rate is already near-zero.
+The RN scan provides early detection (before party data exchange) so outgoing data can be translated on-the-fly. However, a single-byte RN signature has a ~3.9% false-positive rate, and 2-byte RN signatures caused unpredictable behavior in VN↔VN trading due to variable sync timing. The name field backup runs after party data is received and provides a definitive confirmation using a reliable 2-byte signature, correcting any false positives from the RN scan.
 
 ### 6. Conditional Translation
 
@@ -290,8 +279,8 @@ Link_FixDataForPeerLanguage:
 
 | Step | Behavior |
 |------|----------|
-| VN sends | `$FD...$FD` + `$55 $AA` + random bytes; name field has `$55 $AA` at offsets 9-10 |
-| VN receives | RN scan finds `$55 $AA` pair → `wPeerLanguage = LANG_VN` |
+| VN sends | `$FD...$FD` + `$55` + random bytes; name field has `$55 $AA` at offsets 9-10 |
+| VN receives | RN scan finds `$55` → `wPeerLanguage = LANG_VN` |
 | Backup check | Name field confirms `$55 $AA` → `wPeerLanguage = LANG_VN` (confirmed) |
 | Translation | Skipped (both have Vietnamese) |
 | Result | Vietnamese names preserved |
@@ -300,10 +289,10 @@ Link_FixDataForPeerLanguage:
 
 | Step | Behavior |
 |------|----------|
-| VN sends | `$FD...$FD` + `$55 $AA` + random bytes; name field has `$55 $AA` at offsets 9-10 |
-| EN receives | Ignores `$55 $AA` (treated as random bytes, no special handling) |
-| EN sends | `$FD...$FD` + random bytes (no `$55 $AA` pair); name field has arbitrary bytes |
-| VN receives | RN scan does NOT find `$55 $AA` pair → `wPeerLanguage = LANG_EN` |
+| VN sends | `$FD...$FD` + `$55` + random bytes; name field has `$55 $AA` at offsets 9-10 |
+| EN receives | Ignores `$55` (treated as random byte, no special handling) |
+| EN sends | `$FD...$FD` + random bytes (no `$55` signature); name field has arbitrary bytes |
+| VN receives | RN scan does NOT find `$55` → `wPeerLanguage = LANG_EN` |
 | Backup check | Name field does NOT have `$55 $AA` → `wPeerLanguage = LANG_EN` (confirmed) |
 | Translation | Applied (VN→EN for outgoing, EN→VN for incoming) |
 | Result | Names readable in both games |
@@ -314,11 +303,13 @@ No change to behavior. Both games ignore the random bytes content.
 
 ### Edge Case: False Positive Analysis
 
-**RN scan false positive probability:** For the 2-byte signature to false-positive, two consecutive random bytes must be exactly `$55` followed by `$AA`. The probability is `(1/253)^2` per position × 9 positions ≈ 0.014%.
+**RN scan false positive probability:** For a single-byte scan, any random byte matching `$55` triggers a match. The probability is approximately `1/253` per byte × 10 bytes ≈ 3.9%. This is acceptable because the name field backup corrects false positives before incoming translation is applied.
 
-**Name field backup eliminates remaining false positives:** Even if the RN scan produces a false positive, the backup check examines the received player name field at offsets 9-10. English Crystal does not write `$55 $AA` there (it leaves those bytes as whatever was in memory), making the combined false-positive rate effectively zero.
+**Why not use 2-byte RN signatures?** Testing showed that 2-byte consecutive signatures in the RN data caused unpredictable behavior in VN↔VN trading due to variable sync timing during the serial exchange. The single-byte approach is more reliable for the RN layer.
 
-**Timing consideration:** The backup check runs after party data is received, so it can only affect incoming translation. Outgoing translation is determined by the RN scan alone. In the extremely rare case (~0.014%) of an RN false positive, outgoing Vietnamese names would not be translated — but the backup ensures incoming data is handled correctly.
+**Name field backup eliminates false positives:** Even if the RN scan produces a false positive, the backup check examines the received player name field at offsets 9-10 for the 2-byte signature `$55 $AA`. English Crystal does not write this pair there, making the combined false-positive rate effectively zero for incoming translation.
+
+**Timing consideration:** The backup check runs after party data is received, so it can only affect incoming translation. Outgoing translation is determined by the RN scan alone. In the ~3.9% false-positive case, outgoing Vietnamese names would not be translated to an English peer — but this is mitigated by the overall rarity and the fact that the name field backup ensures incoming data is always handled correctly.
 
 ---
 
@@ -328,15 +319,15 @@ For developers implementing similar detection in other fan translations:
 
 ### Step 1: Choose a Language Signature
 
-Pick a unique 2-byte sequence for your language:
+Pick a unique byte for your RN signature and a 2-byte sequence for your name field backup:
 - Avoid `$FD`, `$FE`, `$FF` (serial control bytes)
 - Avoid `$50` (string terminator)
 - Avoid `$80-$DF` (character ranges that could cause confusion)
-- Use distinctive patterns that are unlikely to appear as a consecutive pair in random data
+- Use a distinctive byte for RN that is unlikely to appear in random data
 
 ```asm
-DEF LANG_YOURLANG_BYTE1 EQU $XX  ; First byte of signature
-DEF LANG_YOURLANG_BYTE2 EQU $YY  ; Second byte of signature
+DEF LANG_YOURLANG_BYTE1 EQU $XX  ; RN signature byte and first byte of name field signature
+DEF LANG_YOURLANG_BYTE2 EQU $YY  ; Second byte of name field backup signature
 DEF LANG_YOURLANG EQU LANG_YOURLANG_BYTE1  ; Alias for wPeerLanguage
 ```
 
@@ -355,9 +346,7 @@ In your `FixDataForLinkTransfer` or equivalent:
 ; After writing preamble, before random bytes:
 	ld a, LANG_YOURLANG_BYTE1
 	ld [hli], a
-	ld a, LANG_YOURLANG_BYTE2
-	ld [hli], a
-	; Continue with remaining random bytes (two fewer)
+	; Continue with remaining random bytes (one fewer)
 ```
 
 In your `Link_PrepPartyData` or equivalent, embed the same signature in the player name field:
@@ -379,15 +368,11 @@ After `Serial_ExchangeBytes` for RN data (primary detection):
 
 ```asm
 	ld hl, wOTLinkBattleRNData
-	ld b, SERIAL_RNS_LENGTH - 1  ; check pairs
+	ld b, SERIAL_RNS_LENGTH
 .scan_lang
 	ld a, [hli]
 	cp LANG_YOURLANG_BYTE1
-	jr nz, .scan_next
-	ld a, [hl]
-	cp LANG_YOURLANG_BYTE2
 	jr z, .found_lang
-.scan_next
 	dec b
 	jr nz, .scan_lang
 	; Not found - assume English/other
@@ -458,9 +443,9 @@ TranslateReceivedData:
 
 | Function | Location | Purpose |
 |----------|----------|---------|
-| `FixDataForLinkTransfer` | `link.asm` | Embeds 2-byte signature (`$55 $AA`) in outgoing RN data |
+| `FixDataForLinkTransfer` | `link.asm` | Embeds 1-byte signature (`$55`) in outgoing RN data |
 | `Link_PrepPartyData_Gen2` | `link.asm` | Embeds 2-byte signature in player name field (backup) |
-| `Gen2ToGen2LinkComms` | `link.asm` | Scans for 2-byte signature in received RN data; backup check after party data |
+| `Gen2ToGen2LinkComms` | `link.asm` | Scans for 1-byte signature in received RN data; backup check after party data |
 | `Link_FixDataForPeerLanguage` | `link_trade_text.asm` | Conditionally translates outgoing data |
 | `TranslateAllReceivedOTData` | `link_trade_text.asm` | Conditionally translates incoming data |
 
@@ -481,7 +466,7 @@ TranslateReceivedData:
 ### Debug Tips
 
 1. **Check `wPeerLanguage` in debugger** after RN exchange and again after backup detection
-2. **Hex dump received RN data** to verify `$55 $AA` pair presence/absence
+2. **Hex dump received RN data** to verify `$55` byte presence/absence
 3. **Hex dump received player name field** to verify backup signature at offsets 9-10
 4. **Breakpoint on translation functions** to verify they're called/skipped correctly
 
@@ -504,14 +489,14 @@ If multiple fan translations adopt this protocol, they can detect each other:
 
 ### Suggested Language Signatures
 
-| Language | Byte 1 | Byte 2 | Pattern |
-|----------|--------|--------|---------|
-| Vietnamese | `$55` | `$AA` | `01010101` + `10101010` |
-| Spanish (fan) | `$33` | `$CC` | `00110011` + `11001100` |
-| French (fan) | `$66` | `$99` | `01100110` + `10011001` |
-| German (fan) | `$3C` | `$C3` | `00111100` + `11000011` |
-| Portuguese (fan) | `$5A` | `$A5` | `01011010` + `10100101` |
-| Polish (fan) | `$69` | `$96` | `01101001` + `10010110` |
+| Language | RN Byte | Name Byte 1 | Name Byte 2 | Pattern |
+|----------|---------|-------------|-------------|---------|
+| Vietnamese | `$55` | `$55` | `$AA` | `01010101` + `10101010` |
+| Spanish (fan) | `$33` | `$33` | `$CC` | `00110011` + `11001100` |
+| French (fan) | `$66` | `$66` | `$99` | `01100110` + `10011001` |
+| German (fan) | `$3C` | `$3C` | `$C3` | `00111100` + `11000011` |
+| Portuguese (fan) | `$5A` | `$5A` | `$A5` | `01011010` + `10100101` |
+| Polish (fan) | `$69` | `$69` | `$96` | `01101001` + `10010110` |
 
 ### Coordinating with Other Projects
 
@@ -524,12 +509,12 @@ If you're implementing this for a new fan translation:
 
 ## Conclusion
 
-This language detection mechanism provides a backward-compatible way to identify peer game versions during link cable communication. By using a two-layer detection system — a 2-byte signature in the RN data section with a backup verification in the player name field — we can:
+This language detection mechanism provides a backward-compatible way to identify peer game versions during link cable communication. By using a two-layer detection system — a 1-byte signature in the RN data section with a 2-byte backup verification in the player name field — we can:
 
 1. Preserve native text when trading between same-language versions
 2. Apply necessary translation when trading with different versions
 3. Maintain full compatibility with official English Crystal
-4. Achieve near-zero false-positive rates (~0.014% from RN scan, effectively 0% with backup)
+4. Achieve effectively zero false-positive rates (RN scan ~3.9% corrected by name field backup)
 
 The technique mirrors the approach used by European G/S/C for mail nationality detection and requires minimal code changes (~80 lines).
 

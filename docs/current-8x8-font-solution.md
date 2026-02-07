@@ -118,18 +118,19 @@ For characters outside the shared `$80-$9F` range, a translation layer converts 
 **Files:**
 - `engine/link/link_trade_text.asm` — Translation functions
 - `engine/link/link.asm` — Language detection and dispatch hooks
-- `constants/serial_constants.asm` — `LANG_VN = $55`
+- `constants/serial_constants.asm` — `LANG_VN_BYTE1 = $55`, `LANG_VN_BYTE2 = $AA`
 
 #### Language Detection
 
-Vietnamese Crystal embeds a language identifier (`LANG_VN = $55`) in the random number exchange that occurs at the start of every link session:
+Vietnamese Crystal uses a **two-layer detection system** to identify the peer's language during link cable communication:
 
 1. `FixDataForLinkTransfer` places `$55` as the first random byte after the `$FD` preamble
-2. After receiving peer data, scan the first 10 bytes for `$55`
+2. After receiving peer RN data, scan for `$55`
 3. If found → peer is Vietnamese, set `wPeerLanguage = LANG_VN`
 4. If not found → peer is English, set `wPeerLanguage = LANG_EN`
+5. After receiving party data, backup check: verify `$55 $AA` at offsets 9-10 of the received player name field to confirm or correct the RN-based detection
 
-The value `$55` (binary `01010101`) was chosen because it is unlikely to appear randomly in English Crystal's RNG data, is outside character ranges (`$80-$DF`), and is not a special serial protocol value (`$FD`, `$FE`, `$FF`).
+A single byte is used for the RN signature because 2-byte RN signatures caused unpredictable behavior in VN↔VN trading due to variable sync timing. The backup name field check (mirroring the technique used by European G/S/C for mail nationality detection) uses a reliable 2-byte signature to eliminate false positives for incoming translation.
 
 #### Outgoing Translation (Vietnamese to English)
 
@@ -307,7 +308,7 @@ Both files contain the same 128 characters in the same positions, ensuring the c
 | Feb 2 | `9428cb5` | Trading-compatible layout: `$80-$9F` matches English; removed ỵ; vowel family grouping |
 | Feb 2 | `bdc8045` | Initial VN→EN translation layer |
 | Feb 4 | `c242dd7` | Bidirectional translation (added EN→VN) |
-| Feb 5 | `f9f1dbf` | Language detection (`LANG_VN = $55` in RN exchange) |
+| Feb 5 | `f9f1dbf` | Language detection (`LANG_VN = $55` in RN exchange; later enhanced to 2-byte `$55 $AA` with name field backup) |
 | Feb 5 | `200346b` | Fixed VN↔VN trading (preserve accents); `Link_FixDataForPeerLanguage` |
 | Feb 5 | `4455c2c` | On-the-fly player name translation; removed `wTradeName` buffer |
 | Feb 5 | `170e8fb` | Full Vietnamese input for Pokemon nicknames |

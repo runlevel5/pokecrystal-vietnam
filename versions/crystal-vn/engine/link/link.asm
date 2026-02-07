@@ -257,23 +257,23 @@ endc
 	call Serial_ExchangeBytes
 	ld a, SERIAL_NO_DATA_BYTE
 	ld [de], a
-; Read peer's language from received RN data
-; NOTE: The preamble must be ALL $FD bytes for sync to work correctly.
-; Serial_ExchangeBytes discards received bytes until it sees $FD, then
-; stores subsequent bytes. Non-$FD bytes in preamble break synchronization.
-; Therefore, LANG_VN is placed in the random bytes section (after preamble).
-; Due to variable sync timing, we scan the received data to find LANG_VN.
+; Read peer's language from received RN data by scanning for LANG_VN_BYTE1 ($55).
+; Due to variable sync timing, we scan the entire received buffer for the byte.
+; The name field backup (after party data exchange) provides reliable confirmation.
 	ld hl, wOTLinkBattleRNData
-	ld b, 10
+	ld b, SERIAL_RNS_LENGTH
 .scan_lang
 	ld a, [hli]
-	cp LANG_VN
+	cp LANG_VN_BYTE1
 	jr z, .found_lang
 	dec b
 	jr nz, .scan_lang
 ; Not found - assume non-Vietnamese (English Crystal)
 	ld a, LANG_EN
+	jr .set_lang
 .found_lang
+	ld a, LANG_VN
+.set_lang
 	ld [wPeerLanguage], a
 ; Fix player name and translations based on peer language
 	call Link_FixDataForPeerLanguage
@@ -316,6 +316,29 @@ endc
 	ld de, wLinkData
 	ld bc, NAME_LENGTH + 1 + PARTY_LENGTH + 1 + 2 + (PARTYMON_STRUCT_LENGTH + NAME_LENGTH * 2) * PARTY_LENGTH
 	call Link_CopyOTData
+
+; Backup language detection: verify using player name field signature.
+; After Link_CopyOTData, wLinkData contains the received player name.
+; Check the last 2 bytes of the NAME_LENGTH field for our signature.
+; This provides a secondary confirmation of the RN-based detection,
+; following the same technique used by European G/S/C for mail nationality.
+	ld hl, wLinkData + LANG_VN_NAME_SIG_OFFSET1
+	ld a, [hli]
+	cp LANG_VN_BYTE1
+	jr nz, .name_sig_not_vn
+	ld a, [hl]
+	cp LANG_VN_BYTE2
+	jr nz, .name_sig_not_vn
+; Name field confirms Vietnamese peer
+	ld a, LANG_VN
+	ld [wPeerLanguage], a
+	jr .name_sig_done
+.name_sig_not_vn
+; Name field does NOT confirm Vietnamese - override to English.
+; This corrects a false positive from the RN scan (rare but possible).
+	ld a, LANG_EN
+	ld [wPeerLanguage], a
+.name_sig_done
 
 	ld de, wOTPatchLists
 	ld hl, wLinkPlayerData
@@ -623,13 +646,13 @@ FixDataForLinkTransfer:
 	dec b
 	jr nz, .preamble_loop
 ; hl now points to wLinkBattleRNs (first random byte after preamble)
-; Place LANG_VN as the first random byte for peer detection
-; The distinctive value $55 is unlikely to appear in English Crystal's random data
-	ld a, LANG_VN
+; Place Vietnamese language signature byte for peer detection.
+; A single byte is used here; the name field backup provides reliable confirmation.
+	ld a, LANG_VN_BYTE1
 	ld [hli], a
 
 ; Initialize remaining random bytes, making sure special bytes are omitted
-	ld b, SERIAL_RNS_LENGTH - 1  ; one less since we used first for LANG_VN
+	ld b, SERIAL_RNS_LENGTH - 1  ; one less since we used the first byte for signature
 .rn_loop
 	call Random
 	cp SERIAL_PREAMBLE_BYTE
@@ -885,6 +908,19 @@ Link_PrepPartyData_Gen2:
 	ld hl, wPlayerName ; Copy original name; will be replaced by wTradeName if peer is English
 	ld bc, NAME_LENGTH
 	call CopyBytes
+
+; Embed Vietnamese language signature in the trailing bytes of the player name field.
+; Player names are at most PLAYER_NAME_LENGTH (8 bytes) with $50 terminator,
+; but NAME_LENGTH (11 bytes) are transmitted. The last 2 bytes are unused by
+; English Crystal, so we place our signature there (same technique as European
+; G/S/C mail nationality detection). de currently points past the name field,
+; so we write at de - 2 and de - 1.
+	ld hl, -2
+	add hl, de    ; hl = de - 2 (offset 9 within NAME_LENGTH field)
+	ld a, LANG_VN_BYTE1
+	ld [hli], a
+	ld a, LANG_VN_BYTE2
+	ld [hl], a
 
 	ld hl, wPartyCount
 	ld bc, 1 + PARTY_LENGTH + 1

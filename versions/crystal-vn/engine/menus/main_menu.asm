@@ -65,7 +65,7 @@ MainMenu:
 
 .Strings:
 ; entries correspond to MAINMENUITEM_* constants
-	db "TIẾp TỤC@"
+	db "TIẾP TỤC@"
 	db "GAME MỚI@"
 	db "TÙY CHỌN@"
 	db "QUÀ BÍ MẬT@"

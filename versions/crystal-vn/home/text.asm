@@ -226,7 +226,7 @@ ENDM
 	dict '<ROCKET>',  RocketChar
 	dict '<TM>',      TMChar
 	dict '<TRAINER>', TrainerChar
-	dict '<KOUGEKI>', SetUpperFlag
+	dict '<KOUGEKI>', HandleVnAccent
 	dict '<LF>',      LineFeedChar
 	dict '<CONT>',    ContText
 	dict '<……>',      SixDotsChar
@@ -284,17 +284,6 @@ ENDM
 	call Diacritic
 
 .place
-; Check if this is a Vietnamese accented character ($A0-$DF)
-	cp VN_ACCENT_START
-	jr c, .place_regular
-	cp VN_ACCENT_END + 1
-	jr nc, .place_regular
-; Accented character: decompose into base glyph + accent tile
-	call PlaceAccentedChar
-	call PrintLetterDelay
-	jp NextChar
-
-.place_regular
 	ld [hli], a
 	call PrintLetterDelay
 	jp NextChar
@@ -322,11 +311,16 @@ TMChar:       print_name TMCharText
 PCChar:       print_name PCCharText
 RocketChar:   print_name RocketCharText
 PlacePOKe:    print_name PlacePOKeText
-SetUpperFlag:
-; Set the uppercase flag so the next Vietnamese accented character
-; uses its uppercase base tile variant. Then skip to the next byte.
-	ld a, 1
-	ldh [hVnUpperFlag], a
+HandleVnAccent:
+; Handle the VN_ACCENT_PREFIX ($23) control byte.
+; The next byte in the string is the accent_id:
+;   Bit 7 = uppercase flag, Bits 6-0 = index into VnAccentDecompTable.
+; Read it, then decompose into base glyph + accent tile(s).
+	inc de
+	ld a, [de]         ; a = accent_id
+	ld b, a            ; b = accent_id (passed to PlaceAccentedChar)
+	call PlaceAccentedChar
+	call PrintLetterDelay
 	jp NextChar
 
 PlaceKougeki: print_name KougekiText
@@ -657,12 +651,12 @@ UnloadBlinkingCursor::
 
 PlaceAccentedChar::
 ; Decompose a Vietnamese accented character into base glyph + accent tiles.
-; Input:  a = charmap code ($A0-$E5), hl = current tilemap position
+; Input:  b = accent_id (bit 7 = uppercase, bits 6-0 = table index)
+;         hl = current tilemap position
 ;         de = source string pointer (must be preserved for caller)
-; Output: hl incremented by 1 (like ld [hli], a would)
-; Thin stub — passes a in b, hl in de, then farcalls the banked implementation.
+; Output: hl incremented by 1 (cursor advanced past base glyph)
+; Thin stub — passes b (accent_id), hl→de (tilemap pos), then farcalls the banked impl.
 	push de          ; save source string pointer (used by NextChar)
-	ld b, a
 	ld d, h
 	ld e, l
 	farcall _PlaceAccentedChar

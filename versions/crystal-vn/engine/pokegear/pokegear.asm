@@ -1972,13 +1972,13 @@ PlayRadio:
 	lb bc, 4, 18
 	call Textbox
 	hlcoord 1, 14
-	ld [hl], '“'
+	ld [hl], $72 ; opening quote (“)
 	pop de
 	hlcoord 2, 14
 	call PlaceString
 	ld h, b
 	ld l, c
-	ld [hl], '”'
+	ld [hl], $73 ; closing quote (”)
 	call WaitBGMap
 	ret
 

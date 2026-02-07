@@ -1,24 +1,25 @@
 PokedexTypeSearchStrings:
-; entries correspond with PokedexTypeSearchConversionTable (see data/types/search_types.asm)
-; NOTE: Using lowercase Vietnamese chars to avoid 2-byte <UPPER> encoding in fixed-width table.
-; TODO: Widen table to support uppercase Vietnamese chars properly.
+; entries correspond with PokedexTypeSearchConversionTable (see data/types/search_strings.asm)
+; Each entry must be exactly POKEDEX_TYPE_STRING_LENGTH (11) bytes.
+; Accented Vietnamese chars emit 2 bytes ($23 + accent_id), so entries vary in byte size.
+; Padding bytes after the "@" terminator fill out shorter entries.
 	table_width POKEDEX_TYPE_STRING_LENGTH
-	db "  ----  @"
+	db "  ----  @", 0, 0
 	db "b.thường@"
-	db "  lửa   @"
+	db "  lửa   @", 0
 	db "  nước  @"
-	db "   cỏ   @"
-	db "  điện  @"
+	db "   cỏ   @", 0
+	db "  điện  @", 0
 	db "đá băng @"
 	db "võ thuật@"
-	db "  độc   @"
-	db "  đất   @"
+	db "  độc   @", 0
+	db "  đất   @", 0
 	db "bay lượn@"
-	db "tâm linh@"
+	db "tâm linh@", 0
 	db " sâu bọ @"
 	db " sỏi đá @"
-	db "   ma   @"
-	db "  rồng  @"
+	db "   ma   @", 0, 0
+	db "  rồng  @", 0
 	db " hắc ám @"
-	db "  thép  @"
+	db "  thép  @", 0
 	assert_table_length NUM_TYPES + 1

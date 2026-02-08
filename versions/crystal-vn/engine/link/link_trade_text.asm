@@ -251,7 +251,7 @@ TranslateString_OTNames:
 
 Link_TranslateGen1OutgoingData::
 ; Translates player name, OT names, and nicknames in wLinkData
-; for Time Capsule (Gen1) trading. Gen1 peers are always English,
+; for Time Capsule (Gen1) trading. Gen1 peers are always English
 ; so we always translate (no language detection needed).
 
 ; 1. Translate player name (offset: SERIAL_PREAMBLE_LENGTH)

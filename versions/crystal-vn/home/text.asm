@@ -226,7 +226,7 @@ ENDM
 	dict '<ROCKET>',  RocketChar
 	dict '<TM>',      TMChar
 	dict '<TRAINER>', TrainerChar
-	dict '<KOUGEKI>', PlaceKougeki
+	dict '<KOUGEKI>', HandleVnAccent
 	dict '<LF>',      LineFeedChar
 	dict '<CONT>',    ContText
 	dict '<……>',      SixDotsChar
@@ -311,6 +311,18 @@ TMChar:       print_name TMCharText
 PCChar:       print_name PCCharText
 RocketChar:   print_name RocketCharText
 PlacePOKe:    print_name PlacePOKeText
+HandleVnAccent:
+; Handle the VN_ACCENT_PREFIX ($23) control byte.
+; The next byte in the string is the accent_id:
+;   Bit 7 = uppercase flag, Bits 6-0 = index into VnAccentDecompTable.
+; Read it, then decompose into base glyph + accent tile(s).
+	inc de
+	ld a, [de]         ; a = accent_id
+	ld b, a            ; b = accent_id (passed to PlaceAccentedChar)
+	call PlaceAccentedChar
+	call PrintLetterDelay
+	jp NextChar
+
 PlaceKougeki: print_name KougekiText
 SixDotsChar:  print_name SixDotsCharText
 PlacePKMN:    print_name PlacePKMNText
@@ -635,6 +647,21 @@ LoadBlinkingCursor::
 UnloadBlinkingCursor::
 	lda_coord 17, 17
 	ldcoord_a 18, 17
+	ret
+
+PlaceAccentedChar::
+; Decompose a Vietnamese accented character into base glyph + accent tiles.
+; Input:  b = accent_id (bit 7 = uppercase, bits 6-0 = table index)
+;         hl = current tilemap position
+;         de = source string pointer (must be preserved for caller)
+; Output: hl incremented by 1 (cursor advanced past base glyph)
+; Thin stub — passes b (accent_id), hl→de (tilemap pos), then farcalls the banked impl.
+	push de          ; save source string pointer (used by NextChar)
+	ld d, h
+	ld e, l
+	farcall _PlaceAccentedChar
+	; hl = updated tilemap position from banked function
+	pop de           ; restore source string pointer
 	ret
 
 PlaceFarString::

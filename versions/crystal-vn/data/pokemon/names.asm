@@ -253,7 +253,8 @@ PokemonNames::
 	dname "CELEBI"
 	assert_table_length NUM_POKEMON
 	dname "?????"
-	dname "TRỨNG"
+	; "trứng" (EGG) - manual entry because ứ emits 2 bytes in decomposed encoding
+	db "trứng", "@", "@", "@", "@"
 	assert_table_length EGG
 	dname "?????"
 	dname "?????"

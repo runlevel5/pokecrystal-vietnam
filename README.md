@@ -128,11 +128,11 @@ This Vietnamese version is **fully compatible** with English Pokémon Crystal fo
 
 ## Screenshots
 
-![Intro](./poke1.png)
-![NameInput](./poke2.png)
-![Bag](./poke3.png)
-![PokeDEX](./poke4.png)
-![Battle](./poke5.png)
+![Intro](./versions/crystal-vn/poke1.png)
+![NameInput](./versions/crystal-vn/poke2.png)
+![Bag](./versions/crystal-vn/poke3.png)
+![PokeDEX](./versions/crystal-vn/poke4.png)
+![Battle](./versions/crystal-vn/poke5.png)
 
 ## Acknowledgements
 

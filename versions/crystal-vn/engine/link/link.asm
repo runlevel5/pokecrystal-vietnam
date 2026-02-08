@@ -39,6 +39,10 @@ LinkCommunications:
 Gen2ToGen1LinkComms:
 	call ClearLinkData
 	call Link_PrepPartyData_Gen1
+; Translate outgoing Vietnamese text to English for Gen1 peer.
+; Gen1 peers are always English (no Gen1 Vietnamese Crystal exists),
+; so we unconditionally translate player name, OT names, and nicknames.
+	call Link_TranslateGen1OutgoingData
 	call FixDataForLinkTransfer
 	xor a
 	ld [wPlayerLinkAction], a

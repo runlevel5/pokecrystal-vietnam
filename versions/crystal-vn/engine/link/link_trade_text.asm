@@ -176,7 +176,7 @@ TranslateVietnameseToEnglish::
 
 
 TranslateString_PartyMonNicknames:
-; Translates party mon nicknames in wLinkData
+; Translates party mon nicknames in wLinkData (Gen2 wire format)
 ; This is called before sending data over link cable
 ; wLinkData already contains the party data, we translate in-place
 	
@@ -209,7 +209,7 @@ TranslateString_PartyMonNicknames:
 
 
 TranslateString_OTNames:
-; Translates OT names in wLinkData  
+; Translates OT names in wLinkData (Gen2 wire format)
 ; This is called before sending data over link cable
 	
 	; Skip preamble + player name + party count/list + player ID + party mon data
@@ -235,6 +235,67 @@ TranslateString_OTNames:
 	pop bc
 	dec b
 	jr nz, .loop
+	ret
+
+
+; ============================================================================
+; GEN1 (TIME CAPSULE) OUTGOING TRANSLATION
+; Translates Vietnamese text to English in wLinkData for Gen1 peers.
+; Gen1 wire format has NO player ID field between party header and mon structs,
+; and uses REDMON_STRUCT_LENGTH instead of PARTYMON_STRUCT_LENGTH.
+;
+; Gen1 wLinkData layout:
+;   Preamble (6) + Player name (11) + Party header (8) + Mons (6*44=264)
+;   + OT names (6*11=66) + Nicknames (6*11=66) + Trail (3)
+; ============================================================================
+
+Link_TranslateGen1OutgoingData::
+; Translates player name, OT names, and nicknames in wLinkData
+; for Time Capsule (Gen1) trading. Gen1 peers are always English,
+; so we always translate (no language detection needed).
+
+; 1. Translate player name (offset: SERIAL_PREAMBLE_LENGTH)
+	ld de, wLinkData + SERIAL_PREAMBLE_LENGTH
+	ld bc, NAME_LENGTH
+	call TranslateVietnameseToEnglish
+
+; 2. Translate OT names
+; Offset: SERIAL_PREAMBLE_LENGTH + NAME_LENGTH + (1 + PARTY_LENGTH + 1)
+;         + PARTY_LENGTH * REDMON_STRUCT_LENGTH
+	ld hl, wLinkData + SERIAL_PREAMBLE_LENGTH + NAME_LENGTH + (1 + PARTY_LENGTH + 1)
+	ld bc, PARTY_LENGTH * REDMON_STRUCT_LENGTH
+	add hl, bc
+	ld b, PARTY_LENGTH
+.ot_loop
+	push bc
+	push hl
+	ld d, h
+	ld e, l
+	ld bc, NAME_LENGTH
+	call TranslateVietnameseToEnglish
+	pop hl
+	ld bc, NAME_LENGTH
+	add hl, bc
+	pop bc
+	dec b
+	jr nz, .ot_loop
+
+; 3. Translate nicknames (immediately after OT names)
+; hl already points to the start of nicknames
+	ld b, PARTY_LENGTH
+.nick_loop
+	push bc
+	push hl
+	ld d, h
+	ld e, l
+	ld bc, NAME_LENGTH
+	call TranslateVietnameseToEnglish
+	pop hl
+	ld bc, NAME_LENGTH
+	add hl, bc
+	pop bc
+	dec b
+	jr nz, .nick_loop
 	ret
 
 

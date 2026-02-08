@@ -62,9 +62,9 @@ While this project is built upon the English version's codebase, it uses hybrid 
 
 As of Feb 3rd 2026, the project is considered complete. Please file a bug report if you find any issues.
 
-To aid with your gameplay, please look up the [GLOSSARY](./GLOSSARY.md) for English-Vietnamese translation.
+To aid with your gameplay, please look up the [GLOSSARY](./versions/crystal-vn/docs/GLOSSARY.md) for English-Vietnamese translation.
 
-If you are interested in technical decisions made for the project, please look up the [DOC](./AGENTS.md)
+If you are interested in technical decisions made for the project, please look up the [DOC](./versions/crystal-vn/docs/GUIDELINE.md)
 
 ## Restored Japanese Designs
 

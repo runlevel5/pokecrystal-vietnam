@@ -913,7 +913,7 @@ FriedaNotFridayText:
 	done
 
 Route32SignText:
-	text "ROUTE 32"
+	text "TUYẾN ĐƯỜNG 32"
 
 	para "TP VIOLET -"
 	line "T.TRẤN AZALEA"

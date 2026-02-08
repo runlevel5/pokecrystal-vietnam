@@ -257,17 +257,32 @@ endc
 	call Serial_ExchangeBytes
 	ld a, SERIAL_NO_DATA_BYTE
 	ld [de], a
-; Read peer's language from received RN data by scanning for LANG_VN_BYTE1 ($55).
-; Due to variable sync timing, we scan the entire received buffer for the byte.
-; The name field backup (after party data exchange) provides reliable confirmation.
+; Read peer's language from received RN data using 2-byte signature detection.
+; The received buffer (wOTLinkBattleRNData) contains SERIAL_RN_PREAMBLE_LENGTH
+; bytes of $FD preamble followed by SERIAL_RNS_LENGTH random bytes. Due to
+; variable sync timing, we skip past any $FD preamble bytes first, then check
+; if the first non-$FD byte is LANG_VN_BYTE1 ($55) followed by LANG_VN_BYTE2 ($AA).
 	ld hl, wOTLinkBattleRNData
-	ld b, SERIAL_RNS_LENGTH
-.scan_lang
+	ld b, SERIAL_RN_PREAMBLE_LENGTH + SERIAL_RNS_LENGTH
+.skip_preamble
 	ld a, [hli]
-	cp LANG_VN_BYTE1
-	jr z, .found_lang
+	cp SERIAL_PREAMBLE_BYTE
+	jr nz, .check_lang_byte1
 	dec b
-	jr nz, .scan_lang
+	jr nz, .skip_preamble
+	; All bytes were $FD — no signature found
+	jr .not_found_lang
+.check_lang_byte1
+	; a = first non-$FD byte; check if it's LANG_VN_BYTE1
+	cp LANG_VN_BYTE1
+	jr nz, .not_found_lang
+	; Check next byte for LANG_VN_BYTE2
+	dec b
+	jr z, .not_found_lang  ; no more bytes to read
+	ld a, [hl]
+	cp LANG_VN_BYTE2
+	jr z, .found_lang
+.not_found_lang
 ; Not found - assume non-Vietnamese (English Crystal)
 	ld a, LANG_EN
 	jr .set_lang
@@ -646,13 +661,16 @@ FixDataForLinkTransfer:
 	dec b
 	jr nz, .preamble_loop
 ; hl now points to wLinkBattleRNs (first random byte after preamble)
-; Place Vietnamese language signature byte for peer detection.
-; A single byte is used here; the name field backup provides reliable confirmation.
+; Place 2-byte Vietnamese language signature for peer detection.
+; LANG_VN_BYTE1 ($55) followed by LANG_VN_BYTE2 ($AA) as the first two
+; random bytes. The receiver skips $FD preamble bytes then checks this pair.
 	ld a, LANG_VN_BYTE1
+	ld [hli], a
+	ld a, LANG_VN_BYTE2
 	ld [hli], a
 
 ; Initialize remaining random bytes, making sure special bytes are omitted
-	ld b, SERIAL_RNS_LENGTH - 1  ; one less since we used the first byte for signature
+	ld b, SERIAL_RNS_LENGTH - 2  ; two less since we used the first two for signature
 .rn_loop
 	call Random
 	cp SERIAL_PREAMBLE_BYTE

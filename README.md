@@ -56,7 +56,7 @@ shasum pokecrystal11.gbc
 
 ## About
 
-This project is based on [commit 2ad9616](https://github.com/pret/pokecrystal/commit/2ad9616586212e2a9ed3be812776d133dc47bb8a) of the pokecrystal disassembly project.
+This project is based on [commit 002b4e84f21001fcf7fe860df4b66cae11b0a790](https://github.com/pret/pokecrystal/commit/002b4e84f21001fcf7fe860df4b66cae11b0a790) of the pokecrystal disassembly project.
 
 While this project is built upon the English version's codebase, it uses hybrid location names with Vietnamese prefixes for English landmarks (e.g., "TP. GOLDENROD" for "GOLDENROD CITY", "NÚI MẶT TRĂNG" for "MT.MOON"). This approach maintains familiarity for players who know the international Pokemon community while providing Vietnamese context. However it also take freedom in adopting Japanese name such as "THÁP CHUÔNG" for "TIN TOWER" if the context is better expressed.
 

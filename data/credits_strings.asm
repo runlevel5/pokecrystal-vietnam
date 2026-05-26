@@ -219,3 +219,4 @@ CreditsStringsPointers:
 
 .Copyright:
 INCLUDE "data/copyright.asm"
+endc

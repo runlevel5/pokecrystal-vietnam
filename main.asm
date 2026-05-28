@@ -113,7 +113,9 @@ INCLUDE "engine/events/bug_contest/judging.asm"
 INCLUDE "engine/events/pokerus/apply_pokerus_tick.asm"
 INCLUDE "engine/events/bug_contest/contest_2.asm"
 INCLUDE "engine/pokemon/correct_party_errors.asm"
+if !DEF(_CRYSTAL_VN)
 INCLUDE "engine/math/get_square_root.asm"
+endc
 
 
 SECTION "bank5", ROMX
@@ -1389,6 +1391,13 @@ INCLUDE "versions/crystal-vn/data/phone/text/kenji_callee.asm"
 INCLUDE "versions/crystal-vn/data/phone/text/parry_callee.asm"
 INCLUDE "versions/crystal-vn/data/phone/text/erin_callee.asm"
 INCLUDE "versions/crystal-vn/data/phone/text/unused.asm"
+
+; Vietnamese accent decomposition table (banked, referenced by home/text.asm)
+INCLUDE "versions/crystal-vn/data/vn_accent_decomp.asm"
+
+; Moved from bank4 to free space for VN text expansion
+SECTION "Math Functions VN", ROMX
+INCLUDE "engine/math/get_square_root.asm"
 endc
 
 

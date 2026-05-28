@@ -1,10 +1,9 @@
 ; Vietnamese Pokedex Entries - redistributed to avoid section overflow
-; Vietnamese text is larger, so we split the sections differently
+; Vietnamese 2-byte accent encoding makes text ~50% larger, so we split
+; entries across more sections than the English version.
 
 SECTION "Pokedex Entries 001-064", ROMX
 
-; Only include first 44 Pokemon in this section to avoid overflow
-; (reduced from 64 to fit within bank size limits)
 BulbasaurPokedexEntry::  INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/bulbasaur.asm"
 IvysaurPokedexEntry::    INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/ivysaur.asm"
 VenusaurPokedexEntry::   INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/venusaur.asm"
@@ -29,6 +28,10 @@ SpearowPokedexEntry::    INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/s
 FearowPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/fearow.asm"
 EkansPokedexEntry::      INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/ekans.asm"
 ArbokPokedexEntry::      INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/arbok.asm"
+
+; Overflow: entries 025-064 moved to VN-only sections
+SECTION "Pokedex Entries VN Overflow 1", ROMX
+
 PikachuPokedexEntry::    INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/pikachu.asm"
 RaichuPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/raichu.asm"
 SandshrewPokedexEntry::  INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/sandshrew.asm"
@@ -49,11 +52,6 @@ ZubatPokedexEntry::      INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/z
 GolbatPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/golbat.asm"
 OddishPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/oddish.asm"
 GloomPokedexEntry::      INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/gloom.asm"
-
-
-; New VN-only overflow section for entries 045-064
-SECTION "Pokedex Entries VN Overflow 1", ROMX
-
 VileplumePokedexEntry::  INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/vileplume.asm"
 ParasPokedexEntry::      INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/paras.asm"
 ParasectPokedexEntry::   INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/parasect.asm"
@@ -102,6 +100,10 @@ DodrioPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/d
 SeelPokedexEntry::       INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/seel.asm"
 DewgongPokedexEntry::    INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/dewgong.asm"
 GrimerPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/grimer.asm"
+
+; Overflow: entries 089-128
+SECTION "Pokedex Entries VN Overflow 2", ROMX
+
 MukPokedexEntry::        INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/muk.asm"
 ShellderPokedexEntry::   INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/shellder.asm"
 CloysterPokedexEntry::   INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/cloyster.asm"
@@ -170,6 +172,10 @@ DragonitePokedexEntry::  INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/d
 MewtwoPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/mewtwo.asm"
 MewPokedexEntry::        INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/mew.asm"
 ChikoritaPokedexEntry::  INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/chikorita.asm"
+
+; Overflow: entries 153-192
+SECTION "Pokedex Entries VN Overflow 3", ROMX
+
 BayleefPokedexEntry::    INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/bayleef.asm"
 MeganiumPokedexEntry::   INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/meganium.asm"
 CyndaquilPokedexEntry::  INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/cyndaquil.asm"
@@ -243,6 +249,10 @@ SlugmaPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/s
 MagcargoPokedexEntry::   INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/magcargo.asm"
 SwinubPokedexEntry::     INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/swinub.asm"
 PiloswinePokedexEntry::  INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/piloswine.asm"
+
+; Overflow: entries 222-251
+SECTION "Pokedex Entries VN Overflow 4", ROMX
+
 CorsolaPokedexEntry::    INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/corsola.asm"
 RemoraidPokedexEntry::   INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/remoraid.asm"
 OctilleryPokedexEntry::  INCLUDE "versions/crystal-vn/data/pokemon/dex_entries/octillery.asm"
